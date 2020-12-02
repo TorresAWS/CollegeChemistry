@@ -15,7 +15,7 @@ git add .
 git restore --staged  main.idx main.aux main.log main.out main.pdf main.synctex.gz
 echo "Commit description "  
 read  
-git commit -m  $REPLY
+git commit -m  "$REPLY"
 git push -u origin $1
 
 
