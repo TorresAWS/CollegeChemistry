@@ -12,8 +12,10 @@ git merge upstream/master
 git checkout -b $1
 read -p "Edit files and press enter to continue..."
 git add .
-git restore --staged  main.aux main.log main.out main.pdf main.synctex.gz
-git commit -m $2
+git restore --staged  main.idx main.aux main.log main.out main.pdf main.synctex.gz
+echo "Commit description "  
+read  
+git commit -m  $REPLY
 git push -u origin $1
 
 
