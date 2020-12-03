@@ -1,46 +1,520 @@
 \indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{1}
 \indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{1}
-\indexentry{file hooks!Valence electrons|hyperpage}{1}
-\indexentry{Valence electrons@\texttt  {Valence electrons}|hyperpage}{1}
-\indexentry{file hooks!The octet rule|hyperpage}{2}
-\indexentry{The octet rule@\texttt  {The octet rule}|hyperpage}{2}
-\indexentry{file hooks!Electron-dot structure of an atom|hyperpage}{2}
-\indexentry{Electron-dot structure of an atom@\texttt  {Electron-dot structure of an atom}|hyperpage}{2}
-\indexentry{file hooks!Electron-dot structure of diatomic molecules|hyperpage}{2}
-\indexentry{Electron-dot structure of diatomic molecules@\texttt  {Electron-dot structure of diatomic molecules}|hyperpage}{2}
-\indexentry{file hooks!Electron-dot structure of general molecules|hyperpage}{3}
-\indexentry{Electron-dot structure of general molecules@\texttt  {Electron-dot structure of general molecules}|hyperpage}{3}
-\indexentry{file hooks!Atomic charges in a molecule|hyperpage}{4}
-\indexentry{Atomic charges in a molecule@\texttt  {Atomic charges in a molecule}|hyperpage}{4}
-\indexentry{file hooks!Multiple bonds|hyperpage}{4}
-\indexentry{Multiple bonds@\texttt  {Multiple bonds}|hyperpage}{4}
-\indexentry{file hooks!ABE Molecular code|hyperpage}{5}
-\indexentry{ABE Molecular code@\texttt  {ABE Molecular code}|hyperpage}{5}
-\indexentry{file hooks!Bond polarity|hyperpage}{7}
-\indexentry{Bond polarity@\texttt  {Bond polarity}|hyperpage}{7}
-\indexentry{file hooks!Polarity of diatomic molecules|hyperpage}{7}
-\indexentry{Polarity of diatomic molecules@\texttt  {Polarity of diatomic molecules}|hyperpage}{7}
-\indexentry{file hooks!Polarity of larger molecules|hyperpage}{7}
-\indexentry{Polarity of larger molecules@\texttt  {Polarity of larger molecules}|hyperpage}{7}
-\indexentry{file hooks!Polarity and mixing|hyperpage}{8}
-\indexentry{Polarity and mixing@\texttt  {Polarity and mixing}|hyperpage}{8}
-\indexentry{file hooks!Molecules with the same polarity|hyperpage}{8}
-\indexentry{Molecules with the same polarity@\texttt  {Molecules with the same polarity}|hyperpage}{8}
-\indexentry{file hooks!Molecules with the same polarity|hyperpage}{8}
-\indexentry{Molecules with the same polarity@\texttt  {Molecules with the same polarity}|hyperpage}{8}
-\indexentry{file hooks!From ABE code to hybridization|hyperpage}{8}
-\indexentry{From ABE code to hybridization@\texttt  {From ABE code to hybridization}|hyperpage}{8}
-\indexentry{file hooks!Bonding and antibonding orbitals|hyperpage}{10}
-\indexentry{Bonding and antibonding orbitals@\texttt  {Bonding and antibonding orbitals}|hyperpage}{10}
-\indexentry{file hooks!Sigma and pi orbitals|hyperpage}{10}
-\indexentry{Sigma and pi orbitals@\texttt  {Sigma and pi orbitals}|hyperpage}{10}
-\indexentry{file hooks!The case of \ce {H2}|hyperpage}{11}
-\indexentry{The case of \ce {H2}@\texttt  {The case of \ce {H2}}|hyperpage}{11}
-\indexentry{file hooks!The case of \ce {He2}molecule|hyperpage}{12}
-\indexentry{The case of \ce {He2} molecule@\texttt  {The case of \ce {He2} molecule}|hyperpage}{12}
-\indexentry{file hooks!From MO diagram to MO configuration|hyperpage}{12}
-\indexentry{From MO diagram to MO configuration@\texttt  {From MO diagram to MO configuration}|hyperpage}{12}
-\indexentry{file hooks!Bond order of a MO configuration|hyperpage}{13}
-\indexentry{Bond order of a MO configuration@\texttt  {Bond order of a MO configuration}|hyperpage}{13}
-\indexentry{file hooks!Paramagnetism and diamagnetism|hyperpage}{14}
-\indexentry{Paramagnetism and diamagnetism@\texttt  {Paramagnetism and diamagnetism}|hyperpage}{14}
+\indexentry{file hooks!Length|hyperpage}{1}
+\indexentry{Length@\texttt  {Length}|hyperpage}{1}
+\indexentry{file hooks!Volume|hyperpage}{1}
+\indexentry{Volume@\texttt  {Volume}|hyperpage}{1}
+\indexentry{file hooks!Mass|hyperpage}{1}
+\indexentry{Mass@\texttt  {Mass}|hyperpage}{1}
+\indexentry{file hooks!Temperature|hyperpage}{2}
+\indexentry{Temperature@\texttt  {Temperature}|hyperpage}{2}
+\indexentry{file hooks!Time|hyperpage}{2}
+\indexentry{Time@\texttt  {Time}|hyperpage}{2}
+\indexentry{file hooks!How to identify prefixes?|hyperpage}{3}
+\indexentry{How to identify prefixes?@\texttt  {How to identify prefixes?}|hyperpage}{3}
+\indexentry{file hooks!How to write unit equalities and conversion factors|hyperpage}{3}
+\indexentry{How to write unit equalities and conversion factors@\texttt  {How to write unit equalities and conversion factors}|hyperpage}{3}
+\indexentry{file hooks!Removing or adding prefixes|hyperpage}{4}
+\indexentry{Removing or adding prefixes@\texttt  {Removing or adding prefixes}|hyperpage}{4}
+\indexentry{file hooks!Switching prefixes|hyperpage}{5}
+\indexentry{Switching prefixes@\texttt  {Switching prefixes}|hyperpage}{5}
+\indexentry{file hooks!Square or cubic units|hyperpage}{5}
+\indexentry{Square or cubic units@\texttt  {Square or cubic units}|hyperpage}{5}
+\indexentry{file hooks!Units of volume|hyperpage}{6}
+\indexentry{Units of volume@\texttt  {Units of volume}|hyperpage}{6}
+\indexentry{file hooks!Using other equalities|hyperpage}{7}
+\indexentry{Using other equalities@\texttt  {Using other equalities}|hyperpage}{7}
+\indexentry{file hooks!Significant figures of numbers|hyperpage}{8}
+\indexentry{Significant figures of numbers@\texttt  {Significant figures of numbers}|hyperpage}{8}
+\indexentry{file hooks!Significant figures in calculations|hyperpage}{8}
+\indexentry{Significant figures in calculations@\texttt  {Significant figures in calculations}|hyperpage}{8}
+\indexentry{file hooks!Pure Substances and mixtures|hyperpage}{10}
+\indexentry{Pure Substances and mixtures@\texttt  {Pure Substances and mixtures}|hyperpage}{10}
+\indexentry{file hooks!Types of Mixture|hyperpage}{10}
+\indexentry{Types of Mixture@\texttt  {Types of Mixture}|hyperpage}{10}
+\indexentry{file hooks!Density |hyperpage}{11}
+\indexentry{Density @\texttt  {Density }|hyperpage}{11}
+\indexentry{file hooks!Density and mixing|hyperpage}{11}
+\indexentry{Density and mixing@\texttt  {Density and mixing}|hyperpage}{11}
+\indexentry{file hooks!Volume by displacement|hyperpage}{12}
+\indexentry{Volume by displacement@\texttt  {Volume by displacement}|hyperpage}{12}
+\indexentry{file hooks!Density and the volume of objects|hyperpage}{12}
+\indexentry{Density and the volume of objects@\texttt  {Density and the volume of objects}|hyperpage}{12}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{19}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{19}
+\indexentry{file hooks!Elements and Symbols|hyperpage}{19}
+\indexentry{Elements and Symbols@\texttt  {Elements and Symbols}|hyperpage}{19}
+\indexentry{file hooks!Periods and groups|hyperpage}{19}
+\indexentry{Periods and groups@\texttt  {Periods and groups}|hyperpage}{19}
+\indexentry{file hooks!Properties in the periodic table|hyperpage}{20}
+\indexentry{Properties in the periodic table@\texttt  {Properties in the periodic table}|hyperpage}{20}
+\indexentry{file hooks!Metals, Nonmetals, and Metalloids|hyperpage}{20}
+\indexentry{Metals, Nonmetals, and Metalloids@\texttt  {Metals, Nonmetals, and Metalloids}|hyperpage}{20}
+\indexentry{file hooks!Classification of elements in terms of groups|hyperpage}{20}
+\indexentry{Classification of elements in terms of groups@\texttt  {Classification of elements in terms of groups}|hyperpage}{20}
+\indexentry{file hooks!How to classify Hydrogen|hyperpage}{21}
+\indexentry{How to classify Hydrogen@\texttt  {How to classify Hydrogen}|hyperpage}{21}
+\indexentry{file hooks!Atomic Structure|hyperpage}{21}
+\indexentry{Atomic Structure@\texttt  {Atomic Structure}|hyperpage}{21}
+\indexentry{file hooks!Atomic and mass number|hyperpage}{22}
+\indexentry{Atomic and mass number@\texttt  {Atomic and mass number}|hyperpage}{22}
+\indexentry{file hooks!|hyperpage}{22}
+\indexentry{Isotopes @\texttt  {Isotopes }|hyperpage}{22}
+\indexentry{file hooks!|hyperpage}{23}
+\indexentry{Average atomic mass @\texttt  {Average atomic mass }|hyperpage}{23}
+\indexentry{file hooks!|hyperpage}{24}
+\indexentry{Molecular weight@\texttt  {Molecular weight}|hyperpage}{24}
+\indexentry{file hooks!|hyperpage}{24}
+\indexentry{Units of molecular weight@\texttt  {Units of molecular weight}|hyperpage}{24}
+\indexentry{file hooks!|hyperpage}{25}
+\indexentry{Mass percent composition of a compound@\texttt  {Mass percent composition of a compound}|hyperpage}{25}
+\indexentry{file hooks!|hyperpage}{26}
+\indexentry{Molecular weight of empirical formulas and molecular formulas @\texttt  {Molecular weight of empirical formulas and molecular formulas }|hyperpage}{26}
+\indexentry{file hooks!|hyperpage}{27}
+\indexentry{Calculating molecular formulas @\texttt  {Calculating molecular formulas }|hyperpage}{27}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{33}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{33}
+\indexentry{file hooks!Cations|hyperpage}{33}
+\indexentry{Cations@\texttt  {Cations}|hyperpage}{33}
+\indexentry{file hooks!Anions|hyperpage}{33}
+\indexentry{Anions@\texttt  {Anions}|hyperpage}{33}
+\indexentry{file hooks!Ionic charges: the valences|hyperpage}{33}
+\indexentry{Ionic charges: the valences@\texttt  {Ionic charges: the valences}|hyperpage}{33}
+\indexentry{file hooks!Combining ions|hyperpage}{34}
+\indexentry{Combining ions@\texttt  {Combining ions}|hyperpage}{34}
+\indexentry{file hooks!Simple ionic naming (type I ionic)|hyperpage}{35}
+\indexentry{Simple ionic naming (type I ionic)@\texttt  {Simple ionic naming (type I ionic)}|hyperpage}{35}
+\indexentry{file hooks!Complex ionic naming|hyperpage}{36}
+\indexentry{Complex ionic naming@\texttt  {Complex ionic naming}|hyperpage}{36}
+\indexentry{file hooks!Formulate complex ionic chemicals|hyperpage}{36}
+\indexentry{Formulate complex ionic chemicals@\texttt  {Formulate complex ionic chemicals}|hyperpage}{36}
+\indexentry{file hooks!Name complex ionic chemicals|hyperpage}{36}
+\indexentry{Name complex ionic chemicals@\texttt  {Name complex ionic chemicals}|hyperpage}{36}
+\indexentry{file hooks!Properties of ion compounds|hyperpage}{36}
+\indexentry{Properties of ionic compounds@\texttt  {Properties of ionic compounds}|hyperpage}{36}
+\indexentry{file hooks!The ionic bond|hyperpage}{37}
+\indexentry{The ionic bond@\texttt  {The ionic bond}|hyperpage}{37}
+\indexentry{file hooks!Covalent naming|hyperpage}{37}
+\indexentry{Covalent naming@\texttt  {Covalent naming}|hyperpage}{37}
+\indexentry{file hooks!Properties of covalent compounds|hyperpage}{38}
+\indexentry{Properties of covalent compounds@\texttt  {Properties of covalent compounds}|hyperpage}{38}
+\indexentry{file hooks!The covalent bond|hyperpage}{38}
+\indexentry{The covalent bond@\texttt  {The covalent bond}|hyperpage}{38}
+\indexentry{file hooks!Bases or hydroxides|hyperpage}{39}
+\indexentry{Bases or hydroxides@\texttt  {Bases or hydroxides}|hyperpage}{39}
+\indexentry{file hooks!Acids|hyperpage}{39}
+\indexentry{Acids@\texttt  {Acids}|hyperpage}{39}
+\indexentry{file hooks!Oxidation states of oxoacids|hyperpage}{40}
+\indexentry{Oxidation states of oxoacids@\texttt  {Oxidation states of oxoacids}|hyperpage}{40}
+\indexentry{file hooks!Oxidizing and reducing character of oxoacids|hyperpage}{40}
+\indexentry{Oxidizing and reducing character of oxoacids@\texttt  {Oxidizing and reducing character of oxoacids}|hyperpage}{40}
+\indexentry{file hooks!Combining ions|hyperpage}{42}
+\indexentry{Combining ions @\texttt  {Combining ions }|hyperpage}{42}
+\indexentry{file hooks!Naming Oxosalts|hyperpage}{42}
+\indexentry{Naming Oxosalts@\texttt  {Naming Oxosalts}|hyperpage}{42}
+\indexentry{file hooks!Formulating Oxosalts|hyperpage}{42}
+\indexentry{Formulating Oxosalts@\texttt  {Formulating Oxosalts}|hyperpage}{42}
+\indexentry{file hooks!Naming Hydrosalts|hyperpage}{43}
+\indexentry{Naming Hydrosalts@\texttt  {Naming Hydrosalts}|hyperpage}{43}
+\indexentry{file hooks!Hydrates|hyperpage}{44}
+\indexentry{Hydrates @\texttt  {Hydrates }|hyperpage}{44}
+\indexentry{file hooks!Common naming|hyperpage}{45}
+\indexentry{Common naming@\texttt  {Common naming}|hyperpage}{45}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{55}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{55}
+\indexentry{file hooks!From moles to molecules|hyperpage}{55}
+\indexentry{From moles to atoms@\texttt  {From moles to atoms}|hyperpage}{55}
+\indexentry{file hooks!From molecules to atoms|hyperpage}{56}
+\indexentry{From molecules to atoms@\texttt  {From molecules to atoms}|hyperpage}{56}
+\indexentry{file hooks!Molar mass of a chemical|hyperpage}{57}
+\indexentry{Molar mass of a chemical@\texttt  {Molar mass of a chemical}|hyperpage}{57}
+\indexentry{file hooks!From moles to grams|hyperpage}{58}
+\indexentry{From moles to grams@\texttt  {From moles to grams}|hyperpage}{58}
+\indexentry{file hooks!From grams to atoms|hyperpage}{59}
+\indexentry{From grams to atoms@\texttt  {From grams to atoms}|hyperpage}{59}
+\indexentry{file hooks!Simple chemical reactions|hyperpage}{60}
+\indexentry{Simple chemical reactions@\texttt  {Simple chemical reactions}|hyperpage}{60}
+\indexentry{file hooks!Reading chemical reactions|hyperpage}{60}
+\indexentry{Reading a chemical reaction@\texttt  {Reading a chemical reaction}|hyperpage}{60}
+\indexentry{file hooks!Balanced chemical reactions|hyperpage}{60}
+\indexentry{Balanced chemical reactions@\texttt  {Balanced chemical reactions}|hyperpage}{60}
+\indexentry{file hooks!Balancing chemical reactions|hyperpage}{61}
+\indexentry{Balancing chemical reactions@\texttt  {Balancing chemical reactions}|hyperpage}{61}
+\indexentry{file hooks!Five types of reactions|hyperpage}{62}
+\indexentry{Five types of reactions@\texttt  {Five types of reactions}|hyperpage}{62}
+\indexentry{file hooks!Mole-Mole ratio|hyperpage}{63}
+\indexentry{Mole-Mole ratio@\texttt  {Mole-Mole ratio}|hyperpage}{63}
+\indexentry{file hooks!Reactants to products|hyperpage}{63}
+\indexentry{Reactants to products@\texttt  {Reactants to products}|hyperpage}{63}
+\indexentry{file hooks!Reactant to a different reactant|hyperpage}{63}
+\indexentry{Reactant to a different reactant@\texttt  {Reactant to a different reactant}|hyperpage}{63}
+\indexentry{file hooks!Mass calculations|hyperpage}{64}
+\indexentry{Mass calculations@\texttt  {Mass calculations}|hyperpage}{64}
+\indexentry{file hooks!Molar mass review|hyperpage}{64}
+\indexentry{Molar mass review@\texttt  {Molar mass review}|hyperpage}{64}
+\indexentry{file hooks!Grams to moles in a reaction|hyperpage}{64}
+\indexentry{Grams to moles in a reaction@\texttt  {Grams to moles in a reaction}|hyperpage}{64}
+\indexentry{file hooks!Grams to grams in a reaction|hyperpage}{65}
+\indexentry{Grams to grams in a reaction@\texttt  {Grams to grams in a reaction}|hyperpage}{65}
+\indexentry{file hooks!Percent Yield|hyperpage}{66}
+\indexentry{Percent yield@\texttt  {Percent yield}|hyperpage}{66}
+\indexentry{file hooks!Limiting reagent|hyperpage}{67}
+\indexentry{Limiting reagent@\texttt  {Limiting reagent}|hyperpage}{67}
+\indexentry{file hooks!Identifying the limiting reagent|hyperpage}{67}
+\indexentry{Identifying the limiting reagent@\texttt  {Identifying the limiting reagent}|hyperpage}{67}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{77}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{77}
+\indexentry{file hooks!What makes a solution?|hyperpage}{77}
+\indexentry{What makes a solution?@\texttt  {What makes a solution?}|hyperpage}{77}
+\indexentry{file hooks!Types of solutions|hyperpage}{77}
+\indexentry{Types of solutions@\texttt  {Types of solutions}|hyperpage}{77}
+\indexentry{file hooks!Empirical rules of polarity|hyperpage}{78}
+\indexentry{Empirical rules of polarity@\texttt  {Empirical rules of polarity}|hyperpage}{78}
+\indexentry{file hooks!Mixing and polarity|hyperpage}{79}
+\indexentry{Mixing and polarity@\texttt  {Mixing and polarity}|hyperpage}{79}
+\indexentry{file hooks!Concentration of solutions|hyperpage}{79}
+\indexentry{Concentration of solutions@\texttt  {Concentration of solutions}|hyperpage}{79}
+\indexentry{file hooks!Meaning of concentration|hyperpage}{79}
+\indexentry{Meaning of concentration@\texttt  {Meaning of concentration}|hyperpage}{79}
+\indexentry{file hooks!Mass percent concentration|hyperpage}{79}
+\indexentry{Mass percent concentration@\texttt  {Mass percent concentration}|hyperpage}{79}
+\indexentry{file hooks!Molarity concentration|hyperpage}{80}
+\indexentry{Molarity concentration@\texttt  {Molarity concentration}|hyperpage}{80}
+\indexentry{file hooks!Concentration units as conversion factors|hyperpage}{80}
+\indexentry{Concentration units as conversion factors@\texttt  {Concentration units as conversion factors}|hyperpage}{80}
+\indexentry{file hooks!|hyperpage}{81}
+\indexentry{Dilution@\texttt  {Dilution}|hyperpage}{81}
+\indexentry{file hooks!Soluble and insoluble salts|hyperpage}{82}
+\indexentry{Soluble and insoluble salts@\texttt  {Soluble and insoluble salts}|hyperpage}{82}
+\indexentry{file hooks!Strong electrolytes|hyperpage}{83}
+\indexentry{Strong electrolytes@\texttt  {Strong electrolytes}|hyperpage}{83}
+\indexentry{file hooks!Weak electrolytes|hyperpage}{83}
+\indexentry{Weak electrolytes@\texttt  {Weak electrolytes}|hyperpage}{83}
+\indexentry{file hooks!Nonelectrolytes|hyperpage}{83}
+\indexentry{Nonelectrolytes@\texttt  {Nonelectrolytes}|hyperpage}{83}
+\indexentry{file hooks!Identify the electrolyte character of a chemical|hyperpage}{83}
+\indexentry{Identify the electrolyte character of a chemical@\texttt  {Identify the electrolyte character of a chemical}|hyperpage}{83}
+\indexentry{file hooks!|hyperpage}{84}
+\indexentry{Breaking down electrolytes into ions@\texttt  {Breaking down electrolytes into ions}|hyperpage}{84}
+\indexentry{file hooks!|hyperpage}{85}
+\indexentry{Acid-base reactions@\texttt  {Acid-base reactions}|hyperpage}{85}
+\indexentry{file hooks!|hyperpage}{85}
+\indexentry{Precipitation reactions@\texttt  {Precipitation reactions}|hyperpage}{85}
+\indexentry{file hooks!|hyperpage}{86}
+\indexentry{Redox reactions@\texttt  {Redox reactions}|hyperpage}{86}
+\indexentry{file hooks!|hyperpage}{87}
+\indexentry{Acid-base reactions@\texttt  {Acid-base reactions}|hyperpage}{87}
+\indexentry{file hooks!|hyperpage}{87}
+\indexentry{Precipitation reactions@\texttt  {Precipitation reactions}|hyperpage}{87}
+\indexentry{file hooks!|hyperpage}{87}
+\indexentry{Formula equations, ionic equations and net ionic equations@\texttt  {Formula equations, ionic equations and net ionic equations}|hyperpage}{87}
+\indexentry{file hooks!|hyperpage}{88}
+\indexentry{Oxidation state or redox number@\texttt  {Oxidation state or redox number}|hyperpage}{88}
+\indexentry{file hooks!|hyperpage}{88}
+\indexentry{Rules to calculate redox numbers@\texttt  {Rules to calculate redox numbers}|hyperpage}{88}
+\indexentry{file hooks!|hyperpage}{89}
+\indexentry{Calculating the redox number@\texttt  {Calculating the redox number}|hyperpage}{89}
+\indexentry{file hooks!|hyperpage}{89}
+\indexentry{Redox means oxidation and reduction@\texttt  {Redox means oxidation and reduction}|hyperpage}{89}
+\indexentry{file hooks!|hyperpage}{90}
+\indexentry{Redox numbers in chemical reactions@\texttt  {Redox numbers in chemical reactions}|hyperpage}{90}
+\indexentry{file hooks!|hyperpage}{90}
+\indexentry{Balancing simple redox reactions@\texttt  {Balancing simple redox reactions}|hyperpage}{90}
+\indexentry{file hooks!|hyperpage}{90}
+\indexentry{Balancing redox reactions in acidic medium@\texttt  {Balancing redox reactions in acidic medium}|hyperpage}{90}
+\indexentry{file hooks!|hyperpage}{92}
+\indexentry{Balancing redox reactions in basic medium@\texttt  {Balancing redox reactions in basic medium}|hyperpage}{92}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{97}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{97}
+\indexentry{file hooks!Gases in the periodic table|hyperpage}{97}
+\indexentry{Gases in the periodic table@\texttt  {Gases in the periodic table}|hyperpage}{97}
+\indexentry{file hooks!Characteristics of gases|hyperpage}{97}
+\indexentry{Characteristics of gases@\texttt  {Characteristics of gases}|hyperpage}{97}
+\indexentry{file hooks!Volume, V|hyperpage}{98}
+\indexentry{Volume, V@\texttt  {Volume, V}|hyperpage}{98}
+\indexentry{file hooks!Temperature, T|hyperpage}{98}
+\indexentry{Temperature, T@\texttt  {Temperature, T}|hyperpage}{98}
+\indexentry{file hooks!Amount of gas, n|hyperpage}{98}
+\indexentry{Amount of gas, n@\texttt  {Amount of gas, n}|hyperpage}{98}
+\indexentry{file hooks!Pressure, P|hyperpage}{98}
+\indexentry{Pressure, P@\texttt  {Pressure, P}|hyperpage}{98}
+\indexentry{file hooks!Measuring pressure|hyperpage}{99}
+\indexentry{Measuring pressure@\texttt  {Measuring pressure}|hyperpage}{99}
+\indexentry{file hooks!Ideal gas law in terms of moles|hyperpage}{100}
+\indexentry{Ideal gas law in terms of moles@\texttt  {Ideal gas law in terms of moles}|hyperpage}{100}
+\indexentry{file hooks!Ideal gas law in terms of density|hyperpage}{101}
+\indexentry{Ideal gas law in terms of density@\texttt  {Ideal gas law in terms of density}|hyperpage}{101}
+\indexentry{file hooks!STP conditions|hyperpage}{102}
+\indexentry{STP conditions@\texttt  {STP conditions}|hyperpage}{102}
+\indexentry{file hooks!Solving problems with an initial and final state|hyperpage}{103}
+\indexentry{Solving problems with an initial and final state@\texttt  {Solving problems with an initial and final state}|hyperpage}{103}
+\indexentry{file hooks!Pressure-Volume change|hyperpage}{104}
+\indexentry{Pressure-Volume change@\texttt  {Pressure-Volume change}|hyperpage}{104}
+\indexentry{file hooks!Volume-Temperature change|hyperpage}{104}
+\indexentry{Volume-Temperature change@\texttt  {Volume-Temperature change}|hyperpage}{104}
+\indexentry{file hooks!Volume-Moles change|hyperpage}{104}
+\indexentry{Volume-Moles change@\texttt  {Volume-Moles change}|hyperpage}{104}
+\indexentry{file hooks!Relating the different variables of a gas|hyperpage}{105}
+\indexentry{Relating the different variables of a gas@\texttt  {Relating the different variables of a gas}|hyperpage}{105}
+\indexentry{file hooks!Molar volume|hyperpage}{105}
+\indexentry{Molar volume@\texttt  {Molar volume}|hyperpage}{105}
+\indexentry{file hooks!|hyperpage}{105}
+\indexentry{stoichiometry and gases@\texttt  {stoichiometry and gases}|hyperpage}{105}
+\indexentry{file hooks!Partial and total pressure|hyperpage}{106}
+\indexentry{Partial and total pressure@\texttt  {Partial and total pressure}|hyperpage}{106}
+\indexentry{file hooks! |hyperpage}{107}
+\indexentry{Partial pressure of a gas in a mixture@\texttt  {Partial pressure of a gas in a mixture}|hyperpage}{107}
+\indexentry{file hooks!Mole fraction|hyperpage}{108}
+\indexentry{Mole fraction@\texttt  {Mole fraction}|hyperpage}{108}
+\indexentry{file hooks!|hyperpage}{108}
+\indexentry{Collecting gas over water: use of partial pressures@\texttt  {Collecting gas over water: use of partial pressures}|hyperpage}{108}
+\indexentry{file hooks!|hyperpage}{110}
+\indexentry{Van der Waals equation for real gases@\texttt  {Van der Waals equation for real gases}|hyperpage}{110}
+\indexentry{file hooks!|hyperpage}{110}
+\indexentry{The meaning of the Van der Waals constants@\texttt  {The meaning of the Van der Waals constants}|hyperpage}{110}
+\indexentry{file hooks!Kinetic theory of gases|hyperpage}{111}
+\indexentry{Kinetic theory of gases@\texttt  {Kinetic theory of gases}|hyperpage}{111}
+\indexentry{file hooks!|hyperpage}{112}
+\indexentry{Distribution of velocities@\texttt  {Distribution of velocities}|hyperpage}{112}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{121}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{121}
+\indexentry{file hooks!|hyperpage}{121}
+\indexentry{Potential \& Kinetic Energy: heat@\texttt  {Potential \& Kinetic Energy: heat}|hyperpage}{121}
+\indexentry{file hooks!|hyperpage}{122}
+\indexentry{Mechanical energy: work@\texttt  {Mechanical energy: work}|hyperpage}{122}
+\indexentry{file hooks!|hyperpage}{122}
+\indexentry{The law of conservation energy@\texttt  {The law of conservation energy}|hyperpage}{122}
+\indexentry{file hooks!Energy units|hyperpage}{122}
+\indexentry{Energy units@\texttt  {Energy units}|hyperpage}{122}
+\indexentry{file hooks!Temperature |hyperpage}{122}
+\indexentry{Temperature @\texttt  {Temperature }|hyperpage}{122}
+\indexentry{file hooks!|hyperpage}{123}
+\indexentry{Thermodynamics@\texttt  {Thermodynamics}|hyperpage}{123}
+\indexentry{file hooks!|hyperpage}{124}
+\indexentry{Work@\texttt  {Work}|hyperpage}{124}
+\indexentry{file hooks!|hyperpage}{125}
+\indexentry{Heat capacity@\texttt  {Heat capacity}|hyperpage}{125}
+\indexentry{file hooks!|hyperpage}{125}
+\indexentry{Heat@\texttt  {Heat}|hyperpage}{125}
+\indexentry{file hooks!|hyperpage}{126}
+\indexentry{First law of thermodynamics: the internal energy@\texttt  {First law of thermodynamics: the internal energy}|hyperpage}{126}
+\indexentry{file hooks!The calorimeter|hyperpage}{127}
+\indexentry{The calorimeter@\texttt  {The calorimeter}|hyperpage}{127}
+\indexentry{file hooks!Exothermic and endothermic reactions|hyperpage}{127}
+\indexentry{Exothermic and endothermic reactions@\texttt  {Exothermic and endothermic reactions}|hyperpage}{127}
+\indexentry{file hooks! |hyperpage}{128}
+\indexentry{Constant-pressure calorimeter@\texttt  {Constant-pressure calorimeter}|hyperpage}{128}
+\indexentry{file hooks! |hyperpage}{129}
+\indexentry{Constant-volume calorimeter@\texttt  {Constant-volume calorimeter}|hyperpage}{129}
+\indexentry{file hooks! |hyperpage}{131}
+\indexentry{What is enthalpy?@\texttt  {What is enthalpy?}|hyperpage}{131}
+\indexentry{file hooks!Table of standard enthalpies|hyperpage}{132}
+\indexentry{Table of standard enthalpies@\texttt  {Table of standard enthalpies}|hyperpage}{132}
+\indexentry{file hooks!Natural state of an element|hyperpage}{132}
+\indexentry{Natural state of an element@\texttt  {Natural state of an element}|hyperpage}{132}
+\indexentry{file hooks!|hyperpage}{133}
+\indexentry{Formation reactions: standard enthalpy of formation@\texttt  {Formation reactions: standard enthalpy of formation}|hyperpage}{133}
+\indexentry{file hooks!$\Delta H^{\circ }_R$ and $\Delta H^{\circ }_f$ |hyperpage}{133}
+\indexentry{ $\Delta H^{\circ }_R$ and $\Delta H^{\circ }_f$ @\texttt  { $\Delta H^{\circ }_R$ and $\Delta H^{\circ }_f$ }|hyperpage}{133}
+\indexentry{file hooks!Standard enthalpy change for a reaction|hyperpage}{133}
+\indexentry{Standard enthalpy change for a reaction@\texttt  {Standard enthalpy change for a reaction}|hyperpage}{133}
+\indexentry{file hooks!Heat-Mole conversions|hyperpage}{134}
+\indexentry{Heat-Mole conversions@\texttt  {Heat-Mole conversions}|hyperpage}{134}
+\indexentry{file hooks!Reverting reactions|hyperpage}{135}
+\indexentry{Reverting reactions@\texttt  {Reverting reactions}|hyperpage}{135}
+\indexentry{file hooks!Timing reactions by a number|hyperpage}{136}
+\indexentry{Timing reactions by a number@\texttt  {Timing reactions by a number}|hyperpage}{136}
+\indexentry{file hooks!Combining reactions|hyperpage}{136}
+\indexentry{Combining reactions@\texttt  {Combining reactions}|hyperpage}{136}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{143}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{143}
+\indexentry{file hooks!|hyperpage}{143}
+\indexentry{Intermolecular forces and intramolecular interactions@\texttt  {Intermolecular forces and intramolecular interactions}|hyperpage}{143}
+\indexentry{file hooks!|hyperpage}{143}
+\indexentry{Dispersion forces@\texttt  {Dispersion forces}|hyperpage}{143}
+\indexentry{file hooks!|hyperpage}{144}
+\indexentry{Dipole-Dipole forces@\texttt  {Dipole-Dipole forces}|hyperpage}{144}
+\indexentry{file hooks!|hyperpage}{145}
+\indexentry{Hydrogen bonds @\texttt  {Hydrogen bonds }|hyperpage}{145}
+\indexentry{file hooks!|hyperpage}{146}
+\indexentry{Intermolecular forces of liquids and boiling @\texttt  {Intermolecular forces of liquids and boiling }|hyperpage}{146}
+\indexentry{file hooks!|hyperpage}{148}
+\indexentry{Crystalline lattice: the unit cell@\texttt  {Crystalline lattice: the unit cell}|hyperpage}{148}
+\indexentry{file hooks!|hyperpage}{148}
+\indexentry{Types of crystalline solids@\texttt  {Types of crystalline solids}|hyperpage}{148}
+\indexentry{file hooks!|hyperpage}{150}
+\indexentry{Closed packing of metals@\texttt  {Closed packing of metals}|hyperpage}{150}
+\indexentry{file hooks!|hyperpage}{151}
+\indexentry{Atom sharing in unit cells@\texttt  {Atom sharing in unit cells}|hyperpage}{151}
+\indexentry{file hooks!|hyperpage}{152}
+\indexentry{Metal unit cells@\texttt  {Metal unit cells}|hyperpage}{152}
+\indexentry{file hooks!|hyperpage}{152}
+\indexentry{Cell parameter@\texttt  {Cell parameter}|hyperpage}{152}
+\indexentry{file hooks!|hyperpage}{153}
+\indexentry{Metal density@\texttt  {Metal density}|hyperpage}{153}
+\indexentry{file hooks!|hyperpage}{154}
+\indexentry{Ionic solids@\texttt  {Ionic solids}|hyperpage}{154}
+\indexentry{file hooks!|hyperpage}{155}
+\indexentry{X-ray diffraction: a method to measure cell parameters@\texttt  {X-ray diffraction: a method to measure cell parameters}|hyperpage}{155}
+\indexentry{file hooks!|hyperpage}{157}
+\indexentry{Surface tension@\texttt  {Surface tension}|hyperpage}{157}
+\indexentry{file hooks!|hyperpage}{158}
+\indexentry{Viscosity@\texttt  {Viscosity}|hyperpage}{158}
+\indexentry{file hooks!|hyperpage}{158}
+\indexentry{Vapor pressure of a liquid@\texttt  {Vapor pressure of a liquid}|hyperpage}{158}
+\indexentry{file hooks!|hyperpage}{158}
+\indexentry{Enthalpy of vaporization@\texttt  {Enthalpy of vaporization}|hyperpage}{158}
+\indexentry{file hooks!|hyperpage}{159}
+\indexentry{Vapor pressure change with temperature@\texttt  {Vapor pressure change with temperature}|hyperpage}{159}
+\indexentry{file hooks!|hyperpage}{161}
+\indexentry{Description of a phase diagram: important points@\texttt  {Description of a phase diagram: important points}|hyperpage}{161}
+\indexentry{file hooks!|hyperpage}{162}
+\indexentry{What are normal conditions?@\texttt  {What are normal conditions?}|hyperpage}{162}
+\indexentry{file hooks!|hyperpage}{162}
+\indexentry{Phase transition terminology@\texttt  {Phase transition terminology}|hyperpage}{162}
+\indexentry{file hooks!|hyperpage}{162}
+\indexentry{Phase diagram of water@\texttt  {Phase diagram of water}|hyperpage}{162}
+\indexentry{file hooks!|hyperpage}{163}
+\indexentry{Heating and compression experiments@\texttt  {Heating and compression experiments}|hyperpage}{163}
+\indexentry{file hooks!|hyperpage}{163}
+\indexentry{Energy calculations involving phase transitions@\texttt  {Energy calculations involving phase transitions}|hyperpage}{163}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{171}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{171}
+\indexentry{file hooks!|hyperpage}{171}
+\indexentry{Light as a wave@\texttt  {Light as a wave}|hyperpage}{171}
+\indexentry{file hooks!Frequency and energy|hyperpage}{171}
+\indexentry{Frequency and energy@\texttt  {Frequency and energy}|hyperpage}{171}
+\indexentry{file hooks!|hyperpage}{172}
+\indexentry{The speed of light@\texttt  {The speed of light}|hyperpage}{172}
+\indexentry{file hooks!Wavelength and energy|hyperpage}{173}
+\indexentry{Wavelength and energy@\texttt  {Wavelength and energy}|hyperpage}{173}
+\indexentry{file hooks!|hyperpage}{174}
+\indexentry{The electromagnetic spectrum of light@\texttt  {The electromagnetic spectrum of light}|hyperpage}{174}
+\indexentry{file hooks!|hyperpage}{174}
+\indexentry{The double-slit experiment: light diffraction@\texttt  {The double-slit experiment: light diffraction}|hyperpage}{174}
+\indexentry{file hooks!|hyperpage}{175}
+\indexentry{Types and color of radiation@\texttt  {Types and color of radiation}|hyperpage}{175}
+\indexentry{file hooks!Electron-Volt a new unit of energy|hyperpage}{176}
+\indexentry{Electron-Volt a new unit of energy@\texttt  {Electron-Volt a new unit of energy}|hyperpage}{176}
+\indexentry{file hooks! |hyperpage}{176}
+\indexentry{The photoelectric effect@\texttt  {The photoelectric effect}|hyperpage}{176}
+\indexentry{file hooks! |hyperpage}{178}
+\indexentry{Spectrum of atoms@\texttt  {Spectrum of atoms}|hyperpage}{178}
+\indexentry{file hooks!|hyperpage}{178}
+\indexentry{Atomic line spectrum of hydrogen@\texttt  {Atomic line spectrum of hydrogen}|hyperpage}{178}
+\indexentry{file hooks!The Bohr model|hyperpage}{179}
+\indexentry{The Bohr model@\texttt  {The Bohr model}|hyperpage}{179}
+\indexentry{file hooks!Energy levels of hydrogen|hyperpage}{180}
+\indexentry{Energy levels of hydrogen@\texttt  {Energy levels of hydrogen}|hyperpage}{180}
+\indexentry{file hooks!Transition energies|hyperpage}{180}
+\indexentry{Transition energies@\texttt  {Transition energies}|hyperpage}{180}
+\indexentry{file hooks! |hyperpage}{181}
+\indexentry{Bohn's formula for energy transitions@\texttt  {Bohn's formula for energy transitions}|hyperpage}{181}
+\indexentry{file hooks! |hyperpage}{182}
+\indexentry{The wave properties of matter@\texttt  {The wave properties of matter}|hyperpage}{182}
+\indexentry{file hooks! |hyperpage}{183}
+\indexentry{Electron diffraction@\texttt  {Electron diffraction}|hyperpage}{183}
+\indexentry{file hooks!Quantized energy and continuum energy|hyperpage}{184}
+\indexentry{Quantized energy and continuum energy@\texttt  {Quantized energy and continuum energy}|hyperpage}{184}
+\indexentry{file hooks!|hyperpage}{184}
+\indexentry{The Schr\"{o}dinger equation@\texttt  {The Schr\"{o}dinger equation}|hyperpage}{184}
+\indexentry{file hooks!|hyperpage}{184}
+\indexentry{The wave function: orbitals@\texttt  {The wave function: orbitals}|hyperpage}{184}
+\indexentry{file hooks!|hyperpage}{185}
+\indexentry{Orbitals are described by three quantum numbers@\texttt  {Orbitals are described by three quantum numbers}|hyperpage}{185}
+\indexentry{file hooks!|hyperpage}{185}
+\indexentry{Principal quantum number, $n$@\texttt  {Principal quantum number, $n$}|hyperpage}{185}
+\indexentry{file hooks!|hyperpage}{185}
+\indexentry{Angular quantum number, $\ell $@\texttt  {Angular quantum number, $\ell $}|hyperpage}{185}
+\indexentry{file hooks!|hyperpage}{185}
+\indexentry{Magnetic quantum number, $m_{\ell }$@\texttt  {Magnetic quantum number, $m_{\ell }$}|hyperpage}{185}
+\indexentry{file hooks!|hyperpage}{186}
+\indexentry{A fourth quantum number: the spin $m_s$@\texttt  {A fourth quantum number: the spin $m_s$}|hyperpage}{186}
+\indexentry{file hooks!|hyperpage}{187}
+\indexentry{Shells and subshells (or levels and sublevels)@\texttt  {Shells and subshells (or levels and sublevels)}|hyperpage}{187}
+\indexentry{file hooks! |hyperpage}{187}
+\indexentry{Orbital labels: $s$, $p$, $d$ and $f$@\texttt  {Orbital labels: $s$, $p$, $d$ and $f$}|hyperpage}{187}
+\indexentry{file hooks!|hyperpage}{187}
+\indexentry{Different orbitals plots@\texttt  {Different orbitals plots}|hyperpage}{187}
+\indexentry{file hooks!|hyperpage}{187}
+\indexentry{$s$ orbitals@\texttt  {$s$ orbitals}|hyperpage}{187}
+\indexentry{file hooks!|hyperpage}{188}
+\indexentry{$p$ orbitals@\texttt  {$p$ orbitals}|hyperpage}{188}
+\indexentry{file hooks!|hyperpage}{188}
+\indexentry{$d$ and $f$ orbitals@\texttt  {$d$ and $f$ orbitals}|hyperpage}{188}
+\indexentry{file hooks!|hyperpage}{189}
+\indexentry{Energies of orbitals@\texttt  {Energies of orbitals}|hyperpage}{189}
+\indexentry{file hooks!|hyperpage}{189}
+\indexentry{The uncertainty principle@\texttt  {The uncertainty principle}|hyperpage}{189}
+\indexentry{file hooks!|hyperpage}{191}
+\indexentry{Electron energy levels and sublevels@\texttt  {Electron energy levels and sublevels}|hyperpage}{191}
+\indexentry{file hooks!|hyperpage}{191}
+\indexentry{The Pauli exclusion principle@\texttt  {The Pauli exclusion principle}|hyperpage}{191}
+\indexentry{file hooks!|hyperpage}{192}
+\indexentry{Orbital Filling: the aufbau principle@\texttt  {Orbital Filling: the aufbau principle}|hyperpage}{192}
+\indexentry{file hooks!Full electron Configuration|hyperpage}{192}
+\indexentry{Full electron Configuration@\texttt  {Full electron Configuration}|hyperpage}{192}
+\indexentry{file hooks!|hyperpage}{193}
+\indexentry{Hund's rule@\texttt  {Hund's rule}|hyperpage}{193}
+\indexentry{file hooks!|hyperpage}{194}
+\indexentry{Abbreviated Electron Configuration and orbital diagrams@\texttt  {Abbreviated Electron Configuration and orbital diagrams}|hyperpage}{194}
+\indexentry{file hooks!|hyperpage}{196}
+\indexentry{Effective charge@\texttt  {Effective charge}|hyperpage}{196}
+\indexentry{file hooks! Ionization Energy|hyperpage}{197}
+\indexentry{Ionization Energy@\texttt  {Ionization Energy}|hyperpage}{197}
+\indexentry{file hooks!|hyperpage}{199}
+\indexentry{Electron affinity@\texttt  {Electron affinity}|hyperpage}{199}
+\indexentry{file hooks!|hyperpage}{200}
+\indexentry{Electronegativity, EN@\texttt  {Electronegativity, EN}|hyperpage}{200}
+\indexentry{file hooks!Metallic character |hyperpage}{200}
+\indexentry{Metallic character @\texttt  {Metallic character }|hyperpage}{200}
+\indexentry{file hooks!|hyperpage}{201}
+\indexentry{Ionic radius@\texttt  {Ionic radius}|hyperpage}{201}
+\indexentry{file hooks!|hyperpage}{201}
+\indexentry{Photoelectron spectroscopy of atoms@\texttt  {Photoelectron spectroscopy of atoms}|hyperpage}{201}
+\indexentry{Discussion: environment@\texttt  {Discussion:} environment|hyperpage}{205}
+\indexentry{environments!Discussion:@\texttt  {Discussion:}|hyperpage}{205}
+\indexentry{file hooks!Valence electrons|hyperpage}{205}
+\indexentry{Valence electrons@\texttt  {Valence electrons}|hyperpage}{205}
+\indexentry{file hooks!The octet rule|hyperpage}{206}
+\indexentry{The octet rule@\texttt  {The octet rule}|hyperpage}{206}
+\indexentry{file hooks!Electron-dot structure of an atom|hyperpage}{206}
+\indexentry{Electron-dot structure of an atom@\texttt  {Electron-dot structure of an atom}|hyperpage}{206}
+\indexentry{file hooks!Electron-dot structure of diatomic molecules|hyperpage}{206}
+\indexentry{Electron-dot structure of diatomic molecules@\texttt  {Electron-dot structure of diatomic molecules}|hyperpage}{206}
+\indexentry{file hooks!Electron-dot structure of general molecules|hyperpage}{207}
+\indexentry{Electron-dot structure of general molecules@\texttt  {Electron-dot structure of general molecules}|hyperpage}{207}
+\indexentry{file hooks!Atomic charges in a molecule|hyperpage}{208}
+\indexentry{Atomic charges in a molecule@\texttt  {Atomic charges in a molecule}|hyperpage}{208}
+\indexentry{file hooks!Multiple bonds|hyperpage}{209}
+\indexentry{Multiple bonds@\texttt  {Multiple bonds}|hyperpage}{209}
+\indexentry{file hooks!ABE Molecular code|hyperpage}{209}
+\indexentry{ABE Molecular code@\texttt  {ABE Molecular code}|hyperpage}{209}
+\indexentry{file hooks!Bond polarity|hyperpage}{211}
+\indexentry{Bond polarity@\texttt  {Bond polarity}|hyperpage}{211}
+\indexentry{file hooks!Polarity of diatomic molecules|hyperpage}{211}
+\indexentry{Polarity of diatomic molecules@\texttt  {Polarity of diatomic molecules}|hyperpage}{211}
+\indexentry{file hooks!Polarity of larger molecules|hyperpage}{211}
+\indexentry{Polarity of larger molecules@\texttt  {Polarity of larger molecules}|hyperpage}{211}
+\indexentry{file hooks!Polarity and mixing|hyperpage}{212}
+\indexentry{Polarity and mixing@\texttt  {Polarity and mixing}|hyperpage}{212}
+\indexentry{file hooks!Molecules with the same polarity|hyperpage}{212}
+\indexentry{Molecules with the same polarity@\texttt  {Molecules with the same polarity}|hyperpage}{212}
+\indexentry{file hooks!Molecules with the same polarity|hyperpage}{212}
+\indexentry{Molecules with the same polarity@\texttt  {Molecules with the same polarity}|hyperpage}{212}
+\indexentry{file hooks!From ABE code to hybridization|hyperpage}{213}
+\indexentry{From ABE code to hybridization@\texttt  {From ABE code to hybridization}|hyperpage}{213}
+\indexentry{file hooks!Bonding and antibonding orbitals|hyperpage}{214}
+\indexentry{Bonding and antibonding orbitals@\texttt  {Bonding and antibonding orbitals}|hyperpage}{214}
+\indexentry{file hooks!Sigma and pi orbitals|hyperpage}{215}
+\indexentry{Sigma and pi orbitals@\texttt  {Sigma and pi orbitals}|hyperpage}{215}
+\indexentry{file hooks!The case of \ce {H2}|hyperpage}{215}
+\indexentry{The case of \ce {H2}@\texttt  {The case of \ce {H2}}|hyperpage}{215}
+\indexentry{file hooks!The case of \ce {He2}molecule|hyperpage}{216}
+\indexentry{The case of \ce {He2} molecule@\texttt  {The case of \ce {He2} molecule}|hyperpage}{216}
+\indexentry{file hooks!From MO diagram to MO configuration|hyperpage}{216}
+\indexentry{From MO diagram to MO configuration@\texttt  {From MO diagram to MO configuration}|hyperpage}{216}
+\indexentry{file hooks!Bond order of a MO configuration|hyperpage}{217}
+\indexentry{Bond order of a MO configuration@\texttt  {Bond order of a MO configuration}|hyperpage}{217}
+\indexentry{file hooks!Paramagnetism and diamagnetism|hyperpage}{218}
+\indexentry{Paramagnetism and diamagnetism@\texttt  {Paramagnetism and diamagnetism}|hyperpage}{218}
