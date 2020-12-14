@@ -18,7 +18,7 @@
 
    
     \begin{marginfigure}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{chapter6/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{./figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
 \end{tikzpicture}
 \label{fig:marginfig}
 \end{marginfigure}
@@ -51,7 +51,7 @@ Atoms are made of protons, neutrons, and electrons. Electrons--in particular val
 \sloppy 
 
 %\begin{marginfigure}%%%%%%%MARGIN FIGURE
-%      \includegraphics{chapter6/figure2}
+%      \includegraphics{./figure2}
 %      \label{fig:marginfig}
 %      \caption{Valence electrons in a Ne atom}
 %	\end{marginfigure}%%%%%%%MARGIN FIGURE
@@ -78,7 +78,7 @@ Indicate the number of valence electrons for the following atoms: Cl and B.\\
 
 \item[\docfilehook{Electron-dot structure of an atom}{Electron-dot structure of an atom}] In order to write the electron-dot structure of an atom, you just need to write down the symbol of the atom surrounded by the number of valence electrons one by one four directions, and if you have more than four electrons then add remaining electrons as pairs. For example, oxygen has six valence electrons and hence, the electron-dot structure would be \hspace{.05in}\lewis{0:2:4.6.,O}\hspace{.05in} Similarly, for the case of fluorine the  the electron-dot structure would be  \hspace{.05in}\lewis{0:2:4:6.,F} \hspace{.05in} In the case of an ion, you need to add (if its an anion) or substract (if its a cation) electrons, and for example the electron-dot structure of \ce{O^{2-}} is \hspace{.05in}\lewis{0:2:4:6:,O}\hspace{.05in}\ce{^{2-}}
 %\begin{marginfigure}%%%%%%%MARGIN FIGURE
-%      \includegraphics{chapter6/figure3}
+%      \includegraphics{./figure3}
 %      \label{fig:marginfig}
 %      \caption{Lewis structure of C}
 %	\end{marginfigure}%%%%%%%MARGIN FIGURE
@@ -170,7 +170,7 @@ Construct the electron-dot structure of \ce{CO2}.\\
 \section{Molecular shape}
 Molecules are arrangements of atoms, and these arrangements can be presented in different form. Let us use as an example the \ce{H2O} molecule, which contains two hydrogen atoms and one oxygen. Knowing that both hydrogens are connected to oxygen by means of a covalent bond, one can envision several molecular geometries such as \hspace{.05in} \chemfig{ H-[:0]\lewis{26,O}-H}\hspace{.05in} or maybe \hspace{.05in}\chemfig{ H-[:45]\lewis{26,O}-[:315]H}\hspace{.05in}. The goal of this section is to identify the geometry of a given molecule. In order to do this, the electron-dot structure of the molecule are the key.
 %\begin{marginfigure}%%%%%%%MARGIN FIGURE
-%      \includegraphics{chapter6/figure6}
+%      \includegraphics{./figure6}
 %      \label{fig:marginfig}
 %      \caption{tetrahedral molecule}
 %	\end{marginfigure}%%%%%%%MARGIN FIGURE
@@ -192,16 +192,16 @@ Molecules are arrangements of atoms, and these arrangements can be presented in 
 \midrule
 ABE Code & Molecular shape & Bond Angle & 3D model  & ABE Code & Molecular shape & Bond Angle & 3D model \\
 \midrule
-\ce{AB2} &  Linear      &  $180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom1}\end{minipage}   & \ce{AB4E} &  see-saw      &   180$^{\circ}$,120$^{\circ}$, 90$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom9}\end{minipage}\\\ce{AB3} &  Trigonal Planar      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=60mm]{./chapter6/geom2}\end{minipage}& \ce{AB3E2} &  T-shaped     &  90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom10}\end{minipage}\\
-\ce{AB2E} &  Bent      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom3}\end{minipage}& \ce{AB2E3} &  Linear    & 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom11}\end{minipage}\\
+\ce{AB2} &  Linear      &  $180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom1}\end{minipage}   & \ce{AB4E} &  see-saw      &   180$^{\circ}$,120$^{\circ}$, 90$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom9}\end{minipage}\\\ce{AB3} &  Trigonal Planar      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=60mm]{././geom2}\end{minipage}& \ce{AB3E2} &  T-shaped     &  90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom10}\end{minipage}\\
+\ce{AB2E} &  Bent      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom3}\end{minipage}& \ce{AB2E3} &  Linear    & 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom11}\end{minipage}\\
 
-\ce{AB4} &  Tetrahedral      &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom4}\end{minipage} & \ce{AB5E} &  square pyramidal     &  90$^{\circ}$      &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom12}\end{minipage}\\
+\ce{AB4} &  Tetrahedral      &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom4}\end{minipage} & \ce{AB5E} &  square pyramidal     &  90$^{\circ}$      &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom12}\end{minipage}\\
 
-  \ce{AB3E} &  Trigonal pyramidal    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom5}\end{minipage}   & \ce{AB4E2} &  square planar   & 90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom13}\end{minipage}\\
-\ce{AB2E2} &  Bent    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom6}\end{minipage}   &        &       &       &       \\
-\ce{AB5} &  trigonal bipyramidal    &  $90^{\circ}$, $120^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom7}\end{minipage}   &        &       &       &       \\
+  \ce{AB3E} &  Trigonal pyramidal    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom5}\end{minipage}   & \ce{AB4E2} &  square planar   & 90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom13}\end{minipage}\\
+\ce{AB2E2} &  Bent    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom6}\end{minipage}   &        &       &       &       \\
+\ce{AB5} &  trigonal bipyramidal    &  $90^{\circ}$, $120^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom7}\end{minipage}   &        &       &       &       \\
 
-\ce{AB6} &  octahedral   &  $90^{\circ}$, $180^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{./chapter6/geom8}\end{minipage}   &        &       &       &       \\
+\ce{AB6} &  octahedral   &  $90^{\circ}$, $180^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{././geom8}\end{minipage}   &        &       &       &       \\
 \bottomrule
 \end{tabular}\end{center}
 \end{minipage}
@@ -228,7 +228,7 @@ Identify and draw the geometry of methane (\ce{CH4}).\\
 This section deals with bond and molecule polarity. A chemical bond will be polar or nonpolar depending on the tendency of the atoms in a bond to attract the electrons the bond. Polar bonds results in the existence of a permanent dipole moment that makes a molecule polar. Polar molecules can interact with polar molecules and mix. 
 
 %\begin{marginfigure}%%%%%%%MARGIN FIGURE
-%      \includegraphics{chapter6/figure5}
+%      \includegraphics{./figure5}
 %      \label{fig:marginfig}
 %      \caption{Electrostatic potential for the \ce{H2O} molecule showing molecular regions of positive and negative charge}
 %	\end{marginfigure}%%%%%%%MARGIN FIGURE
