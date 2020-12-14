@@ -14,7 +14,7 @@
 
 
       \begin{marginfigure}
-      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{chapter14/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{./figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
 \end{tikzpicture}
 \end{marginfigure}
 
@@ -56,13 +56,13 @@ Atoms in liquid or solid compound are connected by means of chemical bonds, and 
 
  \begin{marginfigure}[0cm]
  
-   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{chapter14/figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{./figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Polymer molecules interact by means of dispersion};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=8cm, height=4cm,keepaspectratio]{chapter14/figure18}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=8cm, height=4cm,keepaspectratio]{./figure18}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Fritz London a german physicist is responsible for the name of London forces};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{chapter14/figure19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{./figure19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.3cm]a.north) {\mytriangle{red}geckos stick because of the van der Waals force};
 \end{tikzpicture}
 
@@ -318,8 +318,8 @@ Compare the boiling point of these two molecules: \ce{CH3F} and \ce{CH4}.
 \section{The solid state}
 What makes solids unique in comparison to liquids and gases? They answer is their structure. There are two main different types of solids: crystalline solids and amorphous solids. Crystalline solids are made of atoms or molecules periodically, regularly, arranged in the three dimensions of the space. Examples of a crystalline solid are table salt or sugar. Amorphous solids have disordered structures. An example of an amorphous solid is window glass. This section will focus on the properties of crystalline solids as their periodicity makes their properties easier to study.
 %\begin{marginfigure}
-%      \includegraphics{chapter14/figure2}   \vspace{1cm}
-%            \includegraphics{chapter14/figure3}      
+%      \includegraphics{./figure2}   \vspace{1cm}
+%            \includegraphics{./figure3}      
 %      \caption{Cooking salt, \ce{NaCl} is a crystalline solid, whereas glass, \ce{SiO2} is an amorphous solid.}
 %   \end{marginfigure}
 \sloppy 
@@ -385,7 +385,7 @@ What makes solids unique in comparison to liquids and gases? They answer is thei
 \coordinate (magnifying glass) at (17em,-0em);
 \node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=-45] (a.south) -- (a.west)  to [bend right=-45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=3.5em, fill overzoom image=chapter14/figure20]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {crystalline solid};
+\node  [thin, draw=black, shape=circle, inner sep=3.5em, fill overzoom image=./figure20]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {crystalline solid};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \node[text width=12cm, fontscale=.6] at (5em,-7em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Unit cell of a solid of a crystalline solid. The whole structure of the solid results from the replication of a unit cell and just this unit cell is necessary to characterize the structure of the solid. };
@@ -404,10 +404,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 
   
      \savebox\unitcellwater{ 
-     \begin{tikzpicture}\path (0.45,3.3) node {\includegraphics[width=0.75cm]{chapter14/water}}
-      (1.6,4.4)  node {\includegraphics[width=0.75cm]{chapter14/water}}
-      (0.5,4.45) node {\includegraphics[width=0.75cm]{chapter14/water}}
-      (1.1,3.7)  node {\includegraphics[width=0.75cm]{chapter14/water}};
+     \begin{tikzpicture}\path (0.45,3.3) node {\includegraphics[width=0.75cm]{./water}}
+      (1.6,4.4)  node {\includegraphics[width=0.75cm]{./water}}
+      (0.5,4.45) node {\includegraphics[width=0.75cm]{./water}}
+      (1.1,3.7)  node {\includegraphics[width=0.75cm]{./water}};
  \path[draw,ultra thick] (0,3) rectangle (2,5);\end{tikzpicture}}
     \begin{center}
 \begin{tikzpicture}
@@ -417,10 +417,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 \foreach \x in {5,7,9} {
     \foreach \y in {1,3,5} {
         % water molecules in images
-        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{chapter14/water}};
-       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{chapter14/water}};
-        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{chapter14/water}};
-        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{chapter14/water}};
+        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{./water}};
+       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{./water}};
         % edge of each box
      }
 }\end{scope}
@@ -430,10 +430,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 \foreach \x in {5,7,9} {
     \foreach \y in {1,3,5} {
         % water molecules in images
-        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{chapter14/water}};
-       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{chapter14/water}};
-        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{chapter14/water}};
-        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{chapter14/water}};
+        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{./water}};
+       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{./water}};
         % edge of each box
         \path[draw,thick] (\x,\y) rectangle (\x+2,\y+2);
     }
@@ -466,9 +466,9 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 
 
 %\begin{marginfigure}
-%      \includegraphics{chapter14/figure4}   \vspace{1cm}
-%            \includegraphics{chapter14/figure5}   \vspace{1cm}   
-%      \includegraphics{chapter14/figure6}
+%      \includegraphics{./figure4}   \vspace{1cm}
+%            \includegraphics{./figure5}   \vspace{1cm}   
+%      \includegraphics{./figure6}
 %      \caption{ice, \ce{H2O(s)} is a molecular solid made of water molecules, whereas magnesium oxide \ce{MgO} is an ionic solid made of \ce{Mg^{2+}} cations and \ce{O^{2-}} anions. Gold is an atomic solid made of gold atoms.}
 %   \end{marginfigure}
    
@@ -1932,7 +1932,7 @@ X-ray diffraction is an experimental technique used to study the structure of so
 \coordinate (magnifying glass) at (9em,17.5em);
 \node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=4.5em, fill overzoom image=chapter14/figure16]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\huge X-ray diffraction pattern};
+\node  [thin, draw=black, shape=circle, inner sep=4.5em, fill overzoom image=./figure16]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\huge X-ray diffraction pattern};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{tikzpicture}}\end{center}
 
@@ -1967,19 +1967,19 @@ This section will cover some of the properties of the liquid state. In particula
 \sloppy 
 \begin{description}
    \begin{marginfigure}[0cm]
-   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}A paper clip standing on water};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure8}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.pickist.com} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure8}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.pickist.com} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Water droplets};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure9}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure9}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Meniscus of water and mercury};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}A viscous liquid};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=6cm ]{chapter14/figure11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=6cm ]{./figure11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Capillary for tubes of different diameters};
 \end{tikzpicture}
 %\caption{Some properties of liquids}
@@ -2053,16 +2053,16 @@ is stronger than the one for the \ce{C6H6}-air interface (29mN/m), as water mole
 
 
    \begin{marginfigure}[0cm]
-   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure12}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure12}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Rubbing alcohol has low heat of vaporization};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure13}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure13}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Acetone has low heat of vaporization};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure14}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure14}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Perfumes have low vaporization heat};
 \end{tikzpicture}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{chapter14/figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{./figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Metals have high vaporization heat };
 \end{tikzpicture}
 
@@ -2185,19 +2185,19 @@ smooth,
 thin,
 red,
 solid
-] file[skip first] {chapter14/data1.dat};
+] file[skip first] {./data1.dat};
 \addplot[
 smooth,
 thin,
 blue,
 solid
-] file[skip first] {chapter14/data2.dat};
+] file[skip first] {./data2.dat};
 \addplot[
 smooth,
 thin,
 green,
 solid
-] file[skip first] {chapter14/data3.dat};
+] file[skip first] {./data3.dat};
 %\legend{Benzene,Water}
 \draw  (axis cs:25,1000)  node[right, green] {Acetone, $\Delta H_{vap}$=31kJ/mol };
 \draw  (axis cs:60,700)  node[right, red] {Benzene, $\Delta H_{vap}$=34kJ/mol };
