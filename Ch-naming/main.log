@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2020 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 DEC 2020 11:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5046,7 +5046,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./chapter5.tex
+
+(../Ch-naming/Ch-naming.tex
 Chapter 1.
 
 Package lineno Warning: Linenumber reference failed, 
@@ -5373,7 +5374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--629
 
 [13] [14] [15
 
-]) (./chapter5Problems.tex
+]) (../Ch-naming/Ch-namingProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5516,9 +5517,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
  ) 
 Here is how much of TeX's memory you used:
- 81786 strings out of 493014
- 1833842 string characters out of 6133351
- 2643488 words of memory out of 5000000
+ 81787 strings out of 493014
+ 1833977 string characters out of 6133351
+ 2643548 words of memory out of 5000000
  83159 multiletter control sequences out of 15000+600000
  293657 words of font info for 349 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
