@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2020 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 DEC 2020 10:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4773,7 +4773,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5306.
@@ -4795,7 +4795,7 @@ LaTeX Font Info:    ... okay on input line 5306.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5306.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5306
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5306.
@@ -4810,11 +4810,12 @@ Package hyperref Info: Link coloring ON on input line 5306.
 LaTeX Info: Redefining \ref on input line 5306.
 LaTeX Info: Redefining \pageref on input line 5306.
 LaTeX Info: Redefining \nameref on input line 5306.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5306.
 
 *geometry* driver: auto-detecting
@@ -5048,12 +5049,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./chapter18.tex
+
+(../Ch-equilibrium/Ch-equilibrium.tex
 Chapter 1.
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 10.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
@@ -5065,7 +5063,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<./figure1.png, id=109, 276.03125pt x 183.68625pt>
+<./figure1.png, id=129, 276.03125pt x 183.68625pt>
 File: ./figure1.png Graphic file (type png)
  <use ./figure1.png>
 Package pdftex.def Info: ./figure1.png used on input line 15.
@@ -5111,7 +5109,7 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-e1.png (PNG copy)>] <./figure6.png, id=131, 553.06625pt x 2007.5pt>
+e1.png (PNG copy)>] <./figure6.png, id=149, 553.06625pt x 2007.5pt>
 File: ./figure6.png Graphic file (type png)
  <use ./figure6.png>
 Package pdftex.def Info: ./figure6.png used on input line 56.
@@ -5159,7 +5157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--121
 
  []
 
-<./figure7.png, id=145, 553.06625pt x 2007.5pt>
+<./figure7.png, id=163, 553.06625pt x 2007.5pt>
 File: ./figure7.png Graphic file (type png)
  <use ./figure7.png>
 Package pdftex.def Info: ./figure7.png used on input line 124.
@@ -5185,7 +5183,7 @@ LaTeX Warning: Marginpar on page 6 moved.
 
 LaTeX Warning: Marginpar on page 7 moved.
 
-[7] [8] <./figure8.png, id=200, 176.15813pt x 182.18062pt>
+[7] [8] <./figure8.png, id=216, 176.15813pt x 182.18062pt>
 File: ./figure8.png Graphic file (type png)
  <use ./figure8.png>
 Package pdftex.def Info: ./figure8.png used on input line 396.
@@ -5195,7 +5193,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--397
 []
  []
 
-<./figure13.png, id=201, 553.06625pt x 1852.9225pt>
+<./figure13.png, id=217, 553.06625pt x 1852.9225pt>
 File: ./figure13.png Graphic file (type png)
  <use ./figure13.png>
 Package pdftex.def Info: ./figure13.png used on input line 408.
@@ -5210,7 +5208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--621
 
  []
 
-) (./chapter18Problems.tex [11]
+) (../Ch-equilibrium/Ch-equilibriumProblems.tex [11]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5249,16 +5247,12 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 12 undefined on input line 1
-2.
-
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 25.
-<././figure10.png, id=220, 1378.14874pt x 564.1075pt>
+
+<././figure10.png, id=236, 1378.14874pt x 564.1075pt>
 File: ././figure10.png Graphic file (type png)
  <use ././figure10.png>
 Package pdftex.def Info: ././figure10.png used on input line 130.
@@ -5266,13 +5260,13 @@ Package pdftex.def Info: ././figure10.png used on input line 130.
 
 [12
 
- <././figure10.png>] <././figure14.png, id=266, 553.06625pt x 363.3575pt>
+ <././figure10.png>] <././figure14.png, id=281, 553.06625pt x 363.3575pt>
 File: ././figure14.png Graphic file (type png)
 
 <use ././figure14.png>
 Package pdftex.def Info: ././figure14.png used on input line 304.
 (pdftex.def)             Requested size: 144.56178pt x 94.97525pt.
- <././figure15.png, id=267, 553.06625pt x 363.3575pt>
+ <././figure15.png, id=282, 553.06625pt x 363.3575pt>
 File: ././figure15.png Graphic file (type png)
 
 <use ././figure15.png>
@@ -5339,15 +5333,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5391.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5391.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5391.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2F74BD4AEB230E60CE4B628EB1706CE3;1047.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2F74BD4AEB230E60CE4B628EB1706CE3;1047.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5355,19 +5343,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
  ) 
 Here is how much of TeX's memory you used:
- 80710 strings out of 493014
- 1818784 string characters out of 6133351
- 2617851 words of memory out of 5000000
- 82323 multiletter control sequences out of 15000+600000
+ 80747 strings out of 493014
+ 1819317 string characters out of 6133351
+ 2619153 words of memory out of 5000000
+ 82353 multiletter control sequences out of 15000+600000
  292168 words of font info for 367 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,23n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5406,10 +5388,10 @@ ier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 1091638 bytes).
+Output written on main.pdf (14 pages, 1092348 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
+ 441 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  93 named destinations out of 1000 (max. 500000)
- 80817 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 80857 words of extra memory for PDF output out of 89155 (max. 10000000)
 
