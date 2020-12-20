@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 DEC 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2020 17:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4773,7 +4773,77 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `fig:marginfig' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `table12:2' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `physicalsolutions:equation16' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `acids:equation7' multiply defined.
+
+
+LaTeX Warning: Label `acids:equation13' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+
+LaTeX Warning: Label `entropy:equation6' multiply defined.
+
+
+LaTeX Warning: Label `env:Discussion:' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5306.
@@ -5050,7 +5120,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../main/cover/title.tex
+(../Ch-main/cover/title.tex
 Overfull \hbox (31.98637pt too wide) in paragraph at lines 71--74
 []\T1/ptm/m/n/50 College Chem-istry[] 
  []
@@ -5060,7 +5130,7 @@ Overfull \hbox (13.54726pt too wide) in paragraph at lines 71--74
 []  \T1/ptm/m/n/20.74 A Com-pre-hen-sive Set of Im-per-fect Notes 
  []
 
-<cover/cc.png, id=109, 96.36pt x 33.726pt> <use cover/cc.png>
+<cover/cc.png, id=547, 96.36pt x 33.726pt> <use cover/cc.png>
 <use cover/cc.png>
 File: cover/cc.png Graphic file (type png)
  <use cover/cc.png>
@@ -5077,7 +5147,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 81--84
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cover
 /cc.png>] [2
 
-]) (../main/periodictable/periodictable.tex
+]) (../Ch-main/periodictable/periodictable.tex
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
@@ -5146,13 +5216,13 @@ able
 ]) [4
 
 
-] (./main.toc)
+] (./main.toc [5
+
+])
 \tf@toc=\write15
 \openout15 = `main.toc'.
 
- [5
-
-] (../main/tothereader/tothereader.tex [1
+ [6] (../Ch-main/tothereader/tothereader.tex [1
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5192,7 +5262,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 20.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./tothereader/lis.png, id=141, 225.84375pt x 225.84375pt>
+<./tothereader/lis.png, id=608, 225.84375pt x 225.84375pt>
 File: ./tothereader/lis.png Graphic file (type png)
 
 <use ./tothereader/lis.png>
@@ -5221,7 +5291,7 @@ File: ./tothereader/lis.png Graphic file (type png)
 Package pdftex.def Info: ./tothereader/lis.png used on input line 31.
 (pdftex.def)             Requested size: 233.62445pt x 233.62445pt.
 
-<./tothereader/signature.png, id=142, 220.825pt x 116.435pt>
+<./tothereader/signature.png, id=609, 220.825pt x 116.435pt>
 File: ./tothereader/signature.png Graphic file (type png)
 
 <use ./tothereader/signature.png>
@@ -5229,8 +5299,8 @@ Package pdftex.def Info: ./tothereader/signature.png used on input line 40.
 (pdftex.def)             Requested size: 119.48294pt x 63.00009pt.
  [2
 
- <./tothereader/lis.png> <./tothereader/signature.png>]) (../main/online/online
-.tex [3
+ <./tothereader/lis.png> <./tothereader/signature.png>]) (../Ch-main/online/onl
+ine.tex [3
 
 
 ]
@@ -5268,8 +5338,10 @@ Package pdftex.def Info: ./tothereader/signature.png used on input line 40.
 
  [4
 
-])
-(../main/calendar/calendar.tex
+]) [5
+
+
+] (../Ch-parts/a.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5302,93 +5374,4155 @@ Package pdftex.def Info: ./tothereader/signature.png used on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 34.
-
-Overfull \hbox (8.27794pt too wide) in paragraph at lines 39--40
-[][] 
- []
-
-[5
-
-
-]) (../main/cover/back.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 ...rpage\thispagestyle{empty}\mbox{}\clearpage
-                                                   [1
-
-
-
-]
-Overfull \hbox (31.98637pt too wide) in paragraph at lines 26--29
-[]\T1/ptm/m/n/50 College Chem-istry[] 
- []
-
-
-Overfull \hbox (13.54726pt too wide) in paragraph at lines 26--29
-[]  \T1/ptm/m/n/20.74 A Com-pre-hen-sive Set of Im-per-fect Notes 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \end{titlepage}
-                     [2
-
-])
-
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
+l.19 \restoregeometry
+                      [1
 
 
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Package `movie15' is obsolete and @@
-(movie15)                @@ superseded by `media9'.           @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5391.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5391.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+]) (../Ch-measurements/Ch-measurements.texpdfTeX warning (ext4): destination wi
+th the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \chapter
+             [Measurements]{Measurements} [1
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.88pt have occurred.
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \chapter
+             [Measurements]{Measurements} [2
+
+]
+Chapter 1.
+<../Ch-measurements/figure1.png, id=639, 1204.5pt x 770.88pt>
+File: ../Ch-measurements/figure1.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1.png>
+Package pdftex.def Info: ../Ch-measurements/figure1.png used on input line 13.
+(pdftex.def)             Requested size: 113.80379pt x 72.83443pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 13.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 31.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
+)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 32.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: Marginpar on page 3 moved.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
- ) 
-Here is how much of TeX's memory you used:
- 81186 strings out of 493014
- 1824557 string characters out of 6133351
- 3715435 words of memory out of 5000000
- 82990 multiletter control sequences out of 15000+600000
- 163632 words of font info for 213 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 71i,16n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}</usr/local/texli
-ve/2016/texmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 246678 bytes).
-PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 11 named destinations out of 1000 (max. 500000)
- 44940 words of extra memory for PDF output out of 51595 (max. 10000000)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 46.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 
+      [3 <../Ch-measurements/figure1.png>]
+<../Ch-measurements/figure1-1.png, id=654, 1505.625pt x 2007.5pt>
+File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 
+<use ../Ch-measurements/figure1-1.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-1.png used on input line 59
+.
+(pdftex.def)             Requested size: 85.34825pt x 113.79767pt.
+
+<../Ch-measurements/figure1-2.png, id=655, 913.4125pt x 609.27625pt>
+File: ../Ch-measurements/figure1-2.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-2.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-2.png used on input line 62
+.
+(pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
+
+<../Ch-measurements/figure1-15.png, id=656, 1689.31125pt x 1997.4625pt>
+File: ../Ch-measurements/figure1-15.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-15.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-15.png used on input line 6
+5.
+(pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
+
+<../Ch-measurements/figure1-16.png, id=657, 1303.87125pt x 1303.87125pt>
+File: ../Ch-measurements/figure1-16.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-16.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-16.png used on input line 6
+8.
+(pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
+
+<../Ch-measurements/figure1-17.png, id=658, 174.6525pt x 702.625pt>
+File: ../Ch-measurements/figure1-17.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-17.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-17.png used on input line 7
+1.
+(pdftex.def)             Requested size: 42.43445pt x 170.71335pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 58--76
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 58--76
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 58--76
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 58--76
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 58--76
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
+line 98.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 120.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 120.
+
+Overfull \hbox (4.38701pt too wide) in paragraph at lines 117--132
+[][] 
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 136.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 149.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.171 \end{tabular}\end{center}
+                                [4 <../Ch-measurements/figure1-1.png (PNG copy)
+> <../Ch-measurements/figure1-2.png (PNG copy)> <../Ch-measurements/figure1-15.
+png> <../Ch-measurements/figure1-16.png> <../Ch-measurements/figure1-17.png (PN
+G copy)>]
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+[]\T1/ppl/m/n/10 Unit
+ []
+
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 236.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249 \end{example}
+                   % EXAMPLE BOX ALTERNATIVE [5]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{page.6}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.291 \end{example}
+                   % EXAMPLE BOX ALTERNATIVE [6]
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+[7] [8]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 401.
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 459--465
+
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 468--469
+[]\T1/ppl/m/n/10 There are two dif-fer-ent rules
+ []
+
+[10] [11]
+<../Ch-measurements/figure1-14.png, id=737, 1026.83624pt x 684.5575pt>
+File: ../Ch-measurements/figure1-14.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-14.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-14.png used on input line 5
+50.
+(pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
+
+<../Ch-measurements/figure1-12.png, id=738, 913.4125pt x 590.205pt>
+File: ../Ch-measurements/figure1-12.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-12.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-12.png used on input line 5
+50.
+(pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
+
+<../Ch-measurements/figure1-11.png, id=739, 1027.84pt x 770.88pt>
+File: ../Ch-measurements/figure1-11.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-11.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-11.png used on input line 5
+50.
+(pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
+
+<../Ch-measurements/figure1-13.png, id=740, 913.4125pt x 1254.6875pt>
+File: ../Ch-measurements/figure1-13.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-13.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-13.png used on input line 5
+50.
+(pdftex.def)             Requested size: 51.77794pt x 71.12354pt.
+
+Overfull \hbox (106.69618pt too wide) in paragraph at lines 517--554
+ [] 
+ []
+
+[12 <../Ch-measurements/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-
+12.png (PNG copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measur
+ements/figure1-13.png (PNG copy)>]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 607.
+
+<../Ch-measurements/figure1-8.png, id=754, 1204.5pt x 2156.055pt>
+File: ../Ch-measurements/figure1-8.png Graphic file (type png)
+
+<use ../Ch-measurements/figure1-8.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-8.png used on input line 64
+1.
+(pdftex.def)             Requested size: 43.9262pt x 78.6279pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--644
+
+ []
+
+[13]
+Overfull \hbox (170.39749pt too wide) in paragraph at lines 720--721
+ [] 
+ []
+
+) (../Ch-measurements/Ch-measurementsProblems.tex [14 <../Ch-measurements/figur
+e1-8.png>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 35.
+ [15
+
+] [16] [17]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 786.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 778--788
+[]$[]$ 
+ []
+
+[18
+
+]) (../Ch-parts/b.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 337.33545pt, 202.35622pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=337.33545pt
+* \textheight=688.5567pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=130.08623pt
+* \topmargin=-14.68535pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [19
+
+
+]) (../Ch-Table/Ch-Table.tex [20
+
+
+]
+Chapter 2.
+<../Ch-Table/figure1.png, id=948, 246.6816pt x 145.7445pt>
+File: ../Ch-Table/figure1.png Graphic file (type png)
+
+<use ../Ch-Table/figure1.png>
+Package pdftex.def Info: ../Ch-Table/figure1.png used on input line 13.
+(pdftex.def)             Requested size: 140.56104pt x 83.04631pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]\T1/ptm/m/n/8 (+20) Calculate av-er-age atomic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]\T1/ptm/m/n/8 (+20) Calculate sim-ple molec-u-lar
+ []
+
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-LF on i
+nput line 33.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-LF.fd
+File: T1LinuxLibertineT-LF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
+uxLibertineT-LF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-LF/m/n' will be
+(Font)              scaled to size 60.0pt on input line 33.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinuxLibertineT-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+[21
+
+ <../Ch-Table/figure1.png (PNG copy)>]
+Overfull \hbox (0.644pt too wide) in paragraph at lines 370--370
+ \T1/PTSansNarrow-TLF/b/n/24 Symbol 
+ []
+
+
+Overfull \hbox (58.01869pt too wide) in paragraph at lines 126--413
+[] []
+ []
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 126--413
+[] 
+ []
+
+[22] [23] [24]
+
+LaTeX Warning: Reference `Fig:{table}1' on page 25 undefined on input line 525.
+
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 551.
+
+
+Overfull \hbox (9.35733pt too wide) in paragraph at lines 548--579
+ [][] 
+ []
+
+
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+ [25]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 580.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--606
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 623--627
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 637--643
+
+ []
+
+
+Overfull \hbox (22.34056pt too wide) in paragraph at lines 654--656
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--676
+
+ []
+
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 729--731
+
+ []
+
+) (../Ch-Table/Ch-TableProblems.tex [30]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+
+Package multicol Warning: Using `1' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 274.
+
+
+Package multicol Warning: Using `1' columns doesn't seem a good idea.
+ I therefore use two columns instead on input line 294.
+
+[31
+
+] [32]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 378--388
+[]$[]$ 
+ []
+
+[33
+
+]) (../Ch-naming/Ch-naming.tex [34
+
+
+]
+Chapter 3.
+<../Ch-naming/figure1.png, id=1144, 276.03125pt x 183.68625pt>
+File: ../Ch-naming/figure1.png Graphic file (type png)
+
+<use ../Ch-naming/figure1.png>
+Package pdftex.def Info: ../Ch-naming/figure1.png used on input line 14.
+(pdftex.def)             Requested size: 113.81374pt x 75.73787pt.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+[35 <../Ch-naming/figure1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--63
+
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 68.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24> on input line 68.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18.23987> on input line 68.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.40015> on input line 68.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 25.00818pt on input line 68.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 19.00607pt on input line 68.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.00505pt on input line 68.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 25.00818pt on input line 68.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 19.00607pt on input line 68.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.00505pt on input line 68.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <18.23987> no
+t available
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 68.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
+t available
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 68.
+
+Overfull \hbox (2.73227pt too wide) in paragraph at lines 68--68
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 127--127
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in alignment at lines 167--167
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--172
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in alignment at lines 201--201
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+
+ []
+
+[39]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 245.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 270--270
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--275
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+
+Overfull \hbox (15.74968pt too wide) in paragraph at lines 332--332
+ []|\T1/ptm/b/n/10 Acid/Base| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--337
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
+
+ []
+
+[42]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 380.
+
+
+Overfull \hbox (143.9101pt too wide) in paragraph at lines 377--413
+ [] 
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 503--503
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--508
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 522--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 537--537
+[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--543
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 562--562
+[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--568
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 573--576
+
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 607.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--629
+
+ []
+
+[47]) (../Ch-naming/Ch-namingProblems.tex [48]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+ [49
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\T1/ptm/m/n/10 (+20) (a) $[][][]$ [](b) $[][][][][][][][][]$ [](c) Cobalt(II)
+ ni-trate
+ []
+
+[50] [51]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1517--1527
+[]$[]$ 
+ []
+
+[52
+
+]) (../Ch-parts/c.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 337.33545pt, 202.35622pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=337.33545pt
+* \textheight=688.5567pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=130.08623pt
+* \topmargin=-14.68535pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [53
+
+
+]) (../Ch-mole/Ch-mole.tex [54
+
+
+]
+Chapter 4.
+<../Ch-mole/figure1.png, id=1579, 501.875pt x 481.8pt>
+File: ../Ch-mole/figure1.png Graphic file (type png)
+
+<use ../Ch-mole/figure1.png>
+Package pdftex.def Info: ../Ch-mole/figure1.png used on input line 12.
+(pdftex.def)             Requested size: 113.80533pt x 109.25311pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 22--23
+[]\T1/ptm/m/n/8 (+20) Transform grams into moles
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 24--25
+[]\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
+ []
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+<../Ch-mole/figure3.png, id=1580, 250.9375pt x 221.82875pt>
+File: ../Ch-mole/figure3.png Graphic file (type png)
+
+<use ../Ch-mole/figure3.png>
+Package pdftex.def Info: ../Ch-mole/figure3.png used on input line 73.
+(pdftex.def)             Requested size: 128.04152pt x 113.18869pt.
+
+<../Ch-mole/figure2.png, id=1581, 247.92625pt x 204.765pt>
+File: ../Ch-mole/figure2.png Graphic file (type png)
+
+<use ../Ch-mole/figure2.png>
+Package pdftex.def Info: ../Ch-mole/figure2.png used on input line 73.
+(pdftex.def)             Requested size: 142.26518pt x 117.49837pt.
+
+<../Ch-mole/figure4.png, id=1582, 672.5125pt x 978.65625pt>
+File: ../Ch-mole/figure4.png Graphic file (type png)
+
+<use ../Ch-mole/figure4.png>
+Package pdftex.def Info: ../Ch-mole/figure4.png used on input line 73.
+(pdftex.def)             Requested size: 84.07411pt x 122.34666pt.
+
+<../Ch-mole/figure14.png, id=1583, 3468.96pt x 3472.975pt>
+File: ../Ch-mole/figure14.png Graphic file (type png)
+
+<use ../Ch-mole/figure14.png>
+Package pdftex.def Info: ../Ch-mole/figure14.png used on input line 84.
+(pdftex.def)             Requested size: 122.16705pt x 122.30844pt.
+
+<../Ch-mole/figure13.png, id=1584, 752.8125pt x 752.8125pt>
+File: ../Ch-mole/figure13.png Graphic file (type png)
+
+<use ../Ch-mole/figure13.png>
+Package pdftex.def Info: ../Ch-mole/figure13.png used on input line 84.
+(pdftex.def)             Requested size: 122.34781pt x 122.34781pt.
+
+<../Ch-mole/figure15.png, id=1585, 1027.84pt x 685.56125pt>
+File: ../Ch-mole/figure15.png Graphic file (type png)
+
+<use ../Ch-mole/figure15.png>
+Package pdftex.def Info: ../Ch-mole/figure15.png used on input line 84.
+(pdftex.def)             Requested size: 128.02486pt x 85.39157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--87
+[][]
+ []
+
+[55
+
+ <../Ch-mole/figure1.png (PNG copy)>]
+Overfull \hbox (21.85176pt too wide) detected at line 98
+\OT1/lmr/m/n/10 3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
+^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 4.98 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/
+n/10 10[][]
+ []
+
+[56 <../Ch-mole/figure3.png> <../Ch-mole/figure2.png> <../Ch-mole/figure4.png> 
+<../Ch-mole/figure14.png (PNG copy)> <../Ch-mole/figure13.png (PNG copy)> <../C
+h-mole/figure15.png>]
+Overfull \hbox (15.86595pt too wide) detected at line 127
+\OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
+^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 8.3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n
+/10 10[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+<../Ch-mole/figure5.png, id=1602, 240.9pt x 180.675pt>
+File: ../Ch-mole/figure5.png Graphic file (type png)
+
+<use ../Ch-mole/figure5.png>
+Package pdftex.def Info: ../Ch-mole/figure5.png used on input line 145.
+(pdftex.def)             Requested size: 113.81114pt x 85.35835pt.
+
+<../Ch-mole/figure6.png, id=1603, 255.95625pt x 197.73875pt>
+File: ../Ch-mole/figure6.png Graphic file (type png)
+
+<use ../Ch-mole/figure6.png>
+Package pdftex.def Info: ../Ch-mole/figure6.png used on input line 148.
+(pdftex.def)             Requested size: 113.80838pt x 87.92256pt.
+
+<../Ch-mole/figure7.png, id=1604, 165.18857pt x 106.54663pt>
+File: ../Ch-mole/figure7.png Graphic file (type png)
+
+<use ../Ch-mole/figure7.png>
+Package pdftex.def Info: ../Ch-mole/figure7.png used on input line 151.
+(pdftex.def)             Requested size: 113.81134pt x 73.40833pt.
+
+<../Ch-mole/figure16.png, id=1605, 913.4125pt x 730.73pt>
+File: ../Ch-mole/figure16.png Graphic file (type png)
+
+<use ../Ch-mole/figure16.png>
+Package pdftex.def Info: ../Ch-mole/figure16.png used on input line 154.
+(pdftex.def)             Requested size: 113.79996pt x 91.03996pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 144--160
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 144--160
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 144--160
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 144--160
+[]
+ []
+
+[57 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-mole/figure7.png> 
+<../Ch-mole/figure16.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 173--178
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 210.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 210.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 210.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 210.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 210.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 210.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Overfull \hbox (0.82616pt too wide) in paragraph at lines 243--243
+ [][][][][]\T1/ptm/m/n/10 (-20) Molecules 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+
+ []
+
+[59] <../Ch-mole/figure8.png, id=1629, 803.0pt x 890.32625pt>
+File: ../Ch-mole/figure8.png Graphic file (type png)
+
+<use ../Ch-mole/figure8.png>
+Package pdftex.def Info: ../Ch-mole/figure8.png used on input line 278.
+(pdftex.def)             Requested size: 102.64151pt x 113.80377pt.
+
+<../Ch-mole/figure11.png, id=1630, 803.0pt x 534.99875pt>
+File: ../Ch-mole/figure11.png Graphic file (type png)
+
+<use ../Ch-mole/figure11.png>
+Package pdftex.def Info: ../Ch-mole/figure11.png used on input line 281.
+(pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
+
+<../Ch-mole/figure9.png, id=1631, 225.84375pt x 150.5625pt>
+File: ../Ch-mole/figure9.png Graphic file (type png)
+
+<use ../Ch-mole/figure9.png>
+Package pdftex.def Info: ../Ch-mole/figure9.png used on input line 284.
+(pdftex.def)             Requested size: 113.81412pt x 75.87608pt.
+
+<../Ch-mole/figure10.png, id=1632, 803.0pt x 534.99875pt>
+File: ../Ch-mole/figure10.png Graphic file (type png)
+
+<use ../Ch-mole/figure10.png>
+Package pdftex.def Info: ../Ch-mole/figure10.png used on input line 287.
+(pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 277--293
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 277--293
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 277--293
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 277--293
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 60 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+[60 <../Ch-mole/figure8.png> <../Ch-mole/figure11.png (PNG copy)> <../Ch-mole/f
+igure9.png (PNG copy)> <../Ch-mole/figure10.png (PNG copy)>]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
+Underfull \hbox (badness 3364) in paragraph at lines 314--327
+\T1/ptm/m/n/10 (+20) The ta-ble be-low shows all re-ac-tants and prod-ucts in t
+he form of atoms.
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 328--339
+\T1/ptm/m/n/10 (+20) to one. In con-trast, the num-ber of O atoms in the re-ac-
+tants and prod-ucts
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 328--339
+\T1/ptm/m/n/10 (+20) is not the same, and for this rea-son, we say this re-ac-t
+ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
+ []
+
+[61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 474--479
+
+ []
+
+[63] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
+
+ []
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 594--598
+
+ []
+
+[66]
+Underfull \hbox (badness 1466) in paragraph at lines 609--610
+[]\T1/ptm/m/n/10 (+20) Consider the fol-low-ing re-ac-tion, in
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 662--667
+
+ []
+
+) (../Ch-mole/Ch-moleProblems.tex [68]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+Overfull \hbox (4.09349pt too wide) in paragraph at lines 86--86
+[] 
+ []
+
+
+Overfull \hbox (4.09349pt too wide) in paragraph at lines 225--225
+[] 
+ []
+
+[69
+
+] [70] [71] [72]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Underfull \hbox (badness 7963) in paragraph at lines 660--668
+[] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10
+[][]H[][]O$  []$10[][] \OMS/lmsy/m/n/10 ^^B [] \OT1/zplm/m/n/10 =
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 658--668
+[]$[]$ 
+ []
+
+[73
+
+] [74
+
+
+]) (../Ch-parts/d.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 337.33545pt, 202.35622pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=337.33545pt
+* \textheight=688.5567pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=130.08623pt
+* \topmargin=-14.68535pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [75
+
+
+]) (../Ch-electrolytes/Ch-electrolytes.tex
+[76
+
+
+]
+Chapter 5.
+<../Ch-electrolytes/figure1.png, id=1820, 515.9275pt x 722.7pt>
+File: ../Ch-electrolytes/figure1.png Graphic file (type png)
+
+<use ../Ch-electrolytes/figure1.png>
+Package pdftex.def Info: ../Ch-electrolytes/figure1.png used on input line 11.
+(pdftex.def)             Requested size: 113.81142pt x 159.42456pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 34.
+
+<../Ch-electrolytes/figure3.png, id=1821, 803.0pt x 372.39125pt>
+File: ../Ch-electrolytes/figure3.png Graphic file (type png)
+
+<use ../Ch-electrolytes/figure3.png>
+Package pdftex.def Info: ../Ch-electrolytes/figure3.png used on input line 60.
+(pdftex.def)             Requested size: 519.57904pt x 240.95477pt.
+
+Overfull \hbox (16.30124pt too wide) in paragraph at lines 61--64
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+[77
+
+ <../Ch-electrolytes/figure1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--85
+
+ []
+
+[78 <../Ch-electrolytes/figure3.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
+
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 254--260
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 271.
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 280--288
+
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 299.
+
+
+Package caption Warning: \label without proper reference on input line 321.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `??' on page 82 undefined on input line 299.
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 335--341
+
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 353.
+
+
+Package caption Warning: \label without proper reference on input line 366.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `??' on page 83 undefined on input line 353.
+
+
+Overfull \hbox (60.73703pt too wide) in paragraph at lines 350--366
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--405
+
+ []
+
+
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [84]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 419.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
+
+ []
+
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 439--450
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 461.
+
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+[]
+ []
+
+[87]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 516.
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 516--516
+ [][][][][][][][]
+ []
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 543--549
+
+ []
+
+[89]
+Overfull \hbox (4.03351pt too wide) in paragraph at lines 570--570
+ [][]$\OT1/zplm/m/n/10 +$ 
+ []
+
+[90]
+Overfull \hbox (4.03351pt too wide) in paragraph at lines 595--595
+ [][]$\OT1/zplm/m/n/10 +$ 
+ []
+
+
+Overfull \hbox (4.71976pt too wide) detected at line 608
+[]
+ []
+
+
+Overfull \hbox (63.8507pt too wide) detected at line 634
+[]
+ []
+
+[91]) (../Ch-electrolytes/Ch-electrolytesProblems.tex [92]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+Underfull \hbox (badness 8189) in paragraph at lines 212--212
+[] \T1/ptm/m/n/10 (+20) How many mL of a 0.001M $[][][][][][][]$
+ []
+
+
+Overfull \hbox (44.65742pt too wide) in alignment at lines 255--255
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 274--274
+[][][] 
+ []
+
+[93
+
+]
+Overfull \hbox (0.95967pt too wide) in paragraph at lines 294--294
+[]|$[][][][]$| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 294--294
+[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+
+ []
+
+[94]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 454--464
+[]$[]$ 
+ []
+
+[95
+
+]) (../Ch-Gas/Ch-Gas.tex [96
+
+
+]
+Chapter 6.
+<../Ch-Gas/figure1.png, id=2020, 515.9275pt x 722.7pt>
+File: ../Ch-Gas/figure1.png Graphic file (type png)
+
+<use ../Ch-Gas/figure1.png>
+Package pdftex.def Info: ../Ch-Gas/figure1.png used on input line 10.
+(pdftex.def)             Requested size: 113.81142pt x 159.42456pt.
+
+Underfull \hbox (badness 1831) in paragraph at lines 26--27
+[]\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
+ []
+
+
+LaTeX Warning: Marginpar on page 97 moved.
+
+[97 <../Ch-Gas/figure1.png (PNG copy)>]
+<../Ch-Gas/figure6.png, id=2032, 225.84375pt x 225.84375pt>
+File: ../Ch-Gas/figure6.png Graphic file (type png)
+
+<use ../Ch-Gas/figure6.png>
+Package pdftex.def Info: ../Ch-Gas/figure6.png used on input line 112.
+(pdftex.def)             Requested size: 128.04305pt x 128.04305pt.
+
+<../Ch-Gas/figure7.png, id=2033, 587.19376pt x 389.95688pt>
+File: ../Ch-Gas/figure7.png Graphic file (type png)
+
+<use ../Ch-Gas/figure7.png>
+Package pdftex.def Info: ../Ch-Gas/figure7.png used on input line 115.
+(pdftex.def)             Requested size: 128.52895pt x 85.3564pt.
+
+Overfull \hbox (10.3865pt too wide) in paragraph at lines 108--118
+ []
+ []
+
+
+Overfull \hbox (9.10944pt too wide) in paragraph at lines 108--118
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--152
+
+ []
+
+[98 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>]
+[99] <../Ch-Gas/figure3.png, id=2050, 906.38625pt x 1027.84pt>
+File: ../Ch-Gas/figure3.png Graphic file (type png)
+
+<use ../Ch-Gas/figure3.png>
+Package pdftex.def Info: ../Ch-Gas/figure3.png used on input line 270.
+(pdftex.def)             Requested size: 112.89691pt x 128.02486pt.
+
+<../Ch-Gas/figure4.png, id=2051, 424.58624pt x 601.24625pt>
+File: ../Ch-Gas/figure4.png Graphic file (type png)
+
+<use ../Ch-Gas/figure4.png>
+Package pdftex.def Info: ../Ch-Gas/figure4.png used on input line 270.
+(pdftex.def)             Requested size: 90.41612pt x 128.03606pt.
+
+<../Ch-Gas/figure5.png, id=2052, 184.69pt x 275.0275pt>
+File: ../Ch-Gas/figure5.png Graphic file (type png)
+
+<use ../Ch-Gas/figure5.png>
+Package pdftex.def Info: ../Ch-Gas/figure5.png used on input line 270.
+(pdftex.def)             Requested size: 95.5377pt x 142.26813pt.
+ [100 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (P
+NG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 317--318
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--338
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 372--373
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--393
+
+ []
+
+[101]
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 415--416
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--434
+
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+[]\T1/ptm/m/n/10 (+20) In or-der to
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 481--482
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--513
+
+ []
+
+[103] [104] [105]
+Underfull \hbox (badness 10000) in paragraph at lines 619--621
+
+ []
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 631--639
+
+ []
+
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <7> not avail
+able
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 650.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 704--712
+
+ []
+
+<../Ch-Gas/figure8.png, id=2114, 905.3825pt x 853.1875pt>
+File: ../Ch-Gas/figure8.png Graphic file (type png)
+
+<use ../Ch-Gas/figure8.png>
+Package pdftex.def Info: ../Ch-Gas/figure8.png used on input line 717.
+(pdftex.def)             Requested size: 170.71204pt x 160.87054pt.
+ [108 <../Ch-Gas/figure8.png>]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 750.
+
+
+Overfull \hbox (14.07593pt too wide) in paragraph at lines 747--759
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--775
+
+ []
+
+[109]
+Underfull \hbox (badness 1194) in paragraph at lines 805--806
+[]\T1/ptm/m/n/10 (+20) There are two an der
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 813.
+
+
+Overfull \hbox (30.08163pt too wide) in paragraph at lines 810--824
+ [] 
+ []
+
+
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [110]
+Underfull \hbox (badness 10000) in paragraph at lines 840--845
+
+ []
+
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 876--882
+
+ []
+
+[112] [113] [114
+
+]) (../Ch-Gas/Ch-GasProblems.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+ [115
+
+
+]
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 423.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 423.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 423.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 423.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 423.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 423.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 423.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 423.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 423.
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+[116] [117]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 792--802
+[]$[]$ 
+ []
+
+[118
+
+]) (../Ch-parts/e.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 337.33545pt, 202.35622pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=337.33545pt
+* \textheight=688.5567pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=130.08623pt
+* \topmargin=-14.68535pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [119
+
+
+]) (../Ch-thermochemistry/Ch-thermochemistry.tex
+[120
+
+
+]
+Chapter 7.
+<../Ch-thermochemistry/figure1.png, id=2307, 481.8pt x 642.4pt>
+File: ../Ch-thermochemistry/figure1.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1.png used on input line 1
+5.
+(pdftex.def)             Requested size: 113.81114pt x 151.7482pt.
+
+
+LaTeX Warning: Marginpar on page 121 moved.
+
+
+Underfull \vbox (badness 6944) has occurred while \output is active []
+
+ [121
+
+ <../Ch-thermochemistry/figure1.png>]
+<../Ch-thermochemistry/figure1-9.png, id=2318, 963.6pt x 642.4pt>
+File: ../Ch-thermochemistry/figure1-9.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-9.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-9.png used on input line
+ 60.
+(pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
+
+<../Ch-thermochemistry/figure1-2.png, id=2319, 451.6875pt x 173.64874pt>
+File: ../Ch-thermochemistry/figure1-2.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-2.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-2.png used on input line
+ 63.
+(pdftex.def)             Requested size: 113.81068pt x 43.75388pt.
+
+<../Ch-thermochemistry/figure1-1.png, id=2320, 451.6875pt x 339.2675pt>
+File: ../Ch-thermochemistry/figure1-1.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-1.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-1.png used on input line
+ 66.
+(pdftex.def)             Requested size: 113.63838pt x 85.35504pt.
+
+<../Ch-thermochemistry/figure1-10.png, id=2321, 259.97125pt x 194.7275pt>
+File: ../Ch-thermochemistry/figure1-10.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-10.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-10.png used on input lin
+e 69.
+(pdftex.def)             Requested size: 113.9553pt x 85.35648pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 59--72
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 59--72
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 59--72
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 59--72
+[]
+ []
+
+
+LaTeX Warning: Marginpar on page 122 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+[122 <../Ch-thermochemistry/figure1-9.png (PNG copy)> <../Ch-thermochemistry/fi
+gure1-2.png (PNG copy)> <../Ch-thermochemistry/figure1-1.png (PNG copy)> <../Ch
+-thermochemistry/figure1-10.png (PNG copy)>] [123] [124]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 255.
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 313--314
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+
+Overfull \hbox (2.76985pt too wide) detected at line 354
+[] \OT1/zplm/m/n/10 = \OMS/lmsy/m/n/10 ^^@[] ^^A \OT1/zplm/m/n/10 ^^A[] = \OMS/
+lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1[] \OMS/lmsy/m/n/10 ^^A \OT1/zplm/m/n/10 (\OT1/
+lmr/m/n/10 3.5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[] \OMS/lmsy/m/n/10 ^^@ \
+OT1/lmr/m/n/10 3.0 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]\OT1/zplm/m/n/10 )[
+] \OMS/lmsy/m/n/10 ^^B [] \OT1/zplm/m/n/10 = \OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/1
+0 493.6[]
+ []
+
+[126] [127]
+Underfull \hbox (badness 10000) in paragraph at lines 463--467
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 476--477
+ [][] 
+ []
+
+
+Overfull \hbox (10.52158pt too wide) in paragraph at lines 478--484
+\OT1/lmr/m/n/10 0.5\OML/lmm/m/it/10 M$\T1/ptm/m/n/10 (-20) =2.5$\OMS/lmsy/m/n/1
+0 ^^B\OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (-20) moles 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--497
+
+ []
+
+[128] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 542--546
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 555--556
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--563
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 569--575
+\T1/ptm/m/n/10 (+20) Solving for $\OT1/zplm/m/n/10 ^^A\OML/lmm/m/it/10 Q[]$ \T1
+/ptm/m/n/10 (+20) we ob-tain $\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 50209\OML/lmm
+/m/it/10 J\OT1/zplm/m/n/10 /\OML/lmm/m/it/10 mol$ \T1/ptm/m/n/10 (+20) that is 
+the same as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--575
+
+ []
+
+[130] <../Ch-thermochemistry/figure1-6.png, id=2389, 1003.75pt x 901.3675pt>
+File: ../Ch-thermochemistry/figure1-6.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-6.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-6.png used on input line
+ 598.
+(pdftex.def)             Requested size: 128.0262pt x 114.96753pt.
+
+<../Ch-thermochemistry/figure1-7.png, id=2390, 148.555pt x 222.8325pt>
+File: ../Ch-thermochemistry/figure1-7.png Graphic file (type png)
+
+<use ../Ch-thermochemistry/figure1-7.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-7.png used on input line
+ 598.
+(pdftex.def)             Requested size: 75.87311pt x 113.80968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--638
+
+ []
+
+[131 <../Ch-thermochemistry/figure1-6.png> <../Ch-thermochemistry/figure1-7.png
+ (PNG copy)>]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 649.
+
+
+Underfull \vbox (badness 5652) has occurred while \output is active []
+
+ [132]
+[133]
+Underfull \hbox (badness 3872) in paragraph at lines 732--734
+\T1/ptm/m/n/10 (+20) In or-der to an-swer all ques-tions, we need a set of $\OT
+1/zplm/m/n/10 ^^A\OML/lmm/m/it/10 H[]$ \T1/ptm/m/n/10 (+20) val-ues:
+ []
+
+[134]
+Underfull \hbox (badness 10000) in paragraph at lines 788--793
+
+ []
+
+[135]
+Overfull \hbox (38.22638pt too wide) in paragraph at lines 848--854
+ [] 
+ []
+
+
+Overfull \hbox (1.19817pt too wide) in paragraph at lines 877--884
+ [] 
+ []
+
+[136] [137]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 916.
+
+
+LaTeX Warning: Float too large for page by 7.85654pt on input line 1043.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 31.66182pt on input line 1200.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (../Ch-thermochemistry/Ch-thermochemistryProblems.tex [138] [139]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+ [140
+
+]
+Overfull \hbox (12.0pt too wide) in alignment at lines 294--294
+[][][]
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 312--312
+[][][]
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 330--330
+[][][]
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 350--350
+[][][]
+ []
+
+[141]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 363--373
+[]$[]$ 
+ []
+
+[142
+
+]) (../Ch-solids/Ch-solids.tex
+\unitcellwater=\box296
+\trianglenew=\box297
+
+Chapter 8.
+<../Ch-solids/figure1.png, id=2498, 963.6pt x 642.4pt>
+File: ../Ch-solids/figure1.png Graphic file (type png)
+
+<use ../Ch-solids/figure1.png>
+Package pdftex.def Info: ../Ch-solids/figure1.png used on input line 17.
+(pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]
+ []
+
+[143
+
+
+ <../Ch-solids/figure1.png (PNG copy)>]
+<../Ch-solids/figure17.png, id=2508, 883.3pt x 588.1975pt>
+File: ../Ch-solids/figure17.png Graphic file (type png)
+
+<use ../Ch-solids/figure17.png>
+Package pdftex.def Info: ../Ch-solids/figure17.png used on input line 59.
+(pdftex.def)             Requested size: 113.8087pt x 75.78624pt.
+
+<../Ch-solids/figure18.png, id=2509, 731.73375pt x 1027.84pt>
+File: ../Ch-solids/figure18.png Graphic file (type png)
+
+<use ../Ch-solids/figure18.png>
+Package pdftex.def Info: ../Ch-solids/figure18.png used on input line 62.
+(pdftex.def)             Requested size: 81.01573pt x 113.79987pt.
+
+<../Ch-solids/figure19.png, id=2510, 963.6pt x 637.38126pt>
+File: ../Ch-solids/figure19.png Graphic file (type png)
+
+<use ../Ch-solids/figure19.png>
+Package pdftex.def Info: ../Ch-solids/figure19.png used on input line 65.
+(pdftex.def)             Requested size: 113.80379pt x 75.27646pt.
+
+Overfull \hbox (13.03993pt too wide) in paragraph at lines 61--68
+[][]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 61--68
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 61--68
+[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 144 moved.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 95.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 96.
+
+
+Overfull \hbox (22.69833pt too wide) in paragraph at lines 99--99
+ [] 
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 106.
+
+[144 <../Ch-solids/figure17.png (PNG copy)> <../Ch-solids/figure18.png (PNG cop
+y)> <../Ch-solids/figure19.png (PNG copy)>]
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 222--222
+ [] 
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 233.
+
+[145] [146] [147]
+<../Ch-solids/figure20.png, id=2545, 1042.31662pt x 781.73746pt>
+File: ../Ch-solids/figure20.png Graphic file (type png)
+
+<use ../Ch-solids/figure20.png>
+Package pdftex.def Info: ../Ch-solids/figure20.png used on input line 388.
+(pdftex.def)             Requested size: 343.64746pt x 257.7356pt.
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 393--393
+ [] 
+ []
+
+<../Ch-solids/water.png, id=2547, 1196.47pt x 1027.84pt>
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+ <use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+
+Overfull \hbox (114.92421pt too wide) in paragraph at lines 402--465
+[] [] 
+ []
+
+[148 <../Ch-solids/figure20.png (PNG copy)>]
+Underfull \hbox (badness 2875) in paragraph at lines 492--510
+\T1/ptm/m/n/10 (+20) In gen-eral ionic solids cor-re-spond to ionic com-pounds 
+and molec-u-
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 492--510
+\T1/ptm/m/n/10 (+20) lar solids cor-re-spond to co-va-lent com-pounds. There-fo
+re, dry ice
+ []
+
+[149 <../Ch-solids/water.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 545--560
+[][]  []  []
+ []
+
+
+Overfull \hbox (36.33957pt too wide) in paragraph at lines 521--563
+[] [] 
+ []
+
+[150]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151]
+[152] [153]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154]
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1851
+[]
+ []
+
+<../Ch-solids/figure16.png, id=2598, 510.40688pt x 509.65407pt>
+File: ../Ch-solids/figure16.png Graphic file (type png)
+
+<use ../Ch-solids/figure16.png>
+Package pdftex.def Info: ../Ch-solids/figure16.png used on input line 1937.
+(pdftex.def)             Requested size: 343.67644pt x 343.16954pt.
+
+Overfull \hbox (11.99606pt too wide) in paragraph at lines 1852--1937
+ [] 
+ []
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 1942--1944
+[][]
+ []
+
+[155 <../Ch-solids/figure16.png (PNG copy)>] [156]
+<../Ch-solids/figure7.png, id=2611, 865.73438pt x 1292.57906pt>
+File: ../Ch-solids/figure7.png Graphic file (type png)
+
+<use ../Ch-solids/figure7.png>
+Package pdftex.def Info: ../Ch-solids/figure7.png used on input line 1970.
+(pdftex.def)             Requested size: 76.22185pt x 113.80254pt.
+
+<../Ch-solids/figure8.png, id=2612, 883.3pt x 662.475pt>
+File: ../Ch-solids/figure8.png Graphic file (type png)
+
+<use ../Ch-solids/figure8.png>
+Package pdftex.def Info: ../Ch-solids/figure8.png used on input line 1973.
+(pdftex.def)             Requested size: 113.8087pt x 85.35652pt.
+
+<../Ch-solids/figure9.png, id=2613, 658.46pt x 1027.84pt>
+File: ../Ch-solids/figure9.png Graphic file (type png)
+
+<use ../Ch-solids/figure9.png>
+Package pdftex.def Info: ../Ch-solids/figure9.png used on input line 1976.
+(pdftex.def)             Requested size: 72.90305pt x 113.79987pt.
+
+<../Ch-solids/figure10.png, id=2614, 1026.83624pt x 713.66624pt>
+File: ../Ch-solids/figure10.png Graphic file (type png)
+
+<use ../Ch-solids/figure10.png>
+Package pdftex.def Info: ../Ch-solids/figure10.png used on input line 1979.
+(pdftex.def)             Requested size: 113.79842pt x 79.09157pt.
+
+<../Ch-solids/figure11.png, id=2615, 764.8575pt x 607.51968pt>
+File: ../Ch-solids/figure11.png Graphic file (type png)
+
+<use ../Ch-solids/figure11.png>
+Package pdftex.def Info: ../Ch-solids/figure11.png used on input line 1982.
+(pdftex.def)             Requested size: 113.80168pt x 90.39168pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 1969--1987
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1969--1987
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1969--1987
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1969--1987
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1969--1987
+[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 157 moved.
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 1997--2032
+ [] 
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2043.
+
+
+Overfull \hbox (12.67639pt too wide) in paragraph at lines 2040--2052
+ [] 
+ []
+
+[157 <../Ch-solids/figure7.png (PNG copy)> <../Ch-solids/figure8.png (PNG copy)
+> <../Ch-solids/figure9.png (PNG copy)> <../Ch-solids/figure10.png (PNG copy)> 
+<../Ch-solids/figure11.png (PNG copy)>]
+<../Ch-solids/figure12.png, id=2625, 1421.31pt x 3123.67pt>
+File: ../Ch-solids/figure12.png Graphic file (type png)
+
+<use ../Ch-solids/figure12.png>
+Package pdftex.def Info: ../Ch-solids/figure12.png used on input line 2056.
+(pdftex.def)             Requested size: 51.76785pt x 113.77231pt.
+
+<../Ch-solids/figure13.png, id=2626, 1027.84pt x 770.88pt>
+File: ../Ch-solids/figure13.png Graphic file (type png)
+
+<use ../Ch-solids/figure13.png>
+Package pdftex.def Info: ../Ch-solids/figure13.png used on input line 2059.
+(pdftex.def)             Requested size: 113.79987pt x 85.3499pt.
+
+<../Ch-solids/figure14.png, id=2627, 331.2375pt x 602.25pt>
+File: ../Ch-solids/figure14.png Graphic file (type png)
+
+<use ../Ch-solids/figure14.png>
+Package pdftex.def Info: ../Ch-solids/figure14.png used on input line 2062.
+(pdftex.def)             Requested size: 62.59209pt x 113.80379pt.
+File: ../Ch-solids/figure10.png Graphic file (type png)
+ <use ../Ch-solids/figure10.png>
+Package pdftex.def Info: ../Ch-solids/figure10.png used on input line 2065.
+(pdftex.def)             Requested size: 113.79842pt x 79.09157pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 2055--2068
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 2055--2068
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 2055--2068
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 2055--2068
+[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 158 moved.
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2082.
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2102.
+
+
+Overfull \hbox (43.54016pt too wide) in paragraph at lines 2099--2113
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158 <../Ch-solids/figure12.png (PNG copy)> <../Ch-solids/figure13.png (PNG co
+py)> <../Ch-solids/figure14.png (PNG copy)>]
+Underfull \hbox (badness 3428) in paragraph at lines 2115--2116
+[]\T1/ppl/m/n/10 The en-thalpy of va-por-iza-tion of a liq-uid
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2122.
+
+
+Overfull \hbox (49.19507pt too wide) in paragraph at lines 2119--2133
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2159--2160
+[]\T1/ppl/m/n/10 This va-por pres-sure
+ []
+
+PGFPlots: reading {../Ch-solids/data1.dat}
+PGFPlots: reading {../Ch-solids/data2.dat}
+PGFPlots: reading {../Ch-solids/data3.dat}
+
+Overfull \hbox (26.95457pt too wide) in paragraph at lines 2209--2209
+ [] 
+ []
+
+
+Underfull \vbox (badness 4378) has occurred while \output is active []
+
+ [159]
+[160]
+Package pgfplots info on input line 2283: Using 'lua backend=false' for axis: y
+mode=log unsupported (yet).
+Package pgfplots info on input line 2301: fill between: found 'clip=true'. Prep
+aring pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 2310: fill between: activating layered grap
+hics
+\pgf@layerbox@axis background=\box298
+\pgf@layerboxsaved@axis background=\box299
+\pgf@layerbox@axis grid=\box300
+\pgf@layerboxsaved@axis grid=\box301
+\pgf@layerbox@axis ticks=\box302
+\pgf@layerboxsaved@axis ticks=\box303
+\pgf@layerbox@axis lines=\box304
+\pgf@layerboxsaved@axis lines=\box305
+\pgf@layerbox@axis tick labels=\box306
+\pgf@layerboxsaved@axis tick labels=\box307
+\pgf@layerbox@pre main=\box308
+\pgf@layerboxsaved@pre main=\box309
+\pgf@layerbox@axis descriptions=\box310
+\pgf@layerboxsaved@axis descriptions=\box311
+\pgf@layerbox@axis foreground=\box312
+\pgf@layerboxsaved@axis foreground=\box313
+Package pgfplots info on input line 2310: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+Package pgfplots info on input line 2310: the combination of 'axis on top' and 
+'activate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if
+ you want other layers.
+Package pgfplots info on input line 2310: Setting layers 'axis background,pre m
+ain,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axi
+s foreground'...
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [161]
+[162]
+Package pgfplots info on input line 2349: Using 'lua backend=false' for axis: y
+mode=log unsupported (yet).
+Package pgfplots info on input line 2360: fill between: found 'clip=true'. Prep
+aring pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 2371: fill between: activating layered grap
+hics
+Package pgfplots info on input line 2371: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+Package pgfplots info on input line 2371: the combination of 'axis on top' and 
+'activate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if
+ you want other layers.
+Package pgfplots info on input line 2371: Setting layers 'axis background,pre m
+ain,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axi
+s foreground'...
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 2375--2375
+ [] 
+ []
+
+[163]
+Package pgfplots info on input line 2401: Using 'lua backend=false' for axis: y
+mode=log unsupported (yet).
+Package pgfplots info on input line 2440: Using 'lua backend=false' for axis: y
+mode=log unsupported (yet).
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 2468--2468
+ [] 
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2485.
+
+) (../Ch-solids/Ch-solidsProblems.tex [164]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[] \T1/ptm/m/n/10 (+20) From the fol-low-ing pair of molecules,
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 77--77
+\T1/ptm/m/n/10 (+20) which molecule forms in-ter-molec-u-lar H bonds?
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+[165
+
+] [166] [167]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 865--875
+[]$[]$ 
+ []
+
+[168
+
+]) (../Ch-parts/f.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 337.33545pt, 202.35622pt)
+* v-part:(T,H,B)=(99.58464pt, 688.5567pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=337.33545pt
+* \textheight=688.5567pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=130.08623pt
+* \topmargin=-14.68535pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [169
+
+
+]) (../Ch-radiation/Ch-radiation.tex
+\Axis=\box314
+\Axisb=\box315
+ [170
+
+
+]
+Chapter 9.
+<../Ch-radiation/figure1.png, id=2787, 401.39963pt x 602.25pt>
+File: ../Ch-radiation/figure1.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1.png>
+Package pdftex.def Info: ../Ch-radiation/figure1.png used on input line 19.
+(pdftex.def)             Requested size: 113.80597pt x 170.75163pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/ptm/m/n/8 (+20) Compute fre-quency, wave-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\T1/ptm/m/n/8 (+20) length and the en-ergy of
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 32--33
+[]\T1/ptm/m/n/8 (+20) Obtain elec-tronic con-fig-u-ra-
+ []
+
+
+LaTeX Warning: Marginpar on page 171 moved.
+
+
+Overfull \hbox (20.84213pt too wide) in paragraph at lines 80--80
+ [] 
+ []
+
+[171
+
+ <../Ch-radiation/figure1.png (PNG copy)>] [172] [173]
+<../Ch-radiation/figure1-9.png, id=2809, 525.965pt x 104.39pt>
+File: ../Ch-radiation/figure1-9.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-9.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-9.png used on input line 314.
+(pdftex.def)             Requested size: 142.26123pt x 28.23505pt.
+
+Overfull \hbox (23.01772pt too wide) in paragraph at lines 320--320
+ [] 
+ []
+
+<../Ch-radiation/figure1-17.png, id=2811, 276.03125pt x 183.68625pt>
+File: ../Ch-radiation/figure1-17.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-17.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-17.png used on input line 326.
+
+(pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
+
+<../Ch-radiation/figure1-18.png, id=2812, 276.03125pt x 183.68625pt>
+File: ../Ch-radiation/figure1-18.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-18.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-18.png used on input line 329.
+
+(pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
+
+<../Ch-radiation/figure1-19.png, id=2813, 259.97125pt x 194.7275pt>
+File: ../Ch-radiation/figure1-19.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-19.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-19.png used on input line 333.
+
+(pdftex.def)             Requested size: 113.80853pt x 85.24654pt.
+
+Overfull \hbox (29.56593pt too wide) in paragraph at lines 322--341
+ [] 
+ []
+
+[174 <../Ch-radiation/figure1-9.png> <../Ch-radiation/figure1-17.png (PNG copy)
+> <../Ch-radiation/figure1-18.png (PNG copy)> <../Ch-radiation/figure1-19.png (
+PNG copy)>]
+Underfull \hbox (badness 6708) in paragraph at lines 347--348
+[]\T1/ptm/m/n/10 (+20) Depending on its frequency--or on its
+ []
+
+Package pgfplots info on input line 376: Using 'lua backend=false' for axis: xm
+ode=log unsupported (yet).
+Package pgfplots info on input line 388: fill between: found 'clip=true'. Prepa
+ring pgfplotsextra instruction with clip path for layer 'axis grid'...
+Package pgfplots info on input line 402: fill between: activating layered graph
+ics
+Package pgfplots info on input line 402: Setting layers 'axis background,axis g
+rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
+ foreground'...
+<../Ch-radiation/figure1-10.png, id=2822, 729.72626pt x 476.78125pt>
+File: ../Ch-radiation/figure1-10.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-10.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-10.png used on input line 440.
+
+(pdftex.def)             Requested size: 343.66174pt x 224.53827pt.
+
+<../Ch-radiation/figure1-14.png, id=2823, 883.3pt x 1284.8pt>
+File: ../Ch-radiation/figure1-14.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-14.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-14.png used on input line 446.
+
+(pdftex.def)             Requested size: 343.66345pt x 499.87411pt.
+
+<../Ch-radiation/figure1-13.png, id=2824, 737.75626pt x 1026.83624pt>
+File: ../Ch-radiation/figure1-13.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-13.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-13.png used on input line 453.
+
+(pdftex.def)             Requested size: 343.66101pt x 478.32pt.
+
+<../Ch-radiation/figure1-12.png, id=2825, 1103.62312pt x 1567.35562pt>
+File: ../Ch-radiation/figure1-12.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-12.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-12.png used on input line 460.
+
+(pdftex.def)             Requested size: 343.65207pt x 488.05157pt.
+
+<../Ch-radiation/figure1-16.png, id=2826, 1027.84pt x 629.35126pt>
+File: ../Ch-radiation/figure1-16.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-16.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-16.png used on input line 468.
+
+(pdftex.def)             Requested size: 343.65807pt x 210.42343pt.
+
+<../Ch-radiation/figure1-15.png, id=2827, 259.97125pt x 194.7275pt>
+File: ../Ch-radiation/figure1-15.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-15.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-15.png used on input line 476.
+
+(pdftex.def)             Requested size: 343.65895pt x 257.41248pt.
+
+Overfull \hbox (20.84213pt too wide) in paragraph at lines 482--482
+ [] 
+ []
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 526.
+
+
+LaTeX Warning: Reference `tab:electrolytes4' on page 175 undefined on input lin
+e 526.
+
+
+Underfull \vbox (badness 2744) has occurred while \output is active []
+
+ [175 <../Ch-radiation/figure1-10.png (PNG copy)> <../Ch-radiation/figure1-14.p
+ng (PNG copy)> <../Ch-radiation/figure1-13.png (PNG copy)> <../Ch-radiation/fig
+ure1-12.png (PNG copy)> <../Ch-radiation/figure1-16.png> <../Ch-radiation/figur
+e1-15.png (PNG copy)>]
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 616--616
+ [] 
+ []
+
+[176]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 627.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+[177] <../Ch-radiation/figure1-21.png, id=2861, 1077.626pt x 497.057pt>
+File: ../Ch-radiation/figure1-21.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-21.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-21.png used on input line 698.
+
+(pdftex.def)             Requested size: 227.6236pt x 104.9918pt.
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 700--700
+ [] 
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 707--712
+[]\T1/ptm/m/n/10 (+20) Newton shown that sun-light (white
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--712
+
+ []
+
+[178 <../Ch-radiation/figure1-21.png>]
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <52> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 780.
+Missing character: There is no ; in font nullfont!
+
+<../Ch-radiation/figure1-20.png, id=2869, 1204.5pt x 481.8pt>
+File: ../Ch-radiation/figure1-20.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-20.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-20.png used on input line 878.
+
+(pdftex.def)             Requested size: 343.65366pt x 137.46146pt.
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 887--887
+ [] 
+ []
+
+[179 <../Ch-radiation/figure1-20.png>]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 994.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (12.01175pt too wide) in paragraph at lines 1014--1039
+ [] 
+ []
+
+[180]
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [181]
+Underfull \hbox (badness 1259) in paragraph at lines 1094--1132
+[]\T1/ptm/m/n/10 (+20) Bohr's mod-els was able to ex-plain the
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1094--1132
+[] [] []
+ []
+
+[182] <../Ch-radiation/figure1-22.png, id=2902, 513.92pt x 513.92pt>
+File: ../Ch-radiation/figure1-22.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-22.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-22.png used on input line 1162
+.
+(pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
+
+<../Ch-radiation/figure1-23.png, id=2903, 513.92pt x 513.92pt>
+File: ../Ch-radiation/figure1-23.png Graphic file (type png)
+
+<use ../Ch-radiation/figure1-23.png>
+Package pdftex.def Info: ../Ch-radiation/figure1-23.png used on input line 1164
+.
+(pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
+
+Underfull \hbox (badness 2837) in paragraph at lines 1159--1169
+[]\T1/ptm/m/n/10 (+20) Following De Broglie's pro-posal that par-ti-cles be-
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 1159--1169
+\T1/ptm/m/n/10 (+20) were found to ex-hibit prop-er-ties of wave. The diffrac-t
+ion of elec-trons was
+ []
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 1159--1169
+[][] 
+ []
+
+[183 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.pn
+g (PNG copy)>] [184]
+Overfull \hbox (1.53433pt too wide) in paragraph at lines 1239--1239
+[]|\T1/PTSansNarrow-TLF/m/n/10 (-20) Quantum
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1239--1239
+[][] 
+ []
+
+
+LaTeX Warning: Marginpar on page 185 moved.
+
+[185]
+Underfull \hbox (badness 1062) in paragraph at lines 1253--1291
+[]\T1/ptm/m/n/10 (+20) Indicate if the fol-low-ing com-bi-na-tion of quan-tum n
+um-bers is al-lowed:
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1253--1291
+\T1/ptm/m/n/10 (+20) Indicate if the fol-low-ing com-bi-na-tion of quan-tum num
+-bers is al-lowed:
+ []
+
+[186]
+Overfull \hbox (126.90468pt too wide) in paragraph at lines 1372--1374
+ [] 
+ []
+
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (35.80731pt too wide) in paragraph at lines 1521--1521
+ [] 
+ []
+
+[187]
+Overfull \hbox (20.28506pt too wide) in paragraph at lines 1554--1554
+ [] 
+ []
+
+[188]
+Overfull \hbox (23.70767pt too wide) in paragraph at lines 1609--1609
+ [] 
+ []
+
+
+Overfull \hbox (36.59pt too wide) in paragraph at lines 1764--1766
+ [] 
+ []
+
+[189] [190] [191]
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+ [192] [193]
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2031
+[]\T1/ptm/m/n/10 (+20) Let
+ []
+
+
+LaTeX Warning: Reference `orbitalfill' on page 194 undefined on input line 2073
+.
+
+[194] [195]
+Overfull \hbox (1.11319pt too wide) in paragraph at lines 2128--2304
+[] [] 
+ []
+
+
+Overfull \hbox (136.12215pt too wide) in paragraph at lines 2452--2453
+[][] 
+ []
+
+[196]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2463.
+
+
+Overfull \hbox (164.35007pt too wide) in paragraph at lines 2460--2478
+ [] 
+ []
+
+[197]
+Overfull \hbox (29.56593pt too wide) in paragraph at lines 2551--2614
+[] [] 
+ []
+
+[198]
+Overfull \hbox (241.31636pt too wide) in paragraph at lines 2628--2628
+[][][][][]  
+ []
+
+
+Overfull \hbox (362.6357pt too wide) in paragraph at lines 2633--2633
+[][][][][]  
+ []
+
+
+Overfull \hbox (344.41896pt too wide) in paragraph at lines 2638--2638
+[][][][][]  
+ []
+
+
+Overfull \hbox (496.19295pt too wide) in paragraph at lines 2643--2643
+[][][][][]  
+ []
+
+
+Overfull \hbox (144.22401pt too wide) in paragraph at lines 2649--2649
+[][][][][]  
+ []
+
+
+Overfull \hbox (171.82971pt too wide) in paragraph at lines 2620--2653
+[] 
+ []
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 2658--2659
+[][] 
+ []
+
+[199] [200]
+Underfull \hbox (badness 1460) in paragraph at lines 2711--2752
+[]\T1/ptm/m/n/10 (+20) Photoelectron spec-troscopy is a
+ []
+
+[201] [202]) (../Ch-radiation/Ch-radiationProblems.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+Underfull \hbox (badness 6220) in paragraph at lines 97--97
+[] \T1/ptm/m/n/10 (+20) Sec-tions of two elec-tro-mag-netic waves A
+ []
+
+
+Overfull \hbox (9.71188pt too wide) in paragraph at lines 223--223
+ []|[]| 
+ []
+
+[203
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 343--353
+[]$[]$ 
+ []
+
+[204
+
+]) (../Ch-electronicstructure/Ch-electronicstructure.tex
+Chapter 10.
+<../Ch-electronicstructure/figure1.png, id=3225, 1104.125pt x 509.905pt>
+File: ../Ch-electronicstructure/figure1.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/figure1.png>
+Package pdftex.def Info: ../Ch-electronicstructure/figure1.png used on input li
+ne 21.
+(pdftex.def)             Requested size: 113.80533pt x 52.55736pt.
+
+Underfull \hbox (badness 3281) in paragraph at lines 31--32
+[]\T1/ptm/m/n/8 (+20) Construct electron-dot struc-
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 32--33
+[]\T1/ptm/m/n/8 (+20) Identify the ge-om-e-try of a
+ []
+
+
+LaTeX Warning: Marginpar on page 205 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+
+ []
+
+[205
+
+
+ <../Ch-electronicstructure/figure1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [206]
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+[207]
+Underfull \hbox (badness 10000) in paragraph at lines 132--137
+
+ []
+
+[208]
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+
+LaTeX Warning: Reference `tab:vsepr' on page 209 undefined on input line 179.
+
+
+LaTeX Warning: Reference `tab:vsepr' on page 209 undefined on input line 179.
+
+[209]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 191.
+
+<../Ch-electronicstructure/geom1.png, id=3275, 50.1875pt x 23.08624pt>
+File: ../Ch-electronicstructure/geom1.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom1.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom1.png used on input line
+ 195.
+(pdftex.def)             Requested size: 34.37056pt x 15.81044pt.
+
+<../Ch-electronicstructure/geom9.png, id=3276, 1104.125pt x 602.25pt>
+File: ../Ch-electronicstructure/geom9.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom9.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom9.png used on input line
+ 195.
+(pdftex.def)             Requested size: 34.35219pt x 18.73755pt.
+
+<../Ch-electronicstructure/geom2.png, id=3277, 50.1875pt x 44.165pt>
+File: ../Ch-electronicstructure/geom2.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom2.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom2.png used on input line
+ 195.
+(pdftex.def)             Requested size: 34.37056pt x 30.24608pt.
+
+<../Ch-electronicstructure/geom10.png, id=3278, 1104.125pt x 808.01875pt>
+File: ../Ch-electronicstructure/geom10.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom10.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom10.png used on input lin
+e 195.
+(pdftex.def)             Requested size: 34.35219pt x 25.13956pt.
+
+<../Ch-electronicstructure/geom3.png, id=3279, 50.1875pt x 34.1275pt>
+File: ../Ch-electronicstructure/geom3.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom3.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom3.png used on input line
+ 196.
+(pdftex.def)             Requested size: 34.37056pt x 23.37196pt.
+
+<../Ch-electronicstructure/geom11.png, id=3280, 1104.125pt x 509.905pt>
+File: ../Ch-electronicstructure/geom11.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom11.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom11.png used on input lin
+e 196.
+(pdftex.def)             Requested size: 34.35219pt x 15.86446pt.
+
+<../Ch-electronicstructure/geom4.png, id=3281, 50.1875pt x 50.1875pt>
+File: ../Ch-electronicstructure/geom4.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom4.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom4.png used on input line
+ 198.
+(pdftex.def)             Requested size: 34.37056pt x 34.37056pt.
+
+<../Ch-electronicstructure/geom12.png, id=3282, 1104.125pt x 894.34125pt>
+File: ../Ch-electronicstructure/geom12.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom12.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom12.png used on input lin
+e 198.
+(pdftex.def)             Requested size: 34.35219pt x 27.82527pt.
+
+<../Ch-electronicstructure/geom5.png, id=3283, 50.1875pt x 40.15pt>
+File: ../Ch-electronicstructure/geom5.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom5.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom5.png used on input line
+ 200.
+(pdftex.def)             Requested size: 34.37056pt x 27.49644pt.
+
+<../Ch-electronicstructure/geom13.png, id=3284, 1104.125pt x 798.985pt>
+File: ../Ch-electronicstructure/geom13.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom13.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom13.png used on input lin
+e 200.
+(pdftex.def)             Requested size: 34.35219pt x 24.85849pt.
+
+<../Ch-electronicstructure/geom6.png, id=3285, 50.1875pt x 34.1275pt>
+File: ../Ch-electronicstructure/geom6.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom6.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom6.png used on input line
+ 201.
+(pdftex.def)             Requested size: 34.37056pt x 23.37196pt.
+
+<../Ch-electronicstructure/geom7.png, id=3286, 50.1875pt x 57.21375pt>
+File: ../Ch-electronicstructure/geom7.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom7.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom7.png used on input line
+ 202.
+(pdftex.def)             Requested size: 34.37056pt x 39.18243pt.
+
+<../Ch-electronicstructure/geom8.png, id=3287, 50.1875pt x 53.19875pt>
+File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
+
+<use ../Ch-electronicstructure/geom8.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom8.png used on input line
+ 204.
+(pdftex.def)             Requested size: 34.37056pt x 36.43279pt.
+
+Overfull \hbox (223.4426pt too wide) in paragraph at lines 188--206
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [210 <../Ch-electronicstructure/geom1.png> <../Ch-electronicstructure/geom9.pn
+g> <../Ch-electronicstructure/geom2.png> <../Ch-electronicstructure/geom10.png>
+ <../Ch-electronicstructure/geom3.png> <../Ch-electronicstructure/geom11.png> <
+../Ch-electronicstructure/geom4.png> <../Ch-electronicstructure/geom12.png> <..
+/Ch-electronicstructure/geom5.png> <../Ch-electronicstructure/geom13.png> <../C
+h-electronicstructure/geom6.png> <../Ch-electronicstructure/geom7.png> <../Ch-e
+lectronicstructure/geom8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 261--264
+
+ []
+
+[211] [212]
+
+LaTeX Warning: Reference `tab:hybrid' on page 213 undefined on input line 296.
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 319.
+
+
+Overfull \hbox (67.59016pt too wide) in paragraph at lines 325--325
+[][] 
+ []
+
+
+Overfull \hbox (76.3448pt too wide) in paragraph at lines 328--329
+[][] 
+ []
+
+
+Overfull \hbox (79.0395pt too wide) in paragraph at lines 333--334
+[][] 
+ []
+
+
+Overfull \hbox (76.3448pt too wide) in paragraph at lines 338--339
+[][] 
+ []
+
+
+Overfull \hbox (74.29199pt too wide) in paragraph at lines 316--341
+ [] 
+ []
+
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 311--343
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--353
+
+ []
+
+[213]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [214]
+Overfull \hbox (28.89708pt too wide) in paragraph at lines 589--589
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7.6> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 645.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <6> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 645.
+[215]
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [216]
+Underfull \hbox (badness 3601) in paragraph at lines 795--801
+[]\T1/ptm/m/n/10 (+20) Given the fol-low-ing MO con-fig-u-ra-tions: (a) $\OML/l
+mm/m/it/10 ^^[[]^^[[]^^Y[]^^[[]$ \T1/ptm/m/n/10 (+20) and (b)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--801
+
+ []
+
+[217]
+Underfull \hbox (badness 10000) in paragraph at lines 810--816
+
+ []
+
+) (../Ch-electronicstructure/Ch-electronicstructureProblems.tex [218]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0
