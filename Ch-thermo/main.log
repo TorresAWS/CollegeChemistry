@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 DEC 2020 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2020 17:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4773,7 +4773,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5306.
@@ -4795,7 +4795,7 @@ LaTeX Font Info:    ... okay on input line 5306.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5306.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5306
 .
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5306.
@@ -4810,12 +4810,11 @@ Package hyperref Info: Link coloring ON on input line 5306.
 LaTeX Info: Redefining \ref on input line 5306.
 LaTeX Info: Redefining \pageref on input line 5306.
 LaTeX Info: Redefining \nameref on input line 5306.
- (./main.out)
-(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5306.
 
 *geometry* driver: auto-detecting
@@ -5678,7 +5677,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  A05C8C2875B513F69BCCD07F6FAF208D;1192.
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5696,10 +5695,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
  ) 
 Here is how much of TeX's memory you used:
- 80742 strings out of 493014
- 1819844 string characters out of 6133351
- 2946228 words of memory out of 5000000
- 82373 multiletter control sequences out of 15000+600000
+ 80734 strings out of 493014
+ 1819759 string characters out of 6133351
+ 2946170 words of memory out of 5000000
+ 82371 multiletter control sequences out of 15000+600000
  255086 words of font info for 321 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,24n,102p,10369b,2340s stack positions out of 5000i,500n,10000p,200000b,80000s
