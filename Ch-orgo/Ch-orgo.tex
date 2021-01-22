@@ -1,6 +1,7 @@
 \documentclass[main.tex]{subfiles}
 \pagenumbering{arabic}
 \newcommand\chapterlabel{orgo}
+\newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
 \begin{document}
 
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
@@ -40,10 +41,7 @@
 \docenvdef{Discussion:} Think about any drug you have taken recently. Paste its structure and indicate at least one functional group in the molecule. \end{tcolorbox}
  \end{marginfigure}
 
-\begin{marginfigure}[2cm]%%%%%%%% MARGIN FIGURE
-\includegraphics{../Ch-orgo/figure2}
-\caption{Methane (\ce{CH4}) is used as a fuel for ovens, homes, water heaters. }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
 
 
 \section{\color{blue!30!black}{Alkanes}}
@@ -56,6 +54,42 @@ This first section will introduce organic chemistry, covering the most simple or
 \begin{center}\chemfig{C(-[2]H)(-[4]H)(-[6]H)(-[8]H)}\hspace{0.5cm}\textcolor{blue}{Methane, \ce{CH4}}\end{center}
 This structure is very representative in this chapter as it shows that each carbon atom has to be connected to four different atoms.
 
+ 
+\begin{center}
+\refstepcounter{table} \label{tab:{\chapterlabel}1}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}1} Prefixed for alkane naming } \\
+\midrule
+\# Carbons & prefix  &&\# Carbons & prefix \\
+\midrule
+1 &    Meth    &&  6 &    Hex     \\
+2 &    Eth     &&  7 &    Hepta     \\
+3 &   Pro     && 8 &    Octa     \\
+4 &    But     &&    9 &    Nona    \\
+5 &    Pent   && 10 &    Deca       \\
+\bottomrule
+\end{tabular}\end{center}
+   \begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Methane (\ce{CH4}) is used as a fuel for ovens, homes, water heaters.};
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Hydrocarbons are made of carbon and hydrogen.};
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure4}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}The octane rating of gas is a standard measure of the performance of engine fuels, originally determined by mixing a gasoline made entirely of heptane and 2,2,4-trimethylpentane (a highly branched octane).};
+\end{tikzpicture}
+%\caption{Examples of measuring equipment}
+\label{fig:marginfig1}
+\end{marginfigure}
+
 \item[\docfilehook{  Alkanes}{Alkanes}] Alkanes are simple organic compounds made of Carbon and Hydrogen with all carbons connected by means of simple bonds--these are single lines to represent the connections between atoms. The naming of alkanes results of adding a prefix to the sufix \emph{ane}. The prefix depends on the number of carbons in the molecule. Table \ref{table12:2} shows a list of the different prefixes. For example, the alkane with one carbon is called methane. Another example of alkanes would be ethane that contains two carbons:
 \begin{center}\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-H} \hspace{0.5cm}\textcolor{blue}{Ethane, \ce{C2H6}}\end{center}
 or propane:
@@ -64,23 +98,13 @@ or propane:
 
 
 
-\begin{marginfigure}[-5cm]%%%%%%%MARGIN FIGURE
- \label{table12:2}
-\begin{tcolorbox}[tab2,tabularx={X|Y}]%%%% FANCY COLOR TABLE
-\# Carbons & prefix              \\\hline\hline
-1 &    Meth           \\\hline
-2 &    Eth           \\\hline
-3 &   Pro          \\\hline
-4 &    But           \\\hline
-5 &    Pent           \\\hline
-6 &    Hex           \\\hline
-7 &    Hepta           \\\hline
-8 &    Octa           \\\hline
-9 &    Nona           \\\hline
-10 &    Deca                  
-\end{tcolorbox}%%%% FANCY COLOR TABLE
-\caption{Prefixed for alkane naming.}
- \end{marginfigure}%%%%%%%MARGIN FIGURE
+
+
+
+
+
+
+
 
 \item[\docfilehook{  General formula for alkanes}{General formula for alkanes}] At this point we saw two different alkanes: methane (\ce{CH4}), butane (\ce{C2H6}) and propane (\ce{C3H8}). The general formula for an alkane with $n$ carbon atoms is:
 
@@ -90,25 +114,40 @@ or propane:
  \end{equation}
 % \resizeableyellownote{2.5}{1}{Add  Formula \textcolor{blue}{\ref{formula12.1}} to your flashcard.}
  As an example, the formula for methane ($n=1$) is $ CH_{4}$ and the formula for octane ($n=8$) is $ C_8H_{18}$.
-\begin{marginfigure}%%%%%%%% MARGIN FIGURE
-\includegraphics{../Ch-orgo/figure3}
-\caption{Hydrocarbons are made of carbon and hydrogen. }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Write down the molecular formula for decane and pentane.
 \\
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 Using Equation \ref{formula12.1} we have that the molecular formula for decane ($n=10$) would be: \ce{C10H22}. Similarly, the molecular formula for pentane ($n=5$) would be: \ce{C5H12}.
-\\
+\begin{flushright}  \mytriangleright{dgreen}\small Answer: (decane) \ce{C10H22}; (pentane) \ce{C5H12} \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the alkane with formula \ce{C7H16} and give the formula for nonane.
-\\
-\flushright{  \small Answer: heptane, \ce{C9H20}.}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-\begin{marginfigure}[2cm]%%%%%%%% MARGIN FIGURE
-\includegraphics{../Ch-orgo/figure4}
-\caption{The octane rating of gas is a standard measure of the performance of engine fuels, originally determined by mixing a gasoline made entirely of heptane and 2,2,4-trimethylpentane (a highly branched octane).}
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+\begin{flushright} \mytriangleright{dgreen}\small Answer: heptane, \ce{C9H20}.\end{flushright}\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 \item[\docfilehook{  Alkanes contain \ce{CH3} and \ce{CH2} units}{Alkanes contain \ce{CH3} and \ce{CH2} units}] Let us analyze the formula of propane. In this formula there are two different types of carbons. One is the end of the chain carbon, in the left and in the right. The other type of carbon is the central carbon. The extremes are bounded to three hydrogen, whereas the central is bounded to two hydrogens.
 \begin{center}\chemfig{C(-[2]@{B}H)(-[4]@{A}H)(-[6]H)-C(-[2]H@{E})(-[6]H)-C(-[2]H@{C})(-[6]H)-H@{D}} \end{center}
@@ -191,13 +230,13 @@ Pentane has five carbons, hence its condensed formula will have two \ce{CH3} uni
 \begin{center}\chemfig{CH_3-CH_2-CH_2-CH_2-CH_3}\end{center}
 The expanded formula for pentane would be:
 \begin{center}\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H} \end{center}
+Expressing this in an abbreviated way, we have that the answer is also:
+\begin{flushright}  \mytriangleright{dgreen} \small Answer:  \setpolymerdelim()\chemfig{CH_3 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]CH_3 }\makebraces(5pt,5pt){$\scriptstyle\!\!3$}{A}{B} \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Write down the condensed and expanded formulas for heptane.
-\\
- \begin{flushright} \small Answer: \small 
+ \begin{flushright} \mytriangleright{dgreen}\small Answer: \small 
  \setpolymerdelim()\chemfig{H-C(-[2]H)(-[6]H) -[@{A,0.5}:0,2]C(-[2]H)(-[6]H) -[@{B,0.5}:0,2]C(-[2]H)(-[6]H)-H }\makebraces(15pt,15pt){$\scriptstyle\!\!5$}{A}{B}; 
   \setpolymerdelim()\chemfig{CH_3 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]CH_3 }\makebraces(5pt,5pt){$\scriptstyle\!\!5$}{A}{B}
-
  \end{flushright}
 
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
@@ -231,11 +270,10 @@ Write down the condensed and skeletal formulas for heptane.
 Heptane has seven carbons, hence its condensed formula will have two \ce{CH3} units and five \ce{CH2} units:
 \begin{center}\chemfig{H_3C-[:45]!{CH2}-[:-45]CH_2-[:45]CH_2-[:-45]CH_2-[:45]CH_2-[:-45]CH_3}\end{center}
 The skeletal formula for would be:
-\begin{center}\chemfig{-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]} \end{center}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: \chemfig{-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]} \end{flushright} 
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Draw the skeletal formula of decane.
-\\
-\flushright{  \small Answer: \chemfig{-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]}}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: \chemfig{-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]}\end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -244,10 +282,28 @@ Draw the skeletal formula of decane.
 \section{\color{blue!30!black}{Cycloalkanes}}
 This section deals with cyclic alkanes. Alkanes are perfect examples of hydrocarbons, with C-C chains and all carbon atoms saturates with hydrogen. Cycloalkanes are in essence alkanes that have a cyclic structure. We will cover the molecular, condensed and skeletal formulas for these chemicals.
 \sloppy
-\begin{marginfigure}%%%%%%%% MARGIN FIGURE
-\includegraphics{../Ch-orgo/figure5}
-\caption{Cyclononane contains 9 carbons in a cycle. \\ \textcolor{red}{\textbf{Q:} What is the molecular formula Cyclononane?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+   \begin{marginfigure}[2cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure5}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Cyclononane contains 9 carbons in a cycle. \\ \textcolor{red}{\textbf{Q:} What is the molecular formula Cyclononane?}};
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure6}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Cyclohexane has a chair shape. \\ \textcolor{red}{\textbf{Q:} How many H are there in cyclohexane?}};
+ \end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture}  \node (a) at (0,0) {\includegraphics[width=2.7cm, height=2.7cm]{../Ch-orgo/figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Cyclopropane has only three carbons and a lot tension in its cycle. \\ \textcolor{red}{\textbf{Q:} Would cyclopropane be a stable of unstable molecule?}};
+\end{tikzpicture}
+%\caption{Examples of measuring equipment}
+\label{fig:marginfig2}
+\end{marginfigure}
+
+
+
 \begin{description}
 \item[\docfilehook{  Cyclic alkanes}{Cyclic alkanes}] Let us use the expanded estructure of hexane as an example. 
 \begin{center}\chemfig{C(-[:90]H)(-[:180]H)(-[:-90]H)-C(-[:90]H)(-[:-90]H)-C(-[:90]H)(-[:-90]H)-C(-[:90]H)(-[:-90]H)-C(-[:90]H)(-[:-90]H)-C(-[:90]H)(-[:-90]H)-H   }\end{center}
@@ -263,24 +319,33 @@ As the most stable structure for six lines is the hexagon. The results looks lik
 \item[\docfilehook{  Naming cyloalkanes}{Naming cyloalkanes}] The naming of alkanes and cycloalkanes is very similar. You just need to add the cyclo prefix to the name. For example, the alkane with five carbons is called pentane. The corresponding cycloalkane is called cyclopentane:
 \begin{center}\chemfig{CH_2*5(-CH_2-CH_2-CH_2-CH_2-[,,2])}\hspace{1cm} or \hspace{1cm}\chemfig{*5(------)}  \hspace{0.5cm}\textcolor{blue}{Cyclopentane}\end{center}
 
-\begin{marginfigure}[-10cm]%%%%%%%% MARGIN FIGURE
-\includegraphics{../Ch-orgo/figure6}
-\caption{Cyclohexane has a chair shape. \\ \textcolor{red}{\textbf{Q:} How many H are there in cyclohexane?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
-\begin{marginfigure}[-1cm]%%%%%%%% MARGIN FIGURE
-\includegraphics[width=0.7\columnwidth]{../Ch-orgo/figure7}
-\caption{Cyclopropane has only three carbons and a lot tension in its cycle. \\ \textcolor{red}{\textbf{Q:} Would cyclopropane be a stable of unstable molecule?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Write down the condensed structure and name the following cycloalkane:
 \begin{center}\chemfig{*4(----)} \end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 The cycloalkane has four carbons and its name is cylcobutane. Its condensed structure is 
-\begin{center}\chemfig{CH_2*4(-CH_2-CH_2-CH_2-[,,2])}\end{center}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: \chemfig{CH_2*4(-CH_2-CH_2-CH_2-[,,2])} \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Write down the condensed structure and name the following cycloalkane:
 \begin{center}\chemfig{*3(---)} \end{center}
-\flushright{  \small Answer: cyclopropane, \chemfig{CH_2*3(-CH_2-CH_2-[,,2])} }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: cyclopropane, \chemfig{CH_2*3(-CH_2-CH_2-[,,2])} \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -297,12 +362,11 @@ Write down the condensed structure and name the following cycloalkane:
 Write down the molecular formula for cyclodecane and cyclopentane.
 \\
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-Using Equation \ref{formula12.2} we have that the molecular formula for cyclodecane ($n=10$) would be: \ce{C10H20}. Similarly, the molecular formula for cyclopentane ($n=5$) would be: \ce{C5H10}.
-\\
+Using Equation \ref{formula12.2} we have that the molecular formula for cyclodecane ($n=10$) would be: \ce{C10H20}. Similarly, the molecular formula for cyclopentane ($n=5$) would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: \ce{C5H10}.\end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the alkane with formula \ce{C7H14} and give the formula for cyclononane.
-\\
-\flushright{  \small Answer: cycloheptane, \ce{C9H18}.}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: cycloheptane, \ce{C9H18}.\end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 \end{description}
 
@@ -358,12 +422,13 @@ Similarly, you should use the prefix \emph{tri} for three equal substituents.
 Name the following hydrocarbon:
 \begin{center} \chemfig{CH_3-CH_2-CH_2-CH(-[:90,1]I)(-[:-90,1]I)}\end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The carbon chain has four carbons and hence the ending of the name would be: butane. Also there are two iodines (iodo substituents) attached to the carbon chain. As there are two of the same iodo atoms, we need to use the prefix \emph{di}. The full name would be: Dioiodobutane.
-\\
+The carbon chain has four carbons and hence the ending of the name would be: butane. Also there are two iodines (iodo substituents) attached to the carbon chain. As there are two of the same iodo atoms, we need to use the prefix \emph{di}. The full name would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Dioiodobutane. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the following hydrocarbon:
 \begin{center} \chemfig{CH_3-CH_2-CH_2-CH_2-C(-[:0,1]F)(-[:90,1]F)(-[:-90,1]F)}\end{center}
-\flushright{  \small Answer: Trifluoropentane. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Trifluoropentane. \end{flushright}
+
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -380,12 +445,12 @@ As they have different names you cannot use the prefix \emph{di}. Still, when yo
 Name the following hydrocarbon:
 \begin{center} \chemfig{CH_3-C(-[:90,1]F)(-[:-90,1]I)-Br}\end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The carbon chain has two carbons and hence the ending of the name would be: ethane. Also there are three different substituents: iodine (iodo substituents), bromine (bromo substituents) and fluorine (fluoro substituents). We need to order them according to the \emph{abc}, hence the order would be: bromo, then fluoro and finally iodo. The full name of the alkane would be: Bromo-Fluoro-Iodoethane.
-\\
+The carbon chain has two carbons and hence the ending of the name would be: ethane. Also there are three different substituents: iodine (iodo substituents), bromine (bromo substituents) and fluorine (fluoro substituents). We need to order them according to the \emph{abc}, hence the order would be: bromo, then fluoro and finally iodo. The full name of the alkane would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Bromo-Fluoro-Iodoethane. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the following hydrocarbon:
 \begin{center} \chemfig{CH_3CH_2CH_2-C(-[:90,1]F)(-[:-90,1]F)-Br}\end{center}
-\flushright{  \small Answer: Bromodifluorobutane. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Bromodifluorobutane. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -407,11 +472,11 @@ Name the following hydrocarbon:
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 First we find the ending of the name: as the molecule has three carbons in the main chain, the ending of the name would be: propane. Then we need to number the chain so that the number one carbon is the closest to the substituents:
 \begin{center} \chemfig{C\chembelow[1ex]{}{\tiny \textcolor{red}{3}}H_3-C\chembelow[1ex]{}{\tiny \textcolor{red}{2}}H(-[:90,1]CH_3)(-C\chemabove[2ex]{}{\tiny \textcolor{red}{1}}H(-[:-90,1]I)-Br)}\end{center}
-A methyl is connected to carbon two, and two halogens, a iodo and a bromo are connected to carbon number one. The substituents are: 2-methyl, 1-bromo, 1-iodo. If we order them: 1-bromo-1-iodo-2-methyl. And the final name would be: 1-bromo-1-iodo-2-methylpropane.
-\\
+A methyl is connected to carbon two, and two halogens, a iodo and a bromo are connected to carbon number one. The substituents are: 2-methyl, 1-bromo, 1-iodo. If we order them: 1-bromo-1-iodo-2-methyl. And the final name would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-1-iodo-2-methylpropane. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the following hydrocarbon:
-\begin{center} \chemfig{CH_3-C(-[:90,1]CH_3)(-[:-90,1]F)(-CH_2-I)}\end{center}\flushright{  \small Answer: 1-iodo-2-fluoro-2-methylpropane. }
+\begin{center} \chemfig{CH_3-C(-[:90,1]CH_3)(-[:-90,1]F)(-CH_2-I)}\end{center}\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-iodo-2-fluoro-2-methylpropane. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -457,12 +522,12 @@ Name the following hydrocarbon:
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 First we locate the longest chain. We have five possible chains, and the longest one has six carbons. Hence the name of the hydrocarbon would be hexane. Now we need to number the carbons so that we start numbering the closes to the substituents the possible.
 \begin{center} \chemfig{C\chembelow[1ex]{}{\tiny \textcolor{red}{1}}H_3-C\chembelow[1ex]{}{\tiny \textcolor{red}{2}}H_2-C\chembelow[1ex]{}{\tiny \textcolor{red}{3}}(-[:90]CH_3)(-[:-90]C\chembelow[1ex]{}{\tiny \textcolor{red}{4}}H_2-C\chembelow[1ex]{}{\tiny \textcolor{red}{5}}H_2-C\chembelow[1ex]{}{\tiny \textcolor{red}{6}}H_3)-CH_3} \end{center}\vspace{0.5cm}
-We have two methyl connected to carbon number three. Hence the final name will be: 3-dimethylhexane.
-\\
+We have two methyl connected to carbon number three. Hence the final name will be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 3-dimethylhexane. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the following hydrocarbon:
 \begin{center} \chemfig{CH_3-CH_2-C(-[:90]CH_2-CH_2-CH_2-CH_3)(-[:-90]CH_2-CH_2-CH_3)-CH_3} \end{center}
-\flushright{  \small Answer: 4-ethyl-4-methyloctane. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 4-ethyl-4-methyloctane. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -513,11 +578,12 @@ Name the following hydrocarbon:
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 The molecule is a cyclopentane with two substituents: fluoro and bromo. I will start numbering in bromo and continue until bromo. This way I will have small numbers and follow the abc rule:
 \begin{center}\chemname{\chemfig{*5(--(!\C)(-F)-(!\B)-(!\A)(-Br)-)} }{}\end{center}
-And the name of the molecule would be: 1-bromo-3-fluorocyclopentane.\\
+And the name of the molecule would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-3-fluorocyclopentane. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Name the following hydrocarbon:
 \begin{center}\chemname{\chemfig{*4(-(-F)-(-I)-(-Br)-)} }{}\end{center}
-\flushright{  \small Answer: 1-bromo-3-fluoro-2-bromocyclopropane. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-3-fluoro-2-bromocyclopropane. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
@@ -566,6 +632,32 @@ where R and R' represents any hydrocarbon chain.
 Again we could use R and R' to represent any hydrocarbon chain:
 \begin{center}\chemfig{R-C~C-R'}\hspace{0.5cm}\textcolor{blue}{Alkyne}\end{center}
 
+ \begin{marginfigure}[-10cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\chemfig{?=[::+72]*5(-N=(-=[::-72]*5(-[,,,2]HN-[,,2](=-[::-36]*5(=N-(=-[::-72]*5(-NH-[,,1]?=-=))
+-=-))-=-))-=-)}}  ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}porphyrin has several amine groups. \\ \textcolor{red}{\textbf{Q:} How many amine groups has porphyrin?}};
+\end{tikzpicture}
+\end{marginfigure}
+     \begin{marginfigure}[-2cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\chemfig{*6(-=-(-O-[::-60](-[::-60])=[::+60]O)=(-(=[::+60]O)-[::-60]OH)-=)}}  ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Aspirin contains an aromatic cycle, a carboxylic acid and a ester. \\ \textcolor{red}{\textbf{Q:} What is the molecular formula of aspirin?}};
+\end{tikzpicture}
+\end{marginfigure}
+      \begin{marginfigure}[3cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\chemfig{*6((=O)-N(-CH_3)-*5(-N=-N(-CH_3)-=)--(=O)-N(-H_3C)-)}}  ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Caffeine contains amides and amines \\ \textcolor{red}{\textbf{Q:} How many different amines and amides are there in caffeine?}};
+\end{tikzpicture}
+\end{marginfigure}
+       \begin{marginfigure}[4cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\chemfig{[:150]?*6(=*6(--*6(-N(-CH_3)--(-(=[::+60]O)-[::-60]N(-[::+60]-[::-60])-[::-60]-[::+60])-=)([::-120]<H)---)-*6(-=-=-(-[::-30,1.155]\chembelow{N}{H}?)=))}}  ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}LSD has both an amide and an amide \\ \textcolor{red}{\textbf{Q:} How many different amines has LDS?}};
+\end{tikzpicture}
+%%\caption{Examples of measuring equipment}
+%\label{fig:marginfig2}
+\end{marginfigure}
+
+
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Identify the alkene and alkyne groups in the molecule:
 \begin{center}\chemfig{H_2C=C(-[1]CH_2-CH~CH)(-[-1]H)}\end{center}
@@ -576,38 +668,29 @@ A double bond is carbon atoms sharing two pairs of electrons, whereas a triple b
    \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]A.south west) rectangle ([xshift=0pt,yshift=10pt]B.north east) ;
       \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]C.south west) rectangle ([xshift=0pt,yshift=10pt]D.north east)  ;
 }
-
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) alkene; (right) alkyne \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Identify the alkene and alkyne groups in the molecule:
 \begin{center}\chemfig{H_3C-C~C-C(-[-1]H)(-[1]C(-[3]H)(=C(-[-1]CH_3)(-[1]CH_2-C~C-CH_3)))}\end{center}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (center) alkene; (right, left) alkyne \end{flushright}
+
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
-\begin{marginfigure}[-5cm]%%%%%%%% MARGIN FIGURE
-\begin{center}
-\chemfig{?=[::+72]*5(-N=(-=[::-72]*5(-[,,,2]HN-[,,2](=-[::-36]*5(=N-(=-[::-72]*5(-NH-[,,1]?=-=))
--=-))-=-))-=-)}\end{center}
-\caption{Porphirin has several amine groups. \\ \textcolor{red}{\textbf{Q:} How many amine groups has porphirin?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\begin{center}\chemfig{*6(-=-(-O-[::-60](-[::-60])=[::+60]O)=(-(=[::+60]O)-[::-60]OH)-=)}
-\end{center}
-\caption{Aspirin contains an aromatic cycle, a carboxylic acid and a ester. \\ \textcolor{red}{\textbf{Q:} What is the molecular formula of aspirin?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
 
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\begin{center}
-\chemfig{*6((=O)-N(-CH_3)-*5(-N=-N(-CH_3)-=)--(=O)-N(-H_3C)-)}
-\end{center}
-\caption{Caffeine contains amides and amines \\ \textcolor{red}{\textbf{Q:} How many different amines and amides are there in caffeine?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
 
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\begin{center}
-\chemfig{[:150]?*6(=*6(--*6(-N(-CH_3)--(-(=[::+60]O)-[::-60]N(-[::+60]-[::-60])
--[::-60]-[::+60])-=)([::-120]<H)---)-*6(-=-=-(-[::-30,1.155]\chembelow{N}{H}?)=))}
-\end{center}
-\caption{LSD has both an amide and an amide \\ \textcolor{red}{\textbf{Q:} How many different amines has LDS?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
 
 \item[\docfilehook{  Aromatic group}{Aromatic group}] Aromatic groups are based on bezene, a ciclohexane with a series of alternates double bonds, which is often represented as a circle:
 
@@ -617,6 +700,24 @@ Examples of molecules containing aromatic groups are:
 \begin{center}\chemfig{**6(-(-CH_3)-----)}\hspace{1cm} or \hspace{1cm}\chemfig{**6(---(-H_2C-[-1]CH_3)---)} and \hspace{1cm} \chemfig{*6((-H)-(-H)=(-H)-(-H)=(-H)-(-F)=)}  \end{center}
 
 
+
+   \begin{marginfigure}[-2cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure9}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Esters give flavor to many fruits.\\ \textcolor{red}{\textbf{Q:} What is the formula for the smallest ester?}};
+\end{tikzpicture}
+\end{marginfigure}
+     \begin{marginfigure}[2cm]
+   \begin{tikzpicture}\node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Vinegar contains acetic acid, the smallest carboxylic acic.\\ \textcolor{red}{\textbf{Q:} What is the formula for acetic acid?}};
+\end{tikzpicture}
+\end{marginfigure}
+     \begin{marginfigure}[2cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure14}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Diethyl ether was formerly used as a general anesthetic, until non-flammable drugs were developed. };
+%%\caption{Examples of measuring equipment}
+%\label{fig:marginfig2}
+\end{tikzpicture}
+\end{marginfigure}
 
 
 \item[\docfilehook{  Alcohol, ether and thiols group}{Alcohol, ether and thiols group}] Alcohols contain an \ce{-OH} group attached to a carbon. 
@@ -629,10 +730,12 @@ Thiols contain a  \ce{-SH} group attached to a carbon. They are equivalent to al
 \begin{center}\chemfig{R-SH}\hspace{0.5cm}\textcolor{blue}{thiol}\end{center}
 Examples of thiols  are:
 \begin{center}\chemfig{CH_3-CH_2-SH}    \hspace{0.5cm}  \chemfig{CH_3-CH(-[:90]SH)-CH_3}  \end{center}
-\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
-\begin{center}\includegraphics[width=1\columnwidth]{../Ch-orgo/figure9}\end{center}
-\caption{Esters give flavor to many fruits.\\ \textcolor{red}{\textbf{Q:} What is the formula for the smallest ester?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+
+
+
+
 
 
 
@@ -643,19 +746,21 @@ Classify the following molecules as alcohol or ether.
 \begin{center}\chemfig{CH_3-CH_2-CH_2-OH} \hspace{0.5cm}\chemfig{CH_3-O-CH_2-CH_3}  \end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 The OH groups is an alcohol, and we find this group in the left molecule. Differently, the right molecule is an ether as it contains the \chemfig{R-O-R'} group. \\
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) alcohol; (right) ether. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Classify the following molecules as alcohol or ether.
 \begin{center}\chemfig{-[:45]-[:-45](-[:-90]O-[:-45])-[:45]-[:-45]-[:45]-[:-45] } \hspace{0.5cm}\chemfig{**6(-(-OH)-----)}  \end{center}
-\flushright{  \small Answer: (left) ether; (right) alcohol. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) ether; (right) alcohol. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
 
 
-\begin{marginfigure}[-5cm]%%%%%%%% MARGIN FIGURE
-\begin{center}\includegraphics[width=1\columnwidth]{../Ch-orgo/figure10}\end{center}
-\caption{Vinegar contains acetic acid, the smallest carboxylic acic.\\ \textcolor{red}{\textbf{Q:} What is the formula for acetic acid?} }
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+
+
+
 \item[\docfilehook{  Aldehydes and ketones}{Aldehydes and ketones}] Ketones and aldehydes both contain a \ce{C=O} group. Still these are two different groups and ketones have a \ce{C=O} group bounded to two different carbon atoms
 
 
@@ -673,25 +778,16 @@ Examples of aldehydes and ketones are:
 Classify the following molecules as an aldehyde or ketone
 \begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45])} \hspace{0.5cm}\chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]H))-----)}  \end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The left molecule is a ketone as the carbonyl group (\ce{C=O}) is connected to a \ce{CH3} and a  \ce{CH2}. Differently, the right molecule is a ketone as the carbonyl group is connected to a cycloalkane but also to a hydrogen. 
-\\
+The left molecule is a ketone as the carbonyl group (\ce{C=O}) is connected to a \ce{CH3} and a  \ce{CH2}. Differently, the right molecule is an aldehyde as the carbonyl group is connected to a cycloalkane but also to a hydrogen. 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) ketone; (right) aldehyde. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Classify the following molecules as an aldehyde or ketone
 \begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]H)} \hspace{0.5cm}\chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]CH_3))-----)}  \end{center}
-\flushright{  \small Answer: (left) aldehyde; (right) ketone. }
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) aldehyde; (right) ketone. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure14}\vspace{0.5cm}
-\begin{center}\hspace{1cm}\chemfig{CH_3-CH_2-O-CH_2-CH_3}\end{center}
-\caption{Diethyl ether was formerly used as a general anesthetic, until non-flammable drugs were developed. The image shows a panel from monument in Boston commemorating the demonstration of ether's anesthetic use.}
-\end{marginfigure}%%%%%%% MARGIN FIGURE
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\includegraphics[width=1\columnwidth]{../Ch-orgo/figure11}\vspace{0.5cm}
-\includegraphics[width=1\columnwidth]{../Ch-orgo/figure12}
-\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]=[:-45]-[:45](=[:90]O)-[:-45]H)---)}\end{center}
-\caption{Cinnamaldehyde is the aldehyde that gives cinnamon its flavor and odor.}
-\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
 
 
 
@@ -700,6 +796,36 @@ Classify the following molecules as an aldehyde or ketone
 \begin{center}\chemfig{R-C(=[:90]O)(-OH)}\hspace{0.5cm}\textcolor{blue}{Carboxylic acid}\end{center}
 Esters have the same \ce{C=O} group but this time bounded to a carbon (R) and an ether group (\ce{-O-R^{'}}). 
 \begin{center}\chemfig{R-C(=[:90]O)-O-R'}\hspace{0.5cm}\textcolor{blue}{Ester}\end{center}
+
+   \begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Cinnamaldehyde is the aldehyde that gives cinnamon its flavor and odor.};
+%\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]=[:-45]-[:45](=[:90]O)-[:-45]H)---)}\end{center}
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure15}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Benzyl acetate is an ester that flavors pears.};
+%\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]-[:-45]O-[:45](=[:90]O)-[:-45])---)}\end{center}
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure16}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Butyl butyrate is an ester that flavors pineapple.};
+%\begin{center}\hspace{1cm}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
+
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[1cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Ethyl isovalerate is an ester that flavors apples.};
+%%\begin{center}\hspace{1cm}\chemfig{-[:45](-[:90])-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
+
+\end{tikzpicture}
+%\caption{Examples of measuring equipment}
+%\label{fig:marginfig1}
+\end{marginfigure}
+
 Examples of carboxylic acids and esters are:
 \begin{center}\chemname{\chemfig{CH_3-C(=[:90]O)(-OH)}}{Carboxylic acid}\hspace{1cm} or \hspace{1cm}\chemname{\chemfig{CH_3-C(=[:90]O)-O-CH_3}  }{Esters}\end{center}
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
@@ -707,30 +833,44 @@ Classify the following molecules as an carboxylic acid or ester:
 \begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]OH)} \hspace{0.5cm}\chemfig{-[:45]-[:-45](=[:-90]O)-[:45]O-[:-45]}  \end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 The molecule in the left is a carboxylic acid as the carbonyl group (\ce{C=O}) is connected to an alcohol \ce{-OH}. Differently, the molecule in the right is a ester as the carbonyl group is connected to a \ce{-O-CH3} group.
-\\
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) carboxylic acid; (right) ester. \end{flushright}
+
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Classify the following molecules as an carboxylic acid or ester:
 \begin{center}  \chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]O-CH_3))-----)}  \hspace{0.5cm}  \chemfig{*6(---(-C(=[:-45]O)(-[:45]OH))---)}   \end{center}
 
-\flushright{  \small Answer: (left) ester; (right) acid. }
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) ester; (right) acid. \end{flushright}\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
-
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure15}\vspace{0.5cm}
-\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]-[:-45]O-[:45](=[:90]O)-[:-45])---)}\end{center}
-\caption{Benzyl acetate is an ester that flavors pears.}
-\end{marginfigure}%%%%%%% MARGIN FIGURE
-\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure16}\vspace{0.5cm}
-\begin{center}\hspace{1cm}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
-\caption{Butyl butyrate is an ester that flavors pinapple.}
-\end{marginfigure}%%%%%%% MARGIN FIGURE
 %\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
-%\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure17}\vspace{0.5cm}
-%\begin{center}\hspace{1cm}\chemfig{-[:45](-[:90])-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
-%\caption{Ethyl isovalerate is an ester that flavors apples.}
+%\includegraphics[width=1\columnwidth]{../Ch-orgo/figure11}\vspace{0.5cm}
+%%\includegraphics[width=1\columnwidth]{../Ch-orgo/figure12}
+%\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]=[:-45]-[:45](=[:90]O)-[:-45]H)---)}\end{center}
+%\caption{Cinnamaldehyde is the aldehyde that gives cinnamon its flavor and odor.}
 %\end{marginfigure}%%%%%%% MARGIN FIGURE
+%\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
+%\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure15}\vspace{0.5cm}
+%\begin{center}\hspace{1cm}\chemfig{**6(---(-[:45]-[:-45]O-[:45](=[:90]O)-[:-45])---)}\end{center}
+%\caption{Benzyl acetate is an ester that flavors pears.}
+%\end{marginfigure}%%%%%%% MARGIN FIGURE
+%\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
+%\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure16}\vspace{0.5cm}
+%\begin{center}\hspace{1cm}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
+%\caption{Butyl butyrate is an ester that flavors pineapple.}
+%\end{marginfigure}%%%%%%% MARGIN FIGURE
+%%\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
+%%\includegraphics[width=0.75\columnwidth]{../Ch-orgo/figure17}\vspace{0.5cm}
+%%\begin{center}\hspace{1cm}\chemfig{-[:45](-[:90])-[:-45]-[:45](=[:90]O)-[:-45]O-[:45]-[:-45]-[:45]-[:-45]}\end{center}
+%%\caption{Ethyl isovalerate is an ester that flavors apples.}
+%%\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+
+
+
+
+
+
+
 
 \item[\docfilehook{  Amines and amides}{Amines and amides}] Amines and amides are groups containing nitrogen. Amines are derivative of ammonia (\ce{NH3}) with one or more of the hydrogen atoms being replaced by a hydrocarbon
 \begin{center}\chemfig{R-N(-[:90]R')(-R'')}\hspace{0.5cm}\textcolor{blue}{Amine}\end{center}
@@ -746,14 +886,13 @@ Classify the following molecules as an amide or amine:
 \begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]NH_2)} \hspace{0.5cm}\chemfig{-[:45]-[:-45]-[:45]N-[:-45]}  \end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 The molecule in the left is a amide as the carbonyl group (\ce{C=O}) is connected to a nitrogen atom. Differently, the molecule in the right is an amine as the nitrogen group is not connected to any carbonyl group.
-\\
+\begin{flushright}  \mytriangleright{dgreen}\small Answer: (left) amide; (right) amine. \end{flushright}
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Classify the following molecules as an amide or amine:
-\begin{center}  \chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]N(-CH_3)(-[:180]CH_3)))-----)}  \hspace{0.5cm}  \chemfig{*6(---(-N(-[:-45]CH_3)(-CH_3))---)}   \end{center}
+\begin{center} \chemfig{*6(---(-N(-[:-45]CH_3)(-CH_3))---)} \hspace{0.5cm}   \chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]N(-CH_3)(-[:180]CH_3)))-----)}     \end{center}
 
-\flushright{  \small Answer: (left) amide; (right) amine. }
+\begin{flushright}  \mytriangleright{dgreen}\small Answer: (left) amine; (right) amide. \end{flushright}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-
 
 
 
