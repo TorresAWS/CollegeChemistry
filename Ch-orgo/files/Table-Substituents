@@ -1,0 +1,20 @@
+ \begin{center}
+ \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Substituents name } \\
+\midrule
+Substituents & name && Substituents & name  \\
+\midrule
+\chemfig{CH_3-[:0,1]} &     Methyl        & &    \chemfig{F-[:0,1]} &     Fluoro  \\[1mm]
+\chemfig{CH_3CH_2-[:0,1]} &     Ethyl   & &         \chemfig{Cl-[:0,1]}&     Chloro   \\[1mm]
+\chemfig{CH_3CH_2CH_2-[:0,1]}  &   Propyl   & &    \chemfig{Br-[:0,1]} &     Bromo  \\  [1mm]   
+ \chemfig{NH_2-[:0,1]} &     Amino          & & \chemfig{I-[:0,1]} &     Iodo\\[1mm]
+  \chemfig{NO_2-[:0,1]} &    Nitro  & &  \chemfig{CH_2=CH-[:0,1]} &    Vinyl  \\    [1mm] 
+ \vspace{0.2cm} \chemfig{H_3C-[:0,1]C(-[:-90,1]CH_3)(-[:90,1]\phantom{L})(-[:0,1]CH_3)}
+ &    t-butyl    & & \chemfig{H_3C-[:0,1]CH(-[:90,1]\phantom{L})(-[:0,1]CH_3)}
+ &     Isopropyl         \\       
+\bottomrule
+\end{tabular}\end{center}

@@ -1,0 +1,18 @@
+\item[\docfilehook{  A review of the different structural formulas}{ }]
+At this point, you have seen four different ways to represent organic molecules. Using propane as example, here all the formulas:\\
+\begin{center}
+ \hspace{-4cm}
+\begin{minipage}[b]{1.2\linewidth}
+ \begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {\chemfig{C_3H_8}};
+\node at (0,-1.3) {\textcolor{blue}{\begin{tabular}{c} Molecular \\ formula \end{tabular}}};
+\node at (4,0) {\chemfig{CH_3-CH_2-CH_3}};
+\node at (4,-1.3) {\textcolor{blue}{\begin{tabular}{c} Condensed structural \\  formula \end{tabular}}};
+\node at (8,0) {\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}};
+\node at (8,-1.3) {\textcolor{blue}{\begin{tabular}{c} Expanded structural \\ formula \end{tabular}}};
+\node at (12,0)  {\chemfig{-[:45]-[:-45]}};
+\node at (12,-1.3) {\textcolor{blue}{\begin{tabular}{c} Skeletal structural \\ formula \end{tabular}}};
+\end{tikzpicture}
+ \end{minipage} \end{center}
+We have that the \emph{molecular formula} (e.g. \ce{C3H8} for propane) is mainly used to indicate the composition of the molecule in the form of Carbon and Hydrogen atoms. A second way to represent propane is using its \emph{expanded structural formula}, that is by representing all atoms in the molecule and all atomic connections. A third molecular representation is the \emph{condensed structural formula} that uses \ce{CH3} and \ce{CH2} units, only representing the C-C bonds. Finally, the \emph{skeletal formula} is perhaps the most simplistic representation as only the C-C bonds are represented in the form of simple lines. It is important to understand that \emph{all formulas are just different ways to represent the same molecule}.
+
