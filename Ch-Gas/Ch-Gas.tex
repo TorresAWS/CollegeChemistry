@@ -1,6 +1,7 @@
 \documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+
 \begin{document}
-\newcommand\chapterlabel{gases}
 \linenumbers
 
 
@@ -76,24 +77,26 @@ Gases has different properties compared to solids of liquids:
 \begin{equation*}
 \boxed{   T_K=T_C+273}   
 \end{equation*}
-\item[\docfilehook{Amount of gas, n}{Amount of gas, n}] The amount of a gas (n) refers to the quantity of gas particles. The larger the amount of gas, the larger the amount of gas particles. The amount of gas is measured in moles or grams. Figure \ref{fig:{\chapterlabel}1} displays a list of all gas elements.
+
 %\begin{marginfigure}[0cm]%%%%%%%MARGIN FIGURE
 %\includegraphics{../Ch-Gas/figure4}
 %\caption{Gas pressure is due to the collisions of the gas particles with the walls of its container.}
 %\end{marginfigure}%%%%%%%MARGIN FIGURE
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[h] % FUL FIGURE
-\begin{center}\GasTable\end{center}
-\caption{Gas elements}
-\label{fig:{\chapterlabel}1}
-\end{figure}% FUL FIGURE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
+ \GasTable 
+	  \begin{tikzpicture} 
+	  \node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} All gas elements };
+\end{tikzpicture}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\item[\docfilehook{Amount of gas, n}{Amount of gas, n}] The amount of a gas (n) refers to the quantity of gas particles. The larger the amount of gas, the larger the amount of gas particles. The amount of gas is measured in moles or grams. Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} displays a list of all gas elements.
 
 
 
@@ -115,8 +118,6 @@ Gases has different properties compared to solids of liquids:
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=5cm, height=3cm]{../Ch-Gas/figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Hydrogen is a flammable gas used to power some cars};
 \end{tikzpicture}
-\caption{Examples of gases}
-\label{fig:{\chapterlabel}4}
 \end{marginfigure}
 
 
@@ -152,14 +153,8 @@ An oxygen sample has a pressure of 730 mmHg. Convert this value to atmospheres.
 \flushright Answer: 0.96 atm.
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
-
-\item[\docfilehook{Measuring pressure}{Measuring pressure}] 
-Two different devices are used to measure pressure, barometers and manometers. Barometer are used to measure specifically the atmospheric pressure and historically, they consist on a glass tube filled with mercury (\ce{Hg}), inverted on a plate containing more mercury. At the sea level, the height of the mercury columns should be close to 760mmHg.
-Manometers, on the other hand, are used to measure the pressure of any gas. Manometers, like the one shown in Figure \ref{fig:{\chapterlabel}2}, consist of a u-shaped tube filled with mercury. There are two types of manometers: open-tube and closed-tube manometers.
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}%%%%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
 \begin{tikzpicture}
 \tikzset{edge/.style = {->,> = latex'}}
 \def\r{1.1}% Mid-tube radius
@@ -224,11 +219,15 @@ Manometers, on the other hand, are used to measure the pressure of any gas. Mano
 \draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
 
 \end{scope}
+	  \node[text width=12cm, fontscale=.2,shift={(8em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Two types of manometers: open-tube and closed-tube manometer };
+
 \end{tikzpicture}
-\caption{Two types of manometers: open-tube and closed-tube manometer}
-\label{fig:{\chapterlabel}2}
-\end{figure}%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item[\docfilehook{Measuring pressure}{Measuring pressure}] 
+Two different devices are used to measure pressure, barometers and manometers. Barometer are used to measure specifically the atmospheric pressure and historically, they consist on a glass tube filled with mercury (\ce{Hg}), inverted on a plate containing more mercury. At the sea level, the height of the mercury columns should be close to 760mmHg.
+Manometers, on the other hand, are used to measure the pressure of any gas. Manometers consist of a u-shaped tube filled with mercury. There are two types of manometers: open-tube and closed-tube manometers.
+
 
 
 
@@ -256,7 +255,8 @@ For the open-tube manometer, normally used to measure pressured above the atmosp
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \hspace{-4cm}\begin{minipage}[b]{1.5\linewidth}
 \resizebox{.9\textwidth}{!}{
 	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../Ch-Gas/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \node[text width=5cm] at ([yshift=0.8cm]a.north) {\baselineskip=8pt \mytriangle{red}{\small A barometer used to measure the atmospheric pressure}};
@@ -266,12 +266,11 @@ For the open-tube manometer, normally used to measure pressured above the atmosp
 
  \node (c) at (12cm,0) {\includegraphics[width=5cm, height=5cm]{../Ch-Gas/figure5}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} PxFuel} ;
 \node[text width=4cm] at ([yshift=0.8cm]c.north) {\mytriangle{red}{\small A pressure gauge}};
+\node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Pressure measuring devices };
+
 \end{tikzpicture}
 }
-
-\caption{Pressure measuring devices}
-\label{fig:{\chapterlabel}3}
-\end{figure*}
+\end{minipage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -639,7 +638,7 @@ Entonox is a medicinal mixture of dinitrogen oxide (\ce{N2O}) and oxygen (\ce{O2
 \flushright Answer: 4 atm.
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 %%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
 \begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
 \begin{scope}
    \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](0,0) circle [radius=.2cm];
@@ -679,13 +678,16 @@ Entonox is a medicinal mixture of dinitrogen oxide (\ce{N2O}) and oxygen (\ce{O2
 \flask{0,0}{400}{};
 \node[text width=2cm] at (.5,-1)  {\large $p_{A}+p_{B}$};
 \end{scope}
+	  \node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A visual representation of Dalton's law of partial pressure: after adding two different gases with different partial pressured, the final pressure is the result of adding both partial pressures. };
+
 \end{tikzpicture}
-\caption{A visual representation of Dalton's law of partial pressure: after adding two different gases with different partial pressured, the final pressure is the result of adding both partial pressures.}
-\label{fig:{\chapterlabel}10}
-\end{figure}
+\end{minipage}
 %%%%%%%%%%%%%%%%%%%%%%
 
-In Figure \ref{fig:{\chapterlabel}10}, we have that after combining two gases with different partial pressures the resulting pressure is the addition of both partial pressured.
+ 
+
+
+%In Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter}, we have that after combining two gases with different partial pressures the resulting pressure is the addition of both partial pressured.
 
 \item[\docfilehook{Partial pressure of a gas in a mixture}{ }] For a mixture with different gases, the partial pressure of a given gas ($A$) will depend on the number of moles of that particular gas and the overall volume of the mixture
 \begin{equation*}
@@ -712,42 +714,24 @@ A mixture of gases with a total pressure of 5 atm contains 1 mol of Ar and 1 mol
 \flushright Answer: $p_{Ar}$=2.5 atm, $p_{He}$=2.5atm.
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
-\item[\docfilehook{Collecting gas over water: use of partial pressures}{}] 
-\begin{figure}\begin{center}
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=6cm, height=6cm]{../Ch-Gas/figure8}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Pst-Labo} ;
 \draw[thin] (2.,0.7) -- ++(1,1) node [right,fill=white,font=\small,scale=0.7] {\textcolor{red}{\ce{O2_{(g)}}} +\ce{H2O_{(g)}}};
 \draw[thin] (2.,0.1) -- ++(1,-1) node [right,fill=white,font=\small,scale=0.7] {\ce{H2O_{(l)}}};
 \draw [->,red] node[font=\small,scale=0.7, xshift=-4.5cm, yshift=.8cm] {\ce{2KClO3_{(s)}}}   (-2.5,0.5) to [out=0,in=360] (-2.5,1.2) node[font=\small,scale=0.7, xshift=-1.5cm, yshift=.0cm] {\ce{2KCl_{(s)} + 3O2_{(g)}}} ; 
+	  \node[text width=11cm, fontscale=.2,shift={(6em,-15em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Apparatus for measuring the amount of gas produced by a reaction over water. };
 \end{tikzpicture}
-\label{fig:{\chapterlabel}8}
-\caption{Apparatus for measuring the amount of gas produced by a reaction over water.}
-\end{center}\end{figure}
-
-
-Numerous reaction produce gases. As an example, potassium chlorate decomposes to produce oxygen gas:
-\begin{center}\ce{2KClO3_{(s)} -> 2KCl_{(s)} + 3O2_{(g)}}\end{center}
-The volume of gas produced by a chemical reaction is collected often times over water. Gas bubbles go through water being collected in an apparatus similar to the one represented in Figure \ref{fig:{\chapterlabel}8}. 
-
-As the gas is collected over water, with the gas produced by the reaction, we will also find water molecules that will exhibit a certain partial pressure. In another words, we will collect a mixture of two gases, the gas produced by the reaction and water. The partial pressure of the gas produced will be:
-\begin{equation*}
-\boxed{  P_{gas}=P_{total}- P_{\ce{H2O}}  }  
- \end{equation*}
-
-
-
-
-The partial pressure of water, also called the vapor pressure of water, depends on temperature and its values can be found in Table \ref{tab:{\chapterlabel}1}. For example, at 25$^{\circ}$C, the vapor pressure of water in the atmosphere is 0.0313 atm and at 100$^{\circ}$C is equal to 1atm. When liquids boil, they vapor pressure is equal to the atmospheric pressure, that is the reason behind the vapor pressure of water being 1 atm at 100$^{\circ}$C, the boiling point of water.
-
+\end{minipage}
 
 
 \begin{center}
-\refstepcounter{table} \label{tab:{\chapterlabel}1}
-%\begin{table}[ht]
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{10}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}1} Vapor pressure, partial water pressure as a function of temperature } \\
+\multicolumn{10}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Vapor pressure, partial water pressure as a function of temperature } \\
 \midrule
  \rowcolor{gray!10} T$^{\circ}$C & P(atm) & T$^{\circ}$C & P(atm) & T$^{\circ}$C &  P(atm) & T$^{\circ}$C &  P(atm)& T$^{\circ}$C &  P(atm)\\
 \midrule
@@ -757,6 +741,28 @@ The partial pressure of water, also called the vapor pressure of water, depends 
 20	  &	0.0231&	40	  &	0.0728&	60	  &	0.1967&	80	 & 	0.4675&	100	  &	1.0000	\\
  \bottomrule
 \end{tabular}\end{center}
+
+\item[\docfilehook{Collecting gas over water: use of partial pressures}{}] 
+
+Numerous reaction produce gases. As an example, potassium chlorate decomposes to produce oxygen gas:
+\begin{center}\ce{2KClO3_{(s)} -> 2KCl_{(s)} + 3O2_{(g)}}\end{center}
+The volume of gas produced by a chemical reaction is collected often times over water. Gas bubbles go through water being collected in an apparatus similar to the one represented in Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter}. 
+
+As the gas is collected over water, with the gas produced by the reaction, we will also find water molecules that will exhibit a certain partial pressure. In another words, we will collect a mixture of two gases, the gas produced by the reaction and water. The partial pressure of the gas produced will be:
+\begin{equation*}
+\boxed{  P_{gas}=P_{total}- P_{\ce{H2O}}  }  
+ \end{equation*}
+
+
+
+
+
+
+
+
+
+
+The partial pressure of water, also called the vapor pressure of water, depends on temperature and its values can be found in Table \ref{tab:{\chapterlabel}\thetablenewcounter}. For example, at 25$^{\circ}$C, the vapor pressure of water in the atmosphere is 0.0313 atm and at 100$^{\circ}$C is equal to 1atm. When liquids boil, they vapor pressure is equal to the atmospheric pressure, that is the reason behind the vapor pressure of water being 1 atm at 100$^{\circ}$C, the boiling point of water.
 
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Oxygen is collected over water in the decomposition of potassium chlorate:
@@ -800,17 +806,14 @@ where:
 \item $a$ and $b$   are the Van der Waals constants in units of $\text{atm}\cdot \text{L}^2\cdot \text{mol}^{-2}$ and $\text{L}\cdot \text{mol}$
 \end{where}
 
-
-\item[\docfilehook{The meaning of the Van der Waals constants}{}] 
-There are two an der Waals constants: $a$ and $b$. The Van der Waals constant $a$ represent the degree of interaction between the molecules of a gas. The larger these values the more interactions exists between the gas particles. For example, for \ce{He} we have $a=$ 0.0341$\text{atm}\cdot \text{L}^2/\text{mol}^{2}$, whereas for \ce{H2O} we have $a=$ 5.46 $\text{atm}\cdot \text{L}^2/\text{mol}^{2}$. Comparing the values of $a$ for both gases, we can conclude that the interaction between the particles of \ce{He} are very weak and in contrast, the interactions between the particles of \ce{H2O} are stronger. The Van der Waals constant $b$ is related to the molecular size, however, the relationship is not as straightforward as in the case of the $a$ constant.
 \begin{center}
-\refstepcounter{table} \label{tab:{\chapterlabel}2}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 %\begin{table}[ht]
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}2} Van der Waals constants for several gases } \\
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Van der Waals constants for several gases } \\
 \midrule
  \rowcolor{gray!10} gas   & a ($\text{atm}\cdot \text{L}^2/\text{mol}^{2}$)    &   b ($\text{L}/\text{mol}$)  & gas  &a ($\text{atm}\cdot \text{L}^2/\text{mol}^{2}$) &b ($\text{L}/\text{mol}$)   \\
 \midrule
@@ -822,6 +825,9 @@ There are two an der Waals constants: $a$ and $b$. The Van der Waals constant $a
 \ce{N2}&	\multicolumn{1}{c}{	1.370}	&0.0387&\ce{NO2}&	\multicolumn{1}{c}{	5.354}	&0.04424\\
  \bottomrule
 \end{tabular}\end{center}
+\item[\docfilehook{The meaning of the Van der Waals constants}{}] 
+There are two Van der Waals constants: $a$ and $b$ (see Table  \ref{tab:{\chapterlabel}\thetablenewcounter}). The Van der Waals constant $a$ represent the degree of interaction between the molecules of a gas. The larger these values the more interactions exists between the gas particles. For example, for \ce{He} we have $a=$ 0.0341$\text{atm}\cdot \text{L}^2/\text{mol}^{2}$, whereas for \ce{H2O} we have $a=$ 5.46 $\text{atm}\cdot \text{L}^2/\text{mol}^{2}$. Comparing the values of $a$ for both gases, we can conclude that the interaction between the particles of \ce{He} are very weak and in contrast, the interactions between the particles of \ce{H2O} are stronger. The Van der Waals constant $b$ is related to the molecular size, however, the relationship is not as straightforward as in the case of the $a$ constant.
+
 		
 
 
@@ -886,8 +892,8 @@ Calculate the root mean square velocity of the molecules of water at 25C$^{\circ
 
 
 
-\begin{figure*}
-\begin{center}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.7\linewidth}
+
 \begin{tikzpicture}[thick,scale=0.8, every node/.style={transform shape}]
 \begin{scope}[xshift = -8cm]
 \pgfkeys{/pgfplots/linelabel/.style args={#1:#2:#3}{name path global=labelpath,execute at end plot={
@@ -967,14 +973,15 @@ Calculate the root mean square velocity of the molecules of water at 25C$^{\circ
   \addplot[blue, linelabel=0.1:{.6cm,.6cm}: {[blue]right:\ce{I2} (MW=254amu) at $300$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
 \end{axis}
 \end{scope} 
+	  \node[text width=12cm, fontscale=.2,shift={(-2em,-9em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Effect of temperature and mass on the distribution of molecular speeds };
+
 \end{tikzpicture}
-\end{center}
-\caption{Effect of temperature and mass on the distribution of molecular speeds}
-\label{fig:{\chapterlabel}9}
-\end{figure*}
+\end{minipage}
+ 
+
 \item[\docfilehook{Distribution of velocities}{}] 
 The root mean square velocity $v_{RMS}$ is just an average of the square velocities of the gas particles. Still, some particles will have faster velocity than $v_{RMS}$ and other will have slower velocity. The molecular velocities of the particles of a gas follow a distribution which is mass and temperature dependent. 
-As shown in Figure \ref{fig:{\chapterlabel}9}, the higher temperature the larger the root square velocity, with a wider distribution of velocities. At the same time, the larger the molar mass of the gas, the smaller the root square velocity with a thiner distribution of velocities.
+As shown in Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} , the higher temperature the larger the root square velocity, with a wider distribution of velocities. At the same time, the larger the molar mass of the gas, the smaller the root square velocity with a thiner distribution of velocities.
 
 
 

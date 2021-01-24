@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 JAN 2021 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 JAN 2021 20:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -520,6 +520,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./main.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count118
@@ -4773,7 +4775,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5307.
@@ -4795,7 +4797,7 @@ LaTeX Font Info:    ... okay on input line 5307.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5307.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5307
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5307.
@@ -4810,11 +4812,12 @@ Package hyperref Info: Link coloring ON on input line 5307.
 LaTeX Info: Redefining \ref on input line 5307.
 LaTeX Info: Redefining \pageref on input line 5307.
 LaTeX Info: Redefining \nameref on input line 5307.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5307.
 
 *geometry* driver: auto-detecting
@@ -5051,12 +5054,8 @@ Package microtype Info: Loading generic settings for font family
 
 (../Ch-Gas/Ch-Gas.tex
 Chapter 1.
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 7.
+ut line 8.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5066,33 +5065,33 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<../Ch-Gas/figure1.png, id=109, 515.9275pt x 722.7pt>
+<../Ch-Gas/figure1.png, id=133, 515.9275pt x 722.7pt>
 File: ../Ch-Gas/figure1.png Graphic file (type png)
 
 <use ../Ch-Gas/figure1.png>
-Package pdftex.def Info: ../Ch-Gas/figure1.png used on input line 10.
+Package pdftex.def Info: ../Ch-Gas/figure1.png used on input line 11.
 (pdftex.def)             Requested size: 113.81142pt x 159.42456pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 10.
+(Font)              <5> on input line 11.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 10.
+(Font)              scaled to size 5.21004pt on input line 11.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 10.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 10.
+(Font)              scaled to size 5.21004pt on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 11.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1831) in paragraph at lines 26--27
+Underfull \hbox (badness 1831) in paragraph at lines 27--28
 []\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
  []
 
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 33.
+line 34.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 34.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -5102,378 +5101,377 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 35.
+(Font)              scaled to size 8.33606pt on input line 36.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 35.
+(Font)              scaled to size 8.33606pt on input line 36.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 53.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 54.
 [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-G
 as/figure1.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:{gases}1' on page 2 undefined on input line 79.
-
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 87.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 87.
+ line 92.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24> on input line 87.
+(Font)              <24> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.23987> on input line 87.
+(Font)              <18.23987> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.40015> on input line 87.
+(Font)              <14.40015> on input line 92.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 87.
+(Font)              scaled to size 25.00818pt on input line 92.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 87.
+(Font)              scaled to size 19.00607pt on input line 92.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 87.
+(Font)              scaled to size 15.00505pt on input line 92.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 87.
+(Font)              scaled to size 25.00818pt on input line 92.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 87.
+(Font)              scaled to size 19.00607pt on input line 92.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 87.
+(Font)              scaled to size 15.00505pt on input line 92.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <18.23987> no
 t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 87.
+ line 92.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
 t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 87.
-<../Ch-Gas/figure6.png, id=128, 225.84375pt x 225.84375pt>
+ line 92.
+
+Overfull \hbox (8.84329pt too wide) in paragraph at lines 92--96
+[][]
+ []
+
+
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 92--96
+[] 
+ []
+
+<../Ch-Gas/figure6.png, id=152, 225.84375pt x 225.84375pt>
 File: ../Ch-Gas/figure6.png Graphic file (type png)
 
 <use ../Ch-Gas/figure6.png>
-Package pdftex.def Info: ../Ch-Gas/figure6.png used on input line 112.
+Package pdftex.def Info: ../Ch-Gas/figure6.png used on input line 115.
 (pdftex.def)             Requested size: 128.04305pt x 128.04305pt.
 
-<../Ch-Gas/figure7.png, id=129, 587.19376pt x 389.95688pt>
+<../Ch-Gas/figure7.png, id=153, 587.19376pt x 389.95688pt>
 File: ../Ch-Gas/figure7.png Graphic file (type png)
 
 <use ../Ch-Gas/figure7.png>
-Package pdftex.def Info: ../Ch-Gas/figure7.png used on input line 115.
+Package pdftex.def Info: ../Ch-Gas/figure7.png used on input line 118.
 (pdftex.def)             Requested size: 128.52895pt x 85.3564pt.
 
-Overfull \hbox (10.3865pt too wide) in paragraph at lines 108--118
+Overfull \hbox (10.3865pt too wide) in paragraph at lines 111--121
  []
  []
 
 
-Overfull \hbox (9.10944pt too wide) in paragraph at lines 108--118
-[]
+Overfull \hbox (9.10944pt too wide) in paragraph at lines 111--121
+[] 
  []
 
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 149.
+line 150.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 147--152
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
 
  []
 
 [2 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:{gases}2' on page 3 undefined on input line 158.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 193.
+(Font)              <9> on input line 188.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 193.
+(Font)              <7> on input line 188.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 193.
+(Font)              scaled to size 9.37807pt on input line 188.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 193.
+(Font)              scaled to size 7.29405pt on input line 188.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 193.
+(Font)              scaled to size 9.37807pt on input line 188.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 193.
-[3] <../Ch-Gas/figure3.png, id=157, 906.38625pt x 1027.84pt>
+(Font)              scaled to size 7.29405pt on input line 188.
+
+Overfull \hbox (25.98193pt too wide) in paragraph at lines 224--225
+[][] 
+ []
+
+[3] <../Ch-Gas/figure3.png, id=181, 906.38625pt x 1027.84pt>
 File: ../Ch-Gas/figure3.png Graphic file (type png)
 
 <use ../Ch-Gas/figure3.png>
-Package pdftex.def Info: ../Ch-Gas/figure3.png used on input line 270.
+Package pdftex.def Info: ../Ch-Gas/figure3.png used on input line 272.
 (pdftex.def)             Requested size: 112.89691pt x 128.02486pt.
 
-<../Ch-Gas/figure4.png, id=158, 424.58624pt x 601.24625pt>
+<../Ch-Gas/figure4.png, id=182, 424.58624pt x 601.24625pt>
 File: ../Ch-Gas/figure4.png Graphic file (type png)
 
 <use ../Ch-Gas/figure4.png>
-Package pdftex.def Info: ../Ch-Gas/figure4.png used on input line 270.
+Package pdftex.def Info: ../Ch-Gas/figure4.png used on input line 272.
 (pdftex.def)             Requested size: 90.41612pt x 128.03606pt.
 
-<../Ch-Gas/figure5.png, id=159, 184.69pt x 275.0275pt>
+<../Ch-Gas/figure5.png, id=183, 184.69pt x 275.0275pt>
 File: ../Ch-Gas/figure5.png Graphic file (type png)
 
 <use ../Ch-Gas/figure5.png>
-Package pdftex.def Info: ../Ch-Gas/figure5.png used on input line 270.
+Package pdftex.def Info: ../Ch-Gas/figure5.png used on input line 272.
 (pdftex.def)             Requested size: 95.5377pt x 142.26813pt.
- [4 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG
- copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 304--308
+
+Overfull \hbox (79.01869pt too wide) in paragraph at lines 259--275
+[] [] 
+ []
+
+[4 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG 
+copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
 
  []
 
 
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 317--318
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 316--317
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--323
+Underfull \hbox (badness 10000) in paragraph at lines 318--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--338
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
 
  []
 
 
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 372--373
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 371--372
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--378
+Underfull \hbox (badness 10000) in paragraph at lines 373--377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--383
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--383
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--383
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--383
+Underfull \hbox (badness 10000) in paragraph at lines 378--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--393
+Underfull \hbox (badness 10000) in paragraph at lines 386--392
 
  []
 
 [5]
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 415--416
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 414--415
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--420
+Underfull \hbox (badness 10000) in paragraph at lines 416--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--434
+Underfull \hbox (badness 10000) in paragraph at lines 427--433
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 []\T1/ptm/m/n/10 (+20) In or-der to
  []
 
 
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 481--482
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 480--481
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--486
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--490
+Underfull \hbox (badness 10000) in paragraph at lines 486--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--490
+Underfull \hbox (badness 10000) in paragraph at lines 486--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--490
+Underfull \hbox (badness 10000) in paragraph at lines 486--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--513
+Underfull \hbox (badness 10000) in paragraph at lines 507--512
 
  []
 
 [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 619--621
+Underfull \hbox (badness 10000) in paragraph at lines 618--620
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 631--639
+Underfull \hbox (badness 10000) in paragraph at lines 630--638
 
  []
 
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 650.
+ line 649.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <7> not avail
 able
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 650.
+ line 649.
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 651.
+(Font)              <10.95> on input line 650.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 651.
+(Font)              scaled to size 11.40997pt on input line 650.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 651.
+(Font)              scaled to size 11.40997pt on input line 650.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-LaTeX Warning: Reference `fig:{gases}10' on page 11 undefined on input line 688
-.
-
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 704--712
+Underfull \hbox (badness 10000) in paragraph at lines 706--714
 
  []
 
-<../Ch-Gas/figure8.png, id=224, 905.3825pt x 853.1875pt>
+<../Ch-Gas/figure8.png, id=247, 905.3825pt x 853.1875pt>
 File: ../Ch-Gas/figure8.png Graphic file (type png)
 
 <use ../Ch-Gas/figure8.png>
-Package pdftex.def Info: ../Ch-Gas/figure8.png used on input line 717.
+Package pdftex.def Info: ../Ch-Gas/figure8.png used on input line 719.
 (pdftex.def)             Requested size: 170.71204pt x 160.87054pt.
-
-
-LaTeX Warning: Reference `fig:{gases}8' on page 12 undefined on input line 729.
-
-
-[12 <../Ch-Gas/figure8.png>]
-
-LaTeX Warning: Reference `tab:{gases}1' on page 13 undefined on input line 739.
-
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 750.
+(hyperref)                setting the option has no effect on input line 734.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 750.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 734.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 750.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 734.
 
-LaTeX Warning: Reference `tab:{gases}1' on page 13 undefined on input line 750.
-
-
-
-Overfull \hbox (14.07593pt too wide) in paragraph at lines 747--759
+Overfull \hbox (14.07593pt too wide) in paragraph at lines 731--743
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--775
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [12 <../Ch-Gas/figure8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--781
 
  []
 
 [13]
-Underfull \hbox (badness 1194) in paragraph at lines 805--806
-[]\T1/ptm/m/n/10 (+20) There are two an der
- []
-
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 813.
+(hyperref)                setting the option has no effect on input line 816.
 
 
-LaTeX Warning: Reference `tab:{gases}2' on page 14 undefined on input line 813.
-
-
-
-Overfull \hbox (30.08163pt too wide) in paragraph at lines 810--824
+Overfull \hbox (30.08163pt too wide) in paragraph at lines 813--827
  [] 
  []
 
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 840--845
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 846--851
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 876--882
+Underfull \hbox (badness 10000) in paragraph at lines 882--888
 
  []
 
 
-LaTeX Warning: Reference `fig:{gases}9' on page 16 undefined on input line 977.
+Overfull \hbox (240.56055pt too wide) in paragraph at lines 895--980
+[] [] 
+ []
 
 
-[16] [17] [18
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17] [18
 
 ]) (../Ch-Gas/Ch-GasProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5510,16 +5508,11 @@ LaTeX Warning: Reference `fig:{gases}9' on page 16 undefined on input line 977.
 
 Package mdframed Info: mdframed works in twoside mode on input line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 19 undefined on input line 1
-2.
-
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 28.
-[19
+ [19
 
 
 ]
@@ -5612,15 +5605,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5392.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5392.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5392.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D5F7D4C778ACD64A2E3265CFB144FAED;1177.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D5F7D4C778ACD64A2E3265CFB144FAED;1177.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5628,25 +5615,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81948 strings out of 493014
- 1841399 string characters out of 6133351
- 2697021 words of memory out of 5000000
- 83519 multiletter control sequences out of 15000+600000
- 380771 words of font info for 420 fonts, out of 8000000 for 9000
+ 81978 strings out of 493014
+ 1841527 string characters out of 6133351
+ 2692331 words of memory out of 5000000
+ 83545 multiletter control sequences out of 15000+600000
+ 378945 words of font info for 417 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,22n,106p,10369b,3272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,22n,106p,10369b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
-6/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/f
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
 onts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
@@ -5674,10 +5655,10 @@ ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (22 pages, 3475083 bytes).
+Output written on main.pdf (22 pages, 3477911 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
- 386 compressed objects within 4 object streams
- 156 named destinations out of 1000 (max. 500000)
- 100874 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 100410 words of extra memory for PDF output out of 106986 (max. 10000000)
 
