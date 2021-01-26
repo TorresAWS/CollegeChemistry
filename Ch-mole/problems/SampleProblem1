@@ -1,0 +1,25 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate: (a) the number of CuO molecules in 3.4 moles of \ce{CuO}; (b) the number of moles of CO in $5\times 10^{20}$ \ce{CO} molecules; (c) The number of O atoms in 4.5 moles of \ce{NO2}. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) 3.4 moles of \ce{CuO} equals to $2.05\times 10^{22}$ molecules of CuO as:
+\begin{equation*}\begin{split}
+3.4   \cancel{\text{moles of }\ce{CuO}} \times
+\dfrac{6.022\times 10^{23} \text{ molecules of \ce{CuO} }  } {  1\cancel{\text{mole of  }\ce{CuO}}}=\\
+=2.05\times 10^{22} \text{molecules of CuO}
+\end{split}\end{equation*}
+(b) $5\times 10^{20}$ \ce{CO} molecules equals to $8.3\times 10^{-4}$ moles of \ce{CO}, as
+\begin{equation*}
+5\times 10^{20}   \cancel{\text{CO molecules}} \times
+\dfrac{ 1\text{ mole of CO}  } { 6.022\times 10^{23} \cancel{\text{ CO molecules}}   }
+=8.3\times 10^{-4} \text{moles of CO}
+\end{equation*}
+(c) 4.5 moles of \ce{NO2} contains $5.4\times 10^{24}$ O atoms, as
+ \begin{equation*}\begin{split}
+4.5  \cancel{\text{moles of }\ce{NO2}} \times 
+\dfrac{6.022\times 10^{23} \cancel{\ce{NO2} \text{ molecules}}  } {  1\cancel{\text{moles of }\ce{NO2}}} 
+\times\dfrac{2 \text{O atoms}}{1\cancel{\ce{NO2} \text{ molecules}}}\\
+=5.4\times 10^{24}\text{O atoms}
+\end{split}\end{equation*}\\
+ \import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
