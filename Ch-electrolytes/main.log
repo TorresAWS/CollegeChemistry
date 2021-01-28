@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JAN 2021 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JAN 2021 11:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5120,10 +5120,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 39.
 
 (./files/SectionIntro-Solutions-and-composition)
-(./files/SubSection-Solutions-and-composition-What-makes-a-solution
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 1.
-)
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 42.
+
+(./files/SubSection-Solutions-and-composition-What-makes-a-solution)
 (./problems/SampleProblem1 (./problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
@@ -5180,8 +5180,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--8
 
  []
 
-) (./files/SubSection-Solutions-and-composition-Concentration-of-solutions
-[3]) (./files/SubSection-Solutions-and-composition-Meaning-of-concentration)
+) (./files/SubSection-Solutions-and-composition-Concentration-of-solutions)
+(./files/SubSection-Solutions-and-composition-Meaning-of-concentration [3])
 (./files/SubSection-Solutions-and-composition-Mass-percent)
 (./problems/SampleProblem4 (./problems/StudyCheck4))
 (./files/SubSection-Solutions-and-composition-Volume-percent-concentration)
@@ -5194,7 +5194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--8
 (./problems/SampleProblem7 (./problems/StudyCheck7))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 64.
+(hyperref)                removing `\color' on input line 74.
 
 (./files/SectionIntro-Electrolytes-and-insoluble-compounds)
 (./files/SubSection-Electrolytes-and-insoluble-compounds-Soluble-and-insoluble-
@@ -5204,13 +5204,14 @@ salts) (./problems/SampleProblem8 (./problems/StudyCheck8) [6])
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 29.
 
-) (./files/SubSection-Electrolytes-and-insoluble-compounds-Strong-electrolytes
-Overfull \hbox (171.82971pt too wide) in paragraph at lines 1--1
+)
+Overfull \hbox (171.82971pt too wide) in paragraph at lines 1--80
 [][] 
  []
 
-) (./files/SubSection-Electrolytes-and-insoluble-compounds-Nonelectrolytes
-[7])
+(./files/SubSection-Electrolytes-and-insoluble-compounds-Strong-electrolytes)
+(./files/SubSection-Electrolytes-and-insoluble-compounds-Nonelectrolytes)
+[7]
 (./files/SubSection-Electrolytes-and-insoluble-compounds-Identify-the-electroly
 te-character-of-a-chemical)
 (./files/SubSection-Electrolytes-and-insoluble-compounds-Breaking-down-electrol
@@ -5226,30 +5227,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 (./problems/StudyCheck10)
-Overfull \hbox (33.36598pt too wide) in paragraph at lines 75--30
+Overfull \hbox (33.36598pt too wide) in paragraph at lines 85--30
    []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--30
+Underfull \hbox (badness 10000) in paragraph at lines 85--30
 
  []
 
 [8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 78.
+(hyperref)                removing `\color' on input line 90.
 
-(./files/SectionIntro-An-introduction-to-reactions-in-solution [9])
+(./files/SectionIntro-An-introduction-to-reactions-in-solution)
 (./files/SubSection-An-introduction-to-reactions-in-solution-Acid-base-reaction
 s)
 (./files/SubSection-An-introduction-to-reactions-in-solution-Precipitation-reac
-tions)
+tions) [9]
 (./files/SubSection-An-introduction-to-reactions-in-solution-Redox-reactions)
 (./problems/SampleProblem11 (./problems/StudyCheck11) [10])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 86.
+(hyperref)                removing `\color' on input line 99.
 
 (./files/SectionIntro-Precipitation-reactions-and-acid-base-reactions)
 (./files/SubSection-Precipitation-reactions-and-acid-base-reactions-Solubility-
@@ -5260,25 +5261,35 @@ eactions)
 on-reactions)
 (./files/SubSection-Precipitation-reactions-and-acid-base-reactions-Formula-equ
 ations-ionic-equations-and-net-ionic-equations
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
 [11]) (./problems/SampleProblem12 (./problems/StudyCheck12))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 95.
+(hyperref)                removing `\color' on input line 109.
 
-(./files/SectionIntro-Redox-reactions [12])
+(./files/SectionIntro-Redox-reactions) [12]
 (./files/SubSection-Redox-reactions-Oxidation-state-or-redox-number)
 (./files/SubSection-Redox-reactions-Rules-to-calculate-redox-numbers)
 (./files/SubSection-Redox-reactions-Calculating-the-redox-number)
 (./problems/SampleProblem13 (./problems/StudyCheck13) [13])
 (./files/SubSection-Redox-reactions-Redox-means-oxidation-and-reduction)
 (./files/SubSection-Redox-reactions-Redox-numbers-in-chemical-reactions)
-(./files/SubSection-Redox-reactions-Balancing-simple-redox-reactions [14]
+(./files/SubSection-Redox-reactions-Balancing-simple-redox-reactions
 Overfull \hbox (4.03351pt too wide) in paragraph at lines 5--5
  [][]$\OT1/zplm/m/n/10 +$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5293,7 +5304,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 16.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 16.
-)
+[14])
 (./files/SubSection-Redox-reactions-Balancing-redox-reactions-in-acidic-medium
 Overfull \hbox (4.03351pt too wide) in paragraph at lines 11--11
  [][]$\OT1/zplm/m/n/10 +$ 
@@ -5305,7 +5316,7 @@ Overfull \hbox (4.71976pt too wide) detected at line 24
  []
 
 ) (./problems/SampleProblem14
-Overfull \hbox (63.8507pt too wide) detected at line 26
+Overfull \hbox (6.77841pt too wide) detected at line 26
 []
  []
 
@@ -5468,10 +5479,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81469 strings out of 493014
- 1847887 string characters out of 6133351
- 2624726 words of memory out of 5000000
- 82803 multiletter control sequences out of 15000+600000
+ 81470 strings out of 493014
+ 1847892 string characters out of 6133351
+ 2620489 words of memory out of 5000000
+ 82804 multiletter control sequences out of 15000+600000
  266714 words of font info for 330 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,22n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5502,7 +5513,7 @@ texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 992793 bytes).
+Output written on main.pdf (20 pages, 992596 bytes).
 PDF statistics:
  481 PDF objects out of 1000 (max. 8388607)
  368 compressed objects within 4 object streams

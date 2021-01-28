@@ -18,11 +18,12 @@ $1\cdot \big($ \ce{ Cr2O7^{2-} + 14 H^+ + 6 e^- ->  2 Cr^{3+} + 7 H2O  } $\big)$
 After we cancel the electrons and eliminate protons and water molecules, the balanced reaction is:
 \vspace{0.5cm}
  \begin{reaction*}
-    "\OX{r11,\ox*{+6,Cr2}}" O7^2-  \aq{} + 8 H^+\aq{}  + 3 "\OX{o11,\ox*{+4,S}}" O3^2- \aq{} 
+    8 H^+\aq{} +  "\OX{r11,\ox*{+6,Cr2}}" O7^2-  \aq{}  + 3 "\OX{o11,\ox*{+4,S}}" O3^2- \aq{} 
     ->
-  3 "\OX{o12,\ox*{+6,S}}" O4^2- \aq{} + 2 "\OX{r12,\ox*{+3,Cr^3+}}" \aq{} + 7 H2O\lqd{}
+  3 "\OX{o12,\ox*{+6,S}}" O4^2- \aq{} + 2 "\OX{r12,\ox*{+3,Cr^3+}}" \aq{} 
   "\redox(o11,o12)[->]{\small Oxidation: $- 2\el$}"
   "\redox(r11,r12)[->][-1]{\small Reduction: $+ 3\el$}"
-\end{reaction*}\vspace{0.5cm}\\
+\end{reaction*}\hspace*{\fill}\ce{+ 7 H2O_{(l)}}
+\vspace{0.5cm}\\
  \import{./}{StudyCheck14}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
