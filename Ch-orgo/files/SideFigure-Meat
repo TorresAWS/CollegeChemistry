@@ -17,7 +17,7 @@
 \coordinate (magnifying glass) at (8.5em,17.5em);
 \node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{CH_3-C(=[:90]O)(-OH)}} ;\end{scope}
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{CH_3-C(=[:90]O)(-O-CH_3)}} ;\end{scope}
 \node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Esters are found in soaps};
 \end{tikzpicture}
 \end{marginfigure}
