@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JAN 2021 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JAN 2021 15:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5387,17 +5387,38 @@ Package pdftex.def Info: ../Ch-thermochemistry/figure1-7.png used on input line
  20.
 (pdftex.def)             Requested size: 75.87311pt x 113.80968pt.
 )
-Overfull \hbox (121.69891pt too wide) in paragraph at lines 3--92
-[][]
+Overfull \hbox (103.09888pt too wide) in paragraph at lines 3--91
+[][] 
  []
 
-(./files/SectionIntro-Enthalpy) (./files/SubSection-Enthalpy-What-is-enthalpy?
-[12 <../Ch-thermochemistry/figure1-6.png> <../Ch-thermochemistry/figure1-7.png 
-(PNG copy)>])
+(./files/SubSection-Calorimetry-Food-Calories)
+(./files/SubSection-Calorimetry-Energy-value) (./problems/SampleProblem13
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+(./problems/StudyCheck13) [12 <../Ch-thermochemistry/figure1-6.png> <../Ch-ther
+mochemistry/figure1-7.png (PNG copy)>]) (./files/Table-Energy-values
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+) (./files/SectionIntro-Enthalpy [13])
+(./files/SubSection-Enthalpy-What-is-enthalpy?)
 (./files/SubSection-Enthalpy-Table-of-standard-enthalpies--Table-of-standard-en
-thalpies) (./problems/SampleProblem9 (./problems/StudyCheck9))
+thalpies [14]) (./problems/SampleProblem9 (./problems/StudyCheck9))
 (./files/SubSection-Enthalpy-Natural-state-of-an-element--Natural-state-of-an-e
-lement [13]) (./files/Table-Standard-states
+lement) (./files/Table-Standard-states
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
@@ -5421,9 +5442,9 @@ Underfull \hbox (badness 5985) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) The for-
  []
 
-) (./files/SubSection-Enthalpy-Delta-H)
+[15]) (./files/SubSection-Enthalpy-Delta-H)
 (./files/SubSection-Enthalpy-Standard-enthalpy-change-for-a-reaction--Standard-
-enthalpy-change-for-a-reaction [14]) (./problems/SampleProblem10
+enthalpy-change-for-a-reaction) (./problems/SampleProblem10
 Underfull \hbox (badness 3872) in paragraph at lines 8--10
 \T1/ptm/m/n/10 (+20) In or-der to an-swer all ques-tions, we need a set of $\OT
 1/zplm/m/n/10 ^^A\OML/lmm/m/it/10 H[]$ \T1/ptm/m/n/10 (+20) val-ues:
@@ -5434,29 +5455,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-(./problems/StudyCheck10) [15])
+(./problems/StudyCheck10) [16])
 (./files/SubSection-Enthalpy-Heat-Mole-conversions--Heat-Mole-conversions)
 (./problems/SampleProblem11
 Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-(./problems/StudyCheck11) [16])
+(./problems/StudyCheck11) [17])
 (./files/SectionIntro-Hesss-Law-Manipulating-reaction-enthalpies)
 (./files/SubSection-Hesss-Law-Reverting-reactions--Reverting-reactions)
 (./files/SubSection-Hesss-Law-Timing-reactions-by-a-number--Timing-reactions-by
--a-number)
+-a-number [18])
 (./files/SubSection-Hesss-Law-Combining-reactions--Combining-reactions
 Overfull \hbox (38.22638pt too wide) in paragraph at lines 12--18
  [] 
  []
 
-[17]) (./problems/SampleProblem12
+) (./problems/SampleProblem12
 Overfull \hbox (1.19817pt too wide) in paragraph at lines 21--28
  [] 
  []
 
-(./problems/StudyCheck12) [18]) (./files/Table-Enthapy [19]
+(./problems/StudyCheck12) [19]) (./files/Table-Enthapy [20]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 141.
@@ -5474,11 +5495,11 @@ Overfull \hbox (207.81573pt too wide) in paragraph at lines 147--301
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [21]
 Overfull \vbox (35.00136pt too high) has occurred while \output is active []
 
 
-[21])) (../Ch-thermochemistry/Ch-thermochemistryProblems.tex
+[22])) (../Ch-thermochemistry/Ch-thermochemistryProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5518,17 +5539,24 @@ lable
  line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
 
-(./problems/GeneralProblems-Energy-and-temperature
+(./problems/problems/Problems-Types-of-energy
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 9.
 )
-(./problems/GeneralProblems-The-first-law-of-thermodynamics)
-(./problems/GeneralProblems-Calorimetry) (./problems/GeneralProblems-Enthalpy
-[22
+(./problems/problems/Problems-Temperature-units)
+(./problems/problems/Problems-calories-and-joules)
+(./problems/problems/Problems-Work)
+(./problems/problems/Problems-Heat-and-temperature)
+(./problems/problems/Problems-Calorimetry)
+(./problems/problems/Problems-Energy-value)
+(./problems/problems/Problems-Exo-endo [23
 
-]) (./problems/GeneralProblems-Hesss-Law
+])
+(./problems/problems/Problems-Heat-and-stoichiometry)
+(./problems/problems/Problems-Enthalpy-table)
+(./problems/problems/Problems-Hess-law
 Overfull \hbox (12.0pt too wide) in alignment at lines 14--14
 [][][]
  []
@@ -5548,7 +5576,7 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 70--70
 [][][]
  []
 
-) [23]
+) [24] [25]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5587,13 +5615,13 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 56.
+ line 70.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 48--58
+Overfull \hbox (15.0pt too wide) in paragraph at lines 62--72
 []$[]$ 
  []
 
-[24
+[26
 
 ])
 
@@ -5626,13 +5654,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81288 strings out of 493014
- 1839660 string characters out of 6133351
- 2673442 words of memory out of 5000000
- 82705 multiletter control sequences out of 15000+600000
+ 81405 strings out of 493014
+ 1842299 string characters out of 6133351
+ 2673904 words of memory out of 5000000
+ 82766 multiletter control sequences out of 15000+600000
  256881 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,26n,105p,10369b,2274s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,26n,105p,10369b,2277s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
@@ -5664,10 +5692,10 @@ o/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 2712257 bytes).
+Output written on main.pdf (26 pages, 2723780 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 138 named destinations out of 1000 (max. 500000)
  71632 words of extra memory for PDF output out of 74296 (max. 10000000)
 
