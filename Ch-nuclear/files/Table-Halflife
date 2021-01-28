@@ -1,0 +1,17 @@
+ \begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Half-life for various isotopes and chemicals} \\
+\midrule
+\multicolumn{1}{c}{\ce{^14_16C}} & \multicolumn{1}{c}{5730 y}         \\
+\multicolumn{1}{c}{\ce{^40_19K}} & \multicolumn{1}{c}{$1.3\times 10^9$ y }       \\
+\multicolumn{1}{c}{\ce{^226_88Ra}} & \multicolumn{1}{c}{1600 y  }       \\
+\multicolumn{1}{c}{\ce{^90_38Sr}} & \multicolumn{1}{c}{38 y  }   \\      
+\multicolumn{1}{c}{	Ondansetron	} & \multicolumn{1}{c}{360 min		  }   \\      
+\multicolumn{1}{c}{	Capecitabine	} & \multicolumn{1}{c}{2400s		  }   \\      
+\multicolumn{1}{c}{	Carmustine	} & \multicolumn{1}{c}{0.25h		  }   \\      
+\bottomrule
+\end{tabular}\end{center}
