@@ -1,4 +1,4 @@
-   \begin{marginfigure}[-0.9cm]
+   \begin{marginfigure}[0.0cm]
    \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure11}} node[rotate=90, font=\tiny] at ([yshift=1.8cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
@@ -10,7 +10,7 @@
 \end{tikzpicture}
 \end{marginfigure}
 
-   \begin{marginfigure}[-0.7cm]
+   \begin{marginfigure}[0.1cm]
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure15}} node[rotate=90, font=\tiny] at ([yshift=1.8cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
@@ -22,7 +22,7 @@
 \end{tikzpicture}
 \end{marginfigure}
 
-   \begin{marginfigure}[-0.6cm]
+   \begin{marginfigure}[0.1cm]
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure16}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);

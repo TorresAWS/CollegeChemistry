@@ -10,7 +10,7 @@
 \end{tikzpicture}
 \end{marginfigure}
 
-   \begin{marginfigure}[1cm]
+   \begin{marginfigure}[0.5cm]
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure14}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
