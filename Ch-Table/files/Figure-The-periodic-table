@@ -1,9 +1,9 @@
 %%%%%%%%%%%%%%%%%%% PERIODIC TABLE
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
     
-    \hspace{0cm}\begin{minipage}[b]{1.5\linewidth}
+    \hspace{0cm}\begin{minipage}[b]{1.8\linewidth}
 
-\begin{tikzpicture}[font=\sffamily, scale=0.30, transform shape]
+\begin{tikzpicture}[font=\sffamily, scale=0.35, transform shape]
 
 %% Fill Color Styles
   \tikzstyle{ElementFill} = [fill=yellow!15]
