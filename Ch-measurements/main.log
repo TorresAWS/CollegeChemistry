@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JAN 2021 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2021 12:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5082,9 +5082,13 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro) (./files/ChapterGoals)
+(./files/ChapterIntro) (./files/SectionGoal-Prefixes-Conversion-Factors)
+(./files/SectionGoal-Units-of-Measurements-and-systems-of-units)
+(./files/SectionGoal-Using-Conversion-Factors)
+(./files/SectionGoal-Significant-Figures)
+(./files/SectionGoal-Matter-and-density)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 29.
+line 34.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
@@ -5111,19 +5115,21 @@ LaTeX Warning: Marginpar on page 1 moved.
 
 (./files/SectionIntro-Units-of-Measurements-and-systems-of-units)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 41.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 46.
 
 (./files/SubSection-Units-of-Measurements-and-systems-of-units-Length)
-(./files/SubSection-Using-Conversion-Factors-Units-of-volume)
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Mass [1
+(./files/SubSection-Units-of-Measurements-and-systems-of-units-Mass)
+(./files/SubSection-Units-of-Measurements-and-systems-of-units-Temperature
+[1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-m
 easurements/figure1.png>])
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Temperature)
 (./files/SubSection-Units-of-Measurements-and-systems-of-units-Time)
+(./files/SubSection-Units-of-Measurements-and-systems-of-units-Volume)
+(./files/SubSection-Units-of-Measurements-and-systems-of-units-Concentration)
 (./files/SideFigure-Measurements
-<../Ch-measurements/figure1-1.png, id=159, 1505.625pt x 2007.5pt>
+<../Ch-measurements/figure1-1.png, id=151, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-1.png>
@@ -5131,7 +5137,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-1.png used on input line 2.
 
 (pdftex.def)             Requested size: 85.34825pt x 113.79767pt.
 
-<../Ch-measurements/figure1-2.png, id=160, 913.4125pt x 609.27625pt>
+<../Ch-measurements/figure1-2.png, id=152, 913.4125pt x 609.27625pt>
 File: ../Ch-measurements/figure1-2.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-2.png>
@@ -5139,7 +5145,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-2.png used on input line 5.
 
 (pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
 
-<../Ch-measurements/figure1-15.png, id=161, 1689.31125pt x 1997.4625pt>
+<../Ch-measurements/figure1-15.png, id=153, 1689.31125pt x 1997.4625pt>
 File: ../Ch-measurements/figure1-15.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-15.png>
@@ -5147,7 +5153,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-15.png used on input line 8
 .
 (pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
 
-<../Ch-measurements/figure1-16.png, id=162, 1303.87125pt x 1303.87125pt>
+<../Ch-measurements/figure1-16.png, id=154, 1303.87125pt x 1303.87125pt>
 File: ../Ch-measurements/figure1-16.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-16.png>
@@ -5155,7 +5161,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-16.png used on input line 1
 1.
 (pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
 
-<../Ch-measurements/figure1-17.png, id=163, 174.6525pt x 702.625pt>
+<../Ch-measurements/figure1-17.png, id=155, 174.6525pt x 702.625pt>
 File: ../Ch-measurements/figure1-17.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-17.png>
@@ -5210,23 +5216,19 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 )
-Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--49
+Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--56
 [][] 
  []
 
-(./files/SectionIntro-Prefixes-Conversion-Factors) (./files/Table-Prefixes
+(./files/SectionIntro-Prefixes-Conversion-Factors [2 <../Ch-measurements/figure
+1-1.png (PNG copy)> <../Ch-measurements/figure1-2.png (PNG copy)> <../Ch-measur
+ements/figure1-15.png> <../Ch-measurements/figure1-16.png> <../Ch-measurements/
+figure1-17.png (PNG copy)>]) (./files/Table-Prefixes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-[2 <../Ch-measurements/figure1-1.png (PNG copy)> <../Ch-measurements/figure1-2.
-png (PNG copy)> <../Ch-measurements/figure1-15.png> <../Ch-measurements/figure1
--16.png> <../Ch-measurements/figure1-17.png (PNG copy)>])
-(./files/SubSection-Prefixes-Conversion-Factors-How-to-identify-prefixes)
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-
+) (./files/SubSection-Prefixes-Conversion-Factors-How-to-identify-prefixes)
 (./files/SubSection-Prefixes-Conversion-Factors-How-to-write-unit-equalities-an
 d-conversion-factors) (./problems/SampleProblem2 [3])
 (./files/SectionIntro-Using-Conversion-Factors)
@@ -5240,8 +5242,8 @@ LaTeX Warning: Reference `tab:units2' on page 4 undefined on input line 1.
 LaTeX Warning: Reference `tab:units2' on page 5 undefined on input line 1.
 
 ) (./problems/SampleProblem4)
-(./files/SubSection-Using-Conversion-Factors-Square-or-cubic-units)
-(./problems/SampleProblem5 [5])
+(./files/SubSection-Using-Conversion-Factors-Square-or-cubic-units [5])
+(./problems/SampleProblem5)
 (./files/SubSection-Using-Conversion-Factors-Units-of-volume)
 (./problems/SampleProblem6)
 (./files/SubSection-Using-Conversion-Factors-Using-other-equalities
@@ -5251,12 +5253,12 @@ LaTeX Warning: Reference `tab:units2' on page 6 undefined on input line 1.
 
 LaTeX Warning: Reference `tab:units3' on page 6 undefined on input line 1.
 
-) (./files/Table-Common-units
+) (./files/Table-Common-units [6]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-[6]) (./problems/SampleProblem7) (./files/SectionIntro-Significant-Figures)
+) (./problems/SampleProblem7) (./files/SectionIntro-Significant-Figures)
 (./files/SubSection-Significant-Figures-Significant-figures-of-numbers [7])
 (./problems/SampleProblem8
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
@@ -5266,7 +5268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--8
 ) (./files/SubSection-Significant-Figures-Significant-figures-in-calculations
 [8]) (./problems/SampleProblem9) [9] (./files/SectionIntro-Matter-and-density)
 (./files/Figure-Matter
-<../Ch-measurements/figure1-14.png, id=235, 1026.83624pt x 684.5575pt>
+<../Ch-measurements/figure1-14.png, id=234, 1026.83624pt x 684.5575pt>
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-14.png>
@@ -5274,7 +5276,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-14.png used on input line 3
 9.
 (pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
 
-<../Ch-measurements/figure1-12.png, id=236, 913.4125pt x 590.205pt>
+<../Ch-measurements/figure1-12.png, id=235, 913.4125pt x 590.205pt>
 File: ../Ch-measurements/figure1-12.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-12.png>
@@ -5282,7 +5284,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-12.png used on input line 3
 9.
 (pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
 
-<../Ch-measurements/figure1-11.png, id=237, 1027.84pt x 770.88pt>
+<../Ch-measurements/figure1-11.png, id=236, 1027.84pt x 770.88pt>
 File: ../Ch-measurements/figure1-11.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-11.png>
@@ -5290,7 +5292,7 @@ Package pdftex.def Info: ../Ch-measurements/figure1-11.png used on input line 3
 9.
 (pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
 
-<../Ch-measurements/figure1-13.png, id=238, 913.4125pt x 1254.6875pt>
+<../Ch-measurements/figure1-13.png, id=237, 913.4125pt x 1254.6875pt>
 File: ../Ch-measurements/figure1-13.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-13.png>
@@ -5315,7 +5317,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 ) (./problems/SampleProblem11
-<../Ch-measurements/figure1-8.png, id=251, 1204.5pt x 2156.055pt>
+<../Ch-measurements/figure1-8.png, id=250, 1204.5pt x 2156.055pt>
 File: ../Ch-measurements/figure1-8.png Graphic file (type png)
 
 <use ../Ch-measurements/figure1-8.png>
@@ -5332,7 +5334,12 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [11])
 (./files/SubSection-Matter-and-density-Density-and-the-volume-of-objects)
-(./problems/SampleProblem12) (./files/Figure-Volume-objects
+(./problems/SampleProblem12
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+) (./files/Figure-Volume-objects
 Overfull \hbox (169.06755pt too wide) in paragraph at lines 56--57
  [] 
  []
@@ -5477,14 +5484,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81311 strings out of 493014
- 1837126 string characters out of 6133351
- 2595833 words of memory out of 5000000
- 82590 multiletter control sequences out of 15000+600000
- 215856 words of font info for 287 fonts, out of 8000000 for 9000
+ 81339 strings out of 493014
+ 1838950 string characters out of 6133351
+ 2594309 words of memory out of 5000000
+ 82604 multiletter control sequences out of 15000+600000
+ 213778 words of font info for 284 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,115p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5512,10 +5522,10 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 17459805 bytes).
+Output written on main.pdf (16 pages, 17455141 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 489 compressed objects within 5 object streams
- 256 named destinations out of 1000 (max. 500000)
- 61930 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 488 compressed objects within 5 object streams
+ 255 named destinations out of 1000 (max. 500000)
+ 61418 words of extra memory for PDF output out of 61914 (max. 10000000)
 
