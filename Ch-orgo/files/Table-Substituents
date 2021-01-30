@@ -1,6 +1,7 @@
- \begin{center}
- \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{fullwidth}
+  \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
+\begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
 \begin{tabular}{llllllll}
 \rowcolor{black!45}
 \toprule
@@ -15,6 +16,6 @@ Substituents & name && Substituents & name  \\
 \vspace{0.2cm}\chemfig{CH_3CH_2CH_2CH_2-[:0,1]}  &   Butyl   & &    \chemfig{I-[:0,1]} &     Iodo 	&&\chemfig{H_3C-[:0,1]CH(-[:90,1]\phantom{L})(-[:0,1]CH_2CH_3)} &   sec-Butyl		\\  [1mm]    
  \vspace{0.2cm} \chemfig{H_3C-[:0,1]C(-[:-90,1]CH_3)(-[:90,1]\phantom{L})(-[:0,1]CH_3)}&    t-butyl    & & \chemfig{H_3C-[:0,1]CH(-[:90,1]\phantom{L})(-[:0,1]CH_3)}&     Isopropyl      & & \chemfig{CH_3CH_2CH_2-[:0,1]}  &   Propyl   \\       
 \bottomrule
-\end{tabular}\end{center}
-
- 
+\end{tabular}
+}\end{minipage} 
+ \end{fullwidth}

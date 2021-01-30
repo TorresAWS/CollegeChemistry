@@ -1,7 +1,6 @@
- 
- \begin{center}
+\begin{fullwidth}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
- \begin{minipage}[b]{1.6\linewidth}\resizebox{0.9\textwidth}{!}{
+\begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllll}
 \rowcolor{black!45}
@@ -16,5 +15,6 @@ Functional group & Name && Functional group & Name && Functional group & Name  \
  \chemfig{R-C(=[:90]O)-O-R'}    &    Ester		&&\chemfig{R-C(=[:90]O)(-N(-R')((-[:90]R'')))}      &    Amide&& \chemfig{(*6(=-=-(-[2]R)=-))}    & Phenyl \\[1mm] 
 \bottomrule
 \end{tabular} } \end{minipage}
-\end{center}
+ 
+\end{fullwidth}
 

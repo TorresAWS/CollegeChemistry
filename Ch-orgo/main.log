@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 15:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5198,20 +5198,20 @@ line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes)
-(./files/Table-Alkane-names
+))) (./files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes) [2 <..
+/Ch-orgo/figure3.png (PNG copy)> <../Ch-orgo/figure2.png (PNG copy)> <../Ch-org
+o/figure4.png>] (./files/Table-Alkane-names
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 24.
+(hyperref)                setting the option has no effect on input line 23.
 
 
-Overfull \hbox (171.82971pt too wide) in paragraph at lines 4--24
- [] 
+Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--24
+[][] 
  []
 
-[2 <../Ch-orgo/figure3.png (PNG copy)> <../Ch-orgo/figure2.png (PNG copy)> <../
-Ch-orgo/figure4.png>]) (./files/SubSection-Alkanes-Condensed-structural-formula
-) (./problems/SampleProblem2 (./problems/StudyCheck2) [3])
+) (./files/SubSection-Alkanes-Condensed-structural-formula)
+(./problems/SampleProblem2 (./problems/StudyCheck2) [3])
 (./files/SubSection-Alkanes-Skeletal-structural-formula)
 (./files/SubSection-Alkanes-A-review-of-the-different-structural-formulas)
 (./problems/SampleProblem3 (./problems/StudyCheck3) [4])
@@ -5228,7 +5228,7 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 2--13
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 60.
+(hyperref)                removing `\color' on input line 59.
 
 (./files/SectionIntro-Cycloalkanes) (./files/SideFigure-Alkanes
 <../Ch-orgo/figure5.png, id=187, 1505.625pt x 1388.93906pt>
@@ -5278,19 +5278,20 @@ LaTeX Warning: Marginpar on page 5 moved.
 (./problems/SampleProblem5 (./problems/StudyCheck5))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 75.
+(hyperref)                removing `\color' on input line 74.
 
-(./files/SectionIntro-Alkanes-with-substituents) (./files/Table-Substituents
+(./files/SectionIntro-Alkanes-with-substituents) [6]
+(./files/Table-Substituents
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 7.
+(hyperref)                setting the option has no effect on input line 20.
 
 
-Overfull \hbox (112.77568pt too wide) in paragraph at lines 4--18
- [] 
+Overfull \hbox (103.90787pt too wide) in paragraph at lines 4--21
+[][] 
  []
 
-[6]) (./files/SubSection-Alkanes-with-substituents-Substituents)
+) (./files/SubSection-Alkanes-with-substituents-Substituents)
 (./files/SubSection-Alkanes-with-substituents-Alkanes-with-a-single-substituent
 )
 (./files/SubSection-Alkanes-with-substituents-Alkanes-with-two-or-more-equal-su
@@ -5399,7 +5400,7 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 19.
 
 )
 (./files/SubSection-Alkanes-with-substituents-Naming-rules-for-branched-alkanes
-) (./problems/SampleProblem9
+[10]) (./problems/SampleProblem9
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 7.
 
@@ -5454,16 +5455,16 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 7.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 7.
 
-(./problems/StudyCheck9) [10])
+(./problems/StudyCheck9))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 96.
+(hyperref)                removing `\color' on input line 95.
 
 (./files/SectionIntro-Cycloalkanes-with-substituents)
 (./files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-one-substi
-tuent)
+tuent [11])
 (./files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-two-substi
-tuents [11]
+tuents
 Package chemfig Warning: the macro \A is already defined, the previous definiti
 on is lost on input line 4.
 Package chemfig Warning: the macro \C is already defined, the previous definiti
@@ -5508,7 +5509,7 @@ LaTeX Warning: Marginpar on page 12 moved.
 ubstituent) (./problems/SampleProblem10 (./problems/StudyCheck10) [12])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 110.
+(hyperref)                removing `\color' on input line 109.
 
 (./files/SideFigure-Acids
 <../Ch-orgo/figure10.png, id=247, 1304.875pt x 1304.875pt>
@@ -5541,7 +5542,7 @@ LaTeX Warning: Marginpar on page 13 moved.
 (./problems/SampleProblem11 (./problems/StudyCheck11) [13 <../Ch-orgo/figure10.
 png (PNG copy)> <../Ch-orgo/figure14.png (PNG copy)>])
 (./files/SideFigure-Acetone
-<../Ch-orgo/figure8.png, id=256, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=255, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 
 <use ../Ch-orgo/figure8.png>
@@ -5552,7 +5553,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
 
-<../Ch-orgo/figure17.png, id=257, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=256, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 
 <use ../Ch-orgo/figure17.png>
@@ -5566,23 +5567,19 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
 
 LaTeX Warning: Marginpar on page 14 moved.
 
-) (./files/SubSection-Molecular-diversity-Aromatic-group)
+) (./files/SubSection-Molecular-diversity-Aromatic-group) [14 <../Ch-orgo/figur
+e8.png (PNG copy)> <../Ch-orgo/figure17.png (PNG copy)>]
 (./files/Table-Functional-groups
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 18.
+(hyperref)                setting the option has no effect on input line 17.
 
 
-Overfull \hbox (206.19775pt too wide) in paragraph at lines 4--19
- [] 
+Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--18
+[][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <../Ch-orgo/figure8.png (PNG copy)> <../Ch-orgo/figure17.png (PNG copy)>])
-
-(./files/SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group)
+) (./files/SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group)
 (./problems/SampleProblem12
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
@@ -5599,6 +5596,9 @@ Package pdftex.def Info: ../Ch-orgo/figure11.png used on input line 2.
 Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
 
 <../Ch-orgo/figure15.png, id=270, 217.81375pt x 232.87pt>
 File: ../Ch-orgo/figure15.png Graphic file (type png)
@@ -5831,10 +5831,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 83617 strings out of 493014
- 1881724 string characters out of 6133351
- 2750189 words of memory out of 5000000
- 84931 multiletter control sequences out of 15000+600000
+ 83610 strings out of 493014
+ 1881550 string characters out of 6133351
+ 2734193 words of memory out of 5000000
+ 84924 multiletter control sequences out of 15000+600000
  227225 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,20n,111p,10369b,2399s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5864,7 +5864,7 @@ ve/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (25 pages, 10708609 bytes).
+Output written on main.pdf (25 pages, 10708300 bytes).
 PDF statistics:
  499 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
