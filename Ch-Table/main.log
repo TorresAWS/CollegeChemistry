@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 13:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5178,16 +5178,6 @@ Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
-
-Overfull \hbox (137.46167pt too wide) in paragraph at lines 5--291
- [] 
- []
-
-
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 5--291
- [] 
- []
-
 ) [3] (./files/SectionIntro-The-atom)
 (./files/SubSection-The-atom-Atomic-Structure)
 (./files/SubSection-The-atom-Atomic-and-mass-number) (./problems/SampleProblem2
@@ -5385,13 +5375,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 82082 strings out of 493014
- 1847513 string characters out of 6133351
- 2788271 words of memory out of 5000000
- 83508 multiletter control sequences out of 15000+600000
+ 82085 strings out of 493014
+ 1847558 string characters out of 6133351
+ 2788270 words of memory out of 5000000
+ 83511 multiletter control sequences out of 15000+600000
  224261 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,23n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5420,7 +5413,7 @@ tino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 1400870 bytes).
+Output written on main.pdf (13 pages, 1400895 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
