@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JAN 2021 08:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 08:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5108,9 +5108,28 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 LaTeX Warning: Marginpar on page 1 moved.
 
+(./files/Quote-Einstein
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-LF on i
+nput line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-LF.fd
+File: T1LinuxLibertineT-LF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
+uxLibertineT-LF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-LF/m/n' will be
+(Font)              scaled to size 60.0pt on input line 2.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `LinuxLibertineT-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Marginpar on page 1 moved.
+
+)
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 43.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+ut line 44.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
 )
@@ -5118,24 +5137,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
 (./files/SectionIntro-Radiation,-particles-and-radioisotopes)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 48.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 49.
 
 (./files/SubSection-Radiation,-particles-and-radioisotopes-alpha-radiation)
 (./files/SubSection-Radiation,-particles-and-radioisotopes-beta-radiation)
 (./files/SubSection-Radiation,-particles-and-radioisotopes-gamma-radiation)
 (./files/SubSection-Radiation,-particles-and-radioisotopes-protons)
 (./files/SubSection-Radiation,-particles-and-radioisotopes-positrons)
-(./files/SubSection-Radiation,-particles-and-radioisotopes-neutrons) [1
-
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-n
-uclear/figure1.png>]
-(./files/SubSection-Radiation,-particles-and-radioisotopes-Radioisotope-notatio
-n) (./files/SideFigure-Radiation-and-life
-<../Ch-nuclear/figure8.png, id=170, 513.92pt x 264.99pt>
+(./files/SubSection-Radiation,-particles-and-radioisotopes-neutrons)
+(./files/SideFigure-Radiation-and-life
+<../Ch-nuclear/figure8.png, id=147, 513.92pt x 264.99pt>
 File: ../Ch-nuclear/figure8.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure8.png>
@@ -5150,7 +5163,15 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure9.png, id=171, 351.3125pt x 351.3125pt>
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-n
+uclear/figure1.png>]
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+<../Ch-nuclear/figure9.png, id=172, 351.3125pt x 351.3125pt>
 File: ../Ch-nuclear/figure9.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure9.png>
@@ -5164,7 +5185,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure10.png, id=172, 843.15pt x 474.77374pt>
+<../Ch-nuclear/figure10.png, id=173, 843.15pt x 474.77374pt>
 File: ../Ch-nuclear/figure10.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure10.png>
@@ -5178,7 +5199,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure12.png, id=173, 1027.84pt x 685.56125pt>
+<../Ch-nuclear/figure12.png, id=174, 1027.84pt x 685.56125pt>
 File: ../Ch-nuclear/figure12.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure12.png>
@@ -5192,7 +5213,20 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 17--21
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-) (./problems/SampleProblem1
+) (./problems/SampleProblem7 (./problems/StudyCheck7
+LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
+line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+))
+(./files/SubSection-Radiation,-particles-and-radioisotopes-Radioisotope-notatio
+n) (./problems/SampleProblem1
 Overfull \hbox (3.62251pt too wide) in paragraph at lines 17--17
  []|[]| 
  []
@@ -5202,13 +5236,7 @@ Overfull \hbox (0.85263pt too wide) in paragraph at lines 17--17
  []|[]| 
  []
 
-(./problems/StudyCheck1
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/Table-Nuclear-symbols
+(./problems/StudyCheck1)) (./files/Table-Nuclear-symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5220,48 +5248,50 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-) (./files/SectionIntro-Nuclear-reactions)
-(./files/SubSection-Nuclear-reactions-alpha-decay)
-(./files/SubSection-Nuclear-reactions-beta-decay [2 <../Ch-nuclear/figure8.png 
-(PNG copy)> <../Ch-nuclear/figure9.png> <../Ch-nuclear/figure10.png (PNG copy)>
- <../Ch-nuclear/figure12.png (PNG copy)>])
-(./files/SubSection-Nuclear-reactions-positron-emission)
-(./files/SubSection-Nuclear-reactions-gamma-decay) (./files/Quote-Einstein
-LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-LF on i
-nput line 2.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-LF.fd
-File: T1LinuxLibertineT-LF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
-uxLibertineT-LF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-LF/m/n' will be
-(Font)              scaled to size 60.0pt on input line 2.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `LinuxLibertineT-LF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) (./problems/SampleProblem2
+Overfull \hbox (86.5561pt too wide) in paragraph at lines 5--20
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <../Ch-nuclear/figure8.png (PNG copy)> <../Ch-nuclear/figure9.png> <../Ch-n
+uclear/figure10.png (PNG copy)> <../Ch-nuclear/figure12.png (PNG copy)>])
+(./files/SectionIntro-Nuclear-reactions)
+(./files/SubSection-Nuclear-reactions-alpha-decay)
+(./files/SubSection-Nuclear-reactions-beta-decay)
+(./files/SubSection-Nuclear-reactions-positron-emission)
+(./files/SubSection-Nuclear-reactions-gamma-decay) (./problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-(./problems/StudyCheck2))
+(./problems/StudyCheck2) [3])
 (./files/SectionIntro-Unknown-isotopes-in-nuclear-reactions)
 (./problems/SampleProblem3 (./problems/StudyCheck3
 Underfull \hbox (badness 10000) in paragraph at lines 21--7
 
  []
 
-) [3]) (./files/Table-Halflife
+) [4]) (./files/Table-Halflife
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
+
+Overfull \hbox (130.98724pt too wide) in paragraph at lines 4--30
+ [] 
+ []
+
 ) (./files/SectionIntro-Half-life-of-a-radioisotope)
 (./files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live)
-(./files/SubSection-Half-life-of-a-radioisotope-Quantifying-half-live [4])
-(./files/SubSection-Half-life-of-a-radioisotope-after-several-half-lives)
-(./files/SideFigure-HalfLife-plots
+(./problems/SampleProblem8 (./problems/StudyCheck8
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+) [5]) (./files/SideFigure-HalfLife-plots
 Package pgfplots info on input line 24: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5289,14 +5319,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--61
 []
  []
 
-) (./problems/SampleProblem4
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
+) (./files/SubSection-Half-life-of-a-radioisotope-Quantifying-half-live)
+(./files/SubSection-Half-life-of-a-radioisotope-after-several-half-lives)
+(./problems/SampleProblem4
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 20--21
  [][] 
  []
@@ -5306,10 +5331,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
 
-(./problems/StudyCheck4) [5])
+(./problems/StudyCheck4) [6])
 (./files/SectionIntro-Radiation-measurement-units-and-radiation-effects)
-(./files/SideFigure-Geiger
-<../Ch-nuclear/figure2.png, id=229, 963.6pt x 706.64pt>
+(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Activity-
+units)
+(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Adsorbed-
+dose)
+(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Radiation
+-equivalent-in-humans,-rem [7]) (./files/SideFigure-Geiger
+<../Ch-nuclear/figure2.png, id=240, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure2.png>
@@ -5320,7 +5350,10 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure5.png, id=230, 440.64626pt x 351.3125pt>
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+<../Ch-nuclear/figure5.png, id=241, 440.64626pt x 351.3125pt>
 File: ../Ch-nuclear/figure5.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure5.png>
@@ -5332,9 +5365,9 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
  []
 
 
-LaTeX Warning: Marginpar on page 6 moved.
+LaTeX Warning: Marginpar on page 8 moved.
 
-<../Ch-nuclear/figure11.png, id=231, 856.19875pt x 1284.8pt>
+<../Ch-nuclear/figure11.png, id=242, 856.19875pt x 1284.8pt>
 File: ../Ch-nuclear/figure11.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure11.png>
@@ -5346,33 +5379,20 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
  []
 
 
-LaTeX Warning: Marginpar on page 6 moved.
+LaTeX Warning: Marginpar on page 8 moved.
 
 )
-(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Activity-
-units)
-(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Adsorbed-
-dose)
-(./files/SubSection-Radiation-measurement-units-and-radiation-effects-Radiation
--equivalent-in-humans,-rem)
 (./files/SubSection-Radiation-measurement-units-and-radiation-effects-Exposure-
 to-radiation) (./files/Table-Radiation-damage
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <../Ch-nuclear/figure2.png (PNG copy)> <../Ch-nuclear/figure5.png (PNG copy
-)> <../Ch-nuclear/figure11.png (PNG copy)>])
+)
 (./files/SubSection-Radiation-measurement-units-and-radiation-effects-Dangers-o
-f-radiation) (./problems/SampleProblem5 (./problems/StudyCheck5
-Underfull \hbox (badness 10000) in paragraph at lines 9--2
-
- []
-
-)) (./files/SectionIntro-Radiation-protection [7])
+f-radiation) (./problems/SampleProblem5 (./problems/StudyCheck5) [8 <../Ch-nucl
+ear/figure2.png (PNG copy)> <../Ch-nuclear/figure5.png (PNG copy)> <../Ch-nucle
+ar/figure11.png (PNG copy)>]) (./files/SectionIntro-Radiation-protection)
 (./files/SubSection-Radiation-protection-alpha-particles)
 (./files/SubSection-Radiation-protection-beta-particles)
 (./files/SubSection-Radiation-protection-gamma-particles)
@@ -5381,9 +5401,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--2
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-) (./files/SectionIntro-Radioactive-gases:-radon)
-(./files/SectionIntro-Fusion-and-fission [8]) (./files/SideFigure-Fusion
-<../Ch-nuclear/figure6.png, id=252, 3257.16875pt x 3891.53876pt>
+) (./files/SectionIntro-Radioactive-gases:-radon) [9]
+(./files/SectionIntro-Fusion-and-fission) (./files/SideFigure-Fusion
+<../Ch-nuclear/figure6.png, id=257, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure6.png>
@@ -5394,10 +5414,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-
-LaTeX Warning: Marginpar on page 9 moved.
-
-<../Ch-nuclear/figure7.png, id=253, 692.5875pt x 501.875pt>
+<../Ch-nuclear/figure7.png, id=258, 692.5875pt x 501.875pt>
 File: ../Ch-nuclear/figure7.png Graphic file (type png)
 
 <use ../Ch-nuclear/figure7.png>
@@ -5409,12 +5426,12 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
  []
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 10 moved.
 
 ) (./files/SubSection-Fusion-and-fission-Nuclear-fusion)
 (./files/SubSection-Fusion-and-fission-Nuclear-fission)
-(./problems/SampleProblem6 (./problems/StudyCheck6)) [9 <../Ch-nuclear/figure6.
-png (PNG copy)> <../Ch-nuclear/figure7.png>] [10
+(./problems/SampleProblem6 (./problems/StudyCheck6) [10 <../Ch-nuclear/figure6.
+png (PNG copy)> <../Ch-nuclear/figure7.png>]) [11] [12
 
 ])
 (../Ch-nuclear/Ch-nuclearProblems.tex
@@ -5467,7 +5484,7 @@ vailable
 (./problems/GeneralProblems-Unknown-isotopes-in-nuclear-reactions)
 (./problems/GeneralProblems-Half-life-of-a-radioisotope)
 (./problems/GeneralProblems-Radiation-measurement-units-and-radiation-effects)
-[11
+[13
 
 
 ]
@@ -5515,7 +5532,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 60--70
 []$[]$ 
  []
 
-[12
+[14
 
 ])
 
@@ -5545,27 +5562,24 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81423 strings out of 493014
- 1845031 string characters out of 6133351
- 2612249 words of memory out of 5000000
- 82811 multiletter control sequences out of 15000+600000
- 321671 words of font info for 383 fonts, out of 8000000 for 9000
+ 81434 strings out of 493014
+ 1845068 string characters out of 6133351
+ 2594378 words of memory out of 5000000
+ 82802 multiletter control sequences out of 15000+600000
+ 314518 words of font info for 383 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,35n,105p,10369b,2964s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,35n,105p,10369b,3090s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
-usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
-dvips/libertine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesom
-e/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaw
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/liber
+tine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaw
 esome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/libertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
@@ -5580,19 +5594,18 @@ exlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on main.pdf (12 pages, 11084207 bytes).
+lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on main.pdf (14 pages, 11083397 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 115 named destinations out of 1000 (max. 500000)
- 92163 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 91651 words of extra memory for PDF output out of 106986 (max. 10000000)
 
