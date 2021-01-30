@@ -1,5 +1,7 @@
+
 \begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{minipage}[b]{1.5\linewidth}\resizebox{1.0\textwidth}{!}{
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
@@ -18,4 +20,6 @@ Number of Carbons & Name& Condensed Structural formula &Molecular formula \\
 \multicolumn{1}{c}{8} & Octane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3}  &\multicolumn{1}{c}{\ce{C8H18}}\\
 \multicolumn{1}{c}{9} & Nonane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3}&\multicolumn{1}{c}{\ce{C9H20}}  \\
 \bottomrule
-\end{tabular}\end{center}
+\end{tabular}
+}\end{minipage}\end{center}
+
