@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2021 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 11:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5150,12 +5150,16 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/SubSection-The-periodic-table-Periods-and-groups [1
+))
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-T
-able/figure1.png (PNG copy)>])
-(./files/SubSection-The-periodic-table-Properties-in-the-periodic-table)
+able/figure1.png (PNG copy)>]) (./files/SubSection-The-periodic-table-Periods-a
+nd-groups) (./files/SubSection-The-periodic-table-Properties-in-the-periodic-ta
+ble)
 (./files/SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloids)
 (./problems/SampleProblem1 (./problems/StudyCheck1) [2])
 (./files/SubSection-The-periodic-table-Classification-of-elements-in-terms-of-g
@@ -5164,27 +5168,27 @@ roups) (./files/SubSection-The-periodic-table-How-to-classify-Hydrogen)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 37.
+ line 288.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 37.
+ line 288.
 
-Overfull \hbox (0.644pt too wide) in paragraph at lines 248--248
+Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
 
-Overfull \hbox (274.92859pt too wide) in paragraph at lines 4--291
-[] []
+Overfull \hbox (137.46167pt too wide) in paragraph at lines 5--291
+ [] 
  []
 
 
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--291
-[] 
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 5--291
+ [] 
  []
 
-) (./files/SectionIntro-The-atom [3])
+) [3] (./files/SectionIntro-The-atom)
 (./files/SubSection-The-atom-Atomic-Structure)
 (./files/SubSection-The-atom-Atomic-and-mass-number) (./problems/SampleProblem2
 (./problems/StudyCheck2) [4]) (./files/SubSection-The-atom-Isotopes)
@@ -5213,7 +5217,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-[6])
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [6])
 (./files/SubSection-An-introduction-to-molecules-Mass-percent-composition-of-a-
 compound) (./problems/SampleProblem5 (./problems/StudyCheck5)
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
@@ -5245,12 +5252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--24
 
  []
 
-[9]
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-)) (../Ch-Table/Ch-TableProblems.tex [10]
+[9])) (../Ch-Table/Ch-TableProblems.tex [10]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5383,16 +5385,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 82086 strings out of 493014
- 1847602 string characters out of 6133351
- 2757001 words of memory out of 5000000
- 83512 multiletter control sequences out of 15000+600000
+ 82082 strings out of 493014
+ 1847513 string characters out of 6133351
+ 2788271 words of memory out of 5000000
+ 83508 multiletter control sequences out of 15000+600000
  224261 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,23n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5421,7 +5420,7 @@ tino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 1400737 bytes).
+Output written on main.pdf (13 pages, 1400870 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams

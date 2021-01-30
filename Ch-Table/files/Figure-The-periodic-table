@@ -1,7 +1,8 @@
 %%%%%%%%%%%%%%%%%%% PERIODIC TABLE
+\begin{center}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
     
-    \hspace{0cm}\begin{minipage}[b]{1.8\linewidth}
+    \begin{minipage}[b]{1.4\linewidth}\resizebox{1.0\textwidth}{!}{
 
 \begin{tikzpicture}[font=\sffamily, scale=0.35, transform shape]
 
@@ -284,8 +285,9 @@
 %    
 
 
-\end{tikzpicture}\end{minipage}
- \begin{tikzpicture}   \node[text width=12cm, fontscale=.8, shift={(0em,-0em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The periodic table of the elements };
-    \end{tikzpicture}
+\end{tikzpicture}}\end{minipage}
+  \begin{tikzpicture}   \node[text width=12cm, fontscale=.8, shift={(0em,-0em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The periodic table of the elements };
+     \end{tikzpicture}
+\end{center}
 %%%%%%%%%%%%%%%%%%% PERIODIC TABLE
 
