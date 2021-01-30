@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 08:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 16:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5236,29 +5236,21 @@ Overfull \hbox (0.85263pt too wide) in paragraph at lines 17--17
  []|[]| 
  []
 
-(./problems/StudyCheck1)) (./files/Table-Nuclear-symbols
+(./problems/StudyCheck1)) [2 <../Ch-nuclear/figure8.png (PNG copy)> <../Ch-nucl
+ear/figure9.png> <../Ch-nuclear/figure10.png (PNG copy)> <../Ch-nuclear/figure1
+2.png (PNG copy)>] (./files/Table-Nuclear-symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
+(hyperref)                setting the option has no effect on input line 22.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-Overfull \hbox (86.5561pt too wide) in paragraph at lines 5--20
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <../Ch-nuclear/figure8.png (PNG copy)> <../Ch-nuclear/figure9.png> <../Ch-n
-uclear/figure10.png (PNG copy)> <../Ch-nuclear/figure12.png (PNG copy)>])
-(./files/SectionIntro-Nuclear-reactions)
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+) (./files/SectionIntro-Nuclear-reactions)
 (./files/SubSection-Nuclear-reactions-alpha-decay)
 (./files/SubSection-Nuclear-reactions-beta-decay)
 (./files/SubSection-Nuclear-reactions-positron-emission)
@@ -5277,12 +5269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--7
 ) [4]) (./files/Table-Halflife
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 7.
-
-
-Overfull \hbox (130.98724pt too wide) in paragraph at lines 4--30
- [] 
- []
+(hyperref)                setting the option has no effect on input line 32.
 
 ) (./files/SectionIntro-Half-life-of-a-radioisotope)
 (./files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live)
@@ -5562,13 +5549,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81434 strings out of 493014
- 1845068 string characters out of 6133351
- 2594378 words of memory out of 5000000
- 82802 multiletter control sequences out of 15000+600000
+ 81437 strings out of 493014
+ 1845115 string characters out of 6133351
+ 2593302 words of memory out of 5000000
+ 82805 multiletter control sequences out of 15000+600000
  314518 words of font info for 383 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,35n,105p,10369b,3090s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5602,7 +5592,7 @@ ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 11083397 bytes).
+Output written on main.pdf (14 pages, 11083170 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams

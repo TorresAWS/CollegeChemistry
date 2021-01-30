@@ -1,5 +1,7 @@
- \begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllll}
 \rowcolor{black!45}
@@ -27,6 +29,7 @@
 \multicolumn{1}{l}{	Ondansetron	} &  360 min		   &\multicolumn{1}{l}{	Capecitabine	} &  2400s		   &\multicolumn{1}{l}{	Carmustine	} &  0.25h		      \\      
        
 \bottomrule
-\end{tabular}\end{center}
+\end{tabular}}\end{minipage}
+\end{fullwidth}
 
 

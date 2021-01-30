@@ -1,7 +1,8 @@
- 
- \begin{center}
+\begin{fullwidth}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
+
 \begin{tabular}{llllll}
 \rowcolor{black!45}
 \toprule
@@ -17,4 +18,5 @@ Neutrons\ ($n$) &   \ce{^1_{0}n}   & $0$   & nuclear particle & Maximal&1932	\\
 Proton\ ($p$) &    \ce{^1_1H^+}  & $+1$         & nuclear particle &  &1919 \\
 Positrons\ ($\beta^+$)&     \ce{^0_{+1}e}  & $+1$ & antiparticle &  &   1932  \\
 \bottomrule
-\end{tabular}\end{center}
+\end{tabular}
+}\end{minipage}\end{fullwidth}
