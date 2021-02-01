@@ -1,4 +1,5 @@
- \begin{minipage}[b]{1.5\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{fullwidth} 
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
@@ -27,3 +28,4 @@ Sulfides (\ce{S^2-})    &  group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or  a
 Hydroxides (\ce{OH-})     & group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or \ce{Ca^2+}, \ce{Mg^2+},  \ce{Sr^2+} \newline or ammonium (\ce{NH4+})   \\
 \bottomrule
 \end{tabular}} \end{minipage}
+\end{fullwidth}

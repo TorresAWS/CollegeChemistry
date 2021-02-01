@@ -1,4 +1,4 @@
- \begin{minipage}[b]{1.5\linewidth}\resizebox{1.0\textwidth}{!}{
+ \begin{fullwidth}\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
@@ -18,3 +18,4 @@ Nonelectrolytes    & No           				& molecules &Most covalent compounds: \ce{
     &            				&   &  \ce{CH3CH2OH} (ethanol), \ce{C12H22O11} (sucrose), \ce{CH4NO2} (urea)  \\
 \bottomrule
 \end{tabular}} \end{minipage}
+\end{fullwidth}

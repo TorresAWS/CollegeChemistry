@@ -1,4 +1,5 @@
-  \begin{minipage}[b]{1.0\linewidth}\resizebox{0.5\textwidth}{!}{
+ 
+   \begin{marginfigure}[0cm]
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lll}
@@ -14,4 +15,5 @@ Polar &   Nonpolar & No         \\
 Nonpolar &   polar & No         \\
 Nonpolar &   Nonpolar & Yes \\
 \bottomrule
-\end{tabular}} \end{minipage}
+\end{tabular} 
+   \end{marginfigure} 
