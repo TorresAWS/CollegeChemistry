@@ -1,5 +1,7 @@
 
-\begin{center}
+\begin{fullwidth}
+ \begin{minipage}[b]{0.7\linewidth}\resizebox{1.0\textwidth}{!}{
+
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
@@ -27,4 +29,6 @@ nano & \multicolumn{1}{c}{n}  &&\multicolumn{1}{l}{0.000000001}&$1\times10^{-9}$
 pico & \multicolumn{1}{c}{p}  &&\multicolumn{1}{l}{0.000000000001}&$1\times10^{-12}$  \\
 femto & \multicolumn{1}{c}{f } &&\multicolumn{1}{l}{0.000000000000001}&$1\times10^{-15}$  \\
 \bottomrule
-\end{tabular}\end{center}
+\end{tabular}
+}\end{minipage}
+\end{fullwidth}
