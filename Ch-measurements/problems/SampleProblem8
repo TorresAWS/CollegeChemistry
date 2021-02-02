@@ -3,7 +3,5 @@ Indicate the number of significant figures in the following numbers: 123, 4567, 
 \\
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 123 has three significant figures, whereas 4567 has four SF. 1200 has only 2SF as the last two zeros are not significant, and 340 has only 2SF as the last zero is not significant. $0.001$ has only one significant figure as the first 3 zeros are not significant and $0.023$ has only two SFs. Finally, $0.0405$ has threee SFs as the first two zeros are not significant but the zero between 4 and 5 is indeed significant.\\
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Indicate the number of significant figures (SFs) in the following numbers: 4560, 0.123, 1000 and 0.0030. \\
-\flushright Answer: 4560 has 3SF, 0.123 has 3SF, 1000 has 1SF and 0.0030 has 2SF.
+\import{./}{StudyCheck8}
 \end{example}% EXAMPLE BOX ALTERNATIVE
