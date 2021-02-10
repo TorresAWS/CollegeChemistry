@@ -13,10 +13,5 @@ The acid group is \ce{COOH} and the amino is \ce{NH2}. The side chain is the oth
   \draw[<-] (amino) --++(1,.5) node[right] {amino} ;
 }
 \end{center}
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Identify the acid the amino and the side chain in the following amino acid:
-\begin{center}
-\chemfig{C(-[:0]C(-[:0]OH)(=[:270]O))(-[:270]H)(-[:180]H_2N(-[:270,1,,,draw=none]))(-[:90]CH_{2}(-[:90]?(*6([::-30]=-NH-(**6(------))=?))))}
-\end{center}
- \begin{flushright} \small Answer: \small MP($A$) lower MP($B$) \end{flushright}
+\import{./}{StudyCheck9}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

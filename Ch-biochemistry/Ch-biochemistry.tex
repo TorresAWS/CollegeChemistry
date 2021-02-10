@@ -1,15 +1,15 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-biochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
-\definesubmol{x}{C(-[4]H)(-[0]OH)}
-\definesubmol{y}{C(-[0]H)(-[4]HO)}
-\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
-\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
-\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
+%\setdoublesep{0.35700 em}  % 'Bond Spacing'
+%\setatomsep{1.78500 em}    % 'Fixed Length'
+%\setbondoffset{0.18265 em} % 'Margin Width'
+%\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+%\setbondstyle{line width = \bondwidth}
+%\definesubmol{x}{C(-[4]H)(-[0]OH)}
+%\definesubmol{y}{C(-[0]H)(-[4]HO)}
+%\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
+%\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
+%\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
 
 
 
@@ -41,86 +41,36 @@
 \begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
   arc=0pt,outer arc=0pt,drop heavy lifted shadow]
 \faGears\ 
-\docenvdef{Discussion:} Think of your favorite sweetener. List its name and indicate whether it contains a mono, di- or polysaccharide, of maybe none of them.  \end{tcolorbox}
+\docenvdef{Discussion:}  \import{files/}{ChapterDiscussion}
+
  \end{marginfigure}
 
 
 \section{\color{blue!30!black}{Biomolecules}}
-  \import{files/}{Figure-Biomolecules}
- \import{files/}{SectionIntro-Biomolecules}
- 
+\import{files/}{SectionIntro-Biomolecules}
+\import{files/}{Figure-Biomolecules}
+\sloppy\begin{description}
+\item[\docfilehook{Different types of biomolecules}{}] \import{files/}{SubSection--Biomolecules-Different-types-of-biomolecules}
+\import{problems/}{SampleProblem13}
+\end{description}
+
+
+
 
 \section{\color{blue!30!black}{Simple Carbohydrates}}
 \import{files/}{SectionIntro-Simple-Carbohydrates}
-
 \sloppy\begin{description}
-
-
-\item[\docfilehook{Carbs are made of C, H and O}{}] 
-\import{files/}{SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-H-and-O}
-
-
-
-
-
-
-
-
-
+\item[\docfilehook{Carbs are made of C, H and O}{}] \import{files/}{SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-H-and-O}
 \item[\docfilehook{Monosaccharides: aldo or keto?}{}] \import{files/}{SubSection--Simple-Carbohydrates-Monosaccharides-aldo-or-keto}
-
-
-
-
-
   \import{problems/}{SampleProblem1}
-
-
 \item[\docfilehook{Some important monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-Some-important-monosaccharides}
-
-
-
 \item[\docfilehook{$d-$ and $l-$ monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-d-and-l-monosaccharides}
-
-
-
-  \import{problems/}{SampleProblem2}
-
-
-
-
-
+\import{problems/}{SampleProblem2}
 \item[\docfilehook{Skeletal structure of  monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-Skeletal-structure-of--monosaccharides}
-
-
-
-
-
 \item[\docfilehook{Haworth cyclic structure of  monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-Haworth-cyclic-structure-of--monosaccharides}
-
-
-
-
 \item[\docfilehook{$\alpha$ or $\beta$ form of Cyclic monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-alpha-or-beta-form-of-Cyclic-monosaccharides}
-
-
-
-
-  \import{problems/}{SampleProblem3}
-
-
+\import{problems/}{SampleProblem3}
 \item[\docfilehook{Obtaining Haworth cyclic structure of monosaccharides}{}] \import{files/}{SubSection--Simple-Carbohydrates-Obtaining-Haworth-cyclic-structure-of-monosaccharides}
-
-
-
-
-
-
-
-
-
-
-
 \end{description}
 
 

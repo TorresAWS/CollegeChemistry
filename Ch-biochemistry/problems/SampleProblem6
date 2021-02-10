@@ -7,8 +7,5 @@ Saturated fatty acids have a polar acid head and a hydrocarbon chain with no dou
 \setpolymerdelim()
 \chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!16$}{A}{B}
 \end{center}
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Lignoceric acid is a saturated fatty acid with 24 carbons found in wood tar and peanut oil contain.Write down its skeletal formula.
-\\
-\begin{flushright}\small Ans: \small \setpolymerdelim()\chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!22$}{A}{B}\end{flushright}
+\import{./}{StudyCheck6}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
