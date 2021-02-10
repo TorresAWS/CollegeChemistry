@@ -1,5 +1,5 @@
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
-\begin{center}
+   \begin{marginfigure}[2cm]\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+ 
 %\begin{table}[ht]
 \fontfamily{ppl}\selectfont
 \begin{tabular}{ll}
@@ -13,5 +13,6 @@ Carbohydrates & \multicolumn{1}{c}{4}          \\
 Fat & \multicolumn{1}{c}{9}       \\
 Protein & \multicolumn{1}{c}{4}  \\ 
  \bottomrule
-\end{tabular}\end{center}
+\end{tabular} 
+   \end{marginfigure} 
 
