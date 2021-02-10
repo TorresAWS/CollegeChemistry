@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 09:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5686,7 +5686,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./files/SectionIntro-Nucleic-acids [19])
 (./files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
-Overfull \hbox (136.23738pt too wide) in paragraph at lines 9--9
+Overfull \hbox (306.59743pt too wide) in paragraph at lines 9--9
  []|[]| 
  []
 
@@ -5769,11 +5769,6 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 24 undefined on input line 1
-2.
-
 
 (./problems/problems/Problems-Simple-Carbohydrates-Monosaccharides-aldo-or-keto
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -5913,9 +5908,6 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
@@ -5923,7 +5915,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
 Here is how much of TeX's memory you used:
  84158 strings out of 493014
  1895606 string characters out of 6133351
- 2863079 words of memory out of 5000000
+ 2868328 words of memory out of 5000000
  85554 multiletter control sequences out of 15000+600000
  247056 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5957,7 +5949,7 @@ type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (29 pages, 6329973 bytes).
+Output written on main.pdf (29 pages, 6330053 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  333 compressed objects within 4 object streams
