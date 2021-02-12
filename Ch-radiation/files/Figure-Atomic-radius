@@ -2,7 +2,7 @@
 \begin{fullwidth}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-\vspace{0cm}\hspace{-6cm}\begin{minipage}[b]{1.5\linewidth}
+\vspace{0cm}\hspace{-0cm}\begin{minipage}[b]{1.0\linewidth}
 \begin{center}\resizebox{1.0\textwidth}{!}{\begin{tikzpicture}[rotate=0]
  \begin{scope}[xshift =0em, yshift =0em, scale=1]
  \pgfmathsetmacro\RadA{1.1}

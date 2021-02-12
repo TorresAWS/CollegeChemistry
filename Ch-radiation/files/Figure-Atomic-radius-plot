@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\begin{fullwidth}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
   \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
 \begin{tikzpicture}
 \pgfdeclarefunctionalshading{spherea}{\pgfpoint{-25bp}{-25bp}}{\pgfpoint{25bp}{25bp}}{}{%% calculate unit coordinates
@@ -147,4 +148,5 @@ dup
 
 \end{tikzpicture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+}\end{minipage}
+\end{fullwidth}

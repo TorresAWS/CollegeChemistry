@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2021 09:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 FEB 2021 11:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5420,9 +5420,11 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 11--108
 [][] 
  []
 
-[13 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png
- (PNG copy)>] (./files/SectionIntro-Quantum-mechanics-and-electronic-structure)
 
+(./files/SubSection-Quantum-mechanics-and-electronic-structure-The-uncertainty-
+principle) (./problems/SampleProblem7 (./problems/StudyCheck7)) [13 <../Ch-radi
+ation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png (PNG copy)>]
+(./files/SectionIntro-Quantum-mechanics-and-electronic-structure)
 (./files/SubSection-Quantum-mechanics-and-electronic-structure-Quantized-energy
 -and-continuum-energy)
 (./files/SubSection-Quantum-mechanics-and-electronic-structure-The-Schrordinger
@@ -5519,17 +5521,16 @@ Overfull \hbox (23.70767pt too wide) in paragraph at lines 49--49
  [] 
  []
 
-
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
- [18])
+)
 (./files/SubSection-Quantum-mechanics-and-electronic-structure-Energies-of-orbi
 tals) (./files/Figure-Energy-levels-and-orbitals)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-The-uncertainty-
-principle) (./problems/SampleProblem7 (./problems/StudyCheck7) [19])
-(./files/SectionIntro-Electronic-configuration-of-an-atom)
+Underfull \hbox (badness 10000) in paragraph at lines 2--148
+
+ []
+
+[18] (./files/SectionIntro-Electronic-configuration-of-an-atom)
 (./files/SubSection-Electronic-configuration-Electron-energy-levels-and-subleve
-ls) (./problems/SampleProblem8 (./problems/StudyCheck8) [20])
+ls) (./problems/SampleProblem8 (./problems/StudyCheck8) [19])
 (./files/SubSection-Electronic-configuration-The-Pauli-exclusion-principle)
 (./files/SubSection-Electronic-configuration-Orbital-Filling-the-aufbau-princip
 le) (./files/SideFigure-Orbital-filling-diagram
@@ -5554,50 +5555,36 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 70.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 70.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 70.
-)
-(./files/SubSection-Electronic-configuration-Full-electron-Configuration)
-(./problems/SampleProblem9 (./problems/StudyCheck9)
-Underfull \vbox (badness 5288) has occurred while \output is active []
 
- [21])
-(./files/SubSection-Electronic-configuration-Hund's-rule [22])
-(./problems/SampleProblem12 (./problems/StudyCheck12))
+Overfull \hbox (28.12006pt too wide) in paragraph at lines 3--72
+[] 
+ []
+
+) (./files/SubSection-Electronic-configuration-Full-electron-Configuration
+[20]) (./problems/SampleProblem9 (./problems/StudyCheck9))
 (./files/SubSection-Electronic-configuration-Abbreviated-Electron-Configuration
 -and-orbital-diagrams
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Let
  []
 
-[23]) (./problems/SampleProblem10
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 19.
+) (./problems/SampleProblem10
 
-LaTeX Warning: Reference `orbitalfill' on page 24 undefined on input line 4.
+LaTeX Warning: Reference `orbitalfill' on page 21 undefined on input line 4.
 
-(./problems/StudyCheck10)) [24] (./files/SectionIntro-Periodic-Trends)
+(./problems/StudyCheck10) [21])
+(./files/SubSection-Electronic-configuration-Hund's-rule [22])
+(./problems/SampleProblem12 (./problems/StudyCheck12)) [23]
+(./files/SectionIntro-Periodic-Trends)
 (./files/SubSection-Periodic-Trends-Effective-charge)
-(./files/Figure-Atomic-radius
-Overfull \hbox (83.05711pt too wide) in paragraph at lines 5--182
-[] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25])
-(./files/Figure-Atomic-radius-plot
-Overfull \hbox (136.12215pt too wide) in paragraph at lines 148--150
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26])
+(./files/Figure-Atomic-radius) (./files/Figure-Atomic-radius-plot [24])
+(./files/SubSection-Periodic-Trends-Atomic-radius)
 (./files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -5608,13 +5595,12 @@ Overfull \hbox (164.35007pt too wide) in paragraph at lines 4--22
  [] 
  []
 
-) [27] (./files/Figure-Ionization-energy-plot
+) [25] (./files/Figure-Ionization-energy-plot
 Overfull \hbox (29.56593pt too wide) in paragraph at lines 62--126
 [] [] 
  []
 
-) (./files/SubSection-Periodic-Trends-Ionization-Energy) [28]
-(./files/SubSection-Periodic-Trends-Electron-affinity)
+) (./files/SubSection-Periodic-Trends-Ionization-Energy)
 (./files/Figure-Periodic-propeties
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
@@ -5673,21 +5659,19 @@ Overfull \hbox (144.22401pt too wide) in paragraph at lines 30--30
  []
 
 
-Overfull \hbox (171.82971pt too wide) in paragraph at lines 3--34
-[] [] 
+Overfull \hbox (171.82971pt too wide) in paragraph at lines 7--34
+[] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
+[26]
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 39--41
 [][] 
  []
 
-) [30] (./files/SubSection-Periodic-Trends-Electronegativity,-EN)
+) (./files/SubSection-Periodic-Trends-Electron-affinity [27])
+(./files/SubSection-Periodic-Trends-Electronegativity,-EN)
 (./files/SubSection-Periodic-Trends-Metallic-character-)
-(./problems/SampleProblem11 (./problems/StudyCheck11) [31])
+(./problems/SampleProblem11 (./problems/StudyCheck11) [28])
 (./files/SubSection-Periodic-Trends-Ionic-radius) (./files/Figure-Photoelectron
 ) (./files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of-atoms)
 (./files/Figure-PES-spectra
@@ -5695,11 +5679,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Photoelectron spec-troscopy is a
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32])
-[33]) (../Ch-radiation/Ch-radiationProblems.tex
+[29]) [30]) (../Ch-radiation/Ch-radiationProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5734,21 +5714,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package mdframed Info: mdframed works in twoside mode on input line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 31 undefined on input line 1
+2.
+
+(./problems/Problems-The-nature-of-light-Light-as-a-wave
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 27.
-
-Underfull \hbox (badness 6220) in paragraph at lines 97--97
+ line 9.
+)
+(./problems/Problems-The-nature-of-light-Types-and-color-of-radiation
+Underfull \hbox (badness 6220) in paragraph at lines 48--48
 [] \T1/ptm/m/n/10 (+20) Sec-tions of two elec-tro-mag-netic waves A
  []
 
-
-Overfull \hbox (9.71188pt too wide) in paragraph at lines 223--223
+) (./problems/Problems-The-atomic-line-spectra-Transition-energies)
+(./problems/Problems-Quantum-mechanics-and-electronic-structure-Orbitals-are-de
+scribed-by-three-quantum-numbers
+Overfull \hbox (9.71188pt too wide) in paragraph at lines 13--13
  []|[]| 
  []
 
-[34
+)
+(./problems/Problems-Electronic-configuration-Electron-energy-levels-and-sublev
+els) (./problems/Problems-Electronic-configuration-Full-electron-Configuration)
+(./problems/Problems-Periodic-Trends-Atomic-radius)
+(./problems/Problems-Periodic-Trends-Electronegativity,-EN)
+(./problems/Problems-Periodic-Trends-Ionization-Energy)
+(./problems/Problems-Periodic-Trends-Metallic-character) [31
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5783,19 +5778,49 @@ Overfull \hbox (9.71188pt too wide) in paragraph at lines 223--223
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 351.
+ line 63.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 343--353
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+[]\T1/ptm/b/n/14.4 Answers  [][]\T1/ptm/m/n/10 (+20) (a) $\OT1/lmr/m/n/10 1.32 
+\OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (+20) J [](b) $\OT1/lm
+r/m/n/10 8.5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (+20) Hz 
+[](c) $\OT1/lmr/m/n/10 3.03 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m
+/n/10 (+20) J  [][](a) Green
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+[]\T1/ptm/m/n/10 (+20) (b) Yel-low  [][](a) $\OML/lmm/m/it/10 ^^M[]$\T1/ptm/m/n
+/10 (+20) <$\OML/lmm/m/it/10 ^^M[]$ []\T1/ptm/m/n/10 (+20) (b) $\OML/lmm/m/it/1
+0 E[]$\T1/ptm/m/n/10 (+20) <$\OML/lmm/m/it/10 E[]$ []\T1/ptm/m/n/10 (+20) (c) I
+R  [][](a) Ab-sorp-tion [](b) Emis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+\T1/ptm/m/n/10 (+20) sion [](c) Emis-sion [](d) Ab-sorp-tion [](e) Emis-sion []
+(f) Ab-sorp-tion  []$\OT1/lmr/m/n/10 3.16 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 
+10[]$ \T1/ptm/m/n/10 (+20) Hz
+ []
+
+
+Overfull \hbox (22.25197pt too wide) in paragraph at lines 57--65
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 55--65
 []$[]$ 
  []
 
-[35
+[32
 
 ])
 
@@ -5828,13 +5853,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 84043 strings out of 493014
- 1903923 string characters out of 6133351
- 3009301 words of memory out of 5000000
- 85164 multiletter control sequences out of 15000+600000
+ 84096 strings out of 493014
+ 1907826 string characters out of 6133351
+ 3026338 words of memory out of 5000000
+ 85190 multiletter control sequences out of 15000+600000
  357184 words of font info for 414 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,21n,122p,10369b,2803s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5877,10 +5905,10 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 7876369 bytes).
+Output written on main.pdf (32 pages, 7876584 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 555 compressed objects within 6 object streams
+ 181 named destinations out of 1000 (max. 500000)
  98600 words of extra memory for PDF output out of 106986 (max. 10000000)
 
