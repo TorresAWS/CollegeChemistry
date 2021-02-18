@@ -631,8 +631,9 @@ The following plots results from processing data by means of the integral method
 \end{tikzpicture}
 \end{center}\flushright Answer:   Left ($r=0.0342\text{[A]}^2$, $\text{[A]}_0$=0.05M), right ($r=0.673\text{[A]}$, $\text{[A]}_0$=0.05M)
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-\item[\docfilehook{The integral method in action}{}] 
-Now we are ready to work from scratch on a set of data from the integral method. Normally, data involving concentration and time will be given. To apply the integral method, we need to process these data into three different columns, reporting the concentration, the logarithm of the concentration, and the inverse of the concentration. Next, we will do three plots and we will obtain the regression line for each plot. We will compare the goodness of the fit by assessing the value of $r^2$. The closer this value to one the better the fit. This analysis will lead to the reaction order. Finally, after we have selected the plot that corresponds to the best fit, we will analyze the regression line and extract the rate constant and initial molarity of reactants. 
+
+
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Using the following data, calculate the order and rate constant and write down the rate law.
 \begin{center}\begin{tabular}[t]{   c|  c cccc  }
@@ -674,7 +675,9 @@ t       A               lnA             Ain
 \MakeRegression{t}{A}{reg1}{\SlA}{\IntA}{\RsqA}
 \MakeRegression{t}{lnA}{reg2}{\SlB}{\IntB}{\RsqB}
 \MakeRegression{t}{Ain}{reg3}{\SlC}{\IntC}{\RsqC}
-\hspace{-0.3cm}\begin{center}\begin{tikzpicture}
+
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+ \begin{tikzpicture}
 \begin{groupplot}[height=5cm,width=6.4cm,
   group style={
     group size=2 by 2 ,
@@ -697,7 +700,8 @@ t       A               lnA             Ain
 \end{groupplot}
 %\node[anchor=north]  at (5,0) {molality, m};
 %\node[anchor=north, rotate=90]  at (-1,2) {T, $^{\circ}$C};
-\end{tikzpicture}\end{center}
+\end{tikzpicture} 
+}\end{minipage}
 We have the the reaction can be order zero or order one, as for both cases $r^2$ is larger or equal to 0.99. However, the fir for zeroth-order is better, so we will choose that possibility. For an oder zero plot, the absolute value of the slope gives the rate constant. The final rate law would be: $r=6\times 10^{-2}$.
 
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
@@ -718,91 +722,94 @@ Using the following data, calculate the order and rate constant and write down t
 \end{tabular}\end{center}
 \flushright Answer:  $r=0.115\text{[A]}$
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+\item[\docfilehook{The integral method in action}{}] 
+Now we are ready to work from scratch on a set of data from the integral method. Normally, data involving concentration and time will be given. To apply the integral method, we need to process these data into three different columns, reporting the concentration, the logarithm of the concentration, and the inverse of the concentration. Next, we will do three plots and we will obtain the regression line for each plot. We will compare the goodness of the fit by assessing the value of $r^2$. The closer this value to one the better the fit. This analysis will lead to the reaction order. Finally, after we have selected the plot that corresponds to the best fit, we will analyze the regression line and extract the rate constant and initial molarity of reactants. 
+
+
 \end{description}
-\newpage
-\section{Collision theory}
-The rate of reaction depends on temperature and reaction proceed at a higher speed at higher temperatures. This is the reason we use refrigerators and freezers to keep food for a longer time. The collision theory is a kinetics theory that provides a microscopic understanding of chemical reactions. A pivotal element of this theory is the transition state also called the activated complex. This is an ephemeral state between reactants and products so that if the reaction proceeds until this point, reactants will certainly evolve into products. The energy difference between the reactants and the transition state of a reaction is called the activation energy. Energy diagrams are useful representations of the energy changes involved in a reaction. By analyzing an energy diagram we can predict whether a reaction is endo of exothermic and estimate the energy involved in the activation of a reaction. This section covers the fundamental principles of collision theory and introduces the interpretation of energy diagrams.
-\sloppy 
-\begin{description}
-\item[\docfilehook{Collision theory}{}] 
-Chemical reactions proceed at a molecular level by means of the collision of reactant molecules. The frequency of collisions is directly related to the reaction rate so that the more collisions per second the faster the reaction would proceed as the higher would be the chance for a reaction to occur. The collision theory of the chemical reactions associates the rate to the frequency of collisions. By increasing the concentration of reactants the number of collisions would increase and that is the reason why there is a concentration dependency on the reaction rate. However, not all collisions are equally effective and only effective collisions will contribute to chemical reactions. Two main factors control the effectiveness of the molecular collisions. First, the orientation of the collisions is critical and only certain orientations will produce successful collisions. The second factor is the energy of the molecules colliding. Only when the molecules have energy beyond a certain threshold they will be able to form products. In other words: a successful collision should have the right orientation and have enough energy. Let us elaborate on the role of the orientation for the reaction:
-\ce{Cl + NOCl -> Cl2 + NO}\\
-We have that a Cl atom reacts with a \ce{NOCl} molecule to produce \ce{Cl2}, as represented in the image below. Only with the Cl atoms hit the \ce{NOCl} molecule through the Cl atom, the collision will proceed with the right orientation in order to produce the \ce{Cl2} molecule. At the same time, if the orientation is correct and the molecules have enough energy a transition state will form. We will discuss more this state during the next sections.\\
-\vspace{5cm}\hspace{-4cm}
-\begin{minipage}[t]{1.7\linewidth}
-\vspace{2cm}
+
+    
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
 
-\begin{tikzpicture}[transform canvas={scale=1}, shift={(3,0)}]
-  \begin{scope}[transform canvas={scale=.5}, shift={(0,0)}]
+    \begin{tikzpicture}[>=stealth]
+ \draw[ very thick] 
+(-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (65:5)  to[out=60,in=180] (3.5,5.6)  to[out=0,in=180,looseness=0.4] ++ (3.05,-3.5) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
+
+% \draw[dashed,very thick] (-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (61:3.4)  to[out=60,in=180] (2.6,3.6)  to[out=0,in=180,looseness=0.4] ++ (0.8,-3.5) to[out=0,in=180,looseness=0.4] ++ (0.75,2.7) to[out=60,in=180,looseness=0.8] ++ (0.2,0.1) to[out=0,in=180,looseness=0.1] ++ (1.0,-0.8) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
+
+ \begin{scope}[transform canvas={scale=.3}, shift={(-4,2)}]
   \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) ;
   \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) ;
     \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
         \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) ;
-    \draw[-latex,line width=6mm, shift={(1.5,0)}] (3.5,0) -- (6.5,0);
-     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Before collision} ;
-     \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Reactants} ;
+          \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+   \end{scope}
+   
+      \begin{scope}[transform canvas={scale=.3}, shift={(25,9)}]
+   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) ;
+  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) ;
+    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) ;
+        \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) ;%
+{};
+          \draw (0,0) node[below, shift={(1,-2)}]{\Huge Products} ;
+               \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
+
   \end{scope}
   
-
   
-   \begin{scope}[transform canvas={scale=.5}, shift={(12,0)}]
+     \begin{scope}[transform canvas={scale=.3}, shift={(12,19)}]
    \shade[ball color=red!80!  ] (2,0) coordinate(O) circle (0.9) ;
   \shade[ball color=blue!50! ] (2.5,1.5) coordinate(Hm) circle (.9) ;
     \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
         \shade[ball color=green!50!] (-2,0) coordinate(Hp) circle (1.3) ;
         \node[ shift={(-1.,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
 {};
-        \draw[-latex,line width=6mm, shift={(0.7,0)}] (3.5,0) -- (6.5,0);
-          \draw (0,0) node[below, shift={(0,-2)}]{\Huge Successful collision (TS)} ;
+          \draw (0,0) node[below, shift={(0,-2)}]{\Huge TS} ;
           \draw [red, thick] (-3.5,-2) to [square left brace ] (-3.5,3);
                     \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.6)}] {\Huge \ddag};
   \end{scope}
 
-   \begin{scope}[transform canvas={scale=.5}, shift={(24,0)}]
-   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) ;
-        \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) ;
-{};
-          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
-               \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
+  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.8,-2.5) -- (10,-2.5) node [midway, below] {Reaction coordinate};
+  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.5,-2.8) -- (-3.5,7) node [midway, below, rotate=90] {Energy};
+  \draw[<->,thick,red,shorten >=2mm,shorten <=2mm] (3.5,-0.3) -- (3.5,5) node [fill=white,rounded corners=2pt,inner sep=1pt,midway, below, rotate=0, shift={(0,0)}] {Activation energy};
+    \draw[<->,thick,red,shorten >=2mm,shorten <=2mm] (7,-0.3) -- (7,2.4) node [fill=white,rounded corners=2pt,inner sep=1pt, midway, below, rotate=0, shift={(0,0)}] {Reaction energy};
+ \node[text width=12cm, fontscale=.2,shift={(4em,-10em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy diagram showing the conversion of reactants into products };
 
-  \end{scope}
+\end{tikzpicture}
+}\end{minipage}
 
- \begin{scope}[transform canvas={scale=.5}, shift={(0,-7)}]
-         \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) ;
-  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0.5,0) coordinate(O) circle (0.9) ;
-    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,0) coordinate(Hp) circle (1.3) ;
-      \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,1.5) coordinate(Hm) circle (.9) ;
-    \draw[-latex,line width=6mm, shift={(1.5,0)}] (3.5,0) -- (6.5,0);
-         \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
 
-     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Before collision} ;
-  \end{scope}
 
-\begin{scope}[transform canvas={scale=.5}, shift={(12,-7)}]
-     \shade[shift={(-2,0)}, ball color=green!50! ] (0.5,0) coordinate(Hp) circle (1.3) ;
-  \shade[ball color=red!80! ] (0.5,0) coordinate(O) circle (0.9) ;
-    \shade[ball color=green!50! ] (2.5,0) coordinate(Hp) circle (1.3) ;
-      \shade[ball color=blue!50! ] (0,1.5) coordinate(Hm) circle (.9) ;      
-        \node[ shift={(-0.8,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
-{};
-        \draw[-latex,line width=6mm, shift={(0.5,0)}] (3.5,0) -- (6.5,0);
-          \draw (0,0) node[below, shift={(0,-2)}]{\Huge Unsuccessful collision} ;
-  \end{scope}
-   \begin{scope}[transform canvas={scale=.5}, shift={(25,-7)}]
-       \shade[shift={(-3,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) ;
-  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.5,0) coordinate(O) circle (0.9) ;
-    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (3.5,0) coordinate(Hp) circle (1.3) ;
-      \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.0,1.5) coordinate(Hm) circle (.9) ;
-                     \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
 
-          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
-  \end{scope}
-\node[text width=14cm, fontscale=0.1, shift={(6,-4)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Example of two collisions, a successful collision that leads to a transition state and the products and a unsuccessful collision due to an ineffective molecular arrangement.  };
-\end{tikzpicture}\end{minipage}
-\vspace{6cm}
+
+
+
+
+\section{Collision theory}
+The rate of reaction depends on temperature and reaction proceed at a higher speed at higher temperatures. This is the reason we use refrigerators and freezers to keep food for a longer time. The collision theory is a kinetics theory that provides a microscopic understanding of chemical reactions. A pivotal element of this theory is the transition state also called the activated complex. This is an ephemeral state between reactants and products so that if the reaction proceeds until this point, reactants will certainly evolve into products. The energy difference between the reactants and the transition state of a reaction is called the activation energy. Energy diagrams are useful representations of the energy changes involved in a reaction. By analyzing an energy diagram we can predict whether a reaction is endo of exothermic and estimate the energy involved in the activation of a reaction. This section covers the fundamental principles of collision theory and introduces the interpretation of energy diagrams.
+\sloppy 
+\begin{description}
+\item[\docfilehook{Collision theory}{}] 
+Chemical reactions proceed at a molecular level by means of the collision of reactant molecules. The frequency of collisions is directly related to the reaction rate so that the more collisions per second the faster the reaction would proceed as the higher would be the chance for a reaction to occur. The collision theory of the chemical reactions associates the rate to the frequency of collisions. By increasing the concentration of reactants the number of collisions would increase and that is the reason why there is a concentration dependency on the reaction rate. However, not all collisions are equally effective and only effective collisions will contribute to chemical reactions. Two main factors control the effectiveness of the molecular collisions. First, the orientation of the collisions is critical and only certain orientations will produce successful collisions. The second factor is the energy of the molecules colliding. Only when the molecules have energy beyond a certain threshold they will be able to form products. In other words: a successful collision should have the right orientation and have enough energy. Let us elaborate on the role of the orientation for the reaction:
+\begin{center}\ce{Cl + NOCl -> Cl2 + NO}\end{center}
+We have that a Cl atom reacts with a \ce{NOCl} molecule to produce \ce{Cl2}, as represented in the image below. Only with the Cl atoms hit the \ce{NOCl} molecule through the Cl atom, the collision will proceed with the right orientation in order to produce the \ce{Cl2} molecule. At the same time, if the orientation is correct and the molecules have enough energy a transition state will form. We will discuss more this state during the next sections. 
+
+
+
+ 
+
+\item[\docfilehook{Transition state and activation energy}{}] 
+We have discussed that the energy of reactants is a key parameter during a reaction. The minimum energy needed to activate the reactants so that they can produce products is called activation energy. The higher the activation energy the more energy is needed for a reaction to happen and hence the lower the reaction rate will be. When reactants get together they increase their energy from reactants until a state of maximum energy before producing the products. This state of maximum energy is called an activated complex or transition state. Transition states are very ephemeral states and they exist for a very short amount of time in comparison to reactants and products. An example of activation happens during the ignition of a gas burner. Cooking gas and oxygen can react together to produce water and carbon dioxide only with the help of a spark. A spark is needed to activate the reactants so that their molecules can reach the transition state and hence produce products. Transition states are normally indicated with a $\ddag$  sign to indicate they have a very different nature than normal molecules.
+
+\item[\docfilehook{Effect of temperature}{}] 
+As temperature increases the kinetic energy of the molecules reacting increases as well and with this the energy involved in the collisions also increases. Molecules move faster at higher temperature and hence the frequency of collisions between reactants and molecules increases with temperature. Overall, the reaction rate increases with temperature. In other words, we can speed up chemical reactions by increasing temperature.
+\item[\docfilehook{Concentration of reactants}{}] 
+Another way to favor the collision between the molecules of reactants is to increase its concentration. The larger the concentration of reactants the higher the probability of their molecules to collide with each other potentially producing products.
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Methane (\ce{CH4}) reacts with oxygen (\ce{O2}) to produce carbon dioxide (\ce{CO2}) and water (\ce{H2O}) according to the following reaction
 \begin{center}\ce{CH4(g) + O2(g) -> CO2(g) + H2O(g)}\end{center}
@@ -817,8 +824,10 @@ How would the following changes affect the rate of this reaction:
 \\
 \flushright  {\small Answer:   (a) slow down; (b) slow down.}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-\item[\docfilehook{Transition state and activation energy}{}] 
-We have discussed that the energy of reactants is a key parameter during a reaction. The minimum energy needed to activate the reactants so that they can produce products is called activation energy. The higher the activation energy the more energy is needed for a reaction to happen and hence the lower the reaction rate will be. When reactants get together they increase their energy from reactants until a state of maximum energy before producing the products. This state of maximum energy is called an activated complex or transition state. Transition states are very ephemeral states and they exist for a very short amount of time in comparison to reactants and products. An example of activation happens during the ignition of a gas burner. Cooking gas and oxygen can react together to produce water and carbon dioxide only with the help of a spark. A spark is needed to activate the reactants so that their molecules can reach the transition state and hence produce products. Transition states are normally indicated with a $\ddag$  sign to indicate they have a very different nature than normal molecules.
+\vspace{2cm}  \import{files/}{Figure-Collision-theory} \newpage
+
+\item[\docfilehook{Catalysts}{}] 
+Catalysts are chemical that are not directly involved in reaction. They are nor reactants nor products. Still, they tend to increase the rate of reactions. Each catalyst is specific of a given reactions. Some catalysts speed up certain reaction without affecting other reactions. Catalyst function by providing alternative reaction pathways with more favorable--normally lower--activation energy. This way, in the presence of a catalyst reaction proceed by means of the catalyzed and non-catalyzed pathway. Still, as the catalyzed pathway is more favorable the overall speed of the reaction is higher. Catalyst are well known compounds in industry. For example, they are used in the manufacturing of margarine from vegetable oils. Enzymes are biological catalysts. IN the human body most of the metabolic reactions proceed in the presence of a necessary enzyme. Enzymes are also added to detergents in order to speed up the breaking of protein molecules in stains. 
 \item[\docfilehook{Energy diagrams}{}] 
 Energy profile, or energy diagrams, are a visual representation of the advancing of a reaction. Reactions advance through changes in the geometry of the reaction and during a reaction, for example, some bonds are being formed while others are being broken.
 The horizontal axis of the diagram represents the reaction coordinate, representing how the reaction proceeds, from reactants on the left to products on the right. The vertical axis represents the energy, oftentimes the enthalpy of the different steps of the reaction. Transitions states are maxima in the energy diagrams, that is, points between two minima connecting reactants and products. 
@@ -832,24 +841,10 @@ The horizontal axis of the diagram represents the reaction coordinate, represent
  \end{endiagram}\end{center}
 We can extract two types pf properties from energy diagrams. First, the reaction energy $\Delta H_R$ is the difference in energy between the products and reactants. If this value is negative, the reaction will be exothermic, releasing heat. The opposite is true for an endothermic reaction that consumes heat. Second, we can obtain the activation energy as the energy of the transition state with respect to the energy of the reactants. The activation energy will always be a positive number which value is related with the reaction rate: in general small activation energies lead to fast reactions and large activation energies lead to slow reactions. Below are two examples showing an exothermic and endothermic reactions, as well as a diagram showing the activation energy.
 
-\begin{minipage}[t]{1.5\linewidth}
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
- \begin{center}  \hspace{-5cm}
- \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{3,4,0}
-  \ShowGain[label]
-  \end{endiagram}
-  \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{0,4,3}
-  \ShowGain[label]
-  \end{endiagram}
-   \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{1,5,2}
- \ShowEa[label,connect={draw=none}]
-  \end{endiagram}  \end{center}
- \begin{tikzpicture} \node[text width=14cm, fontscale=0.1, shift={(6,-4)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A set of reaction energy profiles  };
-\end{tikzpicture}\end{minipage}
+
+
+
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 For the energy profile below
 \begin{center}
@@ -900,6 +895,26 @@ Calculate
 \item	   Endothermic
 \end{inparaenum}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\begin{minipage}[t]{1.5\linewidth}
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{center}  \hspace{-5cm}
+ \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{3,4,0}
+  \ShowGain[label]
+  \end{endiagram}
+  \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{0,4,3}
+  \ShowGain[label]
+  \end{endiagram}
+   \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,5,2}
+ \ShowEa[label,connect={draw=none}]
+  \end{endiagram}  \end{center}
+ \begin{tikzpicture} \node[text width=14cm, fontscale=0.1, shift={(6,-4)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A set of reaction energy profiles  };
+\end{tikzpicture}\end{minipage}
+
 
 \item[\docfilehook{The Arrhenius equation on its exponential form}{}] 
 The Arrhenius equation gives the dependency of the rate constant with the frequency factor and the activation energy. We will introduce this equation in two forms: an exponential and a linear form. However, in this section we will focus on the exponential form of this equation:
