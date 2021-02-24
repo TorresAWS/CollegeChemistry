@@ -11,5 +11,5 @@ A nucleoside is the result of combining a sugar--either ribose or deoxyribose--a
 \node (a) at (0,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{thyminephosphate} } };
 \node (a.south east ) [xshift=0cm,yshift=-2.5cm]{\small \textcolor{blue}{  Thymidine-5'-monophosphate   }};
 \end{tikzpicture}\end{center}
-\import{./}{StudyCheck12}
+%\import{./}{StudyCheck12}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
