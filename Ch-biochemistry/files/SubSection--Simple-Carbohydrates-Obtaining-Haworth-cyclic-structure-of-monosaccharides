@@ -18,8 +18,13 @@ The final cycle looks like:
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}}
 \setatomsep{2.5em}\glucose[model=chair,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]&
-\setatomsep{2.5em}\glucose[model=haworth,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]&
-\setatomsep{2.5em}\glucose[model=haworth,ring,  color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
+\setatomsep{2.5em}   \chemname{\carbohydrate[model=haworth]{llrr}}{ }&
+
+
+%\glucose[model=haworth,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]
+\setatomsep{2.5em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose]{llr}}{ }   
+
+%\glucose[model=haworth,ring,  color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
 \tabularnewline\addlinespace
 \textcolor{blue}{D-Mannose} & \textcolor{blue}{D-Mannose rotated} & \textcolor{blue}{$\alpha$-Mannose}\tabularnewline
 \end{tabular*}\end{center}
@@ -28,8 +33,10 @@ In general the cycles formed from linear monosaccharides can have five of six at
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}}
 \carbohydrate[model={fischer=skeleton}, color={anomerO}{orange},color={H-C5}{red}, color={O-C5}{red} ]{llrr}&
-\setatomsep{2.5em}\glucose[model=haworth,ring,  anomer = alpha, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]&
-\setatomsep{2.5em}\glucose[model=haworth,ring,  anomer = beta, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
+\setatomsep{2.5em} \chemname{\carbohydrate[pentose,model=haworth,ring=pyranose, anomer = alpha,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }   &
+%  \glucose[model=haworth,ring,  anomer = alpha, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]&
+\setatomsep{2.5em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose,anomer = beta,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }
+%\glucose[model=haworth,ring,  anomer = beta, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
 \tabularnewline\addlinespace
 \textcolor{blue}{D-Mannose} & \textcolor{blue}{$\alpha$-d-Mannose}& \textcolor{blue}{$\beta$-d-Mannose} \tabularnewline
 \end{tabular*}\end{center}
