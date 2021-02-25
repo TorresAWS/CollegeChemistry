@@ -8,11 +8,13 @@ In order to combine two ions, you first arrange the positive ion in the left fol
     \draw[elmove=left] (Cl2) ..controls +(45:2cm) and +(-45:1cm) .. (Cl1) ;
       \draw[elmove=left]   (Cl1) ..controls +(45:1cm) and +(-45:2cm) .. (Cl2) ;
   }\end{center}\vspace{.5cm}
-We would simplify in case the charges compensate with each other. An example would be combining \ce{Mg^{2+}} and \ce{HPO4^{2-}} leading  to \ce{MgHPO4}
+We would simplify in case the charges compensate with each other. 
+
+An example would be combining \ce{Mg^{2+}} and \ce{SO4^{2-}} leading  to \ce{MgSO4}
 
 \vspace{.5cm}\begin{center}
   \schemestart
-    \chemfig{@{a1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{HP@{a2}O_4^{2-}}   \arrow \ce{Mg_{\cancel{2}}(HPO4)_{\cancel{2}}} \arrow\ce{MgHPO4}
+    \chemfig{@{a1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{S@{a2}O_4^{2-}}   \arrow \ce{Mg_{\cancel{2}}(SO4)_{\cancel{2}}} \arrow\ce{MgSO4}
   \schemestop
   \chemmove{
     \draw[elmove=left] (a2) ..controls +(45:2cm) and +(-45:1cm) .. (a1) ;
@@ -38,3 +40,13 @@ We would simplify in case the charges compensate with each other. An example wou
 %\flushright Answer: \ce{Ca2NO3};  \ce{K^{+}} and  \ce{SO4^{2-}}.
 %\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
+%An example would be combining \ce{Mg^{2+}} and \ce{HPO4^{2-}} leading  to \ce{MgHPO4}
+%
+%\vspace{.5cm}\begin{center}
+%  \schemestart
+%    \chemfig{@{a1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{HP@{a2}O_4^{2-}}   \arrow \ce{Mg_{\cancel{2}}(HPO4)_{\cancel{2}}} %\arrow\ce{MgHPO4}
+%  \schemestop
+%  \chemmove{
+%    \draw[elmove=left] (a2) ..controls +(45:2cm) and +(-45:1cm) .. (a1) ;
+%      \draw[elmove=left]   (a1) ..controls +(45:1cm) and +(-45:2cm) .. (a2) ;
+%  }\end{center}\vspace{.5cm}
