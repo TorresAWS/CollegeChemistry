@@ -1,8 +1,6 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{physicalsolutions}
-\setcounter{figurenewcounter}{0}
-%\newsavebox\unitcellwater
-%\newsavebox\trianglenew
+\newcommand\chapterlabel{Ch-solutions}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+
 
 \begin{document}
 \linenumbers
@@ -141,49 +139,8 @@ Density of a solution--often expressed in g/mL--is the ration of the grams of so
 Density is used to convert mass of solution into volume of solution, of the opposite. In the case of pure water, density of water is 1g/mL that is the mass in grams of water equals to its volume in mL. 
 
 
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-A solution is prepared by mixing 1g of NaCl (MW=59g/mol) in 100g of water to give a final volume of 120mL. Calculate: 
-\begin{inparaenum}[(a)]	
-\item The percent by mass of solute
-\item	 The mole fraction of solute 
-\item  The molarity of the solution
-\item  The molality of the solution
-\item  The density of the solution
-\end{inparaenum}\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-In this example it is convenient to recall all the parameters we have in terms of solute, solvent and solution. 
-Regarding the solute, we have the mass of solute ($m_{\text{solute}}=1g$), and the moles of solute ($n_{\text{solute}}=1g\times \frac{\text{1 mol of NaCl}}{\text{59g of NaCl}}=0.017 \text{moles}$). Regarding the solvent, we have the mass of solvent ($m_{\text{solvent}}=100$g=0.1kg), the moles of water ($n_{\text{solvent}}=100g\times \frac{\text{1 mol of }\ce{H2O}}{\text{18g of }\ce{H2O}}=5.6 \text{moles}$), and the volume of solvent ($v_{\text{solvent}}=100$mL). Mind that in the case of water, very normally, its mass in grams equals to its volume in mL. In terms of solution, we can compute the mass of solution ($m_{\text{solution}}=1+100=101$g), the moles of solution ($n_{\text{solution}}=0.017+5.6=5.617\text{moles}$), and the volume of solution ($v_{\text{solution}}=120$mL=0.12L). Now, we are ready to compute all concentration units of the solution. The percent by mass of solute is the ration between the mass of solute and the mass of solution times 100:
-\[\%_m=\frac{\text{mass of solute}}{\text{mass of solute + mass of solvent}}\times 100
-=\frac{1\text{g of solute}}{101\text{g of solution}}\times 100=0.99\%\]
-The mole fraction is the ration between the moles of solute and moles of solution:
-\[\chi=\frac{\text{moles of solute}}{\text{moles of solute + moles of solvent}}
-=\frac{0.017\text{moles of solute}}{5.617\text{moles of solution}}=3.02\times 10^{-3}	\]
-The molarity of the solution is the ration between the moles of solute and the liters of solution:
-\[\text{M}=\frac{\text{moles of solute}}{\text{liters of solution}}=\frac{5.617\text{moles of solution}}{0.12\text{L of solution}}=46.8\text{M}\]
-The molality is the ration between the moles of solute and the kg of solvent:
-\[	\text{m}=\frac{\text{moles of solute}}{\text{kg of solvent}} =\frac{0.017\text{moles of solute}}{0.1\text{kg of solvent}}=0.17\text{m}
-	\]
-Finally, density of the solution is the ration of the grams of solution and the volume of solution:
-\[\text{d}=\frac{\text{grams of solution}}{\text{mL of solution}} = \frac{101\text{g of solution}}{120\text{mL of solution}}=0.84\text{g/mL}
-	\]
+\import{problems/}{SampleProblem1}
 
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-A solution is prepared by mixing 1g of glucose (MW=180g/mol) in 50g of water to give a final volume of 100mL. Calculate: 
-\begin{inparaenum}[(a)]	
-\item The percent by mass of solute %1.96\%
-\item	 The mole fraction of solute %$2\times 10^{-3}$
-\item  The molarity of the solution	%0.05M
-\item  The molality of the solution	%0.11m
-\item  The density of the solution	%0.51g/mL
-\end{inparaenum}\\
-\begin{flushright} Answer: \begin{inparaenum}[(a)]	
-\item  1.96\%
-\item	  $2\times 10^{-3}$
-\item   0.05M
-\item   0.11m
-\item   0.51g/mL
-\end{inparaenum}\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 
 \item[\docfilehook{Why relating units of concentration}{}] 
@@ -236,33 +193,9 @@ where:
   \item 18 is the molar weight of water
 \end{where}
 Mind that this formula only works for water as solvent. If using a different solvent you just need to update the $18$ value and use the molar weight of the new solvent instead.
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-A 2M NaCl (MW=59g/mol) solution has a density of 1.2g/mL. Calculate: 
-\begin{inparaenum}[(a)]	
-\item The molality of the solution
-\item  The mass percent of solute
-\item	 The mole fraction of solute 
-\end{inparaenum}\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
- We will first convert molarity into molality using density and the molar mass of the solute.
- \[\text{m}=\frac{1000\cdot \text{M}}{1000\cdot d - \text{M}\cdot MW}=\frac{1000\cdot 2}{1000\cdot 1.2 - 2\cdot 59}=1.84m\]
- We will then convert molarity into mass percent:
- \[ \%_m=\frac{\text{M}\cdot MW }{10\cdot \text{d} }=\frac{2\cdot 59 }{10\cdot 1.2 }=9.83\%\]
- We will finally convert the mass percent of solute into mole fraction:
- \[\chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} }=\frac{18\cdot  9.83\%  }{100\cdot 59 + (18-59)\cdot 9.83\%  }=0.03\]
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-For a 0.11m glucose (MW=180g/mol) solution with density 0.51g/mL, calculate:
-\begin{inparaenum}[(a)]	
-\item The percent by mass of solute  
-\item	 The mole fraction of solute  
-\item  The molarity of the solution	 
-\end{inparaenum}\\
-\begin{flushright} Answer: \begin{inparaenum}[(a)]	
-\item  1.76\%
-\item	  $1.78\times 10^{-3}$
-\item   0.05M
-\end{inparaenum}\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\import{problems/}{SampleProblem2}
+
 
 \item[\docfilehook{Compute molecular masses from molality and molarity}{}] 
 In numerous applications one needs to compute the molecular weight of a solute by means of a given molality or molarity. It is useful to remember that the molality of a solution is related to the moles of solute and the kilograms of solvent, in contrast to the molarity of a solution that depends on the litters of solution. When we prepare a solution we normally know the mass of solute used and the mass of the solvent or the volume of solution. We can compute the molar mass of the solute by means of:
@@ -280,17 +213,8 @@ where:
     \item $\text{L of solution}$   is the volume of solution
   \item $\text{m}$   is the molality of the solution
 \end{where}
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-We prepare a solution by weighting 5g of solute and adding 10g of solvent in order to prepare a 0.1m solution. Calculate the molar mass of the solute.
-\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-In this example, we are given molality (m=0.1), the mass of solute ($m_{\text{solute}}$=5g) and the mass of solvent ($m_{\text{solvent}}$=0.01kg). In order to calculate the molar mass of a solute by means of molality we have that:
- \[MW=\frac{ \text{g of solute}   }{\text{m}\cdot \text{kg of solvent}   	}=\frac{5}{0.1\cdot 0.01}=5000g/mol \]
- \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-We prepare a solution by weighting 1g of solute and adding liquid until 100mL of solution in order to prepare a 2M solution. Calculate the molar mass of the solute.
-\\
-\begin{flushright} Answer: 5g/mol\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\import{problems/}{SampleProblem3}
+
 
 
 
@@ -319,39 +243,8 @@ In terms of solute dissolved and solute particles, we have that one more of solu
 Another example, magnesium nitrate \ce{Mg(NO3)2}. This strong electrolyte--as this is an ionic salt--is made of lithium with valence +I and nitrate with valence -I. The formula indicated we have one \ce{Mg^{2+}_{(aq)}} and two \ce{NO3^{-}_{(aq)}}. Hence:
 \begin{center}\ce{Mg(NO3)2_{(aq)} -> Mg^{2+}_{(aq)} + 2NO3^{-}_{(aq)} }\end{center}
 
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Break down the following chemicals into ions, if possible:\\
-\begin{center}\fontfamily{ppl}\selectfont
-\begin{tabular}{ll}
-\rowcolor{black!45}
-\toprule
-Chemical &  Particles in solution  \\
-\midrule
-\ce{K2CrO4_{(aq)}} &\hspace{3cm}  \\
-\ce{Ba(NO3)2_{(aq)}} & \hspace{3cm}   \\
-\ce{BaCrO4_{(s)}} &\hspace{1cm}    \\
- \ce{KNO3_{(aq)} } &\hspace{1cm}    \\
-\bottomrule
-\end{tabular}\end{center}
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-We can only break down into ions ionic compounds and oxosalts that are not solid. From the list of chemicals in the example, we will not be able to break down \ce{BaCrO4_{(s)}} into ions as it is a solid. From the other chemicals, \ce{K2CrO4_{(aq)}} is named potassium chromate and contains 2\ce{K^+_{(aq)}} and \ce{CrO4^{2-}_{(aq)}} ions. Barium nitrate--\ce{Ba(NO3)2_{(aq)}}--will produce \ce{Ba^{2+}_{(aq)}} and 2\ce{NO3^{-}_{(aq)}}. Finally, potassium nitrate-- \ce{KNO3_{(aq)} }--will produce \ce{K^{+}_{(aq)}} and \ce{NO3^{-}_{(aq)}}. In the table:
-\begin{center}\fontfamily{ppl}\selectfont
-\begin{tabular}{ll}
-\rowcolor{black!45}
-\toprule
-Chemical &  Particles in solution  \\
-\midrule
-\ce{K2CrO4_{(aq)}} & 2\ce{K^+_{(aq)}} + \ce{CrO4^{2-}_{(aq)}}  \\
-\ce{Ba(NO3)2_{(aq)}} &\ce{Ba^{2+}_{(aq)}} + 2\ce{NO3^{-}_{(aq)}}\\
-\ce{BaCrO4_{(s)}} &\ce{BaCrO4_{(s)}}    \\
- \ce{KNO3_{(aq)} } &\ce{K^{+}_{(aq)}} + \ce{NO3^{-}_{(aq)}}   \\
-\bottomrule
-\end{tabular}\end{center}
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Break down the following chemicals into ions, if possible: \ce{H2O_{(l)}}, \ce{NH3_{(l)}}, \ce{AgNO3_{(aq)}}.
-  \\
-\flushright  {\small Answer: \ce{H2O_{(l)}}, \ce{NH3_{(l)}}, \ce{Ag^+_{(aq)}}, \ce{NO3^-_{(aq)}}.}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\import{problems/}{SampleProblem4}
+
 
 
 
@@ -388,18 +281,11 @@ A property called percent dissociation of an electrolyte, $\alpha$, is helpful t
 \label{\chapterlabel:equation16}
 \end{equation}
 Percent dissociation is zero for nonelectrolytes as no ions are produced and hence the effective ion concentration is null. Finally, percent dissociation for strong electrolytes is 100\% as the nominal and effective ion concentration are the same. Note that the percent dissociation can change with concentration.
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-A solution that is 0.02M in HF has a effective ion concentration of 0.015M. Calculate the percent dissociation of the electrolyte.
-\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The percent dissociation, $\alpha$, is the ration between the effective ion concentration (the amount of ions in solution) and the nominal concentration (the amount of solute added to the solution). We have that the nominal concentration is 0.02M and the effective concentration is 0.015M. As usual for weak electrolytes, the effective concentration is lower than the nominal one as some molecules did not dissociate. We can calculate the percent dissociation:
-\[\alpha=\frac{c^{\text{effective}}}{c^{\text{Nominal}}} \times 100=\frac{0.015}{0.02}\times 100=75\%\]
-The results indicate that only the 75\% of the solute dissociate in solution.\\
- \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-The percent dissociation of a 0.1M weak electrolyte is 40\%. Calculate the effective ion concentration.
-\\
-\begin{flushright} Answer: 0.04M\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+\import{problems/}{SampleProblem5}
+
+
 \end{description}
 
 
@@ -476,41 +362,8 @@ Water	& \multicolumn{1}{c}{100 }& \multicolumn{1}{c}{0.512 } & \multicolumn{1}{c
 \end{tabular}\end{center} 
 Table \ref{tab:{\chapterlabel}4} reports values for the boiling-point elevation and freezing-point depression for various solvents.
 
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-For a solution of 5 g of \ce{I2} (MW=254g/mol) in 100 g of benzene, \ce{C6H6}:
-\begin{inparaenum}[(a)]	
-\item Calculate its molality %50m  
-\item	 Given that benzene boiling point is 80$^{\circ}$C, and that $k_b$ = 2.53 $^{\circ}$C/m, calculate the boiling point and the boiling point elevation of the solution.  
-\item	 Given that benzene freezing point is 5$^{\circ}$C, and that $k_f$ = 5.10 $^{\circ}$C/m, calculate the freezing point and the freezing point depression of the solution.   
-\end{inparaenum}
-\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-In order to calculate the molality of the solution, we need the moles of solute ($5g\times \frac{1mol}{254g}=0.019$moles)  and the kilograms of solvent (100g=0.1kg). We have that molality is
-\[m=\frac{\text{moles of solute}}{\text{kg of solvent}}=\frac{0.019}{0.1}=0.19m\]
-With the molality, we can calculate the freezing and boiling point of the solution. Mind that the pure solvent freezes at 5$^{\circ}$C and boils at 80$^{\circ}$C. The solution will freeze at a lower temperature and will boil at a higher temperature--that is, it will experience a freezing depression and boiling elevation. We will calculate first the freezing point (and freezing point depression):
-\[T_f^{\text{solution}}=T_f^{\text{solvent}}-k_f\cdot i\cdot m =5-5.10\cdot 1\cdot 0.19=4.031 ^{\circ} C\]
-In other words the freezing depression will be
-\[\Delta T_f =-k_f\cdot i\cdot m=-5.10\cdot 1\cdot 0.19=-0.969^{\circ}C\]
-We will now calculate the boiling point elevation:
-\[T_b^{\text{solution}}=T_b^{\text{solvent}}+k_b\cdot i\cdot m=80+2.53\cdot 1\cdot 0.19=80.48^{\circ}C\]
- In other words the boiling elevation will be
-\[\Delta T_b =k_b\cdot i\cdot m=2.53\cdot 1\cdot 0.19=0.4807^{\circ}C \]
-\\
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-For a solution of 5 g of \ce{NaCl} (MW=58g/mol) in 100 g of acetic acid, \ce{CH3COOH}:
-\begin{inparaenum}[(a)]	
-\item Calculate its molality %0.86m  
-\item	 Given that benzene boiling point is 118$^{\circ}$C, and that $k_b$ = 3.08 $^{\circ}$C/m, calculate the boiling point and the boiling point elevation of the solution.  
-\item	 Given that benzene freezing point is 17$^{\circ}$C, and that $k_f$ = 3.59 $^{\circ}$C/m, calculate the freezing point and the freezing point depression of the solution.   
-\end{inparaenum}
-\begin{flushright} Answer: 
-\begin{inparaenum}[(a)]	
-\item  50m  
-\item	  123.3$^{\circ}$C ; 5.29$^{\circ}$C
-\item	  10.82$^{\circ}$C ; -6.17$^{\circ}$C
-\end{inparaenum}
-\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\import{problems/}{SampleProblem6}
+
 
 
 
@@ -535,20 +388,8 @@ For example, the vapor pressure of water at 25$^{\circ}$C  is 0.03 atm. If we ma
 Raoult's Law establishes a linear relationship between the vapor-pressure of a solution and the mole fraction in which the slope of the relationship gives the vapor pressure of the pure solvent, the $x$ variable is $1-\chi$ and the $y$ variable is $P_{vap}^{\text{solution}}$. Simply put, by plotting $P_{vap}^{\text{solution}}$ vs. $1-\chi$ we obtain a straight line with a slope equals to $P_{vap}^{\text{solution}}$.
 
 
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Given that the vapor pressure of water at 25$^{\circ}$C  is 0.03 atm, calculate the vapor pressure and the vapor pressure lowering of a 20\% of mass NaCl (MW=59g/mol) solution at that temperature.
-\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-In order to calculate the vapor pressure of a solution or the vapor-pressure lowering of a solution we need to calculate the mole fraction of the solute. We can calculate $\chi$ by means of the solution of the solute mass percent:
-\[\chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} }=\frac{18\cdot  20  }{100\cdot 59 + (18-59)\cdot 20 }=0.07\]
-Now, with the mole fraction of the solute and given that the vapor pressure of the solvent is 0.03atm, we can compute first the vapor pressure of the solution
-\[ P_{vap}^{\text{solution}}=(1-  \chi ) \cdot P_{vap}^{\text{solvent}}=(1-0.07)\cdot 0.03=0.028atm\]
-and then the vapor-pressure lowering
-\[\Delta P_{vap}=-2.1\times 10^{-3} atm\]
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the vapor-pressure lowering of a 3m \ce{I2} (MW=254g/mol) solution in cyclohexane at 279K given  that the vapor pressure of cyclohexane at that temperature is 5.164kPa and the solution density is 1.3g/mL.\\
-\begin{flushright} Answer: $\chi=0.05$; $\Delta P_{vap}=-0.26kPa$\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\import{problems/}{SampleProblem7}
+
 
 
 
@@ -588,102 +429,10 @@ r^2\leq0.99 \quad \quad (\text{Good linear regression})\label{\chapterlabel:equa
 r^2<0.99 \quad \quad (\text{Poor linear regression}) 
 \end{split}\end{equation}
 You can fit a linear regression to a set of experimental data either by means of a graphic calculator or using specialized \href{http://www.alcula.com/calculators/statistics/linear-regression/#gsc.tab=0}{internet websites}.
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-The following two sets of data report the change in boiling point of a solution. Assess the date to calculate the boiling elevation constant, and if possible, calculate colligative constant and the boiling point of the pure solvent. 
-\begin{center}\begin{tabular}[t]{  c c c c   }
-\toprule
-\multicolumn{2}{c}{Set A}&\multicolumn{2}{c}{Set B}\\
-\toprule
-  T($^{\circ}$C)	&m&T($^{\circ}$C)	&m\\
-\midrule
- 82.81	&1&	82.89	&1\\
- 85.02	&2&	84.4	&2\\
- 88.03	&3&	88.5	&3\\
- 90.99	&4&	89.81	&4\\
- 93.25	&5&	94.5	&5\\
-\bottomrule
-\end{tabular}\end{center}
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
- In order to ensure that the data is good enough to calculate the boiling elevation constant we need to assess the quality of the linear regression. By means of two regression analysis displayed below, we have that for Data set A, $r^2$ is larger than 0.99 and hence this data set fits well a linear regression. On the other hand, the Data set B is not good enough in order to calculate the boiling point elevation constant as  $r^2$ is lower than  0.99. In another words, the Data set B does not represent a real linear relationship between boiling temperature and molality. Therefore, we will use Data set A in order to calculate the boiling elevation constant. From the slope of the line we will calculate $k_b$=2.69$^{\circ}$C/m and from the intersect we will calculate the boiling point of the pure solvent $T^{solvent}_b=79.96^{\circ}$C.
- \pgfplotstableread{    
- y1 			x1	 y2 		x2
- 82.81		1 	82.89	 1 
-  85.02		2 	84.4	 	2
-  88.03		3 	88.5	 	3 
-  90.99		4 	89.81	 4
-  93.25		5 	94.5	 	5 	 
-}\tableLabel
-\MakeRegression{x1}{y1}{reg1}{\SlA}{\IntA}{\RsqA}
-\MakeRegression{x2}{y2}{reg2}{\SlB}{\IntB}{\RsqB}
-\begin{tikzpicture}
-\begin{groupplot}[height=5cm,width=6.4cm,
-  group style={
-    group size=2 by 1,
-  }
-]
-\nextgroupplot[title=SetA, legend style={at={(0.9,1.4)} }]
-\addplot +[mark=none] table [x=x1, y=reg1] {\tableLabel};
-\addplot +[only marks] table [x=x1, y=y1]  {\tableLabel};   
-\addlegendentry{\LegendEntry{\SlA}{\IntA}{\RsqA}}
-%\addlegendentry{Set A}
-\nextgroupplot[title=SetB, legend style={at={(0.99,1.4)} }]
-\addplot +[mark=none] table [x=x2, y=reg2] {\tableLabel};
-\addplot +[only marks] table [x=x2, y=y2]  {\tableLabel};   
-\addlegendentry{\LegendEntry{\SlB}{\IntB}{\RsqB}}
-%\addlegendentry{Set B}
-\end{groupplot}
-\node[anchor=north]  at (5,0) {molality, m};
-\node[anchor=north, rotate=90]  at (-1,2) {T, $^{\circ}$C};
 
-\end{tikzpicture}
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-The following two sets of data report the change in boiling point of a solution. Assess the date to calculate the boiling elevation constant, and if possible, calculate colligative constant and the boiling point of the pure solvent. 
-\begin{center}\begin{tabular}[t]{  c c c c   }
-\toprule
-\multicolumn{2}{c}{Set A}&\multicolumn{2}{c}{Set B}\\
-\toprule
-  T($^{\circ}$C)	&m&T($^{\circ}$C)	&m\\
-\midrule
- 17.02	&1&	817.21	&1\\
- 15.21	&2&	14.42	&2\\
-  11.10	&3&	11.63	&3\\
- 7.65	&4&	8.84	&4\\
- 6.05	&5&	6.05		&5\\
-\bottomrule
-\end{tabular}\end{center}
-%\pgfplotstableread{    
-% y1 			x1	 y2 		x2
-% 17.02		1 	17.21		 1 
-%  15.21		2 	14.42	 	2
-% 11.10		3 	11.63	 	3 
-% 7.65			4 	8.84	 		4
-%  6.05		5 	6.05	 		5 	 
-%}\tableLabel
-%\MakeRegression{x1}{y1}{reg1}{\SlA}{\IntA}{\RsqA}
-%\MakeRegression{x2}{y2}{reg2}{\SlB}{\IntB}{\RsqB}
-%\begin{tikzpicture}
-%\begin{groupplot}[height=5cm,width=6.4cm,
-%  group style={
-%    group size=2 by 1,
-%  }
-%]
-%\nextgroupplot[title=SetA, legend style={at={(0.9,1.4)} }]
-%\addplot +[mark=none] table [x=x1, y=reg1] {\tableLabel};
-%\addplot +[only marks] table [x=x1, y=y1]  {\tableLabel};   
-%\addlegendentry{\LegendEntry{\SlA}{\IntA}{\RsqA}}
-%%\addlegendentry{Set A}
-%\nextgroupplot[title=SetB, legend style={at={(0.99,1.4)} }]
-%\addplot +[mark=none] table [x=x2, y=reg2] {\tableLabel};
-%\addplot +[only marks] table [x=x2, y=y2]  {\tableLabel};   
-%\addlegendentry{\LegendEntry{\SlB}{\IntB}{\RsqB}}
-%%\addlegendentry{Set B}
-%\end{groupplot}
-%\node[anchor=north]  at (5,0) {molality, m};
-%\node[anchor=north, rotate=90]  at (-1,2) {T, $^{\circ}$C};
-%
-%\end{tikzpicture}
-\begin{flushright} Answer: Data set B, $k_f=2.79^{\circ}$C, $T^{solvent}_f=20^{\circ}$C\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\import{problems/}{SampleProblem8}
+
 
 
 \item[\docfilehook{Use of colligative properties to calculate $\alpha$}{}] 
@@ -691,51 +440,16 @@ Colligative measurements can be used to calculate the percent dissociation ($\al
 \[ c^{\text{effective}}=c^{\text{Nominal}}\cdot (1+ (i-1)\frac{\alpha}{100}) \]
 For example, imagine we prepare a 0.1M ($c^{\text{Nominal}}$) solution of a weak electrolyte with a 98\% degree of dissociation ($\alpha$) and the electrolyte dissociates into two different ions ($i$=2). The number of solute particles in the solution, that is the effective concentration of particles, will be 0.198M. As you can see this number is larger than 0.1M as it accounts not only for molecules (0.002M) but also for ions (0.196M).
 The following example demonstrates how to compute electrolyte's degree of dissociation using osmotic pressure measurements.
-  \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-A solution of 0.07M HF--a weak electrolyte--has a osmotic pressure of 2atm at 298K. Calculate:
-\begin{inparaenum}[(a)]	
-\item The nominal solute concentration.
-\item The effective ion concentration.
-\item  The percent dissociation of the acid.
-\end{inparaenum}\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) The nominal solute concentration is 0.07M.
-(b) The osmotic pressure depends on molarity and temperature. We know the temperature, R is 0.082atmL/Kmol, and the vale of the osmotic pressure. With this information we can calculate the effective concentration of particles in solution:
-\[i\cdot M=\frac{\pi}{RT}=\frac{2}{0.082\cdot 298}=0.08M\]
-This value accounts for the overall concentration of solute particles in the form of molecules and ions.
-(c)  The osmotic pressure is related to the effective molarity and given that we know the nominal solute concentration, we can calculate the degree of dissociation of the acid:
-\[c^{\text{effective}}=c^{\text{Nominal}}\cdot (1+ (i-1)\frac{\alpha}{100})\]
-Plugging the given values we have:
-\[0.08=0.07\cdot (1+ (2-1)\frac{\alpha}{100}) \]
-We can solve for $\alpha$:
-\[ \alpha=100\cdot (0.08/0.07-1)=14.28\% \]
-This results indicated that 14\% of the electrolyte dissociates  forming \ce{H^+ + F-}, whereas 86\% stays in the form of \ce{HF}.\\
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-We prepare a 0.1M solution of a weak electrolyte with $i$=3. Given that the degree of dissociation of the electrolyte is 95\%, calculate the osmotic pressure of the solution at 298K.
-\\
-\begin{flushright} Answer: 7.23atm\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\import{problems/}{SampleProblem9}
+
   
 
 
 \item[\docfilehook{Use of colligative properties to calculate $MW$}{}] 
 Colligative properties measurements are also useful in order to calculate molar masses of solutes as most of these properties are related to concentration and concentration is related to the molar mass of the solute. The method is based on carrying any colligative measurement, for example, the boiling point elevation, the freezing point depression, or the osmotic pressure, and with these measurements computing the corresponding concentration, molarity of molarity. Once we have the concentration we can use Equation \ref{\chapterlabel:equation17} in order to compute the molar mass of the solute. We will work on an example:
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-We prepare a solution by adding 1g of solute--a non-electrolyte--into 100mL of water. The solution experience a freezing point depression of 2.1$^{\circ}$C. Given than the freezing depression constant of water is 0.512$^{\circ}$C/m, calculate the molar mass of the solute.
-\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-We will first calculate the molality of the solution by means of the freezing point depression. 
-\[\Delta T_f =-i\cdot k_f\cdot m\]
-We will use the freezing point depression ($\Delta T_f $=-2.1$^{\circ}$C), Van't Hoff's factor ($i$=1) and the freezing point depression constant ($k_f$=0.512$^{\circ}$C/m):
-\[-2.1 =-1\cdot 0.512\cdot m\]
-we have that the molality of the solution is $m$=4.10m. Now that we have the molality we will calculate the molar mass of the solute using the information provided regarding the solution preparation: mass of solute ($m_{solute}$=1g) and volume of water ($m_{solvent}$=0.1kg), taking into account that the density of water is 1g/mL. We have that the molar mass of the solute is:
-\[MW=\frac{ \text{g of solute}   }{\text{m}\cdot \text{kg of solvent}   	}=\frac{1}{4.10\cdot 0.1}=5.12g/mol\]
-\\
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-We prepare a solution by adding 5g of of solute--a non-electrolyte--until filling 50mL of solution. The solution experience a boiling point elevation of 5.3$^{\circ}$C. Given the boiling elevation constant of water, 1.86$^{\circ}$C/m, calculate the molar mass of the solute.
-\\
-\begin{flushright} Answer: 35.09g/mol\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\import{problems/}{SampleProblem10}
+
     
     
     
@@ -765,22 +479,7 @@ where:
 \end{where}
 An every-day life application of Henry's law is the production of carbonated beverages. These beverages are produced in contact with a liquid with an atmosphere of \ce{CO2} of typical pressures of 5 atm. When you open a can container, the \ce{CO2} in the drink comes out of the liquid in the form of bubbles to equilibrate the high gas pressure on the liquid and the low gas pressure in the atmosphere.
 \end{description}
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-For the dissolution of \ce{CO2} in water, Henry's constant is $3.4\times 10^{-2}$ M/atm. Calculate:
-\begin{inparaenum}[(a)]	
-\item the \ce{CO2} pressure needed to achieve a gas concentration of 0.04M.
-\item  If we open a carbonated can until it goes flat and given that the partial pressure of \ce{CO2} in the air is $4\times 10^{-4}$  atm at 25$^{\circ}$C, calculate the final gas concentration in the drink.
-\end{inparaenum}\\
- \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) We will apply Henry's law given that we know solubility and Henry's constant:
-  \[	 s=k\cdot P \quad \quad  0.04=3.4\times 10^{-2}\cdot P \]
-  Solving for the pressure we have: 1.17atm.
-(b)  We will also apply Henry's law, this time knowing the partial pressure of \ce{CO2} and again Henry's constant:
-  \[	 s=k\cdot P \quad \quad  s=3.4\times 10^{-2}\cdot 4\times 10^{-4} \]
-The solubility is $1.36\times 10^{-5}$M.\\
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the solubility of nitrogen in water after exposing water to a 5 atm nitrogen pressure, given that Henry's constant is $6.1\times 10^{-4}$M/atm. 
-\\
-\begin{flushright} Answer: $3.05\times 10^{-3}$M\end{flushright}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\import{problems/}{SampleProblem11}
+
 \end{document}
