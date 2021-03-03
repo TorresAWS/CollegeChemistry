@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 18:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5243,7 +5243,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
-(./problems/StudyCheck4) [5])
+(./problems/StudyCheck4) [5]) (./problems/SampleProblem6
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+(./problems/StudyCheck6)
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+ [6])
 (./files/SubSection-The-first-law-of-thermodynamics.-From-energy--to-temperatur
 e-First-law-of-thermodynamics:-the-internal-energy) (./problems/SampleProblem5
 Overfull \hbox (2.76985pt too wide) detected at line 6
@@ -5260,26 +5278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-(./problems/StudyCheck5) [6]) (./problems/SampleProblem6
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-(./problems/StudyCheck6)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
-(./files/SectionIntro-Calorimetry)
+(./problems/StudyCheck5) [7]) (./files/SectionIntro-Calorimetry)
 (./files/SubSection-Calorimetry-The-calorimeter--The-calorimeter)
 (./files/SubSection-Calorimetry-Exothermic-and-endothermic-reactions--Exothermi
 c-and-endothermic-reactions [8]) (./problems/SampleProblem14
@@ -5415,9 +5414,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 (./problems/StudyCheck13) [13]) (./files/SectionIntro-Enthalpy)
-(./files/SubSection-Enthalpy-What-is-enthalpy?)
+(./files/SubSection-Enthalpy-What-is-enthalpy? [14])
 (./files/SubSection-Enthalpy-Table-of-standard-enthalpies--Table-of-standard-en
-thalpies [14]) (./problems/SampleProblem9 (./problems/StudyCheck9))
+thalpies) (./problems/SampleProblem9 (./problems/StudyCheck9))
 (./files/SubSection-Enthalpy-Natural-state-of-an-element--Natural-state-of-an-e
 lement) (./files/Table-Standard-states
 
@@ -5436,10 +5435,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 8.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 8.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
+[15])
 (./files/SubSection-Enthalpy-Formation-reactions:-standard-enthalpy-of-formatio
 n
 Underfull \hbox (badness 5985) in paragraph at lines 1--2
@@ -5500,11 +5496,6 @@ Overfull \hbox (207.81573pt too wide) in paragraph at lines 147--301
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-
 Overfull \vbox (35.00136pt too high) has occurred while \output is active []
 
 
@@ -5666,10 +5657,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81364 strings out of 493014
- 1841806 string characters out of 6133351
- 2671036 words of memory out of 5000000
- 82717 multiletter control sequences out of 15000+600000
+ 81371 strings out of 493014
+ 1841950 string characters out of 6133351
+ 2671034 words of memory out of 5000000
+ 82724 multiletter control sequences out of 15000+600000
  259643 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,26n,105p,10369b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5704,7 +5695,7 @@ o/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8
 a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 2725978 bytes).
+Output written on main.pdf (26 pages, 2725300 bytes).
 PDF statistics:
  513 PDF objects out of 1000 (max. 8388607)
  385 compressed objects within 4 object streams
