@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 FEB 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 16:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5162,7 +5162,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 ) (./problems/SampleProblem3 (./problems/StudyCheck3))
-(./files/SubSection-Solutions-and-composition-Concentration-of-solutions)
 (./files/SubSection-Solutions-and-composition-Meaning-of-concentration)
 (./files/SubSection-Solutions-and-composition-Mass-percent [3])
 (./problems/SampleProblem4 (./problems/StudyCheck4))
@@ -5170,14 +5169,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (./files/SubSection-Solutions-and-composition-Massvolume-percent-concentration)
 (./files/SubSection-Solutions-and-composition-Molarity-concentration)
 (./problems/SampleProblem5 (./problems/StudyCheck5) [4])
-(./files/SubSection-Solutions-and-composition-Molarity-calculations-with-mass)
 (./files/SubSection-Solutions-and-composition-Concentration-units-as-conversion
 -factors) (./problems/SampleProblem6 (./problems/StudyCheck6))
-(./files/SubSection-Solutions-and-composition-Dilution [5])
-(./problems/SampleProblem7 (./problems/StudyCheck7))
+(./files/SubSection-Solutions-and-composition-Dilution)
+(./problems/SampleProblem7 (./problems/StudyCheck7) [5])
+(./files/SubSection-Solutions-and-composition-Molarity-calculations-with-mass)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 77.
+(hyperref)                removing `\color' on input line 79.
 
 (./files/SectionIntro-Electrolytes-and-insoluble-compounds)
 (./files/SubSection-Electrolytes-and-insoluble-compounds-Soluble-and-insoluble-
@@ -5208,7 +5207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 (./problems/StudyCheck10) [8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 95.
+(hyperref)                removing `\color' on input line 97.
 
 (./files/SectionIntro-An-introduction-to-reactions-in-solution)
 (./files/SubSection-An-introduction-to-reactions-in-solution-Acid-base-reaction
@@ -5219,7 +5218,7 @@ tions) [9]
 (./problems/SampleProblem11 (./problems/StudyCheck11) [10])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 104.
+(hyperref)                removing `\color' on input line 106.
 
 (./files/SectionIntro-Precipitation-reactions-and-acid-base-reactions)
 (./files/SubSection-Precipitation-reactions-and-acid-base-reactions-Solubility-
@@ -5237,7 +5236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 [11]) (./problems/SampleProblem12 (./problems/StudyCheck12))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 114.
+(hyperref)                removing `\color' on input line 116.
 
 (./files/SectionIntro-Redox-reactions) [12]
 (./files/SubSection-Redox-reactions-Oxidation-state-or-redox-number)
@@ -5492,16 +5491,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81520 strings out of 493014
- 1854247 string characters out of 6133351
- 2618027 words of memory out of 5000000
- 82800 multiletter control sequences out of 15000+600000
+ 81503 strings out of 493014
+ 1853610 string characters out of 6133351
+ 2618006 words of memory out of 5000000
+ 82786 multiletter control sequences out of 15000+600000
  269160 words of font info for 333 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,21n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5532,7 +5528,7 @@ texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 994473 bytes).
+Output written on main.pdf (20 pages, 994511 bytes).
 PDF statistics:
  497 PDF objects out of 1000 (max. 8388607)
  384 compressed objects within 4 object streams
