@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 18:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5114,9 +5114,6 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 33.
 
 
-LaTeX Warning: Marginpar on page 1 moved.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 39.
 
@@ -5290,7 +5287,12 @@ Overfull \hbox (6.77841pt too wide) detected at line 26
 
 (./problems/StudyCheck14) [15])
 (./files/SubSection-Redox-reactions-Balancing-redox-reactions-in-basic-medium
-[16])) (../Ch-electrolytes/Ch-electrolytesProblems.tex [17]
+[16]
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+)) (../Ch-electrolytes/Ch-electrolytesProblems.tex [17]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5528,7 +5530,7 @@ texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 994511 bytes).
+Output written on main.pdf (20 pages, 994612 bytes).
 PDF statistics:
  497 PDF objects out of 1000 (max. 8388607)
  384 compressed objects within 4 object streams
