@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 MAR 2021 14:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4774,7 +4774,11 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux
+
+LaTeX Warning: Label `Ch-solutions:equation16' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5318.
@@ -4796,7 +4800,7 @@ LaTeX Font Info:    ... okay on input line 5318.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5318.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5318
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5318.
@@ -4811,11 +4815,12 @@ Package hyperref Info: Link coloring ON on input line 5318.
 LaTeX Info: Redefining \ref on input line 5318.
 LaTeX Info: Redefining \pageref on input line 5318.
 LaTeX Info: Redefining \nameref on input line 5318.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5318.
 
 *geometry* driver: auto-detecting
@@ -5054,10 +5059,6 @@ Package microtype Info: Loading generic settings for font family
 
 (../Ch-solutions/Ch-solutions.tex
 Chapter 1.
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 9.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
@@ -5068,7 +5069,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-solutions/figure1.png, id=109, 913.4125pt x 1379.1525pt>
+<../Ch-solutions/figure1.png, id=133, 913.4125pt x 1379.1525pt>
 File: ../Ch-solutions/figure1.png Graphic file (type png)
 <use ../Ch-solutions/figure1.png>
 Package pdftex.def Info: ../Ch-solutions/figure1.png  used on input line 14.
@@ -5130,14 +5131,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 53.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 66.
-
 [1
 
 
@@ -5145,22 +5138,18 @@ e 66.
 olutions/figure1.png (PNG copy)>]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 81.
+(hyperref)                setting the option has no effect on input line 87.
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 2 undefined on input lin
-e 81.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 2 undefined on input lin
-e 96.
-
-[2]
+ [2]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7.6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 110.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 116.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 110.
- [3] (./problems/SampleProblem1
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 116.
+
+[3] (./problems/SampleProblem1
 Overfull \hbox (21.41713pt too wide) detected at line 14
 \OT1/lmr/m/n/10 %[] \OT1/zplm/m/n/10 = [] \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 
 100 \OT1/zplm/m/n/10 = [] \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 100 \OT1/zplm/m/
@@ -5179,13 +5168,14 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) [4]
-Overfull \hbox (19.95508pt too wide) in paragraph at lines 165--166
+))
+[4])
+Overfull \hbox (19.95508pt too wide) in paragraph at lines 171--172
 []
  []
 
-
-Overfull \hbox (20.21199pt too wide) in paragraph at lines 181--182
+[5]
+Overfull \hbox (20.21199pt too wide) in paragraph at lines 187--188
 []
  []
 
@@ -5194,54 +5184,38 @@ Overfull \hbox (3.73972pt too wide) detected at line 14
 \OML/lmm/m/it/10 ^^_ \OT1/zplm/m/n/10 = [] = [] = \OT1/lmr/m/n/10 0.03
  []
 
-(./problems/StudyCheck2) [5])
-Underfull \hbox (badness 3838) in paragraph at lines 201--202
+(./problems/StudyCheck2))
+Underfull \hbox (badness 3838) in paragraph at lines 207--208
 []\T1/ptm/m/n/10 (+20) In nu-mer-
  []
 
-(./problems/SampleProblem3 (./problems/StudyCheck3) [6]) [7]
+[6] (./problems/SampleProblem3 (./problems/StudyCheck3)) [7]
 (./problems/SampleProblem4
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-(./problems/StudyCheck4)) [8]
+(./problems/StudyCheck4) [8])
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 264.
+(hyperref)                setting the option has no effect on input line 270.
 
-
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 9 undefined on input lin
-e 264.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 9 undefined on input lin
-e 277.
-
-(./problems/SampleProblem5 (./problems/StudyCheck5)) [9] [10]
+(./problems/SampleProblem5 (./problems/StudyCheck5) [9]) [10]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 348.
+(hyperref)                setting the option has no effect on input line 354.
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 11 undefined on input li
-ne 348.
-
-
-Overfull \hbox (12.06372pt too wide) in paragraph at lines 345--362
+Overfull \hbox (14.31372pt too wide) in paragraph at lines 351--368
  [] 
  []
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 11 undefined on input li
-ne 363.
+Underfull \vbox (badness 1675) has occurred while \output is active []
 
-(./problems/SampleProblem6 (./problems/StudyCheck6) [11])
-
-LaTeX Warning: Reference `Ch-solutions:equation12' on page 12 undefined on inpu
-t line 387.
-
-(./problems/SampleProblem7 (./problems/StudyCheck7) [12]) [13]
+ [11]
+(./problems/SampleProblem6 (./problems/StudyCheck6)) [12]
+(./problems/SampleProblem7 (./problems/StudyCheck7)) [13] [14] [15]
 (./problems/SampleProblem8
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 39.
@@ -5260,22 +5234,18 @@ Overfull \hbox (17.31357pt too wide) in paragraph at lines 16--3
 []
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14])
-[15] (./problems/SampleProblem9 (./problems/StudyCheck9)) [16]
-
-LaTeX Warning: Reference `Ch-solutions:equation17' on page 17 undefined on inpu
-t line 450.
-
-(./problems/SampleProblem10 (./problems/StudyCheck10)) [17]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+) [16]) (./problems/SampleProblem9 (./problems/StudyCheck9) [17])
+(./problems/SampleProblem10 (./problems/StudyCheck10) [18])
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 []
  []
 
-(./problems/SampleProblem11 (./problems/StudyCheck11)))
-(../Ch-solutions/Ch-solutionsProblems.tex [18]
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+(./problems/SampleProblem11 (./problems/StudyCheck11) [19]))
+(../Ch-solutions/Ch-solutionsProblems.tex [20]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5314,18 +5284,13 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 19 undefined on input line 1
-2.
-
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 29.
-[19
+ [21
 
-] [20]
+] [22]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5358,7 +5323,8 @@ vailable
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
@@ -5370,7 +5336,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 461--471
 []$[]$ 
  []
 
-[21
+[23
 
 ])
 
@@ -5390,15 +5356,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5403.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5403.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5403.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: EA7268DE02CFAD745CCC84045927E813;1406.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EA7268DE02CFAD745CCC84045927E813;1406.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5407,21 +5367,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5403.
  ) 
 Here is how much of TeX's memory you used:
- 81010 strings out of 493014
- 1825604 string characters out of 6133351
- 2580630 words of memory out of 5000000
- 82466 multiletter control sequences out of 15000+600000
- 234042 words of font info for 298 fonts, out of 8000000 for 9000
+ 81072 strings out of 493014
+ 1826181 string characters out of 6133351
+ 2582514 words of memory out of 5000000
+ 82520 multiletter control sequences out of 15000+600000
+ 231239 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,21n,120p,10369b,3051s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,21n,120p,10369b,3053s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
 ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/t
@@ -5450,10 +5407,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (21 pages, 912694 bytes).
+Output written on main.pdf (23 pages, 919972 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 223 named destinations out of 1000 (max. 500000)
- 65410 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
+ 226 named destinations out of 1000 (max. 500000)
+ 64946 words of extra memory for PDF output out of 74296 (max. 10000000)
 
