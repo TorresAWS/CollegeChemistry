@@ -72,12 +72,63 @@ In solutions, the solute particles are dispersed evenly throughout the solvent g
 \item[\docfilehook{Suspensions}{}] Suspensions are heterogeneous mixtures. The particles of a suspension are so large that they can often be visually seen and they can be trapped using filters and membranes. Because of its weight, suspended particles tend to segregate and settle out on the bottom of suspensions. Examples of suspensions are antacid mixtures or liquid penicillin. 
 
 
-\item[\docfilehook{Colloids: not a solution}{}] 
-We have that solutions are homogeneous mixtures in the form of only one visible phase. If we add an ionic solute to a solvent, the solute particles would break down into ions and these ions would be solvated by the solvent molecules. As such,  the solute in solution exists in a different state than the solid solute. We also have that a heterogeneous mixture would result from mixing sand and water. The particles of sand will suspend on the liquid but eventually, they will deposit on the bottom of the container. Between homogeneous and heterogenous mixtures we have colloids.
 
-Colloids are special types of homogeneous mixtures. Colloids are suspensions of two components that are indeed immiscible in a non-homogeneous way. Think for example of milk, that is a colloid containing small particles of fat and protein suspended on a liquid. The particles of fat are called the dispersed phase and the liquid matrix is called the dispersing medium. The suspended particles of a colloid are larger than the particles of a normal homogeneous solution. Also, and perhaps more importantly, the particles of a colloid can be separated and for example, by adding a few drops of lemon to a glass of milk you will be able to separate both the fat and the liquid. In contract, solutions are made of inseparable components and the only way to separate the solvent and solute in a solution is by boiling it. Colloids are named depending on the nature of the dispersed and dispersant phases: aerosols (e.g. fog), foams (e.g. whipped cream), emulsions (e.g. mayonnaise), sols (e.g. milk of magnesia), and gels (e.g. jelly) are just a few examples of different types of colloids.
 
-How to differentiate a solution and colloid? The Tyndall effect exposes the differences between solutions and colloids. A focused beam of light can easily pass through a solution as the particles of the solute are smaller than the light wavelength. Differently, when a colloid is exposed to the same light it will be scattered by the dispersed phase of the colloid which has a larger size. Therefore, you will be able to see the bean passing through the colloid. An example of the Tyndall effect is the scattering of light from the car headlights on a foggy day.
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+%\caption{Classification of the matter}
+\hspace{-5cm}\vspace{-0.5cm}
+\begin{minipage}[b]{1.\linewidth}
+\begin{center}
+\resizebox{1.3\textwidth}{!}{
+\begin{tikzpicture}
+  [
+    start chain=p going below,
+    every on chain/.append style={etape},
+    every join/.append style={line},
+    node distance=1 and .85,
+  ]
+  {
+    \node (a) [on chain, join] {Mixtures};
+    {[start branch=l going below left] \node (b) [on chain] {Solutions};}
+    {[start branch=r going below right] \node (c) [on chain] {Suspension}; }
+      {[start branch=c going below ] \node (d) [on chain] {Colloids}; }
+
+
+\path [line] (a.south) -- ([yshift=-.5cm]a.south) --  ([yshift=.5cm]b.north) --  (b.north); 
+\path [line]  		  ([yshift=-.5cm]a.south) --  ([yshift=.5cm]c.north) --  (c.north); 
+\path [line]  		  ([yshift=-.5cm]a.south)  --  (d.north); 
+
+
+
+ \node (e) at ([yshift=-1.5cm]b.south) {\includegraphics[width=3cm]{../{\chapterlabel}/seawater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Seawater is a solution};
+
+ \node (e) at ([yshift=-1.5cm]c.south) {\includegraphics[width=3cm]{../{\chapterlabel}/muddywater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=4cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Muddy water is a suspension};
+  \node (f) at ([yshift=-1.6cm]d.south) {\includegraphics[width=3cm, height=2.9cm]{../{\chapterlabel}/milk}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.2cm, xshift=.4cm]f.south){Milk is a colloid};
+% 
+
+  }
+\end{tikzpicture}
+}
+\begin{tikzpicture}
+ \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Classification of the mixtures };
+\end{tikzpicture}
+\end{center}\end{minipage}
+
+
+\begin{marginfigure}[9cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect of a liquid };
+\end{tikzpicture}
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+%\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect};
+%\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect of a gas};
+\end{tikzpicture}
+\end{marginfigure}
+
+\item[\docfilehook{Colloids}{}] 
+We have that solutions are homogeneous mixtures in the form of only one visible phase. If we add an ionic solute to a solvent, the solute particles would break down into ions and these ions would be solvated by the solvent molecules. As such,  the solute in solution exists in a different state than the solid solute. We also have that a heterogeneous mixture would result from mixing sand and water. The particles of sand will suspend on the liquid but eventually, they will deposit on the bottom of the container. Between homogeneous and heterogenous mixtures we have colloids. Colloids are special types of homogeneous mixtures. Colloids are suspensions of two components that are indeed immiscible in a non-homogeneous way. Think for example of milk, that is a colloid containing small particles of fat and protein suspended on a liquid. The particles of fat are called the dispersed phase and the liquid matrix is called the dispersing medium. The suspended particles of a colloid are larger than the particles of a normal homogeneous solution. Also, and perhaps more importantly, the particles of a colloid can be separated and for example, by adding a few drops of lemon to a glass of milk you will be able to separate both the fat and the liquid. In contract, solutions are made of inseparable components and the only way to separate the solvent and solute in a solution is by boiling it. Colloids are named depending on the nature of the dispersed and dispersant phases: aerosols (e.g. fog), foams (e.g. whipped cream), emulsions (e.g. mayonnaise), sols (e.g. milk of magnesia), and gels (e.g. jelly) are just a few examples of different types of colloids. How to differentiate a solution and colloid? The Tyndall effect exposes the differences between solutions and colloids. A focused beam of light can easily pass through a solution as the particles of the solute are smaller than the light wavelength. Differently, when a colloid is exposed to the same light it will be scattered by the dispersed phase of the colloid which has a larger size. Therefore, you will be able to see the bean passing through the colloid. An example of the Tyndall effect is the scattering of light from the car headlights on a foggy day.
  \begin{center}
 \refstepcounter{table}  \label{tab:{\chapterlabel}2}
 \fontfamily{ppl}\selectfont
@@ -101,6 +152,38 @@ Solid	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid sol} &\multicolumn{1}
 \end{tabular}\end{center} 
 Table \ref{tab:{\chapterlabel}2} reports all different types of colloids one can encounter with examples for each of them.
 \end{description}
+
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1.5\linewidth}
+\resizebox{.9\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/clouds}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\baselineskip=8pt \mytriangle{red}{\small Clouds are an aerosol}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=5cm, height=6cm]{../{\chapterlabel}/smoke}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small Smoke is an aerosol}};
+
+ \node (c) at (12cm,0) {\includegraphics[width=4cm, height=4.3cm]{../{\chapterlabel}/whippedcream}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small whipped cream is a foam. Cream needs to be whipped to let the air in}};
+\end{tikzpicture}
+}
+\resizebox{.9\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/ketchup}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}{\small Ketchup is an emulsion}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/mayo}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small mayonnaise is an emulsion}};
+
+ \node (c) at (12cm,.5cm) {\includegraphics[width=4.5cm, height=4.7cm]{../{\chapterlabel}/styrofoam}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small Styrofoam is a foam}};
+\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Different colloids };
+
+\end{tikzpicture}
+}
+ \end{minipage}
+
+
+
 
 
 \section{Units of concentration}
@@ -183,6 +266,19 @@ where:
   \item $MW$   is the molecular weight of the solute 
 \end{where}
 
+\begin{center} \begin{fullwidth}\begin{minipage}[b]{1.1\linewidth}\resizebox{0.99\textwidth}{!}{\begin{tikzpicture}
+\node [block] (box1) at (0,0) [rectangle, text width=3cm,node distance=1.5cm, align=left, draw=white,fill=red!20!white, minimum width=2.5cm, minimum height=1.5cm,auto,>=latex'] { $m=\frac{\text{moles of solute}}{\text{Kg of solvent}}$};
+\node [block] (box2) at (6,0) [rectangle, text width=3cm, align=left, draw=white,fill=yellow!20!white, minimum width=2.5cm, minimum height=1.5cm] { $M=\frac{\text{moles of solute}}{\text{liters of solution}}$};
+\node [block] (box3) at (12,-3) [rectangle, text width=4cm,align=left, draw=white,fill=blue!20!white, minimum width=2.5cm, minimum height=1.5cm] { $\%_m=\frac{\text{mass of solute}}{\text{mass of solution}}\times 100$};
+\node [block] (box4) at (20,-3) [rectangle, text width=3cm,align=left, draw=white,fill=green!20!white, minimum width=2.5cm, minimum height=1.5cm] { $\chi=\frac{\text{moles of solute}}{\text{moles of solution}}$};
+ \draw[thick,->, shift={(0,0em)}] ([shift={(0,1em)}]box1.east)  -- ([shift={(0,1em)}]box2.west) node[above,pos=0.5] {$ \text{M}=\frac{ 1000\cdot m\cdot d   }{1000+MW\cdot m   	} $} ;
+  \draw[thick,->] ([shift={(0,-1em)}]box2.west)  -- ([shift={(0,-1em)}]box1.east) node[below,pos=0.5] {$\text{m}=\frac{1000\cdot \text{M}}{1000\cdot d - \text{M}\cdot MW}$} ;
+ \draw[thick,<->, shift={(0,0em)}] ([shift={(0,1em)}]box2.east) --  ([shift={(1,1em)}]box2.east) --  ([shift={(1,-7.5em)}]box2.east) --   ([shift={(0,1em)}]box3.west) node[above,pos=0.7, shift={(.2,3em)}] {$ \%_m=\frac{\text{M}\cdot MW }{10\cdot \text{d} } $} ;
+%  \draw[thick,->] ([shift={(0,-1em)}]box3.west)  -- ([shift={(0,-1em)}]box2.east) node[below,pos=0.5] {$ \text{M}=\frac{\%_m \cdot \text{d}\cdot 10}{MW}$} ;
+\draw[thick,->, shift={(0,0em)}] ([shift={(0,1em)}]box3.east)  -- ([shift={(0,1em)}]box4.west) node[above,pos=0.5] {$ \chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} } $} ;
+  \draw[thick,->] ([shift={(0,-1em)}]box4.west)  -- ([shift={(0,-1em)}]box3.east) node[below,pos=0.5] {$  \%_{m}=\frac{ 100\cdot MW\cdot \chi  }{ 18+(MW-18)\chi }$} ;
+\end{tikzpicture}   }\end{minipage}\end{fullwidth}\end{center}
+
 \item[\docfilehook{Relating percent by mass and mole fraction of solute, $\chi \longleftrightarrow\%_{m}$}{}] 
 We can use the following formula in order to relate Molarity and percent by mass of solute
 \begin{equation}
@@ -200,7 +296,16 @@ where:
 \end{where}
 Mind that this formula only works for water as solvent. If using a different solvent you just need to update the $18$ value and use the molar weight of the new solvent instead.
 
+
+
 \import{problems/}{SampleProblem2}
+
+
+
+
+
+
+ 
 
 
 \item[\docfilehook{Compute molecular masses from molality and molarity}{}] 
@@ -298,6 +403,47 @@ Percent dissociation is zero for nonelectrolytes as no ions are produced and hen
 \section{Colligative properties}
 Colligative properties of solutions are properties that depend on the concentration of solute but not on the nature of this solute. In the following, we will elaborate more on the idea of colligative properties. Indeed, there are four colligative properties of the solutions: the freezing point decrease, the boiling point increase, the osmotic pressure, and the vapor pressure. Mind that these are all properties of solutions and not of pure substances.
 
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+\begin{tikzpicture}
+\pgfmathsetmacro{\TPX}{1.5}
+\pgfmathsetmacro{\TPY}{5}
+\pgfmathsetmacro{\CPX}{2.5}
+\pgfmathsetmacro{\CPY}{50}
+\pgfmathsetmacro{\TOPX}{1}
+\pgfmathsetmacro{\TOPY}{100}
+\pgfmathsetmacro{\XMIN}{0}
+\pgfmathsetmacro{\XMAX}{3}
+\pgfmathsetmacro{\YMIN}{1}
+\pgfmathsetmacro{\YMAX}{100}
+\begin{semilogyaxis}[xmin=\XMIN,ymin=\YMIN,xmax=\XMAX,ymax=\YMAX,axis on top, xticklabels={}, yticklabels={}, xlabel={Temperature},ylabel={Pressure }, ticks=none]
+\draw [blue, fill=blue]  (\TPX,\TPY) to (\TOPX,\TOPY)  to (\CPX,\TOPY) to (\CPX,\CPY) to [bend left] (\TPX,\TPY);
+\addplot[name path=liq,very thick] coordinates {(\TPX,\TPY) (\TOPX,\TOPY) (\CPX,\TOPY)};
+\addplot[name path=help2] coordinates {(\XMIN,\YMIN) (\XMAX,\YMIN) (\XMAX,\CPY)};
+\begin{scope}[rotate=00, shift={(-0em,-0em)}]
+\draw[name path=gas,very thick ](\XMIN,1) to [bend right] (\TPX,\TPY) to [bend right] (\CPX,\CPY);
+\draw[name path=gas3 ] (\TPX,\TPY) to [bend right] (\CPX,\CPY);
+\draw[name path=liq2 ](\XMIN,1) to [bend right] (\TPX,\TPY) node [below, xshift=2cm, white] {(g)}  node [below, yshift=2cm, xshift=-2cm, white] {(s)} node [yshift=2cm, xshift=2cm, white] {(l)};
+\addplot[name path=help11] coordinates {(\TPX,\TPY) (\TOPX,\YMAX) (\XMIN,\YMAX) (\XMIN,\YMIN)};
+\addplot[green] fill between[of=liq2 and help11];
+\addplot[red] fill between[of=gas and help2];
+ \shade[shading=azimuth,vcol=blue,hcol=red] (axis cs:\CPX,\CPY) rectangle (axis cs:\XMAX,\YMAX);
+\end{scope}
+\begin{scope}[rotate=00, shift={(-0em,-0em)}]
+\draw[white, very thick ](-0.1,1.1) to [bend right] (1.4,3.5) to [bend right] (2.5,25);
+ \draw[white, very thick ] (1.4,3.5) to   (0.85,100);
+ \end{scope}
+\begin{scope}[rotate=00, shift={(12em,5em)}] \draw[->,white , very thick ]  (0.15,-2.0) to (-0.0,-2.0)  node [ fontscale=0.1, midway,shift={(2.5em,3.4em)}] {$\Delta T_f$} ;\end{scope}
+\begin{scope}[rotate=00, shift={(22em,5em)}] \draw[->,white , very thick ]  (-0.0,-2.0) to  (0.15,-2.0)  node [ fontscale=0.1, midway,shift={(-0.8em,3.2em)}] {$\Delta T_b$} ;\end{scope}
+\begin{scope}[rotate=00, shift={(17em,9em)}] \draw[->,white , very thick, rotate=-180 ]  (0.0,0) to  (0.0,4)  node [ fontscale=0.1, midway,shift={(0.5em,3.0em)}, rotate=180] {$\Delta P_{vap}$} ;\end{scope}
+
+\end{semilogyaxis}
+\node[text width=12cm, fontscale=.3, shift={(15em,-2em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Effect of the solute concentration on the phase diagram of water };
+
+\end{tikzpicture}\end{center}
+
+
+
 \sloppy 
 \begin{description}
 \item[\docfilehook{Boiling point elevation}{}] 
@@ -321,6 +467,30 @@ where:
 \end{where}
 Mind that $i\cdot m$ represents the effective solute-particles concentration in the solution. For the case of NaCl $i$ is 2 as every NaCl unit dissociates producing 2 ions or two solute-particles. The value of $k_b$ depends on the solvent and in general boiling point increases tend to be modest. For example, a water-based solution containing NaCl boils at a higher temperature than pure water which boils at 100$^{\circ}C$. A 1m NaCl solution boils at 101.04$^{\circ}C$ that is one degree higher than pure water.
 The boiling point elevation formula establishes a linear relationship between the boiling point of a solution and molality in which the slope of the relationship is positive and gives the value of $k_b$, the $x$ variable is $m$ and the $y$ variable is $T_b^{\text{solution}}$. In another words, by plotting $T_b^{\text{solution}}$ vs. $m$ we should obtain a straight line with a slope that equals to $k_b$ and an intercept equals to $T_b^{\text{solvent}}$.
+
+
+   \begin{marginfigure}[-0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/Saltingstreets}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Streets are salted to reduce the freezing point of ice };
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/ethyleneglycol}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}A solution of ethyleneglycol is used as antifreezer in cars};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/perfumesalts}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Any salt would reduce the intensity of a perfume};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/saltfish}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Salting fish kills bacteria by removing water inside its cells };
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/pastasalt}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Adding salt to boiling water increases the boiling point of water };
+\end{tikzpicture}
+\end{marginfigure}
+
+
+
+
+
 \item[\docfilehook{Freezing point depression}{}] 
 A pure solvent freezes at a specific temperature and for example water freezes at 0$^{\circ}$C. Solutions freeze at a lower temperature than the pure solvent. We call this effect the freezing point depression. This decrease on the freezing point depends only on the molality of the solution and not on the solute. The freezing point depression--or decrease--is given by the formula:
 \begin{equation}
@@ -398,11 +568,96 @@ Raoult's Law establishes a linear relationship between the vapor-pressure of a s
 
 
 
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{tikzpicture}
+ \begin{scope}[rotate=00, shift={(0em,0em)}] 
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) node [ rotate=00, fontscale=0.1, pos=0.1, shift={(5.0em,12.0em)}] {Favorable solute-solvent interaction} ;
+\draw[ black , very thick ]  (0.0,0.0) to (0.0em,10.0em)  node [ rotate=90, fontscale=0.1, pos=0.1, shift={(4.5em,1.4em)}] {Vapor pressure}  ;
+\draw[->,black , very thick, shift={(-10.0em,-2.0em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.9,shift={(15em,0.0em)}] {$\chi_B$}   ;
+ \draw[<-,black , very thick, shift={(-3.0em,-3em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.1,shift={(9em,0.0em)}] {$\chi_A$}   ;
+ \draw[ dashed,red , very thick ]  (0.0,0.0) to (10.0em,5.0em)      ; \draw[ dashed,red , very thick ]  (0.0,7.0em) to (10.0em,0.0)  ; \draw  (0,7em) to [very thick, red,bend right] (10em,5em) node [ rotate=00, fontscale=0.1, pos=0.0, shift={(2em,7em)}] {$P_{vap, A}^{\text{pure}}$} node [ rotate=00, fontscale=0.1, pos=1.0, shift={(12em,6em)}] {$P_{vap, B}^{\text{pure}}$} ;
+\end{scope}
+ \begin{scope}[rotate=00, shift={(20em,0em)}] 
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) node [ rotate=00, fontscale=0.1, pos=0.1, shift={(5.0em,12.0em)}] {Unfavorable solute-solvent interaction} ;
+\draw[ black , very thick ]  (0.0,0.0) to (0.0em,10.0em)  node [ rotate=90, fontscale=0.1, pos=0.1, shift={(4.5em,1.4em)}] {Vapor pressure}  ;
+\draw[->,black , very thick, shift={(-10.0em,-2.0em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.9,shift={(15em,0.0em)}] {$\chi_B$}   ;
+ \draw[<-,black , very thick, shift={(-3.0em,-3em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.1,shift={(9em,0.0em)}] {$\chi_A$}   ;
+ \draw[ dashed,red , very thick ]  (0.0,0.0) to (10.0em,5.0em)      ; \draw[ dashed,red , very thick ]  (0.0,7.0em) to (10.0em,0.0)  ; \draw  (0,7em) to [very thick, red,bend left] (10em,5em) node [ rotate=00, fontscale=0.1, pos=0.0, shift={(2em,7em)}] {$P_{vap, A}^{\text{pure}}$} node [ rotate=00, fontscale=0.1, pos=1.0, shift={(12em,6em)}] {$P_{vap, B}^{\text{pure}}$};
+\end{scope}
+ \begin{scope}[rotate=00, shift={(40em,0em)}] 
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) node [ rotate=00, fontscale=0.1, pos=0.1, shift={(5.0em,12.0em)}] {Ideal mixture} ;
+\draw[ black , very thick ]  (0.0,0.0) to (0.0em,10.0em)  node [ rotate=90, fontscale=0.1, pos=0.1, shift={(4.5em,1.4em)}] {Vapor pressure}  ;
+\draw[->,black , very thick, shift={(-10.0em,-2.0em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.9,shift={(15em,0.0em)}] {$\chi_B$}   ;
+ \draw[<-,black , very thick, shift={(-3.0em,-3em)} ]  (5.0,0.0) to (10.0em,0.0)  node [ fontscale=0.1, pos=0.1,shift={(9em,0.0em)}] {$\chi_A$}   ;
+ \draw[ dashed,red , very thick ]  (0.0,0.0) to (10.0em,5.0em)      ; \draw[ dashed,red , very thick ]  (0.0,7.0em) to (10.0em,0.0)  ; \draw  (0,7em) to [very thick, red ] (10em,5em) node [ rotate=00, fontscale=0.1, pos=0.0, shift={(2em,7em)}] {$P_{vap, A}^{\text{pure}}$} node [ rotate=00, fontscale=0.1, pos=1.0, shift={(12em,6em)}] {$P_{vap, B}^{\text{pure}}$};
+\end{scope}
+ \node[text width=12cm, fontscale=.3, shift={(15em,-4em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Different patters for the vapor pressure of mixtures of two liquids };
+\end{tikzpicture} 
+}\end{minipage}
+\end{fullwidth}
+\item[\docfilehook{Ideal and real liquid mixtures}{}] 
+We have considered the impact of a solute on the vapor pressure of a liquid assuming that the solute with null vapor pressure. How about mixing two liquids? In this case, both liquids with different vapor pressure will contribute to the overall vapor pressure of the mixture by means of an expression equivalent to Raoul's law:
+\begin{equation}
+\boxed{ P_{vap}^{\text{solution}}=\chi_A\cdot P_{vap, A}  +\chi_B\cdot P_{vap, B}	}
+\label{\chapterlabel:equation20}
+\end{equation}
+where:
+\begin{where}
+ \item $P_{vap}^{\text{solution}}$  is the vapor pressure of the mixture
+ \item $P_{vap, A}$, $P_{vap, B}$  is the vapor pressure of the pure solvent A and B
+  \item $\chi_A$,  $\chi_B$  is the mole fraction of A and B
+\end{where}
+Ideal mixtures will follow Equation \ref{\chapterlabel:equation20}. In other words, when the vapor pressure of the mixtures results from adding the vapor pressure of both liquids the mixture will be ideal. For some mixtures, the overall vapor pressure is lower or higher than the pressure resulting from adding the vapor pressure of both liquids. These mixtures are real. We can encounter positive or negative deviations from the ideal behavior. When the interaction between the two liquids is exothermic and hence favorable, the resulting vapor pressure of the mixture will be lower than the resulting combined vapor pressure and the mixture will experience negative deviations from ideality. When the interaction between the two liquids is endothermic and hence energetically unfavorable, the resulting vapor pressure of the mixture will be higher than the resulting combined vapor pressure and the mixture will experience positive deviations from ideality.
 
 \item[\docfilehook{Osmosis}{}] 
 The solute concentration impacts the movement of water in and out of the animal and vegetal cells. This important process is called osmosis. Osmosis occurs when two solutions of different concentrations--a more concentrated and a more diluted solution--are connected by means of a semipermeable membrane that only allows the movement of small water molecules. Osmosis refers to the flow of water through a semipermeable membrane, from the most diluted to the most concentrated solution. The flow follows a gradient of osmotic pressure from the most diluted solution with lower osmotic pressure to the most concentrated with a larger osmotic pressure. Water molecules flow in order to reduce the concentration of the most concentrated solution and hence to minimize the difference in concentration across the semipermeable membrane. Due to the flow of liquid, the liquid level of the most concentrated side rises up and the level of the most diluted side decreases.
 In a process called reverse osmosis, external pressure is applied to the most concentrated solution in order to force the reverse flow of water against the concentration gradient. This principle is applied in desalination plants in order to obtain pure water from salty water. Still, the pressure applied is so much that this process is not economically feasible in most parts of the world.
 
+
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+     \begin{minipage}[b]{1.3\linewidth}\resizebox{1.0\textwidth}{!}{
+
+
+\begin{tikzpicture}
+
+\pgfmathsetmacro{\LEFTLEVEL}{3.5}
+\pgfmathsetmacro{\RIGHTLEVEL}{3.5}
+\begin{scope}[rotate=00, shift={(-0em,-0em)}]
+    \draw (0,6)--(0,0)--(4,0)--(6,0)--(7,0);
+     \draw (7,0)--(7,6) ;  \draw (6,6) -- (6,5) --(1,5)--(1,6);
+     \begin{pgfonlayer}{background}
+        \filldraw[blue!20] (0,\LEFTLEVEL)--(3.4,\LEFTLEVEL)--(3.4,0)-- (-0,0)--  cycle ;
+                \filldraw[blue!80] (3.7,\RIGHTLEVEL)--(7.0,\RIGHTLEVEL)--(7.0,0)-- (3.7,0)--  cycle ;
+    \end{pgfonlayer}
+     \filldraw[white,pattern=north west lines, pattern color=blue](3.4,-0)--(3.4,5)--(3.7,5)--(3.7,-0)--cycle node [ black,fontscale=0.05, midway,shift={(0.0em,-1.0em)}, rotate=0]{semipermeable   membrane};
+     \draw[->] (3,3.5)--(4,3.5)node[anchor=south]{Solvent};
+    \node at (1,1){Solution A};
+    \node at (6,1){Solution B};
+    \end{scope}
+    \pgfmathsetmacro{\LEFTLEVEL}{2.5}
+\pgfmathsetmacro{\RIGHTLEVEL}{4.5}
+\begin{scope}[rotate=00, shift={(30em,-0em)}]
+    \draw (0,6)--(0,0)--(4,0)--(6,0)--(7,0);
+     \draw (7,0)--(7,6) ;  \draw (6,6) -- (6,5) --(1,5)--(1,6);
+     \begin{pgfonlayer}{background}
+        \filldraw[blue!20] (0,\LEFTLEVEL)--(3.4,\LEFTLEVEL)--(3.4,0)-- (-0,0)--  cycle ;
+                \filldraw[blue!80] (3.7,\RIGHTLEVEL)--(7.0,\RIGHTLEVEL)--(7.0,0)-- (3.7,0)--  cycle ;
+    \end{pgfonlayer}
+     \filldraw[white,pattern=north west lines, pattern color=blue](3.4,-0)--(3.4,5)--(3.7,5)--(3.7,-0)--cycle node [ black,fontscale=0.05, midway,shift={(-15.0em,-1.0em)}, rotate=0]{semipermeable   membrane};
+    \node at (1,1){Solution A};
+    \node at (6,1){Solution B};
+    \end{scope}
+     \node[single arrow, rounded corners=3pt, fill=red!30, draw, align=center,shift={(25.0em,7.0em)}, minimum height=2cm, minimum width=1cm]{osmotic\\ pressure };
+
+\node[text width=12cm, fontscale=.3, shift={(15em,-2em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Osmotic pressure };
+
+\end{tikzpicture}}\end{minipage}\end{center}
+
+
+ 
 \item[\docfilehook{Isotonic, hypotonic and hypertonic solutions}{}] 
 The cells in biological systems contain semipermeable membranes. Isotonic solutions--the prefix iso means the same--exert the same osmotic pressure as biological fluids such as blood. In hospitals, most intravenous solutions are made of isotonic solutions. Examples of isotonic solutions are a 5\% NaCl solution or a 0.9\% glucose (\ce{C_6H_{12}O_6}) solution. Both have the same osmolarity of 0.3 Osm. If we place a red blood cell in an isotonic solution it will not experience any changes in its shape as the osmotic pressure inside and outside would be the same. 
 Hypotonic solutions--the prefix hypo means lower than--have a lower osmolarity than biological fluids. As such, if we place a red blood cell in a hypotonic solution it will swell and burst as water from the outside will flow inside the cell to compensate for the higher osmotic pressure. This phenomenon is called hemolysis. Differently, hypertonic solutions--the prefix hyper means higher than--have a higher osmolarity than biological solutions. A red blood cell placed in such a solution will shrink as water will flow out of the cell into the solution in order to compensate for the higher osmotic pressure outside the cell. This phenomenon is called crenation.
@@ -429,6 +684,19 @@ We could set up and experiment in which we separate two solutions of different c
 This effect results from the travel of water molecules from the less to the more concentrated solution equilibrating the osmotic pressure at the semipermeable membrane. 
 Solute diffusion normally occurs against the concentration gradient. Solute diffuses from more to the less concentrated solution. The more concentrated solution is referred to as the hypertonic solution, whereas the less concentrated solution is referred to as the hypotonic solution.
 Differently, solvent diffusion occurs following the concentration gradient (Low M $\rightarrow$ High M). Osmosis is responsible for many every-day life phenomena such as salting as a method to preserve food: by adding salt one can kill bacteria and preserve fish by extracting the water from their inside.  
+
+   \begin{marginfigure}[-0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/redcell1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Normal red cells };
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/redcell2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Shriveled red cell};
+\end{tikzpicture}
+ \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/dialysis}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Dialysis is based on the principles of osmosis};
+\end{tikzpicture}
+\end{marginfigure}
+
 
 \item[\docfilehook{Osmolarity}{}] 
 The molarity of a solution is directly related to the number of moles of solute molecules in the solution. However, the osmotic pressure of a solution depends on the number of moles of ions and not the number of moles of solute molecules. The osmolarity (Osm) is defined as the number of osmoles per liters of solution, being the number of osmoles the number of moles times the number of particles on solution $i$:
@@ -490,7 +758,10 @@ Colligative properties measurements are also useful in order to calculate molar 
 In this section, we will address the impact of temperature on the solubility of solids and gases on liquids and the impact of pressure on the solubility of gases on liquids.
 \sloppy 
 \begin{description}
-\item[\docfilehook{Impact of temperature on the solubility }{}] The solubility of a solute on a solvent is the maximum amount of solute that one can dissolve in a solvent at a given temperature. The temperature has a strong impact on solubility. However, the nature of the impact depends on the nature and state of matter of the solute.
+\item[\docfilehook{Impact of the molecular structure on solubility }{}] 
+The solubility of a solute into a solvent is intimately related to how the molecules of both compounds interact with each other. Polar solutes will tend to dissolve in polar solvents whereas nonpolar solutes will be more soluble in nonpolar solvents. Still, polarity only does not explain why a polar solute is more soluble in some polar solvents than others, and ultimately is the interaction between molecules and the energy associated with this interaction that determines solubility.
+
+\item[\docfilehook{Impact of temperature on solubility }{}] The solubility of a solute on a solvent is the maximum amount of solute that one can dissolve in a solvent at a given temperature. The temperature has a strong impact on solubility. However, the nature of the impact depends on the nature and state of matter of the solute.
 Normally, the solubility of solids increases with temperature. That means the higher temperature the more solute one can dissolve. However, this trend is not true for all solid solutes. Solid solutes like \ce{Ce2(SO4)3} or \ce{Li2SO4} follow the opposite trend the higher temperature the lower solubility. 
 The solubility of gas solutes normally decreases with temperature, that is, the higher temperature the less amount of gas will be dissolved in a liquid. If you warm up a can of soda it goes flat as the gas comes out of the liquid--we call this desorption. 
 \item[\docfilehook{Impact of pressure on the solubility of gases on liquids}{}] Pressure does not impact the solubility of solids or liquids in a liquid solvent. However, gas pressure impacts the solubility of a gas solute on a liquid. In particular, the higher pressure the higher solubility. The law that related gas solubility with pressure is called Henry's law:
