@@ -30,9 +30,10 @@
  \node (d) at ([yshift=-1.5cm]c1.south) {\includegraphics[width=3cm]{../{\chapterlabel}/figure1-14}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]d.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]d.south){A bowl of fruit loops is an heterogeneous mixture};
 
  \node (e) at ([yshift=-1.5cm]c2.south) {\includegraphics[width=3cm]{../{\chapterlabel}/figure1-12}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Brass is a homogeneous mixture of two metals};
-  \node (f) at ([yshift=-1.5cm]b1.south) {\includegraphics[width=3cm, height=3cm]{../{\chapterlabel}/figure1-11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]f.south){Gold is an element};
+
+  \node (f) at ([yshift=-1.5cm]b2.south) {\includegraphics[width=3cm, height=3cm]{../{\chapterlabel}/figure1-11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]f.south){Gold is an element};
  
-  \node (g) at ([yshift=-1.5cm]b2.south) {\includegraphics[width=3cm, height=2.5cm]{../{\chapterlabel}/figure1-13}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]g.south east) {\textsuperscript{\textcopyright} Pxlfuel} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]g.south){Water is a compounds made of hydrogen and oxygen};
+  \node (g) at ([yshift=-1.5cm]b1.south) {\includegraphics[width=3cm, height=2.5cm]{../{\chapterlabel}/figure1-13}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]g.south east) {\textsuperscript{\textcopyright} Pxlfuel} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]g.south){Water is a compound made of hydrogen and oxygen};
 
   }
 \end{tikzpicture}
