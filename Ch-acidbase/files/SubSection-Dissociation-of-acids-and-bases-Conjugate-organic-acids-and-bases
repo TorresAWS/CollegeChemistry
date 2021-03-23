@@ -16,11 +16,11 @@ Amines are basic and they will react with water to produce a conjugate acid. Bas
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
 \chemfig{H_2O}&
 $+$&
- \chemfig{CH_3-NH2 } &
+ \chemfig{CH_3-NH_2 } &
 \schemestart\arrow{-U>}[,1.]\schemestop&
 \chemfig{HO^{-}}&
 $+$&
- \chemfig{CH_3-NH3^{+} } 
+ \chemfig{CH_3-NH_3^{+} } 
 \tabularnewline\addlinespace
  \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
 \end{tabular*}\end{center}
