@@ -19,6 +19,20 @@
 
 \ReturnTo{qex.8}{\mbox{$\square $}}\endeqEXt\par{{}}%
 
+\ReturnTo{qex.9}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.10}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.11}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.12}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.13}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.14}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.15}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
 \eqgrii\end{eqequestions}
 
 \btwnExamSkip
