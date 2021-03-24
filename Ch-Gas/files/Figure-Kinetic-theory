@@ -1,4 +1,6 @@
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.7\linewidth}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}
+\begin{fullwidth}
+\begin{minipage}[b]{1.7\linewidth}
 
 \begin{tikzpicture}[thick,scale=0.8, every node/.style={transform shape}]
 \begin{scope}[xshift = -8cm]
@@ -84,3 +86,4 @@
 \end{tikzpicture}
 \end{minipage}
 
+\end{fullwidth}
