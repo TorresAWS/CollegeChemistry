@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2021 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 APR 2021 18:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -519,6 +519,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./main.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -4770,7 +4772,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5306.
@@ -4792,7 +4794,7 @@ LaTeX Font Info:    ... okay on input line 5306.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5306.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5306
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5306.
@@ -4807,11 +4809,12 @@ Package hyperref Info: Link coloring ON on input line 5306.
 LaTeX Info: Redefining \ref on input line 5306.
 LaTeX Info: Redefining \pageref on input line 5306.
 LaTeX Info: Redefining \nameref on input line 5306.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5306.
 
 *geometry* driver: auto-detecting
@@ -5050,7 +5053,7 @@ Package microtype Info: Loading generic settings for font family
 
 (../Ch-solubility/Ch-solubility.tex
 Chapter 1.
-<../Ch-solubility/figure0.png, id=109, 259.97125pt x 194.7275pt>
+<../Ch-solubility/figure0.png, id=125, 259.97125pt x 194.7275pt>
 File: ../Ch-solubility/figure0.png Graphic file (type png)
 <use ../Ch-solubility/figure0.png>
 Package pdftex.def Info: ../Ch-solubility/figure0.png  used on input line 18.
@@ -5118,10 +5121,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
-
-LaTeX Warning: Reference `tab:{soluble}1' on page 1 undefined on input line 71.
-
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 71.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5157,11 +5156,6 @@ Overfull \vbox (3.46469pt too high) has occurred while \output is active []
 
 
 [2]
-
-LaTeX Warning: Reference `tab:{soluble}1' on page 3 undefined on input line 182
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
@@ -5204,17 +5198,9 @@ Underfull \hbox (badness 1622) in paragraph at lines 266--267
  []
 
 
-LaTeX Warning: Reference `soluble:equation2' on page 6 undefined on input line 
-281.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 284--287
 
  []
-
-
-LaTeX Warning: Reference `soluble:equation2' on page 6 undefined on input line 
-290.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--291
@@ -5300,15 +5286,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5391.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5391.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5391.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 86FC82CEB04948C138858D54D3B63AC4;1124.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  86FC82CEB04948C138858D54D3B63AC4;1124.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5316,20 +5296,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
  ) 
 Here is how much of TeX's memory you used:
- 80354 strings out of 493014
- 1811952 string characters out of 6133351
- 2645955 words of memory out of 5000000
- 82061 multiletter control sequences out of 15000+600000
- 241010 words of font info for 339 fonts, out of 8000000 for 9000
+ 80362 strings out of 493014
+ 1812021 string characters out of 6133351
+ 2646263 words of memory out of 5000000
+ 82064 multiletter control sequences out of 15000+600000
+ 235404 words of font info for 335 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,21n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat
@@ -5365,10 +5339,10 @@ er/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 433853 bytes).
+Output written on main.pdf (13 pages, 431683 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+ 340 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
  36 named destinations out of 1000 (max. 500000)
- 75138 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 74146 words of extra memory for PDF output out of 74296 (max. 10000000)
 
