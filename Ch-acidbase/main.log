@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 APR 2021 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 APR 2021 12:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5642,28 +5642,26 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (./files/SectionIntro-Indicators)
 (./files/Subsection-Indicators-How-do-they-function [30])
-(./files/Table-Indicators
+(./files/Subsection-Indicators-Selecting-and-indicator)
+(./files/Subsection-Indicators-Litmus) (./files/Table-Indicators [31]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 48.
+(hyperref)                setting the option has no effect on input line 49.
 
 
-Overfull \hbox (137.46167pt too wide) in paragraph at lines 2--49
+Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--50
 [][] 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-(./files/Subsection-Indicators-Selecting-and-indicator)
-(./problems/SampleProblem21 (./problems/StudyCheck21) [32])
-(./files/Subsection-Indicators-Litmus)
+) (./problems/SampleProblem21 (./problems/StudyCheck21))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 168.
+(hyperref)                removing `\color' on input line 169.
 
-(./files/SectionIntro-Titrations-of-polyprotic-acids)
+(./files/SectionIntro-Titrations-of-polyprotic-acids
+Underfull \vbox (badness 5203) has occurred while \output is active []
+
+ [32])
 (./files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-curved-of-poly
 protic-acids)
 (./files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-point-of-poly
@@ -5755,11 +5753,11 @@ Underfull \hbox (badness 10000) in alignment at lines 93--93
 (./problems/Problems-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases)
 (./problems/Problems-Buffer-solutions-Buffers)
 (./problems/Problems-Buffer-solutions-PH-of-Buffer-solution-mixed-with-acids-or
--bases) (./problems/Problems-Buffer-solutions-PH-of-a-Buffer-solution [35])
+-bases [35]) (./problems/Problems-Buffer-solutions-PH-of-a-Buffer-solution)
 (./problems/Problems-Titrations-Endpoint-formula)
-(./problems/Problems-Titrations-Titration-PH-formulas)
+(./problems/Problems-Titrations-Titration-PH-formulas [36])
 (./problems/Problems-Strength-of-acids-and-its-structure)
-(./problems/Problems-Indicators [36]) [37]
+(./problems/Problems-Indicators) [37]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5844,10 +5842,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 82963 strings out of 493014
- 1878934 string characters out of 6133351
- 2645740 words of memory out of 5000000
- 83874 multiletter control sequences out of 15000+600000
+ 83024 strings out of 493014
+ 1879633 string characters out of 6133351
+ 2646329 words of memory out of 5000000
+ 83886 multiletter control sequences out of 15000+600000
  292735 words of font info for 367 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,33n,118p,10369b,3209s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5885,10 +5883,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (38 pages, 20030498 bytes).
+Output written on main.pdf (38 pages, 20035031 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 778 compressed objects within 8 object streams
- 369 named destinations out of 1000 (max. 500000)
+ 1017 PDF objects out of 1200 (max. 8388607)
+ 836 compressed objects within 9 object streams
+ 418 named destinations out of 1000 (max. 500000)
  80542 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -1,5 +1,6 @@
+\begin{fullwidth}
 
- \begin{minipage}[b]{1.4\linewidth}\resizebox{1.0\textwidth}{!}{
+ \begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
 
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
@@ -46,4 +47,5 @@ Trinitrobenzoic acid&	12.0-13.4&	 	colorless	&\begin{tikzpicture}\fill [left col
   \bottomrule
 \end{tabular}
 }\end{minipage} 
- 
+ \end{fullwidth}
+

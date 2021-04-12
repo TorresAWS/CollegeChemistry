@@ -16,3 +16,39 @@ Solve the following titration scenarios:
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+ A 5mL sample of a monoprotic acid neutralizes 10mL of a 0.01M-KOH solution. Calculate the molarity of the acid.
+\end{question}
+\begin{solution}
+0.02M
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+ A 10mL sample of a monoprotic acid neutralizes 5mL of a 0.2M-\ce{Ca(OH)2} solution. Calculate the molarity of the acid.
+\end{question}
+\begin{solution}
+0.2M
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+ A 5 grams sample of an acid neutralizes 30mL of a 0.5M-NaOH solution. Calculate the molar mass of the acid.
+\end{question}
+\begin{solution}
+ 333g/mol
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You prepare a base solution by dissolving 3-g of the base into 250mL of solution. Five milliliters of this solution neutralizes 5mL of a 0.3M\ce{H2SO4} solution. Calculate the molar mass of the base.
+\end{question}
+\begin{solution}
+ 20g/mol
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
