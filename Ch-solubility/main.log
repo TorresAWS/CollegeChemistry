@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 APR 2021 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 APR 2021 10:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5267,7 +5267,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--469
 
  []
 
-[12])
+[12]) (../Ch-solubility/Ch-solubilityProblems.tex [13]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+(./problems/Problems-Predicting-precipitation-Predicting-precipitation
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 9.
+)
+[14
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 25--35
+[]$[]$ 
+ []
+
+[15
+
+])
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5279,12 +5369,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5391.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5391.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5392.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5392.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5392.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 86FC82CEB04948C138858D54D3B63AC4;1124.
@@ -5296,53 +5385,54 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 80362 strings out of 493014
- 1812021 string characters out of 6133351
- 2646263 words of memory out of 5000000
- 82064 multiletter control sequences out of 15000+600000
- 235404 words of font info for 335 fonts, out of 8000000 for 9000
+ 80545 strings out of 493014
+ 1816908 string characters out of 6133351
+ 2657527 words of memory out of 5000000
+ 82208 multiletter control sequences out of 15000+600000
+ 270083 words of font info for 351 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,21n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat
-/ark10.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.e
-nc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local
-/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2
-016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-
-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/te
-xmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
-enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc} <
+/Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat/ark
+10.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{
+/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/tex
+live/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/
+texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist
+/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-
+dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
 dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 431683 bytes).
+type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi1
+2.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/u
+crr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 443830 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 500000)
- 74146 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 78242 words of extra memory for PDF output out of 89155 (max. 10000000)
 
