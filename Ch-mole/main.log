@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2021 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2021 16:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5365,9 +5365,12 @@ ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
 (./files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles-in-a-rea
 ction)
 (./files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams-in-a-rea
-ction) (./problems/SampleProblem7 (./problems/StudyCheck7) [10])
+ction) [10] (./problems/SampleProblem7 (./problems/StudyCheck7))
 (./files/SectionIntro-Percent-yield-and-limiting-reagent)
-(./files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield [11])
+(./files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+ [11])
 (./problems/SampleProblem8 (./problems/StudyCheck8))
 (./files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagent
 [12])
@@ -5527,7 +5530,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
 Here is how much of TeX's memory you used:
  81532 strings out of 493014
  1844167 string characters out of 6133351
- 3121396 words of memory out of 5000000
+ 3120514 words of memory out of 5000000
  82916 multiletter control sequences out of 15000+600000
  253689 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5561,7 +5564,7 @@ e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/zapfding/uzdr.pfb>
-Output written on main.pdf (20 pages, 21424107 bytes).
+Output written on main.pdf (20 pages, 21424260 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  378 compressed objects within 4 object streams
