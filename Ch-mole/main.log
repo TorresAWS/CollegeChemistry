@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2021 12:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5434,7 +5434,8 @@ Overfull \hbox (4.09349pt too wide) in paragraph at lines 87--87
 [15
 
 ]) (./problems/GeneralProblems-Chemical-Reactions)
-(./problems/GeneralProblems-Stoichiometry-and-mass-calculations [16])
+(./problems/GeneralProblems-Stoichiometry [16])
+(./problems/GeneralProblems-mass-calculations)
 (./problems/GeneralProblems-Percent-yield-and-limiting-reagent) [17] [18]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -5475,15 +5476,15 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 41.
+ line 42.
 
-Underfull \hbox (badness 7963) in paragraph at lines 35--43
+Underfull \hbox (badness 7963) in paragraph at lines 36--44
 [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10
 [][]H[][]O$  []$10[][] \OMS/lmsy/m/n/10 ^^B [] \OT1/zplm/m/n/10 =
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 33--43
+Overfull \hbox (15.0pt too wide) in paragraph at lines 34--44
 []$[]$ 
  []
 
@@ -5520,16 +5521,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81529 strings out of 493014
- 1844118 string characters out of 6133351
- 3120336 words of memory out of 5000000
- 82916 multiletter control sequences out of 15000+600000
+ 81533 strings out of 493014
+ 1844183 string characters out of 6133351
+ 3121335 words of memory out of 5000000
+ 82917 multiletter control sequences out of 15000+600000
  253689 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,33n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5562,7 +5560,7 @@ e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/zapfding/uzdr.pfb>
-Output written on main.pdf (20 pages, 21424177 bytes).
+Output written on main.pdf (20 pages, 21424190 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  378 compressed objects within 4 object streams
