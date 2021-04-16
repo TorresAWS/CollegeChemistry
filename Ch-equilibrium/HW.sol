@@ -18,6 +18,11 @@
 {1in}{     }
 \ReturnTo{qex.3}{\mbox{$\square $}}\endeqEXt\par{{}}%
 
+\ReturnTo{qex.4}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.4}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
 \eqgrii\end{eqequestions}
 
 \btwnExamSkip
