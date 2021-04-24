@@ -2,8 +2,8 @@
 %\begin{tcolorbox}[tab2,tabularx={>{\hsize=.4\hsize}X|X}]%%%% FANCY COLOR TABLE
 %Quantum number   &  Values\\\hline\hline
 %$n$  &  1, 2, 3...       \\\hline
-%$l$  &   0, 1, ..., n-1        \\\hline
-%$m_{\ell}$  &   -l, -l+1, ..., 0, ..., l-1, l       \\\hline
+%$\ell$  &   0, 1, ..., n-1        \\\hline
+%$m_{\ell}$  &   -$\ell$, -$\ell$+1, ..., 0, ..., $\ell$-1, $\ell$       \\\hline
 %$m_s$  &  $+^1/_2$ or $-^1/_2$       
 %\end{tcolorbox}%%%% FANCY COLOR TABLE
 % \end{marginfigure}%%%%%%%MARGIN FIGURE
@@ -24,8 +24,8 @@
 \rowcolor{gray!10} Quantum \#    &  Values\\
 \midrule
 $n$  &  1, 2, 3...       \\
-$l$  &   0, 1, ..., n-1        \\
-$m_{\ell}$  &   -l, -l+1, ..., 0, ..., l-1, l       \\
+ $\ell$   &   0, 1, ..., n-1        \\
+$m_{\ell}$  &   -$\ell$, -$\ell$+1, ..., 0, ..., $\ell$-1, $\ell$       \\
 $m_s$  &  $+^1/_2$ or $-^1/_2$ \\
  \bottomrule
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 FEB 2021 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 APR 2021 14:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5374,7 +5374,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 21.
 
 
-Overfull \hbox (28.12297pt too wide) in paragraph at lines 1--22
+Overfull \hbox (28.12215pt too wide) in paragraph at lines 1--22
 [] 
  []
 
@@ -5447,7 +5447,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 33.
 
 
-Overfull \hbox (14.06598pt too wide) in paragraph at lines 13--34
+Overfull \hbox (14.06436pt too wide) in paragraph at lines 13--34
 [] 
  []
 
@@ -5679,7 +5679,11 @@ Underfull \hbox (badness 1460) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Photoelectron spec-troscopy is a
  []
 
-[29]) [30]) (../Ch-radiation/Ch-radiationProblems.tex
+
+Underfull \vbox (badness 7522) has occurred while \output is active []
+
+ [29])
+[30]) (../Ch-radiation/Ch-radiationProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5714,10 +5718,6 @@ Underfull \hbox (badness 1460) in paragraph at lines 1--2
 
 Package mdframed Info: mdframed works in twoside mode on input line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 31 undefined on input line 1
-2.
 
 (./problems/Problems-The-nature-of-light-Light-as-a-wave
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -5853,15 +5853,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
  84096 strings out of 493014
  1907826 string characters out of 6133351
- 3026338 words of memory out of 5000000
+ 3030213 words of memory out of 5000000
  85190 multiletter control sequences out of 15000+600000
  357184 words of font info for 414 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5905,7 +5902,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 7876584 bytes).
+Output written on main.pdf (32 pages, 7874878 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  555 compressed objects within 6 object streams
