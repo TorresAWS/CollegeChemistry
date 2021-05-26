@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2021 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2021 15:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5190,12 +5190,9 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 LaTeX Warning: Marginpar on page 2 moved.
 
 ) (./problems/SampleProblem1 (./problems/StudyCheck1
-Underfull \hbox (badness 10000) in paragraph at lines 11--1
-
- []
-
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 2.
+line 1.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))) (./files/Table-Unit-systems
@@ -5215,15 +5212,15 @@ Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--57
 [][] 
  []
 
-(./files/SectionIntro-Prefixes-Conversion-Factors [2 <../Ch-measurements/figure
-1-1.png (PNG copy)> <../Ch-measurements/figure1-2.png (PNG copy)> <../Ch-measur
-ements/figure1-15.png> <../Ch-measurements/figure1-16.png> <../Ch-measurements/
-figure1-17.png (PNG copy)>]) (./files/Table-Prefixes
+(./files/SectionIntro-Prefixes-Conversion-Factors) (./files/Table-Prefixes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 33.
 
-) (./files/SubSection-Prefixes-Conversion-Factors-How-to-identify-prefixes)
+[2 <../Ch-measurements/figure1-1.png (PNG copy)> <../Ch-measurements/figure1-2.
+png (PNG copy)> <../Ch-measurements/figure1-15.png> <../Ch-measurements/figure1
+-16.png> <../Ch-measurements/figure1-17.png (PNG copy)>])
+(./files/SubSection-Prefixes-Conversion-Factors-How-to-identify-prefixes)
 (./files/SubSection-Prefixes-Conversion-Factors-How-to-write-unit-equalities-an
 d-conversion-factors) (./problems/SampleProblem2 (./problems/StudyCheck2
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
@@ -5490,7 +5487,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
 Here is how much of TeX's memory you used:
  81338 strings out of 493014
  1839743 string characters out of 6133351
- 2592343 words of memory out of 5000000
+ 2593343 words of memory out of 5000000
  82580 multiletter control sequences out of 15000+600000
  213908 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5520,7 +5517,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 17453091 bytes).
+Output written on main.pdf (16 pages, 17453133 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  465 compressed objects within 5 object streams
