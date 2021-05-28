@@ -16,8 +16,10 @@
 
 
 
-   
-\lettrine[lines=4]{\color{black!45}I}{nsoluble} compounds and the solubility of solid chemicals in water is critical in fields such as engineering, medicine, and dentistry. For example, the presence of acids in the saliva enables tooth decay as they enhance the solubility of tooth enamel made of \ce{Ca5(PO4)3OH} in saliva. On a similar note, barium sulfate is an insoluble compound opaque to x-rays used to reveal digestive track issues. This chapter applies concepts of chemical equilibrium to the study of insoluble compounds. We will learn how to compute chemical solubilities using the equilibrium constant associated with the solubility equilibrium, and to assess the effect on the solubility of a common ion in solution. The chapter also covers the basis properties and naming of complex ions, ions composed of a central atom bonded to one or more molecules or ions.
+   \import{files/}{ChapterIntro}
+
+
+
 \begin{marginfigure}%LEARNING GOALS BOX
 \begin{mytcbox}{GOALS}
 \begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
@@ -32,13 +34,20 @@
 \begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
   arc=0pt,outer arc=0pt,drop heavy lifted shadow]
 \faGears\ 
-\docenvdef{Discussion:} {\discussionSOLUBLE} \end{tcolorbox}
+ \import{files/}{ChapterDiscussion}
+ \end{tcolorbox}
 
 \end{marginfigure}%LEARNING GOALS BOX
 
 
-
-
+\section{Solubility } \import{files/}{SectionIntro-Solubility}\sloppy\begin{description}
+\import{files/}{Subsection-Solubility-Solubility}
+\import{files/}{Subsection-Solubility-Mass-based-solubility}
+\import{files/}{Subsection-Solubility-Relating-solubility-and-mass-based-solubility}
+  \import{problems/}{SampleProblem3}
+\import{files/}{Subsection-Solubility-Solubility-based-on-water-volume}
+ \end{description}
+  
 
 \section{Solubility equilibrium } \import{files/}{SectionIntro-Solubility-equilibrium}
 \sloppy\begin{description}
@@ -52,45 +61,24 @@
 \sloppy\begin{description}
 \item[\docfilehook{Solubility product in terms of molarities, $K_{sp}$}{}]  \import{files/}{SubsectionSolubility-product-in-terms-of-molarities}
 \import{problems/}{SampleProblem2}
+\item[\docfilehook{Relating solubility to the concentration of ions}{}]  \import{files/}{SubsectionSolubility-product-Relating-solubility-to-the-concentration-of-ions}
 \end{description}
+
+
 
 \section{Predicting precipitation } \import{files/}{SectionIntro-Predicting-precipitation}
 \sloppy\begin{description}
-\item[\docfilehook{Predicting precipitation: an introduction}{}]
-The values of the solubility product constant can be used to predict the precipitation of a salt. Imagine for example that we have a 0.1M \ce{Cu^+} solution and you gradually add a \ce{I^-} solution. Given that \ce{CuI} can precipitate and its $K_{sp}$ is $1.27\times 10^{-12}$, the goal would be to determine at what point will \ce{CuI} precipitate, that is, what is the \ce{I^-} concentration that would make \ce{CuI} precipitate. We will answer this question by obtaining first the expression for $K_{sp}$:
-\begin{center}\ce{CuI_{(s)}  <=> Cu^{+}_{(aq)} + I^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{I^{-}} \big]=1.27\times 10^{-12}$\end{center}
-As we know the concentration of \ce{Cu^+}, we can solve for $\big[ \ce{I^{-}} \big]$:
-\begin{center}$K_{sp}= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{I^{-}} \big]=(0.1)\cdot\big[ \ce{I^{-}} \big]=1.27\times 10^{-12}$\end{center}
-We have that $\big[ \ce{I^{-}} \big]=1.27\times 10^{-11}$M. Hence, Copper(I) iodide will precipitate with a very small concentration of iodide in the solution. 
-\item[\docfilehook{Selective precipitation}{}] When we have a mixture of different ions that form insoluble precipitates (e.g. \ce{Pb^{2+}} and \ce{Cu^{+}}) we can use the principles of selective precipitation to separate the ions. Imagine that the concentration of both ions in the mixture is 0.01M. We will add a common anion (e.g. \ce{Br^-}) that will produce two different precipitates (\ce{CuBr} and \ce{PbBr2}). We will also asume that the addition of the cation will not modify much the volume of the mixture. If the solubility product of both insoluble compounds is different enough, we will be able to selectively precipitate first the less soluble compound and the more soluble. We will calculate the amount of the added solution needed to precipitate each solid. Let us first address the expressions for the solubility product for each solid:
-\begin{center}
-\ce{CuBr_{(s)}  <=> Cu^{+}_{(aq)} + Br^{-}_{(aq)}}\hfill $K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}$\\
-\ce{PbBr2_{(s)}  <=> Pb^{2+}_{(aq)} + 2Br^{-}_{(aq)}}\hfill $K_{sp}(\ce{PbBr2})= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{Br^{-}} \big]^2=6.6\times 10^{-6}$
-\end{center}
-We will calculate the concentration of bromide needed to precipitate each of the solids, first Copper(I) bromide:
-\begin{center}
-$K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=(0.01)\cdot\big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}$\\
-\end{center}
-Solving for $\big[ \ce{Br^{-}} \big]$ we have: $\big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}/0.01=6.3\times 10^{-7}$M for the precipitation of \ce{CuBr}. Now, the concentration of bromide needed to precipitate Lead(II) bromide would be:
-$ \big[ \ce{Br^{-}} \big]^2=\frac{6.6\times 10^{-6}}{0.01}$ hence $ \big[ \ce{Br^{-}} \big]=\big(\frac{6.6\times 10^{-6}}{0.01}\big)^{\frac{1}{2}}=2.5\times 10^{-2}$M for \ce{PbBr2}. Comparing both concentrations we have that the values are separate enough (more than 99\%) so it would be feasible to separate both ions in solution.
+\item[\docfilehook{Predicting precipitation: an introduction}{}]\import{files/}{Subsection-Predicting-precipitation-Predicting-precipitation-an-introduction}
+\item[\docfilehook{Selective precipitation}{}] \import{files/}{Subsection-Predicting-precipitation-Selective-precipitation}
 \end{description}
+
+
+
 
 
 \section{\color{blue!30!black}{Solubility and $K_{sp}$}}  \import{files/}{SectionIntro-Solubility-and-Ksp}
 \sloppy\begin{description}
-\item[\docfilehook{Molar solubility}{}] In general terms, solubility is the amount of solute in 1L of saturated solution. There are two main ways to describe solubility. On one hand, molar solubility $s$ is the number of moles of solute per liter of saturated solution. On the other hand, solubility $\overline{s}$ is normally defined as the number of grams of solute per liter of saturated solution. Both types of solubility are simply related by the molar mass:
-\begin{equation}
-\boxed{ \overline{s}= s\cdot MW  }\label{\chapterlabel:equation1}
-\end{equation}
-where:
-\begin{where}
- \item $\overline{s}$  is solubility in mol/L
- \item $s$  is solubility in g/L
- \item $MW$  the molar weight of the insoluble compound
-\end{where}
 
-
-  \import{problems/}{SampleProblem3}
 
 
 

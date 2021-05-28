@@ -70,9 +70,40 @@ Write down the solubility equilibrium for the following chemicals:
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the relationship between solubility $s$ and the ionic concentration for the following insoluble compounds:
+\begin{inparaenum}[(a)]
+\item  \ce{NiCO3}  %$\big[ \ce{Ni^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{CO3^{-2}} \big]=1\cdots$
+\item  \ce{Ra(IO3)2}  %$\big[ \ce{Ra^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{IO3^{-}} \big]=2\cdots$
+\item  \ce{FeF2}  %$\big[ \ce{Fe^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{F^{-}} \big]=2\cdots$
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $\big[ \ce{Ni^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{CO3^{-2}} \big]=1\cdots$
+\item   $\big[ \ce{Ra^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{IO3^{-}} \big]=2\cdots$
+\item   $\big[ \ce{Fe^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{F^{-}} \big]=2\cdots$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
-
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the relationship between solubility $s$ and the ionic concentration for the following insoluble compounds:
+\begin{inparaenum}[(a)]
+\item  \ce{Al(OH)3	}   %$\big[ \ce{Al^{+3}} \big]=1\cdot s\text{ and }\big[ \ce{OH^{-}} \big]=3\cdots$
+\item  \ce{Mn(IO3)2}  %$\big[ \ce{Mn^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{IO3^{-}} \big]=2\cdots$
+\item  \ce{BaMoO4}  %$\big[ \ce{Ba^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{MnO4^{-}} \big]=1\cdots$
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item   $\big[ \ce{Al^{+3}} \big]=1\cdot s\text{ and }\big[ \ce{OH^{-}} \big]=3\cdots$
+\item   $\big[ \ce{Mn^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{IO3^{-}} \big]=2\cdots$
+\item   $\big[ \ce{Ba^{+2}} \big]=1\cdot s\text{ and }\big[ \ce{MnO4^{-}} \big]=1\cdots$cdot s
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 
