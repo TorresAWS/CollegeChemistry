@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 MAY 2021 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2021 18:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5070,10 +5070,12 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro)
+(./files/ChapterIntro) (./files/ChapterGoal-Solubility-product)
+(./files/ChapterGoal-Solubility-and-Ksp)
+(./files/ChapterGoal-Predicting-precipitation)
+(./files/ChapterGoal-Common-ion-effect) (./files/ChapterGoal-PH-and-solubility)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 36.
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
@@ -5178,7 +5180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 ) (./problems/SampleProblem2 (./problems/StudyCheck2
-Underfull \hbox (badness 10000) in paragraph at lines 1--4
+Underfull \hbox (badness 10000) in paragraph at lines 1--7
 
  []
 
@@ -5210,43 +5212,290 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 79.
 (./files/SectionIntro-Solubility-and-Ksp [6])
-Underfull \hbox (badness 1622) in paragraph at lines 98--99
+(./files/Subsection-Solubility-and-Ksp-Ksp-in-terms-of-molar-solubility)
+(./files/Subsection-Solubility-and-Ksp-Ksp-in-terms-of-molar-solubility-general
+-formula
+Underfull \hbox (badness 1622) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) For any in-
  []
 
-(./problems/SampleProblem4 (./problems/StudyCheck4
-Underfull \hbox (badness 10000) in paragraph at lines 8--3
+) (./problems/SampleProblem4 (./problems/StudyCheck4
+Underfull \hbox (badness 10000) in paragraph at lines 8--6
 
  []
 
-) [7])
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+) [7]) (./files/Subsection-Solubility-and-Ksp-Molar-solubility-in-terms-of-ksp
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) We pre-vi-
  []
 
-(./problems/SampleProblem5 (./problems/StudyCheck5
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
+) (./problems/SampleProblem5 (./problems/StudyCheck5
+Underfull \hbox (badness 10000) in paragraph at lines 1--6
 
  []
 
 ) [8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 147.
+(hyperref)                removing `\color' on input line 90.
 
+(./files/SectionIntro-Common-ion-effect)
+(./files/SectionIntro-PH-and-solubility) (./files/Subsection-PH-and-solubility
+Underfull \vbox (badness 1521) has occurred while \output is active []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 147.
-
+ [9])
+(./files/Subsection-Common-ion-effect)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
+(hyperref)                removing `\color' on input line 98.
 
-(./files/SectionIntro-Common-ion-effect) [9]
+(./files/SectionIntro-Predicting-precipitation)
+(./files/Subsection-Predicting-precipitation-from-mixtures-concentration-produc
+t
+Overfull \hbox (34.34056pt too wide) in paragraph at lines 1--2
+[]
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)              
+[10]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 18.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 18.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 18.
+) (./problems/SampleProblem6
+Overfull \hbox (5.06578pt too wide) detected at line 5
+\OML/lmm/m/it/10 Q[]\OT1/zplm/m/n/10 ([]) = [][][][][][] \OMS/lmsy/m/n/10 ^^A [
+]\OT1/lmr/m/n/10 I[][][][] \OT1/zplm/m/n/10 = (\OT1/lmr/m/n/10 10[]\OT1/zplm/m/
+n/10 ) \OMS/lmsy/m/n/10 ^^A \OT1/zplm/m/n/10 (\OT1/lmr/m/n/10 10[]\OT1/zplm/m/n
+/10 ) = \OT1/lmr/m/n/10 10[] \OML/lmm/m/it/10 < K[]\OT1/zplm/m/n/10 ([])
+ []
+
+
+Overfull \hbox (34.60953pt too wide) detected at line 7
+\OML/lmm/m/it/10 Q[]\OT1/zplm/m/n/10 ([][][]) = [][][][][][] \OMS/lmsy/m/n/10 ^
+^A []\OT1/lmr/m/n/10 F[][][][] \OT1/zplm/m/n/10 = (\OT1/lmr/m/n/10 0.5\OT1/zplm
+/m/n/10 ) \OMS/lmsy/m/n/10 ^^A \OT1/zplm/m/n/10 (\OT1/lmr/m/n/10 0.5\OT1/zplm/m
+/n/10 )[] = \OT1/lmr/m/n/10 3.1 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[] \OML/
+lmm/m/it/10 > K[]\OT1/zplm/m/n/10 ([][][])
+ []
+
+(./problems/StudyCheck6)
+Underfull \hbox (badness 1092) in paragraph at lines 7--10
+\T1/ptm/m/n/10 (+20) Predict if a pre-cip-i-tate will form in a mix-tures of $[
+][][][][]$=$\OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (+20) M and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+[11]) (./files/Subsection-Predicting-precipitation-from-mixing-solutions
+Underfull \hbox (badness 1189) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) Let us now an-a-
+ []
+
+) (./problems/SampleProblem7 (./problems/StudyCheck7)
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+
+ []
+
+[12]) (./files/Subsection-Predicting-the-amount-of-precipitate-formed [13])
+(./problems/SampleProblem8 (./problems/StudyCheck8
+Underfull \hbox (badness 10000) in paragraph at lines 16--7
+
+ []
+
+) [14])) (../Ch-solubility/Ch-solubilityProblems.tex [15]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 8.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 8.
+Package mdframed Info: Not enough space on this page on input line 8.
+
+(./problems/problems/Problems-Solubility
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[] \T1/ptm/m/n/10 (+20) The mo-lar sol-u-bil-ity of zinc hy-drox-ide
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[] \T1/ptm/m/n/10 (+20) The mo-lar sol-u-bil-ity of lead(II) flu-o-ride
+ []
+
+) (./problems/problems/Problems-Solubility-equilibrium-Solubility-equilibrium)
+(./problems/problems/Problems-Solubility-equilibrium-Solubility-product)
+(./problems/problems/Problems-Predicting-precipitation-Predicting-precipitation
+[16
+
+]) (./problems/problems/Problems-Solubility-and-ksp
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[] \T1/ptm/m/n/10 (+20) Cal-cu-late $\OML/lmm/m/it/10 K[]$ \T1/ptm/m/n/10 (+20)
+ the fol-low-ing com-pounds:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[] \T1/ptm/m/n/10 (+20) Cal-cu-late $\OML/lmm/m/it/10 K[]$ \T1/ptm/m/n/10 (+20)
+ the fol-low-ing com-pounds:
+ []
+
+) (./problems/problems/Problems-PH-and-solubility)
+(./problems/problems/Problems-Common-ion-effect [17])
+(./problems/problems/Problems-Predicting-precipitation-Predicting-precipitation
+-from-mixtures) [18]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 27--37
+[]$[]$ 
+ []
+
+[19
+
+])
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5404.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5404.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5404.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A1D7AB991AB2B0E30C4371BAF2793359;1709.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5404.
+ ) 
+Here is how much of TeX's memory you used:
+ 81271 strings out of 493014
+ 1836817 string characters out of 6133351
+ 2669346 words of memory out of 5000000
+ 82584 multiletter control sequences out of 15000+600000
+ 300268 words of font info for 386 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,22n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
+fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+aratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
+ype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (19 pages, 422376 bytes).
+PDF statistics:
+ 557 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 203 named destinations out of 1000 (max. 500000)
+ 94146 words of extra memory for PDF output out of 106986 (max. 10000000)
+

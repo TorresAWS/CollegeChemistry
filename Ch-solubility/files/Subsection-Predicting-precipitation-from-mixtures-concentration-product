@@ -1,0 +1,28 @@
+Let us analyze a situation in which we dissolve in water an insoluble compound such as lead(II) fluoride. The solubility products constant $K_{sp}$ is just an equilibrium constant that described the process of solubility, that is the dissolution of a solid. $K_{sp}$ depends on the equilibrium concentration of the ions in solution. With equilibrium, we mean that the concentrations were measured after a long long time, so that the system has reached equilibrium. For example, $K_{sp}$ for lead(II) fluoride is $3.3\times10^{-8}$ and its mathematical expression is presented below
+\begin{center}\ce{PbF2{(s)}  <=> Pb^{2+}_{(aq)} + 2F^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{F^{-}} \big]^2$= $3.3\times10^{-8}$\end{center}
+In the expression above, $\big[ \ce{Pb^{2+}} \big]$ represents the equilibrium concentration of ions Lead(II) and $\big[ \ce{F^{-}} \big]$ is the equilibrium concentration of fluoride. These concentrations result from dissolving the insoluble chemical in water.
+Let us now analyze a situation in which we have a mixture of ions containing 0.1M-\ce{Pb^{2+}} ions and 0.1M-\ce{F^{-}}. We want to assess if a precipitate will form, given that both ions can combine to produce lead(II) fluoride. To predict precipitation, we will use the reaction concentration product $Q_c$, and we will compare this product with the solubility product constant $K_{sp}$:
+\begin{equation}
+\boxed{  Q_{c}=\big[\text{Products}\big]_{noneq} } \quad \textcolor{blue}{\text{concentration product}}\label{\chapterlabel:equation4}
+\end{equation}
+A precipitate will appear only the computed $Q_c$ value is larger than $K_{sp}$. In other words, mixtures of solutions more concentrated that the compound's solubility will precipitate, whereas  less concentrated mixtures will not.
+
+ \begin{center}\begin{tikzpicture}[colorbar arrow/.style={
+  shape=double arrow,
+  double arrow head extend=0.125cm, 
+  shape border rotate=0, 
+  minimum height=10cm,minimum width=2cm,
+  shading=#1 
+}]
+\node [colorbar arrow=shading1] (thickarrow) at (0,0) {};
+  \node[font=\large]  at (-3cm,0cm) {$Q_c<K_{sp}$};   \node[font=\tiny, rotate=90]  at (0cm,0cm) {Equilibrium}; \node[font=\large]  at (3cm,0cm) {$Q_c>K_{sp}$}; 
+%\node[font=\large, below = 3mm of thickarrow]  at (-3cm,-1cm) { $K_{c}<1$}; 
+\draw[ultra thick, ->]  (-3cm,-1cm) --+(1cm,0cm) node[shift={(0,-1em)}] {Dissolution}; 
+   \node[font=\large, below = 3mm of thickarrow, shift={(0cm,.5cm)}]  at (0cm,-1cm) {$K_{sp}$};  
+\draw[ultra thick, ->]  (3cm,-1cm) --+(-1cm,0cm) node[shift={(0,-1em)}] {Precipitation}; 
+\end{tikzpicture}  \end{center}
+You might have noticed that $K_{sp}$ and $Q_c$ have a very similar formula. The difference beholds on the nature of the concentrations included in each of the formulas. $K_{sp}$ includes \emph{equilibrium} concentration, that is concentrations resulting of the slow dissolution of an insoluble compound measured after a long time, whereas $Q_c$ includes \emph{nonequilibrium} concentrations resulting of artificially preparing and quickly mixing ion solutions. For the example we are considering, after mixing a 0.1M-\ce{Pb^{2+}} solution and a 0.1M-\ce{F^{-}} solution, we have that  $Q_c$ is larger than $K_{sp}$ and therefore a precipitate will form:
+\begin{center} $Q_{c}= \big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=0.1\cdot 0.1^2=1\times 10^{-3}>K_{sp}=3.3\times10^{-8}$ hence (\ce{v})\end{center}
+Imaging that we mix now a $10^{-3}$M-\ce{Pb^{2+}} solution and a $10^{-3}$M-\ce{F^{-}} solution. For this case, we have that $Q_c$ is smaller than $K_{sp}$ and therefore no precipitate will form:
+\begin{center} $Q_{c}= \big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=10^{-3}\cdot (10^{-3})^2=10^{-9}<K_{sp}=3.3\times10^{-8}$ hence (\cancel{\ce{v}})\end{center}
+
