@@ -2,13 +2,13 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate if the following statements represent measured or exact numbers:
  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)]	
 \item The number of apples in a bag \iffalse (exact) \fi
 \item The weight of an apple  \iffalse (measured) \fi
 \item The number of cm in a inch  \iffalse (exact) \fi
 \item The number of students in a classroom  \iffalse (exact) \fi
 \item The height of a student  \iffalse (measured) \fi
-\end{enumerate}
+\end{inparaenum} 
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
