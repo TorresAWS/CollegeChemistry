@@ -1,0 +1,30 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+ \begin{inparaenum}[(a)]
+\item   We expand 10 moles of an ideal gas from 1L to 2L isothermally, and after that we increase its pressure from 1 atm to 5 atm. Calculate the entropy change of the gas.
+\item   We compress 10 moles of an ideal gas from 1 atm to 5 atm isothermally and after we expand the gas from 1L to 2L isothermally. Calculate the entropy change of the gas.
+\item   Compare the answers of the previous questions and justify its difference.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+\item  	 -76.18J/K 
+\item  	 -76.18J/K 
+\item  	 Same number as entropy is a state function that only depends on the initial and final state and not the path taken to get from the initial to the final state 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+ \begin{inparaenum}[(a)]
+\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 10L to 1L and during the process its temperature increases from 200K to 300K. Calculate the entropy change of the gas.
+\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 1atm to 5atm and during the process its temperature increases from 100K to 200K. Calculate the entropy change of the gas.
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+\item  	 -140.87J/K 
+\item  	 10.26J/K 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  

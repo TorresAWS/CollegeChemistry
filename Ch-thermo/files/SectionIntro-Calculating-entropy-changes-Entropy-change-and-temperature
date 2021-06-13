@@ -1,0 +1,12 @@
+ The following formula can be used to calculate the entropy change of a system when its temperature increases (or decreases). Temperature changes can be measured at constant volume or constant pressure and as such, the formula will have to be adjusted for these two different conditions.
+ \begin{equation}
+\boxed{  \Delta S=C\ln \Big(\frac{T_2}{T_1}\Big)	}\label{\chapterlabel:equation10}
+\end{equation}
+where:
+\begin{where}
+ \item $\Delta S$   is the entropy change in J/K
+ \item $C $   is  heat capacity in J/K
+ \item $T_1$  is the absolute initial temperature (in K)
+ \item $T_2$  is the absolute final temperature (in K)
+\end{where}
+$C$ represents the heat capacity. Mind molar heat capacity $C_m$ and heat capacity $C$are related by the number of moles: $C=n\cdot C_m$. If the change in temperature is measured at constant pressure, the molar heat capacity is called constant-pressure molar heat capacity $C_{p,m}$, whereas if the change in temperature is measured at constant volume, the molar heat capacity is called constant-volume molar heat capacity $C_{v,m}$. For ideal gases the $C_{v,m}$ values are (mind $R$ is the constant of the gases 8.314J/molK): $\frac{3}{2}R$ (for atoms), $\frac{5}{2}R$ (for linear molecules), and $3R$ (for nonlinear molecules). For ideal gases the $C_{p,m}$ values are: $\frac{5}{2}R$ (for atoms), $\frac{7}{4}R$ (for linear molecules), and $3R$ (for nonlinear molecules). $C_{p,m}$ and $C_{v,m}$ are related by $C_{p,m}= C_{v,m} + R$.

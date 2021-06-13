@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the reaction:
+\begin{center}\ce{C_{(s)} + H2O_{(g)} -> CO_{(g)} 	+ H2_{(g)}	 }\end{center}
+we have that $\Delta H_{R}^{\circ}$ is 113kJ/mol and $\Delta S_{R}^{\circ}$ is 133J/mol. Indicate wether the reaction will proceed spontaneously. Will it proceed at 200K? Will it proceed at 900K?\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+When the entropy change and the enthalpy change have the same sign, the reaction will be conditionally spontaneous. In this case, we would need to overcome the positive enthalpy change and we can do this at very high temperatures. In particular, temperatures higher than a critical value give by:
+\[T_c  = \frac{\Delta H}{\Delta S} =\frac{113\times 10^3}{133}=850K\]
+The reaction will not proceed at temperatures below 850K as such it will not proceed at 100, but it will work at 900K.\\
+\import{./}{StudyCheck10} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

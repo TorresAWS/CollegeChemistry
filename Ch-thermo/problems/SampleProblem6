@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the entropy change of the following reaction and give an interpretation based on the sign of the change:
+ \begin{equation*} \ce{C_{(s)} + H2O_{(g)} ->  CO_{(g)} + H2_{(g)} } \end{equation*}
+Given: $S^{\circ}(\ce{C_{(s)}})$=5.69 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{H2O_{(g)}})$=188.7 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{CO_{(g)}})$=197.9 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{H2_{(g)}})$=131 J/K$\cdot \text{ }$mol.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Using the formula for $\Delta S^{\circ}_R$ we have:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}=\\ \Big(S^{\circ}(\ce{CO_{(g)}})   + S^{\circ}(\ce{H2_{(g)}}) \Big)-\Big(S^{\circ}(\ce{C_{(s)}})+ S^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(197.9   + 131\Big)-\Big(5.69 + 188.7 \Big)= 134.51J/K
+\end{split}\end{equation*}
+This produces entropy.\\
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,16 @@
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{C2H4_{(g)} + H2_{(g)} ->	C2H6_{(g)} }\end{center}
+\begin{center}\begin{tabular}[t]{  c c c   }
+\toprule
+  Compound &$\Delta \text{H}_f^{\circ}$	& $\text{S}^{\circ}$  \\
+\midrule
+\ce{C2H4_{(g)}} & 		-52.5	&			219.5\\
+\ce{H2_{(g)}} &			0		&		130.6\\
+\ce{C2H6_{(g)}} &		-84.7		&		229.5\\
+ \bottomrule
+\end{tabular}\end{center}
+ \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+$\Delta H^{\circ}_R=-32kJ$; $\Delta S^{\circ}_R=-120.6J/K$; $\Delta G^{\circ}_R=4kJ$; spontaneous for T<265K
+ \end{flushright} }
+

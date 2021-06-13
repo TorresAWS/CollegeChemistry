@@ -1,0 +1,20 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 5L sample of Helium, and ideal gas, at 1atm is heated from 300K to 400K. 
+\begin{inparaenum}[(a)]
+\item  Calculate the entropy change is the gas is heated at constant volume.
+\item  Calculate the entropy change is the gas is heated at constant pressure.
+ \end{inparaenum}
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the formula that related the entropy change with a temperature change is:
+\[ \Delta S=C\ln \Big(\frac{T_2}{T_1}\Big)	\]
+Still the heat capacity can be computed at constant volume or constant pressure. For an ideal monoatomic gas, the molar heat capacity at constant volume is $\frac{3}{2}R$, whereas the molar heat capacity at constant pressure is $\frac{5}{2}R$. Therefore, as we need heat capacities and not molar heat capacity, we have that the heat capacity at constant volume is $n\cdot\frac{3}{2}R$, whereas the heat capacity at constant pressure is $n\cdot\frac{5}{2}R$, with $n$ being the number of moles. At this point we have that the entropy change at constant volume would be $ n\cdot\frac{3}{2}R\ln \Big(\frac{T_2}{T_1}\Big)$, whereas the entropy change at constant pressure would be $ n\cdot\frac{5}{2}R\ln \Big(\frac{T_2}{T_1}\Big)$. The number of moles of gas is:
+\[n=\frac{P V}{RT}=\frac{1\cdot 5}{0.082\cdot 300}=0.20\text{moles}	\]
+the initial temperature is $T_1=300$K and the final temperature is $T_2=400$K. Therefore the entropy change at constant volume would be:
+\[ \Delta S_V=0.20\cdot\frac{3}{2}\cdot 8.314\ln \Big(\frac{400}{300}\Big)=0.71	\text{J/K}\]
+and the entropy change at constant pressure would be:
+\[ \Delta S_p=0.20\cdot\frac{5}{2}\cdot 8.314\ln \Big(\frac{400}{300}\Big)=1.19	\text{J/K}\]
+We have that for a monoatomic ideal gas, the entropy change at constant pressure is larger than the entropy change at constant volume.
+\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

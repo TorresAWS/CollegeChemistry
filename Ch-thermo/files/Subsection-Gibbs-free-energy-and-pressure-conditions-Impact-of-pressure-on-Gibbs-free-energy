@@ -1,0 +1,18 @@
+The standard Gibbs free-energy of reaction is calculated at standard pressure conditions (1 atm) and tabulated at 298K. What if we are not in standard conditions? When a reaction involving gas-phase reactants advances towards equilibrium forming products, the pressure in the container increases. As gas molecules are being produced the pressure will depart from 1 atm. We can use the following expression to include the effect of pressure on $\Delta G^{\circ}_R$:
+\begin{equation}
+\boxed{ \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p	}\label{\chapterlabel:equation11}
+\end{equation}
+where:
+\begin{where}
+ \item $ \Delta G_R$   is the Gibbs free-energy of a reaction not at standard conditions
+ \item $\Delta G^{\circ}_R$   is the Gibbs free-energy of a reaction at standard conditions (1atm and 298K)
+ \item $Q_p$  is the reaction ratio in terms of pressure
+ \item $R$  is the constant of the gases in energy units (8.314J/mol$\cdot\text{ }$  K)
+  \item $T$  is the absolute temperature
+\end{where}
+Pressure is another variable--similar to temperature--that can be used to favor chemical reactions. For example, the reaction between hydrogen and iodine exhibits a positive standard Gibbs free-energy. Under standard conditions, at 1 atm and 298K, the reaction will not likely happen
+\begin{center}\ce{H2_{(g)} + I2_{(s)} -> 2HI_{(g)}}\hfill $\Delta G^{\circ}_R=2.60$kJ/mol\end{center}
+Including the effects of pressure on the calculation of Gibbs free energy we have that at very low products pressures and relatively large reactant pressures ($P_{\ce{HI}}=1\times 10^{-5}$ atm and $P_{\ce{H2}}=1\times 10^{5}$atm) Gibbs free energy is negative:
+\begin{equation*}\begin{split}  \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p=   \Delta G^{\circ}_R + RT\ln \Big[ \frac{P_{\ce{HI}^2}}	{P_{\ce{H2}}} \Big]\hfill \text{ }\\
+ \hfill =  2.60\times 10^3 +8.314\cdot 298 \ln \Big[ \frac{ (1\times 10^{-5})^2}{1\times 10^{5}} \Big] =-8.3\times 10^4 \text{J/mol}\end{split}\end{equation*} 
+These calculations demonstrate that one can tune the pressure conditions to favor a reaction. In general large reactant pressures and low products pressures can aliviate positive Gibbs free-energy values. 
