@@ -1,0 +1,11 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{center}
+\begin{tikzpicture}
+ \renewcommand{\Helectrodelabel}{\small \ce{H2}}
+\colorlet{batteryLeftElectrode}{red!75}
+\colorlet{batteryRightElectrode}{green!75}
+\colorlet{batteryLeftSolution}{blue!15}
+\colorlet{batteryRightSolution}{green!15}
+\hspace{-0cm}\batterya{\small \ce{Cu^{2+}, 1M}}{Cu}	{ }	{\small \ce{H^{+}, 1M}}{1}{\Large $-$}{\Large $+$}{V}{0}    % 1 to the right
+\node[text width=10cm, fontscale=0.1, shift={(6,-2.3)}] at (12em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A galvanic cell with a hydrogen anode and a copper cathode. The hydrogen electrode is the reference electrode with null electrodic voltage. Hence the voltage of this cell will directly give the copper electrode voltage.};
+\end{tikzpicture}\end{center}

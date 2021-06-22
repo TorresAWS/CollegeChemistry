@@ -1,0 +1,78 @@
+    \hspace{-1cm}\begin{minipage}[b]{1.3\linewidth}
+
+\begin{center}
+        \begin{adjustbox}{center, width=\columnwidth+20pt}  % can also use \linewidth or sth. else
+
+
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Standard reduction potentials at 298K} \\
+\midrule
+	\rowcolor{gray!10}Element&Reaction	&$\mathcal{E}^{\circ}$ (V)&Element&Reaction	&$\mathcal{E}^{\circ}$ (V)	\\ 
+
+\midrule
+\tikzmark{start} Sr \cellcolor{red!5}&\cellcolor{red!5}	\ce{Sr^{+} +e^-	<=>	Sr_{(s)}}&\cellcolor{red!5}		-4.10	& \cellcolor{red!25}	H&  \cellcolor{red!25}\ce{  2H+ + 2   e^-    <=>    H2_{(g)}   }&  \cellcolor{red!25}0.00   	  \\
+Ca\cellcolor{red!5}&\cellcolor{red!5}	\ce{Ca^{+} +e^-	<=>	Ca_{(s)}		}&\cellcolor{red!5}						-3.80	 &	\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgBr_{(s)} +e^-	 <=>	Ag_{(s)} + Br-}&\cellcolor{red!75}+0.07	 \\ 
+Li \cellcolor{red!5}&\cellcolor{red!5}\ce{	Li+	+e^-	 <=>	Li_{(s)}	}&\cellcolor{red!5}-3.04	  & 							\cellcolor{red!75}S&\cellcolor{red!75}\ce{	S4O_2^{6-} + 2   e^-	 <=>	2S2O2-3	}&\cellcolor{red!75}+0.08	\\ 
+Cs\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cs+	+e^-	 <=>	Cs_{(s)}	}&\cellcolor{red!5}-3.03	 & 							\cellcolor{red!75}N&\cellcolor{red!75}\ce{	N2_{(g)} + 2H2O + 6H+ + 6e^-	 <=>	2NH4OH_{(aq)}	}&\cellcolor{red!75}+0.09	\\ 
+Ca\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ca(OH)2 + 2   e^-	 <=>	Ca_{(s)} + 2OH-	}&\cellcolor{red!5}-3.02	 & 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	HgO_{(s)} + H2O + 2   e^-	 <=>	Hg(l) + 2OH-	}&\cellcolor{red!75}+0.10	\\ 
+Ba\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ba(OH)2 + 2   e^-	 <=>	Ba_{(s)} + 2OH-}&\cellcolor{red!5}	-2.99	&  				\cellcolor{red!75}C&\cellcolor{red!75}\ce{	C_{(s)} + 4H+ + 4e^-	 <=>	CH4_{(g)}	}&\cellcolor{red!75}+0.13	 \\ 
+Rb\cellcolor{red!5}&\cellcolor{red!5}\ce{	Rb+	+e^-	 <=>	Rb_{(s)}	}&\cellcolor{red!5}-2.98	 & 							\cellcolor{red!75}Sn&\cellcolor{red!75}\ce{	Sn^{4+} + 2   e^-	 <=>	Sn2+}&\cellcolor{red!75}+0.15	\\ 
+K\cellcolor{red!5}&\cellcolor{red!5}\ce{	K+ +e^-	 <=>	K_{(s)}	}&\cellcolor{red!5}-2.93	 & 							\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^{2+} +e^-	 <=>	Cu+}&\cellcolor{red!75}+0.159	 \\ 
+Ba\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ba^{2+} + 2   e^-	 <=>	Ba_{(s)}}&\cellcolor{red!5}	-2.91	&  						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	3Fe2O3_{(s)} + 2H+ + 2   e^-	 <=>	2Fe3O4_{(s)} + H2O }&\cellcolor{red!75}+0.22	\\  
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr^{2+} + 2   e^-	 <=>	Sr_{(s)}	}&\cellcolor{red!5}-2.90	 & 					\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgCl_{(s)} +e^-	 <=>	Ag_{(s)} + Cl-}&\cellcolor{red!75}+0.22	 \\ 
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr(OH)2 + 2   e^-	 <=>	Sr_{(s)} + 2OH-}&\cellcolor{red!5}	-2.88& 	 			\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^{2+} + 2   e^-	 <=>	Cu_{(s)}	}&\cellcolor{red!75}+0.34	 \\ 
+Ca\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ca^{2+} + 2   e^-	 <=>	Ca_{(s)}	}&\cellcolor{red!5}-2.87	  & 					\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe+ +e^-	 <=>	Fe_{(s)}}&\cellcolor{red!75}	+0.40	 \\ 
+Li\cellcolor{red!5}&\cellcolor{red!5}\ce{	Li^+ + C6_{(s)} +e^-	 <=>	LiC6_{(s)}}&\cellcolor{red!5}	-2.84	&  					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 2H2O + 4e^-	 <=>	4OH-_{(aq)}	}&\cellcolor{red!75}+0.40	 \\ 
+Na\cellcolor{red!5}&\cellcolor{red!5}\ce{	Na^+ +e^-	 <=>	Na_{(s)}	}&\cellcolor{red!5}-2.71	  & 							\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^+ +e^-	 <=>	Cu_{(s)}	}&\cellcolor{red!75}+0.520	 \\ 
+Mg\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mg(OH)2 + 2e^-	 <=>	Mg_{(s)} + 2OH-}&\cellcolor{red!5}	-2.69	 & 				\cellcolor{red!75}C&\cellcolor{red!75}\ce{	CO_{(g)} + 2H+ + 2   e^-	 <=>	C_{(s)} + H2O	}&\cellcolor{red!75}+0.52	\\ 
+Mg\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mg^{2+} + 2   e^-	 <=>	Mg_{(s)}	}&\cellcolor{red!5}-2.37	 & 					\cellcolor{red!75}I&\cellcolor{red!75}\ce{	I2_{(s)} + 2   e^-	 <=>	2I-}&\cellcolor{red!75}+0.54	 \\ 
+H\cellcolor{red!5}&\cellcolor{red!5}\ce{	H2_{(g)} + 2   e^-	 <=>	2H-	}&\cellcolor{red!5}-2.23	 & 						\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 2H2O + 3e^-	 <=>	MnO2_{(s)} + 4OH-	}&\cellcolor{red!75}+0.595	 \\ 
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr^{2+} + 2   e^-	 <=>	Sr(Hg)	}&\cellcolor{red!5}-1.79	 & 					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 2H+ + 2   e^-	 <=>	H2O2_{(aq)}	}&\cellcolor{red!75}+0.70	\\ 
+Al\cellcolor{red!5}&\cellcolor{red!5}\ce{	Al^{3+} + 3e^-	 <=>	Al_{(s)}	}&\cellcolor{red!5}-1.66	 & 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe2O3_{(s)} + 6H+ + 2   e^-	 <=>	2Fe^{2+} + 3H2O	}&\cellcolor{red!75}+0.728	 \\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ti^{2+} + 2   e^-	 <=>	Ti_{(s)}	}&\cellcolor{red!5}-1.63& 	 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe^{3+} +e^-	 <=>	Fe^{2+}}&\cellcolor{red!75}+0.77	\\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ti^{3+} + 3e^-	 <=>	Ti_{(s)}	}&\cellcolor{red!5}-1.37	 & 						\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag+ +e^-	 <=>	Ag_{(s)}	}&\cellcolor{red!75}+0.80	 \\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	TiO_{(s)} + 2H+ + 2   e^-	 <=>	Ti_{(s)} + H2O	}&\cellcolor{red!5}-1.31	& 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	Hg_2^{2+} + 2   e^-	 <=>	2Hg(l)	}&\cellcolor{red!75}+0.80	\\ 
+Mn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mn^{2+} + 2   e^-	 <=>	Mn_{(s)}	}&\cellcolor{red!5}-1.18	 & 					\cellcolor{red!75}N&\cellcolor{red!75}\ce{	NO_3^-_{(aq)} + 2H+ +e^-	 <=>	NO2_{(g)} + H2O	}&\cellcolor{red!75}+0.80	\\ 
+V\cellcolor{red!5}&\cellcolor{red!5}\ce{	V^{2+} + 2   e^-	 <=>	V_{(s)}	}&\cellcolor{red!5}-1.13	 & 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	2FeO2^{2-} + 5H2O + 6e^-	 <=>	Fe2O3_{(s)} + 10OH-	}&\cellcolor{red!75}+0.81	\\  
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	TiO^{2+} + 2H+ + 4e^-	 <=>	Ti_{(s)} + H2O	}&\cellcolor{red!5}-0.93	& 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	Hg^{2+} + 2   e^-	 <=>	Hg(l)	}&\cellcolor{red!75}+0.85	\\ 
+Si\cellcolor{red!5}&\cellcolor{red!5}\ce{	SiO2_{(s)} + 4H+ + 4e^-	 <=>	Si_{(s)} + 2H2O	}&\cellcolor{red!5}-0.91& 			\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + H+ +e^-	 <=>	HMnO_4^-	}&\cellcolor{red!75}+0.90\\ 	
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe2O3_{(s)} + 3H2O + 2   e^-	 <=>	2Fe(OH)2_{(s)} + 2OH-	}&\cellcolor{red!5}-0.86	&  	\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	2Hg^{2+}  + 2   e^-	 <=>	Hg2^{2+} 	}&\cellcolor{red!75}+0.91	 \\ 
+H\cellcolor{red!5}&\cellcolor{red!5}\ce{	2H2O + 2   e^-	 <=>	H2_{(g)} + 2OH-	}&\cellcolor{red!5}-0.828	 & 				\cellcolor{red!75}Pd\cellcolor{red!75}&\cellcolor{red!75}\ce{	Pd^{2+}  + 2   e^-	 <=>	Pd_{(s)}	}&\cellcolor{red!75}+0.915	 \\ 
+Zn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Zn^{2+} + 2   e^-	 <=>	Zn_{(s)}	}&\cellcolor{red!5}-0.762	 & 					\cellcolor{red!75}N&\cellcolor{red!75}\ce{	NO_3^-_{(aq)} + 4H+ + 3e^-	 <=>	NO_{(g)} + 2H2O(l)	}&\cellcolor{red!75}+0.96	 \\ 
+Cr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cr^{3+} + 3e^-	 <=>	Cr_{(s)}	}&\cellcolor{red!5}-0.74	& 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe3O4_{(s)} + 8H+ + 2   e^-	 <=>	3Fe^{2+}  + 4H2O	}&\cellcolor{red!75}+0.98	\\  
+Ni\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ni(OH)2_{(s)} + 2   e^-	 <=>	Ni_{(s)} + 2OH-	}&\cellcolor{red!5}-0.72	&  			\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	Br2_{(aq)} + 2   e^-	 <=>	2Br-}&\cellcolor{red!75}+1.09	 \\ 
+Ag\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ag2S_{(s)} + 2   e^-	 <=>	2Ag_{(s)} + S2-_{(aq)}	}&\cellcolor{red!5}-0.69	& 		\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag2O_{(s)} + 2H+ + 2   e^-	 <=>	2Ag_{(s)} + H2O	}&\cellcolor{red!75}+1.17	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbO_{(s)} + H2O + 2   e^-	 <=>	Pb_{(s)} + 2OH-	}&\cellcolor{red!5}-0.58& 			\cellcolor{red!75}Pt&\cellcolor{red!75}\ce{	Pt^{2+} + 2   e^-	 <=>	Pt_{(s)}	}&\cellcolor{red!75}+1.188	 \\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe^{2+} + 2   e^-	 <=>	Fe_{(s)}}&\cellcolor{red!5}	-0.44	 & 						\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	ClO-4 + 2H+ + 2   e^-	 <=>	ClO_3^- + H2O	}&\cellcolor{red!75}+1.20	\\ 
+Cr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cr^{3+} +e^-	 <=>	Cr2+}&\cellcolor{red!5}-0.42	& 							\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 4H+ + 4e^-	 <=>	2H2O	}&\cellcolor{red!75}+1.229	 \\ 
+Cd\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cd^{2+} + 2   e^-	 <=>	Cd_{(s)}	}&\cellcolor{red!5}-0.40& 	 					\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	Cl_2_{(g)} + 2   e^-	 <=>	2Cl-}&\cellcolor{red!75}+1.36	 \\ 
+Cu\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cu2O_{(s)} + H2O + 2   e^-	 <=>	2Cu_{(s)} + 2OH-	}&\cellcolor{red!5}-0.36	&  	\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	BrO_3^- + 5H+ + 4e^-	 <=>	HBrO_{(aq)} + 2H2O	}&\cellcolor{red!75}+1.45	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbSO4_{(s)} + 2   e^-	 <=>	Pb_{(s)} + SO2-4	}&\cellcolor{red!5}-0.36	 & 		\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	2BrO^{3-} + 12H+ + 10e^-	 <=>	Br2(l) + 6H2O	}&\cellcolor{red!75}+1.48	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbSO4_{(s)} + 2   e^-	 <=>	Pb(Hg) + SO2-4	}&\cellcolor{red!5}-0.35	 & 		\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	2ClO^{3-} + 12H+ + 10e^-	 <=>	Cl2_{(g)} + 6H2O	}&\cellcolor{red!75}+1.49\\ 	
+Co\cellcolor{red!5}&\cellcolor{red!5}\ce{	Co^{2+} + 2   e^-	 <=>	Co_{(s)}	}&\cellcolor{red!5}-0.28	 & 					\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 8H+ + 5e^-	 <=>	Mn2+ + 4H2O	}&\cellcolor{red!75}+1.51	\\ 
+Ni\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ni^{2+} + 2   e^-	 <=>	Ni_{(s)}	}&\cellcolor{red!5}-0.25	& 					\cellcolor{red!75}Au&\cellcolor{red!75}\ce{	Au^{3+} + 3e^-	 <=>	Au_{(s)}	}&\cellcolor{red!75}+1.52	\\ 
+As\cellcolor{red!5}&\cellcolor{red!5}\ce{	As_{(s)} + 3H+ + 3e^-	 <=>	AsH3_{(g)}	}&\cellcolor{red!5}-0.23& 	 			\cellcolor{red!75}Pb&\cellcolor{red!75}\ce{	Pb^{4+} + 2   e^-	 <=>	Pb^{2+}}&\cellcolor{red!75}+1.69	 \\
+Ag\cellcolor{red!5}&\cellcolor{red!5}\ce{	AgI_{(s)} +e^-	 <=>	Ag_{(s)} + I-}&\cellcolor{red!5}-0.15& 	 					\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 4H+ + 3e^-	 <=>	MnO2_{(s)} + 2H2O	}&\cellcolor{red!75}+1.70\\	
+Sn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sn^{2+} + 2   e^-	 <=>	Sn_{(s)}	}&\cellcolor{red!5}-0.13	& 					\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O	}&\cellcolor{red!75}+1.77	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	Pb^{2+} + 2   e^-	 <=>	Pb_{(s)}	}&\cellcolor{red!5}-0.126	 & 					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	H2O2_{(aq)} + 2H+ + 2   e^-	 <=>	2H2O	}&\cellcolor{red!75}+1.78	\\ 
+C\cellcolor{red!5}&\cellcolor{red!5}\ce{	CO2_{(g)} + 2H+ + 2   e^-	 <=>	HCOOH_{(aq)}	}&\cellcolor{red!5}-0.11& 				\cellcolor{red!75}Au&\cellcolor{red!75}\ce{	Au+ +e^-	 <=>	Au_{(s)}	}&\cellcolor{red!75}+1.83	 \\ 
+C\cellcolor{red!5}&\cellcolor{red!5}\ce{	CO2_{(g)} + 2H+ + 2   e^-	 <=>	CO_{(g)} + H2O	}&\cellcolor{red!5}-0.11& 			\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag^{2+} +e^-	 <=>	Ag+}&\cellcolor{red!75}+1.98	 \\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe3O4_{(s)} + 8H+ + 8e^-	 <=>	3Fe_{(s)} + 4H2O	}&\cellcolor{red!5}-0.08	&  		\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	HMnO_4^- + 3H+ + 2   e^-	 <=>	MnO2_{(s)} + 2H2O	}	&\cellcolor{red!75}+2.09	\\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe^{3+} + 3e^-	 <=>	Fe_{(s)}	}&\cellcolor{red!5}-0.04	&  						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	FeO_2^{4-} + 8H+ + 3e^-	 <=>	Fe3+ + 4H2O	}			&\cellcolor{red!75}+2.20	 \\ 
+\tikzmark{end}   H\cellcolor{red!25}& \cellcolor{red!25} \ce{	2H+ + 2   e^-	 <=>	H2_{(g)}	}&  \cellcolor{red!25}0.00	& 	\cellcolor{red!75}F&\cellcolor{red!75}\ce{	F2_{(g)} + 2H+ + 2   e^-	 <=>	2HF_{(aq)} 	}&\cellcolor{red!75}+3.05	\\ 
+  \bottomrule
+\end{tabular}
+\begin{tikzpicture}[overlay,remember picture]
+    \draw[<-] let \p1=(start), \p2=(end) in [shift={(-1,0)}]($(\x1-3,\y1)+(0.8,.2)$) -- node[rotate=90, shift={(0.0,0.4)} ] {Increasing oxidizing strength (decreasing reducing strength)} ($(\x1-3,\y2)+(0.8,1)$);
+        \draw[<-] let \p1=(start), \p2=(end) in [shift={(22.5,0)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.6)} ] {Increasing oxidizing strength (decreasing reducing strength)} ($(\x1-3,\y2)+(0.8,0)$);
+
+  \end{tikzpicture}
+\end{adjustbox}\end{center}
+\end{minipage}
+

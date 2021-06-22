@@ -1,0 +1,35 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a semi-cell for the semi reaction below, indicate if the electrode is a solid-liquid electrode or gas-liquid electrode. Assume standard conditions:  
+  \begin{center}\ce{	Ni^{2+}_{(aq)} + 2   e^-	 <=>	Ni_{(s)}}	\end{center}
+ \end{question}
+\begin{solution}
+A solid-liquid electrode
+ \colorlet{ElectrodeSolution}{green!15}
+\colorlet{ElectrodeSolid}{blue!30}
+ \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+ \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Ni_{(s)}    }}}
+ \renewcommand{\ElectrodeSolutionlabel}{\small \ce{Ni^{2+}_{(aq)}, 1M}}
+ \begin{center}\begin{tikzpicture}[transform canvas={scale=.5}, shift={(-0cm,0)}]
+\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+\end{tikzpicture}\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a semi-cell for the semi reaction below, indicate if the electrode is a solid-liquid electrode or gas-liquid electrode. Assume standard conditions:  
+  \begin{center}\ce{	MnO_4^- + 8H+ + 5e^-	 <=>	Mn2+ + 4H2O	 	}	\end{center}
+ \end{question}
+\begin{solution}
+A solid-liquid electrode
+ \colorlet{ElectrodeSolution}{green!15}
+\colorlet{ElectrodeSolid}{blue!30}
+ \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+ \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Pt_{(s)}    }}}
+ \renewcommand{\ElectrodeSolutionlabel}{\small \ce{MnO4^{-}_{(aq)} + Mn^{2+}_{(aq)} + H^{+}_{(aq)}, 1M}}
+ \begin{center}\begin{tikzpicture}[transform canvas={scale=.5}, shift={(-0cm,0)}]
+\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+\end{tikzpicture}\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
