@@ -1,0 +1,58 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the line notation for the galvanic cell below:
+ \colorlet{batteryLeftElectrode}{red!75}
+ \colorlet{batteryRightElectrode}{green!75}
+ \colorlet{batteryLeftSolution}{blue!15}
+ \colorlet{batteryRightSolution}{green!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{ }}
+ \begin{center}\begin{tikzpicture}
+ \batterya{\small \ce{OH^-(1M)}}{\small \ce{Ba(OH)2} \\ \ce{+ Ba}}	{ }	{	 \small \ce{Ag^{2+}(1M)} + \ce{Ag^+(1M)} 	 }{0}{ }{ }{V}{0}    % 1 to the right
+  \end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}
+ \begin{center}\ce{Ba,\ce{Ba(OH)2} }\hspace{.02 in}|\hspace{.02 in} \ce{OH^{-}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Ag^{2+}}, \ce{Ag^{+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Pt}	\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the line notation for the galvanic cell below:
+ \colorlet{batteryLeftElectrode}{orange!75}
+ \colorlet{batteryRightElectrode}{red!75}
+ \colorlet{batteryLeftSolution}{orange!15}
+ \colorlet{batteryRightSolution}{red!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{Cl2}}
+ \begin{center}\begin{tikzpicture}
+ \batterya{\small \ce{Zn^{2+}(1M)}}{\small \ce{Zn} \\ \ce{ }}	{ }	{	 \small \ce{Cl^{-}(1M)}  	 }{0}{ }{ }{V}{0}    % 1 to the right
+  \end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}
+ \begin{center}\ce{Zn }\hspace{.02 in}|\hspace{.02 in} \ce{Zn^{2+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Cl^{-}} \text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Cl2}(1atm)\hspace{.02 in}|\hspace{.02 in}\ce{Pt}	\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the standard cell potential for the galvanic cell below:
+ \begin{center}\ce{Zn }\hspace{.02 in}|\hspace{.02 in} \ce{Zn^{2+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Cl^{-}} \text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Cl2}(1atm)\hspace{.02 in}|\hspace{.02 in}\ce{Pt}	\end{center}
+\end{question}
+\begin{solution}
+2.12V
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the standard cell potential for the galvanic cell below:
+ \begin{center}\ce{Fe }\hspace{.02 in}|\hspace{.02 in} \ce{Fe^{3+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{ HMnO_4^-(1M) + 3H+(1M) }  \hspace{.02 in}|\hspace{.02 in}\ce{MnO2}	\end{center}
+\end{question}
+\begin{solution}
+2.13V
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+ 

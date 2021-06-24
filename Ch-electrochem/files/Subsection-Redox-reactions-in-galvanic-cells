@@ -1,0 +1,15 @@
+ Let us now assume we have the following galvanic cell semi-reactions, in which we have identified the anode (the lowest standard reduction potential) and the cathode (the highest standard reduction potential):
+\begin{center}\ce{V^{2+}_{(aq)} + 2e^-	 <=>	V_{(s)} }\hfill $\mathcal{E}^{\circ}_{anode}=-$1.13V\\
+\ce{Au^{3+}_{(aq)} + 3e^-	 <=>	Au_{(s)} }\hfill $\mathcal{E}^{\circ}_{cathode}=+$1.52V\end{center}
+Let us obtain the overall redox reaction happening in the galvanic cell. We would have to invert the anodic reaction. We have to carry this operation as the oxidation--and not the reduction--happens in the anode and hence electrons need to be produced in the reaction and not consumed. At the same time, we have to switch the sign of the standard reduction potential of the anode:
+\begin{center}\ce{	V_{(s)} <=>	 V^{2+}_{(aq)} + 2e^-}\hfill -$\mathcal{E}^{\circ}_{anode}=+$1.13V\\
+\ce{Au^{3+}_{(aq)} + 3e^-	 <=>	Au_{(s)} }\hfill $\mathcal{E}^{\circ}_{cathode}=+$1.52V\end{center}
+Now we are almost ready to add up both reactions. Still, we need to make sure that the number of electrons produced is the same as the number of electrons consumed. In this case we would have to multiply the anodic reaction by three and the cathodic reaction by two:
+\begin{center}$3\times\Large($\ce{	V_{(s)}  <=>	 V^{2+}_{(aq)} + 2e^-}$\Large)$\hfill -$\mathcal{E}^{\circ}_{anode}=+$1.13V\\
+$2\times\Large($\ce{Au^{3+}_{(aq)} + 3e^-	 <=>	Au_{(s)} }$\Large)$\hfill $\mathcal{E}^{\circ}_{cathode}=+$1.52V\end{center}
+Adding both reactions we have:
+\begin{center}
+ \ce{	3V_{(s)} + 2Au^{3+}_{(aq)} + 6e^- <=>	 3V^{2+}_{(aq)} + 2Au_{(s)}+ 6e^-} \hfill -$\mathcal{E}^{\circ}_{anode}=$1.13+1.52=2.65V
+\end{center}
+Mind that if multiplying any of the semi-reactions by a number, the corresponding voltage should not be timed as well. This is because the electrodic voltage result from the differences between the oxidized and reduced species of the same element and not its stoichiometry.
+

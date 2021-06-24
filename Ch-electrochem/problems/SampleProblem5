@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the standard Gibbs free energy change $\Delta G^{\circ}$ for the following redox reaction:
+\begin{center}\ce{	2Au+   + Ni_{(s)}	 <=>	2Au_{(s)} + Ni^{2+}  	}\hfill  $\mathcal{E}^{\circ}_{cell}=$2.08V\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that in the reaction there is a flow of two moles of electrons. As we know the standard cell potential, we can easily calculate the value of $\Delta G^{\circ}$:
+\[-n_e\cdot F\cdot \mathcal{E}^{\circ}_{cell}= 2\cdot 9.6485\times 10^{4}\cdot 2.08=-401377J=-401.4KJ \]
+As the cell voltage is a positive property, $\Delta G^{\circ}$ should be negative. This means that the cell will produce electricity spontaneously.
+ \\ \import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

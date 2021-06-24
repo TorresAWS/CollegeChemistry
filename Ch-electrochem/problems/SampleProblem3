@@ -1,0 +1,46 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+We want to build up a galvanic cell based on the reactions below.  
+\begin{center}\ce{	NO_3^-_{(aq)} + 4H+ + 3e^-	 <=>	NO_{(g)} + 2H2O(l)  	}\hfill $\mathcal{E}^{\circ} =+$0.96V\\
+\ce{	Fe3O4_{(s)} + 8H+ + 8e^-	 <=>	3Fe_{(s)} + 4H2O	 }\hfill $\mathcal{E}^{\circ} =-$0.08V\end{center} 
+Indicate:
+\begin{inparaenum}[(a)]
+\item the anodic and cathodic reactions
+\item the balanced overall redox
+\item the number of electrons flowing 
+\item the overall voltage of the cell
+\item draw a diagram of the cell
+\end{inparaenum} \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have two electronic reactions. The first one results from the reduction of nitrate into nitrogen monoxide, with a standard reduction voltage of 0.96V. The second one results from the reduction of iron(III) oxide into metallic iron, with a standard reduction voltage of -0.08V. The reduction of nitrate would act as cathode--with higher voltage--whereas the oxidation of nitrogen monoxide would act as anode, with lower voltage. 
+\begin{center}\ce{	NO_3^-_{(aq)} + 4H+ + 3e^-	 <=>	NO_{(g)} + 2H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
+\ce{	Fe3O4_{(s)} + 8H+ + 8e^-	 <=>	3Fe_{(s)} + 4H2O	 }\hfill $\mathcal{E}^{\circ}_{anode} =-$0.08V\end{center}
+To balance the overall redox reaction we need to first invert the anodic reaction,
+ \begin{center}\ce{	NO_3^-_{(aq)} + 4H+ + 3e^-	 <=>	NO_{(g)} + 2H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
+\ce{		3Fe_{(s)} + 4H2O	 <=>	Fe3O4_{(s)} + 8H+ + 8e^- }\hfill -$\mathcal{E}^{\circ}_{anode} =+$0.08V\end{center}
+ then to multiply the first reaction by eight and the second reaction by three without altering the electronic voltages:
+  \begin{center}\ce{	8NO_3^-_{(aq)} + 23H+ + 24e^-	 <=>	8NO_{(g)} + 16H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
+\ce{		9Fe_{(s)} + 12H2O	 <=>	3Fe3O4_{(s)} + 24H+ + 24e^- }\hfill -$\mathcal{E}^{\circ}_{anode} =+$0.08V\end{center}
+Now we can add both reaction:
+  \begin{center}\ce{	8NO_3^-_{(aq)} + 23H+ + 24e^-	 <=>	8NO_{(g)} + 16H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
+\ce{		9Fe_{(s)} + 12H2O	 <=>	3Fe3O4_{(s)} + 24H+ + 24e^- }\hfill -$\mathcal{E}^{\circ}_{anode} =+$0.08V\end{center}
+ \rule{\textwidth}{0.4pt}
+ \ce{	8NO_3^-_{(aq)} + 23H+ 	+ 9Fe_{(s)} + 12H2O + 24e^- <=>	8NO_{(g)} +}\\
+\begin{flushright} \ce{ + 16H2O(l) +3Fe3O4_{(s)} + 24H+ + 24e^- 	}\hspace{0.5cm}$\mathcal{E}^{\circ}_{cell}$\end{flushright}
+ 
+We would have to remove water molecules as they appear in both sides and protons as well:
+ \ce{	8NO_3^-_{(aq)} +   	+ 9Fe_{(s)} +   + \Cancel{24e^-} <=>	8NO_{(g)} +}
+\begin{flushright} \ce{+ 4H2O_{(l)} +3Fe3O4_{(s)} +  H+_{(aq)} + \Cancel{24e^-} 	}\hspace{0.5cm} $\mathcal{E}^{\circ}_{cell}$ \end{flushright}
+ 
+ Overall there is 24 moles of electrons going through the cell. The overall voltage would be:
+ \[\mathcal{E}^{\circ}_{cell}=\mathcal{E}^{\circ}_{cathode}-\mathcal{E}^{\circ}_{anode}=\large(0.96\large)-\large(-0.08\large)=1.04V\]
+ The diagram of the cell is presented below:\\
+ %\colorlet{batteryLeftElectrode}{red!75}
+\colorlet{batteryRightElectrode}{green!75}
+\colorlet{batteryLeftSolution}{blue!15}
+\colorlet{batteryRightSolution}{green!15}
+\renewcommand{\Helectrodelabel}{\small \ce{NO}}
+\begin{center}\begin{tikzpicture}
+\batterya{\small \ce{H^{+}(1M)}}{\small \ce{Fe3O4} \\ \ce{+ Fe}}	{}	{\small \ce{NO3^{-}(1M), \ce{H^+}(1M)}}{0}{\Large $-$}{\Large $+$}{V}{0}    % 1 to the right
+ \end{tikzpicture}\end{center}
+  \import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
