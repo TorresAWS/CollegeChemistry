@@ -1,0 +1,13 @@
+ 
+We can also apply the Nernt's equation to a galvanic cell, for example the Daniell cell:
+\begin{center}\ce{Zn}\hspace{.02 in}|\hspace{.02 in} \ce{Zn^{2+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Cu^{2+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Cu}	\end{center}
+The redox reaction behind this cell oxidizes zinc and reduces copper, with a redox standard potential of 1.10V, with all concentrations fixed at 1M:
+\begin{center}\ce{	Zn_{(s)} + 2e^- + Cu^{2+}_{(aq)}(1M) -> Zn^{2+}_{(aq)}(1M) + Cu_{(s)} +2e^- }\hfill $\mathcal{E}^{\circ}_{cell}=+$1.10V\end{center}
+For nonstandard conditions we have that as Zinc is being oxidized its ionic concentration will increase, whereas as Copper is being reduced its concentration will decrease. One can envision the following scenario,
+\begin{center}\ce{	Zn_{(s)} + 2e^- + Cu^{2+}_{(aq)}(0.5M) -> Zn^{2+}_{(aq)}(1.5M) + Cu_{(s)} +2e^- }\hfill $\Delta \mathcal{E}_{cell}$ \end{center}
+Applying Nerns's equation at 298.15K we have:
+\[\Delta \mathcal{E}_{cell}= \Delta \mathcal{E}^{\circ}_{cell}-\frac{R\cdot T}{n_e\cdot F}\ln Q\]
+\[\Delta \mathcal{E}_{cell}= 1.10-\frac{8.314\cdot 298.15}{2\cdot 96485}\ln \frac{1.2}{0.8}=1.08V\]
+We have that as the galvanic cell is being consumed, the overall cell potential has decreased.
+For overall redox reactions behind galvanic cells involving a single ionic species in the anode and cathode, the anode molarity will be on the top side of $Q$ whereas the cathode molarity will be on the bottom:
+\[Q=\frac{\text{anode}}{\text{cathode}}\]
