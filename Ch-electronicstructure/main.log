@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUL 2021 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 JUL 2021 16:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5157,7 +5157,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(./problems/StudyCheck3) [2])
+(./problems/StudyCheck3)
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [2])
 (./files/SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-
 general-molecules) (./problems/SampleProblem4
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -5166,32 +5169,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
 (./problems/StudyCheck4) [3])
 (./files/SubSection-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecu
-le) (./problems/SampleProblem5 (./problems/StudyCheck5)
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
-
- []
-
-) (./files/SubSection-Electron-dot-structures-of-atoms-Multiple-bonds)
+le [4]) (./problems/SampleProblem5 (./problems/StudyCheck5))
+(./files/SubSection-Electron-dot-structures-of-atoms-Multiple-bonds)
 (./problems/SampleProblem6
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(./problems/StudyCheck6) [4]) (./files/SectionIntro-Molecular-shape)
+(./problems/StudyCheck6) [5]) (./files/SectionIntro-Molecular-shape)
 (./files/SubSection-Molecular-shape-ABE-Molecular-code
 
-LaTeX Warning: Reference `tab:{Ch-electronicstructure}0' on page 5 undefined on
+LaTeX Warning: Reference `tab:{Ch-electronicstructure}0' on page 6 undefined on
  input line 1.
 
 
-LaTeX Warning: Reference `tab:vsepr' on page 5 undefined on input line 1.
+LaTeX Warning: Reference `tab:vsepr' on page 6 undefined on input line 1.
 
 ) (./problems/SampleProblem7 (./problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) [5]) (./files/Table-Molecular-geometries
+) [6]) (./files/Table-Molecular-geometries
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5203,86 +5202,86 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 24.
-<../Ch-electronicstructure/geom1.png, id=200, 50.1875pt x 23.08624pt>
+<../Ch-electronicstructure/geom1.png, id=209, 50.1875pt x 23.08624pt>
 File: ../Ch-electronicstructure/geom1.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom1.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom1.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 23.35pt.
-<../Ch-electronicstructure/geom9.png, id=201, 1104.125pt x 602.25pt>
+<../Ch-electronicstructure/geom9.png, id=210, 1104.125pt x 602.25pt>
 File: ../Ch-electronicstructure/geom9.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom9.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom9.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.74487pt x 27.67902pt.
-<../Ch-electronicstructure/geom2.png, id=202, 50.1875pt x 44.165pt>
+<../Ch-electronicstructure/geom2.png, id=211, 50.1875pt x 44.165pt>
 File: ../Ch-electronicstructure/geom2.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom2.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom2.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 44.66962pt.
-<../Ch-electronicstructure/geom10.png, id=203, 1104.125pt x 808.01875pt>
+<../Ch-electronicstructure/geom10.png, id=212, 1104.125pt x 808.01875pt>
 File: ../Ch-electronicstructure/geom10.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom10.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom10.png  used on input li
 ne 24.
 (pdftex.def)             Requested size: 50.74487pt x 37.13602pt.
-<../Ch-electronicstructure/geom3.png, id=204, 50.1875pt x 34.1275pt>
+<../Ch-electronicstructure/geom3.png, id=213, 50.1875pt x 34.1275pt>
 File: ../Ch-electronicstructure/geom3.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom3.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom3.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom11.png, id=205, 1104.125pt x 509.905pt>
+<../Ch-electronicstructure/geom11.png, id=214, 1104.125pt x 509.905pt>
 File: ../Ch-electronicstructure/geom11.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom11.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom11.png  used on input li
 ne 24.
 (pdftex.def)             Requested size: 50.74487pt x 23.4349pt.
-<../Ch-electronicstructure/geom4.png, id=206, 50.1875pt x 50.1875pt>
+<../Ch-electronicstructure/geom4.png, id=215, 50.1875pt x 50.1875pt>
 File: ../Ch-electronicstructure/geom4.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom4.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom4.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 50.76094pt.
-<../Ch-electronicstructure/geom12.png, id=207, 1104.125pt x 894.34125pt>
+<../Ch-electronicstructure/geom12.png, id=216, 1104.125pt x 894.34125pt>
 File: ../Ch-electronicstructure/geom12.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom12.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom12.png  used on input li
 ne 24.
 (pdftex.def)             Requested size: 50.74487pt x 41.10335pt.
-<../Ch-electronicstructure/geom5.png, id=208, 50.1875pt x 40.15pt>
+<../Ch-electronicstructure/geom5.png, id=217, 50.1875pt x 40.15pt>
 File: ../Ch-electronicstructure/geom5.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom5.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom5.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 40.60875pt.
-<../Ch-electronicstructure/geom13.png, id=209, 1104.125pt x 798.985pt>
+<../Ch-electronicstructure/geom13.png, id=218, 1104.125pt x 798.985pt>
 File: ../Ch-electronicstructure/geom13.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom13.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom13.png  used on input li
 ne 24.
 (pdftex.def)             Requested size: 50.74487pt x 36.72083pt.
-<../Ch-electronicstructure/geom6.png, id=210, 50.1875pt x 34.1275pt>
+<../Ch-electronicstructure/geom6.png, id=219, 50.1875pt x 34.1275pt>
 File: ../Ch-electronicstructure/geom6.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom6.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom6.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom7.png, id=211, 50.1875pt x 57.21375pt>
+<../Ch-electronicstructure/geom7.png, id=220, 50.1875pt x 57.21375pt>
 File: ../Ch-electronicstructure/geom7.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom7.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom7.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 57.86746pt.
-<../Ch-electronicstructure/geom8.png, id=212, 50.1875pt x 53.19875pt>
+<../Ch-electronicstructure/geom8.png, id=221, 50.1875pt x 53.19875pt>
 File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom8.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom8.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 50.76094pt x 53.8066pt.
 ) (./files/SectionIntro-Polarity-of-molecules)
-(./files/SubSection-Polarity-of-molecules-Bond-polarity [6 <../Ch-electronicstr
+(./files/SubSection-Polarity-of-molecules-Bond-polarity [7 <../Ch-electronicstr
 ucture/geom1.png> <../Ch-electronicstructure/geom9.png> <../Ch-electronicstruct
 ure/geom2.png> <../Ch-electronicstructure/geom10.png> <../Ch-electronicstructur
 e/geom3.png> <../Ch-electronicstructure/geom11.png> <../Ch-electronicstructure/
@@ -5297,7 +5296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-) [7]) (./files/SubSection-Polarity-of-molecules-Polarity-and-mixing)
+) [8]) (./files/SubSection-Polarity-of-molecules-Polarity-and-mixing)
 (./files/Table-ABE-Code-hybridization
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -5329,19 +5328,19 @@ Overfull \hbox (34.15282pt too wide) in paragraph at lines 1--31
  []
 
 ) (./files/SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity)
-[8] (./files/SubSection-Polarity-of-molecules-Molecules-with-different-polarity
+[9] (./files/SubSection-Polarity-of-molecules-Molecules-with-different-polarity
 ) (./files/SectionIntro-Molecular-orbital-theory)
 (./files/SideFigure-CH4-hybrid)
 (./files/SubSection-Hybrid-orbitals-From-ABE--code-to-hybridization
 
-LaTeX Warning: Reference `tab:hybrid' on page 9 undefined on input line 1.
+LaTeX Warning: Reference `tab:hybrid' on page 10 undefined on input line 1.
 
 ) (./problems/SampleProblem9 (./problems/StudyCheck9
 Underfull \hbox (badness 10000) in paragraph at lines 5--1
 
  []
 
-) [9]) (./files/SectionIntro-Molecular-shape)
+) [10]) (./files/SectionIntro-Molecular-shape)
 (./files/SideFigure-Wave-interference-constructive
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 23.
@@ -5392,9 +5391,9 @@ Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
  []
 
 
-LaTeX Warning: Marginpar on page 10 moved.
+LaTeX Warning: Marginpar on page 11 moved.
 
-) (./files/SubSection-Molecular-orbital-theory-Sigma-and-pi-orbitals [10])
+) (./files/SubSection-Molecular-orbital-theory-Sigma-and-pi-orbitals [11])
 (./files/Figure-Pi-orbitals
 Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
  [] 
@@ -5404,7 +5403,7 @@ Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
 (./files/Figure-H2-molecular-orbitals
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11])
+ [12])
 (./files/SubSection-Molecular-orbital-theory-The-case-of-molecular-helium
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -5415,7 +5414,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 n) (./files/Figure-N2-orbital-diagram
 Underfull \vbox (badness 2894) has occurred while \output is active []
 
- [12])
+ [13])
 (./files/SubSection-Molecular-orbital-theory-Bond-order-of-a-MO-configuration)
 (./problems/SampleProblem10 (./problems/StudyCheck10
 Underfull \hbox (badness 3601) in paragraph at lines 2--1
@@ -5428,14 +5427,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) [13])
+) [14])
 (./files/SubSection-Molecular-orbital-theory-Paramagnetism-and-diamagnetism)
 (./problems/SampleProblem11 (./problems/StudyCheck11
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-))) (../Ch-electronicstructure/Ch-electronicstructureProblems.tex [14]
+))) (../Ch-electronicstructure/Ch-electronicstructureProblems.tex [15]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5490,7 +5489,7 @@ n-a-molecule) (./problems/problems/Problems-Molecular-shape-ABE-Molecular-code)
 (./problems/problems/Problems-Hybrid-orbitals-From-ABE--code-to-hybridization)
 (./problems/problems/Problems-Molecular-orbital)
 (./problems/problems/Problems-Molecular-orbital-theory-Paramagnetism-and-diamag
-netism) [15
+netism) [16
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5537,7 +5536,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 41--51
 []$[]$ 
  []
 
-[16
+[17
 
 ])
 
@@ -5573,18 +5572,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5393.
  ) 
 Here is how much of TeX's memory you used:
- 82268 strings out of 493014
- 1864463 string characters out of 6133351
- 2743026 words of memory out of 5000000
- 83652 multiletter control sequences out of 15000+600000
- 241952 words of font info for 302 fonts, out of 8000000 for 9000
+ 82482 strings out of 493014
+ 1868448 string characters out of 6133351
+ 2746164 words of memory out of 5000000
+ 83855 multiletter control sequences out of 15000+600000
+ 243298 words of font info for 307 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,20n,110p,10369b,2610s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+ 71i,22n,110p,10369b,2610s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
+onts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
 nc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
 wesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
@@ -5607,10 +5606,10 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (16 pages, 1219476 bytes).
+Output written on main.pdf (17 pages, 1227927 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 123 named destinations out of 1000 (max. 500000)
+ 476 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 128 named destinations out of 1000 (max. 500000)
  65029 words of extra memory for PDF output out of 74296 (max. 10000000)
 

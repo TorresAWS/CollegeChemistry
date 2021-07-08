@@ -1,1 +1,24 @@
-In order to build up the electron-dot structures of a molecule you needs to count the number of valence electrons. Each atom bring a different number of valence electrons to a molecule. For example, H brings one whereas O brings two. When you arrange the electron pairs in the molecule, each atoms should have the number of electrons that they bring. For example in this electron-dot structure \lewis{0:,H}\hspace{.05in}\lewis{0:2:6:,Cl}\hspace{.05in} the hydrogen atom brings one electrons to the molecule, and in the molecule the atom owns one electrons, as in \lewis{0:,H}\hspace{.05in}  one of the dots belong to \ce{H} and the other belongs to the \ce{Cl}--the electrons are shared in a covalent bond. In the same way, the \ce{Cl} atom brings seven electrons and in the molecule it owns seven electrons, and has six electrons here \lewis{0:2:6:,Cl}\hspace{.05in} plus the one that shared with the hydrogen atom. In another words, the \lewis{0:,H}\hspace{.05in}\lewis{0:2:6:,Cl}\hspace{.05in} electron-dot structure is the combination of \lewis{0.,H}\hspace{.05in} and \hspace{.05in}\lewis{0:2:4.6:,Cl}\hspace{.05in}. We say that the charges on each atom are zero, as each atom in the molecule owns the same number of electrons that it originally brings.
+In order to build up the electron-dot structures of a molecule you needs to count the overall number of valence electrons of the molecule given that each atom brings a different number of valence electrons. For example, 2 H atoms brings one electron each, whereas \ce{O} brings two electrons that gives a total of six electrons for water. When you arrange the electron pairs in the molecule, each atoms should be surrounded by the number of electrons that they bring. For example, in the electron-dot structure below
+\setbondoffset{4pt} 
+\setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2:4.6.,\color{blue}}(N@{a}) ( (-[:0 ]\lewis{4.,H})(-[:180 ]\lewis{0.,H})(-[:270 ]\lewis{2.,H}))} \end{center}
+ \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (a) {};}\setbondoffset{2pt}
+the central atom, nitrogen, has a five valence electrons. After counting the electrons surrounding nitrogen--remember in a bond each atom shared an electron and hence each line around an atom counts as one electron--we find that this atoms is surrounded by five electrons. As the number of valence electrons brought to the molecule is the same as the number of electrons surrounding the atom, we say the atomic charge of this atom is zero (Q=0). Hence, the atoms is neutral.
+In this next example, 
+\setbondoffset{4pt} 
+\setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2.4.6.,\color{blue}}(N@{b}) ( (-[:0 ]\lewis{4.,H})(-[:90 ]\lewis{6.,H})(-[:180 ]\lewis{0.,H})(-[:270 ]\lewis{2.,H}))} \end{center}
+ \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (b) {};}\setbondoffset{2pt}
+the central atom, nitrogen, still has a five valence electrons. After counting the electrons surrounding nitrogen, this time we find that this atoms is surrounded by four electrons, less than the number of electrons originally brought to the molecule. We conclude that the atoms has positive charge. In particular, the effective atomic charge of nitrogen in this molecule is the number of valence electrons menus the number of surrounding electrons. In this case, the atomic charge is Q=+1.
+In this last example, 
+\setbondoffset{4pt} 
+\setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2:4.6:,\color{blue}}(N@{c}) ( (-[:0 ]\lewis{4.,H}) (-[:180 ]\lewis{0.,H}) )} \end{center}
+ \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (c) {};}\setbondoffset{2pt}
+The number of electrons surrounding nitrogen is six electrons, more than the number of electrons originally brought to the molecule. We conclude that the atoms has negative charge, and the effective atomic charge of nitrogen is Q=-1.
+In all the molecules above, hydrogen remains neutral and hence the atomic charge of nitrogen corresponds to the molecular charge of the molecule. We can hence summarize the three scenarios indicated, as we have a neutral molecule on the center, a positive molecule on the right and a negative molecule on the left.
+ \begin{center}
+ \setatomsep{2.25em}
+\chemleft[\chemfig{\lewis{2:6:,\color{blue}}(N ) ( (-[:0 ]H) (-[:180 ]H) )} \chemright] \chemmove{\node[] at (0pt,15pt) {\footnotesize $ -$};} \hspace{.8cm}
+  \chemfig{\lewis{2:,\color{blue}}(N ) ( (-[:0 ]H)(-[:180 ]H)(-[:270 ]H))}
+\hspace{.8cm}
+  \chemleft[ \chemfig{\lewis{,\color{blue}}(N ) ( (-[:0 ]H)(-[:90 ]H)(-[:180 ]H)(-[:270 ]H))} \chemright] \chemmove{\node[] at (0pt,19pt) {\footnotesize $ +$};}
+\end{center}
+\setlewis[1em]{2pt}{1.5ex}{}
