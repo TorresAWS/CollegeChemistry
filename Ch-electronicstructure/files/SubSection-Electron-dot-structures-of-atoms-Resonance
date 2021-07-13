@@ -1,0 +1,25 @@
+Often there are several equivalent lewis structures for the same molecule. These structures do not depend on the atomic connection but the electron distribution. For these situations, we say there is resonance between the different structures. Resonance exists on the sulfate ion, which resonant structures are presented below.
+     \begin{fullwidth}\begin{center}
+   \schemestart 
+  % \chemleft[\hspace{.4cm}\chemfig{\chemabove{S}{\hspace{.5cm}2\oplus }	(	(-[:0]\chemabove{\lewis{026,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:180]\chemabove{\lewis{246,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+ %  \arrow{<->}
+   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:0]\lewis{17,{\color{red}O}} )	(=[:90] \lewis{13,{\color{red}O}} )	(-[:180]\chemabove{\lewis{246,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+\arrow{<->}
+   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:0]\lewis{17,{\color{red}O}} )	(=[:180] \lewis{35,{\color{red}O}} )	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+\arrow{<->}
+   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:0]\lewis{17,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:180]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+\arrow{<->}
+   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:180] \lewis{35,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+     \schemestop\par
+ \end{center}  
+\bigskip 
+%\begin{flushleft}
+% \schemestart 
+%\arrow{<->}
+ %  \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:180]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+ %\schemestop\par\end{flushleft}
+\end{fullwidth}
+
+  
+
+%\chemabove{\lewis{026,N} }{\hspace{.9cm}2\ominus } \hspace{-.1cm}
