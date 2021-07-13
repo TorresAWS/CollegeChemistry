@@ -10,7 +10,7 @@
     \draw[elmove=left] (e2) ..controls +(45:2cm) and +(-45:1cm) .. (e1) ;
       \draw[elmove=left]   (e1) ..controls +(45:1cm) and +(-45:2cm) .. (e2) ;
   }\end{center}\vspace{.5cm}
-Another example would be the combination of \ce{Na^{+}} and \ce{O^{2-}} that would be \ce{Na2O}. You need to simplify the indexes of the formula by diving by the smallest one, always using integer values. For example,  \ce{Mg^{2+}} and \ce{O^{2-}} give  \ce{Mg2O2} that should be written as \ce{MgO}
+Another example would be the combination of \ce{Na^{+}} and \ce{O^{2-}} that would be \ce{Na2O}. You need to simplify the indexes of the formula by dividing by the smallest one, always using integer values. For example,  \ce{Mg^{2+}} and \ce{O^{2-}} give  \ce{Mg2O2} that should be written as \ce{MgO}
 \vspace{.5cm}\begin{center}
   \schemestart
     \chemfig{@{f1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{@{f2}O^{2-}}   \arrow \ce{Mg_{\cancel{2}}O_{\cancel{2}}} \arrow  \ce{MgO} 

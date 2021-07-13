@@ -2,7 +2,7 @@
  \begin{namingbox} {}
   \ce{CaCl2}\hfill calcium chloride 	\hfill   \ce{LiO2} \hfill lithium oxide  \\
 \end{namingbox}
-In order to formulate an ionic compound based on a name, we need to combine both ions by exchanging the valences (the ionic charges). For example,\ce{MgCl_2} results of the combination of \ce{Mg^{2+}} and \ce{Cl^{-}} so that the number 2 in \ce{MgCl_2} near the Cl atom is coming from the \ce{Mg^{2+}}. In other words:
+In order to formulate an ionic compound based on a name, we need to combine both ions by exchanging the valences (the ionic charges). For example,\ce{MgCl_2} results from the combination of \ce{Mg^{2+}} and \ce{Cl^{-}} so that the number 2 in \ce{MgCl_2} near the Cl atom is coming from the \ce{Mg^{2+}}. In other words:
 \vspace{.5cm}\begin{center}
   \schemestart
     \chemfig{@{d1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{2@{d2}Cl^{-}}   \arrow \ce{MgCl2}
