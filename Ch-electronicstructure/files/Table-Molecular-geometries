@@ -1,5 +1,6 @@
 \begin{fullwidth}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Tab:{\chapterlabel}\thefigurenewcounter}\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+%\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Tab:{\chapterlabel}\thefigurenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllll}

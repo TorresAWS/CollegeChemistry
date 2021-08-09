@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Obtain the Lewis structure of \ce{I3^-}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 
+\schemestart 
+    \chemleft[\hspace{.4cm}\chemfig[  remember picture]{\lewis{136,CI} ( (-[:0 ]\lewis{026,I}) (-[:180 ]\lewis{246,I})	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $-$};}
+ \schemestop
+ \end{flushright} }

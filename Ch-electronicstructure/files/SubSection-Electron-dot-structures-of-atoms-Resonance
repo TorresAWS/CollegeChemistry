@@ -1,5 +1,10 @@
-Often there are several equivalent lewis structures for the same molecule. These structures do not depend on the atomic connection but the electron distribution. For these situations, we say there is resonance between the different structures. Resonance exists on the sulfate ion, which resonant structures are presented below.
-     \begin{fullwidth}\begin{center}
+Let us analyze the Lewis structure of the sulfate ion, \ce{SO4^{-2}}. The goal is to analyze the Lewis structure in order to gain insight into the bonding state of the molecule, with an emphasis on the \ce{S-O} bond length. The total number of electrons in the ion is 32, which corresponds to 16 pairs. We will first set up the atomic structure of the ion, using sulfur as a central atom and connect the central atom to the surrounding oxygens using four pairs of electrons. Still we have pairs of electrons that will be localized as lone pairs on the oxygen atoms given the structure below:
+\begin{center}\schemestart 
+    \chemleft[\hspace{.4cm}\chemfig{\chemabove{S}{\hspace{.5cm}2\oplus }	(	(-[:0]\chemabove{\lewis{026,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:180]\chemabove{\lewis{246,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+ \schemestop\end{center}
+The structure above is a valid Lewis structure. However, it does not accurately represent the bonding of the sulfate ion, as the formal charges are very high: the formal charge of S is $+2$ and the formal charge of each O is $-1$, giving the overall ionic charge of $-2$. All oxygen atoms and sulfur follow the octet rule. Still, the charge on sulfur can be minimized by moving two lone pairs into a bond. There are several ways to do this movement. Indeed there is no reason to choose a particular oxygen atom to generate a double bond. In particular, one can think of six equivalent but yet different Lewis structures listed below:\newpage
+   \vspace{.5cm}\hspace{-8cm}  \begin{fullwidth}
+\begin{center}
    \schemestart 
   % \chemleft[\hspace{.4cm}\chemfig{\chemabove{S}{\hspace{.5cm}2\oplus }	(	(-[:0]\chemabove{\lewis{026,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus })	(-[:180]\chemabove{\lewis{246,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
  %  \arrow{<->}
@@ -9,17 +14,27 @@ Often there are several equivalent lewis structures for the same molecule. These
 \arrow{<->}
    \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:0]\lewis{17,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{-.9cm}2\ominus } )	(-[:180]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
 \arrow{<->}
-   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:180] \lewis{35,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
-     \schemestop\par
- \end{center}  
-\bigskip 
-%\begin{flushleft}
-% \schemestart 
-%\arrow{<->}
- %  \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:180]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
- %\schemestop\par\end{flushleft}
-\end{fullwidth}
-
+   \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:180] \lewis{35,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:270]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};} 
+\schemestop
+ \end{center}
+\vspace{.5cm}
+\begin{flushright}\schemestart 
+  \fboxsep=1cm
+  \bigskip \bigskip
+\arrow{<->}
+    \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:90]\lewis{13,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:0]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:180]\chembelow{\lewis{046,{\color{red}O}}}{\hspace{ -.9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+\arrow{<->}
+    \chemleft[\hspace{.4cm}\chemfig{S	(	(=[:180]\lewis{35,{\color{red}O}} )	(=[:270] \lewis{57,{\color{red}O}} )	(-[:90]\chemabove{\lewis{024,{\color{red}O}}}{\hspace{.9cm}2\ominus } )	(-[:0]\chembelow{\lewis{026,{\color{red}O}}}{\hspace{ .9cm}2\ominus } )	)}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,25pt) {\footnotesize $2-$};}
+    \schemestop \end{flushright}
   
+ 
+ 
+\end{fullwidth}
+Often there are several equivalent lewis structures for the same molecule. These structures do not differ on the atomic connections but the electron distribution. For these situations, we say there is resonance between the different structures. Resonance exists on the sulfate ion, hence the bonds are neither single nor double, all S-O bonds are equivalent, with equivalent length. The arrows above indicate that all structures are equivalent, and it does not represent any type of equilibrium. The concept of resonance is in contrast with the assumption of the Lewis structures which are based on a localized bond model: molecules contain localized bonds and lone pairs. However, this model is less than perfect and hoes against the quantum nature of the electron in which electrons exist in a delocalized state. The existence of resonance has other strong consequences. Molecules with numerous resonant structures are stabilized by resonance. This means they are more stable than equivalent molecules without resonance. For example, benzene--a molecule with 15 pairs of electrons--is a very stable molecule with two resonant structures which stabilize its structure.
+\begin{center}
+   \schemestart 
+\chemfig{C*6((-H)-C(-H)=C(-H)-C(-H)=C(-H)-C(-H)=)}	\arrow{<->}	\chemfig{C*6((-H)=C(-H)-C(-H)=C(-H)-C(-H)=C(-H)-)}
+  \schemestop\par
+ \end{center} 
 
-%\chemabove{\lewis{026,N} }{\hspace{.9cm}2\ominus } \hspace{-.1cm}
+ 
