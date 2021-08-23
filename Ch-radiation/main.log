@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 APR 2021 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 19:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5056,7 +5056,7 @@ Package microtype Info: Loading generic settings for font family
 (../Ch-radiation/Ch-radiation.tex
 \Axis=\box296
 \Axisb=\box297
- (./files/ChapterName
+ (../Ch-radiation/files/ChapterName
 Chapter 1.
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
@@ -5085,7 +5085,8 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 22.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro) (./files/SectionGoal-The-nature-of-light
+(../Ch-radiation/files/ChapterIntro)
+(../Ch-radiation/files/SectionGoal-The-nature-of-light
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/8 (+20) Compute fre-quency, wave-
  []
@@ -5095,21 +5096,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 \T1/ptm/m/n/8 (+20) length and the en-ergy of
  []
 
-) (./files/SectionGoal-The-atomic-line-spectra-Energy-levels-of-hydrogen)
-(./files/SectionGoal-The-atomic-line-spectra-Transition-energies)
-(./files/SectionGoal-Electronic-configuration-Full-electron-Configuration
+)
+(../Ch-radiation/files/SectionGoal-The-atomic-line-spectra-Energy-levels-of-hyd
+rogen)
+(../Ch-radiation/files/SectionGoal-The-atomic-line-spectra-Transition-energies)
+
+(../Ch-radiation/files/SectionGoal-Electronic-configuration-Full-electron-Confi
+guration
 Underfull \hbox (badness 6204) in paragraph at lines 1--2
 []\T1/ptm/m/n/8 (+20) Obtain elec-tronic con-fig-u-ra-
  []
 
-) (./files/SectionGoal-Periodic-Trends)
+) (../Ch-radiation/files/SectionGoal-Periodic-Trends)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 43.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-(./files/ChapterDiscussion
+(../Ch-radiation/files/ChapterDiscussion
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5130,7 +5135,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-(./files/Quote-Schrodinger
+(../Ch-radiation/files/Quote-Schrodinger
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-LF on i
 nput line 2.
 
@@ -5148,12 +5153,12 @@ Package microtype Info: Loading generic settings for font family
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-) (./files/SectionIntro-The-nature-of-light)
+) (../Ch-radiation/files/SectionIntro-The-nature-of-light)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 64.
 
-(./files/SubSection-The-nature-of-light-Light-as-a-wave)
-(./files/Figure-Properties-of-waves
+(../Ch-radiation/files/SubSection-The-nature-of-light-Light-as-a-wave)
+(../Ch-radiation/files/Figure-Properties-of-waves
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5171,24 +5176,26 @@ Overfull \hbox (20.84213pt too wide) in paragraph at lines 26--26
  [] 
  []
 
-) (./files/SubSection-The-nature-of-light-Frequency-and-energy [1
+) (../Ch-radiation/files/SubSection-The-nature-of-light-Frequency-and-energy
+[1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-r
-adiation/figure1.png (PNG copy)>]) (./files/SubSection-The-nature-of-light-The-
-speed-of-light [2]) (./files/SubSection-The-nature-of-light-Wavelength-and-ener
-gy)
-(./problems/SampleProblem1 (./problems/StudyCheck1
+adiation/figure1.png (PNG copy)>])
+(../Ch-radiation/files/SubSection-The-nature-of-light-The-speed-of-light
+[2])
+(../Ch-radiation/files/SubSection-The-nature-of-light-Wavelength-and-energy)
+(../Ch-radiation/problems/SampleProblem1 (../Ch-radiation/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/SubSection-The-nature-of-light-The-electromagnetic-spectrum-of-lig
-ht
-[3]) (./files/Figure-Electromagnetic-field)
-(./files/SubSection-The-nature-of-light-The-double-slit-experiment-light-diffra
-ction) (./files/Figure-Double-slit
+)))
+(../Ch-radiation/files/SubSection-The-nature-of-light-The-electromagnetic-spect
+rum-of-light [3]) (../Ch-radiation/files/Figure-Electromagnetic-field)
+(../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
+t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
 <../Ch-radiation/figure1-9.png, id=172, 525.965pt x 104.39pt>
 File: ../Ch-radiation/figure1-9.png Graphic file (type png)
 <use ../Ch-radiation/figure1-9.png>
@@ -5199,7 +5206,7 @@ Overfull \hbox (23.01772pt too wide) in paragraph at lines 81--81
  [] 
  []
 
-) (./files/Figure-waves-and-life
+) (../Ch-radiation/files/Figure-waves-and-life
 <../Ch-radiation/figure1-17.png, id=175, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-17.png Graphic file (type png)
 <use ../Ch-radiation/figure1-17.png>
@@ -5216,7 +5223,8 @@ File: ../Ch-radiation/figure1-19.png Graphic file (type png)
 Package pdftex.def Info: ../Ch-radiation/figure1-19.png  used on input line 12.
 
 (pdftex.def)             Requested size: 113.80853pt x 85.24654pt.
-) (./files/Table-Types-and-Color-or-radiation
+)
+(../Ch-radiation/files/Table-Types-and-Color-or-radiation
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5230,8 +5238,9 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 [4 <../Ch-radiation/figure1-9.png> <../Ch-radiation/figure1-17.png (PNG copy)> 
 <../Ch-radiation/figure1-18.png (PNG copy)> <../Ch-radiation/figure1-19.png (PN
-G copy)>]) (./files/SubSection-The-nature-of-light-Types-and-color-of-radiation
-) (./files/Figure-Electromagnetic-spectra
+G copy)>])
+(../Ch-radiation/files/SubSection-The-nature-of-light-Types-and-color-of-radiat
+ion) (../Ch-radiation/files/Figure-Electromagnetic-spectra
 Underfull \hbox (badness 6708) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Depending on its frequency--or on its
  []
@@ -5297,12 +5306,13 @@ File: ../Ch-radiation/figure1-15.png Graphic file (type png)
 Package pdftex.def Info: ../Ch-radiation/figure1-15.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.54881pt x 380.17166pt.
-) (./problems/SampleProblem2 (./problems/StudyCheck2) [5 <../Ch-radiation/figur
-e1-10.png (PNG copy)> <../Ch-radiation/figure1-14.png (PNG copy)> <../Ch-radiat
-ion/figure1-13.png (PNG copy)> <../Ch-radiation/figure1-12.png (PNG copy)> <../
-Ch-radiation/figure1-16.png> <../Ch-radiation/figure1-15.png (PNG copy)>])
-(./files/SubSection-The-nature-of-light-Electron-Volt-a-new-unit-of-energy)
-(./files/Figure-Photoelectric-effect
+) (../Ch-radiation/problems/SampleProblem2
+(../Ch-radiation/problems/StudyCheck2) [5 <../Ch-radiation/figure1-10.png (PNG 
+copy)> <../Ch-radiation/figure1-14.png (PNG copy)> <../Ch-radiation/figure1-13.
+png (PNG copy)> <../Ch-radiation/figure1-12.png (PNG copy)> <../Ch-radiation/fi
+gure1-16.png> <../Ch-radiation/figure1-15.png (PNG copy)>])
+(../Ch-radiation/files/SubSection-The-nature-of-light-Electron-Volt-a-new-unit-
+of-energy) (../Ch-radiation/files/Figure-Photoelectric-effect
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5317,7 +5327,7 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 50--50
  [] 
  []
 
-) (./files/Table-Workfunctions
+) (../Ch-radiation/files/Table-Workfunctions
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 25.
@@ -5328,11 +5338,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 25.
 
-) (./files/SubSection-The-nature-of-light-The-photoelectric-effect [6])
-(./problems/SampleProblem3 (./problems/StudyCheck3)) [7]
-(./files/SectionIntro-The-atomic-line-spectra)
-(./files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
-(./files/Figure-Atomic-spectrum
+)
+(../Ch-radiation/files/SubSection-The-nature-of-light-The-photoelectric-effect
+[6]) (../Ch-radiation/problems/SampleProblem3
+(../Ch-radiation/problems/StudyCheck3)) [7]
+(../Ch-radiation/files/SectionIntro-The-atomic-line-spectra)
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
+(../Ch-radiation/files/Figure-Atomic-spectrum
 <../Ch-radiation/figure1-21.png, id=237, 1077.626pt x 497.057pt>
 File: ../Ch-radiation/figure1-21.png Graphic file (type png)
 <use ../Ch-radiation/figure1-21.png>
@@ -5344,10 +5356,11 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 5--5
  []
 
 )
-(./files/SubSection-The-atomic-line-spectra-The-atomic-line-spectraAtomic-line-
-spectrum-of-hydrogen)
-(./files/SubSection-The-atomic-line-spectra-The-Bohr-model [8 <../Ch-radiation/
-figure1-21.png>]) (./files/Figure-Spectrum-of-hydrogen
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-atomic-line-spect
+raAtomic-line-spectrum-of-hydrogen)
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-Bohr-model
+[8 <../Ch-radiation/figure1-21.png>])
+(../Ch-radiation/files/Figure-Spectrum-of-hydrogen
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <52> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5364,11 +5377,13 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 185--185
  [] 
  []
 
-) (./files/SubSection-The-atomic-line-spectra-Energy-levels-of-hydrogen)
-(./files/Figure-Energy-levels-of-hydrogen
+)
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-Energy-levels-of-hydr
+ogen) (../Ch-radiation/files/Figure-Energy-levels-of-hydrogen
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [9 <../Ch-radiation/figure1-20.png>]) (./files/Table-Hydrogen-series
+ [9 <../Ch-radiation/figure1-20.png>]) (../Ch-radiation/files/Table-Hydrogen-se
+ries
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 21.
@@ -5378,8 +5393,8 @@ Overfull \hbox (28.12215pt too wide) in paragraph at lines 1--22
 [] 
  []
 
-) (./files/SubSection-The-atomic-line-spectra-Transition-energies)
-(./files/Figure-Energy-transitions
+) (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Transition-energies
+) (../Ch-radiation/files/Figure-Energy-transitions
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 28.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -5394,17 +5409,20 @@ Overfull \hbox (12.01175pt too wide) in paragraph at lines 3--28
  []
 
 )
-(./files/SubSection-The-atomic-line-spectra-Bohn's-formula-for-energy-transitio
-ns [10]) (./problems/SampleProblem4 (./problems/StudyCheck4)) [11]
-(./files/Figure-Debroglie
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-Bohn's-formula-for-en
+ergy-transitions [10]) (../Ch-radiation/problems/SampleProblem4
+(../Ch-radiation/problems/StudyCheck4)) [11]
+(../Ch-radiation/files/Figure-Debroglie
 Overfull \hbox (253.77364pt too wide) in paragraph at lines 5--40
 [][] 
  []
 
-) (./files/SubSection-The-atomic-line-spectra-The-wave-properties-of-matter)
-(./problems/SampleProblem5 (./problems/StudyCheck5))
-(./files/SubSection-The-atomic-line-spectra-Electron-diffraction [12])
-(./files/Figure-Diffraction-patterns
+)
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-wave-properties-o
+f-matter) (../Ch-radiation/problems/SampleProblem5
+(../Ch-radiation/problems/StudyCheck5))
+(../Ch-radiation/files/SubSection-The-atomic-line-spectra-Electron-diffraction
+[12]) (../Ch-radiation/files/Figure-Diffraction-patterns
 <../Ch-radiation/figure1-22.png, id=281, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-22.png Graphic file (type png)
 <use ../Ch-radiation/figure1-22.png>
@@ -5421,23 +5439,26 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 11--108
  []
 
 
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-The-uncertainty-
-principle) (./problems/SampleProblem7 (./problems/StudyCheck7)) [13 <../Ch-radi
-ation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png (PNG copy)>]
-(./files/SectionIntro-Quantum-mechanics-and-electronic-structure)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Quantized-energy
--and-continuum-energy)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-The-Schrordinger
-)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-The-wave-functio
-n:-orbitals [14])
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Orbitals-are-des
-cribed-by-three-quantum-numbers) (./files/SideFigure-spd-orbital-table
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
+e-uncertainty-principle) (../Ch-radiation/problems/SampleProblem7
+(../Ch-radiation/problems/StudyCheck7)) [13 <../Ch-radiation/figure1-22.png (PN
+G copy)> <../Ch-radiation/figure1-23.png (PNG copy)>]
+(../Ch-radiation/files/SectionIntro-Quantum-mechanics-and-electronic-structure)
+
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Qu
+antized-energy-and-continuum-energy)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
+e-Schrordinger)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
+e-wave-function:-orbitals [14])
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
+bitals-are-described-by-three-quantum-numbers)
+(../Ch-radiation/files/SideFigure-spd-orbital-table
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 27.
 
-) (./files/SideFigure-Quantum-numbers-table
+) (../Ch-radiation/files/SideFigure-Quantum-numbers-table
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 33.
@@ -5455,14 +5476,16 @@ Overfull \hbox (14.06436pt too wide) in paragraph at lines 13--34
 LaTeX Warning: Marginpar on page 15 moved.
 
 )
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Principal-quantu
-m-number-n)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Angular-quantum-
-number-l)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Magnetic-quantum
--number-ml)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-A-fourth-quantum
--number:-the-spin-ms [15]) (./problems/SampleProblem6 (./problems/StudyCheck6)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Pr
+incipal-quantum-number-n)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-An
+gular-quantum-number-l)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Ma
+gnetic-quantum-number-ml)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-A-
+fourth-quantum-number:-the-spin-ms [15])
+(../Ch-radiation/problems/SampleProblem6 (../Ch-radiation/problems/StudyCheck6)
+
 Underfull \hbox (badness 1062) in paragraph at lines 2--28
 []\T1/ptm/m/n/10 (+20) Indicate if the fol-low-ing com-bi-na-tion of quan-tum n
 um-bers is al-lowed:
@@ -5480,20 +5503,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--28
  []
 
 )
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Shells-and-subsh
-ells-(or-levels-and-sublevels))
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Orbital-labels)
-[16] (./files/Figure-Shell-and-subshell)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Different-orbita
-ls-plots)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-s-orbitals)
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-p-orbitals)
-(./files/Figure-Orbitals-sp
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Sh
+ells-and-subshells-(or-levels-and-sublevels))
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
+bital-labels) [16] (../Ch-radiation/files/Figure-Shell-and-subshell)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Di
+fferent-orbitals-plots)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-s-
+orbitals)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-p-
+orbitals) (../Ch-radiation/files/Figure-Orbitals-sp
 Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
  [] 
  []
 
-) (./files/Figure-Radial-distribution
+) (../Ch-radiation/files/Figure-Radial-distribution
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -5515,25 +5539,27 @@ Overfull \hbox (101.5079pt too wide) in paragraph at lines 2--143
  []
 
 [17])
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-d-and-f-orbitals
-) (./files/Figure-Orbitals-d
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-d-
+and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d
 Overfull \hbox (23.70767pt too wide) in paragraph at lines 49--49
  [] 
  []
 
 )
-(./files/SubSection-Quantum-mechanics-and-electronic-structure-Energies-of-orbi
-tals) (./files/Figure-Energy-levels-and-orbitals)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-En
+ergies-of-orbitals) (../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
 Underfull \hbox (badness 10000) in paragraph at lines 2--148
 
  []
 
-[18] (./files/SectionIntro-Electronic-configuration-of-an-atom)
-(./files/SubSection-Electronic-configuration-Electron-energy-levels-and-subleve
-ls) (./problems/SampleProblem8 (./problems/StudyCheck8) [19])
-(./files/SubSection-Electronic-configuration-The-Pauli-exclusion-principle)
-(./files/SubSection-Electronic-configuration-Orbital-Filling-the-aufbau-princip
-le) (./files/SideFigure-Orbital-filling-diagram
+[18] (../Ch-radiation/files/SectionIntro-Electronic-configuration-of-an-atom)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Electron-energy-leve
+ls-and-sublevels) (../Ch-radiation/problems/SampleProblem8
+(../Ch-radiation/problems/StudyCheck8) [19])
+(../Ch-radiation/files/SubSection-Electronic-configuration-The-Pauli-exclusion-
+principle)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Orbital-Filling-the-
+aufbau-principle) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -5560,10 +5586,12 @@ Overfull \hbox (28.12006pt too wide) in paragraph at lines 3--72
 [] 
  []
 
-) (./files/SubSection-Electronic-configuration-Full-electron-Configuration
-[20]) (./problems/SampleProblem9 (./problems/StudyCheck9))
-(./files/SubSection-Electronic-configuration-Abbreviated-Electron-Configuration
--and-orbital-diagrams
+)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
+uration [20]) (../Ch-radiation/problems/SampleProblem9
+(../Ch-radiation/problems/StudyCheck9))
+(../Ch-radiation/files/SubSection-Electronic-configuration-Abbreviated-Electron
+-Configuration-and-orbital-diagrams
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Let
  []
@@ -5574,18 +5602,20 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 19.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 19.
-) (./problems/SampleProblem10
+) (../Ch-radiation/problems/SampleProblem10
 
 LaTeX Warning: Reference `orbitalfill' on page 21 undefined on input line 4.
 
-(./problems/StudyCheck10) [21])
-(./files/SubSection-Electronic-configuration-Hund's-rule [22])
-(./problems/SampleProblem12 (./problems/StudyCheck12)) [23]
-(./files/SectionIntro-Periodic-Trends)
-(./files/SubSection-Periodic-Trends-Effective-charge)
-(./files/Figure-Atomic-radius) (./files/Figure-Atomic-radius-plot [24])
-(./files/SubSection-Periodic-Trends-Atomic-radius)
-(./files/Table-Ionization-energies
+(../Ch-radiation/problems/StudyCheck10) [21])
+(../Ch-radiation/files/SubSection-Electronic-configuration-Hund's-rule [22])
+(../Ch-radiation/problems/SampleProblem12
+(../Ch-radiation/problems/StudyCheck12)) [23]
+(../Ch-radiation/files/SectionIntro-Periodic-Trends)
+(../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge)
+(../Ch-radiation/files/Figure-Atomic-radius)
+(../Ch-radiation/files/Figure-Atomic-radius-plot [24])
+(../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius)
+(../Ch-radiation/files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
@@ -5595,13 +5625,13 @@ Overfull \hbox (164.35007pt too wide) in paragraph at lines 4--22
  [] 
  []
 
-) [25] (./files/Figure-Ionization-energy-plot
+) [25] (../Ch-radiation/files/Figure-Ionization-energy-plot
 Overfull \hbox (29.56593pt too wide) in paragraph at lines 62--126
 [] [] 
  []
 
-) (./files/SubSection-Periodic-Trends-Ionization-Energy)
-(./files/Figure-Periodic-propeties
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy)
+(../Ch-radiation/files/Figure-Periodic-propeties
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5668,13 +5698,15 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 39--41
 [][] 
  []
 
-) (./files/SubSection-Periodic-Trends-Electron-affinity [27])
-(./files/SubSection-Periodic-Trends-Electronegativity,-EN)
-(./files/SubSection-Periodic-Trends-Metallic-character-)
-(./problems/SampleProblem11 (./problems/StudyCheck11) [28])
-(./files/SubSection-Periodic-Trends-Ionic-radius) (./files/Figure-Photoelectron
-) (./files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of-atoms)
-(./files/Figure-PES-spectra
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity [27])
+(../Ch-radiation/files/SubSection-Periodic-Trends-Electronegativity,-EN)
+(../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character-)
+(../Ch-radiation/problems/SampleProblem11
+(../Ch-radiation/problems/StudyCheck11) [28])
+(../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
+(../Ch-radiation/files/Figure-Photoelectron)
+(../Ch-radiation/files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of
+-atoms) (../Ch-radiation/files/Figure-PES-spectra
 Underfull \hbox (badness 1460) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Photoelectron spec-troscopy is a
  []
@@ -5856,9 +5888,9 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 84096 strings out of 493014
- 1907826 string characters out of 6133351
- 3030213 words of memory out of 5000000
+ 84097 strings out of 493014
+ 1911333 string characters out of 6133351
+ 3029373 words of memory out of 5000000
  85190 multiletter control sequences out of 15000+600000
  357184 words of font info for 414 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5902,7 +5934,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 7874878 bytes).
+Output written on main.pdf (32 pages, 7874867 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  555 compressed objects within 6 object streams
