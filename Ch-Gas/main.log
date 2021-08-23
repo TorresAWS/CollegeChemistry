@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUL 2021 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 18:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5053,7 +5053,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-Gas/Ch-Gas.tex (./files/ChapterName
+(../Ch-Gas/Ch-Gas.tex (../Ch-Gas/files/ChapterName
 Chapter 5.
 )
 <../Ch-Gas/figure1.png, id=133, 515.9275pt x 722.7pt>
@@ -5071,7 +5071,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 10.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro) (./files/ChapterGoals
+(../Ch-Gas/files/ChapterIntro) (../Ch-Gas/files/ChapterGoals
 Underfull \hbox (badness 1831) in paragraph at lines 4--5
 []\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
  []
@@ -5081,7 +5081,7 @@ LaTeX Font Info:    Try loading font information for U+fontawesometwo on input
 line 29.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-) (./files/ChapterDiscussion
+) (../Ch-Gas/files/ChapterDiscussion
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5113,19 +5113,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/SectionIntro-Gases-and-its-properties)
+(../Ch-Gas/files/SectionIntro-Gases-and-its-properties)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 44.
 
-(./files/SubSection-Gases-and-its-properties-Gases-in-the-periodic-table)
-(./files/SubSection-Gases-and-its-properties-Characteristics-of-gases)
-(./files/SubSection-Gases-and-its-properties-Volume,-V [1
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Gases-in-the-periodic-tabl
+e)
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Characteristics-of-gases)
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume,-V [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-G
-as/figure1.png (PNG copy)>]) (./files/SubSection-Gases-and-its-properties-Tempe
-rature,-T)
-(./files/Figure-Gas-Table
+as/figure1.png (PNG copy)>])
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Temperature,-T)
+(../Ch-Gas/files/Figure-Gas-Table
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5167,8 +5168,8 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
 [] 
  []
 
-) (./files/SubSection-Gases-and-its-properties-Amount-of-gas,-n)
-(./files/SideFigure-Gases
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Amount-of-gas,-n)
+(../Ch-Gas/files/SideFigure-Gases
 <../Ch-Gas/figure6.png, id=152, 225.84375pt x 225.84375pt>
 File: ../Ch-Gas/figure6.png Graphic file (type png)
 <use ../Ch-Gas/figure6.png>
@@ -5189,8 +5190,8 @@ Overfull \hbox (9.10944pt too wide) in paragraph at lines 1--11
 [] 
  []
 
-) (./files/SubSection-Gases-and-its-properties-Pressure,-P)
-(./problems/SampleProblem1 (./problems/StudyCheck1
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Pressure,-P)
+(../Ch-Gas/problems/SampleProblem1 (../Ch-Gas/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5198,7 +5199,7 @@ line 1.
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
 [2 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>])
-(./files/Figure-Pressure
+(../Ch-Gas/files/Figure-Pressure
 <../Ch-Gas/figure3.png, id=169, 906.38625pt x 1027.84pt>
 File: ../Ch-Gas/figure3.png Graphic file (type png)
 <use ../Ch-Gas/figure3.png>
@@ -5219,9 +5220,9 @@ Overfull \hbox (171.82971pt too wide) in paragraph at lines 3--54
 [] [] 
  []
 
-(./files/SubSection-Gases-and-its-properties-Measuring-pressure [3 <../Ch-Gas/f
-igure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG copy)>])
-(./files/Figure-Manometer
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Measuring-pressure
+[3 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG 
+copy)>]) (../Ch-Gas/files/Figure-Manometer
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5244,9 +5245,9 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 2--72
 [] [] 
  []
 
-) (./files/SectionIntro-Ideal-gas-law)
-(./files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles)
-(./problems/SampleProblem2
+) (../Ch-Gas/files/SectionIntro-Ideal-gas-law)
+(../Ch-Gas/files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles)
+(../Ch-Gas/problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
@@ -5281,9 +5282,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
 
-(./problems/StudyCheck2) [4])
-(./files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density)
-(./problems/SampleProblem3
+(../Ch-Gas/problems/StudyCheck2) [4])
+(../Ch-Gas/files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density)
+(../Ch-Gas/problems/SampleProblem3
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
  [][] 
  []
@@ -5313,8 +5314,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-(./problems/StudyCheck3) [5]) (./files/SubSection-Ideal-gas-law-STP-conditions)
-(./problems/SampleProblem4
+(../Ch-Gas/problems/StudyCheck3) [5])
+(../Ch-Gas/files/SubSection-Ideal-gas-law-STP-conditions)
+(../Ch-Gas/problems/SampleProblem4
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
  [][] 
  []
@@ -5339,15 +5341,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
-(./problems/StudyCheck4)) (./files/SectionIntro-Change-of-gas-properties)
-[6]
-(./files/SubSection-Change-of-gas-properties-Solving-problems-with-an-initial-a
-nd-final-state
+(../Ch-Gas/problems/StudyCheck4))
+(../Ch-Gas/files/SectionIntro-Change-of-gas-properties) [6]
+(../Ch-Gas/files/SubSection-Change-of-gas-properties-Solving-problems-with-an-i
+nitial-and-final-state
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) In or-der to
  []
 
-) (./problems/SampleProblem5
+) (../Ch-Gas/problems/SampleProblem5
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
  [][] 
  []
@@ -5372,21 +5374,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
 
-(./problems/StudyCheck5
+(../Ch-Gas/problems/StudyCheck5
 Underfull \hbox (badness 10000) in paragraph at lines 43--5
 
  []
 
-) [7]) (./files/SubSection-Change-of-gas-properties-Pressure-Volume-change)
-(./files/SubSection-Change-of-gas-properties-Volume-Moles-change)
-(./files/SubSection-Change-of-gas-properties-Relating-the-different-variables-o
-f-a-gas) [8] (./files/SectionIntro-Mixtures-of-gases-and-gas-stoichiometry)
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volume)
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiometry-and-g
-ases) (./problems/SampleProblem6 (./problems/StudyCheck6) [9])
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and-total-p
-ressure) (./problems/SampleProblem7 (./problems/StudyCheck7) [10])
-(./files/Figure-Partial-Pressure
+) [7])
+(../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Volume-change)
+(../Ch-Gas/files/SubSection-Change-of-gas-properties-Volume-Moles-change)
+(../Ch-Gas/files/SubSection-Change-of-gas-properties-Relating-the-different-var
+iables-of-a-gas) [8]
+(../Ch-Gas/files/SectionIntro-Mixtures-of-gases-and-gas-stoichiometry)
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volum
+e)
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiomet
+ry-and-gases) (../Ch-Gas/problems/SampleProblem6
+(../Ch-Gas/problems/StudyCheck6) [9])
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and
+-total-pressure) (../Ch-Gas/problems/SampleProblem7
+(../Ch-Gas/problems/StudyCheck7) [10]) (../Ch-Gas/files/Figure-Partial-Pressure
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5405,17 +5411,18 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pressure-of
--a-gas-in-a-mixture)
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fraction)
-(./problems/SampleProblem8 (./problems/StudyCheck8) [11])
-(./files/Figure-Gas-Collection-in-water
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pre
+ssure-of-a-gas-in-a-mixture)
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fracti
+on) (../Ch-Gas/problems/SampleProblem8 (../Ch-Gas/problems/StudyCheck8)
+[11]) (../Ch-Gas/files/Figure-Gas-Collection-in-water
 <../Ch-Gas/figure8.png, id=247, 905.3825pt x 853.1875pt>
 File: ../Ch-Gas/figure8.png Graphic file (type png)
 <use ../Ch-Gas/figure8.png>
 Package pdftex.def Info: ../Ch-Gas/figure8.png  used on input line 3.
 (pdftex.def)             Requested size: 170.71204pt x 160.87054pt.
-) (./files/Table-Water-pressure
+)
+(../Ch-Gas/files/Table-Water-pressure
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5433,17 +5440,18 @@ Overfull \hbox (14.07593pt too wide) in paragraph at lines 4--16
  []
 
 )
-(./files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-gas-over
--water
+(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-
+gas-over-water
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
-[12 <../Ch-Gas/figure8.png>]) (./problems/SampleProblem9
-(./problems/StudyCheck9))
-(./files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-gases-)
-(./files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Van-de
-r-Waals-equation-for-real-gases [13]) (./files/Table-Real-Gas
+[12 <../Ch-Gas/figure8.png>]) (../Ch-Gas/problems/SampleProblem9
+(../Ch-Gas/problems/StudyCheck9))
+(../Ch-Gas/files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-ga
+ses-)
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-Van-der-Waals-equation-for-real-gases [13]) (../Ch-Gas/files/Table-Real-Gas
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
@@ -5454,20 +5462,20 @@ Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
  []
 
 )
-(./files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-The-me
-aning-of-the-Van-der-Waals) (./problems/SampleProblem10
-(./problems/StudyCheck10) [14])
-(./files/SectionIntro-the-kinetic-molecular-theory-of-gases)
-(./files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Kineti
-c-theory-of-gases [15]) (./problems/SampleProblem11 (./problems/StudyCheck11))
-(./files/Figure-Kinetic-theory
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-The-meaning-of-the-Van-der-Waals) (../Ch-Gas/problems/SampleProblem10
+(../Ch-Gas/problems/StudyCheck10) [14])
+(../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-Kinetic-theory-of-gases [15]) (../Ch-Gas/problems/SampleProblem11
+(../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
 Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
 [][] 
  []
 
 )
-(./files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Distri
-bution-of-velocities) [16] [17
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-Distribution-of-velocities) [16] [17
 
 ]) (../Ch-Gas/Ch-GasProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5623,8 +5631,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 82324 strings out of 493014
- 1859404 string characters out of 6133351
+ 82325 strings out of 493014
+ 1860613 string characters out of 6133351
  2681268 words of memory out of 5000000
  83668 multiletter control sequences out of 15000+600000
  372044 words of font info for 417 fonts, out of 8000000 for 9000
