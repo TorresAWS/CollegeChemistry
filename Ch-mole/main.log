@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 JUL 2021 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 18:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5070,25 +5070,27 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 11.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/SectionGoal-Chemical-reaction-Balancing-chemical-reactions)
-(./files/SectionGoal-Chemical-reaction-Five-types-of-reactions)
-(./files/SectionGoal-From-molecules-to-atoms)
-(./files/SectionGoal-Stoichiometry-and-mass-calculations-Molar-mass-review)
-(./files/SectionGoal-Converting-moles-into-grams)
-(./files/SectionGoal-Stoichiometry-and-mass-calculations-Mole-Mole-ratio
+(../Ch-mole/files/SectionGoal-Chemical-reaction-Balancing-chemical-reactions)
+(../Ch-mole/files/SectionGoal-Chemical-reaction-Five-types-of-reactions)
+(../Ch-mole/files/SectionGoal-From-molecules-to-atoms)
+(../Ch-mole/files/SectionGoal-Stoichiometry-and-mass-calculations-Molar-mass-re
+view) (../Ch-mole/files/SectionGoal-Converting-moles-into-grams)
+(../Ch-mole/files/SectionGoal-Stoichiometry-and-mass-calculations-Mole-Mole-rat
+io
 Underfull \hbox (badness 1831) in paragraph at lines 1--2
 []\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
  []
 
-) (./files/SectionGoal-Percent-yield-and-limiting-reagent-Limiting-reagent)
-(./files/SectionGoal-Percent-yield-and-limiting-reagent-Percent-yield)
+)
+(../Ch-mole/files/SectionGoal-Percent-yield-and-limiting-reagent-Limiting-reage
+nt)
+(../Ch-mole/files/SectionGoal-Percent-yield-and-limiting-reagent-Percent-yield)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 38.
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-(./files/ChapterDiscussion
+(../Ch-mole/files/ChapterDiscussion
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5120,11 +5122,11 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/SectionIntro-The-mole)
+(../Ch-mole/files/SectionIntro-The-mole)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 53.
 
-(./files/SubSection-The-mole-From-moles-to-atoms
+(../Ch-mole/files/SubSection-The-mole-From-moles-to-atoms
 Underfull \hbox (badness 2469) in paragraph at lines 2--3
 []\T1/ptm/m/n/10 (+20) One mole of molecules con-tains $\OT1/lmr/m/n/10 6.022 \
 OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$
@@ -5141,8 +5143,8 @@ Overfull \hbox (21.85176pt too wide) detected at line 19
 n/10 10[][]
  []
 
-) (./files/SubSection-The-mole-From-molecules-to-atoms)
-(./files/Figure-The-mole
+) (../Ch-mole/files/SubSection-The-mole-From-molecules-to-atoms)
+(../Ch-mole/files/Figure-The-mole
 <../Ch-mole/figure3.png, id=157, 250.9375pt x 221.82875pt>
 File: ../Ch-mole/figure3.png Graphic file (type png)
 <use ../Ch-mole/figure3.png>
@@ -5183,14 +5185,14 @@ Overfull \hbox (90.2715pt too wide) in paragraph at lines 55--28
 []  [] [][] 
  []
 
-) (./problems/SampleProblem1
+) (../Ch-mole/problems/SampleProblem1
 Overfull \hbox (15.86595pt too wide) detected at line 17
 \OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
 ^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 8.3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n
 /10 10[][]
  []
 
-(./problems/StudyCheck1
+(../Ch-mole/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5199,12 +5201,12 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
 [2 <../Ch-mole/figure3.png> <../Ch-mole/figure2.png> <../Ch-mole/figure4.png> <
 ../Ch-mole/figure14.png (PNG copy)> <../Ch-mole/figure13.png (PNG copy)> <../Ch
--mole/figure15.png>]) (./problems/SampleProblem10
+-mole/figure15.png>]) (../Ch-mole/problems/SampleProblem10
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-) (./files/SideFigure-Molar-mass
+) (../Ch-mole/files/SideFigure-Molar-mass
 <../Ch-mole/figure5.png, id=174, 240.9pt x 180.675pt>
 File: ../Ch-mole/figure5.png Graphic file (type png)
 <use ../Ch-mole/figure5.png>
@@ -5245,13 +5247,13 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--19
 [] 
  []
 
-) (./files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
-(./files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-mass-of-a-
-chemical [3 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-mole/figur
-e7.png> <../Ch-mole/figure16.png (PNG copy)>]) (./problems/SampleProblem2
-(./problems/StudyCheck2))
-(./files/SubSection-Converting-moles-into-grams-and-into-atoms-From-moles-to-gr
-ams) (./files/Figure-Mole-equivalency
+) (../Ch-mole/files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-m
+ass-of-a-chemical [3 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-m
+ole/figure7.png> <../Ch-mole/figure16.png (PNG copy)>])
+(../Ch-mole/problems/SampleProblem2 (../Ch-mole/problems/StudyCheck2))
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
+les-to-grams) (../Ch-mole/files/Figure-Mole-equivalency
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5274,9 +5276,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-(./problems/SampleProblem3 (./problems/StudyCheck3) [4])
-(./files/SubSection-Converting-moles-into-grams-and-into-atoms-From-grams-to-at
-oms
+(../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3) [4])
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-gr
+ams-to-atoms
 Overfull \hbox (0.82616pt too wide) in paragraph at lines 6--6
  [][][][][]\T1/ptm/m/n/10 (-20) Molecules 
  []
@@ -5286,7 +5288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--100
 []
  []
 
-(./files/SideFigure-Reactions
+(../Ch-mole/files/SideFigure-Reactions
 <../Ch-mole/figure8.png, id=200, 803.0pt x 890.32625pt>
 File: ../Ch-mole/figure8.png Graphic file (type png)
 <use ../Ch-mole/figure8.png>
@@ -5327,13 +5329,13 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 [] 
  []
 
-) (./problems/SampleProblem4 (./problems/StudyCheck4))
-(./files/SectionIntro-Chemical-reaction [5 <../Ch-mole/figure8.png> <../Ch-mole
-/figure11.png (PNG copy)> <../Ch-mole/figure9.png (PNG copy)> <../Ch-mole/figur
-e10.png (PNG copy)>])
-(./files/SubSection-Chemical-reaction-Simple-chemical-reactions)
-(./files/SubSection-Chemical-reaction-Reading-a-chemical-reaction)
-(./files/SubSection-Chemical-reaction-Balanced-chemical-reactions
+) (../Ch-mole/problems/SampleProblem4 (../Ch-mole/problems/StudyCheck4))
+(../Ch-mole/files/SectionIntro-Chemical-reaction [5 <../Ch-mole/figure8.png> <.
+./Ch-mole/figure11.png (PNG copy)> <../Ch-mole/figure9.png (PNG copy)> <../Ch-m
+ole/figure10.png (PNG copy)>])
+(../Ch-mole/files/SubSection-Chemical-reaction-Simple-chemical-reactions)
+(../Ch-mole/files/SubSection-Chemical-reaction-Reading-a-chemical-reaction)
+(../Ch-mole/files/SubSection-Chemical-reaction-Balanced-chemical-reactions
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -5344,7 +5346,8 @@ Underfull \hbox (badness 3364) in paragraph at lines 5--18
 he form of atoms.
  []
 
-[6]) (./files/SubSection-Chemical-reaction-Balancing-chemical-reactions
+[6])
+(../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions
 Underfull \hbox (badness 1147) in paragraph at lines 19--1
 \T1/ptm/m/n/10 (+20) to one. In con-trast, the num-ber of O atoms in the re-ac-
 tants and prod-ucts
@@ -5356,35 +5359,41 @@ Underfull \hbox (badness 1303) in paragraph at lines 19--1
 ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
  []
 
-) (./problems/SampleProblem5 (./problems/StudyCheck5) [7])
-(./files/SubSection-Chemical-reaction-Five-types-of-reactions)
-(./files/SectionIntro-Stoichiometry-and-mass-calculations) [8]
-(./files/SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-ratio)
-(./files/SubSection-Stoichiometry-and-mass-calculations-Reactants-to-products)
-(./files/SubSection-Stoichiometry-and-mass-calculations-Reactant-to-a-different
--reactant) (./problems/SampleProblem6 (./problems/StudyCheck6) [9])
-(./files/SubSection-Stoichiometry-and-mass-calculations-Mass-calculations)
-(./files/SubSection-Stoichiometry-and-mass-calculations-Molar-mass-review)
-(./files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles-in-a-rea
-ction)
-(./files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams-in-a-rea
-ction) (./problems/SampleProblem7 (./problems/StudyCheck7) [10])
-(./files/SectionIntro-Percent-yield-and-limiting-reagent)
-(./files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield
+) (../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5)
+[7]) (../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions)
+(../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations) [8]
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-rati
+o)
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactants-to-p
+roducts)
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactant-to-a-
+different-reactant) (../Ch-mole/problems/SampleProblem6
+(../Ch-mole/problems/StudyCheck6) [9])
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mass-calculati
+ons)
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Molar-mass-rev
+iew)
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles
+-in-a-reaction)
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams
+-in-a-reaction) (../Ch-mole/problems/SampleProblem7
+(../Ch-mole/problems/StudyCheck7) [10])
+(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent)
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
  [11])
-(./problems/SampleProblem8 (./problems/StudyCheck8))
-(./files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagent
-[12])
-(./files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the-limiting
--reagent
+(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8))
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagen
+t [12])
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
+-limiting-reagent
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
 []\T1/ptm/m/n/10 (+20) Consider the fol-low-ing re-ac-tion, in
  []
 
-) (./problems/SampleProblem9 (./problems/StudyCheck9) [13]))
-(../Ch-mole/Ch-moleProblems.tex [14]
+) (../Ch-mole/problems/SampleProblem9 (../Ch-mole/problems/StudyCheck9)
+[13])) (../Ch-mole/Ch-moleProblems.tex [14]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5423,7 +5432,8 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
- (./problems/GeneralProblems-The-Mole
+
+(./problems/GeneralProblems-The-Mole
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5531,9 +5541,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81503 strings out of 493014
- 1843987 string characters out of 6133351
- 3119962 words of memory out of 5000000
+ 81504 strings out of 493014
+ 1845169 string characters out of 6133351
+ 3120127 words of memory out of 5000000
  82888 multiletter control sequences out of 15000+600000
  246528 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
