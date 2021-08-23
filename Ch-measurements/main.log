@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 JUN 2021 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 18:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5053,7 +5053,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-measurements/Ch-measurements.tex (./files/ChapterName
+(../Ch-measurements/Ch-measurements.tex (../Ch-measurements/files/ChapterName
 Chapter 1.
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
@@ -5083,18 +5083,19 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro) (./files/SectionGoal-Prefixes-Conversion-Factors)
-(./files/SectionGoal-Units-of-Measurements-and-systems-of-units)
-(./files/SectionGoal-Using-Conversion-Factors)
-(./files/SectionGoal-Significant-Figures)
-(./files/SectionGoal-Matter-and-density)
+(../Ch-measurements/files/ChapterIntro)
+(../Ch-measurements/files/SectionGoal-Prefixes-Conversion-Factors)
+(../Ch-measurements/files/SectionGoal-Units-of-Measurements-and-systems-of-unit
+s) (../Ch-measurements/files/SectionGoal-Using-Conversion-Factors)
+(../Ch-measurements/files/SectionGoal-Significant-Figures)
+(../Ch-measurements/files/SectionGoal-Matter-and-density)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 34.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-(./files/ChapterDiscussion
+(../Ch-measurements/files/ChapterDiscussion
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5115,22 +5116,28 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-(./files/SectionIntro-Units-of-Measurements-and-systems-of-units)
+
+(../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
+ts)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
 
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Length)
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Mass)
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Temperature
-[1
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Length)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Mass)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Temperature [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-m
 easurements/figure1.png>])
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Time)
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Volume)
-(./files/SubSection-Units-of-Measurements-and-systems-of-units-Concentration)
-(./files/SideFigure-Measurements
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Time)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Volume)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Concentration) (../Ch-measurements/files/SideFigure-Measurements
 <../Ch-measurements/figure1-1.png, id=157, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
@@ -5189,13 +5196,14 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-) (./problems/SampleProblem1 (./problems/StudyCheck1
+) (../Ch-measurements/problems/SampleProblem1
+(../Ch-measurements/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/Table-Unit-systems
+))) (../Ch-measurements/files/Table-Unit-systems
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5212,63 +5220,79 @@ Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--57
 [][] 
  []
 
-(./SectionIntro-scientific-notation [2 <../Ch-measurements/figure1-1.png (PNG c
-opy)> <../Ch-measurements/figure1-2.png (PNG copy)> <../Ch-measurements/figure1
--15.png> <../Ch-measurements/figure1-16.png> <../Ch-measurements/figure1-17.png
- (PNG copy)>]) (./files/SectionIntro-Prefixes-Conversion-Factors)
-(./files/Table-Prefixes
+(../Ch-measurements/files/SectionIntro-scientific-notation [2 <../Ch-measuremen
+ts/figure1-1.png (PNG copy)> <../Ch-measurements/figure1-2.png (PNG copy)> <../
+Ch-measurements/figure1-15.png> <../Ch-measurements/figure1-16.png> <../Ch-meas
+urements/figure1-17.png (PNG copy)>])
+(../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors)
+(../Ch-measurements/files/Table-Prefixes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 33.
 
-) (./files/SubSection-Prefixes-Conversion-Factors-How-to-identify-prefixes)
-[3]
-(./files/SubSection-Prefixes-Conversion-Factors-How-to-write-unit-equalities-an
-d-conversion-factors) (./problems/SampleProblem2 (./problems/StudyCheck2
+)
+(../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
+y-prefixes) [3]
+(../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
+nit-equalities-and-conversion-factors)
+(../Ch-measurements/problems/SampleProblem2
+(../Ch-measurements/problems/StudyCheck2
 Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-)) (./files/SectionIntro-Using-Conversion-Factors)
-(./files/SubSection-Using-Conversion-Factors-Removing-or-adding-prefixes
+)) (../Ch-measurements/files/SectionIntro-Using-Conversion-Factors)
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Removing-or-addin
+g-prefixes
 
 LaTeX Warning: Reference `tab:units2' on page 4 undefined on input line 1.
 
-[4]) (./problems/SampleProblem3 (./problems/StudyCheck3
+[4]) (../Ch-measurements/problems/SampleProblem3
+(../Ch-measurements/problems/StudyCheck3
 Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-)) (./files/SubSection-Using-Conversion-Factors-Switching-prefixes
+))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
+s
 
 LaTeX Warning: Reference `tab:units2' on page 5 undefined on input line 1.
 
-) (./problems/SampleProblem4 (./problems/StudyCheck4) [5])
-(./files/SubSection-Using-Conversion-Factors-Square-or-cubic-units)
-(./problems/SampleProblem5 (./problems/StudyCheck5))
-(./files/SubSection-Using-Conversion-Factors-Units-of-volume)
-(./problems/SampleProblem6 (./problems/StudyCheck6) [6])
-(./files/SubSection-Using-Conversion-Factors-Using-other-equalities
+) (../Ch-measurements/problems/SampleProblem4
+(../Ch-measurements/problems/StudyCheck4) [5])
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
+nits) (../Ch-measurements/problems/SampleProblem5
+(../Ch-measurements/problems/StudyCheck5))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume)
+(../Ch-measurements/problems/SampleProblem6
+(../Ch-measurements/problems/StudyCheck6) [6])
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
+ities
 
 LaTeX Warning: Reference `tab:units3' on page 7 undefined on input line 1.
 
-) (./files/Table-Common-units
+) (../Ch-measurements/files/Table-Common-units
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-) (./problems/SampleProblem7 (./problems/StudyCheck7)) [7]
-(./files/SectionIntro-Significant-Figures)
-(./files/SubSection-Significant-Figures-Significant-figures-of-numbers)
-(./problems/SampleProblem8 (./problems/StudyCheck8
+) (../Ch-measurements/problems/SampleProblem7
+(../Ch-measurements/problems/StudyCheck7)) [7]
+(../Ch-measurements/files/SectionIntro-Significant-Figures)
+(../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-of
+-numbers) (../Ch-measurements/problems/SampleProblem8
+(../Ch-measurements/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 ) [8])
-(./files/SubSection-Significant-Figures-Significant-figures-in-calculations)
-(./problems/SampleProblem9 (./problems/StudyCheck9) [9])
-(./files/SectionIntro-Matter-and-density) (./files/Figure-Matter
+(../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-in
+-calculations) (../Ch-measurements/problems/SampleProblem9
+(../Ch-measurements/problems/StudyCheck9) [9])
+(../Ch-measurements/files/SectionIntro-Matter-and-density)
+(../Ch-measurements/files/Figure-Matter
 <../Ch-measurements/figure1-14.png, id=240, 1026.83624pt x 684.5575pt>
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 <use ../Ch-measurements/figure1-14.png>
@@ -5298,20 +5322,21 @@ Overfull \hbox (106.69618pt too wide) in paragraph at lines 6--44
  [] 
  []
 
-) (./files/SubSection-Matter-and-density-states-of-matter)
-(./files/SubSection-Matter-and-density-Pure-Substances-and-mixtures) [10 <../Ch
--measurements/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-12.png (PN
-G copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measurements/fig
-ure1-13.png (PNG copy)>]
-(./files/SubSection-Matter-and-density-Types-of-Mixture)
-(./problems/SampleProblem10 (./problems/StudyCheck10
+) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
+(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
+tures) [10 <../Ch-measurements/figure1-14.png (PNG copy)> <../Ch-measurements/f
+igure1-12.png (PNG copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch
+-measurements/figure1-13.png (PNG copy)>]
+(../Ch-measurements/files/SubSection-Matter-and-density-Types-of-Mixture)
+(../Ch-measurements/problems/SampleProblem10
+(../Ch-measurements/problems/StudyCheck10
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-)) (./files/SubSection-Matter-and-density-Density)
-(./files/SubSection-Matter-and-density-Density-and-mixing)
-(./files/Table-Density
+)) (../Ch-measurements/files/SubSection-Matter-and-density-Density)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
+(../Ch-measurements/files/Table-Density
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
@@ -5320,7 +5345,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11])
-(./problems/SampleProblem11
+(../Ch-measurements/problems/SampleProblem11
 <../Ch-measurements/Image-Glass-with-three-liquids.png, id=266, 1204.5pt x 2156
 .055pt>
 File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
@@ -5329,30 +5354,29 @@ png)
 Package pdftex.def Info: ../Ch-measurements/Image-Glass-with-three-liquids.png 
  used on input line 3.
 (pdftex.def)             Requested size: 43.9262pt x 78.6279pt.
- (./problems/StudyCheck11
+
+(../Ch-measurements/problems/StudyCheck11
 Underfull \hbox (badness 10000) in paragraph at lines 4--1
 
  []
 
-)) (./files/SubSection-Matter-and-density-Density-and-the-volume-of-objects)
-(./files/Figure-Volume-objects
+))
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
+of-objects) (../Ch-measurements/files/Figure-Volume-objects
 Overfull \hbox (169.06755pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-) (./problems/SampleProblem12 (./problems/StudyCheck12
+) (../Ch-measurements/problems/SampleProblem12
+(../Ch-measurements/problems/StudyCheck12
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) [12 <../Ch-measurements/Image-Glass-with-three-liquids.png>]) [13]
+) [12 <../Ch-measurements/Image-Glass-with-three-liquids.png>]) [13] [14
 
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-[14
-
-]) (../Ch-measurements/Ch-measurementsProblems.tex
+])
+(../Ch-measurements/Ch-measurementsProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5494,16 +5518,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 81361 strings out of 493014
- 1840205 string characters out of 6133351
- 2593729 words of memory out of 5000000
- 82594 multiletter control sequences out of 15000+600000
+ 81363 strings out of 493014
+ 1842684 string characters out of 6133351
+ 2593756 words of memory out of 5000000
+ 82596 multiletter control sequences out of 15000+600000
  215514 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,115p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
