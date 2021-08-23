@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 JUL 2021 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 19:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5053,7 +5053,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-electronicstructure/Ch-electronicstructure.tex (./files/ChapterName
+(../Ch-electronicstructure/Ch-electronicstructure.tex
+(../Ch-electronicstructure/files/ChapterName
 Chapter 1.
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
@@ -5083,26 +5084,31 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 21.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro)
-(./files/SectionGoal-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molec
-ule)
-(./files/SectionGoal-Electron-dot-structures-of-atoms-Electron-dot-structure-of
--general-molecules)
-(./files/SectionGoal-Hybrid-orbitals-From-ABE--code-to-hybridization
+(../Ch-electronicstructure/files/ChapterIntro)
+(../Ch-electronicstructure/files/SectionGoal-Electron-dot-structures-of-atoms-A
+tomic-charges-in-a-molecule)
+(../Ch-electronicstructure/files/SectionGoal-Electron-dot-structures-of-atoms-E
+lectron-dot-structure-of-general-molecules)
+(../Ch-electronicstructure/files/SectionGoal-Hybrid-orbitals-From-ABE--code-to-
+hybridization
 Underfull \hbox (badness 3281) in paragraph at lines 1--1
 []\T1/ptm/m/n/8 (+20) Construct electron-dot struc-
  []
 
-) (./files/SectionGoal-Molecular-orbital-theory-Paramagnetism-and-diamagnetism)
-(./files/SectionGoal-Molecular-shape-ABE-Molecular-code)
-(./files/SectionGoal-Polarity-of-molecules-Polarity-of-larger-molecules)
+)
+(../Ch-electronicstructure/files/SectionGoal-Molecular-orbital-theory-Paramagne
+tism-and-diamagnetism)
+(../Ch-electronicstructure/files/SectionGoal-Molecular-shape-ABE-Molecular-code
+)
+(../Ch-electronicstructure/files/SectionGoal-Polarity-of-molecules-Polarity-of-
+larger-molecules)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 43.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-(./files/ChapterDiscussion
+(../Ch-electronicstructure/files/ChapterDiscussion
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5123,12 +5129,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-(./files/SectionIntro-Electron-dot-structures-of-atoms)
+(../Ch-electronicstructure/files/SectionIntro-Electron-dot-structures-of-atoms)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 51.
 
-(./files/SubSection-Electron-dot-structures-of-atoms-Valence-electrons)
-(./problems/SampleProblem1 (./problems/StudyCheck1
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Va
+lence-electrons) (../Ch-electronicstructure/problems/SampleProblem1
+(../Ch-electronicstructure/problems/StudyCheck1
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
@@ -5150,16 +5157,19 @@ Underfull \vbox (badness 6944) has occurred while \output is active []
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
 lectronicstructure/figure1.png>])
-(./files/SubSection-Electron-dot-structures-of-atoms-The-octet-rule)
-(./files/SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-
-an-atom) (./problems/SampleProblem2 (./problems/StudyCheck2
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Th
+e-octet-rule)
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
+ectron-dot-structure-of-an-atom)
+(../Ch-electronicstructure/problems/SampleProblem2
+(../Ch-electronicstructure/problems/StudyCheck2
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 ) [2])
-(./files/SubSection-Electron-dot-structures-of-atoms-An-introduction-to-electro
-n-dot-structures
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-An
+-introduction-to-electron-dot-structures
 Underfull \hbox (badness 1490) in paragraph at lines 1--3
 []\T1/ptm/m/n/10 (+20) Bellow, you will find
  []
@@ -5177,43 +5187,51 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 14.
 )
-(./files/SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-
-diatomic-molecules) (./problems/SampleProblem3 (./problems/StudyCheck3)
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
+ectron-dot-structure-of-diatomic-molecules)
+(../Ch-electronicstructure/problems/SampleProblem3
+(../Ch-electronicstructure/problems/StudyCheck3)
 Underfull \hbox (badness 10000) in paragraph at lines 1--10
 []\T1/ptm/m/n/10 (+20) Electron-dot
  []
 
 ) [3]
-(./files/SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-
-general-molecules) (./problems/SampleProblem4
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
+ectron-dot-structure-of-general-molecules)
+(../Ch-electronicstructure/problems/SampleProblem4
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(./problems/StudyCheck4))
-(./files/SubSection-Electron-dot-structures-of-atoms-Multiple-bonds [4])
-(./problems/SampleProblem6
+(../Ch-electronicstructure/problems/StudyCheck4))
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Mu
+ltiple-bonds [4]) (../Ch-electronicstructure/problems/SampleProblem6
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(./problems/StudyCheck6))
-(./files/SubSection-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecu
-le [5] [6]) (./problems/SampleProblem5 (./problems/StudyCheck5))
-(./files/SubSection-Electron-dot-structures-of-atoms-Resonance [7])
-(./files/SubSection-Electron-dot-structures-of-atoms-Octet-exception)
-(./problems/SampleProblem12 (./problems/StudyCheck12) [8])
-(./files/SubSection-Electron-dot-structures-of-atoms-Odd-molecules)
-(./files/SubSection-Electron-dot-structures-of-atoms-Lewis-scheme) [9]
-(./files/SectionIntro-Molecular-shape)
-(./files/SubSection-Molecular-shape-VSEPR-model)
-(./files/Figure-VSEPR-three-molecules-one
+(../Ch-electronicstructure/problems/StudyCheck6))
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-At
+omic-charges-in-a-molecule [5] [6])
+(../Ch-electronicstructure/problems/SampleProblem5
+(../Ch-electronicstructure/problems/StudyCheck5))
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Re
+sonance [7])
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Oc
+tet-exception) (../Ch-electronicstructure/problems/SampleProblem12
+(../Ch-electronicstructure/problems/StudyCheck12) [8])
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Od
+d-molecules)
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Le
+wis-scheme) [9] (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
+(../Ch-electronicstructure/files/SubSection-Molecular-shape-VSEPR-model)
+(../Ch-electronicstructure/files/Figure-VSEPR-three-molecules-one
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
 ))
-(./files/SubSection-Molecular-shape-VSEPR-model-continued) [10]
-(./files/Table-Molecular-geometries
+(../Ch-electronicstructure/files/SubSection-Molecular-shape-VSEPR-model-continu
+ed) [10] (../Ch-electronicstructure/files/Table-Molecular-geometries
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5303,7 +5321,8 @@ File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
 Package pdftex.def Info: ../Ch-electronicstructure/geom8.png  used on input lin
 e 25.
 (pdftex.def)             Requested size: 50.76094pt x 53.8066pt.
-) (./files/SubSection-Molecular-shape-ABE-Molecular-code
+)
+(../Ch-electronicstructure/files/SubSection-Molecular-shape-ABE-Molecular-code
 
 LaTeX Warning: Reference `tab:{Ch-electronicstructure}0' on page 11 undefined o
 n input line 2.
@@ -5322,31 +5341,39 @@ n input line 4.
 /Ch-electronicstructure/geom4.png> <../Ch-electronicstructure/geom12.png> <../C
 h-electronicstructure/geom5.png> <../Ch-electronicstructure/geom13.png> <../Ch-
 electronicstructure/geom6.png> <../Ch-electronicstructure/geom7.png> <../Ch-ele
-ctronicstructure/geom8.png>]) (./files/Figure-VSEPR-three-molecules)
-(./problems/SampleProblem7 (./problems/StudyCheck7
+ctronicstructure/geom8.png>])
+(../Ch-electronicstructure/files/Figure-VSEPR-three-molecules)
+(../Ch-electronicstructure/problems/SampleProblem7
+(../Ch-electronicstructure/problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-)) (./files/SubSection-Molecular-shape-Complex-molecules-and-multiple-bonds)
-[12] (./files/SubSection-VSEPR-how-to
+))
+(../Ch-electronicstructure/files/SubSection-Molecular-shape-Complex-molecules-a
+nd-multiple-bonds) [12]
+(../Ch-electronicstructure/files/SubSection-VSEPR-how-to
 
 LaTeX Warning: Reference `tab:{Ch-electronicstructure}0' on page 13 undefined o
 n input line 6.
 
-) (./files/SectionIntro-Polarity-of-molecules)
-(./files/SubSection-Polarity-of-molecules-Bond-polarity)
-(./files/SubSection-Polarity-of-molecules-Polarity-of-diatomic-molecules
-[13])
-(./files/SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity)
-(./files/SubSection-Polarity-of-molecules-Polarity-of-larger-molecules)
-(./problems/SampleProblem8 (./problems/StudyCheck8
+) (../Ch-electronicstructure/files/SectionIntro-Polarity-of-molecules)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Bond-polarity
+)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-d
+iatomic-molecules [13])
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
+h-the-same-polarity)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-l
+arger-molecules) (../Ch-electronicstructure/problems/SampleProblem8
+(../Ch-electronicstructure/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-)) (./files/SubSection-Polarity-of-molecules-Polarity-and-mixing)
-(./files/Table-ABE-Code-hybridization [14]
+))
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-and-
+mixing) (../Ch-electronicstructure/files/Table-ABE-Code-hybridization [14]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 30.
@@ -5376,21 +5403,26 @@ Overfull \hbox (34.15282pt too wide) in paragraph at lines 1--31
 []   [] [][] 
  []
 
-) (./files/SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity)
-(./files/SubSection-Polarity-of-molecules-Molecules-with-different-polarity)
-[15] (./files/SectionIntro-Molecular-orbital-theory)
-(./files/SideFigure-CH4-hybrid)
-(./files/SubSection-Hybrid-orbitals-From-ABE--code-to-hybridization
+)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
+h-the-same-polarity)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
+h-different-polarity) [15]
+(../Ch-electronicstructure/files/SectionIntro-Molecular-orbital-theory)
+(../Ch-electronicstructure/files/SideFigure-CH4-hybrid)
+(../Ch-electronicstructure/files/SubSection-Hybrid-orbitals-From-ABE--code-to-h
+ybridization
 
 LaTeX Warning: Reference `tab:hybrid' on page 16 undefined on input line 1.
 
-) (./problems/SampleProblem9 (./problems/StudyCheck9
+) (../Ch-electronicstructure/problems/SampleProblem9
+(../Ch-electronicstructure/problems/StudyCheck9
 Underfull \hbox (badness 10000) in paragraph at lines 5--1
 
  []
 
-)) [16] (./files/SectionIntro-Molecular-shape)
-(./files/SideFigure-Wave-interference-constructive
+)) [16] (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
+(../Ch-electronicstructure/files/SideFigure-Wave-interference-constructive
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5424,12 +5456,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
-) (./files/SubSection-Molecular-orbital-theory-Bonding-and-antibonding-orbitals
-) (./files/Figure-Sigma-orbitals
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 )
-(./files/SideFigure-Wave-interference-destructive
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Bonding-an
+d-antibonding-orbitals) (../Ch-electronicstructure/files/Figure-Sigma-orbitals
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (../Ch-electronicstructure/files/SideFigure-Wave-interference-destructive
 Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
 []
  []
@@ -5442,8 +5474,9 @@ Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-) (./files/SubSection-Molecular-orbital-theory-Sigma-and-pi-orbitals)
-(./files/Figure-Pi-orbitals
+)
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Sigma-and-
+pi-orbitals) (../Ch-electronicstructure/files/Figure-Pi-orbitals
 Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
  [] 
  []
@@ -5452,24 +5485,28 @@ Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17])
-(./files/SubSection-Molecular-orbital-theory-The-case-of-molecular-hydrogen)
-(./files/Figure-H2-molecular-orbitals
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
+f-molecular-hydrogen)
+(../Ch-electronicstructure/files/Figure-H2-molecular-orbitals
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
-(./files/SubSection-Molecular-orbital-theory-The-case-of-molecular-helium
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
+f-molecular-helium
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-) (./files/Figure-He-orbital-diagrams)
-(./files/SubSection-Molecular-orbital-theory-From-MO-diagram-to-MO-configuratio
-n) (./files/Figure-N2-orbital-diagram
+) (../Ch-electronicstructure/files/Figure-He-orbital-diagrams)
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-From-MO-di
+agram-to-MO-configuration)
+(../Ch-electronicstructure/files/Figure-N2-orbital-diagram
 Underfull \vbox (badness 2894) has occurred while \output is active []
 
  [19])
-(./files/SubSection-Molecular-orbital-theory-Bond-order-of-a-MO-configuration)
-(./problems/SampleProblem10 (./problems/StudyCheck10
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Bond-order
+-of-a-MO-configuration) (../Ch-electronicstructure/problems/SampleProblem10
+(../Ch-electronicstructure/problems/StudyCheck10
 Underfull \hbox (badness 3601) in paragraph at lines 2--1
 []\T1/ptm/m/n/10 (+20) Given the fol-low-ing MO con-fig-u-ra-tions: (a) $\OML/l
 mm/m/it/10 ^^[[]^^[[]^^Y[]^^[[]$ \T1/ptm/m/n/10 (+20) and (b)
@@ -5481,8 +5518,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
  []
 
 ) [20])
-(./files/SubSection-Molecular-orbital-theory-Paramagnetism-and-diamagnetism)
-(./problems/SampleProblem11 (./problems/StudyCheck11
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Paramagnet
+ism-and-diamagnetism) (../Ch-electronicstructure/problems/SampleProblem11
+(../Ch-electronicstructure/problems/StudyCheck11
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
@@ -5716,14 +5754,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5393.
  ) 
 Here is how much of TeX's memory you used:
  83985 strings out of 493014
- 1898906 string characters out of 6133351
+ 1903084 string characters out of 6133351
  2846399 words of memory out of 5000000
  85163 multiletter control sequences out of 15000+600000
  269328 words of font info for 338 fonts, out of 8000000 for 9000
@@ -5757,7 +5792,7 @@ type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (27 pages, 1295461 bytes).
+Output written on main.pdf (27 pages, 1295754 bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
  534 compressed objects within 6 object streams
