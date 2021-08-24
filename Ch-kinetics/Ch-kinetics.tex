@@ -1,5 +1,5 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{kinetics}
+\newcommand\chapterlabel{Ch-kinetics}
 \setcounter{figurenewcounter}{0}
 
 
@@ -126,7 +126,7 @@ we have that the general relationship between any rate and the overall reaction 
 \end{description}
 
 
-  \import{problems/}{SampleProblem1}
+  \import{../\chapterlabel/problems/}{SampleProblem1}
 
 
 
@@ -223,7 +223,7 @@ The rate constant is a critical parameter of a rate law as it tells how the reac
 \[r_A=0.01[\ce{N2O5}]\quad\quad \text{ and } \quad\quad r_B=0.001[\ce{N2O5 }]\]
 We have that as the rate constant in $r_A$ is larger the changes in the concentration of \ce{N2O5} will have a stronger impact on the rate than in  $r_B$. 
 
-  \import{problems/}{SampleProblem2}
+  \import{../\chapterlabel/problems/}{SampleProblem2}
 
 
 The units of a rate constant are determined by the reaction order. In other words, given a reaction order, we will have a given unit for the rate constant. At the same time, given the units of a rate constant, we can also determine the order of the reaction. The following formula gives the constant units for a given reaction order $n$:
@@ -237,7 +237,7 @@ where:
 \end{where}
 For example, for first-order reaction ($n$=1) the units of the reaction constant are 1/s and for a second-order reaction, the units are 1/Ms. For a reaction of zero-order, the units of the constant are M/s. This formula results from a dimensional analysis given that the units of reaction rate $r$ are M/s and the units of concentration is molarity, M. As a side note, here we will use second as a unit of time, however, one can envision a similar formula for different time units.
 
-  \import{problems/}{SampleProblem3}
+  \import{../\chapterlabel/problems/}{SampleProblem3}
 
 
 \item[\docfilehook{Integral reaction law}{}] 
@@ -261,7 +261,7 @@ In the differential rate law, we have the explicit reaction rate $r$ accompanied
 \end{tabular}\end{center} 
 Table \ref{tab:{\chapterlabel}1} reports the corresponding differential and integral rate laws for different orders.
 
-  \import{problems/}{SampleProblem4}
+  \import{../\chapterlabel/problems/}{SampleProblem4}
 
 
 \item[\docfilehook{Half-life, $t_{\nicefrac{1}{2}}$}{}] 
@@ -276,7 +276,7 @@ When $[A]=[A]_0/2$ we have that $t=t_{\nicefrac{1}{2}}$ and therefore:
 
 \end{description}
 
-  \import{problems/}{SampleProblem5}
+  \import{../\chapterlabel/problems/}{SampleProblem5}
 
 
 
@@ -288,7 +288,7 @@ Up to now, we analyzed the importance of using rate laws. However, before this p
 The differential method also called the method of the initial rates measures velocities for different concentrations, and in particular, measures initial velocities. These are velocities at very short times after the reaction starts. This method is convenient when there are parasite reactions that compete with the reaction one wants to study. By using initial rates, we can minimize the impact of competing reactions on the kinetic data.
 In this method, by comparing different velocities for different concentrations one can calculate the reaction order and the rate constant, that is, one can construct the rate law. The next example will show you how to use this method. As a note, one can only use the differential method when reaction rates data is supplied.
 
-  \import{problems/}{SampleProblem6}
+  \import{../\chapterlabel/problems/}{SampleProblem6}
 
 
 
@@ -299,7 +299,7 @@ The next example will cover how to calculate the rate law when the data provided
 in which we do not know the reaction constant and two of the order.
 
 
-  \import{problems/}{SampleProblem7}
+  \import{../\chapterlabel/problems/}{SampleProblem7}
 
 
 
@@ -333,7 +333,7 @@ Overall, is good to keep in mind that every plot ($[A]$ vs. t, Ln$[A]$ vs. t or 
 \item[\docfilehook{The integral method: associating a linear plot with an order}{}] 
 The base of the integral method is to create three different plots: (a) $[\ce{A}]$ vs. $t$ (b) $\text{Ln}[\ce{A}]$ vs. $t$ and (c) $\frac{1}{[\ce{A}]}$ vs. $t$. In all plots, time is always indicated in the horizontal axis. Based on the data, only one of the plots will be the best linear plot with a  regression coefficient $r^2$ closer to one. The perfect linear plot will be associated with an order (here, either 0, 1, or 2). If the plot $[\ce{A}]$ vs. $t$ gives a perfect line the reaction will be zeroth-order. If the plot $Ln([\ce{A}])$ vs. $t$ gives a perfect line the reaction will be first order. If the plot $\frac{1}{[\ce{A}]}$ vs. $t$ gives a perfect line the reaction will be second-order. It is convenient to practice identifying the different plots and associating them with an order. The following example covers just that.
 
-  \import{problems/}{SampleProblem8}
+  \import{../\chapterlabel/problems/}{SampleProblem8}
 
 
 \item[\docfilehook{The integral method: extracting data from linear regressions}{}] 
@@ -341,11 +341,11 @@ We will practice the integral method by extracting the rate constant and the ini
 The rate constant will be obtained from the slope of the line, whereas $[A]_0$ is related to the intercept.
 For all cases, the absolute value of the slope of the line equation will correspond to the rate constant $k$. The relationship between $[A]_0$ and the intercept differs based on the order. For a zeroth-order plot, the intersect directly corresponds to the initial concentration. Differently, for a first-order reaction, the intercept corresponds to $Ln(\text{[A]}_0)$. Therefore, to obtain $[A]_0$ you will have to compute the exponential of the intersect: $[A]_0=\myexp{Intersect}$. Finally, for a second-order reaction, the slope will correspond to the inverse of the initial concentration, and hence, to obtain $[A]_0$ we will have to compute the inverse of the intersect: $[A]_0=\frac{1}{Intersect}$. The following example shows how to obtain the rate constant and $[A]_0$ using regression results.
 
-  \import{problems/}{SampleProblem9}
+  \import{../\chapterlabel/problems/}{SampleProblem9}
 
 
 
-  \import{problems/}{SampleProblem10}
+  \import{../\chapterlabel/problems/}{SampleProblem10}
 
 
 
@@ -459,11 +459,11 @@ As temperature increases the kinetic energy of the molecules reacting increases 
 \item[\docfilehook{Concentration of reactants}{}] 
 Another way to favor the collision between the molecules of reactants is to increase its concentration. The larger the concentration of reactants the higher the probability of their molecules to collide with each other potentially producing products.
 
-  \import{problems/}{SampleProblem11}
+  \import{../\chapterlabel/problems/}{SampleProblem11}
 
 
 
-\hspace{2cm}\vspace{1cm}  \import{files/}{Figure-Collision-theory} \newpage
+\hspace{2cm}\vspace{1cm}  \import{../\chapterlabel/files/}{Figure-Collision-theory} \newpage
 
 \item[\docfilehook{Catalysts}{}] 
 Catalysts are chemicals that are not directly involved in a reaction--they are neither reactants nor products and as such, they are not consumed during a reaction. Still, they have the ability to increase the rate of reactions. 
@@ -594,7 +594,7 @@ We can extract two types pf properties from energy diagrams. First, the reaction
 
 
 
-  \import{problems/}{SampleProblem12}
+  \import{../\chapterlabel/problems/}{SampleProblem12}
 
 
 \begin{minipage}[t]{1.5\linewidth}
@@ -635,7 +635,7 @@ Based on Arrhenius equation, the larger the activation energy the smaller the ra
 The linear form of the equation results simply from applying logarithms to both sides of the regular Arrhenius equation and is useful to obtain data graphically as it represents a linear relationship with $\frac{1}{T}$ as $x$ and $Ln(k)$ as $y$. The slope of the resulting line is $-\frac{E_a}{R}$ (mind the negative sign) and the intercept is $Ln(A)$. In the Arrhenius equation, the pre-exponential factor represents the frequency of collision between molecules, in $s^{-1}$. 
 
 
-  \import{problems/}{SampleProblem13}
+  \import{../\chapterlabel/problems/}{SampleProblem13}
 
 %\item[\docfilehook{The Arrhenius equation on its linearized form}{}] 
 %The linear form of the equation results simply from applying logarithms to both sides of the regular Arrhenius equation and is useful to obtain data graphically as it represents a linear relationship with $\frac{1}{T}$ as $x$ and $Ln(k)$ as $y$. 
@@ -658,7 +658,7 @@ The linear form of the equation results simply from applying logarithms to both 
 The following example shows how to use rate constant and temperature data in order to graphically compute the Arrhenius parameters.
 
 
-  \import{problems/}{SampleProblem14}
+  \import{../\chapterlabel/problems/}{SampleProblem14}
 
 \end{description}
 
@@ -711,7 +711,7 @@ Using the concentration of the intermediate recently calculates we have:
  \item[\docfilehook{How to verify a possible mechanism }{}] 
 Imagine we suggest a possible mechanism for a reaction with an experimental rate law and we want to make sure this is an appropriate mechanism. An appropriate chemical mechanism follows two rules: (a) the combination of all steps gives the overall reaction and (b) the experimental rate law can be justified by means of the mechanistic steps.
 
-  \import{problems/}{SampleProblem15}
+  \import{../\chapterlabel/problems/}{SampleProblem15}
   
 
 
