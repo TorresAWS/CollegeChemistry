@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 APR 2021 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2021 11:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5060,7 +5060,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-acidbase/Ch-acidbase.tex (./files/ChapterName
+(../Ch-acidbase/Ch-acidbase.tex (../Ch-acidbase/files/ChapterName
 Chapter 1.
 )
 <../Ch-acidbase/figure1.png, id=153, 943.525pt x 629.35126pt>
@@ -5078,11 +5078,14 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 7.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro) (./files/SectionGoal-Dissociation-of-acids-and-bases)
-(./files/SectionGoal-Dissociation-of-acids-and-base-Conjugate-organic-acids-and
--bases) (./files/SectionGoal-Strength-of-acids-and-bases)
-(./files/SectionGoal-The-PH-scale) (./files/SectionGoal-Titrations)
-(./files/SectionGoal-Buffer-solutions)
+(../Ch-acidbase/files/ChapterIntro)
+(../Ch-acidbase/files/SectionGoal-Dissociation-of-acids-and-bases)
+(../Ch-acidbase/files/SectionGoal-Dissociation-of-acids-and-base-Conjugate-orga
+nic-acids-and-bases)
+(../Ch-acidbase/files/SectionGoal-Strength-of-acids-and-bases)
+(../Ch-acidbase/files/SectionGoal-The-PH-scale)
+(../Ch-acidbase/files/SectionGoal-Titrations)
+(../Ch-acidbase/files/SectionGoal-Buffer-solutions)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 29.
 
@@ -5099,7 +5102,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/ChapterDiscussion
+(../Ch-acidbase/files/ChapterDiscussion
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -5125,18 +5128,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/SectionIntro-The-nature-of-acids-and-Bases)
+(../Ch-acidbase/files/SectionIntro-The-nature-of-acids-and-Bases)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 38.
 
-(./files/SubSection-The-nature-of-acids-and-Bases-Acids-and-bases)
-(./files/SubSection-The-nature-of-acids-and-Bases-Strong-and-weak-acids-and-bas
-es [1
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-and-bases)
+
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Strong-and-weak-
+acids-and-bases [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-a
 cidbase/figure1.png (PNG copy)>])
-(./files/SideFigure-Common-acids-and-bases
+(../Ch-acidbase/files/SideFigure-Common-acids-and-bases
 <../Ch-acidbase/figure13.png, id=173, 1491.5725pt x 2003.485pt>
 File: ../Ch-acidbase/figure13.png Graphic file (type png)
 <use ../Ch-acidbase/figure13.png>
@@ -5173,9 +5177,11 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-) (./files/SubSection-The-nature-of-acids-and-Bases-Arrhenius-acid-base-model)
-(./files/SubSection-The-nature-of-acids-and-Bases-Bronsted-acids)
-(./problems/SampleProblem1 (./problems/StudyCheck1
+)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Arrhenius-acid-b
+ase-model)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Bronsted-acids)
+(../Ch-acidbase/problems/SampleProblem1 (../Ch-acidbase/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5184,7 +5190,7 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
 [2 <../Ch-acidbase/figure13.png (PNG copy)> <../Ch-acidbase/figure7.png (PNG co
 py)> <../Ch-acidbase/figure10.png (PNG copy)>])
-(./files/SideFigure-More-common-acids
+(../Ch-acidbase/files/SideFigure-More-common-acids
 <../Ch-acidbase/figure9.png, id=182, 501.875pt x 351.3125pt>
 File: ../Ch-acidbase/figure9.png Graphic file (type png)
 <use ../Ch-acidbase/figure9.png>
@@ -5221,11 +5227,13 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 15--19
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-) (./files/SubSection-The-nature-of-acids-and-Bases-Lewis-acid-base-model)
-(./problems/SampleProblem2 (./problems/StudyCheck2) [3 <../Ch-acidbase/figure9.
-png> <../Ch-acidbase/figure8.png (PNG copy)> <../Ch-acidbase/figure11.png (PNG 
-copy)>]) (./files/SubSection-The-nature-of-acids-and-Bases-Acids-models-sumary)
-(./files/Table-Acid-models
+)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Lewis-acid-base-
+model) (../Ch-acidbase/problems/SampleProblem2
+(../Ch-acidbase/problems/StudyCheck2) [3 <../Ch-acidbase/figure9.png> <../Ch-ac
+idbase/figure8.png (PNG copy)> <../Ch-acidbase/figure11.png (PNG copy)>])
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-models-sum
+ary) (../Ch-acidbase/files/Table-Acid-models
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5237,21 +5245,26 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}1' on page 4 undefined on input line
+ 18.
+
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 51.
 
-(./files/SectionIntro-Dissociation-of-acids-and-bases)
-(./files/SubSection-Dissociation-of-acids-and-bases-Conjugate-acids-and-bases)
-(./problems/SampleProblem3 (./problems/StudyCheck3)
+(../Ch-acidbase/files/SectionIntro-Dissociation-of-acids-and-bases)
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Conjugate-acid
+s-and-bases) (../Ch-acidbase/problems/SampleProblem3
+(../Ch-acidbase/problems/StudyCheck3)
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 [4])
-(./files/SubSection-Dissociation-of-acids-and-bases-Conjugate-organic-acids-and
--bases
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Conjugate-orga
+nic-acids-and-bases
 Overfull \hbox (14.4319pt too wide) in paragraph at lines 7--7
  []|[]| 
  []
@@ -5281,7 +5294,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 16--26
  [] 
  []
 
-) (./problems/SampleProblem4
+) (../Ch-acidbase/problems/SampleProblem4
 Overfull \hbox (21.09286pt too wide) in paragraph at lines 8--8
  []|[]| 
  []
@@ -5336,7 +5349,7 @@ Overfull \hbox (8.96709pt too wide) in alignment at lines 19--29
 [] [] [] [] [] [] [] 
  []
 
-(./problems/StudyCheck4
+(../Ch-acidbase/problems/StudyCheck4
 Overfull \hbox (13.32698pt too wide) in paragraph at lines 7--7
  []|[]| 
  []
@@ -5357,17 +5370,19 @@ Overfull \hbox (8.96709pt too wide) in alignment at lines 4--14
  []
 
 ))
-(./files/SubSection-Dissociation-of-acids-and-bases-Writing-down-acid-base-equi
-libria [6])
-(./files/SubSection-Dissociation-of-acids-and-bases-Dissociating-organic-acids-
-and-bases) (./problems/SampleProblem5 (./problems/StudyCheck5
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Writing-down-a
+cid-base-equilibria [6])
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Dissociating-o
+rganic-acids-and-bases) (../Ch-acidbase/problems/SampleProblem5
+(../Ch-acidbase/problems/StudyCheck5
 Underfull \hbox (badness 10000) in paragraph at lines 6--3
 
  []
 
 ) [7])
-(./files/SubSection-Strength-of-acids-and-bases-Including-water-in-the-dissocia
-tion) (./problems/SampleProblem7 (./problems/StudyCheck7
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Including-water-in
+-the-dissociation) (../Ch-acidbase/problems/SampleProblem7
+(../Ch-acidbase/problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 1--7
 
  []
@@ -5377,18 +5392,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--7
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 65.
 
-(./files/SectionIntro-Strength-of-acids-and-bases)
-(./files/SubSection-Strength-of-acids-and-bases-Review-of-Strength)
-(./files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-and-bases-
-[9]) (./files/SubSection-Strength-of-acids-and-bases-Ka-and-Kb
+(../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-bases)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Review-of-Strength
+)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-
+and-bases- [9])
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Ka-and-Kb
 
-LaTeX Warning: Reference `Fig:{Ch-acidbases}0' on page 10 undefined on input li
-ne 5.
+LaTeX Warning: Reference `Fig:{Ch-acidbase}0' on page 10 undefined on input lin
+e 5.
 
-) [10] (./files/Table-Acidity-constants
+) [10] (../Ch-acidbase/files/Table-Acidity-constants
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 54.
+
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 11 undefined on input lin
+e 54.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 54.
@@ -5402,11 +5423,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 54.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 54.
-) (./problems/SampleProblem6 (./problems/StudyCheck6))
-(./files/SubSection-Strength-of-acids-and-bases-PK-of-an-acid-or-base [11])
-(./files/SubSection-Strength-of-acids-and-bases-Conjugate-Seesaw)
-(./files/SideFigure-PH-meter-and-indicators
-<../Ch-acidbase/figure16.png, id=248, 803.0pt x 534.99875pt>
+) (../Ch-acidbase/problems/SampleProblem6 (../Ch-acidbase/problems/StudyCheck6)
+)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-PK-of-an-acid-or-b
+ase [11])
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Conjugate-Seesaw)
+(../Ch-acidbase/files/SideFigure-PH-meter-and-indicators
+<../Ch-acidbase/figure16.png, id=246, 803.0pt x 534.99875pt>
 File: ../Ch-acidbase/figure16.png Graphic file (type png)
 <use ../Ch-acidbase/figure16.png>
 Package pdftex.def Info: ../Ch-acidbase/figure16.png  used on input line 2.
@@ -5416,7 +5439,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure17.png, id=249, 246.6816pt x 126.7134pt>
+<../Ch-acidbase/figure17.png, id=247, 246.6816pt x 126.7134pt>
 File: ../Ch-acidbase/figure17.png Graphic file (type png)
 <use ../Ch-acidbase/figure17.png>
 Package pdftex.def Info: ../Ch-acidbase/figure17.png  used on input line 7.
@@ -5429,7 +5452,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-<../Ch-acidbase/figure19.png, id=250, 273.27094pt x 286.82156pt>
+<../Ch-acidbase/figure19.png, id=248, 273.27094pt x 286.82156pt>
 File: ../Ch-acidbase/figure19.png Graphic file (type png)
 <use ../Ch-acidbase/figure19.png>
 Package pdftex.def Info: ../Ch-acidbase/figure19.png  used on input line 12.
@@ -5442,25 +5465,45 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 11--15
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-) (./files/SubSection-Strength-of-acids-and-bases-Acid-base-properties-of-salts
 )
-(./files/SubSection-The-nature-of-acids-and-Bases-Acid-base-properties-of-oxide
-s [12 <../Ch-acidbase/figure16.png (PNG copy)> <../Ch-acidbase/figure17.png (PN
-G copy)> <../Ch-acidbase/figure19.png (PNG copy)>])
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Acid-base-properti
+es-of-salts)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acid-base-proper
+ties-of-oxides [12 <../Ch-acidbase/figure16.png (PNG copy)> <../Ch-acidbase/fig
+ure17.png (PNG copy)> <../Ch-acidbase/figure19.png (PNG copy)>])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 80.
 
-(./files/SectionIntro-The-PH-scale) (./files/SubSection-The-PH-scale-Kw
-[13]) (./files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
-(./problems/SampleProblem8 (./problems/StudyCheck8))
-(./files/SubSection-The-PH-scale-The-PH-scale [14]) (./problems/SampleProblem9
-(./problems/StudyCheck9
+(../Ch-acidbase/files/SectionIntro-The-PH-scale)
+(../Ch-acidbase/files/SubSection-The-PH-scale-Kw [13])
+(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
+(../Ch-acidbase/problems/SampleProblem8
+
+LaTeX Warning: Reference `Ch-acidbase:equation2' on page 14 undefined on input 
+line 5.
+
+(../Ch-acidbase/problems/StudyCheck8))
+(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale [14])
+(../Ch-acidbase/problems/SampleProblem9
+
+LaTeX Warning: Reference `Ch-acidbase:equation3' on page 15 undefined on input 
+line 6.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation3' on page 15 undefined on input 
+line 11.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation2' on page 15 undefined on input 
+line 11.
+
+(../Ch-acidbase/problems/StudyCheck9
 Underfull \hbox (badness 10000) in paragraph at lines 16--6
 
  []
 
-)) (./files/Figure-PH-scale
+)) (../Ch-acidbase/files/Figure-PH-scale
 Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5488,50 +5531,100 @@ Package pgfplots Warning: You have an axis with empty range (in direction y). R
 eplacing it with a default range and clearing all plots. on input line 99.
 
  [warning /pgfplots/warning/empty range cleared axis]
-<../Ch-acidbase/figure6.png, id=278, 129.48375pt x 125.46875pt>
+<../Ch-acidbase/figure6.png, id=272, 129.48375pt x 125.46875pt>
 File: ../Ch-acidbase/figure6.png Graphic file (type png)
 <use ../Ch-acidbase/figure6.png>
 Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
-<../Ch-acidbase/figure3.png, id=280, 260.975pt x 194.7275pt>
+<../Ch-acidbase/figure3.png, id=274, 260.975pt x 194.7275pt>
 File: ../Ch-acidbase/figure3.png Graphic file (type png)
 <use ../Ch-acidbase/figure3.png>
 Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
-<../Ch-acidbase/figure4.png, id=281, 285.065pt x 438.63875pt>
+<../Ch-acidbase/figure4.png, id=275, 285.065pt x 438.63875pt>
 File: ../Ch-acidbase/figure4.png Graphic file (type png)
 <use ../Ch-acidbase/figure4.png>
 Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
-<../Ch-acidbase/figure5.png, id=282, 183.68625pt x 277.035pt>
+<../Ch-acidbase/figure5.png, id=276, 183.68625pt x 277.035pt>
 File: ../Ch-acidbase/figure5.png Graphic file (type png)
 <use ../Ch-acidbase/figure5.png>
 Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
-<../Ch-acidbase/figure2.png, id=283, 250.9375pt x 250.9375pt>
+<../Ch-acidbase/figure2.png, id=277, 250.9375pt x 250.9375pt>
 File: ../Ch-acidbase/figure2.png Graphic file (type png)
 <use ../Ch-acidbase/figure2.png>
 Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75713pt x 50.75713pt.
-) (./files/SubSection-The-PH-scale-From-PH-to-proton-concentration [15 <../Ch-a
-cidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../Ch-acidbase/fi
-gure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase/figure2.png 
-(PNG copy)>]
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}1' on page 15 undefined on input lin
+e 99.
+
+) (../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
+[15 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../Ch
+-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase/
+figure2.png (PNG copy)>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 5.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 5.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 5.
-) (./problems/SampleProblem10 (./problems/StudyCheck10))
-(./files/Figure-PH-POH-formulas)
-(./files/SubSection-The-PH-scale-PH-of-strong-electrolyte-solutions [16])
-(./problems/SampleProblem11 (./problems/StudyCheck11))
-(./files/SubSection-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases
-[17]) (./problems/SampleProblem12 (./problems/StudyCheck12))
-(./files/SubSection-The-PH-scale-PH-of-salt-solutions [18])
-(./problems/SampleProblem13 (./problems/StudyCheck13))
-(./files/SubSection-The-PH-scale-Percent-dissociation-of-weak-acids-and-bases
+) (../Ch-acidbase/problems/SampleProblem10
+
+LaTeX Warning: Reference `Ch-acidbase:equation6' on page 16 undefined on input 
+line 5.
+
+(../Ch-acidbase/problems/StudyCheck10))
+(../Ch-acidbase/files/Figure-PH-POH-formulas)
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-strong-electrolyte-solution
+s [16]) (../Ch-acidbase/problems/SampleProblem11
+
+LaTeX Warning: Reference `Ch-acidbase:equation7' on page 17 undefined on input 
+line 6.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation8' on page 17 undefined on input 
+line 8.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation5' on page 17 undefined on input 
+line 10.
+
+(../Ch-acidbase/problems/StudyCheck11))
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-solutions-of-weak-acids-and
+-bases [17]
+
+LaTeX Warning: Reference `Ch-acidbase:equation3' on page 18 undefined on input 
+line 28.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation4' on page 18 undefined on input 
+line 28.
+
+) (../Ch-acidbase/problems/SampleProblem12
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 18 undefined on input 
+line 5.
+
+(../Ch-acidbase/problems/StudyCheck12))
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-salt-solutions
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 18 undefined on input 
+line 1.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation1' on page 18 undefined on input 
+line 1.
+
+[18]) (../Ch-acidbase/problems/SampleProblem13
+
+LaTeX Warning: Reference `Ch-acidbase:equation10' on page 19 undefined on input
+ line 5.
+
+(../Ch-acidbase/problems/StudyCheck13))
+(../Ch-acidbase/files/SubSection-The-PH-scale-Percent-dissociation-of-weak-acid
+s-and-bases
 Underfull \hbox (badness 7379) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Weak acids (and
  []
@@ -5540,36 +5633,86 @@ Underfull \hbox (badness 7379) in paragraph at lines 1--2
 Underfull \vbox (badness 3525) has occurred while \output is active []
 
  [19])
-(./problems/SampleProblem14 (./problems/StudyCheck14))
+(../Ch-acidbase/problems/SampleProblem14
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 20 undefined on input 
+line 5.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation11' on page 20 undefined on input
+ line 9.
+
+(../Ch-acidbase/problems/StudyCheck14))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 104.
 
-(./files/SectionIntro-Buffer-solutions [20])
-(./files/SubSection-Buffer-solutions-Buffers)
-(./files/SubSection-Buffer-solutions-PH-of-a-Buffer-solution)
-(./problems/SampleProblem15 (./problems/StudyCheck15))
-(./files/SubSection-Buffer-solutions-PH-of-Buffer-solution-mixed-with-acids-or-
-bases
+(../Ch-acidbase/files/SectionIntro-Buffer-solutions [20])
+(../Ch-acidbase/files/SubSection-Buffer-solutions-Buffers)
+(../Ch-acidbase/files/SubSection-Buffer-solutions-PH-of-a-Buffer-solution)
+(../Ch-acidbase/problems/SampleProblem15 (../Ch-acidbase/problems/StudyCheck15)
+)
+(../Ch-acidbase/files/SubSection-Buffer-solutions-PH-of-Buffer-solution-mixed-w
+ith-acids-or-bases
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) This sec-tion
  []
 
-[21]) (./problems/SampleProblem16 (./problems/StudyCheck16))
+[21]
+
+LaTeX Warning: Reference `Ch-acidbase:equation17' on page 22 undefined on input
+ line 5.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation16' on page 22 undefined on input
+ line 5.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation16' on page 22 undefined on input
+ line 10.
+
+) (../Ch-acidbase/problems/SampleProblem16
+
+LaTeX Warning: Reference `Ch-acidbase:equation16' on page 22 undefined on input
+ line 4.
+
+(../Ch-acidbase/problems/StudyCheck16))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 113.
 
-(./files/SectionIntro-Titrations)
-(./files/SubSection-Titrations-Neutralization-Reactions [22])
-(./files/Figure-Titration-curves)
-(./files/SubSection-Titrations-Endpoint-formula) (./problems/SampleProblem17
-(./problems/StudyCheck17)
+(../Ch-acidbase/files/SectionIntro-Titrations)
+(../Ch-acidbase/files/SubSection-Titrations-Neutralization-Reactions [22])
+(../Ch-acidbase/files/Figure-Titration-curves
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}2' on page 23 undefined on input lin
+e 40.
+
+) (../Ch-acidbase/files/SubSection-Titrations-Endpoint-formula
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 23 undefined on input
+ line 18.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 23 undefined on input
+ line 18.
+
+) (../Ch-acidbase/problems/SampleProblem17
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 23 undefined on input
+ line 5.
+
+(../Ch-acidbase/problems/StudyCheck17)
 Underfull \hbox (badness 10000) in paragraph at lines 19--12
 
  []
 
-[23]) (./files/Table-Titration-formulas
+[23]) (../Ch-acidbase/files/Table-Titration-formulas
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}3' on page 24 undefined on input lin
+e 19.
+
+
 Underfull \hbox (badness 1194) in paragraph at lines 19--19
  []|\T1/ptm/b/n/7 At the End-Point| 
  []
@@ -5589,25 +5732,80 @@ Underfull \hbox (badness 10000) in alignment at lines 19--19
 [][][][] 
  []
 
-) (./files/SubSection-Titrations-Titration-curves [24])
-(./files/SubSection-Titrations-Titration-PH-formulas)
-(./files/SubSection-Titrations-c_R-and-c_F) (./problems/SampleProblem18
-(./problems/StudyCheck18) [25]) (./problems/SampleProblem19
-(./problems/StudyCheck19) [26]) (./files/Figure-Titration
-<../Ch-acidbase/titration.jpeg, id=427, 562.1pt x 246.9225pt>
+) (../Ch-acidbase/files/SubSection-Titrations-Titration-curves [24])
+(../Ch-acidbase/files/SubSection-Titrations-Titration-PH-formulas
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}3' on page 25 undefined on input lin
+e 1.
+
+) (../Ch-acidbase/files/SubSection-Titrations-c_R-and-c_F
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 25 undefined on input
+ line 6.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 25 undefined on input
+ line 13.
+
+) (../Ch-acidbase/problems/SampleProblem18
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 25 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 25 undefined on input
+ line 12.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 25 undefined on input
+ line 12.
+
+(../Ch-acidbase/problems/StudyCheck18) [25])
+(../Ch-acidbase/problems/SampleProblem19
+
+LaTeX Warning: Reference `Ch-acidbase:equation3' on page 26 undefined on input 
+line 1.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation5' on page 26 undefined on input 
+line 1.
+
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 26 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 26 undefined on input
+ line 12.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation13' on page 26 undefined on input
+ line 12.
+
+(../Ch-acidbase/problems/StudyCheck19)
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+ [26])
+(../Ch-acidbase/files/Figure-Titration
+<../Ch-acidbase/titration.jpeg, id=386, 562.1pt x 246.9225pt>
 File: ../Ch-acidbase/titration.jpeg Graphic file (type jpg)
 <use ../Ch-acidbase/titration.jpeg>
 Package pdftex.def Info: ../Ch-acidbase/titration.jpeg  used on input line 10.
 (pdftex.def)             Requested size: 441.0179pt x 193.73283pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}3' on page 27 undefined on input lin
+e 10.
+
 ) [27 <../Ch-acidbase/titration.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 137.
 
-(./files/SectionIntro-Blood-as-a-buffer)
-(./files/SubSection-Blood-as-a-buffer-Carbon-dioxide-is-an-acid)
-(./files/SubSection-Blood-as-a-buffer-The-dangerous-change-in-blood-PH)
-(./files/Figure-Alkalosis-and-PH
+(../Ch-acidbase/files/SectionIntro-Blood-as-a-buffer)
+(../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Carbon-dioxide-is-an-acid)
+(../Ch-acidbase/files/SubSection-Blood-as-a-buffer-The-dangerous-change-in-bloo
+d-PH) (../Ch-acidbase/files/Figure-Alkalosis-and-PH
 Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5623,21 +5821,30 @@ eplacing it with a default range and clearing all plots. on input line 35.
 
  [warning /pgfplots/warning/empty range cleared axis]
 
+LaTeX Warning: Reference `Fig:{Ch-acidbase}4' on page 28 undefined on input lin
+e 35.
+
+
 Overfull \hbox (34.38705pt too wide) in paragraph at lines 2--35
 [][] 
  []
 
-) (./files/SubSection-Blood-as-a-buffer-Alkalosis-and-carbon-dioxide)
-(./problems/SampleProblem20 (./problems/StudyCheck20) [28])
+)
+(../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Alkalosis-and-carbon-dioxide
+) (../Ch-acidbase/problems/SampleProblem20
+(../Ch-acidbase/problems/StudyCheck20) [28])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 149.
 
-(./files/SectionIntro-Strength-of-acids-and-its-structure)
-(./files/Subsection-Strength-of-acids-and-its-structure-Binary-Acids)
-(./files/Subsection-Strength-of-acids-and-its-structure-Oxoacids [29])
-(./files/Subsection-Strength-of-acids-and-its-structure-Carboxylic-acids
-[30]) (./files/Subsection-Strength-of-acids-and-its-structure-review)
+(../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-its-structure)
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Binary-Aci
+ds)
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Oxoacids
+[29])
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Carboxylic
+-acids [30])
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-review)
 Underfull \hbox (badness 10000) in paragraph at lines 1--155
 []
  []
@@ -5646,13 +5853,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--155
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 157.
 
-(./files/SectionIntro-Indicators)
-(./files/Subsection-Indicators-How-do-they-function [31])
-(./files/Subsection-Indicators-Selecting-and-indicator)
-(./files/Subsection-Indicators-Litmus) (./files/Table-Indicators
+(../Ch-acidbase/files/SectionIntro-Indicators)
+(../Ch-acidbase/files/Subsection-Indicators-How-do-they-function [31])
+(../Ch-acidbase/files/Subsection-Indicators-Selecting-and-indicator)
+(../Ch-acidbase/files/Subsection-Indicators-Litmus)
+(../Ch-acidbase/files/Table-Indicators
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 49.
+
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}4' on page 32 undefined on input lin
+e 49.
 
 
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--50
@@ -5663,20 +5875,26 @@ Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--50
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32])
-(./problems/SampleProblem21 (./problems/StudyCheck21))
+(../Ch-acidbase/problems/SampleProblem21 (../Ch-acidbase/problems/StudyCheck21)
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 170.
 
-(./files/SectionIntro-Titrations-of-polyprotic-acids
+(../Ch-acidbase/files/SectionIntro-Titrations-of-polyprotic-acids
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33])
-(./files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-curved-of-poly
-protic-acids)
-(./files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-point-of-poly
-protic-acids) (./files/Figure-Titration-curves-polyprotic))
-(../Ch-acidbase/Ch-acidbaseProblems.tex [34]
+(../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-c
+urved-of-polyprotic-acids)
+(../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-
+point-of-polyprotic-acids)
+(../Ch-acidbase/files/Figure-Titration-curves-polyprotic
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}5' on page 34 undefined on input lin
+e 16.
+
+)) (../Ch-acidbase/Ch-acidbaseProblems.tex [34]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5709,12 +5927,12 @@ protic-acids) (./files/Figure-Titration-curves-polyprotic))
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 8.
+Package mdframed Info: mdframed works in twoside mode on input line 9.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 8.
-Package mdframed Info: Not enough space on this page on input line 8.
+ line 9.
+Package mdframed Info: Not enough space on this page on input line 9.
 
 (./problems/Problems-The-nature-of-acids-and-Bases-Arrhenius-acid-base-model
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -5807,9 +6025,9 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 47.
+ line 48.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 39--49
+Overfull \hbox (15.0pt too wide) in paragraph at lines 40--50
 []$[]$ 
  []
 
@@ -5852,11 +6070,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 83041 strings out of 493014
- 1879964 string characters out of 6133351
- 2646359 words of memory out of 5000000
- 83894 multiletter control sequences out of 15000+600000
- 292735 words of font info for 367 fonts, out of 8000000 for 9000
+ 83072 strings out of 493014
+ 1884021 string characters out of 6133351
+ 2646353 words of memory out of 5000000
+ 83923 multiletter control sequences out of 15000+600000
+ 295538 words of font info for 369 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,33n,118p,10369b,3209s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5893,10 +6111,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (39 pages, 20061151 bytes).
+Output written on main.pdf (39 pages, 20064434 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 841 compressed objects within 9 object streams
+ 978 PDF objects out of 1000 (max. 8388607)
+ 796 compressed objects within 8 object streams
  420 named destinations out of 1000 (max. 500000)
- 80547 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 81059 words of extra memory for PDF output out of 89155 (max. 10000000)
 
