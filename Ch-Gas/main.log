@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 20:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5510,17 +5510,17 @@ s-Distribution-of-velocities) [16] [17
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 12.
-Package mdframed Info: Not enough space on this page on input line 12.
+Package mdframed Info: mdframed works in twoside mode on input line 13.
+Package mdframed Info: Not enough space on this page on input line 13.
 
-(./problems/GeneralProblems-Gases-And-Its-Properties
+(../Ch-gas/problems/problems/GeneralProblems-Gases-And-Its-Properties
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 )
-(./problems/GeneralProblems-Measuring-pressure)
-(./problems/GeneralProblems-Ideal-Gas-Law [18
+(../Ch-gas/problems/problems/GeneralProblems-Measuring-pressure)
+(../Ch-gas/problems/problems/GeneralProblems-Ideal-Gas-Law [18
 
 
 ]
@@ -5548,12 +5548,12 @@ NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-) (./problems/GeneralProblems-Change-of-Gas-Properties)
-(./problems/GeneralProblems-Mixture-of-Gases)
-(./problems/GeneralProblems-Mixture-of-Gases-tanks)
-(./problems/GeneralProblems-gas-stoichiometry [19])
-(./problems/GeneralProblems-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s) [20]
+) (../Ch-gas/problems/problems/GeneralProblems-Change-of-Gas-Properties)
+(../Ch-gas/problems/problems/GeneralProblems-Mixture-of-Gases)
+(../Ch-gas/problems/problems/GeneralProblems-Mixture-of-Gases-tanks)
+(../Ch-gas/problems/problems/GeneralProblems-gas-stoichiometry [19])
+(../Ch-gas/problems/problems/GeneralProblems-Real-gases-and-the-kinetic-molecul
+ar-theory-of-gases) [20]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5586,15 +5586,16 @@ s) [20]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 42.
+ line 43.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 34--45
+Overfull \hbox (15.0pt too wide) in paragraph at lines 35--46
 []$[]$ 
  []
 
@@ -5632,8 +5633,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
  82325 strings out of 493014
- 1860613 string characters out of 6133351
- 2681268 words of memory out of 5000000
+ 1860920 string characters out of 6133351
+ 2681398 words of memory out of 5000000
  83668 multiletter control sequences out of 15000+600000
  372044 words of font info for 417 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
