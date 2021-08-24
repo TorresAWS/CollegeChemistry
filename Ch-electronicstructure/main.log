@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 AUG 2021 20:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5558,15 +5558,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 12.
+Package mdframed Info: mdframed works in twoside mode on input line 13.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 12.
-Package mdframed Info: Not enough space on this page on input line 12.
+ line 13.
+Package mdframed Info: Not enough space on this page on input line 13.
 
-(./problems/problems/Problems-Electron-dot-structures-of-atoms-Electron-dot-str
-ucture-of-general-molecules
+(../Ch-electronicstructure/problems/problems/Problems-Electron-dot-structures-o
+f-atoms-Electron-dot-structure-of-general-molecules
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5649,9 +5649,10 @@ Overfull \hbox (1.8842pt too wide) in paragraph at lines 305--305
  []
 
 )
-(./problems/problems/Problems-Electron-dot-structures-of-atoms-Atomic-charges-i
-n-a-molecule [24])
-(./problems/problems/Problems-Molecular-shape-ABE-Molecular-code
+(../Ch-electronicstructure/problems/problems/Problems-Electron-dot-structures-o
+f-atoms-Atomic-charges-in-a-molecule [24])
+(../Ch-electronicstructure/problems/problems/Problems-Molecular-shape-ABE-Molec
+ular-code
 Overfull \hbox (4.14095pt too wide) in paragraph at lines 115--115
 []   []
  []
@@ -5661,11 +5662,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
  []
 
-[25]) (./problems/problems/Problems-Molecular-shape-Bond-polarity)
-(./problems/problems/Problems-Hybrid-orbitals-From-ABE--code-to-hybridization)
-(./problems/problems/Problems-Molecular-orbital)
-(./problems/problems/Problems-Molecular-orbital-theory-Paramagnetism-and-diamag
-netism) [26]
+[25])
+(../Ch-electronicstructure/problems/problems/Problems-Molecular-shape-Bond-pola
+rity)
+(../Ch-electronicstructure/problems/problems/Problems-Hybrid-orbitals-From-ABE-
+-code-to-hybridization)
+(../Ch-electronicstructure/problems/problems/Problems-Molecular-orbital)
+(../Ch-electronicstructure/problems/problems/Problems-Molecular-orbital-theory-
+Paramagnetism-and-diamagnetism) [26]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5698,26 +5702,27 @@ netism) [26]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 51.
+ line 52.
 
-Underfull \hbox (badness 5217) in paragraph at lines 44--52
+Underfull \hbox (badness 5217) in paragraph at lines 45--53
 []\T1/ptm/m/n/10 (+20) (b)  []   [][](a)  []  [](b)  []   [][](a)  []  [](b)  [
 ]  [](c)  []
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 44--52
+Underfull \hbox (badness 3158) in paragraph at lines 45--53
 []\T1/ptm/m/n/10 (+20) (b)    []  [](c)  []   [][](a)  []  [](b)  []   [][]
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 42--52
+Overfull \hbox (15.0pt too wide) in paragraph at lines 43--53
 []$[]$ 
  []
 
@@ -5758,8 +5763,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5393.
  ) 
 Here is how much of TeX's memory you used:
  83985 strings out of 493014
- 1903084 string characters out of 6133351
- 2846399 words of memory out of 5000000
+ 1903460 string characters out of 6133351
+ 2846594 words of memory out of 5000000
  85163 multiletter control sequences out of 15000+600000
  269328 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5792,7 +5797,7 @@ type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (27 pages, 1295754 bytes).
+Output written on main.pdf (27 pages, 1294034 bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
  534 compressed objects within 6 object streams
