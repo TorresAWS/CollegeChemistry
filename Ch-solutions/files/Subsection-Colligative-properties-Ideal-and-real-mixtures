@@ -1,0 +1,13 @@
+We have considered the impact of a solute on the vapor pressure of a liquid assuming that the solute with null vapor pressure. How about mixing two liquids? In this case, both liquids with different vapor pressure will contribute to the overall vapor pressure of the mixture by means of an expression equivalent to Raoul's law:
+\begin{equation}
+\boxed{ P_{vap}^{\text{solution}}=\chi_A\cdot P_{vap, A}  +\chi_B\cdot P_{vap, B}	}
+\label{\chapterlabel:equation20}
+\end{equation}
+where:
+\begin{where}
+ \item $P_{vap}^{\text{solution}}$  is the vapor pressure of the mixture
+ \item $P_{vap, A}$, $P_{vap, B}$  is the vapor pressure of the pure solvent A and B
+  \item $\chi_A$,  $\chi_B$  is the mole fraction of A and B
+\end{where}
+Ideal mixtures will follow Equation \ref{\chapterlabel:equation20}. In other words, when the vapor pressure of the mixtures results from adding the vapor pressure of both liquids the mixture will be ideal. For some mixtures, the overall vapor pressure is lower or higher than the pressure resulting from adding the vapor pressure of both liquids. These mixtures are real. We can encounter positive or negative deviations from the ideal behavior. When the interaction between the two liquids is exothermic and hence favorable, the resulting vapor pressure of the mixture will be lower than the resulting combined vapor pressure and the mixture will experience negative deviations from ideality. When the interaction between the two liquids is endothermic and hence energetically unfavorable, the resulting vapor pressure of the mixture will be higher than the resulting combined vapor pressure and the mixture will experience positive deviations from ideality.
+

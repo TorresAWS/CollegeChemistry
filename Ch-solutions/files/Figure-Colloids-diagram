@@ -1,0 +1,39 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+%\caption{Classification of the matter}
+\hspace{-5cm}\vspace{-0.5cm}
+\begin{minipage}[b]{1.\linewidth}
+\begin{center}
+\resizebox{1.3\textwidth}{!}{
+\begin{tikzpicture}
+  [
+    start chain=p going below,
+    every on chain/.append style={etape},
+    every join/.append style={line},
+    node distance=1 and .85,
+  ]
+  {
+    \node (a) [on chain, join] {Mixtures};
+    {[start branch=l going below left] \node (b) [on chain] {Solutions};}
+    {[start branch=r going below right] \node (c) [on chain] {Suspension}; }
+      {[start branch=c going below ] \node (d) [on chain] {Colloids}; }
+
+
+\path [line] (a.south) -- ([yshift=-.5cm]a.south) --  ([yshift=.5cm]b.north) --  (b.north); 
+\path [line]  		  ([yshift=-.5cm]a.south) --  ([yshift=.5cm]c.north) --  (c.north); 
+\path [line]  		  ([yshift=-.5cm]a.south)  --  (d.north); 
+
+
+
+ \node (e) at ([yshift=-1.5cm]b.south) {\includegraphics[width=3cm]{../{\chapterlabel}/seawater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Seawater is a solution};
+
+ \node (e) at ([yshift=-1.5cm]c.south) {\includegraphics[width=3cm]{../{\chapterlabel}/muddywater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=4cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Muddy water is a suspension};
+  \node (f) at ([yshift=-1.6cm]d.south) {\includegraphics[width=3cm, height=2.9cm]{../{\chapterlabel}/milk}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.2cm, xshift=.4cm]f.south){Milk is a colloid};
+% 
+
+  }
+\end{tikzpicture}
+}
+\begin{tikzpicture}
+ \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Classification of the mixtures };
+\end{tikzpicture}
+\end{center}\end{minipage}

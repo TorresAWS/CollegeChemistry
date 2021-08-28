@@ -1,0 +1,15 @@
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The solubility of Ar in water at 298K when the partial pressure of Ar is 0.9atm is $1.26\times 10^{-3}$M. Calculate:
+\begin{inparaenum}[(a)]
+\item  Henry's law constant at that temperature  % ($1.4\times 10^{-3}$ M/atm)
+\item  The solubility of Ar at a partial pressure of 0.5atm % ($7.00\times 10^{-4}$M)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $1.4\times 10^{-3}$ M/atm
+\item     $7.00\times 10^{-4}$M
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+

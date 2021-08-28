@@ -1,0 +1,12 @@
+\begin{center} \begin{fullwidth}\begin{minipage}[b]{1.1\linewidth}\resizebox{0.99\textwidth}{!}{\begin{tikzpicture}
+\node [block] (box1) at (0,0) [rectangle, text width=3cm,node distance=1.5cm, align=left, draw=white,fill=red!20!white, minimum width=2.5cm, minimum height=1.5cm,auto,>=latex'] { $m=\frac{\text{moles of solute}}{\text{Kg of solvent}}$};
+\node [block] (box2) at (6,0) [rectangle, text width=3cm, align=left, draw=white,fill=yellow!20!white, minimum width=2.5cm, minimum height=1.5cm] { $M=\frac{\text{moles of solute}}{\text{liters of solution}}$};
+\node [block] (box3) at (12,-3) [rectangle, text width=4cm,align=left, draw=white,fill=blue!20!white, minimum width=2.5cm, minimum height=1.5cm] { $\%_m=\frac{\text{mass of solute}}{\text{mass of solution}}\times 100$};
+\node [block] (box4) at (20,-3) [rectangle, text width=3cm,align=left, draw=white,fill=green!20!white, minimum width=2.5cm, minimum height=1.5cm] { $\chi=\frac{\text{moles of solute}}{\text{moles of solution}}$};
+ \draw[thick,->, shift={(0,0em)}] ([shift={(0,1em)}]box1.east)  -- ([shift={(0,1em)}]box2.west) node[above,pos=0.5] {$ \text{M}=\frac{ 1000\cdot m\cdot d   }{1000+MW\cdot m   	} $} ;
+  \draw[thick,->] ([shift={(0,-1em)}]box2.west)  -- ([shift={(0,-1em)}]box1.east) node[below,pos=0.5] {$\text{m}=\frac{1000\cdot \text{M}}{1000\cdot d - \text{M}\cdot MW}$} ;
+ \draw[thick,<->, shift={(0,0em)}] ([shift={(0,1em)}]box2.east) --  ([shift={(1,1em)}]box2.east) --  ([shift={(1,-7.5em)}]box2.east) --   ([shift={(0,1em)}]box3.west) node[above,pos=0.7, shift={(.2,3em)}] {$ \%_m=\frac{\text{M}\cdot MW }{10\cdot \text{d} } $} ;
+%  \draw[thick,->] ([shift={(0,-1em)}]box3.west)  -- ([shift={(0,-1em)}]box2.east) node[below,pos=0.5] {$ \text{M}=\frac{\%_m \cdot \text{d}\cdot 10}{MW}$} ;
+\draw[thick,->, shift={(0,0em)}] ([shift={(0,1em)}]box3.east)  -- ([shift={(0,1em)}]box4.west) node[above,pos=0.5] {$ \chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} } $} ;
+  \draw[thick,->] ([shift={(0,-1em)}]box4.west)  -- ([shift={(0,-1em)}]box3.east) node[below,pos=0.5] {$  \%_{m}=\frac{ 100\cdot MW\cdot \chi  }{ 18+(MW-18)\chi }$} ;
+\end{tikzpicture}   }\end{minipage}\end{fullwidth}\end{center}
