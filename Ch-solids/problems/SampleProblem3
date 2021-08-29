@@ -1,0 +1,36 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following solids as ionic, molecular or atomic: diamond, dry ice (\ce{CO2}), iron and \ce{CaF2}.
+\begin{center}
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+ & diamond   &\ce{CO2} &\ce{Fe}&\ce{CaF2}   \\
+    \midrule
+   Molecular  &     &  & & 	  		   \\
+  Ionic&     &  & & 	 	     \\
+      Atomic &     &  & & 		   		\\    
+    \bottomrule
+\end{tabularx}
+\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In general ionic solids correspond to ionic compounds and molecular solids correspond to covalent compounds. Therefore, dry ice should be a molecular solid and \ce{CaF2} and ionic solid. Iron and diamond are both made of atoms and hence they are atomic compounds.
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+ & diamond   &\ce{CO2} &\ce{Fe}&\ce{CaF2}   \\
+    \midrule
+   Molecular  &\xmark       &\checkmark	   &\xmark  &\xmark   	  		   \\
+  Ionic&\xmark       &\xmark 	   &\xmark  &\checkmark  	 	     \\
+      Atomic &\checkmark     &\xmark 	   &\xmark &\xmark  		   		\\    
+            Metallic &\xmark      &\xmark 	   &\checkmark &\xmark  		   		\\    
+
+    \bottomrule
+\end{tabularx}
+\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following solids as ionic, molecular or atomic: silver, graphite, \ce{CaCO3} and \ce{NH3(s)}.
+\begin{flushright} Answer: metallic, atomic, ionic and molecular.\end{flushright}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
