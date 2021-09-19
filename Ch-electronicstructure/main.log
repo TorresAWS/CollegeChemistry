@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 SEP 2021 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 SEP 2021 06:57
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -5056,7 +5057,7 @@ Package microtype Info: Loading generic settings for font family
 (../Ch-electronicstructure/files/ChapterName
 Chapter 1.
 )
-<../Ch-electronicstructure/figure1.png, id=133, 1104.125pt x 509.905pt>
+<../Ch-electronicstructure/figure1.png, id=109, 1104.125pt x 509.905pt>
 File: ../Ch-electronicstructure/figure1.png Graphic file (type png)
 <use ../Ch-electronicstructure/figure1.png>
 Package pdftex.def Info: ../Ch-electronicstructure/figure1.png  used on input l
@@ -5242,79 +5243,83 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
-<../Ch-electronicstructure/geom1.png, id=245, 50.1875pt x 23.08624pt>
+
+LaTeX Warning: Reference `Tab:{Ch-electronicstructure}1' on page 11 undefined o
+n input line 27.
+
+<../Ch-electronicstructure/geom1.png, id=223, 50.1875pt x 23.08624pt>
 File: ../Ch-electronicstructure/geom1.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom1.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom1.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 23.35pt.
-<../Ch-electronicstructure/geom9.png, id=246, 1104.125pt x 602.25pt>
+<../Ch-electronicstructure/geom9.png, id=224, 1104.125pt x 602.25pt>
 File: ../Ch-electronicstructure/geom9.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom9.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom9.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.74487pt x 27.67902pt.
-<../Ch-electronicstructure/geom2.png, id=247, 50.1875pt x 44.165pt>
+<../Ch-electronicstructure/geom2.png, id=225, 50.1875pt x 44.165pt>
 File: ../Ch-electronicstructure/geom2.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom2.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom2.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 44.66962pt.
-<../Ch-electronicstructure/geom10.png, id=248, 1104.125pt x 808.01875pt>
+<../Ch-electronicstructure/geom10.png, id=226, 1104.125pt x 808.01875pt>
 File: ../Ch-electronicstructure/geom10.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom10.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom10.png  used on input li
 ne 27.
 (pdftex.def)             Requested size: 50.74487pt x 37.13602pt.
-<../Ch-electronicstructure/geom3.png, id=249, 50.1875pt x 34.1275pt>
+<../Ch-electronicstructure/geom3.png, id=227, 50.1875pt x 34.1275pt>
 File: ../Ch-electronicstructure/geom3.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom3.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom3.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom11.png, id=250, 1104.125pt x 509.905pt>
+<../Ch-electronicstructure/geom11.png, id=228, 1104.125pt x 509.905pt>
 File: ../Ch-electronicstructure/geom11.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom11.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom11.png  used on input li
 ne 27.
 (pdftex.def)             Requested size: 50.74487pt x 23.4349pt.
-<../Ch-electronicstructure/geom4.png, id=251, 50.1875pt x 50.1875pt>
+<../Ch-electronicstructure/geom4.png, id=229, 50.1875pt x 50.1875pt>
 File: ../Ch-electronicstructure/geom4.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom4.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom4.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 50.76094pt.
-<../Ch-electronicstructure/geom12.png, id=252, 1104.125pt x 894.34125pt>
+<../Ch-electronicstructure/geom12.png, id=230, 1104.125pt x 894.34125pt>
 File: ../Ch-electronicstructure/geom12.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom12.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom12.png  used on input li
 ne 27.
 (pdftex.def)             Requested size: 50.74487pt x 41.10335pt.
-<../Ch-electronicstructure/geom5.png, id=253, 50.1875pt x 40.15pt>
+<../Ch-electronicstructure/geom5.png, id=231, 50.1875pt x 40.15pt>
 File: ../Ch-electronicstructure/geom5.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom5.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom5.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 40.60875pt.
-<../Ch-electronicstructure/geom13.png, id=254, 1104.125pt x 798.985pt>
+<../Ch-electronicstructure/geom13.png, id=232, 1104.125pt x 798.985pt>
 File: ../Ch-electronicstructure/geom13.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom13.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom13.png  used on input li
 ne 27.
 (pdftex.def)             Requested size: 50.74487pt x 36.72083pt.
-<../Ch-electronicstructure/geom6.png, id=255, 50.1875pt x 34.1275pt>
+<../Ch-electronicstructure/geom6.png, id=233, 50.1875pt x 34.1275pt>
 File: ../Ch-electronicstructure/geom6.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom6.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom6.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom7.png, id=256, 50.1875pt x 57.21375pt>
+<../Ch-electronicstructure/geom7.png, id=234, 50.1875pt x 57.21375pt>
 File: ../Ch-electronicstructure/geom7.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom7.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom7.png  used on input lin
 e 27.
 (pdftex.def)             Requested size: 50.76094pt x 57.86746pt.
-<../Ch-electronicstructure/geom8.png, id=257, 50.1875pt x 53.19875pt>
+<../Ch-electronicstructure/geom8.png, id=235, 50.1875pt x 53.19875pt>
 File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
 <use ../Ch-electronicstructure/geom8.png>
 Package pdftex.def Info: ../Ch-electronicstructure/geom8.png  used on input lin
@@ -5322,6 +5327,18 @@ e 27.
 (pdftex.def)             Requested size: 50.76094pt x 53.8066pt.
 )
 (../Ch-electronicstructure/files/SubSection-Molecular-shape-ABE-Molecular-code
+
+LaTeX Warning: Reference `Tab:{Ch-electronicstructure}1' on page 11 undefined o
+n input line 2.
+
+
+LaTeX Warning: Reference `Tab:{Ch-electronicstructure}1' on page 11 undefined o
+n input line 4.
+
+
+LaTeX Warning: Reference `Tab:{Ch-electronicstructure}1' on page 11 undefined o
+n input line 4.
+
 [11 <../Ch-electronicstructure/geom1.png> <../Ch-electronicstructure/geom9.png>
  <../Ch-electronicstructure/geom2.png> <../Ch-electronicstructure/geom10.png> <
 ../Ch-electronicstructure/geom3.png> <../Ch-electronicstructure/geom11.png> <..
@@ -5364,6 +5381,10 @@ mixing) (../Ch-electronicstructure/files/Table-ABE-Code-hybridization [14]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 30.
+
+
+LaTeX Warning: Reference `Tab:{Ch-electronicstructure}2' on page 15 undefined o
+n input line 30.
 
 
 Overfull \hbox (51.20038pt too wide) in paragraph at lines 30--30
@@ -5448,6 +5469,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 d-antibonding-orbitals) (../Ch-electronicstructure/files/Figure-Sigma-orbitals
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:{Ch-electronicstructure}3' on page 17 undefined o
+n input line 32.
+
 ) (../Ch-electronicstructure/files/SideFigure-Wave-interference-destructive
 Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
 []
@@ -5464,6 +5490,11 @@ LaTeX Warning: Marginpar on page 17 moved.
 )
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Sigma-and-
 pi-orbitals) (../Ch-electronicstructure/files/Figure-Pi-orbitals
+
+LaTeX Warning: Reference `Fig:{Ch-electronicstructure}4' on page 17 undefined o
+n input line 73.
+
+
 Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
  [] 
  []
@@ -5553,6 +5584,11 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 13.
 Package mdframed Info: Not enough space on this page on input line 13.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 23 undefined on input line 1
+3.
+
 
 (../Ch-electronicstructure/problems/problems/Problems-Electron-dot-structures-o
 f-atoms-Electron-dot-structure-of-general-molecules
@@ -5739,9 +5775,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5393.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5393.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5393.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8DE3758DD60FB5FDE7945898A7AA4A5A;1126.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  8DE3758DD60FB5FDE7945898A7AA4A5A;1126.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5752,14 +5794,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5393.
  ) 
 Here is how much of TeX's memory you used:
- 83795 strings out of 493014
- 1900285 string characters out of 6133351
- 2802233 words of memory out of 5000000
- 85007 multiletter control sequences out of 15000+600000
- 262297 words of font info for 336 fonts, out of 8000000 for 9000
+ 83791 strings out of 493014
+ 1900246 string characters out of 6133351
+ 2784234 words of memory out of 5000000
+ 85002 multiletter control sequences out of 15000+600000
+ 265100 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,26n,117p,10369b,2623s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
@@ -5790,10 +5835,10 @@ type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (29 pages, 1288303 bytes).
+Output written on main.pdf (29 pages, 1287234 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
+ 636 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
  230 named destinations out of 1000 (max. 500000)
- 74805 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 75269 words of extra memory for PDF output out of 89155 (max. 10000000)
 
