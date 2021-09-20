@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 SEP 2021 06:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5083,7 +5083,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-biochemistry/Ch-biochemistry.tex (./files/ChapterName
+(../Ch-biochemistry/Ch-biochemistry.tex
+Package chemfig Warning:the submol "x" is already defined, the previous definit
+ion is lost on input line 8.
+Package chemfig Warning:the submol "y" is already defined, the previous definit
+ion is lost on input line 9.
+Package chemfig Warning:the submol "k" is already defined, the previous definit
+ion is lost on input line 10.
+Package chemfig Warning:the submol "a" is already defined, the previous definit
+ion is lost on input line 11.
+Package chemfig Warning:the submol "t" is already defined, the previous definit
+ion is lost on input line 12.
+(../Ch-biochemistry/files/ChapterName
 Chapter 1.
 )
 <../Ch-biochemistry/figure1.png, id=137, 2804.4775pt x 2308.625pt>
@@ -5092,8 +5103,9 @@ File: ../Ch-biochemistry/figure1.png Graphic file (type png)
 Package pdftex.def Info: ../Ch-biochemistry/figure1.png  used on input line 23.
 
 (pdftex.def)             Requested size: 140.53163pt x 115.6846pt.
- (./files/ChapterIntro) (./files/SectionGoal-Biomolecules)
-(./files/SectionGoal-Simple-Carbohydrates
+ (../Ch-biochemistry/files/ChapterIntro)
+(../Ch-biochemistry/files/SectionGoal-Biomolecules)
+(../Ch-biochemistry/files/SectionGoal-Simple-Carbohydrates
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5107,8 +5119,9 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 1.
 )
-(./files/SectionGoal-Disaccharides-and-polysaccharides)
-(./files/SectionGoal-Nucleic-acids) (./files/SectionGoal-Proteins)
+(../Ch-biochemistry/files/SectionGoal-Disaccharides-and-polysaccharides)
+(../Ch-biochemistry/files/SectionGoal-Nucleic-acids)
+(../Ch-biochemistry/files/SectionGoal-Proteins)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
 line 43.
 
@@ -5125,7 +5138,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/ChapterDiscussion)
+(../Ch-biochemistry/files/ChapterDiscussion)
 
 LaTeX Warning: Marginpar on page 1 moved.
 
@@ -5144,7 +5157,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/SectionIntro-Biomolecules) (./files/Figure-Biomolecules
+(../Ch-biochemistry/files/SectionIntro-Biomolecules)
+(../Ch-biochemistry/files/Figure-Biomolecules
 Overfull \hbox (12.0pt too wide) in paragraph at lines 1--2
 [][] 
  []
@@ -5152,15 +5166,18 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 1--2
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 53.
- (./files/SubSection--Biomolecules-Different-types-of-biomolecules
+
+(../Ch-biochemistry/files/SubSection--Biomolecules-Different-types-of-biomolecu
+les
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-b
-iochemistry/figure1.png (PNG copy)>]) (./problems/SampleProblem13
-(./problems/StudyCheck13
+iochemistry/figure1.png (PNG copy)>]) (../Ch-biochemistry/problems/SampleProble
+m13
+(../Ch-biochemistry/problems/StudyCheck13
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5172,52 +5189,58 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 60.
 
-(./files/SectionIntro-Simple-Carbohydrates)
-(./files/SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-H-and-O
+(../Ch-biochemistry/files/SectionIntro-Simple-Carbohydrates)
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-
+H-and-O
 LaTeX Font Info:    Try loading font information for U+ifwea on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ifsym/uifwea.fd) [3])
-(./files/SubSection--Simple-Carbohydrates-Monosaccharides-aldo-or-keto
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/ifsym/uifwea.fd) [3])
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Monosaccharides-aldo
+-or-keto
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
  [] 
  []
 
-) (./problems/SampleProblem1 (./problems/StudyCheck1))
-(./files/SubSection--Simple-Carbohydrates-Some-important-monosaccharides
-[4]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
- [] 
- []
-
-) (./files/SubSection--Simple-Carbohydrates-d-and-l-monosaccharides
-Overfull \hbox (12.0pt too wide) in paragraph at lines 3--7
- [] 
- []
-
-) (./problems/SampleProblem2 (./problems/StudyCheck2) [5])
-(./files/SubSection--Simple-Carbohydrates-Skeletal-structure-of--monosaccharide
-s
+) (../Ch-biochemistry/problems/SampleProblem1
+(../Ch-biochemistry/problems/StudyCheck1))
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Some-important-monos
+accharides [4]
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
  [] 
  []
 
 )
-(./files/SubSection--Simple-Carbohydrates-Haworth-cyclic-structure-of--monosacc
-harides
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-d-and-l-monosacchari
+des
+Overfull \hbox (12.0pt too wide) in paragraph at lines 3--7
+ [] 
+ []
+
+) (../Ch-biochemistry/problems/SampleProblem2
+(../Ch-biochemistry/problems/StudyCheck2) [5])
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Skeletal-structure-o
+f--monosaccharides
+Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
+ [] 
+ []
+
+)
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Haworth-cyclic-struc
+ture-of--monosaccharides
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--7
  [] 
  []
 
 )
-(./files/SubSection--Simple-Carbohydrates-alpha-or-beta-form-of-Cyclic-monosacc
-harides [6]
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-alpha-or-beta-form-o
+f-Cyclic-monosaccharides [6]
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
  [] 
  []
 
-) (./problems/SampleProblem3 (./problems/StudyCheck3))
-(./files/SubSection--Simple-Carbohydrates-Obtaining-Haworth-cyclic-structure-of
--monosaccharides
+) (../Ch-biochemistry/problems/SampleProblem3
+(../Ch-biochemistry/problems/StudyCheck3))
+(../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Obtaining-Haworth-cy
+clic-structure-of-monosaccharides
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Linear
  []
@@ -5454,12 +5477,14 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 45--51
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 77.
 
-(./files/SectionIntro-Disaccharides-and-polysaccharides)
-(./files/SubSection--Disaccharides-and-polysaccharides-Disaccharides [8])
-(./files/SubSection--Disaccharides-and-polysaccharides-alpha-and-beta-Disacchar
-ides) (./problems/SampleProblem4 (./problems/StudyCheck4))
-(./files/SubSection--Disaccharides-and-polysaccharides-Numbering-saccharides
-[9]
+(../Ch-biochemistry/files/SectionIntro-Disaccharides-and-polysaccharides)
+(../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Disacch
+arides [8])
+(../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-alpha-a
+nd-beta-Disaccharides) (../Ch-biochemistry/problems/SampleProblem4
+(../Ch-biochemistry/problems/StudyCheck4))
+(../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Numberi
+ng-saccharides [9]
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
 
@@ -5478,7 +5503,9 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
 
-) (./files/SubSection--Disaccharides-and-polysaccharides-Glycosidic-bond
+)
+(../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Glycosi
+dic-bond
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
 
@@ -5533,9 +5560,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 19--31
  [] 
  []
 
-[10]) (./problems/SampleProblem5 (./problems/StudyCheck5))
-(./files/SubSection--Disaccharides-and-polysaccharides-Polysaccharides-starch-a
-nd-cellulose
+[10]) (../Ch-biochemistry/problems/SampleProblem5
+(../Ch-biochemistry/problems/StudyCheck5))
+(../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Polysac
+charides-starch-and-cellulose
 Overfull \hbox (9.04613pt too wide) in paragraph at lines 6--7
  [] 
  []
@@ -5545,18 +5573,22 @@ Overfull \hbox (9.04613pt too wide) in paragraph at lines 6--7
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 119.
 
-(./files/SectionIntro-Lipids [11]) (./files/Figure-Fatty-acids-diagram
+(../Ch-biochemistry/files/SectionIntro-Lipids [11])
+(../Ch-biochemistry/files/Figure-Fatty-acids-diagram
 Package chemfig Warning:the submol "x" is already defined, the previous definit
 ion is lost on input line 1.
 Package chemfig Warning:the submol "y" is already defined, the previous definit
 ion is lost on input line 1.
-) (./files/SubSection--Lipids-Structure-of-fatty-acids)
-(./problems/SampleProblem6 (./problems/StudyCheck6)
+) (../Ch-biochemistry/files/SubSection--Lipids-Structure-of-fatty-acids)
+(../Ch-biochemistry/problems/SampleProblem6
+(../Ch-biochemistry/problems/StudyCheck6)
 Underfull \hbox (badness 10000) in paragraph at lines 1--11
 
  []
 
-[12]) (./files/SubSection--Lipids-Mono-and-polyunsaturated-fatty-acids
+[12])
+(../Ch-biochemistry/files/SubSection--Lipids-Mono-and-polyunsaturated-fatty-aci
+ds
 Overfull \hbox (27.12294pt too wide) in paragraph at lines 6--7
  []|[]| 
  []
@@ -5566,13 +5598,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--9
  [] 
  []
 
-) (./problems/SampleProblem7
+) (../Ch-biochemistry/problems/SampleProblem7
 Overfull \hbox (20.57942pt too wide) in paragraph at lines 7--8
  []|[]| 
  []
 
-(./problems/StudyCheck7)) (./files/SubSection--Lipids-Melting-point-of-fats
-[13]
+(../Ch-biochemistry/problems/StudyCheck7))
+(../Ch-biochemistry/files/SubSection--Lipids-Melting-point-of-fats [13]
 Overfull \hbox (12.0pt too wide) in paragraph at lines 4--9
  [] 
  []
@@ -5582,7 +5614,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 12--19
  [] 
  []
 
-) (./problems/SampleProblem8 (./problems/StudyCheck8)) (./files/Figure-Waxes
+) (../Ch-biochemistry/problems/SampleProblem8
+(../Ch-biochemistry/problems/StudyCheck8))
+(../Ch-biochemistry/files/Figure-Waxes
 <../Ch-biochemistry/figure2.png, id=225, 367.3725pt x 367.3725pt>
 File: ../Ch-biochemistry/figure2.png Graphic file (type png)
 <use ../Ch-biochemistry/figure2.png>
@@ -5598,7 +5632,7 @@ Overfull \hbox (7.62859pt too wide) in paragraph at lines 11--12
  []|[][][]|| 
  []
 
-[14]) (./files/SubSection--Lipids-Waxes-animal-fat-and-soaps
+[14]) (../Ch-biochemistry/files/SubSection--Lipids-Waxes-animal-fat-and-soaps
 Overfull \hbox (13.7619pt too wide) in paragraph at lines 8--8
  []|\T1/ptm/m/n/10 (-20) 3[][]| 
  []
@@ -5633,8 +5667,8 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 17--25
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 172.
 
-(./files/SectionIntro-Proteins [15 <../Ch-biochemistry/figure2.png>])
-(./files/SubSection--Proteins-Amino-acids
+(../Ch-biochemistry/files/SectionIntro-Proteins [15 <../Ch-biochemistry/figure2
+.png>]) (../Ch-biochemistry/files/SubSection--Proteins-Amino-acids
 Overfull \hbox (4.95204pt too wide) in paragraph at lines 10--10
  []|[]| 
  []
@@ -5644,8 +5678,9 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 9--14
  [] 
  []
 
-) (./problems/SampleProblem9 (./problems/StudyCheck9) [16])
-(./files/SubSection--Proteins-Amino-acids-as-zwitterions
+) (../Ch-biochemistry/problems/SampleProblem9
+(../Ch-biochemistry/problems/StudyCheck9) [16])
+(../Ch-biochemistry/files/SubSection--Proteins-Amino-acids-as-zwitterions
 Overfull \hbox (31.79567pt too wide) in paragraph at lines 8--8
  []|[]| 
  []
@@ -5655,8 +5690,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--16
  [] 
  []
 
-) (./problems/SampleProblem10 (./problems/StudyCheck10) [17])
-(./files/SubSection--Proteins-Hydrophilic-and-hydrophobic-Amino-acids
+) (../Ch-biochemistry/problems/SampleProblem10
+(../Ch-biochemistry/problems/StudyCheck10) [17])
+(../Ch-biochemistry/files/SubSection--Proteins-Hydrophilic-and-hydrophobic-Amin
+o-acids
 Underfull \hbox (badness 2393) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) There 20 com-mon amino
  []
@@ -5671,23 +5708,25 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--17
  [] 
  []
 
-) (./files/SubSection--Proteins-Acid-and-basic-Amino-acids
+) (../Ch-biochemistry/files/SubSection--Proteins-Acid-and-basic-Amino-acids
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--10
  [] 
  []
 
-) (./problems/SampleProblem11 (./problems/StudyCheck11)
+) (../Ch-biochemistry/problems/SampleProblem11
+(../Ch-biochemistry/problems/StudyCheck11)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
-(./files/SubSection--Proteins-Isoelectronic-point-of-an-Amino-acid)
+(../Ch-biochemistry/files/SubSection--Proteins-Isoelectronic-point-of-an-Amino-
+acid)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 221.
 
-(./files/SectionIntro-Nucleic-acids [19])
-(./files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
-Overfull \hbox (578.34131pt too wide) in paragraph at lines 9--9
+(../Ch-biochemistry/files/SectionIntro-Nucleic-acids [19])
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
+Overfull \hbox (748.70135pt too wide) in paragraph at lines 9--9
  []|[]| 
  []
 
@@ -5707,34 +5746,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--226
 
  []
 
-(./files/SubSection--Nucleic-acids-Bases-in-DNA-and-RNA)
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Bases-in-DNA-and-RNA)
 Underfull \hbox (badness 10000) in paragraph at lines 1--231
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-(./files/SubSection--Nucleic-acids-DNA-and-RNA-contain-phosphate)
-(./files/SubSection--Nucleic-acids-Nucleoside-a-base-connected-to-sugar
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-DNA-and-RNA-contain-phospha
+te [20])
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Nucleoside-a-base-connected
+-to-sugar
 Underfull \hbox (badness 1184) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Nucleic acids are poly-mers.
  []
 
-[21])
-(./files/SubSection--Nucleic-acids-Nucleotide-a-nucleoside-connected-to-phospha
-te
+)
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Nucleotide-a-nucleoside-con
+nected-to-phosphate
 Overfull \hbox (7.261pt too wide) in paragraph at lines 25--25
  [] 
  []
 
-
+[21]
 Overfull \hbox (10.3647pt too wide) in paragraph at lines 32--32
  [] 
  []
 
-[22]) (./problems/SampleProblem12))
+) (../Ch-biochemistry/problems/SampleProblem12 [22]))
 (../Ch-biochemistry/Ch-biochemistryProblems.tex [23]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -5768,43 +5806,43 @@ Overfull \hbox (10.3647pt too wide) in paragraph at lines 32--32
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 13.
+Package mdframed Info: mdframed works in twoside mode on input line 14.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 13.
-Package mdframed Info: Not enough space on this page on input line 13.
+ line 14.
+Package mdframed Info: Not enough space on this page on input line 14.
 
 Package chemfig Warning:the submol "x" is already defined, the previous definit
-ion is lost on input line 20.
-Package chemfig Warning:the submol "y" is already defined, the previous definit
 ion is lost on input line 21.
-Package chemfig Warning:the submol "k" is already defined, the previous definit
+Package chemfig Warning:the submol "y" is already defined, the previous definit
 ion is lost on input line 22.
-Package chemfig Warning:the submol "a" is already defined, the previous definit
+Package chemfig Warning:the submol "k" is already defined, the previous definit
 ion is lost on input line 23.
-Package chemfig Warning:the submol "t" is already defined, the previous definit
+Package chemfig Warning:the submol "a" is already defined, the previous definit
 ion is lost on input line 24.
-(./problems/problems/Problems-Biomolecules
+Package chemfig Warning:the submol "t" is already defined, the previous definit
+ion is lost on input line 25.
+(../Ch-biochemistry/problems/problems/Problems-Biomolecules
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 7.
 )
-(./problems/problems/Problems-Simple-Carbohydrates-Monosaccharides-aldo-or-keto
-)
-(./problems/problems/Problems-Simple-Carbohydrates-Skeletal-structure-of--monos
-accharides)
-(./problems/problems/Problems-Simple-Carbohydrates-alpha-or-beta-form-of-Cyclic
--monosaccharides)
-(./problems/problems/Problems-Simple-Carbohydrates-d-and-l-monosaccharides
-[24
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Monosacchar
+ides-aldo-or-keto)
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Skeletal-st
+ructure-of--monosaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-alpha-or-be
+ta-form-of-Cyclic-monosaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-d-and-l-mon
+osaccharides [24
 
 ])
-(./problems/problems/Problems-Disaccharides-and-polysaccharides-Glycosidic-bond
-)
-(./problems/problems/Problems-Disaccharides-and-polysaccharides-Polysaccharides
--starch-and-cellulose
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-Glycosidic-bond)
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-Polysaccharides-starch-and-cellulose
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
 
@@ -5812,18 +5850,22 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
 
 )
-(./problems/problems/Problems-Disaccharides-and-polysaccharides-alpha-and-beta-
-Disaccharides)
-(./problems/problems/Problems-Lipids-Mono-and-polyunsaturated-fatty-acids
-[25]) (./problems/problems/Problems-Lipids-Structure-of-fatty-acids)
-(./problems/problems/Problems-Lipids-Waxes-animal-fat-and-soaps)
-(./problems/problems/Problems-Proteins-Amino-acids)
-(./problems/problems/Problems-Proteins-Amino-acids-as-zwitterions [26])
-(./problems/problems/Problems-Proteins-Hydrophilic-and-hydrophobic-Amino-acids)
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-alpha-and-beta-Disaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Mono-and-polyunsaturated-
+fatty-acids [25])
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Structure-of-fatty-acids)
 
-(./problems/problems/Problems-Nucleic-acids-Nucleotide-a-nucleoside-connected-t
-o-phosphate [27])
-(./problems/problems/Problems-Nucleic-acids-Sugars-in-nucleic-acids) [28]
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Waxes-animal-fat-and-soap
+s) (../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids)
+(../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids-as-zwitteri
+ons [26])
+(../Ch-biochemistry/problems/problems/Problems-Proteins-Hydrophilic-and-hydroph
+obic-Amino-acids)
+(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Nucleotide-a-nucle
+oside-connected-to-phosphate [27])
+(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Sugars-in-nucleic-
+acids) [28] [29]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5856,16 +5898,15 @@ o-phosphate [27])
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 119.
+ line 120.
 
-Underfull \hbox (badness 2334) in paragraph at lines 112--120
+Underfull \hbox (badness 2334) in paragraph at lines 113--121
 []$\OML/lmm/m/it/10 ^^L$\T1/ptm/m/n/10 (+20) -1-4-glycosidic bond  []$\OML/lmm/
 m/it/10 $\T1/ptm/m/n/10 (+20) -1-4-glycosidic bond  []$\OML/lmm/m/it/10 ^^L$\T
 1/ptm/m/n/10 (+20) -galactose and $\OML/lmm/m/it/10 $\T1/ptm/m/n/10 (+20) -glu
@@ -5873,11 +5914,11 @@ cose  []Molecule on
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 110--120
+Overfull \hbox (12.0pt too wide) in paragraph at lines 111--121
 []$[]$ 
  []
 
-[29
+[30
 
 ])
 
@@ -5913,13 +5954,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5403.
  ) 
 Here is how much of TeX's memory you used:
- 84267 strings out of 493014
- 1897995 string characters out of 6133351
- 2873964 words of memory out of 5000000
- 85611 multiletter control sequences out of 15000+600000
- 247056 words of font info for 313 fonts, out of 8000000 for 9000
+ 84280 strings out of 493014
+ 1901394 string characters out of 6133351
+ 2875094 words of memory out of 5000000
+ 85620 multiletter control sequences out of 15000+600000
+ 247186 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,27n,119p,10369b,2204s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,27n,119p,10369b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
 ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/t
@@ -5946,10 +5987,10 @@ ocal/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (29 pages, 6303350 bytes).
+Output written on main.pdf (30 pages, 6304525 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
  71615 words of extra memory for PDF output out of 74296 (max. 10000000)
 
