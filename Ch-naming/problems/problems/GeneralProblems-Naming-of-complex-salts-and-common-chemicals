@@ -1,9 +1,7 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following oxoanions:
- \begin{multicols}{2}
- \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.4cm]
+ \begin{inparaenum}[(a)]
 \item  \ce{ClO4^{-}} %(perchlorate)
 \item  \ce{PO4^{3-}} %(phosphate)
 \item  \ce{SO4^{2-}} %(sulfate)
@@ -11,8 +9,7 @@ Name or formulate the following oxoanions:
 \item  \ce{NO3^{-}} %(nitrate)
 \item  \ce{CrO4^{2-}} %(chromate)
 \item  \ce{BO3^{3-}} %(borate)
-\end{enumerate}
-\end{multicols}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -70,14 +67,13 @@ Name or formulate the following (Type I) oxosalts:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following compounds:
-   \begin{multicols}{2}\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item  \ce{Na2SO4} %(sodium sulfate )
 \item  \ce{KNO3} %( potassium nitrate )
 \item  \ce{CaCO3} %(calcium carbonate  )
 \item  \ce{Ca(NO2)2} %(calcium nitrate)
 \item  \ce{SrSO3} %( strontium sulfite )
-\end{enumerate}  \end{multicols} 
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]

@@ -124,7 +124,7 @@ Name or formulate the following compounds:
 Name or formulate the following compounds:
 \begin{inparaenum}[(a)]	
 \item  \ce{Ca(NO3)2}				%(calcium nitrate)
-\item  \ce{Na(HCO3)2}			%(sodium monohydrogencarbonate)
+\item  \ce{Ca(HCO3)2}			%(Calcium monohydrogencarbonate)
 \item  Nickel(II) sulfate			%(\ce{NiSO4})
 \item  Nicke(II) sulfate tetrahydrate	%(\ce{NiSO4 . 4H2O})
 \item \ce{NaH2PO4}				%(sodium dihydrogenphosphate)
@@ -133,7 +133,7 @@ Name or formulate the following compounds:
 \begin{solution}
 \begin{inparaenum}[(a)]
 \item  \ce{Ca(NO3)2}				 (calcium nitrate)
-\item  \ce{Na(HCO3)2}			 (sodium monohydrogencarbonate)
+\item  \ce{Ca(HCO3)2}			 (Calcium monohydrogencarbonate)
 \item  Nickel(II) sulfate			 (\ce{NiSO4})
 \item  Nicke(II) sulfate tetrahydrate	 (\ce{NiSO4 . 4H2O})
 \item \ce{NaH2PO4}				 (sodium dihydrogenphosphate)
@@ -143,14 +143,13 @@ Name or formulate the following compounds:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following compounds:
-   \begin{multicols}{2}\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item  \ce{MnSO4} %(manganese(II) sulfate )
 \item  \ce{CuNO3} %(copper(I) nitrate )
 \item  \ce{Cr2(CO3)3} %(chromium(III) carbonate  )
 \item  \ce{V(NO2)2} %(vanadium(II) nitrate)
 \item  \ce{FeSO3} %(Iron(II) sulfite )
-\end{enumerate}  \end{multicols} 
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -167,15 +166,14 @@ Name or formulate the following compounds:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following pairs or ions:
-   \begin{multicols}{2}\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item carbonate and monohydrogencarbonate %(\ce{CO3^{2-}} and \ce{HCO3^{-}})
  \item sulfate and monohydrogensulfate %(\ce{SO4^{2-}} and \ce{HSO4^{-}})
  \item cromate and monohydrogenchromate %(\ce{CrO4^{2-}} and \ce{HCrO4^{-}})
  \item phosphate and dihydrogenphosphate %(\ce{PO4^{3-}} and \ce{H2PO4^{-}})
  \item phosphate and monohydrogenphosphate %(\ce{PO4^{3-}} and \ce{HPO4^{2-}})
  \item borate and dihydrogenphosborate %(\ce{BO3^{3-}} and \ce{H2BO3^{-}})
-\end{enumerate}  \end{multicols} 
+\end{inparaenum}   
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]

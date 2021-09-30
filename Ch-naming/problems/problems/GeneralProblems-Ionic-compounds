@@ -6,8 +6,8 @@ Classify the following chemicals in two groups, justifying your classification:
 \item \ce{NaCl}  %(group ionic)
 \item \ce{CO2} %(group covalent)
 \item \ce{FeCl3} %(group ionic)
-\item \ce{N2O3}%(group covalent)
-\item \ce{SO3}%(group covalent)
+\item \ce{N2O3} %(group covalent)
+\item \ce{SO3} %(group covalent)
 \item \ce{Ca3N2} %(group ionic)
 \end{inparaenum}
 \end{question}
@@ -53,9 +53,9 @@ Combine the following ions:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following ionic (Type I) compounds:
 \begin{inparaenum}[(a)]
-\item Magnesium iodide%(\ce{MgI2})
+\item Magnesium iodide	%(\ce{MgI2})
 \item \ce{Ca3P2}	%(Calcium phosphide)	
-\item Lithium nitride%(\ce{Li3N})
+\item Lithium nitride	%(\ce{Li3N})
 \item \ce{MgF}	%(Magnesium fluoride)
 \end{inparaenum}
 \end{question}
@@ -71,9 +71,9 @@ Name or formulate the following ionic (Type I) compounds:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following ionic (Type I) compounds:
 \begin{inparaenum}[(a)]
-\item Magnesium fluoride%(\ce{MgF2})
+\item Magnesium fluoride	%(\ce{MgF2})
 \item \ce{CaS}	%(Calcium sulfide)
-\item Barium phosphide%(\ce{Ba3P2})
+\item Barium phosphide	%(\ce{Ba3P2})
 \item \ce{Mg3N2}	%(magnesium nitride)
 \end{inparaenum}
 \end{question}
@@ -118,22 +118,20 @@ Combine the following ions:
 \begin{multicols}{2}
   \noindent
   \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=.5cm]
-\item \ce{Cs^{+}} + \ce{Ni^{-}}   %(\ce{CsNi})
-\item \ce{Sr^{2+}} + \ce{Mn^{2-}}   %(\ce{SrMn})
-\item \ce{Be^{2+}} + \ce{Co^{4-}}   %(\ce{Be2Co})
-\item \ce{Li^{+}} + \ce{Cu^{-}}   %(\ce{LiCu})
-\item \ce{Mg^{2+}} + \ce{Cr^{-6}}   %(\ce{Mg3Cr})
-\end{enumerate}
+\item \ce{Cs^{+}} + \ce{F^{-}}   %(\ce{CsF})
+\item \ce{Sr^{2+}} + \ce{O^{2-}}   %(\ce{SrO})
+\item \ce{Be^{2+}} + \ce{C^{4-}}   %(\ce{Be2C})
+\item \ce{Li^{+}} + \ce{I^{-}}   %(\ce{LiI})
+ \end{enumerate}
 \end{multicols}    
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
- \item \ce{Cs^{+}} + \ce{Ni^{-}}   (\ce{CsNi})
-\item \ce{Sr^{2+}} + \ce{Mn^{2-}}    (\ce{SrMn})
-\item \ce{Be^{2+}} + \ce{Co^{4-}}    (\ce{Be2Co})
-\item \ce{Li^{+}} + \ce{Cu^{-}}    (\ce{LiCu})
-\item \ce{Mg^{2+}} + \ce{Cr^{-6}}    (\ce{Mg3Cr})
-\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+\item  (\ce{CsF})
+\item  (\ce{SrO})
+\item  (\ce{Be2C})
+\item  (\ce{LiI})
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
 
 
 %%%%%%%PROBLEM

@@ -5,7 +5,7 @@
 \begin{tabular}{lllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Names of oxoacids and oxosalts (top table) and hyracids (bottom table). Yellow rows need to be remembered. } \\
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Names of oxoacids and oxosalts (top table) and hyracids (bottom table).$^*$  } \\
 \midrule
  \rowcolor{gray!10} Element&Oxoacid & Oxoacid Name & Oxoasalt & Oxoasalt  Name \\
 \midrule
@@ -38,6 +38,7 @@ Boron &     \ce{H3BO3}  &  Boric acid      &    \ce{BO3^{3-}}    &     Borate   
    \ce{HI}  &  Hydroiodic acid      &    \ce{HF}    &     Hydrofluoric acid &   \\
    \ce{HCN}  &  Hydrocyanic acid      &    \ce{H2S}    &     Hydrosulfuric acid &   \\
 \bottomrule
+   \multicolumn{5}{l}{$^*$  {\small Yellow indicate very important acids}}   \\
 \end{tabular}\end{center}
 %\caption{Names of oxoacids and oxosalts }
 %\label{table5:3}
