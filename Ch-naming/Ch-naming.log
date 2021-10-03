@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 SEP 2021 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2021 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,6 +530,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./Ch-naming.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -4777,7 +4779,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-naming.aux.
+(./Ch-naming.aux)
 \openout1 = `Ch-naming.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -4798,12 +4800,11 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -4812,11 +4813,11 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+ (./Ch-naming.out) (./Ch-naming.out)
 \@outlinefile=\write14
 \openout14 = `Ch-naming.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
@@ -4969,7 +4970,7 @@ File: exsheets_configurations.cfg
 ) (../Ch-naming/files/ChapterName
 Chapter 1.
 )
-<../Ch-naming/figure1.png, id=109, 164.5347pt x 246.6816pt>
+<../Ch-naming/figure1.png, id=133, 164.5347pt x 246.6816pt>
 File: ../Ch-naming/figure1.png Graphic file (type png)
 <use ../Ch-naming/figure1.png>
 Package pdftex.def Info: ../Ch-naming/figure1.png  used on input line 12.
@@ -5128,11 +5129,6 @@ t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 4.
 
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 6
-.
-
-
 Overfull \hbox (14.73227pt too wide) in paragraph at lines 4--8
 [][]
  []
@@ -5146,14 +5142,6 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
 Overfull \hbox (1.90002pt too wide) in paragraph at lines 2--1
 []  [] 
  []
-
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 1
-.
-
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 1
-.
 
 [1
 
@@ -5178,31 +5166,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--14
 (../Ch-naming/problems/SampleProblem2 (../Ch-naming/problems/StudyCheck2))
 (../Ch-naming/files/Subsection-Ionic-compounds-type-I-ionic)
 (../Ch-naming/problems/SampleProblem3 (../Ch-naming/problems/StudyCheck3)
-[3]) (../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
+[3]) (../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming)
+(../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals)
+(../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
 (../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
 (../Ch-naming/problems/SampleProblem4 (../Ch-naming/problems/StudyCheck4)
 [4]) (../Ch-naming/files/SectionIntro-Covalent-compounds)
 (../Ch-naming/files/Subsection-Covalent-compounds-Properties-of-covalent-compou
 nds) (../Ch-naming/files/Subsection-Covalent-compounds-The-covalent-bond)
-(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming
-
-LaTeX Warning: Reference `fig:naming1' on page 5 undefined on input line 1.
-
-) (../Ch-naming/files/Table-Covalent-prefixes
+(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming)
+(../Ch-naming/files/Table-Covalent-prefixes
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5214,10 +5187,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-naming}1' on page 5 undefined on input line 8
-.
-
 ) (../Ch-naming/problems/SampleProblem5 (../Ch-naming/problems/StudyCheck5)
 Underfull \vbox (badness 6725) has occurred while \output is active []
 
@@ -5229,11 +5198,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 ) (../Ch-naming/files/Subsection-Naming-acids-bases-Acids
-
-LaTeX Warning: Reference `tab:{Ch-naming}1' on page 6 undefined on input line 3
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -5251,10 +5215,6 @@ ions [8]) (../Ch-naming/files/Table-Oxoacids
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 9 undefined on input line 8
-.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 8.
@@ -5276,11 +5236,6 @@ Overfull \hbox (97.21593pt too wide) in paragraph at lines 5--42
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
 salts
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 9 undefined on input line 2
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -5306,11 +5261,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 (../Ch-naming/problems/SampleProblem10 (../Ch-naming/problems/StudyCheck10))
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Common-nam
 ing
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 11 undefined on input line 
-2.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
@@ -5319,10 +5269,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-naming}3' on page 12 undefined on input line 
-8.
 
 ) (../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11))
 
@@ -5342,15 +5288,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./Ch-naming.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package rerunfilecheck Info: File `Ch-naming.out' has not changed.
+(rerunfilecheck)             Checksum: C065D40C5AE8C38B4E2ABE67748C03FC;1007.
 
-
-Package rerunfilecheck Warning: File `Ch-naming.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-naming.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C065D40C5AE8C38B4E2ABE67748C03FC;1007.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5358,19 +5298,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 81525 strings out of 493014
- 1838572 string characters out of 6133351
- 2609163 words of memory out of 5000000
- 82994 multiletter control sequences out of 15000+600000
- 242317 words of font info for 335 fonts, out of 8000000 for 9000
+ 81533 strings out of 493014
+ 1838691 string characters out of 6133351
+ 2610841 words of memory out of 5000000
+ 82999 multiletter control sequences out of 15000+600000
+ 236751 words of font info for 330 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,104p,10529b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5397,10 +5331,10 @@ tino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-naming.pdf (12 pages, 622259 bytes).
+Output written on Ch-naming.pdf (12 pages, 622795 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+ 389 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  98 named destinations out of 1000 (max. 500000)
- 67970 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65458 words of extra memory for PDF output out of 74296 (max. 10000000)
 
