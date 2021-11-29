@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 NOV 2021 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 NOV 2021 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4779,7 +4779,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-electrochem.aux.
+(./Ch-electrochem.aux)
 \openout1 = `Ch-electrochem.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -4800,6 +4800,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -4814,6 +4815,8 @@ Package hyperref Info: Link coloring ON on input line 9.
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
+
+(./Ch-electrochem.out) (./Ch-electrochem.out)
 \@outlinefile=\write14
 \openout14 = `Ch-electrochem.out'.
 
@@ -4971,7 +4974,7 @@ File: exsheets_configurations.cfg
 ) (../Ch-electrochem/files/ChapterName
 Chapter 1.
 )
-<../Ch-electrochem/figure1.png, id=109, 1204.5pt x 803.0pt>
+<../Ch-electrochem/figure1.png, id=153, 1204.5pt x 803.0pt>
 File: ../Ch-electrochem/figure1.png Graphic file (type png)
 <use ../Ch-electrochem/figure1.png>
 Package pdftex.def Info: ../Ch-electrochem/figure1.png  used on input line 17.
@@ -5124,11 +5127,6 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 4.
-
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}1' on page 3 undefined on input l
-ine 7.
-
 )
 (../Ch-electrochem/files/Subsection-Introduction-to-galvanic-cells-The-potentio
 meter) (../Ch-electrochem/problems/SampleProblem1
@@ -5151,12 +5149,7 @@ Missing character: There is no ; in font nullfont!
 entials)
 (../Ch-electrochem/files/Subsection-Standard-reduction-potentials-Standard-cond
 itions-for-reduction-potentials [4])
-(../Ch-electrochem/files/Figure-Batter-hydrogen-electrode
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}2' on page 5 undefined on input l
-ine 10.
-
-)
+(../Ch-electrochem/files/Figure-Batter-hydrogen-electrode)
 (../Ch-electrochem/files/Subsection-Standard-reduction-potentials-Anodes-and-ca
 thodes [5]) (../Ch-electrochem/problems/SampleProblem2
 (../Ch-electrochem/problems/StudyCheck2)) (../Ch-electrochem/files/Table-redox
@@ -5171,10 +5164,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
-
-LaTeX Warning: Reference `tab:{Ch-electrochem}1' on page 6 undefined on input l
-ine 14.
-
 
 Overfull \hbox (20.0151pt too wide) in paragraph at lines 76--76
  [] 
@@ -5196,11 +5185,6 @@ Underfull \hbox (badness 2735) in paragraph at lines 1--2
  []
 
 ) (../Ch-electrochem/files/Figure-Gold-Vanadium-galvanic-cell
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}3' on page 8 undefined on input l
-ine 11.
-
-
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 13--13
  [] 
  []
@@ -5242,24 +5226,8 @@ Underfull \vbox (badness 3148) has occurred while \output is active []
 
  [11])
 (../Ch-electrochem/files/Subsection-Cell-potential-and-Gibbs-free-energy-Reduct
-ion-potentials-and-Gibbs-free-energy
-
-LaTeX Warning: Reference `Ch-electrochem:equation2' on page 12 undefined on inp
-ut line 21.
-
-
-LaTeX Warning: Reference `Ch-electrochem:equation2' on page 12 undefined on inp
-ut line 21.
-
-
-LaTeX Warning: Reference `Ch-electrochem:equation2' on page 12 undefined on inp
-ut line 21.
-
-
-LaTeX Warning: Reference `Ch-electrochem:equation2' on page 12 undefined on inp
-ut line 21.
-
-) (../Ch-electrochem/problems/SampleProblem5
+ion-potentials-and-Gibbs-free-energy)
+(../Ch-electrochem/problems/SampleProblem5
 (../Ch-electrochem/problems/StudyCheck5) [12])
 (../Ch-electrochem/files/Subsection-Cell-potential-and-Gibbs-free-energy-Reduct
 ion-potentials-and-equilibrium-constant
@@ -5313,31 +5281,19 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 22.
 (../Ch-electrochem/files/Subsection-Nernst-equation-The-Nernst-equation-and-a-d
 rained-glavanic-cell)
 (../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells)
-(../Ch-electrochem/files/Figure-Daniell-concentration-cell
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}4' on page 17 undefined on input 
-line 9.
-
-[17]) (../Ch-electrochem/problems/SampleProblem7
+(../Ch-electrochem/files/Figure-Daniell-concentration-cell [17])
+(../Ch-electrochem/problems/SampleProblem7
 (../Ch-electrochem/problems/StudyCheck7))
 (../Ch-electrochem/files/Subsection-Nernst-equation-Ion-selective-electrodes
 [18]) (../Ch-electrochem/files/SectionIntro-Electrolysis)
 (../Ch-electrochem/files/Subsection-Electrolysis-Galvanic-cell-vs.-electrolytic
--cell) (../Ch-electrochem/files/Figure-Daniell-cell-electrolysis
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}5' on page 19 undefined on input 
-line 19.
-
-) (../Ch-electrochem/files/Subsection-Electrolysis-Intensity-charge-and-time
+-cell) (../Ch-electrochem/files/Figure-Daniell-cell-electrolysis)
+(../Ch-electrochem/files/Subsection-Electrolysis-Intensity-charge-and-time
 [19]) (../Ch-electrochem/problems/SampleProblem9
 (../Ch-electrochem/problems/StudyCheck9))
 (../Ch-electrochem/files/Subsection-Electrolysis-The-electrolysis-of-water)
-(../Ch-electrochem/files/Figure-Electrolysis-water [20]
-
-LaTeX Warning: Reference `Fig:{Ch-electrochem}5' on page 21 undefined on input 
-line 122.
-
-) (../Ch-electrochem/files/Subsection-Electrolysis-Ion-mixtures)
+(../Ch-electrochem/files/Figure-Electrolysis-water [20])
+(../Ch-electrochem/files/Subsection-Electrolysis-Ion-mixtures)
 (../Ch-electrochem/files/Subsection-Electrolysis-Aplications) [21]
 (../Ch-electrochem/files/SectionIntro-Corrosion)
 Underfull \vbox (badness 4279) has occurred while \output is active []
@@ -5364,15 +5320,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Ch-electrochem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package rerunfilecheck Info: File `Ch-electrochem.out' has not changed.
+(rerunfilecheck)             Checksum: F253137C223DDFD5897F35C9AE9FD76F;2129.
 
-
-Package rerunfilecheck Warning: File `Ch-electrochem.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-electrochem.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F253137C223DDFD5897F35C9AE9FD76F;2129.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5380,19 +5330,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 80886 strings out of 493014
- 1834091 string characters out of 6133351
- 2922372 words of memory out of 5000000
- 82361 multiletter control sequences out of 15000+600000
- 211356 words of font info for 315 fonts, out of 8000000 for 9000
+ 80902 strings out of 493014
+ 1834355 string characters out of 6133351
+ 2924115 words of memory out of 5000000
+ 82373 multiletter control sequences out of 15000+600000
+ 207446 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,29n,104p,10539b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -5423,10 +5367,10 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Ch-electrochem.pdf (24 pages, 863782 bytes).
+Output written on Ch-electrochem.pdf (24 pages, 866045 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 455 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
  91 named destinations out of 1000 (max. 500000)
- 64918 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 64494 words of extra memory for PDF output out of 74296 (max. 10000000)
 
