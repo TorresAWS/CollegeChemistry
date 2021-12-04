@@ -1,4 +1,4 @@
-The Nerns equation gives the dependence of the cell voltage with the concentration of the ions involved in the redox reaction behind the cell, and with temperature. As such, it is used to compute cell voltage outside the standard conditions. The Nerns equation is given by:
+The Nernst equation gives the dependence of the cell voltage with the concentration of the ions involved in the redox reaction behind the cell, and with temperature. As such, it is used to compute cell voltage outside the standard conditions. The Nernst equation is given by:
 \begin{equation}
 \boxed{
  \mathcal{E}= \mathcal{E}^{\circ}-\frac{R\cdot T}{n_e\cdot F}\ln Q
@@ -22,4 +22,4 @@ However, at $\large[\ce{H^+}\large]$=$10^{-7}$M (neutral PH) the electrodic volt
 \[\mathcal{E}= \mathcal{E}^{\circ}-\frac{R\cdot T}{n_e\cdot F}\ln Q = 1.23-\frac{8.314\cdot 298.15}{4\cdot 96485}\ln \frac{1}{\large( 10^{-7}\large) ^{4}}=0.81V\]
 Hence, it is easier to reduce oxygen at neutral PH than it is at very acidic PH.
 \begin{center}\ce{	4H^{+}_{(aq)} + 4e^- + O2_{(g)} -> 2H2O_{(l)} }\hfill $\mathcal{E}=+$0.81V\end{center} 
-In general, for electrodict reactions involving a single cation, the molarity of this ion will be placed on the bottom of $Q$. For electrodict reactions involving a single anion, the molarity of this ion will be placed on the top of $Q$.
+In general, for electrodic reactions involving a single cation, the molarity of this ion will be placed on the bottom of $Q$. For electrodict reactions involving a single anion, the molarity of this ion will be placed on the top of $Q$.

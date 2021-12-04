@@ -110,7 +110,7 @@ Indicate:
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction.
- \begin{center}\ce{	Zn_{(s)}+ Au+   <=>	 Au_{(s)}	+ Zn^{2+}	 	}     \end{center}
+ \begin{center}\ce{	Zn_{(s)} + Au+   <=>	 Au_{(s)}	+ Zn^{2+}	 	}     \end{center}
 \end{question}
 \begin{solution}
  $\mathcal{E}^{\circ}$=2.59V, spontaneous;\ce{	Zn_{(s)}+ 2Au+   <=>	2Au_{(s)}	+ Zn^{2+}	 	}
