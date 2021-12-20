@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2021 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2021 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4779,7 +4779,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-orgo.aux.
+(./Ch-orgo.aux)
 \openout1 = `Ch-orgo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -4800,7 +4800,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -4814,11 +4814,12 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+ (./Ch-orgo.out)
+(./Ch-orgo.out)
 \@outlinefile=\write14
 \openout14 = `Ch-orgo.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
@@ -4971,7 +4972,7 @@ File: exsheets_configurations.cfg
 ) (../Ch-orgo/files/ChapterName
 Chapter 1.
 )
-<../Ch-orgo/figure1.png, id=109, 1204.5pt x 803.0pt>
+<../Ch-orgo/figure1.png, id=137, 1204.5pt x 803.0pt>
 File: ../Ch-orgo/figure1.png Graphic file (type png)
 <use ../Ch-orgo/figure1.png>
 Package pdftex.def Info: ../Ch-orgo/figure1.png  used on input line 13.
@@ -5098,7 +5099,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-orgo/files/SectionIntro-Alkanes)
 (../Ch-orgo/files/SideFigure-Hydrocarbons
-<../Ch-orgo/figure3.png, id=110, 1284.8pt x 904.37875pt>
+<../Ch-orgo/figure3.png, id=138, 1284.8pt x 904.37875pt>
 File: ../Ch-orgo/figure3.png Graphic file (type png)
 <use ../Ch-orgo/figure3.png>
 Package pdftex.def Info: ../Ch-orgo/figure3.png  used on input line 2.
@@ -5120,7 +5121,7 @@ rgo/figure1.png (PNG copy)>]
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure2.png, id=129, 321.2pt x 200.75pt>
+<../Ch-orgo/figure2.png, id=154, 321.2pt x 200.75pt>
 File: ../Ch-orgo/figure2.png Graphic file (type png)
 <use ../Ch-orgo/figure2.png>
 Package pdftex.def Info: ../Ch-orgo/figure2.png  used on input line 7.
@@ -5133,7 +5134,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure4.png, id=130, 385.44pt x 289.08pt>
+<../Ch-orgo/figure4.png, id=155, 385.44pt x 289.08pt>
 File: ../Ch-orgo/figure4.png Graphic file (type png)
 <use ../Ch-orgo/figure4.png>
 Package pdftex.def Info: ../Ch-orgo/figure4.png  used on input line 12.
@@ -5154,9 +5155,6 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 LaTeX Warning: Reference `tab:{Ch-orgo}0' on page 2 undefined on input line 1.
 
 ) (../Ch-orgo/problems/SampleProblem1
-
-LaTeX Warning: Reference `formula12.1' on page 2 undefined on input line 5.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5169,7 +5167,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 6.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 6.
-(../Ch-orgo/problems/StudyCheck1
+ (../Ch-orgo/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 2.
 
@@ -5187,9 +5185,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-LaTeX Warning: Reference `tab:{Ch-orgo}1' on page 2 undefined on input line 7.
-
 ) (../Ch-orgo/files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes)
 [2 <../Ch-orgo/figure3.png (PNG copy)> <../Ch-orgo/figure2.png (PNG copy)> <../
 Ch-orgo/figure4.png>] (../Ch-orgo/files/Table-Alkane-names
@@ -5198,21 +5193,13 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 23.
 
 
-LaTeX Warning: Reference `tab:{Ch-orgo}2' on page 3 undefined on input line 23.
-
-
-
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--24
 [][] 
  []
 
-) (../Ch-orgo/files/SubSection-Alkanes-Condensed-structural-formula
-
-LaTeX Warning: Reference `tab:{Ch-orgo}2' on page 3 undefined on input line 34.
-
-
-) (../Ch-orgo/problems/SampleProblem2 (../Ch-orgo/problems/StudyCheck2)
-[3]) (../Ch-orgo/files/SubSection-Alkanes-Skeletal-structural-formula)
+) (../Ch-orgo/files/SubSection-Alkanes-Condensed-structural-formula)
+(../Ch-orgo/problems/SampleProblem2 (../Ch-orgo/problems/StudyCheck2) [3])
+(../Ch-orgo/files/SubSection-Alkanes-Skeletal-structural-formula)
 (../Ch-orgo/files/SubSection-Alkanes-A-review-of-the-different-structural-formu
 las) (../Ch-orgo/problems/SampleProblem3 (../Ch-orgo/problems/StudyCheck3)
 [4]) (../Ch-orgo/files/Figure-Skeletal-expanded-molecular
@@ -5232,7 +5219,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-orgo/files/SectionIntro-Cycloalkanes)
 (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=161, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=190, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 <use ../Ch-orgo/figure5.png>
 Package pdftex.def Info: ../Ch-orgo/figure5.png  used on input line 2.
@@ -5242,7 +5229,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=163, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=192, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 <use ../Ch-orgo/figure6.png>
 Package pdftex.def Info: ../Ch-orgo/figure6.png  used on input line 7.
@@ -5260,30 +5247,18 @@ LaTeX Warning: Marginpar on page 5 moved.
 (../Ch-orgo/problems/SampleProblem4 (../Ch-orgo/problems/StudyCheck4) [5 <../Ch
 -orgo/figure5.png> <../Ch-orgo/figure6.png>])
 (../Ch-orgo/files/SubSection-Cycloalkanes-Molecular-formulas-for-cycloalkanes)
-(../Ch-orgo/problems/SampleProblem5
-
-LaTeX Warning: Reference `formula12.2' on page 6 undefined on input line 5.
-
-(../Ch-orgo/problems/StudyCheck5))
+(../Ch-orgo/problems/SampleProblem5 (../Ch-orgo/problems/StudyCheck5))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 79.
 
 (../Ch-orgo/files/SectionIntro-Alkanes-with-substituents)
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Substituents
-
-LaTeX Warning: Reference `tab:{Ch-orgo}2' on page 6 undefined on input line 1.
-
-)
+(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Substituents)
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-a-single-su
 bstituent [6]) (../Ch-orgo/files/Table-Substituents
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
-
-
-LaTeX Warning: Reference `tab:{Ch-orgo}3' on page 7 undefined on input line 20.
-
 
 
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 4--21
@@ -5503,7 +5478,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-orgo/files/SectionIntro-Molecular-diversity [12])
 (../Ch-orgo/files/SideFigure-Acetone
-<../Ch-orgo/figure8.png, id=219, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=248, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 <use ../Ch-orgo/figure8.png>
 Package pdftex.def Info: ../Ch-orgo/figure8.png  used on input line 2.
@@ -5516,7 +5491,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
 
 LaTeX Warning: Marginpar on page 13 moved.
 
-<../Ch-orgo/figure17.png, id=220, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=249, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 <use ../Ch-orgo/figure17.png>
 Package pdftex.def Info: ../Ch-orgo/figure17.png  used on input line 14.
@@ -5539,10 +5514,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 17.
 
 
-LaTeX Warning: Reference `tab:{Ch-orgo}4' on page 14 undefined on input line 17
-.
-
-
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--18
 [][] 
  []
@@ -5550,7 +5521,7 @@ Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--18
 )
 (../Ch-orgo/files/SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group
 [14]) (../Ch-orgo/files/SideFigure-cinnamon
-<../Ch-orgo/figure11.png, id=234, 298.11375pt x 170.6375pt>
+<../Ch-orgo/figure11.png, id=263, 298.11375pt x 170.6375pt>
 File: ../Ch-orgo/figure11.png Graphic file (type png)
 <use ../Ch-orgo/figure11.png>
 Package pdftex.def Info: ../Ch-orgo/figure11.png  used on input line 2.
@@ -5560,7 +5531,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
 
-<../Ch-orgo/figure15.png, id=235, 217.81375pt x 232.87pt>
+<../Ch-orgo/figure15.png, id=264, 217.81375pt x 232.87pt>
 File: ../Ch-orgo/figure15.png Graphic file (type png)
 <use ../Ch-orgo/figure15.png>
 Package pdftex.def Info: ../Ch-orgo/figure15.png  used on input line 14.
@@ -5582,7 +5553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 (../Ch-orgo/files/SubSection-Molecular-diversity-Aldehydes-and-ketones)
 (../Ch-orgo/files/SideFigure-Meat [15 <../Ch-orgo/figure11.png (PNG copy)> <../
 Ch-orgo/figure15.png (PNG copy)>]
-<../Ch-orgo/figure18.png, id=241, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=270, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 <use ../Ch-orgo/figure18.png>
 Package pdftex.def Info: ../Ch-orgo/figure18.png  used on input line 2.
@@ -5595,7 +5566,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-<../Ch-orgo/figure19.png, id=242, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=271, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 <use ../Ch-orgo/figure19.png>
 Package pdftex.def Info: ../Ch-orgo/figure19.png  used on input line 14.
@@ -5616,7 +5587,7 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
  [16 <../Ch-orgo/figure18.png (PNG copy)> <../Ch-orgo/figure19.png (PNG copy)>]
 )
 (../Ch-orgo/files/SideFigure-Acids
-<../Ch-orgo/figure10.png, id=248, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=277, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 <use ../Ch-orgo/figure10.png>
 Package pdftex.def Info: ../Ch-orgo/figure10.png  used on input line 2.
@@ -5626,7 +5597,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
 
-<../Ch-orgo/figure14.png, id=249, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=278, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 <use ../Ch-orgo/figure14.png>
 Package pdftex.def Info: ../Ch-orgo/figure14.png  used on input line 14.
@@ -5668,15 +5639,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 (./Ch-orgo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package rerunfilecheck Info: File `Ch-orgo.out' has not changed.
+(rerunfilecheck)             Checksum: 3AFA969CC2E4A9DA6678A2FF600DF16A;1507.
 
-
-Package rerunfilecheck Warning: File `Ch-orgo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-orgo.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3AFA969CC2E4A9DA6678A2FF600DF16A;1507.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5692,11 +5657,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 82741 strings out of 493014
- 1866206 string characters out of 6133351
- 2723749 words of memory out of 5000000
- 84191 multiletter control sequences out of 15000+600000
- 164521 words of font info for 260 fonts, out of 8000000 for 9000
+ 82754 strings out of 493014
+ 1866367 string characters out of 6133351
+ 2733611 words of memory out of 5000000
+ 84199 multiletter control sequences out of 15000+600000
+ 161718 words of font info for 258 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,110p,10526b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5724,10 +5689,10 @@ exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Ch-orgo.pdf (20 pages, 10332843 bytes).
+Output written on Ch-orgo.pdf (20 pages, 10335109 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 384 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  60 named destinations out of 1000 (max. 500000)
- 52163 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 51707 words of extra memory for PDF output out of 61914 (max. 10000000)
 
