@@ -1,6 +1,15 @@
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Predict the soluble/insoluble nature of the following compounds: (a) \ce{Li3PO4}, (b) \ce{Na2S} and (c) \ce{AgCl}.
-
+Predict the soluble/insoluble nature of the following compounds: 
+\begin{inparaenum}[(a)]
+\item  \ce{Li3PO4}
+ \item  \ce{Na2S}
+\item  \ce{AgCl}
+ \end{inparaenum}
 \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-Answer: (a) \ce{Li3PO4_{(aq)}} soluble, (b) \ce{Na2S_{(aq)}} soluble and (c) \ce{AgCl_{(s)}} insoluble.
+Answer: 
+\begin{inparaenum}[(a)]
+\item  soluble
+ \item  soluble
+\item  insoluble
+ \end{inparaenum}
  \end{flushright} }
