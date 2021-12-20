@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 NOV 2021 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2021 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4779,7 +4779,26 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-thermo.aux.
+(./Ch-thermo.aux
+
+LaTeX Warning: Label `Ch-thermo:equation6' multiply defined.
+
+
+LaTeX Warning: Label `Ch-thermo:equation9' multiply defined.
+
+
+LaTeX Warning: Label `Ch-thermo:equation10' multiply defined.
+
+
+LaTeX Warning: Label `Ch-thermo:equation13' multiply defined.
+
+
+LaTeX Warning: Label `Ch-thermo:equation11' multiply defined.
+
+
+LaTeX Warning: Label `Ch-thermo:equation12' multiply defined.
+
+)
 \openout1 = `Ch-thermo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -4800,7 +4819,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -4814,11 +4833,11 @@ Package hyperref Info: Link coloring ON on input line 6.
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
+ (./Ch-thermo.out) (./Ch-thermo.out)
 \@outlinefile=\write14
 \openout14 = `Ch-thermo.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 6.
 
 *geometry* driver: auto-detecting
@@ -4970,10 +4989,6 @@ cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-thermo/files/ChapterName
 Chapter 1.
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
@@ -4985,7 +5000,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-<../Ch-thermo/figure1.png, id=109, 231.5049pt x 246.6816pt>
+<../Ch-thermo/figure1.png, id=149, 231.5049pt x 246.6816pt>
 File: ../Ch-thermo/figure1.png Graphic file (type png)
 <use ../Ch-thermo/figure1.png>
 Package pdftex.def Info: ../Ch-thermo/figure1.png  used on input line 13.
@@ -5132,12 +5147,8 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-t
 hermo/figure1.png (PNG copy)>] (../Ch-thermo/files/SectionIntro-Entropy)
 (../Ch-thermo/files/Subsection-Entropy-The-meaning-of-Entropy)
-(../Ch-thermo/files/Subsection-Entropy-Entropy-a-macroscopic-description
-
-LaTeX Warning: Reference `Ch-thermo:equation8' on page 2 undefined on input lin
-e 12.
-
-) (../Ch-thermo/problems/SampleProblem1 (../Ch-thermo/problems/StudyCheck1
+(../Ch-thermo/files/Subsection-Entropy-Entropy-a-macroscopic-description)
+(../Ch-thermo/problems/SampleProblem1 (../Ch-thermo/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5149,12 +5160,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
  []
 
 [2]) (../Ch-thermo/files/Subsection-Entropy-Entropy-a-microscopic-description
-[3]
-
-LaTeX Warning: Reference `Ch-thermo:equation1' on page 4 undefined on input lin
-e 83.
-
-[4]) (../Ch-thermo/problems/SampleProblem2 (../Ch-thermo/problems/StudyCheck2)
+[3] [4]) (../Ch-thermo/problems/SampleProblem2
+(../Ch-thermo/problems/StudyCheck2)
 Underfull \hbox (badness 10000) in paragraph at lines 11--23
 
  []
@@ -5180,11 +5187,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
 ) (../Ch-thermo/files/Subsection-Standard-molar-entropies-Factors-affecting-s
 [6]
-
-LaTeX Warning: Reference `Fig:{Ch-thermo}1' on page 7 undefined on input line 3
-7.
-
-
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 39--39
  [] 
  []
@@ -5206,10 +5208,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-thermo}1' on page 8 undefined on input line 8
-.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5313,10 +5311,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 10.
 
 
-LaTeX Warning: Reference `tab:{Ch-thermo}2' on page 17 undefined on input line 
-10.
-
-
 LaTeX Font Warning: Command \Huge invalid in math mode on input line 14.
 
 
@@ -5375,10 +5369,6 @@ formation) (../Ch-thermo/files/Table-G-references [18]
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-LaTeX Warning: Reference `tab:{Ch-thermo}3' on page 19 undefined on input line 
-8.
-
 )
 (../Ch-thermo/files/Subsection-Gibbs-free-energy-Standard-Gibbs-free-energy-of-
 reaction) (../Ch-thermo/problems/SampleProblem11
@@ -5398,10 +5388,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-thermo}5' on page 22 undefined on input line 
-8.
 
 )
 (../Ch-thermo/files/Subsection-Gibbs-free-energy-and-equilibrium-Gibbs-free-ene
@@ -5686,15 +5672,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./Ch-thermo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package rerunfilecheck Info: File `Ch-thermo.out' has not changed.
+(rerunfilecheck)             Checksum: 1693BD4B54E6D6A118B062F9036460C3;1986.
 
-
-Package rerunfilecheck Warning: File `Ch-thermo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-thermo.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1693BD4B54E6D6A118B062F9036460C3;1986.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5706,15 +5686,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 80928 strings out of 493014
- 1836704 string characters out of 6133351
- 2938720 words of memory out of 5000000
- 82315 multiletter control sequences out of 15000+600000
- 196557 words of font info for 300 fonts, out of 8000000 for 9000
+ 80993 strings out of 493014
+ 1837252 string characters out of 6133351
+ 2941338 words of memory out of 5000000
+ 82378 multiletter control sequences out of 15000+600000
+ 194785 words of font info for 297 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,27n,104p,10529b,2156s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5746,10 +5726,10 @@ ourier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-thermo.pdf (44 pages, 1225603 bytes).
+Output written on Ch-thermo.pdf (44 pages, 1227134 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 390 compressed objects within 4 object streams
+ 569 PDF objects out of 1000 (max. 8388607)
+ 428 compressed objects within 5 object streams
  134 named destinations out of 1000 (max. 500000)
- 59790 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 57822 words of extra memory for PDF output out of 61914 (max. 10000000)
 
