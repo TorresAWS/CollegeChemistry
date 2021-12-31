@@ -1,0 +1,55 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\hspace{-0cm}\begin{minipage}[b]{1.\linewidth}
+\begin{center}
+
+\begin{tikzpicture}[bullet/.style={circle,inner
+    sep=1.5pt,fill=black},wullet/.style={circle,inner
+    sep=1.2pt,fill=white},font=\sffamily,
+    pics/container/.style={code={
+            \tikzset{container/.cd,#1}%
+            \def\pv##1{\pgfkeysvalueof{/tikz/container/##1}}%
+            \begin{scope}[shift={(-\pv{w}/2,-\pv{h}/2)},x=\pv{w},y=\pv{h}]
+            \fill[gray!40] (0,0) rectangle (1,\pv{p});
+            \draw[densely dotted] (0,\pv{l}) -- (1,\pv{l});
+            \draw[very thick] (0,0) 
+            rectangle (1,1);
+            \path (0.5,1) node[below]{\pv{text}};
+            \pgfkeys{/tikz/container/extra}
+            \end{scope}
+}},container/.cd,w/.initial=7em,h/.initial=14em,p/.initial=0,l/.initial=0.12,
+text/.initial={},extra/.code={}]
+\path   (0.875-4,1) pic{container={p=0,text=TLC Plate,extra/.code={%change p= value to fill with gray
+    \path (1/4,\pv{l}) node[bullet=black](b1){} (2/4,\pv{l}) node[bullet=black](b2){} (3/4,\pv{l}) node[bullet](b3){}; 
+    }}}
+(1.1,1) pic[xslant=0.1]{container={p=0,text=TLC Plate,extra/.code={%change p= value to fill with gray
+    \path (1/4,\pv{l}) node[bullet=black](b1){} (2/4,\pv{l}) node[bullet=black](b2){} (3/4,\pv{l}) node[bullet](b3){}; 
+    }}};
+
+
+\draw[very thick,xscale=1.2] (-1,1.2) ..controls +(350:1) and +(180:1).. (0,-2)
+                -- (1.75,-2) ..controls + (0:1) and +(190:1).. (2.75,1.2);
+\begin{scope}[shift={(6,6)},rotate=00]               
+
+\path (0,-5) pic{container={l=0.1,p=0.8,extra/.code={
+        \path (0,\pv{l}) coordinate (l') (0,\pv{p}) coordinate (p')
+         (1,\pv{l}) coordinate (l) (1,\pv{p}) coordinate (p)
+        (0.5,0.7) node[bullet,label=right:$A$](A){}
+        (0.5,0.5) node[bullet,fill=gray,label=right:$B$](B){}
+        (0.5,0.3) node[wullet,label=right:$C$](C){};
+    }}}; 
+
+\draw (p') -- ++ (-3em,0) node[left] {Solvent}
+ (l') -- ++ (-3em,0) node[left] {Origin};
+\draw[thick,decorate,
+    decoration={calligraphic brace,amplitude=3pt,raise=0.2ex}]
+      ([xshift=2em]B.center) -- ([xshift=2em]B.center|-l)
+      coordinate[midway,right=0.6em](aux);
+\draw (aux) -- ++ (5em,0) node[right,node font=\small,align=left]{some\\ text};   
+\draw[thick,decorate,
+    decoration={calligraphic brace,amplitude=3pt,raise=0.2ex}] (p) -- (l)
+    node[midway,node font=\small,align=left,right=0.6em]{Distance traveled\\ by solvent};  
+     \end{scope}
+ \node[text width=12cm, fontscale=.3,shift={(5em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} TLC set up. (Left) Solid phase with spots (Center) Solid phase inside a beaker containing the liquid phase (Right) Solid phase with separated mixture components. };
+
+      \end{tikzpicture}
+\end{center}\end{minipage}
