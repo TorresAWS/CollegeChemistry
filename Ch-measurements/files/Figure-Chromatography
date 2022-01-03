@@ -44,7 +44,7 @@ text/.initial={},extra/.code={}]
     decoration={calligraphic brace,amplitude=3pt,raise=0.2ex}]
       ([xshift=2em]B.center) -- ([xshift=2em]B.center|-l)
       coordinate[midway,right=0.6em](aux);
-\draw (aux) -- ++ (5em,0) node[right,node font=\small,align=left]{some\\ text};   
+\draw (aux) -- ++ (5em,0) node[right,node font=\small,align=left]{chemical\\ spots};   
 \draw[thick,decorate,
     decoration={calligraphic brace,amplitude=3pt,raise=0.2ex}] (p) -- (l)
     node[midway,node font=\small,align=left,right=0.6em]{Distance traveled\\ by solvent};  

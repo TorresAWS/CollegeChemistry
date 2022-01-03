@@ -1,4 +1,4 @@
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}\label{tab:Table-Unit-systems}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
@@ -8,9 +8,13 @@
 Measuremts & Metric System & International System (SI)& English System \\
 \midrule
 Length & Meter (m) & Meter (m)& Foot (ft)\\
- Volume & Liter (L)  &  Cubic meter ($\text{m}^3$)& Gallon (gal) \\
    Mass & Gram (g)  &  Kilogram (kg)& Pound (lb)\\
   Time&  Second (s) & Second (s) &Second (s)  \\
  Temperature &Celsius ($^{\circ}$C)   & Kelvin (K)& Fahrenheit ($^{\circ}$F)  \\
+ Volume$^{\ast}$ & Liter (L)  &  Cubic meter ($\text{m}^3$)& Gallon (gal) \\
+ Ammount of substance & Mole (mol)  &  Mole (mol) & Mole (mol)  \\
+ Electric current & Ampere (A)  &  Ampere (A) & Ampere (A)  \\
 \bottomrule
+ \multicolumn{4}{l}{$^{\ast}$\small Not a fundamental unit} \\
+
 \end{tabular}

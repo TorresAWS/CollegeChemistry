@@ -1,0 +1,21 @@
+
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We measured the volume of the same sample several times obtaining the following values: 10.12 mL, 10.12 mL, 10.13mL, 10.14 mL, and 10.15 mL. Answer the following questions:
+\begin{inparaenum}[(a)]
+\item Compute the average, $\bar x$.
+\item Compute the standard deviation of the measurement, $\sigma$.
+\item Report the measured volume in the form $\bar x \pm \sigma$.
+\item Given that he true volume is 10.50mL, describe the accuracy and precision of the measurement
+\end{inparaenum} 
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+
+ Answer:
+\begin{inparaenum}[(a)]
+\item 10.13mL
+\item 0.01mL
+\item Report the measured volume in the form $10.13  \pm 0.01$mL.
+\item precise and inaccurate
+\end{inparaenum}
+ \end{flushright} }

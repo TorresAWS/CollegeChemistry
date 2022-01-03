@@ -1,6 +1,7 @@
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-\hspace{-6cm}\begin{minipage}[b]{1.\linewidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:VolumeAndObjects}
+
+\hspace{-5cm}\begin{minipage}[b]{1.\linewidth}
 \begin{center}
    \begin{tikzpicture}[scale=0.6]
    \node at (4,5) {\mytriangle{red} Parallelepiped $V=abc $}; 

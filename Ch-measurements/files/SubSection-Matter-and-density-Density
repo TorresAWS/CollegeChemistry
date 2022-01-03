@@ -1,6 +1,41 @@
-Density refers to the mass of a substance with respect to its volume. This is an unique property for each substance. For example, the density for copper is 8.92 $g\cdot ml^{-1}$ and for gold is 19.3 $g\cdot ml^{-1}$. By measuring density only you would be able to differentiate copper than gold. The larger density the more compact is an object and that means the more mass per volume it has. The formula for density is
+Density refers to the mass of a substance with respect to its volume. This is an unique property for each substance. Indeed, density is often used as an identification tag. The formula for density is
 %\resizeableyellownote{2.5}{1}{Add  Formula \ref{formula1:1} to your flashcard.}
 \begin{equation}
 \boxed{   \text{Density}=\frac{\text{Mass of substance}}{\text{Volume of substance}}   }
 \label{formula1:1}
 \end{equation}
+For example, the density for copper is 8.92 $g\cdot ml^{-1}$ and for gold is 19.3 $g\cdot ml^{-1}$. By measuring density only, you would be able to differentiate copper than gold. The larger density the more compact is an object and that means the more mass per volume it has. At the same time, for the same volume, the larger density the larger the mass of the metal.
+\begin{center}
+\begin{tikzpicture}[x  = {(0.5cm,0.5cm)},
+                    y  = {(0.95cm,-0.25cm)},
+                    z  = {(0cm,0.9cm)}]
+\begin{scope}[shift={(0,0)}]
+\begin{scope}[canvas is yz plane at x=-1]
+  \shade[left color=blue!50,right color=blue!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\begin{scope}[canvas is xz plane at y=1]
+  \shade[right color=blue!70,left color=blue!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\begin{scope}[canvas is yx plane at z=1]
+  \shade[top color=blue!80,bottom color=blue!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\node [shift={(0,0)}]{Copper ($d=$8.92 $g\cdot ml^{-1}$)};
+\end{scope}
+
+
+\begin{scope}[shift={(2,5)}]
+\begin{scope}[canvas is yz plane at x=-1]
+  \shade[left color=yellow!50,right color=yellow!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\begin{scope}[canvas is xz plane at y=1]
+  \shade[right color=yellow!70,left color=yellow!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\begin{scope}[canvas is yx plane at z=1]
+  \shade[top color=yellow!80,bottom color=yellow!20] (-1,-1) rectangle (1,1);
+\end{scope}
+\node [shift={(0,0)}]{Gold ($d=$19.3 $g\cdot ml^{-1}$)};
+\end{scope}
+\end{tikzpicture}\end{center}
+
+
+

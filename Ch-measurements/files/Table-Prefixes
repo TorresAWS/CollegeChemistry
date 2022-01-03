@@ -1,7 +1,7 @@
 
 \begin{fullwidth}
- \begin{minipage}[b]{0.7\linewidth}\resizebox{1.0\textwidth}{!}{
-
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\hspace{6cm}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
@@ -11,6 +11,7 @@
 \midrule
 Prefix & Symbol&\multicolumn{2}{c}{Meaning} & Value \\
 \midrule
+exa & \multicolumn{1}{c}{E}  &\multicolumn{1}{r}{1000000000000000000}&   &$1\times10^{18}$  \\
 peta & \multicolumn{1}{c}{P}  &\multicolumn{1}{r}{1000000000000000}&   &$1\times10^{15}$  \\
 tera & \multicolumn{1}{c}{T}  &\multicolumn{1}{r}{1000000000000}&   &$1\times10^{12}$  \\
 giga & \multicolumn{1}{c}{G}  &\multicolumn{1}{r}{1000000000}&&$1\times10^9$  \\
@@ -28,6 +29,7 @@ micro & \multicolumn{1}{c}{$\mu$}  &&\multicolumn{1}{l}{0.00001}&$1\times10^{-6}
 nano & \multicolumn{1}{c}{n}  &&\multicolumn{1}{l}{0.000000001}&$1\times10^{-9}$  \\
 pico & \multicolumn{1}{c}{p}  &&\multicolumn{1}{l}{0.000000000001}&$1\times10^{-12}$  \\
 femto & \multicolumn{1}{c}{f } &&\multicolumn{1}{l}{0.000000000000001}&$1\times10^{-15}$  \\
+atto & \multicolumn{1}{c}{a } &&\multicolumn{1}{l}{0.000000000000000001}&$1\times10^{-18}$  \\
 \bottomrule
 \end{tabular}
 }\end{minipage}

@@ -1,0 +1,103 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:Figure-Targets-and-precision}
+\begin{center}
+
+
+\newcommand{\target}[1]{%
+  \foreach \r in {2.5, 2, 1.5, 1, 0.5, 0.05} {
+    \draw [
+      fill = black,
+      fill opacity = 0.15
+    ] (0, 0) circle (\r cm);
+  }
+}%
+
+\newcommand{\pointsA}[3]{%
+  \foreach \i in {1, 2, ..., 20} {
+    \pgfmathsetmacro{\xcoord}{#1 + rand * #3}
+    \pgfmathsetmacro{\ycoord}{#2 + rand * #3}
+    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
+  }
+}%
+
+
+\newcommand{\circlevar}[3]{%
+  \draw[color = green] (#1, #2) circle (#3 cm);
+  \node[text = green] at (#1, #2) {$\times$};
+}%
+
+\def\border{
+  \draw (-2.65, -2.75) -- ++(5.25, 0);
+  \draw (2.75, 2.65) -- ++(0, -5.25);
+}%
+
+\begin{tikzpicture}[
+  labeltext/.style = {
+    draw, minimum width = 5.25cm, minimum height = 1.5em, fill = gray!20,
+  }]
+
+\def\dist{5.5};
+
+\begin{scope}[shift = {(0, 0)}]
+
+  \node[labeltext] at (0, 3) {Accurate};
+  \node[labeltext, rotate = 90] at (-3, 0) {Imprecise};
+  \target
+
+  \pointsA{0}{0}{1}
+
+  \circlevar{0}{0}{1.15}
+  \border
+\end{scope}
+
+\begin{scope}[shift = {(\dist, 0)}]
+
+  \node[labeltext] at (0, 3) {Inaccurate};
+  \target 
+
+  \pointsA{1.25}{0.50}{1}
+
+  \circlevar{1.25}{0.50}{1.15}
+  \border
+\end{scope}
+
+\begin{scope}[shift = {(0, -\dist)}]
+
+  \node[labeltext, rotate = 90] at (-3, 0) {Precise};
+  \target
+
+  \pointsA{0}{0}{0.5}
+
+  \circlevar{0}{0}{0.65}
+  \border
+\end{scope}
+
+\begin{scope}[shift = {(\dist, -\dist)}]
+
+  \target
+
+  \pointsA{1.25}{0.5}{0.5}
+
+  \circlevar{1.25}{0.50}{0.65}
+  \border
+\end{scope}
+
+\begin{scope}[shift = {(\dist, -\dist)}]
+
+  \target
+
+  \foreach \j in {1, 2, ..., 20} {
+    \pgfmathsetmacro{\xcoord}{1.25 + rand * 0.5}
+    \pgfmathsetmacro{\ycoord}{0.50 + rand * 0.5}
+    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
+  }
+
+  \circlevar{1.25}{0.50}{0.75}
+  \border
+\end{scope}
+
+ 
+\begin{scope}[shift={(-3,-8)}, scale=1.0, every node/.append style={transform shape} ]
+ \node[text width=11cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} (Top Left) An accurate but imprecise measurement  (Top Right) An inaccurate and imprecise measurement (Top Left) An accurate and precise measurement (Bottom Right) An inaccurate but precise measurement};
+\end{scope}
+\end{tikzpicture}%%
+\end{center}
