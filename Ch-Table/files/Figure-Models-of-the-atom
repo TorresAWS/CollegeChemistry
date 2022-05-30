@@ -1,6 +1,5 @@
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Figure-Models-of-the-atom}
-
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
 
 \definecolor{mylightred}{RGB}{255,210,210}
 \definecolor{myred}{RGB}{200,100,100}

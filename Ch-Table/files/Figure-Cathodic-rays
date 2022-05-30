@@ -6,8 +6,7 @@
 \definecolor{mydarkblue}{RGB}{50,70,190}
 
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-    
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}    
    % \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 
@@ -136,7 +135,6 @@ at (5,0){ };
 
 \end{tikzpicture}
 
-  \label{Figure-Cathodic-rays}
 
 
 
