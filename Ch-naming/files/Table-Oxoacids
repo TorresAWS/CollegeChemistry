@@ -1,4 +1,4 @@
-\begin{center}
+\begin{fullwidth}\begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 %\begin{table}[ht]
 \fontfamily{ppl}\selectfont
@@ -39,7 +39,7 @@ Boron &     \ce{H3BO3}  &  Boric acid      &    \ce{BO3^{3-}}    &     Borate   
    \ce{HCN}  &  Hydrocyanic acid      &    \ce{H2S}    &     Hydrosulfuric acid &   \\
 \bottomrule
    \multicolumn{5}{l}{$^*$  {\small Yellow indicate very important acids}}   \\
-\end{tabular}\end{center}
+\end{tabular}\end{center}\end{fullwidth}
 %\caption{Names of oxoacids and oxosalts }
 %\label{table5:3}
 %\end{table} 

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2021 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2022 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Ch-naming.tex
-(./Ch-naming.tex
+**Ch-Naming.tex
+(./Ch-Naming.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -299,7 +299,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file Ch-naming.bbl.
+No file Ch-Naming.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -531,7 +531,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 
-(./Ch-naming.pre)
+(./Ch-Naming.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -541,7 +541,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `Ch-naming.pre'.
+\openout4 = `Ch-Naming.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -1649,10 +1649,10 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `Ch-naming.idx'.
+\openout8 = `Ch-Naming.idx'.
 
 
-Writing index file Ch-naming.idx
+Writing index file Ch-Naming.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -4779,8 +4779,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./Ch-naming.aux)
-\openout1 = `Ch-naming.aux'.
+(./Ch-Naming.aux)
+\openout1 = `Ch-Naming.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -4813,9 +4813,9 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
- (./Ch-naming.out) (./Ch-naming.out)
+ (./Ch-Naming.out) (./Ch-Naming.out)
 \@outlinefile=\write14
-\openout14 = `Ch-naming.out'.
+\openout14 = `Ch-Naming.out'.
 
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
@@ -5228,11 +5228,6 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 8.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 8.
-
-Overfull \hbox (97.21593pt too wide) in paragraph at lines 5--42
- [] 
- []
-
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
 salts
@@ -5265,7 +5260,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-[11]) (../Ch-naming/files/Table-Common-chemicals
+) (../Ch-naming/files/Table-Common-chemicals [11]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
@@ -5285,10 +5280,10 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
- (./Ch-naming.aux)
+ (./Ch-Naming.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
-Package rerunfilecheck Info: File `Ch-naming.out' has not changed.
+Package rerunfilecheck Info: File `Ch-Naming.out' has not changed.
 (rerunfilecheck)             Checksum: C065D40C5AE8C38B4E2ABE67748C03FC;1007.
 
 
@@ -5298,12 +5293,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 81533 strings out of 493014
- 1838691 string characters out of 6133351
+ 81536 strings out of 493014
+ 1838736 string characters out of 6133351
  2610841 words of memory out of 5000000
- 82999 multiletter control sequences out of 15000+600000
+ 83002 multiletter control sequences out of 15000+600000
  236751 words of font info for 330 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,104p,10529b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5331,7 +5329,7 @@ tino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-naming.pdf (12 pages, 622795 bytes).
+Output written on Ch-Naming.pdf (12 pages, 622678 bytes).
 PDF statistics:
  389 PDF objects out of 1000 (max. 8388607)
  289 compressed objects within 3 object streams
