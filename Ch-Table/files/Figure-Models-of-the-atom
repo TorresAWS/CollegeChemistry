@@ -1,3 +1,7 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Figure-Models-of-the-atom}
+
+
 \definecolor{mylightred}{RGB}{255,210,210}
 \definecolor{myred}{RGB}{200,100,100}
 \definecolor{mydarkred}{RGB}{140,40,40}
@@ -65,7 +69,7 @@
     (-1.10,-0.20)  circle node[above left =-1pt,scale=0.75] {$-e$};
 \end{scope}
 
- \node[text width=15cm, fontscale=.3,shift={(15em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Three models of the atom. From left to right: the plum puding model, the plum pudding model including Rutherford observations, the modern atomic model. $Z$ is the atomic number of the atom.};
+ \node[text width=15cm, fontscale=.3,shift={(15em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Three models of the atom. From left to right: the plum puding model, the updated plum pudding model according to Rutherford's observations, (two right images) the modern atomic model. $Z$ is the atomic number of the atom.};
 
 \end{tikzpicture}\end{fullwidth}
 

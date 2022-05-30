@@ -1,0 +1,69 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Figure-Rutherford}
+
+
+
+
+
+%\savebox\rutherfordscattering{\begin{tikzpicture}[scale=.5]\def\xa{-35}\def\xb{ 55}\def\ya{ -1}\def\yb{ 55}\def\tmax{5}\def\N{30}\begin{axis}[ xmin=\xa,xmax=\xb,ymin=\ya,ymax=\yb, hide x axis, hide y axis,]\def\a{1}\foreach \u in {1,3,6,10,15,21,28}{\def\b{\u*0.25}\def\c{sqrt(\a^2+\b^2)}\addplot[color=green,line width=0.5,samples=\N,smooth,variable=\t,domain=-\tmax:\tmax]({  \a/\c*(-\a*cosh(\t)-\c) + \b/\c*\b*sinh(\t) },{ -\b/\c*(-\a*cosh(\t)-\c) + \a/\c*\b*sinh(\t) });}\addplot[red,mark=*,mark size=2pt,mark options=solid] coordinates {(0,0)};\end{axis}\end{tikzpicture}}
+
+
+
+
+
+\begin{tikzpicture}[scale=3]
+\begin{scope}[rotate=15,shift={(0em,0)}]
+\node[transform shape,ellipse,minimum height=2cm,minimum width=1cm,draw,outer sep=0]     (a) {};
+\clip[scale=0.8,postaction={line width=0.8pt,draw}] (a) circle (0.5 and 1);
+\draw[scale=0.8] ([shift={($0.75*({cos(15)},{sin(15)})$)}]a) circle (0.5 and 1);
+%\draw(a.west) -- (a.east);
+\end{scope}
+\begin{scope}[rotate=15,shift={(0em,0)}]
+\draw (a.north) --  ++(0.75,0) arc (90:-90:0.5cm and 1cm-2\pgflinewidth) -- (a.south);
+%\draw[->] (a.east) ++(0.75,0) -- ++(1cm,0);
+%\draw (a.west) ++(-0.75,0) -- ++(0.9cm,0);
+%\node at (-1,0.2) {$\vec{V}$};
+\end{scope}
+\begin{scope}[shift={(0em,0)}]
+\fill[yellow,opacity=1] (.2,0,0) -- (0,0,.2) -- (0,.3,.2) --  (.2,.3,0) --   cycle;
+
+\end{scope}
+\begin{scope}[shift={(3em,0)}]
+
+
+%\draw[red,->]  (1em,1.5em)-- (-0.8em,0.8em) node [midway] {source of $\alpha$ particles};
+ \draw[red ] (-2.7em,.3em) -- ++ (30:.78em);
+  \draw[red, shift={(2em,1em)} ] (-2.7em,.3em) -- ++ (30:2em) node [shift={(0.5em,0.5em)}]  {source of $\alpha$ particles};
+  \draw[red ] (-3.2em,.08em) -- ++ (210:.25em)     ;
+  \draw[red ] (-2.9em,.7em) -- ++ (110:1.0em)  ;
+  \draw[red ] (-2.8em,-.08em) -- ++ (-95:0.8em)  ;
+ \draw[red ] (-2.7em,.3em) -- ++ (65:.98em);
+ \draw[red ] (-2.7em,.3em) -- ++ (-65:2.0em);
+
+
+
+%\coordinate (spy point) at (-2.7em,0.4em);
+%\coordinate (magnifying glass) at (1em,-2em);
+%\node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
+%\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=-45] (a.north) -- (a.west)  to [bend right=-45]  (spy point) -- cycle;
+%\node  [thin, draw=black, shape=circle, inner sep=3.5em, fill overzoom image={\savebox\rutherfordscattering}]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\small Rutherford's scattering: the elastic scattering of charged particles by the Coulomb interaction after a particle beam passed through a thin gold foil obstruction.
+%};
+
+
+
+
+
+\end{scope}
+ 
+
+ 
+\node[text width=5cm, fontscale=.3,shift={(15em,-10em)}] at (3em,3em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Rutherford's scattering: the elastic scattering of charged particles by the Coulomb interaction after a particle beam passed through a thin gold foil obstruction.
+};
+
+\end{tikzpicture}
+
+
+
+
+
+ 
