@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2022 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JUN 2022 12:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5324,7 +5324,7 @@ Overfull \hbox (48.10655pt too wide) in paragraph at lines 3--57
 y-prefixes) (../Ch-measurements/files/Table-Prefixes [3]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 35.
+(hyperref)                setting the option has no effect on input line 37.
 
 )
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
@@ -7409,6 +7409,13 @@ Missing character: There is no ; in font nullfont!
 (../Ch-measurements/files/Figure-Targets-and-precision
 Missing character: There is no ; in font nullfont!
 )
+(../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation)
+(../Ch-measurements/problems/SampleProblem13
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
+ [] 
+ []
+
+(../Ch-measurements/problems/StudyCheck13) [10])
 (../Ch-measurements/files/SectionIntro-Significant-Figures)
 (../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-of
 -numbers
@@ -7418,7 +7425,7 @@ line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-[10]) (../Ch-measurements/problems/SampleProblem8
+[11]) (../Ch-measurements/problems/SampleProblem8
 (../Ch-measurements/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
@@ -7426,18 +7433,133 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
 ))
 (../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-in
--calculations [11]) (../Ch-measurements/problems/SampleProblem9
+-calculations [12]) (../Ch-measurements/problems/SampleProblem9
 (../Ch-measurements/problems/StudyCheck9))
 (../Ch-measurements/files/SubSection-Significant-Figures-Rounding)
-(../Ch-measurements/files/SubSection-Matter-and-density-Density [12])
+(../Ch-measurements/files/SectionIntro-Matter-and-density [13])
+(../Ch-measurements/files/Figure-Matter
+<../Ch-measurements/figure1-14.png, id=283, 1026.83624pt x 684.5575pt>
+File: ../Ch-measurements/figure1-14.png Graphic file (type png)
+<use ../Ch-measurements/figure1-14.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
+<../Ch-measurements/figure1-12.png, id=284, 913.4125pt x 590.205pt>
+File: ../Ch-measurements/figure1-12.png Graphic file (type png)
+<use ../Ch-measurements/figure1-12.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
+<../Ch-measurements/figure1-11.png, id=285, 1027.84pt x 770.88pt>
+File: ../Ch-measurements/figure1-11.png Graphic file (type png)
+<use ../Ch-measurements/figure1-11.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
+<../Ch-measurements/figure1-13.png, id=286, 913.4125pt x 1254.6875pt>
+File: ../Ch-measurements/figure1-13.png Graphic file (type png)
+<use ../Ch-measurements/figure1-13.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
+40.
+(pdftex.def)             Requested size: 51.77794pt x 71.12354pt.
+
+Overfull \hbox (106.69618pt too wide) in paragraph at lines 6--44
+ [] 
+ []
+
+) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter
+
+LaTeX Warning: Reference `Fig:Figure-States-of-matter' on page 14 undefined on 
+input line 1.
+
+)
+(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
+tures) (../Ch-measurements/files/Figure-States-of-matter [14 <../Ch-measurement
+s/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-12.png (PNG copy)> <..
+/Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measurements/figure1-13.png 
+(PNG copy)>]
+<../Ch-measurements/files/../figure1-19.jpeg, id=293, 276.03125pt x 183.68625pt
+>
+File: ../Ch-measurements/files/../figure1-19.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/files/../figure1-19.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../figure1-19.jpeg  used on i
+nput line 10.
+(pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
+<figure1-22.png, id=294, 268.00125pt x 356.33125pt>
+File: figure1-22.png Graphic file (type png)
+<use figure1-22.png>
+Package pdftex.def Info: figure1-22.png  used on input line 16.
+(pdftex.def)             Requested size: 507.54735pt x 674.8289pt.
+<../Ch-measurements/files/../figure1-20.jpeg, id=295, 276.03125pt x 183.68625pt
+>
+File: ../Ch-measurements/files/../figure1-20.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/files/../figure1-20.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../figure1-20.jpeg  used on i
+nput line 22.
+(pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
+<figure1-23.png, id=296, 275.0275pt x 349.305pt>
+File: figure1-23.png Graphic file (type png)
+<use figure1-23.png>
+Package pdftex.def Info: figure1-23.png  used on input line 28.
+(pdftex.def)             Requested size: 507.59268pt x 644.67975pt.
+<../Ch-measurements/files/../figure1-21.jpeg, id=297, 642.4pt x 427.5975pt>
+File: ../Ch-measurements/files/../figure1-21.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/files/../figure1-21.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../figure1-21.jpeg  used on i
+nput line 35.
+(pdftex.def)             Requested size: 142.25964pt x 94.69157pt.
+<figure1-24.png, id=298, 286.06876pt x 363.3575pt>
+File: figure1-24.png Graphic file (type png)
+<use figure1-24.png>
+Package pdftex.def Info: figure1-24.png  used on input line 41.
+(pdftex.def)             Requested size: 507.55516pt x 644.68407pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}5' on page 15 undefined on input
+ line 45.
+
+
+Overfull \hbox (10.91277pt too wide) in paragraph at lines 48--49
+ [] 
+ []
+
+) (../Ch-measurements/problems/SampleProblem10
+(../Ch-measurements/problems/StudyCheck10
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+)) [15 <../Ch-measurements/files/../figure1-19.jpeg> <./figure1-22.png> <../Ch-
+measurements/files/../figure1-20.jpeg> <./figure1-23.png> <../Ch-measurements/f
+iles/../figure1-21.jpeg> <./figure1-24.png>]
+(../Ch-measurements/files/SubSection-Matter-and-density-Separation)
+(../Ch-measurements/files/Figure-Chromatography
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}6' on page 16 undefined on input
+ line 52.
+
+
+Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
+ [] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+(../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-) (../Ch-measurements/problems/SampleProblem11
-<../Ch-measurements/Image-Glass-with-three-liquids.png, id=280, 1204.5pt x 2156
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+(../Ch-measurements/problems/SampleProblem11
+<../Ch-measurements/Image-Glass-with-three-liquids.png, id=341, 1204.5pt x 2156
 .055pt>
 File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
 png)
@@ -7451,9 +7573,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--1
 
  []
 
-) [13 <../Ch-measurements/Image-Glass-with-three-liquids.png>])
+))
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
 of-objects) (../Ch-measurements/files/Figure-Volume-objects
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}7' on page 18 undefined on input
+ line 55.
+
+
 Overfull \hbox (169.06755pt too wide) in paragraph at lines 57--58
  [] 
  []
@@ -7465,9 +7592,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-)) [14] [15
+) [18 <../Ch-measurements/Image-Glass-with-three-liquids.png>]) [19] [20
 
-]) (../Ch-measurements/Ch-measurementsProblems.tex
+])
+(../Ch-measurements/Ch-measurementsProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -7518,7 +7646,7 @@ vailable
 (../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
 tors)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
-efixes [16
+efixes [21
 
 
 ])
@@ -7529,10 +7657,13 @@ ed)
 bic-units)
 (../Ch-measurements/problems/problems/Problems-Significant-Figures-calculations
 ) (../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers
-) (../Ch-measurements/problems/problems/Problems-Density)
+) (../Ch-measurements/problems/problems/Problems-Exact-measured-numbers)
+(../Ch-measurements/problems/problems/Problems-Mixtures)
+(../Ch-measurements/problems/problems/Problems-States-of-matter [22])
+(../Ch-measurements/problems/problems/Problems-Density)
 (../Ch-measurements/problems/problems/Problems-Density-and-mixing)
 (../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
-s [17]) [18]
+s) [23]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -7573,11 +7704,11 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 75.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 67--78
+Overfull \hbox (15.0pt too wide) in paragraph at lines 67--77
 []$[]$ 
  []
 
-[19
+[24
 
 ])
 
@@ -7597,9 +7728,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5469.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5469.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5469.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 37924D68A8E937AA31F7653C251D8B8D;1369.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 37924D68A8E937AA31F7653C251D8B8D;1369
+(rerunfilecheck)             After:  7EF540E5035F0349A85D0D8EC039D35E;1453.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -7607,44 +7744,52 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5469.
  ) 
 Here is how much of TeX's memory you used:
- 81491 strings out of 493014
- 1847788 string characters out of 6133351
- 3597121 words of memory out of 5000000
- 82822 multiletter control sequences out of 15000+600000
- 193438 words of font info for 259 fonts, out of 8000000 for 9000
+ 82081 strings out of 493014
+ 1859819 string characters out of 6133351
+ 3597116 words of memory out of 5000000
+ 83229 multiletter control sequences out of 15000+600000
+ 206536 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,16n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,22n,118p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesomeone.enc}</usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/c
-ourier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
-/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 14187778 bytes).
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
+exmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomeone.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+aratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
+ype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
+8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (24 pages, 17733445 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 182 named destinations out of 1000 (max. 500000)
- 53782 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
+ 265 named destinations out of 1000 (max. 500000)
+ 62024 words of extra memory for PDF output out of 74296 (max. 10000000)
 
