@@ -1,7 +1,7 @@
 %%%%%%%PROBLEM
-\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate if the following combination of quantum numbers are allowed:\\
-\begin{tabularx}{\columnwidth}{>{}m{.20\linewidth} *{4}{Y} }
+\vspace{-0.0cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate if the following combination of quantum numbers are allowed: 
+\begin{center}\begin{tabularx}{\columnwidth}{>{}m{.20\linewidth} *{4}{Y} }
   \toprule
 \heading{$n$} & \heading{$\ell$}  &  \heading{$m_\ell$} & \heading{$m_s$} & \heading{Allowed?}   \\
     \midrule
@@ -9,18 +9,14 @@ Indicate if the following combination of quantum numbers are allowed:\\
    2	&	1&		4	&	$+^1/_2$   \\
 4		&2	&	-2	&	$-^1/_2$\\    
     \bottomrule
-\end{tabularx}
+\end{tabularx}\end{center}
  \end{question}
 \begin{solution}
-\begin{tabularx}{\columnwidth}{>{}m{.20\linewidth} *{4}{Y} }
-  \toprule
-\heading{$n$} & \heading{$\ell$}  &  \heading{$m_\ell$} & \heading{$m_s$} & \heading{Allowed?}   \\
-    \midrule
-  4	&	4	&	1	&	$+^1/_2$ & no   \\
-   2	&	1&		4	&	$+^1/_2$ & no  \\
-4		&2	&	-2	&	$-^1/_2$&yes\\    
-    \bottomrule
-\end{tabularx}
+\begin{inparaenum}[(a)]
+\item	$n$=4	;	$\ell$=4	;		$m_\ell$=1	;	$m_s$=$+^1/_2$ 	; Allowed=no   
+\item  $n$=2	;	$\ell$=1	;		$m_\ell$=4	;	$m_s$=$+^1/_2$ 	; Allowed=no   
+\item   $n$=4	;	$\ell$=2	;		$m_\ell$=-2	;	$m_s$=$-^1/_2$	;Allowed=yes  
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 

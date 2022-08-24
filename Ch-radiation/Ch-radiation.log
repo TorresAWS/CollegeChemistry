@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2022 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2022 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5172,9 +5172,10 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-)))
+))
+[3])
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-electromagnetic-spect
-rum-of-light [3]) (../Ch-radiation/files/Figure-Electromagnetic-field)
+rum-of-light) (../Ch-radiation/files/Figure-Electromagnetic-field)
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
 t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
 <../Ch-radiation/figure1-9.png, id=172, 525.965pt x 104.39pt>
@@ -5540,7 +5541,9 @@ ls-and-sublevels) (../Ch-radiation/problems/SampleProblem8
 (../Ch-radiation/files/SubSection-Electronic-configuration-The-Pauli-exclusion-
 principle)
 (../Ch-radiation/files/SubSection-Electronic-configuration-Orbital-Filling-the-
-aufbau-principle) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
+aufbau-principle)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
+uration [20]) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -5567,9 +5570,10 @@ Overfull \hbox (28.12006pt too wide) in paragraph at lines 3--72
 [] 
  []
 
-)
-(../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
-uration [20]) (../Ch-radiation/problems/SampleProblem9
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+) (../Ch-radiation/problems/SampleProblem9
 (../Ch-radiation/problems/StudyCheck9))
 (../Ch-radiation/files/SubSection-Electronic-configuration-Abbreviated-Electron
 -Configuration-and-orbital-diagrams
@@ -5708,11 +5712,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
 (./Ch-radiation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `Ch-radiation.out' has not changed.
 (rerunfilecheck)             Checksum: 7498829CD0AFD4B780539FB1CEE3B94F;1182.
 
@@ -5726,13 +5730,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 83379 strings out of 493014
- 1895164 string characters out of 6133351
- 3025456 words of memory out of 5000000
- 84614 multiletter control sequences out of 15000+600000
- 283662 words of font info for 377 fonts, out of 8000000 for 9000
+ 83391 strings out of 493014
+ 1895304 string characters out of 6133351
+ 3030449 words of memory out of 5000000
+ 84617 multiletter control sequences out of 15000+600000
+ 284337 words of font info for 383 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,121p,10535b,2589s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5774,10 +5781,10 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-radiation.pdf (30 pages, 7858992 bytes).
+Output written on Ch-radiation.pdf (30 pages, 7859270 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
+ 652 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
  96 named destinations out of 1000 (max. 500000)
  82728 words of extra memory for PDF output out of 89155 (max. 10000000)
 

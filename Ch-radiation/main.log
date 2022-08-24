@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2021 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2022 16:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5191,9 +5191,10 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-)))
+))
+[3])
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-electromagnetic-spect
-rum-of-light [3]) (../Ch-radiation/files/Figure-Electromagnetic-field)
+rum-of-light) (../Ch-radiation/files/Figure-Electromagnetic-field)
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
 t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
 <../Ch-radiation/figure1-9.png, id=172, 525.965pt x 104.39pt>
@@ -5559,7 +5560,9 @@ ls-and-sublevels) (../Ch-radiation/problems/SampleProblem8
 (../Ch-radiation/files/SubSection-Electronic-configuration-The-Pauli-exclusion-
 principle)
 (../Ch-radiation/files/SubSection-Electronic-configuration-Orbital-Filling-the-
-aufbau-principle) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
+aufbau-principle)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
+uration [20]) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -5586,9 +5589,10 @@ Overfull \hbox (28.12006pt too wide) in paragraph at lines 3--72
 [] 
  []
 
-)
-(../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
-uration [20]) (../Ch-radiation/problems/SampleProblem9
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+) (../Ch-radiation/problems/SampleProblem9
 (../Ch-radiation/problems/StudyCheck9))
 (../Ch-radiation/files/SubSection-Electronic-configuration-Abbreviated-Electron
 -Configuration-and-orbital-diagrams
@@ -5825,35 +5829,6 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 64.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--66
-[]\T1/ptm/b/n/14.4 Answers  [][]\T1/ptm/m/n/10 (+20) (a) $\OT1/lmr/m/n/10 1.32 
-\OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (+20) J [](b) $\OT1/lm
-r/m/n/10 8.5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m/n/10 (+20) Hz 
-[](c) $\OT1/lmr/m/n/10 3.03 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$\T1/ptm/m
-/n/10 (+20) J  [][](a) Green
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--66
-[]\T1/ptm/m/n/10 (+20) (b) Yel-low  [][](a) $\OML/lmm/m/it/10 ^^M[]$\T1/ptm/m/n
-/10 (+20) <$\OML/lmm/m/it/10 ^^M[]$ []\T1/ptm/m/n/10 (+20) (b) $\OML/lmm/m/it/1
-0 E[]$\T1/ptm/m/n/10 (+20) <$\OML/lmm/m/it/10 E[]$ []\T1/ptm/m/n/10 (+20) (c) I
-R  [][](a) Ab-sorp-tion [](b) Emis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--66
-\T1/ptm/m/n/10 (+20) sion [](c) Emis-sion [](d) Ab-sorp-tion [](e) Emis-sion []
-(f) Ab-sorp-tion  []$\OT1/lmr/m/n/10 3.16 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 
-10[]$ \T1/ptm/m/n/10 (+20) Hz
- []
-
-
-Overfull \hbox (22.25197pt too wide) in paragraph at lines 58--66
-[][]
- []
-
-
 Overfull \hbox (15.0pt too wide) in paragraph at lines 56--66
 []$[]$ 
  []
@@ -5894,11 +5869,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5392.
  ) 
 Here is how much of TeX's memory you used:
- 84093 strings out of 493014
- 1911737 string characters out of 6133351
- 3028068 words of memory out of 5000000
- 85187 multiletter control sequences out of 15000+600000
- 350153 words of font info for 412 fonts, out of 8000000 for 9000
+ 84046 strings out of 493014
+ 1911425 string characters out of 6133351
+ 3032074 words of memory out of 5000000
+ 85128 multiletter control sequences out of 15000+600000
+ 350828 words of font info for 418 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,21n,122p,10369b,2793s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5940,10 +5915,10 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 7874638 bytes).
+Output written on main.pdf (32 pages, 7872953 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 559 compressed objects within 6 object streams
+ 184 named destinations out of 1000 (max. 500000)
  98088 words of extra memory for PDF output out of 106986 (max. 10000000)
 
