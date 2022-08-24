@@ -82,14 +82,14 @@ $v_{rms}^{\ce{Ne}}$ $<$ $v_{rms}^{\ce{CH4}}$ $<$ $v_{rms}^{\ce{H2O}}$$<$ $v_{rms
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The kinetic molecular theory of gases assumes that:
+Which of the following statements is assumed by the kinetic molecular theory of gases:
 \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item gas particles interact with each other
 \item gas particles have large sizes
 \item particles move slowly
 \item gas particles move randomly
-\end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 gas particles move randomly

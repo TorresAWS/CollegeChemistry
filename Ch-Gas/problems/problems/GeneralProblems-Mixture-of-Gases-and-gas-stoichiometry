@@ -121,7 +121,7 @@ Consider the set up below with three different gases in three different closed c
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Consider the set up presented below, where the connecting tubes have negligible volume. Calculate the partial pressure of each gas after the connection between the flasks is open.
+Consider the set up presented below at fixed temperature, where the connecting tubes have negligible volume. Calculate the partial pressure of each gas after the connection between the flasks is open.
 \begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
 \draw [green, very thick,  fill=red!10] (0,0) -- ++ (-1,0) arc (0:350:1.0) -- ++ (1,0)   |- cycle ;
 \draw [green, very thick,  fill=yellow!10, yshift=.83cm]  (0,-1)-- ++(1,0) arc (190:540:1.0)  -- ++(-1,0)|- cycle ;
