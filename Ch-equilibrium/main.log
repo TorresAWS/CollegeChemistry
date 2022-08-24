@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAR 2021 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2022 17:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5053,7 +5053,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-equilibrium/Ch-equilibrium.tex (./files/ChapterName
+(../Ch-equilibrium/Ch-equilibrium.tex (../Ch-equilibrium/files/ChapterName
 Chapter 1.
 )
 <../Ch-equilibrium/figure1.png, id=133, 276.03125pt x 183.68625pt>
@@ -5071,7 +5071,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-(./files/ChapterIntro)
+(../Ch-equilibrium/files/ChapterIntro)
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 []\T1/ptm/m/n/8 (+20) Formulate equi-lib-rium con-
  []
@@ -5097,7 +5097,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/ChapterDiscussion)
+(../Ch-equilibrium/files/ChapterDiscussion)
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 42.
 
@@ -5110,17 +5110,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./files/SectionIntro-Chemical-Equilibrium)
+(../Ch-equilibrium/files/SectionIntro-Chemical-Equilibrium)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 46.
 
-(./files/SubSection-Chemical-Equilibrium-Forward-and-reverse-reactions)
-(./files/SubSection-Chemical-Equilibrium-Equilibrium [1
+(../Ch-equilibrium/files/SubSection-Chemical-Equilibrium-Forward-and-reverse-re
+actions) (../Ch-equilibrium/files/SubSection-Chemical-Equilibrium-Equilibrium
+[1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
-quilibrium/figure1.png (PNG copy)>]) (./files/SideFigure-Forward-and-reverse-re
-actions
+quilibrium/figure1.png (PNG copy)>])
+(../Ch-equilibrium/files/SideFigure-Forward-and-reverse-reactions
 <../Ch-equilibrium/figure6.png, id=154, 553.06625pt x 2007.5pt>
 File: ../Ch-equilibrium/figure6.png Graphic file (type png)
 <use ../Ch-equilibrium/figure6.png>
@@ -5134,16 +5135,18 @@ Overfull \hbox (65.46545pt too wide) in paragraph at lines 1--20
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-) (./files/SubSection-Chemical-Equilibrium-Equilibrium-and-concentration)
-(./problems/SampleProblem1 (./problems/StudyCheck1
+)
+(../Ch-equilibrium/files/SubSection-Chemical-Equilibrium-Equilibrium-and-concen
+tration) (../Ch-equilibrium/problems/SampleProblem1
+(../Ch-equilibrium/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) (./files/SectionIntro-The-equilibrium-constant)
-(./files/SubSection-The-equilibrium-constant-Equilibrium-mixtures)
-(./files/Table-Kc-and-reactions
+))) (../Ch-equilibrium/files/SectionIntro-The-equilibrium-constant)
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-mixtur
+es) (../Ch-equilibrium/files/Table-Kc-and-reactions
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5172,16 +5175,18 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 3--24
 [][] 
  []
 
-) [2 <../Ch-equilibrium/figure6.png>] (./files/Figure-Equilibrium)
-(./files/SubSection-The-equilibrium-constant-The-equilibrium-constant-of-a-reac
-tion
+) [2 <../Ch-equilibrium/figure6.png>]
+(../Ch-equilibrium/files/Figure-Equilibrium)
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-The-equilibrium-co
+nstant-of-a-reaction
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 11.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 11.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 11.
-) (./problems/SampleProblem2 (./problems/StudyCheck2)
+) (../Ch-equilibrium/problems/SampleProblem2
+(../Ch-equilibrium/problems/StudyCheck2)
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
@@ -5190,7 +5195,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 Underfull \vbox (badness 3271) has occurred while \output is active []
 
  [3])
-(./files/SideFigure-Meaning-of-Kc
+(../Ch-equilibrium/files/SideFigure-Meaning-of-Kc
 <../Ch-equilibrium/figure7.png, id=190, 553.06625pt x 2007.5pt>
 File: ../Ch-equilibrium/figure7.png Graphic file (type png)
 <use ../Ch-equilibrium/figure7.png>
@@ -5210,31 +5215,37 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--10
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-) (./files/SubSection-The-equilibrium-constant-Equilibrium-constant-expression)
-
-(./files/SubSection-The-equilibrium-constant-Equilibrium-involving-solids-liqui
-ds-and-solutions [4 <../Ch-equilibrium/figure7.png>])
-(./problems/SampleProblem3 (./problems/StudyCheck3))
-(./files/SubSection-The-equilibrium-constant-Equilibrium-constant-in-terms-of-p
-ressures) [5] (./files/SubSection-The-equilibrium-constant-Relating-Kc-and-Kp)
-(./problems/SampleProblem4 (./problems/StudyCheck4)
+)
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-consta
+nt-expression)
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-involv
+ing-solids-liquids-and-solutions [4 <../Ch-equilibrium/figure7.png>])
+(../Ch-equilibrium/problems/SampleProblem3
+(../Ch-equilibrium/problems/StudyCheck3))
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-consta
+nt-in-terms-of-pressures) [5]
+(../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Relating-Kc-and-Kp
+) (../Ch-equilibrium/problems/SampleProblem4
+(../Ch-equilibrium/problems/StudyCheck4)
 Underfull \hbox (badness 10000) in paragraph at lines 4--17
 
  []
 
-[6]) (./files/SectionIntro-Using-equilibrium-constants)
-(./files/SubSection-Using-equilibrium-constants-Solving-from-Kc)
-(./problems/SampleProblem5 (./problems/StudyCheck5)
+[6]) (../Ch-equilibrium/files/SectionIntro-Using-equilibrium-constants)
+(../Ch-equilibrium/files/SubSection-Using-equilibrium-constants-Solving-from-Kc
+) (../Ch-equilibrium/problems/SampleProblem5
+(../Ch-equilibrium/problems/StudyCheck5)
 Underfull \hbox (badness 10000) in paragraph at lines 2--18
 
  []
 
-[7]) (./files/SectionIntro-Concentration-or-pressure-ratio)
-(./files/SubSection-Concentration-or-pressure-ratio-Definition-of-concentration
--ratio)
-(./files/SubSection-Concentration-or-pressure-ratio-Use-of-concentration-ratios
-[8]) (./problems/SampleProblem6 (./problems/StudyCheck6) [9])
-(./files/SideFigure-Image-of-le-chatelier
+[7]) (../Ch-equilibrium/files/SectionIntro-Concentration-or-pressure-ratio)
+(../Ch-equilibrium/files/SubSection-Concentration-or-pressure-ratio-Definition-
+of-concentration-ratio)
+(../Ch-equilibrium/files/SubSection-Concentration-or-pressure-ratio-Use-of-conc
+entration-ratios [8]) (../Ch-equilibrium/problems/SampleProblem6
+(../Ch-equilibrium/problems/StudyCheck6) [9])
+(../Ch-equilibrium/files/SideFigure-Image-of-le-chatelier
 <../Ch-equilibrium/figure8.png, id=235, 176.15813pt x 182.18062pt>
 File: ../Ch-equilibrium/figure8.png Graphic file (type png)
 <use ../Ch-equilibrium/figure8.png>
@@ -5248,10 +5259,12 @@ Overfull \hbox (13.03993pt too wide) in paragraph at lines 5--6
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-) (./files/SectionIntro-Le-Chatelier-principle)
-(./files/SubSection-Le-Chatelier-principle-Le-Chatelier-principle)
-(./files/SubSection-Le-Chatelier-principle-Change-in-concentration [10 <../Ch-e
-quilibrium/figure8.png (PNG copy)>]) (./files/SideFigure-Le-chatelier
+) (../Ch-equilibrium/files/SectionIntro-Le-Chatelier-principle)
+(../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Le-Chatelier-princip
+le)
+(../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Change-in-concentrat
+ion [10 <../Ch-equilibrium/figure8.png (PNG copy)>])
+(../Ch-equilibrium/files/SideFigure-Le-chatelier
 <../Ch-equilibrium/figure13.png, id=242, 553.06625pt x 1852.9225pt>
 File: ../Ch-equilibrium/figure13.png Graphic file (type png)
 <use ../Ch-equilibrium/figure13.png>
@@ -5265,10 +5278,10 @@ Overfull \hbox (41.49268pt too wide) in paragraph at lines 13--14
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-) (./files/SubSection-Le-Chatelier-principle-Temperature-change) [11 <../Ch-equ
-ilibrium/figure13.png>]
-(./files/SubSection-Le-Chatelier-principle-Volume-change)
-(./files/Table-Le-chatelier
+) (../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Temperature-change
+) [11 <../Ch-equilibrium/figure13.png>]
+(../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Volume-change)
+(../Ch-equilibrium/files/Table-Le-chatelier
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 34.
@@ -5280,7 +5293,8 @@ Overfull \hbox (56.9055pt too wide) in paragraph at lines 36--36
 [][] 
  []
 
-) (./problems/SampleProblem7 (./problems/StudyCheck7)
+) (../Ch-equilibrium/problems/SampleProblem7
+(../Ch-equilibrium/problems/StudyCheck7)
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
@@ -5318,23 +5332,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package mdframed Info: mdframed works in twoside mode on input line 8.
+Package mdframed Info: mdframed works in twoside mode on input line 9.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 8.
-Package mdframed Info: Not enough space on this page on input line 8.
+ line 9.
+Package mdframed Info: Not enough space on this page on input line 9.
 
-(./problems/problems/Problems-Chemical-Equilibrium-Equilibrium
+(../Ch-equilibrium/problems/problems/Problems-Chemical-Equilibrium-Equilibrium
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 10.
 )
-(./problems/problems/Problems-Chemical-Equilibrium-Forward-and-reverse-reaction
-s)
-(./problems/problems/Problems-The-equilibrium-constant-The-equilibrium-constant
--of-a-reaction
+(../Ch-equilibrium/problems/problems/Problems-Chemical-Equilibrium-Forward-and-
+reverse-reactions)
+(../Ch-equilibrium/problems/problems/Problems-The-equilibrium-constant-The-equi
+librium-constant-of-a-reaction
 <../Ch-equilibrium/figure10.png, id=255, 1378.14874pt x 564.1075pt>
 File: ../Ch-equilibrium/figure10.png Graphic file (type png)
 <use ../Ch-equilibrium/figure10.png>
@@ -5342,14 +5356,16 @@ Package pdftex.def Info: ../Ch-equilibrium/figure10.png  used on input line 55.
 
 (pdftex.def)             Requested size: 192.72922pt x 78.88843pt.
 )
-(./problems/problems/Problems-The-equilibrium-constant-Equilibrium-constant-exp
-ression) (./problems/problems/Problems-Concentration-or-pressure-ratio)
-(./problems/problems/Problems-The-equilibrium-constant-Relating-Kc-and-Kp
-[13
+(../Ch-equilibrium/problems/problems/Problems-The-equilibrium-constant-Equilibr
+ium-constant-expression)
+(../Ch-equilibrium/problems/problems/Problems-Concentration-or-pressure-ratio)
+(../Ch-equilibrium/problems/problems/Problems-The-equilibrium-constant-Relating
+-Kc-and-Kp [13
 
  <../Ch-equilibrium/figure10.png>])
-(./problems/problems/Problems-Concentration-or-pressure-ratio-Definition-of-con
-centration-ratio) (./problems/problems/Problems-Le-chatelier
+(../Ch-equilibrium/problems/problems/Problems-Concentration-or-pressure-ratio-D
+efinition-of-concentration-ratio)
+(../Ch-equilibrium/problems/problems/Problems-Le-chatelier
 <../Ch-equilibrium/figure14.png, id=308, 553.06625pt x 363.3575pt>
 File: ../Ch-equilibrium/figure14.png Graphic file (type png)
 <use ../Ch-equilibrium/figure14.png>
@@ -5402,9 +5418,9 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 72.
+ line 73.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 64--74
+Overfull \hbox (15.0pt too wide) in paragraph at lines 65--75
 []$[]$ 
  []
 
@@ -5441,11 +5457,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5407.
  ) 
 Here is how much of TeX's memory you used:
- 81080 strings out of 493014
- 1834733 string characters out of 6133351
- 2646699 words of memory out of 5000000
+ 81081 strings out of 493014
+ 1836626 string characters out of 6133351
+ 2646879 words of memory out of 5000000
  82528 multiletter control sequences out of 15000+600000
- 284807 words of font info for 346 fonts, out of 8000000 for 9000
+ 284677 words of font info for 344 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,26n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
@@ -5481,10 +5497,10 @@ ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 1072208 bytes).
+Output written on main.pdf (15 pages, 1072371 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 126 named destinations out of 1000 (max. 500000)
  83461 words of extra memory for PDF output out of 89155 (max. 10000000)
 
