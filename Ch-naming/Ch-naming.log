@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2022 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2022 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5174,7 +5174,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--14
 [4]) (../Ch-naming/files/SectionIntro-Covalent-compounds)
 (../Ch-naming/files/Subsection-Covalent-compounds-Properties-of-covalent-compou
 nds) (../Ch-naming/files/Subsection-Covalent-compounds-The-covalent-bond)
-(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming)
 (../Ch-naming/files/Table-Covalent-prefixes
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
@@ -5187,8 +5186,9 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-) (../Ch-naming/problems/SampleProblem5 (../Ch-naming/problems/StudyCheck5)
-Underfull \vbox (badness 6725) has occurred while \output is active []
+) (../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming)
+(../Ch-naming/problems/SampleProblem5 (../Ch-naming/problems/StudyCheck5)
+Underfull \vbox (badness 6675) has occurred while \output is active []
 
  [5])
 (../Ch-naming/files/SectionIntro-Naming-acids-bases)
@@ -5263,7 +5263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 ) (../Ch-naming/files/Table-Common-chemicals [11]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
+(hyperref)                setting the option has no effect on input line 9.
 
 ) (../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11))
 
@@ -5278,11 +5278,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./Ch-Naming.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `Ch-Naming.out' has not changed.
 (rerunfilecheck)             Checksum: C065D40C5AE8C38B4E2ABE67748C03FC;1007.
 
@@ -5293,14 +5293,11 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  81536 strings out of 493014
  1838736 string characters out of 6133351
- 2610841 words of memory out of 5000000
+ 2610828 words of memory out of 5000000
  83002 multiletter control sequences out of 15000+600000
  236751 words of font info for 330 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5329,10 +5326,10 @@ tino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Naming.pdf (12 pages, 622678 bytes).
+Output written on Ch-Naming.pdf (12 pages, 622701 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 387 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  98 named destinations out of 1000 (max. 500000)
  65458 words of extra memory for PDF output out of 74296 (max. 10000000)
 
