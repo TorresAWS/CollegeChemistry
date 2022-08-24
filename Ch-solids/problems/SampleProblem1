@@ -10,7 +10,7 @@ Indicate what types of intermolecular forces exist in the following molecules:\\
  & \ce{HCl}  &  \ce{CH4}  &\ce{H2O} & \ce{CH3Cl}   \\
     \midrule
    Dispersion & 	 &		 &    &		   \\
-  Dipole-Dipole& 	 &		&     &		     \\
+  Dipole& 	 &		&     &		     \\
       H-bonds & 	 &		 &    &		\\    
     \bottomrule
 \end{tabularx}
@@ -24,7 +24,7 @@ All molecules can interact by means of dispersion forces. Differently, only pola
  & \ce{HCl}  &  \ce{CH4}  &\ce{H2O} & \ce{CH3Cl}   \\
     \midrule
    Dispersion & 	\checkmark &	\checkmark	 & \checkmark   &\checkmark		   \\
-  Dipole-Dipole&  \checkmark	 &	\xmark 	& \checkmark    &\checkmark		     \\
+  Dipole&  \checkmark	 &	\xmark 	& \checkmark    &\checkmark		     \\
       H-bonds & 	\xmark  &\xmark 		 &\checkmark    &\xmark 		\\    
     \bottomrule
 \end{tabularx}
