@@ -6,6 +6,13 @@ The image below represents six ideal gas-molecules in a two-bulb container. The 
 \begin{scope}[transform canvas={scale=.1},overlay,shift={(-1,-1.8)}]
  \shade [ball color=red, shift={(-40em,10em)}] (0:0.5) circle (0.95cm);
 \shade [ball color=red, shift={(-60em,-10em)}] (0:0.5) circle (0.95cm);
+
+\shade [ball color=red, shift={(-60em,-20em)}] (0:0.5) circle (0.95cm);
+\shade [ball color=red, shift={(-60em,5em)}] (0:0.5) circle (0.95cm);
+\shade [ball color=red, shift={(-78em,10em)}] (0:0.5) circle (0.95cm);
+\shade [ball color=red, shift={(-43em,-10em)}] (0:0.5) circle (0.95cm);
+
+
 \end{scope}
 \end{tikzpicture}\end{center}
 Answer the following questions: 
