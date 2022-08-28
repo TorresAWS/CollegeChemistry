@@ -1,14 +1,13 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-In an atom, the nucleus contains 
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+In an atom, the nucleus contains:
+\begin{inparaenum}[(a)]
 \item an equal number of protons and electrons.
-\item all the protons and neutrons.
-\item all the protons and electrons.
-\item only neutrons.
-\item only protons.
-\end{enumerate}
+\item all the protons and neutrons
+\item all the protons and electrons
+\item only neutrons
+\item only protons
+\end{inparaenum}
 \end{question}
 \begin{solution}
 (b)
@@ -17,15 +16,14 @@ In an atom, the nucleus contains
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The atomic number of an atom is equal to the number of  
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+The atomic number of an atom is equal to the number of: 
+\begin{inparaenum}[(a)]
 \item nuclei
 \item neutrons
-\item neutrons plus protons.
-\item electrons plus protons.
+\item neutrons plus protons
+\item electrons plus protons
 \item electrons
-\end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 (e)
@@ -35,15 +33,14 @@ The atomic number of an atom is equal to the number of
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The mass number of an atom is equal to the number of  
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+The mass number of an atom is equal to the number of:
+\begin{inparaenum}[(a)]
 \item nuclei
 \item neutrons
-\item neutrons plus protons.
-\item electrons plus protons.
+\item neutrons plus protons
+\item electrons plus protons
 \item electrons
-\end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 (c)
@@ -55,14 +52,13 @@ The mass number of an atom is equal to the number of
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The mass number of an atom is equal to the number of  
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+The mass number of an atom is equal to the number of:
+\begin{inparaenum}[(a)]
 \item electrons
 \item neutrons
-\item neutrons plus protons.
-\item  protons
-\end{enumerate}
+\item neutrons plus protons
+\item protons
+\end{inparaenum}
 \end{question}
 \begin{solution}
 (c)
@@ -74,18 +70,15 @@ The mass number of an atom is equal to the number of
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Consider a neutral atom with 30 protons and 34 neutrons. The atomic number of the element is
-\begin{multicols}{1}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+Consider a neutral atom with 30 protons and 34 neutrons. The atomic number of the element is:
+\begin{inparaenum}[(a)]
 \item 30
 \item 32
 \item 34
-\item  64
+\item 64
 \item 94
-\end{enumerate}
-\end{multicols}    
-\end{question}
+\end{inparaenum}
+ \end{question}
 \begin{solution}
 (a)
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
@@ -96,18 +89,15 @@ Consider a neutral atom with 30 protons and 34 neutrons. The atomic number of th
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Consider a neutral atom with 30 protons and 34 neutrons. The mass number of the element is
-\begin{multicols}{1}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+Consider a neutral atom with 30 protons and 34 neutrons. The mass number of the element is:
+\begin{inparaenum}[(a)]
 \item 30
 \item 32
 \item 34
-\item  64
+\item 64
 \item 94
-\end{enumerate}
-\end{multicols}    
-\end{question}
+\end{inparaenum}
+ \end{question}
 \begin{solution}
 (d)
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
