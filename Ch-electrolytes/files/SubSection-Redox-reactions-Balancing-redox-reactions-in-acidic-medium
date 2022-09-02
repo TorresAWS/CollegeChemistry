@@ -5,21 +5,23 @@ One of the semi-reactions involve Manganese whereas the other involves Iron. The
 The reduction half-reaction contains oxygen. Hence, we will have to add \ce{H2O} molecules to balance oxygen and \ce{H^+} to balance hydrogen. In particular, we will need two water molecules--as \ce{MnO4^-} has four oxygens and we will have to add eight protons as we are adding four molecules of water. Finally, we need to add three electrons to equalize the charge:
 \begin{center}\ce{ MnO4_{(aq)}^{-}  + 8H_{(aq)}^{+}  + 5e^- -> Mn_{(aq)}^{2+}  + 4H2O_{(l)}    \textcolor{red}{ (reduction) }   }\end{center}
 As the oxidation involves one electron and the reduction three, we need to time the oxidation by three:
- \begin{center}
+
+\begin{center}\begin{minipage}{5in}
 $5\cdot \big($ \ce{ Fe_{(aq)}^{2+} ->  Fe_{(aq)}^{3+} + e^-  } $\big)$ \hspace*{0pt}\hfill  \textcolor{red}{ (oxidation) }\\
  \ce{ MnO4_{(aq)}^{-}  + 8H_{(aq)}^{+}  + 5e^- -> Mn_{(aq)}^{2+}  + 4H2O_{(l)}  }  \hspace*{0pt}\hfill  \textcolor{red}{ (reduction) } \\
 \rule{12cm}{0.4pt}$+$\\
 {\raggedleft \ce{  5Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 8H_{(aq)}^{+}  + \Cancel{5e^-} -> } \hspace*{0pt}\hfill  \textcolor{green}{ (redox) } }  \\ 
 \hspace*{\fill}
 \ce{5Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  + 4H2O_{(l)} + \Cancel{5e^-}     }
- \end{center}
-
-\vspace{0.5cm}
+\end{minipage}\end{center}
+\vspace{0.5cm}\begin{center}\begin{minipage}{5in}
  \begin{reaction*}
   8 H^+\aq{} + "\OX{r01,\ox*{+7,Mn}}" O4 \aq{} + 3 "\OX{o01,\ox*{+2,Fe^2+}}" \aq{} 
     ->
   3 "\OX{o02,\ox*{+3,Fe^3+}}" \aq{} +  "\OX{r02,\ox*{+2,Mn^2+}}" \aq{} + 4 H2O\lqd{}
   "\redox(o01,o02)[->]{\small Oxidation: $- 1\el$}"
   "\redox(r01,r02)[->][-1]{\small Reduction: $+ 5\el$}"
-\end{reaction*}\vspace{0.5cm}
+\end{reaction*}\vspace{0.5cm}\end{minipage}\end{center}
 
+
+ 

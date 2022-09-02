@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 AUG 2022 08:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 SEP 2022 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5253,47 +5253,53 @@ reduction)
 reactions)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Balancing-simple-redox-rea
 ctions
-Overfull \hbox (4.03351pt too wide) in paragraph at lines 5--5
- [][]$\OT1/zplm/m/n/10 +$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--16
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--16
+Overfull \hbox (17.69055pt too wide) in paragraph at lines 2--8
+ []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+
+ []
+
+[14]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 18.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 16.
+(Font)              scaled to size 9.37807pt on input line 18.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 16.
+(Font)              scaled to size 7.29405pt on input line 18.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 16.
+(Font)              scaled to size 9.37807pt on input line 18.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 16.
-[14])
+(Font)              scaled to size 7.29405pt on input line 18.
+)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Balancing-redox-reactions-
 in-acidic-medium
-Overfull \hbox (4.03351pt too wide) in paragraph at lines 11--11
- [][]$\OT1/zplm/m/n/10 +$ 
+Overfull \hbox (17.69055pt too wide) in paragraph at lines 9--16
+ []$ 
  []
 
 
-Overfull \hbox (4.71976pt too wide) detected at line 24
-[]
+Overfull \hbox (17.69055pt too wide) in paragraph at lines 17--24
+ []$ 
  []
 
 ) (../Ch-electrolytes/problems/SampleProblem14
-Overfull \hbox (6.77841pt too wide) detected at line 26
-[]
+Overfull \hbox (47.56587pt too wide) in paragraph at lines 20--30
+ []$ 
  []
 
 (../Ch-electrolytes/problems/StudyCheck14) [15])
@@ -5328,11 +5334,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  80911 strings out of 493014
  1839704 string characters out of 6133351
- 2612608 words of memory out of 5000000
+ 2611614 words of memory out of 5000000
  82387 multiletter control sequences out of 15000+600000
  192448 words of font info for 295 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5363,7 +5372,7 @@ cal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electrolytes.pdf (18 pages, 971243 bytes).
+Output written on Ch-electrolytes.pdf (18 pages, 971203 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
