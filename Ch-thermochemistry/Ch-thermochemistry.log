@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 AUG 2022 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 SEP 2022 07:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4779,7 +4779,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-thermochemistry.aux.
+(./Ch-thermochemistry.aux)
 \openout1 = `Ch-thermochemistry.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -4800,6 +4800,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -4814,6 +4815,8 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+
+(./Ch-thermochemistry.out) (./Ch-thermochemistry.out)
 \@outlinefile=\write14
 \openout14 = `Ch-thermochemistry.out'.
 
@@ -4971,13 +4974,13 @@ File: exsheets_configurations.cfg
 ) (../Ch-thermochemistry/files/ChapterName
 Chapter 1.
 )
-<../Ch-thermochemistry/figure1.png, id=109, 481.8pt x 642.4pt>
+<../Ch-thermochemistry/figure1.png, id=137, 481.8pt x 642.4pt>
 File: ../Ch-thermochemistry/figure1.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1.png  used on input line 
-13.
+15.
 (pdftex.def)             Requested size: 113.81114pt x 151.7482pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 15.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -4985,26 +4988,26 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 13.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 13.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 15.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 13.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 15.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 13.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
+(Font)              <5> on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 15.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -5015,44 +5018,44 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 13.
+(Font)              scaled to size 5.21004pt on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 13.
+(Font)              scaled to size 5.21004pt on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 15.
+(Font)              <10> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 15.
+(Font)              <7.6> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 17.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 15.
+(Font)              scaled to size 10.42007pt on input line 17.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 15.
+(Font)              scaled to size 7.91925pt on input line 17.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 15.
+(Font)              scaled to size 6.25204pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 15.
+(Font)              scaled to size 10.42007pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 15.
+(Font)              scaled to size 7.91925pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 15.
+(Font)              scaled to size 6.25204pt on input line 17.
 
 (../Ch-thermochemistry/files/ChapterIntro)
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 41.
+ut line 68.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
@@ -5064,45 +5067,46 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (../Ch-thermochemistry/files/SectionIntro-Energy-temperature)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 44.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 71.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 44.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 71.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 (../Ch-thermochemistry/files/SubSection-Energy-temperature-Potential-Kinetic-En
-ergy-heat) [1
+ergy-heat)
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-Mechanical-energy-wo
+rk [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-t
-hermochemistry/figure1.png>]
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Mechanical-energy-wo
-rk) (../Ch-thermochemistry/files/SideFigure-Energy
-<../Ch-thermochemistry/figure1-9.png, id=121, 963.6pt x 642.4pt>
+hermochemistry/figure1.png>])
+(../Ch-thermochemistry/files/SideFigure-Energy
+<../Ch-thermochemistry/figure1-9.png, id=147, 963.6pt x 642.4pt>
 File: ../Ch-thermochemistry/figure1-9.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-9.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-9.png  used on input lin
 e 2.
 (pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
-<../Ch-thermochemistry/figure1-2.png, id=122, 451.6875pt x 173.64874pt>
+<../Ch-thermochemistry/figure1-2.png, id=148, 451.6875pt x 173.64874pt>
 File: ../Ch-thermochemistry/figure1-2.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-2.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-2.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 113.81068pt x 43.75388pt.
-<../Ch-thermochemistry/figure1-1.png, id=123, 451.6875pt x 339.2675pt>
+<../Ch-thermochemistry/figure1-1.png, id=149, 451.6875pt x 339.2675pt>
 File: ../Ch-thermochemistry/figure1-1.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-1.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-1.png  used on input lin
 e 8.
 (pdftex.def)             Requested size: 113.63838pt x 85.35504pt.
-<../Ch-thermochemistry/figure1-10.png, id=124, 259.97125pt x 194.7275pt>
+<../Ch-thermochemistry/figure1-10.png, id=150, 259.97125pt x 194.7275pt>
 File: ../Ch-thermochemistry/figure1-10.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-10.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-10.png  used on input li
@@ -5146,7 +5150,10 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-)))
+))) (../Ch-thermochemistry/files/SubSection-Energy-temperature-Thermodynamics)
+[2 <../Ch-thermochemistry/figure1-9.png (PNG copy)> <../Ch-thermochemistry/figu
+re1-2.png (PNG copy)> <../Ch-thermochemistry/figure1-1.png (PNG copy)> <../Ch-t
+hermochemistry/figure1-10.png (PNG copy)>]
 (../Ch-thermochemistry/files/SubSection-Energy-temperature-Temperature---Temper
 ature) (../Ch-thermochemistry/problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -5163,19 +5170,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-(../Ch-thermochemistry/problems/StudyCheck2) [2 <../Ch-thermochemistry/figure1-
-9.png (PNG copy)> <../Ch-thermochemistry/figure1-2.png (PNG copy)> <../Ch-therm
-ochemistry/figure1-1.png (PNG copy)> <../Ch-thermochemistry/figure1-10.png (PNG
- copy)>])
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Thermodynamics)
+(../Ch-thermochemistry/problems/StudyCheck2))
 (../Ch-thermochemistry/files/SectionIntro-The-first-law-of-thermodynamics.-From
 -energy--to-temperature) [3]
 (../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
 nergy--to-temperature-Work) (../Ch-thermochemistry/problems/SampleProblem3
-
-LaTeX Warning: Reference `formula2:92' on page 4 undefined on input line 4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
@@ -5195,10 +5194,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-thermochemistry}1' on page 5 undefined on inp
-ut line 8.
-
 )
 (../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
 nergy--to-temperature-Heat) (../Ch-thermochemistry/problems/SampleProblem4
@@ -5239,10 +5234,6 @@ Underfull \vbox (badness 5460) has occurred while \output is active []
 (../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
 nergy--to-temperature-First-law-of-thermodynamics:-the-internal-energy)
 (../Ch-thermochemistry/problems/SampleProblem5
-
-LaTeX Warning: Reference `formula2:92' on page 7 undefined on input line 5.
-
-
 Overfull \hbox (2.76985pt too wide) detected at line 6
 [] \OT1/zplm/m/n/10 = \OMS/lmsy/m/n/10 ^^@[] ^^A \OT1/zplm/m/n/10 ^^A[] = \OMS/
 lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 1[] \OMS/lmsy/m/n/10 ^^A \OT1/zplm/m/n/10 (\OT1/
@@ -5350,31 +5341,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
 (../Ch-thermochemistry/problems/StudyCheck8) [11])
 (../Ch-thermochemistry/files/Figure-Calorimeter
-<../Ch-thermochemistry/figure1-6.png, id=216, 1003.75pt x 901.3675pt>
+<../Ch-thermochemistry/figure1-6.png, id=243, 1003.75pt x 901.3675pt>
 File: ../Ch-thermochemistry/figure1-6.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-6.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-6.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 128.0262pt x 114.96753pt.
-<../Ch-thermochemistry/figure1-7.png, id=217, 148.555pt x 222.8325pt>
+<../Ch-thermochemistry/figure1-7.png, id=244, 148.555pt x 222.8325pt>
 File: ../Ch-thermochemistry/figure1-7.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-7.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-7.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 75.87311pt x 113.80968pt.
-
-
-LaTeX Warning: Reference `Fig:{Ch-thermochemistry}1' on page 12 undefined on in
-put line 20.
-
-) (../Ch-thermochemistry/files/Table-Energy-values
+)
+(../Ch-thermochemistry/files/Table-Energy-values
 Overfull \hbox (103.09888pt too wide) in paragraph at lines 3--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
+[][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5389,10 +5371,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-thermochemistry}2' on page 12 undefined on in
-put line 8.
-
 
 Overfull \hbox (14.03764pt too wide) in paragraph at lines 5--17
 [][] 
@@ -5420,18 +5398,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 (../Ch-thermochemistry/files/SectionIntro-Enthalpy)
 (../Ch-thermochemistry/files/SubSection-Enthalpy-What-is-enthalpy)
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Table-of-standard-enthalpies--
-Table-of-standard-enthalpies [14])
-(../Ch-thermochemistry/problems/SampleProblem9
-(../Ch-thermochemistry/problems/StudyCheck9))
+Table-of-standard-enthalpies) (../Ch-thermochemistry/problems/SampleProblem9
+(../Ch-thermochemistry/problems/StudyCheck9) [14])
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Natural-state-of-an-element--N
 atural-state-of-an-element) (../Ch-thermochemistry/files/Table-Standard-states
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-thermochemistry}3' on page 15 undefined on in
-put line 8.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 8.
@@ -5498,10 +5471,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 141.
 
 
-LaTeX Warning: Reference `tab:{Ch-thermochemistry}4' on page 21 undefined on in
-put line 141.
-
-
 Overfull \hbox (170.86575pt too wide) in paragraph at lines 6--142
 [][] 
  []
@@ -5530,20 +5499,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 (./Ch-thermochemistry.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package rerunfilecheck Info: File `Ch-thermochemistry.out' has not changed.
+(rerunfilecheck)             Checksum: EC54469F0AE140D61E2B0AEB14B0E70E;1001.
 
-
-Package rerunfilecheck Warning: File `Ch-thermochemistry.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-thermochemistry.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  06E1965955DC11480AB15FF902FB6CB8;1151.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5551,19 +5514,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 80783 strings out of 493014
- 1832007 string characters out of 6133351
- 2646089 words of memory out of 5000000
- 82279 multiletter control sequences out of 15000+600000
- 186503 words of font info for 280 fonts, out of 8000000 for 9000
+ 80807 strings out of 493014
+ 1832348 string characters out of 6133351
+ 2647346 words of memory out of 5000000
+ 82287 multiletter control sequences out of 15000+600000
+ 183876 words of font info for 284 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,26n,104p,10547b,2073s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
@@ -5595,10 +5552,10 @@ s/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 latino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-thermochemistry.pdf (22 pages, 2692717 bytes).
+Output written on Ch-thermochemistry.pdf (22 pages, 2693554 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 58272 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 57816 words of extra memory for PDF output out of 61914 (max. 10000000)
 
