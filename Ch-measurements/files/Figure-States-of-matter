@@ -7,7 +7,7 @@
 
  
 \begin{scope}[shift={(-5cm,0cm)}, scale=1.0, every node/.append style={transform shape}]
-\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../figure1-19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../../{\chapterlabel}/figure1-19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \begin{scope}[shift={(-2cm,-1cm)}, scale=1.0, every node/.append style={transform shape}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
@@ -19,7 +19,7 @@
 \end{scope}
 
 \begin{scope}[shift={(1cm,0cm)}, scale=1.0, every node/.append style={transform shape}]
-\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../figure1-20}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../../{\chapterlabel}/figure1-20}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \begin{scope}[shift={(-2cm,-1cm)}, scale=1.0, every node/.append style={transform shape}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
@@ -32,7 +32,7 @@
 
 
 \begin{scope}[shift={(7cm,0cm)}, scale=1.0, every node/.append style={transform shape}]
-\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../figure1-21}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node (a) at (0,0) {\includegraphics[width=5cm, height=5cm]{../../{\chapterlabel}/figure1-21}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
 \begin{scope}[shift={(-2cm,-1cm)}, scale=1.0, every node/.append style={transform shape}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
