@@ -1,8 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\savebox\Axis{
-\begin{MOdiagram}[style=round,AO-width
-=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+\newsavebox{\AxisA}\sbox{\AxisA}{
+%%\savebox\Axis{
+\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
  \begin{scope}[xshift =0em, yshift =0em, scale=1]
  \draw[->] (7em,-2em) --(7em,5em) node[above,midway, rotate=90] {Energy};
  \AO(3cm){s}{0;pair}
@@ -28,7 +27,11 @@
 \end{scope}
  \end{MOdiagram}}
 
-  \savebox\Axisb{
+ % \savebox\Axisb{
+  
+  
+  %\newsavebox{\Axisb}
+  \sbox{\Axisb}{
 \begin{MOdiagram}[style=round,AO-width
 =15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
  \begin{scope}[xshift =0em, yshift =0em, scale=1]
@@ -113,7 +116,7 @@ x       y       label       alignment
 };
 \end{axis}
   \node[draw,minimum size=0.4cm,purple] (s) at (3.6em,4.7em){};
-   \node[draw,shape=rectangle, minimum width=3cm, minimum height=2cm,rounded corners](s') at (20em,20em){\usebox\Axis};
+   \node[draw,shape=rectangle, minimum width=3cm, minimum height=2cm,rounded corners](s') at (20em,20em){\usebox\AxisA};
    \draw[dashed, thin] (s.north west) -- (s'.north west)
  (s.south east) -- (s'.south east);
    \node[draw,minimum size=0.4cm,purple] (b) at (8.8em,5.1em){};
