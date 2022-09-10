@@ -2,9 +2,10 @@
 \newcommand\chapterlabel{Ch-Table}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
 \hypersetup{colorlinks,linkcolor={black}}
 \begin{document}
-\linenumbers
- \import{../\chapterlabel/files/}{ChapterTitle}
- 
+
+%  \import{../\chapterlabel/files/}{ChapterTitle}
+ \setcounter{chapter}{2}\chapter[Atoms]{Atoms} % FOR 121
+
  
  
 \begin{marginfigure}
@@ -13,27 +14,27 @@
    
  \import{../\chapterlabel/files/}{ChapterIntro}
 %\textquotesingle 
-\begin{marginfigure}%LEARNING GOALS BOX
-\begin{mytcbox}{GOALS}
-\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-  \import{../\chapterlabel/files/}{SectionGoal-The-periodic-table}
- \import{../\chapterlabel/files/}{SectionGoal-The-atom}
-  \import{../\chapterlabel/files/}{SectionGoal-An-introduction-to-molecules}
- \import{../\chapterlabel/files/}{SectionGoal-Determining-empirical-formulas}
- \import{../\chapterlabel/files/}{SectionGoal-Empirical-and-molecular-formula-of-a-chemical}
-\end{enumerate}
-\end{mytcbox}
-\vspace{1cm}
-\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
-  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
-\faGears\ 
- \import{../\chapterlabel/files/}{ChapterDiscussion}
- \end{tcolorbox}
-\vspace{1cm}    
-\begin{shadequote}[l]{Democritus}
-Nothing exists except atoms and empty space; everything else is opinion.
-\end{shadequote}   
-\end{marginfigure}%LEARNING GOALS BOX
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+%  \import{../\chapterlabel/files/}{SectionGoal-The-periodic-table}
+% \import{../\chapterlabel/files/}{SectionGoal-The-atom}
+%  \import{../\chapterlabel/files/}{SectionGoal-An-introduction-to-molecules}
+% \import{../\chapterlabel/files/}{SectionGoal-Determining-empirical-formulas}
+% \import{../\chapterlabel/files/}{SectionGoal-Empirical-and-molecular-formula-of-a-chemical}
+%\end{enumerate}
+%\end{mytcbox}
+%\vspace{1cm}
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+% \import{../\chapterlabel/files/}{ChapterDiscussion}
+% \end{tcolorbox}
+%\vspace{1cm}    
+%\begin{shadequote}[l]{Democritus}
+%Nothing exists except atoms and empty space; everything else is opinion.
+%\end{shadequote}   
+%\end{marginfigure}%LEARNING GOALS BOX
 
 \section{The periodic table}\import{../\chapterlabel/files/}{SectionIntro-The-periodic-table}
 \sloppy\begin{description}
@@ -48,30 +49,20 @@ Nothing exists except atoms and empty space; everything else is opinion.
  \hspace{0cm}\import{../\chapterlabel/files/}{Figure-The-periodic-table}
  \end{description}
  
- \section{Early experiments of the atom}
+\section{Early experiments of the atom}
 \import{../\chapterlabel/files/}{SectionIntro-Early-experiments-the-atom}
-    \import{../\chapterlabel/files/}{Figure-Cathodic-rays}
-
- \sloppy\begin{description}
-
-  \import{../\chapterlabel/files/}{Sidefigure-The-Atom}
+\import{../\chapterlabel/files/}{Figure-Cathodic-rays}
+\sloppy\begin{description}
+\import{../\chapterlabel/files/}{Sidefigure-The-Atom}
 \item[\docfilehook{Charge to mass ratio of an electron}{}] \import{../\chapterlabel/files/}{SubSection-Early-experiments-the-atom-TheElectron}
-
 \item[\docfilehook{The atom nucleus}{}] \import{../\chapterlabel/files/}{SubSection-Early-experiments-the-atom-The-Atom-Nucleus}
-  \import{../\chapterlabel/files/}{Figure-Rutherford}
-
+\import{../\chapterlabel/files/}{Figure-Rutherford}
 \item[\docfilehook{Radiation}{}] \import{../\chapterlabel/files/}{SubSection-Early-experiments-the-atom-Radiation}
-
-
-
-
-
-  \end{description}
+\end{description}
  
 \section{The atom}
 \import{../\chapterlabel/files/}{SectionIntro-The-atom}
  \import{../\chapterlabel/files/}{Figure-Models-of-the-atom}
-
 \sloppy\begin{description}
 \import{../\chapterlabel/files/}{SubSection-The-atom-Atomic-Structure}
 \import{../\chapterlabel/files/}{SubSection-The-atom-Atomic-and-mass-number}
@@ -81,30 +72,98 @@ Nothing exists except atoms and empty space; everything else is opinion.
 \import{../\chapterlabel/problems/}{SampleProblem3}
  \import{../\chapterlabel/files/}{Table-Isotopes}
 \end{description}
-\section{An introduction to molecules}
-\import{../\chapterlabel/files/}{SectionIntro-An-introduction-to-molecules}
-\sloppy
-\begin{description}
-\import{../\chapterlabel/files/}{SubSection-An-introduction-to-molecules-Molecular-weight}
- 
-\import{../\chapterlabel/problems/}{SampleProblem4}
-\import{../\chapterlabel/files/}{SubSection-An-introduction-to-molecules-Mass-percent-composition-of-a-compound}
- 
-\import{../\chapterlabel/problems/}{SampleProblem5}
-\end{description}
-\section{Empirical and molecular formula of a chemical}
-\import{../\chapterlabel/files/}{SectionIntro-Empirical-and-molecular-formula-of-a-chemical}
-\import{../\chapterlabel/problems/}{SampleProblem6}
-\sloppy
-\begin{description}
-\import{../\chapterlabel/files/}{SubSection-Empirical-and-molecular-formula-of-a-chemical-Molecular-weight-of-empirical-formulas-and-molecular-formulas}
-\import{../\chapterlabel/problems/}{SampleProblem7}
-\end{description}
-\section{Determining empirical formulas}
-\import{../\chapterlabel/files/}{SectionIntro-Determining-empirical-formulas}
-\sloppy
-\begin{description}
-\import{../\chapterlabel/files/}{SubSection-Determining-empirical-formulas-Calculating-molecular-formulas}
-\import{../\chapterlabel/problems/}{SampleProblem8}
-\end{description}
+
+
+
+\section{An introduction to molecules}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SectionIntro-An-introduction-to-molecules}%%%% NOT FOR 121
+\sloppy\begin{description}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SubSection-An-introduction-to-molecules-Molecular-weight}%%%% NOT FOR 121
+\import{../\chapterlabel/problems/}{SampleProblem4}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SubSection-An-introduction-to-molecules-Mass-percent-composition-of-a-compound}%%%% NOT FOR 121
+\import{../\chapterlabel/problems/}{SampleProblem5}%%%% NOT FOR 121
+\end{description}%%%% NOT FOR 121
+
+
+%%%% NOT FOR 121
+\section{Empirical and molecular formula of a chemical}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SectionIntro-Empirical-and-molecular-formula-of-a-chemical}%%%% NOT FOR 121
+\import{../\chapterlabel/problems/}{SampleProblem6}%%%% NOT FOR 121
+\sloppy\begin{description}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SubSection-Empirical-and-molecular-formula-of-a-chemical-Molecular-weight-of-empirical-formulas-and-molecular-formulas}%%%% NOT FOR 121
+\import{../\chapterlabel/problems/}{SampleProblem7}%%%% NOT FOR 121
+\end{description}%%%% NOT FOR 121
+
+
+\section{Determining empirical formulas}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SectionIntro-Determining-empirical-formulas}%%%% NOT FOR 121
+\sloppy\begin{description}%%%% NOT FOR 121
+\import{../\chapterlabel/files/}{SubSection-Determining-empirical-formulas-Calculating-molecular-formulas}%%%% NOT FOR 121
+\import{../\chapterlabel/problems/}{SampleProblem8}%%%% NOT FOR 121
+\end{description}%%%% NOT FOR 121
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% FOR 121
+%\renewcommand\chapterlabel{Ch-radiation}
+%\section{Electronic structure}
+%\sloppy\begin{description}
+%\item[\docfilehook{Different orbitals plots}{}] \import{../\chapterlabel/files/}{SubSection-Quantum-mechanics-and-electronic-structure-Different-orbitals-plots}
+%\item[\docfilehook{$s$ orbitals}{}] \import{../\chapterlabel/files/}{SubSection-Quantum-mechanics-and-electronic-structure-s-orbitals} 
+%\item[\docfilehook{$p$ orbitals}{}] \import{../\chapterlabel/files/}{SubSection-Quantum-mechanics-and-electronic-structure-p-orbitals}
+% \import{../\chapterlabel/files/}{Figure-Orbitals-sp}
+%%\import{../\chapterlabel/files/}{Figure-Radial-distribution} %%%%NOT FOR 121
+%\item[\docfilehook{$d$ and $f$ orbitals}{}] \import{../\chapterlabel/files/}{SubSection-Quantum-mechanics-and-electronic-structure-d-and-f-orbitals}
+%\import{../\chapterlabel/files/}{Figure-Orbitals-d}
+%\item[\docfilehook{Energies of orbitals}{}] \import{../\chapterlabel/files/}{SubSection-Quantum-mechanics-and-electronic-structure-Energies-of-orbitals}
+%\import{../\chapterlabel/files/}{Figure-Energy-levels-and-orbitals}
+%\end{description}
+%
+%
+%\section{Electronic configuration of an atom}\import{../\chapterlabel/files/}{SectionIntro-Electronic-configuration-of-an-atom}
+%\sloppy\begin{description}
+%\item[\docfilehook{Electron energy levels and sublevels}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Electron-energy-levels-and-sublevels}
+%\import{../\chapterlabel/problems/}{SampleProblem8}
+%\item[\docfilehook{The Pauli exclusion principle}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-The-Pauli-exclusion-principle}
+%\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} 
+%\item[\docfilehook{Orbital Filling: the aufbau principle}{}]\import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Orbital-Filling-the-aufbau-principle}
+%\item[\docfilehook{Full electron Configuration}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Full-electron-Configuration}
+%\import{../\chapterlabel/files/}{SideFigure-Orbital-filling-diagram}
+%\import{../\chapterlabel/problems/}{SampleProblem9}
+%\item[\docfilehook{Abbreviated Electron Configuration and orbital diagrams}{}] 
+%\import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Abbreviated-Electron-Configuration-and-orbital-diagrams}
+%\import{../\chapterlabel/problems/}{SampleProblem10}
+%\item[\docfilehook{Hund's rule}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Hund's-rule}
+%\import{../\chapterlabel/problems/}{SampleProblem12}
+%\end{description}
+%
+%\newpage\section{Periodic Trends}\import{../\chapterlabel/files/}{SectionIntro-Periodic-Trends}
+%\sloppy\begin{description}
+%\item[\docfilehook{Effective charge}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Effective-charge}
+%\import{../\chapterlabel/files/}{Figure-Atomic-radius}
+%\import{../\chapterlabel/files/}{Figure-Atomic-radius-plot}
+%\item[\docfilehook{Atomic radii}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Atomic-radius}
+%\import{../\chapterlabel/files/}{Table-Ionization-energies}
+%\import{../\chapterlabel/files/}{Figure-Ionization-energy-plot}
+%\item[\docfilehook{Ionization Energy}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Ionization-Energy}
+%\import{../\chapterlabel/files/}{Figure-Periodic-propeties}
+%\item[\docfilehook{Electron affinity}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Electron-affinity}
+%\item[\docfilehook{Electronegativity, EN}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Electronegativity,-EN}
+%\item[\docfilehook{Metallic character }{Metallic character }]\import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Metallic-character-}
+%\import{../\chapterlabel/problems/}{SampleProblem11}
+%\item[\docfilehook{Ionic radius}{}]  \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Ionic-radius}
+%%\import{../\chapterlabel/files/}{Figure-Photoelectron}NOT FOR 121
+%%\item[\docfilehook{Photoelectron spectroscopy of atoms}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Photoelectron-spectroscopy-of-atoms}NOT FOR 121
+%%\import{../\chapterlabel/files/}{Figure-PES-spectra} %%% NOT FOR 121
+%\end{description}
+%\renewcommand\chapterlabel{Ch-Table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
 \end{document}
