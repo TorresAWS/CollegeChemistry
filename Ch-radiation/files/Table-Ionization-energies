@@ -1,4 +1,5 @@
 \begin{center}
+\begin{fullwidth}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllllllll}
@@ -19,5 +20,7 @@
  \bottomrule
  \multicolumn{12}{l}{ \small $^*$ Shaded cells represent the removal of core electrons } \\
 
-\end{tabular}\end{center} 
+\end{tabular}
+\end{fullwidth}
+\end{center} 
 

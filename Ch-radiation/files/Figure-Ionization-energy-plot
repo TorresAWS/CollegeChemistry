@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newsavebox{\AxisA}\sbox{\AxisA}{
 %%\savebox\Axis{
@@ -28,9 +29,7 @@
  \end{MOdiagram}}
 
  % \savebox\Axisb{
-  
-  
-  %\newsavebox{\Axisb}
+ % \newsavebox{\Axisb}
   \sbox{\Axisb}{
 \begin{MOdiagram}[style=round,AO-width
 =15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
@@ -62,8 +61,9 @@
   
 
   \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
- \vspace{0cm}\hspace{-5cm}\begin{minipage}[b]{1.5\linewidth}
-\begin{center}\begin{tikzpicture}
+   \begin{minipage}[b]{1.0\linewidth}
+\begin{fullwidth}\begin{center}
+\begin{tikzpicture}
 \pgfmathsetmacro\NoneLabel{ }
 \begin{axis}[xmin=-3,ymin=0,enlarge y limits={upper,value=0.2}, xlabel={Atomic number, Z}, ylabel={First ionization energy, kJ/mol}]
 \addplot[draw=red!70,
@@ -124,6 +124,7 @@ x       y       label       alignment
    \draw[dashed, thin] (b.south west) -- (b'.north west)
  (b.south east) -- (b'.north east);
    \node[text width=14cm, fontscale=1, shift={(20em,-13em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionization energy graphed with respect to the atomic number   };
- \end{tikzpicture} \end{center} \end{minipage}
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+ \end{tikzpicture} 
+\end{center} 
+ \end{fullwidth}
+ \end{minipage}
