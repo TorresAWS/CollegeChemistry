@@ -1,9 +1,11 @@
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:Testubes-and-measurements}
 \begin{center}
- \begin{tikzpicture}
+\resizebox{0.7\textwidth}{!}{ 
+\begin{tikzpicture}
     \pic[red]{tube=2.1};
     \path (3,0) pic[blue]{tube2=3.4} ++(3,0)  ;
 \begin{scope}[shift={(2,0)}, scale=1.0, every node/.append style={transform shape} ]
  \node[text width=5cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Two measuring devices. (Left side) The measuring device gives volumes to the hundredth place. (Right side)The measuring device gives volumes to the tenth place.   };
 \end{scope}
-  \end{tikzpicture}\end{center}
+  \end{tikzpicture}}\end{center}
+

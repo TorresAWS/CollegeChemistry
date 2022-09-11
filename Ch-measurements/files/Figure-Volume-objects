@@ -1,7 +1,9 @@
 
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:VolumeAndObjects}
 
-\hspace{-5cm}\begin{minipage}[b]{1.\linewidth}
+\hspace{-5cm}
+\begin{fullwidth}
+\begin{minipage}[b]{1.\linewidth}
 \begin{center}
    \begin{tikzpicture}[scale=0.6]
    \node at (4,5) {\mytriangle{red} Parallelepiped $V=abc $}; 
@@ -55,6 +57,6 @@
  \node[text width=12cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Volume of some objects };
 
       \end{tikzpicture}
-\end{center}\end{minipage}
+\end{center}\end{minipage}\end{fullwidth}
 
 
