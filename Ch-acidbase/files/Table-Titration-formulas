@@ -1,4 +1,4 @@
-\begin{fullwidth}
+\begin{fullwidth}\begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \renewcommand\theadalign{bc}
@@ -17,5 +17,5 @@
   {\bf Weak Base}&  $\big[ \ce{OH^-} \big]=\frac{c_{R}}{c_{F}}\cdot K_b$ &  $ \big[ \ce{H^+} \big]^2 +K_a\cdot \big[ \ce{H^+} \big] -K_a\cdot c_F=0$ & \thead{\\$\big[ \ce{H^+} \big]= c_{R} $} \\[19pt]
 \end{tcolorbox}}
 }\end{minipage}
-\end{fullwidth}
+\end{center}\end{fullwidth}
 

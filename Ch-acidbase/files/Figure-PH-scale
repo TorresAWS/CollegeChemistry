@@ -20,7 +20,7 @@
 
 
 
-\begin{fullwidth}
+\begin{fullwidth}\begin{center}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
  \begin{minipage}[b]{1\linewidth}\resizebox{1.0\textwidth}{!}{
 
@@ -97,4 +97,4 @@
 \end{tikzpicture}
 
  }\end{minipage}
-\end{fullwidth}
+\end{center}\end{fullwidth}
