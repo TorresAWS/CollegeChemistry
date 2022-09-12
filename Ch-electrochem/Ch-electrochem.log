@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 NOV 2021 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 SEP 2022 07:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5245,8 +5245,8 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 19.
 -a-metal [14]) (../Ch-electrochem/files/SectionIntro-Nernst-equation)
 (../Ch-electrochem/files/Subsection-Nernst-equation-The-Nernst-equation-applied
 -to-an-electrode
-Underfull \hbox (badness 5345) in paragraph at lines 1--2
-[]\T1/ptm/m/n/10 (+20) The Nerns equa-tion
+Underfull \hbox (badness 2253) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) The Nernst equa-tion
  []
 
 
@@ -5279,30 +5279,34 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 22.
 -to-a-glavanic-cell) (../Ch-electrochem/problems/SampleProblem8
 (../Ch-electrochem/problems/StudyCheck8) [16])
 (../Ch-electrochem/files/Subsection-Nernst-equation-The-Nernst-equation-and-a-d
-rained-glavanic-cell)
-(../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells)
-(../Ch-electrochem/files/Figure-Daniell-concentration-cell [17])
+rained-glavanic-cell
+Underfull \hbox (badness 4353) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) A drained gal-
+ []
+
+) (../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells
+[17]) (../Ch-electrochem/files/Figure-Daniell-concentration-cell)
 (../Ch-electrochem/problems/SampleProblem7
 (../Ch-electrochem/problems/StudyCheck7))
 (../Ch-electrochem/files/Subsection-Nernst-equation-Ion-selective-electrodes
 [18]) (../Ch-electrochem/files/SectionIntro-Electrolysis)
 (../Ch-electrochem/files/Subsection-Electrolysis-Galvanic-cell-vs.-electrolytic
--cell) (../Ch-electrochem/files/Figure-Daniell-cell-electrolysis)
-(../Ch-electrochem/files/Subsection-Electrolysis-Intensity-charge-and-time
-[19]) (../Ch-electrochem/problems/SampleProblem9
-(../Ch-electrochem/problems/StudyCheck9))
+-cell) (../Ch-electrochem/files/Figure-Daniell-cell-electrolysis
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19])
+(../Ch-electrochem/files/Subsection-Electrolysis-Intensity-charge-and-time)
+(../Ch-electrochem/problems/SampleProblem9
+(../Ch-electrochem/problems/StudyCheck9) [20])
 (../Ch-electrochem/files/Subsection-Electrolysis-The-electrolysis-of-water)
-(../Ch-electrochem/files/Figure-Electrolysis-water [20])
+(../Ch-electrochem/files/Figure-Electrolysis-water) [21]
 (../Ch-electrochem/files/Subsection-Electrolysis-Ion-mixtures)
-(../Ch-electrochem/files/Subsection-Electrolysis-Aplications) [21]
+(../Ch-electrochem/files/Subsection-Electrolysis-Aplications) [22]
 (../Ch-electrochem/files/SectionIntro-Corrosion)
 Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [22]
-(../Ch-electrochem/files/SectionIntro-batteries
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23])
+ [23]
+(../Ch-electrochem/files/SectionIntro-batteries) [24]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5314,7 +5318,7 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[24]
+[25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Ch-electrochem.aux)
@@ -5330,12 +5334,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  80902 strings out of 493014
- 1834355 string characters out of 6133351
- 2924115 words of memory out of 5000000
- 82373 multiletter control sequences out of 15000+600000
+ 1834345 string characters out of 6133351
+ 2923110 words of memory out of 5000000
+ 82372 multiletter control sequences out of 15000+600000
  207446 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,29n,104p,10539b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5367,10 +5374,10 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Ch-electrochem.pdf (24 pages, 866045 bytes).
+Output written on Ch-electrochem.pdf (25 pages, 866446 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  64494 words of extra memory for PDF output out of 74296 (max. 10000000)
 
