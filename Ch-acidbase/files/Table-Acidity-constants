@@ -1,9 +1,10 @@
 \begin{fullwidth}
 
 
-\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
+\begin{center}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
 
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+
 
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllllll}
@@ -45,6 +46,7 @@
 
   \bottomrule
 \end{tabular}
+
 \begin{tikzpicture}[overlay,remember picture]
     \draw[->] let \p1=(start), \p2=(end) in [shift={(-1,0)}]($(\x1-3,\y1)+(0.8,.2)$) -- node[rotate=90, shift={(0.0,0.4)} ] {Increasing acidic strength  } ($(\x1-3,\y2)+(0.8,1)$);
         \draw[->] let \p1=(start), \p2=(end) in [shift={(15.7,1)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.4)} ] {Increasing acidic strength  } ($(\x1-3,\y2)+(0.8,0)$);
@@ -52,7 +54,7 @@
         \draw[->] let \p1=(start2), \p2=(end2) in [shift={(15.7,1)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.4)} ] {Increasing basicity strength  } ($(\x1-3,\y2)+(0.8,0)$);
   \end{tikzpicture}
 }
-\end{minipage}
+\end{minipage}\end{center}
 
 \end{fullwidth}
 
