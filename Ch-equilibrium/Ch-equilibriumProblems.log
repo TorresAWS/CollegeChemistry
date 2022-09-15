@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 SEP 2022 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 SEP 2022 14:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4780,7 +4780,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-equilibriumProblems.aux.
+(./Ch-equilibriumProblems.aux)
 \openout1 = `Ch-equilibriumProblems.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -4801,6 +4801,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -4815,6 +4816,8 @@ Package hyperref Info: Link coloring ON on input line 3.
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
+
+(./Ch-equilibriumProblems.out) (./Ch-equilibriumProblems.out)
 \@outlinefile=\write14
 \openout14 = `Ch-equilibriumProblems.out'.
 
@@ -5020,10 +5023,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package mdframed Info: Not enough space on this page on input line 9.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 1 undefined on input line 9.
-
-
 (../Ch-equilibrium/problems/problems/Problems-Chemical-Equilibrium-Equilibrium
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
@@ -5102,18 +5101,31 @@ Package pdftex.def Info: ../Ch-equilibrium/figure10.png  used on input line 55.
 )
 (../Ch-equilibrium/problems/problems/Problems-The-equilibrium-constant-Equilibr
 ium-constant-expression)
-(../Ch-equilibrium/problems/problems/Problems-Le-chatelier
-<../Ch-equilibrium/figure14.png, id=114, 553.06625pt x 363.3575pt>
+(../Ch-equilibrium/problems/problems/Problems-Concentration-or-pressure-ratio)
+(../Ch-equilibrium/problems/problems/Problems-The-equilibrium-constant-Relating
+-Kc-and-Kp
+Overfull \hbox (4.1615pt too wide) in paragraph at lines 14--14
+ [] 
+ []
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <../Ch-equilibrium/figure10.png>])
+(../Ch-equilibrium/problems/problems/Problems-Concentration-or-pressure-ratio-D
+efinition-of-concentration-ratio
+Overfull \hbox (1.51509pt too wide) in paragraph at lines 14--14
+ [] 
+ []
+
+) (../Ch-equilibrium/problems/problems/Problems-Le-chatelier
+<../Ch-equilibrium/figure14.png, id=170, 553.06625pt x 363.3575pt>
 File: ../Ch-equilibrium/figure14.png Graphic file (type png)
 <use ../Ch-equilibrium/figure14.png>
 Package pdftex.def Info: ../Ch-equilibrium/figure14.png  used on input line 49.
 
 (pdftex.def)             Requested size: 144.56178pt x 94.97525pt.
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <../Ch-equilibrium/figure10.png>]
-<../Ch-equilibrium/figure15.png, id=175, 553.06625pt x 363.3575pt>
+<../Ch-equilibrium/figure15.png, id=172, 553.06625pt x 363.3575pt>
 File: ../Ch-equilibrium/figure15.png Graphic file (type png)
 <use ../Ch-equilibrium/figure15.png>
 Package pdftex.def Info: ../Ch-equilibrium/figure15.png  used on input line 69.
@@ -5159,9 +5171,9 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 59.
+ line 60.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 50--60
+Overfull \hbox (15.0pt too wide) in paragraph at lines 50--61
 []$[]$ 
  []
 
@@ -5179,20 +5191,15 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 (./Ch-equilibriumProblems.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
+Package rerunfilecheck Info: File `Ch-equilibriumProblems.out' has not changed.
 
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package rerunfilecheck Warning: File `Ch-equilibriumProblems.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-equilibriumProblems.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5200,24 +5207,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 79751 strings out of 493014
- 1804003 string characters out of 6133351
- 2577425 words of memory out of 5000000
- 81584 multiletter control sequences out of 15000+600000
- 103114 words of font info for 121 fonts, out of 8000000 for 9000
+ 79830 strings out of 493014
+ 1806012 string characters out of 6133351
+ 2583978 words of memory out of 5000000
+ 81600 multiletter control sequences out of 15000+600000
+ 104154 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,18n,104p,10451b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ 80i,23n,104p,10451b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-d
 ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
 enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
 ype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsa
@@ -5231,10 +5232,10 @@ type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-equilibriumProblems.pdf (3 pages, 234770 bytes).
+Output written on Ch-equilibriumProblems.pdf (3 pages, 240627 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 115 named destinations out of 1000 (max. 500000)
  27544 words of extra memory for PDF output out of 29859 (max. 10000000)
 
