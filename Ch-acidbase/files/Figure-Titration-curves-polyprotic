@@ -4,7 +4,8 @@
  % \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 \begin{tikzpicture} 
-\begin{scope}[transform canvas={shift={(-2,-7)}	},scale=1., every node/.append style={transform shape}]
+\begin{scope}[ shift={(-2,-7)}	 ,scale=1. ]
+%\begin{scope}[transform canvas={shift={(-2,-7)}	},scale=1., every node/.append style={transform shape}]
  \draw [->, black, shift={(0,0)}]  (0,0) -- (8,0) node [rotate=0, shift={(-8em,-1em)}]{Volume, (mL)} ;
  \draw [->, black, shift={(0,0)}]  (0,0) -- (0,8) node [rotate=90, shift={(-7em,2em)}]{PH} ;
 \draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.25] coordinates { (3,-0.2) (5,0) (5.1,3) (6,3.2) (6.7,3.4) (7,5.2) (9,5.4)};

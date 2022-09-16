@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 SEP 2022 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 SEP 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4833,7 +4833,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./Ch-acidbase.aux)
+(./Ch-acidbase.aux
+
+LaTeX Warning: Label `Ch-acidbase:equation13a' multiply defined.
+
+
+LaTeX Warning: Label `Ch-acidbase:equation7' multiply defined.
+
+)
 \openout1 = `Ch-acidbase.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -4854,8 +4861,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -5027,14 +5033,14 @@ or `english'. on input line 4.
 cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-acidbase/files/ChapterName
-Chapter 10.
+Chapter 1.
 )
-<../Ch-acidbase/figure1.png, id=169, 943.525pt x 629.35126pt>
+<../Ch-acidbase/figure1.png, id=173, 943.525pt x 629.35126pt>
 File: ../Ch-acidbase/figure1.png Graphic file (type png)
 <use ../Ch-acidbase/figure1.png>
-Package pdftex.def Info: ../Ch-acidbase/figure1.png  used on input line 9.
+Package pdftex.def Info: ../Ch-acidbase/figure1.png  used on input line 16.
 (pdftex.def)             Requested size: 113.80838pt x 75.91261pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -5042,24 +5048,27 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 9.
+(Font)              <5> on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5069,48 +5078,48 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 9.
+(Font)              scaled to size 5.21004pt on input line 16.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 9.
+(Font)              scaled to size 5.21004pt on input line 16.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 16.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 11.
+(Font)              <10> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 11.
+(Font)              <7.6> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 18.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 11.
+(Font)              scaled to size 10.42007pt on input line 18.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 11.
+(Font)              scaled to size 7.91925pt on input line 18.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 11.
+(Font)              scaled to size 6.25204pt on input line 18.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 11.
+(Font)              scaled to size 10.42007pt on input line 18.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 11.
+(Font)              scaled to size 7.91925pt on input line 18.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 11.
+(Font)              scaled to size 6.25204pt on input line 18.
 
 (../Ch-acidbase/files/ChapterIntro)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 38.
+(hyperref)                removing `\color' on input line 45.
 
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 38.
+ut line 45.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5121,13 +5130,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (../Ch-acidbase/files/SectionIntro-The-nature-of-acids-and-Bases)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 40.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 47.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5142,7 +5151,7 @@ acids-and-bases [1
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-a
 cidbase/figure1.png (PNG copy)>])
 (../Ch-acidbase/files/SideFigure-Common-acids-and-bases
-<../Ch-acidbase/figure13.png, id=179, 1491.5725pt x 2003.485pt>
+<../Ch-acidbase/figure13.png, id=183, 1491.5725pt x 2003.485pt>
 File: ../Ch-acidbase/figure13.png Graphic file (type png)
 <use ../Ch-acidbase/figure13.png>
 Package pdftex.def Info: ../Ch-acidbase/figure13.png  used on input line 2.
@@ -5152,7 +5161,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure7.png, id=180, 278.03876pt x 182.6825pt>
+<../Ch-acidbase/figure7.png, id=184, 278.03876pt x 182.6825pt>
 File: ../Ch-acidbase/figure7.png Graphic file (type png)
 <use ../Ch-acidbase/figure7.png>
 Package pdftex.def Info: ../Ch-acidbase/figure7.png  used on input line 7.
@@ -5165,7 +5174,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-acidbase/figure10.png, id=181, 276.03125pt x 183.68625pt>
+<../Ch-acidbase/figure10.png, id=185, 276.03125pt x 183.68625pt>
 File: ../Ch-acidbase/figure10.png Graphic file (type png)
 <use ../Ch-acidbase/figure10.png>
 Package pdftex.def Info: ../Ch-acidbase/figure10.png  used on input line 13.
@@ -5192,7 +5201,7 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 [2 <../Ch-acidbase/figure13.png (PNG copy)> <../Ch-acidbase/figure7.png (PNG co
 py)> <../Ch-acidbase/figure10.png (PNG copy)>])
 (../Ch-acidbase/files/SideFigure-More-common-acids
-<../Ch-acidbase/figure9.png, id=188, 501.875pt x 351.3125pt>
+<../Ch-acidbase/figure9.png, id=192, 501.875pt x 351.3125pt>
 File: ../Ch-acidbase/figure9.png Graphic file (type png)
 <use ../Ch-acidbase/figure9.png>
 Package pdftex.def Info: ../Ch-acidbase/figure9.png  used on input line 2.
@@ -5202,7 +5211,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure8.png, id=189, 1084.05pt x 610.28pt>
+<../Ch-acidbase/figure8.png, id=193, 1084.05pt x 610.28pt>
 File: ../Ch-acidbase/figure8.png Graphic file (type png)
 <use ../Ch-acidbase/figure8.png>
 Package pdftex.def Info: ../Ch-acidbase/figure8.png  used on input line 9.
@@ -5215,7 +5224,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 8--12
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<../Ch-acidbase/figure11.png, id=190, 722.7pt x 730.6497pt>
+<../Ch-acidbase/figure11.png, id=194, 722.7pt x 730.6497pt>
 File: ../Ch-acidbase/figure11.png Graphic file (type png)
 <use ../Ch-acidbase/figure11.png>
 Package pdftex.def Info: ../Ch-acidbase/figure11.png  used on input line 16.
@@ -5229,9 +5238,27 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 15--19
 LaTeX Warning: Marginpar on page 3 moved.
 
 )
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Lewis-acid-base-
+model) (../Ch-acidbase/problems/SampleProblem2
+(../Ch-acidbase/problems/StudyCheck2) [3 <../Ch-acidbase/figure9.png> <../Ch-ac
+idbase/figure8.png (PNG copy)> <../Ch-acidbase/figure11.png (PNG copy)>])
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-models-sum
+ary) (../Ch-acidbase/files/Table-Acid-models
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 18.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 54.
+(hyperref)                removing `\color' on input line 61.
 
 (../Ch-acidbase/files/SectionIntro-Dissociation-of-acids-and-bases)
 (../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Conjugate-acid
@@ -5241,46 +5268,239 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[3 <../Ch-acidbase/figure9.png> <../Ch-acidbase/figure8.png (PNG copy)> <../Ch-
-acidbase/figure11.png (PNG copy)>])
-(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Writing-down-a
-cid-base-equilibria
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[4])
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Conjugate-orga
+nic-acids-and-bases
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 7--7
+ []|[]| 
+ []
 
- [4])
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 12--12
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 3--13
+ [] 
+ []
+
+[5]
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 20--20
+ []|[]| 
+ []
+
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 25--25
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 16--26
+ [] 
+ []
+
+) (../Ch-acidbase/problems/SampleProblem4
+Overfull \hbox (21.09286pt too wide) in paragraph at lines 8--8
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 9--9
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 10--10
+ []|[]| 
+ []
+
+
+Overfull \hbox (16.32565pt too wide) in paragraph at lines 12--13
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 5--15
+[] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.8334pt too wide) in paragraph at lines 22--22
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 24--24
+ []|[]| 
+ []
+
+
+Overfull \hbox (27.68816pt too wide) in paragraph at lines 28--28
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (6.50163pt too wide) in paragraph at lines 28--28
+ \T1/ptm/m/n/10 (-20) Base[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 19--29
+[] [] [] [] [] [] [] 
+ []
+
+(../Ch-acidbase/problems/StudyCheck4
+Overfull \hbox (13.32698pt too wide) in paragraph at lines 7--7
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 8--8
+ []|[]| 
+ []
+
+
+Overfull \hbox (14.11212pt too wide) in paragraph at lines 9--9
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 4--14
+[] [] [] [] [] [] [] 
+ []
+
+))
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Writing-down-a
+cid-base-equilibria [6])
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Dissociating-o
+rganic-acids-and-bases) (../Ch-acidbase/problems/SampleProblem5
+(../Ch-acidbase/problems/StudyCheck5
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
+
+ []
+
+) [7])
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Including-water-in
--the-dissociation [5]) (../Ch-acidbase/problems/SampleProblem7
+-the-dissociation) (../Ch-acidbase/problems/SampleProblem7
 (../Ch-acidbase/problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 1--7
 
  []
 
-))
+) [8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 69.
+(hyperref)                removing `\color' on input line 76.
 
 (../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-bases)
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Review-of-Strength
-[6])
+)
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-
-and-bases-)
+and-bases- [9])
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-
+and-bases-Basicity-constant)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Ka-and-Kb)
+(../Ch-acidbase/problems/SampleProblem6 (../Ch-acidbase/problems/StudyCheck6)
+[10]) (../Ch-acidbase/files/Table-Acidity-constants
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 56.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 56.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 56.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 56.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 56.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 56.
+)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-PK-of-an-acid-or-b
+ase [11])
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Conjugate-Seesaw)
+(../Ch-acidbase/files/SideFigure-PH-meter-and-indicators
+<../Ch-acidbase/figure16.png, id=259, 803.0pt x 534.99875pt>
+File: ../Ch-acidbase/figure16.png Graphic file (type png)
+<use ../Ch-acidbase/figure16.png>
+Package pdftex.def Info: ../Ch-acidbase/figure16.png  used on input line 2.
+(pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
+ [] 
+ []
+
+<../Ch-acidbase/figure17.png, id=260, 246.6816pt x 126.7134pt>
+File: ../Ch-acidbase/figure17.png Graphic file (type png)
+<use ../Ch-acidbase/figure17.png>
+Package pdftex.def Info: ../Ch-acidbase/figure17.png  used on input line 7.
+(pdftex.def)             Requested size: 113.8099pt x 58.46094pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 12 moved.
+
+<../Ch-acidbase/figure19.png, id=261, 273.27094pt x 286.82156pt>
+File: ../Ch-acidbase/figure19.png Graphic file (type png)
+<use ../Ch-acidbase/figure19.png>
+Package pdftex.def Info: ../Ch-acidbase/figure19.png  used on input line 12.
+(pdftex.def)             Requested size: 73.19202pt x 76.82138pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 13.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 11--15
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 12 moved.
+
+)
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Acid-base-properti
+es-of-salts)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acid-base-proper
+ties-of-oxides [12 <../Ch-acidbase/figure16.png (PNG copy)> <../Ch-acidbase/fig
+ure17.png (PNG copy)> <../Ch-acidbase/figure19.png (PNG copy)>])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 86.
+(hyperref)                removing `\color' on input line 94.
 
 (../Ch-acidbase/files/SectionIntro-The-PH-scale)
-(../Ch-acidbase/files/SubSection-The-PH-scale-Kw)
-(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls [7])
+(../Ch-acidbase/files/SubSection-The-PH-scale-Kw [13])
+(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
 (../Ch-acidbase/problems/SampleProblem8 (../Ch-acidbase/problems/StudyCheck8))
-(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale)
-(../Ch-acidbase/problems/SampleProblem9 [8]
-(../Ch-acidbase/problems/StudyCheck9
+(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale [14])
+(../Ch-acidbase/problems/SampleProblem9 (../Ch-acidbase/problems/StudyCheck9
 Underfull \hbox (badness 10000) in paragraph at lines 16--6
 
  []
 
-)) (../Ch-acidbase/files/Figure-PH-scale
+))
+(../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+
+[15]) (../Ch-acidbase/files/Figure-PH-scale
 Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5308,55 +5528,64 @@ Package pgfplots Warning: You have an axis with empty range (in direction y). R
 eplacing it with a default range and clearing all plots. on input line 99.
 
  [warning /pgfplots/warning/empty range cleared axis]
-<../Ch-acidbase/figure6.png, id=242, 129.48375pt x 125.46875pt>
+<../Ch-acidbase/figure6.png, id=298, 129.48375pt x 125.46875pt>
 File: ../Ch-acidbase/figure6.png Graphic file (type png)
 <use ../Ch-acidbase/figure6.png>
 Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
-<../Ch-acidbase/figure3.png, id=244, 260.975pt x 194.7275pt>
+<../Ch-acidbase/figure3.png, id=300, 260.975pt x 194.7275pt>
 File: ../Ch-acidbase/figure3.png Graphic file (type png)
 <use ../Ch-acidbase/figure3.png>
 Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
-<../Ch-acidbase/figure4.png, id=245, 285.065pt x 438.63875pt>
+<../Ch-acidbase/figure4.png, id=301, 285.065pt x 438.63875pt>
 File: ../Ch-acidbase/figure4.png Graphic file (type png)
 <use ../Ch-acidbase/figure4.png>
 Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
-<../Ch-acidbase/figure5.png, id=246, 183.68625pt x 277.035pt>
+<../Ch-acidbase/figure5.png, id=302, 183.68625pt x 277.035pt>
 File: ../Ch-acidbase/figure5.png Graphic file (type png)
 <use ../Ch-acidbase/figure5.png>
 Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
-<../Ch-acidbase/figure2.png, id=247, 250.9375pt x 250.9375pt>
+<../Ch-acidbase/figure2.png, id=303, 250.9375pt x 250.9375pt>
 File: ../Ch-acidbase/figure2.png Graphic file (type png)
 <use ../Ch-acidbase/figure2.png>
 Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75713pt x 50.75713pt.
-) (../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 5.
-[9 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../Ch-
-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase/f
-igure2.png (PNG copy)>]) (../Ch-acidbase/problems/SampleProblem10
+) (../Ch-acidbase/problems/SampleProblem10
 (../Ch-acidbase/problems/StudyCheck10))
 (../Ch-acidbase/files/Figure-PH-POH-formulas)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 113.
+(hyperref)                removing `\color' on input line 108.
 
-(../Ch-acidbase/files/SectionIntro-Buffer-solutions)
-(../Ch-acidbase/files/SubSection-Buffer-solutions-Buffers [10])
+
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-strong-electrolyte-solution
+s [16 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../
+Ch-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbas
+e/figure2.png (PNG copy)>]) (../Ch-acidbase/problems/SampleProblem11
+(../Ch-acidbase/problems/StudyCheck11))
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-solutions-of-weak-acids-and
+-bases [17]) (../Ch-acidbase/problems/SampleProblem12
+(../Ch-acidbase/problems/StudyCheck12) [18])
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-salt-solutions)
+(../Ch-acidbase/problems/SampleProblem13 (../Ch-acidbase/problems/StudyCheck13)
+)
+(../Ch-acidbase/files/SubSection-The-PH-scale-Percent-dissociation-of-weak-acid
+s-and-bases
+Underfull \hbox (badness 7379) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) Weak acids (and
+ []
+
+[19]) (../Ch-acidbase/problems/SampleProblem14
+(../Ch-acidbase/problems/StudyCheck14))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 121.
+
+(../Ch-acidbase/files/SectionIntro-Buffer-solutions [20])
+(../Ch-acidbase/files/SubSection-Buffer-solutions-Buffers)
 (../Ch-acidbase/files/SubSection-Buffer-solutions-PH-of-a-Buffer-solution)
 (../Ch-acidbase/problems/SampleProblem15 (../Ch-acidbase/problems/StudyCheck15)
 )
@@ -5366,27 +5595,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) This sec-tion
  []
 
-[11]) (../Ch-acidbase/problems/SampleProblem16
+[21]) (../Ch-acidbase/problems/SampleProblem16
 (../Ch-acidbase/problems/StudyCheck16))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 122.
+(hyperref)                removing `\color' on input line 130.
 
 (../Ch-acidbase/files/SectionIntro-Titrations)
-(../Ch-acidbase/files/SubSection-Titrations-Neutralization-Reactions [12])
-(./Figure-Titration-curves
-Overfull \hbox (518.29424pt too wide) in paragraph at lines 44--44
- [] 
- []
-
-) (../Ch-acidbase/files/SubSection-Titrations-Endpoint-formula)
+(../Ch-acidbase/files/SubSection-Titrations-Neutralization-Reactions [22])
+(../Ch-acidbase/files/SubSection-Titrations-Endpoint-formula)
 (../Ch-acidbase/problems/SampleProblem17 (../Ch-acidbase/problems/StudyCheck17)
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--12
 
  []
 
-[13]) (../Ch-acidbase/files/Table-Titration-formulas
+[23]) (./Figure-Titration-curves
+Overfull \hbox (517.09416pt too wide) in paragraph at lines 44--44
+ [] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 140.
+
+(../Ch-acidbase/files/SubSection-Titrations-Titration-curves) [24]
+(../Ch-acidbase/files/Table-Titration-formulas
 Underfull \hbox (badness 1194) in paragraph at lines 19--19
  []|\T1/ptm/b/n/7 At the End-Point| 
  []
@@ -5406,27 +5641,21 @@ Underfull \hbox (badness 10000) in alignment at lines 19--19
 [][][][] 
  []
 
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 132.
-
-(../Ch-acidbase/files/SubSection-Titrations-Titration-curves [14])
-(../Ch-acidbase/files/SubSection-Titrations-Titration-PH-formulas)
+) (../Ch-acidbase/files/SubSection-Titrations-Titration-PH-formulas)
 (../Ch-acidbase/files/SubSection-Titrations-c_R-and-c_F)
 (../Ch-acidbase/problems/SampleProblem18 (../Ch-acidbase/problems/StudyCheck18)
-[15]) (../Ch-acidbase/problems/SampleProblem19
-(../Ch-acidbase/problems/StudyCheck19) [16])
+[25]) (../Ch-acidbase/problems/SampleProblem19
+(../Ch-acidbase/problems/StudyCheck19) [26])
 (../Ch-acidbase/files/Figure-Titration
-<../Ch-acidbase/titration.jpeg, id=342, 562.1pt x 246.9225pt>
+<../Ch-acidbase/titration.jpeg, id=437, 562.1pt x 246.9225pt>
 File: ../Ch-acidbase/titration.jpeg Graphic file (type jpg)
 <use ../Ch-acidbase/titration.jpeg>
 Package pdftex.def Info: ../Ch-acidbase/titration.jpeg  used on input line 10.
 (pdftex.def)             Requested size: 441.0179pt x 193.73283pt.
-) [17 <../Ch-acidbase/titration.jpeg>]
+) [27 <../Ch-acidbase/titration.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 146.
+(hyperref)                removing `\color' on input line 155.
 
 (../Ch-acidbase/files/SectionIntro-Blood-as-a-buffer)
 (../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Carbon-dioxide-is-an-acid)
@@ -5454,60 +5683,54 @@ Overfull \hbox (34.38705pt too wide) in paragraph at lines 2--35
 )
 (../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Alkalosis-and-carbon-dioxide
 ) (../Ch-acidbase/problems/SampleProblem20
-(../Ch-acidbase/problems/StudyCheck20) [18])
+(../Ch-acidbase/problems/StudyCheck20) [28])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 158.
+(hyperref)                removing `\color' on input line 166.
 
 (../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-its-structure)
 (../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Binary-Aci
 ds)
 (../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Oxoacids
-[19])
+[29])
 (../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Carboxylic
--acids [20])
+-acids [30])
 (../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-review)
-Underfull \hbox (badness 10000) in paragraph at lines 1--164
+Underfull \hbox (badness 10000) in paragraph at lines 1--172
 []
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 167.
-
-(../Ch-acidbase/files/SectionIntro-Indicators)
-(../Ch-acidbase/files/Subsection-Indicators-How-do-they-function)
-(../Ch-acidbase/files/Table-Indicators [21]
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
+(../Ch-acidbase/files/Table-Indicators
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 49.
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 49.
 
-Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--50
+Overfull \hbox (103.90787pt too wide) in paragraph at lines 3--50
  [] 
  []
 
-) (../Ch-acidbase/files/Subsection-Indicators-Selecting-and-indicator)
-(../Ch-acidbase/files/Subsection-Indicators-Litmus)
-(../Ch-acidbase/problems/SampleProblem21 (../Ch-acidbase/problems/StudyCheck21)
-[22])
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 178.
+(hyperref)                removing `\color' on input line 176.
+
+(../Ch-acidbase/files/SectionIntro-Indicators) [31]
+(../Ch-acidbase/files/Subsection-Indicators-How-do-they-function)
+(../Ch-acidbase/files/Subsection-Indicators-Selecting-and-indicator)
+(../Ch-acidbase/files/Subsection-Indicators-Litmus) [32]
+(../Ch-acidbase/problems/SampleProblem21 (../Ch-acidbase/problems/StudyCheck21)
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 188.
 
 (../Ch-acidbase/files/SectionIntro-Titrations-of-polyprotic-acids)
 (../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-c
 urved-of-polyprotic-acids)
 (../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-
 point-of-polyprotic-acids)
-(../Ch-acidbase/files/Figure-Titration-curves-polyprotic [23])
+(../Ch-acidbase/files/Figure-Titration-curves-polyprotic [33])
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5519,14 +5742,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./Ch-acidbase.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `Ch-acidbase.out' has not changed.
-(rerunfilecheck)             Checksum: 253A30BA58B32043ADBA18BB926902D1;2768.
+(rerunfilecheck)             Checksum: C13B809783E4C5BBB99A561A6398C7FE;2947.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5535,20 +5758,23 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 83430 strings out of 493014
- 1882601 string characters out of 6133351
- 2644192 words of memory out of 5000000
- 84805 multiletter control sequences out of 15000+600000
- 210369 words of font info for 305 fonts, out of 8000000 for 9000
+ 84195 strings out of 493014
+ 1902378 string characters out of 6133351
+ 2673598 words of memory out of 5000000
+ 85434 multiletter control sequences out of 15000+600000
+ 220667 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,33n,117p,10533b,3073s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,33n,117p,10533b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/f
-onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
 wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
 aratype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fo
 ntawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
@@ -5557,26 +5783,27 @@ sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/math
 pazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
-6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
-y8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-acidbase.pdf (24 pages, 19392676 bytes).
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
+r5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
+y7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on Ch-acidbase.pdf (34 pages, 19979952 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 61108 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 632 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 64227 words of extra memory for PDF output out of 74296 (max. 10000000)
 
