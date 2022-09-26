@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 SEP 2022 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3838,14 +3838,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks77
 \TP@prevdepth=\dimen513
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3854,7 +3854,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2022.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3980,7 +3980,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2084.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4328,7 +4328,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2211.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4492,7 +4492,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2848.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4506,7 +4506,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3499.
 .................................................
 \pgf@layerbox@foreground=\box287
 \pgf@layerboxsaved@foreground=\box288
@@ -4605,7 +4605,7 @@ grams
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5320.
+h' as default language. on input line 5316.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5034,41 +5034,43 @@ cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-acidbase/files/ChapterName
 Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 1.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
 )
-<../Ch-acidbase/figure1.png, id=173, 943.525pt x 629.35126pt>
-File: ../Ch-acidbase/figure1.png Graphic file (type png)
-<use ../Ch-acidbase/figure1.png>
-Package pdftex.def Info: ../Ch-acidbase/figure1.png  used on input line 16.
-(pdftex.def)             Requested size: 113.80838pt x 75.91261pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 16.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
-
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5078,56 +5080,37 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 16.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 16.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 1.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 18.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 18.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 18.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 18.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 18.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 18.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 18.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 18.
-
-(../Ch-acidbase/files/ChapterIntro)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../Ch-acidbase/figure1.png, id=173, 903.375pt x 501.875pt>
+File: ../Ch-acidbase/figure1.png Graphic file (type png)
+<use ../Ch-acidbase/figure1.png>
+Package pdftex.def Info: ../Ch-acidbase/figure1.png  used on input line 1.
+(pdftex.def)             Requested size: 355.66444pt x 197.59134pt.
+) (../Ch-acidbase/files/ChapterIntro)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 45.
-
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 45.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 (../Ch-acidbase/files/SectionIntro-The-nature-of-acids-and-Bases)
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 47.
@@ -5142,21 +5125,45 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-and-bases)
-
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-and-bases
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 3.
+)
 (../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Strong-and-weak-
-acids-and-bases [1
+acids-and-bases
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+ [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-a
-cidbase/figure1.png (PNG copy)>])
-(../Ch-acidbase/files/SideFigure-Common-acids-and-bases
+cidbase/figure1.png>]) (../Ch-acidbase/files/SideFigure-Common-acids-and-bases
 <../Ch-acidbase/figure13.png, id=183, 1491.5725pt x 2003.485pt>
 File: ../Ch-acidbase/figure13.png Graphic file (type png)
 <use ../Ch-acidbase/figure13.png>
 Package pdftex.def Info: ../Ch-acidbase/figure13.png  used on input line 2.
 (pdftex.def)             Requested size: 84.71098pt x 113.78407pt.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
@@ -5201,7 +5208,7 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 [2 <../Ch-acidbase/figure13.png (PNG copy)> <../Ch-acidbase/figure7.png (PNG co
 py)> <../Ch-acidbase/figure10.png (PNG copy)>])
 (../Ch-acidbase/files/SideFigure-More-common-acids
-<../Ch-acidbase/figure9.png, id=192, 501.875pt x 351.3125pt>
+<../Ch-acidbase/figure9.png, id=193, 501.875pt x 351.3125pt>
 File: ../Ch-acidbase/figure9.png Graphic file (type png)
 <use ../Ch-acidbase/figure9.png>
 Package pdftex.def Info: ../Ch-acidbase/figure9.png  used on input line 2.
@@ -5211,7 +5218,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure8.png, id=193, 1084.05pt x 610.28pt>
+<../Ch-acidbase/figure8.png, id=194, 1084.05pt x 610.28pt>
 File: ../Ch-acidbase/figure8.png Graphic file (type png)
 <use ../Ch-acidbase/figure8.png>
 Package pdftex.def Info: ../Ch-acidbase/figure8.png  used on input line 9.
@@ -5224,7 +5231,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 8--12
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<../Ch-acidbase/figure11.png, id=194, 722.7pt x 730.6497pt>
+<../Ch-acidbase/figure11.png, id=195, 722.7pt x 730.6497pt>
 File: ../Ch-acidbase/figure11.png Graphic file (type png)
 <use ../Ch-acidbase/figure11.png>
 Package pdftex.def Info: ../Ch-acidbase/figure11.png  used on input line 16.
@@ -5429,7 +5436,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ase [11])
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Conjugate-Seesaw)
 (../Ch-acidbase/files/SideFigure-PH-meter-and-indicators
-<../Ch-acidbase/figure16.png, id=259, 803.0pt x 534.99875pt>
+<../Ch-acidbase/figure16.png, id=260, 803.0pt x 534.99875pt>
 File: ../Ch-acidbase/figure16.png Graphic file (type png)
 <use ../Ch-acidbase/figure16.png>
 Package pdftex.def Info: ../Ch-acidbase/figure16.png  used on input line 2.
@@ -5439,7 +5446,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure17.png, id=260, 246.6816pt x 126.7134pt>
+<../Ch-acidbase/figure17.png, id=261, 246.6816pt x 126.7134pt>
 File: ../Ch-acidbase/figure17.png Graphic file (type png)
 <use ../Ch-acidbase/figure17.png>
 Package pdftex.def Info: ../Ch-acidbase/figure17.png  used on input line 7.
@@ -5452,7 +5459,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-<../Ch-acidbase/figure19.png, id=261, 273.27094pt x 286.82156pt>
+<../Ch-acidbase/figure19.png, id=262, 273.27094pt x 286.82156pt>
 File: ../Ch-acidbase/figure19.png Graphic file (type png)
 <use ../Ch-acidbase/figure19.png>
 Package pdftex.def Info: ../Ch-acidbase/figure19.png  used on input line 12.
@@ -5528,27 +5535,27 @@ Package pgfplots Warning: You have an axis with empty range (in direction y). R
 eplacing it with a default range and clearing all plots. on input line 99.
 
  [warning /pgfplots/warning/empty range cleared axis]
-<../Ch-acidbase/figure6.png, id=298, 129.48375pt x 125.46875pt>
+<../Ch-acidbase/figure6.png, id=299, 129.48375pt x 125.46875pt>
 File: ../Ch-acidbase/figure6.png Graphic file (type png)
 <use ../Ch-acidbase/figure6.png>
 Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
-<../Ch-acidbase/figure3.png, id=300, 260.975pt x 194.7275pt>
+<../Ch-acidbase/figure3.png, id=301, 260.975pt x 194.7275pt>
 File: ../Ch-acidbase/figure3.png Graphic file (type png)
 <use ../Ch-acidbase/figure3.png>
 Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
-<../Ch-acidbase/figure4.png, id=301, 285.065pt x 438.63875pt>
+<../Ch-acidbase/figure4.png, id=302, 285.065pt x 438.63875pt>
 File: ../Ch-acidbase/figure4.png Graphic file (type png)
 <use ../Ch-acidbase/figure4.png>
 Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
-<../Ch-acidbase/figure5.png, id=302, 183.68625pt x 277.035pt>
+<../Ch-acidbase/figure5.png, id=303, 183.68625pt x 277.035pt>
 File: ../Ch-acidbase/figure5.png Graphic file (type png)
 <use ../Ch-acidbase/figure5.png>
 Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
-<../Ch-acidbase/figure2.png, id=303, 250.9375pt x 250.9375pt>
+<../Ch-acidbase/figure2.png, id=304, 250.9375pt x 250.9375pt>
 File: ../Ch-acidbase/figure2.png Graphic file (type png)
 <use ../Ch-acidbase/figure2.png>
 Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 99.
@@ -5647,7 +5654,7 @@ Underfull \hbox (badness 10000) in alignment at lines 19--19
 [25]) (../Ch-acidbase/problems/SampleProblem19
 (../Ch-acidbase/problems/StudyCheck19) [26])
 (../Ch-acidbase/files/Figure-Titration
-<../Ch-acidbase/titration.jpeg, id=437, 562.1pt x 246.9225pt>
+<../Ch-acidbase/titration.jpeg, id=438, 562.1pt x 246.9225pt>
 File: ../Ch-acidbase/titration.jpeg Graphic file (type jpg)
 <use ../Ch-acidbase/titration.jpeg>
 Package pdftex.def Info: ../Ch-acidbase/titration.jpeg  used on input line 10.
@@ -5763,47 +5770,48 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84195 strings out of 493014
- 1902378 string characters out of 6133351
- 2673598 words of memory out of 5000000
- 85434 multiletter control sequences out of 15000+600000
- 220667 words of font info for 317 fonts, out of 8000000 for 9000
+ 84239 strings out of 493014
+ 1903669 string characters out of 6133351
+ 2671473 words of memory out of 5000000
+ 85471 multiletter control sequences out of 15000+600000
+ 232508 words of font info for 321 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,33n,117p,10533b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,33n,117p,10604b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
 ist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
 enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
 wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
-aratype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fo
-ntawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
-ype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/math
-pazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-r5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
-y7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on Ch-acidbase.pdf (34 pages, 19979952 bytes).
+aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpaz
+o/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr5.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on Ch-acidbase.pdf (34 pages, 19883622 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 454 compressed objects within 5 object streams
+ 635 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
  114 named destinations out of 1000 (max. 500000)
- 64227 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65251 words of extra memory for PDF output out of 74296 (max. 10000000)
 
