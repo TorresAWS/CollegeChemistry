@@ -1845,20 +1845,17 @@ atan 90 div dup dup
 \usepackage{titlesec}
 \usepackage{textpos}
 
+
 \DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
-\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{white}}{
-%\thispagestyle{empty}
-\begin{tikzpicture}[overlay, remember picture]
-        \path let \p1 = (current page.west), \p2 = (current page.east) in
-              node[minimum width=\x2-\x1, minimum height=5cm, rectangle, fill=cyan, anchor=north west, align=left, text width=\x2-\x1] at ($(current page.north west)$) {
-                \begin{textblock*}{5in}(\dimexpr\x2-4.5in,\dimexpr0.25\headheight-1in)
-                    \tikz \node [white,text width=2in, align=right, font=\sffamily] {{\normalsize DIGITAL MEDIA PRIMER}\\[12pt] \raisebox{50pt}{{\large \chaptertitlename}} \raisebox{-12pt}{\chapternumberfont \thechapter}};
-                \end{textblock*}
-              };
-        \path let \p1 = (current page.west), \p2 = (current page.east) in
-              node[minimum width=\x2-\x1, minimum height=0.8in, rectangle, fill=cyan!50, anchor=south west, align=left, text width=\x2-\x1] at ($(current page.south west)$) {};
-\end{tikzpicture}
-}{-1.75in}{}[\vspace*{1in}]
+%%%%%%OLD TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
+\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
+\newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}
+\newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \definecolor{gmitblue}{RGB}{93,138,168}
 \definecolor{gmitred}{RGB}{241, 148, 138}
@@ -5301,22 +5298,7 @@ coordinate(-front-bottom-right) -- cycle;
     \draw[line width=4pt] (0, 0) circle[radius=\Radius+0.15cm];
 }
 }
-
-
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
-\definesubmol{x}{C(-[4]H)(-[0]OH)}
-\definesubmol{y}{C(-[0]H)(-[4]HO)}
-\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
-\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
-\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
-\definesubmol{CH2}{CH_2}
 \newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
-
-
 
 
   \begin{document} 
@@ -5350,8 +5332,8 @@ coordinate(-front-bottom-right) -- cycle;
 %%%\subfile{./review/3-4.tex}
 %%%
 %%%\subfile{./parts/c.tex}\clearpage\thispagestyle{empty}\mbox{}
-%\subfile{./chapter9/chapter9.tex}
-%\subfile{./chapter9/chapter9Problems.tex}
+\subfile{../Ch-equilibrium/Ch-equilibrium.tex}
+\subfile{../Ch-equilibrium/Ch-equilibriumProblems.tex}
 %\subfile{./chapter8/chapter8.tex}
 %\subfile{./chapter8/chapter8Problems.tex}
 %%\subfile{./parts/rc.tex} \clearpage\thispagestyle{empty}\mbox{}\clearpage
@@ -5384,8 +5366,8 @@ coordinate(-front-bottom-right) -- cycle;
 
 %\subfile{./chapter17/chapter17.tex}
 %\subfile{./chapter17/chapter17Problems.tex}
-\subfile{../Ch-equilibrium/Ch-equilibrium.tex}
-\subfile{../Ch-equilibrium/Ch-equilibriumProblems.tex}
+%\subfile{./chapter18/chapter18.tex}
+%\subfile{./chapter18/chapter18Problems.tex}
 %
 %\subfile{./chapter21/chapter21.tex}
 %\subfile{./chapter21/chapter21Problems.tex}
