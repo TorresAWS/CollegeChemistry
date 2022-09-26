@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 SEP 2022 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3784,14 +3784,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks76
 \TP@prevdepth=\dimen509
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3800,7 +3800,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2023.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3926,7 +3926,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2085.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4274,7 +4274,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2212.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4438,7 +4438,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2849.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4452,7 +4452,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3500.
 .................................................
 \pgf@layerbox@foreground=\box285
 \pgf@layerboxsaved@foreground=\box286
@@ -5421,7 +5421,7 @@ Package: physics
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5309.
+h' as default language. on input line 5306.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5842,12 +5842,18 @@ cfg
 File: exsheets_configurations.cfg 
 )
 Chapter 3.
-<../Ch-Table/figure1.png, id=137, 246.6816pt x 145.7445pt>
-File: ../Ch-Table/figure1.png Graphic file (type png)
-<use ../Ch-Table/figure1.png>
-Package pdftex.def Info: ../Ch-Table/figure1.png  used on input line 12.
-(pdftex.def)             Requested size: 140.56104pt x 83.04631pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 7.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -5855,31 +5861,24 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 13.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 13.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 13.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 13.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
-
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5889,39 +5888,35 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 13.
+(Font)              scaled to size 5.21004pt on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 13.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 13.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 13.
+(Font)              scaled to size 5.21004pt on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 13.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 7.
 
-(../Ch-Table/files/ChapterIntro)
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 39.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
 )
 Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+<../Ch-Table/figure1.png, id=137, 501.875pt x 335.2525pt>
+File: ../Ch-Table/figure1.png Graphic file (type png)
+<use ../Ch-Table/figure1.png>
+Package pdftex.def Info: ../Ch-Table/figure1.png  used on input line 7.
+(pdftex.def)             Requested size: 355.67514pt x 237.591pt.
 
+(../Ch-Table/files/ChapterIntro)
 (../Ch-Table/files/SectionIntro-The-periodic-table)
 (../Ch-Table/files/SubSection-The-periodic-table-Elements-and-Symbols
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
@@ -5946,13 +5941,11 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
-[1
+))) (../Ch-Table/files/SubSection-The-periodic-table-Periods-and-groups [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-T
-able/figure1.png (PNG copy)>])
-(../Ch-Table/files/SubSection-The-periodic-table-Periods-and-groups)
+able/figure1.png>])
 (../Ch-Table/files/SubSection-The-periodic-table-Properties-in-the-periodic-tab
 le)
 (../Ch-Table/files/SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloid
@@ -5970,13 +5963,31 @@ LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 288.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 288.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 288.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 288.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 288.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 288.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 288.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 288.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 288.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 288.
 
 Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
-) (../Ch-Table/files/SectionIntro-Early-experiments-the-atom [3])
-(../Ch-Table/files/Figure-Cathodic-rays
+) (../Ch-Table/files/SectionIntro-Early-experiments-the-atom)
+(../Ch-Table/files/Figure-Cathodic-rays [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5995,23 +6006,17 @@ Overfull \hbox (7.43956pt too wide) in paragraph at lines 136--137
  []
 
 ) (../Ch-Table/files/Sidefigure-The-Atom
-<../Ch-Table/figure1-8.jpg, id=177, 2029.5825pt x 2122.93124pt>
+<../Ch-Table/figure1-8.jpg, id=174, 2029.5825pt x 2122.93124pt>
 File: ../Ch-Table/figure1-8.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-8.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-8.jpg  used on input line 2.
 (pdftex.def)             Requested size: 108.79373pt x 113.79759pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
-<../Ch-Table/figure1-9.jpg, id=178, 257.96375pt x 196.735pt>
+<../Ch-Table/figure1-9.jpg, id=175, 257.96375pt x 196.735pt>
 File: ../Ch-Table/figure1-9.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-9.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-9.jpg  used on input line 5.
 (pdftex.def)             Requested size: 113.81142pt x 86.7978pt.
-<../Ch-Table/figure1-10.jpg, id=179, 1204.5pt x 1204.5pt>
+<../Ch-Table/figure1-10.jpg, id=176, 1204.5pt x 1204.5pt>
 File: ../Ch-Table/figure1-10.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-10.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-10.jpg  used on input line 8.
@@ -6031,17 +6036,20 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
 [] 
  []
 
-) (../Ch-Table/files/SubSection-Early-experiments-the-atom-TheElectron [4 <../C
-h-Table/figure1-8.jpg> <../Ch-Table/figure1-9.jpg> <../Ch-Table/figure1-10.jpg>
-]) (../Ch-Table/files/SubSection-Early-experiments-the-atom-The-Atom-Nucleus)
-(../Ch-Table/files/Figure-Rutherford
+) (../Ch-Table/files/SubSection-Early-experiments-the-atom-TheElectron)
+(../Ch-Table/files/SubSection-Early-experiments-the-atom-The-Atom-Nucleus)
+(../Ch-Table/files/Figure-Rutherford [4 <../Ch-Table/figure1-8.jpg> <../Ch-Tabl
+e/figure1-9.jpg> <../Ch-Table/figure1-10.jpg>]
 Overfull \hbox (24.43173pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
 ) (../Ch-Table/files/SubSection-Early-experiments-the-atom-Radiation)
-(../Ch-Table/files/SectionIntro-The-atom [5])
-(../Ch-Table/files/Figure-Models-of-the-atom)
+(../Ch-Table/files/SectionIntro-The-atom)
+(../Ch-Table/files/Figure-Models-of-the-atom
+Underfull \vbox (badness 5274) has occurred while \output is active []
+
+ [5])
 (../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
 (../Ch-Table/files/SubSection-The-atom-Atomic-and-mass-number)
 (../Ch-Table/problems/SampleProblem2 (../Ch-Table/problems/StudyCheck2)
@@ -6127,15 +6135,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./Ch-Table.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package rerunfilecheck Info: File `Ch-Table.out' has not changed.
+(rerunfilecheck)             Checksum: ED608398E432A22B6AC53CCBAD473262;1236.
 
-
-Package rerunfilecheck Warning: File `Ch-Table.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-Table.out':
-(rerunfilecheck)             Before: 42EBA3413405366DF8E4495F1318E9FC;1307
-(rerunfilecheck)             After:  ED608398E432A22B6AC53CCBAD473262;1236.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6148,76 +6150,41 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 82099 strings out of 493014
- 1845086 string characters out of 6133351
- 2797668 words of memory out of 5000000
- 83653 multiletter control sequences out of 15000+600000
- 169062 words of font info for 260 fonts, out of 8000000 for 9000
+ 82100 strings out of 493014
+ 1845996 string characters out of 6133351
+ 2794826 words of memory out of 5000000
+ 83659 multiletter control sequences out of 15000+600000
+ 180903 words of font info for 264 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,23n,104p,10527b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.4} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.3} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/
-texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist
-/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome
-/fontawesomeone.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/font
-awesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratyp
-e/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pt
-sans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbsy10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-msy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Table.pdf (12 pages, 2007086 bytes).
+ 80i,23n,104p,10598b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
+6/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-di
+st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pts
+ans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbsy10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
+sy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-Table.pdf (12 pages, 1195022 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 54759 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 55783 words of extra memory for PDF output out of 61914 (max. 10000000)
 
