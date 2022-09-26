@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 SEP 2022 07:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3779,14 +3779,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks76
 \TP@prevdepth=\dimen509
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3795,7 +3795,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2022.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3921,7 +3921,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2084.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4269,7 +4269,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2211.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4433,7 +4433,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2848.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4447,7 +4447,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3499.
 .................................................
 \pgf@layerbox@foreground=\box285
 \pgf@layerboxsaved@foreground=\box286
@@ -4665,7 +4665,7 @@ Package: spath3 2016/02/19 v1.1 Functions for manipulating PGF soft paths
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5384.
+h' as default language. on input line 5380.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -4893,49 +4893,50 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5384.
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5384.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5384
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5380.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5380.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5380
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5384.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5384.
+LaTeX Font Info:    ... okay on input line 5380.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 5380.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box294
-Package hyperref Info: Link coloring ON on input line 5384.
-LaTeX Info: Redefining \ref on input line 5384.
-LaTeX Info: Redefining \pageref on input line 5384.
-LaTeX Info: Redefining \nameref on input line 5384.
+Package hyperref Info: Link coloring ON on input line 5380.
+LaTeX Info: Redefining \ref on input line 5380.
+LaTeX Info: Redefining \pageref on input line 5380.
+LaTeX Info: Redefining \nameref on input line 5380.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5384.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 5380.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -4971,7 +4972,7 @@ LaTeX Info: Redefining \selectfont on input line 5384.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 5384.
+LaTeX Info: Redefining \microtypecontext on input line 5380.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -5018,7 +5019,7 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 5384.
+. Activating mapping `default' on line 5380.
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -5027,7 +5028,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 \c@mv@tabular=\count586
 \c@mv@boldtabular=\count587
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 5384.
+(scrlayer)             \begin{document} on input line 5380.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
@@ -5066,7 +5067,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 5384.
+or `english'. on input line 5380.
 
 *************************************************
 * chemmacros warning: "no-greek"
@@ -5086,7 +5087,7 @@ cfg
 File: exsheets_configurations.cfg 
 )
 \c__siunitx_mathsf_int=\count588
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5384
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5380
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5095,32 +5096,32 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5384
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5380
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 538
-4.
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 538
-4.
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5384.
+(Font)              <10> on input line 5380.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 5384.
+(Font)              <7.6> on input line 5380.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5384.
+(Font)              <6> on input line 5380.
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 538
-4.
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5130,27 +5131,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5384.
+(Font)              scaled to size 10.42007pt on input line 5380.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5384.
+(Font)              scaled to size 7.91925pt on input line 5380.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5384.
+(Font)              scaled to size 6.25204pt on input line 5380.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5384.
+(Font)              scaled to size 10.42007pt on input line 5380.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5384.
+(Font)              scaled to size 7.91925pt on input line 5380.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5384.
+(Font)              scaled to size 6.25204pt on input line 5380.
 LaTeX Font Info:    Try loading font information for OT1+lmss on input line 538
-4.
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5161,7 +5162,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count589
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 538
-4.
+0.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5173,27 +5174,8 @@ Package microtype Info: Loading generic settings for font family
 
 (../Ch-measurements/Ch-measurements.tex (../Ch-measurements/files/ChapterName
 Chapter 1.
-)
-<../Ch-measurements/figure1.png, id=109, 1204.5pt x 770.88pt>
-File: ../Ch-measurements/figure1.png Graphic file (type png)
-<use ../Ch-measurements/figure1.png>
-Package pdftex.def Info: ../Ch-measurements/figure1.png  used on input line 14.
-
-(pdftex.def)             Requested size: 113.80379pt x 72.83443pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 14.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-(../Ch-measurements/files/ChapterIntro)
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 44.
-
+ut line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5202,7 +5184,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 1.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 1.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 1.
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../Ch-measurements/figure1.png, id=109, 161.6439pt x 61.9113pt>
+File: ../Ch-measurements/figure1.png Graphic file (type png)
+<use ../Ch-measurements/figure1.png>
+Package pdftex.def Info: ../Ch-measurements/figure1.png  used on input line 1.
+(pdftex.def)             Requested size: 355.69908pt x 136.23642pt.
+) (../Ch-measurements/files/ChapterIntro)
 (../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
 ts
 
@@ -5233,31 +5237,36 @@ Package microtype Info: Loading generic settings for font family
 easurements/figure1.png>])
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Time) (../Ch-measurements/files/SideFigure-Measurements
-<../Ch-measurements/figure1-1.png, id=124, 1505.625pt x 2007.5pt>
+<../Ch-measurements/figure1-1.png, id=123, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-1.png  used on input line 2
 .
 (pdftex.def)             Requested size: 85.34825pt x 113.79767pt.
-<../Ch-measurements/figure1-2.png, id=125, 913.4125pt x 609.27625pt>
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<../Ch-measurements/figure1-2.png, id=124, 913.4125pt x 609.27625pt>
 File: ../Ch-measurements/figure1-2.png Graphic file (type png)
 <use ../Ch-measurements/figure1-2.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-2.png  used on input line 5
 .
 (pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
-<../Ch-measurements/figure1-15.png, id=126, 1689.31125pt x 1997.4625pt>
+<../Ch-measurements/figure1-15.png, id=125, 1689.31125pt x 1997.4625pt>
 File: ../Ch-measurements/figure1-15.png Graphic file (type png)
 <use ../Ch-measurements/figure1-15.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-15.png  used on input line 
 8.
 (pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
-<../Ch-measurements/figure1-16.png, id=127, 1303.87125pt x 1303.87125pt>
+<../Ch-measurements/figure1-16.png, id=126, 1303.87125pt x 1303.87125pt>
 File: ../Ch-measurements/figure1-16.png Graphic file (type png)
 <use ../Ch-measurements/figure1-16.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-16.png  used on input line 
 11.
 (pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
-<../Ch-measurements/figure1-17.png, id=128, 174.6525pt x 702.625pt>
+<../Ch-measurements/figure1-17.png, id=127, 174.6525pt x 702.625pt>
 File: ../Ch-measurements/figure1-17.png Graphic file (type png)
 <use ../Ch-measurements/figure1-17.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-17.png  used on input line 
@@ -7370,4 +7379,517 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character:
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}1' on page 7 undefined on input 
+line 53.
+
+) (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume
+
+LaTeX Warning: Reference `Fig:Figure-Cuve-of-Cuves' on page 7 undefined on inpu
+t line 1.
+
+) (../Ch-measurements/problems/SampleProblem6
+(../Ch-measurements/problems/StudyCheck6) [7])
+(../Ch-measurements/files/Table-Common-units
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+
+LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 8 undefined on input 
+line 7.
+
+)
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
+ities
+
+LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 8 undefined on input 
+line 1.
+
+) (../Ch-measurements/problems/SampleProblem7
+
+LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 8 undefined on input 
+line 4.
+
+(../Ch-measurements/problems/StudyCheck7))
+(../Ch-measurements/files/SectionIntro-Measurement-Uncertainty) [8]
+(../Ch-measurements/files/SubSection-Measurement-Uncertainty-digits
+
+LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 9 undefined on
+ input line 1.
+
+
+Overfull \hbox (16.34056pt too wide) in paragraph at lines 1--2
+[]
+ []
+
+
+LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 9 undefined on
+ input line 11.
+
+) (../Ch-measurements/files/Figure-Testubes-and-measurements
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}2' on page 9 undefined on input 
+line 10.
+
+) (../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision
+
+LaTeX Warning: Reference `Fig:Figure-Targets-and-precision' on page 9 undefined
+ on input line 1.
+
+[9]) (../Ch-measurements/files/Figure-Targets-and-precision
+Missing character: There is no ; in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}3' on page 10 undefined on input
+ line 100.
+
+) (../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
+[10]) (../Ch-measurements/problems/SampleProblem13
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
+ [] 
+ []
+
+(../Ch-measurements/problems/StudyCheck13))
+(../Ch-measurements/files/SectionIntro-Significant-Figures)
+(../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-of
+-numbers
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
+)
+[11]) (../Ch-measurements/problems/SampleProblem8
+(../Ch-measurements/problems/StudyCheck8
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+))
+(../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-in
+-calculations [12]) (../Ch-measurements/problems/SampleProblem9
+(../Ch-measurements/problems/StudyCheck9))
+(../Ch-measurements/files/SubSection-Significant-Figures-Rounding)
+(../Ch-measurements/files/SectionIntro-Matter-and-density [13])
+(../Ch-measurements/files/Figure-Matter
+<../Ch-measurements/figure1-14.png, id=242, 1026.83624pt x 684.5575pt>
+File: ../Ch-measurements/figure1-14.png Graphic file (type png)
+<use ../Ch-measurements/figure1-14.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
+<../Ch-measurements/figure1-12.png, id=243, 913.4125pt x 590.205pt>
+File: ../Ch-measurements/figure1-12.png Graphic file (type png)
+<use ../Ch-measurements/figure1-12.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
+<../Ch-measurements/figure1-11.png, id=244, 1027.84pt x 770.88pt>
+File: ../Ch-measurements/figure1-11.png Graphic file (type png)
+<use ../Ch-measurements/figure1-11.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
+40.
+(pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
+<../Ch-measurements/figure1-13.png, id=245, 913.4125pt x 1254.6875pt>
+File: ../Ch-measurements/figure1-13.png Graphic file (type png)
+<use ../Ch-measurements/figure1-13.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
+40.
+(pdftex.def)             Requested size: 51.77794pt x 71.12354pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}4' on page 14 undefined on input
+ line 42.
+
+
+Overfull \hbox (106.69618pt too wide) in paragraph at lines 6--44
+ [] 
+ []
+
+) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter
+
+LaTeX Warning: Reference `Fig:Figure-States-of-matter' on page 14 undefined on 
+input line 1.
+
+)
+(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
+tures) (../Ch-measurements/files/Figure-States-of-matter [14 <../Ch-measurement
+s/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-12.png (PNG copy)> <..
+/Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measurements/figure1-13.png 
+(PNG copy)>]
+<../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=252, 276.03
+125pt x 183.68625pt>
+File: ../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg Graphic fi
+le (type jpg)
+<use ../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
+-19.jpeg  used on input line 10.
+(pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
+<figure1-22.png, id=253, 268.00125pt x 356.33125pt>
+File: figure1-22.png Graphic file (type png)
+<use figure1-22.png>
+Package pdftex.def Info: figure1-22.png  used on input line 16.
+(pdftex.def)             Requested size: 507.54735pt x 674.8289pt.
+<../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg, id=255, 276.03
+125pt x 183.68625pt>
+File: ../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg Graphic fi
+le (type jpg)
+<use ../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
+-20.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
+<figure1-23.png, id=256, 275.0275pt x 349.305pt>
+File: figure1-23.png Graphic file (type png)
+<use figure1-23.png>
+Package pdftex.def Info: figure1-23.png  used on input line 28.
+(pdftex.def)             Requested size: 507.59268pt x 644.67975pt.
+<../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg, id=257, 642.4p
+t x 427.5975pt>
+File: ../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg Graphic fi
+le (type jpg)
+<use ../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg>
+Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
+-21.jpeg  used on input line 35.
+(pdftex.def)             Requested size: 142.25964pt x 94.69157pt.
+<figure1-24.png, id=258, 286.06876pt x 363.3575pt>
+File: figure1-24.png Graphic file (type png)
+<use figure1-24.png>
+Package pdftex.def Info: figure1-24.png  used on input line 41.
+(pdftex.def)             Requested size: 507.55516pt x 644.68407pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}5' on page 15 undefined on input
+ line 45.
+
+
+Overfull \hbox (10.91277pt too wide) in paragraph at lines 48--49
+ [] 
+ []
+
+) (../Ch-measurements/problems/SampleProblem10
+(../Ch-measurements/problems/StudyCheck10
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) [15 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <./figur
+e1-22.png> <../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg> <./
+figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg
+> <./figure1-24.png>])
+(../Ch-measurements/files/SubSection-Matter-and-density-Separation)
+(../Ch-measurements/files/Figure-Chromatography
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}6' on page 16 undefined on input
+ line 52.
+
+
+Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
+ [] 
+ []
+
+) [16] (../Ch-measurements/files/SubSection-Matter-and-density-Density)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
+(../Ch-measurements/files/Table-Density
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+
+LaTeX Warning: Reference `tab:{Ch-measurements}4' on page 17 undefined on input
+ line 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17])
+(../Ch-measurements/problems/SampleProblem11
+<../Ch-measurements/Image-Glass-with-three-liquids.png, id=300, 1204.5pt x 2156
+.055pt>
+File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
+png)
+<use ../Ch-measurements/Image-Glass-with-three-liquids.png>
+Package pdftex.def Info: ../Ch-measurements/Image-Glass-with-three-liquids.png 
+ used on input line 3.
+(pdftex.def)             Requested size: 43.9262pt x 78.6279pt.
+
+(../Ch-measurements/problems/StudyCheck11
+Underfull \hbox (badness 10000) in paragraph at lines 4--1
+
+ []
+
+))
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
+of-objects
+
+LaTeX Warning: Reference `Fig:VolumeAndObjects' on page 18 undefined on input l
+ine 1.
+
+) (../Ch-measurements/files/Figure-Volume-objects
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}7' on page 18 undefined on input
+ line 57.
+
+
+Overfull \hbox (5.17972pt too wide) in paragraph at lines 59--60
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <../Ch-measurements/Image-Glass-with-three-liquids.png>])
+(../Ch-measurements/files/SubSection-Matter-and-density-ImmersionMethod)
+(../Ch-measurements/problems/SampleProblem12
+(../Ch-measurements/problems/StudyCheck12
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+)) [19] [20
+
+]) (../Ch-measurements/Ch-measurementsProblems.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=717.00946pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 13.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 13.
+Package mdframed Info: Not enough space on this page on input line 13.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 21 undefined on input line 1
+3.
+
+(../Ch-measurements/problems/problems/Problems-Basic-algebra
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 16.
+)
+(../Ch-measurements/problems/problems/Problems-Scientific-Notation)
+(../Ch-measurements/problems/problems/Problems-Units-and-measurements)
+(../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
+tors)
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
+efixes [21
+
+
+])
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
+ed)
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Other-units)
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Square-and-cu
+bic-units)
+(../Ch-measurements/problems/problems/Problems-Significant-Figures-calculations
+) (../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers
+) (../Ch-measurements/problems/problems/Problems-Exact-measured-numbers)
+(../Ch-measurements/problems/problems/Problems-Mixtures)
+(../Ch-measurements/problems/problems/Problems-States-of-matter [22])
+(../Ch-measurements/problems/problems/Problems-Density)
+(../Ch-measurements/problems/problems/Problems-Density-and-mixing)
+(../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
+s) [23]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 74.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 65--76
+[]$[]$ 
+ []
+
+[24
+
+])
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5465.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5465.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5465.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5465.
+
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  432651C4F23085EB17A4BEE21FCC90CC;1589.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5465.
+ ) 
+Here is how much of TeX's memory you used:
+ 82116 strings out of 493014
+ 1861214 string characters out of 6133351
+ 3592066 words of memory out of 5000000
+ 83255 multiletter control sequences out of 15000+600000
+ 222824 words of font info for 292 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,22n,118p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
+exmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
+aratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/f
+ontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/para
+type/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
+/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (24 pages, 17721696 bytes).
+PDF statistics:
+ 649 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 266 named destinations out of 1000 (max. 500000)
+ 64008 words of extra memory for PDF output out of 74296 (max. 10000000)
+

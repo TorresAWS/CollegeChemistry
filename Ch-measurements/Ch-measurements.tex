@@ -1,6 +1,6 @@
 \documentclass[main.tex]{subfiles}
 \pagenumbering{arabic}
-\newcommand\chapterlabel{Ch-measurements}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\newcommand\chapterlabel{Ch-measurements}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
  
 \begin{document}
 
@@ -10,11 +10,11 @@
 \import{../\chapterlabel/files/}{ChapterName}
 
 
- \begin{marginfigure}
-\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
-\end{tikzpicture}
-\label{fig:marginfig}
-\end{marginfigure}
+% \begin{marginfigure}
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+%\end{tikzpicture}
+%\label{fig:marginfig}
+%\end{marginfigure}
 \import{../\chapterlabel/files/}{ChapterIntro}
 %\begin{marginfigure}%LEARNING GOALS BOX
 %\begin{mytcbox}{GOALS}
