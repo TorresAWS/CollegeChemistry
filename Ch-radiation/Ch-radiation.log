@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 SEP 2022 07:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3784,14 +3784,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks76
 \TP@prevdepth=\dimen509
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3800,7 +3800,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2023.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3926,7 +3926,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2085.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4274,7 +4274,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2212.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4438,7 +4438,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2849.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4452,7 +4452,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3500.
 .................................................
 \pgf@layerbox@foreground=\box285
 \pgf@layerboxsaved@foreground=\box286
@@ -4551,7 +4551,7 @@ grams
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5307.
+h' as default language. on input line 5304.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -4976,41 +4976,43 @@ cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-radiation/files/ChapterName
 Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 1.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
 )
-<../Ch-radiation/figure1.png, id=137, 401.39963pt x 602.25pt>
-File: ../Ch-radiation/figure1.png Graphic file (type png)
-<use ../Ch-radiation/figure1.png>
-Package pdftex.def Info: ../Ch-radiation/figure1.png  used on input line 21.
-(pdftex.def)             Requested size: 113.80597pt x 170.75163pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 21.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 21.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 21.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 21.
-
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5020,42 +5022,34 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 21.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 21.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 1.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 23.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 23.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 23.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 23.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 23.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 23.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 23.
-
-(../Ch-radiation/files/ChapterIntro) (../Ch-radiation/files/Quote-Schrodinger
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../Ch-radiation/figure1.png, id=141, 1927.2pt x 853.1875pt>
+File: ../Ch-radiation/figure1.png Graphic file (type png)
+<use ../Ch-radiation/figure1.png>
+Package pdftex.def Info: ../Ch-radiation/figure1.png  used on input line 1.
+(pdftex.def)             Requested size: 355.64423pt x 157.44666pt.
+) (../Ch-radiation/files/ChapterIntro) (../Ch-radiation/files/Quote-Schrodinger
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-LF on i
 nput line 2.
 
@@ -5069,22 +5063,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-)
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 60.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-(../Ch-radiation/files/SectionIntro-The-nature-of-light)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 5.
+) (../Ch-radiation/files/SectionIntro-The-nature-of-light)
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 62.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5121,7 +5118,7 @@ Overfull \hbox (20.84213pt too wide) in paragraph at lines 26--26
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-r
-adiation/figure1.png (PNG copy)>])
+adiation/figure1.png>])
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-speed-of-light
 [2])
 (../Ch-radiation/files/SubSection-The-nature-of-light-Wavelength-and-energy)
@@ -5137,28 +5134,32 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 rum-of-light) (../Ch-radiation/files/Figure-Electromagnetic-field)
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
 t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
-<../Ch-radiation/figure1-9.png, id=169, 525.965pt x 104.39pt>
+<../Ch-radiation/figure1-9.png, id=174, 525.965pt x 104.39pt>
 File: ../Ch-radiation/figure1-9.png Graphic file (type png)
 <use ../Ch-radiation/figure1-9.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-9.png  used on input line 75.
 (pdftex.def)             Requested size: 142.26123pt x 28.23505pt.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 75.
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 Overfull \hbox (23.01772pt too wide) in paragraph at lines 81--81
  [] 
  []
 
 ) (../Ch-radiation/files/Figure-waves-and-life
-<../Ch-radiation/figure1-17.png, id=172, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-17.png, id=177, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-17.png Graphic file (type png)
 <use ../Ch-radiation/figure1-17.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-17.png  used on input line 5.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-18.png, id=173, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-18.png, id=178, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-18.png Graphic file (type png)
 <use ../Ch-radiation/figure1-18.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-18.png  used on input line 8.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-19.png, id=174, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-19.png, id=179, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-19.png Graphic file (type png)
 <use ../Ch-radiation/figure1-19.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-19.png  used on input line 12.
@@ -5211,37 +5212,37 @@ ics
 Package pgfplots info on input line 139: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-<../Ch-radiation/figure1-10.png, id=184, 729.72626pt x 476.78125pt>
+<../Ch-radiation/figure1-10.png, id=189, 729.72626pt x 476.78125pt>
 File: ../Ch-radiation/figure1-10.png Graphic file (type png)
 <use ../Ch-radiation/figure1-10.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-10.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.54243pt x 331.61299pt.
-<../Ch-radiation/figure1-14.png, id=185, 883.3pt x 1284.8pt>
+<../Ch-radiation/figure1-14.png, id=190, 883.3pt x 1284.8pt>
 File: ../Ch-radiation/figure1-14.png Graphic file (type png)
 <use ../Ch-radiation/figure1-14.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-14.png  used on input line 139
 .
 (pdftex.def)             Requested size: 483.1748pt x 702.79973pt.
-<../Ch-radiation/figure1-13.png, id=186, 737.75626pt x 1026.83624pt>
+<../Ch-radiation/figure1-13.png, id=191, 737.75626pt x 1026.83624pt>
 File: ../Ch-radiation/figure1-13.png Graphic file (type png)
 <use ../Ch-radiation/figure1-13.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-13.png  used on input line 139
 .
 (pdftex.def)             Requested size: 504.93222pt x 702.7832pt.
-<../Ch-radiation/figure1-12.png, id=187, 1103.62312pt x 1567.35562pt>
+<../Ch-radiation/figure1-12.png, id=192, 1103.62312pt x 1567.35562pt>
 File: ../Ch-radiation/figure1-12.png Graphic file (type png)
 <use ../Ch-radiation/figure1-12.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-12.png  used on input line 139
 .
 (pdftex.def)             Requested size: 494.85764pt x 702.79236pt.
-<../Ch-radiation/figure1-16.png, id=188, 1027.84pt x 629.35126pt>
+<../Ch-radiation/figure1-16.png, id=193, 1027.84pt x 629.35126pt>
 File: ../Ch-radiation/figure1-16.png Graphic file (type png)
 <use ../Ch-radiation/figure1-16.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-16.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.55121pt x 310.77599pt.
-<../Ch-radiation/figure1-15.png, id=189, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-15.png, id=194, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-15.png Graphic file (type png)
 <use ../Ch-radiation/figure1-15.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-15.png  used on input line 139
@@ -5292,7 +5293,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (../Ch-radiation/files/SectionIntro-The-atomic-line-spectra [7])
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
 (../Ch-radiation/files/Figure-Atomic-spectrum
-<../Ch-radiation/figure1-21.png, id=235, 1077.626pt x 497.057pt>
+<../Ch-radiation/figure1-21.png, id=240, 1077.626pt x 497.057pt>
 File: ../Ch-radiation/figure1-21.png Graphic file (type png)
 <use ../Ch-radiation/figure1-21.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-21.png  used on input line 3.
@@ -5313,7 +5314,7 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 75.
 Missing character: There is no ; in font nullfont!
-<../Ch-radiation/figure1-20.png, id=243, 1204.5pt x 481.8pt>
+<../Ch-radiation/figure1-20.png, id=248, 1204.5pt x 481.8pt>
 File: ../Ch-radiation/figure1-20.png Graphic file (type png)
 <use ../Ch-radiation/figure1-20.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-20.png  used on input line 173
@@ -5370,12 +5371,12 @@ f-matter) (../Ch-radiation/problems/SampleProblem5
 (../Ch-radiation/problems/StudyCheck5))
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Electron-diffraction
 [12]) (../Ch-radiation/files/Figure-Diffraction-patterns
-<../Ch-radiation/figure1-22.png, id=279, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-22.png, id=284, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-22.png Graphic file (type png)
 <use ../Ch-radiation/figure1-22.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-22.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
-<../Ch-radiation/figure1-23.png, id=280, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-23.png, id=285, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-23.png Graphic file (type png)
 <use ../Ch-radiation/figure1-23.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-23.png  used on input line 7.
@@ -5572,11 +5573,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 ) [26] (../Ch-radiation/files/Figure-Ionization-energy-plot
 \AxisA=\box314
-
-
-LaTeX Warning: Reference `Fig:{Ch-radiation}21' on page 27 undefined on input l
-ine 126.
-
 )
 Overfull \hbox (163.88783pt too wide) in paragraph at lines 64--174
 [][] 
@@ -5640,29 +5636,15 @@ Overfull \hbox (144.22401pt too wide) in paragraph at lines 33--33
 [][][][][]  
  []
 
-
-LaTeX Warning: Reference `Fig:{Ch-radiation}22' on page 28 undefined on input l
-ine 37.
-
 ) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity [28])
 (../Ch-radiation/files/SubSection-Periodic-Trends-Electronegativity,-EN)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character-)
 (../Ch-radiation/problems/SampleProblem11
 (../Ch-radiation/problems/StudyCheck11) [29])
 (../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
-(../Ch-radiation/files/Figure-Photoelectron
-
-LaTeX Warning: Reference `Fig:{Ch-radiation}23' on page 30 undefined on input l
-ine 41.
-
-)
+(../Ch-radiation/files/Figure-Photoelectron)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of
--atoms) (../Ch-radiation/files/Figure-PES-spectra [30]
-
-LaTeX Warning: Reference `Fig:{Ch-radiation}24' on page 31 undefined on input l
-ine 38.
-
-) [31]
+-atoms) (../Ch-radiation/files/Figure-PES-spectra [30]) [31]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5679,15 +5661,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 (./Ch-radiation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package rerunfilecheck Info: File `Ch-radiation.out' has not changed.
+(rerunfilecheck)             Checksum: 36D68265FE2A5DD9C1DEABEA1431DCE7;1443.
 
-
-Package rerunfilecheck Warning: File `Ch-radiation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-radiation.out':
-(rerunfilecheck)             Before: 3980896B316D64C95638F81081B36D50;1205
-(rerunfilecheck)             After:  36D68265FE2A5DD9C1DEABEA1431DCE7;1443.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5703,13 +5679,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 83299 strings out of 493014
- 1892144 string characters out of 6133351
- 2992586 words of memory out of 5000000
- 84557 multiletter control sequences out of 15000+600000
- 283138 words of font info for 376 fonts, out of 8000000 for 9000
+ 83337 strings out of 493014
+ 1893246 string characters out of 6133351
+ 2991719 words of memory out of 5000000
+ 84589 multiletter control sequences out of 15000+600000
+ 287948 words of font info for 378 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,21n,121p,10535b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,21n,121p,10606b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
 e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
@@ -5717,41 +5693,42 @@ ist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
 enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
 dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
 me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/liber
-tine/lbtn_qacof3.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fon
-tawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/libertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pa
-ratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paraty
-pe/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathp
-azo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-mi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courie
-r/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8
-a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-radiation.pdf (31 pages, 7851433 bytes).
+tine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paraty
+pe/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontaw
+esome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/li
+bertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
+ype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/
+ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo
+/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/u
+crr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-radiation.pdf (31 pages, 4408355 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
+ 659 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
  93 named destinations out of 1000 (max. 500000)
- 82224 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 82744 words of extra memory for PDF output out of 89155 (max. 10000000)
 
