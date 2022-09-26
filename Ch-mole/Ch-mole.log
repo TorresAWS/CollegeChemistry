@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUL 2022 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,6 +530,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./Ch-mole.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -3782,14 +3784,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks76
 \TP@prevdepth=\dimen509
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3798,7 +3800,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2023.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3924,7 +3926,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2085.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4272,7 +4274,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2212.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4436,7 +4438,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2849.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4450,7 +4452,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3500.
 .................................................
 \pgf@layerbox@foreground=\box285
 \pgf@layerboxsaved@foreground=\box286
@@ -4549,7 +4551,7 @@ grams
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5307.
+h' as default language. on input line 5304.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -4777,7 +4779,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-mole.aux.
+(./Ch-mole.aux)
 \openout1 = `Ch-mole.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -4798,7 +4800,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -4812,11 +4814,12 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+ (./Ch-mole.out)
+(./Ch-mole.out)
 \@outlinefile=\write14
 \openout14 = `Ch-mole.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
@@ -4968,12 +4971,18 @@ cfg
 File: exsheets_configurations.cfg 
 )
 Chapter 1.
-<../Ch-mole/figure1.png, id=109, 501.875pt x 481.8pt>
-File: ../Ch-mole/figure1.png Graphic file (type png)
-<use ../Ch-mole/figure1.png>
-Package pdftex.def Info: ../Ch-mole/figure1.png  used on input line 10.
-(pdftex.def)             Requested size: 113.80533pt x 109.25311pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 7.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -4981,27 +4990,24 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 10.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 10.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 10.
-
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5011,96 +5017,65 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 10.
+(Font)              scaled to size 5.21004pt on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 10.
+(Font)              scaled to size 5.21004pt on input line 7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 10.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 7.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 12.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 12.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 12.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 12.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 12.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 12.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 12.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 12.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../Ch-mole/figure1.png, id=133, 1606.0pt x 903.375pt>
+File: ../Ch-mole/figure1.png Graphic file (type png)
+<use ../Ch-mole/figure1.png>
+Package pdftex.def Info: ../Ch-mole/figure1.png  used on input line 7.
+(pdftex.def)             Requested size: 355.64912pt x 200.05263pt.
 
-(../Ch-mole/files/SectionGoal-Chemical-reaction-Balancing-chemical-reactions)
-(../Ch-mole/files/SectionGoal-Chemical-reaction-Five-types-of-reactions)
-(../Ch-mole/files/SectionGoal-From-molecules-to-atoms)
-(../Ch-mole/files/SectionGoal-Stoichiometry-and-mass-calculations-Molar-mass-re
-view) (../Ch-mole/files/SectionGoal-Converting-moles-into-grams)
-(../Ch-mole/files/SectionGoal-Stoichiometry-and-mass-calculations-Mole-Mole-rat
-io
-Underfull \hbox (badness 1831) in paragraph at lines 1--2
-[]\T1/ptm/m/n/8 (+20) Carry sto-i-chio-met-ric cal-cu-la-
- []
-
+(../Ch-mole/files/SectionIntro-The-mole
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 2.
 )
-(../Ch-mole/files/SectionGoal-Percent-yield-and-limiting-reagent-Limiting-reage
-nt)
-(../Ch-mole/files/SectionGoal-Percent-yield-and-limiting-reagent-Percent-yield)
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 37.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-)
-(../Ch-mole/files/ChapterDiscussion
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 52.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 52.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 39.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 39.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 39.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 47.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-mole/files/SectionIntro-The-mole)
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 52.
 
 (../Ch-mole/files/SubSection-The-mole-From-moles-to-atoms
 Underfull \hbox (badness 2469) in paragraph at lines 2--3
@@ -5112,7 +5087,7 @@ OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-m
-ole/figure1.png (PNG copy)>]
+ole/figure1.png>]
 Overfull \hbox (21.85176pt too wide) detected at line 19
 \OT1/lmr/m/n/10 3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
 ^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 4.98 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/
@@ -5121,41 +5096,41 @@ n/10 10[][]
 
 ) (../Ch-mole/files/SubSection-The-mole-From-molecules-to-atoms)
 (../Ch-mole/files/Figure-The-mole
-<../Ch-mole/figure3.png, id=135, 250.9375pt x 221.82875pt>
+<../Ch-mole/figure3.png, id=147, 250.9375pt x 221.82875pt>
 File: ../Ch-mole/figure3.png Graphic file (type png)
 <use ../Ch-mole/figure3.png>
 Package pdftex.def Info: ../Ch-mole/figure3.png  used on input line 13.
 (pdftex.def)             Requested size: 128.04152pt x 113.18869pt.
-<../Ch-mole/figure2.png, id=136, 247.92625pt x 204.765pt>
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<../Ch-mole/figure2.png, id=148, 247.92625pt x 204.765pt>
 File: ../Ch-mole/figure2.png Graphic file (type png)
 <use ../Ch-mole/figure2.png>
 Package pdftex.def Info: ../Ch-mole/figure2.png  used on input line 13.
 (pdftex.def)             Requested size: 142.26518pt x 117.49837pt.
-<../Ch-mole/figure4.png, id=137, 672.5125pt x 978.65625pt>
+<../Ch-mole/figure4.png, id=149, 672.5125pt x 978.65625pt>
 File: ../Ch-mole/figure4.png Graphic file (type png)
 <use ../Ch-mole/figure4.png>
 Package pdftex.def Info: ../Ch-mole/figure4.png  used on input line 13.
 (pdftex.def)             Requested size: 84.07411pt x 122.34666pt.
-<../Ch-mole/figure14.png, id=139, 3468.96pt x 3472.975pt>
+<../Ch-mole/figure14.png, id=151, 3468.96pt x 3472.975pt>
 File: ../Ch-mole/figure14.png Graphic file (type png)
 <use ../Ch-mole/figure14.png>
 Package pdftex.def Info: ../Ch-mole/figure14.png  used on input line 26.
 (pdftex.def)             Requested size: 122.16705pt x 122.30844pt.
-<../Ch-mole/figure13.png, id=140, 752.8125pt x 752.8125pt>
+<../Ch-mole/figure13.png, id=152, 752.8125pt x 752.8125pt>
 File: ../Ch-mole/figure13.png Graphic file (type png)
 <use ../Ch-mole/figure13.png>
 Package pdftex.def Info: ../Ch-mole/figure13.png  used on input line 26.
 (pdftex.def)             Requested size: 122.34781pt x 122.34781pt.
-<../Ch-mole/figure15.png, id=141, 1027.84pt x 685.56125pt>
+<../Ch-mole/figure15.png, id=153, 1027.84pt x 685.56125pt>
 File: ../Ch-mole/figure15.png Graphic file (type png)
 <use ../Ch-mole/figure15.png>
 Package pdftex.def Info: ../Ch-mole/figure15.png  used on input line 26.
 (pdftex.def)             Requested size: 128.02486pt x 85.39157pt.
-
-
-LaTeX Warning: Reference `Fig:{Ch-mole}1' on page 2 undefined on input line 26.
-
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--27
 [][]
@@ -5188,22 +5163,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
  []
 
 ) (../Ch-mole/files/SideFigure-Molar-mass
-<../Ch-mole/figure5.png, id=151, 240.9pt x 180.675pt>
+<../Ch-mole/figure5.png, id=164, 240.9pt x 180.675pt>
 File: ../Ch-mole/figure5.png Graphic file (type png)
 <use ../Ch-mole/figure5.png>
 Package pdftex.def Info: ../Ch-mole/figure5.png  used on input line 2.
 (pdftex.def)             Requested size: 113.81114pt x 85.35835pt.
-<../Ch-mole/figure6.png, id=152, 255.95625pt x 197.73875pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 3.
+<../Ch-mole/figure6.png, id=165, 255.95625pt x 197.73875pt>
 File: ../Ch-mole/figure6.png Graphic file (type png)
 <use ../Ch-mole/figure6.png>
 Package pdftex.def Info: ../Ch-mole/figure6.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80838pt x 87.92256pt.
-<../Ch-mole/figure7.png, id=153, 165.18857pt x 106.54663pt>
+<../Ch-mole/figure7.png, id=166, 165.18857pt x 106.54663pt>
 File: ../Ch-mole/figure7.png Graphic file (type png)
 <use ../Ch-mole/figure7.png>
 Package pdftex.def Info: ../Ch-mole/figure7.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81134pt x 73.40833pt.
-<../Ch-mole/figure16.png, id=154, 913.4125pt x 730.73pt>
+<../Ch-mole/figure16.png, id=167, 913.4125pt x 730.73pt>
 File: ../Ch-mole/figure16.png Graphic file (type png)
 <use ../Ch-mole/figure16.png>
 Package pdftex.def Info: ../Ch-mole/figure16.png  used on input line 11.
@@ -5247,11 +5228,6 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 20.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 20.
-
-
-LaTeX Warning: Reference `Fig:{Ch-mole}2' on page 4 undefined on input line 20.
-
-
 )
 Overfull \hbox (60.70555pt too wide) in paragraph at lines 88--89
 []  [] [][]
@@ -5275,22 +5251,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--99
  []
 
 (../Ch-mole/files/SideFigure-Reactions
-<../Ch-mole/figure8.png, id=177, 803.0pt x 890.32625pt>
+<../Ch-mole/figure8.png, id=190, 803.0pt x 890.32625pt>
 File: ../Ch-mole/figure8.png Graphic file (type png)
 <use ../Ch-mole/figure8.png>
 Package pdftex.def Info: ../Ch-mole/figure8.png  used on input line 2.
 (pdftex.def)             Requested size: 102.64151pt x 113.80377pt.
-<../Ch-mole/figure11.png, id=178, 803.0pt x 534.99875pt>
+<../Ch-mole/figure11.png, id=191, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure11.png Graphic file (type png)
 <use ../Ch-mole/figure11.png>
 Package pdftex.def Info: ../Ch-mole/figure11.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
-<../Ch-mole/figure9.png, id=179, 225.84375pt x 150.5625pt>
+<../Ch-mole/figure9.png, id=192, 225.84375pt x 150.5625pt>
 File: ../Ch-mole/figure9.png Graphic file (type png)
 <use ../Ch-mole/figure9.png>
 Package pdftex.def Info: ../Ch-mole/figure9.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81412pt x 75.87608pt.
-<../Ch-mole/figure10.png, id=180, 803.0pt x 534.99875pt>
+<../Ch-mole/figure10.png, id=193, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure10.png Graphic file (type png)
 <use ../Ch-mole/figure10.png>
 Package pdftex.def Info: ../Ch-mole/figure10.png  used on input line 11.
@@ -5333,20 +5309,20 @@ he form of atoms.
  []
 
 [6])
-(../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions
-Underfull \hbox (badness 1147) in paragraph at lines 19--1
+Underfull \hbox (badness 1147) in paragraph at lines 19--118
 \T1/ptm/m/n/10 (+20) to one. In con-trast, the num-ber of O atoms in the re-ac-
 tants and prod-ucts
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 19--1
+Underfull \hbox (badness 1303) in paragraph at lines 19--118
 \T1/ptm/m/n/10 (+20) is not the same, and for this rea-son, we say this re-ac-t
 ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
  []
 
-) (../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5)
-[7]) (../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions)
+(../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions)
+(../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5) [7])
+(../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions)
 (../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations) [8]
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-rati
 o)
@@ -5392,20 +5368,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./Ch-mole.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package rerunfilecheck Info: File `Ch-mole.out' has not changed.
+(rerunfilecheck)             Checksum: 7E6347E3DF7F53D515E5FE7FC624AA80;1218.
 
-
-Package rerunfilecheck Warning: File `Ch-mole.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-mole.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7E6347E3DF7F53D515E5FE7FC624AA80;1218.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5413,53 +5383,46 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 80986 strings out of 493014
- 1834374 string characters out of 6133351
- 3116223 words of memory out of 5000000
- 82535 multiletter control sequences out of 15000+600000
- 177252 words of font info for 277 fonts, out of 8000000 for 9000
+ 80923 strings out of 493014
+ 1831330 string characters out of 6133351
+ 3100636 words of memory out of 5000000
+ 82508 multiletter control sequences out of 15000+600000
+ 187766 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,33n,104p,10525b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,33n,104p,10596b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat
-/dingbat.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loc
-al/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive
-/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dis
+/dingbat.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016
+/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dis
 t/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf
 -dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dis
-t/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf
--dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-sy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/zapfding/uzdr.pfb>
-Output written on Ch-mole.pdf (14 pages, 21397725 bytes).
+t/fonts/enc/dvips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/zapfding/uzdr.pfb>
+Output written on Ch-mole.pdf (14 pages, 21606506 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 56294 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 345 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 56854 words of extra memory for PDF output out of 61914 (max. 10000000)
 
