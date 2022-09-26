@@ -1,34 +1,34 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
 
 \begin{document}
  
  \import{../\chapterlabel/files/}{ChapterName}
 
-\begin{marginfigure}
-      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
-\end{tikzpicture}
-\end{marginfigure}
+%\begin{marginfigure}
+%      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+%\end{tikzpicture}
+%\end{marginfigure}
 
 
  \import{../\chapterlabel/files/}{ChapterIntro}
 
 
 
-
-\begin{marginfigure}%LEARNING GOALS BOX
-\begin{mytcbox}{GOALS}
-\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
- \import{../\chapterlabel/files/}{ChapterGoals}
-\end{enumerate}
-\end{mytcbox}
-\vspace{1cm}
-\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
-  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
-\faGears\ 
- \import{../\chapterlabel/files/}{ChapterDiscussion}
-\end{tcolorbox}
-\end{marginfigure}%LEARNING GOALS BOX
+%
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+% \import{../\chapterlabel/files/}{ChapterGoals}
+%\end{enumerate}
+%\end{mytcbox}
+%\vspace{1cm}
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+% \import{../\chapterlabel/files/}{ChapterDiscussion}
+%\end{tcolorbox}
+%\end{marginfigure}%LEARNING GOALS BOX
 
 
 
