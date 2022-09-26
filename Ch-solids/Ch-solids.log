@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 AUG 2021 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:55
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **Ch-solids.tex
 (./Ch-solids.tex
@@ -3785,14 +3784,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks76
 \TP@prevdepth=\dimen509
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1848.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1849.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1848.
+(Font)              using `T1/ppl/m/n' instead on input line 1849.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3801,7 +3800,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2026.
+(Font)              size <24.88> substituted on input line 2023.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -3927,7 +3926,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2088.
+(Font)              size <24.88> substituted on input line 2085.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4275,7 +4274,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2215.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2212.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4439,7 +4438,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2852.
+. color=OrangeRed!20, bottom color=Red} m' on line 2849.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4453,7 +4452,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3503.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3500.
 .................................................
 \pgf@layerbox@foreground=\box285
 \pgf@layerboxsaved@foreground=\box286
@@ -4552,7 +4551,7 @@ grams
 .................................................
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5306.
+h' as default language. on input line 5303.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -4973,41 +4972,43 @@ cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-solids/files/ChapterTitle
 Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 1.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
 )
-<../Ch-solids/figure1.png, id=133, 963.6pt x 642.4pt>
-File: ../Ch-solids/figure1.png Graphic file (type png)
-<use ../Ch-solids/figure1.png>
-Package pdftex.def Info: ../Ch-solids/figure1.png  used on input line 12.
-(pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 12.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 12.
-
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5017,80 +5018,46 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 12.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 12.
+(Font)              scaled to size 5.21004pt on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
+put line 1.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
+File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
+LF.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 14.
-
-(../Ch-solids/files/ChapterIntro)
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 31.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-)
-(../Ch-solids/files/ChapterDiscussion
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../Ch-solids/figure1.png, id=133, 773.13844pt x 515.67656pt>
+File: ../Ch-solids/figure1.png Graphic file (type png)
+<use ../Ch-solids/figure1.png>
+Package pdftex.def Info: ../Ch-solids/figure1.png  used on input line 1.
+(pdftex.def)             Requested size: 355.6598pt x 237.22195pt.
+) (../Ch-solids/files/ChapterIntro)
+(../Ch-solids/files/SectionIntro-Intermolecular-forces)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 42.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 35.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 35.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 35.
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 40.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-solids/files/SectionIntro-Intermolecular-forces)
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 42.
 
 (../Ch-solids/files/Subsection-Intermolecular-forces-Intermolecular-forces-and-
 intramolecular-interactions
@@ -5111,6 +5078,24 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 19.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 19.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 19.
 
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 19.
@@ -5127,20 +5112,25 @@ Overfull \hbox (22.69833pt too wide) in paragraph at lines 23--23
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-s
-olids/figure1.png (PNG copy)>])
+olids/figure1.png>])
 (../Ch-solids/files/Subsection-Intermolecular-forces-Dispersion-forces)
 (../Ch-solids/files/SideFigure-intermolecular-forces
-<../Ch-solids/figure17.png, id=155, 883.3pt x 588.1975pt>
+<../Ch-solids/figure17.png, id=149, 883.3pt x 588.1975pt>
 File: ../Ch-solids/figure17.png Graphic file (type png)
 <use ../Ch-solids/figure17.png>
 Package pdftex.def Info: ../Ch-solids/figure17.png  used on input line 2.
 (pdftex.def)             Requested size: 113.8087pt x 75.78624pt.
-<../Ch-solids/figure18.png, id=156, 731.73375pt x 1027.84pt>
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<../Ch-solids/figure18.png, id=150, 731.73375pt x 1027.84pt>
 File: ../Ch-solids/figure18.png Graphic file (type png)
 <use ../Ch-solids/figure18.png>
 Package pdftex.def Info: ../Ch-solids/figure18.png  used on input line 5.
 (pdftex.def)             Requested size: 81.01573pt x 113.79987pt.
-<../Ch-solids/figure19.png, id=157, 963.6pt x 637.38126pt>
+<../Ch-solids/figure19.png, id=151, 963.6pt x 637.38126pt>
 File: ../Ch-solids/figure19.png Graphic file (type png)
 <use ../Ch-solids/figure19.png>
 Package pdftex.def Info: ../Ch-solids/figure19.png  used on input line 8.
@@ -5190,22 +5180,33 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 18.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
+(../Ch-solids/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 32.
+line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
+)))
 (../Ch-solids/files/Subsection-Intermolecular-forces-Intermolecular-forces-and-
-boiling) (../Ch-solids/problems/SampleProblem2 [4])
+boiling) (../Ch-solids/problems/SampleProblem2
+(../Ch-solids/problems/StudyCheck2)
+Underfull \vbox (badness 8094) has occurred while \output is active []
+
+ [4])
 (../Ch-solids/files/SectionIntro-The-solid-state)
 (../Ch-solids/files/SideFigure-Amorphous-crystalline-solids
-<../Ch-solids/figure2.png, id=201, 642.4pt x 401.5pt>
+<../Ch-solids/figure2.png, id=195, 642.4pt x 401.5pt>
 File: ../Ch-solids/figure2.png Graphic file (type png)
 <use ../Ch-solids/figure2.png>
 Package pdftex.def Info: ../Ch-solids/figure2.png  used on input line 2.
 (pdftex.def)             Requested size: 113.80379pt x 71.12737pt.
-<../Ch-solids/figure3.png, id=203, 642.4pt x 401.5pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 3.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 3.
+<../Ch-solids/figure3.png, id=197, 642.4pt x 401.5pt>
 File: ../Ch-solids/figure3.png Graphic file (type png)
 <use ../Ch-solids/figure3.png>
 Package pdftex.def Info: ../Ch-solids/figure3.png  used on input line 5.
@@ -5220,12 +5221,12 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 2--8
 [] 
  []
 
-<../Ch-solids/figure4.png, id=204, 1027.84pt x 682.55pt>
+<../Ch-solids/figure4.png, id=198, 1027.84pt x 682.55pt>
 File: ../Ch-solids/figure4.png Graphic file (type png)
 <use ../Ch-solids/figure4.png>
 Package pdftex.def Info: ../Ch-solids/figure4.png  used on input line 9.
 (pdftex.def)             Requested size: 113.79987pt x 75.57022pt.
-<../Ch-solids/figure6.png, id=205, 4805.955pt x 3113.6325pt>
+<../Ch-solids/figure6.png, id=199, 4805.955pt x 3113.6325pt>
 File: ../Ch-solids/figure6.png Graphic file (type png)
 <use ../Ch-solids/figure6.png>
 Package pdftex.def Info: ../Ch-solids/figure6.png  used on input line 12.
@@ -5241,7 +5242,7 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 11--15
  []
 
 ) (../Ch-solids/files/Figure-Chrystalline-solid-unit-cell
-<../Ch-solids/figure20.png, id=208, 1042.31662pt x 781.73746pt>
+<../Ch-solids/figure20.png, id=202, 1042.31662pt x 781.73746pt>
 File: ../Ch-solids/figure20.png Graphic file (type png)
 <use ../Ch-solids/figure20.png>
 Package pdftex.def Info: ../Ch-solids/figure20.png  used on input line 58.
@@ -5251,20 +5252,20 @@ Package pdftex.def Info: ../Ch-solids/figure20.png  used on input line 58.
 l [5 <../Ch-solids/figure2.png> <../Ch-solids/figure3.png> <../Ch-solids/figure
 4.png> <../Ch-solids/figure6.png> <../Ch-solids/figure20.png (PNG copy)>])
 (../Ch-solids/files/Subsection-The-solid-state-Types-of-crystalline-solids)
-(../Ch-solids/problems/SampleProblem3
-Underfull \hbox (badness 2875) in paragraph at lines 16--34
+(../Ch-solids/problems/SampleProblem3 (../Ch-solids/problems/StudyCheck3)
+Underfull \hbox (badness 2875) in paragraph at lines 16--33
 \T1/ptm/m/n/10 (+20) In gen-eral ionic solids cor-re-spond to ionic com-pounds 
 and molec-u-
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 16--34
+Underfull \hbox (badness 4181) in paragraph at lines 16--33
 \T1/ptm/m/n/10 (+20) lar solids cor-re-spond to co-va-lent com-pounds. There-fo
 re, dry ice
  []
 
 ) (../Ch-solids/files/Figure-Periodic-structure-of-water
-<../Ch-solids/water.png, id=220, 1196.47pt x 1027.84pt>
+<../Ch-solids/water.png, id=214, 1196.47pt x 1027.84pt>
 File: ../Ch-solids/water.png Graphic file (type png)
 <use ../Ch-solids/water.png>
 Package pdftex.def Info: ../Ch-solids/water.png  used on input line 13.
@@ -5624,51 +5625,48 @@ Overfull \hbox (15.33957pt too wide) in paragraph at lines 4--44
 [] [] 
  []
 
-) (../Ch-solids/problems/SampleProblem4
+) (../Ch-solids/problems/SampleProblem4 (../Ch-solids/problems/StudyCheck4)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-unit-cells
-[9]) (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Cell-parameter)
+(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-unit-cells)
+(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Cell-parameter [9])
 (../Ch-solids/files/Figure-Metallic-triangle)
-(../Ch-solids/problems/SampleProblem5
-Underfull \vbox (badness 1286) has occurred while \output is active []
-
- [10])
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-density)
-(../Ch-solids/problems/SampleProblem6)
+(../Ch-solids/problems/SampleProblem5 (../Ch-solids/problems/StudyCheck5))
+(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-density [10])
+(../Ch-solids/problems/SampleProblem6 (../Ch-solids/problems/StudyCheck6))
 (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Ionic-solids)
-(../Ch-solids/problems/SampleProblem7
-Underfull \hbox (badness 1616) in paragraph at lines 97--114
+(../Ch-solids/problems/SampleProblem7 (../Ch-solids/problems/StudyCheck7
+Underfull \hbox (badness 1616) in paragraph at lines 97--3
 \T1/ppl/m/n/10 The unit cell con-tains $[][][]$ and $[][][]$. Re-mem-ber ev-ery
  lo-ca-tion
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 97--114
+Underfull \hbox (badness 2042) in paragraph at lines 97--3
 \T1/ppl/m/n/10 in the unit cell has dif-fer-ent shar-ing fac-tor. We will com-p
 ute
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 97--114
+Underfull \hbox (badness 1127) in paragraph at lines 97--3
 \T1/ppl/m/n/10 the num-ber of atoms in each lo-ca-tion and mul-ti-ply by the sh
 ar-
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 97--114
+Underfull \hbox (badness 3657) in paragraph at lines 97--3
 \T1/ppl/m/n/10 ing fac-tor to cal-cu-late the num-ber of Cl and Na in the cell:
 
  []
 
-[11]) (../Ch-solids/files/Figure-X-ray-difraction
+) [11]) (../Ch-solids/files/Figure-X-ray-difraction
 LaTeX Font Info:    Try loading font information for TS1+ppl on input line 89.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<../Ch-solids/figure16.png, id=270, 510.40688pt x 509.65407pt>
+<../Ch-solids/figure16.png, id=265, 510.40688pt x 509.65407pt>
 File: ../Ch-solids/figure16.png Graphic file (type png)
 <use ../Ch-solids/figure16.png>
 Package pdftex.def Info: ../Ch-solids/figure16.png  used on input line 89.
@@ -5679,7 +5677,7 @@ Overfull \hbox (11.99606pt too wide) in paragraph at lines 4--89
  []
 
 
-Underfull \vbox (badness 7203) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 94--86
@@ -5691,30 +5689,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--3
 []
  []
 
-) (../Ch-solids/problems/SampleProblem8) [13 <../Ch-solids/figure16.png (PNG co
-py)>] (../Ch-solids/files/SectionIntro-Liquid-state)
-(../Ch-solids/files/Figure-Liquids) (../Ch-solids/files/SideFigure-Liquids
-<../Ch-solids/figure7.png, id=286, 865.73438pt x 1292.57906pt>
+) (../Ch-solids/problems/SampleProblem8 (../Ch-solids/problems/StudyCheck8))
+(../Ch-solids/files/SectionIntro-Liquid-state [13 <../Ch-solids/figure16.png (P
+NG copy)>]) (../Ch-solids/files/Figure-Liquids)
+(../Ch-solids/files/SideFigure-Liquids
+<../Ch-solids/figure7.png, id=280, 865.73438pt x 1292.57906pt>
 File: ../Ch-solids/figure7.png Graphic file (type png)
 <use ../Ch-solids/figure7.png>
 Package pdftex.def Info: ../Ch-solids/figure7.png  used on input line 2.
 (pdftex.def)             Requested size: 76.22185pt x 113.80254pt.
-<../Ch-solids/figure8.png, id=287, 883.3pt x 662.475pt>
+<../Ch-solids/figure8.png, id=281, 883.3pt x 662.475pt>
 File: ../Ch-solids/figure8.png Graphic file (type png)
 <use ../Ch-solids/figure8.png>
 Package pdftex.def Info: ../Ch-solids/figure8.png  used on input line 5.
 (pdftex.def)             Requested size: 113.8087pt x 85.35652pt.
-<../Ch-solids/figure9.png, id=288, 658.46pt x 1027.84pt>
+<../Ch-solids/figure9.png, id=282, 658.46pt x 1027.84pt>
 File: ../Ch-solids/figure9.png Graphic file (type png)
 <use ../Ch-solids/figure9.png>
 Package pdftex.def Info: ../Ch-solids/figure9.png  used on input line 8.
 (pdftex.def)             Requested size: 72.90305pt x 113.79987pt.
-<../Ch-solids/figure10.png, id=289, 1026.83624pt x 713.66624pt>
+<../Ch-solids/figure10.png, id=283, 1026.83624pt x 713.66624pt>
 File: ../Ch-solids/figure10.png Graphic file (type png)
 <use ../Ch-solids/figure10.png>
 Package pdftex.def Info: ../Ch-solids/figure10.png  used on input line 11.
 (pdftex.def)             Requested size: 113.79842pt x 79.09157pt.
-<../Ch-solids/figure11.png, id=290, 764.8575pt x 607.51968pt>
+<../Ch-solids/figure11.png, id=284, 764.8575pt x 607.51968pt>
 File: ../Ch-solids/figure11.png Graphic file (type png)
 <use ../Ch-solids/figure11.png>
 Package pdftex.def Info: ../Ch-solids/figure11.png  used on input line 14.
@@ -5762,17 +5761,17 @@ Overfull \hbox (12.67639pt too wide) in paragraph at lines 4--16
  <../Ch-solids/figure9.png (PNG copy)> <../Ch-solids/figure10.png (PNG copy)> <
 ../Ch-solids/figure11.png (PNG copy)>])
 (../Ch-solids/files/SideFigure-vapor-pressure
-<../Ch-solids/figure12.png, id=298, 1421.31pt x 3123.67pt>
+<../Ch-solids/figure12.png, id=292, 1421.31pt x 3123.67pt>
 File: ../Ch-solids/figure12.png Graphic file (type png)
 <use ../Ch-solids/figure12.png>
 Package pdftex.def Info: ../Ch-solids/figure12.png  used on input line 2.
 (pdftex.def)             Requested size: 51.76785pt x 113.77231pt.
-<../Ch-solids/figure13.png, id=299, 1027.84pt x 770.88pt>
+<../Ch-solids/figure13.png, id=293, 1027.84pt x 770.88pt>
 File: ../Ch-solids/figure13.png Graphic file (type png)
 <use ../Ch-solids/figure13.png>
 Package pdftex.def Info: ../Ch-solids/figure13.png  used on input line 5.
 (pdftex.def)             Requested size: 113.79987pt x 85.3499pt.
-<../Ch-solids/figure14.png, id=300, 331.2375pt x 602.25pt>
+<../Ch-solids/figure14.png, id=294, 331.2375pt x 602.25pt>
 File: ../Ch-solids/figure14.png Graphic file (type png)
 <use ../Ch-solids/figure14.png>
 Package pdftex.def Info: ../Ch-solids/figure14.png  used on input line 8.
@@ -5838,25 +5837,25 @@ Overfull \hbox (49.19507pt too wide) in paragraph at lines 4--18
  [] 
  []
 
-) (../Ch-solids/problems/SampleProblem10
-Underfull \hbox (badness 3078) in paragraph at lines 2--9
+) (../Ch-solids/problems/SampleProblem10 (../Ch-solids/problems/StudyCheck10
+Underfull \hbox (badness 3078) in paragraph at lines 2--3
 []\T1/ppl/m/n/10 Order the fol-low-ing com-pounds from high to low va-por pres-
 
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 2--9
+Underfull \hbox (badness 1337) in paragraph at lines 2--3
 \T1/ppl/m/n/10 sure: $[][][][][][]$ ($\OT1/zplm/m/n/10 ^^A\OML/lmm/m/it/10 H[]$
 \T1/ppl/m/n/10 =31kJ/mol), $[][][][][][][]$ ($\OT1/zplm/m/n/10 ^^A\OML/lmm/m/it
 /10 H[]$\T1/ppl/m/n/10 =39kJ/mol), $[][][][]$
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 2--9
+Underfull \hbox (badness 3078) in paragraph at lines 2--3
 \T1/ppl/m/n/10 Order the fol-low-ing com-pounds from high to low va-por pres-
  []
 
-)
+))
 (../Ch-solids/files/Subsection-Liquid-state-Vapor-pressure-change-with-temperat
 ure
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -5872,8 +5871,8 @@ Overfull \hbox (26.95457pt too wide) in paragraph at lines 47--47
  [] 
  []
 
-) (../Ch-solids/problems/SampleProblem9 [17])
-(../Ch-solids/files/Figure-Phase-diagram1
+) (../Ch-solids/problems/SampleProblem9 (../Ch-solids/problems/StudyCheck9)
+[17]) (../Ch-solids/files/Figure-Phase-diagram1
 Package pgfplots info on input line 15: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
 Package pgfplots info on input line 33: fill between: found 'clip=true'. Prepar
@@ -5932,7 +5931,7 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 40--40
  []
 
 
-Underfull \vbox (badness 1902) has occurred while \output is active []
+Underfull \vbox (badness 3612) has occurred while \output is active []
 
  [19])
 (../Ch-solids/files/Subsection-Phase-diagrams-Phase-diagran-of-water)
@@ -5957,10 +5956,10 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 ) (../Ch-solids/files/Funny-facts-water [21]
 Package mdframed Info: mdframed works in twoside mode on input line 4.
-<figure21.jpeg, id=355, 362.35374pt x 139.52126pt>
-File: figure21.jpeg Graphic file (type jpg)
-<use figure21.jpeg>
-Package pdftex.def Info: figure21.jpeg  used on input line 6.
+<../Ch-solids/figure21.png, id=349, 362.35374pt x 139.52126pt>
+File: ../Ch-solids/figure21.png Graphic file (type png)
+<use ../Ch-solids/figure21.png>
+Package pdftex.def Info: ../Ch-solids/figure21.png  used on input line 6.
 (pdftex.def)             Requested size: 223.54013pt x 86.07224pt.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
@@ -6028,7 +6027,7 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[22 <./figure21.jpeg>]
+[22 <../Ch-solids/figure21.png (PNG copy)>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./Ch-solids.aux)
@@ -6049,13 +6048,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 82849 strings out of 493014
- 1872408 string characters out of 6133351
- 2833421 words of memory out of 5000000
- 84263 multiletter control sequences out of 15000+600000
- 230163 words of font info for 348 fonts, out of 8000000 for 9000
+ 82909 strings out of 493014
+ 1874059 string characters out of 6133351
+ 2819914 words of memory out of 5000000
+ 84306 multiletter control sequences out of 15000+600000
+ 241001 words of font info for 348 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,21n,124p,10529b,2256s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,21n,124p,10600b,2256s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
 ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/t
@@ -6064,37 +6063,36 @@ fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
 dvips/fontawesome/fontawesomeone.enc} </Users/daniel/Library/texlive/2016/texmf
 -var/fonts/pk/ljfour/public/dingbat/dingbat.600pk>{/usr/local/texlive/2016/texm
 f-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
-c/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/font
-s/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmm
-i10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
-/lmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on Ch-solids.pdf (22 pages, 27672986 bytes).
+c/dvips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr17.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/zapfding/uzdr.pfb>
+Output written on Ch-solids.pdf (22 pages, 26890584 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 69719 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 70231 words of extra memory for PDF output out of 74296 (max. 10000000)
 
