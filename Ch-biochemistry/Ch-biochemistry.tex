@@ -1,9 +1,9 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{Ch-biochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\newcommand\chapterlabel{Ch-biochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
 \setatomsep{1.78500 em}    % 'Fixed Length'
 \setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
 \setbondstyle{line width = \bondwidth}
 \definesubmol{x}{C(-[4]H)(-[0]OH)}
 \definesubmol{y}{C(-[0]H)(-[4]HO)}
@@ -23,31 +23,31 @@
 
  \import{../\chapterlabel/files/}{ChapterName}
 
-\begin{marginfigure}
-      \includegraphics{../{\chapterlabel}/figure1}
-   \end{marginfigure}
+%\begin{marginfigure}
+%      \includegraphics{../{\chapterlabel}/figure1}
+%   \end{marginfigure}
 
  \import{../\chapterlabel/files/}{ChapterIntro}
 
-\begin{marginfigure}%LEARNING GOALS BOX
-\begin{mytcbox}{GOALS}
-
-\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
- \import{../\chapterlabel/files/}{SectionGoal-Biomolecules}
-  \import{../\chapterlabel/files/}{SectionGoal-Simple-Carbohydrates}
- \import{../\chapterlabel/files/}{SectionGoal-Disaccharides-and-polysaccharides}
- \import{../\chapterlabel/files/}{SectionGoal-Nucleic-acids}
- \import{../\chapterlabel/files/}{SectionGoal-Proteins}
-\end{enumerate}
-\end{mytcbox}
-\end{marginfigure}%LEARNING GOALS BOX
-\begin{marginfigure}[0.5cm]
-\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
-  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
-\faGears\ 
-\docenvdef{Discussion:}  \import{../\chapterlabel/files/}{ChapterDiscussion}
-
- \end{marginfigure}
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+% \import{../\chapterlabel/files/}{SectionGoal-Biomolecules}
+%  \import{../\chapterlabel/files/}{SectionGoal-Simple-Carbohydrates}
+% \import{../\chapterlabel/files/}{SectionGoal-Disaccharides-and-polysaccharides}
+% \import{../\chapterlabel/files/}{SectionGoal-Nucleic-acids}
+% \import{../\chapterlabel/files/}{SectionGoal-Proteins}
+%\end{enumerate}
+%\end{mytcbox}
+%\end{marginfigure}%LEARNING GOALS BOX
+%\begin{marginfigure}[0.5cm]
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+%\docenvdef{Discussion:}  \import{../\chapterlabel/files/}{ChapterDiscussion}
+%
+% \end{marginfigure}
 
 
 \section{\color{blue!30!black}{Biomolecules}}
