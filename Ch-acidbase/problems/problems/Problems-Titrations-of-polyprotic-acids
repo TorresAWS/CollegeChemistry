@@ -34,7 +34,7 @@ Oxalid acid \ce{HO2C-CO2H} is the simplest dicarboxylic acid ($PK_{a1}=1.2$  and
 \item  Calculate the PH after adding 25mL of base %1.2
 \item  Calculate the PH after adding 50mL of base %2.7
 \item  Calculate the PH after adding 75mL of base %4.2
-%\item  Calculate the PH after adding 100mL of base %11.39
+\item  Calculate the PH after adding 100mL of base %6.12
 \item  Calculate the PH after adding 150mL of base %12.39
  \end{inparaenum}
 \end{question}
@@ -43,10 +43,23 @@ Oxalid acid \ce{HO2C-CO2H} is the simplest dicarboxylic acid ($PK_{a1}=1.2$  and
 \item   1.2
 \item   2.7
 \item   4.2
-%\item   11.39
+\item   6.12
 \item   12.39
  \end{inparaenum}
  \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For a diprotic acid, demonstrate that the proton concentration at the second equivalence point is given by:
+\[
+\big[ \ce{H^+} \big]= \sqrt[3]{ K_W\cdot K_{a1}\cdot K_{a2}\cdot c_{R}}
+ \]
+\end{question}
+\begin{solution}
+Assume that $c_{R}$ is smaller than $\big[ \ce{OH^-} \big]$
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
 
 
 
