@@ -3,5 +3,5 @@ Let us now analyze a situation in which we mix two different solutions, 5mL of a
 and then calculate the fluoride concentration produced from \ce{NaF}, given that the salt dissociates giving one sodium cation and one fluoride anion:
 \begin{equation*}\big[ \ce{F^{-}} \big]=\frac{0.01M\cdot 6mL}{11mL}=5.4\times 10^{-3}M\end{equation*}
 With these two concentrations, we can compute the ion product $Q_c$ and compare it with $K_{sp}$:
-\begin{equation*}\begin{split}Q_{c}=\big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=(4.5\times 10^{-2})\cdot(5.4\times 10^{-3})^2=\\=1.3\times 10^{-6}< K_{sp}=3.3\times10^{-8} \text{ hence } (\ce{v})	\end{split}\end{equation*}
+\begin{equation*}\begin{split}Q_{c}=\big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=(4.5\times 10^{-2})\cdot(5.4\times 10^{-3})^2=\\=1.3\times 10^{-6}> K_{sp}=3.3\times10^{-8} \text{ hence } (\ce{v})	\end{split}\end{equation*}
 Based on this comparison, we can predict that after mixing the two solutions \ce{PbF2} will precipitate.
