@@ -1,4 +1,6 @@
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:{\chapterlabel}\thetablenewcounter}
+\label{Table-Density}
 \begin{center}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lll}
