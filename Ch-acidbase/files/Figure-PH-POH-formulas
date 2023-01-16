@@ -1,4 +1,16 @@
-\begin{center}\begin{tikzpicture}
+\begin{center}
+
+
+
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1\linewidth}\resizebox{0.9\textwidth}{!}{
+
+
+
+
+
+\begin{tikzpicture}
 \node [block] (box1) at (0,0) [rectangle,draw=white,fill=red!20!white] {\textcolor{blue}{$\big[ \ce{H^+} \big]$}};
 \node [block] (box2) at  (7,0) [rectangle,draw=white,fill=orange!20!white] {\textcolor{blue}{$\big[ \ce{OH^-} \big]$}};
 \node [block] (box3) at  (0,5) [rectangle,draw=white,fill=yellow!20!white] {\textcolor{blue}{$\text{PH}$}};
@@ -19,4 +31,14 @@
 \begin{scope}[transform canvas={xshift = 1em}]
 \draw[thick,<-] (box2.north) -- (box4.south) node[above,pos=0.5, rotate=90, yshift = -2em] {$ \big[\ce{OH^-}\big]=\textrm{\Large 10}^{-\text{POH}} $} ;
 \end{scope}
-\end{tikzpicture}\end{center}
+
+\begin{scope}[transform canvas={yshift = -4em, xshift = 5em}]
+\node[text width=9cm, fontscale=.1,shift={(2em,-0em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Diagram with formulas relating the PH, POH and the concentration of protons and hydroxyls in water. };
+\end{scope}
+
+\end{tikzpicture}
+
+ }\end{minipage}
+
+
+\end{center}\vspace{1cm}

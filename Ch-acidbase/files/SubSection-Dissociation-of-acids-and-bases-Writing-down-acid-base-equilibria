@@ -1,6 +1,6 @@
-Now let us address how to write down acid-base equilibria from scratch, starting by the dissociation of ammonia (\ce{NH3}). Dissociation reactions are the reaction of an acid or base and water:
+Now let us address how to write down acid-base equilibria from scratch, starting with the dissociation of ammonia (\ce{NH3}). Dissociation reactions are the reaction of an acid or base and water:
 \begin{center}\ce{H2O_{(l)} + NH3_{(g)}   <=>  }\end{center}
-We have that ammonia is a base and hence water will act as an acid. Bases receive protons whereas acids give protons away. In the equilibrium, we will remove one proton from water and add it to ammonia, producing respectively an hydroxyle and an ammonium ion:
+We have that ammonia is a base and hence water will act as an acid. Bases receive protons whereas acids give protons away. In the equilibrium, we will remove one proton from water and add it to ammonia, producing respectively a hydroxyl and an ammonium ion:
 %%%% ACID AND CONJUGATE BASE
 \begin{center}\begin{tikzpicture}
   \node (firstleft) {\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O^ _{(l)}}}}$}};
@@ -20,9 +20,9 @@ We have that ammonia is a base and hence water will act as an acid. Bases receiv
 %%%% ACID AND CONJUGATE BASE
 And that will give the dissociation equilibrium of ammonia. 
 \begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{NH3_{(g)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Base}}{\ce{NH4^+_{(l)}}}}$}\end{center}
-We can now address the reaction between an acid and a base for example, between sodium hydroxide and hydroioidic acid:
+We can now address the reaction between an acid and a base for example, between sodium hydroxide and hydroiodic acid:
 \begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{HI_{(g)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{NaOH_{(aq)}}}}$   -> }\end{center}
-In these types of acid-base reaction, we have that the acid will generate a proton and the base will generate an hydroxyle, which will both combine to produce water and a salt, sodium chloride:
+In these types of acid-base reactions, we have that the acid will generate a proton and the base will generate a hydroxyl, which will both combine to produce water and a salt, sodium chloride:
 
 %%%% ACID AND CONJUGATE BASE
 \begin{center}\begin{tikzpicture}
