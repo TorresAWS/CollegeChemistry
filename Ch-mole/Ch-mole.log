@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 JAN 2023 09:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5045,7 +5045,7 @@ File: ../Ch-mole/figure1.png Graphic file (type png)
 Package pdftex.def Info: ../Ch-mole/figure1.png  used on input line 7.
 (pdftex.def)             Requested size: 355.64912pt x 200.05263pt.
 
-(../Ch-mole/files/SectionIntro-The-mole
+(../Ch-mole/files/abstract) (../Ch-mole/files/SectionIntro-The-mole
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5065,13 +5065,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 2.
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 52.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 52.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 49.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5137,8 +5137,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--27
  []
 
 
-Overfull \hbox (90.2715pt too wide) in paragraph at lines 54--28
-[]  [] [][] 
+Overfull \hbox (92.17152pt too wide) in paragraph at lines 12--28
+   [] [][] 
  []
 
 ) (../Ch-mole/problems/SampleProblem1
@@ -5211,9 +5211,9 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--19
 
 ) (../Ch-mole/files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-m
-ass-of-a-chemical [3 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-m
-ole/figure7.png> <../Ch-mole/figure16.png (PNG copy)>])
-(../Ch-mole/problems/SampleProblem2 (../Ch-mole/problems/StudyCheck2))
+ass-of-a-chemical) (../Ch-mole/problems/SampleProblem2
+(../Ch-mole/problems/StudyCheck2) [3 <../Ch-mole/figure5.png> <../Ch-mole/figur
+e6.png> <../Ch-mole/figure7.png> <../Ch-mole/figure16.png (PNG copy)>])
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
 les-to-grams) (../Ch-mole/files/Figure-Mole-equivalency
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5229,44 +5229,61 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 20.
 )
-Overfull \hbox (60.70555pt too wide) in paragraph at lines 88--89
-[]  [] [][]
+(../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3)
+Overfull \hbox (62.60558pt too wide) in paragraph at lines 8--11
+   [] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-(../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3) [4])
+
+Underfull \vbox (badness 2772) has occurred while \output is active []
+
+ [4])
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-gr
-ams-to-atoms
-Overfull \hbox (0.82616pt too wide) in paragraph at lines 6--6
+ams-to-atoms) (../Ch-mole/files/Figure-Mole-to-grams
+Overfull \hbox (0.82616pt too wide) in paragraph at lines 8--8
  [][][][][]\T1/ptm/m/n/10 (-20) Molecules 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 2--99
-[]
+
+LaTeX Warning: Reference `Fig:{Ch-mole}3' on page 5 undefined on input line 17.
+
+
+
+Overfull \hbox (38.45047pt too wide) in paragraph at lines 18--19
+[][] 
  []
 
+) (../Ch-mole/problems/SampleProblem4 (../Ch-mole/problems/StudyCheck4)
+Underfull \hbox (badness 10000) in paragraph at lines 1--12
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
 (../Ch-mole/files/SideFigure-Reactions
-<../Ch-mole/figure8.png, id=190, 803.0pt x 890.32625pt>
+<../Ch-mole/figure8.png, id=197, 803.0pt x 890.32625pt>
 File: ../Ch-mole/figure8.png Graphic file (type png)
 <use ../Ch-mole/figure8.png>
 Package pdftex.def Info: ../Ch-mole/figure8.png  used on input line 2.
 (pdftex.def)             Requested size: 102.64151pt x 113.80377pt.
-<../Ch-mole/figure11.png, id=191, 803.0pt x 534.99875pt>
+<../Ch-mole/figure11.png, id=198, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure11.png Graphic file (type png)
 <use ../Ch-mole/figure11.png>
 Package pdftex.def Info: ../Ch-mole/figure11.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
-<../Ch-mole/figure9.png, id=192, 225.84375pt x 150.5625pt>
+<../Ch-mole/figure9.png, id=199, 225.84375pt x 150.5625pt>
 File: ../Ch-mole/figure9.png Graphic file (type png)
 <use ../Ch-mole/figure9.png>
 Package pdftex.def Info: ../Ch-mole/figure9.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81412pt x 75.87608pt.
-<../Ch-mole/figure10.png, id=193, 803.0pt x 534.99875pt>
+<../Ch-mole/figure10.png, id=200, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure10.png Graphic file (type png)
 <use ../Ch-mole/figure10.png>
 Package pdftex.def Info: ../Ch-mole/figure10.png  used on input line 11.
@@ -5291,39 +5308,41 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 [] 
  []
 
-) (../Ch-mole/problems/SampleProblem4 (../Ch-mole/problems/StudyCheck4))
-(../Ch-mole/files/SectionIntro-Chemical-reaction [5 <../Ch-mole/figure8.png> <.
-./Ch-mole/figure11.png (PNG copy)> <../Ch-mole/figure9.png (PNG copy)> <../Ch-m
-ole/figure10.png (PNG copy)>])
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+) (../Ch-mole/files/SectionIntro-Chemical-reaction)
 (../Ch-mole/files/SubSection-Chemical-reaction-Simple-chemical-reactions)
 (../Ch-mole/files/SubSection-Chemical-reaction-Reading-a-chemical-reaction)
 (../Ch-mole/files/SubSection-Chemical-reaction-Balanced-chemical-reactions
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+[6 <../Ch-mole/figure8.png> <../Ch-mole/figure11.png (PNG copy)> <../Ch-mole/fi
+gure9.png (PNG copy)> <../Ch-mole/figure10.png (PNG copy)>]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
-Underfull \hbox (badness 3364) in paragraph at lines 5--18
+Underfull \hbox (badness 3364) in paragraph at lines 3--16
 \T1/ptm/m/n/10 (+20) The ta-ble be-low shows all re-ac-tants and prod-ucts in t
 he form of atoms.
  []
 
-[6])
-Underfull \hbox (badness 1147) in paragraph at lines 19--118
-\T1/ptm/m/n/10 (+20) to one. In con-trast, the num-ber of O atoms in the re-ac-
-tants and prod-ucts
+)
+Underfull \hbox (badness 2443) in paragraph at lines 17--83
+\T1/ptm/m/n/10 (+20) one. In con-trast, the num-ber of O atoms in the re-ac-tan
+ts and prod-ucts
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 19--118
+Underfull \hbox (badness 1303) in paragraph at lines 17--83
 \T1/ptm/m/n/10 (+20) is not the same, and for this rea-son, we say this re-ac-t
 ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
  []
 
 (../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions)
 (../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5) [7])
-(../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions)
-(../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations) [8]
+(../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions [8])
+(../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-rati
 o)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactants-to-p
@@ -5336,26 +5355,24 @@ ons)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Molar-mass-rev
 iew)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles
--in-a-reaction)
+-in-a-reaction [10])
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams
--in-a-reaction) (../Ch-mole/problems/SampleProblem7
-(../Ch-mole/problems/StudyCheck7) [10])
-(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent)
-(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
- [11])
-(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8))
-(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagen
-t [12])
-(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
--limiting-reagent
-Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[]\T1/ptm/m/n/10 (+20) Consider the fol-low-ing re-ac-tion, in
+-in-a-reaction
+Underfull \hbox (badness 3826) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) We want to an-swer the fol-low-ing ques-tion: we
  []
 
-) (../Ch-mole/problems/SampleProblem9 (../Ch-mole/problems/StudyCheck9)
-[13])
+) (../Ch-mole/problems/SampleProblem7 (../Ch-mole/problems/StudyCheck7))
+(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent [11])
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield)
+(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8) [12])
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagen
+t)
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
+-limiting-reagent [13]) (../Ch-mole/problems/SampleProblem9
+(../Ch-mole/problems/StudyCheck9) [14]) [15] [16
+
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5367,15 +5384,20 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
- (./Ch-mole.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
-Package rerunfilecheck Info: File `Ch-mole.out' has not changed.
-(rerunfilecheck)             Checksum: 7E6347E3DF7F53D515E5FE7FC624AA80;1218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+(./Ch-mole.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 
+
+Package rerunfilecheck Warning: File `Ch-mole.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-mole.out':
+(rerunfilecheck)             Before: 7E6347E3DF7F53D515E5FE7FC624AA80;1218
+(rerunfilecheck)             After:  EDF2578127037C5014100E01AE220010;1442.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5383,15 +5405,21 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 80923 strings out of 493014
- 1831330 string characters out of 6133351
- 3100636 words of memory out of 5000000
- 82508 multiletter control sequences out of 15000+600000
- 187766 words of font info for 272 fonts, out of 8000000 for 9000
+ 80958 strings out of 493014
+ 1831839 string characters out of 6133351
+ 3096186 words of memory out of 5000000
+ 82517 multiletter control sequences out of 15000+600000
+ 189316 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,33n,104p,10596b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,34n,104p,10596b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat
 /dingbat.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
@@ -5419,10 +5447,10 @@ exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on Ch-mole.pdf (14 pages, 21606506 bytes).
+Output written on Ch-mole.pdf (16 pages, 21609418 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 33 named destinations out of 1000 (max. 500000)
- 56854 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 58902 words of extra memory for PDF output out of 61914 (max. 10000000)
 
