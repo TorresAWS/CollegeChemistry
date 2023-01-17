@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 JAN 2023 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 JAN 2023 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5744,7 +5744,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--187
 []
  []
 
-(../Ch-acidbase/files/Table-Indicators
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 191.
+
+(../Ch-acidbase/files/SectionIntro-Indicators)
+(../Ch-acidbase/files/Table-Indicators [31]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 49.
@@ -5754,20 +5759,14 @@ Overfull \hbox (103.90787pt too wide) in paragraph at lines 3--50
  [] 
  []
 
-[31])
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 192.
-
-(../Ch-acidbase/files/SectionIntro-Indicators)
-(../Ch-acidbase/files/Subsection-Indicators-How-do-they-function [32])
+) (../Ch-acidbase/files/Subsection-Indicators-How-do-they-function [32])
 (../Ch-acidbase/files/Subsection-Indicators-Selecting-and-indicator)
 (../Ch-acidbase/files/Subsection-Indicators-Litmus)
 (../Ch-acidbase/problems/SampleProblem21 (../Ch-acidbase/problems/StudyCheck21)
 [33])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 202.
+(hyperref)                removing `\color' on input line 203.
 
 (../Ch-acidbase/files/SectionIntro-Titrations-of-polyprotic-acids)
 (../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-c
@@ -5775,11 +5774,6 @@ urved-of-polyprotic-acids)
 (../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-
 point-of-polyprotic-acids)
 (../Ch-acidbase/files/Figure-Titration-curves-polyprotic
-
-LaTeX Warning: Reference `Fig:{Ch-acidbase}6' on page 34 undefined on input lin
-e 17.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34])
@@ -5798,11 +5792,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./Ch-acidbase.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Ch-acidbase.out' has not changed.
 (rerunfilecheck)             Checksum: FE3A14399AB3CA2B9CDFDDC037F4E350;3634.
 
@@ -5814,20 +5808,17 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84298 strings out of 493014
- 1905170 string characters out of 6133351
- 2684187 words of memory out of 5000000
- 85505 multiletter control sequences out of 15000+600000
- 236374 words of font info for 329 fonts, out of 8000000 for 9000
+ 84281 strings out of 493014
+ 1904857 string characters out of 6133351
+ 2676856 words of memory out of 5000000
+ 85492 multiletter control sequences out of 15000+600000
+ 234602 words of font info for 326 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,33n,117p,10604b,3070s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,33n,117p,10604b,3074s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-d
@@ -5859,10 +5850,10 @@ xlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Ch-acidbase.pdf (36 pages, 19892656 bytes).
+Output written on Ch-acidbase.pdf (36 pages, 19891199 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
+ 656 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
  120 named destinations out of 1000 (max. 500000)
- 67827 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65779 words of extra memory for PDF output out of 74296 (max. 10000000)
 
