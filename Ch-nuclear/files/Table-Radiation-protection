@@ -1,22 +1,14 @@
  \begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
-\begin{tabular}{ll}
+\begin{tabular}{llll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Radiation protection} \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Radiation protection} \\
 \midrule
-\multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}$\alpha$ particle\end{bf}} }
-&Travels 2-4cm in air      \\ \cline{2-2}   
-&Travels 0.05mm in tissue            \\ \cline{2-2} 
-&protected with thin clothing        \\\hline
-\multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}$\beta$ particle\end{bf}} }
-&Travels 200-300cm in air           \\ \cline{2-2} 
-&Travels 4-5mm in tissue          \\ \cline{2-2} 
-&protected with heavy clothing        \\\hline
-\multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}$\gamma$ particle\end{bf}} }
-&Travels 500m in air          \\ \cline{2-2} 
-&Travels 50cm in tissue        \\ \cline{2-2} 
-&protected with lead or concrete     \\  
+ Particle & Travels in air &Travels in tissue& Protected with\\\hline
+ 	\begin{bf}$\alpha$  \end{bf} &2-4cm 	 &0.05mm 	& thin clothing	\\\hline
+ 	\begin{bf}$\beta$  \end{bf} &200-300cm 	 &4-5mm 	& heavy clothing \\\hline
+ 	\begin{bf}$\gamma$  \end{bf} &500m 	 &50cm 	& lead or concrete \\ 
 \bottomrule
 \end{tabular}\end{center}

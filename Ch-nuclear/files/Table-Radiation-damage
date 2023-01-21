@@ -16,8 +16,9 @@
 &gray (Gy) =100rad  \vspace{0.6cm}        \\\hline 
 \multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}Damage (H)\end{bf}} }
 &rem    \vspace{0.6cm}      \\ \cline{2-2} 
-&Sievert (Sv) = 100rem \vspace{0.6cm}         \\\hline
-\multicolumn{2}{c}{\begin{bf}rem=rad $\times$ Factor\end{bf}}\vspace{0.4cm} \\\hline
+&Sievert (Sv) = 100rem \vspace{0.6cm}         \\
+ 
+%\multicolumn{2}{c}{\begin{bf}rem=rad $\times$ Factor\end{bf}}\vspace{0.4cm} \\ 
 \bottomrule
 \end{tabular}\end{center}
 %%%%%%%%%%%%%%%%%%%%TABLE%%%%%%%%%%%%%%%%%%%%%%%%%%%

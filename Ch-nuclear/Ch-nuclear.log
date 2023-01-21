@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JAN 2023 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,6 +530,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./Ch-nuclear.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -5074,13 +5076,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 4.
 ) (../Ch-nuclear/files/SectionIntro-Radiation,-particles-and-radioisotopes)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 50.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 47.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5190,15 +5192,15 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 22.
+(hyperref)                setting the option has no effect on input line 21.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 
 LaTeX Warning: Reference `tab:{Ch-nuclear}1' on page 3 undefined on input line 
-22.
+21.
 
 ) (../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
@@ -5290,7 +5292,7 @@ ts-Activity-units)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Adsorbed-dose)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Radiation-equivalent-in-humans,-rem [7])
+ts-Radiation-equivalent-in-humans-rem [7])
 (../Ch-nuclear/files/SideFigure-Geiger
 <../Ch-nuclear/figure2.png, id=198, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
@@ -5301,9 +5303,6 @@ Package pdftex.def Info: ../Ch-nuclear/figure2.png  used on input line 3.
 Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
-
-
-LaTeX Warning: Marginpar on page 8 moved.
 
 <../Ch-nuclear/figure5.png, id=199, 440.64626pt x 351.3125pt>
 File: ../Ch-nuclear/figure5.png Graphic file (type png)
@@ -5360,10 +5359,10 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 LaTeX Warning: Reference `tab:{Ch-nuclear}3' on page 9 undefined on input line 
 7.
 
-) (../Ch-nuclear/files/SectionIntro-Radioactive-gases:-radon) [9]
+) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon) [9]
 (../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
 (../Ch-nuclear/files/SideFigure-Fusion
-<../Ch-nuclear/figure6.png, id=216, 3257.16875pt x 3891.53876pt>
+<../Ch-nuclear/figure6.png, id=217, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
 <use ../Ch-nuclear/figure6.png>
 Package pdftex.def Info: ../Ch-nuclear/figure6.png  used on input line 3.
@@ -5373,7 +5372,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure7.png, id=217, 692.5875pt x 501.875pt>
+<../Ch-nuclear/figure7.png, id=218, 692.5875pt x 501.875pt>
 File: ../Ch-nuclear/figure7.png Graphic file (type png)
 <use ../Ch-nuclear/figure7.png>
 Package pdftex.def Info: ../Ch-nuclear/figure7.png  used on input line 8.
@@ -5404,11 +5403,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
 (./Ch-nuclear.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
 
 
 Package rerunfilecheck Warning: File `Ch-nuclear.out' has changed.
@@ -5433,13 +5432,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 80851 strings out of 493014
- 1833397 string characters out of 6133351
- 2573011 words of memory out of 5000000
- 82382 multiletter control sequences out of 15000+600000
- 245831 words of font info for 334 fonts, out of 8000000 for 9000
+ 80867 strings out of 493014
+ 1833562 string characters out of 6133351
+ 2573028 words of memory out of 5000000
+ 82384 multiletter control sequences out of 15000+600000
+ 246330 words of font info for 341 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,35n,104p,10602b,2876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,36n,104p,10602b,2874s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/tex
@@ -5468,10 +5467,10 @@ e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Ch-nuclear.pdf (12 pages, 10615078 bytes).
+Output written on Ch-nuclear.pdf (12 pages, 10615569 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
  72635 words of extra memory for PDF output out of 74296 (max. 10000000)
 
