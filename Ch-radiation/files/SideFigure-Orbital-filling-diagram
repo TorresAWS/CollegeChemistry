@@ -65,7 +65,7 @@
                                                        \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y11}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y41}.north east);
                                                        \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y10}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y40}.north east);
 \end{pgfonlayer}
-\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=8cm, fontscale=5.0] at (10em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Table indicating the orbital filling order. };
+\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=8cm, fontscale=5.0] at (10em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Orbital filling order. };
  \end{tikzpicture}}
   }
 %In order to use this table you need to start by filling the orbital $1s$, after that you follow the arrow until next level and start from the beginning of next arrow. For example, after $3d$ you need to fill $6s$. Also the orbital occupancies are given below. $s$ orbitals can fit a maximum of two electrons, whereas $p$ orbitals cant fit a maximum of six electrons, as there are three $p$ orbitals ($p_x$, $p_y$, and $p_z$).

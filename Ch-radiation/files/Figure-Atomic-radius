@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
 \vspace{0cm}\hspace{-0cm}\begin{minipage}[b]{1.0\linewidth}
-\begin{center}\resizebox{1.0\textwidth}{!}{\begin{tikzpicture}[rotate=0]
+\begin{center}\resizebox{0.9\textwidth}{!}{\begin{tikzpicture}[rotate=0]
  \begin{scope}[xshift =0em, yshift =0em, scale=1]
  \pgfmathsetmacro\RadA{1.1}
   \pgfmathsetmacro\RadB{1.6}
@@ -173,7 +173,7 @@
 
     \begin{scope}[on background layer,xshift =0em, yshift =-15em, scale=1]
  \draw[opacity=.3,draw=none, fill=red!10] (-3em,0em) -- (12em,0) -- (17em,10em) -- (33em,10em)-- (33em,18em)-- (17em,18em) --   (12em,10em)  --(-3em,10em)  ;%-- (-10em,0em)  --  cycle; 
-  \node[text width=14cm, fontscale=1, shift={(2em,-21em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionic and atomic radius across the periodic table   };
+  \node[text width=14cm, fontscale=1, shift={(12em,-21em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionic and atomic radius in pm across the periodic table   };
 
   \end{scope}
   

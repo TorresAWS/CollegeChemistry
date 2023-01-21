@@ -1,11 +1,11 @@
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Compare the following property for the given couple of elements:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
 \item Atomic radius of N and F.
 \item Ionization energy of Na and Cs.
 \item Electronegativity of F and I.
 \item Metallic character of N and F. 
-\end{enumerate}
+\end{inparaenum}\\
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 (a) You go from N to F by moving from left to right on a row of the periodic table, hence the radius of N is larger than the radius of F. This is because the atomic radius decreases from left to right on a row.
 (b) You go from Na to Cs by moving from up to down on a column of the periodic table, hence the ionization energy of Na is larger than for Cs. This is because the ionization energy decreases from top to bottom on a period.
