@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5046,19 +5046,19 @@ File: ../Ch-electrolytes/figure1.png Graphic file (type png)
 <use ../Ch-electrolytes/figure1.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure1.png  used on input line 1.
 (pdftex.def)             Requested size: 355.67133pt x 237.11421pt.
-)
+) (../Ch-electrolytes/files/ChapterIntro)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 37.
+(hyperref)                removing `\color' on input line 38.
 
 (../Ch-electrolytes/files/SectionIntro-Solutions-and-composition)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 40.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 41.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5091,14 +5091,15 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-)))
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Types-of-solutio
-ns [1
+))
+[1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
-lectrolytes/figure1.png>]) (../Ch-electrolytes/files/Figure-Dissolution
-<../Ch-electrolytes/figure3.png, id=147, 803.0pt x 372.39125pt>
+lectrolytes/figure1.png>])
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Types-of-solutio
+ns) (../Ch-electrolytes/files/Figure-Dissolution
+<../Ch-electrolytes/figure3.png, id=144, 803.0pt x 372.39125pt>
 File: ../Ch-electrolytes/figure3.png Graphic file (type png)
 <use ../Ch-electrolytes/figure3.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure3.png  used on input line 7.
@@ -5109,9 +5110,9 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 7.
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Empirical-rules-
-of-polarity) (../Ch-electrolytes/problems/SampleProblem2
-(../Ch-electrolytes/problems/StudyCheck2) [2 <../Ch-electrolytes/figure3.png (P
-NG copy)>])
+of-polarity [2 <../Ch-electrolytes/figure3.png (PNG copy)>])
+(../Ch-electrolytes/problems/SampleProblem2
+(../Ch-electrolytes/problems/StudyCheck2))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mixing-and-polar
 ity) (../Ch-electrolytes/files/Table-Polarity-and-mixing
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
@@ -5136,32 +5137,34 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (../Ch-electrolytes/problems/StudyCheck3))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Meaning-of-conce
 ntration)
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent)
-(../Ch-electrolytes/problems/SampleProblem4
-(../Ch-electrolytes/problems/StudyCheck4) [3])
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent
+[3]) (../Ch-electrolytes/problems/SampleProblem4
+(../Ch-electrolytes/problems/StudyCheck4))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Volume-percent-c
 oncentration)
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Massvolume-perce
 nt-concentration)
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Molarity-concent
 ration) (../Ch-electrolytes/problems/SampleProblem5
-(../Ch-electrolytes/problems/StudyCheck5))
+(../Ch-electrolytes/problems/StudyCheck5) [4])
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Concentration-un
-its-as-conversion-factors [4]) (../Ch-electrolytes/problems/SampleProblem6
+its-as-conversion-factors) (../Ch-electrolytes/problems/SampleProblem6
 (../Ch-electrolytes/problems/StudyCheck6))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Dilution)
 (../Ch-electrolytes/problems/SampleProblem7
-(../Ch-electrolytes/problems/StudyCheck7))
+(../Ch-electrolytes/problems/StudyCheck7) [5])
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Molarity-calcula
-tions-with-mass) [5]
+tions-with-mass)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 77.
 
 (../Ch-electrolytes/files/SectionIntro-Electrolytes-and-insoluble-compounds)
+(../Ch-electrolytes/files/SubSection-Precipitation-reactions-and-acid-base-reac
+tions-Solubility-formula)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Solub
 le-and-insoluble-salts) (../Ch-electrolytes/problems/SampleProblem8
-(../Ch-electrolytes/problems/StudyCheck8))
+(../Ch-electrolytes/problems/StudyCheck8) [6])
 (../Ch-electrolytes/files/Table-Solubility
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -5169,17 +5172,14 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
+)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Stron
-g-electrolytes)
+g-electrolytes [7])
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Nonel
 ectrolytes)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Ident
 ify-the-electrolyte-character-of-a-chemical)
-(../Ch-electrolytes/files/Table-Electrolytes [7]
+(../Ch-electrolytes/files/Table-Electrolytes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
@@ -5187,36 +5187,34 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 )
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Break
 ing-down-electrolytes-into-ions) (../Ch-electrolytes/problems/SampleProblem9
-(../Ch-electrolytes/problems/StudyCheck9))
+(../Ch-electrolytes/problems/StudyCheck9) [8])
 (../Ch-electrolytes/problems/SampleProblem10
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-(../Ch-electrolytes/problems/StudyCheck10) [8])
+(../Ch-electrolytes/problems/StudyCheck10))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 95.
+(hyperref)                removing `\color' on input line 93.
 
 
 (../Ch-electrolytes/files/SectionIntro-An-introduction-to-reactions-in-solution
 )
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-A
-cid-base-reactions)
+cid-base-reactions [9])
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-P
-recipitation-reactions) [9]
+recipitation-reactions)
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-R
 edox-reactions) (../Ch-electrolytes/problems/SampleProblem11
-(../Ch-electrolytes/problems/StudyCheck11))
+(../Ch-electrolytes/problems/StudyCheck11) [10])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 104.
+(hyperref)                removing `\color' on input line 103.
 
 
 (../Ch-electrolytes/files/SectionIntro-Precipitation-reactions-and-acid-base-re
-actions [10])
-(../Ch-electrolytes/files/SubSection-Precipitation-reactions-and-acid-base-reac
-tions-Solubility-formula)
+actions)
 (../Ch-electrolytes/files/SubSection-Precipitation-reactions-and-acid-base-reac
 tions-Acid-base-reactions)
 (../Ch-electrolytes/files/SubSection-Precipitation-reactions-and-acid-base-reac
@@ -5231,11 +5229,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 (../Ch-electrolytes/problems/StudyCheck12))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 115.
+(hyperref)                removing `\color' on input line 112.
 
-(../Ch-electrolytes/files/SectionIntro-Redox-reactions)
+(../Ch-electrolytes/files/SectionIntro-Redox-reactions) [12]
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Oxidation-state-or-redox-n
-umber) [12]
+umber)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Rules-to-calculate-redox-n
 umbers
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
@@ -5246,9 +5244,9 @@ File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 ))
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Calculating-the-redox-numb
 er) (../Ch-electrolytes/problems/SampleProblem13
-(../Ch-electrolytes/problems/StudyCheck13))
+(../Ch-electrolytes/problems/StudyCheck13) [13])
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Redox-means-oxidation-and-
-reduction) [13]
+reduction)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Redox-numbers-in-chemical-
 reactions)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Balancing-simple-redox-rea
@@ -5272,6 +5270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--18
 
  []
 
+[14]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5286,7 +5285,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 18.
 )
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Balancing-redox-reactions-
-in-acidic-medium [14]
+in-acidic-medium
 Overfull \hbox (17.69055pt too wide) in paragraph at lines 9--16
  []$ 
  []
@@ -5318,11 +5317,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./Ch-electrolytes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `Ch-electrolytes.out' has not changed.
 (rerunfilecheck)             Checksum: 08FBEC3256CFFB0644F18F5B192A7020;1617.
 
@@ -5338,13 +5337,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 80869 strings out of 493014
- 1838218 string characters out of 6133351
- 2591943 words of memory out of 5000000
- 82375 multiletter control sequences out of 15000+600000
- 198594 words of font info for 287 fonts, out of 8000000 for 9000
+ 80867 strings out of 493014
+ 1838281 string characters out of 6133351
+ 2597873 words of memory out of 5000000
+ 82369 multiletter control sequences out of 15000+600000
+ 202960 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,21n,104p,10612b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,22n,104p,10612b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
@@ -5371,10 +5370,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electrolytes.pdf (18 pages, 714987 bytes).
+Output written on Ch-electrolytes.pdf (18 pages, 716282 bytes).
 PDF statistics:
  342 PDF objects out of 1000 (max. 8388607)
  235 compressed objects within 3 object streams
  46 named destinations out of 1000 (max. 500000)
- 59319 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 60343 words of extra memory for PDF output out of 61914 (max. 10000000)
 
