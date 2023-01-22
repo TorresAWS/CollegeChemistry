@@ -52,9 +52,9 @@
 \item[\docfilehook{Volume}{}]\import{../\chapterlabel/files/}{SubSection-Units-of-Measurements-and-systems-of-units-Volume}
 \item[\docfilehook{Concentration}{}]\import{../\chapterlabel/files/}{SubSection-Units-of-Measurements-and-systems-of-units-Concentration}
 \import{../\chapterlabel/problems/}{SampleProblem1}
-\newpage
-\import{../\chapterlabel/files/}{Table-Unit-systems}
+\newpage\import{../\chapterlabel/files/}{Table-Unit-systems}
 \end{description}
+
 
 \section{Scientific notation} \import{../\chapterlabel/files/}{SectionIntro-scientific-notation}
 \section{Prefixes \& Conversion Factors}
@@ -73,7 +73,6 @@
 \import{../\chapterlabel/problems/}{SampleProblem3}
 \item[\docfilehook{Switching prefixes}{}]\import{../\chapterlabel/files/}{SubSection-Using-Conversion-Factors-Switching-prefixes}
 \import{../\chapterlabel/problems/}{SampleProblem4}
-
 \end{description}
 
 \section{Units of volume and area}
@@ -81,12 +80,12 @@
 \import{../\chapterlabel/problems/}{SampleProblem5}
 \import{../\chapterlabel/files/}{Figure-Cuve-of-Cubes}
 \sloppy\begin{description}
-
 \item[\docfilehook{Liters and milliliters}{}]\import{../\chapterlabel/files/}{SubSection-Using-Conversion-Factors-Units-of-volume}
 \import{../\chapterlabel/problems/}{SampleProblem6}
+\import{../\chapterlabel/files/}{Table-Common-units}
 \end{description}
 
-\import{../\chapterlabel/files/}{Table-Common-units}
+
 \section{Using other equalities}
 \import{../\chapterlabel/files/}{SubSection-Using-Conversion-Factors-Using-other-equalities}
 \import{../\chapterlabel/problems/}{SampleProblem7}
@@ -115,7 +114,7 @@
  \item[\docfilehook{Rounding}{}]\import{../\chapterlabel/files/}{SubSection-Significant-Figures-Rounding}
 \end{description}
 
- 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 \section{Matter}
 \import{../\chapterlabel/files/}{SectionIntro-Matter-and-density}
 \import{../\chapterlabel/files/}{Figure-Matter}		
@@ -127,6 +126,7 @@
 \item[\docfilehook{Separation Techniques}{}]\import{../\chapterlabel/files/}{SubSection-Matter-and-density-Separation}
 \import{../\chapterlabel/files/}{Figure-Chromatography}		
 \end{description}
+}
 
 \section{Density}
 \import{../\chapterlabel/files/}{SubSection-Matter-and-density-Density}
