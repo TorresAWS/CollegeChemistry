@@ -6,8 +6,9 @@
 
 
 \import{../\chapterlabel/files/}{ChapterName} % NOT FOR 121
-%\chapter[Energy and Matter]{Energy and Matter}\setcounter{chapter}{2} % FOR 121
-
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \chapter[Energy and Matter]{Energy and Matter}\setcounter{chapter}{2}   }{} %FOR 121
+ 
 
 
    
@@ -41,25 +42,23 @@
 %\end{marginfigure}%LEARNING GOALS BOX
 
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%
-% MATTER SECTION FOR 121
-%%%%%%%%%%%%%%%%%%%%%%%%
-%\renewcommand\chapterlabel{Ch-measurements}
-%\section{Matter}
-%\import{../\chapterlabel/files/}{SectionIntro-Matter-and-density}
-%\import{../\chapterlabel/files/}{Figure-Matter}		
-%\sloppy\begin{description}
-%\item[\docfilehook{Solids, liquids \& gases}{ }] \import{../\chapterlabel/files/}{SubSection-Matter-and-density-states-of-matter}
-%\item[\docfilehook{Pure Substances and mixtures}{}]\import{../\chapterlabel/files/}{SubSection-Matter-and-density-Pure-Substances-and-mixtures}
-%\import{../\chapterlabel/files/}{Figure-States-of-matter}
-%\import{../\chapterlabel/problems/}{SampleProblem10}
-%\item[\docfilehook{Separation Techniques}{}]\import{../\chapterlabel/files/}{SubSection-Matter-and-density-Separation}%%%%%NOT FOR 121
-%\import{../\chapterlabel/files/}{Figure-Chromatography}		%%%%%NOT FOR 121
-%\end{description}
-%\renewcommand\chapterlabel{Ch-thermochemistry}
-%%%%%%%%%%%%%%%%%%%%%%%%
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+%%%%%%%%%%%%%%%%%%%%%%%
+ MATTER SECTION FOR 121
+%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\chapterlabel{Ch-measurements}
+\section{Matter}
+\import{../\chapterlabel/files/}{SectionIntro-Matter-and-density}
+\import{../\chapterlabel/files/}{Figure-Matter}		
+\sloppy\begin{description}
+\item[\docfilehook{Solids, liquids \& gases}{ }] \import{../\chapterlabel/files/}{SubSection-Matter-and-density-states-of-matter}
+\item[\docfilehook{Pure Substances and mixtures}{}]\import{../\chapterlabel/files/}{SubSection-Matter-and-density-Pure-Substances-and-mixtures}
+\import{../\chapterlabel/files/}{Figure-States-of-matter}
+\import{../\chapterlabel/problems/}{SampleProblem10}
+\end{description}
+\renewcommand\chapterlabel{Ch-thermochemistry}
+%%%%%%%%%%%%%%%%%%%%%%%
+ }{}
 
 
 
@@ -93,6 +92,7 @@
 \import{../\chapterlabel/problems/}{SampleProblem6}
 \end{description}
 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%%NOT 121
 \section{The first law of thermodynamics} \import{../\chapterlabel/files/}{SectionIntro-The-first-law-of-thermodynamics}
 \sloppy\begin{description}
@@ -102,7 +102,8 @@
 \import{../\chapterlabel/problems/}{SampleProblem5} 
 \end{description}
 %%%NOT 121
-
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%NOT 121
 \section{Calorimetry}\import{../\chapterlabel/files/}{SectionIntro-Calorimetry}
 \sloppy\begin{description}
@@ -116,7 +117,7 @@
 \hspace{-2cm}\import{../\chapterlabel/files/}{Figure-Calorimeter}
 \end{description}
 %%%NOT 121   
-     
+   } 
      
 \section{Energy value of food}
 \sloppy\begin{description}
@@ -129,6 +130,7 @@
  
  
 %%%%%%NOT 121
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 \section{Enthalpy}\import{../\chapterlabel/files/}{SectionIntro-Enthalpy} 
 \sloppy\begin{description} 
 \item[\docfilehook{What is enthalpy?}{ }] \import{../\chapterlabel/files/}{SubSection-Enthalpy-What-is-enthalpy} 
@@ -143,8 +145,8 @@
 \import{../\chapterlabel/problems/}{SampleProblem11} 
 \end{description}
 %%%%%%NOT 121
-  
-  
+  }
+   \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
  %%%%%%NOT 121 
 \section{Hess's Law: Manipulating reaction enthalpies } \import{../\chapterlabel/files/}{SectionIntro-Hesss-Law-Manipulating-reaction-enthalpies} 
 \sloppy\begin{description} 
@@ -155,7 +157,7 @@
 \end{description}
 \import{../\chapterlabel/files/}{Table-Enthapy} 
 %%%%%%NOT 121
-
+}
 
 
 

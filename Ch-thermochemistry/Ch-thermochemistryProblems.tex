@@ -14,6 +14,7 @@
 %\setstretch{0.3}
 \begin{multicols*}{2}\setcounter{numA}{1}
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% FOR 121
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24,6 +25,7 @@
 %\import{../\chapterlabel/problems/problems/}{Problems-States-of-matter}%% NOT FOR 121
 %\renewcommand\chapterlabel{Ch-thermochemistry}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}{}
 
 
 
@@ -33,22 +35,28 @@
 \import{../\chapterlabel/problems/problems/}{Problems-calories-and-joules}
 
 {\raggedright\textsc{\textbf{From energy to temperature}}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Work}%%%%NOT FOR 121
 \import{../\chapterlabel/problems/problems/}{Problems-Heat-and-temperature}
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%NOT FOR 121
+{\raggedright\textsc{\textbf{The first law of themrodynamics}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Work}
+%%%%NOT FOR 121
+}
 {\raggedright\textsc{\textbf{Calorimetry }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Calorimetry}
 \import{../\chapterlabel/problems/problems/}{Problems-Energy-value}
 
-
-{\raggedright\textsc{\textbf{Enthalpy }}\par}%%%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo}%%%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry}%%%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Enthalpy-table}%%%%NOT FOR 121
-
-{\raggedright\textsc{\textbf{Hess's Law }}\par}%%%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Hess-law}%%%%NOT FOR 121
-
+%%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+{\raggedright\textsc{\textbf{Enthalpy }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} 
+\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} 
+\import{../\chapterlabel/problems/problems/}{Problems-Enthalpy-table} 
+{\raggedright\textsc{\textbf{Hess's Law }}\par} 
+\import{../\chapterlabel/problems/problems/}{Problems-Hess-law} 
+}
+%%%%NOT FOR 121
 
 
 
