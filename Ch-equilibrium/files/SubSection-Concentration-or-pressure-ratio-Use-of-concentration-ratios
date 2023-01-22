@@ -1,4 +1,4 @@
-Concentration ratios helps predict whether a reaction will proceed towards the left or towards the right when we start with a mixture of reactants and products away from equilibrium.
+Concentration ratios help predict whether a reaction will proceed toward the left or toward the right when we start with a mixture of reactants and products away from equilibrium.
  \begin{center}\begin{tikzpicture}[colorbar arrow/.style={
   shape=double arrow,
   double arrow head extend=0.125cm, 
@@ -12,4 +12,4 @@ Concentration ratios helps predict whether a reaction will proceed towards the l
    \node[font=\large, below = 3mm of thickarrow, shift={(0cm,.5cm)}]  at (0cm,-1cm) {$K_c$};  
 \draw[ultra thick, ->]  (3cm,-1cm) --+(-1cm,0cm) ; 
 \end{tikzpicture}  \end{center}
-If $Q_c$ is larger than $K_c$ the reaction will proceed towards the left producing reactants. On the other hand, if $Q_c$ is smaller than $K_c$ the reaction will proceed towards the right producing products. If $Q_c$ equals to $K_c$ then the reaction is in equilibrium.
+If $Q_c$ is larger than $K_c$ the reaction will proceed towards the left producing reactants. On the other hand, if $Q_c$ is smaller than $K_c$ the reaction will proceed towards the right producing products. If $Q_c$ equals $K_c$ then the reaction is in equilibrium.
