@@ -13,7 +13,7 @@
 \coordinate (magnifying glass) at (8.5em,17.5em);
 \node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=figure1-22,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=../../{\chapterlabel}/figure1-22,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
 \node[text width=5cm] at ([yshift=0.5cm]a.north) {\mytriangle{red}The molecular hexagonal structure of ice, solid water.};
 \end{scope}
 \end{scope}
@@ -25,7 +25,7 @@
 \coordinate (magnifying glass) at (8.5em,17.5em);
 \node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=figure1-23,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=../../{\chapterlabel}/figure1-23,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
 \node[text width=5cm] at ([yshift=0.5cm]a.north) {\mytriangle{red}The molecular structure of liquid water.};
 \end{scope}
 \end{scope}
@@ -38,7 +38,7 @@
 \coordinate (magnifying glass) at (8.5em,17.5em);
 \node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=figure1-24,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=0.1em, fill overzoom image=../../{\chapterlabel}/figure1-24,minimum size=3.5cm]  (c) at (magnifying glass) { } ;
 \node[text width=5cm] at ([yshift=0.5cm]a.north) {\mytriangle{red}The molecular structure of steam, gaseous water.};
 \end{scope}
 \end{scope}
