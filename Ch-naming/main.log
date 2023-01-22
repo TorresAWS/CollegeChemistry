@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2023 16:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4828,7 +4828,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5305.
@@ -4850,7 +4850,7 @@ LaTeX Font Info:    ... okay on input line 5305.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5305.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5305
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5305.
@@ -4865,11 +4865,12 @@ Package hyperref Info: Link coloring ON on input line 5305.
 LaTeX Info: Redefining \ref on input line 5305.
 LaTeX Info: Redefining \pageref on input line 5305.
 LaTeX Info: Redefining \nameref on input line 5305.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5305.
 
 *geometry* driver: auto-detecting
@@ -5136,26 +5137,26 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-naming/figure1.png, id=121, 1204.5pt x 629.35126pt>
+<../Ch-naming/figure1.png, id=149, 1204.5pt x 629.35126pt>
 File: ../Ch-naming/figure1.png Graphic file (type png)
 <use ../Ch-naming/figure1.png>
 Package pdftex.def Info: ../Ch-naming/figure1.png  used on input line 1.
 (pdftex.def)             Requested size: 355.65524pt x 185.82986pt.
 ) (../Ch-naming/files/ChapterIntro)
 (../Ch-naming/files/SectionIntro-Ions-ionic-charges)
-(../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 1.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 41.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
+
+(../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions)
 (../Ch-naming/files/Figure-Valences
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
@@ -5189,11 +5190,6 @@ t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 4.
 
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 6
-.
-
-
 Overfull \hbox (14.73227pt too wide) in paragraph at lines 4--8
 [][]
  []
@@ -5203,25 +5199,19 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
 [] 
  []
 
-) (../Ch-naming/files/Subsection-Ions-ionic-charges-Ionic-charges-the-valences
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 2--1
-[]  [] 
+)
+Underfull \hbox (badness 2529) in paragraph at lines 1--43
+[]\T1/ptm/m/n/10 (+20) Atoms that lose elec-trons be-come pos-i-tively charged.
+
  []
 
 
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 1
-.
+Overfull \hbox (2.9pt too wide) in paragraph at lines 1--43
+[]  [] 
+ []
 
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 1 undefined on input line 1
-.
-
-[1
-
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-n
-aming/figure1.png>]) (../Ch-naming/problems/SampleProblem1
-(../Ch-naming/problems/StudyCheck1
+(../Ch-naming/files/Subsection-Ions-ionic-charges-Ionic-charges-the-valences)
+(../Ch-naming/problems/SampleProblem1 (../Ch-naming/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5232,28 +5222,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--14
 
  []
 
-) (../Ch-naming/files/SectionIntro-Ionic-compounds)
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-n
+aming/figure1.png>]) (../Ch-naming/files/SectionIntro-Ionic-compounds)
 (../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
 (../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
 (../Ch-naming/files/Subsection-Ionic-compounds-Combining-ions [2])
 (../Ch-naming/problems/SampleProblem2 (../Ch-naming/problems/StudyCheck2))
 (../Ch-naming/files/Subsection-Ionic-compounds-type-I-ionic)
 (../Ch-naming/problems/SampleProblem3 (../Ch-naming/problems/StudyCheck3)
-[3]) (../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals
-
-LaTeX Warning: Reference `Fig:{Ch-naming}1' on page 4 undefined on input line 1
-.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
+[3]) (../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming)
+(../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals)
+(../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
 (../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
 (../Ch-naming/problems/SampleProblem4 (../Ch-naming/problems/StudyCheck4)
 [4]) (../Ch-naming/files/SectionIntro-Covalent-compounds)
@@ -5275,27 +5257,15 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-naming}1' on page 5 undefined on input line 8
-.
-
 ) (../Ch-naming/problems/SampleProblem5 (../Ch-naming/problems/StudyCheck5)
-Underfull \vbox (badness 6725) has occurred while \output is active []
-
- [5])
-(../Ch-naming/files/SectionIntro-Naming-acids-bases)
+[5]) (../Ch-naming/files/SectionIntro-Naming-acids-bases)
 (../Ch-naming/files/Subsection-Naming-acids-bases-Bases-or-hydroxides
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 ) (../Ch-naming/files/Subsection-Naming-acids-bases-Acids
-
-LaTeX Warning: Reference `tab:{Ch-naming}1' on page 6 undefined on input line 3
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
@@ -5308,14 +5278,10 @@ ter-of-oxoacids) (../Ch-naming/problems/SampleProblem7
 (../Ch-naming/problems/StudyCheck7) [7])
 (../Ch-naming/files/SectionIntro-Naming-complex-salts-common-chemicals)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Combining-
-ions [8]) (../Ch-naming/files/Table-Oxoacids
+ions) (../Ch-naming/files/Table-Oxoacids [8]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 9 undefined on input line 8
-.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 8.
@@ -5337,19 +5303,14 @@ Overfull \hbox (97.21593pt too wide) in paragraph at lines 5--42
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
 salts
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 9 undefined on input line 2
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Formulatin
-g-Oxosalts [9]) (../Ch-naming/problems/SampleProblem8
-(../Ch-naming/problems/StudyCheck8))
+g-Oxosalts) (../Ch-naming/problems/SampleProblem8
+(../Ch-naming/problems/StudyCheck8) [9])
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Hyd
 rosalts
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -5367,26 +5328,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 (../Ch-naming/problems/SampleProblem10 (../Ch-naming/problems/StudyCheck10))
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Common-nam
 ing
-
-LaTeX Warning: Reference `tab:{Ch-naming}2' on page 11 undefined on input line 
-2.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-[11]) (../Ch-naming/files/Table-Common-chemicals
+) (../Ch-naming/files/Table-Common-chemicals
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-LaTeX Warning: Reference `tab:{Ch-naming}3' on page 12 undefined on input line 
-8.
-
-) (../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11)))
-(../Ch-naming/Ch-namingProblems.tex [12]
+[11]) (../Ch-naming/problems/SampleProblem11
+(../Ch-naming/problems/StudyCheck11))) (../Ch-naming/Ch-namingProblems.tex
+[12]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5421,12 +5374,7 @@ LaTeX Warning: Reference `tab:{Ch-naming}3' on page 12 undefined on input line
 
 Package mdframed Info: mdframed works in twoside mode on input line 13.
 Package mdframed Info: Not enough space on this page on input line 13.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 13 undefined on input line 1
-3.
-
-(../Ch-naming/problems/problems/GeneralProblems-Ions-Ionic-charges
+ (../Ch-naming/problems/problems/GeneralProblems-Ions-Ionic-charges
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5507,15 +5455,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5390.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5390.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5390.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CD868C6401D44482DAA424E455399C3F;1144.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C065D40C5AE8C38B4E2ABE67748C03FC;1007.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5532,11 +5474,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5390.
  ) 
 Here is how much of TeX's memory you used:
- 84156 strings out of 493014
- 1887905 string characters out of 6133351
- 2646115 words of memory out of 5000000
- 85247 multiletter control sequences out of 15000+600000
- 299628 words of font info for 346 fonts, out of 8000000 for 9000
+ 84187 strings out of 493014
+ 1888420 string characters out of 6133351
+ 2649664 words of memory out of 5000000
+ 85274 multiletter control sequences out of 15000+600000
+ 296621 words of font info for 343 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,20n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -5562,10 +5504,10 @@ atino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 381125 bytes).
+Output written on main.pdf (16 pages, 383170 bytes).
 PDF statistics:
- 774 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
- 425 named destinations out of 1000 (max. 500000)
- 78258 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 809 PDF objects out of 1000 (max. 8388607)
+ 694 compressed objects within 7 object streams
+ 426 named destinations out of 1000 (max. 500000)
+ 77802 words of extra memory for PDF output out of 89155 (max. 10000000)
 
