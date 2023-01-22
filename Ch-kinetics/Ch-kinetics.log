@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 OCT 2022 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2023 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5042,7 +5042,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-kinetics/figure1.png, id=133, 339.2675pt x 253.94875pt>
+<../Ch-kinetics/figure1.png, id=141, 339.2675pt x 253.94875pt>
 File: ../Ch-kinetics/figure1.png Graphic file (type png)
 <use ../Ch-kinetics/figure1.png>
 Package pdftex.def Info: ../Ch-kinetics/figure1.png  used on input line 11.
@@ -5174,26 +5174,36 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 365--415
 [][] 
  []
 
-[16]
-<../Ch-kinetics/delivery.png, id=310, 501.875pt x 501.875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 421.
+
+(../Ch-kinetics/files/SectionIntro-Collision-theory)
+(../Ch-kinetics/files/Subsecion-Collision-theory [16])
+(../Ch-kinetics/files/Subsecion-Transition-state-and-activation-energy)
+(../Ch-kinetics/files/Figure-Transition-state-two-paths
+<../Ch-kinetics/delivery.png, id=318, 501.875pt x 501.875pt>
 File: ../Ch-kinetics/delivery.png Graphic file (type png)
 <use ../Ch-kinetics/delivery.png>
-Package pdftex.def Info: ../Ch-kinetics/delivery.png  used on input line 457.
+Package pdftex.def Info: ../Ch-kinetics/delivery.png  used on input line 20.
 (pdftex.def)             Requested size: 14.22087pt x 14.22087pt.
-<../Ch-kinetics/home.png, id=312, 1027.84pt x 1027.84pt>
+<../Ch-kinetics/home.png, id=320, 1027.84pt x 1027.84pt>
 File: ../Ch-kinetics/home.png Graphic file (type png)
 <use ../Ch-kinetics/home.png>
-Package pdftex.def Info: ../Ch-kinetics/home.png  used on input line 457.
+Package pdftex.def Info: ../Ch-kinetics/home.png  used on input line 20.
 (pdftex.def)             Requested size: 7.10464pt x 7.10464pt.
 File: ../Ch-kinetics/delivery.png Graphic file (type png)
 <use ../Ch-kinetics/delivery.png>
-Package pdftex.def Info: ../Ch-kinetics/delivery.png  used on input line 457.
+Package pdftex.def Info: ../Ch-kinetics/delivery.png  used on input line 20.
 (pdftex.def)             Requested size: 14.22087pt x 14.22087pt.
 File: ../Ch-kinetics/home.png Graphic file (type png)
 <use ../Ch-kinetics/home.png>
-Package pdftex.def Info: ../Ch-kinetics/home.png  used on input line 457.
+Package pdftex.def Info: ../Ch-kinetics/home.png  used on input line 20.
 (pdftex.def)             Requested size: 7.10464pt x 7.10464pt.
- [17 <../Ch-kinetics/delivery.png> <../Ch-kinetics/home.png>]
+)
+(../Ch-kinetics/files/Subsecion-Effect-of-temperature [17 <../Ch-kinetics/deliv
+ery.png> <../Ch-kinetics/home.png>])
+(../Ch-kinetics/files/Subsecion-Concentration-of-reactants)
 (../Ch-kinetics/problems/SampleProblem11 (../Ch-kinetics/problems/StudyCheck11
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
@@ -5206,33 +5216,38 @@ Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--125
 [][] 
  []
 
-) [18]
+) [18] (../Ch-kinetics/files/Subsecion-Catalyst)
+(../Ch-kinetics/files/Figure-Energy-profile-catalys
 Missing character: There is no ; in font nullfont!
- [19]
-Overfull \hbox (68.76025pt too wide) in paragraph at lines 531--575
+)
+(../Ch-kinetics/files/Subsecion-Hetero-Catalyst [19])
+(../Ch-kinetics/files/Figure-catalyst-mechanism-steps
+Overfull \hbox (68.76025pt too wide) in paragraph at lines 4--48
 [][] 
  []
 
-(../Ch-kinetics/problems/SampleProblem12 (../Ch-kinetics/problems/StudyCheck12)
-[20])
-Overfull \hbox (171.82971pt too wide) in paragraph at lines 601--619
+) (../Ch-kinetics/problems/SampleProblem12
+(../Ch-kinetics/problems/StudyCheck12)
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [20])
+Overfull \hbox (171.82971pt too wide) in paragraph at lines 462--480
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 []\T1/ptm/m/n/10 (+20) The Ar-rhe-nius
  []
 
-[21] (../Ch-kinetics/problems/SampleProblem13
-(../Ch-kinetics/problems/StudyCheck13))
-(../Ch-kinetics/problems/SampleProblem14 (../Ch-kinetics/problems/StudyCheck14)
 
-Underfull \vbox (badness 3668) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23]) [24] [25]
-Underfull \hbox (badness 1817) in paragraph at lines 713--714
+ [21]
+(../Ch-kinetics/problems/SampleProblem13 (../Ch-kinetics/problems/StudyCheck13)
+[22]) (../Ch-kinetics/problems/SampleProblem14
+(../Ch-kinetics/problems/StudyCheck14) [23]) [24] [25]
+Underfull \hbox (badness 1817) in paragraph at lines 580--581
 []\T1/ptm/m/n/10 (+20) Imagine we sug-gest a pos-si-ble
  []
 
@@ -5252,13 +5267,13 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [28
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 723.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 723.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
  (./Ch-kinetics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 723.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 723.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
 Package rerunfilecheck Info: File `Ch-kinetics.out' has not changed.
-(rerunfilecheck)             Checksum: BCBA7470815ED175C043048960FA5261;1040.
+(rerunfilecheck)             Checksum: ADBC0B92804275F05CE82A2D26357A70;1448.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5269,10 +5284,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 81634 strings out of 493014
- 1841104 string characters out of 6133351
- 2624813 words of memory out of 5000000
- 83209 multiletter control sequences out of 15000+600000
+ 81699 strings out of 493014
+ 1843663 string characters out of 6133351
+ 2625164 words of memory out of 5000000
+ 83241 multiletter control sequences out of 15000+600000
  187961 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10437b,3007s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5307,10 +5322,10 @@ al/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-kinetics.pdf (28 pages, 728936 bytes).
+Output written on Ch-kinetics.pdf (28 pages, 729859 bytes).
 PDF statistics:
- 633 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
- 54648 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 641 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 54664 words of extra memory for PDF output out of 61914 (max. 10000000)
 

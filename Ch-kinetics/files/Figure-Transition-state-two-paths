@@ -1,0 +1,22 @@
+%\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{tikzpicture}
+ \begin{scope}[shift={(0,0)}] %transform canvas={scale=0.15}, 
+       \node[rotate=45] (a) at (0,1em) {\includegraphics[width=0.5cm]{../Ch-kinetics/delivery}}     node[rotate=0] (a) at (5.5em,1em) {\includegraphics[width=0.25cm]{../Ch-kinetics/home}}   ;
+  \draw[clip]  decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]  {(0,0) -- (0.5,0.6) -- (1,2) -- (1.5,0.6) -- (2,0)} -- (2,-0.7) -- (0,-0.7) -- (0,0);
+    \fill[brown](0,-.7) rectangle (2,2);
+    \fill[white]   decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]
+    {(.75,2) -- (0.85,1.5) -- (0.92,1.2) -- (0.99,1.7) -- (1.05,1.4) -- (1.3,2)} -- (0,2);
+     \end{scope}
+ \begin{scope}[shift={(10em,0em)}] %transform canvas={scale=0.15}, 
+       \node[rotate=45] (a) at (0,1em) {\includegraphics[width=0.5cm]{../Ch-kinetics/delivery}}     node[rotate=0] (a) at (5.5em,1em) {\includegraphics[width=0.25cm]{../Ch-kinetics/home}}   ;
+  \draw[clip]  decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]  {(0,0) -- (0.5,0.6) -- (1,1.5) -- (1.5,0.6) -- (2,0)} -- (2,-0.7) -- (0,-0.7) -- (0,0);
+    \fill[green](0,-.7) rectangle (2,2);
+    \fill[white]   decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]
+    {(.75,1.8) -- (0.80,1.3) -- (0.92,1.0) -- (0.99,1.5) -- (1.05,1.2) -- (1.3,1.8)} -- (0,1.8);
+     \end{scope}
+ %    \node[text width=5cm, fontscale=0.1, shift={(9,-0)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A fast and a slow reaction pathway  };
+\end{tikzpicture}
+}\end{minipage}
+
+

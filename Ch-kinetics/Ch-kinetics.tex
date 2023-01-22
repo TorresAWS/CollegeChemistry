@@ -418,166 +418,26 @@ Applying the integral method we can find out the order of B and the pseudo rate 
 
 
 
-
-
-\section{Collision theory}
-The rate of reaction depends on temperature and reaction proceed at a higher speed at higher temperatures. This is the reason we use refrigerators and freezers to keep food for a longer time. The collision theory is a kinetics theory that provides a microscopic understanding of chemical reactions. A pivotal element of this theory is the transition state also called the activated complex. This is an ephemeral state between reactants and products so that if the reaction proceeds until this point, reactants will certainly evolve into products. The energy difference between the reactants and the transition state of a reaction is called the activation energy. Energy diagrams are useful representations of the energy changes involved in a reaction. By analyzing an energy diagram we can predict whether a reaction is endo of exothermic and estimate the energy involved in the activation of a reaction. This section covers the fundamental principles of collision theory and introduces the interpretation of energy diagrams.
-\sloppy 
-\begin{description}
-\item[\docfilehook{Collision theory}{}] 
-Chemical reactions proceed at a molecular level by means of the collision of reactant molecules. The frequency of collisions is directly related to the reaction rate so that the more collisions per second the faster the reaction would proceed as the higher would be the chance for a reaction to occur. The collision theory of the chemical reactions associates the rate to the frequency of collisions. By increasing the concentration of reactants the number of collisions would increase and that is the reason why there is a concentration dependency on the reaction rate. However, not all collisions are equally effective and only effective collisions will contribute to chemical reactions. Two main factors control the effectiveness of the molecular collisions. First, the orientation of the collisions is critical and only certain orientations will produce successful collisions. The second factor is the energy of the molecules colliding. Only when the molecules have energy beyond a certain threshold they will be able to form products. In other words: a successful collision should have the right orientation and have enough energy. Let us elaborate on the role of the orientation for the reaction:
-\begin{center}\ce{Cl + NOCl -> Cl2 + NO}\end{center}
-We have that a Cl atom reacts with a \ce{NOCl} molecule to produce \ce{Cl2}, as represented in the image below. Only with the Cl atoms hit the \ce{NOCl} molecule through the Cl atom, the collision will proceed with the right orientation in order to produce the \ce{Cl2} molecule. At the same time, if the orientation is correct and the molecules have enough energy a transition state will form. We will discuss more this state during the next sections. 
-
-
+\section{\color{blue!30!black}{Collision theory}}\import{../\chapterlabel/files/}{SectionIntro-Collision-theory}
+\sloppy \begin{description}
+\item[\docfilehook{Collision theory}{}] \import{../\chapterlabel/files/}{Subsecion-Collision-theory}
+\item[\docfilehook{Transition state and activation energy}{}]\import{../\chapterlabel/files/}{Subsecion-Transition-state-and-activation-energy} 
+\import{../\chapterlabel/files/}{Figure-Transition-state-two-paths} 
+\item[\docfilehook{Effect of temperature}{}] \import{../\chapterlabel/files/}{Subsecion-Effect-of-temperature} 
+\item[\docfilehook{Concentration of reactants}{}] \import{../\chapterlabel/files/}{Subsecion-Concentration-of-reactants}
+\import{../\chapterlabel/problems/}{SampleProblem11}
+\hspace{2cm}\vspace{1cm}  \import{../\chapterlabel/files/}{Figure-Collision-theory} \newpage
+\item[\docfilehook{Catalysts}{}] \import{../\chapterlabel/files/}{Subsecion-Catalyst}
+\import{../\chapterlabel/files/}{Figure-Energy-profile-catalys}  
+\item[\docfilehook{Heterogeneous catalysis}{}] \import{../\chapterlabel/files/}{Subsecion-Hetero-Catalyst}
+\import{../\chapterlabel/files/}{Figure-catalyst-mechanism-steps}  
+\end{description}
 
  
 
-\item[\docfilehook{Transition state and activation energy}{}] 
-We have discussed that the energy of reactants is a key parameter during a reaction. The minimum energy needed to activate the reactants so that they can produce products is called activation energy. The higher the activation energy the more energy is needed for a reaction to happen and hence the lower the reaction rate will be. When reactants get together they increase their energy from reactants until a state of maximum energy before producing the products. This state of maximum energy is called an activated complex or transition state. Transition states are very ephemeral states and they exist for a very short amount of time in comparison to reactants and products. An example of activation happens during the ignition of a gas burner. Cooking gas and oxygen can react together to produce water and carbon dioxide only with the help of a spark. A spark is needed to activate the reactants so that their molecules can reach the transition state and hence produce products. Transition states are normally indicated with a $\ddag$  sign to indicate they have a very different nature than normal molecules. The figure below represents two reaction pathways with different activation energy.
-%\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\begin{tikzpicture}
- \begin{scope}[shift={(0,0)}] %transform canvas={scale=0.15}, 
-       \node[rotate=45] (a) at (0,1em) {\includegraphics[width=0.5cm]{../Ch-kinetics/delivery}}     node[rotate=0] (a) at (5.5em,1em) {\includegraphics[width=0.25cm]{../Ch-kinetics/home}}   ;
-  \draw[clip]  decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]  {(0,0) -- (0.5,0.6) -- (1,2) -- (1.5,0.6) -- (2,0)} -- (2,-0.7) -- (0,-0.7) -- (0,0);
-    \fill[brown](0,-.7) rectangle (2,2);
-    \fill[white]   decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]
-    {(.75,2) -- (0.85,1.5) -- (0.92,1.2) -- (0.99,1.7) -- (1.05,1.4) -- (1.3,2)} -- (0,2);
-     \end{scope}
- \begin{scope}[shift={(10em,0em)}] %transform canvas={scale=0.15}, 
-       \node[rotate=45] (a) at (0,1em) {\includegraphics[width=0.5cm]{../Ch-kinetics/delivery}}     node[rotate=0] (a) at (5.5em,1em) {\includegraphics[width=0.25cm]{../Ch-kinetics/home}}   ;
-  \draw[clip]  decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]  {(0,0) -- (0.5,0.6) -- (1,1.5) -- (1.5,0.6) -- (2,0)} -- (2,-0.7) -- (0,-0.7) -- (0,0);
-    \fill[green](0,-.7) rectangle (2,2);
-    \fill[white]   decorate [decoration={random steps,segment length=3pt,amplitude=1pt}]
-    {(.75,1.8) -- (0.80,1.3) -- (0.92,1.0) -- (0.99,1.5) -- (1.05,1.2) -- (1.3,1.8)} -- (0,1.8);
-     \end{scope}
- %    \node[text width=5cm, fontscale=0.1, shift={(9,-0)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A fast and a slow reaction pathway  };
-\end{tikzpicture}
-}\end{minipage}
-\item[\docfilehook{Effect of temperature}{}] 
-As temperature increases the kinetic energy of the molecules reacting increases as well and with this the energy involved in the collisions also increases. Molecules move faster at higher temperature and hence the frequency of collisions between reactants and molecules increases with temperature. Overall, the reaction rate increases with temperature. In other words, we can speed up chemical reactions by increasing temperature.
-\item[\docfilehook{Concentration of reactants}{}] 
-Another way to favor the collision between the molecules of reactants is to increase its concentration. The larger the concentration of reactants the higher the probability of their molecules to collide with each other potentially producing products.
-
-  \import{../\chapterlabel/problems/}{SampleProblem11}
-
-
-
-\hspace{2cm}\vspace{1cm}  \import{../\chapterlabel/files/}{Figure-Collision-theory} \newpage
-
-\item[\docfilehook{Catalysts}{}] 
-Catalysts are chemicals that are not directly involved in a reaction--they are neither reactants nor products and as such, they are not consumed during a reaction. Still, they have the ability to increase the rate of reactions. 
-Each catalyst is specific to a given reaction. As such, a catalyst can speed up a reaction without affecting other reactions. Enzymes are biological catalysts that support chemical reactions happening in the body. Most of the biological reactions involved in the chemistry of life are very slow. It is only with the help of biological catalysts that these reactions can indeed happen at reasonable rates. Every single metabolic reaction has associated an enzyme responsible for speeding up the process. Similarly, catalysts are well-known compounds in the chemical industry. The production of chemicals in the industry is also supported by the help of catalysts which make the chemical processes more economically beneficial. For example, catalysts are used in the manufacturing of margarine from vegetable oils. In the same line, the synthesis of ammonia is catalyzed by iron,  the manufacturing of sulfuric acid uses catalysts based on nitrogen(II) oxide and platinum, and the oxidation of hydrocarbons in automobile exhausts are catalyzed by platinum. Enzymes are also added to detergents in order to speed up the breaking of protein molecules in stains.
-How do catalysts work? Catalyst function by providing alternative reaction pathways with more favorable--normally lower--activation energy. This way, in the presence of a catalyst, reactions proceed by means of two different reaction pathways, the catalyzed and non-catalyzed pathways. Still, as the catalyzed pathway is more favorable the overall speed of the reaction is higher. 
-Catalysts can be classified as homogeneous, heterogeneous, and acid catalysts.
-\begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-    \begin{tikzpicture}[>=stealth]
- \draw[ very thick] 
-(-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (65:5)  to[out=60,in=180] (3.5,5.6)  to[out=0,in=180,looseness=0.4] ++ (3.05,-3.5) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
-
- \draw[dashed,very thick] (-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (61:3.4)  to[out=60,in=180] (2.6,3.6)  to[out=0,in=180,looseness=0.4] ++ (0.8,-3.5) to[out=0,in=180,looseness=0.4] ++ (0.75,2.7) to[out=60,in=180,looseness=0.8] ++ (0.2,0.1) to[out=0,in=180,looseness=0.1] ++ (1.0,-0.8) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
-
- \begin{scope}[transform canvas={scale=.3}, shift={(-4,2)}]
-  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
-        \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) ;
-     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Reactants} ;
-          \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
-   \end{scope}
-      \begin{scope}[transform canvas={scale=.3}, shift={(25,9)}]
-   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) ;
-        \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) ;%
-{};
-          \draw (0,0) node[below, shift={(1,-2)}]{\Huge Products} ;
-               \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
-  \end{scope}
-       \begin{scope}[transform canvas={scale=.3}, shift={(12,19)}]
-   \shade[ball color=red!80!  ] (2,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50! ] (2.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
-        \shade[ball color=green!50!] (-2,0) coordinate(Hp) circle (1.3) ;
-        \node[ shift={(-1.,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
-{};
-          \draw (0,0) node[below, shift={(0,-2)}]{\Huge TS} ;
-          \draw [red, thick] (-3.5,-2) to [square left brace ] (-3.5,3);
-                    \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.6)}] {\Huge \ddag};
-  \end{scope}
-
-  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.8,-2.5) -- (10,-2.5) node [midway, below] {Reaction coordinate};
-  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.5,-2.8) -- (-3.5,7) node [midway, below, rotate=90] {Energy};
-  \draw[<->,thick,red,shorten >=2mm,shorten <=2mm, shift={(-3.5em,0.0em)}] (3.5,-0.3) -- (3.5,3.5) node [fill=white,rounded corners=2pt,inner sep=1pt,midway, below, rotate=0, shift={(0,0)}] {Activation energy};
- \node[text width=12cm, fontscale=.2,shift={(4em,-10em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy diagram showing the catalyzed and non-catalyzed pathways  };
-\end{tikzpicture}
-}\end{minipage}
-\item[\docfilehook{Heterogeneous catalysis}{}] 
-A heterogeneous catalyst is a material with catalytic properties which has a different state of matter than the main reaction. For example, the synthesis of ammonia is carried in the chemical industry by means of reacting has hydrogen and nitrogen. The catalyst for this process is iron, which is a solid. The reaction proceeds in a gas phase, whereas the catalyst employed is solid. This is an example of heterogeneous catalysis. Another example of the hydrogenation of alkenes by means of molecular hydrogen. This process is used for example in the production of saturated fats or shortenings such as Crisco. As hydrogen hardly dissociates in gas, this reaction proceeds at a very low rate without the help of a catalyst. Differently, in the presence of platinum, the dissociation energy of hydrogen is lower what makes the process function at a faster rate. 
-The necessary steps for a reaction to happen on a heterogeneous catalyst are: 
-\begin{inparaenum}[(a)]
-\item  the adsorption of the reactants on the surface (the words adsorption refers to the attachment of a gas onto a solid)
-\item  the activation of the reactants in which its molecular geometry changes due to the adsorption 
-\item  the migration of the adsorbed reactants
-\item  the surface reaction
-\item  the desorption of the products
-\end{inparaenum}
-
- \vspace{0cm}
-%\begin{fullwidth}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-\begin{minipage}[b]{1.0\linewidth}\resizebox{1.2\textwidth}{!}{
-    \begin{tikzpicture}[
-        >=stealth,
-        iron/.style={shade, ball color=red},
-        electron/.style={shade, ball color=black},
-        oxygen/.style={shade, ball color=blue},
-        nitrogen/.style={shade, ball color=brown},
-        droplet/.style={ball color=blue!20, opacity=0.4},
-    ]
-    \tikzstyle{every node}=[font=\fontsize{5}{6}\selectfont]
-
-    %Draw the iron atoms
-    \foreach \x in {1,1.5,2,2.5,3,3.5,4,4.5,5}
-            \draw [iron] (\x,1,-0.5) circle (0.25cm);
-    \foreach \x in {1.25,1.75,2.25,2.75,3.25,3.75,4.25,4.75,5.25,5.75,6.25,6.75,7.25, 7.75}
-            \draw [iron] (\x,0.55,-0.5) circle (0.25cm);
-
-    %Draw the iron electrons; this isn't totally realistic for illustrating Fe+3 ions
-    \foreach \x in {1.25,1.75,2.25,2.75,3.25,3.75,4.25,4.75}
-            \draw [electron] (\x,1.25,-0.5) circle (0.1cm);
-    \foreach \x in {1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5}
-            \draw [electron] (\x,0.75,-0.5) circle (0.1cm);
-
-    %Draw the O2 molecules
-    \draw [oxygen] (1.5,2.0,-0.5) circle (0.15cm);  \draw [oxygen] (1.6,2.2,-0.5) circle (0.15cm);
-    \draw [nitrogen] (1.8,1.8,-0.5) circle (0.15cm);   \draw [nitrogen] (2.05,1.8,-0.5) circle (0.15cm);
-    \draw[->] (2.5,2.5)--(3,2.5) node[anchor=south, shift={(-5em,0em)}]{Gas} node[anchor=south, shift={(0em,-1em)}]{Adsorption};
-        \draw [oxygen] (3.5,2.0,-0.5) circle (0.15cm);  \draw [oxygen] (3.6,2.2,-0.5) circle (0.15cm);
-    \draw [nitrogen] (3.0,1.7,-0.5) circle (0.15cm);   \draw [nitrogen] (3.05,1.4,-0.5) circle (0.15cm);
-    \draw[->] (4.0,1.7)--(4.5,1.7) node[anchor=south, shift={(-1em,0em)}]{Reaction}  ;
-
-   \draw [nitrogen] (4.49,1.4,-0.5) circle (0.15cm);   \draw [nitrogen] (5.19,1.3,-0.5) circle (0.15cm);
-      \draw [oxygen] (4.5,1.7,-0.5) circle (0.15cm);  \draw [oxygen] (4.6,2.0,-0.5) circle (0.15cm);
-       \draw[->] (6.0,1.3)--(6.5,1.3) node[anchor=south, shift={(-1em,0em)}]{Desorption}  ;
-
-    \draw [nitrogen] (7.49,1.4,-0.5) circle (0.15cm);   
-      \draw [oxygen] (7.5,1.7,-0.5) circle (0.15cm);  \draw [oxygen] (7.6,2.0,-0.5) circle (0.15cm);
-      
-    \draw [nitrogen] (6.7,0.9,-0.5) circle (0.15cm); 
-
-
-       \node[text width=10cm,shift={(9,2)}] at (-8em,-5em) { {\fontsize{5}{6}\selectfont  {\fontsize{6}{6}\selectfont \begin{bf}\color{black}\bfseries Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} }Steps in a heterogeneously catalyzed reaction}  };
-
-\end{tikzpicture}
-}\end{minipage}
-%\end{fullwidth}
-
-
-
-
+\section{Use of energy diagrams}
+\sloppy 
+\begin{description}
 
 \item[\docfilehook{Energy diagrams}{}] 
 Energy profile, or energy diagrams, are a visual representation of the advancing of a reaction. Reactions advance through changes in the geometry of the reaction and during a reaction, for example, some bonds are being formed while others are being broken.
@@ -591,6 +451,7 @@ The horizontal axis of the diagram represents the reaction coordinate, represent
   \node[below,xshift=4pt] at (N1-3) {H + H } node[above,yshift=5pt] at (N1-3) {\small -25};
  \end{endiagram}\end{center}
 We can extract two types pf properties from energy diagrams. First, the reaction energy $\Delta H_R$ is the difference in energy between the products and reactants. If this value is negative, the reaction will be exothermic, releasing heat. The opposite is true for an endothermic reaction that consumes heat. Second, we can obtain the activation energy as the energy of the transition state with respect to the energy of the reactants. The activation energy will always be a positive number which value is related with the reaction rate: in general small activation energies lead to fast reactions and large activation energies lead to slow reactions. Below are two examples showing an exothermic and endothermic reactions, as well as a diagram showing the activation energy.
+
 
 
 
@@ -618,6 +479,12 @@ We can extract two types pf properties from energy diagrams. First, the reaction
 \end{tikzpicture}\end{minipage}
 
 
+\end{description}
+
+
+\section{The Arrhenius equation}
+\sloppy 
+\begin{description}
 \item[\docfilehook{The Arrhenius equation on its exponential form}{}] 
 The Arrhenius equation gives the dependency of the rate constant with the frequency factor and the activation energy. We will introduce this equation in two forms: an exponential and a linear form. However, in this section we will focus on the exponential form of this equation:
 \begin{equation}
