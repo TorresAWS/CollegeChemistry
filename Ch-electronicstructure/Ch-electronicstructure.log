@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2023 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5116,8 +5116,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 ) [2])
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-An
 -introduction-to-electron-dot-structures
-Underfull \hbox (badness 1490) in paragraph at lines 1--3
-[]\T1/ptm/m/n/10 (+20) Bellow, you will find
+Underfull \hbox (badness 2809) in paragraph at lines 1--3
+[]\T1/ptm/m/n/10 (+20) Below, you will find
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5134,14 +5134,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 14.
 )
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
-ectron-dot-structure-of-diatomic-molecules)
-(../Ch-electronicstructure/problems/SampleProblem3
-(../Ch-electronicstructure/problems/StudyCheck3)
-Underfull \hbox (badness 10000) in paragraph at lines 1--10
+ectron-dot-structure-of-diatomic-molecules
+Underfull \hbox (badness 10000) in paragraph at lines 1--8
 []\T1/ptm/m/n/10 (+20) Electron-dot
  []
 
-) [3]
+) (../Ch-electronicstructure/problems/SampleProblem3
+(../Ch-electronicstructure/problems/StudyCheck3)) [3]
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
 ectron-dot-structure-of-general-molecules)
 (../Ch-electronicstructure/problems/SampleProblem4
@@ -5184,7 +5183,7 @@ s/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
 ))
 (../Ch-electronicstructure/files/SubSection-Molecular-shape-VSEPR-model-continu
-ed) [10] (../Ch-electronicstructure/files/Table-Molecular-geometries
+ed) (../Ch-electronicstructure/files/Table-Molecular-geometries [10]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5298,9 +5297,9 @@ nd-multiple-bonds) [12]
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Bond-polarity
 )
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-d
-iatomic-molecules [13])
+iatomic-molecules)
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
-h-the-same-polarity)
+h-the-same-polarity) [13]
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-l
 arger-molecules) (../Ch-electronicstructure/problems/SampleProblem8
 (../Ch-electronicstructure/problems/StudyCheck8
@@ -5310,7 +5309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
 ))
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-and-
-mixing) (../Ch-electronicstructure/files/Table-ABE-Code-hybridization [14]
+mixing) (../Ch-electronicstructure/files/Table-ABE-Code-hybridization
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 30.
@@ -5340,12 +5339,12 @@ Overfull \hbox (34.15282pt too wide) in paragraph at lines 1--31
 []   [] [][] 
  []
 
-)
+[14])
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
 h-the-same-polarity)
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
-h-different-polarity) [15]
-(../Ch-electronicstructure/files/SectionIntro-Molecular-orbital-theory)
+h-different-polarity)
+(../Ch-electronicstructure/files/SectionIntro-Molecular-orbital-theory [15])
 (../Ch-electronicstructure/files/SideFigure-CH4-hybrid)
 (../Ch-electronicstructure/files/SubSection-Hybrid-orbitals-From-ABE--code-to-h
 ybridization
@@ -5429,16 +5428,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
-f-molecular-helium
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
+f-molecular-helium) (../Ch-electronicstructure/files/Figure-He-orbital-diagrams
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-) (../Ch-electronicstructure/files/Figure-He-orbital-diagrams)
+)
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-From-MO-di
 agram-to-MO-configuration)
 (../Ch-electronicstructure/files/Figure-N2-orbital-diagram
-Underfull \vbox (badness 2894) has occurred while \output is active []
+Underfull \vbox (badness 5091) has occurred while \output is active []
 
  [19])
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Bond-order
@@ -5477,11 +5477,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  (./Ch-electronicstructure.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `Ch-electronicstructure.out' has not changed.
 
 (rerunfilecheck)             Checksum: 8DE3758DD60FB5FDE7945898A7AA4A5A;1126.
@@ -5501,10 +5501,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 83048 strings out of 493014
- 1881824 string characters out of 6133351
- 2751439 words of memory out of 5000000
- 84501 multiletter control sequences out of 15000+600000
+ 82834 strings out of 493014
+ 1877046 string characters out of 6133351
+ 2751322 words of memory out of 5000000
+ 84287 multiletter control sequences out of 15000+600000
  201590 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,109p,10626b,2383s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5534,7 +5534,7 @@ onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Ch-electronicstructure.pdf (22 pages, 1658459 bytes).
+Output written on Ch-electronicstructure.pdf (22 pages, 1654116 bytes).
 PDF statistics:
  436 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams

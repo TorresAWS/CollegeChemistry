@@ -7,18 +7,18 @@ When the valence of an atom in a molecule is larger than the valence of the free
 \setbondoffset{4pt} 
 \setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2:4.6:,\color{blue}}(N@{c}) ( (-[:0 ]\lewis{4.,H}) (-[:180 ]\lewis{0.,H}) )} \end{center}
  \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (c) {};}\setbondoffset{2pt}
-the number of electrons surrounding nitrogen is six electrons, more than the number of electrons originally brought to the molecule (five). We conclude that the atoms has negative charge, and the effective atomic charge of nitrogen is Q=-1. In the next example, 
+the number of electrons surrounding nitrogen is six electrons, more than the number of electrons originally brought to the molecule (five). We conclude that the atoms have a negative charge, and the effective atomic charge of nitrogen is Q=-1. In the next example, 
 \setbondoffset{4pt} 
 \setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2.4.6.,\color{blue}}(N@{b}) ( (-[:0 ]\lewis{4.,H})(-[:90 ]\lewis{6.,H})(-[:180 ]\lewis{0.,H})(-[:270 ]\lewis{2.,H}))} \end{center}
  \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (b) {};}\setbondoffset{2pt}
-the central atom, nitrogen, still has a five valence electrons. After counting the electrons surrounding nitrogen, this time we find that this atoms is surrounded by four electrons, less than the number of electrons originally brought to the molecule. We can conclude that nitrogen has a positive charge. In particular, the effective atomic charge of nitrogen in this molecule is the number of valence electrons menus the number of surrounding electrons. In this case, the atomic charge is Q=+1.
+the central atom, nitrogen, still has five valence electrons. After counting the electrons surrounding nitrogen, this time we find that this atom is surrounded by four electrons, less than the number of electrons originally brought to the molecule. We can conclude that nitrogen has a positive charge. In particular, the effective atomic charge of nitrogen in this molecule is the number of valence electrons minus the number of surrounding electrons. In this case, the atomic charge is Q=+1.
 When the valence of an atom in a molecule is the same as the valence of the free atoms we have zero effective charges. In this last example  
 \setbondoffset{4pt} 
 \setlewis[1em]{6pt}{1.5ex}{}\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{\lewis{0.2:4.6.,\color{blue}}(N@{a}) ( (-[:0 ]\lewis{4.,H})(-[:180 ]\lewis{0.,H})(-[:270 ]\lewis{2.,H}))} \end{center}
  \chemmove{\node  [dotted, circle, thick, draw=black, minimum size=0.7cm, yshift=.15cm,xshift=-.15cm] at (a) {};}\setbondoffset{2pt}
-the central atom, nitrogen, has a five valence electrons.  
+the central atom, nitrogen, has five valence electrons.  
 After counting the electrons surrounding nitrogen--remember in a bond each atom shared an electron and hence each line around an atom counts as one electron--we find that this atom is surrounded by five electrons. As the number of valence electrons brought to the molecule is the same as the number of electrons surrounding the atom, we say the atomic charge of this atom is zero (Q=0). Hence, the atom is neutral.
-In all the molecules above, hydrogen remains neutral and hence the atomic charge of nitrogen corresponds to the molecular charge of the molecule. We can hence summarize the three scenarios indicated, as we have a neutral molecule on the center, a positive molecule on the right and a negative molecule on the left.
+In all the molecules above, hydrogen remains neutral and hence the atomic charge of nitrogen corresponds to the molecular charge of the molecule. We can hence summarize the three scenarios indicated, as we have a neutral molecule in the center, a positive molecule on the right, and a negative molecule on the left.
  \begin{center}
  \setatomsep{2.25em}
 \chemleft[\chemfig{\lewis{2:6:,\color{blue}}(N ) ( (-[:0 ]H) (-[:180 ]H) )} \chemright] \chemmove{\node[] at (0pt,15pt) {\footnotesize $ -$};} \hspace{.8cm}
@@ -27,10 +27,8 @@ In all the molecules above, hydrogen remains neutral and hence the atomic charge
   \chemleft[ \chemfig{\lewis{,\color{blue}}(N ) ( (-[:0 ]H)(-[:90 ]H)(-[:180 ]H)(-[:270 ]H))} \chemright] \chemmove{\node[] at (0pt,19pt) {\footnotesize $ +$};}
 \end{center}
 \setlewis[1em]{2pt}{1.5ex}{}
-The atomic charge of an isolated atom can be well defined. However, the atomic charge of an atom in a molecule is arbitrarily defined, and more than one definition exists. Formal charges are one of the possible definitions of atomic charges in a molecule, whereas redox numbers are an alternative definition of atomic charges in molecules. None of these definitions is exactly correct. For example, redox numbers tend to overestimate the atomic charges, as they assume that all shared electrons in a bond belong to the most electronegative atom. Normally, negative formal charges tend to reside on electronegative atoms and not on electropositive atoms. At the same time, the sum of all effective charges needs to give the overall charge of the species. Furthermore, atoms in molecules tend to achieve formal charges as close to zero as possible. 
+The atomic charge of an isolated atom can be well-defined. However, the atomic charge of an atom in a molecule is arbitrarily defined, and more than one definition exists. Formal charges are one of the possible definitions of atomic charges in a molecule, whereas redox numbers are an alternative definition of atomic charges in molecules. None of these definitions is exactly correct. For example, redox numbers tend to overestimate the atomic charges, as they assume that all shared electrons in a bond belong to the most electronegative atom. Normally, negative formal charges tend to reside on electronegative atoms and not on electropositive atoms. At the same time, the sum of all effective charges needs to give the overall charge of the species. Furthermore, atoms in molecules tend to achieve formal charges as close to zero as possible. 
 One can use formal charges to assess the validity of a Lewis structure. When comparing a series of equivalent Lewis structures for a molecule, the structures that best describe the bonding in the molecule tend to be those with small effective charges located on electronegative atoms.
-
- 
 
 
 
