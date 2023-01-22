@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2022 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JAN 2023 19:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5109,12 +5109,12 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume,-V [1
+(../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume-V) [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-G
-as/figure1.png>]) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Temperat
-ure,-T)
+as/figure1.png>] (../Ch-Gas/files/SubSection-Gases-and-its-properties-Temperatu
+re,-T)
 (../Ch-Gas/files/Figure-Gas-Table
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
@@ -5333,12 +5333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 (../Ch-Gas/problems/StudyCheck4))
 (../Ch-Gas/files/SectionIntro-Change-of-gas-properties) [6]
 (../Ch-Gas/files/SubSection-Change-of-gas-properties-Solving-problems-with-an-i
-nitial-and-final-state
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-[]\T1/ptm/m/n/10 (+20) In or-der to
- []
-
-) (../Ch-Gas/problems/SampleProblem5
+nitial-and-final-state) (../Ch-Gas/problems/SampleProblem5
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
  [][] 
  []
@@ -5432,21 +5427,34 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 
-Overfull \hbox (14.07593pt too wide) in paragraph at lines 4--16
+Overfull \hbox (2.07593pt too wide) in paragraph at lines 4--16
  [] 
  []
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <../Ch-Gas/figure8.png>])
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-
 gas-over-water
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
-[12 <../Ch-Gas/figure8.png>]) (../Ch-Gas/problems/SampleProblem9
-(../Ch-Gas/problems/StudyCheck9))
+) (../Ch-Gas/problems/SampleProblem9 (../Ch-Gas/problems/StudyCheck9) [13])
+(../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-Kinetic-theory-of-gases [14]) (../Ch-Gas/problems/SampleProblem11
+(../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
+Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
+[][] 
+ []
+
+)
+(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
+s-Distribution-of-velocities)
 (../Ch-Gas/files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-ga
-ses-) [13]
+ses-) [15]
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-Van-der-Waals-equation-for-real-gases) (../Ch-Gas/files/Table-Real-Gas
 
@@ -5461,20 +5469,10 @@ Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
 )
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-The-meaning-of-the-Van-der-Waals) (../Ch-Gas/problems/SampleProblem10
-(../Ch-Gas/problems/StudyCheck10) [14])
-(../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Kinetic-theory-of-gases [15]) (../Ch-Gas/problems/SampleProblem11
-(../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
-Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
-[][] 
- []
+(../Ch-Gas/problems/StudyCheck10) [16]) [17] [18
 
-)
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Distribution-of-velocities) [16] [17
-
-]) (../Ch-Gas/Ch-GasProblems.tex
+])
+(../Ch-Gas/Ch-GasProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5517,7 +5515,7 @@ vailable
  line 12.
 )
 (../Ch-Gas/problems/problems/GeneralProblems-Measuring-pressure)
-(../Ch-Gas/problems/problems/GeneralProblems-Ideal-Gas-Law [18
+(../Ch-Gas/problems/problems/GeneralProblems-Ideal-Gas-Law [19
 
 
 ]
@@ -5547,10 +5545,10 @@ NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 ) (../Ch-Gas/problems/problems/GeneralProblems-Change-of-Gas-Properties)
 (../Ch-Gas/problems/problems/GeneralProblems-Mixture-of-Gases)
-(../Ch-Gas/problems/problems/GeneralProblems-Mixture-of-Gases-tanks [19])
+(../Ch-Gas/problems/problems/GeneralProblems-Mixture-of-Gases-tanks [20])
 (../Ch-Gas/problems/problems/GeneralProblems-gas-stoichiometry)
 (../Ch-Gas/problems/problems/GeneralProblems-Real-gases-and-the-kinetic-molecul
-ar-theory-of-gases) [20]
+ar-theory-of-gases) [21]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5596,7 +5594,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 36--47
 []$[]$ 
  []
 
-[21
+[22
 
 ])
 
@@ -5616,9 +5614,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5389.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5389.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5389.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D5F7D4C778ACD64A2E3265CFB144FAED;1177.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D5F7D4C778ACD64A2E3265CFB144FAED;1177
+(rerunfilecheck)             After:  1BC0169480BEE9070A74E40B8F4310C0;1373.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5632,13 +5636,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5389.
  ) 
 Here is how much of TeX's memory you used:
- 82301 strings out of 493014
- 1861012 string characters out of 6133351
- 2667989 words of memory out of 5000000
- 83655 multiletter control sequences out of 15000+600000
- 377838 words of font info for 416 fonts, out of 8000000 for 9000
+ 82305 strings out of 493014
+ 1861025 string characters out of 6133351
+ 2666668 words of memory out of 5000000
+ 83654 multiletter control sequences out of 15000+600000
+ 377947 words of font info for 417 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,22n,115p,10369b,3187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,22n,115p,10369b,3171s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -5668,10 +5672,10 @@ type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (21 pages, 4063825 bytes).
+Output written on main.pdf (22 pages, 4064837 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 149 named destinations out of 1000 (max. 500000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 152 named destinations out of 1000 (max. 500000)
  100410 words of extra memory for PDF output out of 106986 (max. 10000000)
 
