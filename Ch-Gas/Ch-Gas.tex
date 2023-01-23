@@ -3,8 +3,12 @@
 
 \begin{document}
  
- \import{../\chapterlabel/files/}{ChapterName}
-
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{6} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
 %\begin{marginfigure}
 %      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
 %\end{tikzpicture}
@@ -49,13 +53,18 @@
  \import{../\chapterlabel/files/}{SideFigure-Gases}
 \item[\docfilehook{Pressure, P}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Pressure,-P}
 \import{../\chapterlabel/problems/}{SampleProblem1}
+%%%%%%%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
  \import{../\chapterlabel/files/}{Figure-Pressure}
 \item[\docfilehook{Measuring pressure}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Measuring-pressure}
+ \import{../\chapterlabel/files/}{Figure-Manometer} \section{Ideal gas law}\import{../\chapterlabel/files/}{SectionIntro-Ideal-gas-law}
+}
+%%%%%%%%%NOT FOR 121
+
 \end{description}
 
 
 
- \import{../\chapterlabel/files/}{Figure-Manometer} \section{Ideal gas law}\import{../\chapterlabel/files/}{SectionIntro-Ideal-gas-law}
 \sloppy \begin{description}
 \item[\docfilehook{Ideal gas law in terms of moles}{}]  \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles}
 \import{../\chapterlabel/problems/}{SampleProblem2}
@@ -95,6 +104,7 @@
 \import{../\chapterlabel/problems/}{SampleProblem8}
 \end{description}
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%NOT FOR 121%%%%%%%%%%%%
  \section{Collecting gas over water}
  \import{../\chapterlabel/files/}{Figure-Gas-Collection-in-water}
@@ -105,6 +115,8 @@
 \import{../\chapterlabel/problems/}{SampleProblem9}
 \end{description}
 %%%%%NOT FOR 121%%%%%%%%%%%%
+ 
+}
 
 
 
@@ -117,6 +129,9 @@
  \import{../\chapterlabel/files/}{Figure-Kinetic-theory}
  \item[\docfilehook{Distribution of velocities}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Distribution-of-velocities}
 \end{description}
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+
 %%%%%NOT FOR 121%%%%%%%%%%%%
  \section{Real gases }\import{../\chapterlabel/files/}{SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-gases-}
 \sloppy \begin{description}
@@ -126,7 +141,8 @@
 \import{../\chapterlabel/problems/}{SampleProblem10}
 \end{description}
 %%%%%NOT FOR 121%%%%%%%%%%%%
-
+ 
+}
 
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
 \end{document}
