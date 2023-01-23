@@ -1,5 +1,6 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-thermochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
 
 \begin{document}
  
@@ -8,7 +9,7 @@
 \import{../\chapterlabel/files/}{ChapterName} % NOT FOR 121
 }
  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
- \chapter[Energy and Matter]{Energy and Matter}\setcounter{chapter}{1}   }{} %FOR 121
+ \setcounter{chapter}{1}\chapter[Energy and Matter]{Energy and Matter}   }{} %FOR 121
  
 
 
