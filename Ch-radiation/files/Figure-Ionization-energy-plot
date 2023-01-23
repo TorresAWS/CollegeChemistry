@@ -1,6 +1,9 @@
+\newsavebox\AxisA
+\newsavebox\Axisb
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newsavebox{\AxisA}\sbox{\AxisA}{
+ \sbox{\AxisA}{
 %%\savebox\Axis{
 \begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
  \begin{scope}[xshift =0em, yshift =0em, scale=1]
