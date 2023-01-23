@@ -4,7 +4,16 @@
 \begin{document}
  
 
-\chapter[The Mole and Chemical Reactions ]{The Mole and Chemical Reactions}
+
+
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{5} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+
+
 %
 %    \begin{marginfigure}
 %\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
