@@ -6,9 +6,12 @@
 %\linenumbers
 %\setcounter{chapter}{8}
   
-   \import{../\chapterlabel/files/}{ChapterName}
-%\label{ch:atoms}
-
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{8} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
 
 %      \begin{marginfigure}
 %      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../Ch-equilibrium/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PxFuel} ;
@@ -70,6 +73,7 @@
 \import{../\chapterlabel/problems/}{SampleProblem5}
 \end{description}
  
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%NOT FOR 121
 \section{ Concentration or pressure ratio}
 \import{../\chapterlabel/files/}{SectionIntro-Concentration-or-pressure-ratio}
@@ -79,6 +83,8 @@
 \end{description}
 \import{../\chapterlabel/problems/}{SampleProblem6}
 \import{../\chapterlabel/files/}{SideFigure-Image-of-le-chatelier}
+}
+
 
 \section{ {Le Ch\^{a}telier principle}}
 \import{../\chapterlabel/files/}{SectionIntro-Le-Chatelier-principle}
@@ -91,6 +97,37 @@
 \import{../\chapterlabel/files/}{Table-Le-chatelier} 
 \end{description}
 \import{../\chapterlabel/problems/}{SampleProblem7}
+
+
+
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+
+
+%%%%%%%%%%%%%%FIR 121
+\renewcommand\chapterlabel{Ch-kinetics}
+\section{\color{blue!30!black}{Collision theory}}\import{../\chapterlabel/files/}{SectionIntro-Collision-theory}
+\sloppy \begin{description}
+\item[\docfilehook{Collision theory}{}] \import{../\chapterlabel/files/}{Subsecion-Collision-theory}
+\item[\docfilehook{Transition state and activation energy}{}]\import{../\chapterlabel/files/}{Subsecion-Transition-state-and-activation-energy} 
+\import{../\chapterlabel/files/}{Figure-Transition-state-two-paths} 
+\item[\docfilehook{Effect of temperature}{}] \import{../\chapterlabel/files/}{Subsecion-Effect-of-temperature} 
+\item[\docfilehook{Concentration of reactants}{}] \import{../\chapterlabel/files/}{Subsecion-Concentration-of-reactants}
+\import{../\chapterlabel/problems/}{SampleProblem11}
+\hspace{2cm}\vspace{1cm}  \import{../\chapterlabel/files/}{Figure-Collision-theory} \newpage
+\item[\docfilehook{Catalysts}{}] \import{../\chapterlabel/files/}{Subsecion-Catalyst}
+\import{../\chapterlabel/files/}{Figure-Energy-profile-catalys}  
+\item[\docfilehook{Heterogeneous catalysis}{}] \import{../\chapterlabel/files/}{Subsecion-Hetero-Catalyst}
+\import{../\chapterlabel/files/}{Figure-catalyst-mechanism-steps}  
+\end{description}
+
+
+\renewcommand\chapterlabel{Ch-equilibrium}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+}{}
+
+
 
 
 

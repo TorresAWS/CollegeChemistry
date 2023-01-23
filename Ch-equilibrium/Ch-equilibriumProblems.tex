@@ -22,6 +22,7 @@
 \import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-The-equilibrium-constant-of-a-reaction}
 \import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-Equilibrium-constant-expression}
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%NOT FOR 121
 {\raggedright\textsc{\textbf{Using equilibrium constants }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Concentration-or-pressure-ratio}
@@ -30,7 +31,7 @@
 %%%%%NOT FOR 121
 {\raggedright\textsc{\textbf{Concentration ratio }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Concentration-or-pressure-ratio-Definition-of-concentration-ratio}
-
+}
 
 {\raggedright\textsc{\textbf{Le Ch\^{a}telier principle}}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Le-chatelier}
@@ -54,8 +55,8 @@
   headings = inline-nr , % numbered and inline
   counter-format = qu) , % numbers 1) 2) ... 
 }
-%\printsolutions 
- \printsolutions[byID={1,3,5,7,9,11,13,15,17}]
+\printsolutions 
+% \printsolutions[byID={1,3,5,7,9,11,13,15,17}]
 % \printsolutions[byID={1,3,5,7,9,11}]  %%FOR 121
 \end{localsize}
 \end{minipage}\end{answersenvironment}
