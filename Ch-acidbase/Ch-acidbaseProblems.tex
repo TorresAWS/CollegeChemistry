@@ -12,10 +12,12 @@
 {\raggedright\textsc{\textbf{The nature of acids and bases}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Arrhenius-acid-base-model}
  \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Bronsted-acids}
- % % %%%%%%%%%%%%%NOT FOR 121
+ 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+% % %%%%%%%%%%%%%NOT FOR 121
  \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Lewis-acid-base-model}
  % %%%%%%%%%%%%%NOT FOR 121
-
+}
 {\raggedright\textsc{\textbf{Dissociations of acids \& bases}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-Strength-of-acids-and-bases-Strength-of-acids-and-bases-}
  \import{../\chapterlabel/problems/problems/}{Problems-Dissociation-of-acids-and-bases-Conjugate-acids-and-bases}
@@ -24,7 +26,8 @@
  \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-Protons-and-Hydroxyls}
  \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-The-PH-scale}
  
- %%%%%%%%%%%%%NOT FOR 121
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%%%%%%%%%%NOT FOR 121
   {\raggedright\textsc{\textbf{PH of strong acid-base solutions}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-strong-electrolyte-solutions} 
   %%%%%%%%%%%%%NOT FOR 121
@@ -35,20 +38,24 @@
  \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases} 
  \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases-Solutions-of-acids-and-bases} 
 % %%%%%%%%%%%%%NOT FOR 121
-	
+}	
 
 
 {\raggedright\textsc{\textbf{Buffer solutions}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-Buffer-solutions-Buffers}
   \import{../\chapterlabel/problems/problems/}{Problems-Buffer-solutions-PH-of-a-Buffer-solution}
-  % % %%%%%%%%%%%%%NOT FOR 121
+  
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+% % %%%%%%%%%%%%%NOT FOR 121
  \import{../\chapterlabel/problems/problems/}{Problems-Buffer-solutions-PH-of-Buffer-solution-mixed-with-acids-or-bases} 
  \import{../\chapterlabel/problems/problems/}{Problems-Buffer-solutions-PH-of-a-Buffer-solution-with-weak-acid} 
 % % %%%%%%%%%%%%%NOT FOR 121
+}
 
 {\raggedright\textsc{\textbf{Titrations}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-Titrations-Endpoint-formula}
  
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
  %  % %%%%%%%%%%%%%NOT FOR 121
  {\raggedright\textsc{\textbf{Titration curves}}\par}
  \import{../\chapterlabel/problems/problems/}{Problems-Titrations-Titration-curves}
@@ -61,7 +68,7 @@
 {\raggedright\textsc{\textbf{Titrations of polyprotic acids}}\par} 
  \import{../\chapterlabel/problems/problems/}{Problems-Titrations-of-polyprotic-acids} 
  % %%%%%%%%%%%%%NOT FOR 121
-
+}
 \end{multicols*}
 
 
