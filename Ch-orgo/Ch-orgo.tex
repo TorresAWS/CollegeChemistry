@@ -11,7 +11,14 @@
 \definesubmol{CH2}{CH_2}
 
 
-\import{../\chapterlabel/files/}{ChapterName}
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{10} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+
+
 %\begin{marginfigure}\includegraphics{../{\chapterlabel}/figure1} \end{marginfigure}
 \import{../\chapterlabel/files/}{ChapterIntro}
 
