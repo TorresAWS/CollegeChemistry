@@ -4,9 +4,21 @@
 \begin{document}
 
 %  \import{../\chapterlabel/files/}{ChapterTitle}
- \setcounter{chapter}{2}\chapter[Atoms]{Atoms} % FOR 121
 
  
+ 
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName} % NOT FOR 121
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{3}\chapter[Atoms]{Atoms} % FOR 121   }{} %FOR 121
+ 
+
+
+
+
+
+
  
 %\begin{marginfigure}
 %      \includegraphics{../{\chapterlabel}/figure1}
@@ -72,7 +84,7 @@
  \import{../\chapterlabel/files/}{Table-Isotopes}
 \end{description}
 
-
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
 \section{An introduction to molecules}\import{../\chapterlabel/files/}{SectionIntro-An-introduction-to-molecules} 
 \sloppy\begin{description} 
@@ -82,8 +94,9 @@
 \import{../\chapterlabel/problems/}{SampleProblem5} 
 \end{description} 
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
+}
 
-
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
 \section{Empirical and molecular formula of a chemical} \import{../\chapterlabel/files/}{SectionIntro-Empirical-and-molecular-formula-of-a-chemical} 
 \import{../\chapterlabel/problems/}{SampleProblem6} 
@@ -92,7 +105,8 @@
 \import{../\chapterlabel/problems/}{SampleProblem7} 
 \end{description} 
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
-
+}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
 \section{Determining empirical formulas} \import{../\chapterlabel/files/}{SectionIntro-Determining-empirical-formulas} 
 \sloppy\begin{description} 
@@ -100,9 +114,9 @@
 \import{../\chapterlabel/problems/}{SampleProblem8} 
 \end{description} 
 %%%%%%%%%%%%%%%%%%%%%NOT FOR 121
+}
 
-
-
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% FOR 121
 %\renewcommand\chapterlabel{Ch-radiation}
@@ -158,6 +172,7 @@
 %\end{description}
 %\renewcommand\chapterlabel{Ch-Table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}{}
 
 
 

@@ -28,27 +28,32 @@
 \import{../\chapterlabel/problems/problems/}{Problems-Atomic-number-mass-number}
 \import{../\chapterlabel/problems/problems/}{Problems-Isotopic-abundace}
 
-{\raggedright\textsc{\textbf{An introduction to molecules }}\par}%%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Molar-mass}%%%NOT FOR 121
+%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+{\raggedright\textsc{\textbf{An introduction to molecules }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Molar-mass} 
+{\raggedright\textsc{\textbf{Empirical and Molecular Formulas }}\par}  
+\import{../\chapterlabel/problems/problems/}{Problems-Empirical-formulas} 
+}
+%%%NOT FOR 121
 
 
-{\raggedright\textsc{\textbf{Empirical and Molecular Formulas }}\par} %%%NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-Empirical-formulas}%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%
+\renewcommand\chapterlabel{Ch-radiation}
+{\raggedright\textsc{\textbf{Electronic structure }}\par} 
+\import{../\chapterlabel/problems/problems/}{Problems-Electronic-configuration-Electron-energy-levels-and-sublevels}
+\import{../\chapterlabel/problems/problems/}{Problems-Electronic-configuration-Full-electron-Configuration}
 
-%%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%
-%\renewcommand\chapterlabel{Ch-radiation}
-%{\raggedright\textsc{\textbf{Electronic structure }}\par} 
-%\import{../\chapterlabel/problems/problems/}{Problems-Electronic-configuration-Electron-energy-levels-and-sublevels}
-%\import{../\chapterlabel/problems/problems/}{Problems-Electronic-configuration-Full-electron-Configuration}
-%
-%
-%{\raggedright\textsc{\textbf{Periodic Properties }}\par}
-%  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Atomic-radius}
-%  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Electronegativity,-EN}
-%  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Ionization-Energy}
-%  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Metallic-character}
-%\renewcommand\chapterlabel{Ch-Table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\raggedright\textsc{\textbf{Periodic Properties }}\par}
+  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Atomic-radius}
+  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Electronegativity,-EN}
+  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Ionization-Energy}
+  \import{../\chapterlabel/problems/problems/}{Problems-Periodic-Trends-Metallic-character}
+\renewcommand\chapterlabel{Ch-Table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}{}
 
 
 
