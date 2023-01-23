@@ -9,7 +9,20 @@
 
 
 
-\import{../\chapterlabel/files/}{ChapterName}
+
+
+
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/files/}{ChapterName} % NOT FOR 121
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{4}  \import{../\chapterlabel/files/}{ChapterName}  % FOR 121   
+ }{} %FOR 121
+ 
+ 
+ 
+ 
+ 
 %\begin{marginfigure}\includegraphics{../{\chapterlabel}/figure1} \end{marginfigure}
 \import{../\chapterlabel/files/}{ChapterIntro}
 %\begin{marginfigure}%LEARNING GOALS BOX
