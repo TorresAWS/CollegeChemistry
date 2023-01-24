@@ -7,7 +7,6 @@
 \definecolor{mylightblue}{RGB}{220,228,255}
 \definecolor{myblue}{RGB}{183,191,229}
 \definecolor{mydarkblue}{RGB}{50,70,190}
-
 \begin{fullwidth}
 \begin{tikzpicture}[scale=1]
 \begin{scope}[shift={(8.0,0)},rotate=00] 
@@ -70,5 +69,5 @@
 
  \node[text width=15cm, fontscale=.3,shift={(15em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Three models of the atom. From left to right: the plum puding model, the updated plum pudding model according to Rutherford's observations, (two right images) the modern atomic model. $Z$ is the atomic number of the atom.};
 
-\end{tikzpicture}\end{fullwidth}
-
+\end{tikzpicture}
+\end{fullwidth}
