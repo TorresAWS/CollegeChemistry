@@ -24,15 +24,15 @@ $\epsilon_{prot}=4\frac{kcal}{g}$\\
 \tcbitem[swotbox = A]
 Energy Content\\
 \end{tcbitemize}%%% DATA BOX
-\item \begin{bf}Step two:\end{bf} use the formula $E_{fat}=m_{fat}\cdot \epsilon_{fat}$ to calculate the energy coming from fat. And do the same for carbs and protein:\vspace{2cm}
- %%%% COMMENTED EQUATION
- \begin{equation*}
-    E_{fat}= \,\,\,\,\tikzmark{B}{$m_{fat}$}\,\,\,\,\,\,\cdot\,\,\, \,\,\, \tikzmark{C}{$\epsilon_{fat}$}
-\end{equation*}
-\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
-   \node[red] (Bdescr) [below =of B]{$28g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
-   \node[purple] (Cdescr) [below right =of C]{9};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
-\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
+\item \begin{bf}Step two:\end{bf} use the formula $E_{fat}=m_{fat}\cdot \epsilon_{fat}$ to calculate the energy coming from fat. And do the same for carbs and protein.\vspace{2cm}
+ %%%%% COMMENTED EQUATION
+% \begin{equation*}
+%    E_{fat}= \,\,\,\,\tikzmark{B}{$m_{fat}$}\,\,\,\,\,\,\cdot\,\,\, \,\,\, \tikzmark{C}{$\epsilon_{fat}$}
+%\end{equation*}
+%\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
+%   \node[red] (Bdescr) [below =of B]{$28g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
+%   \node[purple] (Cdescr) [below right =of C]{9};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
+%\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
 
 \item \begin{bf}Step three:\end{bf} Compute the energy coming from each ingredient and add all the values:
 \begin{align}

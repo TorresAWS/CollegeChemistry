@@ -23,17 +23,17 @@ $Q=100cal$
 \tcbitem[swotbox = A]
 $T_{final}$\\
 \end{tcbitemize}%%% DATA BOX
-\item \begin{bf}Step two:\end{bf} use the formula $Q=m\cdot c_e\cdot  (T_{final}-T_{initial})$ that converts temperature increase to heat absorbed:
- %%%% COMMENTED EQUATION
-\vspace{10mm} \begin{equation*}
-     \tikzmark{A}{Q}\,\,= \, \tikzmark{B}{m}\,\,\,\cdot \,\,\, \tikzmark{C}{$c_e\cdot$}\,\,\,  (T_{final}-\,\,\,\,\,\,\,\,\,\tikzmark{D}{$T_{initial}$}\,\,\,\,\,\,\,\,\,)
-\end{equation*}
-\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
-    \node (Adescr) [below left=of A ]{$100 cal$};\draw[,->,thick] (Adescr) to [in=-90,out=90] (A);
-   \node[red] (Bdescr) [below =of B]{$50g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
-   \node[purple] (Cdescr) [below right =of C]{$0.214\frac{cal}{g\cdot^{\circ}C}$};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
-   \node[blue,xshift=0.7cm] (Ddescr) [above right =of D]{$25^{\circ}C$};\draw[blue,->,thick] (Ddescr) to [in=45,out=-90] (D.north);
-\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
+\item \begin{bf}Step two:\end{bf} use the formula $Q=m\cdot c_e\cdot  (T_{final}-T_{initial})$ that converts temperature increase to heat absorbed.
+ %%%%% COMMENTED EQUATION
+%\vspace{10mm} \begin{equation*}
+%     \tikzmark{A}{Q}\,\,= \, \tikzmark{B}{m}\,\,\,\cdot \,\,\, \tikzmark{C}{$c_e\cdot$}\,\,\,  (T_{final}-\,\,\,\,\,\,\,\,\,\tikzmark{D}{$T_{initial}$}\,\,\,\,\,\,\,\,\,)
+%\end{equation*}
+%\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
+%    \node (Adescr) [below left=of A ]{$100 cal$};\draw[,->,thick] (Adescr) to [in=-90,out=90] (A);
+%   \node[red] (Bdescr) [below =of B]{$50g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
+%   \node[purple] (Cdescr) [below right =of C]{$0.214\frac{cal}{g\cdot^{\circ}C}$};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
+%   \node[blue,xshift=0.7cm] (Ddescr) [above right =of D]{$25^{\circ}C$};\draw[blue,->,thick] (Ddescr) to [in=45,out=-90] (D.north);
+%\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
 \item \begin{bf}Step three:\end{bf} solve $100=50\cdot 0.214\cdot  (T_{final}-25)$ for $T_{final}$:
 \begin{align}
   100=50\cdot 0.214\cdot  (T_{final}-25)                   \tag*{divide by 50 in both sides}
