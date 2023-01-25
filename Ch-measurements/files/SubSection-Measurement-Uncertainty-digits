@@ -1,11 +1,7 @@
 Consider the volume as measured in the glassware on the left side of Figure \ref{Fig:Testubes-and-measurements}. Some would say the liquid meniscus occurs at 1.52mL. Mind we need to estimate the last number by interpolating between the 0.1mL marks. As the last digit of the number associated with the volume measurement is estimated, another person could measure the volume as 1.53mL. The table below indicates the measurements of five different people.
 \begin{center}
-\begin{tabular}{cc}
-Person & Volume(mL)  \\
-\hline 
-1 & 1.52 \\
-2 & 1.53  \\
-3 &1.51  \\
-4 & 1.57  \\
+\begin{tabular}{c|cccc}
+ Person& 1&2 &3 &4 \\\hline 
+ Volume(mL)&1.52  &1.53  &1.51  &1.57  \\
 \end{tabular}\end{center}
 All measurements have in common the 1.5 part. The digit 5 is called a certain digit. The digit to the right of 5 is called the uncertain digit, as in a measurement it needs to be estimated. When reporting a measurement, we need to report up to the uncertain digit. These numbers on measurement are called \emph{significant figures}. It is important to understand that all measured properties are subject to uncertainty. Uncertainty depends on one hand on the measuring device. The uncertainty on the left meniscus in Figure \ref{Fig:Testubes-and-measurements} is in the hundreds of the mL, whereas on the right meniscus occurs in the tenths of mL. Uncertainty also depends on the measurement process. As the uncertain digit needs to be reported in every measurement, the uncertainty on the last number on measurement is normally assumed to be $\pm 1$. For example, the right meniscus should be reported as $1.52\text{ }\pm 0.01$mL

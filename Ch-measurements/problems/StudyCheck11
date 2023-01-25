@@ -7,6 +7,6 @@ Indicate the order that the following invisible liquids will appear in a cylinde
 \item  benzene(0.87 g/mL) and 
 \item  water(1 g/mL)
 \end{inparaenum}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: benzene on top
  \end{flushright} }
