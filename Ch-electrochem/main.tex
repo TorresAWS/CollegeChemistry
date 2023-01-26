@@ -5249,8 +5249,8 @@ coordinate(-front-bottom-right) -- cycle;
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
 \setatomsep{1.78500 em}    % 'Fixed Length'
 \setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
+%\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+%\setbondstyle{line width = \bondwidth}
 \definesubmol{x}{C(-[4]H)(-[0]OH)}
 \definesubmol{y}{C(-[0]H)(-[4]HO)}
 \definesubmol{k}{C(=[0]\textcolor{orange}{O})}
@@ -5262,6 +5262,8 @@ coordinate(-front-bottom-right) -- cycle;
 \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
 \newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
 \usepackage[strict]{changepage}\usepackage{physics}
+\newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
+
 
 
 
