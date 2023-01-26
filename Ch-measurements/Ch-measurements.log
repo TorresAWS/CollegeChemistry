@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JAN 2023 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JAN 2023 05:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -530,6 +530,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./Ch-measurements.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -4950,7 +4952,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-measurements.aux.
+(./Ch-measurements.aux)
 \openout1 = `Ch-measurements.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -4971,6 +4973,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -4985,6 +4988,8 @@ Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
+
+(./Ch-measurements.out) (./Ch-measurements.out)
 \@outlinefile=\write14
 \openout14 = `Ch-measurements.out'.
 
@@ -5210,19 +5215,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-measurements/figure1.png, id=121, 161.6439pt x 61.9113pt>
+<../Ch-measurements/figure1.png, id=161, 161.6439pt x 61.9113pt>
 File: ../Ch-measurements/figure1.png Graphic file (type png)
 <use ../Ch-measurements/figure1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1.png  used on input line 1.
 (pdftex.def)             Requested size: 355.69908pt x 136.23642pt.
 ) (../Ch-measurements/files/ChapterIntro)
 (../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
-ts
-
-LaTeX Warning: Reference `tab:Table-Unit-systems' on page 1 undefined on input 
-line 2.
-
-)
+ts)
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 47.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -5265,7 +5265,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 easurements/figure1.png>])
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Time) (../Ch-measurements/files/SideFigure-Measurements
-<../Ch-measurements/figure1-1.png, id=135, 1505.625pt x 2007.5pt>
+<../Ch-measurements/figure1-1.png, id=174, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-1.png  used on input line 2
@@ -5276,25 +5276,25 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-measurements/figure1-2.png, id=136, 913.4125pt x 609.27625pt>
+<../Ch-measurements/figure1-2.png, id=175, 913.4125pt x 609.27625pt>
 File: ../Ch-measurements/figure1-2.png Graphic file (type png)
 <use ../Ch-measurements/figure1-2.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-2.png  used on input line 5
 .
 (pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
-<../Ch-measurements/figure1-15.png, id=137, 1689.31125pt x 1997.4625pt>
+<../Ch-measurements/figure1-15.png, id=176, 1689.31125pt x 1997.4625pt>
 File: ../Ch-measurements/figure1-15.png Graphic file (type png)
 <use ../Ch-measurements/figure1-15.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-15.png  used on input line 
 8.
 (pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
-<../Ch-measurements/figure1-16.png, id=138, 1303.87125pt x 1303.87125pt>
+<../Ch-measurements/figure1-16.png, id=177, 1303.87125pt x 1303.87125pt>
 File: ../Ch-measurements/figure1-16.png Graphic file (type png)
 <use ../Ch-measurements/figure1-16.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-16.png  used on input line 
 11.
 (pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
-<../Ch-measurements/figure1-17.png, id=139, 174.6525pt x 702.625pt>
+<../Ch-measurements/figure1-17.png, id=178, 174.6525pt x 702.625pt>
 File: ../Ch-measurements/figure1-17.png Graphic file (type png)
 <use ../Ch-measurements/figure1-17.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-17.png  used on input line 
@@ -5354,10 +5354,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-measurements}1' on page 3 undefined on input 
-line 8.
-
 )
 Overfull \hbox (48.10655pt too wide) in paragraph at lines 5--56
 [][] 
@@ -5366,18 +5362,10 @@ Overfull \hbox (48.10655pt too wide) in paragraph at lines 5--56
 (../Ch-measurements/files/SectionIntro-scientific-notation)
 (../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors)
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
-y-prefixes) (../Ch-measurements/files/Table-Prefixes
-
-LaTeX Warning: Reference `Table-Prefixes' on page 3 undefined on input line 4.
-
-[3]
+y-prefixes) (../Ch-measurements/files/Table-Prefixes [3]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 38.
-
-
-LaTeX Warning: Reference `tab:{Ch-measurements}2' on page 4 undefined on input 
-line 38.
 
 )
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
@@ -5402,12 +5390,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 11.
 ) [4]) (../Ch-measurements/files/SectionIntro-Using-Conversion-Factors)
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Removing-or-addin
-g-prefixes
-
-LaTeX Warning: Reference `tab:{Ch-measurements}2' on page 5 undefined on input 
-line 1.
-
-) (../Ch-measurements/problems/SampleProblem3
+g-prefixes) (../Ch-measurements/problems/SampleProblem3
 (../Ch-measurements/problems/StudyCheck3
 Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
@@ -5415,12 +5398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
 ) [5])
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
-s
-
-LaTeX Warning: Reference `tab:{Ch-measurements}2' on page 6 undefined on input 
-line 1.
-
-) (../Ch-measurements/problems/SampleProblem4
+s) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/problems/StudyCheck4))
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
 nits [6]) (../Ch-measurements/problems/SampleProblem5
@@ -7427,54 +7405,24 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: Reference `Fig:{Ch-measurements}1' on page 7 undefined on input 
-line 53.
-
-) (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume
-
-LaTeX Warning: Reference `Fig:Figure-Cuve-of-Cuves' on page 7 undefined on inpu
-t line 1.
-
-) (../Ch-measurements/problems/SampleProblem6
+)
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume)
+(../Ch-measurements/problems/SampleProblem6
 (../Ch-measurements/problems/StudyCheck6) [7])
 (../Ch-measurements/files/Table-Common-units
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 9.
 
-
-LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 8 undefined on input 
-line 9.
-
 )
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
-ities
-
-LaTeX Warning: Reference `Table-Common-units' on page 8 undefined on input line
- 1.
-
-) (../Ch-measurements/problems/SampleProblem7
-
-LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 8 undefined on input 
-line 4.
-
+ities) (../Ch-measurements/problems/SampleProblem7
 (../Ch-measurements/problems/StudyCheck7) [8])
 (../Ch-measurements/files/SectionIntro-Measurement-Uncertainty)
 (../Ch-measurements/files/SubSection-Measurement-Uncertainty-digits
-
-LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 9 undefined on
- input line 1.
-
-
 Overfull \hbox (16.34056pt too wide) in paragraph at lines 1--2
 []
  []
-
-
-LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 9 undefined on
- input line 7.
 
 ) (../Ch-measurements/files/Figure-Testubes-and-measurements
 Missing character: There is no ! in font nullfont!
@@ -7509,24 +7457,12 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: Reference `Fig:{Ch-measurements}2' on page 9 undefined on input 
-line 10.
-
-) (../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision
-
-LaTeX Warning: Reference `Fig:Figure-Targets-and-precision' on page 9 undefined
- on input line 1.
-
-[9]) (../Ch-measurements/files/Figure-Targets-and-precision
+)
+(../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision [9])
+(../Ch-measurements/files/Figure-Targets-and-precision
 Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: Reference `Fig:{Ch-measurements}3' on page 10 undefined on input
- line 100.
-
-) (../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
+)
+(../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
 [10]) (../Ch-measurements/problems/SampleProblem13
 Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
  [] 
@@ -7553,26 +7489,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 -calculations) (../Ch-measurements/problems/SampleProblem9
 (../Ch-measurements/problems/StudyCheck9))
 (../Ch-measurements/files/SubSection-Significant-Figures-Rounding) [13]
-(../Ch-measurements/files/SubSection-Matter-and-density-Density
-
-LaTeX Warning: Reference `Table-Density' on page 14 undefined on input line 1.
-
-) (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 9.
 
 
-LaTeX Warning: Reference `tab:{Ch-measurements}4' on page 14 undefined on input
- line 9.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14])
 (../Ch-measurements/problems/SampleProblem11
-<../Ch-measurements/Image-Glass-with-three-liquids.png, id=283, 1204.5pt x 2156
+<../Ch-measurements/Image-Glass-with-three-liquids.png, id=331, 1204.5pt x 2156
 .055pt>
 File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
 png)
@@ -7587,23 +7516,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--1
  []
 
 )) (../Ch-measurements/files/Figure-Volume-objects
-
-LaTeX Warning: Reference `Fig:{Ch-measurements}4' on page 15 undefined on input
- line 57.
-
-
 Overfull \hbox (5.17972pt too wide) in paragraph at lines 59--60
  [] 
  []
 
 )
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
-of-objects
-
-LaTeX Warning: Reference `Fig:VolumeAndObjects' on page 15 undefined on input l
-ine 1.
-
-) (../Ch-measurements/files/SubSection-Matter-and-density-ImmersionMethod)
+of-objects)
+(../Ch-measurements/files/SubSection-Matter-and-density-ImmersionMethod)
 (../Ch-measurements/problems/SampleProblem12
 (../Ch-measurements/problems/StudyCheck12
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
@@ -7628,15 +7548,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./Ch-measurements.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
+(rerunfilecheck)             Checksum: 5E6F1DDB4C2AC9D3B0E08493DC994F23;1726.
 
-
-Package rerunfilecheck Warning: File `Ch-measurements.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-measurements.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  5E6F1DDB4C2AC9D3B0E08493DC994F23;1726.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -7644,19 +7558,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 83159 strings out of 493014
- 1876831 string characters out of 6133351
- 3642084 words of memory out of 5000000
- 84593 multiletter control sequences out of 15000+600000
- 179573 words of font info for 272 fonts, out of 8000000 for 9000
+ 83169 strings out of 493014
+ 1877018 string characters out of 6133351
+ 3641994 words of memory out of 5000000
+ 84600 multiletter control sequences out of 15000+600000
+ 174998 words of font info for 267 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,104p,10426b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -7688,10 +7596,10 @@ ts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 alatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (16 pages, 14213588 bytes).
+Output written on Ch-measurements.pdf (16 pages, 14214692 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
+ 456 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
  77 named destinations out of 1000 (max. 500000)
- 56326 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 53846 words of extra memory for PDF output out of 61914 (max. 10000000)
 
