@@ -1384,15 +1384,14 @@ Calculate:
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
-
-\end{multicols*} \checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi
-\providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
 %%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
-%\newpage 
+\newpage\fancyhfoffset[E,O]{0pt}
 \begin{answerbox}
 \begin{answersenvironment}
  \begin{localsize}{10}
-{\Large \bf Answers}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
 \SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
 \printsolutions 
  % \printsolutions[byID={1,3,5,7,9,11,13}]
@@ -1402,6 +1401,5 @@ Calculate:
 \end{answerbox}
 %%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
 }{}
-\checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi\end{document}
-
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
 
