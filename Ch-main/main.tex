@@ -1846,7 +1846,17 @@ atan 90 div dup dup
 \usepackage{titlesec}
 \usepackage{textpos}
 
-\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}%%%%%%OLD TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}\newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}\newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
+%%%%%%OLD TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
+\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
+\newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}
+\newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \definecolor{gmitblue}{RGB}{93,138,168}
 \definecolor{gmitred}{RGB}{241, 148, 138}
@@ -5332,8 +5342,10 @@ coordinate(-front-bottom-right) -- cycle;
   }
 }
 
- \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
-
+\newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
+\newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
+\usepackage[strict]{changepage}\usepackage{physics}
+\newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
 
  \begin{document} 
 \subfile{../Ch-main/cover/title.tex}
