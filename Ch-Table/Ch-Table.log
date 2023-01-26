@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JAN 2023 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JAN 2023 05:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5965,7 +5965,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-Table/figure1.png, id=137, 501.875pt x 335.2525pt>
+<../Ch-Table/figure1.png, id=149, 501.875pt x 335.2525pt>
 File: ../Ch-Table/figure1.png Graphic file (type png)
 <use ../Ch-Table/figure1.png>
 Package pdftex.def Info: ../Ch-Table/figure1.png  used on input line 1.
@@ -6063,17 +6063,17 @@ Overfull \hbox (7.43956pt too wide) in paragraph at lines 136--137
  []
 
 ) (../Ch-Table/files/Sidefigure-The-Atom
-<../Ch-Table/figure1-8.jpg, id=177, 2029.5825pt x 2122.93124pt>
+<../Ch-Table/figure1-8.jpg, id=186, 2029.5825pt x 2122.93124pt>
 File: ../Ch-Table/figure1-8.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-8.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-8.jpg  used on input line 2.
 (pdftex.def)             Requested size: 108.79373pt x 113.79759pt.
-<../Ch-Table/figure1-9.jpg, id=178, 257.96375pt x 196.735pt>
+<../Ch-Table/figure1-9.jpg, id=187, 257.96375pt x 196.735pt>
 File: ../Ch-Table/figure1-9.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-9.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-9.jpg  used on input line 5.
 (pdftex.def)             Requested size: 113.81142pt x 86.7978pt.
-<../Ch-Table/figure1-10.jpg, id=179, 1204.5pt x 1204.5pt>
+<../Ch-Table/figure1-10.jpg, id=188, 1204.5pt x 1204.5pt>
 File: ../Ch-Table/figure1-10.jpg Graphic file (type jpg)
 <use ../Ch-Table/figure1-10.jpg>
 Package pdftex.def Info: ../Ch-Table/figure1-10.jpg  used on input line 8.
@@ -6122,10 +6122,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-LaTeX Warning: Reference `tab:{Ch-Table}1' on page 8 undefined on input line 7.
-
-
 
 Overfull \hbox (9.35733pt too wide) in paragraph at lines 4--35
  [][] 
@@ -6194,15 +6190,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./Ch-Table.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
+Package rerunfilecheck Info: File `Ch-Table.out' has not changed.
+(rerunfilecheck)             Checksum: 610E382843A6537DE8CB239E5B084847;1416.
 
-
-Package rerunfilecheck Warning: File `Ch-Table.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-Table.out':
-(rerunfilecheck)             Before: 6CDD770D859081E99845A982C862D20C;526
-(rerunfilecheck)             After:  610E382843A6537DE8CB239E5B084847;1416.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6210,72 +6200,42 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 84135 strings out of 493014
- 1884261 string characters out of 6133351
- 2840895 words of memory out of 5000000
- 85652 multiletter control sequences out of 15000+600000
- 183351 words of font info for 262 fonts, out of 8000000 for 9000
+ 84127 strings out of 493014
+ 1884179 string characters out of 6133351
+ 2841209 words of memory out of 5000000
+ 85653 multiletter control sequences out of 15000+600000
+ 180548 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,23n,104p,10598b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.3.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.3} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/
-texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist
-/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome
-/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawe
-some/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/p
-tsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsan
-s/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr
-o8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Table.pdf (12 pages, 1193369 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/201
+6/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-di
+st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pts
+ans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/uc
+rro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-Table.pdf (12 pages, 1193915 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 56319 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 55831 words of extra memory for PDF output out of 61914 (max. 10000000)
 
