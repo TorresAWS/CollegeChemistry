@@ -2,28 +2,10 @@
 \begin{center}
 
 
-\newcommand{\target}[1]{%
-  \foreach \r in {2.5, 2, 1.5, 1, 0.5, 0.05} {
-    \draw [
-      fill = black,
-      fill opacity = 0.15
-    ] (0, 0) circle (\r cm);
-  }
-}%
-
-\newcommand{\pointsA}[3]{%
-  \foreach \i in {1, 2, ..., 20} {
-    \pgfmathsetmacro{\xcoord}{#1 + rand * #3}
-    \pgfmathsetmacro{\ycoord}{#2 + rand * #3}
-    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
-  }
-}%
+ 
 
 
-\newcommand{\circlevar}[3]{%
-  \draw[color = green] (#1, #2) circle (#3 cm);
-  \node[text = green] at (#1, #2) {$\times$};
-}%
+
 
 \def\border{
   \draw (-2.65, -2.75) -- ++(5.25, 0);

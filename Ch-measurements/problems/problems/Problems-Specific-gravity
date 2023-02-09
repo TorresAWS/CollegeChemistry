@@ -1,0 +1,33 @@
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions involving specific gravity:    
+  \begin{inparaenum}[(a)]
+\item A sample has a density of 0.9g/mL. How much is its specific gravity? %0.9
+\item A sample has a specific gravity of 1.20. How much is its density? %1.20 g/mL
+\item True or false: an orange juice sample should have a specific gravity larger than one.   %true
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+\item 0.9
+\item A1.20 g/mL
+\item true
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions involving specific gravity:    
+  \begin{inparaenum}[(a)]
+\item True or false: an olive oil sample should have a specific gravity larger than one.   %false
+\item A sample has a mass of 5mg and a specific gravity of 0.87. Calculate its volume in mL. % $5.7\times 10^{-3}$mL
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+\item false
+\item  $5.7\times 10^{-3}$mL
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%

@@ -1,0 +1,149 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ 
+
+\newcommand{\backgroundcolorbrown}{brown}
+\newcommand{\fibrecolor}{brown!90!black}
+ \pgfmathsetmacro{\relativefibrethickness}{0.50}
+\pgfmathsetmacro{\relativefibrevariation}{0.07}
+\pgfmathsetmacro{\numberoffibres}{84}
+\pgfmathsetmacro{\fibresteps}{84}
+\pgfmathsetmacro{\boardwidth}{3.17}
+\pgfmathsetmacro{\boardheight}{1}
+ \begin{center}
+\begin{tikzpicture}[scale=1,spy using outlines={circle, size=2cm, connect spies}]
+
+ 
+
+ 
+\begin{scope}[shift={(-6.5,0.0)},rotate=00]
+
+
+
+            \draw (-0.2,0) rectangle (5.5,1);\node[ text width=3cm, rotate=-90] at (0.1,-0.9) {\Large cm};
+
+            %% lower divisions
+            %%\foreach \x in {0,1,...,5}{
+            %%\draw (\x,0) -- (\x,0.2)node[above,scale=0.4]{\x};
+            %%}
+            %%\foreach \x in {0.1,0.2,...,4.9}{
+            %%\draw (\x,0) -- (\x,0.075);
+            %%}
+            %%\foreach \x in {0.5,1,...,4.5}{
+            %%\draw (\x,0) -- (\x,0.15);
+            %%}
+
+ %% lower divisions
+            \foreach \x in {0,1,...,5}{
+            \draw (\x,1) -- (\x,0.8)node[below,scale=0.4]{\x};
+            }
+            \foreach \x in {0.1,0.2,...,4.9}{
+            \draw (\x,1) -- (\x,0.925);
+            }
+            \foreach \x in {0.5,1,...,4.5}{
+            \draw (\x,1) -- (\x,0.85);
+            }
+
+
+            % Upper divisions
+            %\foreach \x in {0,1,...,2}{
+           %\draw (\x in,1) -- (\x in,0.8)node[below,scale=0.4]{\x};
+            %}
+            %\foreach \x in {0.1,0.2,...,1.9}{
+            %\draw (\x in,1) -- (\x in,0.925);
+            %}
+            %\foreach \x in {0.5,1,...,1.5}{
+            %\draw (\x in,1) -- (\x in,0.85);
+            %}
+\end{scope}
+
+\begin{scope}[shift={(-6.5,1.0)},rotate=00]
+   \filldraw[\backgroundcolorbrown] (0,0) rectangle (\boardwidth,\boardheight);
+    \pgfmathsetmacro{\segmentwidth}{\boardwidth/(\numberoffibres+1)}
+    \pgfmathsetmacro{\segmentvariation}{\relativefibrethickness/2*\segmentwidth}
+    \pgfmathsetmacro{\secondfibre}{2*\segmentwidth}
+    \pgfmathsetmacro{\lastfibre}{\numberoffibres*\segmentwidth}
+    \pgfmathsetmacro{\stepheight}{\boardheight/\fibresteps}
+    \foreach \x in {1,2,...,\numberoffibres}
+    {   \fill[\fibrecolor] ($(\x*\segmentwidth-\segmentvariation,0) + (rand*\relativefibrevariation*\relativefibrethickness,0)$) 
+        \foreach \y in {1,...,\fibresteps}
+        {   -- ($(\x*\segmentwidth-\segmentvariation,\y*\stepheight) + (rand*\relativefibrevariation*\relativefibrethickness,0)$)
+        }
+        -- ($(\x*\segmentwidth+\segmentvariation,\boardheight)+ (rand*\relativefibrevariation*\relativefibrethickness,0)$) 
+        \foreach \y in {\fibresteps,...,0}
+        {   -- ($(\x*\segmentwidth+\segmentvariation,\y*\stepheight) + (rand*\relativefibrevariation*\relativefibrethickness,0)$)
+        }
+        -- cycle;
+    }
+    \draw[thick] (0,0) rectangle (\boardwidth,\boardheight);
+    \spy[magnification=5,yellow] on (-3.3,1) in node at (-0,3);
+\end{scope}
+
+
+
+\begin{scope}[shift={(-0.5,0.0)}]
+            \draw (-0.2,0) rectangle (4.8,1);\node[ text width=3cm, rotate=-90] at (0.1,-0.9) {\Large cm};
+
+            %% lower divisions
+            %%\foreach \x in {0,1,...,5}{
+            %%\draw (\x,0) -- (\x,0.2)node[above,scale=0.4]{\x};
+            %%}
+            %%\foreach \x in {0.1,0.2,...,4.9}{
+            %%\draw (\x,0) -- (\x,0.075);
+            %%}
+            %%\foreach \x in {0.5,1,...,4.5}{
+            %%\draw (\x,0) -- (\x,0.15);
+            %%}
+
+  
+            % Upper divisions
+            \foreach \x in {0,...,1}{
+           \draw (\x in,1) -- (\x in,0.8)node[below,scale=0.4]{\x};
+            }
+            %\foreach \x in {0.1,0.2,...,1.9}{
+            %\draw (\x in,1) -- (\x in,0.925);
+            %}
+            %\foreach \x in {0.5,1,...,1.5}{
+            %\draw (\x in,1) -- (\x in,0.85);
+            %}
+\end{scope}
+\pgfmathsetmacro{\boardwidth}{2.11}
+\pgfmathsetmacro{\boardheight}{1}
+\renewcommand{\backgroundcolorbrown}{yellow}
+\renewcommand{\fibrecolor}{yellow!90!black}
+\begin{scope}[shift={(-0.5,1.0)},rotate=00]
+   \filldraw[red] (0,0) rectangle (\boardwidth,\boardheight);
+
+    \pgfmathsetmacro{\segmentwidth}{\boardwidth/(\numberoffibres+1)}
+    \pgfmathsetmacro{\segmentvariation}{\relativefibrethickness/2*\segmentwidth}
+
+    \pgfmathsetmacro{\secondfibre}{2*\segmentwidth}
+    \pgfmathsetmacro{\lastfibre}{\numberoffibres*\segmentwidth}
+
+    \pgfmathsetmacro{\stepheight}{\boardheight/\fibresteps}
+
+    \foreach \x in {1,2,...,\numberoffibres}
+    {   \fill[\fibrecolor] ($(\x*\segmentwidth-\segmentvariation,0) + (rand*\relativefibrevariation*\relativefibrethickness,0)$) 
+        \foreach \y in {1,...,\fibresteps}
+        {   -- ($(\x*\segmentwidth-\segmentvariation,\y*\stepheight) + (rand*\relativefibrevariation*\relativefibrethickness,0)$)
+        }
+        -- ($(\x*\segmentwidth+\segmentvariation,\boardheight)+ (rand*\relativefibrevariation*\relativefibrethickness,0)$) 
+        \foreach \y in {\fibresteps,...,0}
+        {   -- ($(\x*\segmentwidth+\segmentvariation,\y*\stepheight) + (rand*\relativefibrevariation*\relativefibrethickness,0)$)
+        }
+        -- cycle;
+    }
+    \draw[thick] (0,0) rectangle (\boardwidth,\boardheight);
+    %\spy[magnification=5,yellow] on (8.2,1) in node at (9,3);
+
+
+
+           % \draw (-0.2,0) rectangle (5.5,1);
+\end{scope}
+
+\begin{scope}[shift={(-5,0)},rotate=00]
+ \node[text width=11cm, fontscale=.3,shift={(3em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Some metric scales with two objects of different lengths. Measurements are (left) 3.15cm (right) and 0.8cm. };
+\end{scope}
+
+
+
+                 \end{tikzpicture}\end{center}

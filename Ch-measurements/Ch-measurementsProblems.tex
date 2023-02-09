@@ -13,13 +13,33 @@
 \end{conclusion}
 %\setstretch{0.3}
 \begin{multicols*}{2}\setcounter{numA}{1}
+ 
+ %\section{Measurements and uncertainty}
+ 
 
 
-
-{\raggedright\textsc{\textbf{Units and measurements }}\par}
+{\raggedright\textsc{\textbf{Math skills }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Basic-algebra}
 \import{../\chapterlabel/problems/problems/}{Problems-Scientific-Notation}
+
+{\raggedright\textsc{\textbf{Units of Measurements and systems of units }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Units-and-measurements}
+
+{\raggedright\textsc{\textbf{Significant Figures }}\par}
+%%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item 
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+\import{../\chapterlabel/problems/problems/}{Problems-Significant-Exact-and-measured-numbers}
+\end{cornerbox}}{}
+%%%%%%UNEDITED
+\import{../\chapterlabel/problems/problems/}{Problems-Significant-Figures-calculations}
+\import{../\chapterlabel/problems/problems/}{Problems-Significant-Figures-of-numbers}
+%%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item 
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+\import{../\chapterlabel/problems/problems/}{Problems-Significant-Rounding}
+\end{cornerbox}}{}
+%%%%%%UNEDITED
 
 
 {\raggedright\textsc{\textbf{Prefixes \& Conversion Factors }}\par}
@@ -33,14 +53,17 @@
 \import{../\chapterlabel/problems/problems/}{Problems-Conversion-Factors-switch-prefixed}
 \import{../\chapterlabel/problems/problems/}{Problems-Conversion-Factors-Other-units}
 \import{../\chapterlabel/problems/problems/}{Problems-Conversion-Factors-Square-and-cubic-units}
-{\raggedright\textsc{\textbf{Significant Figures }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Significant-Figures-calculations}
-\import{../\chapterlabel/problems/problems/}{Problems-Significant-Figures-of-numbers}
+
+
+ 
+{\raggedright\textsc{\textbf{Measurements and uncertainty }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Measurements-and-uncertanty}
+
+
 
  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
  %% NOT FOR 121
 {\raggedright\textsc{\textbf{Matter}}\par} 
-\import{../\chapterlabel/problems/problems/}{Problems-Exact-measured-numbers}
 \import{../\chapterlabel/problems/problems/}{Problems-Mixtures} 
 \import{../\chapterlabel/problems/problems/}{Problems-States-of-matter} 
  %% NOT FOR 121
@@ -49,7 +72,18 @@
 {\raggedright\textsc{\textbf{Density}}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Density}
 \import{../\chapterlabel/problems/problems/}{Problems-Density-and-mixing}
+%%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item 
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
 \import{../\chapterlabel/problems/problems/}{Problems-Density-and-the-volume-of-objects}
+\import{../\chapterlabel/problems/problems/}{Problems-Specific-gravity}
+%\import{../\chapterlabel/problems/problems/}{Problems-Dosage}
+\end{cornerbox}}{}
+%%%%%%UNEDITED
+
+
+
+
 
 
  
