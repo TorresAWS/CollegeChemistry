@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2023 08:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5524,8 +5524,23 @@ Package: physics
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5347.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
+Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
+\LCDunitlength=\skip342
+\c@@LCDdotx=\count601
+\c@@LCDdoty=\count602
+\c@@LCDchrx=\count603
+\c@@LCDlines=\count604
+\c@@LCDlower=\count605
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5310.
+h' as default language. on input line 5561.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5539,9 +5554,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count601
-\l__chemformula_tmpb_int=\count602
-\l__chemformula_tmpc_int=\count603
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5572,10 +5587,10 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip342
-\l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count604
-\g__chemformula_lewis_int=\count605
+\l__chemformula_stoich_space_skip=\skip343
+\l__chemformula_math_space_skip=\skip344
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5695,7 +5710,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip344
+\l__chemformula_additions_symbol_space_skip=\skip345
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5716,8 +5731,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip345
-\l__chemformula_minus_space_skip=\skip346
+\l__chemformula_plus_space_skip=\skip346
+\l__chemformula_minus_space_skip=\skip347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5847,16 +5862,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count606
+\scratchcounter=\count611
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count607
-\nofMParguments=\count608
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count609
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen591
-\MPnumerator=\count610
-\makeMPintoPDFobject=\count611
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5885,9 +5900,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count612
-\c@mv@tabular=\count613
-\c@mv@boldtabular=\count614
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6047,7 +6062,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-t
 hermochemistry/figure1.png>]) (../Ch-thermochemistry/files/SideFigure-Energy
-<../Ch-thermochemistry/figure1-9.png, id=169, 963.6pt x 642.4pt>
+<../Ch-thermochemistry/figure1-9.png, id=167, 963.6pt x 642.4pt>
 File: ../Ch-thermochemistry/figure1-9.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-9.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-9.png  used on input lin
@@ -6058,19 +6073,19 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-thermochemistry/figure1-2.png, id=170, 451.6875pt x 173.64874pt>
+<../Ch-thermochemistry/figure1-2.png, id=168, 451.6875pt x 173.64874pt>
 File: ../Ch-thermochemistry/figure1-2.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-2.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-2.png  used on input lin
 e 5.
 (pdftex.def)             Requested size: 113.81068pt x 43.75388pt.
-<../Ch-thermochemistry/figure1-1.png, id=171, 451.6875pt x 339.2675pt>
+<../Ch-thermochemistry/figure1-1.png, id=169, 451.6875pt x 339.2675pt>
 File: ../Ch-thermochemistry/figure1-1.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-1.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-1.png  used on input lin
 e 8.
 (pdftex.def)             Requested size: 113.63838pt x 85.35504pt.
-<../Ch-thermochemistry/figure1-10.png, id=172, 259.97125pt x 194.7275pt>
+<../Ch-thermochemistry/figure1-10.png, id=170, 259.97125pt x 194.7275pt>
 File: ../Ch-thermochemistry/figure1-10.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-10.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-10.png  used on input li
@@ -6324,13 +6339,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
 (../Ch-thermochemistry/problems/StudyCheck8) [11])
 (../Ch-thermochemistry/files/Figure-Calorimeter
-<../Ch-thermochemistry/figure1-6.png, id=272, 1003.75pt x 901.3675pt>
+<../Ch-thermochemistry/figure1-6.png, id=264, 1003.75pt x 901.3675pt>
 File: ../Ch-thermochemistry/figure1-6.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-6.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-6.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 128.0262pt x 114.96753pt.
-<../Ch-thermochemistry/figure1-7.png, id=273, 148.555pt x 222.8325pt>
+<../Ch-thermochemistry/figure1-7.png, id=265, 148.555pt x 222.8325pt>
 File: ../Ch-thermochemistry/figure1-7.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-7.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-7.png  used on input lin
@@ -6488,15 +6503,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
 (./Ch-thermochemistry.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `Ch-thermochemistry.out' has not changed.
+(rerunfilecheck)             Checksum: 897F15887C3DB916170D109D7BB4815A;1385.
 
-
-Package rerunfilecheck Warning: File `Ch-thermochemistry.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-thermochemistry.out':
-(rerunfilecheck)             Before: 6856542EE499A6814F2E3D8CDF5FC48D;1385
-(rerunfilecheck)             After:  897F15887C3DB916170D109D7BB4815A;1385.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6504,97 +6513,49 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 83753 strings out of 493014
- 1883036 string characters out of 6133351
- 2721087 words of memory out of 5000000
- 85159 multiletter control sequences out of 15000+600000
+ 84059 strings out of 493014
+ 1887770 string characters out of 6133351
+ 2734244 words of memory out of 5000000
+ 85476 multiletter control sequences out of 15000+600000
  195369 words of font info for 284 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,26n,106p,10547b,2074s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.1.4.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016
-/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dis
-t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
-c/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/font
-s/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fon
-tawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
-/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/par
-atype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fon
-tawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paraty
-pe/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathp
-azo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/l
-atxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-ex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
-/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-thermochemistry.pdf (21 pages, 2691137 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/f
+ontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
+aratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/f
+ontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/para
+type/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mat
+hpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-thermochemistry.pdf (21 pages, 2692003 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
  58904 words of extra memory for PDF output out of 61914 (max. 10000000)
 
