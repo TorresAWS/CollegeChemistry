@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2023 08:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5524,8 +5524,23 @@ Package: physics
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5350.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
+Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
+\LCDunitlength=\skip342
+\c@@LCDdotx=\count601
+\c@@LCDdoty=\count602
+\c@@LCDchrx=\count603
+\c@@LCDlines=\count604
+\c@@LCDlower=\count605
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5314.
+h' as default language. on input line 5565.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5539,9 +5554,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count601
-\l__chemformula_tmpb_int=\count602
-\l__chemformula_tmpc_int=\count603
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5572,10 +5587,10 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip342
-\l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count604
-\g__chemformula_lewis_int=\count605
+\l__chemformula_stoich_space_skip=\skip343
+\l__chemformula_math_space_skip=\skip344
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5695,7 +5710,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip344
+\l__chemformula_additions_symbol_space_skip=\skip345
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5716,8 +5731,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip345
-\l__chemformula_minus_space_skip=\skip346
+\l__chemformula_plus_space_skip=\skip346
+\l__chemformula_minus_space_skip=\skip347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5845,16 +5860,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count606
+\scratchcounter=\count611
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count607
-\nofMParguments=\count608
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count609
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen591
-\MPnumerator=\count610
-\makeMPintoPDFobject=\count611
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5883,9 +5898,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count612
-\c@mv@tabular=\count613
-\c@mv@boldtabular=\count614
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6079,7 +6094,7 @@ rgo/figure1.png>]
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure2.png, id=163, 321.2pt x 200.75pt>
+<../Ch-orgo/figure2.png, id=160, 321.2pt x 200.75pt>
 File: ../Ch-orgo/figure2.png Graphic file (type png)
 <use ../Ch-orgo/figure2.png>
 Package pdftex.def Info: ../Ch-orgo/figure2.png  used on input line 7.
@@ -6092,7 +6107,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure4.png, id=164, 385.44pt x 289.08pt>
+<../Ch-orgo/figure4.png, id=161, 385.44pt x 289.08pt>
 File: ../Ch-orgo/figure4.png Graphic file (type png)
 <use ../Ch-orgo/figure4.png>
 Package pdftex.def Info: ../Ch-orgo/figure4.png  used on input line 12.
@@ -6186,7 +6201,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-orgo/files/SectionIntro-Cycloalkanes)
 (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=203, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=197, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 <use ../Ch-orgo/figure5.png>
 Package pdftex.def Info: ../Ch-orgo/figure5.png  used on input line 2.
@@ -6196,7 +6211,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=205, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=199, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 <use ../Ch-orgo/figure6.png>
 Package pdftex.def Info: ../Ch-orgo/figure6.png  used on input line 7.
@@ -6470,37 +6485,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 [15])
 (../Ch-orgo/files/SubSection-Molecular-diversity-Carboxylic-acids-and-esters)
 [16] (../Ch-orgo/files/Figure-Acetone
-<../Ch-orgo/figure8.png, id=291, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=278, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 <use ../Ch-orgo/figure8.png>
 Package pdftex.def Info: ../Ch-orgo/figure8.png  used on input line 113.
 (pdftex.def)             Requested size: 51.08774pt x 113.80934pt.
-<../Ch-orgo/figure17.png, id=292, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=279, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 <use ../Ch-orgo/figure17.png>
 Package pdftex.def Info: ../Ch-orgo/figure17.png  used on input line 113.
 (pdftex.def)             Requested size: 113.80911pt x 75.46039pt.
-<../Ch-orgo/figure16.png, id=293, 226.8475pt x 223.83624pt>
+<../Ch-orgo/figure16.png, id=280, 226.8475pt x 223.83624pt>
 File: ../Ch-orgo/figure16.png Graphic file (type png)
 <use ../Ch-orgo/figure16.png>
 Package pdftex.def Info: ../Ch-orgo/figure16.png  used on input line 113.
 (pdftex.def)             Requested size: 113.81114pt x 112.30037pt.
-<../Ch-orgo/figure14.png, id=294, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=281, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 <use ../Ch-orgo/figure14.png>
 Package pdftex.def Info: ../Ch-orgo/figure14.png  used on input line 113.
 (pdftex.def)             Requested size: 73.28125pt x 113.81041pt.
-<../Ch-orgo/figure18.png, id=295, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=282, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 <use ../Ch-orgo/figure18.png>
 Package pdftex.def Info: ../Ch-orgo/figure18.png  used on input line 113.
 (pdftex.def)             Requested size: 113.79942pt x 59.11658pt.
-<../Ch-orgo/figure19.png, id=296, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=283, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 <use ../Ch-orgo/figure19.png>
 Package pdftex.def Info: ../Ch-orgo/figure19.png  used on input line 113.
 (pdftex.def)             Requested size: 113.8047pt x 57.86679pt.
-<../Ch-orgo/figure10.png, id=297, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=284, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 <use ../Ch-orgo/figure10.png>
 Package pdftex.def Info: ../Ch-orgo/figure10.png  used on input line 113.
@@ -6542,15 +6557,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (./Ch-orgo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
+Package rerunfilecheck Info: File `Ch-orgo.out' has not changed.
+(rerunfilecheck)             Checksum: 50F7C59096EC902C778A6BBE7B19F264;1507.
 
-
-Package rerunfilecheck Warning: File `Ch-orgo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-orgo.out':
-(rerunfilecheck)             Before: 3AFA969CC2E4A9DA6678A2FF600DF16A;1507
-(rerunfilecheck)             After:  50F7C59096EC902C778A6BBE7B19F264;1507.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6561,88 +6570,43 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 85702 strings out of 493014
- 1915652 string characters out of 6133351
- 2758183 words of memory out of 5000000
- 87106 multiletter control sequences out of 15000+600000
+ 86008 strings out of 493014
+ 1920378 string characters out of 6133351
+ 2771287 words of memory out of 5000000
+ 87422 multiletter control sequences out of 15000+600000
  175295 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,110p,10526b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.1.3.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.1.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016
-/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dis
-t/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc
-/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/par
-atype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawe
-some/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/p
-tsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on Ch-orgo.pdf (20 pages, 10128338 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
+nc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
+aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
+9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on Ch-orgo.pdf (20 pages, 10129108 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
  52774 words of extra memory for PDF output out of 61914 (max. 10000000)
 
