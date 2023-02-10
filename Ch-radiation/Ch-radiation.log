@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2023 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5524,8 +5524,23 @@ Package: physics
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5349.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
+Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
+\LCDunitlength=\skip342
+\c@@LCDdotx=\count601
+\c@@LCDdoty=\count602
+\c@@LCDchrx=\count603
+\c@@LCDlines=\count604
+\c@@LCDlower=\count605
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5312.
+h' as default language. on input line 5563.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5539,9 +5554,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count601
-\l__chemformula_tmpb_int=\count602
-\l__chemformula_tmpc_int=\count603
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5572,10 +5587,10 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip342
-\l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count604
-\g__chemformula_lewis_int=\count605
+\l__chemformula_stoich_space_skip=\skip343
+\l__chemformula_math_space_skip=\skip344
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5695,7 +5710,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip344
+\l__chemformula_additions_symbol_space_skip=\skip345
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5716,8 +5731,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip345
-\l__chemformula_minus_space_skip=\skip346
+\l__chemformula_plus_space_skip=\skip346
+\l__chemformula_minus_space_skip=\skip347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5847,16 +5862,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count606
+\scratchcounter=\count611
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count607
-\nofMParguments=\count608
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count609
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen591
-\MPnumerator=\count610
-\makeMPintoPDFobject=\count611
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5885,9 +5900,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count612
-\c@mv@tabular=\count613
-\c@mv@boldtabular=\count614
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6094,7 +6109,7 @@ rum-of-light) (../Ch-radiation/files/Figure-Electromagnetic-field [1
 adiation/figure1.png>])
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
 t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
-<../Ch-radiation/figure1-9.png, id=197, 525.965pt x 104.39pt>
+<../Ch-radiation/figure1-9.png, id=194, 525.965pt x 104.39pt>
 File: ../Ch-radiation/figure1-9.png Graphic file (type png)
 <use ../Ch-radiation/figure1-9.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-9.png  used on input line 75.
@@ -6109,17 +6124,17 @@ Overfull \hbox (23.01772pt too wide) in paragraph at lines 81--81
  []
 
 ) (../Ch-radiation/files/Figure-waves-and-life
-<../Ch-radiation/figure1-17.png, id=200, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-17.png, id=197, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-17.png Graphic file (type png)
 <use ../Ch-radiation/figure1-17.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-17.png  used on input line 5.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-18.png, id=201, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-18.png, id=198, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-18.png Graphic file (type png)
 <use ../Ch-radiation/figure1-18.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-18.png  used on input line 8.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-19.png, id=202, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-19.png, id=199, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-19.png Graphic file (type png)
 <use ../Ch-radiation/figure1-19.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-19.png  used on input line 12.
@@ -6152,37 +6167,37 @@ ics
 Package pgfplots info on input line 139: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-<../Ch-radiation/figure1-10.png, id=203, 729.72626pt x 476.78125pt>
+<../Ch-radiation/figure1-10.png, id=200, 729.72626pt x 476.78125pt>
 File: ../Ch-radiation/figure1-10.png Graphic file (type png)
 <use ../Ch-radiation/figure1-10.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-10.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.54243pt x 331.61299pt.
-<../Ch-radiation/figure1-14.png, id=204, 883.3pt x 1284.8pt>
+<../Ch-radiation/figure1-14.png, id=201, 883.3pt x 1284.8pt>
 File: ../Ch-radiation/figure1-14.png Graphic file (type png)
 <use ../Ch-radiation/figure1-14.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-14.png  used on input line 139
 .
 (pdftex.def)             Requested size: 483.1748pt x 702.79973pt.
-<../Ch-radiation/figure1-13.png, id=205, 737.75626pt x 1026.83624pt>
+<../Ch-radiation/figure1-13.png, id=202, 737.75626pt x 1026.83624pt>
 File: ../Ch-radiation/figure1-13.png Graphic file (type png)
 <use ../Ch-radiation/figure1-13.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-13.png  used on input line 139
 .
 (pdftex.def)             Requested size: 504.93222pt x 702.7832pt.
-<../Ch-radiation/figure1-12.png, id=206, 1103.62312pt x 1567.35562pt>
+<../Ch-radiation/figure1-12.png, id=203, 1103.62312pt x 1567.35562pt>
 File: ../Ch-radiation/figure1-12.png Graphic file (type png)
 <use ../Ch-radiation/figure1-12.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-12.png  used on input line 139
 .
 (pdftex.def)             Requested size: 494.85764pt x 702.79236pt.
-<../Ch-radiation/figure1-16.png, id=207, 1027.84pt x 629.35126pt>
+<../Ch-radiation/figure1-16.png, id=204, 1027.84pt x 629.35126pt>
 File: ../Ch-radiation/figure1-16.png Graphic file (type png)
 <use ../Ch-radiation/figure1-16.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-16.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.55121pt x 310.77599pt.
-<../Ch-radiation/figure1-15.png, id=208, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-15.png, id=205, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-15.png Graphic file (type png)
 <use ../Ch-radiation/figure1-15.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-15.png  used on input line 139
@@ -6268,7 +6283,7 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 50--50
 [7]) (../Ch-radiation/files/SectionIntro-The-atomic-line-spectra)
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
 (../Ch-radiation/files/Figure-Atomic-spectrum
-<../Ch-radiation/figure1-21.png, id=281, 1077.626pt x 497.057pt>
+<../Ch-radiation/figure1-21.png, id=271, 1077.626pt x 497.057pt>
 File: ../Ch-radiation/figure1-21.png Graphic file (type png)
 <use ../Ch-radiation/figure1-21.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-21.png  used on input line 3.
@@ -6288,7 +6303,7 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 75.
 Missing character: There is no ; in font nullfont!
-<../Ch-radiation/figure1-20.png, id=293, 1204.5pt x 481.8pt>
+<../Ch-radiation/figure1-20.png, id=280, 1204.5pt x 481.8pt>
 File: ../Ch-radiation/figure1-20.png Graphic file (type png)
 <use ../Ch-radiation/figure1-20.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-20.png  used on input line 173
@@ -6344,12 +6359,12 @@ Overfull \hbox (259.77364pt too wide) in paragraph at lines 5--40
 (../Ch-radiation/problems/StudyCheck5))
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Electron-diffraction)
 (../Ch-radiation/files/Figure-Diffraction-patterns
-<../Ch-radiation/figure1-22.png, id=333, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-22.png, id=314, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-22.png Graphic file (type png)
 <use ../Ch-radiation/figure1-22.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-22.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
-<../Ch-radiation/figure1-23.png, id=334, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-23.png, id=315, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-23.png Graphic file (type png)
 <use ../Ch-radiation/figure1-23.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-23.png  used on input line 7.
@@ -6621,15 +6636,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
 (./Ch-radiation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package rerunfilecheck Info: File `Ch-radiation.out' has not changed.
+(rerunfilecheck)             Checksum: F5131CC89C38C1B103EEC5760EDACE71;2220.
 
-
-Package rerunfilecheck Warning: File `Ch-radiation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-radiation.out':
-(rerunfilecheck)             Before: 891705C6197FBEC81916383AE7A1C007;2220
-(rerunfilecheck)             After:  F5131CC89C38C1B103EEC5760EDACE71;2220.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6640,187 +6649,58 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 86433 strings out of 493014
- 1945471 string characters out of 6133351
- 3123114 words of memory out of 5000000
- 87565 multiletter control sequences out of 15000+600000
+ 86711 strings out of 493014
+ 1949902 string characters out of 6133351
+ 3135150 words of memory out of 5000000
+ 87881 multiletter control sequences out of 15000+600000
  300459 words of font info for 389 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,121p,10606b,2491s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.1.25} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.24} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.23} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.22} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.21} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.20} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.19} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.17} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.16} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.15} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.14} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.13} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.12} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.11} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.10} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.9} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.8} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.7} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.6} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.5} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.4} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.3} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
-2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dis
-t/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
-c/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome
-/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/liberti
-ne/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype
-/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawes
-ome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libe
-rtine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratyp
-e/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pt
-sans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/f
-plmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucr
-r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-radiation.pdf (31 pages, 4414860 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/liber
+tine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paraty
+pe/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontaw
+esome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/li
+bertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
+ype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/
+ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo
+/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/u
+crr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-radiation.pdf (31 pages, 4416440 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
  85392 words of extra memory for PDF output out of 89155 (max. 10000000)
 
