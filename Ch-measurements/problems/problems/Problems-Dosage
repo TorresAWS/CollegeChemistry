@@ -12,7 +12,6 @@ Answer the following questions involving dosages:
  \item  1.7h
 \item  80mg
 \end{inparaenum}
- \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
  
 
@@ -21,13 +20,14 @@ Answer the following questions involving dosages:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Answer the following questions involving dosages:    
   \begin{inparaenum}[(a)]
-\item A patient requires 1g of medication given every three hours. The medication in stock was found in tablets of 200mg. How many tablets do you need in three days?% 120 tablets
-\item A medication needs to be given based on the patient's body weight as 2mg/Kg. If a patient weighs 70Kg and the mediation stock is 100mg/mL, how many mL are needed? %1.4mL  \end{inparaenum}
+\item A patient requires 1g of medication given every three hours. The medication in stock was found in tablets of 200mg. How many tablets do you need in three days?	% 120 tablets
+\item A medication needs to be given based on the patient's body weight as 2mg/Kg. If a patient weighs 70Kg and the mediation stock is 100mg/mL, how many mL are needed? %1.4mL  
+\end{inparaenum}
 \end{question}
 \begin{solution}
   \begin{inparaenum}[(a)]
 \item   120 tablets
-\item  1.4mL  \end{inparaenum}
+\item  1.4mL  
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 FEB 2023 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8482,35 +8482,40 @@ Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 <use ../Ch-measurements/figure1-14.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
-40.
+41.
 (pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
 <../Ch-measurements/figure1-12.png, id=340, 913.4125pt x 590.205pt>
 File: ../Ch-measurements/figure1-12.png Graphic file (type png)
 <use ../Ch-measurements/figure1-12.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
-40.
+41.
 (pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
 <../Ch-measurements/figure1-11.png, id=341, 1027.84pt x 770.88pt>
 File: ../Ch-measurements/figure1-11.png Graphic file (type png)
 <use ../Ch-measurements/figure1-11.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
-40.
+41.
 (pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
 <../Ch-measurements/figure1-13.png, id=342, 913.4125pt x 1254.6875pt>
 File: ../Ch-measurements/figure1-13.png Graphic file (type png)
 <use ../Ch-measurements/figure1-13.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
-40.
+41.
 (pdftex.def)             Requested size: 51.77794pt x 71.12354pt.
 
-Overfull \hbox (106.69618pt too wide) in paragraph at lines 6--44
+Overfull \hbox (106.69618pt too wide) in paragraph at lines 7--45
  [] 
  []
 
 
+Overfull \hbox (15.0pt too wide) in paragraph at lines 5--46
+[][] 
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
+ [18]
 (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
 (../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
 tures) (../Ch-measurements/files/Figure-States-of-matter [19 <../Ch-measurement
@@ -8576,13 +8581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-)) (../Ch-measurements/files/SubSection-Matter-and-density-Separation [20 <../C
-h-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-measurements
-/files/../../Ch-measurements/figure1-22.png> <../Ch-measurements/files/../../Ch
--measurements/figure1-20.jpeg> <../Ch-measurements/files/../../Ch-measurements/
-figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg
-> <../Ch-measurements/files/../../Ch-measurements/figure1-24.png>])
-(../Ch-measurements/files/Figure-Chromatography
+)) (../Ch-measurements/files/Figure-Chromatography
 Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
  [] 
  []
@@ -8590,7 +8589,15 @@ Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [20 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-me
+asurements/files/../../Ch-measurements/figure1-22.png> <../Ch-measurements/file
+s/../../Ch-measurements/figure1-20.jpeg> <../Ch-measurements/files/../../Ch-mea
+surements/figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figur
+e1-21.jpeg> <../Ch-measurements/files/../../Ch-measurements/figure1-24.png>]
+(../Ch-measurements/files/SubSection-Matter-and-density-Separation
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [21])
 (../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
@@ -8705,11 +8712,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
 (./Ch-measurements.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
 (rerunfilecheck)             Checksum: F787F19A4E1E3E6CCE5244959F34F010;1772.
 
@@ -8725,10 +8732,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 85604 strings out of 493014
- 1920880 string characters out of 6133351
- 3865438 words of memory out of 5000000
- 86833 multiletter control sequences out of 15000+600000
+ 85599 strings out of 493014
+ 1920780 string characters out of 6133351
+ 3865437 words of memory out of 5000000
+ 86828 multiletter control sequences out of 15000+600000
  202039 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2818s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8762,7 +8769,7 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (26 pages, 19917316 bytes).
+Output written on Ch-measurements.pdf (26 pages, 19916992 bytes).
 PDF statistics:
  577 PDF objects out of 1000 (max. 8388607)
  409 compressed objects within 5 object streams
