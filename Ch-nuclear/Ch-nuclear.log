@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2023 08:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2023 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5524,8 +5524,23 @@ Package: physics
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5347.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
+Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
+\LCDunitlength=\skip342
+\c@@LCDdotx=\count601
+\c@@LCDdoty=\count602
+\c@@LCDchrx=\count603
+\c@@LCDlines=\count604
+\c@@LCDlower=\count605
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5311.
+h' as default language. on input line 5562.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5539,9 +5554,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count601
-\l__chemformula_tmpb_int=\count602
-\l__chemformula_tmpc_int=\count603
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5572,10 +5587,10 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip342
-\l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count604
-\g__chemformula_lewis_int=\count605
+\l__chemformula_stoich_space_skip=\skip343
+\l__chemformula_math_space_skip=\skip344
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5695,7 +5710,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip344
+\l__chemformula_additions_symbol_space_skip=\skip345
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5716,8 +5731,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip345
-\l__chemformula_minus_space_skip=\skip346
+\l__chemformula_plus_space_skip=\skip346
+\l__chemformula_minus_space_skip=\skip347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5844,16 +5859,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count606
+\scratchcounter=\count611
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count607
-\nofMParguments=\count608
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count609
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen591
-\MPnumerator=\count610
-\makeMPintoPDFobject=\count611
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5882,9 +5897,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count612
-\c@mv@tabular=\count613
-\c@mv@boldtabular=\count614
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6013,7 +6028,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-nuclear/figure1.png, id=157, 147.4308pt x 98.2872pt>
+<../Ch-nuclear/figure1.png, id=141, 147.4308pt x 98.2872pt>
 File: ../Ch-nuclear/figure1.png Graphic file (type png)
 <use ../Ch-nuclear/figure1.png>
 Package pdftex.def Info: ../Ch-nuclear/figure1.png  used on input line 1.
@@ -6075,7 +6090,7 @@ diation)
 s)
 (../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-neutrons
 ) (../Ch-nuclear/files/SideFigure-Radiation-and-life
-<../Ch-nuclear/figure8.png, id=158, 513.92pt x 264.99pt>
+<../Ch-nuclear/figure8.png, id=142, 513.92pt x 264.99pt>
 File: ../Ch-nuclear/figure8.png Graphic file (type png)
 <use ../Ch-nuclear/figure8.png>
 Package pdftex.def Info: ../Ch-nuclear/figure8.png  used on input line 3.
@@ -6097,7 +6112,7 @@ uclear/figure1.png>]
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure9.png, id=176, 351.3125pt x 351.3125pt>
+<../Ch-nuclear/figure9.png, id=158, 351.3125pt x 351.3125pt>
 File: ../Ch-nuclear/figure9.png Graphic file (type png)
 <use ../Ch-nuclear/figure9.png>
 Package pdftex.def Info: ../Ch-nuclear/figure9.png  used on input line 8.
@@ -6110,7 +6125,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure10.png, id=178, 843.15pt x 474.77374pt>
+<../Ch-nuclear/figure10.png, id=160, 843.15pt x 474.77374pt>
 File: ../Ch-nuclear/figure10.png Graphic file (type png)
 <use ../Ch-nuclear/figure10.png>
 Package pdftex.def Info: ../Ch-nuclear/figure10.png  used on input line 13.
@@ -6123,7 +6138,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure12.png, id=179, 1027.84pt x 685.56125pt>
+<../Ch-nuclear/figure12.png, id=161, 1027.84pt x 685.56125pt>
 File: ../Ch-nuclear/figure12.png Graphic file (type png)
 <use ../Ch-nuclear/figure12.png>
 Package pdftex.def Info: ../Ch-nuclear/figure12.png  used on input line 18.
@@ -6242,12 +6257,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--61
 ve)
 (../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-after-several-half-
 lives) (../Ch-nuclear/problems/SampleProblem4
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 20--21
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
@@ -6261,7 +6276,7 @@ ts-Adsorbed-dose)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Radiation-equivalent-in-humans-rem [7])
 (../Ch-nuclear/files/SideFigure-Geiger
-<../Ch-nuclear/figure2.png, id=250, 963.6pt x 706.64pt>
+<../Ch-nuclear/figure2.png, id=228, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
 <use ../Ch-nuclear/figure2.png>
 Package pdftex.def Info: ../Ch-nuclear/figure2.png  used on input line 3.
@@ -6271,7 +6286,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure5.png, id=251, 440.64626pt x 351.3125pt>
+<../Ch-nuclear/figure5.png, id=229, 440.64626pt x 351.3125pt>
 File: ../Ch-nuclear/figure5.png Graphic file (type png)
 <use ../Ch-nuclear/figure5.png>
 Package pdftex.def Info: ../Ch-nuclear/figure5.png  used on input line 8.
@@ -6284,7 +6299,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<../Ch-nuclear/figure11.png, id=252, 856.19875pt x 1284.8pt>
+<../Ch-nuclear/figure11.png, id=230, 856.19875pt x 1284.8pt>
 File: ../Ch-nuclear/figure11.png Graphic file (type png)
 <use ../Ch-nuclear/figure11.png>
 Package pdftex.def Info: ../Ch-nuclear/figure11.png  used on input line 13.
@@ -6304,6 +6319,10 @@ ts-Exposure-to-radiation) (../Ch-nuclear/files/Table-Radiation-damage
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
+
+LaTeX Warning: Reference `tab:{Ch-nuclear}2' on page 8 undefined on input line 
+8.
+
 )
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
@@ -6318,10 +6337,14 @@ ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
+
+LaTeX Warning: Reference `tab:{Ch-nuclear}3' on page 9 undefined on input line 
+7.
+
 ) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon) [9]
 (../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
 (../Ch-nuclear/files/SideFigure-Fusion
-<../Ch-nuclear/figure6.png, id=272, 3257.16875pt x 3891.53876pt>
+<../Ch-nuclear/figure6.png, id=246, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
 <use ../Ch-nuclear/figure6.png>
 Package pdftex.def Info: ../Ch-nuclear/figure6.png  used on input line 3.
@@ -6331,7 +6354,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure7.png, id=273, 692.5875pt x 501.875pt>
+<../Ch-nuclear/figure7.png, id=247, 692.5875pt x 501.875pt>
 File: ../Ch-nuclear/figure7.png Graphic file (type png)
 <use ../Ch-nuclear/figure7.png>
 Package pdftex.def Info: ../Ch-nuclear/figure7.png  used on input line 8.
@@ -6374,7 +6397,7 @@ Package rerunfilecheck Warning: File `Ch-nuclear.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Ch-nuclear.out':
-(rerunfilecheck)             Before: 9A3ECEAD953E5A9677E383982AC643A1;1774
+(rerunfilecheck)             Before: 5EF698435113A15F33BD3BA4BBD7A7D8;977
 (rerunfilecheck)             After:  52EED7F682CAC154583BE38998F80128;1791.
 
 LaTeX Font Warning: Size substitutions with differences
@@ -6384,85 +6407,52 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 83891 strings out of 493014
- 1884797 string characters out of 6133351
- 2652523 words of memory out of 5000000
- 85331 multiletter control sequences out of 15000+600000
- 243527 words of font info for 339 fonts, out of 8000000 for 9000
+ 84199 strings out of 493014
+ 1889559 string characters out of 6133351
+ 2665055 words of memory out of 5000000
+ 85646 multiletter control sequences out of 15000+600000
+ 246330 words of font info for 341 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,36n,104p,10602b,2871s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.1.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/
-2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf
--dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
-c/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawe
-some/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lib
-ertine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/para
-type/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype
-/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawes
-ome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libe
-rtine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratyp
-e/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Ch-nuclear.pdf (12 pages, 10618822 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/tex
+mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
+enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/l
+ibertine/lbtn_qacof3.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/pa
+ratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paraty
+pe/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontaw
+esome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/li
+bertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
+ype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
+y6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on Ch-nuclear.pdf (12 pages, 10618652 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 72243 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 72723 words of extra memory for PDF output out of 74296 (max. 10000000)
 
