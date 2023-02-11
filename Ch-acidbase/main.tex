@@ -5312,10 +5312,259 @@ coordinate(-front-bottom-right) -- cycle;
 \definesubmol{CH2}{CH_2}
 \newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
 
+ 
+ \newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
+ \usepackage[strict]{changepage}\usepackage{ulem}
+  \usepackage{ physics }
+
+%%%%%%%%SCIENTIF NOTATION
+\tikzset{TopArrowStyle/.style={}}
+\tikzset{BottomArrowStyle/.style={}}
+\renewcommand{\tikzmark}[2]{ \tikz[overlay,remember picture,baseline] \node [anchor=base] (#1) {\phantom{#2}};#2 }
+\newcommand*{\XShift}{0.5ex}
+\newcommand*{\ArcDistance}{0.075cm}
+\newcommand*{\OutAngle}{}
+\newcommand*{\InAngle}{}
+\newcommand*{\AnchorPoint}{}
+\newcommand*{\ShortenBegin}{}
+\newcommand*{\ShortenEnd}{}
+%
+\NewDocumentCommand{\DrawArrow}{s O{} m m}{%
+    \IfBooleanTF {#1} {% starred variant - draw arrows below
+        \renewcommand*{\OutAngle}{-95}%
+        \renewcommand*{\InAngle}{-85}%
+        \renewcommand*{\AnchorPoint}{south}%
+        \renewcommand*{\ShortenBegin}{-3.5pt}%
+        \renewcommand*{\ShortenEnd}{-3.5pt}%
+        \tikzset{Arrow Style/.style={BottomArrowStyle}}% <-- important
+    }{% non-starred - draw arrows above
+        \renewcommand*{\OutAngle}{95}%
+        \renewcommand*{\InAngle}{85}%
+        \renewcommand*{\AnchorPoint}{north}%
+        \renewcommand*{\ShortenBegin}{-3.5pt}%
+        \renewcommand*{\ShortenEnd}{-3.5pt}%
+        \tikzset{Arrow Style/.style={TopArrowStyle}}% <-- important
+    }%
+    \begin{tikzpicture}[overlay,remember picture]
+        \draw[
+                ->, thick, distance=\ArcDistance,
+                shorten <=\ShortenBegin, shorten >=\ShortenEnd,
+                out=\OutAngle, in=\InAngle, Arrow Style, #2
+            ] 
+                ($(#3.\AnchorPoint)+(2.0*\XShift,0)$) to 
+                ($(#4.\AnchorPoint)+(0.4*\XShift,0)$);
+    \end{tikzpicture}% <-- important
+}
+%%%%%%%%SCIENTIF NOTATION
+
+
+
+ %%%%%%%%%FOR UNEEDITED TEXT
+\tcbset{
+  % Lengths of the rules
+  northwestleft/.store in={\chnorthwestleftlength},
+  southwestleft/.store in={\chsouthwestleftlength},
+  northeastright/.store in={\chnortheastrightlength},
+  southeastright/.store in={\chsoutheastrightlength},
+  northwestleft=2cm,
+  southwestleft=2cm,
+  northeastright=2cm,
+  southeastright=2cm,
+  northleft/.store in={\chnorthleftlength},
+  northright/.store in={\chnorthrightlength},
+  southleft/.store in={\chsouthleftlength},
+  southright/.store in={\chsouthrightlength},
+  northleft=2cm,
+  southleft=2cm,
+  northright=2cm,
+  southright=2cm,
+  toplength/.forward to=/tcb/northright,
+  toplength/.forward to=/tcb/northleft,
+  leftlength/.forward to=/tcb/northwestleft,
+  leftlength/.forward to=/tcb/southwestleft,
+  rightlength/.forward to=/tcb/northeastright,
+  rightlength/.forward to=/tcb/southeastright,
+  bottomlength/.forward to=/tcb/southright,
+  bottomlength/.forward to=/tcb/southleft,
+  % Widths of the rules
+  northwestleftrule/.store in={\chnorthwestleftrule},
+  northwesttoprule/.store in={\chnorthwesttoprule},
+  northwestrule/.forward to=/tcb/northwestleftrule,
+  northwestrule/.forward to=/tcb/northwesttoprule,
+  northeastrightrule/.store in={\chnortheastrightrule},
+  northeasttoprule/.store in={\chnortheasttoprule},
+  northeastrule/.forward to=/tcb/northeastrightrule,
+  northeastrule/.forward to=/tcb/northeasttoprule,
+  southwestleftrule/.store in={\chsouthwestleftrule},
+  southwestbottomrule/.store in={\chsouthwestbottomrule},
+  southwestrule/.forward to=/tcb/southwestleftrule,
+  southwestrule/.forward to=/tcb/southwestbottomrule,
+  southeastrightrule/.store in={\chsoutheastrightrule},
+  southeastbottomrule/.store in={\chsoutheastbottomrule},
+  southeastrule/.forward to=/tcb/southeastrightrule,
+  southeastrule/.forward to=/tcb/southeastbottomrule,
+  northwestleftrule=2pt,
+  northwesttoprule=2pt,
+  southwestleftrule=2pt,
+  southwestbottomrule=2pt,
+  northeastrightrule=2pt,
+  northeasttoprule=2pt,
+  southeastrightrule=2pt,
+  southeastbottomrule=2pt,
+  northrules/.forward to=/tcb/northwestrule,
+  northrules/.forward to=/tcb/northeastrule,
+  southrules/.forward to=/tcb/southwestrule,
+  southrules/.forward to=/tcb/southeastrule,
+  allrules/.forward to=/tcb/northrules,
+  allrules/.forward to=/tcb/southrules,
+  % Colours
+  upperleftcolor/.store in={\chupperleftcolor},
+  upperrightcolor/.store in={\chupperrightcolor},
+  lowerrightcolor/.store in={\chlowerrightcolor},
+  lowerleftcolor/.store in={\chlowerleftcolor},
+  lowerleftcolor={blue},
+  lowerrightcolor={blue},
+  upperrightcolor={blue},
+  upperleftcolor={blue},
+  northcolor/.forward to=/tcb/upperleftcolor,
+  northcolor/.forward to=/tcb/upperrightcolor,
+  southcolor/.forward to=/tcb/lowerleftcolor,
+  southcolor/.forward to=/tcb/lowerrightcolor,
+  allcolors/.forward to=/tcb/northcolor,
+  allcolors/.forward to=/tcb/southcolor,
+  northwest/.style={%
+    sharp corners=northwest,
+    overlay app={
+      \coordinate (north west corner) at ([shift={(-0.5*\chnorthwestleftrule,\chnorthwesttoprule)}]frame.north west);
+      \coordinate (west start) at ([shift={(-0.5*\chnorthwestleftrule,-\chnorthwestleftlength)}]frame.north west);
+      \coordinate (north end) at ([shift={(\chnorthleftlength,\chnorthwesttoprule))}]frame.north west);
+      \draw[line width=\chnorthwestleftrule,\chupperleftcolor] (west start) -- (north west corner);
+      \draw[line width=\chnorthwesttoprule,\chupperleftcolor] ([yshift={(-0.5*\chnorthwesttoprule)}]north west corner) -- ([yshift={(-0.5*\chnorthwesttoprule)}]north end);
+    }
+  },
+  southeast/.style={
+    sharp corners=southeast,
+    overlay app={
+      \coordinate (south east corner)   at ([shift={(0.5*\chsoutheastrightrule,-\chsoutheastbottomrule)}]frame.south east);
+      \coordinate (east end) at ([shift={(-\chsouthrightlength,-\chsoutheastbottomrule)}]frame.south east);
+      \coordinate (east start)  at ([shift={(0.5*\chsoutheastrightrule,\chsoutheastrightlength)}]frame.south east);
+      \draw[line width=\chsoutheastrightrule,\chlowerrightcolor] (east start) -- (south east corner);
+      \draw[line width=\chsoutheastbottomrule,\chlowerrightcolor] ([yshift={(0.5*\chsoutheastbottomrule)}]south east corner) -- ([yshift={(0.5*\chsoutheastbottomrule)}]east end);
+    }
+  },    
+  northeast/.style={
+    sharp corners=northeast,
+    overlay app={
+      \coordinate (north east corner)   at ([shift={(0.5*\chnortheastrightrule,\chnortheasttoprule)}]frame.north east);
+      \coordinate (north start)  at ([shift={(0.5*\chnortheastrightrule,-\chnortheastrightlength)}]frame.north east);
+      \coordinate (north end) at ([shift={(-\chnorthrightlength,\chnortheasttoprule))}]frame.north east);
+      \draw[line width=\chnortheastrightrule,\chupperrightcolor] (north start) -- (north east corner);
+      \draw[line width=\chnortheasttoprule,\chupperrightcolor] ([yshift={(-0.5*\chnortheasttoprule)}]north east corner) --  ([yshift={(-0.5*\chnortheasttoprule)}]north end);
+    }
+  },
+  southwest/.style={
+    sharp corners=southwest,
+    overlay app={
+      \coordinate (south west corner)   at ([shift={(-0.5*\chsouthwestleftrule,-\chsouthwestbottomrule)}]frame.south west);
+      \coordinate (south start)  at ([shift={(-0.5*\chsouthwestleftrule,\chsouthwestleftlength)}]frame.south west);
+      \coordinate (south end) at ([shift={(\chsouthleftlength,-\chsouthwestbottomrule)}]frame.south west);
+      \draw[line width=\chsouthwestleftrule,\chlowerleftcolor] (south start) -- (south west corner);
+      \draw[line width=\chsouthwestbottomrule,\chlowerleftcolor] ([yshift={(0.5*\chsouthwestbottomrule)}]south west corner) -- ([yshift={(0.5*\chsouthwestbottomrule)}]south end);
+    }
+  },
+  northwestsoutheast/.style={overlay={},northwest,southeast},
+  northeastsouthwest/.style={overlay={},northeast,southwest},
+  allcorners/.style={overlay={},northeastsouthwest,northwestsoutheast},
+}
+
+
+\newtcolorbox{cornerbox}[1][]{%
+  enhanced jigsaw,
+  boxrule=0pt,
+  northwestsoutheast,breakable=true,title=Unedited text,
+  #1
+}
+
+
+\makeatother
+ %%%%%%%%%FOR UNEEDITED TEXT
+%%%%%%%UNEDITED
+%\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item 
+%\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+%\item[\docfilehook{Specific gravity}{}]\import{../\chapterlabel/files/}{SubSection-Matter-and-density-Specific-gravity}
+%\end{cornerbox}}{}
+%%%%%%%UNEDITED
+ 
+
+%%%%CALCUYLATOR DISPLAY
+\usepackage{lcd}
+\colorlet{greenish}{green!16!gray}
+\LCDcolors{black}{greenish}
+\LCDnoframe
+\renewcommand*\textLCDcorr{0}
+\DefineLCDchar{sq}{11100001000100011100000000000000000}
+\DefineLCDchar{tm}{00000100010101000100010101000100000}
+\DefineLCDchar{dv}{00000001000000011111000000010000000}
+\DefineLCDchar{mu}{00011000011110100001000000000000000}
+\DefineLCDchar{"}{11011010011001000000000000000000000}
+\DefineLCDchar{deg}{01100100101001001100000000000000000}
+\DefineLCDchar{10}{00000000000000010111101011010110111}
+\DefineLCDchar{rm}{00000000001111100000000000000000000}
+\DefineLCDchar{rz}{1110010100101001110000000000000000000000}
+\DefineLCDchar{riseten}{1011110101101011011100000000000000000000}
+\newcommand{\DEG}{\llap{DEG\hspace{10mm}}}
+\newcommand{\RAD}{\llap{RAD\hspace{5mm}}}
+
+\newtcolorbox{calc}[1][]{
+  enhanced,bicolor,
+  boxsep=0pt,
+  boxrule=0pt,
+  top=6pt,bottom=0pt,left=6pt,right=0pt,
+  sharp corners,
+  frame empty,
+  colback=black!10,
+  colbacklower=greenish,
+  sidebyside,
+  sidebyside align=top seam,
+  sidebyside gap=0pt,
+  righthand width=50.7mm,
+  before lower=\begin{tabular}{@{}l@{}},
+  after lower=\end{tabular},
+  overlay={\node[inner sep=0pt, outer sep=0pt, text height=5pt, text
+    depth=1pt, text width=50.7mm, fill=greenish, anchor=north
+    east, font=\sffamily\tiny\bfseries, align=flush right]
+    at (frame.north east) {#1};}
+}
+
+%%%%CALCUYLATOR DISPLAY
+
+%%%%TARGE ACCURACY
+\newcommand{\target}[1]{%
+  \foreach \r in {2.5, 2, 1.5, 1, 0.5, 0.05} {
+    \draw [
+      fill = black,
+      fill opacity = 0.15
+    ] (0, 0) circle (\r cm);
+  }
+}%
+\newcommand{\pointsA}[3]{%
+  \foreach \i in {1, 2, ..., 20} {
+    \pgfmathsetmacro{\xcoord}{#1 + rand * #3}
+    \pgfmathsetmacro{\ycoord}{#2 + rand * #3}
+    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
+  }
+}%
+\newcommand{\circlevar}[3]{%
+  \draw[color = green] (#1, #2) circle (#3 cm);
+  \node[text = green] at (#1, #2) {$\times$};
+}%
+
+%%%%%%%%%%%%%%%
+ 
 \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
-\newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
-\usepackage[strict]{changepage}\usepackage{physics}
-\newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
+ \newcommand\showfinalanswers{false}%%TRUEfor showing answers false for not
+  \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
+
 
 
 
