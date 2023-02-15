@@ -1,0 +1,89 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-measurements}
+ 
+\begin{document}\setcounter{numA}{1}
+\GenerateRandumNumber{100}{\NewRandom}
+\pagestyle{fancy}\fancyfoot{} \fancyfoot[LO,RO]{\NewRandom-\thepage}
+\newpage\newgeometry{twoside,vmargin=1cm,hmargin=1cm,twocolumn,includefoot} \setlength{\columnseprule}{0.4pt}\setlength{\columnsep}{3em}
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+ \newlength{\FSize}
+\setlength{\FSize}{5pt}
+\newlength{\Baselineskip}
+\setlength{\Baselineskip}{1.2\FSize}
+
+
+
+
+
+
+\FillableNamebox 
+
+{\raggedright\textsc{\textbf{Math skills }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Basic-algebra}{A}
+\PrintOneProblemFillableRANDOM{Problems-Scientific-Notation}{A}
+
+{\raggedright\textsc{\textbf{Units of Measurements and systems of units }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Units-and-measurements}{A}
+
+{\raggedright\textsc{\textbf{Significant Figures }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Significant-Exact-and-measured-numbers}{A}
+\PrintOneProblemFillableRANDOM{Problems-Significant-Figures-calculations}{A}
+\PrintOneProblemFillableRANDOM{Problems-Significant-Figures-of-numbers}{A}
+\PrintOneProblemFillableRANDOM{Problems-Significant-Rounding}{A}
+
+{\raggedright\textsc{\textbf{Prefixes \& Conversion Factors }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Identify-Prefixes-Conversion-Factors} {A}
+
+{\raggedright\textsc{\textbf{Using Conversion Factors }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Add-remove-prefixes}{A} 
+\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-switch-prefixed}{A}
+\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Other-units}{A}
+\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Square-and-cubic-units}{A}
+
+{\raggedright\textsc{\textbf{Measurements and uncertainty }}\par}
+\PrintOneProblemFillableRANDOM{Problems-Measurements-and-uncertanty}{A}
+  
+ %% NOT FOR 121
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+{\raggedright\textsc{\textbf{Matter}}\par} 
+\PrintOneProblemFillableRANDOM{Problems-Mixtures}{A}
+\PrintOneProblemFillableRANDOM{Problems-States-of-matter}{A}
+}
+ %% NOT FOR 121
+ 
+{\raggedright\textsc{\textbf{Density}}\par}
+\PrintOneProblemFillableRANDOM{Problems-Density}{A}
+\PrintOneProblemFillableRANDOM{Problems-Density-and-mixing}{A}
+\PrintOneProblemFillableRANDOM{Problems-Density-and-the-volume-of-objects}{A}
+\PrintOneProblemFillableRANDOM{Problems-Specific-gravity}{A}
+\PrintOneProblemFillableRANDOM{Problems-Dosage}{A}
+
+
+
+ 
+
+
+
+ \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage
+\newgeometry{twoside,vmargin=1cm,hmargin=1cm,includefoot}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+{\Large \bf Answers}{\small v. \NewRandom}}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+%  \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}

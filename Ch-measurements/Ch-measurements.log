@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2023 11:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1627,8 +1627,8 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 \@MXV@end=\dimen377
 \@MXV@textbox=\box109
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
-Package hyperref Info: Option `colorlinks' set `true' on input line 60.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 63.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
@@ -2728,7 +2728,7 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 \mylen=\skip278
 
 
-Package array Warning: Column Y is already defined on input line 817.
+Package array Warning: Column Y is already defined on input line 821.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
@@ -2831,7 +2831,7 @@ Package: carbohydrates 2015/12/01 v0.1 carbohydrate molecules with chemfig (CN)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tikzcheckmark with sig. 'O{} m' on line 1314.
+. Defining command \tikzcheckmark with sig. 'O{} m' on line 1318.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/everypage/everypage.sty
@@ -2868,7 +2868,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newstep with sig. 'o' on line 1352.
+. Defining command \newstep with sig. 'o' on line 1356.
 .................................................
 \c@stepsi=\count440
 \enitdp@steps=\count441
@@ -2877,7 +2877,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 . LaTeX info: "xparse/redefine-command"
 . 
 . Redefining command \sidenote with sig. 'm O{Pbardefault} O{Plightdefault}'
-. on line 1365.
+. on line 1369.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
@@ -2950,7 +2950,7 @@ File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
 
 
 Package mdframed Warning: Environment example already exits
-(mdframed)                 on input line 1430.
+(mdframed)                 on input line 1434.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -3250,7 +3250,7 @@ ng of objects, relative to a reference object or in absolute terms
 \tempdimB=\skip298
 
 
-Package array Warning: Column L is already defined on input line 1843.
+Package array Warning: Column L is already defined on input line 1847.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros.sty
 Package: chemmacros 2016/05/04 v5.6a comprehensive support for typesetting chem
@@ -3888,14 +3888,14 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks79
 \TP@prevdepth=\dimen513
 )
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 1859.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1863.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
-(Font)              using `T1/ppl/m/n' instead on input line 1859.
+(Font)              using `T1/ppl/m/n' instead on input line 1863.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3904,7 +3904,7 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2032.
+(Font)              size <24.88> substituted on input line 2036.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4030,7 +4030,7 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 2094.
+(Font)              size <24.88> substituted on input line 2098.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4378,7 +4378,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2221.
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2225.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4542,7 +4542,7 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
-. color=OrangeRed!20, bottom color=Red} m' on line 2858.
+. color=OrangeRed!20, bottom color=Red} m' on line 2862.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4556,7 +4556,7 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3509.
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3513.
 .................................................
 \pgf@layerbox@foreground=\box287
 \pgf@layerboxsaved@foreground=\box288
@@ -5646,7 +5646,7 @@ Package: physics
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DrawArrow with sig. 's O{} m m' on line 5440.
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5444.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
@@ -5658,26 +5658,42 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count612
 \c@@LCDlower=\count613
 )
+\templength=\skip343
+\c@ntostring=\count614
+\c@NumberofProblemsFinal=\count615
+\myhiddenbox=\box290
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+\f@rst=\count616
+\l@st=\count617
+\cr@nd=\count618
+\c@rand=\count619
+
+Smallest possible random number: 1
+Largest possible random number: 2147483647
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+\c@SavedRandom=\count620
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5653.
+h' as default language. on input line 5773.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen575
 \l__chemformula_tmpb_dim=\dimen576
 \l__chemformula_tmpc_dim=\dimen577
-\l__chemformula_tmpa_int=\count614
-\l__chemformula_tmpb_int=\count615
-\l__chemformula_tmpc_int=\count616
-\l__chemformula_tmpa_box=\box290
-\l__chemformula_tmpb_box=\box291
+\l__chemformula_tmpa_int=\count621
+\l__chemformula_tmpb_int=\count622
+\l__chemformula_tmpc_int=\count623
+\l__chemformula_tmpa_box=\box291
+\l__chemformula_tmpb_box=\box292
 \l__chemformula_arrow_length_dim=\dimen578
 \l__chemformula_arrow_label_height_dim=\dimen579
 \l__chemformula_arrow_label_offset_dim=\dimen580
@@ -5706,14 +5722,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen603
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen604
 \l__chemformula_kroegervink_positive_space_dim=\dimen605
-\l__chemformula_stoich_space_skip=\skip343
-\l__chemformula_math_space_skip=\skip344
-\l__chemformula_count_tokens_int=\count617
-\g__chemformula_lewis_int=\count618
-\l__chemformula_arrow_arg_i_box=\box292
-\l__chemformula_arrow_arg_ii_box=\box293
-\l__chemformula_superscript_box=\box294
-\l__chemformula_subscript_box=\box295
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
+\l__chemformula_count_tokens_int=\count624
+\g__chemformula_lewis_int=\count625
+\l__chemformula_arrow_arg_i_box=\box293
+\l__chemformula_arrow_arg_ii_box=\box294
+\l__chemformula_superscript_box=\box295
+\l__chemformula_subscript_box=\box296
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5829,7 +5845,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip345
+\l__chemformula_additions_symbol_space_skip=\skip346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5850,8 +5866,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip346
-\l__chemformula_minus_space_skip=\skip347
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5918,7 +5934,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 5.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box296
+\AtBeginShipoutBox=\box297
 Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -5981,16 +5997,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count619
+\scratchcounter=\count626
 \scratchdimen=\dimen606
-\scratchbox=\box297
-\nofMPsegments=\count620
-\nofMParguments=\count621
+\scratchbox=\box298
+\nofMPsegments=\count627
+\nofMParguments=\count628
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count622
+\MPscratchCnt=\count629
 \MPscratchDim=\dimen607
-\MPnumerator=\count623
-\makeMPintoPDFobject=\count624
+\MPnumerator=\count630
+\makeMPintoPDFobject=\count631
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -6019,9 +6035,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count625
-\c@mv@tabular=\count626
-\c@mv@boldtabular=\count627
+\c@lstlisting=\count632
+\c@mv@tabular=\count633
+\c@mv@boldtabular=\count634
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -8727,13 +8743,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 85595 strings out of 493014
- 1920695 string characters out of 6133351
- 3865438 words of memory out of 5000000
- 86824 multiletter control sequences out of 15000+600000
- 202039 words of font info for 296 fonts, out of 8000000 for 9000
+ 85681 strings out of 493014
+ 1921964 string characters out of 6133351
+ 3867809 words of memory out of 5000000
+ 86902 multiletter control sequences out of 15000+600000
+ 202264 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2818s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -8766,7 +8785,7 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (26 pages, 19917123 bytes).
+Output written on Ch-measurements.pdf (26 pages, 19917191 bytes).
 PDF statistics:
  577 PDF objects out of 1000 (max. 8388607)
  409 compressed objects within 5 object streams

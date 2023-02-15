@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2023 05:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2023 13:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5647,7 +5647,7 @@ Package: physics
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DrawArrow with sig. 's O{} m m' on line 5443.
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5440.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
@@ -5659,8 +5659,10 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count612
 \c@@LCDlower=\count613
 )
+\TBox=\box290
+\templength=\skip343
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5652.
+h' as default language. on input line 5687.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5677,8 +5679,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_int=\count614
 \l__chemformula_tmpb_int=\count615
 \l__chemformula_tmpc_int=\count616
-\l__chemformula_tmpa_box=\box290
-\l__chemformula_tmpb_box=\box291
+\l__chemformula_tmpa_box=\box291
+\l__chemformula_tmpb_box=\box292
 \l__chemformula_arrow_length_dim=\dimen578
 \l__chemformula_arrow_label_height_dim=\dimen579
 \l__chemformula_arrow_label_offset_dim=\dimen580
@@ -5707,14 +5709,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen603
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen604
 \l__chemformula_kroegervink_positive_space_dim=\dimen605
-\l__chemformula_stoich_space_skip=\skip343
-\l__chemformula_math_space_skip=\skip344
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
 \l__chemformula_count_tokens_int=\count617
 \g__chemformula_lewis_int=\count618
-\l__chemformula_arrow_arg_i_box=\box292
-\l__chemformula_arrow_arg_ii_box=\box293
-\l__chemformula_superscript_box=\box294
-\l__chemformula_subscript_box=\box295
+\l__chemformula_arrow_arg_i_box=\box293
+\l__chemformula_arrow_arg_ii_box=\box294
+\l__chemformula_superscript_box=\box295
+\l__chemformula_subscript_box=\box296
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5830,7 +5832,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip345
+\l__chemformula_additions_symbol_space_skip=\skip346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5851,8 +5853,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip346
-\l__chemformula_minus_space_skip=\skip347
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5919,7 +5921,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box296
+\AtBeginShipoutBox=\box297
 Package hyperref Info: Link coloring ON on input line 3.
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -5984,7 +5986,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count619
 \scratchdimen=\dimen606
-\scratchbox=\box297
+\scratchbox=\box298
 \nofMPsegments=\count620
 \nofMParguments=\count621
 \everyMPshowfont=\toks86
@@ -6136,8 +6138,8 @@ Package mdframed Info: Not enough space on this page on input line 13.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 16.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
+ line 10.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -6146,30 +6148,30 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 10.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 16.
+(Font)              <10> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 16.
+(Font)              <7.6> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 16.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+(Font)              <6> on input line 10.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 10.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -6180,25 +6182,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 16.
+(Font)              scaled to size 10.42007pt on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 16.
+(Font)              scaled to size 7.91925pt on input line 10.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 16.
+(Font)              scaled to size 6.25204pt on input line 10.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 16.
+(Font)              scaled to size 10.42007pt on input line 10.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 16.
+(Font)              scaled to size 7.91925pt on input line 10.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 16.
+(Font)              scaled to size 6.25204pt on input line 10.
 )
 (../Ch-measurements/problems/problems/Problems-Scientific-Notation)
 (../Ch-measurements/problems/problems/Problems-Units-and-measurements)
@@ -6214,10 +6216,10 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \vbox (19.48613pt too high) has occurred while \output is active []
+Overfull \vbox (33.48613pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (19.48613pt too high) has occurred while \output is active []
+Overfull \vbox (33.48613pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -6265,7 +6267,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
 (../Ch-measurements/problems/problems/Problems-Mixtures)
-(../Ch-measurements/problems/problems/Problems-States-of-matter)
+(../Ch-measurements/problems/problems/Problems-States-of-matter [4])
 (../Ch-measurements/problems/problems/Problems-Density)
 (../Ch-measurements/problems/problems/Problems-Density-and-mixing)
 (../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
@@ -6336,7 +6338,7 @@ Overfull \hbox (1.94894pt too wide) in paragraph at lines 319--319
  [] 
  []
 
-<../Ch-measurements/ice.png, id=277, 106.67052pt x 47.48138pt>
+<../Ch-measurements/ice.png, id=328, 106.67052pt x 47.48138pt>
 File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 415.
@@ -6353,58 +6355,29 @@ File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 415.
 (pdftex.def)             Requested size: 191.78214pt x 85.36642pt.
+<../Ch-measurements/al.jpeg, id=330, 578.16pt x 642.4pt>
+File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/al.jpeg>
+Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
+(pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
+File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/al.jpeg>
+Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
+(pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
+File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/al.jpeg>
+Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
+(pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
+File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/al.jpeg>
+Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
+(pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
 ) (../Ch-measurements/problems/problems/Problems-Specific-gravity)
 (../Ch-measurements/problems/problems/Problems-Dosage)
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
- [4]
 Missing character: There is no ) in font nullfont!
- [5 <../Ch-measurements/ice.png>] [6]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=481.87546pt
-* \textheight=702.78308pt
-* \oddsidemargin=-14.45378pt
-* \evensidemargin=-14.45378pt
-* \topmargin=-43.1381pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 111.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7
-
-]
+ [5] [6 <../Ch-measurements/ice.png> <../Ch-measurements/al.jpeg>]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6416,10 +6389,9 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
- (./Ch-measurementsProblems.aux)
+(./Ch-measurementsProblems.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `Ch-measurementsProblems.out' has not changed
@@ -6433,18 +6405,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 84384 strings out of 493014
- 1885876 string characters out of 6133351
- 3759763 words of memory out of 5000000
- 85820 multiletter control sequences out of 15000+600000
- 105584 words of font info for 159 fonts, out of 8000000 for 9000
+ 84298 strings out of 493014
+ 1885182 string characters out of 6133351
+ 3760633 words of memory out of 5000000
+ 85826 multiletter control sequences out of 15000+600000
+ 91962 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,15n,104p,10433b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,14n,104p,10433b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -6462,10 +6431,10 @@ ts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-measurementsProblems.pdf (8 pages, 2038056 bytes).
+Output written on Ch-measurementsProblems.pdf (6 pages, 2187535 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 311 named destinations out of 1000 (max. 500000)
- 27587 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 25544 words of extra memory for PDF output out of 29859 (max. 10000000)
 

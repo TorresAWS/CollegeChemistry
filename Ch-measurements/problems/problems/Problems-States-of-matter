@@ -48,4 +48,20 @@ It fills the volume of the container. \hspace{0.1cm}\end{solution}\stepcounter{n
 
 
  
-
+ %%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following is a property of a gas and a liquid? 
+\begin{inparaenum}[(a)]
+\item It flows.
+ \item It takes the shape of the container.
+ \item It has no shape.
+\item It fills the volume of the container.
+\item The particles move slowly.
+\item The interactions between its particles are strong.
+ \item The particles move at a rapid rate.
+\item The interactions between its particles are unesxistent.
+ \item The particles have fixed positions and are very close together.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+It flows;It takes the shape of the container. \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
