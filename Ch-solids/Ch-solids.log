@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2023 05:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2023 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5435,26 +5435,42 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count570
 \c@@LCDlower=\count571
 )
+\templength=\skip343
+\c@ntostring=\count572
+\c@NumberofProblemsFinal=\count573
+\myhiddenbox=\box288
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+\f@rst=\count574
+\l@st=\count575
+\cr@nd=\count576
+\c@rand=\count577
+
+Smallest possible random number: 1
+Largest possible random number: 2147483647
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+\c@SavedRandom=\count578
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5561.
+h' as default language. on input line 5672.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen555
 \l__chemformula_tmpb_dim=\dimen556
 \l__chemformula_tmpc_dim=\dimen557
-\l__chemformula_tmpa_int=\count572
-\l__chemformula_tmpb_int=\count573
-\l__chemformula_tmpc_int=\count574
-\l__chemformula_tmpa_box=\box288
-\l__chemformula_tmpb_box=\box289
+\l__chemformula_tmpa_int=\count579
+\l__chemformula_tmpb_int=\count580
+\l__chemformula_tmpc_int=\count581
+\l__chemformula_tmpa_box=\box289
+\l__chemformula_tmpb_box=\box290
 \l__chemformula_arrow_length_dim=\dimen558
 \l__chemformula_arrow_label_height_dim=\dimen559
 \l__chemformula_arrow_label_offset_dim=\dimen560
@@ -5483,14 +5499,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen583
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen584
 \l__chemformula_kroegervink_positive_space_dim=\dimen585
-\l__chemformula_stoich_space_skip=\skip343
-\l__chemformula_math_space_skip=\skip344
-\l__chemformula_count_tokens_int=\count575
-\g__chemformula_lewis_int=\count576
-\l__chemformula_arrow_arg_i_box=\box290
-\l__chemformula_arrow_arg_ii_box=\box291
-\l__chemformula_superscript_box=\box292
-\l__chemformula_subscript_box=\box293
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
+\l__chemformula_count_tokens_int=\count582
+\g__chemformula_lewis_int=\count583
+\l__chemformula_arrow_arg_i_box=\box291
+\l__chemformula_arrow_arg_ii_box=\box292
+\l__chemformula_superscript_box=\box293
+\l__chemformula_subscript_box=\box294
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5606,7 +5622,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip345
+\l__chemformula_additions_symbol_space_skip=\skip346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5627,8 +5643,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip346
-\l__chemformula_minus_space_skip=\skip347
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5660,8 +5676,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . Defining command \setchemformula with sig. 'm' on line 3245.
 .................................................
 )))
-\unitcellwater=\box294
-\trianglenew=\box295
+\unitcellwater=\box295
+\trianglenew=\box296
 
 
 LaTeX Warning: Unused global option(s):
@@ -5696,7 +5712,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 5.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box296
+\AtBeginShipoutBox=\box297
 Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -5757,16 +5773,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count577
+\scratchcounter=\count584
 \scratchdimen=\dimen586
-\scratchbox=\box297
-\nofMPsegments=\count578
-\nofMParguments=\count579
+\scratchbox=\box298
+\nofMPsegments=\count585
+\nofMParguments=\count586
 \everyMPshowfont=\toks83
-\MPscratchCnt=\count580
+\MPscratchCnt=\count587
 \MPscratchDim=\dimen587
-\MPnumerator=\count581
-\makeMPintoPDFobject=\count582
+\MPnumerator=\count588
+\makeMPintoPDFobject=\count589
 \everyMPtoPDFconversion=\toks84
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5795,8 +5811,8 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@mv@tabular=\count583
-\c@mv@boldtabular=\count584
+\c@mv@tabular=\count590
+\c@mv@boldtabular=\count591
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6768,22 +6784,22 @@ Package pgfplots info on input line 33: fill between: found 'clip=true'. Prepar
 ing pgfplotsextra instruction with clip path for layer 'pre main'...
 Package pgfplots info on input line 42: fill between: activating layered graphi
 cs
-\pgf@layerbox@axis background=\box298
-\pgf@layerboxsaved@axis background=\box299
-\pgf@layerbox@axis grid=\box300
-\pgf@layerboxsaved@axis grid=\box301
-\pgf@layerbox@axis ticks=\box302
-\pgf@layerboxsaved@axis ticks=\box303
-\pgf@layerbox@axis lines=\box304
-\pgf@layerboxsaved@axis lines=\box305
-\pgf@layerbox@axis tick labels=\box306
-\pgf@layerboxsaved@axis tick labels=\box307
-\pgf@layerbox@pre main=\box308
-\pgf@layerboxsaved@pre main=\box309
-\pgf@layerbox@axis descriptions=\box310
-\pgf@layerboxsaved@axis descriptions=\box311
-\pgf@layerbox@axis foreground=\box312
-\pgf@layerboxsaved@axis foreground=\box313
+\pgf@layerbox@axis background=\box299
+\pgf@layerboxsaved@axis background=\box300
+\pgf@layerbox@axis grid=\box301
+\pgf@layerboxsaved@axis grid=\box302
+\pgf@layerbox@axis ticks=\box303
+\pgf@layerboxsaved@axis ticks=\box304
+\pgf@layerbox@axis lines=\box305
+\pgf@layerboxsaved@axis lines=\box306
+\pgf@layerbox@axis tick labels=\box307
+\pgf@layerboxsaved@axis tick labels=\box308
+\pgf@layerbox@pre main=\box309
+\pgf@layerboxsaved@pre main=\box310
+\pgf@layerbox@axis descriptions=\box311
+\pgf@layerboxsaved@axis descriptions=\box312
+\pgf@layerbox@axis foreground=\box313
+\pgf@layerboxsaved@axis foreground=\box314
 Package pgfplots info on input line 42: Setting layers 'axis background,axis gr
 id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
 foreground'...
@@ -6934,10 +6950,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 83602 strings out of 493014
- 1882262 string characters out of 6133351
- 2857673 words of memory out of 5000000
- 84985 multiletter control sequences out of 15000+600000
+ 83682 strings out of 493014
+ 1883491 string characters out of 6133351
+ 2860260 words of memory out of 5000000
+ 85061 multiletter control sequences out of 15000+600000
  230033 words of font info for 346 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,124p,10529b,2256s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6976,7 +6992,7 @@ ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on Ch-Solids.pdf (22 pages, 27746925 bytes).
+Output written on Ch-Solids.pdf (22 pages, 27747019 bytes).
 PDF statistics:
  482 PDF objects out of 1000 (max. 8388607)
  324 compressed objects within 4 object streams
