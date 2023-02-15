@@ -5550,7 +5550,118 @@ coordinate(-front-bottom-right) -- cycle;
 }%
 
 %%%%%%%%%%%%%%
+
+%%addproblemWithAnswerBoxMACRO%%%%%%%%%%%% 
+ \newcommand{\addproblemWithAnswerBox}[1]{ 
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+\import{../\chapterlabel/problems/problems/}{#1}
+\end{question}
+   \begin{Form}
+   \TextField[multiline,backgroundcolor=gray!20,borderwidth=0,width=0.43\textwidth  ,height=115pt, name=\the\value{numA}]  { }\end{Form}
+\begin{solution}
+\import{../\chapterlabel/problems/problems/}{#1.answer}
+\hspace{0.1cm}
+\end{solution}
+\stepcounter{numA}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
+\newcommand\ProblemSectionlabel{}
+\newcolumntype{A}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand\LayoutTextField[2]{%
+    #1 \raisebox{-3.0pt}{#2}%
+}
+\newlength\templength
+\newcommand{\DefaultTextField}[2][]{%
+    \settowidth\templength{#2 }%
+    \mbox{\TextField[align=1,bordercolor=0 1 1,backgroundcolor={},#1,width=\dimexpr\linewidth-\templength]{#2}}%
+}
+\renewcommand\LayoutCheckField[2]{%
+    \raisebox{-1.0pt}{#2}\hspace*{2mm}#1%
+}
+ %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
  
+
+
+  
+  
+
+
+
+ 
+ 
+
+
+
+%%% MACRO FOR RENDERING ALL PROBLEMS OF A PROBLEM SECTION
+%% THIS macro renders all problems of a file A and B with fillable boxes
+%%%\PrintAllProblemsFillable{Problems-Basic-algebra}
+   \newcounter{ntostring}
+     \usepackage{catchfile}
+ \newcounter{NumberofProblemsFinal}
+ \newcommand{\PrintAllProblemsFillable}[1]{ 
+ \def\ProblemSectionlabel{#1}
+ \CatchFileDef\NumberofProblemstxt{../\chapterlabel/problems/problems/\ProblemSectionlabel.numberofquestions}{\endlinechar=-1 } 
+ \setcounter{NumberofProblemsFinal}{\NumberofProblemstxt}
+ \foreach \n in {1,...,\theNumberofProblemsFinal}{
+ \setcounter{ntostring}{\n}
+ \addproblemWithAnswerBox{\ProblemSectionlabel.\thentostring.A}     
+ \addproblemWithAnswerBox{\ProblemSectionlabel.\thentostring.B}     
+}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+% %%% MACRO FOR RENDERING A SINGLE RABDOM PROBLEMS OF A PROBLEM SECTION
+%THIS MACRO PRINTS one random problem from the file #1 e.g. Problems-Basic-algebra either replica A or B as indicated in %2
+%%% e.g. \PrintOneProblemFillableRANDOM{Problems-Basic-algebra}{A}
+\newsavebox\myhiddenbox
+  \usepackage[]{lcg}
+\newcommand{\thecmd}[2]{\chgrand[first=#1]\reinitrand[last=#2]\sbox{\myhiddenbox}{\rand\arabic{rand}}}
+ \newcommand{\PrintOneProblemFillableRANDOM}[2]{ 
+ \renewcommand\ProblemSectionlabel{#1} 
+ \CatchFileDef\NumberofProblemstxt{../\chapterlabel/problems/problems/\ProblemSectionlabel.numberofquestions}{\endlinechar=-1 }
+ \setcounter{NumberofProblemsFinal}{\NumberofProblemstxt}
+ \thecmd{1}{\theNumberofProblemsFinal}
+ \addproblemWithAnswerBox{\ProblemSectionlabel.\therand.#2}     
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%% FILLABLE NAME AND DATE FOR QUIZZES
+\newcommand{\FillableNamebox}{\begin{Form}\renewcommand{\arraystretch}{1.5} \noindent
+         \begin{tabular}{@{}A{ 0.35\textwidth }A{ 0.1\textwidth }@{}}
+              &  \\ 
+            \DefaultTextField[name=Firstname]{Full Name:} & \today\\ 
+\end{tabular}\end{Form}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%RANDOM NUMBER
+\newcounter{SavedRandom}
+\newcommand{\NewRandom}
+
+
+\newcommand{\GenerateRandumNumber}[2]
+{
+  \setcounter{SavedRandom}{0}
+  \reinitrand[first=1, last=#1, counter=FileRandom, seed=-1, quiet=y]
+
+  \rand
+  \setcounter{SavedRandom}{\value{FileRandom}}
+  \renewcommand{#2}{\arabic{SavedRandom}}
+}
+%%%%%%%%%%%
+
+%%%%THRE MACROS
+%\addproblemWithAnswerBox{Problems-Basic-algebra.1.A} Print a problems with answer box
+%\PrintAllProblemsFillable{Problems-Scientific-Notation} Print all problems of a section with answer box
+%\PrintOneProblemFillableRANDOM{Problems-Scientific-Notation}{A} Print one random problem of type A as indiecated of a section with answer box
+ 
+
+
+  
 \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
  \newcommand\showfinalanswers{false}%%TRUEfor showing answers false for not
   \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
