@@ -43,10 +43,15 @@
 \import{../\chapterlabel/problems/problems/}{Problems-Work}
 %%%%NOT FOR 121
 }
+
+
 {\raggedright\textsc{\textbf{Calorimetry }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Calorimetry}
+%%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 \import{../\chapterlabel/problems/problems/}{Problems-Energy-value}
-
+%%%%NOT FOR 121
+}
 %%%%NOT FOR 121
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 {\raggedright\textsc{\textbf{Enthalpy }}\par}
