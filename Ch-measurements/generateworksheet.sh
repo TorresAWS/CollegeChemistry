@@ -105,9 +105,6 @@ for FILE in Problems-* ; do lstest=$(ls $FILE.* 2> /dev/null);if [ -z "$lstest" 
 cd ../../
 }
 
-
-
-
 ###bash generateworksheet.sh Ch-measurements
 ChapterLabel=$1
 # LIST OF PROBLEMS TO PRINT
