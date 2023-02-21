@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2023 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 FEB 2023 11:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5661,23 +5661,39 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 )
 \templength=\skip343
 \c@ntostring=\count614
-\c@NumberofProblemsFinal=\count615
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count615
+\multidocount=\count616
+\multido@stuff=\toks86
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+\c@NumberofProblemsFinal=\count617
 \myhiddenbox=\box290
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
 Package: lcg 2013/08/09 v1.3 generating random numbers
-\f@rst=\count616
-\l@st=\count617
-\cr@nd=\count618
-\c@rand=\count619
+\f@rst=\count618
+\l@st=\count619
+\cr@nd=\count620
+\c@rand=\count621
 
 Smallest possible random number: 1
 Largest possible random number: 2147483647
 The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
-\c@SavedRandom=\count620
+\c@SavedRandom=\count622
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5773.
+h' as default language. on input line 5778.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5690,9 +5706,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen575
 \l__chemformula_tmpb_dim=\dimen576
 \l__chemformula_tmpc_dim=\dimen577
-\l__chemformula_tmpa_int=\count621
-\l__chemformula_tmpb_int=\count622
-\l__chemformula_tmpc_int=\count623
+\l__chemformula_tmpa_int=\count623
+\l__chemformula_tmpb_int=\count624
+\l__chemformula_tmpc_int=\count625
 \l__chemformula_tmpa_box=\box291
 \l__chemformula_tmpb_box=\box292
 \l__chemformula_arrow_length_dim=\dimen578
@@ -5725,8 +5741,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen605
 \l__chemformula_stoich_space_skip=\skip344
 \l__chemformula_math_space_skip=\skip345
-\l__chemformula_count_tokens_int=\count624
-\g__chemformula_lewis_int=\count625
+\l__chemformula_count_tokens_int=\count626
+\g__chemformula_lewis_int=\count627
 \l__chemformula_arrow_arg_i_box=\box293
 \l__chemformula_arrow_arg_ii_box=\box294
 \l__chemformula_superscript_box=\box295
@@ -5904,7 +5920,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-measurementsProblemsWorksheet.aux.
+(./Ch-measurementsProblemsWorksheet.aux)
 \openout1 = `Ch-measurementsProblemsWorksheet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -5925,6 +5941,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -5939,6 +5956,9 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+
+(./Ch-measurementsProblemsWorksheet.out)
+(./Ch-measurementsProblemsWorksheet.out)
 \@outlinefile=\write14
 \openout14 = `Ch-measurementsProblemsWorksheet.out'.
 
@@ -5995,17 +6015,17 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count626
+\scratchcounter=\count628
 \scratchdimen=\dimen606
 \scratchbox=\box298
-\nofMPsegments=\count627
-\nofMParguments=\count628
-\everyMPshowfont=\toks86
-\MPscratchCnt=\count629
+\nofMPsegments=\count629
+\nofMParguments=\count630
+\everyMPshowfont=\toks87
+\MPscratchCnt=\count631
 \MPscratchDim=\dimen607
-\MPnumerator=\count630
-\makeMPintoPDFobject=\count631
-\everyMPtoPDFconversion=\toks87
+\MPnumerator=\count632
+\makeMPintoPDFobject=\count633
+\everyMPtoPDFconversion=\toks88
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -6033,9 +6053,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count632
-\c@mv@tabular=\count633
-\c@mv@boldtabular=\count634
+\c@lstlisting=\count634
+\c@mv@tabular=\count635
+\c@mv@boldtabular=\count636
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6099,7 +6119,7 @@ File: exsheets_configurations.cfg
 Package lcg Warning: Seed should be > 0 -- Seed will be initialized with the ac
 tual time on input line 5.
 
-\c@FileRandom=\count635
+\c@FileRandom=\count637
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6108,598 +6128,4 @@ tual time on input line 5.
 * modes: includefoot twoside 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
 * v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=762.84642pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-85.81725pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumntrue
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\FSize=\skip349
-\Baselineskip=\skip350
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 27.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `zplm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 27.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 27.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 27.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 27.
-
-(../Ch-measurements/problems/problems/Problems-Basic-algebra.numberofquestions)
-
-Package lcg Warning: Using an already existing counter FileRandom on input line
- 30.
-
-
-Package lcg Warning: Using an already existing counter rand on input line 30.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 81750
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
-vailable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 30.
-(../Ch-measurements/problems/problems/Problems-Basic-algebra.1.A)
-(../Ch-measurements/problems/problems/Problems-Scientific-Notation.numberofques
-tions)
-
-Package lcg Warning: Using an already existing counter rand on input line 31.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 31.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 81781
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 30--31
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-Scientific-Notation.1.A)
-(../Ch-measurements/problems/problems/Problems-Units-and-measurements.numberofq
-uestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 34.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 34.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 81874
-(../Ch-measurements/problems/problems/Problems-Units-and-measurements.1.A)
-(../Ch-measurements/problems/problems/Problems-Significant-Exact-and-measured-n
-umbers.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 37.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 37.
-
-Smallest possible random number: 1
-Largest possible random number: 5
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 81967
-
-(../Ch-measurements/problems/problems/Problems-Significant-Exact-and-measured-n
-umbers.5.A)
-(../Ch-measurements/problems/problems/Problems-Significant-Figures-calculations
-.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 38.
-
-Smallest possible random number: 1
-Largest possible random number: 5
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 38.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 81998
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 37--38
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Significant-Figures-calculations
-.1.A)
-(../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers.n
-umberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 39.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 39.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 82029
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 38--39
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers.1
-.A)
-(../Ch-measurements/problems/problems/Problems-Significant-Rounding.numberofque
-stions)
-
-Package lcg Warning: Using an already existing counter rand on input line 40.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 40.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 82060
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 39--40
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-Significant-Rounding.1.A)
-Overfull \hbox (6.83655pt too wide) in paragraph at lines 40--40
-[]\T1/ptm/m/n/10 (-20) (c) 2.4566$\OMS/lmsy/m/n/10 ^^B\OT1/lmr/m/n/10 10[]$\T1/
-ptm/m/n/10 (-20) Kg [](d) 0.051376cm [](e) 573456mm [](f) 0.0293845$\OML/lmm/m/
-it/10 ^^V$\T1/ptm/m/n/10 (-20) m 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
-tors.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 43.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 43.
-
-Smallest possible random number: 1
-Largest possible random number: 3
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 82153
-
-(../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
-tors.2.A)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-]
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
-efixes.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 46.
-
-Smallest possible random number: 1
-Largest possible random number: 3
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 46.
-
-Smallest possible random number: 1
-Largest possible random number: 5
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 103756
-
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
-efixes.3.A)
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
-ed.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 47.
-
-Smallest possible random number: 1
-Largest possible random number: 5
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 47.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 103817
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 46--47
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
-ed.2.A)
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Other-units.n
-umberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 48.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 48.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 103878
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 47--48
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Other-units.1
-.A)
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Square-and-cu
-bic-units.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 49.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 49.
-
-Smallest possible random number: 1
-Largest possible random number: 3
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 103939
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 48--49
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Square-and-cu
-bic-units.2.A)
-(../Ch-measurements/problems/problems/Problems-Measurements-and-uncertanty.numb
-erofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 52.
-
-Smallest possible random number: 1
-Largest possible random number: 3
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 52.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 104122
-(../Ch-measurements/problems/problems/Problems-Measurements-and-uncertanty.1.A
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (../Ch-measurements/problems/problems/Problems-Mixtures.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 59.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 59.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 104549
-(../Ch-measurements/problems/problems/Problems-Mixtures.1.A)
-(../Ch-measurements/problems/problems/Problems-States-of-matter.numberofquestio
-ns)
-
-Package lcg Warning: Using an already existing counter rand on input line 59.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 59.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 104549
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 59--59
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-States-of-matter.2.A)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-(../Ch-measurements/problems/problems/Problems-Density.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 63.
-
-Smallest possible random number: 1
-Largest possible random number: 2
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 63.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 126813
-(../Ch-measurements/problems/problems/Problems-Density.1.A)
-(../Ch-measurements/problems/problems/Problems-Density-and-mixing.numberofquest
-ions)
-
-Package lcg Warning: Using an already existing counter rand on input line 64.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 64.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 126904
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 63--64
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-Density-and-mixing.1.A)
-(../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
-s.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 65.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 65.
-
-Smallest possible random number: 1
-Largest possible random number: 4
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 126995
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 64--65
-[][]           [] 
- []
-
-
-(../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
-s.2.A)
-(../Ch-measurements/problems/problems/Problems-Specific-gravity.numberofquestio
-ns)
-
-Package lcg Warning: Using an already existing counter rand on input line 66.
-
-Smallest possible random number: 1
-Largest possible random number: 4
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 66.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 127086
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 65--66
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-Specific-gravity.1.A)
-(../Ch-measurements/problems/problems/Problems-Dosage.numberofquestions)
-
-Package lcg Warning: Using an already existing counter rand on input line 67.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-
-Package lcg Warning: Using an already existing counter rand on input line 67.
-
-Smallest possible random number: 1
-Largest possible random number: 1
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-Random number generator initialized to 127177
-
-Overfull \hbox (3.05414pt too wide) in paragraph at lines 66--67
-[][]           [] 
- []
-
-(../Ch-measurements/problems/problems/Problems-Dosage.1.A) [3] [4
-
-
-]
-
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
-
-
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Package `movie15' is obsolete and @@
-(movie15)                @@ superseded by `media9'.           @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
-(./Ch-measurementsProblemsWorksheet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
-
-
-Package rerunfilecheck Warning: File `Ch-measurementsProblemsWorksheet.out' has
- changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-measurementsProblemsWorksheet.ou
-t':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.88pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 83697 strings out of 493014
- 1877951 string characters out of 6133351
- 2675897 words of memory out of 5000000
- 85380 multiletter control sequences out of 15000+600000
- 79372 words of font info for 106 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 80i,13n,104p,10442b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/f
-onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/paratype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/par
-atype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratyp
-e/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Ch-measurementsProblemsWorksheet.pdf (4 pages, 186085 bytes).
-
-PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 27015 words of extra memory for PDF output out of 29859 (max. 10000000)
-
+* \paperwidth=597.507
