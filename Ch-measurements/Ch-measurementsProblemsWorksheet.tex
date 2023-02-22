@@ -18,122 +18,27 @@
 
 
 
-
-%  \pgfmathdeclarerandomlist{states}{%201
-%  {Problems-Basic-algebra}{Problems-Scientific-Notation}{Problems-Units-and-measurements}{Problems-Significant-Exact-and-measured-numbers}{Problems-Significant-Figures-calculations}{Problems-Significant-Figures-of-numbers}{Problems-Significant-Rounding}{Problems-Identify-Prefixes-Conversion-Factors}{Problems-Conversion-Factors-Add-remove-prefixes}{Problems-Conversion-Factors-switch-prefixed}{Problems-Conversion-Factors-Other-units}{Problems-Conversion-Factors-Square-and-cubic-units}{Problems-Measurements-and-uncertanty} {Problems-Mixtures}{Problems-States-of-matter} {Problems-Density}{Problems-Density-and-mixing}{Problems-Density-and-the-volume-of-objects}{Problems-Specific-gravity}{Problems-Dosage}
-%  }
-
-%   \pgfmathdeclarerandomlist{states}{%121
-%  {Problems-Basic-algebra}{Problems-Scientific-Notation}{Problems-Units-and-measurements}{Problems-Significant-Exact-and-measured-numbers}{Problems-Significant-Figures-calculations}{Problems-Significant-Figures-of-numbers}{Problems-Significant-Rounding}{Problems-Identify-Prefixes-Conversion-Factors}{Problems-Conversion-Factors-Add-remove-prefixes}{Problems-Conversion-Factors-switch-prefixed}{Problems-Conversion-Factors-Other-units}{Problems-Conversion-Factors-Square-and-cubic-units}{Problems-Measurements-and-uncertanty}   {Problems-Density}{Problems-Density-and-mixing}{Problems-Density-and-the-volume-of-objects}{Problems-Specific-gravity}{Problems-Dosage}
-%  }
-
-
-
-%\pgfplotsforeachungrouped \xtmp in {1,...,10} {
-%
-%	\pgfmathrandomitem{\state}{states}
-%	
-%	
-%	\PrintOneProblemFillableRANDOM{\state}{A}
-%}
+\renewcommand\chapterlabel{Ch-measurements}
+%%addproblemWithAnswerBoxMACRO%%%%%%%%%%%% 
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+\import{../\chapterlabel/problems/problems/}{Problems-Units-and-measurements.2.B}
+\end{question}
+   \begin{Form}
+   \TextField[multiline,backgroundcolor=gray!20,borderwidth=0,width=0.43\textwidth  ,height=115pt, name=\the\value{numA}]  { }\end{Form}
+\begin{solution}
+\import{../\chapterlabel/problems/problems/}{Problems-Units-and-measurements.2.B.answer}
+\hspace{0.1cm}
+\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
-%%% MACRO FOR RENDERING ALL PROBLEMS OF A PROBLEM SECTION
-%% THIS macro renders all problems of a file A and B with fillable boxes
-%%%\PrintAllProblemsFillable{Problems-Basic-algebra}
-  \renewcommand{\PrintAllProblemsFillable}[1]{ 
- \CatchFileDef\NumberofProblemstxt{../\chapterlabel/problems/problems/#1.numberofquestions}{\endlinechar=-1 } 
- \setcounter{NumberofProblemsFinal}{\NumberofProblemstxt}
- 
- 
   
-%   \foreach   \nvar  in {1,...,\theNumberofProblemsFinal}{
-%   \addproblemWithAnswerBox{#1.\nvar.A}
-   
-   }
-  % \pgfplotsforeachungrouped \nvar in {1,...,\theNumberofProblemsFinal}{
-%   \newcount\n
-%   \n=1
-%   \loop\ifnum\n<\theNumberofProblemsFinal
-%        \addproblemWithAnswerBox{#1.\number\n.A}
-%        \advance\n by 1
-%    \repeat
-    
-    % we define an expandable macro \indices {a+b}{N} to generate
-% {a}{a+b}{a+2b}...{a+(N-1)b}
-
-
-
-     
- %  \setcounter{ntostring}{\nvar}
-     % \addproblemWithAnswerBox{#1.\thentostring.A}
- 
- 
- 
-
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%
- 
 
 
 
 
 
- \pgfplotsinvokeforeach{Problems-Basic-algebra,Problems-Scientific-Notation,Problems-Significant-Exact-and-measured-numbers} {
-  %\addproblemWithAnswerBox{#1.1.A}
-  \PrintAllProblemsFillable{#1}
-   }
- 
- 
-%
-%
-%\FillableNamebox 
-%
-%{\raggedright\textsc{\textbf{Math skills }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Basic-algebra}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Scientific-Notation}{A}
-%
-%{\raggedright\textsc{\textbf{Units of Measurements and systems of units }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Units-and-measurements}{A}
-%
-%{\raggedright\textsc{\textbf{Significant Figures }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Significant-Exact-and-measured-numbers}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Significant-Figures-calculations}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Significant-Figures-of-numbers}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Significant-Rounding}{A}
-%
-%{\raggedright\textsc{\textbf{Prefixes \& Conversion Factors }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Identify-Prefixes-Conversion-Factors} {A}
-%
-%{\raggedright\textsc{\textbf{Using Conversion Factors }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Add-remove-prefixes}{A} 
-%\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-switch-prefixed}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Other-units}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Conversion-Factors-Square-and-cubic-units}{A}
-%
-%{\raggedright\textsc{\textbf{Measurements and uncertainty }}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Measurements-and-uncertanty}{A}
-%  
-% %% NOT FOR 121
-% \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
-%{\raggedright\textsc{\textbf{Matter}}\par} 
-%\PrintOneProblemFillableRANDOM{Problems-Mixtures}{A}
-%\PrintOneProblemFillableRANDOM{Problems-States-of-matter}{A}
-%}
-% %% NOT FOR 121
-% 
-%{\raggedright\textsc{\textbf{Density}}\par}
-%\PrintOneProblemFillableRANDOM{Problems-Density}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Density-and-mixing}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Density-and-the-volume-of-objects}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Specific-gravity}{A}
-%\PrintOneProblemFillableRANDOM{Problems-Dosage}{A}
-%
-%
-
- 
 
 
 

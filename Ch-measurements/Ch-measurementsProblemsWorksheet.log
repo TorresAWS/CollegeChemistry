@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 FEB 2023 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 10:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5660,40 +5660,21 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlower=\count613
 )
 \templength=\skip343
-\c@ntostring=\count614
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/forloop/forloop.sty
-Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/multido/multido.sty
-Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/multido/multido.tex
- v1.42, 2010/05/14 <tvz>
-\multido@count=\count615
-\multidocount=\count616
-\multido@stuff=\toks86
-)
-File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
-)
-\c@NumberofProblemsFinal=\count617
-\myhiddenbox=\box290
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
 Package: lcg 2013/08/09 v1.3 generating random numbers
-\f@rst=\count618
-\l@st=\count619
-\cr@nd=\count620
-\c@rand=\count621
+\f@rst=\count614
+\l@st=\count615
+\cr@nd=\count616
+\c@rand=\count617
 
 Smallest possible random number: 1
 Largest possible random number: 2147483647
 The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
-\c@SavedRandom=\count622
+\c@SavedRandom=\count618
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5778.
+h' as default language. on input line 5734.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5706,11 +5687,11 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen575
 \l__chemformula_tmpb_dim=\dimen576
 \l__chemformula_tmpc_dim=\dimen577
-\l__chemformula_tmpa_int=\count623
-\l__chemformula_tmpb_int=\count624
-\l__chemformula_tmpc_int=\count625
-\l__chemformula_tmpa_box=\box291
-\l__chemformula_tmpb_box=\box292
+\l__chemformula_tmpa_int=\count619
+\l__chemformula_tmpb_int=\count620
+\l__chemformula_tmpc_int=\count621
+\l__chemformula_tmpa_box=\box290
+\l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen578
 \l__chemformula_arrow_label_height_dim=\dimen579
 \l__chemformula_arrow_label_offset_dim=\dimen580
@@ -5741,12 +5722,12 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen605
 \l__chemformula_stoich_space_skip=\skip344
 \l__chemformula_math_space_skip=\skip345
-\l__chemformula_count_tokens_int=\count626
-\g__chemformula_lewis_int=\count627
-\l__chemformula_arrow_arg_i_box=\box293
-\l__chemformula_arrow_arg_ii_box=\box294
-\l__chemformula_superscript_box=\box295
-\l__chemformula_subscript_box=\box296
+\l__chemformula_count_tokens_int=\count622
+\g__chemformula_lewis_int=\count623
+\l__chemformula_arrow_arg_i_box=\box292
+\l__chemformula_arrow_arg_ii_box=\box293
+\l__chemformula_superscript_box=\box294
+\l__chemformula_subscript_box=\box295
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5951,7 +5932,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box297
+\AtBeginShipoutBox=\box296
 Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -6015,17 +5996,17 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count628
+\scratchcounter=\count624
 \scratchdimen=\dimen606
-\scratchbox=\box298
-\nofMPsegments=\count629
-\nofMParguments=\count630
-\everyMPshowfont=\toks87
-\MPscratchCnt=\count631
+\scratchbox=\box297
+\nofMPsegments=\count625
+\nofMParguments=\count626
+\everyMPshowfont=\toks86
+\MPscratchCnt=\count627
 \MPscratchDim=\dimen607
-\MPnumerator=\count632
-\makeMPintoPDFobject=\count633
-\everyMPtoPDFconversion=\toks88
+\MPnumerator=\count628
+\makeMPintoPDFobject=\count629
+\everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -6053,9 +6034,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count634
-\c@mv@tabular=\count635
-\c@mv@boldtabular=\count636
+\c@lstlisting=\count630
+\c@mv@tabular=\count631
+\c@mv@boldtabular=\count632
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6119,7 +6100,7 @@ File: exsheets_configurations.cfg
 Package lcg Warning: Seed should be > 0 -- Seed will be initialized with the ac
 tual time on input line 5.
 
-\c@FileRandom=\count637
+\c@FileRandom=\count633
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6128,4 +6109,182 @@ tual time on input line 5.
 * modes: includefoot twoside 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
 * v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
-* \paperwidth=597.507
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\FSize=\skip349
+\Baselineskip=\skip350
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 25.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 25.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+(../Ch-measurements/problems/problems/Problems-Units-and-measurements.2.B){/usr
+/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} [1
+
+
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 62.
+
+(../Ch-measurements/problems/problems/Problems-Units-and-measurements.2.B.answe
+r)
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+[2
+
+
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (./Ch-measurementsProblemsWorksheet.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `Ch-measurementsProblemsWorksheet.out' has no
+t changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 82919 strings out of 493014
+ 1856626 string characters out of 6133351
+ 2644179 words of memory out of 5000000
+ 84833 multiletter control sequences out of 15000+600000
+ 59285 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,11n,104p,10442b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}</usr/local/texli
+ve/2016/texmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/zapfding/uzdr.pfb>
+Output written on Ch-measurementsProblemsWorksheet.pdf (2 pages, 45363 bytes).
+PDF statistics:
+ 176 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 26575 words of extra memory for PDF output out of 29859 (max. 10000000)
+
