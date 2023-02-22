@@ -2,17 +2,35 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate the nuclear symbol for 
 \begin{inparaenum}[(a)]
+ \item Oxygen-18 % (\ce{^18_8O})
+ \item Magnesium-24 % (\ce{^24_12Mg})
+ \item Lithium-7 % (\ce{^7_3Li})
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)] 
+ \item  \ce{^18_8O} 
+ \item  \ce{^24_12Mg} 
+ \item  \ce{^7_3Li} 
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the nuclear symbol for 
+\begin{inparaenum}[(a)]
 \item Iodine-134 % (\ce{^134_56I})
  \item Lithium-4 % (\ce{^4_3Li})
+ \item Carbon-14 % (\ce{^14_6C})
 \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
- \item Iodine-134  % (\ce{^134_56I})
- \item Lithium-4  % (\ce{^4_3Li})
+ \item  \ce{^134_56I} 
+ \item  \ce{^4_3Li} 
+ \item  \ce{^14_6C} 
  \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
-
 
 
 

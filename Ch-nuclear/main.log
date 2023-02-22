@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2023 09:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 07:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5534,26 +5534,42 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count604
 \c@@LCDlower=\count605
 )
+\templength=\skip343
+\c@ntostring=\count606
+\c@NumberofProblemsFinal=\count607
+\myhiddenbox=\box290
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+\f@rst=\count608
+\l@st=\count609
+\cr@nd=\count610
+\c@rand=\count611
+
+Smallest possible random number: 1
+Largest possible random number: 2147483647
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+\c@SavedRandom=\count612
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5562.
+h' as default language. on input line 5671.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count606
-\l__chemformula_tmpb_int=\count607
-\l__chemformula_tmpc_int=\count608
-\l__chemformula_tmpa_box=\box290
-\l__chemformula_tmpb_box=\box291
+\l__chemformula_tmpa_int=\count613
+\l__chemformula_tmpb_int=\count614
+\l__chemformula_tmpc_int=\count615
+\l__chemformula_tmpa_box=\box291
+\l__chemformula_tmpb_box=\box292
 \l__chemformula_arrow_length_dim=\dimen562
 \l__chemformula_arrow_label_height_dim=\dimen563
 \l__chemformula_arrow_label_offset_dim=\dimen564
@@ -5582,14 +5598,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip343
-\l__chemformula_math_space_skip=\skip344
-\l__chemformula_count_tokens_int=\count609
-\g__chemformula_lewis_int=\count610
-\l__chemformula_arrow_arg_i_box=\box292
-\l__chemformula_arrow_arg_ii_box=\box293
-\l__chemformula_superscript_box=\box294
-\l__chemformula_subscript_box=\box295
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
+\l__chemformula_count_tokens_int=\count616
+\g__chemformula_lewis_int=\count617
+\l__chemformula_arrow_arg_i_box=\box293
+\l__chemformula_arrow_arg_ii_box=\box294
+\l__chemformula_superscript_box=\box295
+\l__chemformula_subscript_box=\box296
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5705,7 +5721,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip345
+\l__chemformula_additions_symbol_space_skip=\skip346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5726,8 +5742,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip346
-\l__chemformula_minus_space_skip=\skip347
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5766,47 +5782,47 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5562.
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5562.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5562
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5671.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5671.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5671
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5562.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5562.
+LaTeX Font Info:    ... okay on input line 5671.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 5671.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box296
-Package hyperref Info: Link coloring ON on input line 5562.
-LaTeX Info: Redefining \ref on input line 5562.
-LaTeX Info: Redefining \pageref on input line 5562.
-LaTeX Info: Redefining \nameref on input line 5562.
+\AtBeginShipoutBox=\box297
+Package hyperref Info: Link coloring ON on input line 5671.
+LaTeX Info: Redefining \ref on input line 5671.
+LaTeX Info: Redefining \pageref on input line 5671.
+LaTeX Info: Redefining \nameref on input line 5671.
  (./main.out)
 (./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5562.
+LaTeX Info: Redefining \selectfont on input line 5671.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -5842,7 +5858,7 @@ LaTeX Info: Redefining \selectfont on input line 5562.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 5562.
+LaTeX Info: Redefining \microtypecontext on input line 5671.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -5857,16 +5873,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count611
+\scratchcounter=\count618
 \scratchdimen=\dimen590
-\scratchbox=\box297
-\nofMPsegments=\count612
-\nofMParguments=\count613
+\scratchbox=\box298
+\nofMPsegments=\count619
+\nofMParguments=\count620
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count614
+\MPscratchCnt=\count621
 \MPscratchDim=\dimen591
-\MPnumerator=\count615
-\makeMPintoPDFobject=\count616
+\MPnumerator=\count622
+\makeMPintoPDFobject=\count623
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5889,17 +5905,17 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 5562.
+. Activating mapping `default' on line 5671.
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count617
-\c@mv@tabular=\count618
-\c@mv@boldtabular=\count619
+\c@lstlisting=\count624
+\c@mv@tabular=\count625
+\c@mv@boldtabular=\count626
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 5562.
+(scrlayer)             \begin{document} on input line 5671.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
@@ -5938,7 +5954,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 5562.
+or `english'. on input line 5671.
 
 *************************************************
 * chemmacros warning: "no-greek"
@@ -5957,8 +5973,8 @@ or `english'. on input line 5562.
 cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count620
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5562
+\c__siunitx_mathsf_int=\count627
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5671
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5967,32 +5983,32 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5562
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5671
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 556
-2.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 567
+1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 556
-2.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 567
+1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5562.
+(Font)              <10> on input line 5671.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 5562.
+(Font)              <7.6> on input line 5671.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5562.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 556
-2.
+(Font)              <6> on input line 5671.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 567
+1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -6002,27 +6018,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5562.
+(Font)              scaled to size 10.42007pt on input line 5671.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5562.
+(Font)              scaled to size 7.91925pt on input line 5671.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5562.
+(Font)              scaled to size 6.25204pt on input line 5671.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5562.
+(Font)              scaled to size 10.42007pt on input line 5671.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5562.
+(Font)              scaled to size 7.91925pt on input line 5671.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5562.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 556
-2.
+(Font)              scaled to size 6.25204pt on input line 5671.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 567
+1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -6031,9 +6047,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count621
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 556
-2.
+\c__siunitx_mathtt_int=\count628
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 567
+1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -6072,7 +6088,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-nuclear/figure1.png, id=121, 147.4308pt x 98.2872pt>
+<../Ch-nuclear/figure1.png, id=157, 147.4308pt x 98.2872pt>
 File: ../Ch-nuclear/figure1.png Graphic file (type png)
 <use ../Ch-nuclear/figure1.png>
 Package pdftex.def Info: ../Ch-nuclear/figure1.png  used on input line 1.
@@ -6116,7 +6132,7 @@ diation)
 s)
 (../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-neutrons
 ) (../Ch-nuclear/files/SideFigure-Radiation-and-life
-<../Ch-nuclear/figure8.png, id=122, 513.92pt x 264.99pt>
+<../Ch-nuclear/figure8.png, id=158, 513.92pt x 264.99pt>
 File: ../Ch-nuclear/figure8.png Graphic file (type png)
 <use ../Ch-nuclear/figure8.png>
 Package pdftex.def Info: ../Ch-nuclear/figure8.png  used on input line 3.
@@ -6138,7 +6154,7 @@ uclear/figure1.png>]
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure9.png, id=140, 351.3125pt x 351.3125pt>
+<../Ch-nuclear/figure9.png, id=174, 351.3125pt x 351.3125pt>
 File: ../Ch-nuclear/figure9.png Graphic file (type png)
 <use ../Ch-nuclear/figure9.png>
 Package pdftex.def Info: ../Ch-nuclear/figure9.png  used on input line 8.
@@ -6151,7 +6167,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure10.png, id=142, 843.15pt x 474.77374pt>
+<../Ch-nuclear/figure10.png, id=176, 843.15pt x 474.77374pt>
 File: ../Ch-nuclear/figure10.png Graphic file (type png)
 <use ../Ch-nuclear/figure10.png>
 Package pdftex.def Info: ../Ch-nuclear/figure10.png  used on input line 13.
@@ -6164,7 +6180,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure12.png, id=143, 1027.84pt x 685.56125pt>
+<../Ch-nuclear/figure12.png, id=177, 1027.84pt x 685.56125pt>
 File: ../Ch-nuclear/figure12.png Graphic file (type png)
 <use ../Ch-nuclear/figure12.png>
 Package pdftex.def Info: ../Ch-nuclear/figure12.png  used on input line 18.
@@ -6214,10 +6230,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
-
-LaTeX Warning: Reference `tab:{Ch-nuclear}1' on page 3 undefined on input line 
-21.
-
 ) (../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay)
@@ -6239,10 +6251,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--7
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
-
-
-LaTeX Warning: Reference `tab:{Ch-nuclear}1' on page 5 undefined on input line 
-32.
 
 ) (../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope)
 (../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half
@@ -6310,7 +6318,7 @@ ts-Adsorbed-dose)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Radiation-equivalent-in-humans-rem [7])
 (../Ch-nuclear/files/SideFigure-Geiger
-<../Ch-nuclear/figure2.png, id=210, 963.6pt x 706.64pt>
+<../Ch-nuclear/figure2.png, id=243, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
 <use ../Ch-nuclear/figure2.png>
 Package pdftex.def Info: ../Ch-nuclear/figure2.png  used on input line 3.
@@ -6320,7 +6328,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure5.png, id=211, 440.64626pt x 351.3125pt>
+<../Ch-nuclear/figure5.png, id=244, 440.64626pt x 351.3125pt>
 File: ../Ch-nuclear/figure5.png Graphic file (type png)
 <use ../Ch-nuclear/figure5.png>
 Package pdftex.def Info: ../Ch-nuclear/figure5.png  used on input line 8.
@@ -6333,7 +6341,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<../Ch-nuclear/figure11.png, id=212, 856.19875pt x 1284.8pt>
+<../Ch-nuclear/figure11.png, id=245, 856.19875pt x 1284.8pt>
 File: ../Ch-nuclear/figure11.png Graphic file (type png)
 <use ../Ch-nuclear/figure11.png>
 Package pdftex.def Info: ../Ch-nuclear/figure11.png  used on input line 13.
@@ -6353,10 +6361,6 @@ ts-Exposure-to-radiation) (../Ch-nuclear/files/Table-Radiation-damage
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-LaTeX Warning: Reference `tab:{Ch-nuclear}2' on page 8 undefined on input line 
-8.
-
 )
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
@@ -6371,14 +6375,10 @@ ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-
-LaTeX Warning: Reference `tab:{Ch-nuclear}3' on page 9 undefined on input line 
-7.
-
 ) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon) [9]
 (../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
 (../Ch-nuclear/files/SideFigure-Fusion
-<../Ch-nuclear/figure6.png, id=229, 3257.16875pt x 3891.53876pt>
+<../Ch-nuclear/figure6.png, id=261, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
 <use ../Ch-nuclear/figure6.png>
 Package pdftex.def Info: ../Ch-nuclear/figure6.png  used on input line 3.
@@ -6388,7 +6388,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure7.png, id=230, 692.5875pt x 501.875pt>
+<../Ch-nuclear/figure7.png, id=262, 692.5875pt x 501.875pt>
 File: ../Ch-nuclear/figure7.png Graphic file (type png)
 <use ../Ch-nuclear/figure7.png>
 Package pdftex.def Info: ../Ch-nuclear/figure7.png  used on input line 8.
@@ -6447,16 +6447,11 @@ lable
  line 9.
 Package mdframed Info: Not enough space on this page on input line 9.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 13 undefined on input line 9
-.
-
-
 (../Ch-nuclear/problems/problems/Problems-Radiation-particles-and-radioisotopes
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 8.
+ line 9.
 )
 (../Ch-nuclear/problems/problems/Problems-Radiation-particles-and-radioisotopes
 -Radioisotope-notation)
@@ -6466,14 +6461,14 @@ vailable
 (../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-The-conce
 pt-of-half-live)
 (../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-Quantifyi
-ng-half-live)
+ng-half-live) [13
+
+
+]
 (../Ch-nuclear/problems/problems/Problems-Radiation-measurement-units-and-radia
 tion-effects-Activity-units)
 (../Ch-nuclear/problems/problems/Problems-Radiation-measurement-units-and-radia
-tion-effects-Dangers-of-radiation) [13
-
-
-] [14] [15
+tion-effects-Dangers-of-radiation) [14] [15
 
 ])
 
@@ -6487,21 +6482,15 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5647.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5647.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5756.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5756.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5647.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5647.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5756.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5756.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 52EED7F682CAC154583BE38998F80128;1791.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  52EED7F682CAC154583BE38998F80128;1791.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6509,20 +6498,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5647.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5756.
  ) 
 Here is how much of TeX's memory you used:
- 84621 strings out of 493014
- 1900682 string characters out of 6133351
- 2665930 words of memory out of 5000000
- 85958 multiletter control sequences out of 15000+600000
- 314842 words of font info for 379 fonts, out of 8000000 for 9000
+ 84755 strings out of 493014
+ 1902454 string characters out of 6133351
+ 2687035 words of memory out of 5000000
+ 86053 multiletter control sequences out of 15000+600000
+ 312039 words of font info for 377 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,36n,105p,10369b,3090s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
@@ -6554,10 +6537,10 @@ live/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 10630517 bytes).
+Output written on main.pdf (15 pages, 10635448 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
- 90603 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 90163 words of extra memory for PDF output out of 106986 (max. 10000000)
 

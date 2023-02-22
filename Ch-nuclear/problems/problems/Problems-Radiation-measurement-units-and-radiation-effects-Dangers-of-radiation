@@ -2,7 +2,7 @@
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-One symptom of mild radiation sickness is:
+Select a symptom of mild radiation sickness from the list below:
 \begin{inparaenum}[(a)]
 \item a lowered white cell count.
 \item a lowered red blood cell count.
@@ -13,6 +13,22 @@ One symptom of mild radiation sickness is:
 \end{question}
 \begin{solution}
 a lowered white cell count.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Select a symptom that does not result from acute radiation sickness from the list below:
+\begin{inparaenum}[(a)]
+\item permanent hair loss.
+\item loss of appetite.
+\item fatigue.
+\item fever.
+\item nausea.
+\item diarrhea.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+permanent hair loss.
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
