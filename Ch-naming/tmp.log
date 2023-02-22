@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 11:36
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Ch-naming.tex
-(./Ch-naming.tex
+**tmp.tex
+(./tmp.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -299,7 +300,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file Ch-naming.bbl.
+No file tmp.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -589,8 +590,6 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
-
-(./Ch-naming.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen136
 \c@asy=\count143
@@ -600,7 +599,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `Ch-naming.pre'.
+\openout4 = `tmp.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -1703,10 +1702,10 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `Ch-naming.idx'.
+\openout8 = `tmp.idx'.
 
 
-Writing index file Ch-naming.idx
+Writing index file tmp.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -5784,8 +5783,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./Ch-naming.aux)
-\openout1 = `Ch-naming.aux'.
+No file tmp.aux.
+\openout1 = `tmp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -5805,11 +5804,12 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -5818,11 +5818,11 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
- (./Ch-naming.out) (./Ch-naming.out)
 \@outlinefile=\write14
-\openout14 = `Ch-naming.out'.
+\openout14 = `tmp.out'.
 
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
@@ -5973,10 +5973,50 @@ or `english'. on input line 4.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exsheets/exsheets_configurations.
 cfg
 File: exsheets_configurations.cfg 
-) (../Ch-naming/files/ChapterName
-Chapter 4.
+)
+
+Package lcg Warning: Seed should be > 0 -- Seed will be initialized with the ac
+tual time on input line 5.
+
+\c@FileRandom=\count627
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\FSize=\skip349
+\Baselineskip=\skip350
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 1.
+ut line 17.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5985,7 +6025,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5994,24 +6034,31 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
+(Font)              <10> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -6021,249 +6068,212 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 1.
+(Font)              scaled to size 10.42007pt on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 1.
+(Font)              scaled to size 10.42007pt on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
-put line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
-File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
-LF.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-<../Ch-naming/figure1.png, id=149, 1204.5pt x 629.35126pt>
-File: ../Ch-naming/figure1.png Graphic file (type png)
-<use ../Ch-naming/figure1.png>
-Package pdftex.def Info: ../Ch-naming/figure1.png  used on input line 1.
-(pdftex.def)             Requested size: 355.65524pt x 185.82986pt.
-) (../Ch-naming/files/ChapterIntro
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1.
+(Font)              scaled to size 7.91925pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
-)
-(../Ch-naming/files/SectionIntro-Ions-ionic-charges)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 46.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 46.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions)
-(../Ch-naming/files/Figure-Valences
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
-lable
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.23987> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.40015> on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 4.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <18.23987> no
-t available
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
-t available
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
+ line 24.
 
-Overfull \hbox (14.73227pt too wide) in paragraph at lines 4--8
-[][]
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.1.A)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.1.B)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.2.A)
+Overfull \hbox (12.85718pt too wide) in paragraph at lines 54--54
+[] \T1/ptm/m/n/10 (-20) From the fol-low-ing chem-i-cals iden-tify acids and ba
+ses: [](a) $[][][][][][]$
+ []
+
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.2.B)
+Overfull \hbox (5.61726pt too wide) in paragraph at lines 69--69
+[] \T1/ptm/m/n/10 (-20) From the fol-low-ing chem-i-cals iden-tify acids and ba
+ses: [](a) $[]$
+ []
+
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.3.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.3.B)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.4.A)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides.4.B)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.1.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.1.B)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.2.A)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.2.B)
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.3.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-naming/problems/problems/Problems-Acids-and-hydroxides-REDOX.3.B)
+(../Ch-naming/problems/problems/Problems-Covalent-compounds.1.A)
+Overfull \hbox (9.48297pt too wide) in paragraph at lines 234--234
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing co-va-lent com-poun
+ds: [](a) Chlo-
+ []
+
+(../Ch-naming/problems/problems/Problems-Covalent-compounds.1.B)
+Overfull \hbox (3.25876pt too wide) in paragraph at lines 249--249
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing co-va-lent com-poun
+ds: [](a) $[]$
+ []
+
+(../Ch-naming/problems/problems/Problems-Covalent-compounds.2.A)
+Overfull \hbox (8.5387pt too wide) in paragraph at lines 264--264
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing co-va-lent com-poun
+ds: [](a) $[][][][][][]$
  []
 
 
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
-[] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+(../Ch-naming/problems/problems/Problems-Covalent-compounds.2.B)
+Overfull \hbox (5.89873pt too wide) in paragraph at lines 279--279
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing co-va-lent com-poun
+ds: [](a) $[][][]$
  []
 
-)
-Underfull \hbox (badness 2529) in paragraph at lines 1--48
-[]\T1/ptm/m/n/10 (+20) Atoms that lose elec-trons be-come pos-i-tively charged.
-
- []
-
-
-Overfull \hbox (2.9pt too wide) in paragraph at lines 1--48
-[]  [] 
- []
-
-(../Ch-naming/files/Subsection-Ions-ionic-charges-Ionic-charges-the-valences)
-(../Ch-naming/problems/SampleProblem1 (../Ch-naming/problems/StudyCheck1
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
-Underfull \hbox (badness 10000) in paragraph at lines 2--14
-
- []
-
-[1
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.1.A)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.1.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.2.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-n
-aming/figure1.png>]) (../Ch-naming/files/SectionIntro-Ionic-compounds)
-(../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
-(../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
-(../Ch-naming/files/Subsection-Ionic-compounds-Combining-ions [2])
-(../Ch-naming/problems/SampleProblem2 (../Ch-naming/problems/StudyCheck2))
-(../Ch-naming/files/Subsection-Ionic-compounds-type-I-ionic)
-(../Ch-naming/problems/SampleProblem3 (../Ch-naming/problems/StudyCheck3)
-[3]) (../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming)
-(../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals)
-(../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
-(../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
-(../Ch-naming/problems/SampleProblem4 (../Ch-naming/problems/StudyCheck4)
-[4]) (../Ch-naming/files/SectionIntro-Covalent-compounds)
-(../Ch-naming/files/Subsection-Covalent-compounds-Properties-of-covalent-compou
-nds) (../Ch-naming/files/Subsection-Covalent-compounds-The-covalent-bond)
-(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.2.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.3.A)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.3.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.4.A)
+Underfull \vbox (badness 3612) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:naming1' on page 5 undefined on input line 1.
+ [3]
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.4.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.5.A)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.5.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.6.A)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.6.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.7.A)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.7.B)
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.8.A) [4]
+(../Ch-naming/problems/problems/Problems-Ionic-compounds.8.B)
+(../Ch-naming/problems/problems/Problems-Ions-Ionic-charges.1.A)
+(../Ch-naming/problems/problems/Problems-Ions-Ionic-charges.1.B)
+(../Ch-naming/problems/problems/Problems-Ions-Ionic-charges.2.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (../Ch-naming/files/Table-Covalent-prefixes
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-) (../Ch-naming/problems/SampleProblem5 (../Ch-naming/problems/StudyCheck5)
-[5]) (../Ch-naming/files/SectionIntro-Naming-acids-bases)
-(../Ch-naming/files/Subsection-Naming-acids-bases-Bases-or-hydroxides
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-) (../Ch-naming/files/Subsection-Naming-acids-bases-Acids
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-) (../Ch-naming/problems/SampleProblem6 (../Ch-naming/problems/StudyCheck6)
-[6])
-(../Ch-naming/files/Subsection-Naming-acids-bases-Oxidation-states-of-oxoacids)
-
-(../Ch-naming/files/Subsection-Naming-acids-bases-Oxidizing-and-reducing-charac
-ter-of-oxoacids) (../Ch-naming/problems/SampleProblem7
-(../Ch-naming/problems/StudyCheck7) [7])
-(../Ch-naming/files/SectionIntro-Naming-complex-salts-common-chemicals)
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Combining-
-ions) (../Ch-naming/files/Table-Oxoacids [8]
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 8.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 8.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 8.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 8.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 8.
-
-Overfull \hbox (97.21593pt too wide) in paragraph at lines 5--42
- [] 
- []
-
-)
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
-salts
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-)
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Formulatin
-g-Oxosalts) (../Ch-naming/problems/SampleProblem8
-(../Ch-naming/problems/StudyCheck8) [9])
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Hyd
-rosalts
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
+(../Ch-naming/problems/problems/Problems-Ions-Ionic-charges.2.B)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.1.A)
+Overfull \hbox (17.57135pt too wide) in paragraph at lines 594--594
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing (Type I) ox-os-alts
+: [](a) $[][][][][][][][][]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-
+Overfull \hbox (15.6965pt too wide) in paragraph at lines 594--594
+[]\T1/ptm/m/n/10 (-20) (b) Sodium per-man-ganate [](c) $[][][]$ [](d) Cal-cium 
+car-bon-ate [](e) $[][][][][][]$ 
  []
 
-) (../Ch-naming/problems/SampleProblem9 (../Ch-naming/problems/StudyCheck9)
-[10])
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Hydrates)
-(../Ch-naming/problems/SampleProblem10 (../Ch-naming/problems/StudyCheck10))
-(../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Common-nam
-ing
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.1.B)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.2.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.2.B)
+Overfull \hbox (5.56654pt too wide) in paragraph at lines 639--639
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing (Type I) ox-os-alts
+: [](a) Lithium
  []
 
-) (../Ch-naming/files/Table-Common-chemicals
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.3.A)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals.3.B)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.1.A)
+Overfull \hbox (16.84254pt too wide) in paragraph at lines 684--684
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing (Type II) ox-os-alt
+s: [](a) cobalt(III)
+ []
 
-[11]) (../Ch-naming/problems/SampleProblem11
-(../Ch-naming/problems/StudyCheck11))
+
+Underfull \vbox (badness 5245) has occurred while \output is active []
+
+
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.1.B)
+Overfull \hbox (19.58466pt too wide) in paragraph at lines 699--699
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing (Type II) ox-os-alt
+s: [](a) $[][][][][][][][][][][]$
+ []
+
+
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.2.A)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.2.B)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.3.A)
+Overfull \hbox (6.22873pt too wide) in paragraph at lines 744--744
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing hy-drates: [](a) $[
+][][]$$ [] $$[] [][][][]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.3.B)
+Overfull \hbox (15.93858pt too wide) in paragraph at lines 759--759
+[] \T1/ptm/m/n/10 (-20) Name or for-mu-late the fol-low-ing hy-drates: [](a) $[
+][][][][][][][][][][]$$ [] $$[] [][][][]$
+ []
+
+
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.4.A)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.4.B)
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.5.A)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-naming/problems/problems/Problems-Naming-of-complex-salts-and-common-che
+micals-oxosaltstype2-hydrosals-hydrates.5.B) [7] [8
+
+
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6275,15 +6285,20 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
- (./Ch-naming.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `Ch-naming.out' has not changed.
-(rerunfilecheck)             Checksum: B60A16CD8BADFB9B8911F5FEF4425007;1144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 848.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 848.
+(./tmp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 848.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 848.
 
+
+Package rerunfilecheck Warning: File `tmp.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tmp.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6292,44 +6307,29 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 84823 strings out of 493014
- 1893537 string characters out of 6133351
- 2687107 words of memory out of 5000000
- 86260 multiletter control sequences out of 15000+600000
- 228058 words of font info for 305 fonts, out of 8000000 for 9000
+ 83495 strings out of 493014
+ 1875116 string characters out of 6133351
+ 2654359 words of memory out of 5000000
+ 84964 multiletter control sequences out of 15000+600000
+ 72206 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,20n,104p,10600b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,13n,104p,10418b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-di
-st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pa
-ratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmm
-i8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-naming.pdf (12 pages, 360235 bytes).
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
+xmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zap
+fding/uzdr.pfb>
+Output written on tmp.pdf (8 pages, 123049 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 95 named destinations out of 1000 (max. 500000)
- 60394 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 700 compressed objects within 7 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 28275 words of extra memory for PDF output out of 29859 (max. 10000000)
 

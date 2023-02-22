@@ -73,22 +73,41 @@ Identify the most reduced acid:
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+
+
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the most oxidant acid: 
  \noindent
   \begin{multicols}{2}
   \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
-\item \ce{H2S2O6} or \ce{H2SO4} \iffalse \ce{H2S2\textsuperscript{V}O6} \fi
-\item \ce{H2SeO4} or \ce{H2SeO3} \iffalse \ce{H2Se\textsuperscript{IV}O3} \fi
+\item \ce{H2CrO4} or \ce{H2Cr2O7} % \ce{H2Cr2O7}
+\item \ce{HNO3} or \ce{HNO4} % \ce{HNO3}
 \end{enumerate}
  \end{multicols} 
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item   \ce{H2S2\textsuperscript{V}O6}  
-\item   \ce{H2Se\textsuperscript{IV}O3}    
+\item  \ce{H2Cr2O7}
+\item  \ce{HNO3}  
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the most oxidant acid: 
+ \noindent
+  \begin{multicols}{2}
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\item \ce{H2S2O6} or \ce{H2SO4}  %\ce{H2S2O6}
+\item \ce{H2SeO4} or \ce{H2SeO3} %\ce{H2SeO3}
+\end{enumerate}
+ \end{multicols} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2S2O6}
+\item \ce{H2SeO3}  
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 

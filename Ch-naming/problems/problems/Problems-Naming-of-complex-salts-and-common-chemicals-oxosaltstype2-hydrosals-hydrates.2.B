@@ -1,0 +1,6 @@
+Name or formulate the following hydrosalts:
+\begin{inparaenum}[(a)]	
+\item \ce{NaHCO3}				%(sodium hydrogen carbonate)	
+\item Calcium Hydrogencarbonate 	%(\ce{Ca(HCO3)2})
+\item \ce{Al(HSO4)3}				%(aluminum hydrogencarbonate)
+\end{inparaenum}

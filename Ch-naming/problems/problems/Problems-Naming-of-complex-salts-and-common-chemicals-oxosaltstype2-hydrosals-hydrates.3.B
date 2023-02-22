@@ -1,0 +1,5 @@
+Name or formulate the following hydrates:
+\begin{inparaenum}[(a)]	
+\item \ce{Al2(SO4)3 . 3H2O}		%(aluminum phosphate trihydrate)	
+\item Silver phosphate dihydrate	%(\ce{Ag3PO4 . 2H2O})
+\end{inparaenum}
