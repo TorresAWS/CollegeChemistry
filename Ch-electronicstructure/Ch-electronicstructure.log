@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 FEB 2023 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5539,42 +5539,27 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count604
 \c@@LCDlower=\count605
 )
-\templength=\skip343
-\c@ntostring=\count606
-\c@NumberofProblemsFinal=\count607
-\myhiddenbox=\box290
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
-Package: lcg 2013/08/09 v1.3 generating random numbers
-\f@rst=\count608
-\l@st=\count609
-\cr@nd=\count610
-\c@rand=\count611
-
-Smallest possible random number: 1
-Largest possible random number: 2147483647
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-)
-\c@SavedRandom=\count612
+\c@SavedRandom=\count606
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5675.
+h' as default language. on input line 5591.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
- (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count613
-\l__chemformula_tmpb_int=\count614
-\l__chemformula_tmpc_int=\count615
-\l__chemformula_tmpa_box=\box291
-\l__chemformula_tmpb_box=\box292
+\l__chemformula_tmpa_int=\count607
+\l__chemformula_tmpb_int=\count608
+\l__chemformula_tmpc_int=\count609
+\l__chemformula_tmpa_box=\box290
+\l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
 \l__chemformula_arrow_label_height_dim=\dimen563
 \l__chemformula_arrow_label_offset_dim=\dimen564
@@ -5603,14 +5588,14 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip344
-\l__chemformula_math_space_skip=\skip345
-\l__chemformula_count_tokens_int=\count616
-\g__chemformula_lewis_int=\count617
-\l__chemformula_arrow_arg_i_box=\box293
-\l__chemformula_arrow_arg_ii_box=\box294
-\l__chemformula_superscript_box=\box295
-\l__chemformula_subscript_box=\box296
+\l__chemformula_stoich_space_skip=\skip343
+\l__chemformula_math_space_skip=\skip344
+\l__chemformula_count_tokens_int=\count610
+\g__chemformula_lewis_int=\count611
+\l__chemformula_arrow_arg_i_box=\box292
+\l__chemformula_arrow_arg_ii_box=\box293
+\l__chemformula_superscript_box=\box294
+\l__chemformula_subscript_box=\box295
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5726,7 +5711,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip346
+\l__chemformula_additions_symbol_space_skip=\skip345
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5747,8 +5732,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip347
-\l__chemformula_minus_space_skip=\skip348
+\l__chemformula_plus_space_skip=\skip346
+\l__chemformula_minus_space_skip=\skip347
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5815,7 +5800,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 11.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box297
+\AtBeginShipoutBox=\box296
 Package hyperref Info: Link coloring ON on input line 11.
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
@@ -5878,16 +5863,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count618
+\scratchcounter=\count612
 \scratchdimen=\dimen590
-\scratchbox=\box298
-\nofMPsegments=\count619
-\nofMParguments=\count620
+\scratchbox=\box297
+\nofMPsegments=\count613
+\nofMParguments=\count614
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count621
+\MPscratchCnt=\count615
 \MPscratchDim=\dimen591
-\MPnumerator=\count622
-\makeMPintoPDFobject=\count623
+\MPnumerator=\count616
+\makeMPintoPDFobject=\count617
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5916,9 +5901,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count624
-\c@mv@tabular=\count625
-\c@mv@boldtabular=\count626
+\c@lstlisting=\count618
+\c@mv@tabular=\count619
+\c@mv@boldtabular=\count620
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 11.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6503,10 +6488,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 86231 strings out of 493014
- 1934030 string characters out of 6133351
- 2845581 words of memory out of 5000000
- 87616 multiletter control sequences out of 15000+600000
+ 86160 strings out of 493014
+ 1932943 string characters out of 6133351
+ 2843493 words of memory out of 5000000
+ 87549 multiletter control sequences out of 15000+600000
  201590 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,109p,10626b,2383s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6536,7 +6521,7 @@ onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on Ch-electronicstructure.pdf (22 pages, 1652812 bytes).
+Output written on Ch-electronicstructure.pdf (22 pages, 1657781 bytes).
 PDF statistics:
  448 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams
