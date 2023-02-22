@@ -1,6 +1,6 @@
 %%%%%%%PROBLEM
 \vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Among the elements, indicate the element with the largest ionization energy  
+Among the elements, indicate the element with the smallest ionization energy  
 \begin{inparaenum}[(a)]
 \item B
 \item C
@@ -11,5 +11,22 @@ Among the elements, indicate the element with the largest ionization energy
  \end{question}
 \begin{solution}
 Na
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Among the elements, indicate the element with the largest ionization energy  
+\begin{inparaenum}[(a)]
+\item Al
+\item Si
+\item P
+\item  As
+\item Sb
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+P
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%

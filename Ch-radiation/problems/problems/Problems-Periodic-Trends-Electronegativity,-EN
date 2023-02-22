@@ -12,3 +12,21 @@ Among the elements, indicate the element with the largest electronegativity
 F
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Among the elements, indicate the element with the largest electronegativity  
+\begin{inparaenum}[(a)]
+\item Si
+\item P
+\item S
+\item  Se
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+S
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

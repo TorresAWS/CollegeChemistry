@@ -10,11 +10,30 @@ Indicate the number of orbitals that can have the following designations:
  \end{question}
 \begin{solution}
  \begin{inparaenum}[(a)]
-\item   1 orbital
-\item   3 orbitals
-\item  0 orbital	
-\item  16 orbitals    
+\item    1 orbital
+\item    3 orbitals
+\item 0 orbital	
+\item 16 orbitals  
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
+%%%%%%%PROBLEM
+\vspace{-0.0cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the number of orbitals that can have the following designations:
+ \begin{inparaenum}[(a)]
+\item    1d   %0 orbital
+\item $n=1$	%1 orbitals
+\item    3d   %5 orbital
+\item    4f   %7 orbital
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item    0 orbital
+\item 1 orbitals
+\item    5 orbital
+\item    7 orbital   
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
