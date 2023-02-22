@@ -1,0 +1,1 @@
+Two samples, A and B, have the same mass and are at the same temperature. If they are equally heated the final temperature of A is three times the one for B. Compare the specific heats of the samples.
