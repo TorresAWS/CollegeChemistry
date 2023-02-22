@@ -25,3 +25,12 @@ A serving of fish contains 50 g of protein and 4 g of fat.  If protein has a cal
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%%
 
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+One large egg contains 6 g of protein and 6 g of fat.  If protein has a caloric value of 4.0 $kcal/g$ and fat has 9 $kcal/g$, how many kcal are in the egg?  
+\end{question}
+\begin{solution}
+78 cal 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+

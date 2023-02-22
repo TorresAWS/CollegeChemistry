@@ -22,6 +22,8 @@ When a 0.09-g sample of trinitrotoluene (TNT, MW=213g/mol), is burned in a bomb 
 -6973KJ/mol
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
+
+
 %%%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 We mix 50mL of 2M HCl with 100mL of 1.5M NaOH in a coffee-cup calorimeter. Both solutions are initially at 20$^{\circ}$C. Calculate the final temperature of the solution in the calorimeter considering that the specific heat of the mixture is 4.184$\frac{J}{g^{\circ}C}$ and the density of the solution is 1g/mL. The molar heat of the reaction is -56kJ/mol.
@@ -30,6 +32,19 @@ We mix 50mL of 2M HCl with 100mL of 1.5M NaOH in a coffee-cup calorimeter. Both 
 29$^{\circ}$C
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%%
+
+
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We mix 50mL of 2M HCl with 50mL of 2M NaOH in a coffee-cup calorimeter. Both solutions are initially at 40$^{\circ}$C. Calculate the final temperature of the solution in the calorimeter considering that the specific heat of the mixture is 4.184$\frac{J}{g^{\circ}C}$ and the density of the solution is 1g/mL. The molar heat of the reaction is -100kJ/mol.
+\end{question}
+\begin{solution}
+64$^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+
+
 
 
 

@@ -2,14 +2,30 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Carry the following conversions:
 \begin{inparaenum}[(a)]	
-\item 20$^{\circ}$C to F
-\item	  300K to $^{\circ}$C
-\item  41$^{\circ}$F into celsius
+\item	  100$^{\circ}$C to K	%373K
+\item	  200$^{\circ}$F to K	%366K
+\item	  500K to $^{\circ}$F	%441$^{\circ}$F
+\end{inparaenum} 
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]
+\item	  373K
+\item	  366K
+\item	  441$^{\circ}$F
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Carry the following conversions:
+\begin{inparaenum}[(a)]	
+\item 20$^{\circ}$C to $^{\circ}$F % 68$^{\circ}F$
+\item	  300K to $^{\circ}$C	%27$^{\circ}$C
+\item  41$^{\circ}$F to $^{\circ}$C	%5$^{\circ}$C
 \end{inparaenum} 
 \end{question}
 \begin{solution}\begin{inparaenum}[(a)]
 \item  68$^{\circ}F$
-\item  27$^{\circ}$C
+\item	  27$^{\circ}$C
 \item  5$^{\circ}$C
 \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
-

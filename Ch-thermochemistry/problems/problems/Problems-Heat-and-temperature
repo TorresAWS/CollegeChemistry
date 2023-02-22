@@ -1,3 +1,47 @@
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The same amount of heat is provided to a sample of two different metals, metal A ($c_e(A)=0.3\frac{cal}{g^{\circ}C}$) and metal B ($c_e(B)=0.4\frac{cal}{g^{\circ}C}$). Both samples have the same mass and are at the same temperature. Which metal A or B would reach a higher temperature?
+\end{question}
+\begin{solution}
+A
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The same amount of heat is provided to a sample of two different metals, metal A ($c_e(A)=0.5\frac{cal}{g^{\circ}C}$) and metal B ($c_e(B)=0.4\frac{cal}{g^{\circ}C}$). Both samples have the same mass and are at the same temperature. Which metal A or B would reach a higher temperature?
+\end{question}
+\begin{solution}
+B
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Two samples, A and B, have the same mass and are at the same temperature. If they are equally heated the final temperature of A is three times the one for B. Compare the specific heats of the samples.
+\end{question}
+\begin{solution}
+$3\times c_e(A)$=$c_e(B)$
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Two samples, A and B, have the same mass and are at the same temperature. If they are equally heated the final temperature of B is two times the one for A. Compare the specific heats of the samples.
+\end{question}
+\begin{solution}
+$2\times c_e(B)$=$c_e(A)$
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 A 50g piece of aluminum ($c_e=0.214\frac{cal}{g^{\circ}C}$) initially at 25$^{\circ}$C absorbs 100cal. Calculate the final temperature of the aluminum piece.
