@@ -1,10 +1,21 @@
 
 %%%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Vanilla extract is a solution vanillin in ethanol. A vanilla solution is made by mixing 15 mL of pure vanillin and 50mL of ethanol.
+Vanilla extract is a solution vanillin in ethanol. A vanilla solution is made by mixing 15 mL of pure vanillin and 50mL of ethanol. Calculate the Percent Volume/Volume.
 \end{question}
 \begin{solution}
 23\%
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A solution is made by mixing 2 mL of a solute and 100mL of solvent. Calculate the Percent Volume/Volume.
+\end{question}
+\begin{solution}
+1.9\%
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%%
 

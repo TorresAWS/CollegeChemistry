@@ -13,11 +13,21 @@ What is the concentration of a solution prepared when 100mL a 4\% HCl solution i
 0.8 \%
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
+
+
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Describe how to prepare 50mL of a 0.5M \ce{H2SO4} solution, starting with a 1M stock \ce{H2SO4} solution.
 \end{question}\begin{solution}
 25mL
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Describe how to prepare 100mL of a 0.1M \ce{H2SO4} solution, starting with a 2M stock \ce{H2SO4} solution.
+\end{question}\begin{solution}
+5mL
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 

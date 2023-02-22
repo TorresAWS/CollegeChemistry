@@ -1,0 +1,1 @@
+Sodium hydroxide \ce{NaOH}, a very strong base, is a chemical used in drain cleaners. A drain cleaning solution is prepared by mixing 25g of \ce{NaOH} in 250g of water. Calculate the mass percent of solute.

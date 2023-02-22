@@ -14,11 +14,22 @@ How many mL of a 3M KCl solution contains 0.06 moles of KCl.
 20mL
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
+
+
+
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 How many mL of a 4M NaCl (MW=58$\text{g/mol}$) solution contains 5 grams of NaCl.
 \end{question}\begin{solution}
 21mL
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How many mL of a 1M NaCl (MW=58$\text{g/mol}$) solution contains 4 grams of NaCl.
+\end{question}\begin{solution}
+69mL
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 

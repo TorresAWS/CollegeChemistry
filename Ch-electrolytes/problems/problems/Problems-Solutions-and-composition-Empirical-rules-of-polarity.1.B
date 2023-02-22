@@ -1,0 +1,9 @@
+Classify the following molecules as polar or nonpolar:
+\begin{inparaenum}[(a)]
+\item\ce{C6H14_{(l)}}  % (nonpolar)
+\item\ce{CH3CH2CH2OH_{(l)}}  % (polar)
+\item \ce{C5H10_{(l)}}  % (nonpolar)
+\item \ce{C6H5CH3_{(l)}}  % (nonpolar)
+\item \ce{CH3CH2OH_{(l)}}  % (polar)
+\item \ce{C6H5NH2_{(l)}}  % (polar)
+\end{inparaenum}
