@@ -18,7 +18,7 @@ Which of the following elements is a metal?
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Which of the following elements is a alkaline metal?
+Which of the following elements is a alkali metal?
 \begin{inparaenum}[(a)]
 \item Nitrogen
 \item Lithium
@@ -32,6 +32,21 @@ Which of the following elements is a alkaline metal?
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following elements is a alkaline earth metal?
+\begin{inparaenum}[(a)]
+\item Nitrogen
+\item Lithium
+\item Calcium
+\item Iron
+\item Ruthenium
+\end{inparaenum}
+\end{question}
+\begin{solution}
+(c)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
 
 
 %%%%%%%PROBLEM

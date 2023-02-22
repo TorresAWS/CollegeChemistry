@@ -1,6 +1,6 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the molecular mass of the following molecule: \ce{CCl2F2}
+Calculate the molecular mass of the following compound: \ce{CCl2F2}
 \end{question}
 \begin{solution}
 121 amu
@@ -9,7 +9,7 @@ Calculate the molecular mass of the following molecule: \ce{CCl2F2}
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the molecular mass of the following molecule: \ce{C4H10}
+Calculate the molecular mass of the following compound: \ce{C4H10}
 \end{question}
 \begin{solution}
 58 amu
@@ -19,10 +19,20 @@ Calculate the molecular mass of the following molecule: \ce{C4H10}
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the molecular mass of the following molecule: \ce{C6H10O8}
+Calculate the molecular mass of the following compound: \ce{C6H10O8}
 \end{question}
 \begin{solution}
 210 amu
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the molecular mass of the following compound: \ce{C6H6}
+\end{question}
+\begin{solution}
+78.114 amu
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
