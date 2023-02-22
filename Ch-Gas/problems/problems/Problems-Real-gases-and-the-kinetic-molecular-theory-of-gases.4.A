@@ -1,0 +1,43 @@
+For the velocity distribution curved below:
+\begin{inparaenum}[(a)]	
+\item  The plots represent the distribution of velocity of two gases \ce{Ne } or \ce{Ar} at STP conditions in a fixed volume. What line represents each gas?
+\item  The plots represent the distribution of velocity of a gas at two different temperatures 300K and 500K at fixed pressure and volume conditions. What line represents each each temperature?
+\end{inparaenum} 
+
+
+\begin{center}\begin{tikzpicture}[thick,scale=0.5, every node/.style={transform shape}]
+\begin{scope}[xshift = 0cm]
+\pgfkeys{/pgfplots/linelabel/.style args={#1:#2:#3}{name path global=labelpath,execute at end plot={
+\path [name path global = labelpositionline]
+(rel axis cs:#1,0) --
+(rel axis cs:#1,1);
+\draw [help lines,text=black,inner sep=0pt,name intersections={of=labelpath and labelpositionline}] (intersection-1) -- +(#2) node [label={#3}] {};},
+}}
+\pgfplotsset{ compat  = 1.13,samples = 100,}
+\def\kB{1.3806488e-23}% boltzmann constant
+\def\temperature{300}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{28*\amu}
+\def\mB{\mass*\Beta}
+\begin{axis}[
+  axis lines = left,
+  domain     = 0:1500,
+  xlabel     = Molecular velocity (m/s),
+  ylabel     = Number of molecules,
+  xtick      = \empty,
+%xmax = 1500,
+  ytick      = \empty,
+  clip       = false,
+]
+  \addplot[black, linelabel=0.3:{.6cm,.6cm}: {[black]right:(a)}]		 {sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+  \def\temperature{300}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{70*\amu}
+\def\mB{\mass*\Beta}
+   \addplot[red, linelabel=0.2:{.6cm,.6cm}: {[red]right:(b)}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+\end{axis}
+\end{scope} 
+\end{tikzpicture}
+\end{center}

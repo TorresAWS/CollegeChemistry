@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 13:21
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Ch-Gas.tex
-(./Ch-Gas.tex
+**tmp.tex
+(./tmp.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -299,7 +300,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file Ch-Gas.bbl.
+No file tmp.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -590,7 +591,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 
-(./Ch-Gas.pre)
+(./tmp.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen136
 \c@asy=\count143
@@ -600,7 +601,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `Ch-Gas.pre'.
+\openout4 = `tmp.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -1703,10 +1704,10 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `Ch-Gas.idx'.
+\openout8 = `tmp.idx'.
 
 
-Writing index file Ch-Gas.idx
+Writing index file tmp.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -5781,8 +5782,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./Ch-Gas.aux)
-\openout1 = `Ch-Gas.aux'.
+(./tmp.aux)
+\openout1 = `tmp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -5816,10 +5817,10 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
- (./Ch-Gas.out)
-(./Ch-Gas.out)
+ (./tmp.out)
+(./tmp.out)
 \@outlinefile=\write14
-\openout14 = `Ch-Gas.out'.
+\openout14 = `tmp.out'.
 
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
@@ -5972,10 +5973,50 @@ or `english'. on input line 4.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exsheets/exsheets_configurations.
 cfg
 File: exsheets_configurations.cfg 
-) (../Ch-Gas/files/ChapterName
-Chapter 6.
+)
+
+Package lcg Warning: Seed should be > 0 -- Seed will be initialized with the ac
+tual time on input line 5.
+
+\c@FileRandom=\count625
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\FSize=\skip349
+\Baselineskip=\skip350
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 1.
+ut line 17.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5984,7 +6025,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5993,24 +6034,31 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
+(Font)              <10> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -6020,435 +6068,302 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 1.
+(Font)              scaled to size 10.42007pt on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 1.
+(Font)              scaled to size 10.42007pt on input line 17.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+PTSansNarrow-TLF on in
-put line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/TS1PTSansNarrow-TLF.fd
-File: TS1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for TS1/PTSansNarrow-T
-LF.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-<../Ch-Gas/figure1.png, id=153, 722.7pt x 542.025pt>
-File: ../Ch-Gas/figure1.png Graphic file (type png)
-<use ../Ch-Gas/figure1.png>
-Package pdftex.def Info: ../Ch-Gas/figure1.png  used on input line 1.
-(pdftex.def)             Requested size: 355.65892pt x 266.74419pt.
-) (../Ch-Gas/files/ChapterIntro)
-(../Ch-Gas/files/SectionIntro-Gases-and-its-properties)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 47.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Gases-in-the-periodic-tabl
-e
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 1.
+(Font)              scaled to size 7.91925pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 1.
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 24.
+
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.1.A)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.1.B)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.2.A)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.2.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.3.A)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.3.B)
+(../Ch-Gas/problems/problems/Problems-Gases-And-Its-Properties.1.A)
+(../Ch-Gas/problems/problems/Problems-Gases-And-Its-Properties.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.1.A)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.1.B)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.2.A)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.2.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.3.A)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.3.B)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.4.A
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 17.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 1.
+(Font)              scaled to size 21.61124pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 17.
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
 )
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Characteristics-of-gases
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 3.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume-V) [1
+ [2]
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.4.B)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.1.A)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.1.B)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.2.A)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.2.B [3])
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.1.A)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.1.B)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.2.A)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.2.B)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.1.
+A)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.1.
+B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.2.
+A)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.2.
+B)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.3.
+A
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 16.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 16.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 16.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-G
-as/figure1.png>] (../Ch-Gas/files/SubSection-Gases-and-its-properties-Temperatu
-re,-T)
-(../Ch-Gas/files/Figure-Gas-Table
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.3.
+B) (../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-tanks.1.A)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-tanks.1.B [5])
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.1.A)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.2.A)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.2.B)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.3.A)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.3.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.4.A)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.4.B) (../Ch-Gas/problems/problems/Problems-gas-stoichiometry.1.A)
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.1.B)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.2.A)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.2.B) [7]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.23987> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.40015> on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 4.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <18.23987> no
-t available
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
-t available
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 4.
-
-Overfull \hbox (8.84329pt too wide) in paragraph at lines 4--8
-[][]
- []
-
-
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
-[] 
- []
-
-) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Amount-of-gas,-n)
-(../Ch-Gas/files/SideFigure-Gases
-<../Ch-Gas/figure6.png, id=165, 225.84375pt x 225.84375pt>
-File: ../Ch-Gas/figure6.png Graphic file (type png)
-<use ../Ch-Gas/figure6.png>
-Package pdftex.def Info: ../Ch-Gas/figure6.png  used on input line 5.
-(pdftex.def)             Requested size: 128.04305pt x 128.04305pt.
-<../Ch-Gas/figure7.png, id=166, 587.19376pt x 389.95688pt>
-File: ../Ch-Gas/figure7.png Graphic file (type png)
-<use ../Ch-Gas/figure7.png>
-Package pdftex.def Info: ../Ch-Gas/figure7.png  used on input line 8.
-(pdftex.def)             Requested size: 128.52895pt x 85.3564pt.
-
-Overfull \hbox (10.3865pt too wide) in paragraph at lines 1--11
- []
- []
-
-
-Overfull \hbox (9.10944pt too wide) in paragraph at lines 1--11
-[] 
- []
-
-) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Pressure,-P)
-(../Ch-Gas/problems/SampleProblem1 (../Ch-Gas/problems/StudyCheck1
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
-[2 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>])
-(../Ch-Gas/files/Figure-Pressure
-<../Ch-Gas/figure3.png, id=182, 906.38625pt x 1027.84pt>
-File: ../Ch-Gas/figure3.png Graphic file (type png)
-<use ../Ch-Gas/figure3.png>
-Package pdftex.def Info: ../Ch-Gas/figure3.png  used on input line 16.
-(pdftex.def)             Requested size: 112.89691pt x 128.02486pt.
-<../Ch-Gas/figure4.png, id=183, 424.58624pt x 601.24625pt>
-File: ../Ch-Gas/figure4.png Graphic file (type png)
-<use ../Ch-Gas/figure4.png>
-Package pdftex.def Info: ../Ch-Gas/figure4.png  used on input line 16.
-(pdftex.def)             Requested size: 90.41612pt x 128.03606pt.
-<../Ch-Gas/figure5.png, id=184, 184.69pt x 275.0275pt>
-File: ../Ch-Gas/figure5.png Graphic file (type png)
-<use ../Ch-Gas/figure5.png>
-Package pdftex.def Info: ../Ch-Gas/figure5.png  used on input line 16.
-(pdftex.def)             Requested size: 95.5377pt x 142.26813pt.
-)
-Overfull \hbox (171.82971pt too wide) in paragraph at lines 3--61
-[] [] 
- []
-
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Measuring-pressure
-[3 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG 
-copy)>]) (../Ch-Gas/files/Figure-Manometer
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 33.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 33.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 33.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 33.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 33.
-
-Overfull \hbox (25.98193pt too wide) in paragraph at lines 69--70
-[][] 
- []
-
-)
-Overfull \hbox (12.0pt too wide) in paragraph at lines 61--61
- [][][][][][][][]
- []
-
-(../Ch-Gas/files/SectionIntro-Ideal-gas-law)
-(../Ch-Gas/files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles)
-(../Ch-Gas/problems/SampleProblem2
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
-
- []
-
-
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 15--16
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-(../Ch-Gas/problems/StudyCheck2) [4])
-(../Ch-Gas/files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density)
-(../Ch-Gas/problems/SampleProblem3
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-(../Ch-Gas/problems/StudyCheck3) [5])
-(../Ch-Gas/files/SubSection-Ideal-gas-law-STP-conditions)
-(../Ch-Gas/problems/SampleProblem4
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-(../Ch-Gas/problems/StudyCheck4))
-(../Ch-Gas/files/SectionIntro-Change-of-gas-properties) [6]
-(../Ch-Gas/files/SubSection-Change-of-gas-properties-Solving-problems-with-an-i
-nitial-and-final-state) (../Ch-Gas/problems/SampleProblem5
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-(../Ch-Gas/problems/StudyCheck5
-Underfull \hbox (badness 10000) in paragraph at lines 43--5
-
- []
-
-) [7])
-(../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Volume-change)
-(../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Temperature-chang
-e) (../Ch-Gas/files/SubSection-Change-of-gas-properties-Volume-Moles-change
-[8])
-(../Ch-Gas/files/SubSection-Change-of-gas-properties-Relating-the-different-var
-iables-of-a-gas)
-(../Ch-Gas/files/SectionIntro-Mixtures-of-gases-and-gas-stoichiometry)
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volum
-e)
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiomet
-ry-and-gases [9]) (../Ch-Gas/problems/SampleProblem6
-(../Ch-Gas/problems/StudyCheck6))
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and
--total-pressure) (../Ch-Gas/problems/SampleProblem7
-(../Ch-Gas/problems/StudyCheck7) [10]) (../Ch-Gas/files/Figure-Partial-Pressure
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 10.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <7> not avail
-able
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 10.
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 11.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 11.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 11.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 11.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 11.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pre
-ssure-of-a-gas-in-a-mixture)
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fracti
-on [11]) (../Ch-Gas/problems/SampleProblem8 (../Ch-Gas/problems/StudyCheck8))
-(../Ch-Gas/files/Figure-Gas-Collection-in-water
-<../Ch-Gas/figure8.png, id=260, 905.3825pt x 853.1875pt>
-File: ../Ch-Gas/figure8.png Graphic file (type png)
-<use ../Ch-Gas/figure8.png>
-Package pdftex.def Info: ../Ch-Gas/figure8.png  used on input line 3.
-(pdftex.def)             Requested size: 170.71204pt x 160.87054pt.
-)
-(../Ch-Gas/files/Table-Water-pressure
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 7.
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-Overfull \hbox (2.07593pt too wide) in paragraph at lines 4--16
- [] 
+ line 697.
+
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.2.B.answer)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.3.A.answer)
+(../Ch-Gas/problems/problems/Problems-Change-of-Gas-Properties.3.B.answer)
+(../Ch-Gas/problems/problems/Problems-Gases-And-Its-Properties.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Gases-And-Its-Properties.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.2.B.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.3.A.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.3.B.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.4.A.answer)
+(../Ch-Gas/problems/problems/Problems-Ideal-Gas-Law.4.B.answer)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-Measuring-pressure.2.B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases.2.B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.1.
+A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.1.
+B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.2.
+A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.2.
+B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.3.
+A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-and-gas-stoichiometry.3.
+B.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-tanks.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Mixture-of-Gases-tanks.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.2.B.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.3.A.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.3.B.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.4.A.answer)
+(../Ch-Gas/problems/problems/Problems-Real-gases-and-the-kinetic-molecular-theo
+ry-of-gases.4.B.answer)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.1.A.answer)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.1.B.answer)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.2.A.answer)
+(../Ch-Gas/problems/problems/Problems-gas-stoichiometry.2.B.answer)
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+[] [][]\T1/ptm/m/n/10 (+20) (a) $\OML/lmm/m/it/10 p[]$\T1/ptm/m/n/10 (+20) =1.9
+7atm, $\OML/lmm/m/it/10 p[]$\T1/ptm/m/n/10 (+20) =1.48atm,$\OML/lmm/m/it/10 p[]
+$\T1/ptm/m/n/10 (+20) =2.95atm [](b) 6.40 atm   []$\OML/lmm/m/it/10 p[]$\T1/ptm
+/m/n/10 (+20) =0.15atm, $\OML/lmm/m/it/10 p[]$\T1/ptm/m/n/10 (+20) =0.3atm
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <../Ch-Gas/figure8.png>])
-(../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-
-gas-over-water
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-[]
- []
-
-) (../Ch-Gas/problems/SampleProblem9 (../Ch-Gas/problems/StudyCheck9) [13])
-(../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Kinetic-theory-of-gases [14]) (../Ch-Gas/problems/SampleProblem11
-(../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
-Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
-[][] 
- []
-
-)
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Distribution-of-velocities)
-(../Ch-Gas/files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-ga
-ses-) [15]
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Van-der-Waals-equation-for-real-gases) (../Ch-Gas/files/Table-Real-Gas
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
+ [8
 
 
-Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
- [] 
- []
+]
+[9
 
-)
-(../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-The-meaning-of-the-Van-der-Waals) (../Ch-Gas/problems/SampleProblem10
-(../Ch-Gas/problems/StudyCheck10) [16]) [17] [18
+] [10] [11
 
 ]
 
@@ -6462,13 +6377,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
-(./Ch-Gas.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
-Package rerunfilecheck Info: File `Ch-Gas.out' has not changed.
-(rerunfilecheck)             Checksum: 2C7348725D872F3A7435AA8B66A3F3A6;1373.
+[12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 698.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 698.
+ (./tmp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 698.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 698.
+Package rerunfilecheck Info: File `tmp.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -6477,47 +6393,42 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 85004 strings out of 493014
- 1902675 string characters out of 6133351
- 2753463 words of memory out of 5000000
- 86439 multiletter control sequences out of 15000+600000
- 266665 words of font info for 337 fonts, out of 8000000 for 9000
+ 84183 strings out of 493014
+ 1896484 string characters out of 6133351
+ 2719950 words of memory out of 5000000
+ 85580 multiletter control sequences out of 15000+600000
+ 172929 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,22n,109p,10594b,2954s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/te
+ 82i,16n,114p,10418b,2553s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/f
 onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
-aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
-ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
-wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
-/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pts
-ans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fp
-lmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/latxfon
-t/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on Ch-Gas.pdf (18 pages, 4031060 bytes).
+vips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsa
+ns/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsans/P
+TN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/zapfding/uzdr.pfb>
+Output written on tmp.pdf (12 pages, 233331 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 73266 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 55845 words of extra memory for PDF output out of 61914 (max. 10000000)
 

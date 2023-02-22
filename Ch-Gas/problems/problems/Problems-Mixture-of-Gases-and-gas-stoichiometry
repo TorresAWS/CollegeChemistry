@@ -1,27 +1,4 @@
-%%%%%PROBLEM
-\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-A tank contains Ne gas at 700 mmHg, Ar at 2 atm, and Kr at 700 torr. What is the total pressure of the mixture in atm?
-\end{question}
-\begin{solution}
-1402torr
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
-%%%%%PROBLEM
-\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-An anesthetic consist of a mixture of cyclopropane gas and oxygen gas. If the mixture has a total pressure of 2 atm and the partial pressure of cyclopropane is 0.5atm, what is the partial pressure of O2?
-\end{question}
-\begin{solution}
-1.5atm
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
-
-
-%%%%%PROBLEM
-\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The atmospheric pressure on a hot day is 780 mmHg. Given that the air is made of 78\% of nitrogen and 22\% of oxygen, calculate the partial pressure of each gas in the air.
-\end{question}
-\begin{solution}
-\ce{N2} 608 mmHg, \ce{O2} 171.6 mmHg
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Phosphorus reacts with oxygen gas to produce tetraphosphorus decaoxide according to the following equation:
@@ -142,7 +119,7 @@ Consider the set up presented below at fixed temperature, where the connecting t
 \end{tikzpicture}\end{center}
 \end{question}
 \begin{solution}
-\item  $p_{\ce{Ne}}$=0.15atm, $p_{\ce{Ar}}$=0.3atm
+  $p_{\ce{Ne}}$=0.15atm, $p_{\ce{Ar}}$=0.3atm
 
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 

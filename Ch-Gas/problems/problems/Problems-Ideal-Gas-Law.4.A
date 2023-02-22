@@ -1,0 +1,78 @@
+Indicate what plot (or plots) bellow best represent the following gas laws:
+\begin{inparaenum}[(a)]	
+\item  Boyle's law
+\item   Charle's law
+\item Avogadro's law
+\end{inparaenum} 
+
+\begin{center}\begin{tikzpicture}[thick,scale=1.0, every node/.style={transform shape}]
+ %%%%%%
+ \begin{scope} [shift={(0.0,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (a)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $V$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(3.0,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (b)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $T$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(5.5,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (c)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $n$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+   %%%%%%
+ \begin{scope} [shift={(0.0,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (d)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $P$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(3.0,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (e)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $n$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(5.5,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (f)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $T$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+\end{tikzpicture}\end{center}
+
+
+
