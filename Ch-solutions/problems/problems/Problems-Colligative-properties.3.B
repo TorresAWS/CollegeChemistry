@@ -1,0 +1,1 @@
+Calculate the freezing point of a 2m \ce{I2} solution on benzene. $T^{solvent}_f$=5.5$^{\circ}$C and $k_f$=4.9$^{\circ}$C/m.

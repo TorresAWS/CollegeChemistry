@@ -15,7 +15,8 @@ Break down the following electrolytes in ions, if possible:
 \item   \ce{KNO3}    ( \ce{K^{+}} + \ce{NO3^{-} })
 \item   \ce{CaSO4}    ( \ce{Ca^{2+}} + \ce{SO4^{2-} })
 \item   \ce{FeSO4}    ( \ce{Fe^{2+}} + \ce{SO4^{2-} })
- \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 %%%%%%PROBLEM
@@ -36,7 +37,8 @@ Break down the following electrolytes in ions, if possible:
 \item   \ce{Ba(OH)2}    ( \ce{Ba^{2+}} + 2\ce{OH^{-} })
 \item   \ce{CuSO3}    ( \ce{Cu^{2+}} + \ce{SO3^{2-} })
 \item   \ce{MgSO4}    ( \ce{Mg^{2+}} + \ce{SO4^{2-} })
- \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 
@@ -56,7 +58,8 @@ Calculate the $i$ factor for the following chemicals:
 \item   \ce{NaCl}  % ($i$=2)
 \item   \ce{CaI2}  % ($i$=3)
 \item   \ce{MgCl2}  % ($i$=3)
- \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 
@@ -75,7 +78,8 @@ Calculate the $i$ factor for the following chemicals:
 \item   \ce{Mg(NO3)2}  % ($i$=3)
 \item   \ce{CuSO4}  % ($i$=2)
 \item   \ce{FeCl3}  % ($i$=4)
- \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 
@@ -105,3 +109,11 @@ Can the percent dissociation of a electrolyte be negative? Elaborate.
 No as the maximum value should be one.
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Can the percent dissociation of a electrolyte be more than 2? Elaborate.
+\end{question}
+\begin{solution}
+No as the maximum value should be one.
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
