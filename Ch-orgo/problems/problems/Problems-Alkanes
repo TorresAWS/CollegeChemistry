@@ -11,7 +11,8 @@ Indicate the molecular formula of the following organic compounds:
 \begin{inparaenum}[(a)]
 \item ethane    (\ce{C2H6} )
 \item   butane   ( \ce{C4H10} )
-\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
  %%%%%%%PROBLEM
@@ -26,7 +27,8 @@ Indicate the molecular formula of the following organic compounds:
 \begin{inparaenum}[(a)]
 \item methane  (\ce{CH4})
 \item  decane (\ce{C10H22})
-\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
  
@@ -36,19 +38,37 @@ Name the following alkanes:
 \begin{inparaenum}[(a)]
 \item \ce{C3H8}   % (Propane)
 \item  \ce{C8H18}   % (Octane )
-\item   \ce{C5H12}  % (Pentane)
-\item   \ce{C9H20}  % (nonane)
 \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
 \item \ce{C3H8}     (Propane)
 \item  \ce{C8H18}     (Octane )
-\item   \ce{C5H12}    (Pentane)
-\item   \ce{C9H20}    (nonane)
-\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following alkanes:
+\begin{inparaenum}[(a)]
+\item   \ce{C5H12}  % (Pentane)
+\item   \ce{C9H20}  % (nonane)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \ce{C5H12}    (Pentane)
+\item   \ce{C9H20}    (nonane)
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Write down the condensed formula of the following alkanes:

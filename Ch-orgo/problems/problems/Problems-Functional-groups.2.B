@@ -1,0 +1,3 @@
+Identify the functional groups in the following molecule:\begin{center}
+\chemfig{**6(--(-OH)----)}
+\end{center}

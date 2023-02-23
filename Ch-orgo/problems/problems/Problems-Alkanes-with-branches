@@ -34,3 +34,15 @@ Give the name for the following compound:
 %%%%%%%%%%%%%%
 
 
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH_2-CH(-[:90]CH_2-CH_3)-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+3-ethylhexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
