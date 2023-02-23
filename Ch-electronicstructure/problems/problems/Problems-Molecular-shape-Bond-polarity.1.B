@@ -1,0 +1,6 @@
+Indicate the polarity or non-polarity for the following molecules:
+\begin{inparaenum}[(a)]
+\item \ce{H2O}	%(Polar)
+\item  \ce{HCl}	%(Polar)
+\item  \ce{H2}	%(non Polar)
+\end{inparaenum}

@@ -1,0 +1,7 @@
+Given the following Lewis structures, predict the molecular geometry and angles:
+\vspace{0.5cm}\begin{multicols*}{2}
+\begin{enumerate}[label=(\alph*)]
+     \item   \hspace{.05in}\chemfig{S( (-[:340]\lewis{026,F}) (-[:60]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:250]\lewis{064,F})(-[:300]\lewis{064,F})	)}\hspace{.05in} %\ce{AB6}; octahedral; 180$^{\circ}$ and 90$^{\circ}$
+ \item    \hspace{.05in}\chemfig{\lewis{1,Cl}( (-[:340]\lewis{026,F}) (-[:70]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:270]\lewis{064,F})	)}\hspace{.05in} %\ce{AB5E}; square pyramidal;  90$^{\circ}$
+  \end{enumerate}
+\end{multicols*}
