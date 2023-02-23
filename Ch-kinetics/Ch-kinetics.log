@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 08:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5537,25 +5537,37 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlines=\count602
 \c@@LCDlower=\count603
 )
-\c@SavedRandom=\count604
+\templength=\skip343
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+\f@rst=\count604
+\l@st=\count605
+\cr@nd=\count606
+\c@rand=\count607
+
+Smallest possible random number: 1
+Largest possible random number: 2147483647
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+\c@SavedRandom=\count608
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5607.
+h' as default language. on input line 5627.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count605
-\l__chemformula_tmpb_int=\count606
-\l__chemformula_tmpc_int=\count607
+\l__chemformula_tmpa_int=\count609
+\l__chemformula_tmpb_int=\count610
+\l__chemformula_tmpc_int=\count611
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5586,10 +5598,10 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_hshift_dim=\dimen587
 \l__chemformula_kroegervink_positive_vshift_dim=\dimen588
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
-\l__chemformula_stoich_space_skip=\skip343
-\l__chemformula_math_space_skip=\skip344
-\l__chemformula_count_tokens_int=\count608
-\g__chemformula_lewis_int=\count609
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
+\l__chemformula_count_tokens_int=\count612
+\g__chemformula_lewis_int=\count613
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5709,7 +5721,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2119.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip345
+\l__chemformula_additions_symbol_space_skip=\skip346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5730,8 +5742,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
 .................................................
-\l__chemformula_plus_space_skip=\skip346
-\l__chemformula_minus_space_skip=\skip347
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -5861,16 +5873,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count610
+\scratchcounter=\count614
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count611
-\nofMParguments=\count612
+\nofMPsegments=\count615
+\nofMParguments=\count616
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count613
+\MPscratchCnt=\count617
 \MPscratchDim=\dimen591
-\MPnumerator=\count614
-\makeMPintoPDFobject=\count615
+\MPnumerator=\count618
+\makeMPintoPDFobject=\count619
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5899,9 +5911,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count616
-\c@mv@tabular=\count617
-\c@mv@boldtabular=\count618
+\c@lstlisting=\count620
+\c@mv@tabular=\count621
+\c@mv@boldtabular=\count622
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6274,10 +6286,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 85027 strings out of 493014
- 1899575 string characters out of 6133351
- 2717292 words of memory out of 5000000
- 86505 multiletter control sequences out of 15000+600000
+ 85080 strings out of 493014
+ 1900324 string characters out of 6133351
+ 2718716 words of memory out of 5000000
+ 86554 multiletter control sequences out of 15000+600000
  187961 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10437b,3007s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6312,7 +6324,7 @@ al/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-kinetics.pdf (28 pages, 731608 bytes).
+Output written on Ch-kinetics.pdf (28 pages, 731611 bytes).
 PDF statistics:
  653 PDF objects out of 1000 (max. 8388607)
  442 compressed objects within 5 object streams
