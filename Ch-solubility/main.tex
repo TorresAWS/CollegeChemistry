@@ -5564,16 +5564,36 @@ coordinate(-front-bottom-right) -- cycle;
 %%%%%%%%%%%%%%
 
 
-%%%%%%% FILLABLE NAME AND DATE FOR QUIZZES
+ %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
+\newcommand\ProblemSectionlabel{}
+\newcolumntype{A}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand\LayoutTextField[2]{%
+    #1 \raisebox{-3.0pt}{#2}%
+}
+\newlength\templength
+\newcommand{\DefaultTextField}[2][]{%
+    \settowidth\templength{#2 }%
+    \mbox{\TextField[align=1,bordercolor=0 1 1,backgroundcolor={},#1,width=\dimexpr\linewidth-\templength]{#2}}%
+}
+\renewcommand\LayoutCheckField[2]{%
+    \raisebox{-1.0pt}{#2}\hspace*{2mm}#1%
+}
+ %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
+ 
+
+
+
+
+   %%%%%%% FILLABLE NAME AND DATE FOR QUIZZES
 \newcommand{\FillableNamebox}{\begin{Form}\renewcommand{\arraystretch}{1.5} \noindent
          \begin{tabular}{@{}A{ 0.35\textwidth }A{ 0.1\textwidth }@{}}
               &  \\ 
             \DefaultTextField[name=Firstname]{Full Name:} & \today\\ 
 \end{tabular}\end{Form}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%RANDOM NUMBER
-\newcounter{SavedRandom}
+  \usepackage[]{lcg}
+  \newcounter{SavedRandom}
 \newcommand{\NewRandom}
 
 
@@ -5586,15 +5606,16 @@ coordinate(-front-bottom-right) -- cycle;
   \setcounter{SavedRandom}{\value{FileRandom}}
   \renewcommand{#2}{\arabic{SavedRandom}}
 }
-%%%%%%%%%%%
 
- 
+
+
+
+
 
  
 \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
- \newcommand\showfinalanswers{false}%%TRUEfor showing answers false for not
+ \newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
   \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
-
 
 
 
