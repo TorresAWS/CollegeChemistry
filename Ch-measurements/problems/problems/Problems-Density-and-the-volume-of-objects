@@ -206,7 +206,7 @@ A is gold, B is palladium and C is cobalt.
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The objects below have all the same mass but represent different metals iron, nickel, and tungsten. Given that the density of iron is 7g/mL, whereas the density of nickel is 9g/mL and the density of tungsten is 20g/mL, identify each object as cobalt, gold, and palladium.
+The objects below have all the same mass but represent different metals iron, nickel, and tungsten. Given that the density of iron is 7g/mL, whereas the density of nickel is 9g/mL and the density of tungsten is 20g/mL, identify each object as iron, nickel, or tungsten.
  \begin{center}\begin{tikzpicture}
 
 \begin{scope}[shift={(-3.0,0.0)},rotate=00]
@@ -318,7 +318,7 @@ The objects below have all the same mass but represent different metals iron, ni
     \end{tikzpicture}\end{center}
 \end{question}
 \begin{solution}
-A is cickel, B is iron and C is tungsten.
+A is nickel, B is iron and C is tungsten.
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
