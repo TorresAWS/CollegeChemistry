@@ -2,13 +2,105 @@
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the number of protons, neutrons and electrons in the following isotopes:
+\begin{inparaenum}[(a)]
+\item \ce{^{15}_{7}N}   % 7 protons, 7 electrons and 8 neutrons
+\item \ce{^{64}_{29}Cu}   % 29 protons, 29 electrons and 35 neutrons
+\item \ce{^{93}_{40}Zr}   % 40 protons, 40 electrons and 53 neutrons
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   7 protons, 7 electrons and 8 neutrons
+\item   29 protons, 29 electrons and 35 neutrons
+\item   40 protons, 40 electrons and 53 neutrons 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the number of protons, neutrons and electrons in the following isotopes:
+\begin{inparaenum}[(a)]
+\item \ce{^{79}_{34}Se}   % 34 protons, 34 electrons and 45 neutrons
+\item \ce{^{85}_{36}Kr}   % 36 protons, 36 electrons and 49 neutrons
+\item \ce{^{13}_{7}N}   % 7 protons, 7 electrons and 6 neutrons
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   34 protons, 34 electrons and 45 neutrons
+\item   36 protons, 36 electrons and 49 neutrons
+\item   7 protons, 7 electrons and 6 neutrons 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the isotopic symbol given the number of protons, neutrons and electrons:
+\begin{inparaenum}[(a)]
+\item     43 protons, 43 electrons and 60 neutrons	%\ce{^{103}_{43}Pd}
+\item      48 protons, 48 electrons and 65 neutrons	%\ce{^{113}_{48}Cd}
+\item      77 protons, 77 electrons and 115 neutrons	%\ce{^{192}_{77}Ir}
+   \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item      \ce{^{103}_{43}Pd}
+\item       \ce{^{113}_{48}Cd}
+\item       \ce{^{192}_{77}Ir}
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the isotopic symbol given the number of protons, neutrons and electrons:
+\begin{inparaenum}[(a)]
+\item      93 protons, 93 electrons and 142 neutrons	%\ce{^{235}_{93}Np}
+\item      55 protons, 55 electrons and 79 neutrons	%\ce{^{134}_{55}Cs}
+\item      52 protons, 52 electrons and 72 neutrons	%\ce{^{124}_{52}Te}
+   \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item       \ce{^{235}_{93}Np}
+\item       \ce{^{134}_{55}Cs}
+\item       \ce{^{124}_{52}Te}
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 The atomic mass of Ga is 69.72 amu. There are only two naturally occurring isotopes of gallium: 69Ga, with a mass of 69.0 amu, and 71Ga, with a mass of 71.0 amu. Calculate the natural abundance of the 69Ga isotope. 
 \end{question}
 \begin{solution}
 64\%
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The atomic mass of Xe is 131.293 amu. There are only two naturally occurring isotopes of Xe: Xenon-133, with a mass of 133.0 amu, and Xenon-135, with a mass of 135 amu. Calculate the natural abundance of the Xenon-135 isotope. 
+\end{question}
+\begin{solution}
+15\%
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
 
+
+ 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Magnesium contains three different isotopes: magnesium-24 with an abundance of 79\% and a mass of 23.9850423 amu, magnesium-25 with an abundance of 10\% and a mass of 24.9858374 amu, and magnesium-26 with a mass of 25.9825937 amu. Calculate the abundance of magnesium-26 and the average atomic mass of a sample of magnesium.
@@ -17,5 +109,14 @@ Magnesium contains three different isotopes: magnesium-24 with an abundance of 7
 24.3048 amu
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Silicon contains three different isotopes:  Si-28 with a mass 27.976927amu and abundace of 92.2297\%, Si-29 with a mass 28.976495amu and abundace of 4.6832\% and Si-30 with a mass 29.973770amu. Calculate the abundance of Si-30 and the average atomic mass of a sample of Si.
+\end{question}
+\begin{solution}
+3.0872\%; 28.0854amu
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
 
- 
+
+    
+   
