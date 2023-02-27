@@ -2,14 +2,63 @@
 \vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the following properties:
 \begin{inparaenum}[(a)]
-\item   The color of a radiation with $\lambda$= 510nm.
-\item    Indicate the color of a radiation with $\lambda$= 580nm.
+\item   The color of a radiation with $\lambda$= 590nm.	%Violet
+\item   The color of a radiation with $\lambda$= 600nm.	%Orange
+\item   The color of a radiation with $\lambda$= 530nm.	%Green
+\item   The color of a radiation with $\lambda$= 580nm.	%Yellow
  \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
+\item    Violet
+\item    Orange
 \item    Green
 \item    Yellow
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the following properties:
+\begin{inparaenum}[(a)]
+\item   The color of a radiation with $\lambda$= 470nm.	%Blue
+\item   The color of a radiation with $\lambda$= 490nm.	%Cyan
+\item   The color of a radiation with $\lambda$= 580nm.	%yellow
+\item   The color of a radiation with $\lambda$= 510nm.  %Green
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item    Blue
+\item    Cyan
+\item    yellow
+\item    Green
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ 
+ 
+
+
+
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the nature of a radiation
+\begin{inparaenum}[(a)]
+ \item    A radiation with $\gamma$= $3.4\times 10^{8}$Hz   %Microwaves
+\item    A radiation with $\gamma$= $1.0\times 10^{10}$Hz   %MicroW
+\item    A radiation with $\gamma$= $1.0\times 10^{20}$Hz   %Gamma
+\item    A radiation with $\gamma$= $5.0\times 10^{14}$Hz   %UV-vis
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item     Microwaves
+\item     MicroW
+\item     Gamma
+\item     UV-vis  
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
@@ -19,17 +68,23 @@ Calculate the following properties:
 \vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the nature of a radiation
 \begin{inparaenum}[(a)]
-\item    A radiation with $\gamma$= $3.4\times 10^{8}$Hz
-\item     A radiation with $\lambda$= $1\times 10^{-4}$nm
+\item    A radiation with $\gamma$= $1.0\times 10^{12}$Hz   %IR
+\item    A radiation with $\gamma$= $1.0\times 10^{5}$Hz   %RadioW
+\item    A radiation with $\gamma$= $1.0\times 10^{17}$Hz   %X-rays
+\item    A radiation with $\gamma$= $1.0\times 10^{15}$Hz   %UV
  \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item     Microwaves
-\item     Gamma
+ \item     IR
+\item     RadioW
+\item     X-rays
+\item     UV 
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
+
+
 
 
 %%%%%%%PROBLEM
