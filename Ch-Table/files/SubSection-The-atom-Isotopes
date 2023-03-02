@@ -1,2 +1,38 @@
- 
-All atoms of the same element are not the same. Some are heavier than others. Isotopes are atoms of the same element with different numbers of neutrons and therefore with different mass numbers but with the same atomic number. For example:  \ce{^{24}_{12}Mg},  \ce{^{25}_{12}Mg} and  \ce{^{26}_{12}Mg} are three isotopes of Mg.  \ce{^{27}_{12}Mg}  is heavier than  \ce{^{24}_{12}Mg} as it contains more neutrons and protons in the nucleus. Each of the isotopes has a specific abundance, as some isotopes are more abundant than others. For example, the abundance of \ce{^{24}_{12}Mg} is 79\%, and the abundance of  \ce{^{25}_{12}Mg} and  \ce{^{26}_{12}Mg} is 10\% and 11\%, respectively. This means, \ce{^{24}_{12}Mg} is more abundant than for example \ce{^{26}_{12}Mg}.
+All atoms of an element have the same atomic number but may differ in terms of mass number. Isotopes are atoms of the same element with different numbers of neutrons and therefore with different mass numbers but with the same atomic number. For example:  \ce{^{24}_{12}Mg},  \ce{^{25}_{12}Mg} and  \ce{^{26}_{12}Mg} are three isotopes of Mg.  \ce{^{27}_{12}Mg}  is heavier than  \ce{^{24}_{12}Mg} as it contains more neutrons and protons in the nucleus. Most elements occur in nature in a particular isotopic composition, and each of the isotopes has a specific proportional abundance. For example, the abundance of \ce{^{24}_{12}Mg} is 79\%, and the abundance of  \ce{^{25}_{12}Mg} and  \ce{^{26}_{12}Mg} is 10\% and 11\%, respectively. This means, \ce{^{24}_{12}Mg} is more abundant than for example \ce{^{26}_{12}Mg}. 
+
+
+\begin{center}\begin{tikzpicture}
+\tikzset{
+    pics/proton/.style={code={\shade[ball color=red] circle (3pt);}},
+    pics/neutron/.style={code={\shade[ball color=white] circle (3pt);}},
+    pics/nucleussmall/.style={code={%
+        \pgfmathdeclarerandomlist{nucleon}{{proton}{proton}{neutron}{neutron}{neutron}}
+        \pgfmathsetseed{#1+1}
+        \foreach \A/\R in {8/0.2, 5/0.13, 1/0}{
+        \pgfmathsetmacro{\S}{360/\A}
+            \foreach \B in {0,\S,...,360}{
+                \pgfmathrandomitem{\C}{nucleon}
+                \pic at ($(\B+2*\A+5*rnd:\R)$) {\C}; } }} },
+    pics/nucleusbig/.style={code={%
+        \pgfmathdeclarerandomlist{nucleon}{{proton}{proton}{neutron}{neutron}{neutron}}
+        \pgfmathsetseed{#1+1}
+        \foreach \A/\R in {   13/0.35, 11/0.27, 6/0.15, 1/0}{
+        \pgfmathsetmacro{\S}{360/\A}
+            \foreach \B in {0,\S,...,360}{
+                \pgfmathrandomitem{\C}{nucleon}
+                \pic at ($(\B+2*\A+5*rnd:\R)$) {\C}; } }} },
+    }
+\pic at (0,0) {nucleusbig=2} node at  (0,-1) {\ce{^{24}_{12}Mg}} ;
+\pic at (2,0) {nucleusbig=1} node at  (2,-1) {\ce{^{25}_{12}Mg}};
+\pic at (4,0) {nucleusbig=3} node at  (4,-1) {\ce{^{26}_{12}Mg}};
+\end{tikzpicture}\end{center}
+
+
+
+
+
+
+Another example of isotopes can be found in Carbon, with two naturally occurring isotopes. In the case of charged atoms, we have the cations have fewer electrons than their corresponding atom, whereas anions have more electrons, both based on their charge.
+The mass of an atom is measured relative to the mass of an atomic standard, the Carbon-12 atom, whose mass is defined as 12 atomic units of mass, amu. For example, the mass of \ce{^1H} is 1.008 amus. The term atomic unit of mass has been renamed to dalton (Da). Therefore, the mass of \ce{^1H}  is 1.008 amus or 1.008 Da. The atomic mass is a relative unit of mass equivalent to $1.66054\times 10^{24}$g.
+
+

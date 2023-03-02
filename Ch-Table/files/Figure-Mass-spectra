@@ -1,0 +1,57 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+ 
+\begin{center}\begin{tikzpicture}[scale=1]
+ 
+\begin{scope}[shift={(0,0)},rotate=00]               
+     \begin{filecontents*}{MyData.txt}
+        x       y       label
+ 		20	90.48	{\ce{^20Ne^+}\\ (90.48\%)}
+		21	0.27		{\ce{^21Ne^+} \\(0.27\%)	}
+		22	9.25		{\ce{^22Ne^+}\\ (9.25\%)}
+      \end{filecontents*}
+ 
+  \pgfmathsetlengthmacro\MajorTickLength{
+      \pgfkeysvalueof{/pgfplots/major tick length} * 0.5
+    }
+    \begin{axis}[
+        ycomb,    ybar,
+		ymin=0,
+    		ymax=100,bar width=0.1,
+        line width=1,
+        ylabel={\% Abundance},major tick length=\MajorTickLength,
+        xlabel={mass/charge},
+        % place `xtick`s at data points (of the first `\addplot`)
+        xtick=data,
+        % label the `xticks` with data from the table
+        xticklabels from table={MyData.txt}{x},
+        % add nodes to the coordinates
+        nodes near coords,
+        % the nodes contain non-numeric data
+        point meta=explicit symbolic,
+        % if line breaks are included in the strings, `align` must be set/used
+        nodes near coords style={
+            align=center,
+%            % (alternatively of giving line breaks manually to the labels you
+%            %  could give a fixed with of the label nodes)
+%            text width=5em,
+        },
+    ]
+        \addplot table [
+            % simply use the coordinate index as x value
+            % (the label is then used from `xticklabels from table`)
+            x expr=\coordindex,
+            % use y coordinate from table column with header "y"
+            y=y,
+            % use column with header "label" for the `nodes near coords` label
+            meta=label,
+        ] {MyData.txt};
+    \end{axis}
+ \node[text width=12cm, fontscale=.3,shift={(12em,-5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  Mass spectra of Neon with three peaks corresponding to three different isotopes with different relative abundance.};
+
+\end{scope}
+
+
+\end{tikzpicture}\end{center}
+ 
