@@ -1,9 +1,9 @@
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Draw  electron-dot structures for the following molecules that obey the octet rule, given that the first atom listed is the central atom:
+Draw  electron-dot structures for the following diatomic molecules that obey the octet rule:
 \begin{inparaenum}[(a)]
 \item  \ce{F2}	  %\hspace{.05in}\chemfig{\lewis{246,F}( (-[:0]\lewis{026,F}) )}\hspace{.05in}
- \item  \ce{O2}	  %\hspace{.05in}\chemfig{\lewis{35,O}( (=[:0]\lewis{17,O}) )}\hspace{.05in}
+ \item  \ce{Cl2}	  %\hspace{.05in}\chemfig{\lewis{246,Cl}( (-[:0]\lewis{026,Cl}) )}\hspace{.05in}
 \end{inparaenum}
 \begin{center}\begin{tikzpicture}
 \draw[step=.25cm,gray,very thin] (-4,-3) grid (4,3);
@@ -12,7 +12,7 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 \begin{solution}
 \begin{inparaenum}[(a)]
 \item   \hspace{.05in}\chemfig{\lewis{246,F}( (-[:0]\lewis{026,F}) )}\hspace{.05in}
- \item   \hspace{.05in}\chemfig{\lewis{35,O}( (=[:0]\lewis{17,O}) )}\hspace{.05in}
+ \item   \hspace{.05in}\chemfig{\lewis{246,Cl}( (-[:0]\lewis{026,Cl}) )}\hspace{.05in}
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%
@@ -21,7 +21,7 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Draw  electron-dot structures for the following molecules that obey the octet rule, given that the first atom listed is the central atom:
+Draw  electron-dot structures for the following diatomic molecules that obey the octet rule:
 \begin{inparaenum}[(a)]
  \item  \ce{HF}	  %\hspace{.05in}\chemfig{H( (-[:0]\lewis{026,F}) )}\hspace{.05in}
  \item  \ce{HCl}	  %\hspace{.05in}\chemfig{H( (-[:0]\lewis{026,Cl}) )}\hspace{.05in}
@@ -42,7 +42,7 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Draw  electron-dot structures for the following molecules that obey the octet rule, given that the first atom listed is the central atom:
+Draw  electron-dot structures for the following diatomic molecules that obey the octet rule:
 \begin{inparaenum}[(a)]
   \item  \ce{ICl}	  %\hspace{.05in}\chemfig{\lewis{246,I}( (-[:0]\lewis{026,Cl}) )}\hspace{.05in}
  \item  \ce{HI}	  %\hspace{.05in}\chemfig{H( (-[:0]\lewis{026,I}) )}\hspace{.05in}
@@ -61,10 +61,11 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Draw  electron-dot structures for the following molecules that obey the octet rule, given that the first atom listed is the central atom:
+Draw  electron-dot structures for the following diatomic molecules:
 \begin{inparaenum}[(a)]
  \item  \ce{CO}	  %\hspace{.05in}\chemfig{\lewis{4,C}( (~[:0]\lewis{0,O}) )}\hspace{.05in}
- \item  \ce{NO}	  %\hspace{.05in}\chemfig{\lewis{4,N}( (~[:0]\lewis{0,N}) )}\hspace{.05in}
+ \item  \ce{N2}	  %\hspace{.05in}\chemfig{\lewis{4,N}( (~[:0]\lewis{0,N}) )}\hspace{.05in}
+ \item  \ce{O2}	  %\hspace{.05in}\chemfig{\lewis{35,O}( (=[:0]\lewis{17,O}) )}\hspace{.05in}
 \end{inparaenum}
 \begin{center}\begin{tikzpicture}
 \draw[step=.25cm,gray,very thin] (-4,-3) grid (4,3);
@@ -74,6 +75,7 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 \begin{inparaenum}[(a)]
  \item   \hspace{.05in}\chemfig{\lewis{4,C}( (~[:0]\lewis{0,O}) )}\hspace{.05in}
  \item   \hspace{.05in}\chemfig{\lewis{4,N}( (~[:0]\lewis{0,N}) )}\hspace{.05in}
+ \item   \hspace{.05in}\chemfig{\lewis{35,O}( (=[:0]\lewis{17,O}) )}\hspace{.05in}
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
@@ -82,7 +84,7 @@ Draw  electron-dot structures for the following molecules that obey the octet ru
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Draw  electron-dot structures for the following molecules that obey the octet rule, given that the first atom listed is the central atom:
 \begin{inparaenum}[(a)]
-   \item  \ce{HCN}	  %\hspace{.05in}\chemfig{H-[:0]C~[:0]\lewis{0,N} }\hspace{.05in}
+   \item  \ce{CHN}	  %\hspace{.05in}\chemfig{H-[:0]C~[:0]\lewis{0,N} }\hspace{.05in}
   \item  \ce{CO2}	  %\hspace{.05in}\chemfig{C( (=[:0]\lewis{17,O})(=[:180]\lewis{35,O}) )}\hspace{.05in}
 \end{inparaenum}
 \begin{center}\begin{tikzpicture}
