@@ -85,7 +85,7 @@
   \end{scope}
 
  \begin{scope}[shift={(0,-5)},rotate=00] 
-\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.0);
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (1.5);
   \coordinate (O)  at (0,0);
    \fill[radius=2.0pt,mydarkblue] (O) circle ;
 \pic at (0,0) {nucleussmall} node at  (0,-1) {\ce{^{12}_{6}C^+}} ;
@@ -106,7 +106,7 @@
 
 
  \begin{scope}[shift={(6,-5)},rotate=00] 
-\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.0);
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.5);
   \coordinate (O)  at (0,0);
    \fill[radius=2.0pt,mydarkblue] (O) circle ;
 \pic at (0,0) {nucleussmall} node at  (0,-1) {\ce{^{12}_{6}C^-}} ;
