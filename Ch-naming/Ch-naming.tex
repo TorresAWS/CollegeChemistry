@@ -1,6 +1,21 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-naming}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{Pixnio}
 
+ \setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 \begin{document}
 
 
@@ -108,7 +123,6 @@
 
 
 
-SHOW
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 
 
@@ -156,18 +170,42 @@ SHOW
 
 %%%%%%%%%%%%%%FIR 121
 \section{Polarity of molecules}\import{../\chapterlabel/files/}{SectionIntro-Polarity-of-molecules}
+\import{../\chapterlabel/files/}{Figure-Electronegativity}	
 \sloppy \begin{description}
 \item[\docfilehook{Bond polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Bond-polarity}
-\item[\docfilehook{Polarity of diatomic molecules}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-of-diatomic-molecules}
-\import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity}
+\import{../\chapterlabel/files/}{Table-Ionic-Covalent-Bond}
+\item[\docfilehook{Polarity of molecules: diatomic molecules}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-of-diatomic-molecules}
+\import{../\chapterlabel/files/}{Table-Polar-molecules}
 \item[\docfilehook{Polarity of larger molecules}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-of-larger-molecules}
 \import{../\chapterlabel/problems/}{SampleProblem8}
-%\import{../\chapterlabel/files/}{Table-ABE-Code-hybridization}%%%NOT FOR 121
-
 \item[\docfilehook{Polarity and mixing}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-and-mixing}
 \item[\docfilehook{Molecules with the same polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity}
 \item[\docfilehook{Molecules with different polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Molecules-with-different-polarity}
 \end{description}
+
+
+\renewcommand\chapterlabel{Ch-Solids}
+
+
+\section{Intermolecular forces}\import{../\chapterlabel/files/}{SectionIntro-Intermolecular-forces}
+\sloppy \begin{description}
+\item[\docfilehook{Intermolecular forces and intramolecular interactions}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Intermolecular-forces-and-intramolecular-interactions}
+\import{../\chapterlabel/files/}{Figure-Dispersion-forces}
+\item[\docfilehook{Dispersion forces}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Dispersion-forces}
+\import{../\chapterlabel/files/}{SideFigure-intermolecular-forces}
+\import{../\chapterlabel/files/}{Table-Phase-transition-intermolecular-forces}
+\item[\docfilehook{Dipole-Dipole forces}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Dipole-forces}
+\import{../\chapterlabel/files/}{Figure-Dipole-forces}
+\import{../\chapterlabel/files/}{Table-Dipole-moments-intermolecular-forces}
+\item[\docfilehook{Hydrogen bonds }{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Hydrogen-bonds}
+\import{../\chapterlabel/problems/}{SampleProblem1}
+\item[\docfilehook{Intermolecular forces of liquids and boiling  }{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Intermolecular-forces-and-boiling}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\end{description}
+
+
+
+
 \renewcommand\chapterlabel{Ch-naming}
  %%%%%%%%%%%%%%%%%%%%%%
 
