@@ -1,4 +1,4 @@
-\begin{fullwidth} 
+\begin{fullwidth} \begin{center}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Tab:{\chapterlabel}\thefigurenewcounter}\begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lccp{3cm}lc}
@@ -26,6 +26,8 @@ ABE Code & Electron Regions & Hybrid & Shape&Bond Angle  \\
 \end{tikzpicture}
 \end{minipage}   &   $90^{\circ}$ and $120^{\circ}$  \\
 \bottomrule
+
 \end{tabular}
 }\end{minipage}
+\end{center}
 \end{fullwidth}
