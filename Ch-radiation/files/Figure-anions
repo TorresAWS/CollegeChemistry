@@ -1,0 +1,110 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+ 
+ 
+\definecolor{mylightred}{RGB}{255,210,210}
+\definecolor{myred}{RGB}{200,100,100}
+\definecolor{mydarkred}{RGB}{140,40,40}
+\definecolor{mylightblue}{RGB}{220,228,255}
+\definecolor{myblue}{RGB}{183,191,229}
+\definecolor{mydarkblue}{RGB}{50,70,190}
+\begin{center}
+
+
+ 
+ 
+
+
+
+
+
+
+\begin{tikzpicture}[scale=1]
+\tikzset{
+    pics/proton/.style={code={\shade[ball color=red] circle (3pt);}},
+    pics/neutron/.style={code={\shade[ball color=white] circle (3pt);}},
+    pics/nucleussmall/.style={code={%
+        \pgfmathdeclarerandomlist{nucleon}{{proton}{proton}{neutron}{neutron}{neutron}}
+        \pgfmathsetseed{#1+1}
+        \foreach \A/\R in {8/0.2, 5/0.13, 1/0}{
+        \pgfmathsetmacro{\S}{360/\A}
+            \foreach \B in {0,\S,...,360}{
+                \pgfmathrandomitem{\C}{nucleon}
+                \pic at ($(\B+2*\A+5*rnd:\R)$) {\C}; } }} },
+    pics/nucleusbig/.style={code={%
+        \pgfmathdeclarerandomlist{nucleon}{{proton}{proton}{neutron}{neutron}{neutron}}
+        \pgfmathsetseed{#1+1}
+        \foreach \A/\R in {24/0.4, 24/0.3, 24/0.2, 13/0.35, 11/0.27, 6/0.15, 1/0}{
+        \pgfmathsetmacro{\S}{360/\A}
+            \foreach \B in {0,\S,...,360}{
+                \pgfmathrandomitem{\C}{nucleon}
+                \pic at ($(\B+2*\A+5*rnd:\R)$) {\C}; } }} },
+    pics/nucleusbiggest/.style={code={%
+        \pgfmathdeclarerandomlist{nucleon}{{proton}{proton}{neutron}{neutron}{neutron}}
+        \pgfmathsetseed{#1+1}
+        \foreach \A/\R in {24/0.5, 24/0.4, 24/0.3, 24/0.2, 13/0.47, 15/0.44, 13/0.37, 11/0.27, 6/0.15, 1/0}{
+        \pgfmathsetmacro{\S}{360/\A}
+            \foreach \B in {0,\S,...,360}{
+                \pgfmathrandomitem{\C}{nucleon}
+                \pic at ($(\B+2*\A+5*rnd:\R)$) {\C}; } }} },
+    }
+
+
+ \tikzset{square left brace/.style={ncbar=0.5cm}}
+\tikzset{square right brace/.style={ncbar=-0.5cm}}
+
+
+
+
+
+
+ \begin{scope}[shift={(0,0)},rotate=00] 
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.0);
+  \coordinate (O)  at (0,0);
+   \fill[radius=2.0pt,mydarkblue] (O) circle ;
+\pic at (0,0) {nucleussmall} node at  (0,-1) {\ce{O}} ;
+
+\draw[ -, >=latex'](0.3,0.2) -- coordinate (x axis) (0.9,0.9); 
+\draw[ -, >=latex'](0.9,-0.9) -- coordinate (x axis) (1.7,-1.7);       
+      
+%\draw[decorate,decoration={brace,amplitude=3pt,mirror}] (1.1,1.5) coordinate (t_k_unten) -- (1.1,0.5) coordinate (t_k_opt_unten); 
+\node at (1.5,0.9){$n_p$=8};
+
+\node at (2.2,-1.7){$n_e$=8};
+
+  \end{scope}
+
+
+ \begin{scope}[shift={(4,0)},rotate=00] 
+  \draw[blue, fill=green, -{Triangle[width = 18pt, length = 8pt]}, line width = 10pt] (0.0, 0.0) -- (1.0, 0.0);
+  \end{scope}
+
+ \begin{scope}[shift={(3,0)},rotate=00] 
+\node at (0,0) {\large$ \boldsymbol{+}$ 2 e$^-$};
+  \end{scope}
+
+
+
+
+ \begin{scope}[shift={(7.5,0)},rotate=00] 
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (1.5);
+  \coordinate (O)  at (0,0);
+   \fill[radius=2.0pt,mydarkblue] (O) circle ;
+\pic at (0,0) {nucleussmall} node at  (0,-1) {\ce{O^{-2}}} ;
+
+\draw[ -, >=latex'](0.3,0.2) -- coordinate (x axis) (0.9,0.9); 
+\draw[ -, >=latex'](0.9,-0.9) -- coordinate (x axis) (1.7,-1.7);       
+      
+\node at (1.5,0.9){$n_p$=8};
+ 
+\node at (2.2,-1.7){$n_e$=10};
+
+\draw [red, thick] (-2,-2) to [square left brace ] (-2,2);
+\draw [red, thick] (2.2,-2) to [square right brace] (2.2,2);
+\node [red] at (3,2){\Large $-$};
+  \end{scope}
+
+
+ \node[text width=11cm, fontscale=.3,shift={(11em,-8em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  The formation of an oxygen anion.};
+
+\end{tikzpicture}\end{center}

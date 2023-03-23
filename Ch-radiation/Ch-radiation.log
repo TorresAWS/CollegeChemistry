@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2023 05:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAR 2023 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5781,7 +5781,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./Ch-radiation.aux)
+No file Ch-radiation.aux.
 \openout1 = `Ch-radiation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -5802,7 +5802,6 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -5817,8 +5816,6 @@ Package hyperref Info: Link coloring ON on input line 7.
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
-
-(./Ch-radiation.out) (./Ch-radiation.out)
 \@outlinefile=\write14
 \openout14 = `Ch-radiation.out'.
 
@@ -6044,7 +6041,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-radiation/figure1.png, id=173, 1927.2pt x 853.1875pt>
+<../Ch-radiation/figure1.png, id=121, 1927.2pt x 853.1875pt>
 File: ../Ch-radiation/figure1.png Graphic file (type png)
 <use ../Ch-radiation/figure1.png>
 Package pdftex.def Info: ../Ch-radiation/figure1.png  used on input line 1.
@@ -6109,6 +6106,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 9.
 
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}1' on page 1 undefined on input lin
+e 24.
+
+
 Overfull \hbox (20.84213pt too wide) in paragraph at lines 26--26
  [] 
  []
@@ -6119,10 +6121,15 @@ rum-of-light) (../Ch-radiation/files/Figure-Electromagnetic-field [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-r
-adiation/figure1.png>])
+adiation/figure1.png>]
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}2' on page 2 undefined on input lin
+e 23.
+
+)
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-double-slit-experimen
 t-light-diffraction) (../Ch-radiation/files/Figure-Double-slit
-<../Ch-radiation/figure1-9.png, id=194, 525.965pt x 104.39pt>
+<../Ch-radiation/figure1-9.png, id=142, 525.965pt x 104.39pt>
 File: ../Ch-radiation/figure1-9.png Graphic file (type png)
 <use ../Ch-radiation/figure1-9.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-9.png  used on input line 75.
@@ -6132,29 +6139,42 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 75.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}3' on page 2 undefined on input lin
+e 79.
+
+
 Overfull \hbox (23.01772pt too wide) in paragraph at lines 81--81
  [] 
  []
 
 ) (../Ch-radiation/files/Figure-waves-and-life
-<../Ch-radiation/figure1-17.png, id=197, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-17.png, id=144, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-17.png Graphic file (type png)
 <use ../Ch-radiation/figure1-17.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-17.png  used on input line 5.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-18.png, id=198, 276.03125pt x 183.68625pt>
+<../Ch-radiation/figure1-18.png, id=145, 276.03125pt x 183.68625pt>
 File: ../Ch-radiation/figure1-18.png Graphic file (type png)
 <use ../Ch-radiation/figure1-18.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-18.png  used on input line 8.
 (pdftex.def)             Requested size: 128.04152pt x 85.2058pt.
-<../Ch-radiation/figure1-19.png, id=199, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-19.png, id=146, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-19.png Graphic file (type png)
 <use ../Ch-radiation/figure1-19.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-19.png  used on input line 12.
 
 (pdftex.def)             Requested size: 113.80853pt x 85.24654pt.
 )
-(../Ch-radiation/files/Figure-Electromagnetic-spectra
+(../Ch-radiation/files/SubSection-The-nature-of-light-Types-and-color-of-radiat
+ion) (../Ch-radiation/files/Figure-Electromagnetic-spectra
+Underfull \hbox (badness 6708) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) Depending on its frequency--or on its
+ []
+
+[2 <../Ch-radiation/figure1-9.png> <../Ch-radiation/figure1-17.png (PNG copy)> 
+<../Ch-radiation/figure1-18.png (PNG copy)> <../Ch-radiation/figure1-19.png (PN
+G copy)>]
 Package pgfplots info on input line 139: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 Package pgfplots info on input line 139: fill between: found 'clip=true'. Prepa
@@ -6180,65 +6200,55 @@ ics
 Package pgfplots info on input line 139: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-<../Ch-radiation/figure1-10.png, id=200, 729.72626pt x 476.78125pt>
+<../Ch-radiation/figure1-10.png, id=156, 729.72626pt x 476.78125pt>
 File: ../Ch-radiation/figure1-10.png Graphic file (type png)
 <use ../Ch-radiation/figure1-10.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-10.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.54243pt x 331.61299pt.
-<../Ch-radiation/figure1-14.png, id=201, 883.3pt x 1284.8pt>
+<../Ch-radiation/figure1-14.png, id=157, 883.3pt x 1284.8pt>
 File: ../Ch-radiation/figure1-14.png Graphic file (type png)
 <use ../Ch-radiation/figure1-14.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-14.png  used on input line 139
 .
 (pdftex.def)             Requested size: 483.1748pt x 702.79973pt.
-<../Ch-radiation/figure1-13.png, id=202, 737.75626pt x 1026.83624pt>
+<../Ch-radiation/figure1-13.png, id=158, 737.75626pt x 1026.83624pt>
 File: ../Ch-radiation/figure1-13.png Graphic file (type png)
 <use ../Ch-radiation/figure1-13.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-13.png  used on input line 139
 .
 (pdftex.def)             Requested size: 504.93222pt x 702.7832pt.
-<../Ch-radiation/figure1-12.png, id=203, 1103.62312pt x 1567.35562pt>
+<../Ch-radiation/figure1-12.png, id=159, 1103.62312pt x 1567.35562pt>
 File: ../Ch-radiation/figure1-12.png Graphic file (type png)
 <use ../Ch-radiation/figure1-12.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-12.png  used on input line 139
 .
 (pdftex.def)             Requested size: 494.85764pt x 702.79236pt.
-<../Ch-radiation/figure1-16.png, id=204, 1027.84pt x 629.35126pt>
+<../Ch-radiation/figure1-16.png, id=160, 1027.84pt x 629.35126pt>
 File: ../Ch-radiation/figure1-16.png Graphic file (type png)
 <use ../Ch-radiation/figure1-16.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-16.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.55121pt x 310.77599pt.
-<../Ch-radiation/figure1-15.png, id=205, 259.97125pt x 194.7275pt>
+<../Ch-radiation/figure1-15.png, id=161, 259.97125pt x 194.7275pt>
 File: ../Ch-radiation/figure1-15.png Graphic file (type png)
 <use ../Ch-radiation/figure1-15.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-15.png  used on input line 139
 .
 (pdftex.def)             Requested size: 507.54881pt x 380.17166pt.
 
-Underfull \vbox (badness 1460) has occurred while \output is active []
 
- [2 <../Ch-radiation/figure1-9.png> <../Ch-radiation/figure1-17.png (PNG copy)>
- <../Ch-radiation/figure1-18.png (PNG copy)> <../Ch-radiation/figure1-19.png (P
-NG copy)>])
-(../Ch-radiation/files/SubSection-The-nature-of-light-Types-and-color-of-radiat
-ion) (../Ch-radiation/problems/SampleProblem2
+LaTeX Warning: Reference `Fig:{Ch-radiation}4' on page 3 undefined on input lin
+e 139.
+
+) (../Ch-radiation/problems/SampleProblem2
 (../Ch-radiation/problems/StudyCheck2
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
-Underfull \hbox (badness 6708) in paragraph at lines 1--10
-[]\T1/ptm/m/n/10 (+20) Depending on its frequency--or on its
- []
-
-[3 <../Ch-radiation/figure1-10.png (PNG copy)> <../Ch-radiation/figure1-14.png 
-(PNG copy)> <../Ch-radiation/figure1-13.png (PNG copy)> <../Ch-radiation/figure
-1-12.png (PNG copy)> <../Ch-radiation/figure1-16.png> <../Ch-radiation/figure1-
-15.png (PNG copy)>]) (../Ch-radiation/files/Table-Types-and-Color-or-radiation
+))) (../Ch-radiation/files/Table-Types-and-Color-or-radiation
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6250,8 +6260,17 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-) (../Ch-radiation/files/SubSection-The-nature-of-light-Frequency-and-energy)
-[4] (../Ch-radiation/files/SubSection-The-nature-of-light-The-speed-of-light)
+
+LaTeX Warning: Reference `tab:{Ch-radiation}1' on page 3 undefined on input lin
+e 7.
+
+[3 <../Ch-radiation/figure1-10.png (PNG copy)> <../Ch-radiation/figure1-14.png 
+(PNG copy)> <../Ch-radiation/figure1-13.png (PNG copy)> <../Ch-radiation/figure
+1-12.png (PNG copy)> <../Ch-radiation/figure1-16.png> <../Ch-radiation/figure1-
+15.png (PNG copy)>])
+(../Ch-radiation/files/SubSection-The-nature-of-light-Frequency-and-energy)
+(../Ch-radiation/files/SubSection-The-nature-of-light-The-speed-of-light
+[4])
 (../Ch-radiation/files/SubSection-The-nature-of-light-Wavelength-and-energy)
 (../Ch-radiation/problems/SampleProblem1 (../Ch-radiation/problems/StudyCheck1)
 [5])
@@ -6271,11 +6290,19 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 25.
 
+LaTeX Warning: Reference `tab:{Ch-radiation}2' on page 6 undefined on input lin
+e 25.
+
+
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 25.
 
 )
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-photoelectric-effect
+
+LaTeX Warning: Reference `tab:{Ch-radiation}2' on page 6 undefined on input lin
+e 4.
+
 [6]) (../Ch-radiation/problems/SampleProblem3
 (../Ch-radiation/problems/StudyCheck3))
 (../Ch-radiation/files/Figure-Photoelectric-effect
@@ -6289,6 +6316,11 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ; in font nullfont!
 
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}5' on page 7 undefined on input lin
+e 48.
+
+
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 50--50
  [] 
  []
@@ -6296,11 +6328,16 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 50--50
 [7]) (../Ch-radiation/files/SectionIntro-The-atomic-line-spectra)
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
 (../Ch-radiation/files/Figure-Atomic-spectrum
-<../Ch-radiation/figure1-21.png, id=271, 1077.626pt x 497.057pt>
+<../Ch-radiation/figure1-21.png, id=214, 1077.626pt x 497.057pt>
 File: ../Ch-radiation/figure1-21.png Graphic file (type png)
 <use ../Ch-radiation/figure1-21.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-21.png  used on input line 3.
 (pdftex.def)             Requested size: 227.6236pt x 104.9918pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}6' on page 8 undefined on input lin
+e 4.
+
 
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 5--5
  [] 
@@ -6316,12 +6353,17 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 75.
 Missing character: There is no ; in font nullfont!
-<../Ch-radiation/figure1-20.png, id=280, 1204.5pt x 481.8pt>
+<../Ch-radiation/figure1-20.png, id=223, 1204.5pt x 481.8pt>
 File: ../Ch-radiation/figure1-20.png Graphic file (type png)
 <use ../Ch-radiation/figure1-20.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-20.png  used on input line 173
 .
 (pdftex.def)             Requested size: 343.65366pt x 137.46146pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}7' on page 9 undefined on input lin
+e 183.
+
 
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 185--185
  [] 
@@ -6330,10 +6372,19 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 185--185
 ) (../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-Bohr-model)
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Energy-levels-of-hydr
 ogen) (../Ch-radiation/files/Figure-Energy-levels-of-hydrogen [9 <../Ch-radiati
-on/figure1-20.png>]) (../Ch-radiation/files/Table-Hydrogen-series
+on/figure1-20.png>]
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}8' on page 10 undefined on input li
+ne 63.
+
+) (../Ch-radiation/files/Table-Hydrogen-series
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 21.
+
+
+LaTeX Warning: Reference `tab:{Ch-radiation}3' on page 10 undefined on input li
+ne 21.
 
 
 Overfull \hbox (28.12215pt too wide) in paragraph at lines 1--22
@@ -6351,6 +6402,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}9' on page 10 undefined on input li
+ne 28.
+
+
 Overfull \hbox (12.01175pt too wide) in paragraph at lines 3--28
  [] 
  []
@@ -6364,6 +6420,11 @@ rgy-transitions) (../Ch-radiation/problems/SampleProblem4
 (../Ch-radiation/problems/StudyCheck4) [11])
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-wave-properties-o
 f-matter [12]) (../Ch-radiation/files/Figure-Debroglie
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}10' on page 13 undefined on input l
+ine 37.
+
+
 Overfull \hbox (259.77364pt too wide) in paragraph at lines 5--40
 [][] 
  []
@@ -6372,16 +6433,21 @@ Overfull \hbox (259.77364pt too wide) in paragraph at lines 5--40
 (../Ch-radiation/problems/StudyCheck5))
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Electron-diffraction)
 (../Ch-radiation/files/Figure-Diffraction-patterns
-<../Ch-radiation/figure1-22.png, id=314, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-22.png, id=255, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-22.png Graphic file (type png)
 <use ../Ch-radiation/figure1-22.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-22.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
-<../Ch-radiation/figure1-23.png, id=315, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-23.png, id=256, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-23.png Graphic file (type png)
 <use ../Ch-radiation/figure1-23.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-23.png  used on input line 7.
 (pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}11' on page 13 undefined on input l
+ine 10.
+
 )
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 11--128
 [][] 
@@ -6419,6 +6485,11 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}12' on page 16 undefined on input l
+ine 142.
+
+
 Overfull \hbox (103.90787pt too wide) in paragraph at lines 2--143
 [][] 
  []
@@ -6441,7 +6512,11 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
 
-Overfull \hbox (5.75519pt too wide) in paragraph at lines 5--19
+LaTeX Warning: Reference `tab:{Ch-radiation}4' on page 17 undefined on input li
+ne 8.
+
+
+Overfull \hbox (3.50519pt too wide) in paragraph at lines 5--19
 [][] 
  []
 
@@ -6463,9 +6538,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--157
 
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
-bital-labels) (../Ch-radiation/files/Figure-Shell-and-subshell)
-(../Ch-radiation/files/SectionIntro-Atomic-orbitals [18])
-(../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
+bital-labels) (../Ch-radiation/files/Figure-Shell-and-subshell
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}13' on page 18 undefined on input l
+ine 75.
+
+) (../Ch-radiation/files/SectionIntro-Atomic-orbitals [18])
+(../Ch-radiation/files/Figure-Energy-levels-and-orbitals
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}14' on page 19 undefined on input l
+ine 59.
+
+)
 Underfull \hbox (badness 1803) in paragraph at lines 1--166
 \T1/ptm/m/n/10 (+20) elec-tron lo-ca-tion is de-scribed in terms of prob-a-bil-
 ity. An or-bital is a three-
@@ -6504,6 +6588,11 @@ ergy-sublevels)
 bitals)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-s-
 orbitals) (../Ch-radiation/files/Figure-Orbitals-s
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}15' on page 20 undefined on input l
+ine 23.
+
+
 Overfull \hbox (15.74835pt too wide) in paragraph at lines 24--24
  [] 
  []
@@ -6511,6 +6600,11 @@ Overfull \hbox (15.74835pt too wide) in paragraph at lines 24--24
 )
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-p-
 orbitals) (../Ch-radiation/files/Figure-Orbitals-p
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}16' on page 20 undefined on input l
+ine 24.
+
+
 Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
  [] 
  []
@@ -6518,15 +6612,30 @@ Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
 )
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-d-
 and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d [20]
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}17' on page 21 undefined on input l
+ine 48.
+
+
 Overfull \hbox (23.70767pt too wide) in paragraph at lines 49--49
  [] 
  []
 
 ) (../Ch-radiation/files/SectionIntro-Electronic-configuration-of-an-atom)
 (../Ch-radiation/files/SubSection-Electronic-configuration-Orbital-Filling-the-
-aufbau-principle) [21]
+aufbau-principle
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}19' on page 21 undefined on input l
+ine 4.
+
+) [21]
 (../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
-uration) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
+uration
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}19' on page 22 undefined on input l
+ine 8.
+
+) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -6548,12 +6657,21 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}19' on page 22 undefined on input l
+ine 70.
+
 
 Overfull \hbox (28.12006pt too wide) in paragraph at lines 3--72
 [] 
  []
 
 ) (../Ch-radiation/problems/SampleProblem9
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}19' on page 22 undefined on input l
+ine 5.
+
 (../Ch-radiation/problems/StudyCheck9))
 (../Ch-radiation/files/SubSection-Electronic-configuration-Abbreviated-Electron
 -Configuration-and-orbital-diagrams
@@ -6572,26 +6690,91 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (../Ch-radiation/files/SubSection-Electronic-configuration-Hunds-rule [23])
 (../Ch-radiation/problems/SampleProblem12
 (../Ch-radiation/problems/StudyCheck12) [24])
-(../Ch-radiation/files/SectionIntro-Periodic-Trends)
-(../Ch-radiation/files/Figure-Atomic-radius)
-(../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge [25])
-(../Ch-radiation/files/Figure-Atomic-radius-plot)
-(../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius)
+(../Ch-radiation/files/SectionIntro-Monoatomic-ions)
+(../Ch-radiation/files/Subsection-Monoatomic-ions-cations)
+(../Ch-radiation/files/Figure-Cations
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}20' on page 25 undefined on input l
+ine 110.
+
+
+Overfull \hbox (17.80748pt too wide) in paragraph at lines 112--112
+ [] 
+ []
+
+) (../Ch-radiation/files/Subsection-Monoatomic-ions-anions [25])
+(../Ch-radiation/files/Figure-anions
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}21' on page 26 undefined on input l
+ine 108.
+
+
+Overfull \hbox (19.9995pt too wide) in paragraph at lines 110--110
+ [] 
+ []
+
+) (../Ch-radiation/files/Subsection-Atomics-Charges-from-group)
+(../Ch-radiation/files/Table-Orbital-Ionic-charges-from-the-table
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tikzfancyarrowb with sig. 'O{2cm} O{FireBrick} O{top
+. color=OrangeRed!20, bottom color=Red, rotate=180} m' on line 5.
+.................................................
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+
+LaTeX Warning: Reference `tab:{Ch-radiation}5' on page 26 undefined on input li
+ne 17.
+
+) [26] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
+(../Ch-radiation/files/Figure-Atomic-radius
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}22' on page 27 undefined on input l
+ine 180.
+
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge [27])
+(../Ch-radiation/files/Figure-Atomic-radius-plot
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}23' on page 28 undefined on input l
+ine 151.
+
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius)
 (../Ch-radiation/files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-[26]) (../Ch-radiation/files/Figure-Ionization-energy-plot
+
+LaTeX Warning: Reference `tab:{Ch-radiation}6' on page 28 undefined on input li
+ne 8.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+(../Ch-radiation/files/Figure-Ionization-energy-plot
 \AxisA=\box314
 \Axisb=\box315
+
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}24' on page 29 undefined on input l
+ine 129.
+
 )
-Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--207
+Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--223
 [][] 
  []
 
-(../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy [27])
-(../Ch-radiation/files/Figure-Periodic-propeties
+(../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy [29]
+
+LaTeX Warning: Reference `tab:{Ch-radiation}6' on page 30 undefined on input li
+ne 9.
+
+) (../Ch-radiation/files/Figure-Periodic-propeties
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6648,15 +6831,29 @@ Overfull \hbox (144.22401pt too wide) in paragraph at lines 33--33
 [][][][][]  
  []
 
-) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity [28])
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}25' on page 30 undefined on input l
+ine 37.
+
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity [30])
 (../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character)
 (../Ch-radiation/problems/SampleProblem11
-(../Ch-radiation/problems/StudyCheck11) [29])
+(../Ch-radiation/problems/StudyCheck11) [31])
 (../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
-(../Ch-radiation/files/Figure-Photoelectron)
+(../Ch-radiation/files/Figure-Photoelectron
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}26' on page 32 undefined on input l
+ine 41.
+
+)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of
--atoms) (../Ch-radiation/files/Figure-PES-spectra [30]) [31]
+-atoms) (../Ch-radiation/files/Figure-PES-spectra [32]
+
+LaTeX Warning: Reference `Fig:{Ch-radiation}27' on page 33 undefined on input l
+ine 38.
+
+) [33]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6668,14 +6865,20 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
 (./Ch-radiation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
-Package rerunfilecheck Info: File `Ch-radiation.out' has not changed.
-(rerunfilecheck)             Checksum: F5131CC89C38C1B103EEC5760EDACE71;2220.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
 
+
+Package rerunfilecheck Warning: File `Ch-radiation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-radiation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  6CDC415E5F66B85385A233318783B9BE;2463.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6684,17 +6887,20 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 86784 strings out of 493014
- 1951209 string characters out of 6133351
- 3136856 words of memory out of 5000000
- 87944 multiletter control sequences out of 15000+600000
- 299577 words of font info for 390 fonts, out of 8000000 for 9000
+ 86922 strings out of 493014
+ 1955396 string characters out of 6133351
+ 3073114 words of memory out of 5000000
+ 88060 multiletter control sequences out of 15000+600000
+ 303418 words of font info for 393 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,21n,121p,10606b,2491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,21n,121p,10606b,2492s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
 e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
@@ -6708,36 +6914,37 @@ esome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/li
 bertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
 ype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/
 ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo
-/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/u
-crr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-radiation.pdf (31 pages, 4416151 bytes).
+ts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/
+fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/uc
+rr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-radiation.pdf (33 pages, 4436881 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 99 named destinations out of 1000 (max. 500000)
- 85392 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 663 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 85366 words of extra memory for PDF output out of 89155 (max. 10000000)
 
