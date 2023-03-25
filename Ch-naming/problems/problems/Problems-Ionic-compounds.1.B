@@ -1,9 +1,0 @@
-Classify the following chemicals in two groups, justifying your classification:
-\begin{inparaenum}[(a)]
-\item \ce{NaCl}  %(group ionic)
-\item \ce{CO2} %(group covalent)
-\item \ce{FeCl3} %(group ionic)
-\item \ce{N2O3} %(group covalent)
-\item \ce{SO3} %(group covalent)
-\item \ce{Ca3N2} %(group ionic)
-\end{inparaenum}

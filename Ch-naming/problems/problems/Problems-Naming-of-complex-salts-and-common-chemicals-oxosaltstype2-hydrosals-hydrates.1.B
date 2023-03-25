@@ -1,7 +1,0 @@
-Name or formulate the following (Type II) oxosalts:
-\begin{inparaenum}[(a)]
-\item \ce{Cr2(SO4)3}	 		%(chromium(III) sulfate)
-\item zinc(II) carbonate		%(ZnCO3)
-\item \ce{Fe(MnO4)3}	 	%(iron(III) permanganate)	
-%\item cobalt(II) carbonate		%(CoCO3)
-\end{inparaenum}
