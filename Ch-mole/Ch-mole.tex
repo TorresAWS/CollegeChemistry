@@ -138,6 +138,26 @@
 \import{../\chapterlabel/problems/}{SampleProblem9}
 \end{description}
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+%%%%%%%%%%%%%%FIR 121
+\renewcommand\chapterlabel{Ch-thermochemistry}
+     \section{Reactions and energy}
+\sloppy\begin{description}
+\item[\docfilehook{Exothermic and endothermic reactions}{ }]  \import{../\chapterlabel/files/}{SubSection-Calorimetry-Exothermic-and-endothermic-reactions--Exothermic-and-endothermic-reactions}
+\import{../\chapterlabel/problems/}{SampleProblem14}
+\item[\docfilehook{Heat-Mole conversions}{Heat-Mole conversions}] \import{../\chapterlabel/files/}{SubSection-Enthalpy-Heat-Mole-conversions--Heat-Mole-conversions} 
+\import{../\chapterlabel/files/}{Figure-EndoExo}
+\import{../\chapterlabel/problems/}{SampleProblem11} 
+\end{description}
+ 
+ 
+\renewcommand\chapterlabel{Ch-mole}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+}{}
+ 
+ 
+
 
  \checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
 

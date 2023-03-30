@@ -29,6 +29,24 @@
 \import{../\chapterlabel/problems/problems/}{Problems-Percent-yield-and-limiting-reagent}
 
 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+%%%%%%%%%%%%%%FIR 121
+\renewcommand\chapterlabel{Ch-thermochemistry}
+ {\raggedright\textsc{\textbf{Reactions and energy }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} 
+\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} 
+
+
+ 
+ 
+\renewcommand\chapterlabel{Ch-mole}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+}{}
+ 
+
+
+
 \end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
 %%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
 \newpage\fancyhfoffset[E,O]{0pt}
