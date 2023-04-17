@@ -62,3 +62,22 @@ Indicate which of the following diagrams represent better the system at equilibr
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate which of the following diagrams represent better the system at equilibrium:
+ \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
+ \begin{enumerate}[label=(\alph*)]	
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.04$   
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=200$  
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   Center
+\item  Right 
+\item   Left
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
