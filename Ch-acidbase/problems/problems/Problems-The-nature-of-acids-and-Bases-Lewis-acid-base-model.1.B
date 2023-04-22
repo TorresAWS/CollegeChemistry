@@ -1,0 +1,6 @@
+Classify the following species as Lewis acids or bases:
+\begin{inparaenum}[(a)]
+\item \ce{CO2} % Lewis acid
+\item \ce{NH3} % Lewis base
+\item \ce{F-} % Lewis base
+ \end{inparaenum}

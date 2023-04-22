@@ -1,0 +1,6 @@
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.15 M-\ce{HCN}/0.35M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.57)
+\item 0.15 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.21)
+ \item 0.25 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.98)
+ \end{enumerate}

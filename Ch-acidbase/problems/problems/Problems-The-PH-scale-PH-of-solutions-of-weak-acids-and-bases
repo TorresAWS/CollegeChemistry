@@ -1,18 +1,26 @@
 
 					%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Solve the following quadratic equations and select the positive root:
-\begin{enumerate}[label=(\alph*)]
-\item  $x^2 +5.5 \times 10^{-11}\cdot x -5.5 \times 10^{-12}=0$  % $2.3\times 10^{-6}$
-\item  $x^2 +6.6 \times 10^{-5}\cdot x -1.32 \times 10^{-5}=0$  % $3.6\times 10^{-3}$
- \end{enumerate}
-\end{question}
+Solve the following quadratic equation and select the positive root:
+   $x^2 +6.6 \times 10^{-5}\cdot x -1.32 \times 10^{-5}=0$  % $3.6\times 10^{-3}$
+ \end{question}
 \begin{solution}
-\begin{inparaenum}[(a)]
-\item    $2.3\times 10^{-6}$
-\item    $3.6\times 10^{-3}$
- \end{inparaenum}
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%	
+     $2.3\times 10^{-6}$
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%	
+
+
+					%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Solve the following quadratic equation and select the positive root:
+   $x^2 +6.6 \times 10^{-5}\cdot x -1.32 \times 10^{-5}=0$  % $3.6\times 10^{-3}$
+ \end{question}
+\begin{solution}
+       $3.6\times 10^{-3}$
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%	
+
+
+
+
 
 
 %%%%%PROBLEM

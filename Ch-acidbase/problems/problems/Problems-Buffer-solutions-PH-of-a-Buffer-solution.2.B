@@ -1,0 +1,5 @@
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.02 M-\ce{C6H5NH2}/0.05M-\ce{C6H5NHCl}, $K_b=7.40 \times 10^{-10}$ % (PH=4.47)
+\item 0.4 M-\ce{HCNO}/0.5M-\ce{NaCNO}, $K_a=3.50 \times 10^{-4}$ % (PH=3.5)
+ \end{enumerate}
