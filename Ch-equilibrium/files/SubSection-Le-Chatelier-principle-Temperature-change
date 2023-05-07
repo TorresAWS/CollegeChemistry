@@ -55,7 +55,7 @@ Differently now if we decrease the temperature, the reaction will increase the t
   }
 }
 \begin{tikzpicture}
-  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{->}};
   \begin{scope}[rotate around={5:(a.corner 1)}]
    \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
    \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) + Heat}};

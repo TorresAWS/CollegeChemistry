@@ -20,12 +20,11 @@ if we increase the volume of the container in which the reaction takes place, th
 }
 \begin{tikzpicture}
   \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
-  \begin{scope}[rotate around={5:(a.corner 1)}]
+  \begin{scope}[rotate around={-5:(a.corner 1)}]
    \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
-   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) }};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) + Heat}};
    \draw (t1.south east) -- (t1.south west);
    \draw (t2.south east) -- (t2.south west);
   \end{scope}
-\end{tikzpicture}\end{center}
-The opposite shift will follow a volume decrease as the reaction shift towards the right.
+\end{tikzpicture}\end{center}The opposite shift will follow a volume decrease as the reaction shift towards the right.
 
