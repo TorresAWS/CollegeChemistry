@@ -1,3 +1,6 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
 \colorlet{myblue}{cyan!70!blue!80!black}
 \colorlet{myball}{orange}
 
