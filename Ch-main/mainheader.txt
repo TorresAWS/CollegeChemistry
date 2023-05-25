@@ -5376,32 +5376,10 @@ coordinate(-front-bottom-right) -- cycle;
 
  
  
-\newcommand\chemversionhealthalied{false}	%%TRUE for chem 121 version FALSE for 201-2
-\newcommand\showfinalanswers{true}		%%TRUEfor showing answers false for not
-\newcommand\showanswersendchapter{true}	%%TRUEfor showing answers end of chapter false for not
 
 
 
 
-
-
-%\newcommand{\AllChaptersCompile}{Ch-measurements,Ch-thermochemistry,Ch-Table,Ch-nuclear,Ch-naming,Ch-mole,Ch-Gas,Ch-electrolytes,Ch-equilibrium,Ch-acidbase,Ch-orgo} \newcommand{\AllChaptersCompileLAST}{Ch-biochemistry} %%% 121
-%\newcommand{\AllChaptersCompile}{Ch-measurements,Ch-Table,Ch-naming,Ch-mole,Ch-electrolytes,Ch-Gas,Ch-thermochemistry,Ch-radiation,Ch-electronicstructure}\newcommand{\AllChaptersCompileLAST}{Ch-solids}%%% 201
-\newcommand{\AllChaptersCompile}{Ch-orgo,Ch-solutions,Ch-kinetics,Ch-equilibrium,Ch-acidbase,Ch-solubility,Ch-thermo,Ch-electrochem,Ch-nuclear}\newcommand{\AllChaptersCompileLAST}{Ch-biochemistry}%%% 202
-
-
-
- %%%%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%%%%%%%
- \newcommand{\ProblemName}{Problems.tex}
-\foreach \nchapter in \AllChaptersCompile {\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{false} \subfile{../\nchapter/\nchapter\ProblemName}}
-
-\providetoggle{answersENDchapter}\settoggle{answersENDchapter}{\showanswersendchapter}\iftoggle{answersENDchapter}{
-\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{true} \subfile{../\nchapter/\nchapter\ProblemName}}
-}{
-\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}\subfile{../\nchapter/\nchapter\ProblemName}}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subfile{../Ch-main/cover/back.tex}\end{document} 
 
 
 
