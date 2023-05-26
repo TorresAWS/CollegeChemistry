@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2023 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2023 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6183,10 +6183,14 @@ Overfull \hbox (24.43173pt too wide) in paragraph at lines 62--63
  []
 
 ) (../Ch-Table/files/SubSection-Early-experiments-the-atom-Radiation)
-(../Ch-Table/files/SectionIntro-The-atom)
-(../Ch-Table/files/Figure-Models-of-the-atom [5])
+(../Ch-Table/files/SectionIntro-The-atom) [5]
 (../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
-(../Ch-Table/files/SubSection-The-atom-Atomic-and-mass-number [6])
+(../Ch-Table/files/Figure-Models-of-the-atom
+Overfull \hbox (6.83253pt too wide) in paragraph at lines 73--73
+ [] 
+ []
+
+) (../Ch-Table/files/SubSection-The-atom-Atomic-and-mass-number [6])
 (../Ch-Table/problems/SampleProblem2 (../Ch-Table/problems/StudyCheck2))
 (../Ch-Table/files/SubSection-The-atom-Isotopes)
 (../Ch-Table/files/Figure-Isotopes
@@ -6312,12 +6316,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  85364 strings out of 493014
- 1904794 string characters out of 6133351
- 2962592 words of memory out of 5000000
+ 1904797 string characters out of 6133351
+ 2961732 words of memory out of 5000000
  86826 multiletter control sequences out of 15000+600000
  209152 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,28n,109p,10598b,2908s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,28n,109p,10598b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-di
@@ -6341,7 +6345,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Table.pdf (14 pages, 1219075 bytes).
+Output written on Ch-Table.pdf (14 pages, 1219151 bytes).
 PDF statistics:
  358 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
