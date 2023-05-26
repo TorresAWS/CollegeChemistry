@@ -2,18 +2,18 @@
 
 
 
-\begin{minipage}[b]{.5\linewidth}
-%  \begin{center}
+\begin{minipage}[b]{.4\linewidth}
+ %  \begin{center}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-
+ 
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
-\hspace{-2cm} 
+\hspace{-3cm} 
 }{
 \hspace{-10cm}
 }
 
 
-\begin{tikzpicture}[transform canvas={scale=1}, shift={(7,0)}]
+\begin{tikzpicture}[transform canvas={scale=1}, shift={(4,0)}]
   \begin{scope}[transform canvas={scale=.5}, shift={(0,0)}]
   \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
   \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
@@ -130,7 +130,7 @@
   
 \node[text width=14cm, fontscale=0.1, shift={(6,-8)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Example of three collisions, a successful collision that leads to a transition state and the products and two unsuccessful collisions due to an ineffective molecular arrangement and insufficient energy.  };
 \end{tikzpicture}
-% \end{center}
+ % \end{center}
 \end{minipage}
 
 \end{fullwidth}
