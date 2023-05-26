@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAY 2023 06:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2023 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6248,41 +6248,32 @@ Overfull \hbox (6.97276pt too wide) in paragraph at lines 34--34
  []
 
 ) (../Ch-measurements/files/SectionIntro-graphs) [3]
-(../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
-ts)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Length)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Mass)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Temperature)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Time) (../Ch-measurements/files/SideFigure-Measurements
-<../Ch-measurements/figure1-1.png, id=215, 1505.625pt x 2007.5pt>
+(../Ch-measurements/files/SideFigure-Measurements
+<../Ch-measurements/figure1-1.png, id=214, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-1.png  used on input line 2
 .
 (pdftex.def)             Requested size: 85.34825pt x 113.79767pt.
-<../Ch-measurements/figure1-2.png, id=216, 913.4125pt x 609.27625pt>
+<../Ch-measurements/figure1-2.png, id=215, 913.4125pt x 609.27625pt>
 File: ../Ch-measurements/figure1-2.png Graphic file (type png)
 <use ../Ch-measurements/figure1-2.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-2.png  used on input line 5
 .
 (pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
-<../Ch-measurements/figure1-15.png, id=217, 1689.31125pt x 1997.4625pt>
+<../Ch-measurements/figure1-15.png, id=216, 1689.31125pt x 1997.4625pt>
 File: ../Ch-measurements/figure1-15.png Graphic file (type png)
 <use ../Ch-measurements/figure1-15.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-15.png  used on input line 
 8.
 (pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
-<../Ch-measurements/figure1-16.png, id=218, 1303.87125pt x 1303.87125pt>
+<../Ch-measurements/figure1-16.png, id=217, 1303.87125pt x 1303.87125pt>
 File: ../Ch-measurements/figure1-16.png Graphic file (type png)
 <use ../Ch-measurements/figure1-16.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-16.png  used on input line 
 11.
 (pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
-<../Ch-measurements/figure1-17.png, id=219, 174.6525pt x 702.625pt>
+<../Ch-measurements/figure1-17.png, id=218, 174.6525pt x 702.625pt>
 File: ../Ch-measurements/figure1-17.png Graphic file (type png)
 <use ../Ch-measurements/figure1-17.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-17.png  used on input line 
@@ -6313,7 +6304,20 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 [] 
  []
 
+
+LaTeX Warning: Marginpar on page 4 moved.
+
 )
+(../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
+ts)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Length)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Mass)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Temperature)
+(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
+-Time)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Volume [4 <../Ch-measurements/figure1-1.png (PNG copy)> <../Ch-measurements/fi
 gure1-2.png (PNG copy)> <../Ch-measurements/figure1-15.png> <../Ch-measurements
@@ -6334,7 +6338,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 )
-Overfull \hbox (48.10655pt too wide) in paragraph at lines 5--79
+Overfull \hbox (48.10655pt too wide) in paragraph at lines 5--78
 [][] 
  []
 
@@ -8680,10 +8684,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
  []
 
 )) (../Ch-measurements/files/SubSection-Matter-and-density-Specific-gravity)
-[24 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
-[25
-
-]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -8695,11 +8695,13 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+[24 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+
 (./Ch-measurements.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
 (rerunfilecheck)             Checksum: F787F19A4E1E3E6CCE5244959F34F010;1772.
 
@@ -8710,15 +8712,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 85611 strings out of 493014
- 1920540 string characters out of 6133351
+ 85602 strings out of 493014
+ 1920358 string characters out of 6133351
  3858595 words of memory out of 5000000
- 86836 multiletter control sequences out of 15000+600000
+ 86828 multiletter control sequences out of 15000+600000
  202039 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8752,10 +8751,10 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (25 pages, 19913736 bytes).
+Output written on Ch-measurements.pdf (24 pages, 19913647 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
  61114 words of extra memory for PDF output out of 61914 (max. 10000000)
 
