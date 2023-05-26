@@ -5,12 +5,12 @@
 \begin{center}\begin{tikzpicture}[scale=1]
  
 \begin{scope}[shift={(0,0)},rotate=00]               
-     \begin{filecontents*}{MyData.txt}
-        x       y       label
- 		20	90.48	{\ce{^20Ne^+}\\ (90.48\%)}
-		21	0.27		{\ce{^21Ne^+} \\(0.27\%)	}
-		22	9.25		{\ce{^22Ne^+}\\ (9.25\%)}
-      \end{filecontents*}
+ %    \begin{filecontents*}{MyData.txt}
+ %       x       y       label
+ %		20	90.48	{\ce{^20Ne^+}\\ (90.48\%)}
+%		21	0.27		{\ce{^21Ne^+} \\(0.27\%)	}
+%		22	9.25		{\ce{^22Ne^+}\\ (9.25\%)}
+ %     \end{filecontents*}
  
   \pgfmathsetlengthmacro\MajorTickLength{
       \pgfkeysvalueof{/pgfplots/major tick length} * 0.5
@@ -25,7 +25,7 @@
         % place `xtick`s at data points (of the first `\addplot`)
         xtick=data,
         % label the `xticks` with data from the table
-        xticklabels from table={MyData.txt}{x},
+        xticklabels from table={../\chapterlabel/files/MyData.txt}{x},
         % add nodes to the coordinates
         nodes near coords,
         % the nodes contain non-numeric data
@@ -46,7 +46,7 @@
             y=y,
             % use column with header "label" for the `nodes near coords` label
             meta=label,
-        ] {MyData.txt};
+        ] {../\chapterlabel/files/MyData.txt};
     \end{axis}
  \node[text width=12cm, fontscale=.3,shift={(12em,-5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  Mass spectra of Neon with three peaks corresponding to three different isotopes with different relative abundance.};
 
