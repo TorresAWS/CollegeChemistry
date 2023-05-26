@@ -1,15 +1,17 @@
 \begin{fullwidth}
 
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
-\hspace{-0cm} 
-}{
-\hspace{-5cm} 
-}
 
 
 \begin{minipage}[b]{.5\linewidth}
 %  \begin{center}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+\hspace{-2cm} 
+}{
+\hspace{-10cm}
+}
+
 
 \begin{tikzpicture}[transform canvas={scale=1}, shift={(7,0)}]
   \begin{scope}[transform canvas={scale=.5}, shift={(0,0)}]
