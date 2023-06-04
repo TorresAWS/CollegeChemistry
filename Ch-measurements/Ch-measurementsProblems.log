@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2023 07:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 JUN 2023 05:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6145,10 +6145,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package mdframed Info: Not enough space on this page on input line 13.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 1 undefined on input line 13
-.
-
 (../Ch-measurements/problems/problems/Problems-Basic-algebra
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
@@ -6219,26 +6215,42 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 )
 (../Ch-measurements/problems/problems/Problems-Scientific-Notation)
 (../Ch-measurements/problems/problems/Problems-Units-and-measurements)
-(./Problems-Significant-Exact-and-measured-numbers.tex)
-Missing character: There is no ) in font nullfont!
+(../Ch-measurements/problems/problems/Problems-Exact-and-measured-numbers
+<../Ch-measurements/tiger.jpeg, id=121, 224.84pt x 225.84375pt>
+File: ../Ch-measurements/tiger.jpeg Graphic file (type jpg)
+<use ../Ch-measurements/tiger.jpeg>
+Package pdftex.def Info: ../Ch-measurements/tiger.jpeg  used on input line 140.
 
+(pdftex.def)             Requested size: 56.9063pt x 57.16034pt.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <../Ch-measurements/tiger.jpeg>])
+(../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers)
 (../Ch-measurements/problems/problems/Problems-Significant-Figures-calculations
-) (../Ch-measurements/problems/problems/Problems-Significant-Figures-of-numbers
-) (../Ch-measurements/problems/problems/Problems-Significant-Rounding)
-Missing character: There is no ) in font nullfont!
+) (../Ch-measurements/problems/problems/Problems-Significant-Rounding
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\T1/ptm/m/n/10 (+20) (b) 5111s [](c) 2.4566$\OMS/lmsy/m/n/10 ^^B\OT1/lmr/m/n/
+10 10[]$\T1/ptm/m/n/10 (+20) Kg [](d) 0.051376cm
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\T1/ptm/m/n/10 (+20) (b) 5111s [](c) 2.4566$\OMS/lmsy/m/n/10 ^^B\OT1/lmr/m/n/
+10 10[]$\T1/ptm/m/n/10 (+20) Kg [](d) 0.051376cm
+ []
+
+)
 (../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
-tors [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-])
+tors [2])
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
 efixes)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
 ed)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-Other-units)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-Square-and-cu
-bic-units [2])
+bic-units [3])
 (../Ch-measurements/problems/problems/Problems-Measurements-and-uncertanty
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6266,15 +6278,11 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
 (../Ch-measurements/problems/problems/Problems-Mixtures)
-(../Ch-measurements/problems/problems/Problems-States-of-matter [3])
+(../Ch-measurements/problems/problems/Problems-States-of-matter [4])
 (../Ch-measurements/problems/problems/Problems-Density)
 (../Ch-measurements/problems/problems/Problems-Density-and-mixing)
 (../Ch-measurements/problems/problems/Problems-Density-and-the-volume-of-object
 s
-Overfull \hbox (1.56525pt too wide) in paragraph at lines 77--77
- [] 
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6301,11 +6309,6 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (1.94896pt too wide) in paragraph at lines 198--198
- [] 
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -6332,12 +6335,7 @@ Overfull \hbox (3.59332pt too wide) in paragraph at lines 319--319
  [][][][]\T1/ptm/m/n/10 (-20) ``C'' 
  []
 
-
-Overfull \hbox (1.94894pt too wide) in paragraph at lines 319--319
- [] 
- []
-
-<../Ch-measurements/ice.png, id=303, 106.67052pt x 47.48138pt>
+<../Ch-measurements/ice.png, id=332, 106.67052pt x 47.48138pt>
 File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 415.
@@ -6354,7 +6352,8 @@ File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 415.
 (pdftex.def)             Requested size: 191.78214pt x 85.36642pt.
-<../Ch-measurements/al.jpeg, id=305, 578.16pt x 642.4pt>
+[5]
+<../Ch-measurements/al.jpeg, id=380, 578.16pt x 642.4pt>
 File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/al.jpeg>
 Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
@@ -6372,11 +6371,8 @@ File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
 Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 517.
 (pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
 ) (../Ch-measurements/problems/problems/Problems-Specific-gravity)
-(../Ch-measurements/problems/problems/Problems-Dosage)
-Missing character: There is no ) in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no ) in font nullfont!
- [4] [5 <../Ch-measurements/ice.png> <../Ch-measurements/al.jpeg>]
+(../Ch-measurements/problems/problems/Problems-Dosage) [6 <../Ch-measurements/i
+ce.png> <../Ch-measurements/al.jpeg>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6416,16 +6412,16 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 111.
+ line 98.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6
+ [7
 
 ]
-[7
+[8
 
-] [8] [9
+] [9] [10
 
 ]
 
@@ -6439,12 +6435,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (./Ch-measurementsProblems.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `Ch-measurementsProblems.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -6457,20 +6453,17 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 84136 strings out of 493014
- 1881081 string characters out of 6133351
- 2762079 words of memory out of 5000000
- 85573 multiletter control sequences out of 15000+600000
- 104246 words of font info for 154 fonts, out of 8000000 for 9000
+ 84461 strings out of 493014
+ 1886354 string characters out of 6133351
+ 3740719 words of memory out of 5000000
+ 85834 multiletter control sequences out of 15000+600000
+ 105714 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,15n,104p,10433b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,15n,104p,10433b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -6488,10 +6481,10 @@ ts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-measurementsProblems.pdf (10 pages, 1857997 bytes).
+Output written on Ch-measurementsProblems.pdf (11 pages, 2199223 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
- 312 named destinations out of 1000 (max. 500000)
- 27587 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 564 compressed objects within 6 object streams
+ 365 named destinations out of 1000 (max. 500000)
+ 27592 words of extra memory for PDF output out of 29859 (max. 10000000)
 
