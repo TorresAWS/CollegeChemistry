@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUN 2023 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JUN 2023 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6398,9 +6398,14 @@ s [11]) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
 nits) (../Ch-measurements/problems/SampleProblem5
 (../Ch-measurements/problems/StudyCheck5) [12])
-(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume)
-(../Ch-measurements/problems/SampleProblem6
-(../Ch-measurements/problems/StudyCheck6))
+(../Ch-measurements/files/Table-Common-units
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 9.
+
+) (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume
+) (../Ch-measurements/problems/SampleProblem6
+(../Ch-measurements/problems/StudyCheck6) [13])
 (../Ch-measurements/files/Figure-Cuve-of-Cubes
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -8403,15 +8408,6 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13])
-(../Ch-measurements/files/Table-Common-units
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 9.
-
 )
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
 ities) (../Ch-measurements/problems/SampleProblem7
@@ -8455,45 +8451,39 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
-(../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision)
+)
+(../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision [15])
 (../Ch-measurements/files/Figure-Targets-and-precision
 Missing character: There is no ; in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16])
-(../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation)
-(../Ch-measurements/problems/SampleProblem13
+)
+(../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
+[16]) (../Ch-measurements/problems/SampleProblem13
 Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
  [] 
  []
 
-(../Ch-measurements/problems/StudyCheck13) [17])
+(../Ch-measurements/problems/StudyCheck13))
 (../Ch-measurements/files/SectionIntro-Matter-and-density)
-(../Ch-measurements/files/Figure-Matter
-<../Ch-measurements/figure1-14.png, id=339, 1026.83624pt x 684.5575pt>
+(../Ch-measurements/files/Figure-Matter [17]
+<../Ch-measurements/figure1-14.png, id=352, 1026.83624pt x 684.5575pt>
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 <use ../Ch-measurements/figure1-14.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
-<../Ch-measurements/figure1-12.png, id=340, 913.4125pt x 590.205pt>
+<../Ch-measurements/figure1-12.png, id=353, 913.4125pt x 590.205pt>
 File: ../Ch-measurements/figure1-12.png Graphic file (type png)
 <use ../Ch-measurements/figure1-12.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
-<../Ch-measurements/figure1-11.png, id=341, 1027.84pt x 770.88pt>
+<../Ch-measurements/figure1-11.png, id=354, 1027.84pt x 770.88pt>
 File: ../Ch-measurements/figure1-11.png Graphic file (type png)
 <use ../Ch-measurements/figure1-11.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
-<../Ch-measurements/figure1-13.png, id=342, 913.4125pt x 1254.6875pt>
+<../Ch-measurements/figure1-13.png, id=355, 913.4125pt x 1254.6875pt>
 File: ../Ch-measurements/figure1-13.png Graphic file (type png)
 <use ../Ch-measurements/figure1-13.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
@@ -8509,17 +8499,13 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 4--47
 [][] 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-(../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
+) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
 (../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
-tures) (../Ch-measurements/files/Figure-States-of-matter [19 <../Ch-measurement
+tures) (../Ch-measurements/files/Figure-States-of-matter [18 <../Ch-measurement
 s/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-12.png (PNG copy)> <..
 /Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measurements/figure1-13.png 
 (PNG copy)>]
-<../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=369, 276.03
+<../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=364, 276.03
 125pt x 183.68625pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg Graphic fi
 le (type jpg)
@@ -8527,7 +8513,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -19.jpeg  used on input line 10.
 (pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-22.png, id=370, 268.001
+<../Ch-measurements/files/../../Ch-measurements/figure1-22.png, id=365, 268.001
 25pt x 356.33125pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-22.png Graphic fil
 e (type png)
@@ -8535,7 +8521,7 @@ e (type png)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -22.png  used on input line 16.
 (pdftex.def)             Requested size: 507.54735pt x 674.8289pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg, id=372, 276.03
+<../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg, id=367, 276.03
 125pt x 183.68625pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg Graphic fi
 le (type jpg)
@@ -8543,7 +8529,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -20.jpeg  used on input line 22.
 (pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-23.png, id=373, 275.027
+<../Ch-measurements/files/../../Ch-measurements/figure1-23.png, id=368, 275.027
 5pt x 349.305pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-23.png Graphic fil
 e (type png)
@@ -8551,7 +8537,7 @@ e (type png)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -23.png  used on input line 28.
 (pdftex.def)             Requested size: 507.59268pt x 644.67975pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg, id=374, 642.4p
+<../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg, id=369, 642.4p
 t x 427.5975pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg Graphic fi
 le (type jpg)
@@ -8559,7 +8545,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -21.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 142.25964pt x 94.69157pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-24.png, id=375, 286.068
+<../Ch-measurements/files/../../Ch-measurements/figure1-24.png, id=370, 286.068
 76pt x 363.3575pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-24.png Graphic fil
 e (type png)
@@ -8570,11 +8556,6 @@ Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 
 Overfull \hbox (10.91277pt too wide) in paragraph at lines 48--49
  [] 
- []
-
-
-Overfull \hbox (142.26378pt too wide) in paragraph at lines 3--51
-[] [] 
  []
 
 ) (../Ch-measurements/problems/SampleProblem10
@@ -8591,7 +8572,7 @@ Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-me
+ [19 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-me
 asurements/files/../../Ch-measurements/figure1-22.png> <../Ch-measurements/file
 s/../../Ch-measurements/figure1-20.jpeg> <../Ch-measurements/files/../../Ch-mea
 surements/figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figur
@@ -8599,7 +8580,7 @@ e1-21.jpeg> <../Ch-measurements/files/../../Ch-measurements/figure1-24.png>]
 (../Ch-measurements/files/SubSection-Matter-and-density-Separation
 Underfull \vbox (badness 1824) has occurred while \output is active []
 
- [21])
+ [20])
 (../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
@@ -8610,31 +8591,31 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22])
+ [21])
 (../Ch-measurements/files/Figure-density
-<../Ch-measurements/ice.png, id=423, 106.67052pt x 47.48138pt>
+<../Ch-measurements/ice.png, id=419, 106.67052pt x 47.48138pt>
 File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 54.
 (pdftex.def)             Requested size: 191.78214pt x 85.36642pt.
-<../Ch-measurements/cork.jpeg, id=424, 276.03125pt x 183.68625pt>
+<../Ch-measurements/cork.jpeg, id=420, 276.03125pt x 183.68625pt>
 File: ../Ch-measurements/cork.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/cork.jpeg>
 Package pdftex.def Info: ../Ch-measurements/cork.jpeg  used on input line 60.
 (pdftex.def)             Requested size: 128.27316pt x 85.35995pt.
-<../Ch-measurements/al.jpeg, id=425, 578.16pt x 642.4pt>
+<../Ch-measurements/al.jpeg, id=421, 578.16pt x 642.4pt>
 File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/al.jpeg>
 Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
-<../Ch-measurements/pb.jpeg, id=426, 1505.625pt x 1003.75pt>
+<../Ch-measurements/pb.jpeg, id=422, 1505.625pt x 1003.75pt>
 File: ../Ch-measurements/pb.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/pb.jpeg>
 Package pdftex.def Info: ../Ch-measurements/pb.jpeg  used on input line 69.
 (pdftex.def)             Requested size: 128.03386pt x 85.35591pt.
 )
 (../Ch-measurements/problems/SampleProblem11
-<../Ch-measurements/Image-Glass-with-three-liquids.png, id=428, 1204.5pt x 2156
+<../Ch-measurements/Image-Glass-with-three-liquids.png, id=424, 1204.5pt x 2156
 .055pt>
 File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
 png)
@@ -8653,20 +8634,20 @@ Overfull \hbox (5.17972pt too wide) in paragraph at lines 59--60
  [] 
  []
 
-[23 <../Ch-measurements/ice.png> <../Ch-measurements/cork.jpeg> <../Ch-measurem
+[22 <../Ch-measurements/ice.png> <../Ch-measurements/cork.jpeg> <../Ch-measurem
 ents/al.jpeg> <../Ch-measurements/pb.jpeg> <../Ch-measurements/Image-Glass-with
 -three-liquids.png>])
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
 of-objects)
 (../Ch-measurements/files/SubSection-Matter-and-density-ImmersionMethod)
 (../Ch-measurements/files/SideFigure-density
-<../Ch-measurements/hydrometer.jpeg, id=444, 178.6675pt x 285.065pt>
+<../Ch-measurements/hydrometer.jpeg, id=440, 178.6675pt x 285.065pt>
 File: ../Ch-measurements/hydrometer.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/hydrometer.jpeg>
 Package pdftex.def Info: ../Ch-measurements/hydrometer.jpeg  used on input line
  2.
 (pdftex.def)             Requested size: 71.33214pt x 113.81084pt.
-<../Ch-measurements/peestick.jpeg, id=445, 538.01pt x 538.01pt>
+<../Ch-measurements/peestick.jpeg, id=441, 538.01pt x 538.01pt>
 File: ../Ch-measurements/peestick.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/peestick.jpeg>
 Package pdftex.def Info: ../Ch-measurements/peestick.jpeg  used on input line 5
@@ -8700,13 +8681,13 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[24 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+[23 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 
 (./Ch-measurements.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
 (rerunfilecheck)             Checksum: F787F19A4E1E3E6CCE5244959F34F010;1772.
 
@@ -8717,12 +8698,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  85607 strings out of 493014
- 1920461 string characters out of 6133351
- 3858595 words of memory out of 5000000
- 86833 multiletter control sequences out of 15000+600000
+ 1920474 string characters out of 6133351
+ 3858354 words of memory out of 5000000
+ 86834 multiletter control sequences out of 15000+600000
  202039 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8756,10 +8740,10 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (24 pages, 19913926 bytes).
+Output written on Ch-measurements.pdf (23 pages, 19914298 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
  61114 words of extra memory for PDF output out of 61914 (max. 10000000)
 
