@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JUN 2023 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2023 07:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6406,7 +6406,8 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 ) (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume
 ) (../Ch-measurements/problems/SampleProblem6
 (../Ch-measurements/problems/StudyCheck6) [13])
-(../Ch-measurements/files/Figure-Cuve-of-Cubes
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
+ities) (../Ch-measurements/files/Figure-Cuve-of-Cubes
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -8409,8 +8410,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
-ities) (../Ch-measurements/problems/SampleProblem7
+(../Ch-measurements/problems/SampleProblem7
 (../Ch-measurements/problems/StudyCheck7) [14])
 (../Ch-measurements/files/SectionIntro-Measurement-Uncertainty)
 (../Ch-measurements/files/SubSection-Measurement-Uncertainty-digits
@@ -8670,6 +8670,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
  []
 
 )) (../Ch-measurements/files/SubSection-Matter-and-density-Specific-gravity)
+[23 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
+[24
+
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -8681,13 +8685,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[23 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 (./Ch-measurements.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
 (rerunfilecheck)             Checksum: F787F19A4E1E3E6CCE5244959F34F010;1772.
 
@@ -8698,15 +8700,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 85598 strings out of 493014
- 1920282 string characters out of 6133351
- 3858358 words of memory out of 5000000
- 86825 multiletter control sequences out of 15000+600000
+ 85606 strings out of 493014
+ 1920441 string characters out of 6133351
+ 3858332 words of memory out of 5000000
+ 86832 multiletter control sequences out of 15000+600000
  202039 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8740,10 +8739,10 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (23 pages, 19914406 bytes).
+Output written on Ch-measurements.pdf (24 pages, 19914838 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 114 named destinations out of 1000 (max. 500000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
  61114 words of extra memory for PDF output out of 61914 (max. 10000000)
 
