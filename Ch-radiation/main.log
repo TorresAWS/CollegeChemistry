@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAR 2023 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2023 08:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6621,85 +6621,84 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 ) [26] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
 (../Ch-radiation/files/Figure-Atomic-radius)
-(../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge [27])
+(../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge
+Underfull \vbox (badness 4819) has occurred while \output is active []
+
+ [27])
 (../Ch-radiation/files/Figure-Atomic-radius-plot)
-(../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius)
 (../Ch-radiation/files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28])
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius) [28]
 (../Ch-radiation/files/Figure-Ionization-energy-plot
 \AxisA=\box314
 \Axisb=\box315
 )
-Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--223
+Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--224
 [][] 
  []
 
-(../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy [29])
-(../Ch-radiation/files/Figure-Periodic-propeties
+(../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy)
+(../Ch-radiation/files/Figure-Periodic-propeties [29]
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 11.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 11.
+ line 12.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24> on input line 11.
+(Font)              <24> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.23987> on input line 11.
+(Font)              <18.23987> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.40015> on input line 11.
+(Font)              <14.40015> on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 11.
+(Font)              scaled to size 25.00818pt on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 11.
+(Font)              scaled to size 19.00607pt on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 11.
+(Font)              scaled to size 15.00505pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.00818pt on input line 11.
+(Font)              scaled to size 25.00818pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 19.00607pt on input line 11.
+(Font)              scaled to size 19.00607pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.00505pt on input line 11.
+(Font)              scaled to size 15.00505pt on input line 12.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <18.23987> no
 t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 11.
+ line 12.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
 t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 11.
+ line 12.
 
-Overfull \hbox (241.31636pt too wide) in paragraph at lines 12--12
+Overfull \hbox (241.31636pt too wide) in paragraph at lines 13--13
 [][][][][]  
  []
 
 
-Overfull \hbox (362.6357pt too wide) in paragraph at lines 17--17
+Overfull \hbox (362.6357pt too wide) in paragraph at lines 18--18
 [][][][][]  
  []
 
 
-Overfull \hbox (344.41896pt too wide) in paragraph at lines 22--22
+Overfull \hbox (344.41896pt too wide) in paragraph at lines 23--23
 [][][][][]  
  []
 
 
-Overfull \hbox (496.19295pt too wide) in paragraph at lines 27--27
+Overfull \hbox (496.19295pt too wide) in paragraph at lines 28--28
 [][][][][]  
  []
 
 
-Overfull \hbox (144.22401pt too wide) in paragraph at lines 33--33
+Overfull \hbox (144.22401pt too wide) in paragraph at lines 34--34
 [][][][][]  
  []
 
-) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity [30])
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity) [30]
 (../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character)
 (../Ch-radiation/problems/SampleProblem11
@@ -6908,12 +6907,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5696.
  ) 
 Here is how much of TeX's memory you used:
  87968 strings out of 493014
  1975735 string characters out of 6133351
- 3078372 words of memory out of 5000000
+ 3077642 words of memory out of 5000000
  88647 multiletter control sequences out of 15000+600000
  368996 words of font info for 430 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6958,7 +6960,7 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (42 pages, 4477555 bytes).
+Output written on main.pdf (42 pages, 4480033 bytes).
 PDF statistics:
  1250 PDF objects out of 1440 (max. 8388607)
  1005 compressed objects within 11 object streams

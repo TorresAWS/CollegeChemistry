@@ -140,7 +140,7 @@
 
 \end{scope} 
 %
-  \begin{scope}[xshift =0em, yshift =-29em, scale=1]
+  \begin{scope}[xshift =0em, yshift =-27em, scale=1]
  
     \pgfmathsetmacro\SpaceA{5*0}
  \pgfmathsetmacro\RadA{1.1*1.5}
@@ -171,8 +171,8 @@
   \end{scope} 
   
 
-    \begin{scope}[on background layer,xshift =0em, yshift =-15em, scale=1]
- \draw[opacity=.3,draw=none, fill=red!10] (-3em,0em) -- (12em,0) -- (17em,10em) -- (33em,10em)-- (33em,18em)-- (17em,18em) --   (12em,10em)  --(-3em,10em)  ;%-- (-10em,0em)  --  cycle; 
+    \begin{scope}[on background layer,xshift =0em, yshift =-13em, scale=1]
+ \draw[opacity=.3,draw=none, fill=red!10] (-3em,0em) -- (12em,0) -- (17em,10em) -- (33em,10em)-- (33em,16em)-- (17em,16em) --   (12em,10em)  --(-3em,10em)  ;%-- (-10em,0em)  --  cycle; 
   \node[text width=14cm, fontscale=1, shift={(12em,-21em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionic and atomic radius in pm across the periodic table   };
 
   \end{scope}
