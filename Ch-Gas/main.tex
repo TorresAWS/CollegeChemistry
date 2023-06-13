@@ -1,4 +1,7 @@
+
 \documentclass[a4paper,14pt,twoside,justified, symmetric]{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
+ 
+
 %%%%%%%%%%%%%%%%%%PAGE SIZE%%%%%%
 \geometry{textwidth=.58\paperwidth} % size of text column
 \geometry{
@@ -10,11 +13,15 @@
 }
  %%% TEST
  %%%%%%%%%%%%%%%%%%PAGE SIZE%%%%%%
+ 
 \newenvironment{problempage}{ left=0.1in,right=0.1in, top=2.5cm,bottom=2cm  }{\par}
-\usepackage{paralist}
-\usepackage[us,12hr]{datetime} 
+
+
+
+
 \usepackage{graphicx}
 \usepackage{mathpazo}
+\usepackage[us,12hr]{datetime} 
 \usepackage{lscape}
 \usepackage{asymptote}
 \usepackage{dingbat}
@@ -26,14 +33,19 @@
 \newcommand{\xmark}{\ding{55}}%
 \usepackage{tabu}
 \usepackage{modiagram}
+
+
+
+
 \usepackage{amsmath}
+
 \usepackage{setspace}
 \usepackage{afterpage}
 \usepackage[version=4]{mhchem}
 \usepackage{fontawesome}
 \usepackage{xcolor, soul}
 \sethlcolor{green}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \usepackage{fonttable}
 \usepackage{paracol}
 \usepackage{chemfig}
@@ -41,15 +53,12 @@
 %\usepackage[ugly]{nicefrac}
 \usepackage{cutwin}
 %\usepackage{pstricks}
-
+\usepackage{paralist}
 \usepackage{pgfplots}\pgfplotsset{compat=newest}
-
 \usepackage{movie15}
 \usepackage{hyperref}
 %\hypersetup{colorlinks,linkcolor={black},citecolor={black},urlcolor={black}}  
 \hypersetup{colorlinks,linkcolor={black}}
-
-
 \graphicspath{ {images/} }
 \hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
 \usepackage{microtype} % Improves character and word spacing
@@ -202,7 +211,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%Chapter Numbers
 
 %%%%%%BOXES SAMPLE PROBLEM     
-\usepackage[most]{tcolorbox}\newtcolorbox{answerbox}{colback=white,colframe=white,frame hidden, enhanced, breakable}\usepackage{atbegshi}
+\usepackage[most]{tcolorbox}\newtcolorbox{answerbox}{colback=white,colframe=white,frame hidden, enhanced, breakable}
+
+
+
 \definecolor{myblue}{RGB}{0,163,243}
 \tcbset{mystyle/.style={
   breakable,
@@ -285,7 +297,7 @@
 %%%PROBLEMS BOX 
 %%%PROBLEMS BOX 2
 \usepackage{blindtext}
-\usepackage{amsmath,amssymb}
+\usepackage{ amssymb}
 \usepackage{lmodern}
 \usepackage{tcolorbox}
 \makeatletter
@@ -399,7 +411,7 @@ overlay last={%
 %BOX FOR EQUATIONS
 
 %\usepackage{pgffor}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \usepackage[makeroom]{cancel}
 
 
@@ -477,7 +489,8 @@ overlay last={%
   \colorbox{black!20}{$\displaystyle#1$}}
   %HIGHLIGHT IN MATH
 %EMAIL SEND
-\usepackage{etoolbox}
+ \usepackage{etoolbox}
+ 
 %\makeatletter
 %\patchcmd{\l@chapter}% <cmd>
 %  {\addvspace{0.5em \@plus\p@}}% <search>
@@ -958,7 +971,6 @@ frametitle=%
 \setlist[enumerate]{itemsep=0mm}
 
 \newcounter{figurenewcounter}\newcounter{tablenewcounter}\newcounter{formulanewcounter}
-
 
 
 
@@ -1823,7 +1835,7 @@ atan 90 div dup dup
 
 %%%%%%%LARGE EXPONETIAL
 \usepackage{scalerel}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \newlength\tempdimA
 \newlength\tempdimB
 \def\myexp#1{\setbox0=\hbox{$\strut#1$}\tempdimA=\dimexpr\ht0+\dp0\relax%
@@ -1854,11 +1866,10 @@ atan 90 div dup dup
 \titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel} node[rotate=-90, font=\tiny] at ([yshift=1.5cm,xshift=15cm]a.south east) {  \today \vspace{0.1cm}  (\currenttime)} ; \end{tikzpicture}}}} }}}
+ \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel} node[rotate=-90, font=\tiny] at ([yshift=1.5cm,xshift=15cm]a.south east) {  \today \vspace{0.1cm}  (\currenttime)}; \end{tikzpicture}}}} }}}
 \newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}
 \newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \definecolor{gmitblue}{RGB}{93,138,168}
 \definecolor{gmitred}{RGB}{241, 148, 138}
 
@@ -2196,11 +2207,11 @@ cherry/.pic={
 }}
 %%%%%%%%%FRUITS
 
-
+ 
 
 %%%%%%%%%%PROBLEMS SOLUTIONS AT THE END
 \usepackage[load-headings]{exsheets}[2014/05/11]
-
+%\usepackage{xsim}
 \DeclareQuestionProperty{section-title}
 \usepackage{nameref}
 \SetupExSheets{
@@ -5300,6 +5311,91 @@ coordinate(-front-bottom-right) -- cycle;
     \draw[line width=4pt] (0, 0) circle[radius=\Radius+0.15cm];
 }
 }
+\newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
+
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
+
+\newcommand{\drawbox}[4]{
+\draw[fill=#4] ({#1-1+(#2-1)*2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1}) -- ({#1-1+(#2-1)*2/3*cos(30)+1},{(#2-1)*2/3*sin(30)+#3-1}) -- ({#1-1+(#2-1)*2/3*cos(30)+1},{(#2-1)*2/3*sin(30)+#3-1+1}) -- ({#1-1+(#2-1)*2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+1}) -- cycle;
+\draw[fill=#4] ({#1-1+(#2-1)*2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+1}) -- ({#1-1+#2*2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+1+2/3*sin(30)}) -- ({#1-1+(#2-1)*2/3*cos(30)+1+2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+1+2/3*sin(30)}) -- ({#1-1+(#2-1)*2/3*cos(30)+1},{(#2-1)*2/3*sin(30)+#3-1+1}) -- cycle;
+\draw[fill=#4] ({#1-1+(#2-1)*2/3*cos(30)+1},{(#2-1)*2/3*sin(30)+#3-1+1}) -- ({#1-1+(#2-1)*2/3*cos(30)+1+2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+1+2/3*sin(30)}) -- ({#1-1+(#2-1)*2/3*cos(30)+1+2/3*cos(30)},{(#2-1)*2/3*sin(30)+#3-1+2/3*sin(30)}) -- ({#1-1+(#2-1)*2/3*cos(30)+1},{(#2-1)*2/3*sin(30)+#3-1}) -- cycle;}
+\usetikzlibrary{decorations}
+
+\pgfdeclaredecoration{newarrow}{initial}{
+    \state{initial}[%
+        switch if less than=\pgfdecoratedpathlength/1 to final, %% (1)
+        width=\pgfdecoratedpathlength/2, %% (2)
+        next state=final
+        ]
+    {% 
+        \pgfsetfillcolor{white}
+        \pgfsetstrokecolor{black}
+        \pgfsetmiterjoin \pgfsetmiterlimit{12} % arrow start corner <
+        \pgfmathsetmacro\onethird{\pgfdecoratedpathlength/2*1.5}
+        \pgfmathsetmacro\arrowhead{\pgfdecoratedpathlength/7}
+        \pgfmathsetmacro\arrowspread{\arrowhead/2}
+        \pgfmoveto{\pgfpoint{14pt}{0pt}} % was 1pt with no miter limit
+        \pgflineto{\pgfpoint{\onethird}{\arrowspread}}
+        \pgflineto{\pgfpoint{\onethird}{\arrowhead}}
+        \pgflineto{\pgfpoint{\pgfdecoratedpathlength-3pt}{0pt}}
+        \pgflineto{\pgfpoint{\onethird}{-\arrowhead}}
+        \pgflineto{\pgfpoint{\onethird}{-\arrowspread}}     
+        \pgfclosepath
+        %
+        \pgfmoveto{\pgfpoint{\pgfdecoratedpathlength}{0pt}}
+    }
+    \state{final}
+    {%
+        \pgfpathlineto{\pgfpointdecoratedpathlast}
+    }
+}
+
+\tikzset{% easier to type inside of the \draw command
+    custarr/.style={% CUSTom ARRow
+        decorate, decoration={name=newarrow}%
+    }
+}
+
+\tikzset{
+  tube/.pic={
+    \pgfmathsetmacro\level{#1-5.7}
+    \shade[left color=.,right color=.!40]
+      (-1,\level)--(-1,-5) arc (180:360:1) -- (1,\level) arc (0:180:1 and 0.3);
+    \draw[.!90!black!70] (0,\level) ellipse (1 and .3);
+    \begin{scope}[black]
+      \draw (0,0) ellipse (1 and .3);
+      \draw (-1,0)--(-1,-5) arc (180:360:1) --(1,-5) -- (1,0);
+      \foreach \y/\x in {-5/1,-4/1.5,-3/2,-2/2.5}{
+        \draw (-0.2,\y) to[bend right=10](0.2,\y) node[right,yslant=0.15](\x){\x};
+        \foreach \z in {0.2,0.4,0.6,0.8}
+          \draw[yshift=\y cm] (-0.1,\z)to[bend right=5](0.1,\z);
+      };
+    \end{scope}
+  }
+}
+\tikzset{
+  tube2/.pic={
+    \pgfmathsetmacro\level{#1-5.7}
+    \shade[left color=.,right color=.!40]
+      (-1,\level)--(-1,-5) arc (180:360:1) -- (1,\level) arc (0:180:1 and 0.3);
+    \draw[.!90!black!70] (0,\level) ellipse (1 and .3);
+    \begin{scope}[black]
+      \draw (0,0) ellipse (1 and .3);
+      \draw (-1,0)--(-1,-5) arc (180:360:1) --(1,-5) -- (1,0);
+      \foreach \y/\x in {-5/1,-4/2,-3/3,-2/4}{
+        \draw (-0.2,\y) to[bend right=10](0.2,\y) node[right,yslant=0.15](\x){\x};
+        \foreach \z in {0.2,0.4,0.6,0.8}
+          \draw[yshift=\y cm] (-0.1,\z)to[bend right=5](0.1,\z);
+      };
+    \end{scope}
+  }
+}
+
+
+
+ 
+
+ 
 
  
  \newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
@@ -5550,8 +5646,30 @@ coordinate(-front-bottom-right) -- cycle;
   \node[text = green] at (#1, #2) {$\times$};
 }%
 
-%%%%%%%%%%%%%%
 
+
+
+
+
+
+
+ 
+
+
+%%%addproblemWithAnswerBoxMACRO%%%%%%%%%%%% 
+% \newcommand{\addproblemWithAnswerBox}[1]{ 
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%\import{../\chapterlabel/problems/problems/}{#1}
+%\end{question}
+%   \begin{Form}
+%   \TextField[multiline,backgroundcolor=gray!20,borderwidth=0,width=0.43\textwidth  ,height=115pt, name=\the\value{numA}]  { }\end{Form}
+%\begin{solution}
+%#1.answer%\import{../\chapterlabel/problems/problems/}{#1.answer}
+%\hspace{0.1cm}
+%\end{solution}
+%\stepcounter{numA}
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
  %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
 \newcommand\ProblemSectionlabel{}
@@ -5573,6 +5691,16 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
+  
+
+
+
+ 
+ 
+
+
+ 
+ 
    %%%%%%% FILLABLE NAME AND DATE FOR QUIZZES
 \newcommand{\FillableNamebox}{\begin{Form}\renewcommand{\arraystretch}{1.5} \noindent
          \begin{tabular}{@{}A{ 0.35\textwidth }A{ 0.1\textwidth }@{}}
@@ -5596,15 +5724,10 @@ coordinate(-front-bottom-right) -- cycle;
   \renewcommand{#2}{\arabic{SavedRandom}}
 }
 
-
-
-
-
-
- 
 \newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
- \newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
-  \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
+ \newcommand\showfinalanswers{false}%%TRUEfor showing answers false for not
+  \newcommand\ShowUneditedText{false}%%TRUEfor showing unedited text
+
 
 
 
@@ -5620,8 +5743,8 @@ coordinate(-front-bottom-right) -- cycle;
 %\subfile{./calendar/calendar.tex}
 %
 %%\subfile{./parts/a.tex} \clearpage\thispagestyle{empty}\mbox{}\clearpage
-%\subfile{./chapter1/chapter1.tex}
-%\subfile{./chapter1/chapter1Problems.tex}
+\subfile{../Ch-Gas/Ch-Gas.tex}
+\subfile{../Ch-Gas/Ch-GasProblems.tex}
 %%%\subfile{./review/1.tex}
 %\subfile{./chapter0.5/chapter0.5.tex}
 %\subfile{./chapter0.5/chapter0.5Problems.tex}
@@ -5641,8 +5764,8 @@ coordinate(-front-bottom-right) -- cycle;
 %%%\subfile{./parts/c.tex}\clearpage\thispagestyle{empty}\mbox{}
 %\subfile{./chapter9/chapter9.tex}
 %\subfile{./chapter9/chapter9Problems.tex}
-\subfile{../Ch-Gas/Ch-Gas.tex}
-\subfile{../Ch-Gas/Ch-GasProblems.tex}
+%\subfile{./chapter8/chapter8.tex}
+%\subfile{./chapter8/chapter8Problems.tex}
 %%\subfile{./parts/rc.tex} \clearpage\thispagestyle{empty}\mbox{}\clearpage
 %%\subfile{./review/5-6.tex}
 %%%
@@ -5699,3 +5822,4 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
+% %
