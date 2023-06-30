@@ -68,9 +68,21 @@
 \end{tikzpicture}
 \end{tabular}
 \vfill
-{\fontsize{50}{60}\selectfont \color{blueXIIdark} College Chemistry}\\
+{\fontsize{50}{60}\selectfont \color{blueXIIdark} 
+
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{GOB Chemistry}{College Chemistry}
+
+
+
+
+
+
+}\\
 %\Huge\color{blueXIIdark}\noindent College Chemistry I\\
 \huge\color{blueXIIlight}\noindent \hspace{1cm} A Comprehensive Set of Imperfect Notes
+\providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{chem121}{\small with solutions}{}
+
 \vfill
 \large\color{black}
 \begin{tabularx}{\textwidth}{Xr}
