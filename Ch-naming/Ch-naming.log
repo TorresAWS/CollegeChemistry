@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 JUN 2023 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JUN 2023 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6262,8 +6262,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-[11]) (../Ch-naming/problems/SampleProblem11
-(../Ch-naming/problems/StudyCheck11))
+
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+ [11])
+(../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11))
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6296,11 +6299,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 84823 strings out of 493014
- 1893537 string characters out of 6133351
+ 84814 strings out of 493014
+ 1893456 string characters out of 6133351
  2687132 words of memory out of 5000000
  86260 multiletter control sequences out of 15000+600000
- 228058 words of font info for 305 fonts, out of 8000000 for 9000
+ 227478 words of font info for 299 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,104p,10600b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -6326,7 +6329,7 @@ atino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-naming.pdf (12 pages, 360125 bytes).
+Output written on Ch-naming.pdf (12 pages, 360066 bytes).
 PDF statistics:
  395 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams
