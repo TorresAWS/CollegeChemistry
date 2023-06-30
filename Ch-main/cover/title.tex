@@ -68,27 +68,17 @@
 \end{tikzpicture}
 \end{tabular}
 \vfill
-{\fontsize{50}{60}\selectfont \color{blueXIIdark} 
-
-
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{GOB Chemistry}{College Chemistry}
-
-
-
-
-
-
-}\\
-%\Huge\color{blueXIIdark}\noindent College Chemistry I\\
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{{\fontsize{50}{60}\selectfont \color{blueXIIdark} GOB Chemistry}}{ {\fontsize{50}{60}\selectfont \color{blueXIIdark} College Chemistry}}
+\\
 \huge\color{blueXIIlight}\noindent \hspace{1cm} A Comprehensive Set of Imperfect Notes
-\providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{chem121}{\small with solutions}{}
-
+\providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{  
+\begin{flushright}(with solutions) \end{flushright}
+}{}
 \vfill
 \large\color{black}
 \begin{tabularx}{\textwidth}{Xr}
 & \textbf{\Huge Daniel Torres}\vspace{0.8cm}\\
  & \includegraphics[width=0.1\textwidth]{cover/cc}\\[0.5\baselineskip] \\
-%Prof. dr. Profdoc & Faculteit Geneeskunde en Gezondheidswetenschappen\\ & Universiteit Gent \\ & Stamnummer xxxxxxxx\vspace{2cm}\\
 &   \today \hspace{0.5cm} (\currenttime)
 \end{tabularx}
 \vspace{2cm}

@@ -1,0 +1,25 @@
+\subfile{../Ch-main/cover/title.tex}
+\subfile{../Ch-main/periodictable/periodictable.tex}
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
+\tableofcontents \clearpage\thispagestyle{empty}\mbox{}\clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-main/tothereader/tothereader.tex}\clearpage\thispagestyle{empty}\mbox{}
+\pagenumbering{arabic}
+%\subfile{../Ch-main/online/online.tex}\clearpage\thispagestyle{empty}\mbox{}\clearpage
+%\subfile{../Ch-main/calendar/calendar.tex}
+
+
+
+%%%% EXAMPLE: CHEM 121, no answers at al
+%\newcommand\chemversionhealthalied{true}
+%\newcommand\showfinalanswers{false}
+%\newcommand\showanswersendchapter{false}
+%%%% EXAMPLE: CHEM 121, all answers
+%\newcommand\chemversionhealthalied{true}
+%\newcommand\showfinalanswers{true}
+%\newcommand\showanswersendchapter{true}
+%%%% EXAMPLE: CHEM 121, answers to text problems, not answers end of book
+%\newcommand\chemversionhealthalied{true}
+%\newcommand\showfinalanswers{true}
+%\newcommand\showanswersendchapter{false}
+
+
