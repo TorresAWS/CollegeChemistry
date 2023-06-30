@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JUN 2023 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JUN 2023 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6166,11 +6166,8 @@ aming/figure1.png>]) (../Ch-naming/files/SectionIntro-Ionic-compounds)
 [4]) (../Ch-naming/files/SectionIntro-Covalent-compounds)
 (../Ch-naming/files/Subsection-Covalent-compounds-Properties-of-covalent-compou
 nds) (../Ch-naming/files/Subsection-Covalent-compounds-The-covalent-bond)
-(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming
-
-LaTeX Warning: Reference `fig:naming1' on page 5 undefined on input line 1.
-
-) (../Ch-naming/files/Table-Covalent-prefixes
+(../Ch-naming/files/Subsection-Covalent-compounds-Covalent-naming)
+(../Ch-naming/files/Table-Covalent-prefixes
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6195,7 +6192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
  []
 
 ) (../Ch-naming/problems/SampleProblem6 (../Ch-naming/problems/StudyCheck6)
-[6])
+[6]) (../Ch-naming/files/SectionIntro-Oxidation-state)
 (../Ch-naming/files/Subsection-Naming-acids-bases-Oxidation-states-of-oxoacids)
 
 (../Ch-naming/files/Subsection-Naming-acids-bases-Oxidizing-and-reducing-charac
@@ -6203,7 +6200,7 @@ ter-of-oxoacids) (../Ch-naming/problems/SampleProblem7
 (../Ch-naming/problems/StudyCheck7) [7])
 (../Ch-naming/files/SectionIntro-Naming-complex-salts-common-chemicals)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Combining-
-ions) (../Ch-naming/files/Table-Oxoacids [8]
+ions [8]) (../Ch-naming/files/Table-Oxoacids
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
@@ -6234,8 +6231,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Formulatin
-g-Oxosalts) (../Ch-naming/problems/SampleProblem8
-(../Ch-naming/problems/StudyCheck8) [9])
+g-Oxosalts [9]) (../Ch-naming/problems/SampleProblem8
+(../Ch-naming/problems/StudyCheck8))
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Hyd
 rosalts
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -6257,16 +6254,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-) (../Ch-naming/files/Table-Common-chemicals
+) (../Ch-naming/files/Table-Common-chemicals [11]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-Underfull \vbox (badness 2261) has occurred while \output is active []
-
- [11])
-(../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11))
+) (../Ch-naming/problems/SampleProblem11 (../Ch-naming/problems/StudyCheck11))
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6279,11 +6272,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./Ch-naming.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `Ch-naming.out' has not changed.
 (rerunfilecheck)             Checksum: B60A16CD8BADFB9B8911F5FEF4425007;1144.
 
@@ -6295,15 +6288,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 84814 strings out of 493014
- 1893456 string characters out of 6133351
- 2687132 words of memory out of 5000000
- 86260 multiletter control sequences out of 15000+600000
- 227478 words of font info for 299 fonts, out of 8000000 for 9000
+ 84821 strings out of 493014
+ 1893735 string characters out of 6133351
+ 2687419 words of memory out of 5000000
+ 86265 multiletter control sequences out of 15000+600000
+ 226371 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,20n,104p,10600b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -6329,7 +6322,7 @@ atino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-naming.pdf (12 pages, 360066 bytes).
+Output written on Ch-naming.pdf (12 pages, 360004 bytes).
 PDF statistics:
  395 PDF objects out of 1000 (max. 8388607)
  288 compressed objects within 3 object streams
