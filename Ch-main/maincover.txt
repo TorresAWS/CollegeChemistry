@@ -1,3 +1,9 @@
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+\title{GOB Chemistry}       
+}{ 
+\title{College Chemistry}
+}
+
 \subfile{../Ch-main/cover/title.tex}
 \subfile{../Ch-main/periodictable/periodictable.tex}
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
