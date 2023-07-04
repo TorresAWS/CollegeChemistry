@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUN 2023 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5611.
+h' as default language. on input line 5654.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6187,9 +6187,16 @@ Overfull \hbox (0.85263pt too wide) in paragraph at lines 17--17
  []|[]| 
  []
 
-(../Ch-nuclear/problems/StudyCheck1)) [2 <../Ch-nuclear/figure8.png (PNG copy)>
- <../Ch-nuclear/figure9.png> <../Ch-nuclear/figure10.png (PNG copy)> <../Ch-nuc
-lear/figure12.png (PNG copy)>] (../Ch-nuclear/files/Table-Nuclear-symbols
+(../Ch-nuclear/problems/StudyCheck1))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <../Ch-nuclear/figure8.png (PNG copy)> <../Ch-nuclear/figure9.png> <../Ch-nu
+clear/figure10.png (PNG copy)> <../Ch-nuclear/figure12.png (PNG copy)>]
+(../Ch-nuclear/files/Table-Nuclear-symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6211,14 +6218,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-(../Ch-nuclear/problems/StudyCheck2) [3])
-(../Ch-nuclear/files/SectionIntro-Unknown-isotopes-in-nuclear-reactions)
+(../Ch-nuclear/problems/StudyCheck2)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]) (../Ch-nuclear/files/SectionIntro-Unknown-isotopes-in-nuclear-reactions)
 (../Ch-nuclear/problems/SampleProblem3 (../Ch-nuclear/problems/StudyCheck3
 Underfull \hbox (badness 10000) in paragraph at lines 21--7
 
  []
 
-) [4]) (../Ch-nuclear/files/Table-Halflife
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]) (../Ch-nuclear/files/Table-Halflife
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
@@ -6231,7 +6251,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-) [5]) (../Ch-nuclear/files/SideFigure-HalfLife-plots
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]) (../Ch-nuclear/files/SideFigure-HalfLife-plots
 Package pgfplots info on input line 24: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6279,7 +6306,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
-(../Ch-nuclear/problems/StudyCheck4) [6])
+(../Ch-nuclear/problems/StudyCheck4)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
 (../Ch-nuclear/files/SectionIntro-Radiation-measurement-units-and-radiation-eff
 ects)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
@@ -6287,8 +6321,14 @@ ts-Activity-units)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Adsorbed-dose)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Radiation-equivalent-in-humans-rem [7])
-(../Ch-nuclear/files/SideFigure-Geiger
+ts-Radiation-equivalent-in-humans-rem
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]) (../Ch-nuclear/files/SideFigure-Geiger
 <../Ch-nuclear/figure2.png, id=243, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
 <use ../Ch-nuclear/figure2.png>
@@ -6335,9 +6375,16 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 )
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
-(../Ch-nuclear/problems/StudyCheck5) [8 <../Ch-nuclear/figure2.png (PNG copy)> 
-<../Ch-nuclear/figure5.png (PNG copy)> <../Ch-nuclear/figure11.png (PNG copy)>]
-) (../Ch-nuclear/files/SectionIntro-Radiation-protection)
+(../Ch-nuclear/problems/StudyCheck5)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <../Ch-nuclear/figure2.png (PNG copy)> <../Ch-nuclear/figure5.png (PNG copy)
+> <../Ch-nuclear/figure11.png (PNG copy)>])
+(../Ch-nuclear/files/SectionIntro-Radiation-protection)
 (../Ch-nuclear/files/SubSection-Radiation-protection-alpha-particles)
 (../Ch-nuclear/files/SubSection-Radiation-protection-beta-particles)
 (../Ch-nuclear/files/SubSection-Radiation-protection-gamma-particles)
@@ -6346,8 +6393,14 @@ ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon) [9]
-(../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
+) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9] (../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
 (../Ch-nuclear/files/SideFigure-Fusion
 <../Ch-nuclear/figure6.png, id=261, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
@@ -6375,7 +6428,19 @@ LaTeX Warning: Marginpar on page 10 moved.
 ) (../Ch-nuclear/files/SubSection-Fusion-and-fission-Nuclear-fusion)
 (../Ch-nuclear/files/SubSection-Fusion-and-fission-Nuclear-fission)
 (../Ch-nuclear/problems/SampleProblem6 (../Ch-nuclear/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [10 <../Ch-nuclear/figure6.png (PNG copy)> <../Ch-nuclear/figure7.png>])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [11] [12
 
 ]
@@ -6405,12 +6470,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 84266 strings out of 493014
- 1890476 string characters out of 6133351
- 2667285 words of memory out of 5000000
- 85707 multiletter control sequences out of 15000+600000
+ 84362 strings out of 493014
+ 1892379 string characters out of 6133351
+ 2668433 words of memory out of 5000000
+ 85803 multiletter control sequences out of 15000+600000
  243657 words of font info for 341 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,36n,104p,10602b,2871s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6442,7 +6510,7 @@ e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Ch-nuclear.pdf (12 pages, 10619010 bytes).
+Output written on Ch-nuclear.pdf (12 pages, 10633675 bytes).
 PDF statistics:
  367 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
