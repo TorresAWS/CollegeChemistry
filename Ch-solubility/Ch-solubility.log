@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5622.
+h' as default language. on input line 5665.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6154,9 +6154,21 @@ Overfull \hbox (64.95322pt too wide) in paragraph at lines 3--89
 []  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2]
 Overfull \vbox (15.30962pt too high) has occurred while \output is active []
 
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [3]) (../Ch-solubility/problems/SampleProblem1
 (../Ch-solubility/problems/StudyCheck1
@@ -6176,10 +6188,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--6
 
  []
 
-) [4])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
 (../Ch-solubility/files/SubsectionSolubility-product-Relating-solubility-to-the
 -concentration-of-ions)
-(../Ch-solubility/files/SectionIntro-Predicting-precipitation) [5]
+(../Ch-solubility/files/SectionIntro-Predicting-precipitation)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
 (../Ch-solubility/files/Subsection-Predicting-precipitation-Predicting-precipit
 ation-an-introduction)
 (../Ch-solubility/files/Subsection-Predicting-precipitation-Selective-precipita
@@ -6206,7 +6232,14 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 79.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 79.
-(../Ch-solubility/files/SectionIntro-Solubility-and-Ksp [6])
+(../Ch-solubility/files/SectionIntro-Solubility-and-Ksp
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
 (../Ch-solubility/files/Subsection-Solubility-and-Ksp-Ksp-in-terms-of-molar-sol
 ubility)
 (../Ch-solubility/files/Subsection-Solubility-and-Ksp-Ksp-in-terms-of-molar-sol
@@ -6221,7 +6254,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--5
 
  []
 
-) [7])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 (../Ch-solubility/files/Subsection-Solubility-and-Ksp-Molar-solubility-in-terms
 -of-ksp
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -6234,15 +6274,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
  []
 
-) [8])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 90.
 
 (../Ch-solubility/files/SectionIntro-Common-ion-effect)
 (../Ch-solubility/files/SectionIntro-PH-and-solubility)
-(../Ch-solubility/files/Subsection-PH-and-solubility [9])
-(../Ch-solubility/files/Subsection-Common-ion-effect)
+(../Ch-solubility/files/Subsection-PH-and-solubility
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (../Ch-solubility/files/Subsection-Common-ion-effect)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 98.
@@ -6253,6 +6306,12 @@ ntration-product
 Overfull \hbox (34.34056pt too wide) in paragraph at lines 1--2
 []
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6289,7 +6348,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--5
 
  []
 
-) [11])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11])
 (../Ch-solubility/files/Subsection-Predicting-precipitation-from-mixing-solutio
 ns
 Underfull \hbox (badness 1189) in paragraph at lines 1--2
@@ -6302,15 +6368,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--6
 
  []
 
-) [12])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 (../Ch-solubility/files/Subsection-Predicting-the-amount-of-precipitate-formed
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [13]) (../Ch-solubility/problems/SampleProblem8
 (../Ch-solubility/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 19--6
 
  []
 
-) [14]) [15] [16
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15] [16
 
 ]
 
@@ -6341,10 +6434,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 83934 strings out of 493014
- 1880270 string characters out of 6133351
- 2734828 words of memory out of 5000000
- 85412 multiletter control sequences out of 15000+600000
+ 84031 strings out of 493014
+ 1882237 string characters out of 6133351
+ 2737686 words of memory out of 5000000
+ 85509 multiletter control sequences out of 15000+600000
  214241 words of font info for 326 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,104p,10626b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6381,7 +6474,7 @@ xlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Ch-solubility.pdf (16 pages, 753664 bytes).
+Output written on Ch-solubility.pdf (16 pages, 773887 bytes).
 PDF statistics:
  382 PDF objects out of 1000 (max. 8388607)
  262 compressed objects within 3 object streams
