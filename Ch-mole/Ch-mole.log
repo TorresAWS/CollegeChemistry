@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 APR 2023 07:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5557,7 +5557,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count612
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5678.
+h' as default language. on input line 5719.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6160,6 +6160,12 @@ line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2 <../Ch-mole/figure3.png> <../Ch-mole/figure2.png> <../Ch-mole/figure4.png> <
 ../Ch-mole/figure14.png (PNG copy)> <../Ch-mole/figure13.png (PNG copy)> <../Ch
 -mole/figure15.png>]) (../Ch-mole/problems/SampleProblem10
@@ -6217,8 +6223,15 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--19
 ) (../Ch-mole/files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-m
 ass-of-a-chemical) (../Ch-mole/problems/SampleProblem2
-(../Ch-mole/problems/StudyCheck2) [3 <../Ch-mole/figure5.png> <../Ch-mole/figur
-e6.png> <../Ch-mole/figure7.png> <../Ch-mole/figure16.png (PNG copy)>])
+(../Ch-mole/problems/StudyCheck2)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-mole/figure7.png> <
+../Ch-mole/figure16.png (PNG copy)>])
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
 les-to-grams) (../Ch-mole/files/Figure-Mole-equivalency
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6247,7 +6260,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
 Underfull \vbox (badness 2772) has occurred while \output is active []
 
- [4])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-gr
 ams-to-atoms) (../Ch-mole/files/Figure-Mole-to-grams
 Overfull \hbox (0.82616pt too wide) in paragraph at lines 8--8
@@ -6267,8 +6287,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--12
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
-(../Ch-mole/files/SideFigure-Reactions
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]) (../Ch-mole/files/SideFigure-Reactions
 <../Ch-mole/figure8.png, id=222, 803.0pt x 890.32625pt>
 File: ../Ch-mole/figure8.png Graphic file (type png)
 <use ../Ch-mole/figure8.png>
@@ -6320,6 +6346,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [6 <../Ch-mole/figure8.png> <../Ch-mole/figure11.png (PNG copy)> <../Ch-mole/fi
 gure9.png (PNG copy)> <../Ch-mole/figure10.png (PNG copy)>]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
@@ -6341,22 +6373,48 @@ ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
  []
 
 (../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions)
-(../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5) [7])
-(../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions [8])
-(../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations)
+(../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]) (../Ch-mole/files/SubSection-Chemical-reaction-Five-types-of-reactions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-mole/files/SectionIntro-Stoichiometry-and-mass-calculations)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-rati
 o)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactants-to-p
 roducts)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactant-to-a-
 different-reactant) (../Ch-mole/problems/SampleProblem6
-(../Ch-mole/problems/StudyCheck6) [9])
+(../Ch-mole/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mass-calculati
 ons)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Molar-mass-rev
 iew)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles
--in-a-reaction [10])
+-in-a-reaction
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams
 -in-a-reaction
 Underfull \hbox (badness 3826) in paragraph at lines 1--2
@@ -6364,14 +6422,48 @@ Underfull \hbox (badness 3826) in paragraph at lines 1--2
  []
 
 ) (../Ch-mole/problems/SampleProblem7 (../Ch-mole/problems/StudyCheck7))
-(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent [11])
+(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11])
 (../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield)
-(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8) [12])
+(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 (../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagen
 t)
 (../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
--limiting-reagent [13]) (../Ch-mole/problems/SampleProblem9
-(../Ch-mole/problems/StudyCheck9) [14]) [15] [16
+-limiting-reagent
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]) (../Ch-mole/problems/SampleProblem9 (../Ch-mole/problems/StudyCheck9)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15] [16
 
 ]
 
@@ -6402,10 +6494,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 84366 strings out of 493014
- 1889004 string characters out of 6133351
- 3191482 words of memory out of 5000000
- 85854 multiletter control sequences out of 15000+600000
+ 84450 strings out of 493014
+ 1890775 string characters out of 6133351
+ 3198863 words of memory out of 5000000
+ 85938 multiletter control sequences out of 15000+600000
  189316 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,34n,104p,10596b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6436,7 +6528,7 @@ exlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on Ch-mole.pdf (16 pages, 21610775 bytes).
+Output written on Ch-mole.pdf (16 pages, 21630813 bytes).
 PDF statistics:
  382 PDF objects out of 1000 (max. 8388607)
  247 compressed objects within 3 object streams
