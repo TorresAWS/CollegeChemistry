@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2023 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5557,7 +5557,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count612
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5684.
+h' as default language. on input line 5725.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6088,6 +6088,12 @@ able/figure1.png>])
 le)
 (../Ch-Table/files/SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloid
 s) (../Ch-Table/problems/SampleProblem1 (../Ch-Table/problems/StudyCheck1)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2])
 (../Ch-Table/files/SubSection-The-periodic-table-Classification-of-elements-in-
 terms-of-groups)
@@ -6124,8 +6130,14 @@ Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
-) (../Ch-Table/files/SectionIntro-Early-experiments-the-atom [3])
-(../Ch-Table/files/Figure-Cathodic-rays
+) (../Ch-Table/files/SectionIntro-Early-experiments-the-atom
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]) (../Ch-Table/files/Figure-Cathodic-rays
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6174,24 +6186,43 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
 [] 
  []
 
-) (../Ch-Table/files/SubSection-Early-experiments-the-atom-TheElectron [4 <../C
-h-Table/figure1-8.jpg> <../Ch-Table/figure1-9.jpg> <../Ch-Table/figure1-10.jpg>
-]) (../Ch-Table/files/SubSection-Early-experiments-the-atom-The-Atom-Nucleus)
+) (../Ch-Table/files/SubSection-Early-experiments-the-atom-TheElectron
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <../Ch-Table/figure1-8.jpg> <../Ch-Table/figure1-9.jpg> <../Ch-Table/figure1
+-10.jpg>])
+(../Ch-Table/files/SubSection-Early-experiments-the-atom-The-Atom-Nucleus)
 (../Ch-Table/files/Figure-Rutherford
 Overfull \hbox (24.43173pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
 ) (../Ch-Table/files/SubSection-Early-experiments-the-atom-Radiation)
-(../Ch-Table/files/SectionIntro-The-atom) [5]
-(../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
+(../Ch-Table/files/SectionIntro-The-atom)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] (../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
 (../Ch-Table/files/Figure-Models-of-the-atom
 Overfull \hbox (6.83253pt too wide) in paragraph at lines 73--73
  [] 
  []
 
-) (../Ch-Table/files/SubSection-The-atom-Atomic-and-mass-number [6])
-(../Ch-Table/problems/SampleProblem2 (../Ch-Table/problems/StudyCheck2))
+) (../Ch-Table/files/SubSection-The-atom-Atomic-and-mass-number
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-Table/problems/SampleProblem2 (../Ch-Table/problems/StudyCheck2))
 (../Ch-Table/files/SubSection-The-atom-Isotopes)
 (../Ch-Table/files/Figure-Isotopes
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6212,13 +6243,26 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 125.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 125.
- [7])
-(../Ch-Table/files/SubSection-The-atom-Average-atomic-mass)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]) (../Ch-Table/files/SubSection-The-atom-Average-atomic-mass)
 (../Ch-Table/problems/SampleProblem3
 
 Package array Warning: Column Y is already defined on input line 9.
 
-(../Ch-Table/problems/StudyCheck3) [8]) (../Ch-Table/files/Figure-Mass-spectra
+(../Ch-Table/problems/StudyCheck3)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-Table/files/Figure-Mass-spectra
 PGFPlots: reading {../Ch-Table/files/MyData.txt}
 PGFPlots: reading {../Ch-Table/files/MyData.txt}
 
@@ -6226,8 +6270,14 @@ Overfull \hbox (13.01347pt too wide) in paragraph at lines 56--56
  [] 
  []
 
-) (../Ch-Table/files/SubSection-Mass-spectrometry [9])
-(../Ch-Table/files/Table-Isotopes
+) (../Ch-Table/files/SubSection-Mass-spectrometry
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (../Ch-Table/files/Table-Isotopes
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6251,6 +6301,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [10])
 (../Ch-Table/files/SubSection-An-introduction-to-molecules-Mass-percent-composi
 tion-of-a-compound) (../Ch-Table/problems/SampleProblem5
@@ -6265,6 +6321,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--7
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [11])
 (../Ch-Table/files/SubSection-Empirical-and-molecular-formula-of-a-chemical-Mol
 ecular-weight-of-empirical-formulas-and-molecular-formulas
@@ -6277,6 +6339,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12]) (../Ch-Table/files/SectionIntro-Determining-empirical-formulas)
 (../Ch-Table/files/SubSection-Determining-empirical-formulas-Calculating-molecu
 lar-formulas) (../Ch-Table/problems/SampleProblem8
@@ -6284,6 +6352,12 @@ lar-formulas) (../Ch-Table/problems/SampleProblem8
 Underfull \hbox (badness 10000) in paragraph at lines 1--24
 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [13])
 
@@ -6296,6 +6370,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
@@ -6315,10 +6395,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 85364 strings out of 493014
- 1904797 string characters out of 6133351
- 2961732 words of memory out of 5000000
- 86826 multiletter control sequences out of 15000+600000
+ 85443 strings out of 493014
+ 1906371 string characters out of 6133351
+ 2965421 words of memory out of 5000000
+ 86905 multiletter control sequences out of 15000+600000
  209152 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,28n,109p,10598b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6345,7 +6425,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Table.pdf (14 pages, 1219227 bytes).
+Output written on Ch-Table.pdf (14 pages, 1238111 bytes).
 PDF statistics:
  358 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
