@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2023 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5552,7 +5552,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count608
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5627.
+h' as default language. on input line 5670.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6088,6 +6088,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 103--103
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2] (../Ch-kinetics/problems/SampleProblem1
 (../Ch-kinetics/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
@@ -6095,9 +6101,30 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))) [3] [4] (../Ch-kinetics/problems/SampleProblem2
-(../Ch-kinetics/problems/StudyCheck2)) [5]
-(../Ch-kinetics/problems/SampleProblem3 (../Ch-kinetics/problems/StudyCheck3))
+)))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4] (../Ch-kinetics/problems/SampleProblem2
+(../Ch-kinetics/problems/StudyCheck2))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] (../Ch-kinetics/problems/SampleProblem3
+(../Ch-kinetics/problems/StudyCheck3))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6114,18 +6141,57 @@ Overfull \hbox (20.69014pt too wide) in paragraph at lines 251--262
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [6] (../Ch-kinetics/problems/SampleProblem4
 (../Ch-kinetics/problems/StudyCheck4))
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [7]
-(../Ch-kinetics/problems/SampleProblem5 (../Ch-kinetics/problems/StudyCheck5))
-(../Ch-kinetics/problems/SampleProblem6 (../Ch-kinetics/problems/StudyCheck6)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] (../Ch-kinetics/problems/SampleProblem5
+(../Ch-kinetics/problems/StudyCheck5)) (../Ch-kinetics/problems/SampleProblem6
+(../Ch-kinetics/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [8]) (../Ch-kinetics/problems/SampleProblem7
-(../Ch-kinetics/problems/StudyCheck7) [9] [10])
+(../Ch-kinetics/problems/StudyCheck7)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 320.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [11]
 Overfull \hbox (16.34056pt too wide) in paragraph at lines 335--336
@@ -6133,6 +6199,12 @@ Overfull \hbox (16.34056pt too wide) in paragraph at lines 335--336
  []
 
 (../Ch-kinetics/problems/SampleProblem8 (../Ch-kinetics/problems/StudyCheck8)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12])
 Overfull \hbox (16.34056pt too wide) in paragraph at lines 341--344
 []
@@ -6145,6 +6217,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [13]) (../Ch-kinetics/problems/SampleProblem10
 Underfull \hbox (badness 10000) in paragraph at lines 30--42
 
@@ -6165,7 +6243,20 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (../Ch-kinetics/problems/StudyCheck10)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [15]
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 414.
@@ -6182,8 +6273,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 421.
 
 (../Ch-kinetics/files/SectionIntro-Collision-theory)
-(../Ch-kinetics/files/Subsecion-Collision-theory [16])
-(../Ch-kinetics/files/Subsecion-Transition-state-and-activation-energy)
+(../Ch-kinetics/files/Subsecion-Collision-theory
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]) (../Ch-kinetics/files/Subsecion-Transition-state-and-activation-energy)
 (../Ch-kinetics/files/Figure-Transition-state-two-paths
 <../Ch-kinetics/delivery.png, id=330, 501.875pt x 501.875pt>
 File: ../Ch-kinetics/delivery.png Graphic file (type png)
@@ -6205,8 +6302,14 @@ Package pdftex.def Info: ../Ch-kinetics/home.png  used on input line 20.
 (pdftex.def)             Requested size: 7.10464pt x 7.10464pt.
 )
 (../Ch-kinetics/files/Subsecion-Effect-of-temperature)
-(../Ch-kinetics/files/Subsecion-Concentration-of-reactants [17 <../Ch-kinetics/
-delivery.png> <../Ch-kinetics/home.png>])
+(../Ch-kinetics/files/Subsecion-Concentration-of-reactants
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <../Ch-kinetics/delivery.png> <../Ch-kinetics/home.png>])
 (../Ch-kinetics/problems/SampleProblem11 (../Ch-kinetics/problems/StudyCheck11
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
@@ -6214,13 +6317,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
 )) (../Ch-kinetics/files/Figure-Collision-theory
 Missing character: There is no ; in font nullfont!
-) [18]
-(../Ch-kinetics/files/Subsecion-Catalyst)
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18] (../Ch-kinetics/files/Subsecion-Catalyst)
 (../Ch-kinetics/files/Figure-Energy-profile-catalys
 Missing character: There is no ; in font nullfont!
 )
-(../Ch-kinetics/files/Subsecion-Hetero-Catalyst [19])
-(../Ch-kinetics/files/Figure-catalyst-mechanism-steps
+(../Ch-kinetics/files/Subsecion-Hetero-Catalyst
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]) (../Ch-kinetics/files/Figure-catalyst-mechanism-steps
 Overfull \hbox (68.76025pt too wide) in paragraph at lines 4--48
 [][] 
  []
@@ -6229,7 +6344,14 @@ Overfull \hbox (68.76025pt too wide) in paragraph at lines 4--48
 (../Ch-kinetics/problems/StudyCheck12)
 Underfull \vbox (badness 1708) has occurred while \output is active []
 
- [20])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20])
 Overfull \hbox (171.82971pt too wide) in paragraph at lines 462--480
 [][] 
  []
@@ -6242,16 +6364,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-(../Ch-kinetics/problems/SampleProblem13 (../Ch-kinetics/problems/StudyCheck13)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21] (../Ch-kinetics/problems/SampleProblem13
+(../Ch-kinetics/problems/StudyCheck13)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [22]) (../Ch-kinetics/problems/SampleProblem14
-(../Ch-kinetics/problems/StudyCheck14) [23]) [24] [25]
+(../Ch-kinetics/problems/StudyCheck14)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
 Underfull \hbox (badness 1817) in paragraph at lines 580--581
 []\T1/ptm/m/n/10 (+20) Imagine we sug-gest a pos-si-ble
  []
 
 (../Ch-kinetics/problems/SampleProblem15 (../Ch-kinetics/problems/StudyCheck15)
-[26]) [27] [28
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27] [28
 
 ]
 
@@ -6282,10 +6451,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 85081 strings out of 493014
- 1900339 string characters out of 6133351
- 2718714 words of memory out of 5000000
- 86555 multiletter control sequences out of 15000+600000
+ 85184 strings out of 493014
+ 1902702 string characters out of 6133351
+ 2719693 words of memory out of 5000000
+ 86658 multiletter control sequences out of 15000+600000
  187961 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10437b,3007s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6320,7 +6489,7 @@ al/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ch-kinetics.pdf (28 pages, 731663 bytes).
+Output written on Ch-kinetics.pdf (28 pages, 768760 bytes).
 PDF statistics:
  653 PDF objects out of 1000 (max. 8388607)
  442 compressed objects within 5 object streams
