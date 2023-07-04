@@ -5724,11 +5724,12 @@ coordinate(-front-bottom-right) -- cycle;
   \renewcommand{#2}{\arabic{SavedRandom}}
 }
 
+ 
 %%%%%%%FRUITS CHATER FANCY HEADER
 \newcommand{\chapterfruit}{cherry} % apple orange lemon  cherry
 \newcommand{\chaptercolorheading}{red} % apple orange lemon  cherry
  \pagestyle{fancy}
-\newcommand{\X}{\phantom{X}} % Filler to define baseline of empty circles
+\newcommand{\Xfruit}{\phantom{X}} % Filler to define baseline of empty circles
 \fancyhf{}
 \DeclareRobustCommand{\bul}{\begin{tikzpicture}[baseline={(current bounding box.south)}]
 \fill [\chaptercolorheading!40,anchor=base,baseline] circle (1mm);
@@ -5743,15 +5744,15 @@ coordinate(-front-bottom-right) -- cycle;
 \fancyhead[RO]
 {\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
 \path pic[scale=0.5] () at (-1,0) {cherry}
-node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
+node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit} 
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
 node at (2,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage}; 
 \end{tikzpicture}}
 \fancyhead[LE]
 {\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
 \path node at (0,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
-node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X}
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit}
 pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 \end{tikzpicture}}
 %%%%%%%FRUITS CHATER FANCY HEADER
