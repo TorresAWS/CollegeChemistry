@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 JUN 2023 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5673,7 +5673,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count618
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5734.
+h' as default language. on input line 5775.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6625,6 +6625,12 @@ line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>])
 (../Ch-Gas/files/Figure-Pressure
 <../Ch-Gas/figure3.png, id=182, 906.38625pt x 1027.84pt>
@@ -6664,6 +6670,12 @@ Overfull \hbox (13.03993pt too wide) in paragraph at lines 82--83
  []
 
 ) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Measuring-pressure
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [3 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG 
 copy)>]) (../Ch-Gas/files/SideFigure-pressure-height
 Overfull \hbox (32.06654pt too wide) in paragraph at lines 65--66
@@ -6700,6 +6712,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 66--66
 
 (../Ch-Gas/files/SectionIntro-Ideal-gas-law)
 (../Ch-Gas/files/SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [4]) (../Ch-Gas/problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
@@ -6767,8 +6785,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
-(../Ch-Gas/problems/StudyCheck3) [5])
-(../Ch-Gas/files/SubSection-Ideal-gas-law-STP-conditions)
+(../Ch-Gas/problems/StudyCheck3)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]) (../Ch-Gas/files/SubSection-Ideal-gas-law-STP-conditions)
 (../Ch-Gas/problems/SampleProblem4
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
  [][] 
@@ -6795,8 +6819,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
  []
 
 (../Ch-Gas/problems/StudyCheck4))
-(../Ch-Gas/files/SectionIntro-Change-of-gas-properties [6])
-(../Ch-Gas/files/SideFigure-Boyles
+(../Ch-Gas/files/SectionIntro-Change-of-gas-properties
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-Gas/files/SideFigure-Boyles
 Missing character: There is no / in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -7511,7 +7541,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--5
 
  []
 
-) [7])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 (../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Volume-change)
 (../Ch-Gas/files/SideFigure-Gay
 Missing character: There is no / in font nullfont!
@@ -8198,7 +8235,14 @@ Overfull \hbox (13.03993pt too wide) in paragraph at lines 176--177
 
 ) (../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Temp-change)
 (../Ch-Gas/files/SubSection-Change-of-gas-properties-Pressure-Temperature-chang
-e [8]) (../Ch-Gas/files/SideFigure-Charles
+e
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-Gas/files/SideFigure-Charles
 Missing character: There is no / in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -9405,11 +9449,24 @@ Overfull \hbox (13.03993pt too wide) in paragraph at lines 168--169
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volum
 e)
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiomet
-ry-and-gases [9]) (../Ch-Gas/problems/SampleProblem6
-(../Ch-Gas/problems/StudyCheck6))
+ry-and-gases
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (../Ch-Gas/problems/SampleProblem6 (../Ch-Gas/problems/StudyCheck6))
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and
--total-pressure [10]) (../Ch-Gas/problems/SampleProblem7
-(../Ch-Gas/problems/StudyCheck7)) (../Ch-Gas/files/Figure-Partial-Pressure
+-total-pressure
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]) (../Ch-Gas/problems/SampleProblem7 (../Ch-Gas/problems/StudyCheck7))
+(../Ch-Gas/files/Figure-Partial-Pressure
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -9431,7 +9488,14 @@ Missing character: There is no ; in font nullfont!
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pre
 ssure-of-a-gas-in-a-mixture)
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fracti
-on [11]) (../Ch-Gas/problems/SampleProblem8 (../Ch-Gas/problems/StudyCheck8))
+on
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]) (../Ch-Gas/problems/SampleProblem8 (../Ch-Gas/problems/StudyCheck8))
 (../Ch-Gas/files/Figure-Gas-Collection-in-water
 <../Ch-Gas/figure8.png, id=279, 905.3825pt x 853.1875pt>
 File: ../Ch-Gas/figure8.png Graphic file (type png)
@@ -9456,6 +9520,12 @@ Overfull \hbox (2.07593pt too wide) in paragraph at lines 4--16
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12 <../Ch-Gas/figure8.png>])
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-
 gas-over-water
@@ -9463,11 +9533,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
-) (../Ch-Gas/problems/SampleProblem9 (../Ch-Gas/problems/StudyCheck9) [13])
-(../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
+) (../Ch-Gas/problems/SampleProblem9 (../Ch-Gas/problems/StudyCheck9)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]) (../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
-s-Kinetic-theory-of-gases [14]) (../Ch-Gas/problems/SampleProblem11
-(../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
+s-Kinetic-theory-of-gases
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]) (../Ch-Gas/problems/SampleProblem11 (../Ch-Gas/problems/StudyCheck11))
+(../Ch-Gas/files/Figure-Kinetic-theory
 Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
 [][] 
  []
@@ -9476,7 +9559,14 @@ Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-Distribution-of-velocities)
 (../Ch-Gas/files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-ga
-ses-) [15]
+ses-)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-Van-der-Waals-equation-for-real-gases) (../Ch-Gas/files/Table-Real-Gas
 
@@ -9491,7 +9581,21 @@ Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
 )
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-The-meaning-of-the-Van-der-Waals) (../Ch-Gas/problems/SampleProblem10
-(../Ch-Gas/problems/StudyCheck10) [16]) [17] [18
+(../Ch-Gas/problems/StudyCheck10)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17] [18
 
 ]
 
@@ -9522,10 +9626,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 85700 strings out of 493014
- 1918109 string characters out of 6133351
- 2965903 words of memory out of 5000000
- 87100 multiletter control sequences out of 15000+600000
+ 85777 strings out of 493014
+ 1919743 string characters out of 6133351
+ 2967017 words of memory out of 5000000
+ 87177 multiletter control sequences out of 15000+600000
  267881 words of font info for 340 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,109p,10574b,2954s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -9557,7 +9661,7 @@ ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Ch-Gas.pdf (18 pages, 4071973 bytes).
+Output written on Ch-Gas.pdf (18 pages, 4094766 bytes).
 PDF statistics:
  422 PDF objects out of 1000 (max. 8388607)
  283 compressed objects within 3 object streams
