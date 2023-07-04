@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2023 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5611.
+h' as default language. on input line 5652.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6160,6 +6160,12 @@ Underfull \hbox (badness 6708) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Depending on its frequency--or on its
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2 <../Ch-radiation/figure1-9.png> <../Ch-radiation/figure1-17.png (PNG copy)> 
 <../Ch-radiation/figure1-18.png (PNG copy)> <../Ch-radiation/figure1-19.png (PN
 G copy)>]
@@ -6243,15 +6249,33 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [3 <../Ch-radiation/figure1-10.png (PNG copy)> <../Ch-radiation/figure1-14.png 
 (PNG copy)> <../Ch-radiation/figure1-13.png (PNG copy)> <../Ch-radiation/figure
 1-12.png (PNG copy)> <../Ch-radiation/figure1-16.png> <../Ch-radiation/figure1-
 15.png (PNG copy)>])
 (../Ch-radiation/files/SubSection-The-nature-of-light-Frequency-and-energy)
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-speed-of-light
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [4])
 (../Ch-radiation/files/SubSection-The-nature-of-light-Wavelength-and-energy)
 (../Ch-radiation/problems/SampleProblem1 (../Ch-radiation/problems/StudyCheck1)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [5])
 (../Ch-radiation/files/SubSection-The-nature-of-light-Electron-Volt-a-new-unit-
 of-energy) (../Ch-radiation/files/Table-Workfunctions
@@ -6274,6 +6298,12 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 )
 (../Ch-radiation/files/SubSection-The-nature-of-light-The-photoelectric-effect
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [6]) (../Ch-radiation/problems/SampleProblem3
 (../Ch-radiation/problems/StudyCheck3))
 (../Ch-radiation/files/Figure-Photoelectric-effect
@@ -6291,6 +6321,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 50--50
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [7]) (../Ch-radiation/files/SectionIntro-The-atomic-line-spectra)
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Spectrum-of-atoms)
 (../Ch-radiation/files/Figure-Atomic-spectrum
@@ -6307,8 +6343,14 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 5--5
 )
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-atomic-line-spect
 raAtomic-line-spectrum-of-hydrogen)
-(../Ch-radiation/files/Figure-Spectrum-of-hydrogen [8 <../Ch-radiation/figure1-
-21.png>]
+(../Ch-radiation/files/Figure-Spectrum-of-hydrogen
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <../Ch-radiation/figure1-21.png>]
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <52> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6327,8 +6369,15 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 185--185
 
 ) (../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-Bohr-model)
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Energy-levels-of-hydr
-ogen) (../Ch-radiation/files/Figure-Energy-levels-of-hydrogen [9 <../Ch-radiati
-on/figure1-20.png>]) (../Ch-radiation/files/Table-Hydrogen-series
+ogen) (../Ch-radiation/files/Figure-Energy-levels-of-hydrogen
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <../Ch-radiation/figure1-20.png>])
+(../Ch-radiation/files/Table-Hydrogen-series
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 21.
@@ -6356,12 +6405,33 @@ Overfull \hbox (12.01175pt too wide) in paragraph at lines 3--28
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Bohns-formula-for-ene
 rgy-transitions) (../Ch-radiation/problems/SampleProblem4
-(../Ch-radiation/problems/StudyCheck4) [11])
+(../Ch-radiation/problems/StudyCheck4)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11])
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-The-wave-properties-o
-f-matter [12]) (../Ch-radiation/files/Figure-Debroglie
+f-matter
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]) (../Ch-radiation/files/Figure-Debroglie
 Overfull \hbox (259.77364pt too wide) in paragraph at lines 5--40
 [][] 
  []
@@ -6387,17 +6457,38 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 11--128
 
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
-e-uncertainty-principle [13 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-
-radiation/figure1-23.png (PNG copy)>]) (../Ch-radiation/problems/SampleProblem7
+e-uncertainty-principle
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png
+ (PNG copy)>]) (../Ch-radiation/problems/SampleProblem7
 (../Ch-radiation/problems/StudyCheck7))
 (../Ch-radiation/files/SectionIntro-Quantum-mechanics-and-electronic-structure)
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Qu
-antized-energy-and-continuum-energy) [14]
+antized-energy-and-continuum-energy)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
 e-Schrordinger)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
-e-wave-function:-orbitals) [15]
+e-wave-function:-orbitals)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
 bitals-are-described-by-three-quantum-numbers)
 (../Ch-radiation/files/Figure-Radial-distribution
@@ -6425,7 +6516,14 @@ Overfull \hbox (103.90787pt too wide) in paragraph at lines 2--143
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Pr
 incipal-quantum-number-n)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-An
-gular-quantum-number-l) [16]
+gular-quantum-number-l)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Ma
 gnetic-quantum-number-ml)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-A-
@@ -6452,6 +6550,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--28
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [17])
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Sh
 ells-and-subshells-or-levels-and-sublevels)
@@ -6462,8 +6566,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--157
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
 bital-labels) (../Ch-radiation/files/Figure-Shell-and-subshell)
-(../Ch-radiation/files/SectionIntro-Atomic-orbitals [18])
-(../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
+(../Ch-radiation/files/SectionIntro-Atomic-orbitals
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]) (../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
 Underfull \hbox (badness 1803) in paragraph at lines 1--166
 \T1/ptm/m/n/10 (+20) elec-tron lo-ca-tion is de-scribed in terms of prob-a-bil-
 ity. An or-bital is a three-
@@ -6495,7 +6605,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--166
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-En
 ergylevels) (../Ch-radiation/problems/SampleProblem8
-(../Ch-radiation/problems/StudyCheck8) [19])
+(../Ch-radiation/problems/StudyCheck8)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19])
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-En
 ergy-sublevels)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-or
@@ -6515,14 +6632,28 @@ Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
 
 )
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-d-
-and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d [20]
+and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
 Overfull \hbox (23.70767pt too wide) in paragraph at lines 49--49
  [] 
  []
 
 ) (../Ch-radiation/files/SectionIntro-Electronic-configuration-of-an-atom)
 (../Ch-radiation/files/SubSection-Electronic-configuration-Orbital-Filling-the-
-aufbau-principle) [21]
+aufbau-principle)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
 (../Ch-radiation/files/SubSection-Electronic-configuration-Full-electron-Config
 uration) (../Ch-radiation/files/SideFigure-Orbital-filling-diagram
 Missing character: There is no * in font nullfont!
@@ -6565,20 +6696,44 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 19.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 19.
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [22]) (../Ch-radiation/problems/SampleProblem10
 (../Ch-radiation/problems/StudyCheck10))
-(../Ch-radiation/files/SubSection-Electronic-configuration-Hunds-rule [23])
-(../Ch-radiation/problems/SampleProblem12
-(../Ch-radiation/problems/StudyCheck12) [24])
-(../Ch-radiation/files/SectionIntro-Monoatomic-ions)
+(../Ch-radiation/files/SubSection-Electronic-configuration-Hunds-rule
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]) (../Ch-radiation/problems/SampleProblem12
+(../Ch-radiation/problems/StudyCheck12)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]) (../Ch-radiation/files/SectionIntro-Monoatomic-ions)
 (../Ch-radiation/files/Subsection-Monoatomic-ions-cations)
 (../Ch-radiation/files/Figure-Cations
 Overfull \hbox (17.80748pt too wide) in paragraph at lines 112--112
  [] 
  []
 
-) (../Ch-radiation/files/Subsection-Monoatomic-ions-anions [25])
-(../Ch-radiation/files/Figure-anions
+) (../Ch-radiation/files/Subsection-Monoatomic-ions-anions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]) (../Ch-radiation/files/Figure-anions
 Overfull \hbox (19.9995pt too wide) in paragraph at lines 110--110
  [] 
  []
@@ -6596,20 +6751,39 @@ Overfull \hbox (19.9995pt too wide) in paragraph at lines 110--110
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 17.
 
-) [26] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
 (../Ch-radiation/files/Figure-Atomic-radius)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge
 Underfull \vbox (badness 4819) has occurred while \output is active []
 
- [27])
-(../Ch-radiation/files/Figure-Atomic-radius-plot)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]) (../Ch-radiation/files/Figure-Atomic-radius-plot)
 (../Ch-radiation/files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-) (../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius) [28]
-(../Ch-radiation/files/Figure-Ionization-energy-plot
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Atomic-radius)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28] (../Ch-radiation/files/Figure-Ionization-energy-plot
 \AxisA=\box314
 \Axisb=\box315
 )
@@ -6618,7 +6792,14 @@ Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--224
  []
 
 (../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy)
-(../Ch-radiation/files/Figure-Periodic-propeties [29]
+(../Ch-radiation/files/Figure-Periodic-propeties
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6675,15 +6856,41 @@ Overfull \hbox (144.22401pt too wide) in paragraph at lines 34--34
 [][][][][]  
  []
 
-) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity) [30]
-(../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
+) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30] (../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character)
 (../Ch-radiation/problems/SampleProblem11
-(../Ch-radiation/problems/StudyCheck11) [31])
-(../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
+(../Ch-radiation/problems/StudyCheck11)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]) (../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
 (../Ch-radiation/files/Figure-Photoelectron)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of
--atoms) (../Ch-radiation/files/Figure-PES-spectra [32]) [33]
+-atoms) (../Ch-radiation/files/Figure-PES-spectra
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6715,10 +6922,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 86948 strings out of 493014
- 1955761 string characters out of 6133351
- 3074199 words of memory out of 5000000
- 88077 multiletter control sequences out of 15000+600000
+ 87048 strings out of 493014
+ 1958161 string characters out of 6133351
+ 3075207 words of memory out of 5000000
+ 88177 multiletter control sequences out of 15000+600000
  301398 words of font info for 394 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,121p,10606b,2492s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6762,7 +6969,7 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-radiation.pdf (33 pages, 4442575 bytes).
+Output written on Ch-radiation.pdf (33 pages, 4489211 bytes).
 PDF statistics:
  744 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
