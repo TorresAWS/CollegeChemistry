@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2023 07:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5673,7 +5673,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count618
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5734.
+h' as default language. on input line 5776.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6218,6 +6218,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-m
 easurements/figure1.png>]) (../Ch-measurements/files/SectionIntro-scientific-no
 tation
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2]
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <5> not avail
 able
@@ -6247,8 +6253,14 @@ Overfull \hbox (6.97276pt too wide) in paragraph at lines 34--34
  [] 
  []
 
-) (../Ch-measurements/files/SectionIntro-graphs) [3]
-(../Ch-measurements/files/SideFigure-Measurements
+) (../Ch-measurements/files/SectionIntro-graphs)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] (../Ch-measurements/files/SideFigure-Measurements
 <../Ch-measurements/figure1-1.png, id=214, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
@@ -6319,9 +6331,16 @@ ts)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Time)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Volume [4 <../Ch-measurements/figure1-1.png (PNG copy)> <../Ch-measurements/fi
-gure1-2.png (PNG copy)> <../Ch-measurements/figure1-15.png> <../Ch-measurements
-/figure1-16.png> <../Ch-measurements/figure1-17.png (PNG copy)>])
+-Volume
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <../Ch-measurements/figure1-1.png (PNG copy)> <../Ch-measurements/figure1-2.
+png (PNG copy)> <../Ch-measurements/figure1-15.png> <../Ch-measurements/figure1
+-16.png> <../Ch-measurements/figure1-17.png (PNG copy)>])
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Concentration) (../Ch-measurements/problems/SampleProblem1
 (../Ch-measurements/problems/StudyCheck1))
@@ -6342,12 +6361,24 @@ Overfull \hbox (48.10655pt too wide) in paragraph at lines 5--78
 [][] 
  []
 
-(../Ch-measurements/files/SectionIntro-Significant-Figures) [5]
-(../Ch-measurements/files/SubSection-Significant-Figures-Measuring-scales)
+(../Ch-measurements/files/SectionIntro-Significant-Figures)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] (../Ch-measurements/files/SubSection-Significant-Figures-Measuring-scales)
 (../Ch-measurements/files/Figure-rulers)
 (../Ch-measurements/files/SubSection-Significant-Figures-Reading-meniscus)
-(../Ch-measurements/files/Figure-meniscus [6])
-(../Ch-measurements/files/SubSection-Significant-Figures-Exact-numbers)
+(../Ch-measurements/files/Figure-meniscus
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-measurements/files/SubSection-Significant-Figures-Exact-numbers)
 (../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-of
 -numbers
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
@@ -6362,17 +6393,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) [7])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 (../Ch-measurements/files/SubSection-Significant-Figures-Significant-figures-in
 -calculations) (../Ch-measurements/problems/SampleProblem9
-(../Ch-measurements/problems/StudyCheck9) [8])
-(../Ch-measurements/files/SubSection-Significant-Figures-Rounding)
+(../Ch-measurements/problems/StudyCheck9)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-measurements/files/SubSection-Significant-Figures-Rounding)
 (../Ch-measurements/files/Table-Prefixes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 38.
 
-) (../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors [9])
+) (../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
 y-prefixes)
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
@@ -6383,7 +6434,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--1
 
  []
 
-) [10]) (../Ch-measurements/files/SectionIntro-Using-Conversion-Factors)
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]) (../Ch-measurements/files/SectionIntro-Using-Conversion-Factors)
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Removing-or-addin
 g-prefixes) (../Ch-measurements/problems/SampleProblem3
 (../Ch-measurements/problems/StudyCheck3
@@ -6393,19 +6451,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
 ))
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
-s [11]) (../Ch-measurements/problems/SampleProblem4
+s
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/problems/StudyCheck4))
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
 nits) (../Ch-measurements/problems/SampleProblem5
-(../Ch-measurements/problems/StudyCheck5) [12])
-(../Ch-measurements/files/Table-Common-units
+(../Ch-measurements/problems/StudyCheck5)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]) (../Ch-measurements/files/Table-Common-units
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 9.
 
 ) (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume
 ) (../Ch-measurements/problems/SampleProblem6
-(../Ch-measurements/problems/StudyCheck6) [13])
+(../Ch-measurements/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13])
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
 ities) (../Ch-measurements/files/Figure-Cuve-of-Cubes
 Missing character: There is no ; in font nullfont!
@@ -8411,8 +8489,14 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
 (../Ch-measurements/problems/SampleProblem7
-(../Ch-measurements/problems/StudyCheck7) [14])
-(../Ch-measurements/files/SectionIntro-Measurement-Uncertainty)
+(../Ch-measurements/problems/StudyCheck7)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]) (../Ch-measurements/files/SectionIntro-Measurement-Uncertainty)
 (../Ch-measurements/files/SubSection-Measurement-Uncertainty-digits
 Overfull \hbox (16.34056pt too wide) in paragraph at lines 1--2
 []
@@ -8452,11 +8536,23 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-(../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision [15])
-(../Ch-measurements/files/Figure-Targets-and-precision
+(../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]) (../Ch-measurements/files/Figure-Targets-and-precision
 Missing character: There is no ; in font nullfont!
 )
 (../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [16]) (../Ch-measurements/problems/SampleProblem13
 Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
  [] 
@@ -8464,7 +8560,14 @@ Overfull \hbox (2.4996pt too wide) in paragraph at lines 21--21
 
 (../Ch-measurements/problems/StudyCheck13))
 (../Ch-measurements/files/SectionIntro-Matter-and-density)
-(../Ch-measurements/files/Figure-Matter [17]
+(../Ch-measurements/files/Figure-Matter
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
 <../Ch-measurements/figure1-14.png, id=352, 1026.83624pt x 684.5575pt>
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 <use ../Ch-measurements/figure1-14.png>
@@ -8501,10 +8604,16 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 4--47
 
 ) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
 (../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
-tures) (../Ch-measurements/files/Figure-States-of-matter [18 <../Ch-measurement
-s/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-12.png (PNG copy)> <..
-/Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measurements/figure1-13.png 
-(PNG copy)>]
+tures) (../Ch-measurements/files/Figure-States-of-matter
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <../Ch-measurements/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-
+12.png (PNG copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measur
+ements/figure1-13.png (PNG copy)>]
 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=364, 276.03
 125pt x 183.68625pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg Graphic fi
@@ -8572,16 +8681,29 @@ Overfull \hbox (61.36517pt too wide) in paragraph at lines 54--55
 )
 Underfull \vbox (badness 2478) has occurred while \output is active []
 
- [19 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-me
-asurements/files/../../Ch-measurements/figure1-22.png> <../Ch-measurements/file
-s/../../Ch-measurements/figure1-20.jpeg> <../Ch-measurements/files/../../Ch-mea
-surements/figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figur
-e1-21.jpeg> <../Ch-measurements/files/../../Ch-measurements/figure1-24.png>]
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg> <../Ch-mea
+surements/files/../../Ch-measurements/figure1-22.png> <../Ch-measurements/files
+/../../Ch-measurements/figure1-20.jpeg> <../Ch-measurements/files/../../Ch-meas
+urements/figure1-23.png> <../Ch-measurements/files/../../Ch-measurements/figure
+1-21.jpeg> <../Ch-measurements/files/../../Ch-measurements/figure1-24.png>]
 (../Ch-measurements/files/SubSection-Matter-and-density-Separation
 Underfull \vbox (badness 1824) has occurred while \output is active []
 
- [20])
-(../Ch-measurements/files/SubSection-Matter-and-density-Density)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]) (../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
 
@@ -8591,8 +8713,14 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(../Ch-measurements/files/Figure-density
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]) (../Ch-measurements/files/Figure-density
 <../Ch-measurements/ice.png, id=419, 106.67052pt x 47.48138pt>
 File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
@@ -8634,6 +8762,12 @@ Overfull \hbox (5.17972pt too wide) in paragraph at lines 59--60
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [22 <../Ch-measurements/ice.png> <../Ch-measurements/cork.jpeg> <../Ch-measurem
 ents/al.jpeg> <../Ch-measurements/pb.jpeg> <../Ch-measurements/Image-Glass-with
 -three-liquids.png>])
@@ -8670,6 +8804,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
  []
 
 )) (../Ch-measurements/files/SubSection-Matter-and-density-Specific-gravity)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [23 <../Ch-measurements/hydrometer.jpeg> <../Ch-measurements/peestick.jpeg>]
 [24
 
@@ -8702,10 +8842,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 85606 strings out of 493014
- 1920441 string characters out of 6133351
- 3858332 words of memory out of 5000000
- 86832 multiletter control sequences out of 15000+600000
+ 85684 strings out of 493014
+ 1922220 string characters out of 6133351
+ 3866026 words of memory out of 5000000
+ 86910 multiletter control sequences out of 15000+600000
  202039 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8739,7 +8879,7 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (24 pages, 19914838 bytes).
+Output written on Ch-measurements.pdf (24 pages, 19946094 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  402 compressed objects within 5 object streams
