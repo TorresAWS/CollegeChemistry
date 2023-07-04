@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 FEB 2023 06:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5540,36 +5540,24 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 \c@@LCDlower=\count605
 )
 \templength=\skip343
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
-Package: lcg 2013/08/09 v1.3 generating random numbers
-\f@rst=\count606
-\l@st=\count607
-\cr@nd=\count608
-\c@rand=\count609
-
-Smallest possible random number: 1
-Largest possible random number: 2147483647
-The pseudo random numbers will be stored in the LaTeX counter `rand'
-)
-\c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5624.
+h' as default language. on input line 5637.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
- (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
 (CN)
 \l__chemformula_tmpa_dim=\dimen559
 \l__chemformula_tmpb_dim=\dimen560
 \l__chemformula_tmpc_dim=\dimen561
-\l__chemformula_tmpa_int=\count611
-\l__chemformula_tmpb_int=\count612
-\l__chemformula_tmpc_int=\count613
+\l__chemformula_tmpa_int=\count606
+\l__chemformula_tmpb_int=\count607
+\l__chemformula_tmpc_int=\count608
 \l__chemformula_tmpa_box=\box290
 \l__chemformula_tmpb_box=\box291
 \l__chemformula_arrow_length_dim=\dimen562
@@ -5602,8 +5590,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen589
 \l__chemformula_stoich_space_skip=\skip344
 \l__chemformula_math_space_skip=\skip345
-\l__chemformula_count_tokens_int=\count614
-\g__chemformula_lewis_int=\count615
+\l__chemformula_count_tokens_int=\count609
+\g__chemformula_lewis_int=\count610
 \l__chemformula_arrow_arg_i_box=\box292
 \l__chemformula_arrow_arg_ii_box=\box293
 \l__chemformula_superscript_box=\box294
@@ -5878,16 +5866,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count616
+\scratchcounter=\count611
 \scratchdimen=\dimen590
 \scratchbox=\box297
-\nofMPsegments=\count617
-\nofMParguments=\count618
+\nofMPsegments=\count612
+\nofMParguments=\count613
 \everyMPshowfont=\toks86
-\MPscratchCnt=\count619
+\MPscratchCnt=\count614
 \MPscratchDim=\dimen591
-\MPnumerator=\count620
-\makeMPintoPDFobject=\count621
+\MPnumerator=\count615
+\makeMPintoPDFobject=\count616
 \everyMPtoPDFconversion=\toks87
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -5916,9 +5904,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@lstlisting=\count622
-\c@mv@tabular=\count623
-\c@mv@boldtabular=\count624
+\c@lstlisting=\count617
+\c@mv@tabular=\count618
+\c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -6158,9 +6146,15 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
 [] 
  []
 
-) (../Ch-solutions/files/Subsection-Solutions-and-colloids-Colloids [2 <../Ch-s
-olutions/seawater.jpg> <../Ch-solutions/muddywater.jpg> <../Ch-solutions/milk.j
-pg> <../Ch-solutions/tyndall1.png> <../Ch-solutions/tyndall3.jpeg>])
+) (../Ch-solutions/files/Subsection-Solutions-and-colloids-Colloids
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <../Ch-solutions/seawater.jpg> <../Ch-solutions/muddywater.jpg> <../Ch-solut
+ions/milk.jpg> <../Ch-solutions/tyndall1.png> <../Ch-solutions/tyndall3.jpeg>])
 (../Ch-solutions/files/Table-Colloids
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -6176,6 +6170,12 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <6> not available
  (../Ch-solutions/files/Subsection-Units-of-concentration-Molarity)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Mole-fraction)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Percent-by-mass
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [3]) (../Ch-solutions/files/Subsection-Units-of-concentration-Molality)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Density)
 (../Ch-solutions/problems/SampleProblem1
@@ -6198,6 +6198,12 @@ line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [4])
 (../Ch-solutions/files/Subsection-Units-of-concentration-Why-relating-units-of-
 concentration)
@@ -6207,6 +6213,12 @@ concentration)
 Overfull \hbox (19.95508pt too wide) in paragraph at lines 1--2
 []
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [5]) (../Ch-solutions/files/Figure-diagram-molarity-molalilty
 Overfull \hbox (50.75781pt too wide) in paragraph at lines 3--17
@@ -6225,7 +6237,14 @@ Overfull \hbox (3.73972pt too wide) detected at line 14
 \OML/lmm/m/it/10 ^^_ \OT1/zplm/m/n/10 = [] = [] = \OT1/lmr/m/n/10 0.03
  []
 
-(../Ch-solutions/problems/StudyCheck2) [6])
+(../Ch-solutions/problems/StudyCheck2)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
 (../Ch-solutions/files/Subsection-Units-of-concentration-Compute-molecular-mass
 es-from-m-and-M
 Underfull \hbox (badness 3838) in paragraph at lines 1--2
@@ -6235,14 +6254,27 @@ Underfull \hbox (badness 3838) in paragraph at lines 1--2
 ) (../Ch-solutions/problems/SampleProblem3
 (../Ch-solutions/problems/StudyCheck3))
 (../Ch-solutions/files/SectionIntro-Solutions-of-electrolytes-and-effective-sol
-ute-particles [7])
+ute-particles
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
 e-particles-Strong-and-non-electrolytes)
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
 e-particles-Non-electrolytes)
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Breaking-down-electrolytes-into-ions [8])
-(../Ch-solutions/problems/SampleProblem4
+e-particles-Breaking-down-electrolytes-into-ions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-solutions/problems/SampleProblem4
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -6253,11 +6285,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [9])
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
 e-particles-Vant-Hoff-factor-i) (../Ch-solutions/problems/SampleProblem5
-(../Ch-solutions/problems/StudyCheck5) [10])
-(../Ch-solutions/files/SectionIntro-Colligative-properties)
+(../Ch-solutions/problems/StudyCheck5)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]) (../Ch-solutions/files/SectionIntro-Colligative-properties)
 (../Ch-solutions/files/Figure-Colligative-properties-phase-diagram
 Package pgfplots info on input line 14: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
@@ -6348,9 +6392,16 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 
 )
 (../Ch-solutions/files/Subsection-Colligative-properties-Boiling-point-elevatio
-n [11 <../Ch-solutions/Saltingstreets.jpg> <../Ch-solutions/ethyleneglycol.jpg>
- <../Ch-solutions/perfumesalts.png> <../Ch-solutions/saltfish.jpeg> <../Ch-solu
-tions/pastasalt.jpeg>])
+n
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <../Ch-solutions/Saltingstreets.jpg> <../Ch-solutions/ethyleneglycol.jpg> <
+../Ch-solutions/perfumesalts.png> <../Ch-solutions/saltfish.jpeg> <../Ch-soluti
+ons/pastasalt.jpeg>])
 (../Ch-solutions/files/Subsection-Colligative-properties-Freezing-point-depress
 ion) (../Ch-solutions/files/Table-Colligative
 
@@ -6362,19 +6413,50 @@ Overfull \hbox (14.31372pt too wide) in paragraph at lines 4--22
  [] 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12]) (../Ch-solutions/problems/SampleProblem6
-(../Ch-solutions/problems/StudyCheck6) [13])
+(../Ch-solutions/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13])
 (../Ch-solutions/files/Subsection-Colligative-properties-Vapor-pressure-lowerin
 g) (../Ch-solutions/problems/SampleProblem7
-(../Ch-solutions/problems/StudyCheck7) [14])
-(../Ch-solutions/files/Figure-Vapor-pressure-liquids)
+(../Ch-solutions/problems/StudyCheck7)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]) (../Ch-solutions/files/Figure-Vapor-pressure-liquids)
 (../Ch-solutions/files/Subsection-Colligative-properties-Ideal-and-real-mixture
-s) (../Ch-solutions/files/Subsection-Colligative-properties-Osmosis [15])
-(../Ch-solutions/files/Figure-Osmosis)
+s) (../Ch-solutions/files/Subsection-Colligative-properties-Osmosis
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]) (../Ch-solutions/files/Figure-Osmosis)
 (../Ch-solutions/files/Subsection-Colligative-properties-Isotonic-hypotonic-and
 -hypertonic-solutions)
 (../Ch-solutions/files/Subsection-Colligative-properties-Dialisis)
 (../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [16]) (../Ch-solutions/files/SideFigure-dialisis
 <../Ch-solutions/redcell1.jpeg, id=320, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
@@ -6408,8 +6490,15 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
 
 ) (../Ch-solutions/files/Subsection-Colligative-properties-Osmolarity)
 (../Ch-solutions/files/Subsection-Colligative-properties-Colligative-properties
--review [17 <../Ch-solutions/redcell1.jpeg> <../Ch-solutions/redcell2.jpeg> <..
-/Ch-solutions/dialysis.jpeg>])
+-review
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <../Ch-solutions/redcell1.jpeg> <../Ch-solutions/redcell2.jpeg> <../Ch-solu
+tions/dialysis.jpeg>])
 (../Ch-solutions/files/Subsection-Colligative-properties-Graphical-method-to-ca
 lculate-colligative-constants) (../Ch-solutions/problems/SampleProblem8
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6430,13 +6519,34 @@ Overfull \hbox (17.31357pt too wide) in paragraph at lines 16--3
 []
  []
 
-) [18])
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18])
 (../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
 perties-to-calclate-alpha) (../Ch-solutions/problems/SampleProblem9
-(../Ch-solutions/problems/StudyCheck9) [19])
+(../Ch-solutions/problems/StudyCheck9)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19])
 (../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
 perties-to-calculate-MW) (../Ch-solutions/problems/SampleProblem10
-(../Ch-solutions/problems/StudyCheck10) [20])
+(../Ch-solutions/problems/StudyCheck10)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20])
 (../Ch-solutions/files/SectionIntro-Factors-affecting-the-solubility-of-solids-
 and-gases)
 (../Ch-solutions/files/Subsection-Factors-affecting-the-solubility-of-solids-an
@@ -6454,6 +6564,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [21]) (../Ch-solutions/problems/SampleProblem11
 (../Ch-solutions/problems/StudyCheck11))
 
@@ -6466,6 +6582,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ Package `movie15' is obsolete and @@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
@@ -6488,10 +6610,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84667 strings out of 493014
- 1904412 string characters out of 6133351
- 2670369 words of memory out of 5000000
- 86032 multiletter control sequences out of 15000+600000
+ 84720 strings out of 493014
+ 1905957 string characters out of 6133351
+ 2671891 words of memory out of 5000000
+ 86089 multiletter control sequences out of 15000+600000
  179956 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,135p,10606b,2909s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6521,7 +6643,7 @@ s/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb>
-Output written on Ch-solutions.pdf (22 pages, 5976850 bytes).
+Output written on Ch-solutions.pdf (22 pages, 6007066 bytes).
 PDF statistics:
  466 PDF objects out of 1000 (max. 8388607)
  327 compressed objects within 4 object streams
