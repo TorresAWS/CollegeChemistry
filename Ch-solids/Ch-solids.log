@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5450,7 +5450,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count576
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5610.
+h' as default language. on input line 5651.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6069,9 +6069,16 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-) (../Ch-solids/files/Subsection-Intermolecular-forces-Dipole-forces [2 <../Ch-
-solids/figure17.png (PNG copy)> <../Ch-solids/figure18.png (PNG copy)> <../Ch-s
-olids/figure19.png (PNG copy)>]) (../Ch-solids/files/Figure-Dipole-forces
+) (../Ch-solids/files/Subsection-Intermolecular-forces-Dipole-forces
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <../Ch-solids/figure17.png (PNG copy)> <../Ch-solids/figure18.png (PNG copy)
+> <../Ch-solids/figure19.png (PNG copy)>])
+(../Ch-solids/files/Figure-Dipole-forces
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 71--71
  [] 
  []
@@ -6082,11 +6089,17 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 ) (../Ch-solids/files/Subsection-Intermolecular-forces-Hydrogen-bonds)
-(../Ch-solids/problems/SampleProblem1 [3]
+(../Ch-solids/problems/SampleProblem1
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 18.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
 (../Ch-solids/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
@@ -6096,8 +6109,14 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 )))
 (../Ch-solids/files/Subsection-Intermolecular-forces-Intermolecular-forces-and-
 boiling) (../Ch-solids/problems/SampleProblem2
-(../Ch-solids/problems/StudyCheck2) [4])
-(../Ch-solids/files/SectionIntro-The-solid-state)
+(../Ch-solids/problems/StudyCheck2)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]) (../Ch-solids/files/SectionIntro-The-solid-state)
 (../Ch-solids/files/SideFigure-Amorphous-crystalline-solids
 <../Ch-solids/figure2.png, id=202, 642.4pt x 401.5pt>
 File: ../Ch-solids/figure2.png Graphic file (type png)
@@ -6147,8 +6166,15 @@ Package pdftex.def Info: ../Ch-solids/figure20.png  used on input line 58.
 (pdftex.def)             Requested size: 355.65532pt x 266.74149pt.
 )
 (../Ch-solids/files/Subsection-The-solid-state-Crystalline-lattice-the-unit-cel
-l [5 <../Ch-solids/figure2.png> <../Ch-solids/figure3.png> <../Ch-solids/figure
-4.png> <../Ch-solids/figure6.png> <../Ch-solids/figure20.png (PNG copy)>])
+l
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <../Ch-solids/figure2.png> <../Ch-solids/figure3.png> <../Ch-solids/figure4.
+png> <../Ch-solids/figure6.png> <../Ch-solids/figure20.png (PNG copy)>])
 (../Ch-solids/files/Subsection-The-solid-state-Types-of-crystalline-solids)
 (../Ch-solids/problems/SampleProblem3 (../Ch-solids/problems/StudyCheck3)
 Underfull \hbox (badness 2875) in paragraph at lines 16--33
@@ -6476,8 +6502,14 @@ Overfull \hbox (253.77364pt too wide) in paragraph at lines 4--66
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-(../Ch-solids/files/SectionIntro-Metals-and-ionic-solids)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-solids/files/SectionIntro-Metals-and-ionic-solids)
 (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Closed-packing-of-metals
 ) (../Ch-solids/files/Table-unit-cell-parameters-sharing-factors
 
@@ -6491,7 +6523,14 @@ Overfull \hbox (81.25519pt too wide) in paragraph at lines 3--15
 
 )
 (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Atom-sharing-in-unit-cel
-ls [7 <../Ch-solids/water.png>]) (../Ch-solids/files/Figure-Metallic-unit-cells
+ls
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <../Ch-solids/water.png>]) (../Ch-solids/files/Figure-Metallic-unit-cells
 LaTeX Font Info:    Calculating math sizes for size <24> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <24> on input line 28.
@@ -6530,14 +6569,32 @@ Overfull \hbox (15.33957pt too wide) in paragraph at lines 4--44
 ) (../Ch-solids/problems/SampleProblem4 (../Ch-solids/problems/StudyCheck4)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-unit-cells)
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Cell-parameter [9])
-(../Ch-solids/files/Figure-Metallic-triangle)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-unit-cells)
+(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Cell-parameter
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (../Ch-solids/files/Figure-Metallic-triangle)
 (../Ch-solids/problems/SampleProblem5 (../Ch-solids/problems/StudyCheck5))
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-density [10])
-(../Ch-solids/problems/SampleProblem6 (../Ch-solids/problems/StudyCheck6))
-(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Ionic-solids)
+(../Ch-solids/files/Subsection-Metals-and-ionic-solids-Metal-density
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]) (../Ch-solids/problems/SampleProblem6 (../Ch-solids/problems/StudyCheck6)
+) (../Ch-solids/files/Subsection-Metals-and-ionic-solids-Ionic-solids)
 (../Ch-solids/problems/SampleProblem7 (../Ch-solids/problems/StudyCheck7
 Underfull \hbox (badness 1616) in paragraph at lines 97--3
 \T1/ppl/m/n/10 The unit cell con-tains $[][][]$ and $[][][]$. Re-mem-ber ev-ery
@@ -6562,7 +6619,14 @@ Underfull \hbox (badness 3657) in paragraph at lines 97--3
 
  []
 
-) [11]) (../Ch-solids/files/Figure-X-ray-difraction
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]) (../Ch-solids/files/Figure-X-ray-difraction
 LaTeX Font Info:    Try loading font information for TS1+ppl on input line 89.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
@@ -6581,7 +6645,14 @@ Overfull \hbox (11.99606pt too wide) in paragraph at lines 4--89
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 94--86
 [][] 
  []
@@ -6592,9 +6663,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--3
  []
 
 ) (../Ch-solids/problems/SampleProblem8 (../Ch-solids/problems/StudyCheck8))
-(../Ch-solids/files/SectionIntro-Liquid-state [13 <../Ch-solids/figure16.png (P
-NG copy)>]) (../Ch-solids/files/Figure-Liquids)
-(../Ch-solids/files/SideFigure-Liquids
+(../Ch-solids/files/SectionIntro-Liquid-state
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <../Ch-solids/figure16.png (PNG copy)>]) (../Ch-solids/files/Figure-Liquids
+) (../Ch-solids/files/SideFigure-Liquids
 <../Ch-solids/figure7.png, id=286, 865.73438pt x 1292.57906pt>
 File: ../Ch-solids/figure7.png Graphic file (type png)
 <use ../Ch-solids/figure7.png>
@@ -6658,6 +6735,12 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 Overfull \hbox (12.67639pt too wide) in paragraph at lines 4--16
  [] 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [14 <../Ch-solids/figure7.png (PNG copy)> <../Ch-solids/figure8.png (PNG copy)>
  <../Ch-solids/figure9.png (PNG copy)> <../Ch-solids/figure10.png (PNG copy)> <
@@ -6728,6 +6811,12 @@ Underfull \hbox (badness 3428) in paragraph at lines 2--1
 []\T1/ppl/m/n/10 The en-thalpy of va-por-iza-tion of a liq-uid
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [15 <../Ch-solids/figure12.png (PNG copy)> <../Ch-solids/figure13.png (PNG copy
 )> <../Ch-solids/figure14.png (PNG copy)>]
 
@@ -6764,6 +6853,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 []\T1/ppl/m/n/10 This va-por pres-sure
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [16]) (../Ch-solids/files/Figure-vapor-pressure
 PGFPlots: reading {../Ch-solids/data1.dat}
 PGFPlots: reading {../Ch-solids/data2.dat}
@@ -6774,6 +6869,12 @@ Overfull \hbox (26.95457pt too wide) in paragraph at lines 47--47
  []
 
 ) (../Ch-solids/problems/SampleProblem9 (../Ch-solids/problems/StudyCheck9)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [17]) (../Ch-solids/files/Figure-Phase-diagram1
 Package pgfplots info on input line 15: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
@@ -6807,7 +6908,14 @@ Package pgfplots info on input line 42: Setting layers 'axis background,pre mai
 n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
 foreground'...
 )
-(../Ch-solids/files/SectionIntro-Phase-diagrams [18])
+(../Ch-solids/files/SectionIntro-Phase-diagrams
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18])
 (../Ch-solids/files/Subsection-Phase-diagrams-Description-of-a-Phase-diagram)
 (../Ch-solids/files/Subsection-Phase-diagrams-Normal-conditions)
 (../Ch-solids/files/Subsection-Phase-diagrams-Phase-transition-terminology)
@@ -6835,8 +6943,14 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 40--40
 
 Underfull \vbox (badness 3612) has occurred while \output is active []
 
- [19])
-(../Ch-solids/files/Subsection-Phase-diagrams-Phase-diagran-of-water)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]) (../Ch-solids/files/Subsection-Phase-diagrams-Phase-diagran-of-water)
 (../Ch-solids/files/Figure-Phase-diagram3
 Package pgfplots info on input line 17: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
@@ -6849,14 +6963,28 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 84--84
 
 )
 (../Ch-solids/files/Subsection-Phase-diagrams-Heating-and-compression-experimen
-ts [20])
+ts
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20])
 (../Ch-solids/files/Subsection-Phase-diagrams-Energy-calculations-involving-pha
 se-transitions) (../Ch-solids/files/Table-Phase-transition-enthalpy
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-) (../Ch-solids/files/Funny-facts-water [21]
+) (../Ch-solids/files/Funny-facts-water
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
 Package mdframed Info: mdframed works in twoside mode on input line 4.
 <../Ch-solids/figure21.png, id=355, 362.35374pt x 139.52126pt>
 File: ../Ch-solids/figure21.png Graphic file (type png)
@@ -6929,6 +7057,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [22 <../Ch-solids/figure21.png (PNG copy)>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
@@ -6945,12 +7079,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 83673 strings out of 493014
- 1883302 string characters out of 6133351
- 2859533 words of memory out of 5000000
- 85052 multiletter control sequences out of 15000+600000
+ 83764 strings out of 493014
+ 1885399 string characters out of 6133351
+ 2863840 words of memory out of 5000000
+ 85143 multiletter control sequences out of 15000+600000
  230033 words of font info for 346 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,124p,10529b,2256s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6989,7 +7126,7 @@ ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on Ch-Solids.pdf (22 pages, 27746890 bytes).
+Output written on Ch-Solids.pdf (22 pages, 27777183 bytes).
 PDF statistics:
  482 PDF objects out of 1000 (max. 8388607)
  324 compressed objects within 4 object streams
