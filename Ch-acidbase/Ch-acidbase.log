@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUN 2023 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5620.
+h' as default language. on input line 5663.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5978,7 +5978,7 @@ or `english'. on input line 4.
 cfg
 File: exsheets_configurations.cfg 
 ) (../Ch-acidbase/files/ChapterName
-Chapter 10.
+Chapter 6.
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
@@ -6097,7 +6097,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-a
 cidbase/figure1.png>]) (../Ch-acidbase/files/SideFigure-Common-acids-and-bases
-<../Ch-acidbase/figure13.png, id=163, 1491.5725pt x 2003.485pt>
+<../Ch-acidbase/figure13.png, id=165, 1491.5725pt x 2003.485pt>
 File: ../Ch-acidbase/figure13.png Graphic file (type png)
 <use ../Ch-acidbase/figure13.png>
 Package pdftex.def Info: ../Ch-acidbase/figure13.png  used on input line 2.
@@ -6111,7 +6111,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure7.png, id=164, 278.03876pt x 182.6825pt>
+<../Ch-acidbase/figure7.png, id=166, 278.03876pt x 182.6825pt>
 File: ../Ch-acidbase/figure7.png Graphic file (type png)
 <use ../Ch-acidbase/figure7.png>
 Package pdftex.def Info: ../Ch-acidbase/figure7.png  used on input line 7.
@@ -6124,7 +6124,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-acidbase/figure10.png, id=165, 276.03125pt x 183.68625pt>
+<../Ch-acidbase/figure10.png, id=167, 276.03125pt x 183.68625pt>
 File: ../Ch-acidbase/figure10.png Graphic file (type png)
 <use ../Ch-acidbase/figure10.png>
 Package pdftex.def Info: ../Ch-acidbase/figure10.png  used on input line 13.
@@ -6148,10 +6148,16 @@ line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [2 <../Ch-acidbase/figure13.png (PNG copy)> <../Ch-acidbase/figure7.png (PNG co
 py)> <../Ch-acidbase/figure10.png (PNG copy)>])
 (../Ch-acidbase/files/SideFigure-More-common-acids
-<../Ch-acidbase/figure9.png, id=173, 501.875pt x 351.3125pt>
+<../Ch-acidbase/figure9.png, id=175, 501.875pt x 351.3125pt>
 File: ../Ch-acidbase/figure9.png Graphic file (type png)
 <use ../Ch-acidbase/figure9.png>
 Package pdftex.def Info: ../Ch-acidbase/figure9.png  used on input line 2.
@@ -6161,7 +6167,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure8.png, id=174, 1084.05pt x 610.28pt>
+<../Ch-acidbase/figure8.png, id=176, 1084.05pt x 610.28pt>
 File: ../Ch-acidbase/figure8.png Graphic file (type png)
 <use ../Ch-acidbase/figure8.png>
 Package pdftex.def Info: ../Ch-acidbase/figure8.png  used on input line 9.
@@ -6174,7 +6180,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 8--12
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<../Ch-acidbase/figure11.png, id=175, 722.7pt x 730.6497pt>
+<../Ch-acidbase/figure11.png, id=177, 722.7pt x 730.6497pt>
 File: ../Ch-acidbase/figure11.png Graphic file (type png)
 <use ../Ch-acidbase/figure11.png>
 Package pdftex.def Info: ../Ch-acidbase/figure11.png  used on input line 16.
@@ -6188,6 +6194,31 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 15--19
 LaTeX Warning: Marginpar on page 3 moved.
 
 )
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Lewis-acid-base-
+model) (../Ch-acidbase/problems/SampleProblem2
+(../Ch-acidbase/problems/StudyCheck2)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <../Ch-acidbase/figure9.png> <../Ch-acidbase/figure8.png (PNG copy)> <../Ch-
+acidbase/figure11.png (PNG copy)>])
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acids-models-sum
+ary) (../Ch-acidbase/files/Table-Acid-models
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 18.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 71.
@@ -6200,45 +6231,196 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[3 <../Ch-acidbase/figure9.png> <../Ch-acidbase/figure8.png (PNG copy)> <../Ch-
-acidbase/figure11.png (PNG copy)>])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
 (../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Writing-down-a
 cid-base-equilibria
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4])
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5])
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Including-water-in
--the-dissociation [5]) (../Ch-acidbase/problems/SampleProblem7
+-the-dissociation
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-acidbase/problems/SampleProblem7
 (../Ch-acidbase/problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 1--7
 
  []
 
 ))
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Conjugate-orga
+nic-acids-and-bases
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 7--7
+ []|[]| 
+ []
+
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 12--12
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 3--13
+ [] 
+ []
+
+
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 20--20
+ []|[]| 
+ []
+
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 25--25
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 16--26
+ [] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]) (../Ch-acidbase/problems/SampleProblem4
+Overfull \hbox (21.09286pt too wide) in paragraph at lines 8--8
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 9--9
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 10--10
+ []|[]| 
+ []
+
+
+Overfull \hbox (16.32565pt too wide) in paragraph at lines 12--13
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 5--15
+[] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.8334pt too wide) in paragraph at lines 22--22
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 24--24
+ []|[]| 
+ []
+
+
+Overfull \hbox (27.68816pt too wide) in paragraph at lines 28--28
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (6.50163pt too wide) in paragraph at lines 28--28
+ \T1/ptm/m/n/10 (-20) Base[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 19--29
+[] [] [] [] [] [] [] 
+ []
+
+(../Ch-acidbase/problems/StudyCheck4
+Overfull \hbox (13.32698pt too wide) in paragraph at lines 7--7
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 8--8
+ []|[]| 
+ []
+
+
+Overfull \hbox (14.11212pt too wide) in paragraph at lines 9--9
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 4--14
+[] [] [] [] [] [] [] 
+ []
+
+))
+(../Ch-acidbase/files/SubSection-Dissociation-of-acids-and-bases-Dissociating-o
+rganic-acids-and-bases) (../Ch-acidbase/problems/SampleProblem5
+(../Ch-acidbase/problems/StudyCheck5
+Underfull \hbox (badness 10000) in paragraph at lines 6--3
+
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 89.
 
 (../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-bases)
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Review-of-Strength
-[6])
+)
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-
-and-bases-)
+and-bases-
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Strength-of-acids-
 and-bases-Basicity-constant)
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Ka-and-Kb)
-(../Ch-acidbase/files/Table-Acidity-constants [7]
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
+(../Ch-acidbase/files/Table-Acidity-constants
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 58.
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 10 undefined on input lin
+e 58.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6251,13 +6433,26 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 58.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 58.
-) (../Ch-acidbase/problems/SampleProblem6 (../Ch-acidbase/problems/StudyCheck6)
-) [8]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]) (../Ch-acidbase/problems/SampleProblem6
+(../Ch-acidbase/problems/StudyCheck6))
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-PK-of-an-acid-or-b
-ase)
+ase
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11])
 (../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Conjugate-Seesaw)
 (../Ch-acidbase/files/SideFigure-PH-meter-and-indicators
-<../Ch-acidbase/figure16.png, id=222, 803.0pt x 534.99875pt>
+<../Ch-acidbase/figure16.png, id=244, 803.0pt x 534.99875pt>
 File: ../Ch-acidbase/figure16.png Graphic file (type png)
 <use ../Ch-acidbase/figure16.png>
 Package pdftex.def Info: ../Ch-acidbase/figure16.png  used on input line 2.
@@ -6267,7 +6462,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-acidbase/figure17.png, id=223, 246.6816pt x 126.7134pt>
+<../Ch-acidbase/figure17.png, id=245, 246.6816pt x 126.7134pt>
 File: ../Ch-acidbase/figure17.png Graphic file (type png)
 <use ../Ch-acidbase/figure17.png>
 Package pdftex.def Info: ../Ch-acidbase/figure17.png  used on input line 7.
@@ -6278,9 +6473,9 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
  []
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 12 moved.
 
-<../Ch-acidbase/figure19.png, id=224, 273.27094pt x 286.82156pt>
+<../Ch-acidbase/figure19.png, id=246, 273.27094pt x 286.82156pt>
 File: ../Ch-acidbase/figure19.png Graphic file (type png)
 <use ../Ch-acidbase/figure19.png>
 Package pdftex.def Info: ../Ch-acidbase/figure19.png  used on input line 12.
@@ -6297,21 +6492,43 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 11--15
  []
 
 
-LaTeX Warning: Marginpar on page 9 moved.
+LaTeX Warning: Marginpar on page 12 moved.
 
 )
+(../Ch-acidbase/files/SubSection-Strength-of-acids-and-bases-Acid-base-properti
+es-of-salts)
+(../Ch-acidbase/files/SubSection-The-nature-of-acids-and-Bases-Acid-base-proper
+ties-of-oxides
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <../Ch-acidbase/figure16.png (PNG copy)> <../Ch-acidbase/figure17.png (PNG 
+copy)> <../Ch-acidbase/figure19.png (PNG copy)>])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 109.
 
 (../Ch-acidbase/files/SectionIntro-The-PH-scale)
-(../Ch-acidbase/files/SubSection-The-PH-scale-Kw [9 <../Ch-acidbase/figure16.pn
-g (PNG copy)> <../Ch-acidbase/figure17.png (PNG copy)> <../Ch-acidbase/figure19
-.png (PNG copy)>])
-(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
+(../Ch-acidbase/files/SubSection-The-PH-scale-Kw
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]) (../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
 (../Ch-acidbase/problems/SampleProblem8 (../Ch-acidbase/problems/StudyCheck8))
-(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale [10])
-(../Ch-acidbase/files/Figure-PH-scale
+(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]) (../Ch-acidbase/files/Figure-PH-scale
 Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -6339,27 +6556,27 @@ Package pgfplots Warning: You have an axis with empty range (in direction y). R
 eplacing it with a default range and clearing all plots. on input line 99.
 
  [warning /pgfplots/warning/empty range cleared axis]
-<../Ch-acidbase/figure6.png, id=247, 129.48375pt x 125.46875pt>
+<../Ch-acidbase/figure6.png, id=274, 129.48375pt x 125.46875pt>
 File: ../Ch-acidbase/figure6.png Graphic file (type png)
 <use ../Ch-acidbase/figure6.png>
 Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
-<../Ch-acidbase/figure3.png, id=249, 260.975pt x 194.7275pt>
+<../Ch-acidbase/figure3.png, id=276, 260.975pt x 194.7275pt>
 File: ../Ch-acidbase/figure3.png Graphic file (type png)
 <use ../Ch-acidbase/figure3.png>
 Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 99.
 (pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
-<../Ch-acidbase/figure4.png, id=250, 285.065pt x 438.63875pt>
+<../Ch-acidbase/figure4.png, id=277, 285.065pt x 438.63875pt>
 File: ../Ch-acidbase/figure4.png Graphic file (type png)
 <use ../Ch-acidbase/figure4.png>
 Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
-<../Ch-acidbase/figure5.png, id=251, 183.68625pt x 277.035pt>
+<../Ch-acidbase/figure5.png, id=278, 183.68625pt x 277.035pt>
 File: ../Ch-acidbase/figure5.png Graphic file (type png)
 <use ../Ch-acidbase/figure5.png>
 Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 99.
 (pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
-<../Ch-acidbase/figure2.png, id=252, 250.9375pt x 250.9375pt>
+<../Ch-acidbase/figure2.png, id=279, 250.9375pt x 250.9375pt>
 File: ../Ch-acidbase/figure2.png Graphic file (type png)
 <use ../Ch-acidbase/figure2.png>
 Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 99.
@@ -6371,39 +6588,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--6
 
 ))
 (../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../Ch
+-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase/
+figure2.png (PNG copy)>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 5.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 5.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 5.
-
-[11 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../Ch
--acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase/
-figure2.png (PNG copy)>]) (../Ch-acidbase/problems/SampleProblem10
+) (../Ch-acidbase/problems/SampleProblem10
 (../Ch-acidbase/problems/StudyCheck10))
 (../Ch-acidbase/files/Figure-PH-POH-formulas)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 141.
+
+
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-strong-electrolyte-solution
+s
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]) (../Ch-acidbase/problems/SampleProblem11
+
+LaTeX Warning: Reference `Ch-acidbase:equation8' on page 17 undefined on input 
+line 8.
+
+(../Ch-acidbase/problems/StudyCheck11))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 141.
+
+
+(../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-solutions-of-weak-acids-and
+-bases
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]) (../Ch-acidbase/problems/SampleProblem12
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 18 undefined on input 
+line 5.
+
+(../Ch-acidbase/problems/StudyCheck12)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]) (../Ch-acidbase/files/SubSection-The-PH-scale-PH-of-salt-solutions
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 19 undefined on input 
+line 1.
+
+) (../Ch-acidbase/problems/SampleProblem13
+
+LaTeX Warning: Reference `Ch-acidbase:equation10' on page 19 undefined on input
+ line 5.
+
+(../Ch-acidbase/problems/StudyCheck13))
+(../Ch-acidbase/files/SubSection-The-PH-scale-Percent-dissociation-of-weak-acid
+s-and-bases
+Underfull \hbox (badness 7379) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) Weak acids (and
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]) (../Ch-acidbase/problems/SampleProblem14
+
+LaTeX Warning: Reference `Ch-acidbase:equation9' on page 20 undefined on input 
+line 5.
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation11' on page 20 undefined on input
+ line 9.
+
+(../Ch-acidbase/problems/StudyCheck14))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 143.
 
-(../Ch-acidbase/files/SectionIntro-Buffer-solutions) [12]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20] (../Ch-acidbase/files/SectionIntro-Buffer-solutions)
 (../Ch-acidbase/files/SubSection-Buffer-solutions-Buffers)
 (../Ch-acidbase/files/SubSection-Buffer-solutions-PH-of-a-Buffer-solution)
 (../Ch-acidbase/problems/SampleProblem15 (../Ch-acidbase/problems/StudyCheck15)
-)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21])
+(../Ch-acidbase/files/SubSection-Buffer-solutions-PH-of-Buffer-solution-mixed-w
+ith-acids-or-bases
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) This sec-tion
+ []
+
+
+LaTeX Warning: Reference `Ch-acidbase:equation17' on page 22 undefined on input
+ line 5.
+
+) (../Ch-acidbase/problems/SampleProblem16
+(../Ch-acidbase/problems/StudyCheck16))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 162.
 
-(../Ch-acidbase/files/SectionIntro-Titrations) [13]
-(../Ch-acidbase/files/SubSection-Titrations-Neutralization-Reactions)
-(../Ch-acidbase/files/SubSection-Titrations-Endpoint-formula [14])
+(../Ch-acidbase/files/SectionIntro-Titrations)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22] (../Ch-acidbase/files/SubSection-Titrations-Neutralization-Reactions)
+(../Ch-acidbase/files/SubSection-Titrations-Endpoint-formula)
 (../Ch-acidbase/problems/SampleProblem17 (../Ch-acidbase/problems/StudyCheck17)
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--12
 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]) (../Ch-acidbase/files/SubSection-Titrations-Mid-point)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 196.
+
+(../Ch-acidbase/files/SectionIntro-Titration-curves)
+(../Ch-acidbase/files/Figure-Titration-curves
+Overfull \hbox (487.09416pt too wide) in paragraph at lines 47--47
+ [] 
+ []
+
+) (../Ch-acidbase/files/SubSection-Titrations-Titration-curves-shape
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]) (../Ch-acidbase/files/Table-Titration-formulas
+
+Package array Warning: Column A is already defined on input line 19.
+
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}3' on page 25 undefined on input lin
+e 19.
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 19--19
+ []|\T1/ptm/b/n/7 At the End-Point| 
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 19--19
+ []|\T1/ptm/m/n/7 PH=7| 
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 19--19
+ []|\T1/ptm/m/n/7 PH=7| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 19--19
+[][][][][] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 196.
+
+(../Ch-acidbase/files/SectionIntro-Quantitative-analysis-of-a-titration)
+(../Ch-acidbase/files/SubSection-Titrations-Titration-PH-formulas
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}3' on page 25 undefined on input lin
+e 1.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] (../Ch-acidbase/files/SubSection-Titrations-c_R-and-c_F)
+(../Ch-acidbase/problems/SampleProblem18
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 26 undefined on input lin
+e 7.
+
+(../Ch-acidbase/problems/StudyCheck18)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]) (../Ch-acidbase/files/SubSection-Titrations-Midpoint)
+(../Ch-acidbase/problems/SampleProblem19
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}2' on page 27 undefined on input lin
+e 7.
+
+(../Ch-acidbase/problems/StudyCheck19)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]) (../Ch-acidbase/files/Figure-Titration
+<../Ch-acidbase/titration.jpeg, id=438, 562.1pt x 246.9225pt>
+File: ../Ch-acidbase/titration.jpeg Graphic file (type jpg)
+<use ../Ch-acidbase/titration.jpeg>
+Package pdftex.def Info: ../Ch-acidbase/titration.jpeg  used on input line 10.
+(pdftex.def)             Requested size: 441.0179pt x 193.73283pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}4' on page 28 undefined on input lin
+e 10.
 
 )
 
@@ -6412,6 +6849,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-acidbase/files/SectionIntro-Blood-as-a-buffer)
 (../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Carbon-dioxide-is-an-acid)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <../Ch-acidbase/titration.jpeg>]
 (../Ch-acidbase/files/SubSection-Blood-as-a-buffer-The-dangerous-change-in-bloo
 d-PH) (../Ch-acidbase/files/Figure-Alkalosis-and-PH
 Missing character: There is no ( in font nullfont!
@@ -6428,6 +6872,10 @@ Package pgfplots Warning: You have an axis with empty range (in direction y). R
 eplacing it with a default range and clearing all plots. on input line 35.
 
  [warning /pgfplots/warning/empty range cleared axis]
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}5' on page 29 undefined on input lin
+e 35.
+
 
 Overfull \hbox (34.38705pt too wide) in paragraph at lines 2--35
 [][] 
@@ -6457,10 +6905,115 @@ Underfull \hbox (badness 1688) in paragraph at lines 1--203
 above 8.0 can cause death.   []
  []
 
-[15]
+
 (../Ch-acidbase/files/SubSection-Blood-as-a-buffer-Alkalosis-and-carbon-dioxide
 ) (../Ch-acidbase/problems/SampleProblem20
 (../Ch-acidbase/problems/StudyCheck20))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 239.
+
+(../Ch-acidbase/files/SectionIntro-Strength-of-acids-and-its-structure
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29])
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Binary-Aci
+ds)
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Oxoacids
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30])
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-Carboxylic
+-acids)
+(../Ch-acidbase/files/Subsection-Strength-of-acids-and-its-structure-review)
+Underfull \hbox (badness 10000) in paragraph at lines 1--239
+[]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 239.
+
+(../Ch-acidbase/files/SectionIntro-Indicators
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]) (../Ch-acidbase/files/Table-Indicators
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 49.
+
+
+LaTeX Warning: Reference `tab:{Ch-acidbase}4' on page 32 undefined on input lin
+e 49.
+
+
+Overfull \hbox (103.90787pt too wide) in paragraph at lines 3--50
+ [] 
+ []
+
+) (../Ch-acidbase/files/Subsection-Indicators-How-do-they-function
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]) (../Ch-acidbase/files/Subsection-Indicators-Selecting-and-indicator)
+(../Ch-acidbase/files/Subsection-Indicators-Litmus)
+(../Ch-acidbase/problems/SampleProblem21 (../Ch-acidbase/problems/StudyCheck21)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\color' on input line 239.
+
+(../Ch-acidbase/files/SectionIntro-Titrations-of-polyprotic-acids)
+(../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-PH-c
+urved-of-polyprotic-acids)
+(../Ch-acidbase/files/Subsection-Indicators-Titrations-of-polyprotic-acids-End-
+point-of-polyprotic-acids)
+(../Ch-acidbase/files/Figure-Titration-curves-polyprotic
+
+LaTeX Warning: Reference `Fig:{Ch-acidbase}6' on page 34 undefined on input lin
+e 17.
+
+
+Underfull \vbox (badness 7722) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35] [36
+
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6472,15 +7025,20 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-[16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
- (./Ch-acidbase.aux)
+(./Ch-acidbase.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
-Package rerunfilecheck Info: File `Ch-acidbase.out' has not changed.
-(rerunfilecheck)             Checksum: 33B912EF9401684C37B2AAF98D979444;1740.
 
+
+Package rerunfilecheck Warning: File `Ch-acidbase.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-acidbase.out':
+(rerunfilecheck)             Before: 33B912EF9401684C37B2AAF98D979444;1740
+(rerunfilecheck)             After:  F2CF282B968C7B5DABA9D393C2B1CBDC;3634.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6489,47 +7047,118 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84297 strings out of 493014
- 1889761 string characters out of 6133351
- 2700291 words of memory out of 5000000
- 85750 multiletter control sequences out of 15000+600000
- 219229 words of font info for 300 fonts, out of 8000000 for 9000
+ 85803 strings out of 493014
+ 1927047 string characters out of 6133351
+ 2722315 words of memory out of 5000000
+ 86955 multiletter control sequences out of 15000+600000
+ 240284 words of font info for 332 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,26n,117p,10604b,3072s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
-6/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-di
-st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
-wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
-aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
-ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
-wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
-/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex
-10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-sy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on Ch-acidbase.pdf (16 pages, 19719343 bytes).
+ 80i,33n,117p,10604b,3072s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.10.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.6.12} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.5.11} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.3.1} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.7} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.8} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.10} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.10.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.9} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.6} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.10.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.10.4.5} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.10.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.7} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.5} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.4} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.3} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.2} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.10} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loca
+l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
+c/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawe
+some/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/par
+atype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
+e/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawe
+some/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/p
+tsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/
+fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr5.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on Ch-acidbase.pdf (36 pages, 19941438 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 63050 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 68283 words of extra memory for PDF output out of 74296 (max. 10000000)
 
