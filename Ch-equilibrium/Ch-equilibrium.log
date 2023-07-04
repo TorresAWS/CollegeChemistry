@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2023 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5610.
+h' as default language. on input line 5653.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6149,8 +6149,15 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 3--24
 [][] 
  []
 
-) [2 <../Ch-equilibrium/figure6.png>]
-(../Ch-equilibrium/files/Figure-Equilibrium)
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <../Ch-equilibrium/figure6.png>] (../Ch-equilibrium/files/Figure-Equilibrium
+)
 (../Ch-equilibrium/files/SubSection-The-equilibrium-constant-The-equilibrium-co
 nstant-of-a-reaction
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6168,8 +6175,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 Underfull \vbox (badness 3271) has occurred while \output is active []
 
- [3])
-(../Ch-equilibrium/files/SideFigure-Meaning-of-Kc
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]) (../Ch-equilibrium/files/SideFigure-Meaning-of-Kc
 <../Ch-equilibrium/figure7.png, id=195, 553.06625pt x 2007.5pt>
 File: ../Ch-equilibrium/figure7.png Graphic file (type png)
 <use ../Ch-equilibrium/figure7.png>
@@ -6193,19 +6206,38 @@ LaTeX Warning: Marginpar on page 4 moved.
 (../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-consta
 nt-expression)
 (../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-involv
-ing-solids-liquids-and-solutions [4 <../Ch-equilibrium/figure7.png>])
-(../Ch-equilibrium/problems/SampleProblem3
+ing-solids-liquids-and-solutions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <../Ch-equilibrium/figure7.png>]) (../Ch-equilibrium/problems/SampleProblem3
 (../Ch-equilibrium/problems/StudyCheck3))
 (../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Equilibrium-consta
 nt-in-terms-of-pressures)
 (../Ch-equilibrium/files/SubSection-The-equilibrium-constant-Relating-Kc-and-Kp
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [5]) (../Ch-equilibrium/problems/SampleProblem4
 (../Ch-equilibrium/problems/StudyCheck4)
 Underfull \hbox (badness 10000) in paragraph at lines 4--17
 
  []
 
-) (../Ch-equilibrium/files/SectionIntro-Using-equilibrium-constants [6])
+) (../Ch-equilibrium/files/SectionIntro-Using-equilibrium-constants
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
 (../Ch-equilibrium/files/SubSection-Using-equilibrium-constants-Solving-from-Kc
 ) (../Ch-equilibrium/problems/SampleProblem5
 (../Ch-equilibrium/problems/StudyCheck5)
@@ -6213,13 +6245,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--18
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [7]) (../Ch-equilibrium/files/SectionIntro-Concentration-or-pressure-ratio)
 (../Ch-equilibrium/files/SubSection-Concentration-or-pressure-ratio-Definition-
 of-concentration-ratio)
 (../Ch-equilibrium/files/SubSection-Concentration-or-pressure-ratio-Use-of-conc
 entration-ratios) (../Ch-equilibrium/problems/SampleProblem6
-(../Ch-equilibrium/problems/StudyCheck6) [8])
-(../Ch-equilibrium/files/SideFigure-Image-of-le-chatelier
+(../Ch-equilibrium/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-equilibrium/files/SideFigure-Image-of-le-chatelier
 <../Ch-equilibrium/figure8.png, id=235, 176.15813pt x 182.18062pt>
 File: ../Ch-equilibrium/figure8.png Graphic file (type png)
 <use ../Ch-equilibrium/figure8.png>
@@ -6230,8 +6274,14 @@ Overfull \hbox (13.03993pt too wide) in paragraph at lines 5--6
 [][] 
  []
 
-) (../Ch-equilibrium/files/SectionIntro-Le-Chatelier-principle [9 <../Ch-equili
-brium/figure8.png (PNG copy)>])
+) (../Ch-equilibrium/files/SectionIntro-Le-Chatelier-principle
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <../Ch-equilibrium/figure8.png (PNG copy)>])
 (../Ch-equilibrium/files/SideFigure-Le-chatelier
 <../Ch-equilibrium/figure13.png, id=241, 553.06625pt x 1852.9225pt>
 File: ../Ch-equilibrium/figure13.png Graphic file (type png)
@@ -6252,8 +6302,20 @@ le)
 (../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Change-in-concentrat
 ion)
 (../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Temperature-change
-[10 <../Ch-equilibrium/figure13.png>]) [11]
-(../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Volume-change)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <../Ch-equilibrium/figure13.png>])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] (../Ch-equilibrium/files/SubSection-Le-Chatelier-principle-Volume-change)
 (../Ch-equilibrium/files/Table-Le-chatelier
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -6284,6 +6346,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
@@ -6302,10 +6370,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 83909 strings out of 493014
- 1880530 string characters out of 6133351
- 2716163 words of memory out of 5000000
- 85458 multiletter control sequences out of 15000+600000
+ 84004 strings out of 493014
+ 1882396 string characters out of 6133351
+ 2716330 words of memory out of 5000000
+ 85553 multiletter control sequences out of 15000+600000
  222279 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,26n,104p,10610b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6339,7 +6407,7 @@ ocal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-equilibrium.pdf (12 pages, 968551 bytes).
+Output written on Ch-equilibrium.pdf (12 pages, 983786 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  230 compressed objects within 3 object streams
