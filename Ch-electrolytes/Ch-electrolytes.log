@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JUN 2023 09:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5615.
+h' as default language. on input line 5656.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6044,7 +6044,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-electrolytes/figure1.png, id=145, 752.8125pt x 501.875pt>
+<../Ch-electrolytes/figure1.png, id=157, 752.8125pt x 501.875pt>
 File: ../Ch-electrolytes/figure1.png Graphic file (type png)
 <use ../Ch-electrolytes/figure1.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure1.png  used on input line 1.
@@ -6102,7 +6102,7 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 lectrolytes/figure1.png>])
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Types-of-solutio
 ns) (../Ch-electrolytes/files/Figure-Dissolution
-<../Ch-electrolytes/figure3.png, id=156, 803.0pt x 372.39125pt>
+<../Ch-electrolytes/figure3.png, id=168, 803.0pt x 372.39125pt>
 File: ../Ch-electrolytes/figure3.png Graphic file (type png)
 <use ../Ch-electrolytes/figure3.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure3.png  used on input line 7.
@@ -6113,7 +6113,14 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 7.
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Empirical-rules-
-of-polarity [2 <../Ch-electrolytes/figure3.png (PNG copy)>]
+of-polarity
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <../Ch-electrolytes/figure3.png (PNG copy)>]
 (../Ch-electrolytes/files/Table-Empirical-rules-of-polirity))
 (../Ch-electrolytes/problems/SampleProblem2
 (../Ch-electrolytes/problems/StudyCheck2))
@@ -6145,9 +6152,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Meaning-of-conce
-ntration) [3]
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent)
-(../Ch-electrolytes/problems/SampleProblem4
+ntration)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3] (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent
+) (../Ch-electrolytes/problems/SampleProblem4
 (../Ch-electrolytes/problems/StudyCheck4))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Volume-percent-c
 oncentration)
@@ -6155,7 +6168,14 @@ oncentration)
 nt-concentration)
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Molarity-concent
 ration) (../Ch-electrolytes/problems/SampleProblem5
-(../Ch-electrolytes/problems/StudyCheck5) [4])
+(../Ch-electrolytes/problems/StudyCheck5)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Concentration-un
 its-as-conversion-factors) (../Ch-electrolytes/problems/SampleProblem6
 (../Ch-electrolytes/problems/StudyCheck6))
@@ -6166,6 +6186,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 76.
 
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Dilution
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [5]) (../Ch-electrolytes/problems/SampleProblem7
 (../Ch-electrolytes/problems/StudyCheck7))
 
@@ -6177,8 +6203,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 tions-Solubility-formula)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Solub
 le-and-insoluble-salts) (../Ch-electrolytes/problems/SampleProblem8
-(../Ch-electrolytes/problems/StudyCheck8) [6])
-(../Ch-electrolytes/files/Table-Solubility
+(../Ch-electrolytes/problems/StudyCheck8)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]) (../Ch-electrolytes/files/Table-Solubility
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 30.
@@ -6187,7 +6219,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
 )
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Stron
-g-electrolytes [7])
+g-electrolytes
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Nonel
 ectrolytes)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Ident
@@ -6200,8 +6239,14 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 ) (../Ch-electrolytes/problems/SampleProblem9
 (../Ch-electrolytes/problems/StudyCheck9))
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Break
-ing-down-electrolytes-into-ions [8])
-(../Ch-electrolytes/problems/SampleProblem10
+ing-down-electrolytes-into-ions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]) (../Ch-electrolytes/problems/SampleProblem10
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -6213,14 +6258,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 (../Ch-electrolytes/files/SectionIntro-An-introduction-to-reactions-in-solution
-) [9]
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-A
 cid-base-reactions)
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-P
 recipitation-reactions)
 (../Ch-electrolytes/files/SubSection-An-introduction-to-reactions-in-solution-R
 edox-reactions) (../Ch-electrolytes/problems/SampleProblem11
-(../Ch-electrolytes/problems/StudyCheck11) [10])
+(../Ch-electrolytes/problems/StudyCheck11)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 126.
@@ -6238,13 +6297,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [11]) (../Ch-electrolytes/problems/SampleProblem12
 (../Ch-electrolytes/problems/StudyCheck12))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 129.
 
-(../Ch-electrolytes/files/SectionIntro-Redox-reactions [12])
+(../Ch-electrolytes/files/SectionIntro-Redox-reactions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Oxidation-state-or-redox-n
 umber)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Rules-to-calculate-redox-n
@@ -6257,7 +6329,14 @@ File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 ))
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Calculating-the-redox-numb
 er) (../Ch-electrolytes/problems/SampleProblem13
-(../Ch-electrolytes/problems/StudyCheck13) [13])
+(../Ch-electrolytes/problems/StudyCheck13)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13])
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Redox-means-oxidation-and-
 reduction)
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Redox-numbers-in-chemical-
@@ -6272,6 +6351,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 Overfull \hbox (17.69055pt too wide) in paragraph at lines 2--8
  []$ 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [14]
 Underfull \hbox (badness 10000) in paragraph at lines 10--18
@@ -6312,14 +6397,34 @@ Overfull \hbox (17.69055pt too wide) in paragraph at lines 17--24
  []$ 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [15]) (../Ch-electrolytes/problems/SampleProblem14
 Overfull \hbox (47.56587pt too wide) in paragraph at lines 20--30
  []$ 
  []
 
-(../Ch-electrolytes/problems/StudyCheck14)) [16]
+(../Ch-electrolytes/problems/StudyCheck14))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 (../Ch-electrolytes/files/SubSection-Redox-reactions-Balancing-redox-reactions-
-in-basic-medium) [17] [18
+in-basic-medium)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17] [18
 
 ]
 
@@ -6338,15 +6443,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 (./Ch-electrolytes.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package rerunfilecheck Info: File `Ch-electrolytes.out' has not changed.
+(rerunfilecheck)             Checksum: 84A95F28C6989E6F429D351142992AF9;2325.
 
-
-Package rerunfilecheck Warning: File `Ch-electrolytes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-electrolytes.out':
-(rerunfilecheck)             Before: 5899787AAADB3B189867023C28BD363A;1617
-(rerunfilecheck)             After:  84A95F28C6989E6F429D351142992AF9;2325.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6359,10 +6458,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 84281 strings out of 493014
- 1895606 string characters out of 6133351
- 2675647 words of memory out of 5000000
- 85705 multiletter control sequences out of 15000+600000
+ 84387 strings out of 493014
+ 1897801 string characters out of 6133351
+ 2677830 words of memory out of 5000000
+ 85811 multiletter control sequences out of 15000+600000
  202646 words of font info for 289 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,104p,10612b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6392,10 +6491,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electrolytes.pdf (18 pages, 718983 bytes).
+Output written on Ch-electrolytes.pdf (18 pages, 742112 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 247 compressed objects within 3 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
  53 named destinations out of 1000 (max. 500000)
- 59879 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 59903 words of extra memory for PDF output out of 61914 (max. 10000000)
 
