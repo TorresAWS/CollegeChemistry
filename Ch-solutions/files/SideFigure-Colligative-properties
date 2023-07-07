@@ -1,4 +1,4 @@
-   \begin{marginfigure}[-0cm]
+   \begin{marginfigure}[-5cm]
    \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/Saltingstreets}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
 \node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Streets are salted to reduce the freezing point of ice };
 \end{tikzpicture}
