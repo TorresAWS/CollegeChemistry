@@ -9,11 +9,11 @@
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 \hspace{-3cm} 
 }{
-\hspace{-10cm}
+\hspace{+6cm}
 }
 
 
-\begin{tikzpicture}[transform canvas={scale=1}, shift={(4,0)}]
+\begin{tikzpicture}[transform canvas={scale=1}, shift={(6,0)}]
   \begin{scope}[transform canvas={scale=.5}, shift={(0,0)}]
   \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
   \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
@@ -36,7 +36,7 @@
         \draw[-latex,line width=6mm, shift={(0.7,0)}] (3.5,0) -- (6.5,0);
           \draw (0,0) node[below, shift={(0,-2)}]{\Huge Successful collision (TS)} ;
           \draw [red, thick] (-3.5,-2) to [square left brace ] (-3.5,3);
-                    \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.6)}] {\Huge \ddag};
+                    \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.4)}] {\Huge \ddag};
   \end{scope}
 
    \begin{scope}[transform canvas={scale=.5}, shift={(24,0)}]
