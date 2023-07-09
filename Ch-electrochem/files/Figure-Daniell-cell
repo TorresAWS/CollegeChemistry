@@ -1,5 +1,5 @@
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
- \hspace{10cm}\begin{center}
+ \hspace{5cm}\begin{center}
 \begin{tikzpicture}
  \batterya{\small \ce{Cu^{2+}, 1M}}{Cu}	{Zn}	{\small \ce{Zn^{2+}, 1M}}{1}{\Large $-$}{\Large $+$}{V}{1}    % 1 to the right
  
