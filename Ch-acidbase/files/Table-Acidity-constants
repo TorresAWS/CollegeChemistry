@@ -2,8 +2,9 @@
 
 \begin{fullwidth}
 
-
-\begin{center}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
+\hspace{5cm}
+%\begin{center}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
 
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 
@@ -56,6 +57,7 @@
         \draw[->] let \p1=(start2), \p2=(end2) in [shift={(15.7,1)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.4)} ] {Increasing basicity strength  } ($(\x1-3,\y2)+(0.8,0)$);
   \end{tikzpicture}
 }
-\end{minipage}\end{center}
+\end{minipage}
+%\end{center}
 
 \end{fullwidth}
