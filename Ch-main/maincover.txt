@@ -2,15 +2,17 @@
 
 
 
- \begin{document} 
+ \begin{document}
 \subfile{../Ch-main/cover/title.tex}
 \subfile{../Ch-main/periodictable/periodictable.tex}
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
-\tableofcontents \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-main/tothereader/tothereader.tex}\clearpage\thispagestyle{empty}\mbox{}
-\pagenumbering{arabic}
+\tableofcontents
+ \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-main/tothereader/tothereader.tex}
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
 %\subfile{../Ch-main/online/online.tex}\clearpage\thispagestyle{empty}\mbox{}\clearpage
 %\subfile{../Ch-main/calendar/calendar.tex}
+
 
 
 
