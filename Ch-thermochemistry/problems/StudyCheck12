@@ -9,7 +9,7 @@ Given the following thermochemical equations:
 \ce{C_{(s)} + 2 S_{(s)}& -> \:  CS2_{(l)}}&$\qquad \Delta H_3=87.9 KJ$ \\
  \end{tabular}
  \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: $-1075 KJ$.
  \end{flushright} }
 
