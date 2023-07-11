@@ -6,7 +6,9 @@
 
  %\resizebox{1.0\textwidth}{!}{
 
-\begin{fullwidth}\begin{center}
+\begin{fullwidth}
+\hspace{8cm}
+%\begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
 \fontfamily{ppl}\selectfont
 
@@ -29,5 +31,6 @@
 
 
 %}
- \end{center}\end{fullwidth}
+% \end{center}
+\end{fullwidth}
 

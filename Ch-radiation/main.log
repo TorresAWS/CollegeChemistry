@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2023 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JUL 2023 06:05
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -6057,7 +6056,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (../Ch-radiation/Ch-radiation.tex (../Ch-radiation/files/ChapterName
-Chapter 9.
+Chapter 8.
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
 ut line 1.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
@@ -6463,12 +6462,12 @@ Overfull \hbox (259.77364pt too wide) in paragraph at lines 5--40
 (../Ch-radiation/problems/StudyCheck5))
 (../Ch-radiation/files/SubSection-The-atomic-line-spectra-Electron-diffraction)
 (../Ch-radiation/files/Figure-Diffraction-patterns
-<../Ch-radiation/figure1-22.png, id=318, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-22.png, id=319, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-22.png Graphic file (type png)
 <use ../Ch-radiation/figure1-22.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-22.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80771pt x 113.80771pt.
-<../Ch-radiation/figure1-23.png, id=319, 513.92pt x 513.92pt>
+<../Ch-radiation/figure1-23.png, id=320, 513.92pt x 513.92pt>
 File: ../Ch-radiation/figure1-23.png Graphic file (type png)
 <use ../Ch-radiation/figure1-23.png>
 Package pdftex.def Info: ../Ch-radiation/figure1-23.png  used on input line 7.
@@ -6479,42 +6478,41 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 11--128
  []
 
 
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
-e-uncertainty-principle
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png
- (PNG copy)>]) (../Ch-radiation/problems/SampleProblem7
+[13]
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
+e-uncertainty-principle) (../Ch-radiation/problems/SampleProblem7
 (../Ch-radiation/problems/StudyCheck7))
 (../Ch-radiation/files/SectionIntro-Quantum-mechanics-and-electronic-structure)
 
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Qu
-antized-energy-and-continuum-energy)
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]
+[14 <../Ch-radiation/figure1-22.png (PNG copy)> <../Ch-radiation/figure1-23.png
+ (PNG copy)>]
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Qu
+antized-energy-and-continuum-energy)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
 e-Schrordinger)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Th
-e-wave-function:-orbitals)
+e-wave-function:-orbitals
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
-bitals-are-described-by-three-quantum-numbers)
-(../Ch-radiation/files/Figure-Radial-distribution
+[15]) (../Ch-radiation/files/Figure-Radial-distribution
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -6536,10 +6534,8 @@ Overfull \hbox (103.90787pt too wide) in paragraph at lines 2--143
  []
 
 )
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Pr
-incipal-quantum-number-n)
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-An
-gular-quantum-number-l)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
+bitals-are-described-by-three-quantum-numbers)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6547,6 +6543,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Pr
+incipal-quantum-number-n)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-An
+gular-quantum-number-l)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Ma
 gnetic-quantum-number-ml)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-A-
@@ -6569,10 +6569,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 14.
 
 (../Ch-radiation/problems/StudyCheck6)
-Underfull \hbox (badness 10000) in paragraph at lines 2--28
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6582,60 +6578,60 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [17])
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Sh
 ells-and-subshells-or-levels-and-sublevels)
-Underfull \hbox (badness 10000) in paragraph at lines 1--157
+Underfull \hbox (badness 10000) in paragraph at lines 1--158
 []\T1/ppl/m/n/10 A shell (or a
  []
 
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-Or
-bital-labels) (../Ch-radiation/files/Figure-Shell-and-subshell)
-(../Ch-radiation/files/SectionIntro-Atomic-orbitals
+bital-labels) (../Ch-radiation/files/Figure-Shell-and-subshell
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]) (../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
-Underfull \hbox (badness 1803) in paragraph at lines 1--166
+[18]) (../Ch-radiation/files/SectionIntro-Atomic-orbitals)
+(../Ch-radiation/files/Figure-Energy-levels-and-orbitals)
+Underfull \hbox (badness 1803) in paragraph at lines 1--167
 \T1/ptm/m/n/10 (+20) elec-tron lo-ca-tion is de-scribed in terms of prob-a-bil-
 ity. An or-bital is a three-
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 1--166
+Underfull \hbox (badness 4416) in paragraph at lines 1--167
 \T1/ptm/m/n/10 (+20) dimensional area with the high-est prob-a-bil-ity of find-
 ing an elec-tron. Or-
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 1--166
+Underfull \hbox (badness 2980) in paragraph at lines 1--167
 \T1/ptm/m/n/10 (+20) bitals have dif-fer-ent shapes and en-ergy, as elec-trons 
 in those have dif-fer-ent
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 1--166
+Underfull \hbox (badness 2772) in paragraph at lines 1--167
 \T1/ptm/m/n/10 (+20) sta-bil-ity. Some or-bitals have a spher-i-cal shape, wher
 eas oth-ers are lob-u-lar.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--166
+Underfull \hbox (badness 10000) in paragraph at lines 1--167
 
  []
 
 
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-En
-ergylevels) (../Ch-radiation/problems/SampleProblem8
-(../Ch-radiation/problems/StudyCheck8)
+ergylevels
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19])
+[19]) (../Ch-radiation/problems/SampleProblem8
+(../Ch-radiation/problems/StudyCheck8))
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-En
 ergy-sublevels)
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-or
@@ -6649,13 +6645,6 @@ Overfull \hbox (15.74835pt too wide) in paragraph at lines 24--24
 )
 (../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-p-
 orbitals) (../Ch-radiation/files/Figure-Orbitals-p
-Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
- [] 
- []
-
-)
-(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-d-
-and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6663,6 +6652,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]
+Overfull \hbox (20.28506pt too wide) in paragraph at lines 25--25
+ [] 
+ []
+
+)
+(../Ch-radiation/files/SubSection-Quantum-mechanics-and-electronic-structure-d-
+and-f-orbitals) (../Ch-radiation/files/Figure-Orbitals-d
 Overfull \hbox (23.70767pt too wide) in paragraph at lines 49--49
  [] 
  []
@@ -6713,19 +6709,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Let
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 19.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 19.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 19.
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]) (../Ch-radiation/problems/SampleProblem10
+[22]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 19.
+) (../Ch-radiation/problems/SampleProblem10
 (../Ch-radiation/problems/StudyCheck10))
 (../Ch-radiation/files/SubSection-Electronic-configuration-Hunds-rule
 
@@ -6749,20 +6746,23 @@ Overfull \hbox (17.80748pt too wide) in paragraph at lines 112--112
  [] 
  []
 
-) (../Ch-radiation/files/Subsection-Monoatomic-ions-anions
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]) (../Ch-radiation/files/Figure-anions
+[25]) (../Ch-radiation/files/Subsection-Monoatomic-ions-anions)
+(../Ch-radiation/files/Figure-anions
 Overfull \hbox (19.9995pt too wide) in paragraph at lines 110--110
  [] 
  []
 
-) (../Ch-radiation/files/Subsection-Atomics-Charges-from-group)
-(../Ch-radiation/files/Table-Orbital-Ionic-charges-from-the-table
+) (../Ch-radiation/files/Table-Orbital-Ionic-charges-from-the-table
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -6772,16 +6772,23 @@ Overfull \hbox (19.9995pt too wide) in paragraph at lines 110--110
 
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 17.
+(hyperref)                setting the option has no effect on input line 19.
 
-)
+) (../Ch-radiation/files/Subsection-Atomics-Charges-from-group)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27] (../Ch-radiation/files/SectionIntro-Periodic-Trends)
 (../Ch-radiation/files/Figure-Atomic-radius)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Effective-charge
 Underfull \vbox (badness 4819) has occurred while \output is active []
@@ -6793,7 +6800,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]) (../Ch-radiation/files/Figure-Atomic-radius-plot)
+[28]) (../Ch-radiation/files/Figure-Atomic-radius-plot)
 (../Ch-radiation/files/Table-Ionization-energies
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -6806,14 +6813,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] (../Ch-radiation/files/Figure-Ionization-energy-plot
+[29] (../Ch-radiation/files/Figure-Ionization-energy-plot
 \AxisA=\box314
 \Axisb=\box315
 )
-Overfull \hbox (163.88783pt too wide) in paragraph at lines 67--224
-[][] 
- []
-
 (../Ch-radiation/files/SubSection-Periodic-Trends-Ionization-Energy)
 (../Ch-radiation/files/Figure-Periodic-propeties
 
@@ -6822,7 +6825,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[30]
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6879,6 +6882,11 @@ Overfull \hbox (144.22401pt too wide) in paragraph at lines 34--34
 [][][][][]  
  []
 
+
+Overfull \hbox (163.88783pt too wide) in paragraph at lines 5--46
+[][] 
+ []
+
 ) (../Ch-radiation/files/SubSection-Periodic-Trends-Electron-affinity)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6886,7 +6894,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] (../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
+[31] (../Ch-radiation/files/SubSection-Periodic-Trends-ElectronegativityEN)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Metallic-character)
 (../Ch-radiation/problems/SampleProblem11
 (../Ch-radiation/problems/StudyCheck11)
@@ -6896,7 +6904,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]) (../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
+[32]) (../Ch-radiation/files/SubSection-Periodic-Trends-Ionic-radius)
 (../Ch-radiation/files/Figure-Photoelectron)
 (../Ch-radiation/files/SubSection-Periodic-Trends-Photoelectron-spectroscopy-of
 -atoms) (../Ch-radiation/files/Figure-PES-spectra
@@ -6906,14 +6914,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32])
+[33])
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]) (../Ch-radiation/Ch-radiationProblems.tex
+[34] [35
+
+]) (../Ch-radiation/Ch-radiationProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6984,7 +6994,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34
+[36
+
 
 ])
 (../Ch-radiation/problems/problems/Problems-Electronic-configuration-Full-elect
@@ -6995,7 +7006,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]) (../Ch-radiation/problems/problems/Problems-Periodic-Trends-Atomic-radius
+[37]) (../Ch-radiation/problems/problems/Problems-Periodic-Trends-Atomic-radius
 
 Overfull \hbox (15.91058pt too wide) in paragraph at lines 43--43
  [] 
@@ -7012,7 +7023,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[38]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -7095,25 +7106,9 @@ Underfull \hbox (badness 1502) in paragraph at lines 62--62
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [39
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[39]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -7129,7 +7124,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] [42
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43] [44
 
 ])
 
@@ -7150,7 +7161,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5737.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5737.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6CDC415E5F66B85385A233318783B9BE;2463.
+(rerunfilecheck)             Checksum: 1E9C386AB016DF21066D7D768070F468;2463.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -7159,22 +7170,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5737.
  ) 
 Here is how much of TeX's memory you used:
- 88085 strings out of 493014
- 1978602 string characters out of 6133351
- 3078652 words of memory out of 5000000
- 88764 multiletter control sequences out of 15000+600000
+ 88081 strings out of 493014
+ 1978536 string characters out of 6133351
+ 3080652 words of memory out of 5000000
+ 88758 multiletter control sequences out of 15000+600000
  368996 words of font info for 430 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,21n,122p,10369b,2731s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-d
 ist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
 enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/
 dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
@@ -7212,10 +7220,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (42 pages, 4533611 bytes).
+Output written on main.pdf (44 pages, 4539204 bytes).
 PDF statistics:
- 1250 PDF objects out of 1440 (max. 8388607)
- 1005 compressed objects within 11 object streams
- 495 named destinations out of 1000 (max. 500000)
+ 1259 PDF objects out of 1440 (max. 8388607)
+ 1012 compressed objects within 11 object streams
+ 497 named destinations out of 1000 (max. 500000)
  100844 words of extra memory for PDF output out of 106986 (max. 10000000)
 

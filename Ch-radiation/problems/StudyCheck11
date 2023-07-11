@@ -4,6 +4,6 @@ Compare the following property for the given couple of elements:
 \item Atomic radius of F and I.
 \item Electronegativity of Cs and Na.
 \end{inparaenum} 
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: (a) radius I $>$ F; (b) Electronegativity Na $>$ Cs.
  \end{flushright} }

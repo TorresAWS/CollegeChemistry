@@ -11,6 +11,6 @@ Indicate if the following combination of quantum numbers is allowed:
 2		&1	&	-1	&	$+^1/_2$\\    
     \bottomrule
 \end{tabularx}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: yes, no, yes. 
  \end{flushright} }
