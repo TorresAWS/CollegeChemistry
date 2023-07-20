@@ -1,18 +1,20 @@
 %%%%%%%%%%%%%%%ENTHALPY TABLES%%%%%%%%%%%
-
-\refstepcounter{table} \label{tab:{\chapterlabel}4}
+\checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi
+\stepcounter{tablenewcounter}\refstepcounter{table}
+%\label{tab:{\chapterlabel}\thetablenewcounter}
+\label{tab:Table-thermod-data}
 
 \newpage\begin{fullwidth}
 \begin{figure*}[h] % FUL FIGURE
-\centering
-\begin{adjustbox}{width=3.0\textwidth,height=0.85\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
+\hspace{-2cm}\centering\begin{adjustbox}{width=3.2\textwidth,height=1.05\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
 \begin{tabularx}{6.56\textheight}{lccc c lccc c lccc c lccc  } 
-\toprule 
- \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.$^{*}$}} \\[1cm]
-\toprule 
+%\toprule 
+ \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:Table-thermod-data} Standard thermodynamic functions at 1atm and 298K.$^{*}$}} \\[1cm]
+%\toprule 
 \rowcolor{black!45}\multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}    &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}   \\[1cm]
-\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}\\[1cm]
-\midrule  \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
+\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}\\[1cm]
+%\midrule  
+\multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
 
 \multicolumn{4}{c}{\cellcolor{black!15}Al}  					&&	\ce{Ba(BrO3)2_{(s)}}&-752.7&-577.4&243.0 	&&	\ce{BN_{(s)}}&-254.4&-228.4&14.8 	&&	\ce{CaCl2.6H2O_{(s)}}&-2607.9&-2205.0&284.9 	\\
 \ce{Al_{(s)}	}	&		0	&		0	&		28.3  	&&	\ce{Ba(BrO3)2.H2O_{(s)}}&-1054.8&-824.6&292.5 	&&	\ce{B2S3_{(s)}}&-240.6&-229.0&57.4 	&&	\ce{Ca(ClO4)2_{(s)}}&-736.8&N\/A$^{\dagger}$&233.0 	\\
@@ -84,15 +86,15 @@
 
 \newpage\begin{fullwidth}
 \begin{figure*}[h] % FUL FIGURE
-\centering
-\begin{adjustbox}{width=3.0\textwidth,height=0.85\textwidth,rotate=-90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
+\vspace{-.5cm}\centering\begin{adjustbox}{width=3.2\textwidth,height=1.05\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
 \begin{tabularx}{6.85\textheight}{lccc c lccc c lccc c lccc  } 
-\toprule 
- \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:{\chapterlabel}l} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
-\toprule 
+%\toprule 
+ \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:Table-thermod-data} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
+%\toprule 
 \rowcolor{black!45}\multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}    &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}   \\[1cm]
-\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}\\[1cm]
-\midrule  \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
+\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}\\[1cm]
+%\midrule  
+\multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
 \multicolumn{4}{c}{\cellcolor{black!15}Cr}  	&&	\ce{Cu(IO3)2_{(aq)}}&-377.8&-190.4&137.2 	&&	\ce{HBr_{(g)}}&-36.4&-53.4&198.6 	&&	\ce{FeBr2_{(s)}}&-249.8&-236.0&140.7 	\\
 \ce{Cr_{(s)}}&0&0&23.8 	&&	\ce{Cu(IO3)2.H2O_{(s)}}&-692.0&-468.6&247.2 	&&	\ce{HI_{(g)}}&26.5&1.7&206.5 	&&	\ce{FeI2_{(s)}}&-113.0&-128.4&77.0 	\\
 \ce{Cr^{3+}_{(aq)}}&-232.0&--N\/A$^{\dagger}$& 	&&	\ce{Cu2O_{(s)}}&-168.6&-146.0&93.1 	&&	\ce{HIO3_{(s)}}&-230.1&-144.3&118.0 	&&	\ce{FeI3_{(g)}}&71.0&N\/A$^{\dagger}$& 	\\
@@ -154,15 +156,15 @@
 
 \newpage\begin{fullwidth}
 \begin{figure*}[h] % FUL FIGURE
-\centering
-\begin{adjustbox}{width=3.0\textwidth,height=0.85\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
+\hspace{-2cm}\centering\begin{adjustbox}{width=3.2\textwidth,height=1.05\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
 \begin{tabularx}{6.55\textheight}{lccc c lccc c lccc c lccc  } 
-\toprule 
- \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:{\chapterlabel}l} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
-\toprule 
+%\toprule 
+ \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:Table-thermod-data} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
+%\toprule 
 \rowcolor{black!45}\multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}    &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}   \\[1cm]
-\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}\\[1cm]
-\midrule  \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
+\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}\\[1cm]
+%\midrule
+  \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
 \ce{LiBr.2H2O_{(s)}}&-962.7&-840.6&162.3 	&&	\ce{MgSiO3_{(s)}}&-1549.0&-11462.1&67.7 	&&	\ce{NH4OH_{(l)}}&-361.2&-254.1&165.6 	&&	\ce{KHSO4_{(s)}}&-1160.6&-1031.4&138.1 	\\
 \ce{LiBrO3_{(s)}}&-347.0&N\/A$^{\dagger}$& 	&&	\ce{Mg2SiO4_{(s)}}&-2174.0&-2055.2&95.1 	&&	\ce{NH4NO3_{(s)}}&-365.6&-184.0&151.1 	&&	\ce{KH2PO4_{(s)}}&-1568.3&-1415.9&134.9 	\\
 \ce{LiI_{(s)}}&-270.4&-270.3&86.8 	&&	\multicolumn{4}{c}{\cellcolor{black!15}Mn}  	&&	\ce{(NH4)2SO4_{(s)}}&-1180.9&-901.9&220.1 	&&	\ce{KMnO4_{(s)}}&-837.2&-737.6&171.7 	\\
@@ -226,15 +228,15 @@
 
 \newpage\begin{fullwidth}
 \begin{figure*}[h] % FUL FIGURE
-\centering
-\begin{adjustbox}{width=3.0\textwidth,height=0.85\textwidth,rotate=-90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
+\vspace{-.3cm}\centering\begin{adjustbox}{width=3.2\textwidth,height=1.05\textwidth,rotate=90 }{\fontfamily{ppl}\selectfont\fontsize{50.5}{49}\selectfont  %\renewcommand{\arraystretch}{2.3}
 \begin{tabularx}{6.55\textheight}{lccc c lccc c lccc c lccc  } 
-\toprule 
- \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:{\chapterlabel}l} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
-\toprule 
+%\toprule 
+ \multicolumn{19}{l}{\multirow{2}{*}{\fontsize{50.5}{49}\selectfont\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white} Table \ref{tab:Table-thermod-data} (continued) Standard thermodynamic functions at 1atm and 298K.}} \\[1cm]
+%\toprule 
 \rowcolor{black!45}\multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}    &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$} &\multirow{2}{*}{}& \multirow{2}{*}{\,Substance} & \multirow{2}{*}{$\Delta H_f^{\circ}$}  &  \multirow{2}{*}{$\Delta G_f^{\circ}$}  & \multirow{2}{*}{$\Delta S^{\circ}$}   \\[1cm]
-\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/K$\cdot\text{ }$ mol)}\\[1cm]
-\midrule  \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
+\rowcolor{black!45}  \multirow{2}{*}{}&   \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)} &\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&   \multirow{2}{*}{ (J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &  \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}&\multirow{2}{*}{}&\multirow{2}{*}{}  &   \multirow{2}{*}{(KJ/mol)}&   \multirow{2}{*}{ (KJ/mol)}&    \multirow{2}{*}{(J/mol$\cdot\text{ }$ K)}\\[1cm]
+%\midrule 
+ \multicolumn{19}{l}{\multirow{2}{*}{ }} \\[1cm]
 \ce{Si^{4+}_{(g)}}&10428.5&N\/A$^{\dagger}$&229.8 	&&	\ce{Na2S2O3_{(s)}}&-1123.0&-1028.0&155.0 	&&	\ce{Sn^{4+}_{(g)}}&9323.2&N\/A$^{\dagger}$&168.4 	&&	\ce{V^{4+}_{(g)}}&9943.3&N\/A$^{\dagger}$&169.3 	\\
 \multicolumn{4}{c}{\cellcolor{black!15}Ag}  	&&	\ce{Na2S2O3.5H2O_{(s)}}&-2607.9&-2230.1&372.4 	&&	\ce{SnH4_{(g)}}&162.8&188.2&227.6 	&&	\ce{VF4_{(s)}}&-1403.3&N\/A$^{\dagger}$& 	\\
 \ce{Ag_{(s)}}&0&0&42.6 	&&	\ce{Na3PO4_{(s)}}&-1917.4&-1788.9&173.8 	&&	\ce{SnCl2_{(s)}}&-325.1&N\/A$^{\dagger}$&1.42 	&&	\ce{VF5_{(l)}}&-1480.3&-1373.2&175.7 	\\

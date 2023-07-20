@@ -1,11 +1,14 @@
- \begin{fullwidth}
-\refstepcounter{table} \label{tab:{\chapterlabel}5}
+\stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:Table-Entropy-phase-change}
+
+ 
+\begin{fullwidth}
 %\begin{table}[ht]
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}5} Standard entropies and enthalpies of phase transition at 1atm } \\
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Entropy-phase-change} Standard entropies and enthalpies of phase transition at 1atm } \\
 \midrule
  \rowcolor{gray!10} Compound &     $\Delta H^{\circ}_{fus}$ (kJ/mol) &	     $\Delta H^{\circ}_{vap}$ (kJ/mol) & Compound &     $\Delta S^{\circ}_{fus}$ (J/mol$\cdot\text{}$ K)&	     $\Delta S^{\circ}_{vap}$ (J/mol$\cdot\text{}$ K)\\
 \midrule
