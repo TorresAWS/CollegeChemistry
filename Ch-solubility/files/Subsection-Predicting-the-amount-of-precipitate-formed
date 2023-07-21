@@ -10,10 +10,10 @@ We have that in order to react with the amount of \ce{Ag^+} in the mixture, we w
 The number of moles of precipitate formed will be given by:
 \[n^{\ce{AgCl}}= 3\times 10^{-2}\text{mmol of \ce{Cl^{-}}}\times\frac{1\text{mol of \ce{AgCl}}}{1\text{mol of \ce{Cl^-}}}=3\times 10^{-2}\text{mmol of \ce{AgCl}}	\]
 When \ce{AgCl} forms at the same time there will be silver(I) ion leftovers. We will finally calculate the concentration of the leftover ion simply by dividing the leftover moles by the overall volume of the mixture--mind we mix two different volumes assuming liquid volumes can be added:
-\[c_{\ce{Ag^+}, left}=\frac{n^{\ce{Ag^+}}_{left}}{V}=\frac{2\times 10^{-2}\text{mmol}}{(5+6)\text{mL}}=1.8\times 10^{-3}\text{M} \]
+\[c^{\ce{Ag^+}}_{left}=\frac{n^{\ce{Ag^+}}_{left}}{V}=\frac{2\times 10^{-2}\text{mmol}}{(5+6)\text{mL}}=1.8\times 10^{-3}\text{M} \]
 The ions Silver(I) is a common ion that will affect the solubility of silver chloride, in fact reducing its value:
 
-\begin{center}$K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=(s+c_{\ce{Ag^+}, left})\cdot (s)=1.8\times 10^{-10}$\end{center}
+\begin{center}$K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=(s+c^{\ce{Ag^+}}_{left})\cdot (s)=1.8\times 10^{-10}$\end{center}
 that leads to a polynomial
-\begin{center}$s^2 + c_{\ce{Ag^+}, left}\cdot s -1.8\times 10^{-10}=0$\end{center}
-Solving for $s$ given that $c_{\ce{Ag^+}, left}=1.8\times 10^{-3}\text{M}$ we have that $s=1.0\times 10^{-7}$M, lower than the solubility of silver chloride in water ($1.3\times 10^{-5}$M).
+\begin{center}$s^2 + c^{\ce{Ag^+}}_{left} \cdot s -1.8\times 10^{-10}=0$\end{center}
+Solving for $s$ given that $c^{\ce{Ag^+}}_{left}=1.8\times 10^{-3}\text{M}$ we have that $s=1.0\times 10^{-7}$M, lower than the solubility of silver chloride in water ($1.3\times 10^{-5}$M).
