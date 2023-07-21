@@ -9,10 +9,10 @@
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
-\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
+\node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em]  (c) at (magnifying glass) {\chemfig{ CH_3-C(=[:90]O)(-CH_3) }} ;\end{scope}
-\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Acetone, the smallest ketone with three carbons, is also known as nail polish remover.};
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em]  (c) at (magnifying glass) {\chemfig{ -[:45](=[:90]O)-[:-45] }} ;\end{scope}
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Acetone, the smallest ketone, is also known as nail polish remover.};
    \end{scope}
    
  \begin{scope}[shift={(2cm,0)}]
@@ -69,7 +69,7 @@
 \coordinate (magnifying glass) at (8.5em,17.5em);
 \node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em]  (c) at (magnifying glass) { \setpolymerdelim()\chemfig{NH_2 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]NH_2 }\makebraces(5pt,5pt){$\scriptstyle\!\!5$}{A}{B} } ;\end{scope}
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em, minimum width=1.5cm]  (c) at (magnifying glass) { \setpolymerdelim()\chemfig{NH_2-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]NH_2 } } ;\end{scope}
 \node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Amines are responsible of the bad smell of decaying meat.};
  \end{scope}
 
@@ -78,9 +78,9 @@
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
-\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
+\node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{CH_3-C(=[:90]O)(-O-CH_3)}} ;\end{scope}
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em, minimum width=1.5cm]  (c) at (magnifying glass) {\chemfig{-[:45](=[:90]O)-[:-45]O-[:45] }} ;\end{scope}
 \node[text width=5cm] at ([yshift=1.2cm]a.north) {\mytriangle{red}Esters are found in soaps};
  \end{scope}
 
@@ -90,9 +90,9 @@
 \begin{scope}[shift={(-2cm,-1cm)}]
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (8.5em,17.5em);
-\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
+\node [draw=none, shape=circle, inner sep=3.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{-[:-45]-[:45](=[:90]O)-[:-45]-[:45]}} ;\end{scope}
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{-[:45](=[:90]O)-[:-45]OH}} ;\end{scope}
 \node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Vinegar contains acetic acid, the smallest carboxylic acid.};
  \end{scope}
 
