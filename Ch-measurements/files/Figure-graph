@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-graph}
 
 \begin{center}\begin{tikzpicture}
 
@@ -28,7 +28,7 @@
 \end{axis}\end{scope}
 
 
- \node[text width=11cm, fontscale=.3,shift={(0em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A graph plotting the change of solubility of a chemical with temperature.
+ \node[text width=11cm, fontscale=.3,shift={(0em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-graph} \end{bf} A graph plotting the change of solubility of a chemical with temperature.
  };
 
 \end{tikzpicture}\end{center}

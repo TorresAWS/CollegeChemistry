@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-rulers}
  
 
 \newcommand{\backgroundcolorbrown}{brown}
@@ -141,7 +141,7 @@
 \end{scope}
 
 \begin{scope}[shift={(-5,0)},rotate=00]
- \node[text width=11cm, fontscale=.3,shift={(3em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Some metric scales with two objects of different lengths. Measurements are (left) 3.15cm (right) and 0.8cm. };
+ \node[text width=11cm, fontscale=.3,shift={(3em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-rulers} \end{bf} Some metric scales with two objects of different lengths. Measurements are (left) 3.15cm (right) and 0.8cm. };
 \end{scope}
 
 

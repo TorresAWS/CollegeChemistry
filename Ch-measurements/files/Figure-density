@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-density}
 
 \usetikzlibrary{patterns,decorations.pathmorphing}
 \usetikzlibrary{arrows.meta}
@@ -69,6 +69,6 @@
   \draw[mass,   path image=../{\chapterlabel}/pb.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{lead ($d$=11 g/mL)};
      \end{scope}   
      \begin{scope}[shift={(0,0)},rotate=00]
- \node[text width=11cm, fontscale=.3,shift={(2em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Objects with a larger density than water will sink whereas objects with a smaller density will float. };
+ \node[text width=11cm, fontscale=.3,shift={(2em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-density} \end{bf} Objects with a larger density than water will sink whereas objects with a smaller density will float. };
 \end{scope}
 \end{tikzpicture}\end{center}

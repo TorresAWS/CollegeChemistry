@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Matter}
 %\caption{Classification of the matter}
 
 \begin{minipage}[b]{1.\linewidth}
@@ -41,7 +41,7 @@
 \end{tikzpicture}
 }
 \begin{tikzpicture}
- \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Classification of the matter };
+ \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Matter} \end{bf} Classification of the matter };
 \end{tikzpicture}
 \end{minipage}
 

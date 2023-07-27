@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:Figure-Cuve-of-Cuves}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Cuve-of-Cubes}
 
  \begin{center}
 \begin{fullwidth}
@@ -51,7 +51,7 @@
 \end{scope}
 
  \begin{scope}[shift={(4,-1)}, scale=1, every node/.append style={transform shape} ]
- \node[text width=16cm, fontscale=.3] at ( 10em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The left cube with a side of 1m has a volume of 1$m^3$. The central cube with a side of 1dm has a volume of 1$dm^3$, that is 1L. The right cube with a side of 1cm has a volume of 1$cm^3$, that is 1mL.};
+ \node[text width=16cm, fontscale=.3] at ( 10em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Cuve-of-Cubes} \end{bf} The left cube with a side of 1m has a volume of 1$m^3$. The central cube with a side of 1dm has a volume of 1$dm^3$, that is 1L. The right cube with a side of 1cm has a volume of 1$cm^3$, that is 1mL.};
  \end{scope}
 \end{tikzpicture}
 \end{fullwidth} \end{center}

@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Chromatography}
 \hspace{-0cm}\begin{minipage}[b]{1.\linewidth}
 \begin{center}
 
@@ -49,7 +49,7 @@ text/.initial={},extra/.code={}]
     decoration={calligraphic brace,amplitude=3pt,raise=0.2ex}] (p) -- (l)
     node[midway,node font=\small,align=left,right=0.6em]{Distance traveled\\ by solvent};  
      \end{scope}
- \node[text width=12cm, fontscale=.3,shift={(5em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} TLC set up. (Left) Solid phase with spots (Center) Solid phase inside a beaker containing the liquid phase (Right) Solid phase with separated mixture components. };
+ \node[text width=12cm, fontscale=.3,shift={(5em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Chromatography} \end{bf} TLC set up. (Left) Solid phase with spots (Center) Solid phase inside a beaker containing the liquid phase (Right) Solid phase with separated mixture components. };
 
       \end{tikzpicture}
 \end{center}\end{minipage}

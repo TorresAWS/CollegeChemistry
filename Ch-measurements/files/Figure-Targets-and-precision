@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:Figure-Targets-and-precision}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Targets-and-precision}\label{Fig:Figure-Targets-and-precision}
 \begin{center}
 
 
@@ -79,7 +79,7 @@
 
  
 \begin{scope}[shift={(-3,-8)}, scale=1.0, every node/.append style={transform shape} ]
- \node[text width=11cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} (Top Left) An accurate but imprecise measurement  (Top Right) An inaccurate and imprecise measurement (Top Left) An accurate and precise measurement (Bottom Right) An inaccurate but precise measurement};
+ \node[text width=11cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Targets-and-precision} \end{bf} (Top Left) An accurate but imprecise measurement  (Top Right) An inaccurate and imprecise measurement (Top Left) An accurate and precise measurement (Bottom Right) An inaccurate but precise measurement};
 \end{scope}
 \end{tikzpicture}%%
 \end{center}

@@ -1,5 +1,5 @@
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\label{Fig:VolumeAndObjects}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Volume-objects}
 
 \hspace{-5cm}
 \begin{fullwidth}
@@ -54,7 +54,7 @@
    \draw[dashed] (0,0 ) -- node[above]{$r$} (1.5,0);
 \end{scope}
 
- \node[text width=12cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Volume of some objects };
+ \node[text width=12cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Volume-objects} \end{bf} Volume of some objects };
 
       \end{tikzpicture}
 \end{center}\end{minipage}\end{fullwidth}
