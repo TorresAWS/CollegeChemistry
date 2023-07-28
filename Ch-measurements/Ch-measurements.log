@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUL 2023 06:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JUL 2023 05:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6163,7 +6163,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-measurements/figure1.png, id=165, 161.6439pt x 61.9113pt>
+<../Ch-measurements/figure1.png, id=137, 161.6439pt x 61.9113pt>
 File: ../Ch-measurements/figure1.png Graphic file (type png)
 <use ../Ch-measurements/figure1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1.png  used on input line 1.
@@ -6249,21 +6249,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 28.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: Reference `Fig:Figure-graph' on page 3 undefined on input line 3
-1.
-
-
 Overfull \hbox (6.97276pt too wide) in paragraph at lines 34--34
  [] 
  []
 
-) (../Ch-measurements/files/SectionIntro-graphs
-
-LaTeX Warning: Reference `Fig:Figure-graph' on page 3 undefined on input line 1
-.
-
-)
+) (../Ch-measurements/files/SectionIntro-graphs)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6271,31 +6261,31 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3] (../Ch-measurements/files/SideFigure-Measurements
-<../Ch-measurements/figure1-1.png, id=213, 1505.625pt x 2007.5pt>
+<../Ch-measurements/figure1-1.png, id=187, 1505.625pt x 2007.5pt>
 File: ../Ch-measurements/figure1-1.png Graphic file (type png)
 <use ../Ch-measurements/figure1-1.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-1.png  used on input line 2
 .
 (pdftex.def)             Requested size: 85.34825pt x 113.79767pt.
-<../Ch-measurements/figure1-2.png, id=214, 913.4125pt x 609.27625pt>
+<../Ch-measurements/figure1-2.png, id=188, 913.4125pt x 609.27625pt>
 File: ../Ch-measurements/figure1-2.png Graphic file (type png)
 <use ../Ch-measurements/figure1-2.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-2.png  used on input line 5
 .
 (pdftex.def)             Requested size: 113.79996pt x 75.90833pt.
-<../Ch-measurements/figure1-15.png, id=215, 1689.31125pt x 1997.4625pt>
+<../Ch-measurements/figure1-15.png, id=189, 1689.31125pt x 1997.4625pt>
 File: ../Ch-measurements/figure1-15.png Graphic file (type png)
 <use ../Ch-measurements/figure1-15.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-15.png  used on input line 
 8.
 (pdftex.def)             Requested size: 96.25049pt x 113.80777pt.
-<../Ch-measurements/figure1-16.png, id=216, 1303.87125pt x 1303.87125pt>
+<../Ch-measurements/figure1-16.png, id=190, 1303.87125pt x 1303.87125pt>
 File: ../Ch-measurements/figure1-16.png Graphic file (type png)
 <use ../Ch-measurements/figure1-16.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-16.png  used on input line 
 11.
 (pdftex.def)             Requested size: 113.80196pt x 113.80196pt.
-<../Ch-measurements/figure1-17.png, id=217, 174.6525pt x 702.625pt>
+<../Ch-measurements/figure1-17.png, id=191, 174.6525pt x 702.625pt>
 File: ../Ch-measurements/figure1-17.png Graphic file (type png)
 <use ../Ch-measurements/figure1-17.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-17.png  used on input line 
@@ -6388,8 +6378,12 @@ LaTeX Warning: Reference `Fig:Figure-rulers' on page 6 undefined on input line
 LaTeX Warning: Reference `Fig:Figure-rulers' on page 6 undefined on input line 
 144.
 
-) (../Ch-measurements/files/SubSection-Significant-Figures-Reading-meniscus)
-(../Ch-measurements/files/Figure-meniscus
+) (../Ch-measurements/files/SubSection-Significant-Figures-Reading-meniscus
+
+LaTeX Warning: Reference `Fig:Figure-meniscus' on page 6 undefined on input lin
+e 1.
+
+) (../Ch-measurements/files/Figure-meniscus
 
 LaTeX Warning: Reference `Fig:Figure-meniscus' on page 6 undefined on input lin
 e 34.
@@ -6435,16 +6429,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [8]) (../Ch-measurements/files/SubSection-Significant-Figures-Rounding)
 (../Ch-measurements/files/Table-Prefixes
 
-LaTeX Warning: Reference `tab:Table-Prefixes' on page 9 undefined on input line
- 3.
-
-
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 37.
+(hyperref)                setting the option has no effect on input line 36.
 
 
 LaTeX Warning: Reference `tab:Table-Prefixes' on page 9 undefined on input line
- 37.
+ 36.
 
 ) (../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors
 
@@ -6453,7 +6443,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9])
+[9]
+
+LaTeX Warning: Reference `tab:Table-Prefixes' on page 10 undefined on input lin
+e 1.
+
+)
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
 y-prefixes)
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
@@ -6484,20 +6479,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-))
-(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
-s
-
-LaTeX Warning: Reference `tab:Table-Prefixes' on page 11 undefined on input lin
-e 1.
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]) (../Ch-measurements/problems/SampleProblem4
+[11])
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
+s
+
+LaTeX Warning: Reference `tab:Table-Prefixes' on page 12 undefined on input lin
+e 1.
+
+) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/problems/StudyCheck4))
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
 nits) (../Ch-measurements/problems/SampleProblem5
@@ -8558,9 +8554,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [14]) (../Ch-measurements/files/SectionIntro-Measurement-Uncertainty)
 (../Ch-measurements/files/SubSection-Measurement-Uncertainty-digits
+
+LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 15 undefined o
+n input line 1.
+
+
 Overfull \hbox (16.34056pt too wide) in paragraph at lines 1--2
 []
  []
+
+
+LaTeX Warning: Reference `Fig:Testubes-and-measurements' on page 15 undefined o
+n input line 7.
 
 ) (../Ch-measurements/files/Figure-Testubes-and-measurements
 Missing character: There is no ! in font nullfont!
@@ -8602,6 +8607,10 @@ fined on input line 10.
 
 ) (../Ch-measurements/files/SubSection-Measurement-Uncertainty-Precision
 
+LaTeX Warning: Reference `Fig:Figure-Targets-and-precision' on page 15 undefine
+d on input line 1.
+
+
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
@@ -8609,8 +8618,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [15]) (../Ch-measurements/files/Figure-Targets-and-precision
 Missing character: There is no ; in font nullfont!
-)
-(../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
+
+
+LaTeX Warning: Reference `Fig:Figure-Targets-and-precision' on page 16 undefine
+d on input line 82.
+
+) (../Ch-measurements/files/SubSection-Measurement-Averageandstandarddeviation
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -8636,25 +8649,25 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-<../Ch-measurements/figure1-14.png, id=337, 1026.83624pt x 684.5575pt>
+<../Ch-measurements/figure1-14.png, id=313, 1026.83624pt x 684.5575pt>
 File: ../Ch-measurements/figure1-14.png Graphic file (type png)
 <use ../Ch-measurements/figure1-14.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
-<../Ch-measurements/figure1-12.png, id=338, 913.4125pt x 590.205pt>
+<../Ch-measurements/figure1-12.png, id=314, 913.4125pt x 590.205pt>
 File: ../Ch-measurements/figure1-12.png Graphic file (type png)
 <use ../Ch-measurements/figure1-12.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
-<../Ch-measurements/figure1-11.png, id=339, 1027.84pt x 770.88pt>
+<../Ch-measurements/figure1-11.png, id=315, 1027.84pt x 770.88pt>
 File: ../Ch-measurements/figure1-11.png Graphic file (type png)
 <use ../Ch-measurements/figure1-11.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
 42.
 (pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
-<../Ch-measurements/figure1-13.png, id=340, 913.4125pt x 1254.6875pt>
+<../Ch-measurements/figure1-13.png, id=316, 913.4125pt x 1254.6875pt>
 File: ../Ch-measurements/figure1-13.png Graphic file (type png)
 <use ../Ch-measurements/figure1-13.png>
 Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
@@ -8675,7 +8688,12 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 4--47
 [][] 
  []
 
-) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
+) (../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter
+
+LaTeX Warning: Reference `Fig:Figure-States-of-matter' on page 18 undefined on 
+input line 1.
+
+)
 (../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
 tures) (../Ch-measurements/files/Figure-States-of-matter
 
@@ -8687,7 +8705,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [18 <../Ch-measurements/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-
 12.png (PNG copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measur
 ements/figure1-13.png (PNG copy)>]
-<../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=348, 276.03
+<../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg, id=322, 276.03
 125pt x 183.68625pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-19.jpeg Graphic fi
 le (type jpg)
@@ -8695,7 +8713,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -19.jpeg  used on input line 10.
 (pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-22.png, id=349, 268.001
+<../Ch-measurements/files/../../Ch-measurements/figure1-22.png, id=323, 268.001
 25pt x 356.33125pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-22.png Graphic fil
 e (type png)
@@ -8703,7 +8721,7 @@ e (type png)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -22.png  used on input line 16.
 (pdftex.def)             Requested size: 507.54735pt x 674.8289pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg, id=351, 276.03
+<../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg, id=325, 276.03
 125pt x 183.68625pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-20.jpeg Graphic fi
 le (type jpg)
@@ -8711,7 +8729,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -20.jpeg  used on input line 22.
 (pdftex.def)             Requested size: 142.26929pt x 94.67374pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-23.png, id=352, 275.027
+<../Ch-measurements/files/../../Ch-measurements/figure1-23.png, id=326, 275.027
 5pt x 349.305pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-23.png Graphic fil
 e (type png)
@@ -8719,7 +8737,7 @@ e (type png)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -23.png  used on input line 28.
 (pdftex.def)             Requested size: 507.59268pt x 644.67975pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg, id=353, 642.4p
+<../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg, id=327, 642.4p
 t x 427.5975pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-21.jpeg Graphic fi
 le (type jpg)
@@ -8727,7 +8745,7 @@ le (type jpg)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -21.jpeg  used on input line 35.
 (pdftex.def)             Requested size: 142.25964pt x 94.69157pt.
-<../Ch-measurements/files/../../Ch-measurements/figure1-24.png, id=354, 286.068
+<../Ch-measurements/files/../../Ch-measurements/figure1-24.png, id=328, 286.068
 76pt x 363.3575pt>
 File: ../Ch-measurements/files/../../Ch-measurements/figure1-24.png Graphic fil
 e (type png)
@@ -8735,6 +8753,11 @@ e (type png)
 Package pdftex.def Info: ../Ch-measurements/files/../../Ch-measurements/figure1
 -24.png  used on input line 41.
 (pdftex.def)             Requested size: 507.55516pt x 644.68407pt.
+
+
+LaTeX Warning: Reference `Fig:Figure-States-of-matter' on page 19 undefined on 
+input line 45.
+
 
 Overfull \hbox (10.91277pt too wide) in paragraph at lines 48--49
  [] 
@@ -8816,22 +8839,22 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]) (../Ch-measurements/files/Figure-density
-<../Ch-measurements/ice.png, id=401, 106.67052pt x 47.48138pt>
+<../Ch-measurements/ice.png, id=376, 106.67052pt x 47.48138pt>
 File: ../Ch-measurements/ice.png Graphic file (type png)
 <use ../Ch-measurements/ice.png>
 Package pdftex.def Info: ../Ch-measurements/ice.png  used on input line 54.
 (pdftex.def)             Requested size: 191.78214pt x 85.36642pt.
-<../Ch-measurements/cork.jpeg, id=402, 276.03125pt x 183.68625pt>
+<../Ch-measurements/cork.jpeg, id=377, 276.03125pt x 183.68625pt>
 File: ../Ch-measurements/cork.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/cork.jpeg>
 Package pdftex.def Info: ../Ch-measurements/cork.jpeg  used on input line 60.
 (pdftex.def)             Requested size: 128.27316pt x 85.35995pt.
-<../Ch-measurements/al.jpeg, id=403, 578.16pt x 642.4pt>
+<../Ch-measurements/al.jpeg, id=378, 578.16pt x 642.4pt>
 File: ../Ch-measurements/al.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/al.jpeg>
 Package pdftex.def Info: ../Ch-measurements/al.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 76.82196pt x 85.35774pt.
-<../Ch-measurements/pb.jpeg, id=404, 1505.625pt x 1003.75pt>
+<../Ch-measurements/pb.jpeg, id=379, 1505.625pt x 1003.75pt>
 File: ../Ch-measurements/pb.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/pb.jpeg>
 Package pdftex.def Info: ../Ch-measurements/pb.jpeg  used on input line 69.
@@ -8842,7 +8865,7 @@ LaTeX Warning: Reference `Fig:Figure-density' on page 22 undefined on input lin
 e 72.
 
 ) (../Ch-measurements/problems/SampleProblem11
-<../Ch-measurements/Image-Glass-with-three-liquids.png, id=405, 1204.5pt x 2156
+<../Ch-measurements/Image-Glass-with-three-liquids.png, id=380, 1204.5pt x 2156
 .055pt>
 File: ../Ch-measurements/Image-Glass-with-three-liquids.png Graphic file (type 
 png)
@@ -8883,13 +8906,13 @@ put line 1.
 
 ) (../Ch-measurements/files/SubSection-Matter-and-density-ImmersionMethod)
 (../Ch-measurements/files/SideFigure-density
-<../Ch-measurements/hydrometer.jpeg, id=419, 178.6675pt x 285.065pt>
+<../Ch-measurements/hydrometer.jpeg, id=394, 178.6675pt x 285.065pt>
 File: ../Ch-measurements/hydrometer.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/hydrometer.jpeg>
 Package pdftex.def Info: ../Ch-measurements/hydrometer.jpeg  used on input line
  2.
 (pdftex.def)             Requested size: 71.33214pt x 113.81084pt.
-<../Ch-measurements/peestick.jpeg, id=420, 538.01pt x 538.01pt>
+<../Ch-measurements/peestick.jpeg, id=395, 538.01pt x 538.01pt>
 File: ../Ch-measurements/peestick.jpeg Graphic file (type jpg)
 <use ../Ch-measurements/peestick.jpeg>
 Package pdftex.def Info: ../Ch-measurements/peestick.jpeg  used on input line 5
@@ -8938,9 +8961,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 (./Ch-measurements.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `Ch-measurements.out' has not changed.
-(rerunfilecheck)             Checksum: F787F19A4E1E3E6CCE5244959F34F010;1772.
 
+
+Package rerunfilecheck Warning: File `Ch-measurements.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-measurements.out':
+(rerunfilecheck)             Before: A8ACB549A93B0219F47897FE4853EA12;649
+(rerunfilecheck)             After:  F787F19A4E1E3E6CCE5244959F34F010;1772.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -8956,10 +8985,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 85701 strings out of 493014
- 1922567 string characters out of 6133351
- 3865858 words of memory out of 5000000
- 86926 multiletter control sequences out of 15000+600000
+ 85674 strings out of 493014
+ 1922003 string characters out of 6133351
+ 3864764 words of memory out of 5000000
+ 86899 multiletter control sequences out of 15000+600000
  204842 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,119p,10406b,2502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8993,10 +9022,10 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-measurements.pdf (24 pages, 19946423 bytes).
+Output written on Ch-measurements.pdf (24 pages, 19945377 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
+ 521 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
  115 named destinations out of 1000 (max. 500000)
- 61626 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 61570 words of extra memory for PDF output out of 61914 (max. 10000000)
 
