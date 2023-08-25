@@ -1,7 +1,7 @@
 The formulas for the different colligative properties represent linear relationships. Therefore by means of plotting, we can calculate some of the colligative constants. The next example explains how to obtain colligative constants by means of a graphical method. In order to obtain any colligative constants, the plot involved in the calculation should represent a good quality linear trend and the statistic tool used to assess the goodness of a linear plot is called linear correlation or linear regression. Linear regression uses a linear correlation coefficient, $r^2$, to assess the quality of the fit.
 Good linear plots, in general, are characterized by a values of linear correlation coefficient between 0.99 and 1. Differently, $r^2$ values lower than 0.99 in general do not result from a truly linear relationship. No accurate colligative constants shoould be calculated from a set of data characterized by poor linear correlation coefficient. Is important to keep in mind:
 \begin{equation}\begin{split}
-r^2\leq0.99 \quad \quad (\text{Good linear regression})\label{\chapterlabel:equation16}\\
+0.99 \leq r^2 \leq 1.00 \quad \quad (\text{Good linear regression})\label{\chapterlabel:equation16}\\
 r^2<0.99 \quad \quad (\text{Poor linear regression}) 
 \end{split}\end{equation}
 You can fit a linear regression to a set of experimental data either by means of a graphic calculator or using specialized \href{http://www.alcula.com/calculators/statistics/linear-regression/#gsc.tab=0}{internet websites}.
