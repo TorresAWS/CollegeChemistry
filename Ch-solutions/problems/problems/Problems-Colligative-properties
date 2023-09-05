@@ -101,6 +101,23 @@ Calculate the osmotic pressure of a 3M \ce{NaCl} solution at 298K.
 146.62atm
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The osmotic pressure of a solution is 146.6 atm at 298K. Calculate the effective concentration of solute in the solution.
+\end{question}
+\begin{solution}
+3M
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The osmotic pressure of a \ce{NaCl} solution is 200 atm at 298K. Calculate the effective and nominal concentration of solute in the solution.
+\end{question}
+\begin{solution}
+8.18 M (effective); 4.09M (nominal)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
