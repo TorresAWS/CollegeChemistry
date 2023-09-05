@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUL 2023 05:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 SEP 2023 05:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6096,9 +6096,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [2])
 (../Ch-Table/files/SubSection-The-periodic-table-Classification-of-elements-in-
-terms-of-groups)
-(../Ch-Table/files/SubSection-The-periodic-table-How-to-classify-Hydrogen)
-(../Ch-Table/files/Figure-The-periodic-table
+terms-of-groups) (../Ch-Table/files/Figure-The-periodic-table
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6130,14 +6128,15 @@ Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
-) (../Ch-Table/files/SectionIntro-Early-experiments-the-atom
+) (../Ch-Table/files/SubSection-The-periodic-table-How-to-classify-Hydrogen)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]) (../Ch-Table/files/Figure-Cathodic-rays
+[3] (../Ch-Table/files/SectionIntro-Early-experiments-the-atom)
+(../Ch-Table/files/Figure-Cathodic-rays
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6202,14 +6201,14 @@ Overfull \hbox (24.43173pt too wide) in paragraph at lines 62--63
  []
 
 ) (../Ch-Table/files/SubSection-Early-experiments-the-atom-Radiation)
-(../Ch-Table/files/SectionIntro-The-atom)
+(../Ch-Table/files/SectionIntro-The-atom
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] (../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
+[5]) (../Ch-Table/files/SubSection-The-atom-Atomic-Structure)
 (../Ch-Table/files/Figure-Models-of-the-atom
 Overfull \hbox (6.83253pt too wide) in paragraph at lines 73--73
  [] 
@@ -6223,8 +6222,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]) (../Ch-Table/problems/SampleProblem2 (../Ch-Table/problems/StudyCheck2))
-(../Ch-Table/files/SubSection-The-atom-Isotopes)
-(../Ch-Table/files/Figure-Isotopes
+(../Ch-Table/files/SubSection-The-atom-Isotopes
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]) (../Ch-Table/files/Figure-Isotopes
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 125.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6243,14 +6248,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 125.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 125.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]) (../Ch-Table/files/SubSection-The-atom-Average-atomic-mass)
+)
+(../Ch-Table/files/SubSection-The-atom-Average-atomic-mass)
 (../Ch-Table/problems/SampleProblem3
 
 Package array Warning: Column Y is already defined on input line 9.
@@ -6296,11 +6295,12 @@ Overfull \hbox (9.35733pt too wide) in paragraph at lines 4--35
 
 ) (../Ch-Table/files/SectionIntro-An-introduction-to-molecules)
 (../Ch-Table/files/SubSection-An-introduction-to-molecules-Molecular-weight)
-(../Ch-Table/problems/SampleProblem4 (../Ch-Table/problems/StudyCheck4)
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
+(../Ch-Table/problems/SampleProblem4 (../Ch-Table/problems/StudyCheck4
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6310,35 +6310,37 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [10])
 (../Ch-Table/files/SubSection-An-introduction-to-molecules-Mass-percent-composi
 tion-of-a-compound) (../Ch-Table/problems/SampleProblem5
-(../Ch-Table/problems/StudyCheck5)
-Underfull \hbox (badness 10000) in paragraph at lines 6--9
+(../Ch-Table/problems/StudyCheck5
+Underfull \hbox (badness 10000) in paragraph at lines 6--5
 
  []
 
-) (../Ch-Table/files/SectionIntro-Empirical-and-molecular-formula-of-a-chemical
-) (../Ch-Table/problems/SampleProblem6 (../Ch-Table/problems/StudyCheck6)
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-
- []
-
+))
+(../Ch-Table/files/SectionIntro-Empirical-and-molecular-formula-of-a-chemical
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11])
+[11]) (../Ch-Table/problems/SampleProblem6 (../Ch-Table/problems/StudyCheck6
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+))
 (../Ch-Table/files/SubSection-Empirical-and-molecular-formula-of-a-chemical-Mol
 ecular-weight-of-empirical-formulas-and-molecular-formulas
 Overfull \hbox (22.34056pt too wide) in paragraph at lines 2--4
 []
  []
 
-) (../Ch-Table/problems/SampleProblem7 (../Ch-Table/problems/StudyCheck7)
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
+) (../Ch-Table/problems/SampleProblem7 (../Ch-Table/problems/StudyCheck7
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
 
  []
 
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6347,11 +6349,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [12]) (../Ch-Table/files/SectionIntro-Determining-empirical-formulas)
 (../Ch-Table/files/SubSection-Determining-empirical-formulas-Calculating-molecu
-lar-formulas) (../Ch-Table/problems/SampleProblem8
-(../Ch-Table/problems/StudyCheck8)
-Underfull \hbox (badness 10000) in paragraph at lines 1--24
+lar-formulas
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6359,7 +6359,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13])
+[13]) (../Ch-Table/problems/SampleProblem8 (../Ch-Table/problems/StudyCheck8
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
+
+ []
+
+))
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6378,20 +6383,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (./Ch-Table.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package rerunfilecheck Info: File `Ch-Table.out' has not changed.
+(rerunfilecheck)             Checksum: 72ECD260883347E3EE1FFB9BF3520CBD;1416.
 
-
-Package rerunfilecheck Warning: File `Ch-Table.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-Table.out':
-(rerunfilecheck)             Before: 7AF11BA2486623D2E32EF2483D66D0A6;1416
-(rerunfilecheck)             After:  72ECD260883347E3EE1FFB9BF3520CBD;1416.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6404,82 +6403,42 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 85458 strings out of 493014
- 1906521 string characters out of 6133351
- 2965421 words of memory out of 5000000
- 86906 multiletter control sequences out of 15000+600000
- 209152 words of font info for 298 fonts, out of 8000000 for 9000
+ 85446 strings out of 493014
+ 1906370 string characters out of 6133351
+ 2906422 words of memory out of 5000000
+ 86904 multiletter control sequences out of 15000+600000
+ 211874 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,28n,109p,10598b,2910s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.6} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.5} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.4} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.3} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/
-texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist
-/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome
-/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawe
-some/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/p
-tsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsan
-s/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr
-o8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-Table.pdf (14 pages, 1238532 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
+onts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pts
+ans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on Ch-Table.pdf (14 pages, 1263582 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 62487 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 62999 words of extra memory for PDF output out of 74296 (max. 10000000)
 
