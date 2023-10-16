@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 NOV 2021 06:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 OCT 2023 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Ch-gas.tex
-(./Ch-gas.tex
+**Ch-Gas.tex
+(./Ch-Gas.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -299,7 +299,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file Ch-gas.bbl.
+No file Ch-Gas.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -530,6 +530,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./Ch-Gas.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -539,7 +541,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `Ch-gas.pre'.
+\openout4 = `Ch-Gas.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -1647,10 +1649,10 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `Ch-gas.idx'.
+\openout8 = `Ch-Gas.idx'.
 
 
-Writing index file Ch-gas.idx
+Writing index file Ch-Gas.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -4777,8 +4779,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file Ch-gas.aux.
-\openout1 = `Ch-gas.aux'.
+(./Ch-Gas.aux)
+\openout1 = `Ch-Gas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -4798,7 +4800,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -4812,11 +4814,12 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+ (./Ch-Gas.out)
+(./Ch-Gas.out)
 \@outlinefile=\write14
-\openout14 = `Ch-gas.out'.
+\openout14 = `Ch-Gas.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
@@ -4969,7 +4972,7 @@ File: exsheets_configurations.cfg
 ) (../Ch-Gas/files/ChapterName
 Chapter 1.
 )
-<../Ch-Gas/figure1.png, id=109, 515.9275pt x 722.7pt>
+<../Ch-Gas/figure1.png, id=133, 515.9275pt x 722.7pt>
 File: ../Ch-Gas/figure1.png Graphic file (type png)
 <use ../Ch-Gas/figure1.png>
 Package pdftex.def Info: ../Ch-Gas/figure1.png  used on input line 9.
@@ -5091,9 +5094,13 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 43.
 
 (../Ch-Gas/files/SubSection-Gases-and-its-properties-Gases-in-the-periodic-tabl
-e)
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Characteristics-of-gases)
-(../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume,-V [1
+e
+
+LaTeX Warning: Reference `Fig:Figure-Gas-Table' on page 1 undefined on input li
+ne 1.
+
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Characteristics-of-gases
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Volume,-V [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-G
@@ -5133,7 +5140,8 @@ t available
  line 4.
 
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}1' on page 2 undefined on input line 6.
+LaTeX Warning: Reference `Fig:Figure-Gas-Table' on page 2 undefined on input li
+ne 6.
 
 
 Overfull \hbox (8.84329pt too wide) in paragraph at lines 4--8
@@ -5145,17 +5153,14 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
 [] 
  []
 
-) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Amount-of-gas,-n
-
-LaTeX Warning: Reference `Fig:{Ch-Gas}1' on page 2 undefined on input line 1.
-
-) (../Ch-Gas/files/SideFigure-Gases
-<../Ch-Gas/figure6.png, id=128, 225.84375pt x 225.84375pt>
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Amount-of-gas,-n)
+(../Ch-Gas/files/SideFigure-Gases
+<../Ch-Gas/figure6.png, id=152, 225.84375pt x 225.84375pt>
 File: ../Ch-Gas/figure6.png Graphic file (type png)
 <use ../Ch-Gas/figure6.png>
 Package pdftex.def Info: ../Ch-Gas/figure6.png  used on input line 5.
 (pdftex.def)             Requested size: 128.04305pt x 128.04305pt.
-<../Ch-Gas/figure7.png, id=129, 587.19376pt x 389.95688pt>
+<../Ch-Gas/figure7.png, id=153, 587.19376pt x 389.95688pt>
 File: ../Ch-Gas/figure7.png Graphic file (type png)
 <use ../Ch-Gas/figure7.png>
 Package pdftex.def Info: ../Ch-Gas/figure7.png  used on input line 8.
@@ -5170,8 +5175,12 @@ Overfull \hbox (9.10944pt too wide) in paragraph at lines 1--11
 [] 
  []
 
-) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Pressure,-P)
-(../Ch-Gas/problems/SampleProblem1 (../Ch-Gas/problems/StudyCheck1
+) (../Ch-Gas/files/SubSection-Gases-and-its-properties-Pressure,-P
+
+LaTeX Warning: Reference `Fig:Figure-Pressure' on page 2 undefined on input lin
+e 7.
+
+) (../Ch-Gas/problems/SampleProblem1 (../Ch-Gas/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 1.
 
@@ -5180,24 +5189,25 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 ))
 [2 <../Ch-Gas/figure6.png (PNG copy)> <../Ch-Gas/figure7.png (PNG copy)>])
 (../Ch-Gas/files/Figure-Pressure
-<../Ch-Gas/figure3.png, id=145, 906.38625pt x 1027.84pt>
+<../Ch-Gas/figure3.png, id=168, 906.38625pt x 1027.84pt>
 File: ../Ch-Gas/figure3.png Graphic file (type png)
 <use ../Ch-Gas/figure3.png>
 Package pdftex.def Info: ../Ch-Gas/figure3.png  used on input line 16.
 (pdftex.def)             Requested size: 112.89691pt x 128.02486pt.
-<../Ch-Gas/figure4.png, id=146, 424.58624pt x 601.24625pt>
+<../Ch-Gas/figure4.png, id=169, 424.58624pt x 601.24625pt>
 File: ../Ch-Gas/figure4.png Graphic file (type png)
 <use ../Ch-Gas/figure4.png>
 Package pdftex.def Info: ../Ch-Gas/figure4.png  used on input line 16.
 (pdftex.def)             Requested size: 90.41612pt x 128.03606pt.
-<../Ch-Gas/figure5.png, id=147, 184.69pt x 275.0275pt>
+<../Ch-Gas/figure5.png, id=170, 184.69pt x 275.0275pt>
 File: ../Ch-Gas/figure5.png Graphic file (type png)
 <use ../Ch-Gas/figure5.png>
 Package pdftex.def Info: ../Ch-Gas/figure5.png  used on input line 16.
 (pdftex.def)             Requested size: 95.5377pt x 142.26813pt.
 
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}2' on page 3 undefined on input line 16.
+LaTeX Warning: Reference `Fig:Figure-Pressure' on page 3 undefined on input lin
+e 16.
 
 )
 Overfull \hbox (171.82971pt too wide) in paragraph at lines 3--53
@@ -5205,6 +5215,14 @@ Overfull \hbox (171.82971pt too wide) in paragraph at lines 3--53
  []
 
 (../Ch-Gas/files/SubSection-Gases-and-its-properties-Measuring-pressure
+
+LaTeX Warning: Reference `Fig:Figure-Pressure' on page 3 undefined on input lin
+e 1.
+
+
+LaTeX Warning: Reference `Fig:Figure-Manometer' on page 3 undefined on input li
+ne 2.
+
 [3 <../Ch-Gas/figure3.png> <../Ch-Gas/figure4.png> <../Ch-Gas/figure5.png (PNG 
 copy)>]) (../Ch-Gas/files/Figure-Manometer
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5221,7 +5239,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 33.
 
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}3' on page 4 undefined on input line 67.
+LaTeX Warning: Reference `Fig:Figure-Manometer' on page 4 undefined on input li
+ne 67.
 
 
 Overfull \hbox (13.98193pt too wide) in paragraph at lines 69--70
@@ -5379,8 +5398,13 @@ e)
 ry-and-gases) (../Ch-Gas/problems/SampleProblem6
 (../Ch-Gas/problems/StudyCheck6) [9])
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and
--total-pressure) (../Ch-Gas/problems/SampleProblem7
-(../Ch-Gas/problems/StudyCheck7) [10]) (../Ch-Gas/files/Figure-Partial-Pressure
+-total-pressure
+
+LaTeX Warning: Reference `Fig:Figure-Partial-Pressure' on page 10 undefined on 
+input line 1.
+
+) (../Ch-Gas/problems/SampleProblem7 (../Ch-Gas/problems/StudyCheck7) [10])
+(../Ch-Gas/files/Figure-Partial-Pressure
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5399,8 +5423,9 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}4' on page 11 undefined on input line 42.
 
+LaTeX Warning: Reference `Fig:Figure-Partial-Pressure' on page 11 undefined on 
+input line 42.
 
 )
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pre
@@ -5408,14 +5433,15 @@ ssure-of-a-gas-in-a-mixture)
 (../Ch-Gas/files/SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fracti
 on) (../Ch-Gas/problems/SampleProblem8 (../Ch-Gas/problems/StudyCheck8)
 [11]) (../Ch-Gas/files/Figure-Gas-Collection-in-water
-<../Ch-Gas/figure8.png, id=223, 905.3825pt x 853.1875pt>
+<../Ch-Gas/figure8.png, id=243, 905.3825pt x 853.1875pt>
 File: ../Ch-Gas/figure8.png Graphic file (type png)
 <use ../Ch-Gas/figure8.png>
-Package pdftex.def Info: ../Ch-Gas/figure8.png  used on input line 3.
+Package pdftex.def Info: ../Ch-Gas/figure8.png  used on input line 2.
 (pdftex.def)             Requested size: 170.71204pt x 160.87054pt.
 
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}5' on page 12 undefined on input line 7.
+LaTeX Warning: Reference `Fig:Figure-Gas-Collection-in-water' on page 12 undefi
+ned on input line 6.
 
 ) (../Ch-Gas/files/Table-Water-pressure
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
@@ -5430,7 +5456,8 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 
-LaTeX Warning: Reference `tab:{Ch-Gas}1' on page 12 undefined on input line 7.
+LaTeX Warning: Reference `tab:Table-Water-pressure' on page 12 undefined on inp
+ut line 7.
 
 
 Overfull \hbox (14.07593pt too wide) in paragraph at lines 4--16
@@ -5445,11 +5472,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
  []
 
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}5' on page 12 undefined on input line 3.
+LaTeX Warning: Reference `Fig:Figure-Gas-Collection-in-water' on page 12 undefi
+ned on input line 3.
 
 [12 <../Ch-Gas/figure8.png>]
 
-LaTeX Warning: Reference `tab:{Ch-Gas}1' on page 13 undefined on input line 9.
+LaTeX Warning: Reference `tab:Table-Water-pressure' on page 13 undefined on inp
+ut line 8.
 
 ) (../Ch-Gas/problems/SampleProblem9 (../Ch-Gas/problems/StudyCheck9))
 (../Ch-Gas/files/SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-ga
@@ -5461,7 +5490,8 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
 
-LaTeX Warning: Reference `tab:{Ch-Gas}2' on page 14 undefined on input line 8.
+LaTeX Warning: Reference `tab:Table-Real-Gas' on page 14 undefined on input lin
+e 8.
 
 
 Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
@@ -5472,7 +5502,8 @@ Overfull \hbox (30.08163pt too wide) in paragraph at lines 5--19
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-The-meaning-of-the-Van-der-Waals
 
-LaTeX Warning: Reference `tab:{Ch-Gas}2' on page 14 undefined on input line 1.
+LaTeX Warning: Reference `tab:Table-Real-Gas' on page 14 undefined on input lin
+e 1.
 
 ) (../Ch-Gas/problems/SampleProblem10 (../Ch-Gas/problems/StudyCheck10)
 [14]) (../Ch-Gas/files/SectionIntro-the-kinetic-molecular-theory-of-gases)
@@ -5480,8 +5511,8 @@ LaTeX Warning: Reference `tab:{Ch-Gas}2' on page 14 undefined on input line 1.
 s-Kinetic-theory-of-gases [15]) (../Ch-Gas/problems/SampleProblem11
 (../Ch-Gas/problems/StudyCheck11)) (../Ch-Gas/files/Figure-Kinetic-theory
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}6' on page 16 undefined on input line 84.
-
+LaTeX Warning: Reference `Fig:Figure-Kinetic-theory' on page 16 undefined on in
+put line 84.
 
 
 Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
@@ -5492,7 +5523,8 @@ Overfull \hbox (355.28154pt too wide) in paragraph at lines 3--88
 (../Ch-Gas/files/SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gase
 s-Distribution-of-velocities
 
-LaTeX Warning: Reference `Fig:{Ch-Gas}6' on page 16 undefined on input line 2.
+LaTeX Warning: Reference `Fig:Figure-Kinetic-theory' on page 16 undefined on in
+put line 2.
 
 ) [16] [17
 
@@ -5514,18 +5546,12 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
- (./Ch-gas.aux)
+ (./Ch-Gas.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package rerunfilecheck Info: File `Ch-Gas.out' has not changed.
+(rerunfilecheck)             Checksum: D5F7D4C778ACD64A2E3265CFB144FAED;1177.
 
-
-Package rerunfilecheck Warning: File `Ch-gas.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-gas.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D5F7D4C778ACD64A2E3265CFB144FAED;1177.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5541,13 +5567,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 81632 strings out of 493014
- 1845716 string characters out of 6133351
- 2674184 words of memory out of 5000000
- 83134 multiletter control sequences out of 15000+600000
- 266316 words of font info for 341 fonts, out of 8000000 for 9000
+ 81654 strings out of 493014
+ 1846096 string characters out of 6133351
+ 2675584 words of memory out of 5000000
+ 83151 multiletter control sequences out of 15000+600000
+ 266186 words of font info for 339 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,22n,109p,10523b,2971s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,22n,109p,10523b,2970s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -5577,10 +5603,10 @@ st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on Ch-gas.pdf (18 pages, 3438811 bytes).
+Output written on Ch-Gas.pdf (18 pages, 3439606 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
+ 382 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
  56 named destinations out of 1000 (max. 500000)
- 73666 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 73714 words of extra memory for PDF output out of 74296 (max. 10000000)
 
