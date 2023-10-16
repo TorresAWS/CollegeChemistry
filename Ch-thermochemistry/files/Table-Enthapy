@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%ENTHALPY TABLES%%%%%%%%%%%
 \newpage\begin{fullwidth}
 \vspace{-0cm}\hspace{-1cm}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Enthapy}
 
  \begin{minipage}[b]{1.3\linewidth}\resizebox{0.5\textwidth}{!}{
 \centering
@@ -10,7 +10,7 @@
 \rowcolor{black!45}
 \toprule
 
-\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Standard enthalpy table at 1atm and 298K in KJ/mol.} \\
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Enthapy} Standard enthalpy table at 1atm and 298K in KJ/mol.} \\
 
 
 

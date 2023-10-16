@@ -12,7 +12,7 @@ where:
  
 Now, imagine we need to calculate the change of standard enthalpy for the following reaction:
 %\begin{center}\ce{N2_{(g)} + O2_{(g)} -> 2NO_{(g)}}\end{center}
-%In the case of the reaction above, we need to locate three enthalpies from the table: $\Delta H_f^{\circ}(\ce{N2_{(g)}})$, $\Delta H_f^{\circ}(\ce{O2_{(g)}})$, $\Delta H_f^{\circ}(\ce{NO_{(g)}})$. If we look in the tables, you will find the values: $\Delta H_f^{\circ}(\ce{N2_{(g)}})=0$KJ/mol and $\Delta H_f^{\circ}(\ce{O2_{(g)}})=0$KJ/mol. This makes sense, as these are the natural states of nitrogen and oxygen. Differently, $\Delta H_f^{\circ}(\ce{NO(g)})=90.29$KJ/mol. Now, to compute $\Delta H^{\circ}_R$ we need to take into account that the reaction involves two \ce{NO} molecules. Let us set up the formula:
+%In the case of the reaction above, we need to locate three enthalpies from the table: $\Delta H_f^{\circ}(\ce{N2_{(g)}})$, $\Delta H_f^{\circ}(\ce{O2_{(g)}})$, $\Delta H_f^{\circ}(\ce{NO_{(g)}})$. If we look in Table \ref{tab:Table-Enthapy}, you will find the values: $\Delta H_f^{\circ}(\ce{N2_{(g)}})=0$KJ/mol and $\Delta H_f^{\circ}(\ce{O2_{(g)}})=0$KJ/mol. This makes sense, as these are the natural states of nitrogen and oxygen. Differently, $\Delta H_f^{\circ}(\ce{NO(g)})=90.29$KJ/mol. Now, to compute $\Delta H^{\circ}_R$ we need to take into account that the reaction involves two \ce{NO} molecules. Let us set up the formula:
 %\begin{equation*}\begin{split}
 %  \Delta H^{\circ}_R= \Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}= \Big(2\cdot \Delta H_f^{\circ}(\ce{NO_{(g)}})    \Big)-\Big(\Delta H_f^{\circ}(\ce{N2_{(g)}})+ \Delta H_f^{\circ}(\ce{O2_{(g)}}) \Big)      \\
 %  =     \Big(2\cdot90.29  \Big)-\Big( 0+0 \Big)= 181KJ
