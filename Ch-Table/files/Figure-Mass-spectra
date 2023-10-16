@@ -1,5 +1,5 @@
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Mass-spectra}
 
  
 \begin{center}\begin{tikzpicture}[scale=1]
@@ -48,7 +48,7 @@
             meta=label,
         ] {../\chapterlabel/files/MyData.txt};
     \end{axis}
- \node[text width=12cm, fontscale=.3,shift={(12em,-5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  Mass spectra of Neon with three peaks corresponding to three different isotopes with different relative abundance.};
+ \node[text width=12cm, fontscale=.3,shift={(12em,-5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Mass-spectra} \end{bf}  Mass spectra of Neon with three peaks corresponding to three different isotopes with different relative abundance.};
 
 \end{scope}
 

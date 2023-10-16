@@ -1,5 +1,5 @@
 The figure below represents the experiment carried out by Rutherford in which alpha particles were scattered on a think field made of gold.
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Rutherford}
 
 
 
@@ -56,7 +56,7 @@ The figure below represents the experiment carried out by Rutherford in which al
  
 
  
-\node[text width=5cm, fontscale=.3,shift={(15em,-10em)}] at (3em,3em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Rutherford's scattering: the elastic scattering of charged particles by the Coulomb interaction after a particle beam passed through a thin gold foil obstruction.
+\node[text width=5cm, fontscale=.3,shift={(15em,-10em)}] at (3em,3em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Rutherford} \end{bf} Rutherford's scattering: the elastic scattering of charged particles by the Coulomb interaction after a particle beam passed through a thin gold foil obstruction.
 };
 
 \end{tikzpicture}

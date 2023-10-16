@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Isotopes}
 
  
  
@@ -125,7 +125,7 @@
 \node [red] at (3,2){\Large $-$};
   \end{scope}
 
- \node[text width=11cm, fontscale=.3,shift={(11em,-23em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  Representations of four different atoms, two neutral atoms on top and two ions on the bottom.};
+ \node[text width=11cm, fontscale=.3,shift={(11em,-23em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Isotopes} \end{bf}  Representations of four different atoms, two neutral atoms on top and two ions on the bottom.};
 
 \end{tikzpicture}\end{center}
  

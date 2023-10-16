@@ -6,8 +6,8 @@
 \definecolor{mydarkblue}{RGB}{50,70,190}
 
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}    
-   % \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Cathodic-rays}
+% \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 
 
@@ -129,7 +129,7 @@ at (5,0){ };
 
 
  \begin{scope}[shift={( -0,0)} ]
-    \node[text width=12cm, fontscale=.6,shift={(-5em,-10em)}] at (-5em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Cathode-ray tube made of two electrodes and a partially evacuated gas tube. The electrons, generated on the negatively charged electrode names cathode, excite the gas in the tube generating glow.};
+    \node[text width=12cm, fontscale=.6,shift={(-5em,-10em)}] at (-5em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Cathodic-rays} \end{bf} Cathode-ray tube made of two electrodes and a partially evacuated gas tube. The electrons, generated on the negatively charged electrode names cathode, excite the gas in the tube generating glow.};
   \end{scope}
 
 
