@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-The-mole}
  \begin{minipage}[b]{1.5\linewidth}
 \resizebox{.9\textwidth}{!}{
 	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
@@ -20,7 +20,7 @@
 
  \node (c) at (12cm,.5cm) {\includegraphics[width=4.5cm, height=4.7cm]{../{\chapterlabel}/figure15}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} Flickr} ;
 \node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small A gross is a dozen of dozens}};
-\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Collections of items and their name };
+\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-The-mole} \end{bf} Collections of items and their name };
 
 \end{tikzpicture}
 }
