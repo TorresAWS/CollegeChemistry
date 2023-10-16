@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUL 2023 05:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 OCT 2023 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6044,7 +6044,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-electrolytes/figure1.png, id=157, 752.8125pt x 501.875pt>
+<../Ch-electrolytes/figure1.png, id=133, 752.8125pt x 501.875pt>
 File: ../Ch-electrolytes/figure1.png Graphic file (type png)
 <use ../Ch-electrolytes/figure1.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure1.png  used on input line 1.
@@ -6102,7 +6102,7 @@ File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 lectrolytes/figure1.png>])
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Types-of-solutio
 ns) (../Ch-electrolytes/files/Figure-Dissolution
-<../Ch-electrolytes/figure3.png, id=168, 803.0pt x 372.39125pt>
+<../Ch-electrolytes/figure3.png, id=144, 803.0pt x 372.39125pt>
 File: ../Ch-electrolytes/figure3.png Graphic file (type png)
 <use ../Ch-electrolytes/figure3.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure3.png  used on input line 7.
@@ -6114,6 +6114,10 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
 (../Ch-electrolytes/files/SubSection-Solutions-and-composition-Empirical-rules-
 of-polarity
+
+LaTeX Warning: Reference `tab:Table-Polarity-and-mixing' on page 2 undefined on
+ input line 2.
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6202,7 +6206,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (../Ch-electrolytes/files/SubSection-Precipitation-reactions-and-acid-base-reac
 tions-Solubility-formula)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Solub
-le-and-insoluble-salts) (../Ch-electrolytes/problems/SampleProblem8
+le-and-insoluble-salts
+
+LaTeX Warning: Reference `tab:Table-Solubility' on page 6 undefined on input li
+ne 1.
+
+
+LaTeX Warning: Reference `tab:Table-Solubility' on page 6 undefined on input li
+ne 1.
+
+) (../Ch-electrolytes/problems/SampleProblem8
 (../Ch-electrolytes/problems/StudyCheck8)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6217,6 +6230,10 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
+
+LaTeX Warning: Reference `tab:Table-Solubility' on page 7 undefined on input li
+ne 30.
+
 )
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Stron
 g-electrolytes
@@ -6230,11 +6247,19 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Nonel
 ectrolytes)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Ident
-ify-the-electrolyte-character-of-a-chemical)
-(../Ch-electrolytes/files/Table-Electrolytes
+ify-the-electrolyte-character-of-a-chemical
+
+LaTeX Warning: Reference `tab:Table-Electrolytes' on page 8 undefined on input 
+line 1.
+
+) (../Ch-electrolytes/files/Table-Electrolytes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
+
+
+LaTeX Warning: Reference `tab:Table-Electrolytes' on page 8 undefined on input 
+line 20.
 
 ) (../Ch-electrolytes/problems/SampleProblem9
 (../Ch-electrolytes/problems/StudyCheck9))
@@ -6443,9 +6468,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 (./Ch-electrolytes.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-Package rerunfilecheck Info: File `Ch-electrolytes.out' has not changed.
-(rerunfilecheck)             Checksum: 583C571810D8ACE33A3036EB3AB6F1FD;2325.
 
+
+Package rerunfilecheck Warning: File `Ch-electrolytes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-electrolytes.out':
+(rerunfilecheck)             Before: 85A2AB3E36F58AF5C2B3F4B8D21B25B2;667
+(rerunfilecheck)             After:  583C571810D8ACE33A3036EB3AB6F1FD;2325.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6453,13 +6484,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 84371 strings out of 493014
- 1897483 string characters out of 6133351
- 2677830 words of memory out of 5000000
- 85795 multiletter control sequences out of 15000+600000
- 202646 words of font info for 289 fonts, out of 8000000 for 9000
+ 84369 strings out of 493014
+ 1897488 string characters out of 6133351
+ 2676841 words of memory out of 5000000
+ 85792 multiletter control sequences out of 15000+600000
+ 205449 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,104p,10612b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -6488,10 +6525,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electrolytes.pdf (18 pages, 741972 bytes).
+Output written on Ch-electrolytes.pdf (18 pages, 741498 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
+ 351 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
  53 named destinations out of 1000 (max. 500000)
- 59903 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 60367 words of extra memory for PDF output out of 61914 (max. 10000000)
 

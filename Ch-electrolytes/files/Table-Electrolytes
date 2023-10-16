@@ -1,10 +1,10 @@
  \begin{fullwidth}\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Electrolytes}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Different types of electrolytess } \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Electrolytes} Different types of electrolytess } \\
 \midrule
 \rowcolor{gray!45}Electrolyte Type        & Dissociation                     & Particles in solution& Examples \\
 %\midrule
