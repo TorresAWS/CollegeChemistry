@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Photoelectric-effect}
 \begin{center}
 \begin{tikzpicture}
 \begin{scope}[shift={(-3,0)}]
@@ -45,7 +45,7 @@
 %  \draw (2.5,0) ++(135:2) ++(225:0.3) ++(135:0.8) node[left]
     {\footnotesize Detector};
     \end{scope}
-    \node[text width=12cm, fontscale=0.1] at (0em,-8em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The photoelectric effect: when light with frequency ($\nu$) larger than a threshold irradiates a metal, electrons are ejected with a specific kinetic energy (KE) that depends on the work function (W) of the metal.   };
+    \node[text width=12cm, fontscale=0.1] at (0em,-8em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Photoelectric-effect} \end{bf} The photoelectric effect: when light with frequency ($\nu$) larger than a threshold irradiates a metal, electrons are ejected with a specific kinetic energy (KE) that depends on the work function (W) of the metal.   };
 
 \end{tikzpicture}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

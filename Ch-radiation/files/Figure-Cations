@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Cations}
 
  
  
@@ -107,6 +107,6 @@
   \end{scope}
 
 
- \node[text width=11cm, fontscale=.3,shift={(11em,-8em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf}  The formation of a potassium cation};
+ \node[text width=11cm, fontscale=.3,shift={(11em,-8em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Cations} \end{bf}  The formation of a potassium cation};
 
 \end{tikzpicture}\end{center}

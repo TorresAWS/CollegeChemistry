@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Energy-transitions}
 \begin{center}\resizebox{1.0\textwidth}{!}{
 \begin{tikzpicture}[scale=0.7,
   >=stealth',
@@ -23,7 +23,7 @@
 \electron(3.0, 0);
 \electron(0, 1);
 
- \node[text width=7cm, fontscale=1] at (25em,12em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Representation of two energy transitions, an absorption, and an emission. The absorption involves a transition from a lower energy level into a higher level, whereas in a emision involves a transition from a higher energy level into a lower level.   };
+ \node[text width=7cm, fontscale=1] at (25em,12em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Energy-transitions} \end{bf} Representation of two energy transitions, an absorption, and an emission. The absorption involves a transition from a lower energy level into a higher level, whereas in a emision involves a transition from a higher energy level into a lower level.   };
 
   \end{tikzpicture}}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

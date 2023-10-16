@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{fullwidth}
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Debroglie}
   \begin{minipage}[b]{1.5\linewidth}
 \begin{tikzpicture}
    \begin{scope}[shift={(2em,0)}]
@@ -34,7 +34,7 @@
  \node at (axis cs:0,0){$n=3.5$ \tiny Forbidden };
  \end{axis}
   \end{scope}
-  \node[text width=4cm, fontscale=0.1, shift={(5em,5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} In the circular Bohr's orbits, electron could only have wavelengths that are a multiple of the orbit length, of the wave would cancel (forbidden orbits). };
+  \node[text width=4cm, fontscale=0.1, shift={(5em,5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Debroglie} \end{bf} In the circular Bohr's orbits, electron could only have wavelengths that are a multiple of the orbit length, of the wave would cancel (forbidden orbits). };
 \end{tikzpicture}
  \end{minipage}
 \end{fullwidth}

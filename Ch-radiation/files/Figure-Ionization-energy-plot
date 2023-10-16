@@ -63,7 +63,7 @@
   
   
 
-  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Ionization-energy-plot}
    \begin{minipage}[b]{1.0\linewidth}
 \begin{fullwidth}\begin{center}
 \begin{tikzpicture}
@@ -126,7 +126,7 @@ x       y       label       alignment
    \node[draw,shape=rectangle, minimum width=3cm, minimum height=2cm,rounded corners](b') at (20em,-8em){\usebox\Axisb};
    \draw[dashed, thin] (b.south west) -- (b'.north west)
  (b.south east) -- (b'.north east);
-   \node[text width=14cm, fontscale=1, shift={(20em,-13em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionization energy graphed with respect to the atomic number   };
+   \node[text width=14cm, fontscale=1, shift={(20em,-13em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Ionization-energy-plot} \end{bf} Ionization energy graphed with respect to the atomic number   };
  \end{tikzpicture} 
 \end{center} 
  \end{fullwidth}

@@ -1,5 +1,5 @@
 %%%%%%%%%%%FIGURE %%%%%%%%%%%
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\begin{center}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Double-slit}\begin{center}
   \begin{tikzpicture} [every node/.style={scale=0.9}, every node/.append style={transform shape}]
                     \begin{scope}[xshift =-40em, yshift =0em]
           \foreach \x in {-0.5,-0.25,0} {
@@ -76,7 +76,7 @@
   \end{scope}
               \end{scope}
             \begin{scope}[xshift =-15em, yshift =-5em]
-\node[text width=14cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The double-slit experiment demonstrating the wave nature of light. Using one slit leads to a single bright spot. Using two slits leads to a set of patterns of light and darkness resulting from the interference of light. Red lines represent destructive interference whereas blue lines represent constructive interferences.   };
+\node[text width=14cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Double-slit} \end{bf} The double-slit experiment demonstrating the wave nature of light. Using one slit leads to a single bright spot. Using two slits leads to a set of patterns of light and darkness resulting from the interference of light. Red lines represent destructive interference whereas blue lines represent constructive interferences.   };
    \end{scope} 
   \end{tikzpicture}\end{center} 
  %%%%%%%%%%%FIGURE %%%%%%%%%%%

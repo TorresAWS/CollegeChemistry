@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{fullwidth}
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \begin{center}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Shell-and-subshell} \begin{center}
 %\resizebox{1.0\textwidth}{!}{
 \tiny\begin{tikzpicture}[square/.style={thin, draw,regular polygon,regular polygon sides=4, fill=gray!50,minimum width=1pt, minimum height = 1pt,font=\small, anchor=center, text width=2em,align=center},outer sep=0,inner sep=0]
 \tikzset{
@@ -72,7 +72,7 @@
       \node [square, fill=red]  (Y11) at (0 em,0 em) { 0};
 \end{scope} 
 
-\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=15cm, fontscale=3.0] at (-21em,-9em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The shell and subshell distribution for different principal and angular quantum numbers. Orbitals with the same value of $n$ belong to the same shell and orbitals with the same $n$ and $\ell$ values belong to the same subshell.  };
+\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=15cm, fontscale=3.0] at (-21em,-9em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Shell-and-subshell} \end{bf} The shell and subshell distribution for different principal and angular quantum numbers. Orbitals with the same value of $n$ belong to the same shell and orbitals with the same $n$ and $\ell$ values belong to the same subshell.  };
  \end{tikzpicture}
  %}
    \end{center}

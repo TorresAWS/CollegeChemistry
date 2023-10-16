@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Energy-levels-of-hydrogen}
 
  \begin{center}\begin{tikzpicture}[ scale=0.5, level/.style={very thick} ]
     \tikzset{rotdis/.style={->,decorate, draw=red,line width=0.4mm}}
@@ -60,7 +60,7 @@
                 \node[shift={(13em,8em)}]  (0,0) {\tiny Balmer  Series};
                  \node[shift={(15em,11em)}] (0,0) {\tiny Paschen   Series};
                  \node[shift={(19em,12em)}]  (0,0) {\tiny Brackett   Series};
-\node[text width=4cm, fontscale=0.1,shift={(20em,5em)}] at (25em,10em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy levels of Hydrogen and the different emission series. Each series--called Lyman, Balmer, Paschen and Brackett--terminates at a different value of $n$.  };
+\node[text width=4cm, fontscale=0.1,shift={(20em,5em)}] at (25em,10em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Energy-levels-of-hydrogen} \end{bf} Energy levels of Hydrogen and the different emission series. Each series--called Lyman, Balmer, Paschen and Brackett--terminates at a different value of $n$.  };
 
   \end{tikzpicture}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

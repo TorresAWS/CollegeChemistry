@@ -1,5 +1,5 @@
 %%%%%%%%%%%FIGURE %%%%%%%%%%%
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\begin{center}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Electromagnetic-field}\begin{center}
   \begin{tikzpicture} [every node/.style={scale=0.9}]
           \begin{scope}[xshift =0em, yshift =5em]% Axes
     \draw (-1,0,0) node[above] {$x$} -- (5,0,0);
@@ -20,7 +20,7 @@
     \node[below] at (0,0,1) {$\bm{B}$};
       \end{scope} 
             \begin{scope}[xshift =-2em, yshift =10em]
-\node[text width=5cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The electric ($E$) and magnetic ($B$) field components of an electromagnetic wave. Both fields are perpendicular.   };
+\node[text width=5cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Electromagnetic-field} \end{bf} The electric ($E$) and magnetic ($B$) field components of an electromagnetic wave. Both fields are perpendicular.   };
    \end{scope} 
   \end{tikzpicture}\end{center} 
  %%%%%%%%%%%FIGURE %%%%%%%%%%%

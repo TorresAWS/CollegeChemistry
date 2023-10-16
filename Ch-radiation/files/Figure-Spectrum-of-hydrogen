@@ -177,10 +177,10 @@ coordinate(-front-bottom-right) -- cycle;
 %}\end{minipage}
  
 \vspace{-1cm}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Spectrum-of-hydrogen}
      \begin{center}\begin{tikzpicture}[xscale=1,yscale=1, every node/.style={scale=1}]
         \begin{scope}[xshift =0em, yshift =0em]
-\node[text width=12cm, fontscale=0.1] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The spectrum of hydrogen:  white light contains radiation of all colors of the visible spectrum whereas light coming from hydrogen contains a quantized series of lines. };
+\node[text width=12cm, fontscale=0.1] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Spectrum-of-hydrogen} \end{bf} The spectrum of hydrogen:  white light contains radiation of all colors of the visible spectrum whereas light coming from hydrogen contains a quantized series of lines. };
    \end{scope} 
 \end{tikzpicture}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

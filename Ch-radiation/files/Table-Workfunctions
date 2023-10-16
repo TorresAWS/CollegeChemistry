@@ -2,12 +2,12 @@
 \begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
 \resizebox{1.0\textwidth}{!}{
 %\begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Ionization-energies}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Workfunctions } \\
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Ionization-energies} Workfunctions } \\
 \multicolumn{3}{r}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small and threshold frequencies } \\
 \midrule
  \rowcolor{gray!10} \multicolumn{1}{c}{Element} & \multicolumn{1}{c}{W (eV)} &\multicolumn{1}{c}{$\nu_c$, Hz}     \\

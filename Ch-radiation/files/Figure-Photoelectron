@@ -1,6 +1,6 @@
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Photoelectron}
 \begin{tikzpicture}[scale=0.25]
     \begin{scope} % Energy levels
         \draw (1,0) node[left] {$1s$} -- 
@@ -38,7 +38,7 @@
         \draw[->] (9,0.75) -- (1,20);
         \filldraw (0.4,22) circle (0.75) node[right=5] {photoelectron};
     \end{scope}
-            \node[text width=4cm, fontscale=1, shift={(-6em,10em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A photoelectron emitted from a 1s level  };
+            \node[text width=4cm, fontscale=1, shift={(-6em,10em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Photoelectron} \end{bf} A photoelectron emitted from a 1s level  };
     \end{tikzpicture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

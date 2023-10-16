@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \begin{center}
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Orbitals-d} \begin{center}
  \begin{tikzpicture}
    
     \begin{scope}[font=\itshape, xshift=-5em]% to not type it every time, but better go for math mode
@@ -45,6 +45,6 @@
 \orbital[opacity=2, pos = {(0,0)}]{dz2}
   \node[above] at (0.7,0.7) {d$_{z^2}$};
    \end{scope}
-\node[text width=12cm, fontscale=0.1] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Surface plots of the three $d$ orbitals. };
+\node[text width=12cm, fontscale=0.1] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Orbitals-d} \end{bf} Surface plots of the three $d$ orbitals. };
 \end{tikzpicture}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

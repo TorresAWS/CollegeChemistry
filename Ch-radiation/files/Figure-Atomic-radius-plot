@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{fullwidth}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
-  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Atomic-radius-plot}
 \begin{tikzpicture}
 \pgfdeclarefunctionalshading{spherea}{\pgfpoint{-25bp}{-25bp}}{\pgfpoint{25bp}{25bp}}{}{%% calculate unit coordinates
 25 div exch
@@ -144,7 +144,7 @@ dup
 	\draw [shift={(0em,-36em)},->, thick, -latex,postaction={decorate,decoration={reverse path,raise=0em,text along path,text align=center,text={|\myshift|Atomic radius increases}}}]    (30 em ,10 em) to  (0,10em )  ;
  		 	\draw [thick, -latex,postaction={decorate,decoration={reverse path,raise=0em,text along path,text align=center,text={|\myshift|Atomic radius increases}}}] (-5em,0em ) to   (-5 em ,-20 em);
 
- 		  \node[text width=15cm, fontscale=.8, shift={(0em,-17em)}] at (10em,-12em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Change of atomic radius (calculated values given in pm) across the periodic table. The value with $^*$ was estimated   };
+ 		  \node[text width=15cm, fontscale=.8, shift={(0em,-17em)}] at (10em,-12em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Atomic-radius-plot} \end{bf} Change of atomic radius (calculated values given in pm) across the periodic table. The value with $^*$ was estimated   };
 
 \end{tikzpicture}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

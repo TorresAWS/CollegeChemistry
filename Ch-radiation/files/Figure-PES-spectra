@@ -1,6 +1,6 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-      \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+      \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-PES-spectra}
 
     \begin{center} \begin{tikzpicture}[every node/.style = {font=\small}, specter/.style = {draw=red, very thick, rounded corners}, ]
 \draw[specter]
@@ -35,7 +35,7 @@
 %\foreach \i [count=\ix from 1] in {4800,5000,5200}
 %    \draw (\ix,-0.1) -- + (0,-0.1) node[below] {\i};
 %\end{scope}
-            \node[text width=10cm, fontscale=1, shift={(17em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Photoelectron spectrum (PES) of Magnesium };
+            \node[text width=10cm, fontscale=1, shift={(17em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-PES-spectra} \end{bf} Photoelectron spectrum (PES) of Magnesium };
 
     \end{tikzpicture}\end{center}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

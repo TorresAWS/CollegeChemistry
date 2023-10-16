@@ -1,11 +1,11 @@
 \begin{center}
 \begin{fullwidth}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Ionization-energies}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllllllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{12}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Ionization energy in the periodic table in kJ/mol } \\
+\multicolumn{12}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Ionization-energies} Ionization energy in the periodic table in kJ/mol } \\
 \midrule
  \rowcolor{gray!10} Element & Z & $\text{EI}_1$ & $\text{EI}_2$ & $\text{EI}_3$ &  $\text{EI}_4$ & $\text{EI}_5$ &  $\text{EI}_6$& $\text{EI}_7$ &  $\text{EI}_8$&  $\text{EI}_9$&  $\text{EI}_10$\\
 \midrule

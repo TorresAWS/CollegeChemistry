@@ -9,14 +9,14 @@
 \begin{fullwidth}
 \hspace{8cm}
 %\begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Ionization-energies}
 \fontfamily{ppl}\selectfont
 
 \begingroup
 \begin{tabular}[t]{c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c   !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}}c !{\textcolor{white}{\vrule width3pt}} c !{\textcolor{white}{\vrule width3pt}}}
 \rowcolor{black!45}
 \toprule
-\multicolumn{11}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Ionic charges from group numbers } \\
+\multicolumn{11}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Ionization-energies} Ionic charges from group numbers } \\
 \midrule
 \rowcolor{black}\textcolor{white}{ Nobel }	&\cellcolor{white}&\textcolor{white}{ Group } &\textcolor{white}{ Group } &\textcolor{white}{ Group }&\cellcolor{white}&\textcolor{white}{ Group }&\textcolor{white}{ Group }&\textcolor{white}{ Group }&\cellcolor{white}&\textcolor{white}{ Nobel }\\ 
 \rowcolor{black}\textcolor{white}{ Gas }	&\cellcolor{white}&\textcolor{white}{ 1A } &\textcolor{white}{ 2A } &\textcolor{white}{ 3A }&\cellcolor{white}&\textcolor{white}{ 5A }&\textcolor{white}{ 6A }&\textcolor{white}{ 7A }&\cellcolor{white}&\textcolor{white}{ Gas }\\ 

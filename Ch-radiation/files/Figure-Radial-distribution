@@ -13,7 +13,7 @@
   ->-/.default=0.5
 }
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} 
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Radial-distribution} 
 \begin{tikzpicture} [view angle=15, >=stealth, every node/.style={scale=1.0}]        
 
   \begin{scope}[shift={(0em,0 em)}, scale=1]
@@ -132,7 +132,7 @@
   \draw[fill=yellow, fill opacity=.75, shading=sphere]   (0:1) arc (0:-360:0.8) node [yshift=-3em, xshift=-2em] {$1s$}  ;
     \draw[fill=yellow, fill opacity=.75, shading=sphere, yshift=-12em, xshift=2em]   (0:1em) arc (0:-360:1.0) node [yshift=-5em, xshift=-2em] {$2s$}  ;
     \draw[fill=yellow, fill opacity=.75, shading=sphere, yshift=-25em, xshift=2em]   (0:1em) arc (0:-360:1.1) node [yshift=-6em, xshift=-2em] {$3s$}  ;
-\node[text width=19cm, fontscale=0.1] at (25em,-35em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Three different representations of the $s$ atomic orbitals of hydrogen: (left) boundary surface plots, (center) probability density plots (the orbital squared) with a sliced 3D surface plots, and (right) radial probability function. The value of $a_0$, called Bohn's radius, is 52.9pm. The yellow circles inside the sliced 3D surface plots represent the orbital nodes. };
+\node[text width=19cm, fontscale=0.1] at (25em,-35em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Radial-distribution} \end{bf} Three different representations of the $s$ atomic orbitals of hydrogen: (left) boundary surface plots, (center) probability density plots (the orbital squared) with a sliced 3D surface plots, and (right) radial probability function. The value of $a_0$, called Bohn's radius, is 52.9pm. The yellow circles inside the sliced 3D surface plots represent the orbital nodes. };
 
   \end{scope}
     \end{scope}

@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}  
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Energy-levels-and-orbitals}  
 %\resizebox{1.0\textwidth}{!}{
 \tiny\begin{tikzpicture}[square/.style={thin, draw,regular polygon,regular polygon sides=4, fill=gray!50,minimum width=1pt, minimum height = 1pt,font=\small, anchor=center, text width=2em,align=center},outer sep=0,inner sep=0]
 \begin{scope}[shift={(-15em,-0 em)}]
@@ -48,7 +48,7 @@
 
         \begin{scope}[shift={(5em,-2 em)}]
 
-\node[font=\normalsize, xshift=6em, yshift=-0em, text width=12cm, fontscale=3.0] at (-0em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy of the different hydrogen orbitals. $s$ orbitals have the lowest energy and hence are the most stable. Orbitals in the same shell (2$p$, 2$s$) have the same energy. The larger the principal quantum number the more positive the energy, the less stable the orbital. };
+\node[font=\normalsize, xshift=6em, yshift=-0em, text width=12cm, fontscale=3.0] at (-0em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Energy-levels-and-orbitals} \end{bf} Energy of the different hydrogen orbitals. $s$ orbitals have the lowest energy and hence are the most stable. Orbitals in the same shell (2$p$, 2$s$) have the same energy. The larger the principal quantum number the more positive the energy, the less stable the orbital. };
 
 \end{scope} 
 

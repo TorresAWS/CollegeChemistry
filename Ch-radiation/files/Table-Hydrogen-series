@@ -1,12 +1,12 @@
 \begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
 \resizebox{1.2\textwidth}{!}{
 
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Hydrogen-series}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Emission spectrum of H } \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Hydrogen-series} Emission spectrum of H } \\
 \midrule
  \rowcolor{gray!10} Series & $n_f$ &$n_i$ & Region   \\
 \midrule
