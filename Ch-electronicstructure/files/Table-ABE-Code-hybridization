@@ -1,10 +1,10 @@
 \begin{fullwidth} \begin{center}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Tab:{\chapterlabel}\thefigurenewcounter}\begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-ABE-Code-hybridization}\begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lccp{3cm}lc}
 \rowcolor{black!45}
 \toprule
-\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{Tab:{\chapterlabel}\thefigurenewcounter} Equivalency between the ABE code and the orbital hybridization} \\
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-ABE-Code-hybridization} Equivalency between the ABE code and the orbital hybridization} \\
 \midrule
 ABE Code & Electron Regions & Hybrid & Shape&Bond Angle  \\
 \midrule

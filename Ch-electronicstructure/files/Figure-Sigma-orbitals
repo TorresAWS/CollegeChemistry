@@ -1,5 +1,5 @@
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Sigma-orbitals}
 \begin{center}
    
 \begin{tikzpicture} [transform canvas={rotate=-0, shift={(-5em,0em)}}]
@@ -29,6 +29,6 @@
 \node[scale=0.5] at (4,-2) {\usebox\mononut }; \node[scale=0.5] at (5,-2) {\usebox\mononutdashed};
 \fill[blue!20] (4.1,-2.0) circle (0.1) (4.9,-2.0) circle (0.1);\fill[blue!20] (4.1,-1.96) rectangle (5.0,-2.04);\node at (4.1,-2.0) {\tiny\ce{H}};\node at (4.9,-2.0) {\tiny\ce{H}};\node at (4.5,-3.0) {$\sigma^*_{1s}$};
 \end{scope}
-  \node[text width=10cm, fontscale=.3,shift={(5em,-11em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Bonding and antibonding $\sigma$ orbitals resulting of combining two $1s$ atomic orbitals of Hydrogen. };\end{tikzpicture} 
+  \node[text width=10cm, fontscale=.3,shift={(5em,-11em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Sigma-orbitals} \end{bf} Bonding and antibonding $\sigma$ orbitals resulting of combining two $1s$ atomic orbitals of Hydrogen. };\end{tikzpicture} 
   \end{center}
 

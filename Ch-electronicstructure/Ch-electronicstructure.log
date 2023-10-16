@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUL 2023 05:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 OCT 2023 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6093,7 +6093,20 @@ LaTeX Font Info:    Try loading font information for U+fontawesomeone on input
 line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 6.
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -6125,18 +6138,6 @@ Underfull \hbox (badness 2809) in paragraph at lines 1--3
 []\T1/ptm/m/n/10 (+20) Below, you will find
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 14.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 14.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 14.
 )
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-El
 ectron-dot-structure-of-diatomic-molecules
@@ -6145,22 +6146,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--8
  []
 
 ) (../Ch-electronicstructure/problems/SampleProblem3
-(../Ch-electronicstructure/problems/StudyCheck3))
-(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Nu
-mber-of-bonds-and-atomic-nature)
-(../Ch-electronicstructure/files/Table-Number-of-bonds
+(../Ch-electronicstructure/problems/StudyCheck3)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+[3])
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Nu
+mber-of-bonds-and-atomic-nature
+
+LaTeX Warning: Reference `tab:Table-Number-of-bonds' on page 4 undefined on inp
+ut line 2.
+
+) (../Ch-electronicstructure/files/Table-Number-of-bonds
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
+
+
+LaTeX Warning: Reference `tab:Table-Number-of-bonds' on page 4 undefined on inp
+ut line 20.
 
 )
 Overfull \hbox (12.00252pt too wide) in paragraph at lines 2--66
@@ -6189,7 +6199,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-(../Ch-electronicstructure/problems/StudyCheck6))
+(../Ch-electronicstructure/problems/StudyCheck6)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5])
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-At
 omic-charges-in-a-molecule
 
@@ -6198,27 +6215,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[6]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 24.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 24.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 24.
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]) (../Ch-electronicstructure/problems/SampleProblem5
-(../Ch-electronicstructure/problems/StudyCheck5))
-(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Re
-sonance
-Underfull \vbox (badness 4454) has occurred while \output is active []
-
-
+) (../Ch-electronicstructure/problems/SampleProblem5
+(../Ch-electronicstructure/problems/StudyCheck5)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6226,30 +6231,132 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7])
-(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Oc
-tet-exception
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Re
+sonance
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]) (../Ch-electronicstructure/problems/SampleProblem12
+[8])
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Oc
+tet-exception) (../Ch-electronicstructure/problems/SampleProblem12
 (../Ch-electronicstructure/problems/StudyCheck12))
 (../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Od
 d-molecules)
-(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Le
-wis-scheme
-Underfull \vbox (badness 6284) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]) (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] (../Ch-electronicstructure/files/Table-Molecular-geometries
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 57.
+
+<../Ch-electronicstructure/geom1.png, id=233, 50.1875pt x 23.08624pt>
+File: ../Ch-electronicstructure/geom1.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom1.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom1.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 23.35pt.
+<../Ch-electronicstructure/geom2.png, id=234, 50.1875pt x 44.165pt>
+File: ../Ch-electronicstructure/geom2.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom2.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom2.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 44.66962pt.
+<../Ch-electronicstructure/geom3.png, id=235, 50.1875pt x 34.1275pt>
+File: ../Ch-electronicstructure/geom3.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom3.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom3.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
+<../Ch-electronicstructure/geom4.png, id=236, 50.1875pt x 50.1875pt>
+File: ../Ch-electronicstructure/geom4.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom4.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom4.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 50.76094pt.
+<../Ch-electronicstructure/geom5.png, id=237, 50.1875pt x 40.15pt>
+File: ../Ch-electronicstructure/geom5.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom5.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom5.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 40.60875pt.
+<../Ch-electronicstructure/geom6.png, id=238, 50.1875pt x 34.1275pt>
+File: ../Ch-electronicstructure/geom6.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom6.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom6.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
+<../Ch-electronicstructure/geom7.png, id=239, 50.1875pt x 57.21375pt>
+File: ../Ch-electronicstructure/geom7.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom7.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom7.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 57.86746pt.
+<../Ch-electronicstructure/geom8.png, id=240, 50.1875pt x 53.19875pt>
+File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom8.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom8.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.76094pt x 53.8066pt.
+<../Ch-electronicstructure/geom9.png, id=241, 1104.125pt x 602.25pt>
+File: ../Ch-electronicstructure/geom9.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom9.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom9.png  used on input lin
+e 57.
+(pdftex.def)             Requested size: 50.74487pt x 27.67902pt.
+<../Ch-electronicstructure/geom10.png, id=242, 1104.125pt x 808.01875pt>
+File: ../Ch-electronicstructure/geom10.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom10.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom10.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 50.74487pt x 37.13602pt.
+<../Ch-electronicstructure/geom11.png, id=243, 1104.125pt x 509.905pt>
+File: ../Ch-electronicstructure/geom11.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom11.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom11.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 50.74487pt x 23.4349pt.
+<../Ch-electronicstructure/geom12.png, id=244, 1104.125pt x 894.34125pt>
+File: ../Ch-electronicstructure/geom12.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom12.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom12.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 50.74487pt x 41.10335pt.
+<../Ch-electronicstructure/geom13.png, id=245, 1104.125pt x 798.985pt>
+File: ../Ch-electronicstructure/geom13.png Graphic file (type png)
+<use ../Ch-electronicstructure/geom13.png>
+Package pdftex.def Info: ../Ch-electronicstructure/geom13.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 50.74487pt x 36.72083pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <../Ch-electronicstructure/geom1.png> <../Ch-electronicstructure/geom2.png>
+ <../Ch-electronicstructure/geom3.png> <../Ch-electronicstructure/geom4.png> <.
+./Ch-electronicstructure/geom5.png> <../Ch-electronicstructure/geom6.png> <../C
+h-electronicstructure/geom7.png> <../Ch-electronicstructure/geom8.png> <../Ch-e
+lectronicstructure/geom9.png> <../Ch-electronicstructure/geom10.png> <../Ch-ele
+ctronicstructure/geom11.png> <../Ch-electronicstructure/geom12.png> <../Ch-elec
+tronicstructure/geom13.png>]
+(../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms-Le
+wis-scheme) (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
 (../Ch-electronicstructure/files/SubSection-Molecular-shape-VSEPR-model)
 (../Ch-electronicstructure/files/Figure-VSEPR-three-molecules-one
 
@@ -6258,7 +6365,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[12]
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
@@ -6272,7 +6379,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]) (../Ch-electronicstructure/files/Figure-VSEPR-three-molecules)
+[13]) (../Ch-electronicstructure/files/Figure-VSEPR-three-molecules)
 (../Ch-electronicstructure/problems/SampleProblem7
 (../Ch-electronicstructure/problems/StudyCheck7
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
@@ -6281,112 +6388,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
 ))
 (../Ch-electronicstructure/files/SubSection-Molecular-shape-Complex-molecules-a
-nd-multiple-bonds) (../Ch-electronicstructure/files/Table-Molecular-geometries
+nd-multiple-bonds)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[14] (../Ch-electronicstructure/files/SubSection-VSEPR-how-to
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 57.
+LaTeX Warning: Reference `Tab:Table-Molecular-geometries' on page 15 undefined 
+on input line 6.
 
-<../Ch-electronicstructure/geom1.png, id=273, 50.1875pt x 23.08624pt>
-File: ../Ch-electronicstructure/geom1.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom1.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom1.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 23.35pt.
-<../Ch-electronicstructure/geom2.png, id=274, 50.1875pt x 44.165pt>
-File: ../Ch-electronicstructure/geom2.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom2.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom2.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 44.66962pt.
-<../Ch-electronicstructure/geom3.png, id=275, 50.1875pt x 34.1275pt>
-File: ../Ch-electronicstructure/geom3.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom3.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom3.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom4.png, id=276, 50.1875pt x 50.1875pt>
-File: ../Ch-electronicstructure/geom4.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom4.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom4.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 50.76094pt.
-<../Ch-electronicstructure/geom5.png, id=277, 50.1875pt x 40.15pt>
-File: ../Ch-electronicstructure/geom5.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom5.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom5.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 40.60875pt.
-<../Ch-electronicstructure/geom6.png, id=278, 50.1875pt x 34.1275pt>
-File: ../Ch-electronicstructure/geom6.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom6.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom6.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 34.51743pt.
-<../Ch-electronicstructure/geom7.png, id=279, 50.1875pt x 57.21375pt>
-File: ../Ch-electronicstructure/geom7.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom7.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom7.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 57.86746pt.
-<../Ch-electronicstructure/geom8.png, id=280, 50.1875pt x 53.19875pt>
-File: ../Ch-electronicstructure/geom8.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom8.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom8.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.76094pt x 53.8066pt.
-<../Ch-electronicstructure/geom9.png, id=281, 1104.125pt x 602.25pt>
-File: ../Ch-electronicstructure/geom9.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom9.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom9.png  used on input lin
-e 57.
-(pdftex.def)             Requested size: 50.74487pt x 27.67902pt.
-<../Ch-electronicstructure/geom10.png, id=282, 1104.125pt x 808.01875pt>
-File: ../Ch-electronicstructure/geom10.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom10.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom10.png  used on input li
-ne 57.
-(pdftex.def)             Requested size: 50.74487pt x 37.13602pt.
-<../Ch-electronicstructure/geom11.png, id=283, 1104.125pt x 509.905pt>
-File: ../Ch-electronicstructure/geom11.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom11.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom11.png  used on input li
-ne 57.
-(pdftex.def)             Requested size: 50.74487pt x 23.4349pt.
-<../Ch-electronicstructure/geom12.png, id=284, 1104.125pt x 894.34125pt>
-File: ../Ch-electronicstructure/geom12.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom12.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom12.png  used on input li
-ne 57.
-(pdftex.def)             Requested size: 50.74487pt x 41.10335pt.
-<../Ch-electronicstructure/geom13.png, id=285, 1104.125pt x 798.985pt>
-File: ../Ch-electronicstructure/geom13.png Graphic file (type png)
-<use ../Ch-electronicstructure/geom13.png>
-Package pdftex.def Info: ../Ch-electronicstructure/geom13.png  used on input li
-ne 57.
-(pdftex.def)             Requested size: 50.74487pt x 36.72083pt.
-) (../Ch-electronicstructure/files/SubSection-VSEPR-how-to
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <../Ch-electronicstructure/geom1.png> <../Ch-electronicstructure/geom2.png>
- <../Ch-electronicstructure/geom3.png> <../Ch-electronicstructure/geom4.png> <.
-./Ch-electronicstructure/geom5.png> <../Ch-electronicstructure/geom6.png> <../C
-h-electronicstructure/geom7.png> <../Ch-electronicstructure/geom8.png> <../Ch-e
-lectronicstructure/geom9.png> <../Ch-electronicstructure/geom10.png> <../Ch-ele
-ctronicstructure/geom11.png> <../Ch-electronicstructure/geom12.png> <../Ch-elec
-tronicstructure/geom13.png>])
-(../Ch-electronicstructure/files/SectionIntro-Polarity-of-molecules)
-(../Ch-electronicstructure/files/Figure-Electronegativity
+) (../Ch-electronicstructure/files/Figure-Electronegativity
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -6418,18 +6432,35 @@ LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <14.40015> no
 t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 11.
-)
+
+
+LaTeX Warning: Reference `Fig:Figure-Electronegativity' on page 15 undefined on
+ input line 17.
+
+) (../Ch-electronicstructure/files/SectionIntro-Polarity-of-molecules)
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Bond-polarity
+
+LaTeX Warning: Reference `Fig:Figure-Electronegativity' on page 15 undefined on
+ input line 1.
+
+
+LaTeX Warning: Reference `tab:Table-Ionic-Covalent-Bond' on page 15 undefined o
+n input line 1.
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]) (../Ch-electronicstructure/files/Table-Ionic-Covalent-Bond
+[15]) (../Ch-electronicstructure/files/Table-Ionic-Covalent-Bond
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 9.
+
+
+LaTeX Warning: Reference `tab:Table-Ionic-Covalent-Bond' on page 16 undefined o
+n input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
@@ -6444,25 +6475,34 @@ Overfull \hbox (23.94264pt too wide) in paragraph at lines 6--99
 
 
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-d
-iatomic-molecules) (../Ch-electronicstructure/files/Table-Polar-molecules
+iatomic-molecules
+
+LaTeX Warning: Reference `tab:Table-Polar-molecules' on page 16 undefined on in
+put line 2.
+
+) (../Ch-electronicstructure/files/Table-Polar-molecules
 Underfull \hbox (badness 1297) in paragraph at lines 1--1
 []\T1/ppl/m/n/10 Molecules can ei-ther
  []
 
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 7.
-
-)
-(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-l
-arger-molecules
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]) (../Ch-electronicstructure/problems/SampleProblem8
+[16]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+
+LaTeX Warning: Reference `tab:Table-Polar-molecules' on page 17 undefined on in
+put line 7.
+
+)
+(../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-of-l
+arger-molecules) (../Ch-electronicstructure/problems/SampleProblem8
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 3.
 
@@ -6476,19 +6516,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-)
-Underfull \hbox (badness 6141) in paragraph at lines 2--9
+
+Underfull \hbox (badness 6141) in paragraph at lines 2--6
 \T1/ppl/m/n/10 Identify the po-lar char-ac-ter (po-lar/non-po-lar) of the fol-l
 ow-ing
  []
 
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16])
+[17])
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Polarity-and-
 mixing)
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
@@ -6500,48 +6541,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--105
 
 (../Ch-electronicstructure/files/SubSection-Polarity-of-molecules-Molecules-wit
 h-different-polarity)
-(../Ch-electronicstructure/files/SectionIntro-Molecular-orbital-theory)
-(../Ch-electronicstructure/files/SideFigure-CH4-hybrid)
-(../Ch-electronicstructure/files/Table-ABE-Code-hybridization
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 31.
-
-
-Overfull \hbox (50.0003pt too wide) in paragraph at lines 31--31
-[][] 
- []
-
-
-Overfull \hbox (58.75494pt too wide) in paragraph at lines 31--31
-[][] 
- []
-
-
-Overfull \hbox (61.44965pt too wide) in paragraph at lines 31--31
-[][] 
- []
-
-
-Overfull \hbox (58.75494pt too wide) in paragraph at lines 31--31
-[][] 
- []
-
-
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17])
+[18] (../Ch-electronicstructure/files/SectionIntro-Molecular-orbital-theory)
+(../Ch-electronicstructure/files/SideFigure-CH4-hybrid)
 (../Ch-electronicstructure/files/SubSection-Hybrid-orbitals-From-ABE--code-to-h
 ybridization
 
-LaTeX Warning: Reference `tab:hybrid' on page 18 undefined on input line 1.
+LaTeX Warning: Reference `tab:Table-ABE-Code-hybridization' on page 19 undefine
+d on input line 1.
 
 ) (../Ch-electronicstructure/problems/SampleProblem9
 (../Ch-electronicstructure/problems/StudyCheck9
@@ -6549,17 +6561,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--1
 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+))
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]) (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
+[19] (../Ch-electronicstructure/files/Table-ABE-Code-hybridization
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 31.
+
+
+LaTeX Warning: Reference `tab:Table-ABE-Code-hybridization' on page 20 undefine
+d on input line 31.
+
+
+Overfull \hbox (51.20038pt too wide) in paragraph at lines 31--31
+[][] 
+ []
+
+
+Overfull \hbox (59.95502pt too wide) in paragraph at lines 31--31
+[][] 
+ []
+
+
+Overfull \hbox (62.64972pt too wide) in paragraph at lines 31--31
+[][] 
+ []
+
+
+Overfull \hbox (59.95502pt too wide) in paragraph at lines 31--31
+[][] 
+ []
+
+) (../Ch-electronicstructure/files/SectionIntro-Molecular-shape)
 (../Ch-electronicstructure/files/SideFigure-Wave-interference-constructive
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 23.
@@ -6597,8 +6635,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 )
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Bonding-an
 d-antibonding-orbitals) (../Ch-electronicstructure/files/Figure-Sigma-orbitals
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+
+LaTeX Warning: Reference `Fig:Figure-Sigma-orbitals' on page 21 undefined on in
+put line 32.
+
 ) (../Ch-electronicstructure/files/SideFigure-Wave-interference-destructive
 Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
 []
@@ -6609,34 +6659,51 @@ Overfull \hbox (10.90501pt too wide) in paragraph at lines 1--38
 [] 
  []
 
-
-LaTeX Warning: Marginpar on page 19 moved.
-
 )
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Sigma-and-
-pi-orbitals) (../Ch-electronicstructure/files/Figure-Pi-orbitals
+pi-orbitals
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `Fig:Figure-Sigma-orbitals' on page 21 undefined on in
+put line 1.
 
-[19]
+
+LaTeX Warning: Reference `Fig:Figure-Pi-orbitals' on page 21 undefined on input
+ line 1.
+
+) (../Ch-electronicstructure/files/Figure-Pi-orbitals
+
+LaTeX Warning: Reference `Fig:Figure-Pi-orbitals' on page 21 undefined on input
+ line 73.
+
+
 Overfull \hbox (8.89708pt too wide) in paragraph at lines 73--73
  [] 
  []
 
-)
-(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
-f-molecular-hydrogen)
-(../Ch-electronicstructure/files/Figure-H2-molecular-orbitals
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20])
+[21])
+(../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
+f-molecular-hydrogen)
+(../Ch-electronicstructure/files/Figure-H2-molecular-orbitals
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22])
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-The-case-o
 f-molecular-helium) (../Ch-electronicstructure/files/Figure-He-orbital-diagrams
 
@@ -6657,7 +6724,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21])
+[23])
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Bond-order
 -of-a-MO-configuration) (../Ch-electronicstructure/problems/SampleProblem10
 (../Ch-electronicstructure/problems/StudyCheck10
@@ -6678,7 +6745,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22])
+[24])
 (../Ch-electronicstructure/files/SubSection-Molecular-orbital-theory-Paramagnet
 ism-and-diamagnetism) (../Ch-electronicstructure/problems/SampleProblem11
 (../Ch-electronicstructure/problems/StudyCheck11
@@ -6693,7 +6760,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] [24
+[25] [26
 
 ]
 
@@ -6707,20 +6774,15 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
 (./Ch-electronicstructure.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package rerunfilecheck Info: File `Ch-electronicstructure.out' has not changed.
 
+(rerunfilecheck)             Checksum: 69355FA92A3719A7B83D7EF2090E1503;1126.
 
-Package rerunfilecheck Warning: File `Ch-electronicstructure.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-electronicstructure.out':
-(rerunfilecheck)             Before: C7D042E41601B530EF18D25C55F6CD9D;1137
-(rerunfilecheck)             After:  69355FA92A3719A7B83D7EF2090E1503;1126.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6736,86 +6798,46 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 87136 strings out of 493014
- 1951097 string characters out of 6133351
- 2855276 words of memory out of 5000000
- 88461 multiletter control sequences out of 15000+600000
- 267336 words of font info for 354 fonts, out of 8000000 for 9000
+ 87467 strings out of 493014
+ 1958505 string characters out of 6133351
+ 2841383 words of memory out of 5000000
+ 88798 multiletter control sequences out of 15000+600000
+ 276370 words of font info for 364 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,22n,109p,10626b,2383s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.10.8} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.10.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.5} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.3} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.10} has been referenced but does not exist,
- replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loca
-l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/
-2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016
-/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dis
-t/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc
-/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratyp
-e/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fontawe
-some/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/p
-tsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptsan
-s/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplm
-r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electronicstructure.pdf (24 pages, 1722124 bytes).
+ 80i,22n,109p,10626b,2400s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
+ype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fonta
+wesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype
+/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/pts
+ans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fp
+lmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/lm/lmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/cou
+rier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/u
+plb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Ch-electronicstructure.pdf (26 pages, 1756690 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
- 69727 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 73829 words of extra memory for PDF output out of 74296 (max. 10000000)
 

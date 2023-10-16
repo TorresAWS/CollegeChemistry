@@ -1,5 +1,5 @@
  
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Pi-orbitals}
      \begin{center}
 \begin{tikzpicture}[scale=1]
 \pgfmathsetmacro{\shift}{2}
@@ -70,7 +70,7 @@
  \fill[red!20] (\shift+4.3,0.0) circle (0.1) (\shift+5.2,0.0) circle (0.1);\fill[red!20] (\shift+4.3,0.04) rectangle (\shift+5.3,-0.04);\node at (\shift+4.3,0.0) {\tiny\ce{O}};\node at (\shift+5.2,0.0) {\tiny\ce{O}};\node at (\shift+4.6,-1.5) {$\pi^*_{2p}$};
 \end{scope}
 
- \node[text width=12cm, fontscale=.3,shift={(7em,-30em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} (Top) Bonding and antibonding $\sigma$ orbitals resulting of combining two $2p_x$ atomic orbitals of Oxygen. (Bottom) Bonding and antibonding $\pi$ orbitals resulting of combining two $2p$ atomic orbitals of Oxygen. };\end{tikzpicture}\end{center}
+ \node[text width=12cm, fontscale=.3,shift={(7em,-30em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Pi-orbitals} \end{bf} (Top) Bonding and antibonding $\sigma$ orbitals resulting of combining two $2p_x$ atomic orbitals of Oxygen. (Bottom) Bonding and antibonding $\pi$ orbitals resulting of combining two $2p$ atomic orbitals of Oxygen. };\end{tikzpicture}\end{center}
  
  
  
