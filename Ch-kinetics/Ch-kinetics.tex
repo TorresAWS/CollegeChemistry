@@ -54,52 +54,8 @@ Differently, the instantaneous rate is calculated as the slope in the concentrat
 \item[\docfilehook{Rate of appearance and disappearance}{}] 
 At the beginning of a reaction, the molecules of reactants will be consumed while the molecules of products will form. There are three different ways to measure the reaction rate. We can measure the amount of reactants that disappear per unit of time and this would give you the rate of disappearance of a reactant. We can also measure the amount of products formed per unit of time and that would give you the rate of appearance of a  product. As a note, rates of disappearance are negative (as the molarity of reactants decreases with time) whereas rates of appearance are positive. Finally, we can measure the amount of reactants the interconvert into products and that would give you the overall rate of reaction, which is always a positive number. Overall, by measuring concentration changes of reactants and products we can compute three types of rates: rates of disappearance, rates of appearance, and rates of reaction.
 
-    \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-     \begin{center}
-    \pgfkeys{tikz/.cd,
-tangent length/.store in=\TangentLength,
-tangent length=7mm,
-normal length/.store in=\NormalLength,
-normal length=7mm}
-\tikzset{tangent/.style={red,thin},normal/.style={red,thin},
-tangent at/.style={postaction={decorate,decoration={markings,
-mark=at position #1 with {\draw[tangent,shift={(0,1.60em-1.6em)}, rotate=-0] (-2*\TangentLength,0) -- (0.4*\TangentLength,0)   -- ++ (-4.7em,-0.6em) -- cycle; \node[shift={(-2em,1em)}, red] (-\TangentLength,0) {$r$} node[shift={(-4.4em,.3em)}, red] (-\TangentLength,0) {\tiny $d$c} node[shift={(-2em,-.2em)}, red] (-\TangentLength,0) {\tiny $d$t};
-\fill[tangent,shift={(0,1.60em-1.6em)}]  (-\TangentLength,0) circle (1pt);}}}},
-%normal at/.style={postaction={decorate,decoration={markings,
-%mark=at position #1 with {\draw[normal] (0,-\NormalLength) -- (0,\NormalLength);
-%\fill[normal] (0,0) circle (2pt);}}}},
-}
-\begin{tikzpicture}
-  \begin{axis}[
-            axis lines=middle,
-             enlargelimits=0.1,
-            xmin=0,
-            xmax=1.0,
-            ymin=0.01,
-            ymax=0.1,
-            xtick=\empty,
-            ytick=\empty,xtick distance=0.05,
-            xlabel=$\text{time}$,
-            ylabel=$c\text{, M}$,
-            x label style={at={(axis description cs:0.5,-0.0)},anchor=north},
-    y label style={at={(axis description cs:0.07,.4)},rotate=90,anchor=south},
-             domain=\pgfkeysvalueof{/pgfplots/xmin}:(\pgfkeysvalueof{/pgfplots/xmax},
-            tangent/.style={add node at x={#1}{},},
-        ]
-     	              
-            \addplot [thick,draw=blue!75!black, tangent at/.list={ 0.8 }]{0.1*exp(-2.9*x)};
-                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{0.1*exp(-2.9*x)};
-	 \draw[red] (6.4em,6em+0.8em) --++(0em,-3.5em+0.1em)--++(6.1em,0em ) -- cycle ;
-	 \node[shift={(8.5em,5.5em+0.7em)}] (0,0) {$\overline{r}$} node[shift={(5.5em,5em+0.7em)}] (0,0) {\tiny $\Delta c$} node[shift={(8.5em,2.0em+0.9em)}] (0,0) {\tiny $\Delta t$} node[green!75!black, shift={(23em,12em)}] (0,0) {\small Product} node[blue!75!black, shift={(23em,2em)}] (0,0) {\small Reactants} ; 
-                \addplot  [thick,draw=green!75!black]{0.1*(1-exp(-2.9*x))};
-	             \addplot  [green!75!black, mark=*,  draw=none , samples=5]{0.1*(1-exp(-2.9*x))}; 
-
-
-        \end{axis}
-     \begin{scope}[xshift =0em, yshift =0em]
-\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Change of the concentration of reactants and products with time showing the average and instantaneous velocity.  };
-   \end{scope} 
-\end{tikzpicture}\end{center}
+   \import{../\chapterlabel/files/}{Figure-c-vs-t}
+ 
 
 Let us work on a sample reaction:
 \begin{center}\ce{I^-_{(aq)} + OCl^-_{(aq)} -> Cl^-_{(aq)} + OI^-_{(aq)}}\end{center}
@@ -130,69 +86,9 @@ we have that the general relationship between any rate and the overall reaction 
 
 
 
+  \import{../\chapterlabel/files/}{Figure-fast-and-slow}
 
 
-\vspace{3cm}
-\begin{fullwidth}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-     \begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
-\begin{tikzpicture}
- \begin{scope}[rotate=00, shift={(0em,0em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {0 min}   ;
-\shade[ball color=green!70!white] (1em, 1em) circle (.2cm);\shade[ball color=green!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=green!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=green!70!white] (1em, 7em) circle (.2cm);\shade[ball color=green!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(11em,0em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {5 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=green!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=green!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=green!70!white] (1em, 7em) circle (.2cm);\shade[ball color=green!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(22em,0em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {10 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=green!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=green!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(39em,0em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {500 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=red!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\node [ fontscale=0.1,  shift={(-4em,6em)}] {$\dots$}   ;
-\end{scope}
-
-
- \begin{scope}[rotate=00, shift={(0em,-15em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {0 min}   ;
-\shade[ball color=green!70!white] (1em, 1em) circle (.2cm);\shade[ball color=green!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=green!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=green!70!white] (1em, 7em) circle (.2cm);\shade[ball color=green!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(11em,-15em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {5 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=red!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=green!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=green!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=green!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(22em,-15em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {10 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=green!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=green!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
-\end{scope}
- \begin{scope}[rotate=00, shift={(39em,-15em)}] 
-\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\node [ fontscale=0.1, pos=0.9,shift={(5em,-1.0em)}] {500 min}   ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=red!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (8em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=red!70!white] (8em, 7em) circle (.2cm);\shade[ball color=green!70!white] (5em, 9em) circle (.2cm);
- \node [ fontscale=0.1,  shift={(-4em,2em)}] {$\dots$}   ;
-\end{scope}
-
-
-
- \begin{scope}[rotate=00, shift={(0em,-15em)}] 
- \draw[->,black , very thick, shift={(0.0em,-2.0em)} ]  (0.5,0.0) to (48.0em,0.0)  node [ fontscale=0.1,  shift={(-48em,0.0em)}] {0} node [ fontscale=0.1,shift={(1.0em,0.0em)}] {$\infty$}; 
- \node [fill=white, shift={(25.0em,-2.0em)} ] (0.0em,-5.0em) {time}; 
-\end{scope}
-
- \node[text width=12cm, fontscale=.3, shift={(15em,-20em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A fast and a slow reaction };
-\end{tikzpicture} 
-}\end{minipage}
-\end{fullwidth}
 
 \section{Rate law}
 Some chemical reactions double their rate by increasing the concentration of reactants, whereas, for the same change of concentration, others quadruple their rate. The rate law of a reaction is an experimental formula that explicitly includes the power dependence of the rate of reaction on the concentration of reactants and products. You can find rate laws in a differential form and in an integrated form. 
@@ -244,22 +140,12 @@ For example, for first-order reaction ($n$=1) the units of the reaction constant
 The reaction law is more specifically called a differential reaction law as it represents a differential equation--this is a mathematical term to describe equations in terms of derivatives. For a differential rate law, there is an integral rate law. The integral rate law is obtained using a mathematical technique called integration--this technique is out of the scope of this class. For example, below we have an example of a differential and integral rate law for a first-order reaction.
 \begin{center}$r =0.01[\ce{N2O5}]$ \hspace{1cm}and\hspace{1cm} $\text{Ln}[\ce{N2O5}]=-0.01\cdot t+\text{Ln}(0.1)$\end{center}
 In the differential rate law, we have the explicit reaction rate $r$ accompanied by molarities ([\ce{N2O5}]), whereas in the corresponding integral rate law we have molarities ([\ce{N2O5}]) accompanied of time. The integral rate law gives the change of the concentration with time, whereas the differential rate law gives the change of the reaction rate with concentration. Each type of law has its purpose and differential rate laws are more common and used when we have experimental data in terms of reaction rates and molarities. The integrated rate law is used when we have data in terms of molarity and time. Overall, differential rate laws and integral rate laws are exchangeable. To convert a differential rate law into its corresponding integral rate law we just need the initial concentration of the species involved in the law, $[\ce{A}]_0$. For example, the corresponding differential and integral rate law for a zeroth-order reaction are:
- \begin{center}
-\refstepcounter{table}  \label{tab:{\chapterlabel}1}
-\fontfamily{ppl}\selectfont
-\begin{tabular}{llll}
-\rowcolor{black!45}
-\toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}1} Corresponding differential, integral rate laws and half-life formulas } \\
-\midrule
- \rowcolor{gray!10} Order & Differential rate law & Integral rate law & Hal-life ($t_{\nicefrac{1}{2}}$) formula\\
-\midrule
- 0	& \multicolumn{1}{c}{	$r=k$	}&\multicolumn{1}{c}{$	[\ce{A}] =-k\cdot t + [\ce{A}]_0$	} &\multicolumn{1}{c}{$\frac{[\ce{A}]_0}{2k}$	} \\ [5mm]
- 1	& \multicolumn{1}{c}{	$r=k[A]$	}&\multicolumn{1}{c}{$	\text{Ln}[\ce{A}]=-k\cdot t+\text{Ln}[\ce{A}]_0	$	} &\multicolumn{1}{c}{$\frac{0.693}{k}$	} \\ [5mm]
-  2	& \multicolumn{1}{c}{	$r=k[A]^2$	}&\multicolumn{1}{c}{$	\frac{1}{[\ce{A}]}=k\cdot t +\frac{1}{[\ce{A}]_0}$	} &\multicolumn{1}{c}{$\frac{1}{k[\ce{A}]_0}$	} \\ [5mm]
- \bottomrule
-\end{tabular}\end{center} 
-Table \ref{tab:{\chapterlabel}1} reports the corresponding differential and integral rate laws for different orders.
+Table \ref{tab:Table-integral-formulas} reports the corresponding differential and integral rate laws for different orders.
+
+
+
+
+  \import{../\chapterlabel/files/}{Table-integral-formulas}
 
   \import{../\chapterlabel/problems/}{SampleProblem4}
 
@@ -309,22 +195,9 @@ The integral method is used to calculate the rate law if data reporting concentr
 \[[\ce{A}] =-k\cdot t + [\ce{A}]_0\]
 If you look carefully you could notice that this integral rate law is indeed a linear relationship. The term $[\ce{A}]_0$  and $k$ are constants. Differently, the terms $\ce{A}]$ and $t$ are variables. Linear relationships are mathematical relationships with an independent variable represented in the horizontal axes and a dependent variable represented in the vertical axis. In the rate law above the independent variable is $t$ and the dependent variable is $[\ce{A}]$ and for every value of $t$ we would have a given value of $[\ce{A}]$. Moreover, $-k$ is the slope of the relationship, and $[\ce{A}]_0$ is the intersect. Let us analyze another integral rate law, this time for a first-order reaction:
 \[\text{Ln}[\ce{A}]=-k\cdot t+\text{Ln}[\ce{A}]_0\]
-we have that this law also represent a linear relationship as well, with $t$ as independent variable (the $x$) and $Ln([\ce{A}])$ as the dependent variable (the $y$). The slope is $-k$ and the intersect is $Ln([\ce{A}]_0)$. Overall, we have that all integral rate laws are linear relationship with $t$ as the $x$ and different properties as the $y$:  $[\ce{A}]$ for a zeroth-order, $Ln([\ce{A}])$ for a first-order reaction and $\frac{1}{[\ce{A}]}$ for a second-order reaction. We also have that the slope of the lines in absolute value always gives $k$. This information is summarized in the table below.
- \begin{center}
-\refstepcounter{table}  \label{tab:{\chapterlabel}2}
-\fontfamily{ppl}\selectfont
-\begin{tabular}{llllll}
-\rowcolor{black!45}
-\toprule
-\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}2} The integral method } \\
-\midrule
- \rowcolor{gray!10} Order & \multicolumn{1}{c}{$y$} & \multicolumn{1}{c}{$x$} & Slope& Slope Sign&Intersect\\
-\midrule
- 0	& \multicolumn{1}{c}{	$[\ce{A}]$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$-k$	}&\multicolumn{1}{c}{$-$	}& \multicolumn{1}{c}{$[\ce{A}]_0	$	}\\ 
-  1	& \multicolumn{1}{c}{	$Ln([\ce{A}])$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$-k$	}&\multicolumn{1}{c}{$-$	}&\multicolumn{1}{c}{$Ln([\ce{A}]_0)	$	} \\ 
- 2	& \multicolumn{1}{c}{	$\frac{1}{[\ce{A}]}$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$+k$}&\multicolumn{1}{c}{$+$	}&\multicolumn{1}{c}{$\frac{1}{[\ce{A}]_0}	$	}	 \\ 
- \bottomrule
-\end{tabular}\end{center} 
+we have that this law also represent a linear relationship as well, with $t$ as independent variable (the $x$) and $Ln([\ce{A}])$ as the dependent variable (the $y$). The slope is $-k$ and the intersect is $Ln([\ce{A}]_0)$. Overall, we have that all integral rate laws are linear relationship with $t$ as the $x$ and different properties as the $y$:  $[\ce{A}]$ for a zeroth-order, $Ln([\ce{A}])$ for a first-order reaction and $\frac{1}{[\ce{A}]}$ for a second-order reaction. We also have that the slope of the lines in absolute value always gives $k$. This information is summarized in Table \ref{tab:Table-the-integral-method}.
+
+  \import{../\chapterlabel/files/}{Table-the-integral-method}
 
 The integral method is based on plotting some kinetic data, for example, concentration vs. time, and fitting the data into a linear relationship.
 If the quality of the fit is good enough, by reading the slope of the line and the intersect one can compute the rate law that rules the reaction.
@@ -361,58 +234,11 @@ And we have that
 Applying the integral method we can find out the order of B and the pseudo rate constant. Once we have the pseudo constant, as we control $\text{[A]}_0$ we can always obtain the real rate constant.
 
 
-\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
-
-    \begin{tikzpicture}[>=stealth]
- \draw[ very thick] 
-(-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (65:5)  to[out=60,in=180] (3.5,5.6)  to[out=0,in=180,looseness=0.4] ++ (3.05,-3.5) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
-
-% \draw[dashed,very thick] (-1.5,-0.00) to[out=00,in=180, looseness=0.8] ++ (1.5,0) coordinate(O) -- ++ (61:3.4)  to[out=60,in=180] (2.6,3.6)  to[out=0,in=180,looseness=0.4] ++ (0.8,-3.5) to[out=0,in=180,looseness=0.4] ++ (0.75,2.7) to[out=60,in=180,looseness=0.8] ++ (0.2,0.1) to[out=0,in=180,looseness=0.1] ++ (1.0,-0.8) to[out=0,in=180,looseness=0.1] ++ (1.5,.0) ;
-
- \begin{scope}[transform canvas={scale=.3}, shift={(-4,2)}]
-  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
-        \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) ;
-     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Reactants} ;
-          \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
-   \end{scope}
-   
-      \begin{scope}[transform canvas={scale=.3}, shift={(25,9)}]
-   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) ;
-        \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) ;%
-{};
-          \draw (0,0) node[below, shift={(1,-2)}]{\Huge Products} ;
-               \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
-
-  \end{scope}
-  
-  
-     \begin{scope}[transform canvas={scale=.3}, shift={(12,19)}]
-   \shade[ball color=red!80!  ] (2,0) coordinate(O) circle (0.9) ;
-  \shade[ball color=blue!50! ] (2.5,1.5) coordinate(Hm) circle (.9) ;
-    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
-        \shade[ball color=green!50!] (-2,0) coordinate(Hp) circle (1.3) ;
-        \node[ shift={(-1.,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
-{};
-          \draw (0,0) node[below, shift={(0,-2)}]{\Huge TS} ;
-          \draw [red, thick] (-3.5,-2) to [square left brace ] (-3.5,3);
-                    \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.6)}] {\Huge \ddag};
-  \end{scope}
-
-  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.8,-2.5) -- (10,-2.5) node [midway, below] {Reaction coordinate};
-  \draw[->,thick,blue,shorten >=2mm,shorten <=2mm] (-3.5,-2.8) -- (-3.5,7) node [midway, below, rotate=90] {Energy};
-  \draw[<->,thick,red,shorten >=2mm,shorten <=2mm] (3.5,-0.3) -- (3.5,5) node [fill=white,rounded corners=2pt,inner sep=1pt,midway, below, rotate=0, shift={(0,0)}] {Activation energy};
-    \draw[<->,thick,red,shorten >=2mm,shorten <=2mm] (7,-0.3) -- (7,2.4) node [fill=white,rounded corners=2pt,inner sep=1pt, midway, below, rotate=0, shift={(0,0)}] {Reaction energy};
- \node[text width=12cm, fontscale=.2,shift={(4em,-10em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy diagram showing the conversion of reactants into products };
-
-\end{tikzpicture}
-}\end{minipage}
 
 
+
+
+  \import{../\chapterlabel/files/}{Figure-energy-diagram1}
 
 
 
@@ -439,7 +265,7 @@ Applying the integral method we can find out the order of B and the pseudo rate 
 \begin{description}
 
 \item[\docfilehook{Energy diagrams}{}] 
-Energy profile, or energy diagrams, are a visual representation of the advancing of a reaction. Reactions advance through changes in the geometry of the reaction and during a reaction, for example, some bonds are being formed while others are being broken.
+Energy profile, or energy diagrams, are a visual representation of the advancing of a reaction (see Figure \ref{Fig:Figure-energy-diagram1}). Reactions advance through changes in the geometry of the reaction and during a reaction, for example, some bonds are being formed while others are being broken.
 The horizontal axis of the diagram represents the reaction coordinate, representing how the reaction proceeds, from reactants on the left to products on the right. The vertical axis represents the energy, oftentimes the enthalpy of the different steps of the reaction. Transitions states are maxima in the energy diagrams, that is, points between two minima connecting reactants and products. 
 \begin{center}
 \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
@@ -458,24 +284,8 @@ We can extract two types pf properties from energy diagrams. First, the reaction
   \import{../\chapterlabel/problems/}{SampleProblem12}
 
 
-\begin{minipage}[t]{1.5\linewidth}
 
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
- \begin{center}  \hspace{-5cm}
- \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{3,4,0}
-  \ShowGain[label]
-  \end{endiagram}
-  \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{0,4,3}
-  \ShowGain[label]
-  \end{endiagram}
-   \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{1,5,2}
- \ShowEa[label,connect={draw=none}]
-  \end{endiagram}  \end{center}
- \begin{tikzpicture} \node[text width=14cm, fontscale=0.1, shift={(6,-4)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A set of reaction energy profiles  };
-\end{tikzpicture}\end{minipage}
+  \import{../\chapterlabel/files/}{Figure-set-of-energy-profiles}
 
 
 \end{description}
