@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Daniell-cell-electrolysis}
  %\hspace{10cm}
 \begin{center}
 \begin{fullwidth}\begin{tikzpicture}
@@ -16,7 +16,7 @@
 \end{scope}  
 
 
-  \node[text width=15cm, fontscale=0.1, shift={(10,-4)}] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} 
+  \node[text width=15cm, fontscale=0.1, shift={(10,-4)}] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Daniell-cell-electrolysis} \end{bf} 
 A galvanic cell produces voltage from a redox reaction, whereas an electrolytic cell uses voltage to produce a redox reaction. Anodes and cathodes have the opposite sign notation, electrons flow from anode to cathode, whereas ions move towards the electrode of same name (e.g anions migrate towards the anode). However, galvanic anodes are electrolytic cathodes and viceversa.
   };
 
