@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%TABLE%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Radiation-damage}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{ll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Radiation Measurement} \\
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Radiation-damage} Radiation Measurement} \\
 \midrule
 \multirow{4}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}Activity\end{bf}} }
 &curie (Ci) \vspace{0.1cm}     \\ \cline{2-2}   

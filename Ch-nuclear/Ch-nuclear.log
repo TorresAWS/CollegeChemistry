@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 SEP 2023 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 OCT 2023 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6078,10 +6078,14 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 4.
-) (../Ch-nuclear/files/SectionIntro-Radiation,-particles-and-radioisotopes)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 60.
+) (../Ch-nuclear/files/SectionIntro-Radiation,-particles-and-radioisotopes
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+LaTeX Warning: Reference `tab:Table-Nuclear-symbols' on page 1 undefined on inp
+ut line 2.
+
+)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 60.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
@@ -6125,7 +6129,7 @@ uclear/figure1.png>]
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure9.png, id=174, 351.3125pt x 351.3125pt>
+<../Ch-nuclear/figure9.png, id=175, 351.3125pt x 351.3125pt>
 File: ../Ch-nuclear/figure9.png Graphic file (type png)
 <use ../Ch-nuclear/figure9.png>
 Package pdftex.def Info: ../Ch-nuclear/figure9.png  used on input line 8.
@@ -6138,7 +6142,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure10.png, id=176, 843.15pt x 474.77374pt>
+<../Ch-nuclear/figure10.png, id=177, 843.15pt x 474.77374pt>
 File: ../Ch-nuclear/figure10.png Graphic file (type png)
 <use ../Ch-nuclear/figure10.png>
 Package pdftex.def Info: ../Ch-nuclear/figure10.png  used on input line 13.
@@ -6151,7 +6155,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 12--16
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-nuclear/figure12.png, id=177, 1027.84pt x 685.56125pt>
+<../Ch-nuclear/figure12.png, id=178, 1027.84pt x 685.56125pt>
 File: ../Ch-nuclear/figure12.png Graphic file (type png)
 <use ../Ch-nuclear/figure12.png>
 Package pdftex.def Info: ../Ch-nuclear/figure12.png  used on input line 18.
@@ -6208,6 +6212,10 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
+
+LaTeX Warning: Reference `tab:Table-Nuclear-symbols' on page 3 undefined on inp
+ut line 21.
+
 ) (../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay)
@@ -6243,10 +6251,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
 
+
+LaTeX Warning: Reference `tab:Table-Halflife' on page 5 undefined on input line
+ 32.
+
 ) (../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope)
 (../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half
--live) (../Ch-nuclear/problems/SampleProblem8
-(../Ch-nuclear/problems/StudyCheck8
+-live
+
+LaTeX Warning: Reference `tab:Table-Halflife' on page 5 undefined on input line
+ 1.
+
+) (../Ch-nuclear/problems/SampleProblem8 (../Ch-nuclear/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
@@ -6315,7 +6331,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [6])
 (../Ch-nuclear/files/SectionIntro-Radiation-measurement-units-and-radiation-eff
-ects)
+ects
+
+LaTeX Warning: Reference `tab:Table-Radiation-damage' on page 7 undefined on in
+put line 1.
+
+)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Activity-units)
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
@@ -6329,7 +6350,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]) (../Ch-nuclear/files/SideFigure-Geiger
-<../Ch-nuclear/figure2.png, id=243, 963.6pt x 706.64pt>
+<../Ch-nuclear/figure2.png, id=241, 963.6pt x 706.64pt>
 File: ../Ch-nuclear/figure2.png Graphic file (type png)
 <use ../Ch-nuclear/figure2.png>
 Package pdftex.def Info: ../Ch-nuclear/figure2.png  used on input line 3.
@@ -6339,7 +6360,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure5.png, id=244, 440.64626pt x 351.3125pt>
+<../Ch-nuclear/figure5.png, id=242, 440.64626pt x 351.3125pt>
 File: ../Ch-nuclear/figure5.png Graphic file (type png)
 <use ../Ch-nuclear/figure5.png>
 Package pdftex.def Info: ../Ch-nuclear/figure5.png  used on input line 8.
@@ -6352,7 +6373,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 7--11
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<../Ch-nuclear/figure11.png, id=245, 856.19875pt x 1284.8pt>
+<../Ch-nuclear/figure11.png, id=243, 856.19875pt x 1284.8pt>
 File: ../Ch-nuclear/figure11.png Graphic file (type png)
 <use ../Ch-nuclear/figure11.png>
 Package pdftex.def Info: ../Ch-nuclear/figure11.png  used on input line 13.
@@ -6372,6 +6393,10 @@ ts-Exposure-to-radiation) (../Ch-nuclear/files/Table-Radiation-damage
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
+
+LaTeX Warning: Reference `tab:Table-Radiation-damage' on page 8 undefined on in
+put line 8.
+
 )
 (../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
 ts-Dangers-of-radiation) (../Ch-nuclear/problems/SampleProblem5
@@ -6384,14 +6409,22 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [8 <../Ch-nuclear/figure2.png (PNG copy)> <../Ch-nuclear/figure5.png (PNG copy)
 > <../Ch-nuclear/figure11.png (PNG copy)>])
-(../Ch-nuclear/files/SectionIntro-Radiation-protection)
-(../Ch-nuclear/files/SubSection-Radiation-protection-alpha-particles)
+(../Ch-nuclear/files/SectionIntro-Radiation-protection
+
+LaTeX Warning: Reference `tab:Table-Radiation-protection' on page 9 undefined o
+n input line 2.
+
+) (../Ch-nuclear/files/SubSection-Radiation-protection-alpha-particles)
 (../Ch-nuclear/files/SubSection-Radiation-protection-beta-particles)
 (../Ch-nuclear/files/SubSection-Radiation-protection-gamma-particles)
 (../Ch-nuclear/files/Table-Radiation-protection
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
+
+
+LaTeX Warning: Reference `tab:Table-Radiation-protection' on page 9 undefined o
+n input line 7.
 
 ) (../Ch-nuclear/files/SectionIntro-Radioactive-gases-radon)
 
@@ -6402,7 +6435,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [9] (../Ch-nuclear/files/SectionIntro-Fusion-and-fission)
 (../Ch-nuclear/files/SideFigure-Fusion
-<../Ch-nuclear/figure6.png, id=261, 3257.16875pt x 3891.53876pt>
+<../Ch-nuclear/figure6.png, id=257, 3257.16875pt x 3891.53876pt>
 File: ../Ch-nuclear/figure6.png Graphic file (type png)
 <use ../Ch-nuclear/figure6.png>
 Package pdftex.def Info: ../Ch-nuclear/figure6.png  used on input line 3.
@@ -6412,7 +6445,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 2--6
  [] 
  []
 
-<../Ch-nuclear/figure7.png, id=262, 692.5875pt x 501.875pt>
+<../Ch-nuclear/figure7.png, id=258, 692.5875pt x 501.875pt>
 File: ../Ch-nuclear/figure7.png Graphic file (type png)
 <use ../Ch-nuclear/figure7.png>
 Package pdftex.def Info: ../Ch-nuclear/figure7.png  used on input line 8.
@@ -6470,15 +6503,21 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 84354 strings out of 493014
- 1892181 string characters out of 6133351
- 2668406 words of memory out of 5000000
- 85795 multiletter control sequences out of 15000+600000
- 243657 words of font info for 341 fonts, out of 8000000 for 9000
+ 84361 strings out of 493014
+ 1892327 string characters out of 6133351
+ 2668444 words of memory out of 5000000
+ 85801 multiletter control sequences out of 15000+600000
+ 246460 words of font info for 343 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,36n,104p,10602b,2871s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,36n,104p,10602b,2872s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/tex
@@ -6507,10 +6546,10 @@ e/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Ch-nuclear.pdf (12 pages, 10633744 bytes).
+Output written on Ch-nuclear.pdf (12 pages, 10632823 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
+ 363 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
  48 named destinations out of 1000 (max. 500000)
- 72243 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 72755 words of extra memory for PDF output out of 74296 (max. 10000000)
 

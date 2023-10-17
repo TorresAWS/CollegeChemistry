@@ -1,12 +1,12 @@
 \begin{fullwidth}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-Halflife}
  \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Half-life for various isotopes and chemicals} \\
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Halflife} Half-life for various isotopes and chemicals} \\
 \midrule
 \multicolumn{1}{l}{Americium-241} &	432.2 years &\multicolumn{1}{l}{Lutetium-177}& 6.71 days &\multicolumn{1}{l}{Hydrogen-3} &12.35 years  \\
 \multicolumn{1}{l}{Barium-133} &10.74 years &\multicolumn{1}{l}{Molybdenum-99}& 66 hours&\multicolumn{1}{l}{Technetium-99}& 213,000 years\\
