@@ -21,7 +21,7 @@
 
 
 \begin{fullwidth}\begin{center}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-PH-scale}
  \begin{minipage}[b]{1\linewidth}\resizebox{1.0\textwidth}{!}{
 
 
@@ -91,7 +91,7 @@
    \node[anchor=south west,inner sep=0] (image2) at (13.0cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure2}};\node[font=\small, anchor=south west ]  at ([shift={(0.3cm,-0.4cm)}]image2.south west)  {chlorox};
 
 \end{scope}
-\node[text width=12cm, fontscale=.2,shift={(15em,-20em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The PH scale };
+\node[text width=12cm, fontscale=.2,shift={(15em,-20em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-PH-scale} \end{bf} The PH scale };
 
 
 \end{tikzpicture}

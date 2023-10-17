@@ -6,14 +6,14 @@
 %\begin{center}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
 
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Acidity-constants}
 
 
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{7}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Acidity and basicity constants at 25$^{\circ}$C} \\
+\multicolumn{7}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Acidity-constants} Acidity and basicity constants at 25$^{\circ}$C} \\
 \midrule
 	\rowcolor{gray!10}Name &Formula	&$K_a$ &&  Name &Formula	&$K_a$ \\ 
 

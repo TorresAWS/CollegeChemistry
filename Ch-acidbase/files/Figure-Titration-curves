@@ -1,6 +1,6 @@
  %\vspace{3cm}\hspace{3cm}
  
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Titration-curves}
 
   \begin{fullwidth}\begin{minipage}[b]{0.1\linewidth}
 %\resizebox{0.5\textwidth}{!}{
@@ -42,7 +42,7 @@
 \end{scope}
 
 \begin{scope}[ shift={(11em,12em) 	},scale=1.0]
- \node[text width=16cm, fontscale=.3,shift={(3em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Different shapes of titration curves. Plateaus are flat for the PH curves of strong acids and bases, while being inclined for weak electrolytes. For weak electrolytes, plateaus are referred to as buffer areas.  };
+ \node[text width=16cm, fontscale=.3,shift={(3em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Titration-curves} \end{bf} Different shapes of titration curves. Plateaus are flat for the PH curves of strong acids and bases, while being inclined for weak electrolytes. For weak electrolytes, plateaus are referred to as buffer areas.  };
 \end{scope}
 \end{tikzpicture} \end{center}
 % }

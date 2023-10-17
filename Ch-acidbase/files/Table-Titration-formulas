@@ -1,7 +1,7 @@
 \begin{fullwidth}
 \hspace{-19cm}
 
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Titration-formulas}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \renewcommand\theadalign{bc}
 \renewcommand\theadfont{\bfseries}
@@ -11,7 +11,7 @@
    \newcommand\lengtha{2cm}        
    \newcommand\lengthb{4cm}
 \rotatebox[origin=bl]{00}{
-\begin{tcolorbox}[ colframe=blue!40!gray,colback=blue!10!white, coltitle=blue!40!black, fontupper=\scriptsize, fontlower=\Large, tabularx={>{\hsize=1.9\lengtha}A||>{\hsize=3.0\lengtha}A |>{\hsize=2.0\lengtha}A  |>{\hsize=4.9\lengtha}A|>{\hsize=2.0\lengtha}A},title=Table \ref{tab:{\chapterlabel}\thetablenewcounter} PH Titration formulas,center title ]
+\begin{tcolorbox}[ colframe=blue!40!gray,colback=blue!10!white, coltitle=blue!40!black, fontupper=\scriptsize, fontlower=\Large, tabularx={>{\hsize=1.9\lengtha}A||>{\hsize=3.0\lengtha}A |>{\hsize=2.0\lengtha}A  |>{\hsize=4.9\lengtha}A|>{\hsize=2.0\lengtha}A},title=Table \ref{tab:Table-Titration-formulas} PH Titration formulas,center title ]
   {\bf Titrate}& {\bf Before the EndPoint}    & {\bf At the MidPoint}& {\bf At the EndPoint}     & {\bf \thead{\\After the EndPoint}}         \\[19pt]\hline\hline
   {\bf Strong Acid}& 	\multicolumn{2}{c|}{$\big[ \ce{H^+} \big]= c_{R}$ }    	 &  PH=7 & \thead{\\$\big[ \ce{OH^-} \big]= c_{R} $} \\[19pt]\hline
   {\bf Strong Base}&   \multicolumn{2}{c|}{$\big[ \ce{OH^-} \big]= c_{R}$ }      &  PH=7 & \thead{\\$\big[ \ce{H^+} \big]= c_{R} $}   \\[19pt]\hline\hline

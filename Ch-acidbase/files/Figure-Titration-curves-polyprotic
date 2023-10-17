@@ -1,6 +1,6 @@
   \begin{center}
  
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Titration-curves-polyprotic}
  % \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 
 \begin{tikzpicture} 
@@ -14,7 +14,7 @@
  \end{scope}
 
  \begin{scope}[transform canvas={shift={(2em,-7em)}	},scale=1.0, every node/.append style={transform shape}]
- \node[text width=12cm, fontscale=.3,shift={(-5em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} PH curve for a diprotic acid showing two equivalency points };
+ \node[text width=12cm, fontscale=.3,shift={(-5em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Titration-curves-polyprotic} \end{bf} PH curve for a diprotic acid showing two equivalency points };
 \end{scope}
 \end{tikzpicture}
 %  }\end{minipage}

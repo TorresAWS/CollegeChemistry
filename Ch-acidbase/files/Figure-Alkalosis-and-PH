@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Alkalosis-and-PH}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{1.1\textwidth}{!}{
 \begin{tikzpicture}
  \begin{axis}[
@@ -29,7 +29,7 @@
 
 \draw[dashed] (5.6,-1) -- (5.6,-2.5);
    \node[font=\small, anchor=south west ]  at (5.25,-3)  {PH=7.45}; 
-\node[text width=12cm, fontscale=.2,shift={(13em,-14em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} PH range that leads to acidosis and alkalosis };
+\node[text width=12cm, fontscale=.2,shift={(13em,-14em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Alkalosis-and-PH} \end{bf} PH range that leads to acidosis and alkalosis };
 
 \end{tikzpicture} 
 }\end{minipage}
