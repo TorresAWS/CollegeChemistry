@@ -1,0 +1,5 @@
+The units of a rate constant are determined by the reaction order. In other words, given a reaction order, we will have a given unit for the rate constant. At the same time, given the units of a rate constant, we can also determine the order of the reaction. The following formula gives the constant units for a given reaction order $n$:
+  \import{../\chapterlabel/files/}{Equation-rate-constant-units}
+
+For example, for first-order reaction ($n$=1) the units of the reaction constant are 1/s and for a second-order reaction, the units are 1/Ms. For a reaction of zero-order, the units of the constant are M/s. This formula results from a dimensional analysis given that the units of reaction rate $r$ are M/s and the units of concentration is molarity, M. As a side note, here we will use second as a unit of time, however, one can envision a similar formula for different time units.
+

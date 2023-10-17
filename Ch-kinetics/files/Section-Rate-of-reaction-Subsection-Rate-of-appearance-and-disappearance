@@ -1,0 +1,20 @@
+At the beginning of a reaction, the molecules of reactants will be consumed while the molecules of products will form (see Figure \ref{Fig:Figure-c-vs-t}). There are three different ways to measure the reaction rate. We can measure the amount of reactants that disappear per unit of time and this would give you the rate of disappearance of a reactant. We can also measure the amount of products formed per unit of time and that would give you the rate of appearance of a  product. As a note, rates of disappearance are negative (as the molarity of reactants decreases with time) whereas rates of appearance are positive. Finally, we can measure the amount of reactants the interconvert into products and that would give you the overall rate of reaction, which is always a positive number. Overall, by measuring concentration changes of reactants and products we can compute three types of rates: rates of disappearance, rates of appearance, and rates of reaction.
+Let us work on a sample reaction:
+\begin{center}\ce{I^-_{(aq)} + OCl^-_{(aq)} -> Cl^-_{(aq)} + OI^-_{(aq)}}\end{center}
+We can think of the rate of disappearance of \ce{I^-_{(aq)}} that should be written as:
+\[r_{\ce{I^-}} =  \frac{d\ce{\text{[\ce{I^-}]}}}{d t}\]
+Similarly, we have that the rate of appearance of \ce{Cl^-} is:
+\[r_{\ce{Cl^-}} =  \frac{d\ce{\text{[\ce{Cl^-}]}}}{d t}\]
+As chemical rates represent the change of concentration of a given reactant with time, the units for a chemical rate are M/s.
+\item[\docfilehook{Relating rates of appearance and disappearance}{}] 
+We can relate the rates of any two reactants or products in a chemical reaction and, at the same time, we can relate the rate of reaction with the rate of any product or reactant--remember there is a single rate of reaction and multiple rates of appearance and disappearance of products and reactants. For example, for the following reaction:
+\begin{center}\ce{4NH3_{(g)} + 5O2_{(g)} -> 4NO_{(g)} + 6H2O_{(g)}}\end{center}
+We can relate $r_{\ce{NH3}}$ and $r_{\ce{H2O}}$:
+\[-\frac{1}{4}r_{\ce{NH3}}=+\frac{1}{6}r_{\ce{H2O}}\]
+Overall, a negative sign should be included before the rate of any reactant and a positive sign before the rate of any product. You also need to divide by the stoichiometric coefficients of each reactant and product. Similarly, we can relate $r_{\ce{O2}}$ with the rate of reaction $r$:
+\[-\frac{1}{5}r_{\ce{O2}}= r \]
+For a general equation such as:
+\begin{center}\ce{aA + bB -> cC + dD}\end{center}
+we have that the general relationship between any rate and the overall reaction rate is:
+\import{../\chapterlabel/files/}{Equation-rate-of-reactants-and-products}
+
