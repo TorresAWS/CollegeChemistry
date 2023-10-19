@@ -1,13 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2023 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2023 11:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**Ch-moleMC.tex
+(./Ch-moleMC.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./tufte-book.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `main.tex'
+(./main.tex (./tufte-book.cls
 Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
 (./tufte-common.def
 File: tufte-common.def 2009/12/11 v3.5.0 Common code for the Tufte-LaTeX styles
@@ -18,8 +27,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count79
@@ -84,7 +93,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip47
 \ttl@plus=\dimen105
 \ttl@minus=\dimen106
-\ttl@toksa=\toks16
+\ttl@toksa=\toks18
 \titlewidth=\dimen107
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
@@ -135,15 +144,18 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
@@ -246,7 +258,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen120
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks19
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
@@ -263,7 +275,7 @@ Package: paralist 2015/12/30 v2.5 Extended list environments
 \plpartopsep=\skip67
 \plitemsep=\skip68
 \plparsep=\skip69
-\pl@lab=\toks18
+\pl@lab=\toks20
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -288,7 +300,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file main.bbl.
+No file Ch-moleMC.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -516,7 +528,7 @@ Package: fcnumparser 2012/09/28
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks21
 \ex@=\dimen133
 )
 \c@padzeroesN=\count119
@@ -553,8 +565,8 @@ put line 308.
 \dayofyear=\count141
 \dayofweek=\count142
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks20
-\dt@b=\toks21
+\dt@a=\toks22
+\dt@b=\toks23
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -579,7 +591,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 
-(./main.pre)
+(./Ch-moleMC.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen136
 \c@asy=\count143
@@ -589,7 +601,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `main.pre'.
+\openout4 = `Ch-moleMC.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -600,7 +612,7 @@ Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 \WF@size=\dimen138
 \c@WF@wrappedlines=\count144
 \WF@box=\box57
-\WF@everypar=\toks22
+\WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
@@ -629,7 +641,7 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen139
 \extrarowheight=\dimen140
-\NC@list=\toks23
+\NC@list=\toks25
 \extratabsurround=\skip86
 \backup@length=\skip87
 )
@@ -655,8 +667,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen149
 \belowtabulinesep=\dimen150
 \tabustrutrule=\dimen151
-\tabu@thebody=\toks24
-\tabu@footnotes=\toks25
+\tabu@thebody=\toks26
+\tabu@footnotes=\toks27
 \tabu@box=\box59
 \tabu@arstrutbox=\box60
 \tabu@hleads=\box61
@@ -794,7 +806,7 @@ Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks26
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen183
 \pgfutil@tempdimb=\dimen184
 
@@ -814,12 +826,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen185
 \pgf@y=\dimen186
@@ -830,14 +842,14 @@ ode.tex
 \pgf@xc=\dimen191
 \pgf@yc=\dimen192
 \w@pgf@writea=\write5
-\r@pgf@reada=\read1
+\r@pgf@reada=\read2
 \c@pgf@counta=\count181
 \c@pgf@countb=\count182
 \c@pgf@countc=\count183
 \c@pgf@countd=\count184
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -871,9 +883,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@dimen=\dimen193
 \pgfmath@count=\count187
 \pgfmath@box=\box80
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1020,8 +1032,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen276
 \pgffor@skip=\dimen277
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1264,27 +1276,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip17
 \c@parentequation=\count276
 \dspbrk@lvl=\count277
-\tag@help=\toks38
+\tag@help=\toks40
 \row@=\count278
 \column@=\count279
 \maxfields@=\count280
-\andhelp@=\toks39
+\andhelp@=\toks41
 \eqnshift@=\dimen324
 \alignsep@=\dimen325
 \tagshift@=\dimen326
 \tagwidth@=\dimen327
 \totwidth@=\dimen328
 \lineht@=\dimen329
-\@envbody=\toks40
+\@envbody=\toks42
 \multlinegap=\skip96
 \multlinetaggap=\skip97
-\mathdisplay@stack=\toks41
+\mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks42
+\AP@output=\toks44
 \AP@partial=\box92
 \AP@footins=\box93
 )
@@ -1381,11 +1393,11 @@ neric.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex)) (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks43
-\SOUL@lasttoken=\toks44
-\SOUL@cmds=\toks45
-\SOUL@buffer=\toks46
-\SOUL@token=\toks47
+\SOUL@word=\toks45
+\SOUL@lasttoken=\toks46
+\SOUL@cmds=\toks47
+\SOUL@buffer=\toks48
+\SOUL@token=\toks49
 \SOUL@spaceskip=\skip108
 \SOUL@ttwidth=\dimen334
 \SOUL@uldp=\dimen335
@@ -1422,7 +1434,7 @@ Package: paracol 2015/10/10 v1.32
 \pcol@prespan=\box95
 \pcol@rightpage=\box96
 \pcol@tempbox=\box97
-\pcol@everyvbox=\toks48
+\pcol@everyvbox=\toks50
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/chemfig/chemfig.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/chemfig/chemfig.tex
@@ -1462,8 +1474,8 @@ Package: cutwin 2010/09/29 v0.1 cutout windows
 \c@twrtside=\dimen352
 \c@twtopht=\dimen353
 \c@twvsilg=\dimen354
-\c@twtoka=\toks49
-\c@twtokb=\toks50
+\c@twtoka=\toks51
+\c@twtokb=\toks52
 \c@twrawtext=\box102
 \c@twholdwin=\box103
 \c@twwindow=\box104
@@ -1476,9 +1488,9 @@ Package: cutwin 2010/09/29 v0.1 cutout windows
 Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks51
-\t@pgfplots@tokb=\toks52
-\t@pgfplots@tokc=\toks53
+\t@pgfplots@toka=\toks53
+\t@pgfplots@tokb=\toks54
+\t@pgfplots@tokc=\toks55
 \pgfplots@tmpa=\dimen355
 \c@pgfplots@coordindex=\count349
 \c@pgfplots@scanlineindex=\count350
@@ -1514,7 +1526,7 @@ matrix.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
 \c@pgfplotstable@counta=\count353
-\t@pgfplotstable@a=\toks54
+\t@pgfplotstable@a=\toks56
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -1621,7 +1633,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks55
+\MT@toks=\toks57
 \MT@count=\count363
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen378
@@ -1670,7 +1682,7 @@ Package: fancyvrb 2008/02/07
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
 \FV@CodeLineNo=\count370
-\FV@InFile=\read2
+\FV@InFile=\read3
 \FV@TabBox=\box110
 \c@FancyVerbLine=\count371
 \FV@StepNumber=\count372
@@ -1692,19 +1704,13 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `main.idx'.
+\openout8 = `Ch-moleMC.idx'.
 
 
-Writing index file main.idx
+Writing index file Ch-moleMC.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks56
-\verbatim@line=\toks57
-\verbatim@in@stream=\read3
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
@@ -5774,54 +5780,51 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \setchemformula with sig. 'm' on line 3245.
 .................................................
-)
+)))
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
-\openout1 = `main.aux'.
+(./Ch-moleMC.aux)
+\openout1 = `Ch-moleMC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5716.
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5716.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5716
-.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5716.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5716.
-
-
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box297
-Package hyperref Info: Link coloring ON on input line 5716.
-LaTeX Info: Redefining \ref on input line 5716.
-LaTeX Info: Redefining \pageref on input line 5716.
-LaTeX Info: Redefining \nameref on input line 5716.
+Package hyperref Info: Link coloring ON on input line 3.
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (./Ch-moleMC.out) (./Ch-moleMC.out)
 \@outlinefile=\write14
-\openout14 = `main.out'.
+\openout14 = `Ch-moleMC.out'.
 
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5716.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -5857,7 +5860,7 @@ LaTeX Info: Redefining \selectfont on input line 5716.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 5716.
+LaTeX Info: Redefining \microtypecontext on input line 3.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -5904,7 +5907,7 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 5716.
+. Activating mapping `default' on line 3.
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -5914,7 +5917,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 \c@mv@tabular=\count625
 \c@mv@boldtabular=\count626
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 5716.
+(scrlayer)             \begin{document} on input line 3.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
@@ -5953,7 +5956,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 5716.
+or `english'. on input line 3.
 
 *************************************************
 * chemmacros warning: "no-greek"
@@ -5972,93 +5975,6 @@ or `english'. on input line 5716.
 cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count627
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5716
-.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5716
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 571
-6.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 571
-6.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5716.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 5716.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5716.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 571
-6.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `zplm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5716.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5716.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5716.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5716.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5716.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5716.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 571
-6.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count628
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 571
-6.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-mole/Ch-moleMC.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6109,27 +6025,73 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package mdframed Info: Not enough space on this page on input line 13.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 1 undefined on input line 13
-.
-
 (../Ch-mole/problems/problems/MC-The-Mole
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 18.
+ line 27.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 27.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 18.
+(Font)              scaled to size 11.40997pt on input line 27.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 18.
+(Font)              scaled to size 8.33606pt on input line 27.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 27.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 18.
+(Font)              scaled to size 11.40997pt on input line 27.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 18.
+(Font)              scaled to size 8.33606pt on input line 27.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 27.
 )
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6163,7 +6125,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [4] [5
 
-])
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6175,21 +6137,14 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5802.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5802.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5802.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5802.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+(./Ch-moleMC.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package rerunfilecheck Info: File `Ch-moleMC.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6197,37 +6152,26 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5802.
  ) 
 Here is how much of TeX's memory you used:
- 83320 strings out of 493014
- 1862326 string characters out of 6133351
- 2645627 words of memory out of 5000000
- 85103 multiletter control sequences out of 15000+600000
- 120264 words of font info for 193 fonts, out of 8000000 for 9000
+ 83142 strings out of 493014
+ 1859104 string characters out of 6133351
+ 2643609 words of memory out of 5000000
+ 84932 multiletter control sequences out of 15000+600000
+ 83873 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,17n,102p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/paratype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/par
-atype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (5 pages, 118378 bytes).
+ 100i,17n,104p,10431b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
+6/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}</usr/local/texlive/2016/te
+xmf-dist/fonts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb>
+Output written on Ch-moleMC.pdf (5 pages, 71702 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 32173 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 21933 words of extra memory for PDF output out of 24883 (max. 10000000)
 
