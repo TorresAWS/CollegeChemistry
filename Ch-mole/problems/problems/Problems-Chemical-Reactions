@@ -1,11 +1,10 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Balance the following reactions:
-\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item	\ce{P4(s) + O2(g) -> P4O10(s)} 
 \item	\ce{Al(s) + O2(g) -> Al2O3(s)}
-\end{enumerate}
+\end{inparaenum}
 \end{question}\begin{solution}
 \begin{inparaenum}[(a)]
 \item \ce{P4(s) + 5O2(g) -> P4O10(s)}
@@ -16,11 +15,10 @@ Balance the following reactions:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Balance the following reactions:
-\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item \ce{FeS(s) + O2(g) -> Fe2O3(s) + SO2(g)}
 \item	\ce{NH3(g) + O2(g) -> NO(g) + H2O(g)}
-\end{enumerate}
+\end{inparaenum}
 \end{question}\begin{solution}
 \begin{inparaenum}[(a)]
  \item \ce{4FeS(s) + 7O2(g) -> 2Fe2O3(s) + 4SO2(g)}
@@ -48,14 +46,13 @@ Classify next reaction as combination, decomposition, single replacement, double
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Balance the following reactions:
-\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item	\ce{H2_{(g)}    +     Br2_{(g)}    ->     HBr_{(g)}}
 \item	\ce{C_{(g)}   +     O2_{(g)}    ->     CO_{(g)}}
 \item	\ce{O3_{(g)}    ->     O2_{(g)}}
 \item	\ce{NH4NO2_{(aq)}    ->     N2_{(g)}   +     H2O_{(l)}}
 \item	\ce{Na3PO4_{(aq)} + MgCl2_{(aq)} -> Mg3(PO4)2_{(aq)}   + NaCl_{(aq)}}
-\end{enumerate}
+\end{inparaenum}
 \end{question}\begin{solution}
 not provided\hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
