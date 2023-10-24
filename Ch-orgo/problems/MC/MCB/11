@@ -1,0 +1,18 @@
+\item\PTs{1}   The name for the following molecule is:
+%\begin{center} \chemfig{CH_2(-[:90,1]Br)-CH(-[:90,1]H)-CH_3}\end{center}
+\begin{center} \chemfig{CH_2(-[:90,1]H)-CH(-[:90,1]Br)-CH_3}\end{center}
+%\begin{center} \chemfig{CH_3-CH(-[:90,1]H)-CH_2(-[:0,1]Br)}\end{center}
+%\begin{center} \chemfig{CH_3-CH(-[:90,1]H)-CH_2(-[:-90,1]Br)}\end{center}
+\begin{answers}{4}
+\rowsep{1bp}
+\bChoices[random=true]
+\Ans0  1-bromopropane  \eAns
+\Ans1   2-bromopropane\eAns
+\Ans0    propane  \eAns
+\Ans0   3-bromopropane\eAns
+\Ans0  None of the others\eAns
+ \eChoices 
+\end{answers}
+%Ch121
+%Ch202
+%Subject: cySubstituents
