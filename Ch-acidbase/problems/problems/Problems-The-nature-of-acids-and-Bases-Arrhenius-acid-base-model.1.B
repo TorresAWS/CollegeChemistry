@@ -1,8 +1,0 @@
-Classify the following species as Arrhenius acids, or bases:
-\begin{inparaenum}[(a)]
-\item \ce{H2SO4} % (acid)
-\item \ce{NaOH} % (base)
-\item \ce{HNO3} % (acid)
-\item \ce{HCl} % (acid)
-\item \ce{Ca(OH)2} % (base)
- \end{inparaenum}

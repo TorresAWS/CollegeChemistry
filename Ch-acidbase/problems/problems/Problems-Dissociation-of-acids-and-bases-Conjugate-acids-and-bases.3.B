@@ -1,7 +1,0 @@
-Write down the following dissociation or acid-base reaction involving the exchange of one proton:
-\begin{enumerate}[label=(\alph*)]
-\item  \ce{HNO3_{(l)} + H2O_{(l)}  <=>   } %(\ce{HNO3_{(l)} + H2O_{(l)}  <=> NO3^-_{(aq)} + H3O^+_{(aq)} })
-\item  \ce{H2SO4_{(l)} + H2O_{(l)}  <=>   } %(\ce{H2SO4_{(l)} + H2O_{(l)}  <=> HSO4^-_{(aq)} + H3O^+_{(aq)} })
-\item  \ce{HCl_{(g)} + H2O_{(l)}  <=>   } %(\ce{HCl_{(g)} + H2O_{(l)}  <=> Cl^-_{(aq)} + H3O^+_{(aq)} })
-\item  \ce{NH3_{(g)} + H2O_{(l)}  <=>   } %(\ce{NH3_{(g)} + H2O_{(l)}  <=> NH4^+_{(aq)} + OH^-_{(aq)} })
- \end{enumerate}
