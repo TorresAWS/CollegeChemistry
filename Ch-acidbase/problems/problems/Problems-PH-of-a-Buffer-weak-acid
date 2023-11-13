@@ -2,11 +2,11 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the PH of the following buffer solutions:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
 \item 0.02 M-\ce{NH3}/0.02M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
 \item 0.2 M-\ce{NH3}/0.2M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
 \item Which of the buffers is more effective?
- \end{enumerate}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -21,11 +21,11 @@ Calculate the PH of the following buffer solutions:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the PH of the following buffer solutions:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
 \item 0.02 M-\ce{CH3CO2H}/0.02M-\ce{NaCH3CO2} solution ($K_a=1.7 \times 10^{-5}$)
 \item 0.2 M-\ce{CH3CO2H}/0.2M-\ce{NaCH3CO2} solution ($K_a=1.7 \times 10^{-5}$)
 \item Which of the buffers is more effective?
- \end{enumerate}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]

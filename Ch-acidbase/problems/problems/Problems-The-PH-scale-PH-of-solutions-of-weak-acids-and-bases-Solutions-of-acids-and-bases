@@ -1,10 +1,10 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the PH of the following solutions:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
 \item 0.2M-\ce{CH3COOH} solution ($K_a=1.8 \times 10^{-5}$)
 \item 0.2M-\ce{CH3COOH} and 0.1M-\ce{NaCH3COO} solution ($K_a=1.8 \times 10^{-5}$)
- \end{enumerate}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -19,10 +19,10 @@ Calculate the PH of the following solutions:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the PH of the following solutions:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
 \item 0.4M-\ce{NH3} solution ($K_b=1.8 \times 10^{-5}$)
 \item 0.4M-\ce{NH3} and 0.3M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
- \end{enumerate}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
