@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2023 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2023 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6185,12 +6185,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 
-Overfull \hbox (20.0151pt too wide) in paragraph at lines 76--76
+Overfull \hbox (20.0151pt too wide) in paragraph at lines 77--77
  [] 
  []
 
 
-Overfull \hbox (93.24617pt too wide) in paragraph at lines 1--78
+Overfull \hbox (93.24617pt too wide) in paragraph at lines 1--79
 [] [] 
  []
 
@@ -6391,6 +6391,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [17]) (../Ch-electrochem/files/Figure-Daniell-concentration-cell)
 (../Ch-electrochem/problems/SampleProblem7
+(../Ch-electrochem/problems/SampleProblem7.text)
+(../Ch-electrochem/problems/SampleProblem7.resolution)
 (../Ch-electrochem/problems/StudyCheck7))
 (../Ch-electrochem/files/Subsection-Nernst-equation-Ion-selective-electrodes
 
@@ -6422,15 +6424,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [20])
 (../Ch-electrochem/files/Subsection-Electrolysis-The-electrolysis-of-water)
 (../Ch-electrochem/files/Subsection-Electrolysis-Ion-mixtures)
+(../Ch-electrochem/files/Sidefigure-Electrolysis-water)
 (../Ch-electrochem/files/Subsection-Electrolysis-Aplications)
-(../Ch-electrochem/files/Figure-Electrolysis-water
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]) (../Ch-electrochem/files/SectionIntro-Corrosion)
+[21] (../Ch-electrochem/files/SectionIntro-Corrosion)
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6449,15 +6454,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [23])
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24] [25
-
-]
-
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
@@ -6468,9 +6464,16 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
-(./Ch-electrochem.aux)
+ (./Ch-electrochem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `Ch-electrochem.out' has not changed.
@@ -6488,17 +6491,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84345 strings out of 493014
- 1893237 string characters out of 6133351
- 3000021 words of memory out of 5000000
- 85760 multiletter control sequences out of 15000+600000
- 214852 words of font info for 303 fonts, out of 8000000 for 9000
+ 84370 strings out of 493014
+ 1893830 string characters out of 6133351
+ 3000128 words of memory out of 5000000
+ 85771 multiletter control sequences out of 15000+600000
+ 219122 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,29n,104p,10610b,2227s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/f
-onts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
+onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
 nc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/pu
@@ -6514,17 +6517,18 @@ ive/2016/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
-7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on Ch-electrochem.pdf (25 pages, 461964 bytes).
+6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on Ch-electrochem.pdf (24 pages, 467553 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 62494 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 64542 words of extra memory for PDF output out of 74296 (max. 10000000)
 

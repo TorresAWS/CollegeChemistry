@@ -1,6 +1,11 @@
-The following diagram displays the experimental set up for the electrolysis of water in which oxygen is produced in the anode and hydrogen in the cathode.
+  \begin{marginfigure}[0cm]
+
 \begin{center}
-\vspace{0cm}
+
+
+
+%The following diagram displays the experimental set up for the electrolysis of water in which oxygen is produced in the anode and hydrogen in the cathode.
+ \vspace{0cm}
 \begin{tikzpicture}[  transform canvas={scale=.75}, shift={(-0cm,0)},        
 thick,         
 >=latex,         
@@ -84,9 +89,9 @@ amperemeter/.style={
 \node[ode,pin={[align=center,pin edge={thick}]left:Anode\\\( + \)}] at (-1.2,0) (anode) {};         
 \node[ode,pin={[align=center,pin edge={thick}]right:Cathode\\\( - \)}] at (1.2,0) (cathode) {};
 
-\coordinate[pin={[pin edge={thick}]left:Oxygen}] (ox) at (-1.2,4.7);         
-\coordinate[pin={[pin edge={thick}]right:Hydrogen}] (hy) at (1.2,5.1);         
-\coordinate[pin={[pin distance=2.5cm,align=center,pin edge={thick}]right:Acidulated\\water}] (aw) at (0.2,8.6);
+\coordinate[pin={[pin edge={thick}]left:Oxygen}] (ox) at (-1.2,5.7);         
+\coordinate[pin={[pin edge={thick}]right:Hydrogen}] (hy) at (1.2,6.1);         
+\coordinate[pin={[pin distance=2.5cm,align=center,pin edge={thick}]right:Acidulated\\water}] (aw) at (-0.2,8.6);
 
 \node[cork] at (-1.2,-0.9) {};         
 \node[cork] at (1.2,-0.9) {};
@@ -112,13 +117,23 @@ amperemeter/.style={
 \draw (amp) -- (res);         
 \draw[->] (cathode) -- (cathode|-0,-1.5) -| (res.40);
 
-\node (oxlabel) at (-5,4) {Reaction at Anode};
-\node (oxygenreacc) at (-5,3.5) {$\ce{3H2O -> \frac{1}{2}O2 +2H3O+ +2e-}$};
-\node (hydlable) at (5,4) {Reaction at Cathode};
-\node (hydrogenreacc) at (5,3.5) {$\ce{2H3O+ +2e- ->H2 +2H2O}$};
-\node (overallreacclabel) at (-5,-1) {Overall Reaction};
-\node (overallreacc) at (-5,-1.5) {$\ce{H2O ->\frac{1}{2}O2 + H2}$};
+\node[rotate=90, shift={(0em,-10em)}] (oxlabel) at (-5,4) {Reaction at Anode};
+\node[rotate=90, shift={(-1em,-11em)}]  (oxygenreacc) at (-5,3.5) {$\ce{3H2O -> \frac{1}{2}O2 +2H3O+ +2e-}$};
+\node[rotate=90, shift={(0em,11em)}] (hydlable) at (5,4) {Reaction at Cathode};
+\node[rotate=90, shift={(0em,10em)}]  (hydrogenreacc) at (5,3.5) {$\ce{2H3O+ +2e- ->H2 +2H2O}$};
+\node[rotate=00, shift={(20em,-2.5em)}] (overallreacclabel) at (-5,-1) {Overall Reaction};
+\node[rotate=00, shift={(20em,-2.5em)}] (overallreacc) at (-5,-1.5) {$\ce{H2O ->\frac{1}{2}O2 + H2}$};
+\end{tikzpicture}
+%
+\begin{tikzpicture}       [transform canvas={scale=1}, shift={(-0cm,-3.5cm)}]
+\node[text width=5cm, shift={(-0cm,-0cm)}] at (0,-0cm) {\mytriangleup{red}Experimental set up for the electrolysis of water (Hoffman's voltameter). Oxygen is produced in the anode and hydrogen in the cathode.};
+\end{tikzpicture} 
+\end{center}
 
- % \node[text width=15cm, fontscale=0.2, shift={(-5,-2.5)}] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Electrolysis-water} \end{bf} Experimental set up for the electrolysis of water. Oxygen is produced in the anode and hydrogen in the cathode  };
 
-\end{tikzpicture}\end{center}
+
+
+
+
+
+\end{marginfigure}

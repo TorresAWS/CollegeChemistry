@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2023 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2023 12:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6208,12 +6208,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 
-Overfull \hbox (20.0151pt too wide) in paragraph at lines 76--76
+Overfull \hbox (20.0151pt too wide) in paragraph at lines 77--77
  [] 
  []
 
 
-Overfull \hbox (93.24617pt too wide) in paragraph at lines 1--78
+Overfull \hbox (93.24617pt too wide) in paragraph at lines 1--79
 [] [] 
  []
 
@@ -6414,6 +6414,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [17]) (../Ch-electrochem/files/Figure-Daniell-concentration-cell)
 (../Ch-electrochem/problems/SampleProblem7
+(../Ch-electrochem/problems/SampleProblem7.text)
+(../Ch-electrochem/problems/SampleProblem7.resolution)
 (../Ch-electrochem/problems/StudyCheck7))
 (../Ch-electrochem/files/Subsection-Nernst-equation-Ion-selective-electrodes
 
@@ -6445,15 +6447,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [20])
 (../Ch-electrochem/files/Subsection-Electrolysis-The-electrolysis-of-water)
 (../Ch-electrochem/files/Subsection-Electrolysis-Ion-mixtures)
+(../Ch-electrochem/files/Sidefigure-Electrolysis-water)
 (../Ch-electrochem/files/Subsection-Electrolysis-Aplications)
-(../Ch-electrochem/files/Figure-Electrolysis-water
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]) (../Ch-electrochem/files/SectionIntro-Corrosion)
+[21] (../Ch-electrochem/files/SectionIntro-Corrosion)
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6649,7 +6654,14 @@ lable
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30
 
 ]
 
@@ -6658,23 +6670,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33
+[31] [32
 
 ])
 
@@ -6688,16 +6684,9 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5710.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5710.
- (./main.aux)
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5710.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5710.
 
@@ -6717,18 +6706,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5710.
  ) 
 Here is how much of TeX's memory you used:
- 84956 strings out of 493014
- 1905994 string characters out of 6133351
- 3019906 words of memory out of 5000000
- 86132 multiletter control sequences out of 15000+600000
- 287731 words of font info for 340 fonts, out of 8000000 for 9000
+ 84973 strings out of 493014
+ 1906416 string characters out of 6133351
+ 3028205 words of memory out of 5000000
+ 86136 multiletter control sequences out of 15000+600000
+ 292001 words of font info for 350 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,29n,107p,10369b,2431s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texl
-ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-
-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts
-/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts
+/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
 /fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
@@ -6745,17 +6734,18 @@ ist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
 m/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 548683 bytes).
+/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palati
+no/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (32 pages, 550679 bytes).
 PDF statistics:
- 725 PDF objects out of 1000 (max. 8388607)
- 582 compressed objects within 6 object streams
- 273 named destinations out of 1000 (max. 500000)
- 77348 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 721 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
+ 271 named destinations out of 1000 (max. 500000)
+ 79396 words of extra memory for PDF output out of 89155 (max. 10000000)
 
