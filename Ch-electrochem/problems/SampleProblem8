@@ -1,17 +1,9 @@
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-For the galvanic cell below: 
-\begin{center}\ce{Mg}\hspace{.02 in}|\hspace{.02 in} \ce{Mg^{2+}}\text{($10^{-4}$ M)}\hspace{.02 in}||\hspace{.02 in}\ce{Au^{+}}\text{($10^{-3}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Au}	\end{center}
-\begin{inparaenum}[(a)]
-\item Calculate the standard voltage of the cell, given $\mathcal{E}^{\circ}$(\ce{Au^{+}}/\ce{Au})=1.69V and $\mathcal{E}^{\circ}$(\ce{Mg^{2+}}/\ce{Mg})=$-$2.36V
-\item calculate the cell potential at 298.15K
-\end{inparaenum} 
+\import{./}{SampleProblem8.text}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The redox reaction being this galvanic cell is indicated below with the standard cell voltage obtained by doing $\mathcal{E}^{\circ}_{cathode}-\mathcal{E}^{\circ}_{anode}$:
-\begin{center}\ce{	Mg_{(s)} + 2e^- + Au^{+}_{(aq)}($10^{-4}$ M) -> Mg^{2+}_{(aq)}($10^{-3}$ M) + Au_{(s)} +2e^- }\hfill $\mathcal{E}^{\circ}_{cell}=$4.05V\end{center}
-We have that two electrons flow though the cell. To calculate the cell potential at 298.15K we apply Nernst equation. While calculating $Q$ we have to place the anodic concentration on top and the cathodic on the bottom:
- \[\Delta \mathcal{E}_{cell}=\Delta \mathcal{E}^{\circ}_{cell} -\frac{R\cdot T}{n_e\cdot F}\ln Q=4.05-\frac{8.314\cdot 298.15}{2\cdot 96485}\ln \frac{10^{-4}}{10^{-3}}=4.07V	\]
-
-  \import{./}{StudyCheck8}
+\import{./}{SampleProblem8.resolution}
+\import{./}{SampleProblem8.answer}
+\import{./}{StudyCheck8}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 
 

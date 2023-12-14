@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 DEC 2023 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2023 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6365,6 +6365,9 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 22.
 )
 (../Ch-electrochem/files/Subsection-Nernst-equation-The-Nernst-equation-applied
 -to-a-glavanic-cell) (../Ch-electrochem/problems/SampleProblem8
+(../Ch-electrochem/problems/SampleProblem8.text)
+(../Ch-electrochem/problems/SampleProblem8.resolution)
+(../Ch-electrochem/problems/SampleProblem8.answer)
 (../Ch-electrochem/problems/StudyCheck8)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6427,7 +6430,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
+[21]) (../Ch-electrochem/files/SectionIntro-Corrosion)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22] (../Ch-electrochem/files/SectionIntro-batteries
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6437,21 +6447,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]) (../Ch-electrochem/files/SectionIntro-Corrosion)
+[23])
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] (../Ch-electrochem/files/SectionIntro-batteries)
+[24] [25
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6463,16 +6468,9 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (./Ch-electrochem.aux)
+(./Ch-electrochem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `Ch-electrochem.out' has not changed.
@@ -6490,10 +6488,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 84329 strings out of 493014
- 1892719 string characters out of 6133351
+ 84345 strings out of 493014
+ 1893237 string characters out of 6133351
  3000021 words of memory out of 5000000
- 85753 multiletter control sequences out of 15000+600000
+ 85760 multiletter control sequences out of 15000+600000
  214852 words of font info for 303 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,29n,104p,10610b,2227s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6523,7 +6521,7 @@ texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on Ch-electrochem.pdf (25 pages, 463576 bytes).
+Output written on Ch-electrochem.pdf (25 pages, 461964 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  329 compressed objects within 4 object streams
