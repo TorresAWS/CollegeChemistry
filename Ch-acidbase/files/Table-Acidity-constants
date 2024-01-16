@@ -2,7 +2,11 @@
 
 \begin{fullwidth}
 
-\hspace{5cm}
+%\hspace{5cm}
+
+\checkoddpage\ifoddpage \hspace{5cm} \else \hspace{2cm} \fi 
+
+
 %\begin{center}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
 
