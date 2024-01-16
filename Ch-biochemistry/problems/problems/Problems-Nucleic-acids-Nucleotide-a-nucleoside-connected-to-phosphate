@@ -39,7 +39,8 @@ Nucleoside
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Combine the following molecules to produce a nucleoside:\\
-\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+%\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\linewidth}{!}{
 \begin{tikzpicture}
 \node[shift={(-9em,0)}] (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
 \node[shift={(-9em,0)}] (b) at (2,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{adenine} } };
