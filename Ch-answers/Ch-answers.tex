@@ -1,74 +1,47 @@
-\documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{Ch-answers}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
-\begin{document}\newpage
-
-
-
-
-
-
-
-
-
-
-  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
- \setcounter{chapter}{11}\import{../\chapterlabel/files/}{ChapterName}  
-}
- \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
- \setcounter{chapter}{12} \import{../\chapterlabel/files/}{ChapterName}  
-}{}  
-
-
-
-
-
-
-
-
-
-
-
-
-
-%\setdoublesep{0.35700 em}  % 'Bond Spacing'
-%\setatomsep{1.78500 em}    % 'Fixed Length'
-%\setbondoffset{0.18265 em} % 'Margin Width'
-%\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
-%\setbondstyle{line width = \bondwidth}
-\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
-\fancyhfoffset[E,O]{0pt}
-\setlength{\columnsep}{30pt}
-\begin{conclusion}
-\end{conclusion}
-\setstretch{0.3}
+\documentclass[main.tex]{subfiles} 
+ \renewcommand\thechapter{Answers}\newcommand\chapterlabel{Ch-answers}
+\chaptermark{ }  \chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
+\addcontentsline{toc}{chapter}{\thechapter}
+\newgeometry{left=0.8in,right=0.6in, top=2cm,bottom=2cm,  marginparsep=8.2mm, marginparwidth=49.4mm, }
+\begin{document}
+\checkoddpage\ifoddpage    \else \clearpage\thispagestyle{empty}\mbox{}\clearpage
+{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-2cm}\raisebox{-0.5cm}[0pt][0pt]{ \resizebox{18cm}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (-1cm,0) rectangle (15cm,10cm)  node[rotate=0, font=\tiny] at ([yshift=-0.5cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
+{\Huge\sffamily\color{black}\thechapter \vspace*{0cm}}
+\pagestyle{fancy}
+ \fancyhf{}
+\fancyhead[R]{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
+\path  pic[scale=0.5] () at (-1,0) {cherry}
+node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit} 
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+node at (2,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage}
+; \end{tikzpicture}}
+\fancyhead[L]{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
+\path 
+node at (0,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage} 
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit}
+pic[scale=0.5] () at (3,0) {\chapterfruit};
+ \end{tikzpicture}}
  
 
- \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
-%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
-\newpage\fancyhfoffset[E,O]{0pt}
+
+
+
+
+
+
+
+ 
+
+
 \begin{answerbox}
-\begin{answersenvironment}
- \begin{localsize}{10}
-{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
-\Large \bf Answers}
+ \begin{localsize}{10} 
 \SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
 \printsolutions 
- % \printsolutions[byID={1,3,5,7,9,11,13}]
-  \vspace{20cm}
-\newpage
-The end
  \end{localsize}
- \end{answersenvironment}
 \end{answerbox}
-%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
-}{}
 \checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
 
 
 
 
-%\restoregeometry
-%\end{enumerate}
-%\end{multicols*}
-%\pagecolor{green!10}\afterpage{\nopagecolor}\newpage
-%\end{document}
