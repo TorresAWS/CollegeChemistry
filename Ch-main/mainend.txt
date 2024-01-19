@@ -4,9 +4,13 @@
 \foreach \nchapter in \AllChaptersCompile {\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{false} \subfile{../\nchapter/\nchapter\ProblemName}}
 
 \providetoggle{answersENDchapter}\settoggle{answersENDchapter}{\showanswersendchapter}\iftoggle{answersENDchapter}{
-\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{true} \subfile{../\nchapter/\nchapter\ProblemName}}
+\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{true} 
+%\subfile{../\nchapter/\nchapter\ProblemName}
+}
 }{
-\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}\subfile{../\nchapter/\nchapter\ProblemName}}
+\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}
+%\subfile{../\nchapter/\nchapter\ProblemName}
+}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subfile{../Ch-main/cover/back.tex}\end{document} 
