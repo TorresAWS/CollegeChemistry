@@ -6,8 +6,8 @@
 \providetoggle{answersENDchapter}\settoggle{answersENDchapter}{\showanswersendchapter}\iftoggle{answersENDchapter}{
 \foreach \nchapter in {\AllChaptersCompileLAST}{
 %\subfile{../\nchapter/\nchapter.tex}
-%\renewcommand\showfinalanswers{true} 
-%\subfile{../\nchapter/\nchapter\ProblemName}
+\renewcommand\showfinalanswers{true} 
+\subfile{../Ch-answers/Ch-answers.tex}
 }
 }{
 \foreach \nchapter in {\AllChaptersCompileLAST}{
