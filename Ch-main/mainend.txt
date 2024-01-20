@@ -8,7 +8,8 @@
 %\subfile{../\nchapter/\nchapter\ProblemName}
 }
 }{
-\foreach \nchapter in {\AllChaptersCompileLAST}{\subfile{../\nchapter/\nchapter.tex}
+\foreach \nchapter in {\AllChaptersCompileLAST}{
+%\subfile{../\nchapter/\nchapter.tex}
 %\subfile{../\nchapter/\nchapter\ProblemName}
 }
 }
