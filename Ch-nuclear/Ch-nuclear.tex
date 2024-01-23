@@ -30,7 +30,7 @@
 %\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
 %
 %
-%\import{../\chapterlabel/files/}{SectionGoal-Radiation,-particles-and-radioisotopes}
+%\import{../\chapterlabel/files/}{SectionGoal-Radiation-particles-and-radioisotopes}
 %\import{../\chapterlabel/files/}{SectionGoal-Nuclear-reactions}
 %\import{../\chapterlabel/files/}{SectionGoal-Unknown-isotopes-in-nuclear-reactions}
 %\import{../\chapterlabel/files/}{SectionGoal-Half-life-of-a-radioisotope}
@@ -55,20 +55,20 @@
 
 
 
-\section{Radiation, particles \& radioisotopes}\import{../\chapterlabel/files/}{SectionIntro-Radiation,-particles-and-radioisotopes}
+\section{Radiation, particles \& radioisotopes}\import{../\chapterlabel/files/}{SectionIntro-Radiation-particles-and-radioisotopes}
 \sloppy \begin{description}
-\item[\docfilehook{alpha radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-alpha-radiation}
-\item[\docfilehook{beta radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-beta-radiation}
-\item[\docfilehook{gamma radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-gamma-radiation}
-\item[\docfilehook{protons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-protons}
-\item[\docfilehook{positrons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-positrons}
-\item[\docfilehook{neutrons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-neutrons}
+\item[\docfilehook{alpha radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-alpha-radiation}
+\item[\docfilehook{beta radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-beta-radiation}
+\item[\docfilehook{gamma radiation}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-gamma-radiation}
+\item[\docfilehook{protons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-protons}
+\item[\docfilehook{positrons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-positrons}
+\item[\docfilehook{neutrons}{}] \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-neutrons}
 \import{../\chapterlabel/files/}{SideFigure-Radiation-and-life}
   \import{../\chapterlabel/problems/}{SampleProblem7}
-\item[\docfilehook{Radioisotope notation}{}]  \import{../\chapterlabel/files/}{SubSection-Radiation,-particles-and-radioisotopes-Radioisotope-notation}
+\item[\docfilehook{Radioisotope notation}{}]  \import{../\chapterlabel/files/}{SubSection-Radiation-particles-and-radioisotopes-Radioisotope-notation}
   \import{../\chapterlabel/problems/}{SampleProblem1}
 \end{description}
-\newpage\vspace{10cm}\import{../\chapterlabel/files/}{Table-Nuclear-symbols}
+\newpage\vspace{10cm}\begin{fullwidth}\import{../\chapterlabel/files/}{Table-Nuclear-symbols}\end{fullwidth}
 
  
  
@@ -88,7 +88,7 @@
 \section{Unknown isotopes in nuclear reactions}
 \import{../\chapterlabel/files/}{SectionIntro-Unknown-isotopes-in-nuclear-reactions}
   \import{../\chapterlabel/problems/}{SampleProblem3}
-\import{../\chapterlabel/files/}{Table-Halflife}
+\begin{fullwidth}\import{../\chapterlabel/files/}{Table-Halflife}\end{fullwidth}
 
 
  
@@ -100,6 +100,11 @@
   \import{../\chapterlabel/files/}{SideFigure-HalfLife-plots}
   \item[\docfilehook{Quantifying half-live}{ }]\import{../\chapterlabel/files/}{SubSection-Half-life-of-a-radioisotope-Quantifying-half-live}
 \item[\docfilehook{After several half-lives}{}] \import{../\chapterlabel/files/}{SubSection-Half-life-of-a-radioisotope-after-several-half-lives}
+
+\renewcommand{\tikzmark}[3][]{\tikz[overlay,remember picture,baseline] \node [anchor=base,#1](#2) {#3};}
+
+
+
 \import{../\chapterlabel/problems/}{SampleProblem4}
 \end{description}
 

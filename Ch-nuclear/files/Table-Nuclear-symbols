@@ -1,4 +1,4 @@
-\begin{fullwidth}
+%\begin{fullwidth}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Nuclear-symbols}
 \fontfamily{ppl}\selectfont
  \begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
@@ -18,4 +18,5 @@ Proton\ &($p$) &    \ce{^1_1H^+}  & $+1$         & nuclear particle &  &1919 \\
 Positrons\ &($\beta^+$)&     \ce{^0_{+1}e}  & $+1$ & antiparticle &  &   1932  \\
 \bottomrule
 \end{tabular}
-}\end{minipage}\end{fullwidth}
+}\end{minipage}
+%\end{fullwidth}
