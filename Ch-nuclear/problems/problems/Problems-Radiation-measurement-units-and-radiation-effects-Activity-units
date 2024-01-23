@@ -16,3 +16,30 @@
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The measured activity of an isotope in the lab is 100 counts per minute. Calculate this measurement in counts per second.
+\end{question}
+\begin{solution}
+1.66 cps
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The measured activity of an isotope in the lab is 20 counts per second. Calculate this measurement in counts per minute.
+\end{question}
+\begin{solution}
+1200 cpm
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
