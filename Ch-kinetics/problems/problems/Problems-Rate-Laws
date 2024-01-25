@@ -177,4 +177,22 @@ Compute the half-life for the following reactions:
 
 
 
+   %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Compute the half-life for the following reactions:
+\begin{inparaenum}[(a)]
+\item a zeroth-order reaction with $k$=0.045 M/s	 and initial concentration 0.05M	%	(0.55 s)
+\item a first order reaction with $k$=0.947 1/s	and initial concentration 0.05M 	%	(0.73s)
+\item a second-order reaction with $k$=0.0087 M/s	 and initial concentration 0.087M	%	(1321.1 s)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  0.55 s
+\item 0.73s
+\item 1321.1 s
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
 
