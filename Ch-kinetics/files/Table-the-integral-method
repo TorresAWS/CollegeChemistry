@@ -1,0 +1,15 @@
+ \begin{center}
+\refstepcounter{table}  \label{tab:Table-the-integral-method}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-the-integral-method} The integral method } \\
+\midrule
+ \rowcolor{gray!10} Order & \multicolumn{1}{c}{$y$} & \multicolumn{1}{c}{$x$} & Slope& Slope Sign&Intersect\\
+\midrule
+ 0	& \multicolumn{1}{c}{	$[\ce{A}]$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$-k$	}&\multicolumn{1}{c}{$-$	}& \multicolumn{1}{c}{$[\ce{A}]_0	$	}\\ 
+  1	& \multicolumn{1}{c}{	$Ln([\ce{A}])$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$-k$	}&\multicolumn{1}{c}{$-$	}&\multicolumn{1}{c}{$Ln([\ce{A}]_0)	$	} \\ 
+ 2	& \multicolumn{1}{c}{	$\frac{1}{[\ce{A}]}$	}&\multicolumn{1}{c}{$t$	} &\multicolumn{1}{c}{$+k$}&\multicolumn{1}{c}{$+$	}&\multicolumn{1}{c}{$\frac{1}{[\ce{A}]_0}	$	}	 \\ 
+ \bottomrule
+\end{tabular}\end{center} 

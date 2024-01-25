@@ -1,0 +1,157 @@
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the energy profile below, indicate the activation energy and the reaction energy. Does this diagram corresponds to an exothermic or endothermic reaction?
+\begin{center}
+\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,2,0}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -20};
+ \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -5};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -35};
+ \end{endiagram}\end{center}
+\end{question}
+\begin{solution}
+$E_a=$15kJ/mol; $\Delta H=$-15kJ/mol; exothermic
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+	
+	 
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the energy profile below, indicate the activation energy and the reaction energy. Does this diagram corresponds to an exothermic or endothermic reaction?
+\begin{center}
+\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,2,1.5}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -30};
+ \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -10};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -20};
+ \end{endiagram}\end{center}
+\end{question}
+\begin{solution}
+$E_a=$20kJ/mol; $\Delta H=$10kJ/mol; endothermic
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+	 
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch an energy profile in which reactants are located at -10kJ/mol, the activation energy is 15kJ/mol and the energy of reaction is 10kJ/mol.
+\end{question}
+\begin{solution}
+%\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+%  \ENcurve{1,2,1.5}
+%  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+%  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -10};
+% \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small 5};
+%  \node[above,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small 0};
+% \end{endiagram}
+Reactants (-10); TS (5); products(-0)
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+	
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch an energy profile in which reactants are located at -15kJ/mol, the activation energy is 10kJ/mol and the energy of reaction is -10kJ/mol.
+\end{question}
+\begin{solution}
+%\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+%  \ENcurve{1,2,0}
+%  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+%  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -15};
+% \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -5};
+%  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -25};
+% \end{endiagram} 
+Reactants (-15); TS (-5); products(-25)
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Compare both energy profiles top and bottom and indicate:
+\begin{inparaenum}[(a)]	
+\item What reaction proceeds faster
+\item What reaction exchanges more energy
+\end{inparaenum}	
+\begin{center}
+\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,2,1.5}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -30};
+ \node[above] at (N1-2) {  } node[below,yshift=12pt]  at (N1-2) {\small -10};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -20};
+ \end{endiagram}\hspace{5cm}
+ \begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,2,1.1}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -40};
+ \node[above] at (N1-2) {  } node[below,yshift=12pt]  at (N1-2) {\small -10};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -35};
+ \end{endiagram}
+ \end{center}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item top goes faster
+\item top consumes more energy
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The reaction energy of a process, going from reactants into products, is 10kJ/mol and its activation energy is 15kJ/mol. Calculate the reaction energy and the activation energy of the reverse process, starting from products and going to reactants. Is the direct reaction exothermic or endothermic. How about the reverse process?
+\end{question}
+\begin{solution}
+$E_a=$5kJ/mol; $\Delta H=$-10kJ/mol; direct endothermic; reverse exothermic
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The rate constant for the gas-phase decomposition of \ce{N2O} 
+has the following temperature dependence:
+\begin{center}\ce{2N2O_{(g)} ->2N2_{(g)} + O2_{(g)}}\end{center}
+has the following temperature dependence:
+\begin{center}\begin{tabular}[t]{   c  c   }
+\toprule
+  $T$ ( K)	&$k$, ($s^{-1}$) \\
+\midrule
+1500&	$1.1\times 10^{-15}$\\
+1400&	$1.4\times 10^{-13}$\\
+1300&	$6.9\times 10^{-13}$\\
+1200&$1.5\times 10^{-12}$\\
+\bottomrule
+\end{tabular}\end{center}
+Indicate the reaction order, and compute the activation energy in (kJ/mol) and the frequency factor.
+\end{question}
+\begin{solution}
+Order one; $E_a=$252.05kJ/mol; $A=5.52\times 10^{12}$ s$^{-1}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the gas-phase reaction between hydrogen and iodine
+ \begin{center}\ce{H2_{(g)}  + I2_{(g)} -> 2HI_{(g)} 		}\end{center}
+the rate constant at 500K was found to be $9.36\times 10^{-7}$ 1/(M$\cdot$s) and the rate constant at 600K was found to be $5.69\times 10^{-4}$ 1/(M$\cdot$s). Calculate the activation energy in kJ/mol and the frequency factor of the reaction.
+\end{question}
+\begin{solution}
+Order one; $E_a=$159.88kJ/mol; $A=4.73\times 10^{10}$ s$^{-1}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the decomposition of dinitrogen pentoxide
+ \begin{center}\ce{2N2O5_{(g)} -> 2N2O4_{(g)} + O2_{(g)}	 		}\end{center}
+the rate constant at 500K is 345.43 s$^{-1}$ and at different temperature, the rate constant is 24.84 s$^{-1}$. Given that the activation energy of this reaction is 103.03 kJ/mol, calculate the second temperature value.
+\end{question}
+\begin{solution}
+452K
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For a given reaction, when temperature increases from 100K to 200K, its rate constant triples. 
+Calculate the activation energy for this process.
+\end{question}
+\begin{solution}
+1.8kJ/mol
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

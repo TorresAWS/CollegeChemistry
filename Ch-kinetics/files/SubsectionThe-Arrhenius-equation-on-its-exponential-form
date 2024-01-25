@@ -1,0 +1,22 @@
+
+The Arrhenius equation gives the dependency of the rate constant with the frequency factor and the activation energy. We will introduce this equation in two forms: an exponential and a linear form. However, in this section we will focus on the exponential form of this equation:
+  \import{../\chapterlabel/files/}{Equation-arrhenius}
+
+Based on Arrhenius equation, the larger the activation energy the smaller the rate constant. Similarly, as the temperature increases the rate constant increases, and therefore the reaction rate increases too. The following example shows how to use this equation in its exponential form.
+The linear form of the equation results simply from applying logarithms to both sides of the regular Arrhenius equation and is useful to obtain data graphically as it represents a linear relationship with $\frac{1}{T}$ as $x$ and $Ln(k)$ as $y$. The slope of the resulting line is $-\frac{E_a}{R}$ (mind the negative sign) and the intercept is $Ln(A)$. In the Arrhenius equation, the pre-exponential factor represents the frequency of collision between molecules, in $s^{-1}$. 
+%\item[\docfilehook{The Arrhenius equation on its linearized form}{}] 
+%The linear form of the equation results simply from applying logarithms to both sides of the regular Arrhenius equation and is useful to obtain data graphically as it represents a linear relationship with $\frac{1}{T}$ as $x$ and $Ln(k)$ as $y$. 
+
+%\begin{equation}
+%\boxed{  Ln(k)=Ln(A)  -\frac{E_a}{R}\cdot \left(\frac{1}{T}\right) }
+%\label{\chapterlabel:equation5}
+%\end{equation}
+%where:
+%\begin{where}
+% \item $r$   is the overall rate of reaction
+%  \item $A$ is the frequency (or preexponential) factor
+% \item $E_a$ is the activation energy in kJ/mol
+%  \item $R$  is the constant of the gases in energy units (8.314J/molK)
+%    \item $T$  is the temperature in Kelvins
+%\end{where}
+
