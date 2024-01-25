@@ -1,0 +1,50 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-solutions}
+
+\begin{document}\newpage
+%\setdoublesep{0.35700 em}  % 'Bond Spacing'
+%\setatomsep{1.78500 em}    % 'Fixed Length'
+%\setbondoffset{0.18265 em} % 'Margin Width'
+%\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+%\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\end{conclusion}
+%\setstretch{0.3}
+\begin{multicols*}{2}\setcounter{numA}{1}
+
+{\raggedright\textsc{\textbf{Solutions and colloids }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Solutions-and-colloids}
+{\raggedright\textsc{\textbf{Units of concentration }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Units-of-concentration}
+{\raggedright\textsc{\textbf{Solutions of electrolytes and effective solute particles }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Solutions-of-electrolytes-and-effective-solute-particles}
+{\raggedright\textsc{\textbf{Colligative properties }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Colligative-properties}
+{\raggedright\textsc{\textbf{Factors affecting the solubility of solids and gases }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Solubility-of-gases}
+
+
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+

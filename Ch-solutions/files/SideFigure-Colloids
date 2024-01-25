@@ -1,0 +1,11 @@
+\begin{marginfigure}[9cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect of a liquid };
+\end{tikzpicture}
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+%\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect};
+%\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/tyndall3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The Tyndall effect of a gas};
+\end{tikzpicture}
+\end{marginfigure}

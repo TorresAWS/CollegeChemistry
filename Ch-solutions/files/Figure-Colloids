@@ -1,0 +1,27 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1.5\linewidth}
+\resizebox{.9\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/clouds}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\baselineskip=8pt \mytriangle{red}{\small Clouds are an aerosol}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=5cm, height=6cm]{../{\chapterlabel}/smoke}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small Smoke is an aerosol}};
+
+ \node (c) at (12cm,0) {\includegraphics[width=4cm, height=4.3cm]{../{\chapterlabel}/whippedcream}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small whipped cream is a foam. Cream needs to be whipped to let the air in}};
+\end{tikzpicture}
+}
+\resizebox{.9\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/ketchup}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}{\small Ketchup is an emulsion}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/mayo}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small mayonnaise is an emulsion}};
+
+ \node (c) at (12cm,.5cm) {\includegraphics[width=4.5cm, height=4.7cm]{../{\chapterlabel}/styrofoam}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small Styrofoam is a foam}};
+\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Different colloids };
+
+\end{tikzpicture}
+}
+ \end{minipage}

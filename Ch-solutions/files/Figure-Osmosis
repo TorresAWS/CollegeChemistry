@@ -1,0 +1,43 @@
+
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+   
+  \begin{fullwidth}
+\begin{center}
+     \begin{minipage}[b]{0.9\linewidth}\resizebox{1.0\textwidth}{!}{
+
+
+\begin{tikzpicture}
+
+\pgfmathsetmacro{\LEFTLEVEL}{3.5}
+\pgfmathsetmacro{\RIGHTLEVEL}{3.5}
+\begin{scope}[rotate=00, shift={(-0em,-0em)}]
+    \draw (0,6)--(0,0)--(4,0)--(6,0)--(7,0);
+     \draw (7,0)--(7,6) ;  \draw (6,6) -- (6,5) --(1,5)--(1,6);
+     \begin{pgfonlayer}{background}
+        \filldraw[blue!20] (0,\LEFTLEVEL)--(3.4,\LEFTLEVEL)--(3.4,0)-- (-0,0)--  cycle ;
+                \filldraw[blue!80] (3.7,\RIGHTLEVEL)--(7.0,\RIGHTLEVEL)--(7.0,0)-- (3.7,0)--  cycle ;
+    \end{pgfonlayer}
+     \filldraw[white,pattern=north west lines, pattern color=blue](3.4,-0)--(3.4,5)--(3.7,5)--(3.7,-0)--cycle node [ black,fontscale=0.05, midway,shift={(0.0em,-1.0em)}, rotate=0]{semipermeable   membrane};
+     \draw[->] (3,3.5)--(4,3.5)node[anchor=south]{Solvent};
+   \node at (2,1){Solution A(1M)};
+    \node at (5,1){Solution B(10M)};
+    \end{scope}
+    \pgfmathsetmacro{\LEFTLEVEL}{2.5}
+\pgfmathsetmacro{\RIGHTLEVEL}{4.5}
+\begin{scope}[rotate=00, shift={(30em,-0em)}]
+    \draw (0,6)--(0,0)--(4,0)--(6,0)--(7,0);
+     \draw (7,0)--(7,6) ;  \draw (6,6) -- (6,5) --(1,5)--(1,6);
+     \begin{pgfonlayer}{background}
+        \filldraw[blue!20] (0,\LEFTLEVEL)--(3.4,\LEFTLEVEL)--(3.4,0)-- (-0,0)--  cycle ;
+                \filldraw[blue!20] (3.7,\RIGHTLEVEL)--(7.0,\RIGHTLEVEL)--(7.0,0)-- (3.7,0)--  cycle ;
+    \end{pgfonlayer}
+     \filldraw[white,pattern=north west lines, pattern color=blue](3.4,-0)--(3.4,5)--(3.7,5)--(3.7,-0)--cycle node [ black,fontscale=0.05, midway,shift={(-15.0em,-1.0em)}, rotate=0]{semipermeable   membrane};
+  %  \node at (1,1){Solution A  };
+   % \node at (6,1){Solution B  };
+    \end{scope}
+     \node[single arrow, rounded corners=3pt, fill=red!30, draw, align=center,shift={(25.0em,7.0em)}, minimum height=2cm, minimum width=1cm]{osmotic\\ pressure };
+
+\node[text width=20cm, fontscale=.3, shift={(25em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} In the left diagram, we put in contact two solutions with different concentrations by means of a semipermeable membrane. The left solution is more diluted than the right solution. The difference in osmotic pressure between the membrane creates a water flow that goes from the more diluted to the more concentrated solution that minimizes the pressure gradient. As a result the liquid level changes. };
+
+\end{tikzpicture}}\end{minipage} \end{center} \end{fullwidth}
+
