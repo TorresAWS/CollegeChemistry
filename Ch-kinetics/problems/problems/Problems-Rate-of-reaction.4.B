@@ -1,0 +1,2 @@
+Using the concentration vs. time plot shown below, compare the instantaneous rate at both different times.\\
+ \import{../\chapterlabel/problems/problems/}{Figure-concentration-and-time3}
