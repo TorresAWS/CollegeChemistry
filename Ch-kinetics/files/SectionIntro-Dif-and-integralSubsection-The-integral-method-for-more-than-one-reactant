@@ -1,0 +1,7 @@
+The integral methods can also be applied to obtain rate laws involving more than one reactant (e.g. $r=k\text{[A]}\text{[B]}^x$). For this case we will obtain pseudo rate-constants. In general rate constants only depend on the temperature and not on concentration. However, let us assume we want to calculate a rate law that depends on two reactants ($\text{[A]}$ and $\text{[B]}^x$), and we start the experiment by using a very large molarity of one of them so that during the reaction this value do not change much. On the other hand, we use a smaller molarity for the other  reactant and we want to apply the integral method to his molarity. We will have that $\text{[A]}$ is approximately constant (let us call this $\text{[A]}_0$), whereas $\text{[B]}$ is not. We can include the constant molarity in the rate law (as it is constant) so that we have 
+\[r=k\text{[A]}_0\text{[B]}^x \simeq k^\prime \text{[B]}^x\]
+And we have that 
+\[ k^\prime=k\text{[A]}_0\]
+Applying the integral method we can find out the order of B and the pseudo rate constant. Once we have the pseudo constant, as we control $\text{[A]}_0$ we can always obtain the real rate constant.
+
+
