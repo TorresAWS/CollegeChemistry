@@ -17,6 +17,29 @@ For the following elemental reaction steps indicate the molecularity and give th
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following elemental reaction steps indicate the molecularity and give the rate law:
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\item \ce{SiH4 + SiH2 -> Si2H6 }   %molecularity=2; $r$=k[\ce{SiH2}][\ce{SiH4}]
+\item \ce{SiH2 + H -> SiH + H2 }   %molecularity=2; $r$=k[\ce{SiH2}][\ce{H}]
+\item \ce{Si2H3 + H2 -> Si2H5 }   %molecularity=2; $r$=k[\ce{Si2H3}][\ce{H2}]
+\end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+ \item  molecularity=2; $r$=k[\ce{SiH2}][\ce{SiH4}]
+\item  molecularity=2; $r$=k[\ce{SiH2}][\ce{H}]
+\item  molecularity=2; $r$=k[\ce{Si2H3}][\ce{H2}]
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 The experimental rate law for the reaction of nitrogen monoxide and molecular oxygen given by the following reaction

@@ -51,6 +51,27 @@ $r=0.15[A]$
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+\begin{center}\begin{tabular}[t]{  c c  c   }
+\toprule
+ Experiment &$r$ (M/s)	&$[A]$, (M) \\
+\midrule
+1&	0.5&	0.04\\
+2&	1   &0.32	\\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+$r=7812.5[A]^3$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Use the data below to calculate the rate law:
 \begin{center}\begin{tabular}[t]{  c c  c c  c  }
 \toprule
