@@ -1,0 +1,92 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-acidbase}
+\begin{document}\newpage
+ 
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\end{conclusion}
+%\setstretch{0.3}
+\begin{multicols*}{2}\setcounter{numA}{1}
+{\raggedright\textsc{\textbf{The nature of acids and bases}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Arrhenius-acid-base-model}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Bronsted-acids}
+ 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+% % %%%%%%%%%%%%%NOT FOR 121
+ \import{../\chapterlabel/problems/problems/}{Problems-The-nature-of-acids-and-Bases-Lewis-acid-base-model}
+ % %%%%%%%%%%%%%NOT FOR 121
+}
+{\raggedright\textsc{\textbf{Dissociations of acids \& bases}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Strength-of-acids-and-bases-Strength-of-acids-and-bases-}
+ \import{../\chapterlabel/problems/problems/}{Problems-Dissociation-of-acids-and-bases-Conjugate-acids-and-bases}
+ 
+{\raggedright\textsc{\textbf{The PH scale}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-Protons-and-Hydroxyls}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-The-PH-scale}
+ 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%%%%%%%%%%NOT FOR 121
+  {\raggedright\textsc{\textbf{PH of strong acid-base solutions}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-strong-electrolyte-solutions} 
+  %%%%%%%%%%%%%NOT FOR 121
+
+ 
+ % %%%%%%%%%%%%%NOT FOR 121
+ {\raggedright\textsc{\textbf{PH of weak acid-base solutions}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases} 
+ \import{../\chapterlabel/problems/problems/}{Problems-The-PH-scale-PH-of-solutions-of-weak-acids-and-bases-Solutions-of-acids-and-bases} 
+% %%%%%%%%%%%%%NOT FOR 121
+}	
+
+
+{\raggedright\textsc{\textbf{Buffer solutions}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Buffer-solutions-Buffers}
+  \import{../\chapterlabel/problems/problems/}{Problems-PH-of-a-Buffer-solution}
+  
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+% % %%%%%%%%%%%%%NOT FOR 121
+ \import{../\chapterlabel/problems/problems/}{Problems-PH-of-Buffer-mixed-with-acids-or-bases} 
+ \import{../\chapterlabel/problems/problems/}{Problems-PH-of-a-Buffer-weak-acid} 
+% % %%%%%%%%%%%%%NOT FOR 121
+}
+
+{\raggedright\textsc{\textbf{Titrations}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Titrations-Endpoint-formula}
+ 
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+ %  % %%%%%%%%%%%%%NOT FOR 121
+ {\raggedright\textsc{\textbf{Titration curves}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Titrations-Titration-curves}
+ {\raggedright\textsc{\textbf{Quantitative analysis of a titration}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Titrations-Titration-PH-formulas} 
+ {\raggedright\textsc{\textbf{Molecular mechanisms behind acid-base strength}}\par} 
+ \import{../\chapterlabel/problems/problems/}{Problems-Strength-of-acids-and-its-structure} 
+ {\raggedright\textsc{\textbf{Indicators}}\par} 
+ \import{../\chapterlabel/problems/problems/}{Problems-Indicators} 
+{\raggedright\textsc{\textbf{Titrations of polyprotic acids}}\par} 
+ \import{../\chapterlabel/problems/problems/}{Problems-Titrations-of-polyprotic-acids} 
+ % %%%%%%%%%%%%%NOT FOR 121
+}
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+
