@@ -1,0 +1,13 @@
+Now, let us focus on the surroundings of the system under study considering only fixed temperature and pressure conditions. If a system loses heat, the heat is received by its surroundings.  To calculate the entropy of the surroundings we just need to use the formula working under fixed pressure and temperature conditions (think about a reaction happening on an open beaker in which pressure is always atmospheric and temperature will always be room temperature):
+\begin{equation}\begin{split}
+\boxed{  \Delta S_{surr}^{T, P}=-\frac{\Delta H }{T}   }
+\label{\chapterlabel:equation4}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S_{surr}^{T, P}$   is the entropy change on the surroundings
+ \item $\Delta H $   is the enthalpy change on the system
+ \item $T$   is the absolute temperature 
+ \end{where}
+This formula derives from Clausius expression that related the entropy change with heat, given that the surroundings receive or give away the heat exchanged by the system--hence the negative sign--and under fixed-pressure conditions, heat is equivalent to enthalpy. Moreover, as the surroundings are in general larger than the system its temperature will not change and any heat transfer will be reversible. Also, this expression predicts that the same heat exchanged at higher temperatures is less effective in changing the surroundings' entropy. At the same time, an exothermic process will increase the entropy of the surroundings whereas an endothermic process will decrease the entropy of the surroundings. 
+

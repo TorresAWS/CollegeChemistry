@@ -1,0 +1,12 @@
+The following formula can be used to calculate the entropy change of an ideal gas when its pressure changes at constant temperature. A pressure decrease will cause an entropy increase:
+ \begin{equation}
+\boxed{  \Delta S=nR\ln \Big(\frac{P_1}{P_2}\Big)	}\label{\chapterlabel:equation12}
+\end{equation}
+where:
+\begin{where}
+ \item $\Delta S$   is the entropy change in J/K
+ \item $n $   is the number of moles
+ \item $R $   is the constant of the gases in energy units (8.314J/molK)
+ \item $P_1$  is the initial pressure  
+ \item $P_2$  is the final pressure   
+\end{where}

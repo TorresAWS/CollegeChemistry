@@ -1,0 +1,19 @@
+\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:Table-G-sign}
+
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-G-sign} Sign combination of entropy and enthalpy in connection with $G$} \\
+\midrule
+ \rowcolor{gray!10} $\Delta H$ Sign &     $\Delta S$ Sign	&	$\Delta G$ Sign&     Spontaneity  \\
+\midrule
+  $\Huge -$ & $\Huge +$   	&$\Huge -$			&   Always spontaneous  	  \\
+  $\Huge +$ & $\Huge -$   	&$\Huge +$			&    Always nonspontaneous  	  \\
+  $\Huge -$ & $\Huge -$   	&$\Huge -$ for T<$T_c$	and $\Huge +$ for T>$T_c$		&    Conditionally Spontaneous: below $T_c$  	  \\
+  $\Huge +$ & $\Huge +$   	&$\Huge +$ for T<$T_c$	and $\Huge -$ for T>$T_c$		&    Conditionally Spontaneous: above $T_c$ 	  \\
+ \bottomrule
+\end{tabular}\end{center}

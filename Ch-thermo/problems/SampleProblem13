@@ -1,0 +1,10 @@
+The following example describes how to compute phase transition temperatures using thermodynamic data.
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the fusion and vaporization temperatures of benzene given that $\Delta H^{\circ}_{fus}$= 10.9kJ/mol, $\Delta H^{\circ}_{vap}$= 33.9kJ/mol, $\Delta S^{\circ}_{fus}$= 38.0J/mol$\cdot\text{ }$ K and $\Delta S^{\circ}_{vap}$= 87.19 J/mol$\cdot\text{ }$ K. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the temperature of fusion for benzene we just need to divide the enthalpy and entropy of fusion making sure the units are consistent (converting enthalpy into J/mol)
+\[T_{fus}=\frac{\Delta H^{\circ}_{fus}}{\Delta S^{\circ}_{fus}} =\frac{10.9\times 10^3}{38.0}=287K	\]
+Similarly, in order to calculate the temperature of vaporization for benzene we just need to divide the enthalpy and entropy of vaporization making sure the units are consistent (converting enthalpy into J/mol)
+\[T_{vap}=\frac{\Delta H^{\circ}_{vap}}{\Delta S^{\circ}_{vap}} =\frac{33.9\times 10^3}{87.19}=389K	\]
+\import{./}{StudyCheck13}
+ \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

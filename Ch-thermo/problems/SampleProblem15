@@ -1,0 +1,28 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the equilibrium constant of the reaction at 400K:
+\begin{center}\ce{	HCN(g)  +  2H2(g) -> CH3NH2(g) }\end{center}
+\begin{center}\begin{tabular}[t]{  c c     }
+\toprule
+  Compound &$\text{G}_f^{\circ}$(KJ/mol)	  \\
+\midrule
+\ce{CH3NH2_{(g)}} & 		23.99		 \\
+\ce{HCN_{(s)}} & 		124.7		 \\
+
+ \bottomrule
+\end{tabular}\end{center}
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can compute the Gibbs free-energy of a reaction by means of the free-energies of the molecules involved in the reaction:
+\begin{equation*}\begin{split}
+  \Delta G^{\circ}_R= \Delta G^{\circ}_{products}-\Delta G^{\circ}_{reactants}= \\ \Big[  \Delta G_f^{\circ}(\ce{CH3NH2_{(g)}})      \Big]-\Big[  1\cdot \Delta G_f^{\circ}(\ce{HCN_{(g)}})+ 2\cdot \Delta G_f^{\circ}(\ce{H2_{(g)}}) \Big]      \\
+  =     \Big[  23.99	 	  \Big]-\Big[  1\cdot  124.7 	+ 2\cdot    0	 \Big]=  -100.71 KJ
+\end{split}\end{equation*}
+ 
+ Now we can convert the Gibbs free-energy of the reaction into $K_c$. Mind that we need to remove the Kilo prefix in the Gibbs free energy:
+ \[-100.71\times 10^3 =-RT\ln K_p=-8.314\cdot 400\ln K_p\]
+ Solving for $K_p$ we have that:
+  \[	K_p=e^{\frac	{100.71\times 10^3}{8.314\cdot 400}}=1.4\times 10^{13} \]
+  We have that, as the Gibbs free-energy of reaction is negative, the value of the equilibrium constant is larger than 1. This means that the reaction will proceed spontaneously and that there will have more products than reactants in the reaction mixture.\\
+\import{./}{StudyCheck15} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+

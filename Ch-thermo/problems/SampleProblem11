@@ -1,0 +1,29 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{C_{(s)} + H2O_{(g)} -> CO_{(g)}  	+ H2_{(g)} }\end{center}
+\begin{center}\begin{tabular}[t]{  c c c   }
+\toprule
+  Compound &$\Delta \text{H}_f^{\circ}$	& $\text{S}^{\circ}$  \\
+\midrule
+\ce{C_{(s)}} & 		0		&	5.7\\
+\ce{H2O_{(g)}} & 	-241.8	&	188.7\\
+\ce{CO_{(g)}} & 	-110.5	&	197.6\\
+\ce{H2_{(g)}} &		0		&	130.6\\
+ \bottomrule
+\end{tabular}\end{center}
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ As we have the standard formation enthalpy values and the standard entropy values, we can compute the entropy and enthalpy of reaction. We have that:
+\begin{equation*}\begin{split}
+  \Delta H^{\circ}_R= \Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}= \\ \Big(  \Delta H_f^{\circ}(\ce{CO_{(g)}}) + \Delta H_f^{\circ}(\ce{H2_{(g)}})    \Big)-\Big(  \Delta H_f^{\circ}(\ce{C_{(s)}})+ \Delta H_f^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(  -110.5	+0	  \Big)-\Big(   0	+-241.8	 \Big)=  131.3KJ
+\end{split}\end{equation*}
+ We also have:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}= \\ \Big(  \Delta S^{\circ}(\ce{CO_{(g)}}) + \Delta S^{\circ}(\ce{H2_{(g)}})    \Big)-\Big(  \Delta S^{\circ}(\ce{C_{(s)}})+ \Delta S^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(  197.6	+	130.6	  \Big)-\Big(   5.7	+	188.7	 \Big)=  133.8J/K
+\end{split}\end{equation*}
+ We have that the Gibbs free-energy will be:
+ \[	 \Delta G  =  \Delta H -T \Delta S  = 131.3\times 10^3-298\cdot 133.8=91427.6J=	91.4kJ\]
+ As the free-energy is positive the reaction is not spontaneous. The reason for this non-spontaneity is the endothermicity. As such working at high temperatures we can overcome the enthalpy, in particular working at temperatures higher than  981K. \\
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
