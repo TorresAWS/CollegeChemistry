@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the reaction:
+\begin{center}\ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)} }\end{center}
+we have that $\Delta H_{R}^{\circ}$ is -93kJ/mol and $\Delta S_{R}^{\circ}$ is -199J/mol. Calculate the entropy change on the system, its surroundings and the overall universe at 25 $^{\circ}$C.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the system is just the reaction we observe, hence $\Delta S_{sys}^{\circ}$=-199 J/mol. The entropy change of the surroundings--the environment where the reaction takes place--is:
+\[ \Delta S_{surr}=-\frac{\Delta H_{sys}}{T}   =-\frac{-93}{298}=0.312kJ/mol=312J/mol\]
+If we combine both contributions we have that the entropy change of the universe is:
+\[ \Delta S_{univ}=\Delta S_{sys}+ \Delta S_{surr}= -199+312=113J/mol	\]
+As this value is positive, the reaction will happen spontaneously at that temperature.
+\\
+\import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

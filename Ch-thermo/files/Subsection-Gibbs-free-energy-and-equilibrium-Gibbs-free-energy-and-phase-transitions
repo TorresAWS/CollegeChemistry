@@ -1,0 +1,11 @@
+Gibbs free energy are useful to calculate phase transition temperatures, that is the temperature to melt a solid or vaporize a liquid. As a phase transition is an equilibrium process and as in equilibrium we have that $\Delta G^{\circ}_{T,P}=0$ we can estimate the fusion and vaporization temperatures using the formulas below involving the entropy and enthalpy values for a phase transition (see Table \ref{tab:Table-Entropy-phase-change} for those values):
+\begin{equation}\begin{split}
+\boxed{  T_{fus}=\frac{\Delta H^{\circ}_{fus}}{\Delta S^{\circ}_{fus}} } \quad\text{and}\quad \boxed{  T_{vap}=\frac{\Delta H^{\circ}_{vap}}{\Delta S^{\circ}_{vap}} } 
+ \label{\chapterlabel:equation10}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $T_{melt}$  and  $T_{vap}$	are the fusion and vaporization temperature in Kelvins
+  \item $\Delta H^{\circ}_{fus}$   and $\Delta S^{\circ}_{fus}$ is the enthalpy and entropy of fusion
+  \item $\Delta H^{\circ}_{vap}$   and $\Delta S^{\circ}_{vap}$ is the enthalpy and entropy of vaporization
+ \end{where}

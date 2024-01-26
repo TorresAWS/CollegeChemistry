@@ -1,0 +1,29 @@
+\stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:Table-Entropy-phase-change}
+
+ 
+\begin{fullwidth}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Entropy-phase-change} Standard entropies and enthalpies of phase transition at 1atm } \\
+\midrule
+ \rowcolor{gray!10} Compound &     $\Delta H^{\circ}_{fus}$ (kJ/mol) &	     $\Delta H^{\circ}_{vap}$ (kJ/mol) & Compound &     $\Delta S^{\circ}_{fus}$ (J/mol$\cdot\text{}$ K)&	     $\Delta S^{\circ}_{vap}$ (J/mol$\cdot\text{}$ K)\\
+\midrule
+  	\ce{Ar_{(g)}}	&  1.188 	 	  	  &	6.447  		& 	\ce{Ar_{(g)}} & 14.17   &   74.53 	\\
+\ce{Br2_{(g)}}	&  	-- 	  	  &29.8	  		& 	\ce{Br2_{(g)}} & 39.76   &   88.61 	\\
+  	\ce{C6H6_{(g)}}	&  	 	 10.9 	  &	33.9 		& 	\ce{C6H6_{(g)}} & 38.00   &   87.19 	\\
+\ce{CH3COOH_{(g)}} &  	23.7 	  	  &	11.72  		& 	\ce{CH3COOH_{(g)}} & 40.40   &   61.90 	\\
+% 		&  	 	  	  &	  		& 	\ce{CH3OH_{(g)}} & 18.03   &   104.60 	\\
+% 		&  	 	  	  &	  		& 	\ce{Cl2_{(g)}} & 37.22   &   85.38 	\\
+% 		&  	 	  	  &	  		& 	\ce{H2_{(g)}} & 8.38   &   44.96 	\\
+ \ce{H2O_{(g)}}		&  	6.01 	  	  &40.66	  		& 	\ce{H2O_{(g)}} & 22.00   &   109.00 	\\
+%  		&  	 	  	  &	  		& 	\ce{H2S_{(g)}} & 12.67   &   87.75 	\\
+ \ce{NH3_{(g)}}		&  	 	5.65  	  &	23.35  		& 	\ce{NH3_{(g)}} & 28.93    &   97.41 	\\
+% \ce{HCl_{(g)}}		&  	 	1.99  	  &	16.15 		&   &     &     	\\
+% \ce{CO_{(g)}}		&  	 	0.84  	  &	6.04 		&   &     &     	\\
+
+ \bottomrule
+\end{tabular} \end{fullwidth}

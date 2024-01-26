@@ -1,0 +1,19 @@
+We can calculate the standard entropy of a reaction in a similar way as we calculate the standard enthalpy of a reaction:
+\begin{equation}\begin{split}
+\boxed{  \Delta S^{\circ}_R=\Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}  } \quad \textcolor{blue}{\text{Entropy change}}\label{\chapterlabel:equation3}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S^{\circ}_R$   is the standard entropy change of the reaction
+  \item $\Delta S^{\circ}_{products}$   is the standard entropy  of all products
+\item $\Delta S^{\circ}_{reactants} $ is the standard entropy  of all reactants
+ \end{where}
+ It is important to take into account the stoichiometric coefficients. For example, for the reaction:
+ \begin{center}\ce{2CH3OH_{(g)} + 3O2_{(g)} -> 2CO2_{(g)} + 4H2O_{(l)}  } \end{center}  
+We have the entropy values of: 
+$S^{\circ}(\ce{CH3OH_{(g)}})$=239.7 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{O2_{(g)}})$=161.1 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{CO2_{(g)}})$=213.79  J/K$\cdot \text{ }$mol, and $S^{\circ}(\ce{H2O_{(l)}})$=69.95  J/K$\cdot \text{ }$mol. We can calculate $\Delta S^{\circ}_R$:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}=\\ \Big(2\cdot S^{\circ}( \ce{CO2_{(g)}})   + 4\cdot S^{\circ}(\ce{H2O_{(l)}}) \Big)-\Big(2\cdot S^{\circ}(\ce{CH3OH_{(g)}})+ 3\cdot S^{\circ}(\ce{O2_{(g)}}) \Big)      \\
+  =     \Big(2\cdot 213.79  + 4\cdot 69.95\Big)-\Big(2\cdot 239.7 + 3\cdot 161.1 \Big)= -255.32 J/K
+\end{split}\end{equation*}
+

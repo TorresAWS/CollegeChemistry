@@ -1,0 +1,16 @@
+The Gibbs free-energy change of a reaction is associated with the spontaneity of the process or with its state of equilibrium. In particular, reactions that produce Gibbs free-energy are nonspontaneous. Differently, reaction consuming free-energy are indeed spontaneous. Finally, reaction without a change in free-energy are in equilibrium.
+    \begin{itemize}[label={\faCodeFork\ }]
+\item \begin{bf}$\Delta G<0$:\end{bf} The reaction is spontaneous
+ \item   \begin{bf}$\Delta G=0$:\end{bf} The reaction is in equilibrium
+  \item   \begin{bf}$\Delta G>0$:\end{bf} The reaction is nonspontaneous
+\end{itemize}
+This is because the expression of Gibbs free energy is related to the total entropy change of the universe given by the second law of thermodynamics:
+\begin{equation}\begin{split}
+  \Delta G^{T}  =  \Delta H -T \Delta S \quad  \text{ and }   T\Delta S_{univ}^{T,P}=-(\Delta H -T\Delta S   )    
+\end{split}\end{equation}
+Hence, we have that 
+\begin{equation}\begin{split}
+  \Delta G^{T}  = T\Delta S_{univ}^{T,P}   
+\end{split}\end{equation}
+This last expression means that an increase in total entropy is accompanied by a decrease in Gibbs free energy at constant pressure and temperature. At the same time the expression indicates that the direction of spontaneous change corresponds to a decrease of Gibbs free energy, at constant temperature and pressure.
+
