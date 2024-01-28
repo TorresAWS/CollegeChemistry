@@ -1,0 +1,144 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a semi-cell for the semi reaction below, indicate if the electrode is a solid-liquid electrode or gas-liquid electrode. Assume standard conditions:  
+  \begin{center}\ce{	Ni^{2+}_{(aq)} + 2   e^-	 <=>	Ni_{(s)}}	\end{center}
+ \end{question}
+\begin{solution}
+A solid-liquid electrode with a metallic Ni piece in contact with a Ni(II) 1M solution
+ %\colorlet{ElectrodeSolution}{green!15}
+%\colorlet{ElectrodeSolid}{blue!30}
+% \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+% \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Ni_{(s)}    }}}
+% \renewcommand{\ElectrodeSolutionlabel}{\small \ce{Ni^{2+}_{(aq)}, 1M}}
+% \begin{center}\begin{tikzpicture}[transform canvas={scale=.5}, shift={(-0cm,0)}]
+%\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+%\end{tikzpicture}\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a semi-cell for the semi reaction below, indicate if the electrode is a solid-liquid electrode or gas-liquid electrode. Assume standard conditions:  
+  \begin{center}\ce{	MnO_4^- + 8H+ + 5e^-	 <=>	Mn^{2+} + 4H2O	 	}	\end{center}
+ \end{question}
+\begin{solution}
+A solid-liquid electrode with a metallic Pt piece in contact with a Mn(II) and permanganate 1M solution
+% \colorlet{ElectrodeSolution}{green!15}
+%\colorlet{ElectrodeSolid}{blue!30}
+% \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+% \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Pt_{(s)}    }}}
+ %\renewcommand{\ElectrodeSolutionlabel}{\small \ce{MnO4^{-}_{(aq)} + Mn^{2+}_{(aq)} + H^{+}_{(aq)}, 1M}}
+% \begin{center}\begin{tikzpicture}[transform canvas={scale=.5}, shift={(-0cm,0)}]
+%\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+%\end{tikzpicture}\end{center}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the redox reaction being the following semi-cell:  
+\vspace{1cm}
+   \colorlet{ElectrodeSolution}{green!15}
+ \colorlet{ElectrodeSolid}{blue!30}
+  \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+  \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Ti_{(s)}    }}}
+  \renewcommand{\ElectrodeSolutionlabel}{\small \ce{	TiO^{2+}(1M),  H+(1M)}}
+   \begin{center}\begin{tikzpicture}[transform canvas={scale=1}, shift={(-0cm,0)}]
+ \SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+ \end{tikzpicture}\end{center} \vspace{1.5cm}
+\end{question}
+\begin{solution}
+   \ce{	TiO^{2+} + 2H+ + 4e^-	 <=>	Ti_{(s)} + H2O	 	}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the redox reaction being the following semi-cell:  
+\vspace{1cm}
+   \colorlet{ElectrodeSolution}{green!15}
+ \colorlet{ElectrodeSolid}{orange!30}
+  \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+  \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Pb_{(s)}    }}}
+  \renewcommand{\ElectrodeSolutionlabel}{\small \ce{	Pb^{2+}(1M) }}
+   \begin{center}\begin{tikzpicture}[transform canvas={scale=1}, shift={(-0cm,0)}]
+ \SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+ \end{tikzpicture}\end{center} \vspace{1.5cm}
+\end{question}
+\begin{solution}
+   \ce{	Pb^{2+} + 2   e^-	 <=>	Pb_{(s)}	 	}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the redox reaction being the following semi-cell:  
+ \columnbreak\vspace{ 0cm}\\
+   \colorlet{ElectrodeSolution}{green!15}
+ \colorlet{ElectrodeSolid}{blue!30}
+  \renewcommand{\ElectrodeGaslabel}{\small \ce{Cl2}}
+  \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Pt_{(s)}    }}}
+  \renewcommand{\ElectrodeSolutionlabel}{\small \ce{	Cl^{-}(1M) }}
+   \begin{center}\begin{tikzpicture}[transform canvas={scale=1}, shift={(-0cm,0)}]
+ \SingleElectrode {0}    % 0=hydrogen;1=nonhydrogen
+ \end{tikzpicture}\end{center} \vspace{1.5cm}
+\end{question}
+\begin{solution}
+   \ce{	Cl_2_{(g)} + 2   e^-	 <=>	2Cl-}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the redox reaction being the following semi-cell:  
+\vspace{1cm}
+   \colorlet{ElectrodeSolution}{red!15}
+ \colorlet{ElectrodeSolid}{blue!30}
+  \renewcommand{\ElectrodeGaslabel}{\small \ce{O2}}
+  \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Pt_{(s)}    }}}
+  \renewcommand{\ElectrodeSolutionlabel}{\small \ce{		H2O2(1M) + H^{+}(1M) }}
+   \begin{center}\begin{tikzpicture}[transform canvas={scale=1}, shift={(-0cm,0)}]
+ \SingleElectrode {0}    % 0=hydrogen;1=nonhydrogen
+ \end{tikzpicture}\end{center} \vspace{1.5cm}
+\end{question}
+\begin{solution}
+   \ce{	O2_{(g)} + 2H+ + 2   e^-	 <=>	H2O2_{(aq)}}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a galvanic cell based on the overall redox reaction shown below:  
+ \begin{center}\ce{	2I2_{(s)} + 2Al_{(s)}	 <=>	6I-_{(aq)} + 2Al^{3+}_{(aq)}	}	\end{center}	  
+\end{question}
+\begin{solution}
+        not given
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Sketch a galvanic cell based on the overall redox reaction shown below:  
+ \begin{center}\ce{	2MnO_4^-_{(aq)} + 16H+_{(aq)} + 5Ti_{(s)}	 <=>	2Mn^{2+}_{(aq)} + 8H2O_{(l)} + 5Ti^{2+}_{(aq)}	}	\end{center}	  
+
+\end{question}
+\begin{solution}
+    not given
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+
+
+

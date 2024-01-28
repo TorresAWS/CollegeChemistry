@@ -1,0 +1,20 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Sketch a semi-cell for the semi reaction below, indicate if the electrode is a solid-liquid electrode or gas-liquid electrode. Assume standard conditions:  
+  \begin{center}\ce{	Mg(OH)2_{(s)} + 2e^-	 <=>	Mg_{(s)} + 2OH-}	\end{center} 
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+This is a solid-liquid electrode. The solid piece would be made of Magnesium covered with magnesium hydroxide. The liquid phase would contain a base (\ce{OH^-}). At standard conditions all molarities would be 1M.
+ 
+\colorlet{ElectrodeSolution}{green!15}
+\colorlet{ElectrodeSolid}{blue!30}
+ \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
+ \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{\ce{Mg_{(s)} + Mg(OH)2_{(s)}}}}
+ \renewcommand{\ElectrodeSolutionlabel}{\small \ce{OH^-_{(aq)}, 1M}}
+ \begin{center}\begin{tikzpicture}
+\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
+\end{tikzpicture}\end{center}
+ 
+
+
+ 
+ \import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

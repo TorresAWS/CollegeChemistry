@@ -1,0 +1,156 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, compute: 
+\begin{inparaenum}[(a)]
+\item the standard potential, given $\mathcal{E}^{\circ}$(\ce{	Cl2	}/\ce{Cl^-})=1.36V and $\mathcal{E}^{\circ}$(	\ce{	Li^{+}	}	/\ce{Li})=$-$3.05V
+\item the potential at the given concentrations and 298.15K
+\end{inparaenum} 
+ \colorlet{batteryLeftElectrode}{brown!75}
+ \colorlet{batteryRightElectrode}{red!75}
+ \colorlet{batteryLeftSolution}{brown!15}
+ \colorlet{batteryRightSolution}{red!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{Cl2 }}
+ \begin{center}\begin{tikzpicture}
+ \batterya{\small \ce{Li^+($10^{-4}$M) 	}}{\small \ce{	Li_{(s)}	} 	}	{ }	{	 \small \ce{Cl^{-}($10^{-1}$M)}   	 }{2}{ }{ }{V }{0}    % 1 to the right
+  \end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 4.41V
+\item 4.59V
+\end{inparaenum} 
+%  \ce{Ba,\ce{Ba(OH)2} }\hspace{.02 in}|\hspace{.02 in} \ce{OH^{-}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Ag^{2+}}, \ce{Ag^{+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Pt}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, compute: 
+\begin{inparaenum}[(a)]
+ \item the standard potential, given $\mathcal{E}^{\circ}$(\ce{	Fe^{2+}	}/\ce{Fe}) =$-$0.44V and $\mathcal{E}^{\circ}$(	\ce{	Ce^{+3}},\ce{	Ce^{+4}	}	/\ce{Li})=$+$1.61V
+\item the potential at the given concentrations and 298.15K
+\end{inparaenum} 
+
+ \colorlet{batteryLeftElectrode}{green!75}
+ \colorlet{batteryRightElectrode}{yellow!75}
+ \colorlet{batteryLeftSolution}{green!15}
+ \colorlet{batteryRightSolution}{yellow!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{Cl2 }}
+ \begin{center}\begin{tikzpicture}
+  \batterya{\small \ce{Fe^{+2}($10^{-1}$M) 	}}{\small \ce{	Fe_{(s)}	} 	}	{ }	{	 \small \ce{Ce^{3+},Ce^{4+}($10^{1}$M)}   	 }{2}{ }{ }{V }{1}    % 1 to the right
+  \end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 2.05V
+\item 2.17V
+\end{inparaenum} 
+%  \ce{Ba,\ce{Ba(OH)2} }\hspace{.02 in}|\hspace{.02 in} \ce{OH^{-}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Ag^{2+}}, \ce{Ag^{+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Pt}	 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, compute: 
+\begin{inparaenum}[(a)]
+ \item the standard potential, given $\mathcal{E}^{\circ}$(\ce{	Sn^{2+}	}/\ce{Sn}) =$-$0.14V and $\mathcal{E}^{\circ}$(	\ce{	Br2} 	/\ce{Br^-})=$+$1.09V
+\item the potential at the given concentrations and 298.15K
+\end{inparaenum} 
+
+  \begin{center} \ce{Sn_{(s)} }\hspace{.02 in}|\hspace{.02 in} \ce{Sn^{2+}}\text{($10^{-6}$ M)}\hspace{.02 in}||\hspace{.02 in}\ce{Br^{-}    }\text{($10^{-2}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Br_{(l)}}\end{center}	 
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 1.23V
+\item 1.47V
+\end{inparaenum} 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, compute: 
+\begin{inparaenum}[(a)]
+ \item the standard potential, given $\mathcal{E}^{\circ}$(\ce{	Pb^{2+}	}/\ce{Pb}) =$-$0.13V and $\mathcal{E}^{\circ}$(	\ce{	Ag^+} 	/\ce{Ag})=$+$0.77V
+\item the potential at the given concentrations and 298.15K
+\end{inparaenum} 
+
+  \begin{center} \ce{Pb_{(s)} }\hspace{.02 in}|\hspace{.02 in} \ce{Pb^{2+}}\text{($10^{1}$ M)}\hspace{.02 in}||\hspace{.02 in}\ce{Ag^{+}    }\text{($10^{2}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Ag_{(s)}}	\end{center} 
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.90V
+\item 0.96V
+\end{inparaenum} 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, given the standard potential (3.35V), calculate the missing molarity $X$ at 298.15K: 
+
+  \begin{center} \ce{Al_{(s)} }\hspace{.02 in}|\hspace{.02 in} \ce{Al^{3+}}\text{($10^{-1}$ M)}\hspace{.02 in}||\hspace{.02 in}\ce{Au^{+}    }\text{($X$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Au_{(s)}}\hfill $\Delta \mathcal{E}=3.20$V	\end{center} 
+
+\end{question}
+\begin{solution}
+ $0.18$M 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the galvanic cell below, given the standard potential (2.52V), calculate the missing molarity $X$ at 298.15K: 
+  \begin{center} \ce{Cr_{(s)} }\hspace{.02 in}|\hspace{.02 in} \ce{Cr^{3+}}\text{($10^{-5}$ M)}\hspace{.02 in}||\hspace{.02 in}\ce{H2O2_{(aq)}},\ce{H^+_{(aq)}}    \text{both ($X$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Pt_{(s)}}\hfill $\Delta \mathcal{E}=2.00$V	\end{center} 
+\end{question}
+\begin{solution}
+ $9.07\times 10^{-17}$M 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+ 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the concentration cell below: 
+\begin{center}\ce{Ag}\hspace{.02 in}|\hspace{.02 in} \ce{Ag^{+}}\text{($10^{-1}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Ag^{2+}    }\text{($10^{1}$ M)}\hspace{.02 in}|\hspace{.02 in} \ce{Ag}	\end{center}
+\begin{inparaenum}[(a)]
+\item Identify the anode and the cathode
+\item calculate the cell potential at 298.15K
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item anode(left); cathode(right)
+\item 0.12V
+\end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the concentration cell below: 
+\begin{center}\ce{Au}\hspace{.02 in}|\hspace{.02 in} \ce{Au^{+}}\text{($10^{2}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Au^{2+}    }\text{($10^{-2}$ M)}\hspace{.02 in}|\hspace{.02 in} \ce{Au}	\end{center}
+\begin{inparaenum}[(a)]
+\item Identify the anode and the cathode
+\item calculate the cell potential at 298.15K
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item cathode(left); anode (right)
+\item 0.24V
+\end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
+
+
+
+ 
+
