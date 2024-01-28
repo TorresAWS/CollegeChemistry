@@ -1,0 +1,16 @@
+The intensity circulating through an electric circuit refers to the charge circulated per unit of time, to the coulombs per second. Rememer that the unit of intensity is the Ampere ($A$) that equals to coulombs per second ($C$/$s$). At the same time, Faraday's constant is used to relate moles of electrons with coulombs, as $F$ is 96485C/mol $e^-$. We can hence calculate the moles of electrons circulating in a circuit from the intensity and time. For example, an intensity of 10A circulating for 60seconds will correspond to
+ \begin{equation*}\begin{split}
+60   \cancel{\text{s } } \times 
+\dfrac{10 \cancel{\text{ C }}  } {  1 \cancel{\text{s } }} 
+\times\dfrac{1 \text{ mol } e^-}{96485\cancel{\text{ C }}}
+=6.21\times 10^{-3}\text{moles of } e^-
+\end{split}\end{equation*} 
+We can also use reaction stoichiometry to relate the moles of electrons flowing in the electrolytic cell with the moles of chemicals produced or consumes. For example, for the redox reaction behind Daniell's cell, we have that in an electrolytic cell, Zinc deposits on the cathode whereas nickel dissolves in the anode. Hence, the cathode will become heavier, whereas the anode will become lighter. We intend to calculate the number of moles of Zinc deposited after applying 10A for 60 seconds. We have that the redox reaction is:
+\begin{center}\ce{	Zn^{2+}_{(aq)} + Cu_{(s)}     ->[2e^-] Zn_{(s)}  + Cu^{2+}_{(aq)}   }\end{center}
+Hence:
+ \begin{equation*}\begin{split}
+60   \cancel{\text{s } } \times 
+\dfrac{10 \cancel{\text{ C }}  } {  1 \cancel{\text{s } }} 
+\times\dfrac{1 \text{ mol } e^-}{96485\cancel{\text{ C }}}\times\dfrac{1\text{ moles of } Zn}{2\text{ moles of }e^-}
+=3.10\times 10^{-3}\text{moles of } Zn
+\end{split}\end{equation*} 
