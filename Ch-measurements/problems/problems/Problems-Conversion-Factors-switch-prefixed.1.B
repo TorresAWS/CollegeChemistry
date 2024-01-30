@@ -1,1 +1,0 @@
- The following conversion factor is used to convert $30 cm$ into $km$. Fill in the gaps:\[30\cancel{cm} \times \dfrac{  \hlmath{\hspace{35pt}}\cancel{m}}{1\cancel{cm}}   \times \dfrac{1km}{ \hlmath{\hspace{35pt}}\cancel{m}}       =3\times 10^{-4}km\]

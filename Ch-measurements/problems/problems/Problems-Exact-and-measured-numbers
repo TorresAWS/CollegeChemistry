@@ -125,7 +125,7 @@ Identify the following numbers as measured or exact given the image below:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the following numbers as measured or exact given the image below:
-\begin{center}
+\renewcommand\chapterlabel{Ch-measurements}\begin{center}
 \begin{tikzpicture}
  
 \node [draw] at (3,1) {\includegraphics[width=2cm]{../\chapterlabel/tiger.jpeg} };
