@@ -1,0 +1,55 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-mole}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{20pt}
+\begin{conclusion}
+\end{conclusion}
+\setstretch{0.5}
+\begin{multicols*}{2}\setcounter{numA}{1}
+\newcommand{\showtheanswermc}{\leavevmode\makebox[0pt][r]{\large$\star$\hspace{1.5em}}}
+ \setlength{\parskip}{0.1em}
+\settasks{
+  % the next two should be set to the same value so labels are aligned to the
+  % left
+  label-width = 1em ,
+  item-indent = 1em ,
+  before-skip = -\parskip , % undo paragraph skip
+  after-skip = -\parskip , % undo paragraph skip
+  after-item-skip = -\parskip % undo paragraph skip
+}
+
+{\raggedright\textsc{\textbf{The Mole }}\par} 
+\import{../\chapterlabel/problems/problems/}{MC-The-Mole}
+ 
+ \lipsum[2-45]
+
+
+
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+
