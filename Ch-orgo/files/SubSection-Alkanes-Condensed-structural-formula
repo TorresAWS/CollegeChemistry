@@ -1,13 +1,13 @@
-Let us analyze the formula of propane shown below. In this molecule, there are two different types of carbons: the end of the chain carbon, in the left and the right of the structure, and a central carbon. The extremes are bounded to three hydrogens (and one carbon), whereas the central atoms are bonded to two hydrogens (and two carbons).
+Let us analyze the formula of propane shown below. In this molecule, there are two different types of carbons: the end of the chain carbon, in the left and the right of the structure, and a central carbon. The external carbons are bounded to three hydrogens (and one carbon), whereas the central carbons are bonded to two hydrogens (and two carbons).
 \begin{center}\chemfig{C(-[2]@{B}H)(-[4]@{A}H)(-[6]H)-C(-[2]H@{E})(-[6]H)-C(-[2]H@{C})(-[6]H)-H@{D}} \end{center}
 \chemmove{
-  \draw[
-    fill=purple,
-    draw=purple,
-    fill opacity=.2,
-    rounded corners=2pt
-  ]
-    ([xshift=-5pt,yshift=-25pt]A.south west) rectangle ([xshift=5pt,yshift=5pt]B.north east) ;
+%  \draw[
+%    fill=purple,
+%    draw=purple,
+%    fill opacity=.2,
+%    rounded corners=2pt
+%  ]
+%    ([xshift=-5pt,yshift=-25pt]A.south west) rectangle ([xshift=5pt,yshift=5pt]B.north east) ;
         \draw[
     fill=purple,
     draw=purple,
@@ -15,6 +15,7 @@ Let us analyze the formula of propane shown below. In this molecule, there are t
     rounded corners=2pt
   ]
         ([xshift=-10pt,yshift=-43pt]C.south west) rectangle ([xshift=5pt,yshift=30pt]D.north east) ;
+           \draw[->,thick]         ([xshift=5pt,yshift=30pt]D.north east)   -- ++ (1,0)  node[xshift=20pt,yshift=0pt] {External};
          \draw[
     fill=red,
     draw=red,
@@ -22,6 +23,7 @@ Let us analyze the formula of propane shown below. In this molecule, there are t
     rounded corners=2pt
   ]
         ([xshift=-10pt,yshift=-40pt]E.south west) rectangle ([xshift=5pt,yshift=10pt]E.north east) ;
+                   \draw[->,thick]          ([xshift=-10pt,yshift=-40pt]E.south west)   -- ++ (-1,0)  node[xshift=-15pt,yshift=0pt] {Central};
 }
 The extremes of the chain are indeed \ce{CH3} units and the central carbon is a \ce{CH2} unit. So, another way to represent propane would be:
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]

@@ -11,41 +11,41 @@ amide
  
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:\begin{center}
+Identify the functional groups in the following molecule and give the molecular formula:\begin{center}
 \chemfig{**6(---(-NH _2)---)}
 \end{center}
 \end{question}\begin{solution}
-amine and aromatic
+amine and aromatic; \ce{C6H7N}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:\begin{center}
+Identify the functional groups in the following molecule and give the molecular formula:\begin{center}
 \chemfig{**6(--(-OH)----)}
 \end{center}
 \end{question}\begin{solution}
-alcohol and aromatic
+alcohol and aromatic;  \ce{C6H6O}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:\begin{center}
-\chemfig{*6(--(-~CH)----)}
+Identify the functional groups in the following molecule and give the molecular formula:\begin{center}
+\chemfig{*6(--(-C~C-H)----)}
 \end{center}
 \end{question}\begin{solution}
-alkyne
+alkyne;  \ce{C8H_{12}}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:\begin{center}
+Identify the functional groups in the following molecule and give the molecular formula:\begin{center}
 \chemfig{*6(=-(-CH_3)----)}
 \end{center}
 \end{question}\begin{solution}
-alkene
+alkene;  \ce{C7H_{12}}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
@@ -86,23 +86,23 @@ aldehyde
 
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:
+Identify the functional groups in the following molecule and give the molecular formula:
 \begin{center}
 \chemfig{--[::-45]O-}
 \end{center}
 \end{question}\begin{solution}
-ether
+ether;  \ce{C3H_{8}O}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:
+Identify the functional groups in the following molecule and give the molecular formula:
 \begin{center}
 \chemfig{*6(-=-(-O-[::-60](=[::-60]O)-[::+60])=(-(=[::+60])-[::-60]OH)-=)}
 \end{center}
 \end{question}\begin{solution}
-alchol, atomatic, alkene, ester
+alchol, atomatic, alkene, ester;  \ce{C_{10}H_{10}O_3}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
