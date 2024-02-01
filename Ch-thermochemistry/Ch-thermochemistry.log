@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 NOV 2023 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 FEB 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5651.
+h' as default language. on input line 5643.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6200,12 +6200,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-
-LaTeX Warning: Reference `tab:Table-Specific-heat' on page 4 undefined on input
- line 5.
-
-) (../Ch-thermochemistry/files/Table-Specific-heat
+[3]) (../Ch-thermochemistry/files/Table-Specific-heat
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6217,10 +6212,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:Table-Specific-heat' on page 4 undefined on input
- line 8.
-
 )
 (../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics-From-en
 ergy-to-temperature-Heat) (../Ch-thermochemistry/problems/SampleProblem4
@@ -6320,12 +6311,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]) (../Ch-thermochemistry/files/SectionIntro-Calorimetry
-
-LaTeX Warning: Reference `Fig:Figure-Calorimeter' on page 8 undefined on input 
-line 1.
-
-)
+[7]) (../Ch-thermochemistry/files/SectionIntro-Calorimetry)
 (../Ch-thermochemistry/files/SubSection-Calorimetry-The-calorimeter--The-calori
 meter)
 (../Ch-thermochemistry/files/SubSection-Calorimetry-Constant-pressure-calorimet
@@ -6380,23 +6366,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]) (../Ch-thermochemistry/files/Figure-Calorimeter
-<../Ch-thermochemistry/figure1-6.png, id=264, 1003.75pt x 901.3675pt>
+<../Ch-thermochemistry/figure1-6.png, id=268, 1003.75pt x 901.3675pt>
 File: ../Ch-thermochemistry/figure1-6.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-6.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-6.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 128.0262pt x 114.96753pt.
-<../Ch-thermochemistry/figure1-7.png, id=265, 148.555pt x 222.8325pt>
+<../Ch-thermochemistry/figure1-7.png, id=269, 148.555pt x 222.8325pt>
 File: ../Ch-thermochemistry/figure1-7.png Graphic file (type png)
 <use ../Ch-thermochemistry/figure1-7.png>
 Package pdftex.def Info: ../Ch-thermochemistry/figure1-7.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 75.87311pt x 113.80968pt.
-
-
-LaTeX Warning: Reference `Fig:Figure-Calorimeter' on page 10 undefined on input
- line 20.
-
 )
 Overfull \hbox (103.09888pt too wide) in paragraph at lines 3--122
 [][] 
@@ -6464,12 +6445,8 @@ line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-)
-
-LaTeX Warning: Reference `Fig:Figure-EndoExo' on page 12 undefined on input lin
-e 5.
-
-) (../Ch-thermochemistry/problems/SampleProblem14
+))
+(../Ch-thermochemistry/problems/SampleProblem14
 (../Ch-thermochemistry/problems/StudyCheck14))
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Heat-Mole-conversions--Heat-Mo
 le-conversions
@@ -6479,12 +6456,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]) (../Ch-thermochemistry/files/Figure-EndoExo
-
-LaTeX Warning: Reference `Fig:Figure-EndoExo' on page 13 undefined on input lin
-e 26.
-
-) (../Ch-thermochemistry/problems/SampleProblem11
+[12]) (../Ch-thermochemistry/files/Figure-EndoExo)
+(../Ch-thermochemistry/problems/SampleProblem11
 Overfull \hbox (22.02304pt too wide) in paragraph at lines 32--1
 [][]
  []
@@ -6515,10 +6488,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 
-LaTeX Warning: Reference `tab:Table-Energy-values' on page 13 undefined on inpu
-t line 8.
-
-
 Overfull \hbox (14.03764pt too wide) in paragraph at lines 5--17
 [][] 
  []
@@ -6534,12 +6503,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 LaTeX Warning: Marginpar on page 14 moved.
 
 ) (../Ch-thermochemistry/files/SubSection-Calorimetry-Food-Calories)
-(../Ch-thermochemistry/files/SubSection-Calorimetry-Energy-value
-
-LaTeX Warning: Reference `tab:Table-Energy-values' on page 14 undefined on inpu
-t line 1.
-
-) (../Ch-thermochemistry/problems/SampleProblem13
+(../Ch-thermochemistry/files/SubSection-Calorimetry-Energy-value)
+(../Ch-thermochemistry/problems/SampleProblem13
 Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
  [][] 
  []
@@ -6564,32 +6529,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [14]) (../Ch-thermochemistry/files/SectionIntro-Enthalpy)
 (../Ch-thermochemistry/files/SubSection-Enthalpy-What-is-enthalpy)
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Table-of-standard-enthalpies--
-Table-of-standard-enthalpies
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 15 undefined on input line
- 2.
-
-) (../Ch-thermochemistry/problems/SampleProblem9
+Table-of-standard-enthalpies) (../Ch-thermochemistry/problems/SampleProblem9
 (../Ch-thermochemistry/problems/StudyCheck9)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6599,19 +6539,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [15])
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Natural-state-of-an-element--N
-atural-state-of-an-element
-
-LaTeX Warning: Reference `tab:Table-Standard-states' on page 16 undefined on in
-put line 2.
-
-) (../Ch-thermochemistry/files/Table-Standard-states
+atural-state-of-an-element) (../Ch-thermochemistry/files/Table-Standard-states
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
-
-
-LaTeX Warning: Reference `tab:Table-Standard-states' on page 16 undefined on in
-put line 8.
 
 )
 (../Ch-thermochemistry/files/SubSection-Enthalpy-Formation-reactions:-standard-
@@ -6692,10 +6623,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 141.
 
 
-LaTeX Warning: Reference `tab:Table-Enthapy' on page 21 undefined on input line
- 141.
-
-
 Overfull \hbox (170.86575pt too wide) in paragraph at lines 6--142
 [][] 
  []
@@ -6754,21 +6681,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 84287 strings out of 493014
- 1892092 string characters out of 6133351
- 2741442 words of memory out of 5000000
- 85686 multiletter control sequences out of 15000+600000
- 201588 words of font info for 290 fonts, out of 8000000 for 9000
+ 84276 strings out of 493014
+ 1891864 string characters out of 6133351
+ 2742470 words of memory out of 5000000
+ 85680 multiletter control sequences out of 15000+600000
+ 197013 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,26n,106p,10547b,2075s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,26n,106p,10547b,2078s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/us
 r/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texliv
@@ -6801,10 +6722,10 @@ a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-thermochemistry.pdf (23 pages, 2762954 bytes).
+Output written on Ch-thermochemistry.pdf (23 pages, 2763740 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
+ 483 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
  86 named destinations out of 1000 (max. 500000)
- 61996 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 59436 words of extra memory for PDF output out of 61914 (max. 10000000)
 
