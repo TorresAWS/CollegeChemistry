@@ -1,0 +1,67 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-mole}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\setcounter{chapter}{4}}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\setcounter{chapter}{6}}{}
+\end{conclusion}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+{\raggedright\textsc{\textbf{The Mole }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-The-Mole}
+{\raggedright\textsc{\textbf{Converting moles into grams and into atoms }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Converting-moles-into-grams-and-into-atoms}
+{\raggedright\textsc{\textbf{Chemical Reactions}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Chemical-Reactions}
+{\raggedright\textsc{\textbf{Stoichiometry and mass calculations}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Stoichiometry}
+\import{../\chapterlabel/problems/problems/}{Problems-mass-calculations}
+{\raggedright\textsc{\textbf{Percent yield and limiting reagent}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Percent-yield-and-limiting-reagent}
+
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+%%%%%%%%%%%%%%FIR 121
+\renewcommand\chapterlabel{Ch-thermochemistry}
+ {\raggedright\textsc{\textbf{Reactions and energy }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} 
+\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} 
+
+
+ 
+ 
+\renewcommand\chapterlabel{Ch-mole}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+}{}
+ 
+
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+
