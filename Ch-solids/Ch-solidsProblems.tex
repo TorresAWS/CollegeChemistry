@@ -1,15 +1,18 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-solids}
 \begin{document}\newpage
- 
-\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
 \fancyhfoffset[E,O]{0pt}
 \setlength{\columnsep}{30pt}
 \begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\setcounter{chapter}{10}}
 \end{conclusion}
-%\setstretch{0.3}
-\begin{multicols*}{2}\setcounter{numA}{1}
-
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
 
 {\raggedright\textsc{\textbf{Intermolecular forces }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Intermolecular-forces}
