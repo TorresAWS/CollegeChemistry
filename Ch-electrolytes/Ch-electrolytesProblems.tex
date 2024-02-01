@@ -6,14 +6,14 @@
 \setbondoffset{0.18265 em} % 'Margin Width'
 \renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
 \setbondstyle{line width = \bondwidth}
-\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2cm}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
 \fancyhfoffset[E,O]{0pt}
 \setlength{\columnsep}{30pt}
 \begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\setcounter{chapter}{5}}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\setcounter{chapter}{8}}{}
 \end{conclusion}
-%\setstretch{0.3}
-\begin{multicols*}{2}\setcounter{numA}{1}
-
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
 
 {\raggedright\textsc{\textbf{Solutions }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Solutions-and-composition-What-makes-a-solution}
