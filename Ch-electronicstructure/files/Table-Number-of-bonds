@@ -1,0 +1,20 @@
+
+ \resizebox{\textwidth}{!} {%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-Number-of-bonds} 
+\fontfamily{ppl}\selectfont
+\begin{tabularx}{\textwidth}{  c   *{6}{Y } }
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Number-of-bonds} Relation between the number of bonds and the atomic nature} \\
+ 1A  &3A    &4A    &5A    &6A &7A \\[0.25cm]
+\midrule
+ H  &    &    &    & &      \\[0.25cm]
+1 bond  &    &    &    & &      \\[0.25cm]
+   &B    &C    &N    &O &F      \\[0.25cm]
+   &3 bonds    &4 bonds    &3 bonds    &2 bonds &1 bonds      \\[0.25cm]
+   &     &Si    &P    &S &Cl, Br, I      \\[0.25cm]
+   &     &4 bonds    &3 bonds    &2 bonds &1 bond      \\[0.25cm]
+    \bottomrule
+\end{tabularx}
+
+}

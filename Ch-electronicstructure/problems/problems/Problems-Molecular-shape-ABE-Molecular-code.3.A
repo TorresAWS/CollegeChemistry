@@ -1,0 +1,7 @@
+Given the following Lewis structures, predict the molecular geometry and angles:
+\vspace{0.5cm}\begin{multicols*}{2}
+\begin{enumerate}[label=(\alph*)]
+   \item   \hspace{.05in}\chemfig{P( (-[:340]\lewis{026,Cl}) (-[:60]\lewis{024,Cl})  (-[:120]\lewis{240,Cl})(-[:190]\lewis{462,Cl})(-[:270]\lewis{064,Cl})	)}\hspace{.05in} %\ce{AB5}; trigonal bipyramidal; 120$^{\circ}$ and 90$^{\circ}$
+  \item   \hspace{.05in}\chemfig{\lewis{1,S}( (-[:0]\lewis{026,F})(-[:90]\lewis{024,F})(-[:180]\lewis{426,F})(-[:270]\lewis{064,F}))}\hspace{.05in}	%\ce{AB4E}; see-saw; 120$^{\circ}$ and 90$^{\circ}$
+  \end{enumerate}
+\end{multicols*}

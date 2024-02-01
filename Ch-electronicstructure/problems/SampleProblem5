@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate the atomic charges of the blue highlighted atom
+\begin{center}\chemfig{\lewis{2,\color{blue}C}( (-[:0]H)(-[:180]H)(-[:270]H))} \end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The carbon atoms brings four electrons and in the molecule it is surrounded by eight electrons, five of which belongs to it. Hence the charge of C is $-1$; this means that carbon has one extra electron. Each hydrogen brings one electron and in the molecule each hydrogen has one electron (they share two electrons with C, one for C and one for H). The final lewis structure with the local charge of carbon can be indicated as: 
+\begin{center}\setatomsep{2.25em}
+\chemleft[\chemfig{\lewis{2,{\color{blue}C}}( (-[:0]H)(-[:180]H)(-[:270]H))}\chemright] \chemmove{\node[] at (0pt,15pt) {\footnotesize $ -$};}
+
+\end{center}
+ \import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

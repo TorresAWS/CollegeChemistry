@@ -1,0 +1,5 @@
+Given the skeletal structure below, draw the lewis structure of the molecule:
+ \setatomsep{2.2 em}\begin{center}\chemfig{B*6((-H)-[,1.9em]N(-H)-[,0.9em]B(-H)-[,0.9em]N(-H)-[,0.9em]B(-H)-[,0.9em]N(-H)-[,0.9em])} \end{center}\setatomsep{1.78500 em}   
+\begin{center}\begin{tikzpicture}
+\draw[step=.25cm,gray,very thin] (-4,-3) grid (4,3);
+\end{tikzpicture}\end{center}

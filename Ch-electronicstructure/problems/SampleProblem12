@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Obtain the Lewis structure of \ce{SCl6}.\\ 
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that in the sulfur hexachloride molecule, sulfur is connected to six chlorine atoms. Hence, in this molecule, sulfur has an expanded octet. Let us first count the number of electrons and pairs of electrons. The valence of sulfur is six and the valence of chlorine is seven. Overall we have 48 electrons and 24 pairs. The Lewis structure of this molecule will be:
+  \setlewis[1em]{2pt}{1.9ex}{}
+\begin{center}\setatomsep{25pt}\chemfig[  remember picture]{S ( (-[:45 ]\lewis{024,Cl}) (-[:90 ]\lewis{024,Cl}) (-[:135 ]\lewis{246,Cl}) (-[:225]\lewis{046,Cl}) (-[:270]\lewis{046,Cl}) (-[:315]\lewis{026,Cl})	)} \end{center}
+
+  \import{./}{StudyCheck12}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

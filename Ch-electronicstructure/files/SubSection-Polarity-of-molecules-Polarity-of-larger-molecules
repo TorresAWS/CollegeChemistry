@@ -1,0 +1,86 @@
+The polarity of larger molecules depends on the molecular geometry as well as the polar nature of the bonds that form the molecule. Let us analyze a few cases, \ce{H2O}, \ce{NH3} and \ce{CCl4}. 
+On one hand, for the \ce{H2O} case, the \ce{H\bond{-}O} bond is polar. The ABE type of water of \ce{AB2E2} and hence its geometry is bent; both \ce{H\bond{-}O} bonds do not compensate as they point in different directions and the directions do not cancel out what makes the water molecule polar having a permanent dipole moment ($\mu>0$). 
+Similarly, ammonia is a polar molecule made of polar bonds. The corresponding dipoles do not compensate each other ($\mu>0$). On the other hand, \ce{CCl4} is a nonpolar molecule made of polar bonds that do compensate each other ($\mu=0$).
+\begin{center}
+\scalebox{1.25}{
+\chemfig{C(-[:90]Cl(-[::270,0.5,,,draw=none]@{e}))
+(-[:-150]Cl(-[::270,0.25,,,draw=none]@{c}))
+(-[:-100]Cl(-[::90,0.60,,,draw=none]@{g}))
+(-[:-30]Cl(-[::52,0.75,,,draw=none]@{a}))
+(-[::-30,0.5,,,draw=none]@{h})
+(-[::30,0.6,,,draw=none]@{f})
+(-[::105,0.25,,,draw=none]@{d})
+(-[::15,0.75,,,draw=none]@{b})
+(-[::0,2.5,,,draw=none]@{j})}}
+\chemmove{
+      \draw[|->, very thick] (a)--(b);
+      \draw[|->, very thick] (c)--(d);
+      \draw[|->, very thick] (e)--(f);
+      \draw[|->, very thick] (g)--(h);
+      \node at (j) {$\mu = 0$}; 
+ \node[shift={(0,-1.9em)}] at (-0.5em,-0.5em) {(non polar)};
+     }
+\qquad
+\scalebox{1.25}{
+\chemfig{@{x1}\lewis{2,N}
+(-[:-150]H(-[::270,0.25,,,draw=none]@{c}))
+(-[:-100]H(-[::90,0.60,,,draw=none]@{g}))
+(-[:-30]H(-[::52,0.75,,,draw=none]@{a})
+(-[::0,1.25,,,draw=none]@{e}))
+(-[::-30,0.5,,,draw=none]@{h})
+(-[::105,0.25,,,draw=none]@{d})
+(-[::15,0.75,,,draw=none]@{b})
+(-[::0,2,,,draw=none]@{f})}}
+\chemmove{
+      \draw[|->, very thick] (a)--(b);
+      \draw[|->, very thick] (c)--(d);
+      \draw[|->, very thick] (g)--(h);
+      \draw[|->, very thick, green] (e)--++(90:1.25) node [midway, right] {$\mu > 0$};
+ \node[shift={(0,-1.5em)}] at (0.5em,-0.5em) {(polar)};
+     }
+\qquad
+\scalebox{1.25}{
+\chemfig{\lewis{13,O}(-[:210]H(-[::270,0.25,,,draw=none]@{c}))
+(-[:-30]H(-[::52,0.75,,,draw=none]@{a})
+(-[::0,1.25,,,draw=none]@{e}))
+(-[::30,0.75,,,draw=none]@{b})
+(-[::105,0.25,,,draw=none]@{d})
+(-[::0,2,,,draw=none]@{f})}}
+\chemmove{
+      \draw[|->, very thick] (a)--(b);
+      \draw[|->, very thick] (c)--(d);
+      \draw[|->, very thick, green] (e)--++(90:1.25) node [midway, right, xshift=0.1em] {$\mu > 0$};
+ \node[shift={(0,-1.5em)}] at (0.5em,-0.5em) {(polar)};
+     }
+\end{center}
+
+
+On one hand, each of the \ce{C\bond{-}O} bonds on the carbon dioxide molecule is a polar bond. However, \ce{CO2} is a linear molecule and the polarity of each \ce{C\bond{-}O} bonds compensate so that at the end the molecule is polar.
+
+\begin{center} \chemfig{\lewis{35,O}(-[::270,0.7,,,draw=none]@{a1})=\lewis{,C}(-[::270,0.7,,,draw=none]@{b1})=\lewis{17,O}(-[::270,0.7,,,draw=none]@{c1})}  
+\chemmove{
+      \draw[|->, red,very thick] (b1)--(a1);
+      \draw[|->, very thick] (b1)--(c1) node [ right, xshift=-0.2em] {$\mu = 0$};
+\node[shift={(0,-1.9em)}] at (-0.4em,-0.5em) {(non polar)};
+     }
+\end{center}\vspace{0.5cm}
+ 
+Finally, in some molecules, the dipoles of different bonds can have different directions, partially compensating for each other, as shown below for the case of methanol (\ce{CH3OH}). The \ce{O\bond{-}H} dipole is larger than the \ce{C\bond{-}O} dipole as hydrogen is less electronegative (EN=2.2) than carbon (EN=2.5). Therefore both dipole moments reduce giving an overall dipole. Note the \ce{C\bond{-}O\bond{-}H} bonds should be arranged in a bent geometry.
+ 
+\begin{center}
+\chemfig{
+\chemabove{C}{\scriptstyle\color{blue}{\pol{+}}}
+(-[3]H)(-[4]H)(-[5]H)(-[6,.3,,,,draw=none]@{c})-
+\chemabove{\lewis{37,O}}{\scriptstyle\color{blue}{\pol{-}}}
+(-[6,.3,,,,draw=none]@{o})-[1]
+\chemabove{H}{\scriptstyle\color{blue}{\pol{+}}}
+(-[6,.3,,,draw=none]@{h})}
+
+ 
+    \chemmove{
+        \draw[|->,red,very thick,shorten >=1pt ] (  $(h)+(1em,-0.2em)$)--($(o)+(0em,-0.9em)$);
+        \draw[|->, black,very thick,shorten <=1pt,shorten >=1pt ] ($(c)+(0em,-0.3em)$)--($(o)+(0em,-0.3em)$);
+        \draw[|->,green,very thick,shorten >=1pt ] (   $(o)+(0em,-1.1em)$)--(   $(o)+(-0.4em,-3.1em)$) node [ right, xshift=1.7em] {$\mu > 0$};
+\node[shift={(0,-0.1em)}] at (-0.7em,-0.5em) {(polar)};
+}
+\end{center}
