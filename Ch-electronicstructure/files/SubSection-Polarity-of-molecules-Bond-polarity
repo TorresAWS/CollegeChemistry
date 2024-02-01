@@ -1,0 +1,49 @@
+Differences in electronegativity (see Figure \ref{Fig:Figure-Electronegativity}) can be used to classify a chemical bond as covalent or ionic (see Table \ref{tab:Table-Ionic-Covalent-Bond}). On one hand, when the electronegativity difference ($\Delta$EN) of the atoms in the bond is less than 0.4 we will say the bond is \emph{nonpolar covalent}. Examples are the \ce{H\bond{-}H} ($\Delta$EN=0) or \ce{C\bond{-}H} ($\Delta$EN=0.2) bonds. In these cases, the electrons are shared equally in the bond leading to a lack of charge distribution.
+On the other hand, a bond is \emph{polar covalent} when the atoms bonded are different or have an electronegativity difference between 0.4 and 1.8. Examples are \ce{H\bond{-}Br} ($\Delta$EN=0.8), \ce{H\bond{-}Cl} ($\Delta$EN=1.0), or \ce{O\bond{-}H} ($\Delta$EN=1.2). Bonds become more polar as the electronegative difference in the bond increases.
+In polar covalent bonds, each atom shares the electrons in the bond unevenly which creates a \emph{dipole moment}, a permanent charge separation. In the examples above, bromine or chlorine is more electronegative than hydrogen being more prone to attract the electrons than H. Br and Cl are partially negative \chemfig{Cl\pol{-}}\hspace{.05in} because of the negatively charged electrons and H is partially positive \chemfig{H\pol{+}}\hspace{.05in}\hspace{.05in} because of the lack of electrons.
+We represent the excess of charge as on Cl or Br as \chemfig{Cl\pol{-}}\hspace{.05in} and electron deficiency in H as  \chemfig{H\pol{+}}\hspace{.05in}\hspace{.05in}.
+ The polarity of the bond is represented with an arrow pointing from the less electronegative, from positive, to the more electronegative atom so that the larger the electronegative difference the larger the dipole moment:
+\begin{center}
+   %\schemestart
+
+     \chemfig[]{\chemabove{H}{\scriptstyle\color{blue}{\pol{+}}} (-[::270,0.5,,,draw=none]@{a})- (-[::0,0.3,,,draw=none])
+    (\chemabove{Br}{\scriptstyle\color{red}{\pol{-}}} (-[::270,0.5,,,draw=none]@{b}) )
+    }
+\qquad
+      \chemfig[]{\chemabove{H}{\scriptstyle\color{blue}{\pol{+}}} (-[::270,0.5,,,draw=none]@{c})- (-[::0,0.3,,,draw=none])
+     (\chemabove{Cl}{\scriptstyle\color{red}{\pol{-}}} (-[::270,0.5,,,draw=none]@{d}) )
+     }
+\qquad
+      \chemfig[]{\chemabove{O}{\scriptstyle\color{blue}{\pol{-}}} (-[::270,0.5,,,draw=none]@{e})- (-[::0,0.3,,,draw=none])
+     (\chemabove{H}{\scriptstyle\color{red}{\pol{+}}} (-[::270,0.5,,,draw=none]@{f}) )
+     }
+   %\schemestop
+
+
+ \chemmove{
+           \draw[|->, very thick] ($(a)$)--($(b)+(-0.3em,0em)$);
+           \draw[|->, very thick]  ($(c)$)--($(d)$);
+           \draw[|->, red,very thick]  ($(f)$)--($(e)+(-0.3em,0em)$);
+          }
+\end{center}
+
+Finally, a bond is \emph{ionic} when the atoms bonded have an electronegativity difference larger than 1.8. Examples are \ce{Na\bond{-}Cl} ($\Delta$EN=2.2), \ce{K\bond{-}Cl} ($\Delta$EN=2.3), or \ce{K\bond{-}Br} ($\Delta$EN=2.1). For such a large electronegative difference, electrons are transferred from one atom to the other creating positive and negative ions in the bond. Ionic bonds are also polar due to the permanent charge distribution between the ions forming the bond. Mind that the variations in the type of bond are continuous and there is no defined point at which a bond stops being covalent to become ionic.
+\begin{center}
+     \chemfig{
+         \chemabove{Na}{\scriptstyle\color{blue}{+}}(-[::270,0.5,,,draw=none]@{a1})-\chemabove{Cl}{\scriptstyle\color{blue}{-}}  
+        (-[::270,0.5,,,draw=none]@{b1})}
+\qquad
+     \chemfig{
+         \chemabove{K}{\scriptstyle\color{blue}{+}}(-[::270,0.5,,,draw=none]@{a2})-\chemabove{Cl}{\scriptstyle\color{blue}{-}}  
+        (-[::270,0.5,,,draw=none]@{b2})}
+\qquad
+      \chemfig{
+                         \chemabove{K}{\scriptstyle\color{blue}{+}}(-[::270,0.5,,,draw=none]@{a3})-\chemabove{Br}{\scriptstyle\color{blue}{-}}
+ (-[::270,0.5,,,draw=none]@{b3})}
+\chemmove{
+           \draw[|->, very thick] (a1)--(b1);
+           \draw[|->, very thick] (a2)--(b2);
+           \draw[|->, very thick] (a3)--(b3);
+          }
+
+ \end{center}
