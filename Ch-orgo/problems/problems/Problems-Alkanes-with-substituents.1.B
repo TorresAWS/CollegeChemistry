@@ -1,2 +1,0 @@
-Name the following compound:
-\begin{center}\chemfig{CH_3-CH(-[:90]CH_3)-CH_2-CH_2-CH_3}\end{center}

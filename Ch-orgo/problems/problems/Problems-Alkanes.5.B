@@ -1,5 +1,0 @@
-Write down the molecular formula for the chemical below:
-\begin{center}
-\setpolymerdelim()
-\chemfig{-[:45]-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1] -[:45]}\makebraces(12pt,12pt){$\scriptstyle\!\!3$}{A}{B}
-\end{center}
