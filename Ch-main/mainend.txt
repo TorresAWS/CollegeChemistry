@@ -1,6 +1,11 @@
  %%%%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%%%%%%%
  \newcommand{\ProblemName}{Problems.tex}
-\foreach \nchapter in \AllChaptersCompile {\subfile{../\nchapter/\nchapter.tex}\renewcommand\showfinalanswers{false}
+\foreach \nchapter in \AllChaptersCompile {
+%\subfile{../\nchapter/\nchapter.tex}
+
+\providetoggle{hidecontent}\settoggle{hidecontent}{\HideContent}\iftoggle{hidecontent}{       }{ \subfile{../\nchapter/\nchapter.tex}}}
+
+\renewcommand\showfinalanswers{false}
 
 \providetoggle{hideproblems}\settoggle{hideproblems}{\HideProblems}\iftoggle{hideproblems}{       }{ \subfile{../\nchapter/\nchapter\ProblemName}}}
 
