@@ -1,7 +1,0 @@
-Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-     \item  \hspace{.05in}\chemfig{B( (-[:0]H)(-[:180]H)(-[:270]\lewis{460,F}))}\hspace{.05in}% \ce{ABE3}; planar trigonal; 120$^{\circ}$ 
-  \item   \hspace{.05in}\chemfig{P( (=[:90]\lewis{13,O})  (-[:210]\lewis{460,Cl})(-[:270]\lewis{460,Cl})(-[:320]\lewis{062,Cl})	)}\hspace{.05in} %\ce{AB4}; tetrahedral; 109.5$^{\circ}$  
- \end{enumerate}
-\end{multicols*}
