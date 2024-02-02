@@ -1,9 +1,0 @@
-For the energy profile below, indicate the activation energy and the reaction energy. Does this diagram corresponds to an exothermic or endothermic reaction?
-\begin{center}
-\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
-  \ENcurve{1,2,0}
-  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
-  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -20};
- \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -5};
-  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -35};
- \end{endiagram}\end{center}

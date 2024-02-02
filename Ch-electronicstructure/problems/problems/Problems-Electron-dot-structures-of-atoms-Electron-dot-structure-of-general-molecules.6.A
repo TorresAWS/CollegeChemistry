@@ -1,8 +1,0 @@
-Draw  electron-dot structures for the following molecules given that the first atom listed is the central atom. Some of the atoms might not obey the octet rule. If the species has a charge indicate the location of the charge:
-\begin{inparaenum}[(a)]
- \item  \ce{ClF5} 	 % \hspace{.05in}\chemfig{\lewis{1,Cl}( (-[:340]\lewis{026,F}) (-[:70]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:270]\lewis{064,F})	)}\hspace{.05in} 
-  \item  \ce{XeF4} 	  %\hspace{.05in}\chemfig{\lewis{13,Xe}( (-[:340]\lewis{026,F})  (-[:190]\lewis{462,F})(-[:250]\lewis{064,F})(-[:300]\lewis{064,F})	)}\hspace{.05in} 
-\end{inparaenum}
-\begin{center}\begin{tikzpicture}
-\draw[step=.25cm,gray,very thin] (-4,-3) grid (4,3);
-\end{tikzpicture}\end{center}
