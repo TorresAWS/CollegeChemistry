@@ -3,7 +3,7 @@
 \foreach \nchapter in \AllChaptersCompile {
 %\subfile{../\nchapter/\nchapter.tex}
 
-\providetoggle{hidecontent}\settoggle{hidecontent}{\HideContent}\iftoggle{hidecontent}{       }{ \subfile{../\nchapter/\nchapter.tex}}}
+\providetoggle{hidecontent}\settoggle{hidecontent}{\HideContent}\iftoggle{hidecontent}{       }{ \subfile{../\nchapter/\nchapter.tex} }
 
 \renewcommand\showfinalanswers{false}
 
