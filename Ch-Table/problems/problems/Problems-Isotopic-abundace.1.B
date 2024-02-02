@@ -1,1 +1,0 @@
-The atomic mass of Ga is 69.72 amu. There are only two naturally occurring isotopes of gallium: 69Ga, with a mass of 69.0 amu, and 71Ga, with a mass of 71.0 amu. Calculate the natural abundance of the 69Ga isotope. 
