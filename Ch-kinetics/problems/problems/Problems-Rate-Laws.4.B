@@ -1,6 +1,0 @@
-Identify the following rate laws as integral or differential, and given a form obtain the corresponding other type of from (i.e. if the integral from is given then obtain the differential form)
-\begin{inparaenum}[(a)]
-\item 	  $r=0.0023$, $[A]_0$=0.3  	%	(differential, $ [\ce{A}] =-0.0023\cdot t + 0.3$)
-\item $Ln([\ce{A}])=-0.045\cdot t+0.45$	%	(integral, $r=0.045[A]^1$, $[A]_0$=1.56)
-\item 	   $r=0.3[A]^2$, $[A]_0$=25   	%	(differential, $\frac{1}{[\ce{A}]}=0.3\cdot t +0.04$)
-\end{inparaenum}
