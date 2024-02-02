@@ -66,3 +66,4 @@ drawCarbon(P011);
 drawCarbon(P101);
 drawCarbon(P110);
 drawCarbon(P111);
+%%%TAG:CHEM201

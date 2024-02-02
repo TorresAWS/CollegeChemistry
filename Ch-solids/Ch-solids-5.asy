@@ -32,3 +32,4 @@ draw(shift(0,1.807,0)*scale3(1.4)*unitsphere,lightred);
 draw(shift(0,0,-1.807)*scale3(1.4)*unitsphere,lightred);
 draw(shift(0,0,1.807)*scale3(1.4)*unitsphere,lightred);
 size(142.26378pt,0,keepAspect=true);
+%%%TAG:CHEM201

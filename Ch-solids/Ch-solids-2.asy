@@ -66,3 +66,4 @@ draw(shift(50*(x,y,z))*ionb,Red);
 }
 }
 size(142.26378pt,142.26378pt,keepAspect=true);
+%%%TAG:CHEM201

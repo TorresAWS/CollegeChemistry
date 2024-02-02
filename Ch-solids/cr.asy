@@ -124,3 +124,4 @@ drawSpheres(cubicCornerA,cornerAR,lightgray);
 drawSpheres(cubicCornerB,cornerBR,darkgray);
 drawSpheres(faceCenter,faceCR,red);
 drawSpheres(connectors,connR,lightblue);
+%%%TAG:CHEM201
