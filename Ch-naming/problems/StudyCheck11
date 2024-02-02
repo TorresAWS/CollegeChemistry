@@ -1,0 +1,13 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name or formulate the following common chemicals: 
+\begin{inparaenum}[(a)]
+\item ammonia
+\item	methane
+\end{inparaenum}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 
+\begin{inparaenum}[(a)]
+\item \ce{NH3} (nitrogen trihydride)
+\item	\ce{CH4} (carbon tetrahydride)
+\end{inparaenum}
+ \end{flushright} }

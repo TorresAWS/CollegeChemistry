@@ -1,8 +1,0 @@
-Insoluble compounds dissociate to produce ions in solution. For example, a saturated \ce{AgCl} solution will contain $1.3\times 10^{-5}$M-\ce{Ag^{+}} and \ce{Cl^{-}}. By adding a chemical with a common ion (e.g. \ce{NaCl}) into the solution we can decrease solubility as common ions will decrease the salt dissociation. Let us work on a problem: we want to calculate the solubility of \ce{AgCl} in a 0.1M-\ce{NaCl} solution given that $K_{sp}(\ce{AgCl})=1.8\times 10^{-10}$. In order to do this, we will first display the solubility equilibriu of the salt
-\begin{center}\ce{AgCl_{(s)}  <=> Ag^+_{(aq)} + Cl^-_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=1.8\times 10^{-10}$\end{center}
-The concentration of the different ions in solution are related to the salt solubility. However, as we now have a common ion (\ce{Cl^-}), we should add this new concentration to the original solubility of the salt
-\begin{center}$\big[ \ce{Ag^{+}}\big]=s$\hfill$\big[ \ce{Cl^{-}}\big]=0.1+s$\end{center}
-Solving for $s$ we have:
-\begin{center}$K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=(s)\cdot(0.1+s)=1.8\times 10^{-10}$\end{center}
-that leads to a polynomial
-\begin{center}$s^2 + 0.1s -1.8\times 10^{-10}=0$\end{center}

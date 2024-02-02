@@ -1,9 +1,0 @@
-Often times were are more interested in predicting the sign of the entropy change of a reaction than to compute the exact value. This is because the sign can be used in order to estimate wether a reaction proceeds spontaneously. Two basic rules are used in order to estimate the entry change sign:
-\\ \faCodeFork\ \begin{bf}The state of matter:\end{bf} solids and liquids have very low entropy in comparison to gases. For example, in the case below, we have the the production of liquid water from ice produces entropy as liquids have more entropy than solids:
- \begin{center} \ce{H2O_{(s)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}>0$\end{center}
-On the other hand, the condensation of water vapor to produce a liquid consumes entropy, as liquids have less entropy than gases:
- \begin{center} \ce{H2O_{(g)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
-  \faCodeFork\ \begin{bf}The number of molecules:\end{bf} the larger the number of molecules of gas the larger entropy. For example, in the reaction below we have that we produce three molecules from two molecules. Hence, the entropy increases.
- \begin{center} \ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
-However, this rules only works if we only take into account the number of gas molecules. For example, in the reaction below we produce two gas molecules from three gas molecules and hence we lose entropy:
- \begin{center}\ce{2H2S_{(g)} + SO2_{(g)}  ->3S_{(s)} + 2H2O_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
