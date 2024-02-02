@@ -11,3 +11,4 @@ from matplotlib import cm, colors
 # This IPython magic generates a table with version information
 #https://github.com/jrjohansson/version_information
 %load_ext version_information
+%%%TAG:CHEM201
