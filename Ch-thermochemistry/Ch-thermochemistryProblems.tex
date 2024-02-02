@@ -33,18 +33,7 @@
 
 
 
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% FOR 121
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand\chapterlabel{Ch-measurements}
-{\raggedright\textsc{\textbf{Matter}}\par} %% NOT FOR 121
-%\import{../\chapterlabel/problems/problems/}{Problems-Significant-Exact-and-measured-numbers}
-\import{../\chapterlabel/problems/problems/}{Problems-Mixtures}%% NOT FOR 121
-\import{../\chapterlabel/problems/problems/}{Problems-States-of-matter}%% NOT FOR 121
-\renewcommand\chapterlabel{Ch-thermochemistry}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-}{}
+\providetoggle{showchem121}\settoggle{showchem121}{\chemversionhealthalied}\iftoggle{showchem121}{\renewcommand\chapterlabel{Ch-measurements}{\raggedright\textsc{\textbf{Matter}}\par}  \import{../\chapterlabel/problems/problems/}{Problems-Mixtures} \import{../\chapterlabel/problems/problems/}{Problems-States-of-matter} \renewcommand\chapterlabel{Ch-thermochemistry}}{}
 
 
 
@@ -52,48 +41,24 @@
 \import{../\chapterlabel/problems/problems/}{Problems-Types-of-energy}
 \import{../\chapterlabel/problems/problems/}{Problems-Temperature-units}
 \import{../\chapterlabel/problems/problems/}{Problems-calories-and-joules}
-
 {\raggedright\textsc{\textbf{From energy to temperature}}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Heat-and-temperature}
 
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
-%%%%NOT FOR 121
-{\raggedright\textsc{\textbf{The first law of themrodynamics}}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Work}
-%%%%NOT FOR 121
-}
-
-
+ \providetoggle{hidechem121}\settoggle{hidechem121}{\chemversionhealthalied}\iftoggle{hidechem121}{}{{\raggedright\textsc{\textbf{The first law of thermodynamics}}\par}\import{../\chapterlabel/problems/problems/}{Problems-Work}}
+ 
 {\raggedright\textsc{\textbf{Calorimetry }}\par}
-%%%%NOT FOR 121
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
-\import{../\chapterlabel/problems/problems/}{Problems-Calorimetry}
-{\raggedright\textsc{\textbf{Reactions and energy }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} 
-\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} 
+
+\providetoggle{hidechem121}\settoggle{hidechem121}{\chemversionhealthalied}\iftoggle{hidechem121}{}{\import{../\chapterlabel/problems/problems/}{Problems-Calorimetry}{\raggedright\textsc{\textbf{Reactions and energy }}\par}\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} \import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} }
 
 
-%%%%NOT FOR 121
-}
 \import{../\chapterlabel/problems/problems/}{Problems-Energy-value}
 
 
 
 
 
-%%%%NOT FOR 121
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
-
-{\raggedright\textsc{\textbf{Reactions and energy }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} 
-\import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} 
-{\raggedright\textsc{\textbf{Enthalpy }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Enthalpy-table} 
-{\raggedright\textsc{\textbf{Hess's Law }}\par} 
-\import{../\chapterlabel/problems/problems/}{Problems-Hess-law} 
-}
-%%%%NOT FOR 121
-
+ \providetoggle{hidechem121}\settoggle{hidechem121}{\chemversionhealthalied}\iftoggle{hidechem121}{}{{\raggedright\textsc{\textbf{Reactions and energy }}\par}\import{../\chapterlabel/problems/problems/}{Problems-Exo-endo} \import{../\chapterlabel/problems/problems/}{Problems-Heat-and-stoichiometry} {\raggedright\textsc{\textbf{Enthalpy }}\par}\import{../\chapterlabel/problems/problems/}{Problems-Enthalpy-table} {\raggedright\textsc{\textbf{Hess's Law }}\par} \import{../\chapterlabel/problems/problems/}{Problems-Hess-law} }
+ 
 
 
 
