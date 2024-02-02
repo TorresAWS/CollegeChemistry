@@ -1509,3 +1509,4 @@ function groupBernoulliEval(doc,qtfield,probno,aKey,aWeights)
 \immediate\pdfobj{ << /S/JavaScript/JS(\dljsexerquizxi) >> }
 \xdef\objexerquizxi{\the\pdflastobj\space0 R}
 \endgroup 
+%%%TAG:CHEM201
