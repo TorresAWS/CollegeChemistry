@@ -1,1 +1,0 @@
-The atmospheric pressure on a hot day is 780 mmHg. Given that the air is made of 78\% of nitrogen and 22\% of oxygen, calculate the partial pressure of each gas in the air.
