@@ -1,1 +1,0 @@
-A 3 moles sample of \ce{C(s)} is burned in a constant-volume calorimeter containing 40g of water. The temperature inside the calorimeter increases from 25.0$^{\circ}$C to 25.89 $^{\circ}$C. The calorimeter constant is 9.90 $\frac{kJ}{^{\circ}C}$.  Calculate the molar heat of the reaction. 

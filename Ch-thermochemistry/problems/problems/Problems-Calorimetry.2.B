@@ -1,1 +1,0 @@
-When a 0.09-g sample of trinitrotoluene (TNT, MW=213g/mol), is burned in a bomb calorimeter, the temperature increases from 23.5 $^{\circ}$C to 27.1$^{\circ}$C. The heat capacity of the calorimeter is 400 $\frac{J}{^{\circ}C}$, and it contains 100 mL of water. Calculate the molar heat of the reaction. Remember that the density of water is 1g/mL.
