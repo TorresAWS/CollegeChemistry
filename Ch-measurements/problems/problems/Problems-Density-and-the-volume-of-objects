@@ -328,9 +328,9 @@ A is nickel, B is iron and C is tungsten.
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 The diagrams below represent a solid immersed in a liquid, with some of the solids floating and others sinking. Match the diagrams with the description:
  \begin{inparaenum}[(a)]
-\item     The density of the solid is 1.1 times the density of the liquid 	% bottom left
+\item     The density of the solid is 1.1 times the density of the liquid 	% bottom right
 \item     The density of the solid is the same the density of the liquid	% top right
-\item     The density of the solid is 0.8 times the density of the liquid	% bottom right
+\item     The density of the solid is 0.8 times the density of the liquid	% bottom left 
 \item     The density of the solid is 0.5 times the density of the liquid	% top left
  \end{inparaenum}
 
@@ -415,10 +415,10 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item       bottom left
-\item       top right
-\item      bottom right
-\item       top left
+\item       bottom right
+\item     top right
+\item      bottom left 
+\item      top left
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
 
@@ -430,9 +430,9 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, with some of the solids floating and others sinking. Match the diagrams with the description:
  \begin{inparaenum}[(a)]
-\item     The density of the solid is 1.2g/mL 	% bottom left
+\item     The density of the solid is 1.2g/mL 	% bottom right
 \item     The density of the solid is 0.9g/mL	% top right
-\item     The density of the solid is 0.7g/mL	% bottom right
+\item     The density of the solid is 0.7g/mL	% bottom left
 \item     The density of the solid is 0.4g/mL	% top left
  \end{inparaenum}
 
@@ -517,9 +517,9 @@ The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, wi
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item       bottom left
-\item      top right
 \item       bottom right
+\item       top right
+\item       bottom left
 \item       top left
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
