@@ -149,7 +149,7 @@ Write down the molecular formula for the chemical below:
 %
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Write down the expanded formula for hexane.
+Write down the expanded formula for the following chemical:
 \begin{center}
 \setpolymerdelim()
 \chemfig{-[:45]-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1] -[:45]}\makebraces(12pt,12pt){$\scriptstyle\!\!3$}{A}{B}
