@@ -19,7 +19,7 @@ Calculate the boiling point increase of a 8m \ce{C6H12O6} aqueous solution. $T^{
 Calculate the boiling point of a 3m \ce{CaCl2} aqueous solution. $T^{solvent}_b$=100$^{\circ}$C and $k_b$=0.512$^{\circ}$C/m.
 \end{question}
 \begin{solution}
-104.07$^{\circ}$C
+104.608$^{\circ}$C
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 %%%%%%PROBLEM
@@ -45,13 +45,13 @@ Calculate the freezing point of a 2m \ce{I2} solution on benzene. $T^{solvent}_f
 Calculate the freezing point depression of a 2m \ce{I2} solution on benzene. $T^{solvent}_f$=5.5$^{\circ}$C and $k_f$=4.9$^{\circ}$C/m.
 \end{question}
 \begin{solution}
--4.3$^{\circ}$C
+-9.8$^{\circ}$C
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapor pressure of the solution resulting of mixing 3moles of cyclohexane and 4 moles of \ce{I2}.
+The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapor pressure in hPa of the solution resulting of mixing 3moles of cyclohexane and 4 moles of \ce{I2}.
 \end{question}
 \begin{solution}
 42.8hPa
@@ -59,10 +59,10 @@ The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapo
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapor pressure lowering of the solution resulting of mixing 3moles of cyclohexane and 4 moles of \ce{I2}.
+The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapor pressure lowering in hPa of the solution resulting of mixing 3moles of cyclohexane and 4 moles of \ce{I2}.
 \end{question}
 \begin{solution}
--42.85hPa
+-57.14hPa
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
@@ -129,11 +129,434 @@ The more concentrated (left side).
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-A semipermeable membrane separate two solutions, 0.2M \ce{NaCl} (on the left) and 0.1M \ce{CaCl2} (on the right). What side of the membrane will receive an osmotic flow of water?
+A semipermeable membrane separate two solutions, 0.1M \ce{NaCl} (on the left) and 0.1M \ce{CaCl2} (on the right). What side of the membrane will receive an osmotic flow of water?
 \end{question}
 \begin{solution}
-none
+The right side
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
+
+
+
+% %%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You want to calculate the molar mass of an unknown chemical by dissolving 1.01 g of the chemical and adding water until reaching 100.mL of solution. The osmotic pressure of this solution at 25$^{\circ}$C was 10. Torr. Calculate the molar mass of the solute.
+\end{question}
+\begin{solution}
+18757 g/mol.
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ 
+ 
+ 
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You want to calculate the molar mass of an unknown chemical by dissolving 11.2 g of the chemical and adding water until reaching 100.mL of solution. The osmotic pressure of this solution at 25$^{\circ}$C was 15.1 Torr. Calculate the molar mass of the solute.
+\end{question}
+\begin{solution}
+136517 g/mol.
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ 
+ 
+ 
+ 
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the concentration of a NaCl solution isotonic with blood at 25$^{\circ}$C  ($\Pi$=1.70 atm).
+\end{question}
+\begin{solution}
+0.034M
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+  
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the concentration of a glucose (\ce{C_6H_{12}O_6}) solution isotonic with blood at 25$^{\circ}$C  ($\Pi$=1.70 atm).
+\end{question}
+\begin{solution}
+0.07M
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+  
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You have two solutions with different concentration separated by a semipermeable membrane, a more concentrated (0.01M) and a less concentrated (0.001M). We apply a series of external pressure to the most concentrated solution at 25$^{\circ}$C. Indicate for each pressure, if this will stop the osmotic flow of water, assuming the van't Hoff factor to be one:
+\begin{inparaenum}[(a)]
+\item   0.24 atm	% it will produce reverse osmosis
+\item   0.02 atm	% no 
+\item   0.22 atm % yes, it will stop the flow
+\item   0.29 atm %  it will produce reverse osmosis
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item     it will produce reverse osmosis
+\item     no 
+\item     yes, it will stop the flow
+\item      it will produce reverse osmosis
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+  
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You have a solution (0.01M) in contact with the pure solvent separated by a semipermeable membrane. We apply a series of external pressure to the solution at 25$^{\circ}$C. Indicate for each pressure, if this will stop the osmotic flow of water, assuming the van't Hoff factor to be one:
+\begin{inparaenum}[(a)]
+\item   0.24 atm	% yes, it will stop the flow
+\item   0.02 atm	% no 
+\item   0.22 atm % no
+\item   0.29 atm %  it will produce reverse osmosis
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item     yes, it will stop the flow
+\item     no 
+\item    no
+\item      it will produce reverse osmosis
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How would you prepare 100mL of a \ce{KCl} (MW=74.5 g/mol) solution with osmotic pressure of 10 torr at 25$^{\circ}$C.
+\end{question}
+\begin{solution}
+You would need 4mg of solute.
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How would you prepare 100mL of a sucrose \ce{C_{12}H_{22}O_{11}} (MW=342.29g/mol) solution with osmotic pressure of 7 torr at 20$^{\circ}$C.
+\end{question}
+\begin{solution}
+You would need 13mg of solute.
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of osmotic pressure with concentration for a given solute at a fixed temperature. Use the data below to experimentally compute van't Hoff's factor $i$ for an unknown solute at 25$^{\circ}$C given that R is 62.32 torr/(mol$\cdot$ K). Assume $i$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  M	&$\Pi$ (torr) \\
+\midrule
+ 0.010	&223 	 \\
+ 0.011	& 245	 \\
+ 0.012	&267 	 \\
+ 0.013	&290  \\
+  0.014	&312 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+the slope is $22300$; $r^2$=0.99;  $i$=1.2
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of osmotic pressure with concentration for a given solute at a fixed temperature. Use the data below to experimentally compute van't Hoff's factor $i$ for an unknown solute at 25$^{\circ}$C given that R is 62.32 torr/(mol$\cdot$ K). Assume $i$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  M	&$\Pi$ (torr) \\
+\midrule
+ 0.010	&464 	 \\
+ 0.011	& 511	 \\
+ 0.012	&557 	 \\
+ 0.013	&603  \\
+  0.014	&650 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+the slope is $46400$; $r^2$=0.99;  $i$=2.5
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of the boiling point of a solution with concentration at a fixed temperature. Use the data below to experimentally compute $i\cdot k_b$ for the solution and the boiling point of the pure solvent. Assume $i\cdot k_b$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  m	&$T_b$ ($^{\circ}$C) \\
+\midrule
+ 0.010	&34.02020 	 \\
+ 0.011	& 34.02222	 \\
+ 0.012	&34.02424 	 \\
+ 0.013	&34.02626  \\
+  0.014	&34.02828 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+$i\cdot k_b=2.02$; $T_b^{solvent}$=34$^{\circ}$C; $r^2$=1.00 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of the boiling point of a solution with concentration at a fixed temperature. Use the data below to experimentally compute $i\cdot k_b$ for the solution and the boiling point of the pure solvent. Assume $i\cdot k_b$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  m	&$T_b$ ($^{\circ}$C) \\
+\midrule
+ 0.010	&208.059 	 \\
+ 0.011	& 208.065 	 \\
+ 0.012	&208.071 	 \\
+ 0.013	&208.076   \\
+  0.014	&208.083  	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+$i\cdot k_b=5.9$; $T_b^{solvent}$=208$^{\circ}$C; $r^2$=0.99 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of the freezing point of a solution with concentration at a fixed temperature. Use the data below to experimentally compute $i\cdot k_f$ for the solution and the freezing point of the pure solvent. Assume $i\cdot k_b$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  m	&$T_f$ ($^{\circ}$C) \\
+\midrule
+ 0.010	&5.448 	 \\
+ 0.011	& 5.444 	 \\
+ 0.012	&5.438 	 \\
+ 0.013	&5.433   \\
+  0.014	&5.428 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+$i\cdot k_f=5.1$; $T_f^{solvent}$=5.5$^{\circ}$C; $r^2$=0.99
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+We measured the change of the freezing point of a solution with concentration at a fixed temperature. Use the data below to experimentally compute $i\cdot k_f$ for the solution and the freezing point of the pure solvent. Assume $i\cdot k_b$ does not change for the molarity range given.
+\begin{center}\begin{tabular}[t]{  c c    }
+\toprule
+  m	&$T_f$ ($^{\circ}$C) \\
+\midrule
+ 0.010	&-23.30 	 \\
+ 0.011	& -23.33	 \\
+ 0.012	&-23.36 	 \\
+ 0.013	&-23.39   \\
+  0.014	&-23.41 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\end{question}
+\begin{solution}
+$i\cdot k_f=28$; $T_f^{solvent}$=-23$^{\circ}$C; $r^2$=0.99
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+ %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following solutions:
+\begin{inparaenum}[(i)]
+\item     0.1m \ce{KCl}  in water
+\item     0.2m \ce{NaCl}  in water
+\item     0.3m \ce{KOH}  in water
+\end{inparaenum}
+select the one with:
+\begin{inparaenum}[(a)]
+\item     lowest freezing point   % 0.1m \ce{KCl}  in water
+\item     highest freezing point  %0.3m \ce{KOH}  in water
+\item     highest boiling point     %0.1m \ce{KCl}  in water
+\item     lowest boiling point      %0.3m \ce{KOH}  in water
+\item     lowest vapor pressure  %0.1m \ce{KCl}  in water
+ \item    highest vapor pressure  %0.3m \ce{KOH}  in water
+ \item    highest osmotic pressure %0.1m \ce{KCl}  in water
+ \item    lowest osmotic pressure %0.3m \ce{KOH}  in water
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item       0.1m \ce{KCl}  in water
+\item     0.3m \ce{KOH}  in water
+\item     0.1m \ce{KCl}  in water
+\item      0.3m \ce{KOH}  in water
+\item      0.1m \ce{KCl}  in water
+ \item     0.3m \ce{KOH}  in water
+ \item     0.1m \ce{KCl}  in water
+ \item     0.3m \ce{KOH}  in water
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+ 
+ 
+ 
+ 
+  %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following solutions:
+\begin{inparaenum}[(i)]
+\item     0.1m \ce{C_6H_{12}O_6}  in water
+\item     0.1m \ce{KCl}  in water
+\item     0.1m \ce{K_2SO_4}  in water
+\end{inparaenum}
+select the one with:
+\begin{inparaenum}[(a)]
+\item     lowest freezing point   % \ce{K_2SO_4}  in water  
+\item     highest freezing point  % 0.1m \ce{C_6H_{12}O_6}  in water 
+\item     highest boiling point     % \ce{K_2SO_4}  in water 
+\item     lowest boiling point      %  0.1m \ce{C_6H_{12}O_6}  in water
+\item     lowest vapor pressure  % \ce{K_2SO_4}  in water 
+ \item    highest vapor pressure  %  0.1m \ce{C_6H_{12}O_6}  in water
+ \item    highest osmotic pressure % \ce{K_2SO_4}  in water 
+ \item    lowest osmotic pressure % 0.1m \ce{C_6H_{12}O_6}  in water 
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item      \ce{K_2SO_4}  in water  
+\item      0.1m \ce{C_6H_{12}O_6}  in water 
+\item       \ce{K_2SO_4}  in water 
+\item        0.1m \ce{C_6H_{12}O_6}  in water
+\item      \ce{K_2SO_4}  in water 
+ \item       0.1m \ce{C_6H_{12}O_6}  in water
+ \item      \ce{K_2SO_4}  in water 
+ \item      0.1m \ce{C_6H_{12}O_6}  in water 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+ 
+ 
+ 
+  %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following solutions:
+\begin{inparaenum}[(i)]
+\item     0.1m \ce{KCl}  in water
+\item     0.1m \ce{CaF2}  in water
+\item     0.1m \ce{Ca_3(PO_4)_4}  in water
+\end{inparaenum}
+select the one with:
+\begin{inparaenum}[(a)]
+\item     lowest freezing point   %0.1m \ce{Ca_3(PO_4)_4}  in water  
+\item     highest freezing point  % 0.1m \ce{KCl}  in water
+\item     highest boiling point     % 0.1m \ce{Ca_3(PO_4)_4}  in water
+\item     lowest boiling point      %    0.1m \ce{KCl}  in water
+\item     lowest vapor pressure  %0.1m \ce{Ca_3(PO_4)_4}  in water
+ \item    highest vapor pressure  %   0.1m \ce{KCl}  in water
+ \item    highest osmotic pressure % 0.1m \ce{Ca_3(PO_4)_4}  in water 
+ \item    lowest osmotic pressure %  0.1m \ce{KCl}  in water
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item      0.1m \ce{Ca_3(PO_4)_4}  in water  
+\item       0.1m \ce{KCl}  in water
+\item       0.1m \ce{Ca_3(PO_4)_4}  in water
+\item          0.1m \ce{KCl}  in water
+\item      0.1m \ce{Ca_3(PO_4)_4}  in water
+ \item       0.1m \ce{KCl}  in water
+ \item      0.1m \ce{Ca_3(PO_4)_4}  in water 
+ \item       0.1m \ce{KCl}  in water
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ 
+ 
+ 
+  
+  %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following solutions:
+\begin{inparaenum}[(i)]
+\item     0.2m \ce{LiF}  in water  %0.4
+\item     0.1m \ce{HF}  in water %0.1
+\item     0.3m \ce{Na_2SO_4}  in water %1
+\end{inparaenum}
+select the one with:
+\begin{inparaenum}[(a)]
+\item     lowest freezing point   %0.3m \ce{Na_2SO_4}  in water  
+\item     highest freezing point  % 0.1m \ce{HF}  in water 
+\item     highest boiling point     %0.3m \ce{Na_2SO_4}  in water  
+\item     lowest boiling point      % 0.1m \ce{HF}  in water    
+\item     lowest vapor pressure  %0.3m \ce{Na_2SO_4}  in water 
+ \item    highest vapor pressure  % 0.1m \ce{HF}  in water   
+ \item    highest osmotic pressure %0.3m \ce{Na_2SO_4}  in water   
+ \item    lowest osmotic pressure %  0.1m \ce{HF}  in water 
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item      0.3m \ce{Na_2SO_4}  in water  
+\item       0.1m \ce{HF}  in water 
+\item      0.3m \ce{Na_2SO_4}  in water  
+\item       0.1m \ce{HF}  in water    
+\item      0.3m \ce{Na_2SO_4}  in water 
+ \item      0.1m \ce{HF}  in water   
+ \item     0.3m \ce{Na_2SO_4}  in water   
+ \item       0.1m \ce{HF}  in water 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+ 
+ 
+   %%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following solutions:
+\begin{inparaenum}[(i)]
+\item     0.2m \ce{CH_3OH}  in water  %0.2
+\item     0.2m \ce{NaF}  in water %0.4
+\item     0.1m \ce{Ca(NO_3)_2}  in water %0.3
+\end{inparaenum}
+select the one with:
+\begin{inparaenum}[(a)]
+\item     lowest freezing point   % 0.1m \ce{Ca(NO_3)_2}  in water 
+\item     highest freezing point  %  0.2m \ce{CH_3OH}  in water
+\item     highest boiling point     %  0.1m \ce{Ca(NO_3)_2}  in water
+\item     lowest boiling point      % 0.2m \ce{CH_3OH}  in water   
+\item     lowest vapor pressure  %  0.1m \ce{Ca(NO_3)_2}  in water 
+ \item    highest vapor pressure  % 0.2m \ce{CH_3OH}  in water    
+ \item    highest osmotic pressure %   0.1m \ce{Ca(NO_3)_2}  in water 
+ \item    lowest osmotic pressure %  0.2m \ce{CH_3OH}  in water  
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item       0.1m \ce{Ca(NO_3)_2}  in water 
+\item        0.2m \ce{CH_3OH}  in water
+\item        0.1m \ce{Ca(NO_3)_2}  in water
+\item       0.2m \ce{CH_3OH}  in water   
+\item        0.1m \ce{Ca(NO_3)_2}  in water 
+ \item      0.2m \ce{CH_3OH}  in water    
+ \item        0.1m \ce{Ca(NO_3)_2}  in water 
+ \item       0.2m \ce{CH_3OH}  in water 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ 
+
+\end{cornerbox}}{}
+%%%%%%%UNEDITED
 

@@ -42,3 +42,108 @@ For the following colloids, indicate the nature of the dispersed and dispersing 
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+
+
+
+% %%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify as: \\
+\begin{inparaenum}[(i)]
+\item Foam colloid
+\item Solid foam colloid
+\item Aerosol colloid
+\item Emulsion colloid
+\item Gel colloid
+\item Sol colloid
+\item Solid-sol colloid
+\item A solution
+ \end{inparaenum}
+\\ the following series of mixtures:\\
+\begin{inparaenum}[(a)]	
+\item  	Soda %solution
+\item  	Soap Lather %Foam
+\item  	Whipped cream  %Foam
+\item  	Pumice stone 	%Solid foam
+\item  	Rubber	%Solid foam
+\item  	Cloud 		%Aerosol
+\item  	 Mist 		%Aerosol
+\item  	  Fog		%Aerosol
+\item  Milk 	%Emulsion	
+\item   Cream 	%Emulsion	
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item  	 solution
+\item  	 Foam
+\item  	 Foam
+\item  	 Solid foam
+\item  	 Solid foam
+\item  	 Aerosol
+\item  	  Aerosol
+\item  	   Aerosol
+\item   Emulsion	
+\item    Emulsion	
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify as: \\
+\begin{inparaenum}[(i)]
+\item Foam colloid
+\item Solid foam colloid
+\item Aerosol colloid
+\item Emulsion colloid
+\item Gel colloid
+\item Sol colloid
+\item Solid-sol colloid
+\item A solution
+ \end{inparaenum}
+\\ the following series of mixtures:\\
+\begin{inparaenum}[(a)]	
+\item   Mayonnaise	%Emulsion	
+\item 		Jelly 	%Gel
+\item 		 Butter 	%Gel
+\item 		 Curd 	%Gel
+\item 		 Cheese	%Gel
+\item 		Smoke 	%Aerosol
+\item 		 Haze	%Aerosol
+ \item		Gold sol 	%Sol
+ \item		 Sulphur sol	%Sol
+\item 		Colored glasses   	%Solid-sol
+\item 		 Gems   	%Solid-sol
+\item 		 Ruby glass  	%Solid-sol
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item    Emulsion	
+\item 		 Gel
+\item 		  Gel
+\item 		  Gel
+\item 		  Gel
+\item 		 Aerosol
+\item 		   Aerosol
+ \item		 Sol
+ \item		  Sol
+\item 		 Solid-sol
+\item 		  Solid-sol
+\item 		  Solid-sol
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+\end{cornerbox}}{}
+%%%%%%%UNEDITED
+  	
+
+ 	
