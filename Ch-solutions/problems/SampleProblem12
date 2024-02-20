@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the osmotic pressure in torr of a 0.0125M \ce{KCl} solution at 25$^{\circ}$C.
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the osmotic pressure of a solution is the pressure needed to stop the osmotic flow of water when the solution is placed in contact with pure solvent by means of semipermeable membrane. It deppends on the number of ions in solution--\ce{KCl} produces two ions and therefore $i$=2, molarity, and on temperature. Employing the value of the R constant in torr (62.363577 torr$\cdot$L/(mol$\cdot$ K)) we have:
+\[ 
+\Pi=i\cdot   M \cdot R\cdot T=2\cdot 0.0125 \cdot 62.363577\cdot 298=465 torr
+\]
+This results indicates that we would have to apply a 465 torr pressure to the solution in order to stop the osmotic flow of water.
+\\
+\import{./}{StudyCheck12}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

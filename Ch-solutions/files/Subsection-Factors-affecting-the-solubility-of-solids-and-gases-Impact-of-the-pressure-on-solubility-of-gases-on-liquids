@@ -1,4 +1,4 @@
-Pressure does not impact the solubility of solids or liquids in a liquid solvent. However, gas pressure impacts the solubility of a gas solute on a liquid. In particular, the higher pressure the higher solubility. The law that related gas solubility with pressure is called Henry's law:
+Pressure does not impact the solubility of solids or liquids in a liquid solvent. However, gas pressure impacts the solubility of a gas solute on a liquid at fixed temperature. In particular, the higher pressure the higher solubility. The law that related gas solubility with pressure is called Henry's law:
 \begin{equation}
 \boxed{ s=k\cdot P 	}
 \label{\chapterlabel:equation14}
@@ -9,5 +9,6 @@ where:
  \item $k$  is Henry's law constant with units of M/atm
   \item $P $ is the gas pressure in atm
 \end{where}
+Henry's law constant is characteristic of a solution at fixed temperature. This law is obeyed for very diluted solutions of gases that do not dissociate or react with water (e.g. \ce{O_2} in water). For example, \ce{HCl_{g}} does not follow this law as it can dissociate in water.
 An every-day life application of Henry's law is the production of carbonated beverages. These beverages are produced in contact with a liquid with an atmosphere of \ce{CO2} of typical pressures of 5 atm. When you open a can container, the \ce{CO2} in the drink comes out of the liquid in the form of bubbles to equilibrate the high gas pressure on the liquid and the low gas pressure in the atmosphere.
 

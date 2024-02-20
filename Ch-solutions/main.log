@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 FEB 2024 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 FEB 2024 14:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5764,7 +5764,11 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux
+
+LaTeX Warning: Label `Ch-solutions:equation16' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5634.
@@ -5786,7 +5790,7 @@ LaTeX Font Info:    ... okay on input line 5634.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5634.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5634
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5634.
@@ -5801,11 +5805,12 @@ Package hyperref Info: Link coloring ON on input line 5634.
 LaTeX Info: Redefining \ref on input line 5634.
 LaTeX Info: Redefining \pageref on input line 5634.
 LaTeX Info: Redefining \nameref on input line 5634.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5634.
 
 *geometry* driver: auto-detecting
@@ -6072,7 +6077,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-solutions/figure1.png, id=121, 1419.3025pt x 1419.3025pt>
+<../Ch-solutions/figure1.png, id=157, 1419.3025pt x 1419.3025pt>
 File: ../Ch-solutions/figure1.png Graphic file (type png)
 <use ../Ch-solutions/figure1.png>
 Package pdftex.def Info: ../Ch-solutions/figure1.png  used on input line 1.
@@ -6104,14 +6109,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 21.
-
 ) [1
 
 
@@ -6120,7 +6117,7 @@ olutions/figure1.png>]
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Solutions)
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Suspensions)
 (../Ch-solutions/files/Figure-Colloids-diagram
-<../Ch-solutions/seawater.jpg, id=137, 276.03125pt x 183.68625pt>
+<../Ch-solutions/seawater.jpg, id=172, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/seawater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/seawater.jpg>
 Package pdftex.def Info: ../Ch-solutions/seawater.jpg  used on input line 35.
@@ -6130,22 +6127,17 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-solutions/muddywater.jpg, id=138, 513.92pt x 289.08pt>
+<../Ch-solutions/muddywater.jpg, id=173, 513.92pt x 289.08pt>
 File: ../Ch-solutions/muddywater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/muddywater.jpg>
 Package pdftex.def Info: ../Ch-solutions/muddywater.jpg  used on input line 35.
 
 (pdftex.def)             Requested size: 85.35774pt x 48.01373pt.
-<../Ch-solutions/milk.jpg, id=139, 79.9788pt x 79.9788pt>
+<../Ch-solutions/milk.jpg, id=174, 79.9788pt x 79.9788pt>
 File: ../Ch-solutions/milk.jpg Graphic file (type jpg)
 <use ../Ch-solutions/milk.jpg>
 Package pdftex.def Info: ../Ch-solutions/milk.jpg  used on input line 35.
 (pdftex.def)             Requested size: 82.51454pt x 82.51454pt.
-
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}1' on page 2 undefined on input lin
-e 37.
-
 
 Overfull \hbox (103.12053pt too wide) in paragraph at lines 6--39
  [] 
@@ -6157,12 +6149,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 6--39
  []
 
 ) (../Ch-solutions/files/SideFigure-Colloids
-<../Ch-solutions/tyndall1.png, id=140, 287.0725pt x 166.6225pt>
+<../Ch-solutions/tyndall1.png, id=176, 287.0725pt x 166.6225pt>
 File: ../Ch-solutions/tyndall1.png Graphic file (type png)
 <use ../Ch-solutions/tyndall1.png>
 Package pdftex.def Info: ../Ch-solutions/tyndall1.png  used on input line 2.
 (pdftex.def)             Requested size: 113.81071pt x 66.05797pt.
-<../Ch-solutions/tyndall3.jpeg, id=142, 276.03125pt x 183.68625pt>
+<../Ch-solutions/tyndall3.jpeg, id=178, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/tyndall3.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/tyndall3.jpeg>
 Package pdftex.def Info: ../Ch-solutions/tyndall3.jpeg  used on input line 8.
@@ -6191,21 +6183,13 @@ ions/milk.jpg> <../Ch-solutions/tyndall1.png> <../Ch-solutions/tyndall3.jpeg>])
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 3 undefined on input lin
-e 7.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 3 undefined on input lin
-e 22.
-
 ) (../Ch-solutions/files/SectionIntro-Units-of-concentration)
 (../Ch-solutions/files/Subsection-Units-of-concentration-The-concept-of-solutio
 n)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7.6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 66.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 66.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 60.
  (../Ch-solutions/files/Subsection-Units-of-concentration-Molarity
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6217,7 +6201,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 (../Ch-solutions/files/Subsection-Units-of-concentration-Percent-by-mass)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Molality)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Density)
-(../Ch-solutions/problems/SampleProblem1
+(../Ch-solutions/files/Subsection-Units-of-concentration-Normality
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]) (../Ch-solutions/problems/SampleProblem1
 Overfull \hbox (21.41713pt too wide) detected at line 14
 \OT1/lmr/m/n/10 %[] \OT1/zplm/m/n/10 = [] \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 
 100 \OT1/zplm/m/n/10 = [] \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 100 \OT1/zplm/m/
@@ -6256,31 +6247,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4])
+[5]) (../Ch-solutions/files/Figure-diagram-molarity-molalilty-new)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Why-relating-units-of-
-concentration
+concentration)
+(../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-m
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]) (../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-m)
-
+[6])
 (../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-percent
 
 Overfull \hbox (19.95508pt too wide) in paragraph at lines 1--2
 []
- []
-
-) (../Ch-solutions/files/Figure-diagram-molarity-molalilty
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}2' on page 6 undefined on input lin
-e 17.
-
-
-Overfull \hbox (50.75781pt too wide) in paragraph at lines 3--17
-[][] 
  []
 
 )
@@ -6290,26 +6271,12 @@ Overfull \hbox (20.21199pt too wide) in paragraph at lines 1--2
 []
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]) (../Ch-solutions/problems/SampleProblem2
+) (../Ch-solutions/problems/SampleProblem2
 Overfull \hbox (3.73972pt too wide) detected at line 14
 \OML/lmm/m/it/10 ^^_ \OT1/zplm/m/n/10 = [] = [] = \OT1/lmr/m/n/10 0.03
  []
 
-(../Ch-solutions/problems/StudyCheck2))
-(../Ch-solutions/files/Subsection-Units-of-concentration-Compute-molecular-mass
-es-from-m-and-M
-Underfull \hbox (badness 3838) in paragraph at lines 1--2
-[]\T1/ptm/m/n/10 (+20) In nu-mer-
- []
-
-) (../Ch-solutions/problems/SampleProblem3
-(../Ch-solutions/problems/StudyCheck3)
+(../Ch-solutions/problems/StudyCheck2)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6317,130 +6284,92 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7])
+(../Ch-solutions/files/Subsection-Units-of-concentration-Compute-molecular-mass
+es-from-m-and-M
+Underfull \hbox (badness 3838) in paragraph at lines 1--2
+[]\T1/ptm/m/n/10 (+20) In nu-mer-
+ []
+
+) (../Ch-solutions/problems/SampleProblem3
+(../Ch-solutions/problems/StudyCheck3))
 (../Ch-solutions/files/SectionIntro-Solutions-of-electrolytes-and-effective-sol
 ute-particles)
-(../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Strong-and-non-electrolytes)
-(../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Non-electrolytes
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[8]
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Breaking-down-electrolytes-into-ions)
-(../Ch-solutions/problems/SampleProblem4
+e-particles-Strong-and-non-electrolytes)
+(../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
+e-particles-Non-electrolytes)
+(../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
+e-particles-Breaking-down-electrolytes-into-ions
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (../Ch-solutions/problems/SampleProblem4
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-(../Ch-solutions/problems/StudyCheck4)
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9]) (../Ch-solutions/files/Table-VantHoff-factors
+(../Ch-solutions/problems/StudyCheck4))
+(../Ch-solutions/files/Table-VantHoff-factors
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 10 undefined on input li
-ne 8.
+Underfull \vbox (badness 3240) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 10 undefined on input li
-ne 20.
 
-)
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Vant-Hoff-factor-i
+e-particles-Vant-Hoff-factor-i) (../Ch-solutions/problems/SampleProblem5
+(../Ch-solutions/problems/StudyCheck5)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]) (../Ch-solutions/problems/SampleProblem5
-(../Ch-solutions/problems/StudyCheck5))
-(../Ch-solutions/files/SectionIntro-Colligative-properties)
-(../Ch-solutions/files/Figure-Colligative-properties-phase-diagram
-Package pgfplots info on input line 14: Using 'lua backend=false' for axis: ymo
-de=log unsupported (yet).
-Package pgfplots info on input line 23: fill between: found 'clip=true'. Prepar
-ing pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 35: fill between: activating layered graphi
-cs
-\pgf@layerbox@axis background=\box298
-\pgf@layerboxsaved@axis background=\box299
-\pgf@layerbox@axis grid=\box300
-\pgf@layerboxsaved@axis grid=\box301
-\pgf@layerbox@axis ticks=\box302
-\pgf@layerboxsaved@axis ticks=\box303
-\pgf@layerbox@axis lines=\box304
-\pgf@layerboxsaved@axis lines=\box305
-\pgf@layerbox@axis tick labels=\box306
-\pgf@layerboxsaved@axis tick labels=\box307
-\pgf@layerbox@pre main=\box308
-\pgf@layerboxsaved@pre main=\box309
-\pgf@layerbox@axis descriptions=\box310
-\pgf@layerboxsaved@axis descriptions=\box311
-\pgf@layerbox@axis foreground=\box312
-\pgf@layerboxsaved@axis foreground=\box313
-Package pgfplots info on input line 35: Setting layers 'axis background,axis gr
-id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
-foreground'...
-Package pgfplots info on input line 35: the combination of 'axis on top' and 'a
-ctivate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if y
-ou want other layers.
-Package pgfplots info on input line 35: Setting layers 'axis background,pre mai
-n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
-foreground'...
-
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}3' on page 11 undefined on input li
-ne 36.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11]) (../Ch-solutions/files/SideFigure-Colligative-properties
-<../Ch-solutions/Saltingstreets.jpg, id=252, 1027.84pt x 685.56125pt>
+[11]) (../Ch-solutions/files/SectionIntro-Colligative-properties)
+(../Ch-solutions/files/SideFigure-Colligative-properties
+<../Ch-solutions/Saltingstreets.jpg, id=288, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/Saltingstreets.jpg Graphic file (type jpg)
 <use ../Ch-solutions/Saltingstreets.jpg>
 Package pdftex.def Info: ../Ch-solutions/Saltingstreets.jpg  used on input line
  2.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/ethyleneglycol.jpg, id=253, 1027.84pt x 685.56125pt>
+<../Ch-solutions/ethyleneglycol.jpg, id=289, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/ethyleneglycol.jpg Graphic file (type jpg)
 <use ../Ch-solutions/ethyleneglycol.jpg>
 Package pdftex.def Info: ../Ch-solutions/ethyleneglycol.jpg  used on input line
  5.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/perfumesalts.png, id=254, 673.51625pt x 673.51625pt>
+<../Ch-solutions/perfumesalts.png, id=290, 673.51625pt x 673.51625pt>
 File: ../Ch-solutions/perfumesalts.png Graphic file (type png)
 <use ../Ch-solutions/perfumesalts.png>
 Package pdftex.def Info: ../Ch-solutions/perfumesalts.png  used on input line 8
 .
 (pdftex.def)             Requested size: 113.80768pt x 113.80768pt.
-<../Ch-solutions/saltfish.jpeg, id=255, 225.84375pt x 225.84375pt>
+<../Ch-solutions/saltfish.jpeg, id=291, 225.84375pt x 225.84375pt>
 File: ../Ch-solutions/saltfish.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/saltfish.jpeg>
 Package pdftex.def Info: ../Ch-solutions/saltfish.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 113.81412pt x 113.81412pt.
-<../Ch-solutions/pastasalt.jpeg, id=256, 259.97125pt x 194.7275pt>
+<../Ch-solutions/pastasalt.jpeg, id=292, 259.97125pt x 194.7275pt>
 File: ../Ch-solutions/pastasalt.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/pastasalt.jpeg>
 Package pdftex.def Info: ../Ch-solutions/pastasalt.jpeg  used on input line 14.
@@ -6474,11 +6403,41 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 
 LaTeX Warning: Marginpar on page 12 moved.
 
+) (../Ch-solutions/files/Figure-Colligative-properties-phase-diagram
+Package pgfplots info on input line 14: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+Package pgfplots info on input line 23: fill between: found 'clip=true'. Prepar
+ing pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 35: fill between: activating layered graphi
+cs
+\pgf@layerbox@axis background=\box298
+\pgf@layerboxsaved@axis background=\box299
+\pgf@layerbox@axis grid=\box300
+\pgf@layerboxsaved@axis grid=\box301
+\pgf@layerbox@axis ticks=\box302
+\pgf@layerboxsaved@axis ticks=\box303
+\pgf@layerbox@axis lines=\box304
+\pgf@layerboxsaved@axis lines=\box305
+\pgf@layerbox@axis tick labels=\box306
+\pgf@layerboxsaved@axis tick labels=\box307
+\pgf@layerbox@pre main=\box308
+\pgf@layerboxsaved@pre main=\box309
+\pgf@layerbox@axis descriptions=\box310
+\pgf@layerboxsaved@axis descriptions=\box311
+\pgf@layerbox@axis foreground=\box312
+\pgf@layerboxsaved@axis foreground=\box313
+Package pgfplots info on input line 35: Setting layers 'axis background,axis gr
+id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
+foreground'...
+Package pgfplots info on input line 35: the combination of 'axis on top' and 'a
+ctivate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if y
+ou want other layers.
+Package pgfplots info on input line 35: Setting layers 'axis background,pre mai
+n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
+foreground'...
 )
 (../Ch-solutions/files/Subsection-Colligative-properties-Boiling-point-elevatio
-n)
-(../Ch-solutions/files/Subsection-Colligative-properties-Freezing-point-depress
-ion
+n
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6487,25 +6446,25 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [12 <../Ch-solutions/Saltingstreets.jpg> <../Ch-solutions/ethyleneglycol.jpg> <
 ../Ch-solutions/perfumesalts.png> <../Ch-solutions/saltfish.jpeg> <../Ch-soluti
-ons/pastasalt.jpeg>]) (../Ch-solutions/files/Table-Colligative
+ons/pastasalt.jpeg>])
+(../Ch-solutions/files/Subsection-Colligative-properties-Freezing-point-depress
+ion) (../Ch-solutions/files/Table-Colligative
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 13 undefined on input li
-ne 7.
-
-
-Overfull \hbox (12.06372pt too wide) in paragraph at lines 4--22
+Overfull \hbox (14.31372pt too wide) in paragraph at lines 4--22
  [] 
  []
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 13 undefined on input li
-ne 23.
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-) (../Ch-solutions/problems/SampleProblem6
+[13]) (../Ch-solutions/problems/SampleProblem6
 (../Ch-solutions/problems/StudyCheck6)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6513,66 +6472,93 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13])
+[14])
 (../Ch-solutions/files/Subsection-Colligative-properties-Vapor-pressure-lowerin
-g
-
-LaTeX Warning: Reference `Ch-solutions:equation12' on page 14 undefined on inpu
-t line 15.
-
+g) (../Ch-solutions/problems/SampleProblem7
+(../Ch-solutions/problems/StudyCheck7)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]) (../Ch-solutions/problems/SampleProblem7
-(../Ch-solutions/problems/StudyCheck7))
-(../Ch-solutions/files/Figure-Vapor-pressure-liquids
+[15]) (../Ch-solutions/files/Figure-Osmosis)
+(../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure)
+(../Ch-solutions/problems/SampleProblem12
+(../Ch-solutions/problems/StudyCheck12)
 
-LaTeX Warning: Reference `Fig:{Ch-solutions}4' on page 15 undefined on input li
-ne 28.
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16])
+(../Ch-solutions/files/Subsection-Colligative-properties-Colligative-properties
+-review)
+(../Ch-solutions/files/Subsection-Colligative-properties-Graphical-method-to-ca
+lculate-colligative-constants
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]) (../Ch-solutions/problems/SampleProblem8
+(../Ch-solutions/problems/StudyCheck8
+Overfull \hbox (17.31357pt too wide) in paragraph at lines 16--3
+[]
+ []
 
 )
-(../Ch-solutions/files/Subsection-Colligative-properties-Ideal-and-real-mixture
-s
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-
-LaTeX Warning: Reference `Ch-solutions:equation20' on page 16 undefined on inpu
-t line 12.
-
-) (../Ch-solutions/files/Figure-Osmosis
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}5' on page 16 undefined on input li
-ne 42.
-
-) (../Ch-solutions/files/Subsection-Colligative-properties-Osmosis
+[18])
+(../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
+perties-to-calclate-alpha
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]) (../Ch-solutions/files/Subsection-Colligative-properties-Dialisis)
-(../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure)
-(../Ch-solutions/files/SideFigure-dialisis
-<../Ch-solutions/redcell1.jpeg, id=306, 301.125pt x 168.63pt>
+[19]) (../Ch-solutions/problems/SampleProblem9
+(../Ch-solutions/problems/StudyCheck9))
+(../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
+perties-to-calculate-MW) (../Ch-solutions/problems/SampleProblem10
+(../Ch-solutions/problems/StudyCheck10)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]) (../Ch-solutions/files/Subsection-Colligative-properties-Osmosis)
+(../Ch-solutions/files/Subsection-Colligative-properties-Dialisis
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]) (../Ch-solutions/files/SideFigure-dialisis
+<../Ch-solutions/redcell1.jpeg, id=381, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell1.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell1.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 113.81297pt x 63.73526pt.
-<../Ch-solutions/redcell2.jpeg, id=307, 300.12125pt x 168.63pt>
+<../Ch-solutions/redcell2.jpeg, id=382, 300.12125pt x 168.63pt>
 File: ../Ch-solutions/redcell2.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell2.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell2.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 113.80913pt x 63.94626pt.
-<../Ch-solutions/dialysis.jpeg, id=308, 276.03125pt x 183.68625pt>
+<../Ch-solutions/dialysis.jpeg, id=383, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/dialysis.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/dialysis.jpeg>
 Package pdftex.def Info: ../Ch-solutions/dialysis.jpeg  used on input line 8.
@@ -6593,71 +6579,21 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-
-LaTeX Warning: Marginpar on page 18 moved.
+LaTeX Warning: Marginpar on page 22 moved.
 
 ) (../Ch-solutions/files/Subsection-Colligative-properties-Osmolarity)
 (../Ch-solutions/files/Subsection-Colligative-properties-Isotonic-hypotonic-and
 -hypertonic-solutions)
-(../Ch-solutions/files/Subsection-Colligative-properties-Colligative-properties
--review)
-(../Ch-solutions/files/Subsection-Colligative-properties-Graphical-method-to-ca
-lculate-colligative-constants
+(../Ch-solutions/files/Subsection-Colligative-properties-Ideal-and-real-mixture
+s
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <../Ch-solutions/redcell1.jpeg> <../Ch-solutions/redcell2.jpeg> <../Ch-solu
-tions/dialysis.jpeg>]) (../Ch-solutions/problems/SampleProblem8
-(../Ch-solutions/problems/StudyCheck8
-Overfull \hbox (17.31357pt too wide) in paragraph at lines 16--3
-[]
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19])
-(../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
-perties-to-calclate-alpha
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]) (../Ch-solutions/problems/SampleProblem9
-(../Ch-solutions/problems/StudyCheck9))
-(../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
-perties-to-calculate-MW
-
-LaTeX Warning: Reference `Ch-solutions:equation17' on page 21 undefined on inpu
-t line 1.
-
-) (../Ch-solutions/problems/SampleProblem10
-(../Ch-solutions/problems/StudyCheck10)
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21])
+[22 <../Ch-solutions/redcell1.jpeg> <../Ch-solutions/redcell2.jpeg> <../Ch-solu
+tions/dialysis.jpeg>]) (../Ch-solutions/files/Figure-Vapor-pressure-liquids)
 (../Ch-solutions/files/SectionIntro-Factors-affecting-the-solubility-of-solids-
 and-gases)
 (../Ch-solutions/files/Subsection-Factors-affecting-the-solubility-of-solids-an
@@ -6675,14 +6611,25 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22])
+[23]) (../Ch-solutions/files/Figure-Solubility-T
+Overfull \hbox (46.57924pt too wide) in paragraph at lines 64--65
+[][] 
+ []
+
+)
 (../Ch-solutions/files/Subsection-Factors-affecting-the-solubility-of-solids-an
 d-gases-Impact-of-the-pressure-on-solubility-of-gases-on-liquids
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 []
  []
 
-) (../Ch-solutions/problems/SampleProblem11
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]) (../Ch-solutions/problems/SampleProblem11
 (../Ch-solutions/problems/StudyCheck11))
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6690,7 +6637,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] [24
+[25] [26
 
 ]) (../Ch-solutions/Ch-solutionsProblems.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6732,10 +6679,6 @@ lable
  line 15.
 Package mdframed Info: Not enough space on this page on input line 15.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 25 undefined on input line 1
-5.
-
 (../Ch-solutions/problems/problems/Problems-Solutions-and-colloids
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
@@ -6752,20 +6695,7 @@ Underfull \hbox (badness 7796) in paragraph at lines 145--145
  []
 
 Missing character: There is no ) in font nullfont!
-) (../Ch-solutions/problems/problems/Problems-Units-of-concentration)
-(../Ch-solutions/problems/problems/Problems-Solutions-of-electrolytes-and-effec
-tive-solute-particles
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25
-
-
-]) (../Ch-solutions/problems/problems/Problems-Colligative-properties
-Missing character: There is no ) in font nullfont!
+) (../Ch-solutions/problems/problems/Problems-Units-of-concentration
 Missing character: There is no ) in font nullfont!
 
 
@@ -6774,19 +6704,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[27
+
+
+])
+(../Ch-solutions/problems/problems/Problems-Relating-Units-of-concentration
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
-Missing character: There is no ) in font nullfont!
-) (../Ch-solutions/problems/problems/Problems-Solubility-of-gases
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6794,6 +6719,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28])
+(../Ch-solutions/problems/problems/Problems-Solutions-of-electrolytes-and-effec
+tive-solute-particles)
+(../Ch-solutions/problems/problems/Problems-Colligative-properties
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6801,6 +6729,42 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+Missing character: There is no ) in font nullfont!
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]) (../Ch-solutions/problems/problems/Problems-Solubility-of-gases)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6839,36 +6803,24 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 59.
+ line 62.
+
+Underfull \hbox (badness 1189) in paragraph at lines 62--62
+\T1/ptm/m/n/10 (+20) b ;%$[]$=69;%$[]$=31 c ;%$[]$=79;%$[]$=21 d ;%$[]$=85;%$[]
+$=15 e ;%$[]$=89;%$[]$=11 f
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30
 
-]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33
+[34
 
 ])
 
@@ -6888,22 +6840,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5637.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5637.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5637.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5637.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 28C0847AAEE3B776E901124AA0E8EF18;2055.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  49212E89B9807347E6B46229841A35C9;1406.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6912,21 +6858,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5637.
  ) 
 Here is how much of TeX's memory you used:
- 85556 strings out of 493014
- 1920649 string characters out of 6133351
- 2712832 words of memory out of 5000000
- 86516 multiletter control sequences out of 15000+600000
- 255170 words of font info for 315 fonts, out of 8000000 for 9000
+ 85859 strings out of 493014
+ 1926482 string characters out of 6133351
+ 2721322 words of memory out of 5000000
+ 86727 multiletter control sequences out of 15000+600000
+ 252708 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,21n,138p,10369b,3116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,21n,138p,10369b,3063s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
@@ -6956,10 +6899,10 @@ a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 6083794 bytes).
+Output written on main.pdf (35 pages, 6106277 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 758 compressed objects within 8 object streams
- 454 named destinations out of 1000 (max. 500000)
- 71169 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1048 PDF objects out of 1200 (max. 8388607)
+ 887 compressed objects within 9 object streams
+ 522 named destinations out of 1000 (max. 500000)
+ 70729 words of extra memory for PDF output out of 74296 (max. 10000000)
 
