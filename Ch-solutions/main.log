@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 FEB 2024 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 FEB 2024 09:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5764,7 +5764,11 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux
+
+LaTeX Warning: Label `Ch-solutions:equation16' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5634.
@@ -5786,7 +5790,7 @@ LaTeX Font Info:    ... okay on input line 5634.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5634.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5634
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5634.
@@ -5801,11 +5805,12 @@ Package hyperref Info: Link coloring ON on input line 5634.
 LaTeX Info: Redefining \ref on input line 5634.
 LaTeX Info: Redefining \pageref on input line 5634.
 LaTeX Info: Redefining \nameref on input line 5634.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5634.
 
 *geometry* driver: auto-detecting
@@ -6072,7 +6077,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-solutions/figure1.png, id=121, 1419.3025pt x 1419.3025pt>
+<../Ch-solutions/figure1.png, id=145, 1419.3025pt x 1419.3025pt>
 File: ../Ch-solutions/figure1.png Graphic file (type png)
 <use ../Ch-solutions/figure1.png>
 Package pdftex.def Info: ../Ch-solutions/figure1.png  used on input line 1.
@@ -6104,14 +6109,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}1' on page 1 undefined on input lin
-e 21.
-
 ) [1
 
 
@@ -6120,7 +6117,7 @@ olutions/figure1.png>]
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Solutions)
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Suspensions)
 (../Ch-solutions/files/Figure-Colloids-diagram
-<../Ch-solutions/seawater.jpg, id=137, 276.03125pt x 183.68625pt>
+<../Ch-solutions/seawater.jpg, id=160, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/seawater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/seawater.jpg>
 Package pdftex.def Info: ../Ch-solutions/seawater.jpg  used on input line 35.
@@ -6130,22 +6127,17 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-solutions/muddywater.jpg, id=138, 513.92pt x 289.08pt>
+<../Ch-solutions/muddywater.jpg, id=161, 513.92pt x 289.08pt>
 File: ../Ch-solutions/muddywater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/muddywater.jpg>
 Package pdftex.def Info: ../Ch-solutions/muddywater.jpg  used on input line 35.
 
 (pdftex.def)             Requested size: 85.35774pt x 48.01373pt.
-<../Ch-solutions/milk.jpg, id=139, 79.9788pt x 79.9788pt>
+<../Ch-solutions/milk.jpg, id=162, 79.9788pt x 79.9788pt>
 File: ../Ch-solutions/milk.jpg Graphic file (type jpg)
 <use ../Ch-solutions/milk.jpg>
 Package pdftex.def Info: ../Ch-solutions/milk.jpg  used on input line 35.
 (pdftex.def)             Requested size: 82.51454pt x 82.51454pt.
-
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}1' on page 2 undefined on input lin
-e 37.
-
 
 Overfull \hbox (103.12053pt too wide) in paragraph at lines 6--39
  [] 
@@ -6157,12 +6149,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 6--39
  []
 
 ) (../Ch-solutions/files/SideFigure-Colloids
-<../Ch-solutions/tyndall1.png, id=140, 287.0725pt x 166.6225pt>
+<../Ch-solutions/tyndall1.png, id=164, 287.0725pt x 166.6225pt>
 File: ../Ch-solutions/tyndall1.png Graphic file (type png)
 <use ../Ch-solutions/tyndall1.png>
 Package pdftex.def Info: ../Ch-solutions/tyndall1.png  used on input line 2.
 (pdftex.def)             Requested size: 113.81071pt x 66.05797pt.
-<../Ch-solutions/tyndall3.jpeg, id=142, 276.03125pt x 183.68625pt>
+<../Ch-solutions/tyndall3.jpeg, id=166, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/tyndall3.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/tyndall3.jpeg>
 Package pdftex.def Info: ../Ch-solutions/tyndall3.jpeg  used on input line 8.
@@ -6190,14 +6182,6 @@ ions/milk.jpg> <../Ch-solutions/tyndall1.png> <../Ch-solutions/tyndall3.jpeg>])
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 3 undefined on input lin
-e 7.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}2' on page 3 undefined on input lin
-e 22.
 
 ) (../Ch-solutions/files/SectionIntro-Units-of-concentration)
 (../Ch-solutions/files/Subsection-Units-of-concentration-The-concept-of-solutio
@@ -6274,11 +6258,6 @@ Overfull \hbox (19.95508pt too wide) in paragraph at lines 1--2
  []
 
 ) (../Ch-solutions/files/Figure-diagram-molarity-molalilty
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}2' on page 6 undefined on input lin
-e 17.
-
-
 Overfull \hbox (50.75781pt too wide) in paragraph at lines 3--17
 [][] 
  []
@@ -6349,14 +6328,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
-
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 10 undefined on input li
-ne 8.
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}3' on page 10 undefined on input li
-ne 20.
-
 )
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
 e-particles-Vant-Hoff-factor-i
@@ -6402,11 +6373,6 @@ Package pgfplots info on input line 35: Setting layers 'axis background,pre mai
 n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
 foreground'...
 
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}3' on page 11 undefined on input li
-ne 36.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6417,30 +6383,30 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]) (../Ch-solutions/files/SideFigure-Colligative-properties
-<../Ch-solutions/Saltingstreets.jpg, id=252, 1027.84pt x 685.56125pt>
+<../Ch-solutions/Saltingstreets.jpg, id=280, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/Saltingstreets.jpg Graphic file (type jpg)
 <use ../Ch-solutions/Saltingstreets.jpg>
 Package pdftex.def Info: ../Ch-solutions/Saltingstreets.jpg  used on input line
  2.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/ethyleneglycol.jpg, id=253, 1027.84pt x 685.56125pt>
+<../Ch-solutions/ethyleneglycol.jpg, id=281, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/ethyleneglycol.jpg Graphic file (type jpg)
 <use ../Ch-solutions/ethyleneglycol.jpg>
 Package pdftex.def Info: ../Ch-solutions/ethyleneglycol.jpg  used on input line
  5.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/perfumesalts.png, id=254, 673.51625pt x 673.51625pt>
+<../Ch-solutions/perfumesalts.png, id=282, 673.51625pt x 673.51625pt>
 File: ../Ch-solutions/perfumesalts.png Graphic file (type png)
 <use ../Ch-solutions/perfumesalts.png>
 Package pdftex.def Info: ../Ch-solutions/perfumesalts.png  used on input line 8
 .
 (pdftex.def)             Requested size: 113.80768pt x 113.80768pt.
-<../Ch-solutions/saltfish.jpeg, id=255, 225.84375pt x 225.84375pt>
+<../Ch-solutions/saltfish.jpeg, id=283, 225.84375pt x 225.84375pt>
 File: ../Ch-solutions/saltfish.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/saltfish.jpeg>
 Package pdftex.def Info: ../Ch-solutions/saltfish.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 113.81412pt x 113.81412pt.
-<../Ch-solutions/pastasalt.jpeg, id=256, 259.97125pt x 194.7275pt>
+<../Ch-solutions/pastasalt.jpeg, id=284, 259.97125pt x 194.7275pt>
 File: ../Ch-solutions/pastasalt.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/pastasalt.jpeg>
 Package pdftex.def Info: ../Ch-solutions/pastasalt.jpeg  used on input line 14.
@@ -6493,17 +6459,9 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 13 undefined on input li
-ne 7.
-
-
-Overfull \hbox (12.06372pt too wide) in paragraph at lines 4--22
+Overfull \hbox (14.31372pt too wide) in paragraph at lines 4--22
  [] 
  []
-
-
-LaTeX Warning: Reference `tab:{Ch-solutions}4' on page 13 undefined on input li
-ne 23.
 
 ) (../Ch-solutions/problems/SampleProblem6
 (../Ch-solutions/problems/StudyCheck6)
@@ -6517,10 +6475,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 (../Ch-solutions/files/Subsection-Colligative-properties-Vapor-pressure-lowerin
 g
 
-LaTeX Warning: Reference `Ch-solutions:equation12' on page 14 undefined on inpu
-t line 15.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
@@ -6528,12 +6482,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [14]) (../Ch-solutions/problems/SampleProblem7
 (../Ch-solutions/problems/StudyCheck7))
-(../Ch-solutions/files/Figure-Vapor-pressure-liquids
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}4' on page 15 undefined on input li
-ne 28.
-
-)
+(../Ch-solutions/files/Figure-Vapor-pressure-liquids)
 (../Ch-solutions/files/Subsection-Colligative-properties-Ideal-and-real-mixture
 s
 
@@ -6542,17 +6491,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-
-LaTeX Warning: Reference `Ch-solutions:equation20' on page 16 undefined on inpu
-t line 12.
-
-) (../Ch-solutions/files/Figure-Osmosis
-
-LaTeX Warning: Reference `Fig:{Ch-solutions}5' on page 16 undefined on input li
-ne 42.
-
-) (../Ch-solutions/files/Subsection-Colligative-properties-Osmosis
+[15]) (../Ch-solutions/files/Figure-Osmosis)
+(../Ch-solutions/files/Subsection-Colligative-properties-Osmosis
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6562,17 +6502,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [16]) (../Ch-solutions/files/Subsection-Colligative-properties-Dialisis)
 (../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure)
 (../Ch-solutions/files/SideFigure-dialisis
-<../Ch-solutions/redcell1.jpeg, id=306, 301.125pt x 168.63pt>
+<../Ch-solutions/redcell1.jpeg, id=340, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell1.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell1.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 113.81297pt x 63.73526pt.
-<../Ch-solutions/redcell2.jpeg, id=307, 300.12125pt x 168.63pt>
+<../Ch-solutions/redcell2.jpeg, id=341, 300.12125pt x 168.63pt>
 File: ../Ch-solutions/redcell2.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell2.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell2.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 113.80913pt x 63.94626pt.
-<../Ch-solutions/dialysis.jpeg, id=308, 276.03125pt x 183.68625pt>
+<../Ch-solutions/dialysis.jpeg, id=342, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/dialysis.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/dialysis.jpeg>
 Package pdftex.def Info: ../Ch-solutions/dialysis.jpeg  used on input line 8.
@@ -6644,12 +6584,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [20]) (../Ch-solutions/problems/SampleProblem9
 (../Ch-solutions/problems/StudyCheck9))
 (../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
-perties-to-calculate-MW
-
-LaTeX Warning: Reference `Ch-solutions:equation17' on page 21 undefined on inpu
-t line 1.
-
-) (../Ch-solutions/problems/SampleProblem10
+perties-to-calculate-MW) (../Ch-solutions/problems/SampleProblem10
 (../Ch-solutions/problems/StudyCheck10)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6731,10 +6666,6 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 15.
 Package mdframed Info: Not enough space on this page on input line 15.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 25 undefined on input line 1
-5.
 
 (../Ch-solutions/problems/problems/Problems-Solutions-and-colloids
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -6843,32 +6774,14 @@ lable
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30
 
-]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33
+[30
 
 ])
 
@@ -6888,22 +6801,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[31]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5637.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5637.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5637.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5637.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 49212E89B9807347E6B46229841A35C9;1406.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  49212E89B9807347E6B46229841A35C9;1406.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6912,21 +6819,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5637.
  ) 
 Here is how much of TeX's memory you used:
- 85556 strings out of 493014
- 1920649 string characters out of 6133351
- 2712832 words of memory out of 5000000
+ 85558 strings out of 493014
+ 1920588 string characters out of 6133351
+ 2716805 words of memory out of 5000000
  86516 multiletter control sequences out of 15000+600000
- 255170 words of font info for 315 fonts, out of 8000000 for 9000
+ 252367 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,21n,138p,10369b,3116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,21n,138p,10369b,3117s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
@@ -6956,10 +6860,10 @@ a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 6083794 bytes).
+Output written on main.pdf (31 pages, 6083647 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 758 compressed objects within 8 object streams
- 454 named destinations out of 1000 (max. 500000)
- 71169 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 940 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
+ 451 named destinations out of 1000 (max. 500000)
+ 70705 words of extra memory for PDF output out of 74296 (max. 10000000)
 
