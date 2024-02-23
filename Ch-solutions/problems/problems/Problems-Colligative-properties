@@ -93,6 +93,91 @@ The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapo
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
+
+
+
+% %%%%%%UNEDITED
+\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
+\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The vapor pressure of a solution made with 1moles of KCl in 2 moles of ethanol is 3.88 kPa at 20$^{\circ}$C. Calculate the vapor pressure of pure ethanol at that temperature.
+ \end{question}
+\begin{solution}
+5.83kPa
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The vapor pressure of a solution made with 74.5g of KCl in 88g of Acetaldehyde (\ce{CH3CHO}) is 3.88 kPa at 20$^{\circ}$C. Calculate the vapor pressure of pure ethanol at that temperature.
+ \end{question}
+\begin{solution}
+98.7kPa
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The normal boiling point of o-xylene is 144.4$^{\circ}$C. A solution made of KCl in o-xylene has a vapor pressure of 608Torr at 144.4$^{\circ}$C. Calculate the mole fraction of the solution.
+ \end{question}
+\begin{solution}
+0.2
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The normal boiling point of isobutyl alcohol is 107.8$^{\circ}$C. A solution made of NaCl in o-xylene has a vapor pressure of 500Torr at 107.8$^{\circ}$C. Calculate the mole fraction of the solution.
+ \end{question}
+\begin{solution}
+0.34
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following solutions will have a lower vapor pressure:
+\begin{inparaenum}[(a)]
+\item   Pure water at 25$^{\circ}$C
+\item   Pure water at 98$^{\circ}$C
+\item   A solution of \ce{C_6H_{12}O_6} in water with $\chi_{\ce{C_6H_{12}O_6}}$=0.1 at 25$^{\circ}$C
+\item   A solution of \ce{C_6H_{12}O_6} in water with $\chi_{\ce{C_6H_{12}O_6}}$=0.01 at 25$^{\circ}$C
+\item   A solution of \ce{KCl} in water with $\chi_{\ce{KCl}}$=0.01 at 25$^{\circ}$C
+\item   A solution of \ce{KCl} in water with $\chi_{\ce{KCl}}$=0.1 at 15$^{\circ}$C
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+A solution of \ce{KCl} in water with $\chi_{\ce{KCl}}$=0.1 at 15$^{\circ}$C
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following solutions will have a highest vapor pressure:
+\begin{inparaenum}[(a)]
+\item   Pure water at 25$^{\circ}$C
+\item   Pure water at 98$^{\circ}$C
+\item   A solution of \ce{C_6H_{12}O_6} in water with $\chi_{\ce{C_6H_{12}O_6}}$=0.1 at 25$^{\circ}$C
+\item   A solution of \ce{C_6H_{12}O_6} in water with $\chi_{\ce{C_6H_{12}O_6}}$=0.01 at 25$^{\circ}$C
+\item   A solution of \ce{KCl} in water with $\chi_{\ce{KCl}}$=0.01 at 25$^{\circ}$C
+\item   A solution of \ce{KCl} in water with $\chi_{\ce{KCl}}$=0.1 at 15$^{\circ}$C
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+ Pure water at 98$^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+\end{cornerbox}}{}
+%%%%%%%UNEDITED
+
+
+
+
+
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the osmotic pressure of a 3M \ce{NaCl} solution at 298K.
