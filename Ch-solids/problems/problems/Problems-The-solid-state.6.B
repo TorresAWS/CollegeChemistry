@@ -1,0 +1,2 @@
+Calculate the formula for the following unit cell:
+   \CaTiO	
