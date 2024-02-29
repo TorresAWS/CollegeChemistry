@@ -42,13 +42,10 @@ Identify the redox number of the central atom of the following oxoacids:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the most oxidated acid: 
- \noindent
- \begin{multicols}{2}
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item \ce{H3AsO4} or \ce{H3AsO3} \iffalse \ce{H3As\textsuperscript{V}O4   } \fi
 \item \ce{H2XeO4} or \ce{H4XeO6} \iffalse \ce{H4Xe\textsuperscript{VIII}O6} \fi
-\end{enumerate}
-\end{multicols}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -60,13 +57,10 @@ Identify the most oxidated acid:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the most reduced acid: 
- \noindent
-  \begin{multicols}{2}
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item \ce{H2RuO4} or \ce{HRuO4} \iffalse \ce{H2Ru\textsuperscript{VI}O4} \fi
 \item \ce{HTcO4} or \ce{H2TcO4} \iffalse \ce{HTc\textsuperscript{VII}O4} \fi
-\end{enumerate}
-\end{multicols}
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -80,13 +74,10 @@ Identify the most reduced acid:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the most oxidant acid: 
- \noindent
-  \begin{multicols}{2}
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item \ce{H2CrO4} or \ce{H2Cr2O7} % \ce{H2Cr2O7}
 \item \ce{HNO3} or \ce{HNO4} % \ce{HNO3}
-\end{enumerate}
- \end{multicols} 
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -98,13 +89,10 @@ Identify the most oxidant acid:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Identify the most oxidant acid: 
- \noindent
-  \begin{multicols}{2}
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=0.5cm]	
+\begin{inparaenum}[(a)]
 \item \ce{H2S2O6} or \ce{H2SO4}  %\ce{H2S2O6}
 \item \ce{H2SeO4} or \ce{H2SeO3} %\ce{H2SeO3}
-\end{enumerate}
- \end{multicols} 
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]

@@ -26,17 +26,14 @@ Classify the following chemicals in two groups, justifying your classification:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Combine the following ions:
-\begin{multicols}{2}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item \ce{Na^{+}} + \ce{Cl^{-}}   %(\ce{NaCl})
 \item \ce{Na^{+}} + \ce{Se^{2-}}  %(\ce{Na2Se})
 \item \ce{Na^{+}} + \ce{P^{3-}}  %(\ce{Na3P})
 \item   \ce{Mg^{2+}} + \ce{Cl^{-}}  %(\ce{MgCl2})
 \item  \ce{Mg^{2+}} + \ce{O^{2-}}  %(\ce{MgO})
 \item   \ce{Mg^{2+}} + \ce{N^{3-}}  %(\ce{Mg3N2})
-\end{enumerate}
-\end{multicols}    
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -92,17 +89,15 @@ Name or formulate the following ionic (Type I) compounds:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Name the following compounds:\begin{multicols}{2}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=.5cm]
+Name the following compounds:
+\begin{inparaenum}[(a)]
 \item \ce{NaCl}  %(sodium chloride)
 \item \ce{Ca3N2} %(calcium nitride)
 \item \ce{MgI2} %(magnesium iodide)
 \item \ce{SrS} %(strontium sulfide)
 \item \ce{RbCl} %(rubidium chloride)
 \item \ce{KF} %(potassium fluoride)
-\end{enumerate}
-\end{multicols}    
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -120,15 +115,12 @@ Name the following compounds:\begin{multicols}{2}
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Combine the following ions:
-\begin{multicols}{2}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item \ce{Cs^{+}} + \ce{F^{-}}   %(\ce{CsF})
 \item \ce{Sr^{2+}} + \ce{O^{2-}}   %(\ce{SrO})
 \item \ce{Be^{2+}} + \ce{C^{4-}}   %(\ce{Be2C})
 \item \ce{Li^{+}} + \ce{I^{-}}   %(\ce{LiI})
- \end{enumerate}
-\end{multicols}    
+ \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -143,17 +135,14 @@ Combine the following ions:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following chemicals in two groups. Justify your classification.
-\begin{multicols}{3}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item \ce{NaCl}  %(group ionic type I)
 \item \ce{MnO2} %(group ionic type II)
 \item \ce{FeCl3} %(group ionic type II)
 \item \ce{SrO} %(group ionic type I)
 \item \ce{Li3N} %(group ionic type I)
 \item \ce{NiO} %(group ionic type II)
-\end{enumerate}
-\end{multicols}    
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -171,15 +160,12 @@ Classify the following chemicals in two groups. Justify your classification.
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Formulate the following compounds:
- \begin{multicols}{2}
- \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.4cm]
+\begin{inparaenum}[(a)]
 \item  Copper(I) oxide %(\ce{Cu2O})
 \item  Copper(II) nitride %(\ce{Cu3N2})
 \item  Nickel(III) oxide %(\ce{Ni2O3})
 \item  Manganese(IV) oxide %(\ce{MnO2})
-\end{enumerate}
-\end{multicols}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -194,15 +180,12 @@ Formulate the following compounds:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name the following compounds:
- \begin{multicols}{2}
-  \noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item  \ce{NiO} %(Nicke(II) oxide)
 \item  \ce{Cr2O3} %(Chromium(III) oxide)
 \item  \ce{VO} %(Vanadium oxide)
 \item  \ce{MnO4} %(Manganese(VII) oxide)
-\end{enumerate} \end{multicols}
-
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -240,14 +223,13 @@ Formulate the following compounds:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name the following compounds:
-   \begin{multicols}{2}\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item  \ce{Ni2O3} %(nickel(III) oxide)
 \item  \ce{Fe3N2} %(iron(II) nitride)
 \item  \ce{Cr2O3} %(chromium(III) oxide)
 \item  \ce{Ni3P2} %(nickel(II) phosphide)
 \item  \ce{Ru2Se3} %(rubidium(III) selenide)
-\end{enumerate}  \end{multicols} 
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -264,8 +246,7 @@ Name the following compounds:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name the following compounds:
-   \begin{multicols}{2}\noindent
-  \begin{enumerate} [topsep=0pt, partopsep=0pt, label=(\alph*), leftmargin=.5cm]
+\begin{inparaenum}[(a)]
 \item  \ce{FeO} %(Iron(II) oxide )
 \item  \ce{CrN} %(Chromium(III) nitride )
 \item  \ce{ZnI2} %(Zinc (II)  iodide)
@@ -273,7 +254,7 @@ Name the following compounds:
 \item  \ce{MnF3} %(Manganese(III)  fluoride)
 \item  \ce{Cu2C} %(copper(IV)  carbide)
 \item  \ce{Ag2O} %(silver oxide)
-\end{enumerate}  \end{multicols} 
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
