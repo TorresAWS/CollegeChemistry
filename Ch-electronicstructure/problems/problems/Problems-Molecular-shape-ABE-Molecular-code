@@ -38,12 +38,10 @@ Identify the molecular shape of the molecules:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-  \item  \hspace{.05in}\chemfig{\lewis{26,Se}( (-[:45]\lewis{713,Cl})(-[:135]\lewis{513,Cl}) )}\hspace{.05in}	% \ce{AB2E2}; bent; 109$^{\circ}$
- \item   \hspace{.05in}\chemfig{C( (=[:90]\lewis{13,O})(-[:210]H)(-[:330]H))}\hspace{.05in}   % \ce{ABE3}; planar trigonal; 120$^{\circ}$
- \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+  \task  \hspace{.05in}\chemfig{\lewis{26,Se}( (-[:45]\lewis{713,Cl})(-[:135]\lewis{513,Cl}) )}\hspace{.05in}	% \ce{AB2E2}; bent; 109$^{\circ}$
+ \task   \hspace{.05in}\chemfig{C( (=[:90]\lewis{13,O})(-[:210]H)(-[:330]H))}\hspace{.05in}   % \ce{ABE3}; planar trigonal; 120$^{\circ}$
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]
@@ -56,12 +54,10 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-     \item  \hspace{.05in}\chemfig{B( (-[:0]H)(-[:180]H)(-[:270]\lewis{460,F}))}\hspace{.05in}% \ce{ABE3}; planar trigonal; 120$^{\circ}$ 
-  \item   \hspace{.05in}\chemfig{P( (=[:90]\lewis{13,O})  (-[:210]\lewis{460,Cl})(-[:270]\lewis{460,Cl})(-[:320]\lewis{062,Cl})	)}\hspace{.05in} %\ce{AB4}; tetrahedral; 109.5$^{\circ}$  
- \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+     \task \hspace{.05in}\chemfig{B( (-[:0]H)(-[:180]H)(-[:270]\lewis{460,F}))}\hspace{.05in}% \ce{ABE3}; planar trigonal; 120$^{\circ}$ 
+  \task   \hspace{.05in}\chemfig{P( (=[:90]\lewis{13,O})  (-[:210]\lewis{460,Cl})(-[:270]\lewis{460,Cl})(-[:320]\lewis{062,Cl})	)}\hspace{.05in} %\ce{AB4}; tetrahedral; 109.5$^{\circ}$  
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]
@@ -75,12 +71,10 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-   \item   \hspace{.05in}\chemfig{Cl( (=[:0]\lewis{17,O})  (=[:90]\lewis{13,O})(-[:180]\lewis{246,O})(=[:270]\lewis{57,O})	)}\hspace{.05in}	%\ce{AB4}; tetrahedral; 109.5$^{\circ}$
-  \item   \hspace{.05in}\chemfig{Be( (-[:45]H)(-[:135]H) )}\hspace{.05in} %\ce{AB2}; linear; 180$^{\circ}$
-   \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+   \task   \hspace{.05in}\chemfig{Cl( (=[:0]\lewis{17,O})  (=[:90]\lewis{13,O})(-[:180]\lewis{246,O})(=[:270]\lewis{57,O})	)}\hspace{.05in}	%\ce{AB4}; tetrahedral; 109.5$^{\circ}$
+ \task   \hspace{.05in}\chemfig{Be( (-[:45]H)(-[:135]H) )}\hspace{.05in} %\ce{AB2}; linear; 180$^{\circ}$
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]
@@ -94,12 +88,10 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-   \item   \hspace{.05in}\chemfig{P( (-[:340]\lewis{026,Cl}) (-[:60]\lewis{024,Cl})  (-[:120]\lewis{240,Cl})(-[:190]\lewis{462,Cl})(-[:270]\lewis{064,Cl})	)}\hspace{.05in} %\ce{AB5}; trigonal bipyramidal; 120$^{\circ}$ and 90$^{\circ}$
-  \item   \hspace{.05in}\chemfig{\lewis{1,S}( (-[:0]\lewis{026,F})(-[:90]\lewis{024,F})(-[:180]\lewis{426,F})(-[:270]\lewis{064,F}))}\hspace{.05in}	%\ce{AB4E}; see-saw; 120$^{\circ}$ and 90$^{\circ}$
-  \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+  \task   \hspace{.05in}\chemfig{P( (-[:340]\lewis{026,Cl}) (-[:60]\lewis{024,Cl})  (-[:120]\lewis{240,Cl})(-[:190]\lewis{462,Cl})(-[:270]\lewis{064,Cl})	)}\hspace{.05in} %\ce{AB5}; trigonal bipyramidal; 120$^{\circ}$ and 90$^{\circ}$
+ \task   \hspace{.05in}\chemfig{\lewis{1,S}( (-[:0]\lewis{026,F})(-[:90]\lewis{024,F})(-[:180]\lewis{426,F})(-[:270]\lewis{064,F}))}\hspace{.05in}	%\ce{AB4E}; see-saw; 120$^{\circ}$ and 90$^{\circ}$
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]
@@ -112,13 +104,10 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-  \item   \hspace{.05in}\chemfig{\lewis{13,Cl}( (-[:185]\lewis{046,F})(-[:270]\lewis{046,F})(-[:355]\lewis{046,F}) )}\hspace{.05in}	%\ce{AB3E2}; T-shaped; 180$^{\circ}$ and 90$^{\circ}$
-  \item   \hspace{.05in} \schemestart \chemleft[\hspace{.4cm}\chemfig{\chemabove{\lewis{136,Br}}{\hspace{.1cm} \ominus }	( (-[:0]\lewis{206,Br})(-[:180]\lewis{246,Br}) )}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,5pt) {\footnotesize $-$};}\schemestop  \hspace{.05in} %\ce{AB2E3}; linear; 180$^{\circ}$  
-  
- \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+ \task   \hspace{.05in}\chemfig{\lewis{13,Cl}( (-[:185]\lewis{046,F})(-[:270]\lewis{046,F})(-[:355]\lewis{046,F}) )}\hspace{.05in}	%\ce{AB3E2}; T-shaped; 180$^{\circ}$ and 90$^{\circ}$
+ \task   \hspace{-.5in} \schemestart \chemleft[\hspace{.4cm}\chemfig{\chemabove{\lewis{136,Br}}{\hspace{.1cm} \ominus }	( (-[:0]\lewis{206,Br})(-[:180]\lewis{246,Br}) )}\hspace{.4cm}\chemright] \chemmove{\node[] at (0pt,5pt) {\footnotesize $-$};}\schemestop  \hspace{.05in} %\ce{AB2E3}; linear; 180$^{\circ}$  
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]
@@ -131,12 +120,10 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Given the following Lewis structures, predict the molecular geometry and angles:
-\vspace{0.5cm}\begin{multicols*}{2}
-\begin{enumerate}[label=(\alph*)]
-     \item   \hspace{.05in}\chemfig{S( (-[:340]\lewis{026,F}) (-[:60]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:250]\lewis{064,F})(-[:300]\lewis{064,F})	)}\hspace{.05in} %\ce{AB6}; octahedral; 180$^{\circ}$ and 90$^{\circ}$
- \item    \hspace{.05in}\chemfig{\lewis{1,Cl}( (-[:340]\lewis{026,F}) (-[:70]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:270]\lewis{064,F})	)}\hspace{.05in} %\ce{AB5E}; square pyramidal;  90$^{\circ}$
-  \end{enumerate}
-\end{multicols*}
+\vspace{0.5cm}\begin{tasks}(2)
+    \task   \hspace{.05in}\chemfig{S( (-[:340]\lewis{026,F}) (-[:60]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:250]\lewis{064,F})(-[:300]\lewis{064,F})	)}\hspace{.05in} %\ce{AB6}; octahedral; 180$^{\circ}$ and 90$^{\circ}$
+\task   \hspace{.05in}\chemfig{\lewis{1,Cl}( (-[:340]\lewis{026,F}) (-[:70]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:270]\lewis{064,F})	)}\hspace{.05in} %\ce{AB5E}; square pyramidal;  90$^{\circ}$
+\end{tasks} 
 \end{question}
 \begin{solution} 
  \begin{inparaenum}[(a)]

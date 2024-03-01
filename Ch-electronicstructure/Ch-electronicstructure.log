@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 FEB 2024 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2024 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5554,7 +5554,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count610
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5650.
+h' as default language. on input line 5651.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -6722,10 +6722,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
 (./Ch-electronicstructure.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
-Package rerunfilecheck Info: File `Ch-electronicstructure.out' has not changed.
 
-(rerunfilecheck)             Checksum: 69355FA92A3719A7B83D7EF2090E1503;1126.
 
+Package rerunfilecheck Warning: File `Ch-electronicstructure.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-electronicstructure.out':
+(rerunfilecheck)             Before: 78D5FED7EFD2F7E22262DB0CF5EB43A6;1141
+(rerunfilecheck)             After:  69355FA92A3719A7B83D7EF2090E1503;1126.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6738,10 +6743,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 87199 strings out of 493014
- 1952496 string characters out of 6133351
- 2842214 words of memory out of 5000000
- 88534 multiletter control sequences out of 15000+600000
+ 87201 strings out of 493014
+ 1952566 string characters out of 6133351
+ 2842444 words of memory out of 5000000
+ 88536 multiletter control sequences out of 15000+600000
  274598 words of font info for 361 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,22n,109p,10626b,2403s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6774,11 +6779,10 @@ plb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-electronicstructure.pdf (26 pages, 1755073 bytes).
+Output written on Ch-electronicstructure.pdf (26 pages, 1754440 bytes).
 PDF statistics:
  498 PDF objects out of 1000 (max. 8388607)
  330 compressed objects within 4 object streams
  79 named destinations out of 1000 (max. 500000)
  71775 words of extra memory for PDF output out of 74296 (max. 10000000)
 
-%%%TAG:CHEM201

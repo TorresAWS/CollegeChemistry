@@ -188,10 +188,10 @@ For the following ionic bonds indicate the positive and negative end of the dipo
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 For the following covalent bonds indicate the partially positive and negative end of the dipole and whether the resulting dipole points to the left or to the right:
 \begin{inparaenum}[(a)]
-   \item \chemfig[]{\chemabove{C}{ \rlap{ $\scriptstyle\delta  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{F}{ \rlap{ $\scriptstyle $}} )} % right
-   \item \chemfig[]{\chemabove{N}{ \rlap{ $\scriptstyle\delta  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{F}{ \rlap{ $\scriptstyle  $}} )} % right
-   \item \chemfig[]{\chemabove{Si}{ \rlap{ $\scriptstyle\delta  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{O}{ \rlap{ $\scriptstyle  $}} )} % right
-   \item \chemfig[]{\chemabove{Br}{ \rlap{ $\scriptstyle\delta  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{S}{ \rlap{ $\scriptstyle  $}} )} % left
+   \item \chemfig[]{\chemabove{C}{ \rlap{ $\scriptstyle  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{F}{ \rlap{ $\scriptstyle $}} )} 
+   \item \chemfig[]{\chemabove{N}{ \rlap{ $\scriptstyle  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{F}{ \rlap{ $\scriptstyle $}} )} 
+   \item \chemfig[]{\chemabove{Si}{ \rlap{ $\scriptstyle  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{O}{ \rlap{ $\scriptstyle $}} )} 
+   \item \chemfig[]{\chemabove{Br}{ \rlap{ $\scriptstyle  $}}  -(-[::0,0.3,,,draw=none]) ( \chemabove{S}{ \rlap{ $\scriptstyle $}} )} 
 \end{inparaenum}
 \end{question}
 \begin{solution} 
