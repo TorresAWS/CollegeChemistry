@@ -95,7 +95,7 @@ Compare both energy profiles top and bottom and indicate:
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The reaction energy of a process, going from reactants into products, is 10kJ/mol and its activation energy is 15kJ/mol. Calculate the reaction energy and the activation energy of the reverse process, starting from products and going to reactants. Is the direct reaction exothermic or endothermic. How about the reverse process?
+The reaction energy of a process, going from reactants into products, is 10kJ/mol and its activation energy is 15kJ/mol. Calculate the reaction energy and the activation energy of the reverse process, starting from products and going to reactants. Is this reverse reaction exothermic or endothermic. How about the direct reaction, starting from reactants and going to products?
 \end{question}
 \begin{solution}
 $E_a=$5kJ/mol; $\Delta H=$-10kJ/mol; direct endothermic; reverse exothermic
@@ -112,10 +112,10 @@ has the following temperature dependence:
 \toprule
   $T$ ( K)	&$k$, ($s^{-1}$) \\
 \midrule
-1500&	$1.1\times 10^{-15}$\\
-1400&	$1.4\times 10^{-13}$\\
-1300&	$6.9\times 10^{-13}$\\
-1200&$1.5\times 10^{-12}$\\
+1500&	$9214$\\
+1400&	$2175$\\
+1300&	$411$\\
+1200&      $58.9$\\
 \bottomrule
 \end{tabular}\end{center}
 Indicate the reaction order, and compute the activation energy in (kJ/mol) and the frequency factor.
