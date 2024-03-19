@@ -1,0 +1,28 @@
+ \begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Enthalpy-hydrations}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Enthalpy-hydrations} Enthalpy of hydration in KJ/mol for several ions $^*$ } \\
+\midrule
+ \rowcolor{gray!10} Ion & $\Delta H^{hyd}  $& Ion & $\Delta H^{hyd}  $& Ion & $\Delta H^{hyd}  $& Ion & $\Delta H^{hyd}  $\\
+ \midrule
+\ce{H^+}&	-1091&	\ce{Li^+}&	-520&		\ce{Na^+}&	-406	&\ce{K^+}&	-320		\\ 
+\ce{Rb^+}&	-296&		\ce{Cs^+}&	-264&		\ce{In^+}&	-344&		\ce{Tl^+}&	-328\\ 
+\ce{Cu^+}&	-593&	\ce{Ag^+}&	-473&		\ce{Au^+}&	-615&		\ce{NH_4^+}&	-307		\\ 
+\ce{Be^{2+}}&	-2484&	\ce{Mg^{2+}}&	-1926&	\ce{Ca^{2+}}&	-1579& \ce{Sr^{2+}}&	-1446	\\ 
+\ce{Ba^{2+}}&	-1309&	\ce{Ti^{2+}}&	1862&		\ce{Cr^{2+}}&	-1908&	\ce{Mn^{2+}}&	-1851\\ 
+\ce{Fe^{2+}}&	-1950&	\ce{Co^{2+}}&	-2010&	\ce{Ni^{2+}}&	-2096&	\ce{Cu^{2+}}&	-2099\\ 
+\ce{Pt^{2+}}&	-2100&	\ce{Zn^{2+}}&	-2047&	\ce{Cd^{2+}}&	-1809&	\ce{Pb^{2+}}&	-1485\\ 
+\ce{Hg^{2+}}&	-1829&	\ce{Sn^{2+}}&	-1554&	\ce{Y^{3+}}&	-4105&	\ce{Tl^{3+}}&	-4108\\ 
+  \ce{Al^{3+}}&	-4680&	\ce{Sc^{3+}}&	-3930&	\ce{NO_3^-}&	-314	&	\ce{OH^-}	&-460	\\ 
+\ce{F^-}&	-524&			\ce{Cl^-}&	-378&		\ce{Br^-}&	-348&	\ce{I^-}&	-308\\ 
+
+
+ \bottomrule
+ \multicolumn{8}{l}{\small $^*$  D.W. Smith, J. Chem. Educ., 54, 540 (1977).   } \\
+
+\end{tabular}\end{center} 
+ 
+

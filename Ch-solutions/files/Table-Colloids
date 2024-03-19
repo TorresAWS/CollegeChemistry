@@ -1,10 +1,10 @@
  \begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Colloids}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Types of colloids } \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Colloids} Types of colloids } \\
 \midrule
  \rowcolor{gray!10} Dispersing medium & Dispersed medium& name & Example\\
 \midrule
@@ -19,5 +19,5 @@ Solid	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid sol} &\multicolumn{1}
 
  \bottomrule
 \end{tabular}\end{center} 
-Table \ref{tab:{\chapterlabel}\thetablenewcounter} reports all different types of colloids one can encounter with examples for each of them.
+Table \ref{tab:Table-Colloids} reports all different types of colloids one can encounter with examples for each of them.
 
