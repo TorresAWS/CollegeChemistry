@@ -124,7 +124,7 @@ Given the following rate constant values, identify the reaction order:
 
    %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the following rate laws as integral or differential, and given a form obtain the corresponding other type of from (i.e. if the integral from is given then obtain the differential form)
+Identify the following rate laws as integral or differential, and given a rate law form obtain the other corresponding type of form (i.e. if the integral from is given then obtain the differential form and viceversa):
 \begin{inparaenum}[(a)]
 \item 	  $r=0.0023$, $[A]_0$=0.3  	%	(differential, $ [\ce{A}] =-0.0023\cdot t + 0.3$)
 \item $Ln([\ce{A}])=-0.045\cdot t+0.45$	%	(integral, $r=0.045[A]^1$, $[A]_0$=1.56)
@@ -142,7 +142,7 @@ Identify the following rate laws as integral or differential, and given a form o
 
    %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the following rate laws as integral or differential, and given a form obtain the corresponding other type of from (i.e. if the integral from is given then obtain the differential form)
+Identify the following rate laws as integral or differential, and given a rate law form obtain the other corresponding type of form (i.e. if the integral from is given then obtain the differential form and viceversa):
 \begin{inparaenum}[(a)]
 \item $[\ce{A}] =0.045 -0.34\cdot t $	 	%	(integral, $r=0.34$, $[A]_0$=0.045)
 \item 	   $r=0.9[A]^1$, $[A]_0$=1.49   %	(differential, $Ln([\ce{A}])=0.4 -0.9\cdot t$)
