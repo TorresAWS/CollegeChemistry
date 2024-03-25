@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-diagram-molarity-molalilty}
 
 \begin{center} \begin{fullwidth}\begin{minipage}[b]{1.1\linewidth}\resizebox{0.99\textwidth}{!}{\begin{tikzpicture}
 \node [block] (box1) at (0,0) [rectangle, text width=3cm,node distance=1.5cm, align=left, draw=white,fill=red!20!white, minimum width=2.5cm, minimum height=1.5cm,auto,>=latex'] { $m=\frac{\text{moles of solute}}{\text{Kg of solvent}}$};
@@ -15,6 +15,6 @@
 %\draw[thick,->, shift={(0,0em)}] ([shift={(0,1em)}]box3.east)  -- ([shift={(0,1em)}]box4.west) node[above,pos=0.5] {$ \chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} } $} ;
  % \draw[thick,->] ([shift={(0,-1em)}]box4.west)  -- ([shift={(0,-1em)}]box3.east) node[below,pos=0.5] {$  \%_{m}=\frac{ 100\cdot MW\cdot \chi  }{ 18+(MW-18)\chi }$} ;
 
-% \node[text width=21cm, fontscale=.3, shift={(24em,-14em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Diagram displaying the set of formulas used to relate, from left to right, molality with molarity, mass percent of solute, and mole fraction. In some of these formulas, the solution density $d$ is needed as well as the molar mass of the solute ($MW$). The solvent in all these equations is assumed to be water and hence the 18 value in some of the formulas.};
+% \node[text width=21cm, fontscale=.3, shift={(24em,-14em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-diagram-molarity-molalilty} \end{bf} Diagram displaying the set of formulas used to relate, from left to right, molality with molarity, mass percent of solute, and mole fraction. In some of these formulas, the solution density $d$ is needed as well as the molar mass of the solute ($MW$). The solvent in all these equations is assumed to be water and hence the 18 value in some of the formulas.};
 
 \end{tikzpicture}   }\end{minipage}\end{fullwidth}\end{center}

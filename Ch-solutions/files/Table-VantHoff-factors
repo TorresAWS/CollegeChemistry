@@ -1,11 +1,11 @@
 
  \begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-VantHoff-factors}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Expected and observed Van't Hoff factors for different concentrations. } \\
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-VantHoff-factors} Expected and observed Van't Hoff factors for different concentrations. } \\
 \midrule
  \rowcolor{gray!10} Solute &  \multicolumn{3}{c}{$i^{\text{Observed}}$} &  \multicolumn{1}{c}{$i^{\text{Expected}}$}   &\multicolumn{3}{c}{$i^{\text{Observed}}/i^{\text{Expected}}*100$}   \\
  \midrule
@@ -17,5 +17,5 @@
 \ce{MgSO4}	& \multicolumn{1}{c}{1.21}& \multicolumn{1}{c}{1.53} & \multicolumn{1}{c}{1.82}& \multicolumn{1}{c}{2.00} &\multicolumn{1}{c}{ 60.5\%}&\multicolumn{1}{c}{76.5\% }&\multicolumn{1}{c}{91.0\% }\\ 
  \bottomrule
 \end{tabular}\end{center} 
-Table \ref{tab:{\chapterlabel}\thetablenewcounter} reports observed and expected $i$ values for different salts and different concentrations. 
+Table \ref{tab:Table-VantHoff-factors} reports observed and expected $i$ values for different salts and different concentrations. 
 

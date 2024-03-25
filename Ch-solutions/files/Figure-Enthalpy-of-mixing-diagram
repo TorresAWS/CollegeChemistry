@@ -1,3 +1,4 @@
+
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Enthalpy-of-mixing-diagram}
 
 \pgfmathdeclarerandomlist{colors}{{red!80}{blue!80}  }
@@ -20,8 +21,8 @@
     }	  
 \end{scope} 
 
-\begin{scope}[shift={(-2cm,2cm)}]
-    \draw[line width=.8mm,->] (3,0) -- ++(3,0) node [midway,fill=white] {$\Delta H^{xc}_{solute}$};	  
+\begin{scope}[shift={(-2cm,5cm)}]
+    \draw[line width=.8mm,->] (1,0) -- ++(5,0) node [midway,fill=white] {$\Delta H^{xc}_{solute}$};	  
 \end{scope} 
 \begin{scope}[shift={(-2cm,-5cm)}]
     \draw[line width=.8mm,->] (3,0) -- ++(3,0) node [midway,fill=white] {$\Delta H^{xc}_{solvent}$};	  
@@ -32,12 +33,13 @@
 
 
 \begin{scope}[shift={(-2cm,-3.5cm)}]
-    \draw[line width=.8mm,->] (3,2) -- ++(9,0) node [midway,fill=white] {$\Delta H^{hyd}$};	  
+   
+    \draw[line width=.8mm,->] (3,2) -- ++(9,0) node [midway,fill=white] {$\Delta H^{hyd}$}  node[shift={(-10cm,1cm)}, black] {\Large Solute}   ;	  
 \end{scope} 
 
 
 \begin{scope}[shift={(-2cm,-8cm)}]
-    \draw[line width=.8mm,->] (3,0) -- ++(9,0) node [midway,fill=white] {$\Delta H^{soln}$};	  
+    \draw[line width=.8mm,->] (1,0) -- ++(11,0) node [midway,fill=white] {$\Delta H^{soln}$} node[shift={(-10cm,1cm)}, black] {\Large Solvent} ;	  
 \end{scope} 
 
 
@@ -80,7 +82,8 @@
                \shade[ball color=blue!80] (-\i*1.5+1.0+0.8*\j, -0.8*\j+1.6*\k+0.9) circle(0.3);
             }
         }
-    }	  
+    }	
+
 \end{scope} 
 \begin{scope}[shift={(16cm,3cm)},rotate=90]
 	   \foreach \i in {1,...,12} {

@@ -85,27 +85,49 @@ Which of the species of the following pairs would you expect to have a larger, m
 
 
 
- %%%%%%PROBLEM
+
+
+
+
+%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-We measured the change of the freezing point of a solution with concentration at a fixed temperature. Use the data below to experimentally compute $i\cdot k_f$ for the solution and the freezing point of the pure solvent. Assume $i\cdot k_b$ does not change for the molarity range given.
-\begin{center}\begin{tabular}[t]{  c c    }
-\toprule
-  m	&$T_f$ ($^{\circ}$C) \\
-\midrule
- 0.010	&5.448 	 \\
- 0.011	& 5.444 	 \\
- 0.012	&5.438 	 \\
- 0.013	&5.433   \\
-  0.014	&5.428 	 \\
-\bottomrule
-\end{tabular}\end{center}
-\end{question}
+The lattice energy of NaF, the solute, is -910 KJ/mol, whereas the enthalpy of hydration of \ce{Na^+} and \ce{F^-} are -406 and -524 KJ/mol, respectively.
+\begin{inparaenum}[(a)]
+\item   Calculate the hydration energy of \ce{NaF}  % -930 KJ/mol
+\item   Calculate the energy needed to expand the solute  % 910 KJ/mol
+\item   Calculate the enthalpy of solution. Is the dissolution endothermic or exothermic?  % -20 KJ/mol ; exothermic
+ \end{inparaenum}
+ \end{question}
 \begin{solution}
-$i\cdot k_f=5.1$; $T_f^{solvent}$=5.5$^{\circ}$C; $r^2$=0.99
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+\begin{inparaenum}[(a)]
+\item     -930 KJ/mol
+\item     910 KJ/mol
+\item     -20 KJ/mol ; exothermic
+ \end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
-  
 
+
+
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The lattice energy of KF, the solute, is -808 KJ/mol, whereas the enthalpy of hydration of \ce{K^+} and \ce{F^-} are -320 and -524 KJ/mol, respectively.
+\begin{inparaenum}[(a)]
+\item   Calculate the hydration energy of \ce{KF}  % -844 KJ/mol
+\item   Calculate the energy needed to expand the solute  % 808 KJ/mol
+\item   Calculate the enthalpy of solution. Is the dissolution endothermic or exothermic?  % -36 KJ/mol ; exothermic
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item     -844 KJ/mol
+\item     808 KJ/mol
+\item     -36 KJ/mol ; exothermic
+ \end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
   
 \end{cornerbox}}{}
 %%%%%%%UNEDITED

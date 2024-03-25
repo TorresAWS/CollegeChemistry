@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Colligative-properties-phase-diagram}
      \begin{center}
 \begin{tikzpicture}
 \pgfmathsetmacro{\TPX}{1.5}
@@ -33,5 +33,5 @@
 \begin{scope}[rotate=00, shift={(17em,9em)}] \draw[->,white , very thick, rotate=-180 ]  (0.0,0) to  (0.0,4)  node [ fontscale=0.1, midway,shift={(0.5em,3.0em)}, rotate=180] {$\Delta P_{vap}$} ;\end{scope}
 
 \end{semilogyaxis}
-\node[text width=12cm, fontscale=.3, shift={(15em,-2em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Effect of the solute concentration on the phase diagram of water };
+\node[text width=12cm, fontscale=.3, shift={(15em,-2em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Colligative-properties-phase-diagram} \end{bf} Effect of the solute concentration on the phase diagram of water };
 \end{tikzpicture}\end{center}

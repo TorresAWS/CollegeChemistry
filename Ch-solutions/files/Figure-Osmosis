@@ -1,5 +1,5 @@
 
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Osmosis}
    
   \begin{fullwidth}
 \begin{center}
@@ -37,7 +37,7 @@
     \end{scope}
      \node[single arrow, rounded corners=3pt, fill=red!30, draw, align=center,shift={(25.0em,7.0em)}, minimum height=2cm, minimum width=1cm]{osmotic\\ pressure };
 
-\node[text width=20cm, fontscale=.3, shift={(25em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} In the left diagram, we put in contact two solutions with different concentrations by means of a semipermeable membrane. The left solution is more diluted than the right solution. The difference in osmotic pressure between the membrane creates a water flow that goes from the more diluted to the more concentrated solution that minimizes the pressure gradient. As a result the liquid level changes. };
+\node[text width=20cm, fontscale=.3, shift={(25em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Osmosis} \end{bf} In the left diagram, we put in contact two solutions with different concentrations by means of a semipermeable membrane. The left solution is more diluted than the right solution. The difference in osmotic pressure between the membrane creates a water flow that goes from the more diluted to the more concentrated solution that minimizes the pressure gradient. As a result the liquid level changes. };
 
 \end{tikzpicture}}\end{minipage} \end{center} \end{fullwidth}
 

@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-diagram-molarity-molalilty-new}
 
 \begin{center}  \begin{minipage}[b]{0.9\linewidth}\resizebox{0.99\textwidth}{!}{\begin{tikzpicture}
 \node [block] (box1) at (0,0) [rectangle, text width=3cm,node distance=1.5cm, align=left, draw=white,fill=red!20!white, minimum width=2.5cm, minimum height=1.5cm,auto,>=latex'] { $m=\frac{\text{moles of solute}}{\text{Kg of solvent}}$};
@@ -17,6 +17,6 @@
    \draw[thick,<->, shift={(0,0em)}] ([shift={(0,1em)}]box4.west) --  ([shift={(-1,1em)}]box4.west) --  ([shift={(-1,0.0em)}]box1.west) --   ([shift={(0em,-0.0em)}]box1.west) node[above,pos=0.7, shift={(1.2em,-9em)}] {$ \chi=\frac{18\text{m} }{1000+18 \text{m} } $} ;
 
 
- \node[text width=12cm, fontscale=.3, shift={(10em,-23em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Diagram displaying the set of formulas used to relate, from left to right, molality with molarity, mass percent of solute, and mole fraction. In some of these formulas, the solution density $d$ (in g/mL) is needed as well as the molar mass of the solute ($MW$). The solvent in all these equations is assumed to be water and hence the 18 value in some of the formulas.};
+ \node[text width=12cm, fontscale=.3, shift={(10em,-23em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-diagram-molarity-molalilty-new} \end{bf} Diagram displaying the set of formulas used to relate, from left to right, molality with molarity, mass percent of solute, and mole fraction. In some of these formulas, the solution density $d$ (in g/mL) is needed as well as the molar mass of the solute ($MW$). The solvent in all these equations is assumed to be water and hence the 18 value in some of the formulas.};
 
 \end{tikzpicture}   }\end{minipage} \end{center}

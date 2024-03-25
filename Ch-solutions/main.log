@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 MAR 2024 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAR 2024 14:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5536,7 +5536,7 @@ Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
 )
 \templength=\skip343
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 5633.
+h' as default language. on input line 5649.
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5766,52 +5766,56 @@ LaTeX Warning: Unused global option(s):
 
 (./main.aux
 
+LaTeX Warning: Label `Fig:Figure-diagram-molarity-molalilty-new' multiply defin
+ed.
+
+
 LaTeX Warning: Label `Ch-solutions:equation16' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5633.
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5633.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5633
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5649.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5649.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5649
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5633.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5633.
+LaTeX Font Info:    ... okay on input line 5649.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 5649.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box296
-Package hyperref Info: Link coloring ON on input line 5633.
-LaTeX Info: Redefining \ref on input line 5633.
-LaTeX Info: Redefining \pageref on input line 5633.
-LaTeX Info: Redefining \nameref on input line 5633.
+Package hyperref Info: Link coloring ON on input line 5649.
+LaTeX Info: Redefining \ref on input line 5649.
+LaTeX Info: Redefining \pageref on input line 5649.
+LaTeX Info: Redefining \nameref on input line 5649.
  (./main.out)
 (./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5633.
+LaTeX Info: Redefining \selectfont on input line 5649.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -5847,7 +5851,7 @@ LaTeX Info: Redefining \selectfont on input line 5633.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 5633.
+LaTeX Info: Redefining \microtypecontext on input line 5649.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -5894,7 +5898,7 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 5633.
+. Activating mapping `default' on line 5649.
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -5904,7 +5908,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 \c@mv@tabular=\count618
 \c@mv@boldtabular=\count619
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 5633.
+(scrlayer)             \begin{document} on input line 5649.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
@@ -5943,7 +5947,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 5633.
+or `english'. on input line 5649.
 
 *************************************************
 * chemmacros warning: "no-greek"
@@ -5963,7 +5967,7 @@ cfg
 File: exsheets_configurations.cfg 
 )
 \c__siunitx_mathsf_int=\count620
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5633
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5649
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -5972,32 +5976,32 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5633
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5649
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 563
-3.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 564
+9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 563
-3.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 564
+9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5633.
+(Font)              <10> on input line 5649.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 5633.
+(Font)              <7.6> on input line 5649.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5633.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 563
-3.
+(Font)              <6> on input line 5649.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 564
+9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -6007,27 +6011,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5633.
+(Font)              scaled to size 10.42007pt on input line 5649.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5633.
+(Font)              scaled to size 7.91925pt on input line 5649.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5633.
+(Font)              scaled to size 6.25204pt on input line 5649.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5633.
+(Font)              scaled to size 10.42007pt on input line 5649.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5633.
+(Font)              scaled to size 7.91925pt on input line 5649.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5633.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 563
-3.
+(Font)              scaled to size 6.25204pt on input line 5649.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 564
+9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -6037,8 +6041,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c__siunitx_mathtt_int=\count621
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 563
-3.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 564
+9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -6117,7 +6121,7 @@ olutions/figure1.png>]
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Solutions)
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Suspensions)
 (../Ch-solutions/files/Figure-Colloids-diagram
-<../Ch-solutions/seawater.jpg, id=176, 276.03125pt x 183.68625pt>
+<../Ch-solutions/seawater.jpg, id=178, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/seawater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/seawater.jpg>
 Package pdftex.def Info: ../Ch-solutions/seawater.jpg  used on input line 35.
@@ -6127,13 +6131,13 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-solutions/muddywater.jpg, id=177, 513.92pt x 289.08pt>
+<../Ch-solutions/muddywater.jpg, id=179, 513.92pt x 289.08pt>
 File: ../Ch-solutions/muddywater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/muddywater.jpg>
 Package pdftex.def Info: ../Ch-solutions/muddywater.jpg  used on input line 35.
 
 (pdftex.def)             Requested size: 85.35774pt x 48.01373pt.
-<../Ch-solutions/milk.jpg, id=178, 79.9788pt x 79.9788pt>
+<../Ch-solutions/milk.jpg, id=180, 79.9788pt x 79.9788pt>
 File: ../Ch-solutions/milk.jpg Graphic file (type jpg)
 <use ../Ch-solutions/milk.jpg>
 Package pdftex.def Info: ../Ch-solutions/milk.jpg  used on input line 35.
@@ -6149,12 +6153,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 6--39
  []
 
 ) (../Ch-solutions/files/SideFigure-Colloids
-<../Ch-solutions/tyndall1.png, id=180, 287.0725pt x 166.6225pt>
+<../Ch-solutions/tyndall1.png, id=182, 287.0725pt x 166.6225pt>
 File: ../Ch-solutions/tyndall1.png Graphic file (type png)
 <use ../Ch-solutions/tyndall1.png>
 Package pdftex.def Info: ../Ch-solutions/tyndall1.png  used on input line 2.
 (pdftex.def)             Requested size: 113.81071pt x 66.05797pt.
-<../Ch-solutions/tyndall3.jpeg, id=182, 276.03125pt x 183.68625pt>
+<../Ch-solutions/tyndall3.jpeg, id=184, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/tyndall3.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/tyndall3.jpeg>
 Package pdftex.def Info: ../Ch-solutions/tyndall3.jpeg  used on input line 8.
@@ -6187,9 +6191,9 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (../Ch-solutions/files/Subsection-Units-of-concentration-The-concept-of-solutio
 n)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7.6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 60.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 58.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <6> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 60.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 58.
  (../Ch-solutions/files/Subsection-Units-of-concentration-Molarity
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6250,14 +6254,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [5]) (../Ch-solutions/files/Figure-diagram-molarity-molalilty-new)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Why-relating-units-of-
 concentration)
-(../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-m
+(../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-m)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6])
+[6]
 (../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-percent
 
 Overfull \hbox (19.95508pt too wide) in paragraph at lines 1--2
@@ -6346,30 +6350,30 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [11]) (../Ch-solutions/files/SectionIntro-Colligative-properties)
 (../Ch-solutions/files/SideFigure-Colligative-properties
-<../Ch-solutions/Saltingstreets.jpg, id=292, 1027.84pt x 685.56125pt>
+<../Ch-solutions/Saltingstreets.jpg, id=296, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/Saltingstreets.jpg Graphic file (type jpg)
 <use ../Ch-solutions/Saltingstreets.jpg>
 Package pdftex.def Info: ../Ch-solutions/Saltingstreets.jpg  used on input line
  2.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/ethyleneglycol.jpg, id=293, 1027.84pt x 685.56125pt>
+<../Ch-solutions/ethyleneglycol.jpg, id=297, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/ethyleneglycol.jpg Graphic file (type jpg)
 <use ../Ch-solutions/ethyleneglycol.jpg>
 Package pdftex.def Info: ../Ch-solutions/ethyleneglycol.jpg  used on input line
  5.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/perfumesalts.png, id=294, 673.51625pt x 673.51625pt>
+<../Ch-solutions/perfumesalts.png, id=298, 673.51625pt x 673.51625pt>
 File: ../Ch-solutions/perfumesalts.png Graphic file (type png)
 <use ../Ch-solutions/perfumesalts.png>
 Package pdftex.def Info: ../Ch-solutions/perfumesalts.png  used on input line 8
 .
 (pdftex.def)             Requested size: 113.80768pt x 113.80768pt.
-<../Ch-solutions/saltfish.jpeg, id=295, 225.84375pt x 225.84375pt>
+<../Ch-solutions/saltfish.jpeg, id=299, 225.84375pt x 225.84375pt>
 File: ../Ch-solutions/saltfish.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/saltfish.jpeg>
 Package pdftex.def Info: ../Ch-solutions/saltfish.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 113.81412pt x 113.81412pt.
-<../Ch-solutions/pastasalt.jpeg, id=296, 259.97125pt x 194.7275pt>
+<../Ch-solutions/pastasalt.jpeg, id=300, 259.97125pt x 194.7275pt>
 File: ../Ch-solutions/pastasalt.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/pastasalt.jpeg>
 Package pdftex.def Info: ../Ch-solutions/pastasalt.jpeg  used on input line 14.
@@ -6399,9 +6403,6 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--17
 [] 
  []
-
-
-LaTeX Warning: Marginpar on page 12 moved.
 
 ) (../Ch-solutions/files/Figure-Colligative-properties-phase-diagram
 Package pgfplots info on input line 14: Using 'lua backend=false' for axis: ymo
@@ -6521,15 +6522,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [18])
 (../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
-perties-to-calclate-alpha
+perties-to-calclate-alpha) (../Ch-solutions/problems/SampleProblem9
+(../Ch-solutions/problems/StudyCheck9)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]) (../Ch-solutions/problems/SampleProblem9
-(../Ch-solutions/problems/StudyCheck9))
+[19])
 (../Ch-solutions/files/Subsection-Colligative-properties-Use-of-Colligative-pro
 perties-to-calculate-MW) (../Ch-solutions/problems/SampleProblem10
 (../Ch-solutions/problems/StudyCheck10)
@@ -6548,17 +6549,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]) (../Ch-solutions/files/SideFigure-dialisis
-<../Ch-solutions/redcell1.jpeg, id=385, 301.125pt x 168.63pt>
+<../Ch-solutions/redcell1.jpeg, id=391, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell1.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell1.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 113.81297pt x 63.73526pt.
-<../Ch-solutions/redcell2.jpeg, id=386, 300.12125pt x 168.63pt>
+<../Ch-solutions/redcell2.jpeg, id=392, 300.12125pt x 168.63pt>
 File: ../Ch-solutions/redcell2.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell2.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell2.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 113.80913pt x 63.94626pt.
-<../Ch-solutions/dialysis.jpeg, id=387, 276.03125pt x 183.68625pt>
+<../Ch-solutions/dialysis.jpeg, id=393, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/dialysis.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/dialysis.jpeg>
 Package pdftex.def Info: ../Ch-solutions/dialysis.jpeg  used on input line 8.
@@ -6631,58 +6632,65 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [24]) (../Ch-solutions/problems/SampleProblem11
 (../Ch-solutions/problems/StudyCheck11))
+(../Ch-solutions/files/SideFigure-NewFeature)
 (../Ch-solutions/files/Table-Enthalpy-Solution
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 
-LaTeX Warning: Reference `tab:Table-Enthalpy-Solution' on page 25 undefined on 
-input line 7.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (../Ch-solutions/files/SectionIntro-Enthalpy-of-solution)
-(../Ch-solutions/files/Figure-Enthalpy-of-mixing-diagram)
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]) (../Ch-solutions/files/Figure-Enthalpy-of-mixing-diagram)
+(../Ch-solutions/files/SectionIntro-Enthalpy-of-solution
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]) (../Ch-solutions/files/SideFigure-NewFeature)
 (../Ch-solutions/files/Subsection-Enthalpy-of-solution-steps)
 (../Ch-solutions/files/Figure-Enthalpy-of-solution
-Overfull \hbox (38.37543pt too wide) in paragraph at lines 37--38
+Overfull \hbox (9.92273pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
-) (../Ch-solutions/files/Subsection-Enthalpy-of-solution
+) (../Ch-solutions/files/SideFigure-HotsPads
+<../Ch-solutions/heatpads.jpeg, id=438, 522.95375pt x 1027.84pt>
+File: ../Ch-solutions/heatpads.jpeg Graphic file (type jpg)
+<use ../Ch-solutions/heatpads.jpeg>
+Package pdftex.def Info: ../Ch-solutions/heatpads.jpeg  used on input line 2.
+(pdftex.def)             Requested size: 57.90013pt x 113.79987pt.
+<../Ch-solutions/heatpadscold.jpeg, id=439, 2197.008pt x 1464.672pt>
+File: ../Ch-solutions/heatpadscold.jpeg Graphic file (type jpg)
+<use ../Ch-solutions/heatpadscold.jpeg>
+Package pdftex.def Info: ../Ch-solutions/heatpadscold.jpeg  used on input line 
+8.
+(pdftex.def)             Requested size: 113.7791pt x 75.85272pt.
 
-LaTeX Warning: Reference `tab:Table-Enthalpy-Solution' on page 25 undefined on 
-input line 1.
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--11
+ []
+ []
 
-) (../Ch-solutions/files/Subsection-Enthalpy-of-hydration)
-(../Ch-solutions/files/Table-Enthalpy-hydrations
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 7.
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
+[] 
+ []
 
-) (../Ch-solutions/files/Subsection-Heat-pads)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-Missing character: There is no ) in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
-Missing character: There is no ) in font nullfont!
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6691,7 +6699,19 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Missing character: There is no ) in font nullfont!
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+) (../Ch-solutions/files/Subsection-Enthalpy-of-solution)
+(../Ch-solutions/files/Subsection-Enthalpy-of-hydration)
+(../Ch-solutions/files/Table-Enthalpy-hydrations
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6699,9 +6719,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28]
-Missing character: There is no ) in font nullfont!
-
+[28 <../Ch-solutions/heatpads.jpeg> <../Ch-solutions/heatpadscold.jpeg>])
+(../Ch-solutions/files/Subsection-Heat-pads)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6948,7 +6967,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] [46
+[45]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46
+
+] [47
 
 ])
 
@@ -6962,11 +6990,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5636.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5636.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5652.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5652.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5636.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5636.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5652.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5652.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6E34914E7266E38484AD7E285ADA2DCD;2216.
@@ -6979,21 +7007,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5636.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5652.
  ) 
 Here is how much of TeX's memory you used:
- 86176 strings out of 493014
- 1932859 string characters out of 6133351
- 3017295 words of memory out of 5000000
- 86892 multiletter control sequences out of 15000+600000
- 256442 words of font info for 319 fonts, out of 8000000 for 9000
+ 86297 strings out of 493014
+ 1935365 string characters out of 6133351
+ 2999428 words of memory out of 5000000
+ 86988 multiletter control sequences out of 15000+600000
+ 256413 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,21n,138p,10369b,3063s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,21n,138p,10369b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
@@ -7023,10 +7048,10 @@ a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (46 pages, 6197714 bytes).
+Output written on main.pdf (47 pages, 10377281 bytes).
 PDF statistics:
- 1240 PDF objects out of 1440 (max. 8388607)
- 1064 compressed objects within 11 object streams
- 640 named destinations out of 1000 (max. 500000)
- 71773 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 1095 compressed objects within 11 object streams
+ 655 named destinations out of 1000 (max. 500000)
+ 71783 words of extra memory for PDF output out of 74296 (max. 10000000)
 

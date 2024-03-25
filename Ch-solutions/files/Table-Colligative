@@ -1,10 +1,10 @@
  \begin{center}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Colligative}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Boiling-point elevation and freezing-point depression for various solvents } \\
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Colligative} Boiling-point elevation and freezing-point depression for various solvents } \\
 \midrule
  \rowcolor{gray!10} Solvent &\multicolumn{1}{c}{$T^{solvent}_b$ ($^{\circ}$C)}&  \multicolumn{1}{c}{$k_b$ ($^{\circ}$C/m)} &  \multicolumn{1}{c}{$T^{solvent}_f$ ($^{\circ}$C)}&\multicolumn{1}{c}{$k_f$ ($^{\circ}$C/m)}\\
 \midrule
@@ -20,5 +20,5 @@ Cyclohexane	& \multicolumn{1}{c}{80.7}& \multicolumn{1}{c}{ 2.79 } & \multicolum
 
  \bottomrule
 \end{tabular}\end{center} 
-Table \ref{tab:{\chapterlabel}\thetablenewcounter} reports values for the boiling-point elevation and freezing-point depression for various solvents.
+Table \ref{tab:Table-Colligative} reports values for the boiling-point elevation and freezing-point depression for various solvents.
 

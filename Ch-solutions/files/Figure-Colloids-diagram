@@ -1,4 +1,4 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Colloids-diagram}
 %\caption{Classification of the matter}
 \hspace{-5cm}\vspace{-0.5cm}
 \begin{minipage}[b]{1.\linewidth}
@@ -34,6 +34,6 @@
 \end{tikzpicture}
 }
 \begin{tikzpicture}
- \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Classification of the mixtures };
+ \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Colloids-diagram} \end{bf} Classification of the mixtures };
 \end{tikzpicture}
 \end{center}\end{minipage}

@@ -1,11 +1,11 @@
  \begin{center}
 
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Solutions}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Types of solutions } \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Solutions} Types of solutions } \\
 \midrule
  \rowcolor{gray!10} Solute & Solvent & Solution state & Example\\
 \midrule
@@ -18,5 +18,5 @@ Solid	& \multicolumn{1}{c}{Liquid}&\multicolumn{1}{c}{Liquid} &\multicolumn{1}{c
 Solid	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid} &\multicolumn{1}{c}{Brass  } \\ 
  \bottomrule
 \end{tabular}\end{center} 
-Table \ref{tab:{\chapterlabel}\thetablenewcounter} reports different types of solutions with examples.
+Table \ref{tab:Table-Solutions} reports different types of solutions with examples.
 
