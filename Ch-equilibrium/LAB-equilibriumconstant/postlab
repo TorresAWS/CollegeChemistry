@@ -1,0 +1,59 @@
+
+ \begin{enumerate}
+
+
+\item The absorbance of a colored substance in a colorless liquid is measured at each of a series of wavelengths, and the data is given below:
+\begin{center}\begin{tabular}{ |c|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|p{0.2cm}|  }
+\hline
+$\lambda$(nm)  & 325 &350 &375 &400 &425 &450 &475 &500 &525    \\
+\hline
+$A$ & 0.016  &0.144 &0.341 &0.578 &0.681 &0.558 &0.281 &0.092 &0.031     \\
+\hline
+\end{tabular}\end{center}
+
+
+\begin{enumerate}
+\item Plot $A$ vs. $\lambda$ in the graph below.\vspace{0.4cm}
+\item Calculate the $\lambda$ value that gives a maximum $A$.\vspace{0.8cm}
+\end{enumerate}
+
+ \begin{center}
+ \begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (120mm,120mm);
+ \draw[step=10mm] (0,0) grid (120mm,120mm);
+\end{tikzpicture}\\
+\vspace{0.2cm}
+$\lambda (A_{max})=$\rule{5cm}{0.4pt}
+\end{center}
+
+
+
+ \item In parts A and B you use different iron and thiocyanate solutions: in part, A you use a 0.25M-\ce{Fe(NO3)2} solution and a $10^{-4}$M-\ce{KSCN} solution, whereas on part B you use a 0.0025M-\ce{Fe(NO3)2} solution and a 0.0025M-\ce{KSCN} solution. Explain why you do this.
+\vspace{5cm}
+
+\item You mix  5mL of \ce{Fe(NO3)3} 0.25 M  with 2mL of KSCN $10^{-4}$ M and 3mL of \ce{HNO3} 0.1 M. Calculate the initial concentration of \ce{SCN^{-}} in the mixture.
+\vspace{6cm}
+
+\item You mix  5mL of \ce{Fe(NO3)3} 0.25 M  with 4mL of KSCN $10^{-4}$ M and 1mL of \ce{HNO3} 0.1 M. Calculate the concentration of \ce{FeSCN^{2+}} in the mixture.
+\vspace{6cm}
+
+
+
+%\item Find the definition of the following concepts:
+%\begin{enumerate}
+%\item Equilibrium constant\vspace{1cm}
+%\item Le Ch\^atelier's Principle\vspace{1cm}
+%\item Light absorbance\vspace{1cm}
+%\item Wavelength\vspace{1cm}
+%\item Spectrophotometer\vspace{1cm}
+%\item Complex ion \vspace{1cm}
+%\end{enumerate}
+%\item Write the expression for Lambert-Beer's law and identify the different parameters.  \vspace{2cm}
+%\item Write the equilibrium expression for the reaction: \ce{Fe^{3+}(aq) + SCN^{-}(aq) <=> Fe(SCN)^{2+} (aq)} \vspace{2cm}
+
+
+\end{enumerate}
+
+
+
+

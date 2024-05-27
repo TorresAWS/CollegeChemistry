@@ -1,0 +1,86 @@
+\begin{enumerate}
+
+
+
+\item You prepare a solution by following the procedure described next. You first obtain about 15 mL of 0.0025 M KSCN in a 50 mL beaker. Then you transfer 4.00 mL into the volumetric flask. In a clean 100 mL beaker, you obtain about 100 mL of distilled water, and carefully add water to the volumetric flask directly from the beaker stopping before reaching the 100.0 mL mark. Finally, you use a plastic dropper to level the water to the mark, drop by drop.  Calculate the molarity of the solution you prepared.
+\vspace{5cm}
+
+
+
+\item You mix  1mL of \ce{Fe(NO3)3} 0.25 M  with 5mL of KSCN $10^{-4}$ M and 1mL of \ce{HNO3} 0.1 M. Calculate the initial concentration of \ce{Fe^{3+}} in the mixture.
+\vspace{5cm}
+
+
+
+
+
+
+ 
+
+
+ \item Write down the formula for the equilibrium constant in terms of concentration for the equilibrium below:
+\begin{align*} 
+\ce{Fe^{3+}}(aq) + \ce{SCN^-}(aq) &\ce{<=>} \ce{Fe(SCN)^{2+}}(aq)
+\end{align*}
+\vspace{2cm}
+
+
+\item A set of absorbances, $A$, for different concentrations, $c$, are given below.
+\begin{enumerate}
+\item Plot $A$ vs. $c$ in the graph below.\vspace{0.4cm}
+\item Compute the slope of the graph by using the formula:\\
+\[k=\frac{\sum c\cdot A}{\sum c^2}\]
+\vspace{0.4cm}
+
+
+
+\begin{center}\begin{tabular}{ |p{2cm}|p{2cm}|p{2cm}|p{2cm}| }
+\hline
+$c$ (M)  & $A$ & $c\cdot A$ (M) &  $c^2$ ($M^2$) \\
+\hline
+0.0120 & 0.681 &  &   \\
+\hline
+ 0.00960 & 0.540  &  &   \\
+\hline
+ 0.00720& 0.389  &  &   \\
+\hline
+0.00480 &0.270  &  &   \\
+\hline
+0.00240 &0.133  &  &   \\
+\hline\hline
+  \multicolumn{2}{|c|}{Sum} &  &    \\
+\hline\hline
+  \multicolumn{2}{|c|}{$k$ ($M^{-1}$)} &  \multicolumn{2}{c|}{ }    \\
+\hline
+\end{tabular}\end{center}
+
+\begin{center}
+ \begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (120mm,120mm);
+ \draw[step=10mm] (0,0) grid (120mm,120mm);
+\end{tikzpicture}
+\end{center}
+
+\item After calculating $k$, now write down the formula for absorbance in the form: $A=k\cdot c$
+
+
+\end{enumerate}
+
+
+
+
+%\item Find the definition of the following concepts:
+%\begin{enumerate}
+%\item Equilibrium constant\vspace{1cm}
+%\item Le Ch\^atelier's Principle\vspace{1cm}
+%\item Light absorbance\vspace{1cm}
+%\item Wavelength\vspace{1cm}
+%\item Spectrophotometer\vspace{1cm}
+%\item Complex ion \vspace{1cm}
+%\end{enumerate}
+%\item Write the expression for Lambert-Beer's law and identify the different parameters.  \vspace{2cm}
+%\item Write the equilibrium expression for the reaction: \ce{Fe^{3+}(aq) + SCN^{-}(aq) <=> Fe(SCN)^{2+} (aq)} \vspace{2cm}
+
+
+
+\end{enumerate}

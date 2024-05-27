@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,13 +661,8 @@ ks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))
 
-LaTeX Warning: Writing file `./calor'.
-
-\openout15 = `calor.tex'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
+LaTeX Warning: File `calor' already exists on the system.
+               Not generating it from this source.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -2524,9 +2519,8 @@ Package: filehook 2011/10/12 v0.5d Hooks for input files
 \c@currfiledepth=\count402
 )
 \sa@out=\write7
-Package standalone Info: STA file not found! on input line 542.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/gincltex/gincltex.sty
+(./LAB.sta) (/usr/local/texlive/2016/texmf-dist/tex/latex/gincltex/gincltex.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
@@ -4095,8 +4089,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \setchemformula with sig. 'm' on line 3245.
 .................................................
-)
-No file LAB.aux.
+) (./LAB.aux)
 \openout1 = `LAB.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1784.
@@ -4116,6 +4109,7 @@ LaTeX Font Info:    ... okay on input line 1784.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1784.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 178
 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
@@ -4268,6 +4262,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 1784.
+ (./LAB.sta)
 \openout7 = `LAB.sta'.
 
 
@@ -4293,6 +4288,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'LAB.bbl' not found.
 
 No file LAB.bbl.
+Package biblatex Info: ... file 'LAB1-blx.bbl' not found.
+No file LAB1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1784.
 Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4305,7 +4302,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 1784.
- (./LAB-lechatelier/lechatelier.tex
+ (./LAB-equilibriumconstant/equilibriumconstant.tex
 \blx@maxsegment@1=\count589
 \blx@sectionciteorder@1=\count590
 Package biblatex Info: Reference section=1 on input line 3.
@@ -4321,89 +4318,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
-(./LAB-lechatelier/title)
+(./LAB-equilibriumconstant/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
- []\T1/futs/b/n/24.88 Le Ch‚te-lier's Prin-ci-ple 
+ []\T1/futs/b/n/24.88 Equilibrium con-stant 
  []
 
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(./LAB-lechatelier/goal
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
-
-Underfull \hbox (badness 7981) in paragraph at lines 4--5
- []\T1/futs/m/n/10 Any change in sta-tus quo prompts an op-pos-ing re-ac-tion i
-n the re-spond-ing sys-tem. 
- []
-
-) (./LAB-lechatelier/background
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
+(./LAB-equilibriumconstant/goal) (./LAB-equilibriumconstant/background
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 3.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
+(Font)              scaled to size 9.19998pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
+(Font)              scaled to size 6.99199pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+(Font)              scaled to size 5.51999pt on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
+(Font)              scaled to size 9.19998pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
+(Font)              scaled to size 6.99199pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+(Font)              scaled to size 5.51999pt on input line 3.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-Overfull \hbox (22.14174pt too wide) in paragraph at lines 9--10
-\T1/futs/m/n/10 The ex-per-i-ment to-day is di-vided into the fol-low-ing parts
-: col-ored com-plexed ions ($[][][]$), col-ored com-plexed ions ($[][][][][][][
-][][][][]$),
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+ []$[]$ \T1/futs/m/n/10 + $[]$$[] [] []$$[]$ + $[]$ 
  []
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 12.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 12.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 12.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 12.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 12.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 12.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 33.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 33.
+
+Overfull \hbox (13.2651pt too wide) in paragraph at lines 12--13
+\T1/futs/m/n/10 con-tain-ing only the sol-vent with-out a so-lute. The blank es
+-tab-lishes the base-line of the mea-sure-ment, elim-i-nat-ing any ab-sorbance
+ []
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 21.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -4433,43 +4407,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
- []$[]$ \T1/futs/m/n/10 + $[][][][]$$\U/msa/m/n/10 
- []$ \T1/futs/m/n/10 + $[][][][][][]$ 
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 31.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 31.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 31.
+
+Overfull \hbox (16.96892pt too wide) in paragraph at lines 48--49
+\T1/futs/m/n/10 Using the ab-sorbance mea-sured and the value of $\FML/futmi/m/
+it/10 k[]$\T1/futs/m/n/10 , in this sec-ond part of the ex-per-i-ment you will 
+cal-cu-late the con-cen-tra-tion
  []
 
-(./LAB-lechatelier/examplebox
-Package mdframed Info: mdframed works in twoside mode on input line 2.
+
+Overfull \hbox (3.83505pt too wide) in paragraph at lines 48--49
+\T1/futs/m/n/10 in equi-lib-rium of all species in-volved in the equi-lib-rium.
+ First, the con-cen-tra-tion of the prod-uct will de-pend on the ab-sorbance,
+ []
 
 
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 2 undefined on input line 13
-.
+Underfull \hbox (badness 3219) in paragraph at lines 52--58
+ [][] 
+ []
 
-))
+)
 
 LaTeX Warning: Empty bibliography on input line 22.
 
-(./LAB-lechatelier/procedure
+(./LAB-equilibriumconstant/procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 7.
+(Font)              scaled to size 19.08076pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 7.
+(Font)              scaled to size 13.24796pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 7.
+(Font)              scaled to size 19.08076pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 7.
- (./LAB-lechatelier/goodlabpractice
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]\T1/futs/m/n/10 Concentrated so-lu-tions of am-mo-nia, sodium hy-drox-ide and
- hy-drochlo-ric acid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\T1/futs/m/n/10 Do not shake open test tubes. Do not use your fin-gers as sto
-p-pers, even if you
- []
-
+(Font)              scaled to size 13.24796pt on input line 3.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -4496,7 +4476,48 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2])
+[2] (./LAB-equilibriumconstant/goodlabpractice
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/futs/m/n/10 Pipettes are al-ways used to-gether with a suc-tion bulb or a
+ sy-ringe. \T1/futs/b/n/10 Never \T1/futs/m/n/10 suck a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T1/futs/b/n/10 Never \T1/futs/m/n/10 leave a pipette ly-ing on the ta-ble \T
+1/futs/b/n/10 while con-nected to the sy-ringe\T1/futs/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/futs/m/n/10 Re-main-ing liq-uid can leak into the sy-ringe. The sy-ringe wi
+ll be dam-aged and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/futs/m/n/10 Always wash pipettes with dis-tilled wa-ter and rinse them us
+-ing the same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/futs/m/n/10 prod-uct to be mea-sured. Suck a small vol-ume, dis-con-nect th
+e sy-ringe and move
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/futs/m/n/10 the liq-uid about, dis-plac-ing the dis-tilled wa-ter. Dis-card
+ the rins-ing liq-uid as
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 17--17
+ [][] 
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4522,7 +4543,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3])
+[3] (./LAB-equilibriumconstant/goodlabpractice2
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/futs/m/n/10 For best re-sults, use the same cu-vette, with the same ori-e
+n-ta-tion, for all the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T1/futs/m/n/10 Keep the outer walls of the cu-vette clean. Do not touch them
+. Wipe them with a
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
+
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4549,6 +4587,113 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
+
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[6]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -4591,130 +4736,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-lechatelier/title)
+(./LAB-equilibriumconstant/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--40
- []\T1/futs/b/n/24.88 Le Ch‚te-lier's Prin-ci-ple 
+ []\T1/futs/b/n/24.88 Equilibrium con-stant 
  []
 
-(./LAB-lechatelier/prelab) [5
+(./LAB-equilibriumconstant/prelab [7
 
 
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[6
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=398.3151pt
-* \textheight=556.47656pt
-* \oddsidemargin=1.44614pt
-* \evensidemargin=69.99379pt
-* \topmargin=-6.94011pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
- []\T1/futs/b/n/12 Results 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
- []\T1/futs/b/n/12 EXPERIMENT 
- []
-
-(./LAB-lechatelier/title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--48
- []\T1/futs/b/n/24.88 Le Ch‚te-lier's Prin-ci-ple 
- []
-
-(./LAB-lechatelier/results
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
- []$[]$ \T1/futs/m/n/10 + $[][][][]$$[][]\FMS/futm/m/n/10 ! []$ \T1/futs/m/n/10
- + $[][][][][][]$ 
- []
-
-
-Overfull \hbox (29.2752pt too wide) in paragraph at lines 40--47
-[] 
- []
-
-[7
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
- [] 
+Underfull \hbox (badness 3000) in paragraph at lines 61--62
+ [][] 
  []
 
 )
@@ -4777,32 +4815,355 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+ []\T1/futs/b/n/12 Results 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+ []\T1/futs/b/n/12 EXPERIMENT 
+ []
+
+(./LAB-equilibriumconstant/title) (./LAB-equilibriumconstant/results
+Overfull \hbox (10.33481pt too wide) in paragraph at lines 9--9
+ []|$[][][][][][][][][]$| 
+ []
+
+
+Overfull \hbox (6.28844pt too wide) in paragraph at lines 9--9
+ []|\T1/futs/m/n/10 [$[][][]$]$[]$| 
+ []
+
+
+Overfull \hbox (14.0084pt too wide) in paragraph at lines 9--9
+ []|$[][][][][]$| 
+ []
+
+) (./LAB-equilibriumconstant/results2
+Overfull \hbox (23.71532pt too wide) in paragraph at lines 5--28
+ [][] 
+ []
+
+) [9]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[10]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[11
+
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[12
+
+
+]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 99--99
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 99.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+ []\T1/futs/m/n/9 Figure 1: |[]Column 6 [$[][][][][][][]$] (X axis) vs. A Col-u
+mn 7 (Y axis)| 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[13
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[14
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-lechatelier/title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--55
- []\T1/futs/b/n/24.88 Le Ch‚te-lier's Prin-ci-ple 
+(./LAB-equilibriumconstant/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--111
+ []\T1/futs/b/n/24.88 Equilibrium con-stant 
  []
 
-(./LAB-lechatelier/postlab [9
+(./LAB-equilibriumconstant/postlab
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 325| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 350| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 375| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 400| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 425| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 450| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 475| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--8
+[]|\T1/futs/m/n/10 500| 
+ []
+
+
+Overfull \hbox (8.94951pt too wide) in paragraph at lines 8--9
+[]|\T1/futs/m/n/10 525| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.016| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.144| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.341| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.578| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.681| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.558| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.281| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--10
+[]|\T1/futs/m/n/10 0.092| 
+ []
+
+
+Overfull \hbox (16.2695pt too wide) in paragraph at lines 10--11
+[]|\T1/futs/m/n/10 0.031| 
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 24--24
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+ []$\FML/futmi/m/it/10 ^^U\T1/futs/m/n/10 (\FML/futmi/m/it/10 A[]\T1/futs/m/n/1
+0 ) \FMS/futm/m/n/10 Å$[] 
+ []
+
+[15
+
 
 
 
 ])
-Package biblatex Info: Reference section=0 on input line 61.
-)
-
-Package lastpage Warning: Rerun to get the references right on input line 1789.
-
-
-
+Package biblatex Info: Reference section=0 on input line 117.
+) 
 AED: lastpage setting LastPage
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4830,7 +5191,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[10]
+[16]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
@@ -4846,15 +5207,7 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                LAB
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
@@ -4862,27 +5215,29 @@ Package logreq Info: Writing requests to 'LAB.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1789.
  ) 
 Here is how much of TeX's memory you used:
- 70520 strings out of 493014
- 1553991 string characters out of 6133351
- 2322388 words of memory out of 5000000
- 72655 multiletter control sequences out of 15000+600000
- 177208 words of font info for 179 fonts, out of 8000000 for 9000
+ 70441 strings out of 493014
+ 1550826 string characters out of 6133351
+ 2365396 words of memory out of 5000000
+ 72555 multiletter control sequences out of 15000+600000
+ 169957 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,21n,105p,10411b,1644s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,22n,101p,10411b,1466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adob
-e/utopia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopi
-a/putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (10 pages, 152403 bytes).
+adobe/utopia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/u
+topia/putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
+utri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pf
+b>
+Output written on LAB.pdf (16 pages, 152100 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 57 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
