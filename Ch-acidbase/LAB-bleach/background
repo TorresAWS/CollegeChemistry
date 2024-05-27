@@ -1,0 +1,67 @@
+The properties of chlorine for bleaching fabrics were discovered in the 18th century by the French scientist Claude Berthollet. He was able to make an aqueous solution of sodium hypochlorite which was named after the quarter in Paris where it was produced, Javel. \textit{Eau de Javel} (Javel water) is still used in French to name bleach. 
+
+At the beginning of the 18th century, the pharmacist Antoine Germain Labarraque discovered the disinfecting ability of another hypochlorite solution, this time calcium hypochlorite. The so-called "Eau de Labarraque" was employed in the disinfection of animal guts to make musical instrument strings. Hypochlorite was the first antiseptic product, helping to treat gangrene and putrescent wounds in people in the 1820s, and ending with the propagation of "cadaveric particles" in morgues.
+
+Nowadays bleach is a common product at home, used to whiten clothes, remove stains, and as a disinfectant. Because of its strong bactericidal properties, hypochlorite is also used for disinfecting and to prevent the proliferation of algae in swimming pools.  Bleach can be consumed. The CDC recommends adding eight drops of bleach per gallon of clear water. For cloudy water, the bleach quantity should be doubled to 16 drops per gallon.
+Bleach can be found in powder form as well, in the form of Bleaching powder. This is indeed, a solid combination of chlorine and slaked lime, introduced in 1799 by Scottish chemist Charles Tennant.
+
+\subsection*{Chlorine}
+
+Chlorine forms four different polyatomic anions with oxygen:
+\begin{center}
+\ce{ClO-}(hypochlorite)\hspace{1cm}
+ \ce{ClO2-}  (chlorite)\hspace{1cm}
+ \ce{ClO3-}  (chlorate)\hspace{1cm}
+ \ce{ClO4-}  (perchlorate)\hspace{1cm}
+\end{center}
+
+These are called \textbf{oxoanions} and illustrate 4 possible oxidation states of chlorine atoms; +1, +3, +5, and +7 respectively. When the oxidation state of the chlorine decreases, for instance going from \ce{ClO4-} to \ce{ClO3-} (+7 $\rightarrow$ +5), it reduces. For reduction to happen another species must be oxidized. Chlorine is then acting as the \textbf{oxidizing agent}. Perchlorate it is the strongest oxidizing agent of the 4 oxoanions, but even \ce{ClO-} can still be reduced to Cl- (Cl oxidation state -1).
+
+\subsection*{The first oxidation}
+
+To determine the concentration of \ce{ClO-}, two consecutive oxidation-reduction reactions will be performed. In the first reaction, all the \ce{ClO-} present in the sample will be oxidized into \ce{Cl-}. The \textbf{oxidizing agent} will be \ce{I-}, which will be in turn reduced into \ce{I2}. The reaction, carried out in an acidic medium, will read as:
+
+\begin{center} 
+\ce{H^+_{(aq)} + ClO^-_{(aq)} + I^-_{(aq)} -> I2_{(s)} + Cl^-_{(aq)} + H2O_{(l)}} \hspace{1cm}{\danger\quad \small (unbalanced)}
+
+\end{center}
+
+The reaction above is not balanced. You can determine the number of electrons being transferred using the oxidation states to help you balance the reaction. An excess amount of \ce{I-} will be used to ensure that all the \ce{ClO-} is oxidized. The iodine (\ce{I2}) formed in this reaction will be therefore limited by the amount of hypochlorite present in the sample. Keep in mind that the amount of hypochlorite is what we want to determine, and it can be stoichiometrically calculated from the amount of iodine produced. In the following step, the amount of \ce{I2} will be determined using an oxidation-reduction titration. The solution might turn slightly brownish due to the presence of a Lewis complex between iodine and water.
+
+\subsection*{The oxidation-reduction titration}
+
+The titration to be performed accounts for the following redox reaction:
+
+\begin{center} 
+\ce{I2_{(s)} + S2O3^{2-}_{(aq)} ->  I^-_{(aq)}   + S4O6^{2-}_{(aq)} } \hspace{1cm}{\danger\quad \small (unbalanced)}
+\end{center}
+
+Again, this reaction is not balanced. Iodine (\ce{I2}) is reduced back to iodide \ce{I-}. Thiosulfate \ce{S2O3^{2-}}is the reducing agent, being itself oxidized into tetrathionate ions (\ce{S4O6^{2-}}). The titration endpoint will be determined by adding starch as an indicator at the beginning of the reaction. Remember from previous experiments that starch and \ce{I2} react turning the solution into a dark blue color, therefore, the titration should be stopped when all the iodine has been reduced and the solution becomes transparent.
+
+
+
+
+
+\subsection*{Redox reactions}
+\import{./LAB-bleach/Ch-electrolytes-files/}{SectionIntro-Redox-reactions}
+   \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Oxidation-state-or-redox-number}
+   \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Rules-to-calculate-redox-numbers}
+   \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Calculating-the-redox-number}
+   \import{./LAB-bleach/}{examplebox}
+
+ % \import{../\chapterlabel/problems/}{SampleProblem13}
+  \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Redox-means-oxidation-and-reduction}
+   \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Redox-numbers-in-chemical-reactions}
+    \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Balancing-simple-redox-reactions}
+  \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Balancing-redox-reactions-in-acidic-medium}
+% \import{../\chapterlabel/problems/}{SampleProblem14}
+   \import{./LAB-bleach/Ch-electrolytes-files/}{SubSection-Redox-reactions-Balancing-redox-reactions-in-basic-medium}
+    \import{./LAB-bleach/}{examplebox2}
+
+
+
+
+
+
+\subsection*{The experiment}
+The experimental part consists of a trial titration and an exact titration. The trial titration will be used to estimate the volume added at the endpoint of the titration. It is conducted quickly, adding portions of 1 mL until the endpoint is exceeded. The final result is not used for calculations. In the exact titration, an initial amount is added rapidly. This amount is calculated by subtracting 5 mL from the volume used in the trial titration. Like this it is possible to stop before the endpoint of the titration and to continue carefully, adding the titrant on a drop-by-drop basis until the precise endpoint. If time allows, the exact titration should be repeated and the mean volume used in calculations.
