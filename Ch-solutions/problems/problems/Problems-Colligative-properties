@@ -48,6 +48,13 @@ Calculate the freezing point depression of a 2m \ce{I2} solution on benzene. $T^
 -9.8$^{\circ}$C
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the freezing point depression of a 2m \ce{C6H12} solution on benzene. $T^{solvent}_f$=5.5$^{\circ}$C and $k_f$=4.9$^{\circ}$C/m.
+\end{question}
+\begin{solution}
+-9.8$^{\circ}$C
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
