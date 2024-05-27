@@ -60,7 +60,7 @@
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
 \textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
 {\color{RosyBrown}\Large AN OPENTEXTBOOK} \\ % Tagline or further description
-{\color{Magenta}Version 2.9 - {\today}} \\ % for 202
+{\color{Magenta}Version 3.0 - {\today}} \\ % for 202
 %{\color{Magenta}Version 2.7 - 2022} \\ % for 201
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
 
@@ -851,14 +851,14 @@ roundcorner=5pt
 
 \usetikzlibrary{fadings,patterns,fit}
 
-%% use stamp.png to make a fading (a mask)
-%\begin{tikzfadingfrompicture}[name=stamp]
-%  \node [fill=transparent!0,inner sep=0]
-%  {\includegraphics[width=50pt,height=50pt]{stamp.png}};
-%  \begin{scope}[yshift=-90pt,transform canvas={scale=.2}]
-%    \node[color=gray!50!black,font=\ttfamily] {\today};
-%  \end{scope}
-%\end{tikzfadingfrompicture}
+% use stamp.png to make a fading (a mask)
+\begin{tikzfadingfrompicture}[name=stamp]
+  \node [fill=transparent!0,inner sep=0]
+  {\includegraphics[width=50pt,height=50pt]{stamp.png}};
+  \begin{scope}[yshift=-90pt,transform canvas={scale=.2}]
+    \node[color=gray!50!black,font=\ttfamily] {\today};
+  \end{scope}
+\end{tikzfadingfrompicture}
 
 \pgfdeclarehorizontalshading[mycolor]{stampshading}
   {4cm}{
@@ -1826,23 +1826,26 @@ cherry/.pic={
 %
 %%
 %
-%%
+%
 %%%%%CHEM 202
 %
 %\clearpage\mbox{}\clearpage
 \newpage\section{Isomers }\subfile{../Ch-orgo/LAB-isomers/isomers.tex }
-\newpage  \section{Conductivity of electrolyte solutions }\subfile{../Ch-electrolytes/LAB-conductivity/conductivity.tex }
-\newpage  \section{Hard water }\subfile{../Ch-electrolytes/LAB-hardwater/hardwater.tex }
-\newpage  \section{Freezing point depression }\subfile{../Ch-electrolytes/LAB-freezingpointdepression/freezingpointdepression.tex }
+\newpage  \section{Conductivity of electrolyte solutions }\subfile{../Ch-solutions/LAB-conductivity/conductivity.tex }
+\newpage  \section{Hard water }\subfile{../Ch-solutions/LAB-hardwater/hardwater.tex }
+\newpage  \section{Freezing point depression }\subfile{../Ch-solutions/LAB-freezingpointdepression/freezingpointdepression.tex }
 \newpage  \section{The iodine clock }\subfile{../Ch-kinetics/LAB-clockreaction/clockreaction.tex }
 \newpage  \section{Le Ch\^atelier's Principle}\subfile{../Ch-equilibrium/LAB-lechatelier/lechatelier.tex }
 \newpage  \section{Equilibrium constant}\subfile{../Ch-equilibrium/LAB-equilibriumconstant/equilibriumconstant.tex }
 \newpage  \section{Titration curve}\subfile{../Ch-acidbase/LAB-titration-curve/titration-curve.tex }
+
 \newpage  \section{Bleach Strength}\subfile{../Ch-acidbase/LAB-bleach/bleach.tex }
 \newpage\section{Relative strength of some acids}\subfile{../Ch-acidbase/LAB-relativestrenthofacids/relativestrenthofacids.tex}
+
 \newpage \section{Entropy and spontaneity}\subfile{../Ch-thermo/LAB-entropy/entropy.tex }
 \newpage  \section{A Solubility Product Constant: Solubility product calculation}\subfile{../Ch-solubility/LAB-solubilityproduct/solubilityproduct.tex }
-\clearpage\mbox{}\clearpage \section{Electrochemistry: galvanic cells}\subfile{../Ch-electrochem/LAB-LAB-electrochem/electrochem.tex }
+\clearpage\mbox{}\clearpage \section{Electrochemistry: galvanic cells}\subfile{../Ch-electrochem/LAB-electrochem/electrochem.tex }
+
 \renewcommand\labname{../\texbooklabel/LAB-nuclear}\renewcommand\texbooklabel{Ch-nuclear}\renewcommand\pathtofiles{../\texbooklabel/}
 \section{Radioactivity: half-life of K-40}\subfile{../\texbooklabel/Lab-nuclear/Lab-nuclear.tex }
 
@@ -1896,7 +1899,7 @@ cherry/.pic={
 %\clearpage\mbox{}\clearpage
 %\clearpage\mbox{}\clearpage
 %\clearpage\mbox{}\clearpage
-\subfile{./periodictable/periodictable2.tex}\newpage
+\subfile{./periodictable/periodictableLAB.tex}\newpage
 \clearpage\mbox{}\clearpage
 
 %\thispagestyle{empty}\subfile{cover/back.tex}
