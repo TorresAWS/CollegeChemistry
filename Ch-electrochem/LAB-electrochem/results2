@@ -1,0 +1,48 @@
+\begin{center}\begin{tabular}{ |m{1.5cm}|m{0.3cm}|m{0.5cm}|m{2.7cm}|m{0.5cm}|m{2.6cm}|m{0.5cm}|m{3.5cm}|m{0.5cm}|  }			% ! placing m alignment for the 2nd column aligns the rest better !
+
+\hline
+  \rowcolor{lightgray}     \multicolumn{9}{|c|}{Part B}   \\
+\hline
+      \multicolumn{2}{|c|}{Electrodes} &$\Delta\mathcal{E}_{exp}$ &Cathodic reaction &$\mathcal{E}^{\circ}_{cath}$&Anodic reaction   &$$\mathcal{E}^{\circ}_{anod}$$ & \multicolumn{1}{c|}{ Total reaction}  &$\Delta\mathcal{E}^{\circ}$ \\
+       \multicolumn{2}{|c|}{ }&    \multicolumn{1}{c|}{\mycircled{1}} &  \multicolumn{1}{c|}{\mycircled{2}}&\multicolumn{1}{c|}{\mycircled{3}}  &  \multicolumn{1}{c|}{\mycircled{4}} &   \multicolumn{1}{c|}{\mycircled{5}}      &  \multicolumn{1}{c|}{\mycircled{6}} &  \multicolumn{1}{c|}{\mycircled{7}}\\
+   \hline
+   \multicolumn{2}{|l|}{ Zn\textemdash \ce{Fe^{3+}}+\ce{Fe^{2+} }}  &   &&  &   &      &&\\[.5cm]  \hline
+   \multicolumn{2}{|l|}{ \ce{Fe,\ce{Fe^{2+}} }\textemdash \ce{Fe^{3+}}+\ce{Fe^{2+} }}   &   &&      &    & &&\\[.5cm]  \hline
+   \multicolumn{2}{|l|}{ \ce{Cu^{2+}(0.01M) }\textemdash\ce{Cu^{2+} (0.1M) } }   &   &&      &    & &&\\[.5cm]  \hline
+   \multicolumn{2}{|l|}{ \ce{Cu^{2+}(0.01M)$^*$ }\textemdash\ce{Cu^{2+} (0.1M) } }   &   &&  &   &&      &\\[.5cm]
+   \hline  
+   \multicolumn{3}{l}{$^*$ After adding 10 drops of \ce{Cu^{2+} (0.1M)} } & \multicolumn{3}{l}{$^{**}$ Use the temperature value of 298K  } &\multicolumn{3}{l}{ }\\
+\end{tabular}
+\end{center}
+
+
+\begin{center}\begin{tabular}{ |m{1.5cm}|m{0.3cm}|m{0.5cm}|m{2.7cm}|m{0.5cm}|m{2.6cm}|  }                    % ! placing m alignment for the 2nd column aligns the rest better !
+\hline
+  \rowcolor{lightgray}     \multicolumn{6}{|c|}{Part C}   \\
+\hline 
+      \multicolumn{1}{|c}{$PH_0$} &  \multicolumn{1}{|c}{$PH_f$} &   \multicolumn{1}{|c}{$\left[ \ce{OH^-}\right]_{0}$} &   \multicolumn{1}{|c}{$\left[ \ce{OH^-}\right]_{f}$} &   \multicolumn{1}{|c}{$\Delta\left[ \ce{OH^-}\right]$} &     \multicolumn{1}{|c|}{$I$} \\[.5cm]
+      
+             \multicolumn{1}{|c}{\mycircled{9} }& 
+             \multicolumn{1}{|c}{\mycircled{9} }& 
+             \multicolumn{1}{|c}{\mycircled{10} }& 
+             \multicolumn{1}{|c}{\mycircled{10} }& 
+                  \multicolumn{1}{|c}{\mycircled{11}}  &
+                           \multicolumn{1}{|c|}{\mycircled{12}}\\
+
+      
+      
+   \hline    
+            \multicolumn{1}{|c}{ } &  \multicolumn{1}{|c}{ } &   \multicolumn{1}{|c}{ } &   \multicolumn{1}{|c}{ } &   \multicolumn{1}{|c}{ } &     \multicolumn{1}{|c|}{ } \\[.5cm]
+ \hline
+      
+%      \multicolumn{2}{|c|}{Electrodes} &$\Delta\mathcal{E}_{exp}$ &Cathodic reaction &$\mathcal{E}^{\circ}_{cath}$&Anodic reaction   &$$\mathcal{E}^{\circ}_{anod}$$ & \multicolumn{1}{c|}{ Total reaction}  &$\Delta\mathcal{E}^{\circ}$ \\
+%       \multicolumn{2}{|c|}{ }&    \multicolumn{1}{c|}{\mycircled{1}} &  \multicolumn{1}{c|}{\mycircled{2}}&\multicolumn{1}{c|}{\mycircled{3}}  &  \multicolumn{1}{c|}{\mycircled{4}} &   \multicolumn{1}{c|}{\mycircled{5}}      &  \multicolumn{1}{c|}{\mycircled{6}} &  \multicolumn{1}{c|}{\mycircled{7}}\\
+%   \hline
+%   \multicolumn{2}{|l|}{B) Zn\textemdash \ce{Fe^{3+}}+\ce{Fe^{2+} }}  &   &&  &   &      &&\\[.5cm]  \hline
+%   \multicolumn{2}{|l|}{B) \ce{Fe,\ce{Fe^{2+}} }\textemdash \ce{Fe^{3+}}+\ce{Fe^{2+} }}   &   &&      &    & &&\\[.5cm]  \hline
+%   \multicolumn{2}{|l|}{B) \ce{Cu^{2+}(0.01M) }\textemdash\ce{Cu^{2+} (0.1M) } }   &   &&      &    & &&\\[.5cm]  \hline
+%   \multicolumn{2}{|l|}{B) \ce{Cu^{2+}(0.01M)$^*$ }\textemdash\ce{Cu^{2+} (0.1M) } }   &   &&  &   &&      &\\[.5cm]
+%   \hline
+%   \multicolumn{3}{l}{$^*$ After adding 10 drops of \ce{Cu^{2+} (0.1M)} } & \multicolumn{3}{l}{$^{**}$ Use the temperature value of 298K  } &\multicolumn{3}{l}{ }\\
+\end{tabular}
+\end{center}
