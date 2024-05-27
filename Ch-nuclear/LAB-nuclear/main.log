@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 JAN 2024 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 09:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4531,18 +4531,6 @@ LaTeX Warning: Empty bibliography on input line 26.
 
 (./procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 3.
@@ -4550,12 +4538,18 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 3.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 3.
-
-Overfull \hbox (2.91113pt too wide) in paragraph at lines 8--9
-[]\T1/futs/m/n/10 ^^U Set up the mea-sure-ment time to 60 sec-onds and the mea-
-sur-ing volt-age ac-cord-ing to your pro-fes-sor's in-struc-tions.
- []
-
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 8.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 8.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 8.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -4583,6 +4577,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [4]
+Overfull \hbox (2.91113pt too wide) in paragraph at lines 14--15
+[]\T1/futs/m/n/10 ^^U Set up the mea-sure-ment time to 60 sec-onds and the mea-
+sur-ing volt-age ac-cord-ing to your pro-fes-sor's in-struc-tions.
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4609,7 +4609,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
@@ -4781,36 +4786,8 @@ s/m/n/10 ($[][][][]$) in atoms=[]
  []
 
 
-Overfull \hbox (18.77045pt too wide) in paragraph at lines 17--31
+Overfull \hbox (18.77045pt too wide) in paragraph at lines 17--32
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
- [][]    $\FML/futmi/m/it/10 t[]$ \T1/futs/m/n/10 (years)=[]  []  $\FML/futmi/m
-/it/10 t[]$ \T1/futs/m/n/10 (years)=[]  []  % error=[] 
- []
-
-) (./results1
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
- [][]    \T1/futs/m/n/10 m ($[]$) in g=[]  []    $\FML/futmi/m/it/10 N$ \T1/fut
-s/m/n/10 ($[][][][]$) in atoms=[] 
- []
-
-
-Overfull \hbox (18.77045pt too wide) in paragraph at lines 4--15
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
- [][]    \T1/futs/m/n/10 m ($[]$) in g=[]  []    $\FML/futmi/m/it/10 N$ \T1/fut
-s/m/n/10 ($[][][][]$) in atoms=[] 
- []
-
-
-Overfull \hbox (18.77045pt too wide) in paragraph at lines 20--31
-[] 
  []
 
 
@@ -4819,15 +4796,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
 s/m/n/10 ($[][][][]$) in atoms=[] 
  []
 
+)
+Overfull \hbox (18.77045pt too wide) in paragraph at lines 37--93
+[]
+ []
 
-Overfull \hbox (18.77045pt too wide) in paragraph at lines 37--48
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--93
+
+ []
+
+(./results1
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+ [][]    \T1/futs/m/n/10 m ($[]$) in g=[]  []    $\FML/futmi/m/it/10 N$ \T1/fut
+s/m/n/10 ($[][][][]$) in atoms=[] 
+ []
+
+
+Overfull \hbox (18.77045pt too wide) in paragraph at lines 18--27
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
- [][]    $\FML/futmi/m/it/10 t[]$ \T1/futs/m/n/10 (years)=[]  []  $\FML/futmi/m
-/it/10 t[]$ \T1/futs/m/n/10 (years)=[]  []  % error=[] 
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+ [][]    \T1/futs/m/n/10 m ($[]$) in g=[]  []    $\FML/futmi/m/it/10 N$ \T1/fut
+s/m/n/10 ($[][][][]$) in atoms=[] 
+ []
+
+
+Overfull \hbox (18.77045pt too wide) in paragraph at lines 33--43
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--60
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+ [][]    $[][]$ \T1/futs/m/n/10 (years)=[]  []  $\FML/futmi/m/it/10 t[]$ \T1/fu
+ts/m/n/10 (years)=[]  []  % error=[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+ [][]    $\FML/futmi/m/it/10 t[]\T1/futs/m/n/10 (\FML/futmi/m/it/10 LR\T1/futs/
+m/n/10 )$ (years)=[]  []  $\FML/futmi/m/it/10 t[]$ \T1/futs/m/n/10 (years)=[]  
+[]  % error=[] 
  []
 
 ) [9]
@@ -4891,11 +4907,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 113.
+(caption)                particular \caption on input line 115.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
  []\T1/futs/m/n/9 Figure 2: |[]$[]$ cps (Y axis) vs. N (X axis)| 
  []
 
@@ -4961,17 +4977,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--119
+Underfull \hbox (badness 10000) in paragraph at lines 1--121
  []\T1/futs/b/n/24.88 Radioactivity: half-life of K-40 
  []
 
@@ -5019,7 +5035,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [14
 
 ]
-Package biblatex Info: Reference section=0 on input line 124.
+Package biblatex Info: Reference section=0 on input line 126.
 ) 
 AED: lastpage setting LastPage
 
@@ -5045,13 +5061,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1786.
  ) 
 Here is how much of TeX's memory you used:
- 71074 strings out of 493014
- 1572502 string characters out of 6133351
- 2359101 words of memory out of 5000000
- 73028 multiletter control sequences out of 15000+600000
+ 71077 strings out of 493014
+ 1572527 string characters out of 6133351
+ 2360098 words of memory out of 5000000
+ 73027 multiletter control sequences out of 15000+600000
  231678 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,28n,101p,10412b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,28n,101p,10412b,1661s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2016/te
@@ -5066,10 +5082,10 @@ tr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (14 pages, 204088 bytes).
+Output written on main.pdf (14 pages, 206398 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 88 named destinations out of 1000 (max. 500000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
  320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
