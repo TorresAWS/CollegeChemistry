@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAR 2024 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5771,6 +5771,10 @@ LaTeX Warning: Unused global option(s):
 
 (./Ch-solutions.aux
 
+LaTeX Warning: Label `Fig:Figure-diagram-molarity-molalilty-new' multiply defin
+ed.
+
+
 LaTeX Warning: Label `Ch-solutions:equation16' multiply defined.
 
 )
@@ -6055,12 +6059,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Solutions-in-terms-of-
-phase-and-solubility
-
-LaTeX Warning: Reference `tab:Table-Solutions' on page 1 undefined on input lin
-e 2.
-
-) (../Ch-solutions/files/Table-Solutions
+phase-and-solubility) (../Ch-solutions/files/Table-Solutions
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -6091,27 +6090,15 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-LaTeX Warning: Reference `tab:Table-Solutions' on page 1 undefined on input lin
-e 8.
-
-
-LaTeX Warning: Reference `tab:Table-Solutions' on page 1 undefined on input lin
-e 21.
-
 ) [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-s
 olutions/figure1.png>]
 (../Ch-solutions/files/Subsection-Solutions-and-colloids-Solutions)
-(../Ch-solutions/files/Subsection-Solutions-and-colloids-Suspensions
-
-LaTeX Warning: Reference `Fig:Figure-Colloids-diagram' on page 2 undefined on i
-nput line 1.
-
-) (../Ch-solutions/files/Figure-Colloids-diagram
-<../Ch-solutions/seawater.jpg, id=175, 276.03125pt x 183.68625pt>
+(../Ch-solutions/files/Subsection-Solutions-and-colloids-Suspensions)
+(../Ch-solutions/files/Figure-Colloids-diagram
+<../Ch-solutions/seawater.jpg, id=178, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/seawater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/seawater.jpg>
 Package pdftex.def Info: ../Ch-solutions/seawater.jpg  used on input line 35.
@@ -6121,22 +6108,17 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 35.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-solutions/muddywater.jpg, id=176, 513.92pt x 289.08pt>
+<../Ch-solutions/muddywater.jpg, id=179, 513.92pt x 289.08pt>
 File: ../Ch-solutions/muddywater.jpg Graphic file (type jpg)
 <use ../Ch-solutions/muddywater.jpg>
 Package pdftex.def Info: ../Ch-solutions/muddywater.jpg  used on input line 35.
 
 (pdftex.def)             Requested size: 85.35774pt x 48.01373pt.
-<../Ch-solutions/milk.jpg, id=177, 79.9788pt x 79.9788pt>
+<../Ch-solutions/milk.jpg, id=180, 79.9788pt x 79.9788pt>
 File: ../Ch-solutions/milk.jpg Graphic file (type jpg)
 <use ../Ch-solutions/milk.jpg>
 Package pdftex.def Info: ../Ch-solutions/milk.jpg  used on input line 35.
 (pdftex.def)             Requested size: 82.51454pt x 82.51454pt.
-
-
-LaTeX Warning: Reference `Fig:Figure-Colloids-diagram' on page 2 undefined on i
-nput line 37.
-
 
 Overfull \hbox (103.12053pt too wide) in paragraph at lines 6--39
  [] 
@@ -6148,12 +6130,12 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 6--39
  []
 
 ) (../Ch-solutions/files/SideFigure-Colloids
-<../Ch-solutions/tyndall1.png, id=178, 287.0725pt x 166.6225pt>
+<../Ch-solutions/tyndall1.png, id=182, 287.0725pt x 166.6225pt>
 File: ../Ch-solutions/tyndall1.png Graphic file (type png)
 <use ../Ch-solutions/tyndall1.png>
 Package pdftex.def Info: ../Ch-solutions/tyndall1.png  used on input line 2.
 (pdftex.def)             Requested size: 113.81071pt x 66.05797pt.
-<../Ch-solutions/tyndall3.jpeg, id=180, 276.03125pt x 183.68625pt>
+<../Ch-solutions/tyndall3.jpeg, id=184, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/tyndall3.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/tyndall3.jpeg>
 Package pdftex.def Info: ../Ch-solutions/tyndall3.jpeg  used on input line 8.
@@ -6170,10 +6152,6 @@ Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--11
 
 ) (../Ch-solutions/files/Subsection-Solutions-and-colloids-Colloids
 
-LaTeX Warning: Reference `tab:Table-Colloids' on page 2 undefined on input line
- 4.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
@@ -6185,10 +6163,6 @@ ions/milk.jpg> <../Ch-solutions/tyndall1.png> <../Ch-solutions/tyndall3.jpeg>])
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
-
-
-LaTeX Warning: Reference `tab:Table-Colloids' on page 3 undefined on input line
- 7.
 
 ) (../Ch-solutions/files/SectionIntro-Units-of-concentration)
 (../Ch-solutions/files/Subsection-Units-of-concentration-The-concept-of-solutio
@@ -6254,12 +6228,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]) (../Ch-solutions/files/Figure-diagram-molarity-molalilty-new
-
-LaTeX Warning: Reference `Fig:Figure-diagram-molarity-molalilty-new' on page 6 
-undefined on input line 22.
-
-)
+[5]) (../Ch-solutions/files/Figure-diagram-molarity-molalilty-new)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Why-relating-units-of-
 concentration)
 (../Ch-solutions/files/Subsection-Units-of-concentration-Relating-M-and-m)
@@ -6337,10 +6306,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
 
 
-LaTeX Warning: Reference `tab:Table-VantHoff-factors' on page 10 undefined on i
-nput line 8.
-
-
 Underfull \vbox (badness 3240) has occurred while \output is active []
 
 
@@ -6350,19 +6315,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
-
-LaTeX Warning: Reference `tab:Table-VantHoff-factors' on page 11 undefined on i
-nput line 20.
-
-)
+[10])
 (../Ch-solutions/files/Subsection-Solutions-of-electrolytes-and-effective-solut
-e-particles-Vant-Hoff-factor-i
-
-LaTeX Warning: Reference `tab:Table-VantHoff-factors' on page 11 undefined on i
-nput line 16.
-
-) (../Ch-solutions/problems/SampleProblem5
+e-particles-Vant-Hoff-factor-i) (../Ch-solutions/problems/SampleProblem5
 (../Ch-solutions/problems/StudyCheck5)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6370,36 +6325,32 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]) (../Ch-solutions/files/SectionIntro-Colligative-properties
-
-LaTeX Warning: Reference `Fig:Figure-Colligative-properties-phase-diagram' on p
-age 12 undefined on input line 1.
-
-) (../Ch-solutions/files/SideFigure-Colligative-properties
-<../Ch-solutions/Saltingstreets.jpg, id=284, 1027.84pt x 685.56125pt>
+[11]) (../Ch-solutions/files/SectionIntro-Colligative-properties)
+(../Ch-solutions/files/SideFigure-Colligative-properties
+<../Ch-solutions/Saltingstreets.jpg, id=296, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/Saltingstreets.jpg Graphic file (type jpg)
 <use ../Ch-solutions/Saltingstreets.jpg>
 Package pdftex.def Info: ../Ch-solutions/Saltingstreets.jpg  used on input line
  2.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/ethyleneglycol.jpg, id=285, 1027.84pt x 685.56125pt>
+<../Ch-solutions/ethyleneglycol.jpg, id=297, 1027.84pt x 685.56125pt>
 File: ../Ch-solutions/ethyleneglycol.jpg Graphic file (type jpg)
 <use ../Ch-solutions/ethyleneglycol.jpg>
 Package pdftex.def Info: ../Ch-solutions/ethyleneglycol.jpg  used on input line
  5.
 (pdftex.def)             Requested size: 113.79987pt x 75.90363pt.
-<../Ch-solutions/perfumesalts.png, id=286, 673.51625pt x 673.51625pt>
+<../Ch-solutions/perfumesalts.png, id=298, 673.51625pt x 673.51625pt>
 File: ../Ch-solutions/perfumesalts.png Graphic file (type png)
 <use ../Ch-solutions/perfumesalts.png>
 Package pdftex.def Info: ../Ch-solutions/perfumesalts.png  used on input line 8
 .
 (pdftex.def)             Requested size: 113.80768pt x 113.80768pt.
-<../Ch-solutions/saltfish.jpeg, id=287, 225.84375pt x 225.84375pt>
+<../Ch-solutions/saltfish.jpeg, id=299, 225.84375pt x 225.84375pt>
 File: ../Ch-solutions/saltfish.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/saltfish.jpeg>
 Package pdftex.def Info: ../Ch-solutions/saltfish.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 113.81412pt x 113.81412pt.
-<../Ch-solutions/pastasalt.jpeg, id=288, 259.97125pt x 194.7275pt>
+<../Ch-solutions/pastasalt.jpeg, id=300, 259.97125pt x 194.7275pt>
 File: ../Ch-solutions/pastasalt.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/pastasalt.jpeg>
 Package pdftex.def Info: ../Ch-solutions/pastasalt.jpeg  used on input line 14.
@@ -6462,11 +6413,6 @@ ou want other layers.
 Package pgfplots info on input line 35: Setting layers 'axis background,pre mai
 n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
 foreground'...
-
-
-LaTeX Warning: Reference `Fig:Figure-Colligative-properties-phase-diagram' on p
-age 12 undefined on input line 36.
-
 )
 (../Ch-solutions/files/Subsection-Colligative-properties-Boiling-point-elevatio
 n
@@ -6480,22 +6426,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ../Ch-solutions/perfumesalts.png> <../Ch-solutions/saltfish.jpeg> <../Ch-soluti
 ons/pastasalt.jpeg>])
 (../Ch-solutions/files/Subsection-Colligative-properties-Freezing-point-depress
-ion
-
-LaTeX Warning: Reference `tab:Table-Colligative' on page 13 undefined on input 
-line 23.
-
-) (../Ch-solutions/files/Table-Colligative
+ion) (../Ch-solutions/files/Table-Colligative
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 
-LaTeX Warning: Reference `tab:Table-Colligative' on page 13 undefined on input 
-line 7.
-
-
-Overfull \hbox (12.06372pt too wide) in paragraph at lines 4--22
+Overfull \hbox (14.31372pt too wide) in paragraph at lines 4--22
  [] 
  []
 
@@ -6505,12 +6442,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-
-LaTeX Warning: Reference `tab:Table-Colligative' on page 14 undefined on input 
-line 23.
-
-) (../Ch-solutions/problems/SampleProblem6
+[13]) (../Ch-solutions/problems/SampleProblem6
 (../Ch-solutions/problems/StudyCheck6)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6528,17 +6460,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]) (../Ch-solutions/files/Figure-Osmosis
-
-LaTeX Warning: Reference `Fig:Figure-Osmosis' on page 16 undefined on input lin
-e 42.
-
-) (../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure
-
-LaTeX Warning: Reference `Fig:Figure-Osmosis' on page 16 undefined on input lin
-e 21.
-
-) (../Ch-solutions/problems/SampleProblem12
+[15]) (../Ch-solutions/files/Figure-Osmosis)
+(../Ch-solutions/files/Subsection-Colligative-properties-Osmotic-pressure)
+(../Ch-solutions/problems/SampleProblem12
 (../Ch-solutions/problems/StudyCheck12)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6602,17 +6526,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]) (../Ch-solutions/files/SideFigure-dialisis
-<../Ch-solutions/redcell1.jpeg, id=373, 301.125pt x 168.63pt>
+<../Ch-solutions/redcell1.jpeg, id=391, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell1.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell1.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 113.81297pt x 63.73526pt.
-<../Ch-solutions/redcell2.jpeg, id=374, 300.12125pt x 168.63pt>
+<../Ch-solutions/redcell2.jpeg, id=392, 300.12125pt x 168.63pt>
 File: ../Ch-solutions/redcell2.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell2.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell2.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 113.80913pt x 63.94626pt.
-<../Ch-solutions/dialysis.jpeg, id=375, 276.03125pt x 183.68625pt>
+<../Ch-solutions/dialysis.jpeg, id=393, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/dialysis.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/dialysis.jpeg>
 Package pdftex.def Info: ../Ch-solutions/dialysis.jpeg  used on input line 8.
@@ -6647,12 +6571,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <../Ch-solutions/redcell1.jpeg> <../Ch-solutions/redcell2.jpeg> <../Ch-solu
-tions/dialysis.jpeg>]) (../Ch-solutions/files/Figure-Vapor-pressure-liquids
-
-LaTeX Warning: Reference `Fig:Figure-Vapor-pressure-liquids' on page 23 undefin
-ed on input line 28.
-
-)
+tions/dialysis.jpeg>]) (../Ch-solutions/files/Figure-Vapor-pressure-liquids)
 (../Ch-solutions/files/SectionIntro-Factors-affecting-the-solubility-of-solids-
 and-gases)
 (../Ch-solutions/files/Subsection-Factors-affecting-the-solubility-of-solids-an
@@ -6697,10 +6616,6 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
 
-LaTeX Warning: Reference `tab:Table-Enthalpy-Solution' on page 25 undefined on 
-input line 7.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6710,12 +6625,8 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]) (../Ch-solutions/files/Figure-Enthalpy-of-mixing-diagram
-
-LaTeX Warning: Reference `Fig:Figure-Enthalpy-of-mixing-diagram' on page 26 und
-efined on input line 115.
-
-) (../Ch-solutions/files/SectionIntro-Enthalpy-of-solution
+[25]) (../Ch-solutions/files/Figure-Enthalpy-of-mixing-diagram)
+(../Ch-solutions/files/SectionIntro-Enthalpy-of-solution
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
 
@@ -6726,28 +6637,19 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]) (../Ch-solutions/files/SideFigure-NewFeature)
-(../Ch-solutions/files/Subsection-Enthalpy-of-solution-steps
-
-LaTeX Warning: Reference `Fig:Figure-Enthalpy-of-solution' on page 27 undefined
- on input line 9.
-
-) (../Ch-solutions/files/Figure-Enthalpy-of-solution
-
-LaTeX Warning: Reference `Fig:Figure-Enthalpy-of-solution' on page 27 undefined
- on input line 33.
-
-
+(../Ch-solutions/files/Subsection-Enthalpy-of-solution-steps)
+(../Ch-solutions/files/Figure-Enthalpy-of-solution
 Overfull \hbox (9.92273pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
 ) (../Ch-solutions/files/SideFigure-HotsPads
-<../Ch-solutions/heatpads.jpeg, id=415, 522.95375pt x 1027.84pt>
+<../Ch-solutions/heatpads.jpeg, id=438, 522.95375pt x 1027.84pt>
 File: ../Ch-solutions/heatpads.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/heatpads.jpeg>
 Package pdftex.def Info: ../Ch-solutions/heatpads.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 57.90013pt x 113.79987pt.
-<../Ch-solutions/heatpadscold.jpeg, id=416, 2197.008pt x 1464.672pt>
+<../Ch-solutions/heatpadscold.jpeg, id=439, 2197.008pt x 1464.672pt>
 File: ../Ch-solutions/heatpadscold.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/heatpadscold.jpeg>
 Package pdftex.def Info: ../Ch-solutions/heatpadscold.jpeg  used on input line 
@@ -6777,24 +6679,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 LaTeX Warning: Marginpar on page 28 moved.
 
-) (../Ch-solutions/files/Subsection-Enthalpy-of-solution
-
-LaTeX Warning: Reference `tab:Table-Enthalpy-Solution' on page 28 undefined on 
-input line 1.
-
-) (../Ch-solutions/files/Subsection-Enthalpy-of-hydration
-
-LaTeX Warning: Reference `tab:Table-Enthalpy-hydrations' on page 28 undefined o
-n input line 1.
-
-) (../Ch-solutions/files/Table-Enthalpy-hydrations
+) (../Ch-solutions/files/Subsection-Enthalpy-of-solution)
+(../Ch-solutions/files/Subsection-Enthalpy-of-hydration)
+(../Ch-solutions/files/Table-Enthalpy-hydrations
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
-
-
-LaTeX Warning: Reference `tab:Table-Enthalpy-hydrations' on page 28 undefined o
-n input line 7.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -6844,18 +6734,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 85249 strings out of 493014
- 1917645 string characters out of 6133351
- 2994048 words of memory out of 5000000
- 86513 multiletter control sequences out of 15000+600000
- 197091 words of font info for 292 fonts, out of 8000000 for 9000
+ 85230 strings out of 493014
+ 1917334 string characters out of 6133351
+ 2994342 words of memory out of 5000000
+ 86500 multiletter control sequences out of 15000+600000
+ 191409 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,21n,135p,10606b,2851s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -6886,10 +6773,10 @@ plb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-solutions.pdf (30 pages, 10280578 bytes).
+Output written on Ch-solutions.pdf (30 pages, 10283322 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
+ 575 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
  129 named destinations out of 1000 (max. 500000)
- 60007 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 57447 words of extra memory for PDF output out of 61914 (max. 10000000)
 
