@@ -1,0 +1,51 @@
+ 
+
+
+
+ 
+\begin{example}{Example}
+\begin{it}
+Use the date replorted below to graph a cooling plot, and use the graphical method to calculate the freezing point of the substance. Is this a pure substance or a solution?
+\end{it}
+  \begin{center}\setlength{\tabcolsep}{10pt}\begin{tabular}
+ { |p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|}
+ \hline
+t (min)	& T ($^{\circ}$C) &t (min)	& T ($^{\circ}$C)\\ \hline
+1	&65.6		&9	&40\\
+2	&61.6		&10	&40\\
+3	&56.7		&11	&40\\
+4	&52.2		&12	&40\\
+5	&47.8		&13	&40\\
+6	&43.3		&14	&40\\
+7	&38.9		&15	&40\\
+8	&40				&16	&40\\\hline
+\end{tabular}\end{center}
+\Sepline
+\begin{bf}Answer\end{bf}: 
+Based on the plot below, we have that at early times the liquid is being cooled down and its temperature decreases with time. At late times, the liquiz freezes and its temperature reaches a plateau. The graphical method to obtain freezing points consist on ploting a line for early times and another line for late times. These two lines intersect in a point, and the temperature for this point is the freezing point. As the temperature reaches a platea, we are dealing here with a pure substance.\\
+\begin{center}\resizebox{12cm}{!} {
+\begin{tikzpicture}[y=.2cm, x=.7cm,font=\sffamily]
+ 	%axis
+	\draw (0,30) -- coordinate (x axis mid) (16,30);
+    	\draw (0,30) -- coordinate (y axis mid) (0,70);
+    	%ticks
+    	\foreach \x in {0,4,...,16}
+     		\draw[yshift={19em}] (\x,1pt) -- (\x,-3pt)
+			node[anchor=north] {\x};
+    	\foreach \y in {30,40,...,70}
+     		\draw (1pt,\y) -- (-3pt,\y) 
+     			node[anchor=east] {\y}; 
+	%labels      
+	\node[below=0.8cm] at (x axis mid) {Time (min)};
+	\node[rotate=90, above=1.8cm, yshift={0.8cm}] at (y axis mid) {Temperature ($^{\circ}$C)};
+
+	%plots
+	\draw plot[only marks, mark=*, mark options={fill=white}] file {freezingpointdepressionDATA};
+    \draw[domain=0:8,smooth,variable=\y,red] plot ({\y},{70- 40/9*\y           })  ; % 
+	\draw[domain=6:16,smooth,variable=\y,red] plot ({\y},{40- 0*\y           })  ; % 
+
+ 	\draw[blue,dashed] (6,40) --  (0,40);
+
+\end{tikzpicture}}
+\end{center}
+\end{example}

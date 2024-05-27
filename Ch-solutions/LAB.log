@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4290,6 +4290,8 @@ Package biblatex Info: ... file 'LAB.bbl' not found.
 No file LAB.bbl.
 Package biblatex Info: ... file 'LAB1-blx.bbl' not found.
 No file LAB1-blx.bbl.
+Package biblatex Info: ... file 'LAB2-blx.bbl' not found.
+No file LAB2-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1784.
 Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4505,10 +4507,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []$\FML/futmi/m/it/10 ^^T$\T1/futs/m/n/10 ($[][][]$ 0.05M + $[]$ 0.05M) = 29.6
  mS/cm 
  []
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 2 undefined on input line 22
-.
 
 ))
 
@@ -5441,8 +5439,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--23
 
 )
 Package biblatex Info: Reference section=0 on input line 61.
-) 
-AED: lastpage setting LastPage
+) (./LAB-freezingpointdepression/freezingpointdepression.tex
+\blx@maxsegment@3=\count593
+\blx@sectionciteorder@3=\count594
+Package biblatex Info: Reference section=3 on input line 3.
+\openout10 = `LAB3-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:3' on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ []\T1/futs/b/n/12 EXPERIMENT 
+ []
+
+(./LAB-freezingpointdepression/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--9
+ []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
+ []
+
+(./LAB-freezingpointdepression/goal) (./LAB-freezingpointdepression/materials
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/futs/m/n/10 Perforated stop-pers with stir-ring wire and
+ []
+
+) (./LAB-freezingpointdepression/background
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ []$\FML/futm/m/it/10 ^^A\FML/futmi/m/it/10 T[]$ \T1/futs/m/n/10 = $\FML/futmi/
+m/it/10 K[]m$ 
+ []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -5469,16 +5493,1038 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[22]
+[22] (./LAB-freezingpointdepression/examplebox
+Package mdframed Info: mdframed works in twoside mode on input line 2.
+
+
+LaTeX Warning: Reference `mdf@pagelabel-2' on page 23 undefined on input line 9
+.
+
+)
+Overfull \hbox (11.79164pt too wide) in paragraph at lines 21--22
+\T1/futs/m/n/10 During a phase change, all the en-ergy trans-ferred is used to 
+re-or-ga-nize the molecules and none is used to change the tem-per-a-ture
+ []
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA' not found. on
+ input line 60.
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA' not found. on
+ input line 60.
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA2' not found. o
+n input line 60.
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA2' not found. o
+n input line 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--61
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[23] (./LAB-freezingpointdepression/examplebox2
+Package mdframed Info: mdframed works in twoside mode on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--22
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA' not found. on
+ input line 49.
+
+
+Package pgf Warning: Plot data file `freezingpointdepressionDATA' not found. on
+ input line 49.
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 26--50
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `mdf@pagelabel-3' on page 24 undefined on input line 5
+1.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[24]
+
+LaTeX Warning: Reference `mdf@pagelabel-4' on page 25 undefined on input line 5
+1.
+
+))
+
+LaTeX Warning: Empty bibliography on input line 24.
+
+(./LAB-freezingpointdepression/procedure
+(./LAB-freezingpointdepression/goodlabpractice
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/futs/m/n/10 Never add the liq-uid or solid to be weighed to the con-taine
+r while on the scale.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/futs/m/n/10 Take the con-tainer \T1/futs/m/it/10 off \T1/futs/m/n/10 the sc
+ale prior to adding the prod-uct. A spill on the scale
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 16--16
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[25]
+Overfull \hbox (9.85106pt too wide) in paragraph at lines 27--28
+[]\T1/futs/m/n/10 ^^U Stop the ex-per-i-ment when the tem-per-a-ture starts dro
+p-ping af-ter sev-eral min-utes of hav-ing a con-stant tem-per-a-ture.
+ []
+
+(./LAB-freezingpointdepression/goodlabpractice2
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/futs/m/n/10 Stirr, and do not shake. It is very im-por-tant to stir the c
+y-clo-hex-ane con-stantly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\T1/futs/m/n/10 Make sure the wire stays around the ther-mome-ter and that th
+e lat-ter is cen-tered
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[]\T1/futs/m/n/10 A bad stir-ring method will lead to a par-tial freez-ing and 
+the graph will not show
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 18--18
+ [][] 
+ []
+
+)
+Overfull \hbox (1.26126pt too wide) in paragraph at lines 37--38
+[]\T1/futs/m/n/10 ^^U The same cy-clo-hex-ane can be used in Part B. How-ever, 
+if you work in teams you can pre-pare an-other cy-clo-hex-ane
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
+
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[27]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+ []\T1/futs/b/n/12 Pre-lab Ques-tions 
+ []
+
+(./LAB-freezingpointdepression/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--42
+ []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
+ []
+
+(./LAB-freezingpointdepression/prelab
+Underfull \hbox (badness 10000) in paragraph at lines 7--19
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+ [][] 
+ []
+
+[28
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+ []$\FML/futmi/m/it/10 t[] \FMS/futm/m/n/10 Å$ 
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[29]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+ []\T1/futs/b/n/12 Results 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+ []\T1/futs/b/n/12 EXPERIMENT 
+ []
+
+(./LAB-freezingpointdepression/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--50
+ []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
+ []
+
+(./LAB-freezingpointdepression/results
+Underfull \hbox (badness 3271) in paragraph at lines 3--9
+ [][] 
+ []
+
+
+Overfull \hbox (8.31558pt too wide) in paragraph at lines 11--13
+ [][] 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 15--15
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 15--15
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (13.76485pt too wide) in paragraph at lines 14--23
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+ []\T1/futs/m/n/9 (continue in next page)
+ []
+
+[30
+
+
+
+]
+Overfull \hbox (13.76485pt too wide) in paragraph at lines 28--41
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[31]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 55--59
+ [][] 
+ []
+
+
+Overfull \hbox (7.90056pt too wide) in paragraph at lines 66--66
+[]|[]| 
+ []
+
+
+Overfull \hbox (7.90056pt too wide) in paragraph at lines 67--67
+[]|[]| 
+ []
+
+
+Overfull \hbox (7.90056pt too wide) in paragraph at lines 68--68
+[]|[]| 
+ []
+
+
+Overfull \hbox (21.43135pt too wide) in paragraph at lines 61--69
+ [][] 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (7.0736pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Time
+ []
+
+
+Overfull \hbox (5.5136pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 (sec)| 
+ []
+
+
+Overfull \hbox (11.44359pt too wide) in paragraph at lines 75--75
+[]|\T1/futs/m/n/10 Temp.
+ []
+
+
+Overfull \hbox (2.4996pt too wide) in paragraph at lines 75--75
+\T1/futs/m/n/10 ($[]$C)| 
+ []
+
+
+Overfull \hbox (13.76485pt too wide) in paragraph at lines 74--85
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+ []\T1/futs/m/n/9 (continue in next page)
+ []
+
+
+Overfull \hbox (13.76485pt too wide) in paragraph at lines 90--102
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32
+
+
+
+]
+Overfull \hbox (12.78056pt too wide) in paragraph at lines 110--110
+[]|[]
+ []
+
+
+Overfull \hbox (12.78056pt too wide) in paragraph at lines 111--111
+[]|[]
+ []
+
+
+Overfull \hbox (12.78056pt too wide) in paragraph at lines 112--112
+[]|[]
+ []
+
+
+Overfull \hbox (50.80388pt too wide) in paragraph at lines 106--116
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+ []\T1/futs/m/n/10 Mean mo-lar mass: [] g/-mol 
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[33]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 61--61
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 61.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+ []\T1/futs/m/n/9 Figure 1: |[]Temperature (Y axis) vs. time (X axis)| 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[34]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 68--68
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 68.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+ []\T1/futs/m/n/9 Figure 2: |[]Temperature (Y axis) vs. time (X axis)| 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[35]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 75--75
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 75.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+ []\T1/futs/m/n/9 Figure 3: |[]Temperature (Y axis) vs. time (X axis)| 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[36]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 82--82
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 82.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+ []\T1/futs/m/n/9 Figure 4: |[]Temperature (Y axis) vs. time (X axis)| 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[37]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+ []\T1/futs/b/n/12 Post-lab Ques-tions 
+ []
+
+(./LAB-freezingpointdepression/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--89
+ []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
+ []
+
+(./LAB-freezingpointdepression/postlab) [38
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[39
+
+]
+Package biblatex Info: Reference section=0 on input line 95.
+) 
+AED: lastpage setting LastPage
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1790.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1790.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1791.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1791.
 (./LAB.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1790.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1790.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1791.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1791.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5496,16 +6542,16 @@ Package biblatex Warning: Please rerun LaTeX.
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1790.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1791.
  ) 
 Here is how much of TeX's memory you used:
- 70687 strings out of 493014
- 1556379 string characters out of 6133351
- 2323396 words of memory out of 5000000
- 72718 multiletter control sequences out of 15000+600000
+ 71069 strings out of 493014
+ 1564222 string characters out of 6133351
+ 2343396 words of memory out of 5000000
+ 73000 multiletter control sequences out of 15000+600000
  179760 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,20n,105p,10411b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,20n,107p,10411b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2016/tex
@@ -5518,10 +6564,10 @@ onts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
 utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (22 pages, 189000 bytes).
+Output written on LAB.pdf (39 pages, 253665 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 102 named destinations out of 1000 (max. 500000)
- 433 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 566 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 565 words of extra memory for PDF output out of 10000 (max. 10000000)
 

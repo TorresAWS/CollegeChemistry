@@ -47,12 +47,14 @@
       <file>LAB.aux</file>
       <file>LAB1-blx.aux</file>
       <file>LAB2-blx.aux</file>
+      <file>LAB3-blx.aux</file>
       <file>LAB-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>LAB.bbl</file>
       <file>LAB1-blx.bbl</file>
       <file>LAB2-blx.bbl</file>
+      <file>LAB3-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -141,6 +143,33 @@
     </provides>
     <requires type="dynamic">
       <file>LAB2-blx.aux</file>
+      <file>LAB-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>./biblio/bibliography.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>LAB3-blx</infile>
+    </cmdline>
+    <input>
+      <file>LAB3-blx.aux</file>
+    </input>
+    <output>
+      <file>LAB3-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>LAB3-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>LAB3-blx.aux</file>
       <file>LAB-blx.bib</file>
     </requires>
     <requires type="editable">
