@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,13 +661,8 @@ ks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))
 
-LaTeX Warning: Writing file `./calor'.
-
-\openout15 = `calor.tex'.
-
-
-LaTeX Warning: Tab has been converted to Blank Space.
-
+LaTeX Warning: File `calor' already exists on the system.
+               Not generating it from this source.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -2524,9 +2519,8 @@ Package: filehook 2011/10/12 v0.5d Hooks for input files
 \c@currfiledepth=\count402
 )
 \sa@out=\write7
-Package standalone Info: STA file not found! on input line 542.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/gincltex/gincltex.sty
+(./LAB.sta) (/usr/local/texlive/2016/texmf-dist/tex/latex/gincltex/gincltex.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
@@ -4095,8 +4089,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \setchemformula with sig. 'm' on line 3245.
 .................................................
-)
-No file LAB.aux.
+) (./LAB.aux)
 \openout1 = `LAB.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1784.
@@ -4116,6 +4109,7 @@ LaTeX Font Info:    ... okay on input line 1784.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1784.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 178
 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
@@ -4268,6 +4262,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 1784.
+ (./LAB.sta)
 \openout7 = `LAB.sta'.
 
 
@@ -4293,6 +4288,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'LAB.bbl' not found.
 
 No file LAB.bbl.
+Package biblatex Info: ... file 'LAB1-blx.bbl' not found.
+No file LAB1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1784.
 Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4305,17 +4302,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 1784.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1786
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1786--1786
-|[][] []| 
- []
-
-(./LAB-conductivity/conductivity.tex
+ (./LAB-conductivity/conductivity.tex
 \blx@maxsegment@1=\count589
 \blx@sectionciteorder@1=\count590
 Package biblatex Info: Reference section=1 on input line 3.
@@ -4336,6 +4323,10 @@ Underfull \hbox (badness 3189) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
 
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 13.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 (./LAB-conductivity/goal
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
@@ -4515,13 +4506,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  mS/cm 
  []
 
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 22.
 
 LaTeX Warning: Reference `mdf@pagelabel-1' on page 2 undefined on input line 22
 .
 
+))
+
+LaTeX Warning: Empty bibliography on input line 24.
+
+(./LAB-conductivity/procedure
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 4.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -4548,25 +4549,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2]
-
-LaTeX Warning: Reference `mdf@pagelabel-2' on page 3 undefined on input line 22
-.
-
-))
-
-LaTeX Warning: Empty bibliography on input line 24.
-
-(./LAB-conductivity/procedure
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 4.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 4.
- (./LAB-conductivity/goodlabpractice
+[2] (./LAB-conductivity/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 To en-sure the probe is well cleaned and the wa-ter in the 25
 0 mL beaker re-mains
@@ -5021,22 +5004,485 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 Package biblatex Info: Reference section=0 on input line 64.
+) (./LAB-hardwater/hardwater.tex
+\blx@maxsegment@2=\count591
+\blx@sectionciteorder@2=\count592
+Package biblatex Info: Reference section=2 on input line 3.
+\openout10 = `LAB2-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:2' on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ []\T1/futs/b/n/12 EXPERIMENT 
+ []
+
+(./LAB-hardwater/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--9
+ []\T1/futs/b/n/24.88 Softening of hard wa-ter 
+ []
+
+(./LAB-hardwater/goal) (./LAB-hardwater/materials) (./LAB-hardwater/background
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+ []$[]$$[] [] []$$[][][]$ \T1/futs/m/n/10 + $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[]$$[] [] []$$[][][][][][][]$ + $[]$ + $[]
+ [][][]$ 
+ []
+
 )
 
-Package lastpage Warning: Rerun to get the references right on input line 1789.
+LaTeX Warning: Empty bibliography on input line 24.
+
+(./LAB-hardwater/procedure
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[14] (./LAB-hardwater/cautionbox)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[15]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[16]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+ []\T1/futs/b/n/12 Pre-lab Ques-tions 
+ []
+
+(./LAB-hardwater/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--41
+ []\T1/futs/b/n/24.88 Softening of hard wa-ter 
+ []
+
+(./LAB-hardwater/prelab) [17
 
 
 
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[18
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+ []\T1/futs/b/n/12 Results 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+ []\T1/futs/b/n/12 EXPERIMENT 
+ []
+
+(./LAB-hardwater/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--48
+ []\T1/futs/b/n/24.88 Softening of hard wa-ter 
+ []
+
+(./LAB-hardwater/results
+Underfull \hbox (badness 10000) in paragraph at lines 3--11
+
+ []
+
+) [19
+
+
+
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[20
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+ []\T1/futs/b/n/12 Post-lab Ques-tions 
+ []
+
+(./LAB-hardwater/title)
+Underfull \hbox (badness 10000) in paragraph at lines 1--55
+ []\T1/futs/b/n/24.88 Softening of hard wa-ter 
+ []
+
+(./LAB-hardwater/postlab
+Overfull \hbox (0.41524pt too wide) in paragraph at lines 6--7
+[]\T1/futs/m/n/10 Write the bal-anced equa-tions for the chem-i-cal re-ac-tions
+ be-low. Mind that cal-cium car-bon-ate is an in-sol-u-ble com-pound.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+ []$[][][][][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []$[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ []$[][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+ []$[][][][][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+ []$[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+[21
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+ []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
+ []
+
+)
+Package biblatex Info: Reference section=0 on input line 61.
+) 
 AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[22]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1789.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1789.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1790.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1790.
 (./LAB.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1789.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1789.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1790.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1790.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.43996pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
@@ -5045,38 +5491,37 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                LAB
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1789.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1790.
  ) 
 Here is how much of TeX's memory you used:
- 70561 strings out of 493014
- 1554757 string characters out of 6133351
- 2330388 words of memory out of 5000000
- 72689 multiletter control sequences out of 15000+600000
- 152094 words of font info for 157 fonts, out of 8000000 for 9000
+ 70687 strings out of 493014
+ 1556379 string characters out of 6133351
+ 2323396 words of memory out of 5000000
+ 72718 multiletter control sequences out of 15000+600000
+ 179760 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,18n,107p,10411b,1477s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,20n,105p,10411b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/
-utopia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/
-putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (12 pages, 158279 bytes).
+xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/fourier/fourier-orns.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/u
+topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
+utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on LAB.pdf (22 pages, 189000 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
