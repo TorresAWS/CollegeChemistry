@@ -1,0 +1,152 @@
+ \documentclass[main.tex]{subfiles}
+ \newcommand\chapterlabel{Ch-orgo}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
+
+\begin{document}
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\definesubmol{CH2}{CH_2}
+
+
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+ \setcounter{chapter}{0}\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{10} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+
+
+%\begin{marginfigure}\includegraphics{../{\chapterlabel}/figure1} \end{marginfigure}
+\import{../\chapterlabel/files/}{ChapterIntro}
+
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+%\import{../\chapterlabel/files/}{SectionGoal-Alkanes}
+%\import{../\chapterlabel/files/}{SectionGoal-Alkanes-with-substituents}
+%\import{../\chapterlabel/files/}{SectionGoal-Cycloalkanes}
+%\import{../\chapterlabel/files/}{SectionGoal-Cycloalkanes-with-substituents}
+%\import{../\chapterlabel/files/}{SectionGoal-Molecular-diversity}
+%\end{enumerate}
+%\end{mytcbox}
+%\vspace{1cm}
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+%\import{../\chapterlabel/files/}{ChapterDiscussion}
+%\end{tcolorbox}
+%\end{marginfigure}%LEARNING GOALS BOX
+
+\section{\color{blue!30!black}{Organic and non-organic compounds}}
+
+ \import{../\chapterlabel/files/}{SubSection-Alkanes-Identifying-organic-compounds}
+
+
+
+\section{\color{blue!30!black}{Alkanes}}
+\import{../\chapterlabel/files/}{SectionIntro-Alkanes}
+\sloppy\begin{description}
+
+\import{../\chapterlabel/files/}{SideFigure-Hydrocarbons}
+\item[\docfilehook{Molecular formula for alkanes}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-Molecular-formulafor-alkanes}
+\import{../\chapterlabel/problems/}{SampleProblem1}
+\import{../\chapterlabel/files/}{Table-Organic-Prefixes}
+
+\item[\docfilehook{Expanded structural formula for alkanes}{}] \import{../\chapterlabel/files/}{SubSection-Alkanes-Expanded-structural-formula-for-alkanes}
+ \newpage\vspace{5cm}\import{../\chapterlabel/files/}{Table-Alkane-names}
+\item[\docfilehook{  Condensed structural formula}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-Condensed-structural-formula}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\item[\docfilehook{Skeletal structural formula}{ }]\import{../\chapterlabel/files/}{SubSection-Alkanes-Skeletal-structural-formula}
+\item[\docfilehook{  A review of the different structural formulas}{ }]\import{../\chapterlabel/files/}{SubSection-Alkanes-A-review-of-the-different-structural-formulas}
+\import{../\chapterlabel/problems/}{SampleProblem3}
+\hspace{-5cm}\import{../\chapterlabel/files/}{Figure-Skeletal-expanded-molecular}
+
+\end{description}
+
+
+
+
+
+
+\section{\color{blue!30!black}{Cycloalkanes}}
+\import{../\chapterlabel/files/}{SectionIntro-Cycloalkanes}
+\import{../\chapterlabel/files/}{SideFigure-Alkanes}
+
+\sloppy\begin{description}
+
+\item[\docfilehook{Cyclic alkanes}{}] \import{../\chapterlabel/files/}{SubSection-Cycloalkanes-Cyclic-alkanes}
+\item[\docfilehook{Naming cycloalkanes}{}]\import{../\chapterlabel/files/}{SubSection-Cycloalkanes-Naming-cycloalkanes}
+\import{../\chapterlabel/problems/}{SampleProblem4}
+\item[\docfilehook{Molecular formulas for cycloalkanes}{}]\import{../\chapterlabel/files/}{SubSection-Cycloalkanes-Molecular-formulas-for-cycloalkanes}
+\import{../\chapterlabel/problems/}{SampleProblem5}
+\end{description}
+
+
+ 
+\section{\color{blue!30!black}{Alkanes with substituents}}
+\import{../\chapterlabel/files/}{SectionIntro-Alkanes-with-substituents}
+\sloppy\begin{description}
+\item[\docfilehook{  Substituents}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Substituents}
+
+\item[\docfilehook{Alkanes with a single substituent}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Alkanes-with-a-single-substituent}
+
+\hspace{4cm}\import{../\chapterlabel/files/}{Table-Substituents}
+
+\item[\docfilehook{Alkanes with two or more equal substituents}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Alkanes-with-two-or-more-equal-substituents}
+\import{../\chapterlabel/problems/}{SampleProblem6}
+\item[\docfilehook{Alkanes with different substituents}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Alkanes-with-different-substituents}
+\item[\docfilehook{Naming rules for alkanes}{ }]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Naming-rules-for-alkanes}
+\import{../\chapterlabel/problems/}{SampleProblem7}
+\item[\docfilehook{  Numbering the chain}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Numbering-the-chain}
+\import{../\chapterlabel/problems/}{SampleProblem8}
+\item[\docfilehook{Finding the longest chain}{}]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Finding-the-longest-chain}
+\item[\docfilehook{Naming rules for branched alkanes}{ }]\import{../\chapterlabel/files/}{SubSection-Alkanes-with-substituents-Naming-rules-for-branched-alkanes}
+\import{../\chapterlabel/problems/}{SampleProblem9}
+\end{description}
+
+
+
+
+\section{\color{blue!30!black}{Cycloalkanes with substituents}}
+\import{../\chapterlabel/files/}{SectionIntro-Cycloalkanes-with-substituents}
+\sloppy
+\begin{description}
+\item[\docfilehook{Cycloalkanes with one substituent}{}]\import{../\chapterlabel/files/}{SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-one-substituent}
+\item[\docfilehook{Cycloalkanes with two substituents}{}] \import{../\chapterlabel/files/}{SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-two-substituents}
+\import{../\chapterlabel/files/}{SideFigure-Organic-Structures}
+\item[\docfilehook{Cycloalkanes with repeated substituents}{}]\import{../\chapterlabel/files/}{SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-repeated-substituent}
+\import{../\chapterlabel/problems/}{SampleProblem10}
+
+\end{description}
+
+
+
+
+\section{\color{blue!30!black}{Molecular diversity}}
+ \import{../\chapterlabel/files/}{SectionIntro-Molecular-diversity}\sloppy
+\begin{description}
+\item[\docfilehook{Alkene group: double bonds}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Alkene-and-alkyne}
+\import{../\chapterlabel/problems/}{SampleProblem11}
+ \item[\docfilehook{  Aromatic group}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Aromatic-group}
+ \import{../\chapterlabel/files/}{Table-Functional-groups}
+\item[\docfilehook{Alcohol, ether and thiol group}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group}
+\import{../\chapterlabel/problems/}{SampleProblem12}
+\item[\docfilehook{Aldehydes and ketones}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Aldehydes-and-ketones}
+\import{../\chapterlabel/problems/}{SampleProblem13}
+\item[\docfilehook{Carboxylic acids and esters}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Carboxylic-acids-and-esters}
+
+  \newpage \import{../\chapterlabel/files/}{Figure-Acetone}
+\import{../\chapterlabel/problems/}{SampleProblem14}
+
+ \item[\docfilehook{Amines and amides}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Amines-and-amides}
+\import{../\chapterlabel/problems/}{SampleProblem15}
+\item[\docfilehook{Identifying organic acids and bases}{ }]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Identifying-organic-acids-and-bases}
+\import{../\chapterlabel/problems/}{SampleProblem16}
+ \end{description}
+
+
+\checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
+ 
