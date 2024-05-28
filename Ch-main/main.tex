@@ -5677,7 +5677,21 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 
 
 \DeclareInstance{tasks}{myitemize}{default} {enumerate = true  }\settasks{style = myitemize, column-sep = 2em,counter-format=(tsk[a]) , item-indent = 1.2em, label-width =1.2em, label-offset = 0.5em, after-item-skip = 1ex, after-item-skip=-1pt}
-
+\newcommand\score[2]{%
+  \pgfmathsetmacro\pgfxa{#1 + 1}%
+  \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=1.3pt, anchor=outer point 3]%
+  \begin{tikzpicture}[baseline]
+    \foreach \i in {1, ..., #2} {
+      \pgfmathparse{\i<=#1 ? "yellow" : "gray"}
+      \edef\starcolor{\pgfmathresult}
+      \draw (\i*1.75ex, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
+   }
+  \end{tikzpicture}%
+}
+\definecolor{lb}{RGB}{44, 139, 183}
+\newcommand\cl[2]{\textcolor{#1}{#2}}
+\newcommand\bcl[2]{\textcolor{#1}{{\fontseries{b}\selectfont #2}}}
+ 
 
 
 
