@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 20:23
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **LAB.tex
 (./LAB.tex
@@ -4292,6 +4293,8 @@ Package biblatex Info: ... file 'LAB1-blx.bbl' not found.
 No file LAB1-blx.bbl.
 Package biblatex Info: ... file 'LAB2-blx.bbl' not found.
 No file LAB2-blx.bbl.
+Package biblatex Info: ... file 'LAB3-blx.bbl' not found.
+No file LAB3-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1784.
 Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4320,7 +4323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
-(./LAB-conductivity/title)
+(../Ch-solutions/LAB-conductivity/title)
 Underfull \hbox (badness 3189) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
@@ -4329,10 +4332,11 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(./LAB-conductivity/goal
+(../Ch-solutions/LAB-conductivity/goal
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
-) (./LAB-conductivity/materials
+)
+(../Ch-solutions/LAB-conductivity/materials
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
 
 
@@ -4371,7 +4375,7 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ))
-(./LAB-conductivity/background
+(../Ch-solutions/LAB-conductivity/background
 Overfull \hbox (9.87172pt too wide) in paragraph at lines 5--6
 \T1/futs/m/n/10 dis-solves as a molecule with-out dis-so-ci-a-tion, the so-lu-t
 ion will not con-duct elec-tric-ity and the so-lute will be called non-elec-tro
@@ -4466,7 +4470,7 @@ Overfull \hbox (15.74078pt too wide) in paragraph at lines 25--29
  [][] 
  []
 
-(./LAB-conductivity/examplebox
+(../Ch-solutions/LAB-conductivity/examplebox
 Underfull \hbox (badness 10000) in paragraph at lines 32--2
 
  []
@@ -4512,7 +4516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 LaTeX Warning: Empty bibliography on input line 24.
 
-(./LAB-conductivity/procedure
+(../Ch-solutions/LAB-conductivity/procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4547,7 +4551,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2] (./LAB-conductivity/goodlabpractice
+[2] (../Ch-solutions/LAB-conductivity/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 To en-sure the probe is well cleaned and the wa-ter in the 25
 0 mL beaker re-mains
@@ -4651,7 +4655,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[4] (./LAB-conductivity/cautionbox2
+[4] (../Ch-solutions/LAB-conductivity/cautionbox2
 LaTeX Font Info:    Try loading font information for U+futs on input line 9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ufuts.fd
@@ -4753,12 +4757,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-conductivity/title)
+(../Ch-solutions/LAB-conductivity/title)
 Underfull \hbox (badness 3189) in paragraph at lines 1--42
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
 
-(./LAB-conductivity/prelab
+(../Ch-solutions/LAB-conductivity/prelab
 Overfull \hbox (8.44011pt too wide) in paragraph at lines 34--34
 []|$[][][][]$| 
  []
@@ -4849,12 +4853,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-conductivity/title)
+(../Ch-solutions/LAB-conductivity/title)
 Underfull \hbox (badness 3189) in paragraph at lines 1--50
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
 
-(./LAB-conductivity/results
+(../Ch-solutions/LAB-conductivity/results
 Overfull \hbox (16.14716pt too wide) in paragraph at lines 3--3
 []|\T1/futs/m/n/10 Electrolyte
  []
@@ -4963,12 +4967,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-conductivity/title)
+(../Ch-solutions/LAB-conductivity/title)
 Underfull \hbox (badness 3189) in paragraph at lines 1--57
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
 
-(./LAB-conductivity/postlab [11
+(../Ch-solutions/LAB-conductivity/postlab [11
 
 
 
@@ -5014,12 +5018,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-hardwater/title)
+(../Ch-solutions/LAB-hardwater/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Softening of hard wa-ter 
  []
 
-(./LAB-hardwater/goal) (./LAB-hardwater/materials) (./LAB-hardwater/background
+(../Ch-solutions/LAB-hardwater/goal) (../Ch-solutions/LAB-hardwater/materials)
+(../Ch-solutions/LAB-hardwater/background
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
@@ -5067,7 +5072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 LaTeX Warning: Empty bibliography on input line 24.
 
-(./LAB-hardwater/procedure
+(../Ch-solutions/LAB-hardwater/procedure
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5093,7 +5098,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[14] (./LAB-hardwater/cautionbox)
+[14] (../Ch-solutions/LAB-hardwater/cautionbox)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5193,12 +5198,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-hardwater/title)
+(../Ch-solutions/LAB-hardwater/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--41
  []\T1/futs/b/n/24.88 Softening of hard wa-ter 
  []
 
-(./LAB-hardwater/prelab) [17
+(../Ch-solutions/LAB-hardwater/prelab) [17
 
 
 
@@ -5278,12 +5283,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-hardwater/title)
+(../Ch-solutions/LAB-hardwater/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--48
  []\T1/futs/b/n/24.88 Softening of hard wa-ter 
  []
 
-(./LAB-hardwater/results
+(../Ch-solutions/LAB-hardwater/results
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
@@ -5364,12 +5369,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-hardwater/title)
+(../Ch-solutions/LAB-hardwater/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--55
  []\T1/futs/b/n/24.88 Softening of hard wa-ter 
  []
 
-(./LAB-hardwater/postlab
+(../Ch-solutions/LAB-hardwater/postlab
 Overfull \hbox (0.41524pt too wide) in paragraph at lines 6--7
 []\T1/futs/m/n/10 Write the bal-anced equa-tions for the chem-i-cal re-ac-tions
  be-low. Mind that cal-cium car-bon-ate is an in-sol-u-ble com-pound.
@@ -5451,17 +5456,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-freezingpointdepression/title)
+(../Ch-solutions/LAB-freezingpointdepression/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
  []
 
-(./LAB-freezingpointdepression/goal) (./LAB-freezingpointdepression/materials
+(../Ch-solutions/LAB-freezingpointdepression/goal)
+(../Ch-solutions/LAB-freezingpointdepression/materials
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 []\T1/futs/m/n/10 Perforated stop-pers with stir-ring wire and
  []
 
-) (./LAB-freezingpointdepression/background
+) (../Ch-solutions/LAB-freezingpointdepression/background
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []$\FML/futm/m/it/10 ^^A\FML/futmi/m/it/10 T[]$ \T1/futs/m/n/10 = $\FML/futmi/
 m/it/10 K[]m$ 
@@ -5493,13 +5499,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[22] (./LAB-freezingpointdepression/examplebox
+[22] (../Ch-solutions/LAB-freezingpointdepression/examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 2.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-2' on page 23 undefined on input line 9
-.
-
 )
 Overfull \hbox (11.79164pt too wide) in paragraph at lines 21--22
 \T1/futs/m/n/10 During a phase change, all the en-ergy trans-ferred is used to 
@@ -5556,7 +5557,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[23] (./LAB-freezingpointdepression/examplebox2
+[23] (../Ch-solutions/LAB-freezingpointdepression/examplebox2
 Package mdframed Info: mdframed works in twoside mode on input line 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--22
@@ -5580,10 +5581,6 @@ Package pgf Warning: Plot data file `freezingpointdepressionDATA' not found. on
 Underfull \hbox (badness 5147) in paragraph at lines 26--50
  [][] 
  []
-
-
-LaTeX Warning: Reference `mdf@pagelabel-3' on page 24 undefined on input line 5
-1.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -5611,17 +5608,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[24]
-
-LaTeX Warning: Reference `mdf@pagelabel-4' on page 25 undefined on input line 5
-1.
-
-))
+[24]))
 
 LaTeX Warning: Empty bibliography on input line 24.
 
-(./LAB-freezingpointdepression/procedure
-(./LAB-freezingpointdepression/goodlabpractice
+(../Ch-solutions/LAB-freezingpointdepression/procedure
+(../Ch-solutions/LAB-freezingpointdepression/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 Never add the liq-uid or solid to be weighed to the con-taine
 r while on the scale.
@@ -5670,7 +5662,7 @@ Overfull \hbox (9.85106pt too wide) in paragraph at lines 27--28
 p-ping af-ter sev-eral min-utes of hav-ing a con-stant tem-per-a-ture.
  []
 
-(./LAB-freezingpointdepression/goodlabpractice2
+(../Ch-solutions/LAB-freezingpointdepression/goodlabpractice2
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 Stirr, and do not shake. It is very im-por-tant to stir the c
 y-clo-hex-ane con-stantly
@@ -5809,12 +5801,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-freezingpointdepression/title)
+(../Ch-solutions/LAB-freezingpointdepression/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--42
  []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
  []
 
-(./LAB-freezingpointdepression/prelab
+(../Ch-solutions/LAB-freezingpointdepression/prelab
 Underfull \hbox (badness 10000) in paragraph at lines 7--19
  [][] 
  []
@@ -5907,12 +5899,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-freezingpointdepression/title)
+(../Ch-solutions/LAB-freezingpointdepression/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--50
  []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
  []
 
-(./LAB-freezingpointdepression/results
+(../Ch-solutions/LAB-freezingpointdepression/results
 Underfull \hbox (badness 3271) in paragraph at lines 3--9
  [][] 
  []
@@ -6475,12 +6467,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--87
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-freezingpointdepression/title)
+(../Ch-solutions/LAB-freezingpointdepression/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--89
  []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
  []
 
-(./LAB-freezingpointdepression/postlab) [38
+(../Ch-solutions/LAB-freezingpointdepression/postlab) [38
 
 
 
@@ -6530,25 +6522,16 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1791.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1791.
  ) 
 Here is how much of TeX's memory you used:
- 71069 strings out of 493014
- 1564222 string characters out of 6133351
+ 71074 strings out of 493014
+ 1565595 string characters out of 6133351
  2343396 words of memory out of 5000000
- 73000 multiletter control sequences out of 15000+600000
+ 73002 multiletter control sequences out of 15000+600000
  179760 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,20n,107p,10411b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
