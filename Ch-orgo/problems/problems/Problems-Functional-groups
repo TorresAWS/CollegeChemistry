@@ -1,10 +1,10 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Identify the functional groups in the following molecule:\begin{center}
+Identify the functional groups in the following molecule and give the molecular formula:\begin{center}
 \chemfig{*6((-H_3C)---N(-C(=[::+60]O)-[::-60])---)}
 \end{center}
 \end{question}\begin{solution}
-amide
+amide; \ce{C_8H_{15}NO}
  \end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
  
