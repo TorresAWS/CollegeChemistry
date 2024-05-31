@@ -1,11 +1,11 @@
 \begin{fullwidth}
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Alkane-names}
 \begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
 \fontfamily{ppl}\selectfont
 \begin{tabular}{llll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Alkane names based on the number of carbons in the chain } \\
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Alkane-names} Alkane names based on the number of carbons in the chain } \\
 \midrule
 Number of Carbons & Name& Condensed Structural formula &Molecular formula \\
 \midrule
