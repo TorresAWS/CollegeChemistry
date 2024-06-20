@@ -21,7 +21,8 @@
 \end{steps}
 \begin{center}\begin{tabular}{ x{2 cm} x{2 cm} x{2.5 cm} x{2 cm} x{2 cm} }
 \cline{1-5} 
-Part A& \ce{Fe(NO3)3} 0.25 M  & KSCN $10^{-4}$ M & \ce{HNO3} 0.1 M& $v_{total}$ \\ 
+Part A& \ce{Fe(NO3)3}   & KSCN  & \ce{HNO3} & $v_{total}$ \\ 
+& 0.25 M  &  $0.0025$ M &  0.1 M&  \\ 
 \cline{1-5}
 Test Tube 1 &5.0 mL  & 1.0 mL  &  4.0 mL&10.0 mL  \\
 Test Tube 2 &5.0 mL  & 2.0 mL     & 3.0 mL &10.0 mL \\
@@ -43,6 +44,8 @@ Test Tube 5 &5.0 mL  & 5.0 mL     & 0.0 mL&10.0 mL  \\
 	\newstep[] Insert the cuvette into the spectrophotometer to measure the absorbance. Record the result.
 	\newstep[] Repeat for test tubes 2, 3, 4, and 5, always using new cuvettes for each measurement.
 	\newstep[] Plot absorbance $\;\;\mycircled{7}\;\;$ vs. concentration $\;\;\mycircled{6}\;\;$ in order to obtain the Lambert-Beer's constant $k$.
+	\newstep[] Measure the absorbance of an unknown solution and use the linear regression ($A$/$k$) to obtain its concentration. 
+        \newstep[] Do not proceed unless you show the instructor your graph. 
    \import{\chapterlabel/}{goodlabpractice2}
 
 \end{steps}
@@ -84,7 +87,7 @@ Test Tube 15 & 2.0 mL  & 2.0 mL  & 3.0 mL & 7mL \\
 \mycircled{4} This is the initial Iron(III) concentration in the mixtures:\vspace{0.5cm}\\
     \[[\ce{Fe^{+3}}]_{0}= \frac{v_{\ce{Fe^{+3}}}\cdot c_{\ce{Fe^{+3}}}}{v_{total}}=\frac{  \;\;\mycircled{1}\;\; \cdot 0.25}{\;\;\mycircled{3}} \]
 \mycircled{5} This is the initial thiocyanide concentration in the mixtures:\vspace{0.5cm}\\
-    \[[\ce{SCN^{-}}]_{0}= \frac{v_{\ce{SCN^{-}}}\cdot c_{\ce{SCN^{-}}}}{v_{total}}=\frac{\;\;\mycircled{2}\;\; \cdot 10^{-4} }{\;\;\mycircled{3}\;\;} \]
+    \[[\ce{SCN^{-}}]_{0}= \frac{v_{\ce{SCN^{-}}}\cdot c_{\ce{SCN^{-}}}}{v_{total}}=\frac{\;\;\mycircled{2}\;\; \cdot 0.0025 }{\;\;\mycircled{3}\;\;} \]
 \mycircled{6} This is the concentration of  \ce{Fe(SCN)^{+2}} in the mixture:\vspace{0.5cm}\\
     \[[\ce{Fe(SCN)^{+2}}]= [\ce{SCN^{-}}]=   \;\;\mycircled{5}\;\;   \]
 \mycircled{7} This is the measured absorbance of the mixture.\vspace{0.5cm}\\

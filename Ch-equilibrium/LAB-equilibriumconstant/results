@@ -7,7 +7,7 @@
 %  &   & &&&&&&&&\\[1pt]
 \cline{1-11} 
 &\ce{Fe(NO3)3}&\ce{KSCN}&\ce{HNO3}&$v_{tot}$& \ce{[Fe^{+3}]}$_0$  &[\ce{SCN^-}]$_0$ &\ce{[FeSCN^{+2}]}&A &\ce{[FeSCN^{+2}]}$\cdot$A&\ce{[FeSCN^{+2}]$^2$}\\ 
- &0.25M&$10^{-4}$M&0.1M& &     &  &  &   &  &  \\ 
+ &0.25M&$0.0025$M&0.1M& &     &  &  &   &  &  \\ 
  &\mycircled{1}&\mycircled{2}& &\mycircled{3}&\mycircled{4}    &\mycircled{5} &\mycircled{6} &\mycircled{7}  &\mycircled{8} &\mycircled{9} \\ 
 \cline{1-11}
   &&&&   && &&&&\\
@@ -24,6 +24,8 @@ Origin &  & & & &  &  & 0& 0&0&0\\[3pt]
 \cline{1-11}
   &   &&&&& &&&&\\[3pt]
   &   &&&&&  &  &  &\multicolumn{2}{c}{\mycircled{12}$k=$\line(1,0){60}}  \\[3pt]
+\cline{1-11}
+Unknown &  & & & &  &  & \line(1,0){40}& \line(1,0){40}& &\\[3pt]
 \cline{1-11}
 \end{tabular}\end{center}
 \newpage
