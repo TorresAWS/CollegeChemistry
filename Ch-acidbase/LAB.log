@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JUN 2024 08:53
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **LAB.tex
 (./LAB.tex
@@ -4322,7 +4323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
-(./LAB-titration-curve/title)
+(../Ch-acidbase/LAB-titration-curve/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Titration Curve 
  []
@@ -4331,7 +4332,8 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(./LAB-titration-curve/goal) (./LAB-titration-curve/background
+(../Ch-acidbase/LAB-titration-curve/goal)
+(../Ch-acidbase/LAB-titration-curve/background
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -4413,13 +4415,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ])
-(./LAB-titration-curve/examplebox
+(../Ch-acidbase/LAB-titration-curve/examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 1.
-<LAB-titration-curve/TitrationCurve.png, id=54, 855.195pt x 547.04375pt>
-File: LAB-titration-curve/TitrationCurve.png Graphic file (type png)
-<use LAB-titration-curve/TitrationCurve.png>
-Package pdftex.def Info: LAB-titration-curve/TitrationCurve.png  used on input 
-line 8.
+<../Ch-acidbase/LAB-titration-curve/TitrationCurve.png, id=54, 855.195pt x 547.
+04375pt>
+File: ../Ch-acidbase/LAB-titration-curve/TitrationCurve.png Graphic file (type 
+png)
+<use ../Ch-acidbase/LAB-titration-curve/TitrationCurve.png>
+Package pdftex.def Info: ../Ch-acidbase/LAB-titration-curve/TitrationCurve.png 
+ used on input line 8.
 (pdftex.def)             Requested size: 343.22072pt x 219.54817pt.
 
 Underfull \hbox (badness 4967) in paragraph at lines 7--10
@@ -4458,11 +4462,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2 <./LAB-titration-curve/TitrationCurve.png>])
+[2 <../Ch-acidbase/LAB-titration-curve/TitrationCurve.png>])
 
 LaTeX Warning: Empty bibliography on input line 22.
 
-(./LAB-titration-curve/procedure
+(../Ch-acidbase/LAB-titration-curve/procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 6.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4471,7 +4475,8 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 6.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 6.
- (./LAB-titration-curve/goodlabpractice
+
+(../Ch-acidbase/LAB-titration-curve/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 []\T1/futs/m/n/10 The vol-ume added is cal-cu-lated by dif-fer-ence. It is not 
 nec-es-sary to start from 0
@@ -4604,12 +4609,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-titration-curve/title)
+(../Ch-acidbase/LAB-titration-curve/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--39
  []\T1/futs/b/n/24.88 Titration Curve 
  []
 
-(./LAB-titration-curve/prelab
+(../Ch-acidbase/LAB-titration-curve/prelab
 Overfull \hbox (17.18117pt too wide) in paragraph at lines 24--24
 []|$\FML/futmi/m/it/10 V[]$| 
  []
@@ -5060,12 +5065,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-titration-curve/title)
+(../Ch-acidbase/LAB-titration-curve/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--46
  []\T1/futs/b/n/24.88 Titration Curve 
  []
 
-(./LAB-titration-curve/results
+(../Ch-acidbase/LAB-titration-curve/results
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
  [][]  $\FML/futmi/m/it/10 c[]$ \T1/futs/m/n/10 (M) =[] 
  []
@@ -5348,12 +5353,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--95
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-titration-curve/title)
+(../Ch-acidbase/LAB-titration-curve/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--97
  []\T1/futs/b/n/24.88 Titration Curve 
  []
 
-(./LAB-titration-curve/postlab
+(../Ch-acidbase/LAB-titration-curve/postlab
 Underfull \hbox (badness 10000) in paragraph at lines 18--25
  [][] 
  []
@@ -5396,19 +5401,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-bleach/title)
+(../Ch-acidbase/LAB-bleach/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Strength of Laun-dry Bleach 
  []
 
-(./LAB-bleach/goal
+(../Ch-acidbase/LAB-bleach/goal
 Overfull \hbox (14.42166pt too wide) in paragraph at lines 1--2
 \T1/futs/m/n/10 The goal of this lab-o-ra-tory is to per-form an \T1/futs/b/n/1
 0 oxidation-reduction titra-tion \T1/futs/m/n/10 to de-ter-mine the con-cen-tra
 -tion of sodium hypochlo-rite
  []
 
-) (./LAB-bleach/materials) (./LAB-bleach/background
+) (../Ch-acidbase/LAB-bleach/materials) (../Ch-acidbase/LAB-bleach/background
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5455,17 +5460,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 + $[][][][][][][][][][][]$  \U/futs/m/n/10 B \T1/futs/m/n/9 (un-bal-anced) 
  []
 
-(./LAB-bleach/Ch-electrolytes-files/SectionIntro-Redox-reactions
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SectionIntro-Redox-reactions
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []$[] [][][]$ \T1/futs/m/n/10 + $[] [][][]$$[] [] []$$[] [][][]$ + $[] [][][]$
  [](re-dox re-ac-tion) [] 
  []
 
 )
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Oxidation-state-
-or-redox-number)
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Rules-to-calcula
-te-redox-numbers
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Oxi
+dation-state-or-redox-number)
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Rul
+es-to-calculate-redox-numbers
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5498,14 +5503,14 @@ line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 ))
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Calculating-the-
-redox-number) (./LAB-bleach/examplebox
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Cal
+culating-the-redox-number) (../Ch-acidbase/LAB-bleach/examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 )
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Redox-means-oxid
-ation-and-reduction)
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Redox-numbers-in
--chemical-reactions
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Red
+ox-means-oxidation-and-reduction)
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Red
+ox-numbers-in-chemical-reactions
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []$[][][]$ \T1/futs/m/n/10 + $[][][][][]$$[] [] []$$[][][][][]$ + $[][][]$ 
  []
@@ -5547,8 +5552,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 )
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Balancing-simple
--redox-reactions
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Bal
+ancing-simple-redox-reactions
 Underfull \hbox (badness 5460) in paragraph at lines 2--8
  []$[]$ 
  []
@@ -5564,8 +5569,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--18
  []
 
 )
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Balancing-redox-
-reactions-in-acidic-medium
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Bal
+ancing-redox-reactions-in-acidic-medium
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []$[][][][][][][][]$ \T1/futs/m/n/10 + $[][][][][]$$[] [] []$$[][][][][]$ + $[
 ][][][][]$ 
@@ -5588,8 +5593,8 @@ Underfull \hbox (badness 5460) in paragraph at lines 10--19
  []
 
 )
-(./LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Balancing-redox-
-reactions-in-basic-medium
+(../Ch-acidbase/LAB-bleach/Ch-electrolytes-files/SubSection-Redox-reactions-Bal
+ancing-redox-reactions-in-basic-medium
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []$[] [][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][]$ + $[] [][][][][]$$[] []
  []$$[] [][][][][]$ + $[][][][][]$ + $[] [][][][][][]$ 
@@ -5639,7 +5644,7 @@ Underfull \hbox (badness 7963) in paragraph at lines 15--15
 [] []$$[] [][][][][]$ + $[][][][][]$ + $[] [][][][][]$ 
  []
 
-) (./LAB-bleach/examplebox2
+) (../Ch-acidbase/LAB-bleach/examplebox2
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
@@ -5699,7 +5704,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 LaTeX Warning: Empty bibliography on input line 24.
 
-(./LAB-bleach/procedure (./LAB-bleach/cautionbox)
+(../Ch-acidbase/LAB-bleach/procedure (../Ch-acidbase/LAB-bleach/cautionbox)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5847,12 +5852,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-bleach/title)
+(../Ch-acidbase/LAB-bleach/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--43
  []\T1/futs/b/n/24.88 Strength of Laun-dry Bleach 
  []
 
-(./LAB-bleach/prelab
+(../Ch-acidbase/LAB-bleach/prelab
 Underfull \hbox (badness 6526) in paragraph at lines 14--15
  []$[][][][]$ \T1/futs/m/n/10 + $[][][][]$ + $[][][][]$$[] [] []$$[][][][][][][
 ]$ + $[][][][]$ + $[][][][][][][]$ 
@@ -5945,12 +5950,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-bleach/title)
+(../Ch-acidbase/LAB-bleach/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--50
  []\T1/futs/b/n/24.88 Strength of Laun-dry Bleach 
  []
 
-(./LAB-bleach/results
+(../Ch-acidbase/LAB-bleach/results
 Underfull \hbox (badness 1817) in paragraph at lines 7--7
  []|| 
  []
@@ -6041,12 +6046,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-bleach/title)
+(../Ch-acidbase/LAB-bleach/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--58
  []\T1/futs/b/n/24.88 Strength of Laun-dry Bleach 
  []
 
-(./LAB-bleach/postlab) [26
+(../Ch-acidbase/LAB-bleach/postlab) [26
 
 
 
@@ -6093,20 +6098,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-relativestrenthofacids/title)
+(../Ch-acidbase/LAB-relativestrenthofacids/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Acids Strength 
  []
 
-(./LAB-relativestrenthofacids/goal) (./LAB-relativestrenthofacids/materials)
-(./LAB-relativestrenthofacids/background
+(../Ch-acidbase/LAB-relativestrenthofacids/goal)
+(../Ch-acidbase/LAB-relativestrenthofacids/materials)
+(../Ch-acidbase/LAB-relativestrenthofacids/background
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []$[]$$[] [] []$$[][][]$ \T1/futs/m/n/10 + $[][][]$ 
  []
 
-(./LAB-relativestrenthofacids/Ch-acidbase-files/SectionIntro-Indicators)
-(./LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicators-How-do-th
-ey-function
+
+(../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/SectionIntro-Indic
+ators)
+(../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicat
+ors-How-do-they-function
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -6154,10 +6162,11 @@ m/n/10 ^^F \FML/futmi/m/it/10 log\T1/futs/m/n/10 (\FML/futm/m/it/10 ^^A\T1/futs
  []
 
 )
-(./LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicators-Selecting
--and-indicator)
-(./LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicators-Litmus)
-(./LAB-relativestrenthofacids/Ch-acidbase-files/Table-Indicators
+(../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicat
+ors-Selecting-and-indicator)
+(../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/Subsection-Indicat
+ors-Litmus)
+(../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/Table-Indicators
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 21.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -6198,14 +6207,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[29] (./LAB-relativestrenthofacids/examplebox
+[29] (../Ch-acidbase/LAB-relativestrenthofacids/examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 ))
 
 LaTeX Warning: Empty bibliography on input line 23.
 
-(./LAB-relativestrenthofacids/procedure
-(./LAB-relativestrenthofacids/cautionbox
+(../Ch-acidbase/LAB-relativestrenthofacids/procedure
+(../Ch-acidbase/LAB-relativestrenthofacids/cautionbox
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -6360,12 +6369,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-relativestrenthofacids/title)
+(../Ch-acidbase/LAB-relativestrenthofacids/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--41
  []\T1/futs/b/n/24.88 Acids Strength 
  []
 
-(./LAB-relativestrenthofacids/prelab) [34
+(../Ch-acidbase/LAB-relativestrenthofacids/prelab) [34
 
 
 
@@ -6446,13 +6455,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-relativestrenthofacids/title)
+(../Ch-acidbase/LAB-relativestrenthofacids/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--84
  []\T1/futs/b/n/24.88 Acids Strength  
  []
 
-(./LAB-relativestrenthofacids/results
-Overfull \hbox (17.55124pt too wide) in paragraph at lines 2--19
+(../Ch-acidbase/LAB-relativestrenthofacids/results
+Overfull \hbox (17.55124pt too wide) in paragraph at lines 2--22
  [][] 
  []
 
@@ -6531,12 +6540,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--108
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-relativestrenthofacids/title)
+(../Ch-acidbase/LAB-relativestrenthofacids/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--110
  []\T1/futs/b/n/24.88 Acids Strength 
  []
 
-(./LAB-relativestrenthofacids/postlab) [38
+(../Ch-acidbase/LAB-relativestrenthofacids/postlab) [38
 
 
 
@@ -6587,9 +6596,6 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1791.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
@@ -6597,9 +6603,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1791.
  ) 
 Here is how much of TeX's memory you used:
  71309 strings out of 493014
- 1573755 string characters out of 6133351
- 2351396 words of memory out of 5000000
- 73191 multiletter control sequences out of 15000+600000
+ 1575330 string characters out of 6133351
+ 2352396 words of memory out of 5000000
+ 73188 multiletter control sequences out of 15000+600000
  179132 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,23n,105p,10411b,1586s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6620,10 +6626,10 @@ obe/utopia/putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/uto
 pia/putri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (39 pages, 405228 bytes).
+Output written on LAB.pdf (39 pages, 404912 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
- 160 named destinations out of 1000 (max. 500000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 161 named destinations out of 1000 (max. 500000)
  588 words of extra memory for PDF output out of 10000 (max. 10000000)
 
