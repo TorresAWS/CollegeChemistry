@@ -8,7 +8,7 @@ in which the following redox reaction occurs
 \begin{center}\ce{	Zn_{(s)} + 2e^- + Cu^{2+}_{(aq)}(0.8M) -> Zn^{2+}_{(aq)}(1.2M) + Cu_{(s)} +2e^- }\hfill $\Delta \mathcal{E}_{cell}$ \end{center}
 Applying Nernst's equation at 298.15K we have:
 \[\Delta \mathcal{E}_{cell}= \Delta \mathcal{E}^{\circ}_{cell}-\frac{R\cdot T}{n_e\cdot F}\ln Q\]
-\[\Delta \mathcal{E}_{cell}= 1.10-\frac{8.314\cdot 298.15}{2\cdot 96485}\ln \frac{1.2}{0.8}=1.08V\]
+\[\Delta \mathcal{E}_{cell}= 1.10-\frac{8.314\cdot 298.15}{2\cdot 96485}\ln \frac{1.2}{0.8}=1.09V\]
 We have that as the galvanic cell is being consumed, the overall cell potential has decreased.
 For overall redox reactions behind galvanic cells involving a single ionic species in the anode and cathode, the anode molarity will be on the top side of $Q$ whereas the cathode molarity will be on the bottom:
 \[Q=\frac{\text{anode}}{\text{cathode}}\]
