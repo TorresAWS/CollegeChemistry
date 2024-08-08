@@ -21,15 +21,15 @@ To balance the overall redox reaction we need to first invert the anodic reactio
   \begin{center}\ce{	8NO_3^-_{(aq)} + 32H+ + 24e^-	 <=>	8NO_{(g)} + 16H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
 \ce{		9Fe_{(s)} + 12H2O	 <=>	3Fe3O4_{(s)} + 24H+ + 24e^- }\hfill -$\mathcal{E}^{\circ}_{anode} =+$0.08V\end{center}
 Now we can add both reaction:
-  \begin{center}\ce{	8NO_3^-_{(aq)} + 32H+ + 24e^-	 <=>	8NO_{(g)} + 16H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
+  \begin{center}\ce{	8NO_3^-_{(aq)} + 32H^+ + 24e^-	 <=>	8NO_{(g)} + 16H2O(l)  	}\hfill $\mathcal{E}^{\circ}_{cathode} =+$0.96V\\
 \ce{		9Fe_{(s)} + 12H2O	 <=>	3Fe3O4_{(s)} + 24H+ + 24e^- }\hfill -$\mathcal{E}^{\circ}_{anode} =+$0.08V\end{center}
  \rule{\textwidth}{0.4pt}
  \ce{	8NO_3^-_{(aq)} + 32H+ 	+ 9Fe_{(s)} + 12H2O + 24e^- <=>	8NO_{(g)} +}\\
 \begin{flushright} \ce{ + 16H2O(l) +3Fe3O4_{(s)} + 24H+ + 24e^- 	}\hspace{0.5cm}$\mathcal{E}^{\circ}_{cell}$\end{flushright}
  
 We would have to remove water molecules as they appear in both sides and protons as well:
- \ce{	8NO_3^-_{(aq)} +  8H+_{(aq)} 	+ 9Fe_{(s)} +   + \Cancel{24e^-} <=>	8NO_{(g)} +}
-\begin{flushright} \ce{+ 4H2O_{(l)} +3Fe3O4_{(s)}   } + \Cancel{24e^-} 	}\hspace{0.5cm} $\mathcal{E}^{\circ}_{cell}$ \end{flushright}
+ \ce{	8NO_3^-_{(aq)} +  8H+_{(aq)} 	+ 9Fe_{(s)}    + \Cancel{24e^-} <=>	8NO_{(g)} +}
+\begin{flushright} \ce{+ 4H2O_{(l)} +3Fe3O4_{(s)}    + \Cancel{24e^-} 	}\hspace{0.5cm} $\mathcal{E}^{\circ}_{cell}$ \end{flushright}
  
  Overall there is 24 moles of electrons going through the cell. The overall voltage would be:
  \[\mathcal{E}^{\circ}_{cell}=\mathcal{E}^{\circ}_{cathode}-\mathcal{E}^{\circ}_{anode}=\large(0.96\large)-\large(-0.08\large)=1.04V\]
