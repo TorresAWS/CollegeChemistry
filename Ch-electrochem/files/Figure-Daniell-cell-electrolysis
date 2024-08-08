@@ -1,5 +1,5 @@
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Daniell-cell-electrolysis}
- %\hspace{10cm}
+ \hspace{10cm}
 \begin{center}
 \begin{fullwidth}\begin{tikzpicture}
  \batterya{\small \ce{Zn^{2+}, 1M}}{Zn}	{Cu}	{\small \ce{Cu^{2+}, 1M}}{0}{\Large {$-$}  }{\Large {$+$}     }{\tiny Potentiom.}{1}    % 1 to the right
