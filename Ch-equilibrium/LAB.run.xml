@@ -41,16 +41,18 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>LAB.aux</file>
       <file>LAB1-blx.aux</file>
+      <file>LAB2-blx.aux</file>
       <file>LAB-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>LAB.bbl</file>
       <file>LAB1-blx.bbl</file>
+      <file>LAB2-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,7 +69,7 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
@@ -112,6 +114,33 @@
     </provides>
     <requires type="dynamic">
       <file>LAB1-blx.aux</file>
+      <file>LAB-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>./biblio/bibliography.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>LAB2-blx</infile>
+    </cmdline>
+    <input>
+      <file>LAB2-blx.aux</file>
+    </input>
+    <output>
+      <file>LAB2-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>LAB2-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>LAB2-blx.aux</file>
       <file>LAB-blx.bib</file>
     </requires>
     <requires type="editable">
