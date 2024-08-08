@@ -1,0 +1,72 @@
+During winter, salt is poured over the street to melt the ice on the floor. General knowledge says that the salt melts the ice, while some venture to claim that the salt lowers the freezing temperature of the water. Both assertions might be in the right direction but are, if not false, at least incorrect. When salt is mixed with water, there is no water or salt anymore. Instead, there is a \emph{solution} of salt in water. Since the freezing point of the solution is lower than that of the pure water, the solution is no longer solid at outdoor temperatures. Notice that there is no need to state the nature of the solution or the solute because it is irrelevant. The depression of the freezing point is not a property specific to the salt, (i.e. the sodium chloride, \ce{NaCl}), but rather a general effect of any solute. Salt is used because it is widely available, dissolves fast, and is inexpensive.
+
+\subsection*{Freezing point depression}
+
+The formula governing the change ($\Delta$) in the freezing point ($T_f$) is given by:
+\begin{center}  
+$\Delta T_f$ = $K_f m$
+\end{center}
+where $m$ is the concentration in terms of \emph{molality} and $K_f$ is the \textit{molal freezing-point depression constant}. $K_f$ is characteristic of the solvent being experimentally determined. Remember that molality $m$ refers to the moles of solute concerning the kilograms of solvent.  $\Delta T_f$ is the difference between the freezing point of the pure solvent ($T^{solvent}_f$) and that of the solution ($T^{solution}_f$). 
+The solvent used in this experiment will be \emph{cyclohexane}, a very \emph{volatile} organic solvent. Special precautions must be taken to avoid evaporation of the solvent. $K_f$ for cylohexane is 20.1 $^{\circ}$C/m. The solute will be an unknown compound. Hence you will not know its molar mass and therefore the molarity will not be explicitly known here.  
+
+   \import{\chapterlabel/}{examplebox}
+
+
+
+\subsection*{The experiment}
+
+The experiment today is divided into the following parts: finding the freezing point of the pure solvent, finding the freezing point of the solution, finding the freezing point after increasing the concentration, and solving the molar mass of the solute.
+
+\subsection*{Cooling plots}
+During a phase change, all the energy transferred is used to reorganize the molecules and none is used to change the temperature of the substance. A liquid at a higher temperature than its surroundings gives up the heat and its temperature falls until it reaches the freezing point. The liquid continues to give up heat to the surroundings, but its temperature remains constant. Only when all the liquid is frozen will the temperature start to fall again.
+
+If one plots temperature vs. time for the freezing of the pure liquid, a negative slope line will represent the cooling down, while the flat horizontal line (plateau) corresponds to the freezing process. These types of plots are called cooling plots. Notice that the transition from the cooling line to the horizontal line is not sharp. For that reason, the best way to determine the freezing point is to draw a straight line fitting most of the cooling points and another straight line fitting most of the cooling points, while finding the crossing point between two lines. You can measure the freezing point as the temperature measurement of this crossing point. For a pure solvent, the freezing point should be near the temperature corresponding to the plateau. This is the graphical method to find freezing points. In the case of a solution, this constant-temperature plateau does not exist anymore. In contrast, when a solution freezes its temperature decreases with time. However, the same graphical method can be used to obtain the freezing point of a solution. 
+Mixing the solution well is critical to obtaining a good cooling plot. If you do not mix the solution well you will obtain a series of steps when the solution freezes that will not allow you to measure an accurate freezing point. 
+\subsection*{Finding the freezing point of the pure solvent.}
+
+In this part of the experiment, you will obtain the cooling plot of the pure solvent, cyclohexane. Using the graphical method you will obtain the freezing point as an average between two replications. You must plot the results carefully to obtain accurate results.
+
+\begin{center}\resizebox{08cm}{!} {
+\begin{tikzpicture}[y=.2cm, x=.7cm,font=\sffamily]
+ 	%axis
+	\draw (0,20) -- coordinate (x axis mid) (16,20);
+    	\draw (0,20) -- coordinate (y axis mid) (0,70);
+    	%ticks
+    	\foreach \x in {0,4,...,16}
+     		\draw[yshift={13em}] (\x,1pt) -- (\x,-3pt)
+			node[anchor=north] {\x};
+    	\foreach \y in {20,40,...,70}
+     		\draw (1pt,\y) -- (-3pt,\y) 
+     			node[anchor=east] {\y}; 
+	%labels      
+	\node[below=0.8cm] at (x axis mid) {Time (min)};
+	\node[rotate=90, above=1.8cm, yshift={0.8cm},xshift={-0.8cm}] at (y axis mid) {Temperature ($^{\circ}$C)};
+
+	%plots
+	\draw plot[only marks, mark=*, mark options={fill=white}] file {freezingpointdepressionDATA};
+	\draw plot[only marks, mark=triangle*, mark options={fill=white}] file {freezingpointdepressionDATA2};
+     
+  \draw[domain=0:8,smooth,variable=\y,red] plot ({\y},{70- 40/9*\y           })  ; % 
+	\draw[domain=6:16,smooth,variable=\y,red] plot ({\y},{40- 0*\y           })  ; % 
+ 	\draw[blue,dashed] (6,40) --  (0,40);
+
+  \draw[domain=0:8,smooth,variable=\y,red] plot ({\y},{60- 40/9*\y           })  ; % 
+	\draw[domain=5:16,smooth,variable=\y,red] plot ({\y},{30+90/7- 10/7*\y           })  ; % 
+ 	\draw[blue,dashed] (6,35) --  (0,35);
+
+	\node[shift={(19,40)}]{Pure solvent};
+ 	\node[shift={(15,25)}]{Solution};
+
+\end{tikzpicture}}
+\end{center}
+
+
+
+
+\subsection*{Finding the freezing point of a solution.}
+
+In this part of the experiment, you will obtain the cooling plot of a solution made of cyclohexane and an unknown solute. Using the graphical method you will obtain the freezing point. You will work with two different concentrations and will carry out one replication per concentration. This part aims to calculate the molar mass of the solute.
+
+    \import{\chapterlabel/}{examplebox2} 
+
+ 

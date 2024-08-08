@@ -1,0 +1,17 @@
+%%%%%Good Lab Practice BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=black, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
+\tikzstyle{fancytitle} =[fill=blue, text=white, ellipse]
+\begin{tikzpicture}[transform shape, rotate=0, baseline=-0.5cm]
+\node [mybox] (box) {%
+    \begin{minipage}[t!]{0.7\textwidth}
+    \begin{itemize} [label={\ding{45}}]
+       \item  Never add the liquid or solid to be weighed to the container while on the scale. Take the container \emph{off} the scale prior to adding the product. A spill on the scale will ruin both your measurement and the scale.
+
+       \end{itemize}
+    \end{minipage}
+    };
+\node[fancytitle] at (box.north) {Good Lab Practice};
+\node[fancytitle, rounded corners] at (box.east) {\ding{45}};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

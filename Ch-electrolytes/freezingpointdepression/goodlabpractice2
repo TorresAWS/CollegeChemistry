@@ -1,0 +1,19 @@
+%%%%%Good Lab Practice BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=black, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
+\tikzstyle{fancytitle} =[fill=blue, text=white, ellipse]
+\begin{tikzpicture}[transform shape, rotate=0, baseline=-0.5cm]
+\node [mybox] (box) {%
+    \begin{minipage}[t!]{0.7\textwidth}
+    \begin{itemize} [label={\ding{45}}]
+       \item  Stirr, and do not shake. It is very important to stir the cyclohexane constantly and gently until it is completely frozen.
+	\item   Make sure the wire stays around the thermometer and that the latter is centered in the test tube.
+	\item   The thermometer should not touch the walls of the test tube.
+	\item   A bad stirring method will lead to a partial freezing and the graph will not show straight lines.
+       \end{itemize}
+    \end{minipage}
+    };
+\node[fancytitle] at (box.north) {Good Lab Practice};
+\node[fancytitle, rounded corners] at (box.east) {\ding{45}};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
