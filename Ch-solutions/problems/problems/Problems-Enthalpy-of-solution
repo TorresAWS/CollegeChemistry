@@ -1,10 +1,7 @@
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
-
+ 
 
 
 %%%%%%PROBLEM
@@ -128,9 +125,7 @@ The lattice energy of KF, the solute, is -808 KJ/mol, whereas the enthalpy of hy
 \item     -36 KJ/mol ; exothermic
  \end{inparaenum}
  \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
-  
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
+ 
 
 
 

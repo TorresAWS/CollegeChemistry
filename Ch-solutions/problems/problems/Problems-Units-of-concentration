@@ -73,10 +73,7 @@ Calculate the mole fraction of solute of a solution:
 
 
 
-
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+ 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
@@ -175,9 +172,7 @@ Use the List feature of your graphing calculator to fill the table below carryin
 
 
  
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
-
+ 
 
 
 

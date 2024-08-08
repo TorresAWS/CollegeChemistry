@@ -2,10 +2,7 @@
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
-
+ 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Which of the following mixtures would you expect to give the most ideal solution:
@@ -195,9 +192,6 @@ Answer the following questions:
 
 
  
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
-
 
 
 

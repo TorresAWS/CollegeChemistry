@@ -91,10 +91,7 @@ Calculate the molar weight of the solute of a solution with 0.9g/mL density, 0.5
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
-
+ 
 
  %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
@@ -254,10 +251,7 @@ A solution is 5\% in mass and its solute has a MW of 150g/mol. Calculate:
 \end{inparaenum} 
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
-
-
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
+ 
 
 
 

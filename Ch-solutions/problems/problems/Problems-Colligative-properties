@@ -96,10 +96,12 @@ The vapor pressure of cyclohexane is 100hPa at 20$^{\circ}$C. Calculate the vapo
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
-
+%% %%%%%%UNEDITED
+%\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
+%\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+%
+%\end{cornerbox}}{}
+%%%%%%%%UNEDITED
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
@@ -171,8 +173,7 @@ Which of the following solutions will have a highest vapor pressure:
 
 
 
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
+
 
 
 
@@ -224,10 +225,7 @@ The right side
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
-
+ 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
@@ -678,7 +676,6 @@ The vapor pressure of benzene and toluene at 20$^{\circ}$C are 74 and 22 torr, r
 
  
  
-
-\end{cornerbox}}{}
+ 
 %%%%%%%UNEDITED
 

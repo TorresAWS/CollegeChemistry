@@ -45,9 +45,7 @@ For the following colloids, indicate the nature of the dispersed and dispersing 
 
 
 
-% %%%%%%UNEDITED
-\providetoggle{UneditedText}\settoggle{UneditedText}{\ShowUneditedText}\iftoggle{UneditedText}{ %\item
-\begin{cornerbox}[northeastsouthwest,allcolors=yellow!20!red,allrules=2pt]
+ 
 
 
 %%%%%PROBLEM
@@ -142,8 +140,6 @@ Classify as: \\
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
-\end{cornerbox}}{}
-%%%%%%%UNEDITED
-  	
+ 
 
  	
