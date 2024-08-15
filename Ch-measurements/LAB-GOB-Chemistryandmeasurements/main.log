@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 AUG 2024 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 AUG 2024 06:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4647,13 +4647,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
  []\T1/futs/b/n/24.88 Chemistry and mea-sure-ments 
  []
 
+<measure2.png, id=109, 2140.99875pt x 597.23125pt>
+File: measure2.png Graphic file (type png)
+<use measure2.png>
+Package pdftex.def Info: measure2.png  used on input line 239.
+(pdftex.def)             Requested size: 513.11745pt x 143.12881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-) 
-AED: lastpage setting LastPage
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
@@ -4676,7 +4679,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [9
 
-]
+ <./measure2.png>]) 
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[10]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 2498.
 See the caption package documentation for explanation.
@@ -4692,10 +4723,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3385.
  ) 
 Here is how much of TeX's memory you used:
- 70710 strings out of 493014
- 1559312 string characters out of 6133351
- 2338606 words of memory out of 5000000
- 72889 multiletter control sequences out of 15000+600000
+ 70722 strings out of 493014
+ 1559473 string characters out of 6133351
+ 2338605 words of memory out of 5000000
+ 72897 multiletter control sequences out of 15000+600000
  102768 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,101p,10412b,1461s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4707,10 +4738,10 @@ nts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/adobe/utopia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe
 /utopia/putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia
 /putri8a.pfb>
-Output written on main.pdf (9 pages, 101774 bytes).
+Output written on main.pdf (10 pages, 123149 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
