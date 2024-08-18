@@ -1,399 +1,69 @@
-\documentclass[main.tex]{subfiles}
-\begin{document}\newpage
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
+\documentclass[cover.tex]{subfiles}
+\begin{document} 
+%\begin{refsection}
+
 \taburulecolor{black}
 
+%%%%%%%%%%%%HEADING TITLE
+\hfill\vspace{0.2cm}\begin{center}{\large \bfseries EXPERIMENT \thechapter\par\Huge
+ \import{\chapterpath/}{title}
+ \\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+ %%%%%%%%%%%%HEADING
  
-
  
+\section*{A. Goal}
+\import{\chapterpath/}{goal}
+\section*{B. Materials}
+\import{\chapterpath/}{materials}
+\section*{C. Background}
+%\import{\chapterpath/}{video}
+\import{\chapterpath/}{background}
 
 
-%%%%%%%%%%%%HEADING
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Pre-lab Questions 
-\par
-\Huge
-Conversion Factors and Problem Solving
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
-%%%%%%%%%%%%HEADING
+%\import{\chapterpath/}{examplebox}
+%%%%%BIBLIOGRAPHY
+%\printbibliography[heading=subbibliography]
+%%%%%BIBLIOGRAPHY
+%\section*{Lab Information}
+% \begin{itemize}[label={$\blacksquare$}]
+%  \import{\chapterpath/}{labinfo}
+% \end{itemize}
 
-\begin{enumerate}
-% PELAB 1
-\item Fill in the gaps for the following conversion equalities:\\
-\begin{center} \begin{tabular}{ p{3cm} p{1cm}p{3cm}    }
-  1 Kg 				&=&\rule{1cm}{0.4pt}g      \\[0.1cm]      
-  \rule{1cm}{0.4pt} Km 				&=&$10^{3}$m      \\[0.1cm]      
-    1 cm 				&=&\rule{1cm}{0.4pt}m      \\[0.1cm]      
-  \rule{1cm}{0.4pt} dm 				&=&$10^{-1}$m      \\[0.1cm]   
-    1 Tb 				&=&\rule{1cm}{0.4pt}b      \\[0.1cm]      
-  \rule{1cm}{0.4pt} $\mu$L 				&=&$10^{-6}$L      \\[0.1cm]  
- \end{tabular}\end{center}
+\section*{D. Procedure}
+\import{\chapterpath/}{procedure}
 
-
-
-
-
-\item Fill in the gaps for the following conversion factors:\\
-\begin{center}
- \begin{tabular}{ p{3cm} p{3cm} p{3cm}p{3cm}p{3cm}   }
- $\dfrac{1fs}{\hlmath{\hspace{35pt }}s}$				&$\dfrac{\hlmath{\hspace{35pt }}cm}{10^{-2}m}$&$\dfrac{1nm}{\hlmath{\hspace{35pt }}m}$&$\dfrac{1Kcal}{\hlmath{\hspace{35pt }}cal}$&   \\[0.1cm]     
- \end{tabular}\end{center}\vspace{.1cm}
-
-
-\vspace{1cm}
-\item Round the following numbers to the indicated number of decimal places or significant figures. Mind, the rules for rounding say that if the first digit to be dropped is more or equal to five (0.262) the value of the retained digit should be increased by one ($\approx 0.3$ one decimal place).
-\begin{center} \begin{tabular}{ p{3cm} p{1cm}p{3cm} p{3cm}    }
-  157.68				&$\approx$&\rule{2cm}{0.4pt}  & (one decimal place)    \\[0.1cm]      
-   47.807 				&$\approx$&\rule{2cm}{0.4pt}  &(two decimal places)    \\[0.1cm]  
-      1200 				&$\approx$&\rule{2cm}{0.4pt}  &(one significant figure)    \\[0.1cm]      
-    
- \end{tabular}\end{center}
-
-
-
-\item Do the following calculations with the correct number of significant figures. Mind when adding or substring numbers the results has to have the same number of digits as the number in the calculation with the fewest decimal places.
-\begin{center} \begin{tabular}{ p{3cm} p{1cm}p{3cm}    }
-  123.1+34.58 				&=&\rule{2cm}{0.4pt}      \\[0.1cm]      
-   45.567+2.24 				&=&\rule{2cm}{0.4pt}      \\[0.1cm]      
- \end{tabular}\end{center}
- 
-
-
-\newpage \item Do the following calculations with the correct number of significant figures. Mind when multiplying or dividing numbers the results has to have the same number of significant figures as the number in the calculation with the number of significant figures.
-\begin{center} \begin{tabular}{ p{3cm} p{1cm}p{3cm}    }
-  $100\times 12$ 				&=&\rule{2cm}{0.4pt}      \\[0.1cm]      
-   $0.34 / 3.56$ 				&=&\rule{2cm}{0.4pt}      \\[0.1cm]      
- \end{tabular}\end{center}
-
-
-
-
-
-\end{enumerate}
-
- %\clearpage\mbox{}\clearpage
 
 
 
 
 
 %%%%%%%%%%%%HEADING
-\newpage\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Experiment
-\par
-\Huge
-Conversion Factors and Problem Solving
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Pre-lab Questions \par\Huge
+\import{\chapterpath/}{title}\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
 %%%%%%%%%%%%HEADING
+\import{\chapterpath/}{prelab}
 
-\vspace{0.2cm}{\large \bfseries 1. Significant figures in additions and subtractions}
-The goal of this mini-experiment is to familiarize with the use of significant figures in basic calculations. When faced with an addition or subtraction calculation, the rule says that the final number has to have the same number of decimal places as the number with the fewest decimal places. Carry the following calculations and give the result with the correct number of decimal places or significant figures.
+%%%%%%%%%%%%%HEADING
+%\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{ \vspace{1em} \vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage\begin{sidewaystable}[ph!]\begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{-1cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+%\import{\chapterpath/}{title}
+%\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+%%%%%%%%%%%%%HEADING
 
-\begin{steps}
-    \newstep[] Analyze each number separately and among all numbers identify the less number of decimal places.
-    \newstep[] Analyze each number separately and among all numbers identify the less number of significant figures (SFs). 
-    \newstep[]Write down the final result with the correct number of decimals or SFs using the rounding rules (If the number you are rounding is followed by 5, 6, 7, 8, or 9, round the number up)
-\end{steps}
-
-\begin{center} \begin{tabular}{ p{5cm} p{3cm} p{3cm}p{3cm}   }
-   \begin{bf}Calculation\end{bf} & \begin{bf}Fewest \# of SFs\end{bf} &\begin{bf}Fewest \# of decimals\end{bf} &\begin{bf}Result\end{bf} \\[0.1cm]     
-  $45.3+12.63$ 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-  $45.3+12.23$ 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-   $45.33+12.456$  				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-  $45+12.12-23.2$  				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
- \end{tabular}\end{center}
-
-
-\vspace{0.2cm}{\large \bfseries 2. Significant figures in multiplications and divisions}
-The goal of this mini-experiment is, again, to familiarize with the use of significant figures in basic calculations. When faced with multiplications and divisions, the rule says that the final number has to have the same number of SFs as the number with the fewest SFs. Carry the following calculations and give the result with the correct number of decimal places or significant figures.
-
-\begin{steps}
-    \newstep[] Analyze each number separately and among all numbers identify the less number of decimal places.
-    \newstep[] Analyze each number separately and among all numbers identify the less number of significant figures (SFs). 
-    \newstep[]Write down the final result with the correct number of decimals or SFs using the rounding rules (You can replace a digit by zero to eliminate significant figures: 123(3SF)$\approx$100(1SF))
-\end{steps}
-
-\begin{center} \begin{tabular}{ p{5cm} p{3cm} p{3cm}p{3cm}   }
-   \begin{bf}Calculation\end{bf} & \begin{bf}Fewest \# of SFs\end{bf} &\begin{bf}Fewest \# of decimals\end{bf} &\begin{bf}Result\end{bf} \\[0.1cm]     
-%  $1700\times123$ 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-   $1700/123$ 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-    $0.1245\times 2.00\times 0.0367 $  				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
-   $54.87\times 4.56/ 0.4$  				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.2cm]      
- \end{tabular}\end{center}
-
- 
-\vspace{0.2cm}{\large \bfseries 3. Measuring volume}
-In this mini-experiment learn how to properly compute volume using the right number of SF's. 
-\begin{steps}
-    \newstep[] Obtain a rectangular wood piece from the lab. Obtain one piece per team.
-        \newstep[]  With a ruler measure the length of the sides of the rectangular piece of wood in cm.
-        \newstep[]  Compute the volume by multiplying the length, heigh and depth using the right number of SF's and digits.
-
-\begin{center} \begin{tabular}{ p{3cm} p{3cm} p{3cm}p{3cm}   }
-   \begin{bf}Length\end{bf} & \begin{bf}Height\end{bf} &\begin{bf}Depth\end{bf} &\begin{bf}Volume, $cm^3$\end{bf} \\[0.1cm]     
-  \rule{3cm}{0.4pt} 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.3cm]           
- \end{tabular}\end{center}
-         \newstep[] Compare your result with the other students in the team and write them down below. Do you get the same result?    
-         
-     \begin{center}    \rule{8cm}{0.4pt}\end{center}
-\end{steps}
-
-
-\vspace{0.2cm}{\large \bfseries 4. Simple conversion factors }
-This mini-experiment will help you out learn how to carry simple conversion factors. In particular, how to remove and add a prefix.
-\begin{steps}
-        \newstep[]  Fill the gap in the calculations below. Remember to place 1 in front of the unit with prefix (cm) and the corresponding power of ten in from of the unit (m).
-  
-\begin{center}
- \begin{tabular}{ p{6cm}   p{6cm}  }
- $20m\times\dfrac{1cm}{\hlmath{\hspace{35pt }}m}=2000cm$				&
- %$1234ms\times\dfrac{\hlmath{\hspace{35pt }}s}{    1    ms}=1.234s$						&
- $76g\times\dfrac{1Kg}{\hlmath{\hspace{35pt }}g}=0.076Kg$							\\[0.5cm]     
- 
-  $40L\times\dfrac{1mL}{\hlmath{\hspace{35pt }}L}=4\times 10^4mL$				&
- %$40L\times\dfrac{\hlmath{\hspace{35pt }}dL}{    10^{-1}    L}=400dL$						&
- $200\mu L\times\dfrac{10^{-6} L}{\hlmath{\hspace{35pt }}\mu L}=2\times 10^{-4} L$							\\[0.5cm] 
- 
- \end{tabular}\end{center}\vspace{.1cm}
-
-
-         \newstep[]  Fill the gap in the calculations below. Now there are two gaps to fill in. Remember to place 1 in front of the unit with prefix (cm) and the corresponding power of ten in from of the unit (m).
-
-\begin{center}
- \begin{tabular}{ p{6cm}   p{6cm}  }
- $5m\times\dfrac{\hlmath{\hspace{35pt }}cm}{\hlmath{\hspace{35pt }}m}=500cm$				&
- %$5000ms\times\dfrac{\hlmath{\hspace{35pt }}s}{    \hlmath{\hspace{35pt }}    ms}=5s$						&
- $1000g\times\dfrac{\hlmath{\hspace{35pt }}Kg}{\hlmath{\hspace{35pt }}g}=1Kg$							\\[0.5cm]     
- 
-  $0.4cm\times\dfrac{\hlmath{\hspace{35pt }}m}{\hlmath{\hspace{35pt }}cm}=4\times 10^{-3}m$				&
- %$450s\times\dfrac{\hlmath{\hspace{35pt }}ds}{    \hlmath{\hspace{35pt }}    s}=4500ds$						&
- $100g\times\dfrac{\hlmath{\hspace{35pt }}Kg}{\hlmath{\hspace{35pt }}g}=0.1Kg$							\\[0.5cm] 
- 
- \end{tabular}\end{center}\vspace{.1cm}
-   
-   
-      \newstep[]  Fill the gap in the calculations below. Now there are three gaps to fill in. Remember to place 1 in front of the unit with prefix (cm) and the corresponding power of ten in from of the unit (m).
-
-\begin{center}
- \begin{tabular}{ p{6cm}   p{6cm}  }
- $300Gb\times\dfrac{\hlmath{\hspace{35pt }}b}{\hlmath{\hspace{35pt }}Gb}=\hlmath{\hspace{25pt }}b$				&
- %$50\mu m\times\dfrac{\hlmath{\hspace{35pt }}m}{    \hlmath{\hspace{35pt }}    \mu m}=\hlmath{\hspace{25pt }}m$						&
- $200mm\times\dfrac{\hlmath{\hspace{35pt }}m}{\hlmath{\hspace{35pt }}mm}=\hlmath{\hspace{25pt }}m$							\\[0.5cm]     
- 
-  $50m\times\dfrac{\hlmath{\hspace{35pt }}dm}{\hlmath{\hspace{35pt }}m}=\hlmath{\hspace{25pt }}dm$				&
- %$12Kg\times\dfrac{\hlmath{\hspace{35pt }}g}{    \hlmath{\hspace{35pt }}    Kg}=\hlmath{\hspace{25pt }}g$						&
- $5g\times\dfrac{\hlmath{\hspace{35pt }}Kg}{\hlmath{\hspace{35pt }}g}=\hlmath{\hspace{25pt }}Kg$							\\[0.5cm] 
- 
- \end{tabular}\end{center}\vspace{.1cm}
-   
-         \newstep[]  Now you should be able to know how to set up a conversion factor. Fill the following conversions.
-
-\begin{center}
- \begin{tabular}{ p{6cm}   p{6cm}  }
- $300nm	\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}m$				&
- %$7\times 10^{4}pm\times\dfrac{\hlmath{\hspace{35pt }}}{    \hlmath{\hspace{35pt }}    }=\hlmath{\hspace{35pt }}m$						&
- $500Kg\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}g$							\\[0.5cm]     
- 
-  $70Tb\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}b$				&
- %$5\times 10^{-9}L\times\dfrac{\hlmath{\hspace{35pt }}}{    \hlmath{\hspace{35pt }}    }=\hlmath{\hspace{35pt }}\mu L$						&
- $500mL\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}L$							\\[0.5cm] 
- 
- \end{tabular}\end{center}\vspace{.1cm}
-   
-   
-   \end{steps}
-
-
- 
-
-
-
-
- 
-\vspace{0.2cm}{\large \bfseries 4. Non-metric conversions}
-This mini-experiment deals with non-metric units and their conversion to metric-based units. An example of this is inches which are 2.54cm. One can convert from non-metric In into centimeter--a  metric-based unit. Below is a list of a few non-metric units
-\begin{equation*}
-\boxed{   1\text{in}=2.54cm \enspace \text{}  \enspace 1\text{lb}=454g\enspace \text{}  \enspace 1\text{qt}=946mL}   
-\end{equation*}
-\begin{steps}
-    \newstep[] Using a metric-based ruler and a string, measure the size of your wrist in cm. Write down your results in the table below.
-    \newstep[] Using an inch-based ruler and a string, measure the length of your wrist in In. Write down your results in the table below.
-        \newstep[]  Set up the conversion factor below to convert cm into inches.
-\[\hlmath{\hspace{35pt }}cm\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}in\]
-        \newstep[]  Write down the results in the table below.
-        \newstep[]  Calculate the percent error using the formula (make sure you use absolute value). Write down your results in the table below:
-        \[  \text{\% Error}= \Big \lvert \, \frac{\centering\mycircled{2} \, - \, \mycircled{1} }{\centering\mycircled{1}}\,	\Big \lvert \times 100\]
- 
-
-         \newstep[] Compare your error with the other students in the team and write them down below. Do you get similar errors?    
-         
-\begin{center}\resizebox{18cm}{!} {
-
- \begin{tabular}{ p{4cm} p{4cm} p{4cm}p{3cm}   }
-   \begin{bf}Measured Length (cm)\end{bf} & \begin{bf}Measured Length (in)\end{bf} &\begin{bf}Converted Length (in)\end{bf} &\begin{bf} \% Error\end{bf} \\[0.1cm]     
-  \rule{3cm}{0.4pt} 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.3cm]
-     				& \centering\mycircled{1}&\centering\mycircled{2} &   \\[0.3cm]           
-          
- \end{tabular}}\end{center}
-   %  \begin{center}    \rule{8cm}{0.4pt}\end{center}
-\end{steps}
-
- 
-
- 
-\vspace{0.2cm}{\large \bfseries 5. Non-metric conversions for volume}
-This mini-experiment deals with non-metric volume units and their conversion to metric-based units. One can convert from non-metric qt (quart) into L--a  metric-based unit. Below is a list of a few non-metric units
-\begin{equation*}
-\boxed{   1\text{L}=1.057 qt }   
-\end{equation*}
-\begin{steps}
-    \newstep[] Measure 1qt of water and transfer it to a 1L graduated cylinder.
-    \newstep[] Read the volume meaurement from the 1L graduated cylinder.
-        \newstep[]  Set up the conversion factor below to convert qt into L.
-\[\hlmath{\hspace{35pt }}qt\times\dfrac{\hlmath{\hspace{35pt }}}{\hlmath{\hspace{35pt }}}=\hlmath{\hspace{35pt }}L\]
-        \newstep[]  Write down the results in the table below.
-        \newstep[]  Calculate the percent error using the formula (make sure you use absolute value). Write down your results in the table below:
-        \[  \text{\% Error}= \Big \lvert \, \frac{\centering\mycircled{2} \, - \, \mycircled{1} }{\centering\mycircled{1}}\,	\Big \lvert \times 100\]
-         \newstep[] Compare your error with the other students in the team and write them down below. Do you get similar errors?    
-         
-\begin{center}\resizebox{18cm}{!} {
-
- \begin{tabular}{ p{4cm} p{4cm} p{4cm}p{3cm}   }
-   \begin{bf}Measured volume (qt)\end{bf} & \begin{bf}Measured volume (L)\end{bf} &\begin{bf}Converted volume (L)\end{bf} &\begin{bf} \% Error\end{bf} \\[0.1cm]     
-  \rule{3cm}{0.4pt} 				&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}&\rule{3cm}{0.4pt}  \\[0.3cm]
-     				& \centering\mycircled{1}&\centering\mycircled{2} &   \\[0.3cm]           
-          
- \end{tabular}}\end{center}
-   %  \begin{center}    \rule{8cm}{0.4pt}\end{center}
-\end{steps}
-
-
-
-\newpage
- %\clearpage\mbox{}\clearpage
-
- 
-
+%%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+ \import{\chapterpath/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%%HEADING
+\import{\chapterpath/}{results} 
+%\clearpage\mbox{}\clearpage
 
 %%%%%%%%%%%%HEADING
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Post-lab questions
-\par
-\Huge
-Conversion Factors and Problem Solving
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Post-lab Questions \par\Huge
+ \import{\chapterpath/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
 %%%%%%%%%%%%HEADING
+ \import{\chapterpath/}{postlab}
+\clearpage\mbox{}\clearpage
 
-\begin{enumerate}
-\item 
-   Convert 100$\mu L$ into L.
-
-
-\vspace{5cm}
-
-\item Using a ruler in cm, calculate the volume of the following object with the correct number of digits or SFs:\\
-\usetikzlibrary{quotes,arrows.meta}
-
-\begin{tikzpicture} 
-\begin{scope}[shift={(0,0)},rotate=00]
-  \node (a) [cylinder, shape border rotate=90, draw, minimum height=25mm, minimum width=15mm] {};
-  \draw [<->] ([xshift=5pt]a.before bottom) -- ([xshift=5pt]a.after top) node [midway, right] {$h$};
-  \draw [<->] ([yshift=-5pt]a.bottom) -- ([yshift=-5pt]a.bottom -| a.before bottom) node [midway, below] {$r$};
-\end{scope}
-\begin{scope}[shift={(8,0)},rotate=00]
-
-  \pgfmathsetmacro{\cubex}{5}
-  \pgfmathsetmacro{\cubey}{1}
-  \pgfmathsetmacro{\cubez}{3}
-  \draw [draw=black, every edge/.append style={draw=black, densely dashed, opacity=.5}, fill=gray!40]
-    (0,0,0) coordinate (o) -- ++(-\cubex,0,0) coordinate (a) -- ++(0,-\cubey,0) coordinate (b) edge coordinate [pos=1] (g) ++(0,0,-\cubez)  -- ++(\cubex,0,0) coordinate (c) -- cycle
-    (o) -- ++(0,0,-\cubez) coordinate (d) -- ++(0,-\cubey,0) coordinate (e) edge (g) -- (c) -- cycle
-    (o) -- (a) -- ++(0,0,-\cubez) coordinate (f) edge (g) -- (d) -- cycle;
-  \path [every edge/.append style={draw=black, |-|}]
-    (b) +(0,-5pt) coordinate (b1) edge ["a"] (b1 -| c)
-    (b) +(-5pt,0) coordinate (b2) edge ["b"] (b2 |- a)
-    (c) +(3.5pt,-3.5pt) coordinate (c2) edge ["c"] ([xshift=3.5pt,yshift=-3.5pt]e)
-    ;
-\end{scope}
-\begin{scope}[shift={(13,0)},rotate=00]
-
-\shade[ball color = gray!40, opacity = 0.4] (0,0) circle (2cm);
-  \draw (0,0) circle (2cm);
-  \draw (-2,0) arc (180:360:2 and 0.6);
-  \draw[dashed] (2,0) arc (0:180:2 and 0.6);
-  \fill[fill=black] (0,0) circle (1pt);
-  \draw[dashed] (0,0 ) -- node[above]{$r$} (2,0);
-\end{scope}
-
-                 \end{tikzpicture}
-\begin{equation*}
-v_{cylinder} = \pi r^2 \times h
-\qquad
-v_{cube} = a\times b \times c
-\qquad
-v_{sphere} = \frac{3}{4}\times \pi r^3
-\end{equation*}
-
-
-\vspace{1.5cm}
-
-\end{enumerate}
-
- \clearpage\mbox{}\clearpage
-
- 
-
-
+% \end{refsection}
 \end{document}

@@ -1,0 +1,55 @@
+\begin{enumerate}
+\item 
+   Convert 100$\mu L$ into L.
+
+
+\vspace{5cm}
+
+\item Using a ruler in cm, calculate the volume of the following object with the correct number of digits or SFs:\\
+\usetikzlibrary{quotes,arrows.meta}
+
+\begin{tikzpicture} 
+\begin{scope}[shift={(0,0)},rotate=00]
+  \node (a) [cylinder, shape border rotate=90, draw, minimum height=25mm, minimum width=15mm] {};
+  \draw [<->] ([xshift=5pt]a.before bottom) -- ([xshift=5pt]a.after top) node [midway, right] {$h$};
+  \draw [<->] ([yshift=-5pt]a.bottom) -- ([yshift=-5pt]a.bottom -| a.before bottom) node [midway, below] {$r$};
+\end{scope}
+\begin{scope}[shift={(8,0)},rotate=00]
+
+  \pgfmathsetmacro{\cubex}{5}
+  \pgfmathsetmacro{\cubey}{1}
+  \pgfmathsetmacro{\cubez}{3}
+  \draw [draw=black, every edge/.append style={draw=black, densely dashed, opacity=.5}, fill=gray!40]
+    (0,0,0) coordinate (o) -- ++(-\cubex,0,0) coordinate (a) -- ++(0,-\cubey,0) coordinate (b) edge coordinate [pos=1] (g) ++(0,0,-\cubez)  -- ++(\cubex,0,0) coordinate (c) -- cycle
+    (o) -- ++(0,0,-\cubez) coordinate (d) -- ++(0,-\cubey,0) coordinate (e) edge (g) -- (c) -- cycle
+    (o) -- (a) -- ++(0,0,-\cubez) coordinate (f) edge (g) -- (d) -- cycle;
+  \path [every edge/.append style={draw=black, |-|}]
+    (b) +(0,-5pt) coordinate (b1) edge ["a"] (b1 -| c)
+    (b) +(-5pt,0) coordinate (b2) edge ["b"] (b2 |- a)
+    (c) +(3.5pt,-3.5pt) coordinate (c2) edge ["c"] ([xshift=3.5pt,yshift=-3.5pt]e)
+    ;
+\end{scope}
+\begin{scope}[shift={(13,0)},rotate=00]
+
+\shade[ball color = gray!40, opacity = 0.4] (0,0) circle (2cm);
+  \draw (0,0) circle (2cm);
+  \draw (-2,0) arc (180:360:2 and 0.6);
+  \draw[dashed] (2,0) arc (0:180:2 and 0.6);
+  \fill[fill=black] (0,0) circle (1pt);
+  \draw[dashed] (0,0 ) -- node[above]{$r$} (2,0);
+\end{scope}
+
+                 \end{tikzpicture}
+\begin{equation*}
+v_{cylinder} = \pi r^2 \times h
+\qquad
+v_{cube} = a\times b \times c
+\qquad
+v_{sphere} = \frac{3}{4}\times \pi r^3
+\end{equation*}
+
+
+\vspace{1.5cm}
+
+\end{enumerate}
+
