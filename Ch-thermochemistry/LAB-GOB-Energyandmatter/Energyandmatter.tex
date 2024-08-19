@@ -1,305 +1,71 @@
-\documentclass[main.tex]{subfiles}
-\begin{document}\newpage
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
+\documentclass[cover.tex]{subfiles}
+\begin{document} 
+%\begin{refsection}
 
+\taburulecolor{black}
 
-
-
-
-
-
-%%%%%%%%%%%%HEADING
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-Pre-lab Done: \tikzcheckmark[scale=2,black]{no mark}\quad
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Pre-lab Questions 
-\par
-\Huge
-Energy and Matter
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
-%%%%%%%%%%%%HEADING
-
-\begin{enumerate}
-% PELAB 1
-\item When ice melts is heat lost or gained? Explain.
-\vspace{2cm}
-
-\item Calculate the mass of 100mL of water. Density is 1g/mL.
-\vspace{2cm}
-
-\item What happens to the temperature of water while its boiling?
-\vspace{2cm}
-
-\item How many calories are needed to boil 100g of water? ($\text{heat}_{\text{vaporization}}$=540 cal/g )
-\vspace{2cm}
-
-
-\item How many calories are needed to melt 100g of ice? ($\text{heat}_{\text{fusion}}$=80 cal/g )
-\vspace{2cm}
-
-
-\item How many calories are needed to warm up 100g of water from 10 to 50$^\circ$C? ($\text{C}_{\text{e}}$=1 cal/g/$^\circ$C )
-\vspace{5cm}
-
-\item The following formula is used to calculate the heat of fusion of ice using a calorimeter, where  $C_{e, water}$ is the specific heat of water (1cal/g/$^\circ$C), the mass of ice is 5g, the mass of water in the calorimeter is 100g and the temperature decrease is -4$^\circ$C
-\begin{equation*}
--m_{ice}\times Q_{fusion}+m_{water}\times C_{e, water}\times \Delta T=0
-\end{equation*}
-Calculate the  heat of fusion of ice.
-
-\vspace{2cm}
-
-
-
-\end{enumerate}
-
-
+%%%%%%%%%%%%HEADING TITLE
+\hfill\vspace{0.2cm}\begin{center}{\large \bfseries EXPERIMENT \thechapter\par\Huge
+ \import{\chapterpath/}{title}
+ \\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+ %%%%%%%%%%%%HEADING
+ 
+ 
+\section*{A. Goal}
+\import{\chapterpath/}{goal}
+\section*{B. Materials}
+\import{\chapterpath/}{materials}
+\section*{C. Background}
+%\import{\chapterpath/}{video}
+\import{\chapterpath/}{background}
 \clearpage\mbox{}\clearpage
 
 
 
-%%%%%%%%%%%%HEADING
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-Pre-lab Done: \tikzcheckmark[scale=2,black]{no mark}\quad
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Experiment
-\par
-\Huge
-Energy and Matter
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
-%%%%%%%%%%%%HEADING
+%\import{\chapterpath/}{examplebox}
+%%%%%BIBLIOGRAPHY
+%\printbibliography[heading=subbibliography]
+%%%%%BIBLIOGRAPHY
+%\section*{Lab Information}
+% \begin{itemize}[label={$\blacksquare$}]
+%  \import{\chapterpath/}{labinfo}
+% \end{itemize}
 
-\vspace{0.2cm}{\large \bfseries 1. Heating curve for water}
-While heating a liquid its temperature raises up until the moment the liquid boils.
-\begin{steps}
-    \newstep[] Place a 250mL beaker (or a 400mL) on top of a hot plate. Place a thermometer in the beaker so that it does not touch the walls of the beaker and secure it with a clam.
-    \newstep[] Use a cylinder and place 150mL cool of water into the beaker.
-    \newstep[] Using the thermometer record and write down the initial temperature of water.
-    \newstep[] Start heating the liquid at medium heat.
-    \newstep[] Record the temperature in the table below every minute (you might need to add extra space in the table to accommodate all numbers). Use a stopwatch to measure time.
-    \newstep[] When large bubbles continuously appear (not small bubbles), the liquid will be boiling. After that point record the temperature for only 10 minutes. In some cases, water may seem like that does not boil after 20 minutes. In those cases, consult with your instructor.
-    \newstep[] Turn off the hop plate when the experiment is done.
-
-\newstep[] Using a pencil, plot the heating curve of water by graphing temperature (Vertical axis) vs. time (Horizontal axis). Make sure the time occupies the whole space in the plot. Show this plot to your instructor.
-\end{steps}
+\section*{D. Procedure}
+\import{\chapterpath/}{procedure}
 
 
 
 
- \begin{center}
- \begin{tabular}{ p{5cm}p{5cm}p{5cm}  }
-\hline
-{
-\linespread{1.5}
-\begin{center}
-\thead{Time (min)\hspace{.3cm}Temperature ($^\circ$C)\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-}\end{center}}
-&    
-{\linespread{1.5}\begin{center}\thead{\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-}\end{center}} 
-&  
-{\linespread{1.5}\begin{center}\thead{\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}
-\\
-}\end{center}}                 \\
-\hline
-\end{tabular}
-\end{center}
 
- 
-
- 
-
-
-
-\newpage
- \begin{center}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (120mm,120mm);
- \draw[step=10mm] (0,0) grid (120mm,120mm);
-\end{tikzpicture}
-\end{center}
-
-\vspace{0.2cm}{\large \bfseries 2. Cooling curve of salol}
-Phenyl salicylate, or salol, is a chemical once used in sunscreens, phenyl salicylate and now used in the manufacture of some polymers, lacquers, adhesives, waxes, and polishes. This chemical is solid at room temperature. The goal of this mini experiment is to draw the cooling curve of melted salol.
-\begin{steps}
-    \newstep[] Half-fill a 400mL beaker with water. Add boiling chips and start boiling the liquid with a hot plate. This is a water bath meant to melt salol.
-        \newstep[]  Place the salol container in the water bath. Add a thermometer inside the salol tube to control its temperature. Melt the solid completely. Never warm up salol beyond 80$^\circ$C.
-        \newstep[]  When salol is all melted stop the hot plate and start recording temperature every minute. Write down the results in the table below.
-  \newstep[] After the solid forms, continue measuring temperature for five more minutes.
-  \newstep[] Stop recording when salol is fully solidified.
-      \newstep[] Write down the measurement in the table below. 
-      \newstep[] Plot the heating curve of water by graphing temperature (Vertical axis) vs. time (Horizontal axis).
-\end{steps}
-
-
- 
-
-\newpage
- \begin{center}
- \begin{tabular}{ p{5cm}p{5cm}p{5cm}  }
-\hline
-{
-\linespread{1.5}
-\begin{center}
-\thead{Time (min)\hspace{.3cm}Temperature ($^\circ$C)\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-}\end{center}}
-&    
-{\linespread{1.5}\begin{center}\thead{\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\
-}\end{center}} 
-&  
-{\linespread{1.5}\begin{center}\thead{\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}\\\rule{2.0cm}{0.4pt}\hspace{.5cm}\rule{2.0cm}{0.4pt}
-\\
-}\end{center}}                 \\
-\hline
-\end{tabular}
-\end{center}
-
-
-\begin{center}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (120mm,120mm);
- \draw[step=10mm] (0,0) grid (120mm,120mm);
-\end{tikzpicture}
-\end{center}
- 
-\newpage
- 
-\vspace{0.2cm}{\large \bfseries 3. Heat of fusion of ice}
-The goal of this mini experiment is to calculate an estimate of the heat of fusion of ice. You will do this by using a calorimeter (a double styrofoam cup) and a thermometer.
-\begin{steps}
-    \newstep[] Weight a empty double styrofoam cup and record its mass.
- \newstep[] Add 100mL of water to the cup and weight again. Record the new mass.
-  \newstep[] Record the initial temperature of water with a thermometer.
-   \newstep[] Add crushed ice to the cup with water. The amount of ice should fill half of a 100mL beaker. 
-    \newstep[] Close the calorimeter until all the ice is melted. Record the final temperature.
-     \newstep[] Weight the cup with water and the melted ice and record the final mass.
-\end{steps}
-
-
-\begin{center}\resizebox{18cm}{!} {\begin{tabular}{ p{2.0cm}p{7.5cm}p{3cm}p{5cm}  }
-\hline
- \begin{center}\mycircled{1}\end{center} &\begin{center}Mass of the calorimeter (g)\end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-   \begin{center}\mycircled{2}\end{center} & \begin{center}Mass of the calorimeter+ water (g)\end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-      \begin{center}\mycircled{2}\hspace{0.1cm}$-$\hspace{0.1cm}\mycircled{1}\end{center} & \begin{center}Mass of the water,$m_{water}$ (g)\end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-  \begin{center}\mycircled{3}\end{center} & \begin{center}Initial temperature of water ($^\circ$C) \end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-  \begin{center}\mycircled{4}\end{center}& \begin{center}Final temperature of water (when ice is melted) ($^\circ$C) \end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-        \begin{center}\mycircled{4}\hspace{0.1cm}$-$\hspace{0.1cm}\mycircled{3}\end{center} & \begin{center}Temperature change, $\Delta T$ ($^\circ$C)\end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-
-  \begin{center}\mycircled{5}\end{center}& \begin{center}Mass of the calorimeter+ water + melted ice (g) \end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-          \begin{center}\mycircled{5}\hspace{0.1cm}$-$\hspace{0.1cm}\mycircled{2}\end{center} & \begin{center}Ice mass, $m_{ice}$ (g)\end{center}&&\begin{center}\rule{3.0cm}{0.4pt}\end{center}\\
-
-
-\hline\end{tabular}}\end{center}
-
-
-Calculate the fusion heat of ice by using the following formula, in which $C_{e, water}$ is the specific heat of water (1cal/g/$^\circ$C):
-\begin{equation*}
--m_{ice}\times Q_{fusion}+m_{water}\times C_{e, water}\times \Delta T=0
-\end{equation*}
-\hspace{2cm}
-\flushright {$Q_{fusion}=$\rule{3.0cm}{0.4pt}}
-
- 
-
-\newpage
 
 %%%%%%%%%%%%HEADING
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]
-\vspace{0.2cm}
-\noindent Name: \rule{5cm}{0.4pt}Date:\rule{1cm}{0.4pt}\\
-Pre-lab Done: \tikzcheckmark[scale=2,black]{no mark}\quad
-\end{tcolorbox}
-\end{multicols}
-\hfill
-\vspace{0.2cm}
-\begin{center}
-{\large \bfseries 
-Post-lab Questions 
-\par
-\Huge
-Energy and Matter
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\uline{  \hfill \normalsize \hfill       }
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Pre-lab Questions \par\Huge
+\import{\chapterpath/}{title}\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+\import{\chapterpath/}{prelab}
+
+%%%%%%%%%%%%%%HEADING
+%\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{ \vspace{1em} \vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage\begin{sidewaystable}[ph!]\begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{-1cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+%\import{\chapterpath/}{title}
+%\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
 %%%%%%%%%%%%HEADING
 
-\begin{enumerate}
-\item Label the different areas of the heating and cooling curves you plotted with the labels ((s), (l), (g), (s+l), or (l+g)) representing solid, liquid or gas.
-\vspace{2.5cm}
-\item  According to your plot, what is the boiling or freezing temperature of the liquid.
-\vspace{2.5cm}
-\item Explain the meaning of heat of fusion. 
-\vspace{2.5cm}
-\item Explain why during a phase transition temperature is constant. 
-\vspace{2.5cm}
-\end{enumerate}
+%%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{-1.0cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+ \import{\chapterpath/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%%HEADING
+\vspace{-2.0cm}\import{\chapterpath/}{results} 
+%\clearpage\mbox{}\clearpage
 
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{2em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=20cm/0pt ]\vspace{0.2cm}\noindent Name:  \rule{4cm}{0.4pt}  \hspace{0.1cm}Date: \rule{1cm}{0.4pt}\\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Post-lab Questions \par\Huge
+ \import{\chapterpath/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+ \import{\chapterpath/}{postlab}
 \clearpage\mbox{}\clearpage
- 
+
+% \end{refsection}
 \end{document}
