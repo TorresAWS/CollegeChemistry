@@ -1,36 +1,64 @@
-
  
-
  
-
-
-
-\subsection*{The periodic table}\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SectionIntro-The-periodic-table}
-  \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-periodic-table-Elements-and-Symbols}
-  \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-periodic-table-Properties-in-the-periodic-table}
-   \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloids}
   
- \subsection*{Early experiments of the atom}
-\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SectionIntro-Early-experiments-the-atom}
- %   \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{Figure-Cathodic-rays}
+  
  
-   \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-Early-experiments-the-atom-TheElectron}
-  \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-Early-experiments-the-atom-The-Atom-Nucleus}
-  \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-Early-experiments-the-atom-Radiation}
  
-% 
-%\subsection*{The atom}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SectionIntro-The-atom}
-% \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{Figure-Models-of-the-atom}
-%
-%\sloppy\begin{description}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-atom-Atomic-Structure}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-atom-Atomic-and-mass-number}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/problems/}{SampleProblem2}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-atom-Isotopes}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{SubSection-The-atom-Average-atomic-mass}
-%\import{../Ch-Table/LAB-GOB-Atomsandelements/problems/}{SampleProblem3}
-% \import{../Ch-Table/LAB-GOB-Atomsandelements/files-Ch-Table/}{Table-Isotopes}
-%\end{description}
+  \foreach \i in {SectionIntro-The-periodic-table,SubSection-The-periodic-table-Elements-and-Symbols,SubSection-The-periodic-table-Periods-and-groups,SubSection-The-periodic-table-Properties-in-the-periodic-table,SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloids,SubSection-The-periodic-table-Classification-of-elements-in-terms-of-groups,SubSection-The-periodic-table-How-to-classify-Hydrogen}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem1}
+
+  \foreach \i in {SectionIntro-The-atom}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
 
 
+ \begin{fullwidth}\begin{center}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-The-periodic-table}
+    
+    \begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
+
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-The-periodic-table-data}
+
+}\end{minipage}
+  \begin{tikzpicture}   \node[text width=12cm, fontscale=.8, shift={(0em,-0em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-The-periodic-table} \end{bf} The periodic table of the elements };
+     \end{tikzpicture}
+\end{center} \end{fullwidth}
+
+
+ 
+
+  \foreach \i in {SubSection-The-atom-Atomic-Structure,SubSection-The-atom-Atomic-and-mass-number,SubSection-The-atom-Isotopes,SubSection-The-atom-Average-atomic-mass}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem2}
+    \import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Isotopes} 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+  
+
+ 
+ 
+
+
+
+ 
+%\begin{minipage}[b]{30cm}
+%\begin{adjustbox}{center, width=0.65\columnwidth+20pt}   
+%\import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Cuve-of-Cubes} 
+%\end{adjustbox}
+%\end{minipage}\newpage
+
+
+ 
