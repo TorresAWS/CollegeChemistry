@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAR 2024 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 AUG 2024 17:38
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -5779,7 +5778,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5713.
@@ -5801,7 +5800,7 @@ LaTeX Font Info:    ... okay on input line 5713.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5713.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5713
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5713.
@@ -5816,11 +5815,12 @@ Package hyperref Info: Link coloring ON on input line 5713.
 LaTeX Info: Redefining \ref on input line 5713.
 LaTeX Info: Redefining \pageref on input line 5713.
 LaTeX Info: Redefining \nameref on input line 5713.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5713.
 
 *geometry* driver: auto-detecting
@@ -6087,23 +6087,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-mole/figure1.png, id=121, 1606.0pt x 903.375pt>
+<../Ch-mole/figure1.png, id=157, 1606.0pt x 903.375pt>
 File: ../Ch-mole/figure1.png Graphic file (type png)
 <use ../Ch-mole/figure1.png>
 Package pdftex.def Info: ../Ch-mole/figure1.png  used on input line 1.
 (pdftex.def)             Requested size: 355.64912pt x 200.05263pt.
-) (../Ch-mole/files/abstract) (../Ch-mole/files/SectionIntro-The-mole
+) (../Ch-mole/files/abstract) (../Ch-mole/files/SectionIntro-The-mole)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 57.
 
-LaTeX Warning: Reference `Fig:Figure-The-mole' on page 1 undefined on input lin
-e 1.
-
-)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 58.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 58.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 57.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -6127,7 +6123,7 @@ n/10 10[][]
  []
 
 ) (../Ch-mole/files/Figure-The-mole
-<../Ch-mole/figure3.png, id=138, 250.9375pt x 221.82875pt>
+<../Ch-mole/figure3.png, id=173, 250.9375pt x 221.82875pt>
 File: ../Ch-mole/figure3.png Graphic file (type png)
 <use ../Ch-mole/figure3.png>
 Package pdftex.def Info: ../Ch-mole/figure3.png  used on input line 13.
@@ -6137,36 +6133,31 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../Ch-mole/figure2.png, id=139, 247.92625pt x 204.765pt>
+<../Ch-mole/figure2.png, id=174, 247.92625pt x 204.765pt>
 File: ../Ch-mole/figure2.png Graphic file (type png)
 <use ../Ch-mole/figure2.png>
 Package pdftex.def Info: ../Ch-mole/figure2.png  used on input line 13.
 (pdftex.def)             Requested size: 142.26518pt x 117.49837pt.
-<../Ch-mole/figure4.png, id=140, 672.5125pt x 978.65625pt>
+<../Ch-mole/figure4.png, id=175, 672.5125pt x 978.65625pt>
 File: ../Ch-mole/figure4.png Graphic file (type png)
 <use ../Ch-mole/figure4.png>
 Package pdftex.def Info: ../Ch-mole/figure4.png  used on input line 13.
 (pdftex.def)             Requested size: 84.07411pt x 122.34666pt.
-<../Ch-mole/figure14.png, id=142, 3468.96pt x 3472.975pt>
+<../Ch-mole/figure14.png, id=177, 3468.96pt x 3472.975pt>
 File: ../Ch-mole/figure14.png Graphic file (type png)
 <use ../Ch-mole/figure14.png>
 Package pdftex.def Info: ../Ch-mole/figure14.png  used on input line 26.
 (pdftex.def)             Requested size: 122.16705pt x 122.30844pt.
-<../Ch-mole/figure13.png, id=143, 752.8125pt x 752.8125pt>
+<../Ch-mole/figure13.png, id=178, 752.8125pt x 752.8125pt>
 File: ../Ch-mole/figure13.png Graphic file (type png)
 <use ../Ch-mole/figure13.png>
 Package pdftex.def Info: ../Ch-mole/figure13.png  used on input line 26.
 (pdftex.def)             Requested size: 122.34781pt x 122.34781pt.
-<../Ch-mole/figure15.png, id=144, 1027.84pt x 685.56125pt>
+<../Ch-mole/figure15.png, id=179, 1027.84pt x 685.56125pt>
 File: ../Ch-mole/figure15.png Graphic file (type png)
 <use ../Ch-mole/figure15.png>
 Package pdftex.def Info: ../Ch-mole/figure15.png  used on input line 26.
 (pdftex.def)             Requested size: 128.02486pt x 85.39157pt.
-
-
-LaTeX Warning: Reference `Fig:Figure-The-mole' on page 2 undefined on input lin
-e 26.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--27
 [][]
@@ -6207,7 +6198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
  []
 
 ) (../Ch-mole/files/SideFigure-Molar-mass
-<../Ch-mole/figure5.png, id=155, 240.9pt x 180.675pt>
+<../Ch-mole/figure5.png, id=191, 240.9pt x 180.675pt>
 File: ../Ch-mole/figure5.png Graphic file (type png)
 <use ../Ch-mole/figure5.png>
 Package pdftex.def Info: ../Ch-mole/figure5.png  used on input line 2.
@@ -6218,17 +6209,17 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 3.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 3.
-<../Ch-mole/figure6.png, id=156, 255.95625pt x 197.73875pt>
+<../Ch-mole/figure6.png, id=192, 255.95625pt x 197.73875pt>
 File: ../Ch-mole/figure6.png Graphic file (type png)
 <use ../Ch-mole/figure6.png>
 Package pdftex.def Info: ../Ch-mole/figure6.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80838pt x 87.92256pt.
-<../Ch-mole/figure7.png, id=157, 165.18857pt x 106.54663pt>
+<../Ch-mole/figure7.png, id=193, 165.18857pt x 106.54663pt>
 File: ../Ch-mole/figure7.png Graphic file (type png)
 <use ../Ch-mole/figure7.png>
 Package pdftex.def Info: ../Ch-mole/figure7.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81134pt x 73.40833pt.
-<../Ch-mole/figure16.png, id=158, 913.4125pt x 730.73pt>
+<../Ch-mole/figure16.png, id=194, 913.4125pt x 730.73pt>
 File: ../Ch-mole/figure16.png Graphic file (type png)
 <use ../Ch-mole/figure16.png>
 Package pdftex.def Info: ../Ch-mole/figure16.png  used on input line 11.
@@ -6279,12 +6270,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 20.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 20.
-
-
-LaTeX Warning: Reference `Fig:Figure-Mole-equivalency' on page 4 undefined on i
-nput line 20.
-
-) (../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3)
+)
+(../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3)
 Overfull \hbox (62.60558pt too wide) in paragraph at lines 8--11
    [] [][]
  []
@@ -6308,10 +6295,6 @@ Overfull \hbox (0.82616pt too wide) in paragraph at lines 8--8
  []
 
 
-LaTeX Warning: Reference `Fig:Figure-Mole-to-grams' on page 5 undefined on inpu
-t line 17.
-
-
 Overfull \hbox (38.45047pt too wide) in paragraph at lines 18--19
 [][] 
  []
@@ -6332,22 +6315,22 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]) (../Ch-mole/files/SideFigure-Reactions
-<../Ch-mole/figure8.png, id=186, 803.0pt x 890.32625pt>
+<../Ch-mole/figure8.png, id=223, 803.0pt x 890.32625pt>
 File: ../Ch-mole/figure8.png Graphic file (type png)
 <use ../Ch-mole/figure8.png>
 Package pdftex.def Info: ../Ch-mole/figure8.png  used on input line 2.
 (pdftex.def)             Requested size: 102.64151pt x 113.80377pt.
-<../Ch-mole/figure11.png, id=187, 803.0pt x 534.99875pt>
+<../Ch-mole/figure11.png, id=224, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure11.png Graphic file (type png)
 <use ../Ch-mole/figure11.png>
 Package pdftex.def Info: ../Ch-mole/figure11.png  used on input line 5.
 (pdftex.def)             Requested size: 113.80379pt x 75.82178pt.
-<../Ch-mole/figure9.png, id=188, 225.84375pt x 150.5625pt>
+<../Ch-mole/figure9.png, id=225, 225.84375pt x 150.5625pt>
 File: ../Ch-mole/figure9.png Graphic file (type png)
 <use ../Ch-mole/figure9.png>
 Package pdftex.def Info: ../Ch-mole/figure9.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81412pt x 75.87608pt.
-<../Ch-mole/figure10.png, id=189, 803.0pt x 534.99875pt>
+<../Ch-mole/figure10.png, id=226, 803.0pt x 534.99875pt>
 File: ../Ch-mole/figure10.png Graphic file (type png)
 <use ../Ch-mole/figure10.png>
 Package pdftex.def Info: ../Ch-mole/figure10.png  used on input line 11.
@@ -6398,13 +6381,13 @@ he form of atoms.
  []
 
 )
-Underfull \hbox (badness 2443) in paragraph at lines 17--92
+Underfull \hbox (badness 2443) in paragraph at lines 17--89
 \T1/ptm/m/n/10 (+20) one. In con-trast, the num-ber of O atoms in the re-ac-tan
 ts and prod-ucts
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 17--92
+Underfull \hbox (badness 1303) in paragraph at lines 17--89
 \T1/ptm/m/n/10 (+20) is not the same, and for this rea-son, we say this re-ac-t
 ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
  []
@@ -6541,10 +6524,6 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 15.
 Package mdframed Info: Not enough space on this page on input line 15.
-
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 17 undefined on input line 1
-5.
 
 (../Ch-mole/problems/problems/Problems-The-Mole
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -6702,22 +6681,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 65--65
-[]$\OT1/lmr/m/n/10 10[] \OMS/lmsy/m/n/10 ^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n
-/10 10[][].$  []$5[] \OMS/lmsy/m/n/10 ^^B [] \OT1/zplm/m/n/10 =
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [21
 
+]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21
+[22
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24
 
 ])
 
@@ -6737,22 +6728,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5716.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5716.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5716.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5716.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9CDDCF1DC2E2AD2EC4F5830A5929F830;1442.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9CDDCF1DC2E2AD2EC4F5830A5929F830;1442.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6761,18 +6746,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5716.
  ) 
 Here is how much of TeX's memory you used:
- 84979 strings out of 493014
- 1901887 string characters out of 6133351
- 3199663 words of memory out of 5000000
- 86297 multiletter control sequences out of 15000+600000
+ 85012 strings out of 493014
+ 1902309 string characters out of 6133351
+ 3202012 words of memory out of 5000000
+ 86316 multiletter control sequences out of 15000+600000
  258462 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  82i,34n,109p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6804,10 +6786,10 @@ ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (22 pages, 21669288 bytes).
+Output written on main.pdf (25 pages, 21674408 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 165 named destinations out of 1000 (max. 500000)
- 72726 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 72798 words of extra memory for PDF output out of 74296 (max. 10000000)
 
