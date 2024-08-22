@@ -1,0 +1,31 @@
+
+ \foreach \i in {SectionIntro-Electrolytes-and-insoluble-compounds,SubSection-Precipitation-reactions-and-acid-base-reactions-Solubility-formula,SubSection-Electrolytes-and-insoluble-compounds-Soluble-and-insoluble-salts}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+} \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem8}
+ 
+\begin{fullwidth}
+\hspace{5cm}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Solubility}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Solubility-data} 
+
+
+} \end{minipage}
+\end{fullwidth}
+
+  \foreach \i in {SubSection-Electrolytes-and-insoluble-compounds-Strong-electrolytes,SubSection-Electrolytes-and-insoluble-compounds-Nonelectrolytes,SubSection-Electrolytes-and-insoluble-compounds-Identify-the-electrolyte-character-of-a-chemical}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+} \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem9}
+ 
+   \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Electrolytes}
+   
+   
+    \begin{fullwidth}\hspace{-1cm}\begin{minipage}[b]{0.8\linewidth}\resizebox{1.0\textwidth}{!}{
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Electrolytes}
+ \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Electrolytes-data} 
+
+
+} \end{minipage}
+\end{fullwidth}
+         
+ 
+ 
