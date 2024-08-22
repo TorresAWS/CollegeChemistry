@@ -1,0 +1,7 @@
+ 
+ \foreach \i in {SectionIntro-Titrations,SubSection-Titrations-Neutralization-Reactions,SubSection-Titrations-Endpoint-formula}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem17}
+
+ 
