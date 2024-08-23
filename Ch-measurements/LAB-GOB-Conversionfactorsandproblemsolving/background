@@ -5,8 +5,6 @@
     \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem9}
 
   
- %\begin{adjustbox}{right, width=0.65\columnwidth+20pt}    
- \begin{minipage}[r]{20cm} 
  \hspace{20cm}
  \stepcounter{tablenewcounter}\refstepcounter{table}
 \label{tab:Table-Prefixes}
@@ -15,13 +13,10 @@
 \hspace{0cm}
  \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Prefixes-Tabular} 
 
- \end{minipage}
- 
- 
-% 
- \end{minipage}
-  %\end{adjustbox}
   }
+ \end{minipage}
+ 
+ 
 
 \foreach \i in {SectionIntro-Using-Conversion-Factors,SubSection-Using-Conversion-Factors-Removing-or-adding-prefixes}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
