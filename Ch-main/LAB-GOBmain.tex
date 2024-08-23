@@ -5790,6 +5790,14 @@ coordinate(-front-bottom-right) -- cycle;
 %pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 %\end{tikzpicture}}
 %%%%%%%%FRUITS CHATER FANCY HEADER
+\newcommand{\notes}[4][\empty]{%
+    \noindent #4\vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
 
 
 
@@ -5837,29 +5845,37 @@ coordinate(-front-bottom-right) -- cycle;
 
 \renewcommand\chapterlabel{Ch-measurements}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Chemistryandmeasurements}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
  
- %\newpage\section{ Conversion factors and problem solving   }
  \renewcommand\chapterlabel{Ch-measurements}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Conversionfactorsandproblemsolving}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
      
-% \newpage\section{    }\clearpage\mbox{}\clearpage \subfile{../Ch-measurements/LAB-GOB-Conversionfactorsandproblemsolving/Conversionfactorsandproblemsolving.tex}
-%\newpage \section{  Density and specific gravity  }\clearpage\mbox{}\clearpage \subfile{../Ch-measurements/LAB-GOB-Densityandspecificgravity/Densityandspecificgravity.tex}
-% \newpage\section{ Energy and matter   }\clearpage\mbox{}\clearpage \subfile{../Ch-thermochemistry/LAB-GOB-Energyandmatter/Energyandmatter.tex}
-%  \newpage\section{  Atoms and elements  }\clearpage\mbox{}\clearpage \subfile{../Ch-Table/LAB-GOB-Atomsandelements/Atomsandelements.tex}
-% \newpage\section{  Specific heat and food  }\clearpage\mbox{}\clearpage \subfile{../Ch-thermochemistry/LAB-GOB-Specificheatandfood/Specificheatandfood.tex}
-% \newpage\section{  Nuclear chemistry  }\clearpage\mbox{}\clearpage \subfile{../Ch-nuclear/LAB-GOB-Nuclearchemistry/Nuclearchemistry.tex}
-% \newpage\section{  Compounds and their structure  }\clearpage\mbox{}\clearpage \subfile{../Ch-electronicstructure/LAB-GOB-Compoundsandtheirstructure/Compoundsandtheirstructure.tex}
-%   \newpage\section{  Chemical reactions and equations  }\clearpage\mbox{}\clearpage \subfile{../Ch-mole/LAB-GOB-Chemicalreactionsandequations/Chemicalreactionsandequations.tex}
-%
-%   \newpage\section{ Moles and chemical formulas   }\clearpage\mbox{}\clearpage \subfile{../Ch-mole/LAB-GOB-Molesandchemicalformulas/Molesandchemicalformulas.tex}
-%   \newpage\section{  Gas laws  }\clearpage\mbox{}\clearpage \subfile{../Ch-Gas/LAB-GOB-Gaslaws/Gaslaws.tex}
-%
-%
-% \newpage\section{  Solutions, electrolytes, concentration   }\clearpage\mbox{}\clearpage \subfile{../Ch-electrolytes/LAB-GOB-Solutionselectrolytesconcentration/Solutionselectrolytesconcentration.tex}
-%
-% \newpage\section{  Soluble and insoluble salts  }\clearpage\mbox{}\clearpage \subfile{../Ch-electrolytes/LAB-GOB-Solubleandinsolublesalts/Solubleandinsolublesalts.tex}
-%  \newpage\section{  Reaction rates \&  chemical equilibrium   }\clearpage\mbox{}\clearpage \subfile{../Ch-equilibrium/LAB-GOB-Reactionrateschemicalequilibrium/Reactionrateschemicalequilibrium.tex}
-%  \newpage\section{  Acid-base titration   }\clearpage\mbox{}\clearpage \subfile{../Ch-acidbase/LAB-GOB-Acidbasetitration/Acidbasetitration.tex}
-%  \newpage\section{  Organic compounds: alkanes   }\clearpage\mbox{}\clearpage \subfile{../Ch-orgo/LAB-GOB-Organiccompoundsalkanes/Organiccompoundsalkanes.tex}
-%  \newpage\section{  Biological molecules: carbohydrates  }\clearpage\mbox{}\clearpage \subfile{../Ch-biochemistry/LAB-GOB-Biologicalmoleculescarbohydrates/Biologicalmoleculescarbohydrates.tex}
+ \renewcommand\chapterlabel{Ch-measurements}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Densityandspecificgravity}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-thermochemistry}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Energyandmatter}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+ \renewcommand\chapterlabel{Ch-Table}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Atomsandelements}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-thermochemistry}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Specificheatandfood}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-nuclear}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Nuclearchemistry}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+
+ \renewcommand\chapterlabel{Ch-electronicstructure}\clearpage\mbox{}
+ \clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Compoundsandtheirstructure}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+
+ \renewcommand\chapterlabel{Ch-mole}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Chemicalreactionsandequations}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+ 
+ \renewcommand\chapterlabel{Ch-mole}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Molesandchemicalformulas}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+
+ \renewcommand\chapterlabel{Ch-electrolytes}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Solutionselectrolytesconcentration}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+\renewcommand\labname{Solubleandinsolublesalts}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-equilibrium}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Reactionrateschemicalequilibrium}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-acidbase}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Acidbasetitration}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ \renewcommand\chapterlabel{Ch-orgo}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Organiccompoundsalkanes}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ %  \newpage\section{  Biological molecules: carbohydrates  }\clearpage\mbox{}\clearpage \subfile{../Ch-biochemistry/LAB-GOB-Biologicalmoleculescarbohydrates/Biologicalmoleculescarbohydrates.tex}
 %
 % 
 %
@@ -5874,4 +5890,5 @@ coordinate(-front-bottom-right) -- cycle;
 %%\thispagestyle{empty}\subfile{cover/back.tex}
 
 \end{document}
+
 
