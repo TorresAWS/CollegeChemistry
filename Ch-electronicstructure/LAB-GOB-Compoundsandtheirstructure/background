@@ -31,7 +31,7 @@
 %\renewcommand\chapterpathtocontent{../../} 
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-Molecular-geometries}
 \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Molecular-geometries-data-forlab} 
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Molecular-geometries-forlab} 
 %\renewcommand\chapterpathtocontent{../} 
 }\end{minipage}
 
