@@ -28,12 +28,12 @@
  
  
  
- \renewcommand\chapterlabel{../Ch-electronicstructure} 
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-Molecular-geometries}
- \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
-\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Molecular-geometries-data} 
- \renewcommand\chapterlabel{Ch-electronicstructure} 
- }\end{minipage}
+%\renewcommand\chapterpathtocontent{../../} 
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{tab:Table-Molecular-geometries}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Molecular-geometries-data-forlab} 
+%\renewcommand\chapterpathtocontent{../} 
+}\end{minipage}
 
 \newpage
 \foreach \i in {SubSection-Electron-dot-structures-of-atoms-Lewis-scheme}{
