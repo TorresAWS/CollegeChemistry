@@ -8,7 +8,7 @@
 \pgfmathsetmacro{\TOPX}{1}
 \pgfmathsetmacro{\TOPY}{100}
 \pgfmathsetmacro{\XMIN}{0}
-\pgfmathsetmacro{\XMAX}{3}
+\pgfmathsetmacro{\XMAX}{2.5}
 \pgfmathsetmacro{\YMIN}{1}
 \pgfmathsetmacro{\YMAX}{100}
 \begin{semilogyaxis}[xmin=\XMIN,ymin=\YMIN,xmax=\XMAX,ymax=\YMAX,axis on top, xticklabels={}, yticklabels={}, xlabel={Temperature},ylabel={Pressure }, ticks=none]
@@ -22,15 +22,16 @@
 \addplot[name path=help11] coordinates {(\TPX,\TPY) (\TOPX,\YMAX) (\XMIN,\YMAX) (\XMIN,\YMIN)};
 \addplot[green] fill between[of=liq2 and help11];
 \addplot[red] fill between[of=gas and help2];
- \shade[shading=azimuth,vcol=blue,hcol=red] (axis cs:\CPX,\CPY) rectangle (axis cs:\XMAX,\YMAX);
+ %\shade[shading=azimuth,vcol=blue,hcol=red] (axis cs:\CPX,\CPY) rectangle (axis cs:\XMAX,\YMAX);
+% \shade[shading=azimuth,vcol=blue,hcol=red] (axis cs:\CPX,\CPY) rectangle (axis cs:\XMAX,\YMAX);
 \end{scope}
 \begin{scope}[rotate=00, shift={(-0em,-0em)}]
 \draw[white, very thick ](-0.1,1.1) to [bend right] (1.4,3.5) to [bend right] (2.5,25);
  \draw[white, very thick ] (1.4,3.5) to   (0.85,100);
  \end{scope}
-\begin{scope}[rotate=00, shift={(12em,5em)}] \draw[->,white , very thick ]  (0.15,-2.0) to (-0.0,-2.0)  node [ fontscale=0.1, midway,shift={(2.5em,3.4em)}] {$\Delta T_f$} ;\end{scope}
-\begin{scope}[rotate=00, shift={(22em,5em)}] \draw[->,white , very thick ]  (-0.0,-2.0) to  (0.15,-2.0)  node [ fontscale=0.1, midway,shift={(-0.8em,3.2em)}] {$\Delta T_b$} ;\end{scope}
-\begin{scope}[rotate=00, shift={(17em,9em)}] \draw[->,white , very thick, rotate=-180 ]  (0.0,0) to  (0.0,4)  node [ fontscale=0.1, midway,shift={(0.5em,3.0em)}, rotate=180] {$\Delta P_{vap}$} ;\end{scope}
+\begin{scope}[rotate=00, shift={(14.4em,5em)}] \draw[->,white , very thick ]  (0.15,-2.0) to (-0.0,-2.0)  node [ fontscale=0.1, midway,shift={(2.5em,3.4em)}] {$\Delta T_f$} ;\end{scope}
+\begin{scope}[rotate=00, shift={(26.6em,5em)}] \draw[->,white , very thick ]  (-0.0,-2.0) to  (0.15,-2.0)  node [ fontscale=0.1, midway,shift={(-0.8em,3.2em)}] {$\Delta T_b$} ;\end{scope}
+\begin{scope}[rotate=00, shift={(21em,9em)}] \draw[->,white , very thick, rotate=-180 ]  (0.0,0) to  (0.0,4)  node [ fontscale=0.1, midway,shift={(0.5em,3.0em)}, rotate=180] {$\Delta P_{vap}$} ;\end{scope}
 
 \end{semilogyaxis}
 \node[text width=12cm, fontscale=.3, shift={(15em,-2em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Colligative-properties-phase-diagram} \end{bf} Effect of the solute concentration on the phase diagram of water };

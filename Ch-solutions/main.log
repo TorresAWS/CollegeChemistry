@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 AUG 2024 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 AUG 2024 13:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6409,7 +6409,7 @@ Package pgfplots info on input line 14: Using 'lua backend=false' for axis: ymo
 de=log unsupported (yet).
 Package pgfplots info on input line 23: fill between: found 'clip=true'. Prepar
 ing pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 35: fill between: activating layered graphi
+Package pgfplots info on input line 36: fill between: activating layered graphi
 cs
 \pgf@layerbox@axis background=\box298
 \pgf@layerboxsaved@axis background=\box299
@@ -6427,13 +6427,13 @@ cs
 \pgf@layerboxsaved@axis descriptions=\box311
 \pgf@layerbox@axis foreground=\box312
 \pgf@layerboxsaved@axis foreground=\box313
-Package pgfplots info on input line 35: Setting layers 'axis background,axis gr
+Package pgfplots info on input line 36: Setting layers 'axis background,axis gr
 id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
 foreground'...
-Package pgfplots info on input line 35: the combination of 'axis on top' and 'a
+Package pgfplots info on input line 36: the combination of 'axis on top' and 'a
 ctivate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if y
 ou want other layers.
-Package pgfplots info on input line 35: Setting layers 'axis background,pre mai
+Package pgfplots info on input line 36: Setting layers 'axis background,pre mai
 n,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axis 
 foreground'...
 )
@@ -6549,17 +6549,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]) (../Ch-solutions/files/SideFigure-dialisis
-<../Ch-solutions/redcell1.jpeg, id=391, 301.125pt x 168.63pt>
+<../Ch-solutions/redcell1.jpeg, id=388, 301.125pt x 168.63pt>
 File: ../Ch-solutions/redcell1.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell1.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell1.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 113.81297pt x 63.73526pt.
-<../Ch-solutions/redcell2.jpeg, id=392, 300.12125pt x 168.63pt>
+<../Ch-solutions/redcell2.jpeg, id=389, 300.12125pt x 168.63pt>
 File: ../Ch-solutions/redcell2.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/redcell2.jpeg>
 Package pdftex.def Info: ../Ch-solutions/redcell2.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 113.80913pt x 63.94626pt.
-<../Ch-solutions/dialysis.jpeg, id=393, 276.03125pt x 183.68625pt>
+<../Ch-solutions/dialysis.jpeg, id=390, 276.03125pt x 183.68625pt>
 File: ../Ch-solutions/dialysis.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/dialysis.jpeg>
 Package pdftex.def Info: ../Ch-solutions/dialysis.jpeg  used on input line 8.
@@ -6667,12 +6667,12 @@ Overfull \hbox (9.92273pt too wide) in paragraph at lines 37--38
  []
 
 ) (../Ch-solutions/files/SideFigure-HotsPads
-<../Ch-solutions/heatpads.jpeg, id=438, 522.95375pt x 1027.84pt>
+<../Ch-solutions/heatpads.jpeg, id=435, 522.95375pt x 1027.84pt>
 File: ../Ch-solutions/heatpads.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/heatpads.jpeg>
 Package pdftex.def Info: ../Ch-solutions/heatpads.jpeg  used on input line 2.
 (pdftex.def)             Requested size: 57.90013pt x 113.79987pt.
-<../Ch-solutions/heatpadscold.jpeg, id=439, 2197.008pt x 1464.672pt>
+<../Ch-solutions/heatpadscold.jpeg, id=436, 2197.008pt x 1464.672pt>
 File: ../Ch-solutions/heatpadscold.jpeg Graphic file (type jpg)
 <use ../Ch-solutions/heatpadscold.jpeg>
 Package pdftex.def Info: ../Ch-solutions/heatpadscold.jpeg  used on input line 
@@ -6823,9 +6823,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]) (../Ch-solutions/problems/problems/Problems-Solubility-of-gases
-Missing character: There is no ) in font nullfont!
-)
+[36]) (../Ch-solutions/problems/problems/Problems-Solubility-of-gases)
 (../Ch-solutions/problems/problems/Problems-Enthalpy-of-solution
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6966,10 +6964,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5652.
  ) 
 Here is how much of TeX's memory you used:
- 86277 strings out of 493014
- 1935020 string characters out of 6133351
- 2999474 words of memory out of 5000000
- 86971 multiletter control sequences out of 15000+600000
+ 86225 strings out of 493014
+ 1933852 string characters out of 6133351
+ 2999466 words of memory out of 5000000
+ 86919 multiletter control sequences out of 15000+600000
  256413 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,21n,138p,10369b,3071s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7002,10 +7000,10 @@ a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (44 pages, 10369203 bytes).
+Output written on main.pdf (44 pages, 10367948 bytes).
 PDF statistics:
- 1261 PDF objects out of 1440 (max. 8388607)
- 1085 compressed objects within 11 object streams
+ 1258 PDF objects out of 1440 (max. 8388607)
+ 1084 compressed objects within 11 object streams
  652 named destinations out of 1000 (max. 500000)
- 71783 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 71773 words of extra memory for PDF output out of 74296 (max. 10000000)
 
