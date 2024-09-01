@@ -23,7 +23,7 @@ Answer the following questions:
 \item What is the probability of finding the system in the most likely arrangement of the molecules %$5/7\times 100$
  \end{inparaenum}
 \\
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
 Answer:   
 \begin{inparaenum}[(a)]
 \item  3 microstates: left population, right population, mixed

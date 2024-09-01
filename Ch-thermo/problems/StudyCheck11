@@ -10,7 +10,7 @@ Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
 \ce{C2H6_{(g)}} &		-84.7		&		229.5\\
  \bottomrule
 \end{tabular}\end{center}
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
 $\Delta H^{\circ}_R=-32kJ$; $\Delta S^{\circ}_R=-120.6J/K$; $\Delta G^{\circ}_R=4kJ$; spontaneous for T$<$265K
  \end{flushright} }
 

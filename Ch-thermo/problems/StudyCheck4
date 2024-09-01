@@ -6,7 +6,7 @@ Compare entropy for the following systems:
 \item  \ce{H2} at 25$^{\circ}$C and 1 bar and \ce{He} at 25$^{\circ}$C and 1 bar	 %(\ce{H2})
  \end{inparaenum}
 \\
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
 Answer:   
 \begin{inparaenum}[(a)]
 \item   \ce{SO2} 

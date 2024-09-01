@@ -1,6 +1,6 @@
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Predict whether the reaction will proceed spontaneously at 298K under the following pressure conditions: $P_{\ce{NO2}}=1\times 10^{-5}$ atm and $P_{\ce{N2O4}}=1\times 10^{5}$ atm 
 \begin{center}\ce{N2O4_{(g)}  -> 2NO2_{(g)}}\hfill $\Delta G^{\circ}_R=5.4$kJ/mol\end{center}
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
 $\Delta G_R=-8\times10^4 \text{J/mol}$ sponateneous
  \end{flushright} }
