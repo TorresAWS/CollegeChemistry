@@ -1,38 +1,38 @@
  \begin{center}
+\begin{fullwidth}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Enthalpy-Solution}
 \fontfamily{ppl}\selectfont
-\begin{tabular}{llll}
+\begin{tabular}{llllllll}
 \rowcolor{black!45}
 \toprule
-\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}}  \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Enthalpy-Solution} Enthalpy of solution in KJ/mol for several compounds$^*$ } \\
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}}  \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Enthalpy-Solution} Enthalpy of solution in KJ/mol for several compounds$^*$ } \\
 \midrule
- \rowcolor{gray!10}Compound & $\Delta H^{sol}  $&Compound & $\Delta H^{sol}  $\\
+ \rowcolor{gray!10}Compound & $\Delta H^{sol}  $&Compound & $\Delta H^{sol}  $ &Compound & $\Delta H^{sol}$ &Compound & $\Delta H^{sol}$\\
  \midrule
- \ce{HF_{(g)}}& -61.50 & \ce{HCl_{(g)}}& -74.84\\
-\ce{HClO4_{(l)}}& -88.76& \ce{HClO4.H2O_{(s)}}& -32.95\\
-\ce{HBr_{(g)}}& -85.14& \ce{HI_{(g)}}& -81.67\\
-\ce{HIO3_{(s)}}& +8.79& \ce{HNO3_{(l)}}& -33.28\\
-\ce{HCOOH_{(l)}}& -0.86& \ce{CH3COOH_{(l)}}& -1.51\\
-\ce{NH3_{(g)}}& -30.50& \ce{NH4Cl_{(s)}}& +14.78\\
-\ce{NH4ClO4_{(s)}}& +33.47& \ce{NH4Br_{(s)}}& +16.78\\
-\ce{NH4I_{(s)}}& +13.72& \ce{NH4IO3_{(s)}}& +31.80\\
-\ce{NH4NO2_{(s)}}& +19.25& \ce{NH4NO3_{(s)}}& +25.69\\
-\ce{NH4C2H3O2_{(s)}}& -2.38& \ce{NH4CN_{(s)}}& +17.57\\
-\ce{NH4CNS_{(s)}}& +22.59& \ce{CH3NH3Cl_{(s)}}& +5.77\\
-\ce{(CH3)3NHCl_{(s)}}& +1.46& \ce{N(CH3)4Cl_{(s)}}& +4.08\\
-\ce{N(CH3)4Br_{(s)}}& +24.27& \ce{N(CH3)4I_{(s)}}& +42.07\\
-\ce{AgClO4_{(s)}}& +7.36& \ce{AgNO2_{(s)}}& +36.94\\
-\ce{AgNO3_{(s)}}& +22.59& \ce{LiOH_{(s)}}& -23.56\\
-\ce{LiOH.H2O_{(s)}}& -6.69& \ce{LiF_{(s)}}& +4.73\\
-\ce{LiCl_{(s)}}& -37.03& \ce{LiCl.H2O_{(s)}}& -19.08\\
-\ce{LiClO4_{(s)}}& -26.55& \ce{LiClO4.3H2O_{(s)}}& +32.61\\
-\ce{LiBr_{(s)}}& -48.83& \ce{LiBr.H2O_{(s)}}& -23.26\\
+ \ce{HF_{(g)}}& -61.50 & \ce{HCl_{(g)}}& -74.84&\ce{(CH3)3NHCl_{(s)}}& +1.46& \ce{N(CH3)4Cl_{(s)}}& +4.08\\
+\ce{HClO4_{(l)}}& -88.76& \ce{HClO4.H2O_{(s)}}& -32.95 &\ce{N(CH3)4Br_{(s)}}& +24.27& \ce{N(CH3)4I_{(s)}}& +42.07\\
+\ce{HBr_{(g)}}& -85.14& \ce{HI_{(g)}}& -81.67  &  \ce{AgClO4_{(s)}}& +7.36& \ce{AgNO2_{(s)}}& +36.94\\
+\ce{HIO3_{(s)}}& +8.79& \ce{HNO3_{(l)}}& -33.28  &\ce{AgNO3_{(s)}}& +22.59& \ce{LiOH_{(s)}}& -23.56\\
+\ce{HCOOH_{(l)}}& -0.86& \ce{CH3COOH_{(l)}}& -1.51 &\ce{LiOH.H2O_{(s)}}& -6.69& \ce{LiF_{(s)}}& +4.73\\
+\ce{NH3_{(g)}}& -30.50& \ce{NH4Cl_{(s)}}& +14.78 &\ce{LiCl_{(s)}}& -37.03& \ce{LiCl.H2O_{(s)}}& -19.08\\
+\ce{NH4ClO4_{(s)}}& +33.47& \ce{NH4Br_{(s)}}& +16.78&\ce{LiClO4_{(s)}}& -26.55& \ce{LiClO4.3H2O_{(s)}}& +32.61\\
+\ce{NH4I_{(s)}}& +13.72& \ce{NH4IO3_{(s)}}& +31.80 &\ce{LiBr_{(s)}}& -48.83& \ce{LiBr.H2O_{(s)}}& -23.26\\
+\ce{NH4NO2_{(s)}}& +19.25& \ce{NH4NO3_{(s)}}& +25.69 & \ce{NH4CNS_{(s)}}& +22.59& \ce{CH3NH3Cl_{(s)}}& +5.77\\
+\ce{NH4C2H3O2_{(s)}}& -2.38& \ce{NH4CN_{(s)}}& +17.57 &  &  & & \\
+
+%\ce{N(CH3)4Br_{(s)}}& +24.27& \ce{N(CH3)4I_{(s)}}& +42.07\\
+%\ce{AgClO4_{(s)}}& +7.36& \ce{AgNO2_{(s)}}& +36.94\\
+%\ce{AgNO3_{(s)}}& +22.59& \ce{LiOH_{(s)}}& -23.56\\
+%\ce{LiOH.H2O_{(s)}}& -6.69& \ce{LiF_{(s)}}& +4.73\\
+%\ce{LiCl_{(s)}}& -37.03& \ce{LiCl.H2O_{(s)}}& -19.08\\
+%\ce{LiClO4_{(s)}}& -26.55& \ce{LiClO4.3H2O_{(s)}}& +32.61\\
+%\ce{LiBr_{(s)}}& -48.83& \ce{LiBr.H2O_{(s)}}& -23.26\\
 
 
  \bottomrule
- \multicolumn{4}{l}{\small $^*$  Parker, V. B., Thermal Properties of Uni-Univalent Electrolytes  } \\
- \multicolumn{4}{l}{ \small Natl. Stand. Ref. Data Series - Natl. Bur. Stand.(U.S.), No.2, 1965.  } \\
+ \multicolumn{8}{l}{\small $^*$  Parker, V. B., Thermal Properties of Uni-Univalent Electrolytes  } \\
+ \multicolumn{8}{l}{ \small Natl. Stand. Ref. Data Series - Natl. Bur. Stand.(U.S.), No.2, 1965.  } \\
 
-\end{tabular}\end{center} 
+\end{tabular}\end{fullwidth}\end{center} 
  
 
