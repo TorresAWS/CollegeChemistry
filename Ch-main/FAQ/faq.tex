@@ -5865,80 +5865,25 @@ coordinate(-front-bottom-right) -- cycle;
 
 \questionA{When should I come to class in a hybrid class?}\label{new-question}
 
-Hybrid classes in chemistry meet during the lab session. If you access CUNY first you will find the class meeting days anb times next to the class information. For example, it would say Chem 202 Wednesday 5-7.45PM. That means the class meets every week, assuming BMCC is open, on wednesdays at 5pm sharp. You also need to consult BMCC's calendar at https://www.bmcc.cuny.edu/academics/academic-calendar/ to find out what dates the school is open. Your instructior will never tell you if there is class next week, of even the present week as he or she, same as you, needs to consult CUNY first and BMCC's calendars. As instructors may have several sections in order not to give misleading information, it is recomended ti suggest students to check themself the calendars.
+Hybrid classes in chemistry meet during the lab session. If you access CUNY first you will find the class meeting days and times next to the class information. For example, it would say Chem 202 Wednesday 5-7.45 PM. That means the class meets weekly, assuming BMCC is open, on Wednesdays at 5 pm sharp. You also need to consult BMCC's calendar at https://www.bmcc.cuny.edu/academics/academic-calendar/ to find out what dates the school is open. Your instructor will never tell you if there is a class next week, or even the present week as he or she, like you, needs to consult CUNY first and BMCC's calendars. As instructors may have several sections in order not to give misleading information, it is recommended to suggest students check the calendars.
 
-------------------------------------------------
-
-\questionA{Do we have videos in an hybrid chem class?}\label{labels}
-
-The answer is no, there is no prerecorded videos in your chem class. During the meeting sessions your instructor will have time to lecture on selected subjects, and those lectures are neither recorded not can be recorded due to privacy issues. If you want a class in which the instructor lectures through videos you may want to contact the instructir in hand to make sure that is the preferred methof of teaching.
-
-------------------------------------------------
-
-\questionA{How do I change the title and subtitle?}\label{change-title}
-
-To change the main title, simply find the "TITLE AND LIST OF QUESTIONS" block and replace "A Template for FAQ's" within it. To change the subtitle find the following command:
-
-\begin{verbatim}
-\newlistof{questions}{faq}{\large List of Frequently Asked Questions}
-\end{verbatim}
-
-and replace the subtitle with one of your choosing.
-
-%------------------------------------------------
-
-\questionA{Is it possible to change the spacing between the questions in the list of questions?}\label{change-spacing}
-
-Yes, simply find the following line:
-
-\begin{verbatim}
-\setlength\cftparskip{.3em}
-\end{verbatim}
-
-and change the \texttt{.3em} to whatever suits your fancy.
-
-%------------------------------------------------
-
-\questionA{What if I want to hide the page numbers and/or trailing dots next to the question in the list of questions?}\label{page-numbering}
-
-To remove the trailing dots to the page numbers, find the line:
-
-\begin{verbatim}
-%\renewcommand{\cftdot}{}
-\end{verbatim}
-and uncomment it. To remove the page numbers as well, find the following lines and uncomment them:
-\begin{verbatim}
-%\let\Contentsline\contentsline
-%\renewcommand\contentsline[3]{\Contentsline{#1}{#2}{}}
-\end{verbatim}
-
-%------------------------------------------------
-
-\questionA{Is it possible to number questions?}\label{number-questions}
-
-Yes, you can refer to the number of the current question with:
-
-\begin{verbatim}
-\thequestions
-\end{verbatim}
  
-For example, this is question \thequestionsA. You can even incorporate question numbers into the questions and list of questions automatically by adding:
+\questionA{Do we have videos in a hybrid chem class?}\label{labels}
 
-\begin{verbatim}
-Question \thequestions:
-\end{verbatim}
+The answer is no, there are no prerecorded videos in your chem class. During the meeting sessions, your instructor will have time to lecture on selected subjects, and those lectures are neither recorded nor can be recorded due to privacy issues. If you want a class in which the instructor lectures through videos you may wish to contact the instructor in hand to make sure that is the preferred method of teaching.
 
-just before each \texttt{\#1} in the \texttt{\textbackslash questions} definition block in the preamble.
+ 
+\questionA{What if I miss a lab session?}\label{change-title}
 
-%------------------------------------------------
+If you snooze you lose. There are no make-ups for a missed lab. Your grade will be affected by that.
 
-\questionA{Question \thequestionsA: Can I change the color of the question boxes?}\label{question-color}
+\questionA{When is the lecture on a hybrid chem lab?}\label{change-title}
 
-Just find the following line and change the color specified there:
+There are none. You will not sit down in a classroom and listen to the instructor's lecture about chemistry. Still, at the beginning of the lab session, your instructor will cover chemistry material. 
 
-\begin{verbatim}
-\todo[inline, color=green!40]{\textbf{#1}}
-\end{verbatim}
+\questionA{I don't like the textbook! What can I do?}\label{change-title}
+
+Many textbooks cover the same chemistry content. Check the syllabus for additional bibliography and find a textbook you feel comfortable with. Your learning should not be tied up to a specific source, learn as much as you can from as many sources as you can.
  
 
 \end{document}
