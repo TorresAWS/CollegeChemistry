@@ -45,7 +45,7 @@ The following plots results from processing kinetic data by means of the integra
 	        
 \end{tikzpicture}
 \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer:   Left (order 2), right (order 1)
  \end{flushright} }
 

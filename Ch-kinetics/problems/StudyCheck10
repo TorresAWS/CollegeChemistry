@@ -14,7 +14,7 @@ Using the following data, apply the integral method to calculate the order and r
   $[A]$, (M)&1.0000	&0.5000	&0.2500	&0.1250	 &0.0625	\\
 \bottomrule
 \end{tabular}\end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer:  $r=0.115\text{[A]}$
  \end{flushright} }
 

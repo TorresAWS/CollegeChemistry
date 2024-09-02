@@ -10,7 +10,7 @@ Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
 4&	0.6&	0.3&	$4.5\times 10^{-4}$\\
 \bottomrule
 \end{tabular}\end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer:  $r=5\times 10^{3}[B]^2$
  \end{flushright} }
 

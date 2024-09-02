@@ -38,7 +38,7 @@ The following plots results from processing data by means of the integral method
 	        
 \end{tikzpicture}
 \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer:   Left ($r=0.0342\text{[A]}^2$, $\text{[A]}_0$=0.05M), right ($r=0.673\text{[A]}$, $\text{[A]}_0$=0.05M)
  \end{flushright} }
 

@@ -40,12 +40,12 @@
   \end{scope}
 
    \begin{scope}[transform canvas={scale=.5}, shift={(24,0)}]
-   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
-  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (4.0,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (4.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
     \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
         \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
 {};
-          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
+          \draw (0,0) node[below, shift={(0,-2)}]{\Huge After collision} ;
                \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
 
   \end{scope}

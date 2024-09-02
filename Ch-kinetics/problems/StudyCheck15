@@ -6,7 +6,7 @@ is correctly represented by the following mechanism:
 (1)\hfill\ce{ NO_{(g)} + NO_{(g)}		<=>[$k_1$][$k_{-1}$]      N2O2_{(g)}  }{   \hfill(equil.)} \\
 (2)\hfill\ce{N2O2_{(g)} + O2_{(g)} ->[$k_2$] 2NO2_{(g)} }{  \hfill(\small slow)} 
 \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer:   yes with $k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}$
  \end{flushright} }
 
