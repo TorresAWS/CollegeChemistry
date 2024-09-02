@@ -9,7 +9,7 @@ Give the line notation for the galvanic cell below:
 \batterya{\small \ce{Rb^{2+}(1M)}}{\small \ce{Rb}  }	{ }	{\small \ce{H^{+}(1M) }}{0}{\Large $-$}{\Large $+$}{V}{0}    % 1 to the right
  \end{tikzpicture}\end{center}
 
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small 
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small 
  Answer: 
   \ce{Rb}\hspace{.02 in}|\hspace{.02 in} \ce{Rb^{2+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{H^{+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{H2}(1atm)\hspace{.02 in}|\hspace{.02 in}\ce{Cu}	 
 

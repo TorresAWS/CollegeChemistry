@@ -9,7 +9,7 @@ Indicate:
 \item the number of electrons flowing 
 \item the overall voltage of the cell
 \end{inparaenum}
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small 
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small 
  Answer: 
  \begin{inparaenum}[(a)]
 \item anode \ce{	Cr^{3+} +e^-	 <=>	Cr^{2+}  	}; cathode \ce{Cu^+ +e^-	 <=>	Cu_{(s)}	 } 

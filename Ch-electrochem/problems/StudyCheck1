@@ -15,7 +15,7 @@
  \batterya{ }{ }	{  }	{ }{2}{cathode}{anode}{V}{1}    % 1 to the right
  \end{tikzpicture}
 \end{center}
- \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: 
 \begin{inparaenum}[(a)]
 \item   Anode, right, $-$;Cathode, left, $+$   
