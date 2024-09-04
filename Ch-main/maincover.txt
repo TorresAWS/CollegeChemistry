@@ -1,4 +1,5 @@
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry}       }{ \title{College Chemistry}}
+%\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry}       }{ \title{College Chemistry}}
+\newcommand\titlenew{} \definecolor{blueXIIdark}{cmyk}{1,.8,.30,.05}\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\renewcommand\titlenew{\fontsize{40}{50}\selectfont \color{blueXIIdark} GOB Chemistry Experiments}       }{ \renewcommand\titlenew{{\fontsize{50}{60}\selectfont \color{blueXIIdark} College Chemistry Experiments}}}
 
 
 
