@@ -4,7 +4,9 @@
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
     \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem7}
-  \begin{fullwidth}\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Nuclear-symbols}\end{fullwidth}
+%  \begin{fullwidth}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Nuclear-symbols}
+%\end{fullwidth}
 
  \foreach \i in {SectionIntro-Nuclear-reactions,SubSection-Nuclear-reactions-alpha-decay,SubSection-Nuclear-reactions-beta-decay,SubSection-Nuclear-reactions-positron-emission,SubSection-Nuclear-reactions-gamma-decay}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
