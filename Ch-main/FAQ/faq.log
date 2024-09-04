@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 AUG 2024 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 SEP 2024 19:26
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **faq.tex
 (./faq.tex
@@ -85,14 +84,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-runsystem(uname -s > "faq.w18")...executed.
 
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
 
-(./faq.w18)
-runsystem(rm -- "faq.w18")...executed.
-
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \hw@charcount=\count83
@@ -6113,6 +6109,12 @@ LaTeX Warning: Label `change-title' multiply defined.
 
 LaTeX Warning: Label `change-title' multiply defined.
 
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
 )
 \openout1 = `faq.aux'.
 
@@ -6423,11 +6425,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5889.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5889.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5894.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5894.
  (./faq.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5889.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5889.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5894.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5894.
 
 Package rerunfilecheck Info: File `faq.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -6439,24 +6441,24 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5889.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5894.
  ) 
 Here is how much of TeX's memory you used:
- 83256 strings out of 493014
- 1862535 string characters out of 6133351
- 2631669 words of memory out of 5000000
- 85095 multiletter control sequences out of 15000+600000
- 52073 words of font info for 95 fonts, out of 8000000 for 9000
+ 83272 strings out of 493014
+ 1862747 string characters out of 6133351
+ 2633652 words of memory out of 5000000
+ 85099 multiletter control sequences out of 15000+600000
+ 52550 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,102p,10348b,1949s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on faq.pdf (2 pages, 61237 bytes).
+Output written on faq.pdf (2 pages, 65546 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
  16301 words of extra memory for PDF output out of 17280 (max. 10000000)
 
