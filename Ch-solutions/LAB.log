@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 SEP 2024 19:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4608,23 +4608,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [3]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 58.
+(Font)              scaled to size 11.03998pt on input line 62.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 58.
+(Font)              scaled to size 8.27998pt on input line 62.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 58.
+(Font)              scaled to size 6.43999pt on input line 62.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 58.
+(Font)              scaled to size 11.03998pt on input line 62.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 58.
+(Font)              scaled to size 8.27998pt on input line 62.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 58.
+(Font)              scaled to size 6.43999pt on input line 62.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 62.
 
-Overfull \hbox (6.54759pt too wide) in paragraph at lines 68--69
+Overfull \hbox (6.54759pt too wide) in paragraph at lines 72--73
 \T1/futs/m/n/10 so-lu-tion and fill up with wa-ter un-til 100mL) and 40mL of am
 -mo-nia ($[][][]$) 0.12 M from 6M (add 2mL of con-cen-trated
  []
@@ -4883,22 +4883,15 @@ Underfull \hbox (badness 1077) in paragraph at lines 1--28
  [][] 
  []
 
-[9
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
 
 
 
 
 ]
-Overfull \hbox (13.36012pt too wide) in paragraph at lines 68--68
-[]|$[][][][][][][][][]$\T1/futs/m/n/10 +$[][][]$| 
- []
-
-
-Underfull \hbox (badness 5578) in paragraph at lines 30--72
- [][] 
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4924,7 +4917,43 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[10])
+[10]
+Overfull \hbox (13.36012pt too wide) in paragraph at lines 68--68
+[]|$[][][][][][][][][]$\T1/futs/m/n/10 +$[][][]$| 
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 30--72
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[11])
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -4972,7 +5001,7 @@ Underfull \hbox (badness 3189) in paragraph at lines 1--57
  []\T1/futs/b/n/24.88 Conductivity of elec-trolyte so-lu-tions 
  []
 
-(../Ch-solutions/LAB-conductivity/postlab [11
+(../Ch-solutions/LAB-conductivity/postlab [12
 
 
 
@@ -4983,7 +5012,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -5002,7 +5031,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[12
+[13
 
 ]
 Package biblatex Info: Reference section=0 on input line 64.
@@ -5036,7 +5065,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
+ []
  []
 
 
@@ -5055,7 +5084,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[13
+[14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
@@ -5079,32 +5108,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[14] (../Ch-solutions/LAB-hardwater/cautionbox)
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]|
  []
 
@@ -5124,12 +5127,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[15]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
-)
+[15] (../Ch-solutions/LAB-hardwater/cautionbox)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5156,6 +5154,37 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [16]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 58.
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[17]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -5203,7 +5232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--41
  []\T1/futs/b/n/24.88 Softening of hard wa-ter 
  []
 
-(../Ch-solutions/LAB-hardwater/prelab) [17
+(../Ch-solutions/LAB-hardwater/prelab) [18
 
 
 
@@ -5214,7 +5243,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -5233,7 +5262,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[18
+[19
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5293,7 +5322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-) [19
+) [20
 
 
 
@@ -5305,7 +5334,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -5324,7 +5353,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[20
+[21
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5427,7 +5456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
  []$[][][][][][]$ \T1/futs/m/n/10 + $[][][][][][][][][][][][]$$[] [] []$ 
  []
 
-[21
+[22
 
 
 
@@ -5469,8 +5498,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 ) (../Ch-solutions/LAB-freezingpointdepression/background
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
- []$\FML/futm/m/it/10 ^^A\FML/futmi/m/it/10 T[]$ \T1/futs/m/n/10 = $\FML/futmi/
-m/it/10 K[]m$ 
+ []$\FML/futm/m/it/10 ^^A\FML/futmi/m/it/10 T[]$ \T1/futs/m/n/10 = - $\FML/futm
+i/m/it/10 K[]m$ 
  []
 
 
@@ -5480,7 +5509,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -5499,7 +5528,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[22] (../Ch-solutions/LAB-freezingpointdepression/examplebox
+[23] (../Ch-solutions/LAB-freezingpointdepression/examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 2.
 )
 Overfull \hbox (11.79164pt too wide) in paragraph at lines 21--22
@@ -5538,7 +5567,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
+ []
  []
 
 
@@ -5557,7 +5586,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[23] (../Ch-solutions/LAB-freezingpointdepression/examplebox2
+[24] (../Ch-solutions/LAB-freezingpointdepression/examplebox2
 Package mdframed Info: mdframed works in twoside mode on input line 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--22
@@ -5589,7 +5618,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -5608,7 +5637,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[24]))
+[25]))
 
 LaTeX Warning: Empty bibliography on input line 24.
 
@@ -5637,7 +5666,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
+ []
  []
 
 
@@ -5656,8 +5685,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[25]
-Overfull \hbox (9.85106pt too wide) in paragraph at lines 27--28
+[26]
+Overfull \hbox (9.85106pt too wide) in paragraph at lines 28--29
 []\T1/futs/m/n/10 ^^U Stop the ex-per-i-ment when the tem-per-a-ture starts dro
 p-ping af-ter sev-eral min-utes of hav-ing a con-stant tem-per-a-ture.
  []
@@ -5686,53 +5715,12 @@ Underfull \hbox (badness 2875) in paragraph at lines 18--18
  []
 
 )
-Overfull \hbox (1.26126pt too wide) in paragraph at lines 37--38
+Overfull \hbox (1.26126pt too wide) in paragraph at lines 39--40
 []\T1/futs/m/n/10 ^^U The same cy-clo-hex-ane can be used in Part B. How-ever, 
 if you work in teams you can pre-pare an-other cy-clo-hex-ane
  []
 
 
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--76
-
- []
-
-)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5759,6 +5747,73 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [27]
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
+
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[28]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[29]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -5812,16 +5867,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
  [][] 
  []
 
-[28
+[30
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
  []$\FML/futmi/m/it/10 t[] \FMS/futm/m/n/10 Å$ 
  []
 
@@ -5851,7 +5906,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[29]
+[31]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -6004,7 +6059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
  []\T1/futs/m/n/9 (continue in next page)
  []
 
-[30
+[32
 
 
 
@@ -6039,7 +6094,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[31]
+[33]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -6195,7 +6250,7 @@ Overfull \hbox (13.76485pt too wide) in paragraph at lines 90--102
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [34
 
 
 
@@ -6260,7 +6315,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[33]
+[35]
 Overfull \hbox (27.8849pt too wide) in paragraph at lines 61--61
  [][] 
  []
@@ -6301,7 +6356,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[34]
+[36]
 Overfull \hbox (27.8849pt too wide) in paragraph at lines 68--68
  [][] 
  []
@@ -6342,7 +6397,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[35]
+[37]
 Overfull \hbox (27.8849pt too wide) in paragraph at lines 75--75
  [][] 
  []
@@ -6383,7 +6438,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[36]
+[38]
 Overfull \hbox (27.8849pt too wide) in paragraph at lines 82--82
  [][] 
  []
@@ -6424,7 +6479,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[37]
+[39]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -6472,7 +6527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--89
  []\T1/futs/b/n/24.88 Freezing point de-pres-sion 
  []
 
-(../Ch-solutions/LAB-freezingpointdepression/postlab) [38
+(../Ch-solutions/LAB-freezingpointdepression/postlab) [40
 
 
 
@@ -6502,7 +6557,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[39
+[41
 
 ]
 Package biblatex Info: Reference section=0 on input line 95.
@@ -6522,14 +6577,20 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1791.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1791.
  ) 
 Here is how much of TeX's memory you used:
- 71074 strings out of 493014
- 1565595 string characters out of 6133351
+ 71078 strings out of 493014
+ 1565625 string characters out of 6133351
  2343396 words of memory out of 5000000
  73002 multiletter control sequences out of 15000+600000
  179760 words of font info for 191 fonts, out of 8000000 for 9000
@@ -6547,10 +6608,10 @@ onts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
 utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (39 pages, 253665 bytes).
+Output written on LAB.pdf (41 pages, 255518 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 163 named destinations out of 1000 (max. 500000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
+ 167 named destinations out of 1000 (max. 500000)
  565 words of extra memory for PDF output out of 10000 (max. 10000000)
 
