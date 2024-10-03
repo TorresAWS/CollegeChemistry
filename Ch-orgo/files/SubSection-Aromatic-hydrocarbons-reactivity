@@ -1,0 +1,29 @@
+The reactivity of benzene is very different from the one of unsaturated hydrocarbons. Unsaturated hydrocarbons undergo an addition reaction in which external atoms add to double bonds. Differently, saturated hydrocarbons undergo substitution reactions in which hydrogen atoms are replaced by other atoms. For example, chlorine can add to benzene forming chlorobenzene.
+\begin{center}
+  \small
+  \schemestart
+    \chemname{%
+      \chemfig{
+{\vphantom{H}}-[:-90]**6(-------)
+}%
+    }{  }
+    \+
+      \chemfig{
+        Cl_2
+}%
+    \arrow{->[\ce{FeCl_2}][][9pt]}
+    \chemname{%
+      \chemfig{
+Cl-[6](**6(-------))
+}%
+    }{chlorobenzene}
+    \+
+      \chemfig{
+HCl
+}
+  \schemestop
+\end{center}
+Further, nitric acid reacts with benzene forming nitrobenzene.
+
+
+Finally, chloromethane reacts with benzene to give toluene, methylbenzene
