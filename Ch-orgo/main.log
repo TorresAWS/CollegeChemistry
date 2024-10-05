@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2024 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2024 16:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6687,7 +6687,22 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21])) (../Ch-orgo/Ch-orgoProblems.tex
+[21]
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 10--10
+ []|[]| 
+ []
+
+
+Overfull \hbox (21.57518pt too wide) in paragraph at lines 15--15
+ []|[]\T1/ptm/m/n/10 (-20) chlorobenzene 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 6--16
+ [] 
+ []
+
+)) (../Ch-orgo/Ch-orgoProblems.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6829,6 +6844,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [26
 
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27] [28
+
 ])
 
 Package bibentry Warning: You have used \nobibliography* 
@@ -6841,16 +6865,9 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5654.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5654.
- (./main.aux)
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5654.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5654.
 
@@ -6873,13 +6890,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5654.
  ) 
 Here is how much of TeX's memory you used:
- 87133 strings out of 493014
- 1943072 string characters out of 6133351
- 2801291 words of memory out of 5000000
- 88379 multiletter control sequences out of 15000+600000
+ 87153 strings out of 493014
+ 1943448 string characters out of 6133351
+ 2801300 words of memory out of 5000000
+ 88398 multiletter control sequences out of 15000+600000
  240677 words of font info for 301 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,20n,113p,10369b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,21n,113p,10369b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
 ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/t
@@ -6906,10 +6923,10 @@ mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on main.pdf (27 pages, 10221072 bytes).
+Output written on main.pdf (28 pages, 10222158 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 152 named destinations out of 1000 (max. 500000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 153 named destinations out of 1000 (max. 500000)
  66606 words of extra memory for PDF output out of 74296 (max. 10000000)
 
