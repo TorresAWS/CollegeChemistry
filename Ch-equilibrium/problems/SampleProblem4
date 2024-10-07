@@ -4,8 +4,14 @@ For the following reaction
 The value of $K_c$ at 300K is 17. Calculate the value of $K_p$ at the same temperature.
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
 First we will write down the expression of both equilibrium constants:
-\begin{center}$K_{c}=\frac{	\big[ \ce{NH3} \big]^2 			} {	\big[ \ce{N2} \big]\cdot \big[ \ce{H2} \big]^3	}$\hspace{1cm}
-$K_{p}=\frac{	P_{\ce{NH3}}^2  		} {P_{\ce{N2}}	\cdot P_{\ce{H2}}^3		}$\end{center}
+\begin{center}
+$K_{c}=\frac{	
+ \big[ \ce{N2} \big]\cdot \big[ \ce{H2} \big]^3   			} {	 \big[ \ce{NH3} \big]^2	
+}$\hspace{1cm}
+$K_{p}=\frac{	
+P_{\ce{N2}}     \cdot P_{\ce{H2}}^3      		} { 
+P_{\ce{NH3}}^2   
+		}$\end{center}
 We will also calculate $\Delta n$ in order to establish the relationship between both constants:
 \[\Delta n=1+3-2=2\]
 We have that:

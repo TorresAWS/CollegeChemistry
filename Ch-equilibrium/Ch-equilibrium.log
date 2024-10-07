@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 FEB 2024 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 OCT 2024 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6226,7 +6226,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [5]) (../Ch-equilibrium/problems/SampleProblem4
 (../Ch-equilibrium/problems/StudyCheck4)
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--23
 
  []
 
@@ -6353,14 +6353,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Ch-equilibrium.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
-Package rerunfilecheck Info: File `Ch-equilibrium.out' has not changed.
-(rerunfilecheck)             Checksum: B557D89B7ED7804344FFF12A54F617A5;1093.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 
+
+Package rerunfilecheck Warning: File `Ch-equilibrium.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ch-equilibrium.out':
+(rerunfilecheck)             Before: B557D89B7ED7804344FFF12A54F617A5;1093
+(rerunfilecheck)             After:  B74B9BA4D96555FE866A5255828599EB;1082.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6372,7 +6378,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  84014 strings out of 493014
  1882507 string characters out of 6133351
- 2716403 words of memory out of 5000000
+ 2717403 words of memory out of 5000000
  85557 multiletter control sequences out of 15000+600000
  222539 words of font info for 302 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6407,7 +6413,7 @@ ocal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch-equilibrium.pdf (12 pages, 984150 bytes).
+Output written on Ch-equilibrium.pdf (12 pages, 982700 bytes).
 PDF statistics:
  360 PDF objects out of 1000 (max. 8388607)
  233 compressed objects within 3 object streams
