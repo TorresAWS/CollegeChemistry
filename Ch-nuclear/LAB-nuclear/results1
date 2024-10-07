@@ -21,7 +21,8 @@
 \hline
 Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
 \hline
-Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
 \hline 
 \end{tabular}
 
@@ -36,7 +37,8 @@ Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  & 
 \hline
 Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
 \hline
-Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
 \hline 
 \end{tabular}
 %\begin{center}\mycircled{11} \: \: $t^{calc.}_{1/2}$ (years)=\rule{3cm}{0.4pt} \qquad\mycircled{9}  $t^{theory}_{1/2}$ (years)=\rule{3cm}{0.4pt}  \qquad \mycircled{10} \% error=\rule{3cm}{0.4pt}\end{center}
@@ -44,9 +46,9 @@ Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  & 
 
  \begin{center}\begin{tabular}{ |  p{2.0cm}|p{2.0cm}   |p{2.0cm}   | p{2.0cm} | p{2.0cm} |}
 \hline
-m (g)  &$t_{1/2}$ (s) & A  (cpm)    & \multicolumn{1}{c|}{$A\cdot m$}    & $m^2$\\
+N (atoms)  &$t_{1/2}$ (s) & A  (cpm)    & \multicolumn{1}{c|}{$A\cdot N$}    & $N^2$\\
 
-\multicolumn{1}{|c|}{ \mycircled{0}} &\multicolumn{1}{c|}{ \mycircled{8}}&\multicolumn{1}{c|}{\mycircled{2}}   &  \multicolumn{1}{c|}{\mycircled{0}$\;\;\times\;\;$\mycircled{2}}    &\multicolumn{1}{c|}{\mycircled{0}$\;\;\times\;\;$\mycircled{0}  } \\
+\multicolumn{1}{|c|}{ \mycircled{1}} &\multicolumn{1}{c|}{ \mycircled{8}}&\multicolumn{1}{c|}{\mycircled{2}}   &  \multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{2}}    &\multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{1}  } \\
 \hline
 &   &&    & \\[10pt]\hline
 &   &&    & \\[10pt]\hline

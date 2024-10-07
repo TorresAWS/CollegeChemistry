@@ -27,9 +27,9 @@
 
 
 \section*{Calculations}
-\mycircled{0} The mass of K your weighted, $m$.\vspace{0.5cm}\\
-\mycircled{1} The number of 40-K atoms in you sample, $n$:
-\[ N=\frac{m\cdot N_o\cdot f}{AW}= \;\;\mycircled{0} \;\;\cdot 6.02\times 10^{23}\cdot 0.00012 / 39.0983	\]
+\mycircled{0} The mass of KCl your weighted, $m$.\vspace{0.5cm}\\
+\mycircled{1} The number of 40-K atoms in you sample, $n$, given its abundance is 0.012\%:
+\[ N=\frac{m\cdot N_o\cdot f}{AW}= \;\;\mycircled{0} \;\;\cdot 6.02\times 10^{23}\cdot 0.00012 \cdot 39.0983 / 74.5   	\]
 \vspace{0.5cm}\\
 \mycircled{2} The average activity in cpm.\vspace{0.5cm}\\
 \mycircled{3}The average activity in cps:
@@ -47,7 +47,7 @@
 \mycircled{9} The sum of activity times mass and mass squared\vspace{0.5cm}\\
 \mycircled{10} The average half-life\vspace{0.5cm}\\
 \mycircled{11} Half-life calculated by means of a linear regression \vspace{0.5cm}\\
-\[ t^{calc.}_{1/2} (LR)= \frac{0.693}{31536000}\times   \frac{\sum m^2}{\sum A\cdot m}\]
+\[ t^{calc.}_{1/2} (LR)= \frac{0.693}{31536000}\times   \frac{\sum N^2}{\sum A\cdot N}\]
 \mycircled{12} Experimental half-life of the isotope in years (the one obtained from the tables)\vspace{0.5cm}\\
 \mycircled{13} The percent error \vspace{0.5cm}\\
 
