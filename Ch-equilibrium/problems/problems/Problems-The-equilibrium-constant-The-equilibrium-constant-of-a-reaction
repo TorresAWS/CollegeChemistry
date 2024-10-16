@@ -46,7 +46,26 @@ For the reactions below and given the value of the equilibrium constant indicate
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate which of the following diagrams represent better the system at equilibrium:
- \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
+ %\begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
+  \begin{center}
+     \begin{minipage}[b]{0.9\linewidth}\resizebox{0.9\textwidth}{!}{
+\begin{tikzpicture}
+
+ \begin{scope}[rotate=00, shift={(0em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=red] (1em, 1em) circle (.2cm);\shade[ball color=red] (3em, 2.5em) circle (.2cm);\shade[ball color=red] (5em, 3.5em) circle (.2cm);\shade[ball color=red] (5em, 1.em) circle (.2cm);\shade[ball color=red] (8em, 2.em) circle (.2cm);\shade[ball color=red] (1em, 7em) circle (.2cm);\shade[ball color=red] (4em, 6em) circle (.2cm);\shade[ball color=red] (8em, 7em) circle (.2cm);
+\end{scope}
+ \begin{scope}[rotate=00, shift={(12em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=blue] (1em, 1em) circle (.2cm);\shade[ball color=red] (3em, 2.5em) circle (.2cm);\shade[ball color=blue] (5em, 3.5em) circle (.2cm);\shade[ball color=red] (5em, 1.em) circle (.2cm);\shade[ball color=blue] (8em, 2.em) circle (.2cm);\shade[ball color=red] (1em, 7em) circle (.2cm);\shade[ball color=blue] (4em, 6em) circle (.2cm);\shade[ball color=red] (8em, 7em) circle (.2cm); 
+\end{scope}
+ \begin{scope}[rotate=00, shift={(24em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=blue] (1em, 1em) circle (.2cm);\shade[ball color=blue] (3em, 2.5em) circle (.2cm);\shade[ball color=blue] (5em, 3.5em) circle (.2cm);\shade[ball color=blue] (5em, 1.em) circle (.2cm);\shade[ball color=blue] (8em, 2.em) circle (.2cm);\shade[ball color=blue] (1em, 7em) circle (.2cm);\shade[ball color=blue] (4em, 6em) circle (.2cm);\shade[ball color=blue] (8em, 7em) circle (.2cm);
+\end{scope}
+\end{tikzpicture}
+}\end{minipage}
+\end{center}
  \begin{enumerate}[label=(\alph*)]	
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=10$  % Left
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.1$  % Right
@@ -66,7 +85,25 @@ Indicate which of the following diagrams represent better the system at equilibr
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate which of the following diagrams represent better the system at equilibrium:
- \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
+  \begin{center}
+     \begin{minipage}[b]{0.9\linewidth}\resizebox{0.9\textwidth}{!}{
+\begin{tikzpicture}
+
+ \begin{scope}[rotate=00, shift={(0em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=red] (1em, 1em) circle (.2cm);\shade[ball color=red] (3em, 2.5em) circle (.2cm);\shade[ball color=red] (5em, 3.5em) circle (.2cm);\shade[ball color=red] (5em, 1.em) circle (.2cm);\shade[ball color=red] (8em, 2.em) circle (.2cm);\shade[ball color=red] (1em, 7em) circle (.2cm);\shade[ball color=red] (4em, 6em) circle (.2cm);\shade[ball color=red] (8em, 7em) circle (.2cm);
+\end{scope}
+ \begin{scope}[rotate=00, shift={(12em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=blue] (1em, 1em) circle (.2cm);\shade[ball color=red] (3em, 2.5em) circle (.2cm);\shade[ball color=blue] (5em, 3.5em) circle (.2cm);\shade[ball color=red] (5em, 1.em) circle (.2cm);\shade[ball color=blue] (8em, 2.em) circle (.2cm);\shade[ball color=red] (1em, 7em) circle (.2cm);\shade[ball color=blue] (4em, 6em) circle (.2cm);\shade[ball color=red] (8em, 7em) circle (.2cm); 
+\end{scope}
+ \begin{scope}[rotate=00, shift={(24em,0em)}]
+\draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
+\shade[ball color=blue] (1em, 1em) circle (.2cm);\shade[ball color=blue] (3em, 2.5em) circle (.2cm);\shade[ball color=blue] (5em, 3.5em) circle (.2cm);\shade[ball color=blue] (5em, 1.em) circle (.2cm);\shade[ball color=blue] (8em, 2.em) circle (.2cm);\shade[ball color=blue] (1em, 7em) circle (.2cm);\shade[ball color=blue] (4em, 6em) circle (.2cm);\shade[ball color=blue] (8em, 7em) circle (.2cm);
+\end{scope}
+\end{tikzpicture}
+}\end{minipage}
+\end{center}
  \begin{enumerate}[label=(\alph*)]	
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.04$   
