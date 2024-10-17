@@ -1,6 +1,6 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Write down the expression of $K_{c}$ for the following reaction:
+Write down the expressions of $K_{c}$ and $K_{p}$ for the following reactions:
  \begin{enumerate}[label=(\alph*)]	
 \item  \ce{2SO2_{(g)} + O2_{(g)} <=> 2SO3_{(g)}} % $K_{c}=\frac{   \big[ \ce{SO3} \big]^2    } { \big[\ce{SO2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
 \item  \ce{CO_{(g)} + 2H2_{(g)} <=> CH3OH_{(g)}} % $K_{c}=\frac{  \big[\ce{CH3OH} \big]  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{CO} \big]\  } $
@@ -20,7 +20,7 @@ Write down the expression of $K_{c}$ for the following reaction:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Write down the expression of $K_c$ for the following reaction:
+Write down the expression of $K_c$ for the following reactions:
  \begin{enumerate}[label=(\alph*)]	
 \item \ce{BaCO3_{(s)} <=> Ba^{2+}_{(aq)} + CO3^{2-}_{(aq)}} % $\big[\ce{Ba^{2+}}\big] \cdot \big[\ce{CO3^{2-}} \big]\  $
 \item \ce{2H2_{(g)} + O2_{(g)} <=> 2H2O_{(l)}} %$\frac{  1  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
