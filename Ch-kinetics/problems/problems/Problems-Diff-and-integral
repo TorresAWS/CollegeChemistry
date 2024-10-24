@@ -297,7 +297,7 @@ first order
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The following plots results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
+The following plot results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -325,7 +325,7 @@ The following plots results from processing data by means of the integral method
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The following plots results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
+The following plot results from processing data using the integral method. Interpret the linear regressions, paying particular attention to the statistics behind the regression, and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -352,7 +352,7 @@ No rate law can be deribed
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-The following plots results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
+The following plot results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -527,7 +527,7 @@ Calculate the rate law for the following reaction using the given data:
 \end{tabular}\end{center}
 \end{question}
 \begin{solution}
- $r=7.69\times 10^{-3}[\ce{H2}]^2$, [\ce{H2}]$_0$=0.7M
+ $r=1.31[\ce{H2}]^2$, [\ce{H2}]$_0$=1.02M
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%	
 		
 			
@@ -557,18 +557,20 @@ Calculate the rate law for the following reaction using the given data:
  \ce{2P    +  Q -> W} 
 \begin{center}\begin{tabular}[t]{   c  c   }
 \toprule
-  $t$ ( s)	&$[\ce{P}]$, (M) \\
+  $t$ ( s)	&$[\ce{P}]$, (mM) \\
 \midrule
-9&$1.077\times10^{-3}$\\
-13&$1.068\times10^{-3}$\\
-18&$1.055\times10^{-3}$\\
-22&$1.046\times10^{-3}$\\
-25&$1.039\times10^{-3}$\\
+0& 1 \\
+15& 0.97484\\
+30& 0.9504\\
+45& 0.92676\\
+60& 0.90379\\
+75& 0.881\\
+90& 0.8596\\
 \bottomrule
 \end{tabular}\end{center}
 \end{question}
 \begin{solution}
- $r=2.39\times 10^{-6}$, [\ce{P}]$_0$=$1.09\times 10^{-3}$M
+ $r=640.33$, [\ce{P}]$_0$=$639.2$mM
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%	
 
 

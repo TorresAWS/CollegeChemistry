@@ -6,7 +6,7 @@ For the energy profile below, indicate the activation energy and the reaction en
   \ENcurve{1,2,0}
   \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
   \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -20};
- \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -5};
+ \node[above] at (N1-2) {  } node[above,yshift=2pt]  at (N1-2) {\small -5};
   \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -35};
  \end{endiagram}\end{center}
 \end{question}
@@ -23,7 +23,7 @@ For the energy profile below, indicate the activation energy and the reaction en
   \ENcurve{1,2,1.5}
   \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
   \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -30};
- \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -10};
+ \node[above] at (N1-2) {  } node[above,yshift=2pt]  at (N1-2) {\small -10};
   \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -20};
  \end{endiagram}\end{center}
 \end{question}

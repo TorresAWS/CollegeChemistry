@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 SEP 2024 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2024 12:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6459,10 +6459,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
@@ -6581,13 +6577,8 @@ Overfull \hbox (1.683pt too wide) in paragraph at lines 71--72
 [] 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-(../Ch-kinetics/problems/problems/Figure-concentration-and-time2
-Overfull \hbox (1.68758pt too wide) in paragraph at lines 45--46
+) (../Ch-kinetics/problems/problems/Figure-concentration-and-time2
+Overfull \hbox (1.68758pt too wide) in paragraph at lines 101--46
 [] 
  []
 
@@ -6595,7 +6586,7 @@ Overfull \hbox (1.68758pt too wide) in paragraph at lines 45--46
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 
-Overfull \hbox (1.68758pt too wide) in paragraph at lines 115--46
+Overfull \hbox (1.68758pt too wide) in paragraph at lines 114--46
 [] 
  []
 
@@ -6635,14 +6626,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]) (../Ch-kinetics/problems/problems/Problems-Collision-theory
+[32]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]) (../Ch-kinetics/problems/problems/Problems-reaction-mechanism
+[33]) (../Ch-kinetics/problems/problems/Problems-Collision-theory)
+(../Ch-kinetics/problems/problems/Problems-reaction-mechanism
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6751,10 +6743,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5625.
  ) 
 Here is how much of TeX's memory you used:
- 86193 strings out of 493014
- 1932237 string characters out of 6133351
+ 86187 strings out of 493014
+ 1932055 string characters out of 6133351
  2725250 words of memory out of 5000000
- 87269 multiletter control sequences out of 15000+600000
+ 87263 multiletter control sequences out of 15000+600000
  254569 words of font info for 310 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,22n,127p,10369b,3397s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6792,7 +6784,7 @@ s/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pa
 latino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (38 pages, 936898 bytes).
+Output written on main.pdf (38 pages, 937926 bytes).
 PDF statistics:
  967 PDF objects out of 1000 (max. 8388607)
  736 compressed objects within 8 object streams
