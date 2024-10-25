@@ -19,7 +19,7 @@
 %\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem11}
 
 
- \foreach \i in {SubSection-Matter-and-density-Density-and-the-volume-of-objects,SubSection-Matter-and-density-ImmersionMethod,SubSection-Matter-and-density-Specific-gravity}{
+ \foreach \i in {SubSection-Matter-and-density-ImmersionMethod,SubSection-Matter-and-density-Specific-gravity}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
     \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem12}
