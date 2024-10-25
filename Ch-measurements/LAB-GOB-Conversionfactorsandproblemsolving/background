@@ -3,7 +3,7 @@
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
     \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem9}
-
+\newpage
   
  \hspace{20cm}
  \stepcounter{tablenewcounter}\refstepcounter{table}

@@ -8,7 +8,7 @@
  \foreach \i in {SubSection-Matter-and-density-Density,SubSection-Matter-and-density-Density-and-mixing}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
-  \stepcounter{tablenewcounter}\refstepcounter{table}
+%  \stepcounter{tablenewcounter}\refstepcounter{table}
 \label{tab:Table-Density}
  \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Density} 
 
