@@ -7,7 +7,8 @@
  \begin{tabular}{ p{3cm}p{3cm}p{3cm} p{3cm}p{3cm}p{3cm} }
 \hline
 Element&		Symbol&	Atomic number&	Luster &Metallic Character\\[0.1cm]
- &		 &	 &	Shinny/dull &Metal/Nonmetal/Metalloid\\[0.1cm]
+ &		 &	 &	Shinny/dull &Metal/Nonmetal/\\[0.0cm]
+ &		 &	 &	 &Metalloid\\[0.1cm]
  \hline
  &		 &	 &	 & \\[0.5cm]
  Aluminium&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
@@ -17,16 +18,17 @@ Element&		Symbol&	Atomic number&	Luster &Metallic Character\\[0.1cm]
  Magnesium&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Nickel&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Nitrogen&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
- Oxygen {\small(not given)}&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
+ Oxygen {$^*$}&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Phosphorus&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Silicon&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
- Silver {\small(not given)}&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
- Gold {\small(not given)}&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
+ Silver{$^*$} &	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
+ Gold {$^*$}&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Sulfur&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Tin&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Zinc&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
  Calcium&	\rule{2.0cm}{0.4pt}	 &	\rule{2.0cm}{0.4pt} &\rule{2.0cm}{0.4pt}	 &\rule{2.0cm}{0.4pt} \\[0.5cm]
 \hline
+ {$^*$} Not given&		 &	 &	 & \\[0.5cm]
 \end{tabular}}
 \end{center}
 
@@ -101,7 +103,7 @@ Isotope&		Protons& Neutrons & Electrons \\[0.5cm]
 \vspace{0.5cm}\Large\ce{^{32}_{16}S} 	&\vspace{0.5cm}\Large 31.97207  	&\vspace{0.5cm}\Large 95.0	 	    	  &\vspace{0.5cm}&\vspace{0.5cm}	\\[0.5cm]\hline
  \vspace{0.5cm}\Large\ce{^{33}_{16}S} 	&\vspace{0.5cm}\Large 32.97146  	&\vspace{0.5cm}\Large 0.76		 	    &\vspace{0.5cm}	&\vspace{0.5cm}  	\\[0.5cm]\hline
  \vspace{0.5cm}\Large\ce{^{34}_{16}S} 	&\vspace{0.5cm}\Large 33.96786  	&\vspace{0.5cm}\Large 4.22		 	    &\vspace{0.5cm}	  &\vspace{0.5cm}	\\[0.5cm]\hline
- \Large   Average mass (amu) 	& \multicolumn{4}{c|}{ }   		 	    	  	\\[0.5cm]\hline
+ \multicolumn{4}{|c|}{\Large   Average mass (amu) } 	&    		 	    	  	\\[0.5cm]\hline
 
 
 		
