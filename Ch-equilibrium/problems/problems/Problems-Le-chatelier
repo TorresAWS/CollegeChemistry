@@ -83,7 +83,7 @@ According to Le Ch\^{a}telier principle indicate whether the following reaction 
 \end{scope}
  \begin{scope}[rotate=00, shift={(17em,0em)}]
 \draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=red!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (9em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=red!70!white] (8em, 7em) circle (.2cm);\shade[ball color=red!70!white] (5em, 9em) circle (.2cm);
+\shade[ball color=red!10!white] (1em, 1em) circle (.2cm);\shade[ball color=red!10!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!10!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!10!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!10!white] (9em, 2.em) circle (.2cm);\shade[ball color=red!10!white] (1em, 7em) circle (.2cm);\shade[ball color=red!10!white] (4em, 6em) circle (.2cm);\shade[ball color=red!10!white] (8em, 7em) circle (.2cm);\shade[ball color=red!10!white] (5em, 9em) circle (.2cm);
 \end{scope}
  \begin{scope}[rotate=00, shift={(12em,-1em)}]
 \newcommand\allumette[2]{
@@ -126,7 +126,7 @@ According to Le Ch\^{a}telier principle indicate whether the following reaction 
 \end{scope}
  \begin{scope}[rotate=00, shift={(17em,0em)}]
 \draw[  black , very thick ]  (0.0,0.0) to (10.0em,0.0)    to  (10.0em,10.0em)  to  (0em,10.0em) --cycle  ;
-\shade[ball color=red!70!white] (1em, 1em) circle (.2cm);\shade[ball color=red!70!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!70!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!70!white] (9em, 2.em) circle (.2cm);\shade[ball color=red!70!white] (1em, 7em) circle (.2cm);\shade[ball color=red!70!white] (4em, 6em) circle (.2cm);\shade[ball color=red!70!white] (8em, 7em) circle (.2cm);\shade[ball color=red!70!white] (5em, 9em) circle (.2cm);
+\shade[ball color=red!10!white] (1em, 1em) circle (.2cm);\shade[ball color=red!10!white] (3em, 2.5em) circle (.2cm);\shade[ball color=red!10!white] (5em, 3.5em) circle (.2cm);\shade[ball color=red!10!white] (5em, 1.em) circle (.2cm);\shade[ball color=red!10!white] (9em, 2.em) circle (.2cm);\shade[ball color=red!10!white] (1em, 7em) circle (.2cm);\shade[ball color=red!10!white] (4em, 6em) circle (.2cm);\shade[ball color=red!10!white] (8em, 7em) circle (.2cm);\shade[ball color=red!10!white] (5em, 9em) circle (.2cm);
 \end{scope}
  \begin{scope}[rotate=00, shift={(12em,-1em)}]
 \newcommand\allumette[2]{
