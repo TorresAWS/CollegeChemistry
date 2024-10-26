@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 AUG 2024 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 OCT 2024 11:13
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -84,11 +85,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
+runsystem(uname -s > "main.w18")...executed.
 
-Package ifplatform Warning: 
-    shell escape is disabled, so I can only detect \ifwindows.
 
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(./main.w18)
+runsystem(rm -- "main.w18")...executed.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \hw@charcount=\count83
@@ -6375,15 +6379,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (./Compoundsandtheirstructure.tex (./title)
-LaTeX Font Info:    Try loading font information for T1+phv on input line 14.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 21.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 14.
+(Font)              scaled to size 10.79993pt on input line 21.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -6515,7 +6519,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 )
 (../../Ch-electronicstructure/problems/SampleProblem5
 (../../Ch-electronicstructure/problems/StudyCheck5))
-(../../Ch-electronicstructure/files/Table-Molecular-geometries-data
+(../../Ch-electronicstructure/files/Table-Molecular-geometries-forlab
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -6532,87 +6536,83 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
-
-LaTeX Warning: Reference `Tab:{../Ch-electronicstructure}1' on page 6 undefined
- on input line 5.
-
-<../../Ch-electronicstructure/geom1.png, id=178, 50.1875pt x 23.08624pt>
-File: ../../Ch-electronicstructure/geom1.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom1.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom1.png  used on input 
-line 12.
+<../..//Ch-electronicstructure/geom1.png, id=179, 50.1875pt x 23.08624pt>
+File: ../..//Ch-electronicstructure/geom1.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom1.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom1.png  used on input
+ line 13.
 (pdftex.def)             Requested size: 47.80649pt x 21.99097pt.
-<../../Ch-electronicstructure/geom2.png, id=180, 50.1875pt x 44.165pt>
-File: ../../Ch-electronicstructure/geom2.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom2.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom2.png  used on input 
-line 14.
+<../..//Ch-electronicstructure/geom2.png, id=181, 50.1875pt x 44.165pt>
+File: ../..//Ch-electronicstructure/geom2.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom2.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom2.png  used on input
+ line 15.
 (pdftex.def)             Requested size: 47.80649pt x 42.0697pt.
-<../../Ch-electronicstructure/geom3.png, id=181, 50.1875pt x 34.1275pt>
-File: ../../Ch-electronicstructure/geom3.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom3.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom3.png  used on input 
-line 16.
+<../..//Ch-electronicstructure/geom3.png, id=182, 50.1875pt x 34.1275pt>
+File: ../..//Ch-electronicstructure/geom3.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom3.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom3.png  used on input
+ line 17.
 (pdftex.def)             Requested size: 47.80649pt x 32.50839pt.
-<../../Ch-electronicstructure/geom4.png, id=182, 50.1875pt x 50.1875pt>
-File: ../../Ch-electronicstructure/geom4.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom4.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom4.png  used on input 
-line 18.
+<../..//Ch-electronicstructure/geom4.png, id=183, 50.1875pt x 50.1875pt>
+File: ../..//Ch-electronicstructure/geom4.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom4.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom4.png  used on input
+ line 19.
 (pdftex.def)             Requested size: 47.80649pt x 47.80649pt.
-<../../Ch-electronicstructure/geom5.png, id=183, 50.1875pt x 40.15pt>
-File: ../../Ch-electronicstructure/geom5.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom5.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom5.png  used on input 
-line 20.
+<../..//Ch-electronicstructure/geom5.png, id=184, 50.1875pt x 40.15pt>
+File: ../..//Ch-electronicstructure/geom5.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom5.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom5.png  used on input
+ line 21.
 (pdftex.def)             Requested size: 47.80649pt x 38.2452pt.
-<../../Ch-electronicstructure/geom6.png, id=184, 50.1875pt x 34.1275pt>
-File: ../../Ch-electronicstructure/geom6.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom6.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom6.png  used on input 
-line 22.
+<../..//Ch-electronicstructure/geom6.png, id=185, 50.1875pt x 34.1275pt>
+File: ../..//Ch-electronicstructure/geom6.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom6.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom6.png  used on input
+ line 23.
 (pdftex.def)             Requested size: 47.80649pt x 32.50839pt.
-<../../Ch-electronicstructure/geom7.png, id=185, 50.1875pt x 57.21375pt>
-File: ../../Ch-electronicstructure/geom7.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom7.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom7.png  used on input 
-line 24.
+<../..//Ch-electronicstructure/geom7.png, id=186, 50.1875pt x 57.21375pt>
+File: ../..//Ch-electronicstructure/geom7.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom7.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom7.png  used on input
+ line 25.
 (pdftex.def)             Requested size: 47.80649pt x 54.49939pt.
-<../../Ch-electronicstructure/geom8.png, id=186, 50.1875pt x 53.19875pt>
-File: ../../Ch-electronicstructure/geom8.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom8.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom8.png  used on input 
-line 26.
+<../..//Ch-electronicstructure/geom8.png, id=187, 50.1875pt x 53.19875pt>
+File: ../..//Ch-electronicstructure/geom8.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom8.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom8.png  used on input
+ line 27.
 (pdftex.def)             Requested size: 47.80649pt x 50.67488pt.
-<../../Ch-electronicstructure/geom9.png, id=187, 1104.125pt x 602.25pt>
-File: ../../Ch-electronicstructure/geom9.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom9.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom9.png  used on input 
-line 28.
+<../..//Ch-electronicstructure/geom9.png, id=188, 1104.125pt x 602.25pt>
+File: ../..//Ch-electronicstructure/geom9.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom9.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom9.png  used on input
+ line 29.
 (pdftex.def)             Requested size: 47.79655pt x 26.07085pt.
-<../../Ch-electronicstructure/geom10.png, id=188, 1104.125pt x 808.01875pt>
-File: ../../Ch-electronicstructure/geom10.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom10.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom10.png  used on input
- line 30.
+<../..//Ch-electronicstructure/geom10.png, id=189, 1104.125pt x 808.01875pt>
+File: ../..//Ch-electronicstructure/geom10.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom10.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom10.png  used on inpu
+t line 31.
 (pdftex.def)             Requested size: 47.79655pt x 34.97838pt.
-<../../Ch-electronicstructure/geom11.png, id=189, 1104.125pt x 509.905pt>
-File: ../../Ch-electronicstructure/geom11.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom11.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom11.png  used on input
- line 32.
+<../..//Ch-electronicstructure/geom11.png, id=190, 1104.125pt x 509.905pt>
+File: ../..//Ch-electronicstructure/geom11.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom11.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom11.png  used on inpu
+t line 33.
 (pdftex.def)             Requested size: 47.79655pt x 22.0733pt.
-<../../Ch-electronicstructure/geom12.png, id=190, 1104.125pt x 894.34125pt>
-File: ../../Ch-electronicstructure/geom12.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom12.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom12.png  used on input
- line 34.
+<../..//Ch-electronicstructure/geom12.png, id=191, 1104.125pt x 894.34125pt>
+File: ../..//Ch-electronicstructure/geom12.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom12.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom12.png  used on inpu
+t line 35.
 (pdftex.def)             Requested size: 47.79655pt x 38.7152pt.
-<../../Ch-electronicstructure/geom13.png, id=191, 1104.125pt x 798.985pt>
-File: ../../Ch-electronicstructure/geom13.png Graphic file (type png)
-<use ../../Ch-electronicstructure/geom13.png>
-Package pdftex.def Info: ../../Ch-electronicstructure/geom13.png  used on input
- line 36.
+<../..//Ch-electronicstructure/geom13.png, id=192, 1104.125pt x 798.985pt>
+File: ../..//Ch-electronicstructure/geom13.png Graphic file (type png)
+<use ../..//Ch-electronicstructure/geom13.png>
+Package pdftex.def Info: ../..//Ch-electronicstructure/geom13.png  used on inpu
+t line 37.
 (pdftex.def)             Requested size: 47.79655pt x 34.58731pt.
 )
 Overfull \hbox (12.0pt too wide) in paragraph at lines 33--37
@@ -6623,13 +6623,14 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 33--37
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-[7 <../../Ch-electronicstructure/geom1.png> <../../Ch-electronicstructure/geom2
-.png> <../../Ch-electronicstructure/geom3.png> <../../Ch-electronicstructure/ge
-om4.png> <../../Ch-electronicstructure/geom5.png> <../../Ch-electronicstructure
-/geom6.png> <../../Ch-electronicstructure/geom7.png> <../../Ch-electronicstruct
-ure/geom8.png> <../../Ch-electronicstructure/geom9.png> <../../Ch-electronicstr
-ucture/geom10.png> <../../Ch-electronicstructure/geom11.png> <../../Ch-electron
-icstructure/geom12.png> <../../Ch-electronicstructure/geom13.png>]
+[7 <../..//Ch-electronicstructure/geom1.png> <../..//Ch-electronicstructure/geo
+m2.png> <../..//Ch-electronicstructure/geom3.png> <../..//Ch-electronicstructur
+e/geom4.png> <../..//Ch-electronicstructure/geom5.png> <../..//Ch-electronicstr
+ucture/geom6.png> <../..//Ch-electronicstructure/geom7.png> <../..//Ch-electron
+icstructure/geom8.png> <../..//Ch-electronicstructure/geom9.png> <../..//Ch-ele
+ctronicstructure/geom10.png> <../..//Ch-electronicstructure/geom11.png> <../../
+/Ch-electronicstructure/geom12.png> <../..//Ch-electronicstructure/geom13.png>]
+
 (../../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms
 -Lewis-scheme.title)
 (../../Ch-electronicstructure/files/SubSection-Electron-dot-structures-of-atoms
@@ -6693,7 +6694,7 @@ on input line 6.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
@@ -6748,7 +6749,7 @@ Overfull \hbox (22.76228pt too wide) in paragraph at lines 15--16
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
  []
 
@@ -6848,9 +6849,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5818.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5818.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5818.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  43AAEAD2ACA74E072B10BF11B289BADE;197.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6864,13 +6871,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5818.
  ) 
 Here is how much of TeX's memory you used:
- 85152 strings out of 493014
- 1910538 string characters out of 6133351
- 2708819 words of memory out of 5000000
- 86582 multiletter control sequences out of 15000+600000
- 251751 words of font info for 322 fonts, out of 8000000 for 9000
+ 85151 strings out of 493014
+ 1910554 string characters out of 6133351
+ 2708186 words of memory out of 5000000
+ 86579 multiletter control sequences out of 15000+600000
+ 248948 words of font info for 320 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,21n,113p,10349b,2016s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,21n,113p,10349b,2026s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-di
@@ -6897,10 +6904,10 @@ texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 1074950 bytes).
+Output written on main.pdf (19 pages, 1072911 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 378 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
  59 named destinations out of 1000 (max. 500000)
- 71662 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 71150 words of extra memory for PDF output out of 74296 (max. 10000000)
 
