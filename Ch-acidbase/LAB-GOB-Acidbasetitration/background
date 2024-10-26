@@ -1,9 +1,9 @@
  
+\newcommand\chapterpathtoimages{../../}
  \foreach \i in {SectionIntro-Titrations}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
 
-\renewcommand\chapterpathtoimages{../../}
 %\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Titration}
     \begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
 \import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Titration}
