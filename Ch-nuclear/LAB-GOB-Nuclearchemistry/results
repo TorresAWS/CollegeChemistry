@@ -1,8 +1,9 @@
 \vspace{0.2cm}{\begin{flushleft}\large \bfseries 1. Background radiation\end{flushleft}}
 
-\begin{center}\resizebox{18cm}{!} {\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{4cm}|  }
+\begin{center}\resizebox{17cm}{!} {\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{3.5cm}|  }
 \hline
-    Measurement 1 (cpm) &   Measurement  2 (cpm) &   Measurement  3 (cpm) &    Average Radiation (cpm)        \\
+     \multicolumn{1} {|c}{Measurement 1}  &   \multicolumn{1} {|c}{ Measurement  2}  &   \multicolumn{1} {|c}{ Measurement  3}  &  \multicolumn{1} {|c|}{   Average Radiation}         \\
+    \multicolumn{1} {|c}{ (cpm)} &  \multicolumn{1} {|c}{ (cpm)} &   \multicolumn{1} {|c}{ (cpm)} &     \multicolumn{1} {|c|}{ (cpm)}        \\
 \hline
    \vspace{0cm}\vspace{.5cm} &     &     &       \\
 \hline
@@ -11,7 +12,8 @@
 \vspace{0.2cm}{\large \bfseries 2. Radioactive chips}
 \begin{center}\begin{tabular}{ |p{3cm}|p{5cm}|p{5cm}|  }
 \hline
-    Isotope name &   Activity (cpm) &   Activity - Background (cpm)         \\
+    Isotope name &   Activity  &   Activity - Background          \\
+     &    (cpm) &    (cpm)         \\
 \hline
    \vspace{0cm}\vspace{.5cm} &     &            \\
 \hline
