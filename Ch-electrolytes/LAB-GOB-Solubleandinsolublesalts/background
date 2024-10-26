@@ -4,7 +4,7 @@
 } \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem8}
  
 \begin{fullwidth}
-\hspace{7cm}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
+\hspace{5cm}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Solubility}
 \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Solubility-data} 
 } \end{minipage}
@@ -17,7 +17,7 @@
 %   \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Electrolytes}
    
    
-    \begin{fullwidth}\hspace{2cm}\begin{minipage}[b]{0.8\linewidth}\resizebox{1.0\textwidth}{!}{
+    \begin{fullwidth}\hspace{0cm}\begin{minipage}[b]{0.8\linewidth}\resizebox{1.0\textwidth}{!}{
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Electrolytes}
  \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Electrolytes-data} 
 
