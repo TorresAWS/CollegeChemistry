@@ -1,6 +1,10 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-acidbase}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
  
+
+\newcommand\chapterpathtoimages{../}
+
+
 \begin{document} 
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
 \setatomsep{1.78500 em}    % 'Fixed Length'
@@ -195,7 +199,9 @@
 \import{../\chapterlabel/problems/}{SampleProblem18}
 \item[\docfilehook{ PH at the midpoint}{}] \import{../\chapterlabel/files/}{SubSection-Titrations-Midpoint}
 \import{../\chapterlabel/problems/}{SampleProblem19}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \import{../\chapterlabel/files/}{Figure-Titration}
+}\end{minipage}
 \end{description}
 %%%%%%%%%%%%%%%%%%%%%%NOT FOR 121
 }
