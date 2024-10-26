@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 AUG 2024 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 OCT 2024 13:03
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -84,11 +85,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
+runsystem(uname -s > "main.w18")...executed.
 
-Package ifplatform Warning: 
-    shell escape is disabled, so I can only detect \ifwindows.
 
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(./main.w18)
+runsystem(rm -- "main.w18")...executed.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \hw@charcount=\count83
@@ -6375,15 +6379,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (./Solutionselectrolytesconcentration.tex (./title)
-LaTeX Font Info:    Try loading font information for T1+phv on input line 14.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 23.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 14.
+(Font)              scaled to size 10.79993pt on input line 23.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -6458,10 +6462,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
-
-LaTeX Warning: Reference `tab:Table-Empirical-rules-of-polirity' on page 2 unde
-fined on input line 5.
-
 )
 Overfull \hbox (154.26378pt too wide) in paragraph at lines 9--16
 [] [] 
@@ -6525,7 +6525,7 @@ entration) (../../Ch-electrolytes/problems/SampleProblem5
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
@@ -6570,7 +6570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 
  []
 
@@ -6580,7 +6580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
  []
 
 
-Overfull \hbox (34.19933pt too wide) in paragraph at lines 3--13
+Overfull \hbox (5.71304pt too wide) in paragraph at lines 3--13
  [] 
  []
 
@@ -6595,7 +6595,12 @@ Overfull \hbox (5.31895pt too wide) in paragraph at lines 39--39
  []
 
 
-Overfull \hbox (34.19933pt too wide) in paragraph at lines 24--39
+Overfull \hbox (5.71304pt too wide) in paragraph at lines 24--39
+ [] 
+ []
+
+
+Overfull \hbox (34.18819pt too wide) in paragraph at lines 47--60
  [] 
  []
 
@@ -6604,12 +6609,7 @@ Overfull \hbox (34.19933pt too wide) in paragraph at lines 24--39
 
 
 
-]
-Overfull \hbox (34.18819pt too wide) in paragraph at lines 47--60
- [] 
- []
-
-) [10]
+]) [10]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6643,7 +6643,7 @@ Overfull \hbox (34.18819pt too wide) in paragraph at lines 47--60
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
@@ -6671,9 +6671,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5818.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5818.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5818.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  3B34E9352B2130BA913F28F432317073;257.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6681,14 +6687,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5818.
  ) 
 Here is how much of TeX's memory you used:
- 84249 strings out of 493014
+ 84251 strings out of 493014
  1886599 string characters out of 6133351
- 2668378 words of memory out of 5000000
+ 2679407 words of memory out of 5000000
  85843 multiletter control sequences out of 15000+600000
- 119141 words of font info for 177 fonts, out of 8000000 for 9000
+ 116338 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,19n,104p,10349b,1949s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -6712,10 +6721,10 @@ pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 206716 bytes).
+Output written on main.pdf (13 pages, 207521 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 295 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  42 named destinations out of 1000 (max. 500000)
- 40877 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 40365 words of extra memory for PDF output out of 42996 (max. 10000000)
 
