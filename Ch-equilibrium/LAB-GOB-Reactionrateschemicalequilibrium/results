@@ -2,8 +2,8 @@
 \vspace{0.2cm}{\large \bfseries 1. Factors that affect the chemical rate. Effect of temperature}
 \begin{center}\begin{tabular}{ |p{4cm}|p{8cm}|  }
 \hline
-      \begin{center}Test tube \end{center} &   \begin{center}Observation \end{center}         \\
-         {\small(Hot/Cold)} &     {\small(intense/weak bubble formation) }        \\
+      \multicolumn{1} {|c} {Test tube } &   \multicolumn{1} {|c|} {Observation }         \\
+        \multicolumn{1} {|c}  {\small(Hot/Cold)}  &    \multicolumn{1} {|c|} { {\small(intense/weak bubble formation) } }        \\
 \hline
    \vspace{0cm}\vspace{.25cm} &               \\\hline
    \vspace{0cm}\vspace{.25cm} &             \\\hline
@@ -19,7 +19,7 @@
 \vspace{0.2cm}{\large \bfseries 2. Factors that affect the chemical rate. Effect of reactant concentration}
 \begin{center}\begin{tabular}{ |p{4cm}|p{8cm}|  }
 \hline
-     Molarity of HCl&   Total Time           \\
+     \multicolumn{1} {|c} {Molarity of HCl}&  \multicolumn{1} {|c|} { Total Time}           \\
 \hline
    \vspace{0cm}\vspace{.25cm} &               \\\hline
    \vspace{0cm}\vspace{.25cm} &             \\\hline
