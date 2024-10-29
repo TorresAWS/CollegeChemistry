@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2024 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 OCT 2024 12:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6043,7 +6043,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-orgo/figure1.png, id=149, 803.0pt x 501.875pt>
+<../Ch-orgo/figure1.png, id=153, 803.0pt x 501.875pt>
 File: ../Ch-orgo/figure1.png Graphic file (type png)
 <use ../Ch-orgo/figure1.png>
 Package pdftex.def Info: ../Ch-orgo/figure1.png  used on input line 1.
@@ -6087,7 +6087,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-o
 rgo/figure1.png>])
 (../Ch-orgo/files/SideFigure-Hydrocarbons
-<../Ch-orgo/figure3.png, id=162, 1284.8pt x 904.37875pt>
+<../Ch-orgo/figure3.png, id=166, 1284.8pt x 904.37875pt>
 File: ../Ch-orgo/figure3.png Graphic file (type png)
 <use ../Ch-orgo/figure3.png>
 Package pdftex.def Info: ../Ch-orgo/figure3.png  used on input line 2.
@@ -6108,7 +6108,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure2.png, id=163, 321.2pt x 200.75pt>
+<../Ch-orgo/figure2.png, id=167, 321.2pt x 200.75pt>
 File: ../Ch-orgo/figure2.png Graphic file (type png)
 <use ../Ch-orgo/figure2.png>
 Package pdftex.def Info: ../Ch-orgo/figure2.png  used on input line 7.
@@ -6121,7 +6121,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure4.png, id=164, 385.44pt x 289.08pt>
+<../Ch-orgo/figure4.png, id=168, 385.44pt x 289.08pt>
 File: ../Ch-orgo/figure4.png Graphic file (type png)
 <use ../Ch-orgo/figure4.png>
 Package pdftex.def Info: ../Ch-orgo/figure4.png  used on input line 12.
@@ -6146,8 +6146,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes)
-(../Ch-orgo/problems/SampleProblem1 (../Ch-orgo/problems/StudyCheck1
+(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes
+
+LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
+put line 1.
+
+) (../Ch-orgo/problems/SampleProblem1 (../Ch-orgo/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 2.
 
@@ -6165,6 +6169,10 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+
+LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
+put line 7.
+
 ) (../Ch-orgo/files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6215,8 +6223,15 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 2--13
  []
 
 ) (../Ch-orgo/files/SectionIntro-Cycloalkanes)
-(../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=198, 1505.625pt x 1388.93906pt>
+(../Ch-orgo/files/SubSection-Cycloalkanes-Cyclic-alkanes
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]) (../Ch-orgo/files/SideFigure-Alkanes
+<../Ch-orgo/figure5.png, id=205, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 <use ../Ch-orgo/figure5.png>
 Package pdftex.def Info: ../Ch-orgo/figure5.png  used on input line 2.
@@ -6226,7 +6241,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=200, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=207, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 <use ../Ch-orgo/figure6.png>
 Package pdftex.def Info: ../Ch-orgo/figure6.png  used on input line 7.
@@ -6237,17 +6252,9 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
  []
 
 
-LaTeX Warning: Marginpar on page 5 moved.
+LaTeX Warning: Marginpar on page 6 moved.
 
-) (../Ch-orgo/files/SubSection-Cycloalkanes-Cyclic-alkanes
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <../Ch-orgo/figure5.png> <../Ch-orgo/figure6.png>])
-(../Ch-orgo/files/SubSection-Cycloalkanes-Naming-cycloalkanes)
+) (../Ch-orgo/files/SubSection-Cycloalkanes-Naming-cycloalkanes)
 (../Ch-orgo/problems/SampleProblem4 (../Ch-orgo/problems/StudyCheck4))
 (../Ch-orgo/files/SubSection-Cycloalkanes-Molecular-formulas-for-cycloalkanes)
 (../Ch-orgo/problems/SampleProblem5 (../Ch-orgo/problems/StudyCheck5)
@@ -6257,14 +6264,22 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]) (../Ch-orgo/files/SectionIntro-Alkanes-with-substituents)
+[6 <../Ch-orgo/figure5.png> <../Ch-orgo/figure6.png>])
+(../Ch-orgo/files/SectionIntro-Alkanes-with-substituents)
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Substituents
 
 LaTeX Warning: Reference `tab:{Ch-orgo}2' on page 7 undefined on input line 1.
 
 )
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-a-single-su
-bstituent) (../Ch-orgo/files/Table-Substituents
+bstituent)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7] (../Ch-orgo/files/Table-Substituents
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
@@ -6274,17 +6289,7 @@ Overfull \hbox (101.5079pt too wide) in paragraph at lines 4--21
 [][] 
  []
 
-
-Underfull \vbox (badness 6725) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7])
+)
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-two-or-more
 -equal-substituents) (../Ch-orgo/problems/SampleProblem6
 (../Ch-orgo/problems/StudyCheck6))
@@ -6301,33 +6306,34 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ) (../Ch-orgo/problems/SampleProblem7 (../Ch-orgo/problems/StudyCheck7))
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Numbering-the-chain
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]) (../Ch-orgo/problems/SampleProblem8
+[9]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
+
+) (../Ch-orgo/problems/SampleProblem8
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
 
@@ -6513,15 +6519,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]) (../Ch-orgo/problems/SampleProblem10 (../Ch-orgo/problems/StudyCheck10))
-(../Ch-orgo/files/SectionIntro-Molecular-diversity)
-(../Ch-orgo/files/SubSection-Molecular-diversity-Alkene-and-alkyne
+(../Ch-orgo/files/SectionIntro-Molecular-diversity
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]) (../Ch-orgo/problems/SampleProblem11 (../Ch-orgo/problems/StudyCheck11)
+[13]) (../Ch-orgo/files/SubSection-Molecular-diversity-Alkene-and-alkyne)
+(../Ch-orgo/problems/SampleProblem11 (../Ch-orgo/problems/StudyCheck11)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6558,54 +6564,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 (../Ch-orgo/problems/StudyCheck12))
-(../Ch-orgo/files/SubSection-Molecular-diversity-Aldehydes-and-ketones)
-(../Ch-orgo/problems/SampleProblem13 (../Ch-orgo/problems/StudyCheck13)
+(../Ch-orgo/files/SubSection-Molecular-diversity-Aldehydes-and-ketones
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16])
-(../Ch-orgo/files/SubSection-Molecular-diversity-Carboxylic-acids-and-esters)
+[16]) (../Ch-orgo/problems/SampleProblem13 (../Ch-orgo/problems/StudyCheck13))
+(../Ch-orgo/files/SubSection-Molecular-diversity-Carboxylic-acids-and-esters
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] (../Ch-orgo/files/Figure-Acetone
-<../Ch-orgo/figure8.png, id=282, 122.6768pt x 273.28992pt>
+[17]) (../Ch-orgo/files/Figure-Acetone
+<../Ch-orgo/figure8.png, id=284, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 <use ../Ch-orgo/figure8.png>
 Package pdftex.def Info: ../Ch-orgo/figure8.png  used on input line 113.
 (pdftex.def)             Requested size: 51.08774pt x 113.80934pt.
-<../Ch-orgo/figure17.png, id=283, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=285, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 <use ../Ch-orgo/figure17.png>
 Package pdftex.def Info: ../Ch-orgo/figure17.png  used on input line 113.
 (pdftex.def)             Requested size: 113.80911pt x 75.46039pt.
-<../Ch-orgo/figure16.png, id=284, 226.8475pt x 223.83624pt>
+<../Ch-orgo/figure16.png, id=286, 226.8475pt x 223.83624pt>
 File: ../Ch-orgo/figure16.png Graphic file (type png)
 <use ../Ch-orgo/figure16.png>
 Package pdftex.def Info: ../Ch-orgo/figure16.png  used on input line 113.
 (pdftex.def)             Requested size: 113.81114pt x 112.30037pt.
-<../Ch-orgo/figure14.png, id=285, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=287, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 <use ../Ch-orgo/figure14.png>
 Package pdftex.def Info: ../Ch-orgo/figure14.png  used on input line 113.
 (pdftex.def)             Requested size: 73.28125pt x 113.81041pt.
-<../Ch-orgo/figure18.png, id=286, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=288, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 <use ../Ch-orgo/figure18.png>
 Package pdftex.def Info: ../Ch-orgo/figure18.png  used on input line 113.
 (pdftex.def)             Requested size: 113.79942pt x 59.11658pt.
-<../Ch-orgo/figure19.png, id=287, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=289, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 <use ../Ch-orgo/figure19.png>
 Package pdftex.def Info: ../Ch-orgo/figure19.png  used on input line 113.
 (pdftex.def)             Requested size: 113.8047pt x 57.86679pt.
-<../Ch-orgo/figure10.png, id=288, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=290, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 <use ../Ch-orgo/figure10.png>
 Package pdftex.def Info: ../Ch-orgo/figure10.png  used on input line 113.
@@ -6652,23 +6657,28 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]) (../Ch-orgo/files/SectionIntro-Aromatic-hydrocarbons)
-(../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-reactivity
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21])
+[21] (../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-reactivity
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 10--10
+ []|[]| 
+ []
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[22] [23
+Overfull \hbox (21.57518pt too wide) in paragraph at lines 15--15
+ []|[]\T1/ptm/m/n/10 (-20) chlorobenzene 
+ []
 
-]
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 6--16
+ [] 
+ []
+
+)
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6680,20 +6690,21 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
-(./Ch-orgo.aux)
+ (./Ch-orgo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package rerunfilecheck Info: File `Ch-orgo.out' has not changed.
+(rerunfilecheck)             Checksum: 1FEAD20BE7ED43D991C8923984FE6F1E;1279.
 
-
-Package rerunfilecheck Warning: File `Ch-orgo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Ch-orgo.out':
-(rerunfilecheck)             Before: F3E1BB464426F69F40AC7519DC52BCCD;1117
-(rerunfilecheck)             After:  1FEAD20BE7ED43D991C8923984FE6F1E;1279.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6709,13 +6720,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 86453 strings out of 493014
- 1929565 string characters out of 6133351
- 2773504 words of memory out of 5000000
- 87841 multiletter control sequences out of 15000+600000
- 176866 words of font info for 266 fonts, out of 8000000 for 9000
+ 86355 strings out of 493014
+ 1927440 string characters out of 6133351
+ 2783543 words of memory out of 5000000
+ 87743 multiletter control sequences out of 15000+600000
+ 179669 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,20n,110p,10526b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,21n,110p,10526b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
@@ -6741,10 +6752,10 @@ ve/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Ch-orgo.pdf (23 pages, 10179975 bytes).
+Output written on Ch-orgo.pdf (22 pages, 10180586 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 52774 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 53294 words of extra memory for PDF output out of 61914 (max. 10000000)
 
