@@ -23,7 +23,7 @@
   \shade[ball color=myball!30] (1.1,1.5) circle (0.2) node [white,below,shift={(0,-1em)}] {Reactants} ;
   \shade[ball color=myball] (4.9,0.7) circle (0.2)  node [white,below,shift={(0,-.5em)}] {Products};
 
-\node[text width=12cm, fontscale=.2,shift={(8em,-7em)}] at (7em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-EndoExo} \end{bf} An exothermic (left) reaction and and endothermic (right) reaction. };
+\node[text width=12cm, fontscale=.2,shift={(8em,-7em)}] at (7em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-EndoExo} \end{bf} An exothermic (left) reaction and endothermic (right) reaction. };
 
 
 }
