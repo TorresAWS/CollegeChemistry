@@ -1,6 +1,6 @@
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Mole-equivalency}
  \begin{minipage}[b]{1.0\linewidth}
-    \resizebox{4.3\textwidth}{8cm}{
+    \resizebox{5.3\textwidth}{9cm}{
 \begin{tikzpicture}[
    planet/.style = {circle, draw=blue, semithick, fill=blue!30,
                     font=\large\bfseries, 
@@ -16,6 +16,6 @@ satellite/.style = {circle, draw=#1, semithick, fill=#1!30,
     \node (s\k) [satellite=\i] at (\k*60:3.4) {\j};
     \draw[arr=\i] (p) -- (s\k);
 }
-\node[text width=4cm, fontscale=.5,shift={(8.5em,-2em)}] at (5em,10em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Mole-equivalency} \end{bf} A mole is the same number of molecules for different chemicals, while being different weights for different chemicals. };
+\node[text width=12cm, fontscale=.5,shift={(-3.5em,-22em)}] at (5em,07em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Mole-equivalency} \end{bf} A mole is the same number of molecules for different chemicals (left part of the diagram), while being different weights for different chemicals (right part of the diagram). };
     \end{tikzpicture}}
 \end{minipage}

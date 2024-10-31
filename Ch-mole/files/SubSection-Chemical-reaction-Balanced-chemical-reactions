@@ -4,25 +4,33 @@ The table below shows all reactants and products in the form of atoms.
 \newline
 \begin{tabularx}{\linewidth}{XXX}
 \toprule
-\multicolumn{3}{c}{\ce{2Mg(s) + O2(g) -> 2MgO(s)} } \tabularnewline
+\multicolumn{1}{l}{\ce{2Mg(s) + O2(g) } }  & \multicolumn{1}{l}{\ce{  ->  } }  & \multicolumn{1}{l}{\ce{  2MgO(s)} } 
+\tabularnewline
 \toprule
-\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \textcolor{cyan}{Products} & \tabularnewline
+\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \multicolumn{1}{l}{\ce{  ->  } }  & \textcolor{cyan}{Products}  \tabularnewline
 \toprule
-  2Mg &  2Mg  &\checkmark \tabularnewline
-    \ce{O2}=2O &  2O &\checkmark \tabularnewline
+  2Mg 		& \checkmark & 2Mg  	 \tabularnewline
+ \ce{O2}=2O 	&  \checkmark & 2O 	 \tabularnewline
 \bottomrule
 \end{tabularx}
+
+
 The number of Mg atoms in the reactants and products is the same and equals two. On the other hand, the number of O atoms in the reactants and products is the same, equal to two. For this reason, we say this reaction is \emph{balanced}.\\
 Now consider the following reaction:
 \begin{center}\ce{C(s) + O2(g) -> CO(g)},\end{center}
-The number of C atoms in the reactants and products is the same and equals one. In contrast, the number of O atoms in the reactants and products is not the same, and for this reason, we say this reaction is \emph{not balanced}.
+The number of C atoms in the reactants and products is the same and equals one. In contrast, the number of O atoms in the reactants and products differ, and for this reason, we say this reaction is \emph{not balanced}.
+
 \begin{tabularx}{\linewidth}{XXX}
 \toprule
-\multicolumn{3}{c}{\ce{C(s) + O2(g) -> CO(g)} } \tabularnewline
+\multicolumn{1}{l}{\ce{C(s) + O2(g) } }  & \multicolumn{1}{l}{\ce{  ->  } }  & \multicolumn{1}{l}{\ce{  CO(g)} } 
+\tabularnewline
 \toprule
-\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \textcolor{cyan}{Products} & \tabularnewline
+\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \multicolumn{1}{l}{\ce{  ->  } }  & \textcolor{cyan}{Products}  \tabularnewline
 \toprule
- 1C &  1C  &\checkmark \tabularnewline
-  \ce{O2}=2O &  O & \xmark \tabularnewline
+  1C		& \checkmark & 1C  	 \tabularnewline
+ \ce{O2}=2O 	&  \xmark & O 	 \tabularnewline
 \bottomrule
 \end{tabularx}
+
+
+

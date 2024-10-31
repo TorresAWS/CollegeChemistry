@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 AUG 2024 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2024 15:57
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -6181,7 +6182,20 @@ line 1.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 5.
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6192,12 +6206,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ../Ch-mole/figure14.png (PNG copy)> <../Ch-mole/figure13.png (PNG copy)> <../Ch
 -mole/figure15.png>])
 (../Ch-mole/files/SubSection-The-mole-From-molecules-to-atoms)
-(../Ch-mole/problems/SampleProblem10 (../Ch-mole/problems/StudyCheck10)
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
+(../Ch-mole/problems/SampleProblem10 (../Ch-mole/problems/StudyCheck10
+Underfull \hbox (badness 10000) in paragraph at lines 11--5
 
  []
 
-) (../Ch-mole/files/SideFigure-Molar-mass
+)) (../Ch-mole/files/SideFigure-Molar-mass
 <../Ch-mole/figure5.png, id=191, 240.9pt x 180.675pt>
 File: ../Ch-mole/figure5.png Graphic file (type png)
 <use ../Ch-mole/figure5.png>
@@ -6255,39 +6269,27 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3 <../Ch-mole/figure5.png> <../Ch-mole/figure6.png> <../Ch-mole/figure7.png> <
-../Ch-mole/figure16.png (PNG copy)>])
-(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
-les-to-grams) (../Ch-mole/files/Figure-Mole-equivalency
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 20.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 20.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 20.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 20.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 20.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 20.
+../Ch-mole/figure16.png (PNG copy)>]) (../Ch-mole/files/Figure-Mole-equivalency
 )
-(../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3)
-Overfull \hbox (62.60558pt too wide) in paragraph at lines 8--11
-   [] [][]
+Overfull \hbox (3.80005pt too wide) in paragraph at lines 72--73
+[]  [] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
+
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
+les-to-grams
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4])
+[4]) (../Ch-mole/problems/SampleProblem3 (../Ch-mole/problems/StudyCheck3))
 (../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-gr
 ams-to-atoms) (../Ch-mole/files/Figure-Mole-to-grams
 Overfull \hbox (0.82616pt too wide) in paragraph at lines 8--8
@@ -6305,7 +6307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--12
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1571) has occurred while \output is active []
 
 
 
@@ -6361,11 +6363,6 @@ LaTeX Warning: Marginpar on page 6 moved.
 ) (../Ch-mole/files/SectionIntro-Chemical-reaction)
 (../Ch-mole/files/SubSection-Chemical-reaction-Simple-chemical-reactions)
 (../Ch-mole/files/SubSection-Chemical-reaction-Reading-a-chemical-reaction)
-(../Ch-mole/files/SubSection-Chemical-reaction-Balanced-chemical-reactions
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6374,24 +6371,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [6 <../Ch-mole/figure8.png> <../Ch-mole/figure11.png (PNG copy)> <../Ch-mole/fi
 gure9.png (PNG copy)> <../Ch-mole/figure10.png (PNG copy)>]
-(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd)
-Underfull \hbox (badness 3364) in paragraph at lines 3--16
-\T1/ptm/m/n/10 (+20) The ta-ble be-low shows all re-ac-tants and prod-ucts in t
-he form of atoms.
+(../Ch-mole/files/SubSection-Chemical-reaction-Balanced-chemical-reactions
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
  []
 
-)
-Underfull \hbox (badness 2443) in paragraph at lines 17--89
-\T1/ptm/m/n/10 (+20) one. In con-trast, the num-ber of O atoms in the re-ac-tan
-ts and prod-ucts
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 17--89
-\T1/ptm/m/n/10 (+20) is not the same, and for this rea-son, we say this re-ac-t
-ion is \T1/ptm/m/it/10 (+20) not bal-anced\T1/ptm/m/n/10 (+20) .
- []
-
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/udingbat.fd))
 (../Ch-mole/files/SubSection-Chemical-reaction-Balancing-chemical-reactions)
 (../Ch-mole/problems/SampleProblem5 (../Ch-mole/problems/StudyCheck5)
 
@@ -6413,21 +6398,18 @@ o)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactants-to-p
 roducts)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Reactant-to-a-
-different-reactant) (../Ch-mole/problems/SampleProblem6
-(../Ch-mole/problems/StudyCheck6)
+different-reactant
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9])
+[9]) (../Ch-mole/problems/SampleProblem6 (../Ch-mole/problems/StudyCheck6))
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Mass-calculati
 ons)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Molar-mass-rev
-iew)
-(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles
--in-a-reaction
+iew
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6435,41 +6417,42 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10])
+(../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-moles
+-in-a-reaction)
 (../Ch-mole/files/SubSection-Stoichiometry-and-mass-calculations-Grams-to-grams
 -in-a-reaction
 Underfull \hbox (badness 3826) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) We want to an-swer the fol-low-ing ques-tion: we
  []
 
-) (../Ch-mole/problems/SampleProblem7 (../Ch-mole/problems/StudyCheck7))
-(../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent
+) (../Ch-mole/problems/SampleProblem7 (../Ch-mole/problems/StudyCheck7)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11])
-(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield)
-(../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8)
+[11]) (../Ch-mole/files/SectionIntro-Percent-yield-and-limiting-reagent)
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Percent-yield
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12])
+[12]) (../Ch-mole/problems/SampleProblem8 (../Ch-mole/problems/StudyCheck8))
 (../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Limiting-reagen
 t)
-(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
--limiting-reagent
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]) (../Ch-mole/problems/SampleProblem9 (../Ch-mole/problems/StudyCheck9)
+[13]
+(../Ch-mole/files/SubSection-Percent-yield-and-limiting-reagent-Identifying-the
+-limiting-reagent) (../Ch-mole/problems/SampleProblem9
+(../Ch-mole/problems/StudyCheck9)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6710,6 +6693,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [24
 
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25] [26
+
 ])
 
 Package bibentry Warning: You have used \nobibliography* 
@@ -6722,16 +6714,9 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5716.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5716.
- (./main.aux)
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5716.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5716.
 
@@ -6745,25 +6730,22 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5716.
  ) 
 Here is how much of TeX's memory you used:
- 85012 strings out of 493014
- 1902309 string characters out of 6133351
- 3202012 words of memory out of 5000000
- 86316 multiletter control sequences out of 15000+600000
- 258462 words of font info for 317 fonts, out of 8000000 for 9000
+ 85013 strings out of 493014
+ 1902296 string characters out of 6133351
+ 3197887 words of memory out of 5000000
+ 86315 multiletter control sequences out of 15000+600000
+ 262270 words of font info for 320 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  82i,34n,109p,10369b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc} <
 /Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/dingbat/din
 gbat.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/us
 r/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fo
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fo
 nts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dis
 t/fonts/enc/dvips/paratype/ptsans_ts1.enc}</usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-di
@@ -6773,23 +6755,24 @@ onts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts
 ype1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-sy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (25 pages, 21674408 bytes).
+mmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfd
+ing/uzdr.pfb>
+Output written on main.pdf (26 pages, 21686520 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
- 173 named destinations out of 1000 (max. 500000)
- 72798 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 73310 words of extra memory for PDF output out of 74296 (max. 10000000)
 
