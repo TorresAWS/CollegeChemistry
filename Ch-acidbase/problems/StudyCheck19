@@ -6,7 +6,7 @@ A 1mL sample of 2M \ce{NH3} (K$_b$=$1.80 \times 10^{-5}$) is titrated by 2 mL of
 \item calculate the PH 
 \end{inparaenum}
 
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
 
 
  Answer: at the EP, weak base;$\big[ \ce{H^+} \big]^2 +K_a\cdot \big[ \ce{H^+} \big] -K_a\cdot c_f=0$; 4.71

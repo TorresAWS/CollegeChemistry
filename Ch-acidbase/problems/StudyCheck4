@@ -12,7 +12,7 @@ $+$&
 \tabularnewline\addlinespace
 % \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
 \end{tabular*}\end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: \ce{ B  +  A    -> CA   + CB}
  \end{flushright} }
 
