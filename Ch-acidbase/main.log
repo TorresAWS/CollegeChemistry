@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 NOV 2024 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 NOV 2024 13:42
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -7118,14 +7117,7 @@ lable
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43
+ [43
 
 ]
 
@@ -7134,18 +7126,32 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
+[44
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45
+[45]
 
-] [46
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-])
+[46
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47])
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -7157,9 +7163,18 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5662.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5662.
-(./main.aux)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5662.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5662.
 
@@ -7179,10 +7194,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5662.
  ) 
 Here is how much of TeX's memory you used:
- 86859 strings out of 493014
- 1948505 string characters out of 6133351
- 2743896 words of memory out of 5000000
- 87406 multiletter control sequences out of 15000+600000
+ 86868 strings out of 493014
+ 1948683 string characters out of 6133351
+ 2743897 words of memory out of 5000000
+ 87413 multiletter control sequences out of 15000+600000
  305235 words of font info for 371 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,33n,120p,10369b,3296s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7220,10 +7235,10 @@ palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (46 pages, 20061254 bytes).
+Output written on main.pdf (48 pages, 20065020 bytes).
 PDF statistics:
- 1355 PDF objects out of 1440 (max. 8388607)
- 1154 compressed objects within 12 object streams
- 645 named destinations out of 1000 (max. 500000)
+ 1363 PDF objects out of 1440 (max. 8388607)
+ 1160 compressed objects within 12 object streams
+ 647 named destinations out of 1000 (max. 500000)
  81147 words of extra memory for PDF output out of 89155 (max. 10000000)
 
