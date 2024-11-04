@@ -5,16 +5,13 @@ At the \emph{equivalence point}, also called the \emph{stoichiometric point}, th
  \end{equation} 
  where:
 \begin{where}
- \item $n_{H}\cdot c_a\cdot V_a$  and $n_{OH}\cdot c_b\cdot V_b$ is moles of protons and hydroxyls, respectively
- \item $c_a$ and $V_a$ is acid concentration and volume respectively
- \item $c_b$ and $V_b$ is base concentration and volume respectively
-  \item $n_{H}$ and $n_{OH}$ is the number of protons of the acid and hydroxyls of the base
+ \item $n_{H}\cdot c_a\cdot V_a$  and $n_{OH}\cdot c_b\cdot V_b$ are moles of protons and hydroxyls, respectively
+ \item $c_a$ and $V_a$ are acid concentration and volume respectively
+ \item $c_b$ and $V_b$ are base concentration and volume respectively
+  \item $n_{H}$ and $n_{OH}$ are the number of protons of the acid and hydroxyls of the base
 \end{where}
- Regarding the units in this formula, the units in $V_a$ and $V_b$ can either be $L$ or $mL$. They just need to be the same units. This formula can be used for example when we titrate a given acid amount with a known base and we arrive at the volume of base needed to the endpoint to calculate the molarity of the acid. This formula can also be used when we titrate a known acid with a known base and we need to calculate the volume of titrant needed to reach the endpoint.
+ The units on this formula need to be consistent and for example, if the units of $V_a$ are $mL$ then the units of $V_b$ should also be $mL$.  This formula can be used when we titrate a known acid with a known base and we need to calculate the volume of titrant needed to reach the endpoint.
 
-
-
-
-Equation \ref{\chapterlabel:equation13} can also be used to identify if we already passed the endpoint in a titration. For example, we titrate 2mL of 3M \ce{H2SO4} (titrant) with 2mL of 1M \ce{NaOH} (titrate). The question would be: are be before, after, or at the endpoint? We have that to neutralize completely the titrant (\ce{H2SO4}), and using Equation \ref{\chapterlabel:equation13} we would need:
+Equation \ref{\chapterlabel:equation13} can also be used to identify if we have passed the endpoint in a titration. Imagine we titrate 2mL of 3M \ce{H2SO4} (titrant) with 2mL of 1M \ce{NaOH} (titrate) and we want to know if we are before, after, or at the endpoint. Using Equation \ref{\chapterlabel:equation13} we have:
 \[2\cdot 3M\cdot 2mL=1\cdot 1M\cdot V_b\]
-that is we would need 12 mL of the base. Therefore, as we only used 2mL we would be before the endpoint and we would have not reached the endpoint.\\
+That is, we would need 12 mL of the base. Therefore, as we only used 2mL we would be before the endpoint and we would have not reached the endpoint.\\
