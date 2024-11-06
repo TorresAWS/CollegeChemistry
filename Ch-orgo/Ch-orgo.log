@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 OCT 2024 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 NOV 2024 15:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6146,12 +6146,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes
-
-LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
-put line 1.
-
-) (../Ch-orgo/problems/SampleProblem1 (../Ch-orgo/problems/StudyCheck1
+(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes)
+(../Ch-orgo/problems/SampleProblem1 (../Ch-orgo/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 2.
 
@@ -6169,10 +6165,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
-put line 7.
-
 ) (../Ch-orgo/files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6205,14 +6197,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [3]) (../Ch-orgo/problems/SampleProblem2 (../Ch-orgo/problems/StudyCheck2))
 (../Ch-orgo/files/SubSection-Alkanes-Skeletal-structural-formula)
 (../Ch-orgo/files/SubSection-Alkanes-A-review-of-the-different-structural-formu
-las) (../Ch-orgo/problems/SampleProblem3 (../Ch-orgo/problems/StudyCheck3)
+las) (../Ch-orgo/files/Figure-Skeletal-expanded-molecular
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]) (../Ch-orgo/files/Figure-Skeletal-expanded-molecular
+[4]
 Overfull \hbox (4.45273pt too wide) in paragraph at lines 12--13
 [][] 
  []
@@ -6222,7 +6214,8 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 2--13
  [] 
  []
 
-) (../Ch-orgo/files/SectionIntro-Cycloalkanes)
+) (../Ch-orgo/problems/SampleProblem3 (../Ch-orgo/problems/StudyCheck3))
+(../Ch-orgo/files/SectionIntro-Cycloalkanes)
 (../Ch-orgo/files/SubSection-Cycloalkanes-Cyclic-alkanes
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6231,7 +6224,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]) (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=205, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=207, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 <use ../Ch-orgo/figure5.png>
 Package pdftex.def Info: ../Ch-orgo/figure5.png  used on input line 2.
@@ -6241,7 +6234,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=207, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=209, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 <use ../Ch-orgo/figure6.png>
 Package pdftex.def Info: ../Ch-orgo/figure6.png  used on input line 7.
@@ -6477,18 +6470,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]) (../Ch-orgo/files/SectionIntro-Cycloalkanes-with-substituents)
-(../Ch-orgo/files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-o
-ne-substituent)
-(../Ch-orgo/files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-t
-wo-substituents
-Package chemfig Warning: the macro \A is already defined, the previous definiti
-on is lost on input line 4.
-Package chemfig Warning: the macro \C is already defined, the previous definiti
-on is lost on input line 6.
-Package chemfig Warning: the macro \F is already defined, the previous definiti
-on is lost on input line 9.
-) (../Ch-orgo/files/SideFigure-Organic-Structures
+[11]) (../Ch-orgo/files/SideFigure-Organic-Structures
 Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--6
  [] 
  []
@@ -6509,6 +6491,17 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 13--17
 
 LaTeX Warning: Marginpar on page 12 moved.
 
+) (../Ch-orgo/files/SectionIntro-Cycloalkanes-with-substituents)
+(../Ch-orgo/files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-o
+ne-substituent)
+(../Ch-orgo/files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-t
+wo-substituents
+Package chemfig Warning: the macro \A is already defined, the previous definiti
+on is lost on input line 4.
+Package chemfig Warning: the macro \C is already defined, the previous definiti
+on is lost on input line 6.
+Package chemfig Warning: the macro \F is already defined, the previous definiti
+on is lost on input line 9.
 )
 (../Ch-orgo/files/SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-r
 epeated-substituent
@@ -6580,37 +6573,37 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]) (../Ch-orgo/files/Figure-Acetone
-<../Ch-orgo/figure8.png, id=284, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=286, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 <use ../Ch-orgo/figure8.png>
 Package pdftex.def Info: ../Ch-orgo/figure8.png  used on input line 113.
 (pdftex.def)             Requested size: 51.08774pt x 113.80934pt.
-<../Ch-orgo/figure17.png, id=285, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=287, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 <use ../Ch-orgo/figure17.png>
 Package pdftex.def Info: ../Ch-orgo/figure17.png  used on input line 113.
 (pdftex.def)             Requested size: 113.80911pt x 75.46039pt.
-<../Ch-orgo/figure16.png, id=286, 226.8475pt x 223.83624pt>
+<../Ch-orgo/figure16.png, id=288, 226.8475pt x 223.83624pt>
 File: ../Ch-orgo/figure16.png Graphic file (type png)
 <use ../Ch-orgo/figure16.png>
 Package pdftex.def Info: ../Ch-orgo/figure16.png  used on input line 113.
 (pdftex.def)             Requested size: 113.81114pt x 112.30037pt.
-<../Ch-orgo/figure14.png, id=287, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=289, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 <use ../Ch-orgo/figure14.png>
 Package pdftex.def Info: ../Ch-orgo/figure14.png  used on input line 113.
 (pdftex.def)             Requested size: 73.28125pt x 113.81041pt.
-<../Ch-orgo/figure18.png, id=288, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=290, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 <use ../Ch-orgo/figure18.png>
 Package pdftex.def Info: ../Ch-orgo/figure18.png  used on input line 113.
 (pdftex.def)             Requested size: 113.79942pt x 59.11658pt.
-<../Ch-orgo/figure19.png, id=289, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=291, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 <use ../Ch-orgo/figure19.png>
 Package pdftex.def Info: ../Ch-orgo/figure19.png  used on input line 113.
 (pdftex.def)             Requested size: 113.8047pt x 57.86679pt.
-<../Ch-orgo/figure10.png, id=290, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=292, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 <use ../Ch-orgo/figure10.png>
 Package pdftex.def Info: ../Ch-orgo/figure10.png  used on input line 113.
@@ -6621,6 +6614,9 @@ Overfull \hbox (194.5769pt too wide) in paragraph at lines 113--113
  []
 
 ) (../Ch-orgo/problems/SampleProblem14 (../Ch-orgo/problems/StudyCheck14)
+Underfull \vbox (badness 6412) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6663,7 +6659,24 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] (../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-reactivity
+[21] (../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-Nomenclature
+Overfull \hbox (22.79344pt too wide) in paragraph at lines 16--16
+ [] 
+ []
+
+) (../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-Complex
+Overfull \hbox (40.94987pt too wide) in paragraph at lines 13--13
+ [] 
+ []
+
+) (../Ch-orgo/files/SubSection-Aromatic-hydrocarbons-reactivity
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
 Overfull \hbox (14.4319pt too wide) in paragraph at lines 10--10
  []|[]| 
  []
@@ -6696,12 +6709,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+[23]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./Ch-orgo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `Ch-orgo.out' has not changed.
 (rerunfilecheck)             Checksum: 1FEAD20BE7ED43D991C8923984FE6F1E;1279.
 
@@ -6720,13 +6733,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 86355 strings out of 493014
- 1927440 string characters out of 6133351
- 2783543 words of memory out of 5000000
- 87743 multiletter control sequences out of 15000+600000
- 179669 words of font info for 268 fonts, out of 8000000 for 9000
+ 86371 strings out of 493014
+ 1928156 string characters out of 6133351
+ 2784472 words of memory out of 5000000
+ 87744 multiletter control sequences out of 15000+600000
+ 177541 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,21n,110p,10526b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,21n,110p,10526b,2046s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
@@ -6752,10 +6765,10 @@ ve/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Ch-orgo.pdf (22 pages, 10180586 bytes).
+Output written on Ch-orgo.pdf (23 pages, 10185560 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 53294 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 52782 words of extra memory for PDF output out of 61914 (max. 10000000)
 

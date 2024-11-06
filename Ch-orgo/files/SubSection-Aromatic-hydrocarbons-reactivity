@@ -1,7 +1,4 @@
-The reactivity of benzene is very different from the one of unsaturated hydrocarbons. Unsaturated hydrocarbons undergo an addition reaction in which external atoms add to double bonds. Differently, saturated hydrocarbons undergo substitution reactions in which hydrogen atoms are replaced by other atoms. For example, chlorine can add to benzene forming chlorobenzene.
-
-
-
+The reactivity of benzene is very different from the one of unsaturated hydrocarbons. Unsaturated hydrocarbons undergo an addition reaction in which external atoms add to double bonds. Differently, saturated hydrocarbons undergo substitution reactions in which hydrogen atoms are replaced by other atoms. For example, chlorine can replace a hydrogen atom in benzene when iron(II) chloride is used as catalyst producing chlorobenzene:
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
 \chemfig{  **6(-------)   }&
@@ -15,35 +12,30 @@ $+$&
 \textcolor{blue}{ } && \textcolor{red}{} && \textcolor{blue}{chlorobenzene } &&\textcolor{red}{ }\tabularnewline
 \end{tabular*}\end{center}
 
-
-
-
-
+Also, the reaction of benzene with nitric acid in the presence of sulfuric acid produces nitrobenzene.
 \begin{center}
-  \small
-  \schemestart
-    \chemname{%
-      \chemfig{
-{\vphantom{H}}-[:-90]**6(-------)
-}%
-    }{  }
-    \+
-      \chemfig{
-        Cl_2
-}%
-    \arrow{->[\ce{FeCl_2}][][9pt]}
-    \chemname{%
-      \chemfig{
-Cl-[6](**6(-------))
-}%
-    }{chlorobenzene}
-    \+
-      \chemfig{
-HCl
-}
-  \schemestop
-\end{center}
-Further, nitric acid reacts with benzene forming nitrobenzene.
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
+\chemfig{  **6(-------)   }&
+$+$&
+\setpolymerdelim()\chemfig{ HNO_3}  &
+\schemestart \arrow{->[\ce{H2SO4}][][9pt]}  [,1.]\schemestop&
+\chemfig{NO_2-[6](**6(-------))}&
+ $+$&
+\setpolymerdelim() \chemfig{ H_2O    }
+\tabularnewline\addlinespace
+\textcolor{blue}{ } && \textcolor{red}{} && \textcolor{blue}{nitrobenzene } &&\textcolor{red}{ }\tabularnewline
+\end{tabular*}\end{center}
 
-
-Finally, chloromethane reacts with benzene to give toluene, methylbenzene
+Finally, chloromethane reacts with benzene to give toluene also called methylbenzene.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
+\chemfig{  **6(-------)   }&
+$+$&
+\setpolymerdelim()\chemfig{ CH_3Cl}  &
+\schemestart \arrow{->[\ce{AlCl3}][][9pt]}  [,1.]\schemestop&
+\chemfig{CH_3-[6](**6(-------))}&
+ $+$&
+\setpolymerdelim() \chemfig{ HCl    }
+\tabularnewline\addlinespace
+\textcolor{blue}{ } && \textcolor{red}{} && \textcolor{blue}{toluene } &&\textcolor{red}{ }\tabularnewline
+\end{tabular*}\end{center}

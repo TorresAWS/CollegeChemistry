@@ -31,6 +31,12 @@
 {\raggedright\textsc{\textbf{Functional groups}}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Functional-groups}
 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{ 
+{\raggedright\textsc{\textbf{Aromatic hydrocarbons}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-aromatic}
+}
+
+
 \end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
 %%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
 \newpage\fancyhfoffset[E,O]{0pt}

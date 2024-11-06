@@ -1,0 +1,13 @@
+Benze is the simplest of all aromatic hydrocarbons. Benzene rings can fuse, hence forming complex aromatic rings. Some examples are given below. These chemicals are used for the manufacturing of mothballs (naphthalene) or dyes (anthracene) to synthetic drugs (phenanthrene). Another derivative such as 3,4-benzpyrene is an active carcinogen found in smoke and smog.
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{**6(------)}\chemfig{**6(-----)}  };
+\node at (0,-1.2)  {\textcolor{blue}{Naphthalene  }};
+\node at (5,0) { \chemfig{**6(------)}\chemfig{**6(------)}\chemfig{**6(------)}  };
+\node at (5,-1.2) {\textcolor{blue}{Anthacene  }};
+\node at (10,0) { \chemfig{**6(--**6(---**6(-----)--)----)}   };
+\node at (10,-1.2) {\textcolor{blue}{Phenanthrene  }};
+\node at (0,-3) { \chemfig{**6(--**6(--**6(-----)-**6(-**6(-----)----)--)----)}   };
+\node at (0,-4.2) {\textcolor{blue}{Phenanthrene  }};
+\node at (5,-3) { \chemfig{**6(--**6(---**6(-**6(-----)----)--)----)}   };
+\node at (5,-4.2) {\textcolor{blue}{Chrysene  }};
+\end{tikzpicture}\end{center}

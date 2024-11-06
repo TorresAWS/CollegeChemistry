@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or formulate the following armatic compound:
+ \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{**6(-(-I)---(-NO_2)--)}  }; % para
+\node at (0,-1.6)  {\textcolor{black}{(a)  }};
+\node at (5,0) { \chemfig{**6(--(-F)--(-F)--)}  }; % meta
+\node at (5,-1.6) {\textcolor{black}{(b)  }};
+\end{tikzpicture}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) This chemical is \emph{p}-iodonitrobenzene also called 1,3-iodonitrobenzene. (b) This chemical is \emph{m}-difluorobenzene also called 1,2-fluorobenzene.
+\\
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) \emph{p}-iodonitrobenzene; (b) \emph{m}-difluorobenzene. \end{flushright}
+\import{./}{StudyCheck17}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
