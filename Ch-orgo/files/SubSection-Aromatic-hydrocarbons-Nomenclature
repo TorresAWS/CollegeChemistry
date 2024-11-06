@@ -1,0 +1,16 @@
+The standard nomenclature--the naming rules--for benzene derivatives are very similar to the ones for substituted alkanes. For benzenes with more than one substituent, we follow the abc rule and we use numbers to indicate the location of each substituent. See examples below:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{**6(----(-F)--)}   };
+\node at (0,-1.5) {\textcolor{blue}{Fluorobenzene  }};
+\node at (5,0) {  \chemfig{**6(---(-F)-(-F)--)}   };
+\node at (5,-1.5) {\textcolor{blue}{1,2-difluorobenzene  }};
+\end{tikzpicture}\end{center}
+There is an alternative, but extensively used, nomenclature that uses the prefixes ortho, meta, and para to describe the location of double-substituted benzene. Ortho \emph{o-} is used when the substituents are adjacents (1,2 location), whereas meta \emph{m-} is used when there is a carbon in between the two substituents (1,3 location). Para \emph{p-} is used when there are two carbons in between the two substituents (1,4 location). Below you can see this alternative nomenclature in use:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{**6(---(-F)-(-F)--)}   };
+\node at (0,-1.5)  {\textcolor{blue}{\emph{o}-difluorobenzene  }};
+\node at (5,0) {  \chemfig{**6(--(-F)--(-F)--)}   };
+\node at (5,-1.5) {\textcolor{blue}{\emph{m}-difluorobenzene  }};
+\node at (10,0) {  \chemfig{**6(-(-F)---(-F)--)}   };
+\node at (10,-1.5) {\textcolor{blue}{\emph{p}-difluorobenzene  }};
+\end{tikzpicture}\end{center}

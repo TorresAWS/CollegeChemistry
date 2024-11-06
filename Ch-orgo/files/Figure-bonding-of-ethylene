@@ -1,0 +1,88 @@
+
+   \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-bonding-of-ethylene}
+\begin{center}
+\hspace{0cm}\begin{minipage}[b]{1.\linewidth}
+
+
+
+
+\begin{tikzpicture}[every shade/.append style={shading=ball}]
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (-2.5,0) .. controls (0,1) and     (.5,0.5) .. (.5,0)
+.. controls (.5,-.5) and (0,-1) .. (-2.5,0);
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (2.5,0) .. controls (.5,1) and     (-.5,0.5) .. (-.5,0)
+.. controls (-.5,-.5) and (.5,-1) .. (2.5,0);
+
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (-2.5,0) .. controls (-4,0.5) and     (-5,0.83) .. (-4.5,1.5)
+.. controls (-4,2.17) and (-3.5,1.31) .. (-2.5,0);
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (-2.5,0) .. controls (-4,-0.5)     and (-5,-0.83) .. (-4.5,-1.5)
+.. controls (-4,-2.17) and (-3.5,-1.31) .. (-2.5,0);
+
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (2.5,0) .. controls (4,0.5) and     (5,0.83) .. (4.5,1.5)
+.. controls (4,2.17) and (3.5,1.31) .. (2.5,0);
+
+\shade[shading=ball, ball color=gray,draw,opacity=.7] (2.5,0) .. controls (4,-0.5) and     (5,-0.83) .. (4.5,-1.5)
+.. controls (4,-2.17) and (3.5,-1.31) .. (2.5,0);
+
+\shade[shading=ball, ball color=blue,opacity=0.6] (4.5,1.5) circle (0.5);
+
+\shade[shading=ball, ball color=blue,opacity=0.6] (4.5,-1.5) circle (.5);
+
+
+
+\shade[shading=ball, ball color=blue,opacity=0.6] (-4.5,-1.5) circle (.5);
+
+\shade[shading=ball, ball color=blue,opacity=0.6] (-4.5,1.5) circle (.5);
+
+
+\shade[shading=ball, ball color=black,draw,opacity=.7] (-2.5,0) .. controls (-3.5,2.5)     and (-3,3) .. (-2.5,3)
+.. controls (0,2) .. (2.5,3)
+.. controls (3,3) and (3.5,2.5) .. (2.5,0)
+.. controls (1.5,1) .. (0,1)
+.. controls (-2,1) .. (-2.5,0);
+
+
+\shade[shading=ball, ball color=black,draw,opacity=.7] (-2.5,0) .. controls (-3.5,-2.5)     and (-3,-3) .. (-2.5,-3)
+.. controls (0,-2) .. (2.5,-3)
+.. controls (3,-3) and (3.5,-2.5) .. (2.5,-0)
+.. controls (1.5,-1) .. (0,-1)
+.. controls (-2,-1) .. (-2.5,-0);
+\shade[shading=ball, ball color=white,opacity=0.6] (-2.5,0) circle (.3) node[xshift=0.0em] {C} ;
+\shade[shading=ball, ball color=white,opacity=0.6] (2.5,0) circle (.3) node[xshift=0.0em] {C} ;
+
+
+\begin{scope}[shift={(0em,0em)}, scale=1.0, every node/.append style={transform shape}]
+    \draw (-3em,0em) -- (-3em,10em) node[shift={(0em,1em)}] {{$sp^2$}};
+    \draw (-7em,5em) -- (-7em,10em) node[shift={(0em,1em)}] {{$2p$}};
+    \draw (-10em,2em) -- (-10em,5em) node[shift={(0em,1em)}] {{$sp^2$}};
+    \draw (-10em,-2em) -- (-10em,-5em) node[shift={(0em,-1em)}] {{$sp^2$}};
+\end{scope}
+
+\begin{scope}[shift={(0em,0em)}, scale=1.0, every node/.append style={transform shape}]
+\draw [->,red,line width=2pt] (0em,0em) -- +(0em,2em);
+\draw [->,red,line width=2pt]  (1em,2em)--  (1em,0em);
+\end{scope}
+\begin{scope}[shift={(0em,5em)}, scale=1.0, every node/.append style={transform shape}]
+\draw [->,red,line width=2pt] (0em,0em) -- +(0em,2em);
+\draw [->,red,line width=2pt]  (1em,2em)--  (1em,0em);
+\end{scope}
+\begin{scope}[shift={(-12em,3em)}, scale=1.0, every node/.append style={transform shape}]
+\draw [->,red,line width=2pt] (0em,0em) -- +(0em,2em);
+\draw [->,red,line width=2pt]  (1em,2em)--  (1em,0em);
+\end{scope}
+\begin{scope}[shift={(-12em,-3em)}, scale=1.0, every node/.append style={transform shape}]
+\draw [->,red,line width=2pt] (0em,0em) -- +(0em,2em);
+\draw [->,red,line width=2pt]  (1em,2em)--  (1em,0em);
+\end{scope}
+\begin{scope}[shift={(-3em,5em)}, scale=1.0, every node/.append style={transform shape}]
+
+\node[text width=12cm, fontscale=.3,shift={(2em,-15em)}] at (0em,-1em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-bonding-of-ethylene} \end{bf}  Bonding of ethylene in which three $sp^2$ hybrid orbitals and a $\pi$ orbital populated with paired electrons. The orbitals of C (H) are represented with grey (blue) shading. };
+\end{scope}
+
+\end{tikzpicture}
+\end{minipage} 
+\end{center}

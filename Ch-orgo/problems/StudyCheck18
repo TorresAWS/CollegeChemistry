@@ -1,0 +1,10 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name or formulate the following organic compound:
+ \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{-[:45]-[:-45]-[:45]-[:-45]=[:0]-[:45]}  };
+\node at (0,-1.6)  {\textcolor{black}{(a)  }};
+\node at (5,0)  { \chemfig{-[:45]-[:-45](-[:-90])(-[:45]-[:-45]=[:0]-[:-45])}  };
+\node at (5,-1.6) {\textcolor{black}{(b)  }};
+\end{tikzpicture}\end{center}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) \emph{cis}-2-heptyne; (b) \emph{trans}-5-methyl-2-heptyne.\end{flushright} }
+
