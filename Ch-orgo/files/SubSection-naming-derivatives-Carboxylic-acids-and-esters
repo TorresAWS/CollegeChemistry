@@ -1,0 +1,13 @@
+Carboxylic acids are systematically named from the parent hydrocarbon by replacing the -e (methane) ending with an -oic ending and ending the name with the word acid (methanoic acid). For example, \ce{CH3COOH} is called ethanoic acid.
+
+Esters, which result from the combination of an alcohol and a carboxylic acid, are systematically named from the parent hydrocarbon by replacing the -ol (methane) ending of the alcohol part with an -yl ending and the -oic ending the acid with an -oate ending. For example, the ester ((\ce{CH3COOCH3})) resulting from the combination of methanol (\ce{CH3OH}) and methanoic acid (\ce{CH3COOH}) is called methylmethanoate. Esters have also common names. As (\ce{CH3COOH}) is also called acetic acid, the corresponding ester from the combination with methanol can be called methyl acetate.
+Examples of carboxylic acids and esters are:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]-[:-45](=[:-90]O)(-[:45]OH)   }   };
+\node at (0,-1.5)  {\textcolor{blue}{pentanoic acid  }};
+\node at (4,0) {  \chemfig{ -[:45]((-[:90])(-[:-45]-[:45]-[:-45](=[:-90]O)(-[:45]OH)))    }   };
+\node at (4,-1.5) {\textcolor{blue}{4-methylpentanoic acid  }};
+\node at (8,0) {  \chemfig{ -[:45]-[:-45]-[:45]-[:-45](=[:-90]O)(-[:45]O-[:-45]-[:45])  }   };
+\node at (8,-1.5) {\textcolor{blue}{ethyl pentanoate  }};
+\end{tikzpicture}\end{center}
+
