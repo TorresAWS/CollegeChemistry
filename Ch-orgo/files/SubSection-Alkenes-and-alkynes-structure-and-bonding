@@ -1,14 +1,11 @@
-Alkenes contain at least one double bond. 
-Let us analyze the structure of ethylene, the smallest of all alkenes with just two carbon atoms:
+Alkenes contain at least one double bond. Ethylene is the smallest of all alkenes with just two carbon atoms. Let us analyze its structure:
 \begin{center}
 \chemfig{C(=[:0]C(-[:45]H)(-[:-45]H))(-[:130]H)(-[:-130]H)}
 \end{center}
-Every carbon in the double bond has three $sp^2$ orbitals with an empty $p$ orbital. Between the two carbons that form a double bond, their $sp^2$ orbitals combine, giving a $\sigma$ bond, whereas the $p$ orbitals form a $\pi$ orbital. The other two $\sigma$ bonds are used to bond carbon with two hydrogens.
-Therefore, for every double-bond, we have a $\sigma$ and a $\pi$ orbitals. $\sigma$ bonds are mobile and as such, free rotation is possible, whereas $\pi$ are rigid, as the $p$ orbitals involved in the bond need to be lined up parallel to the three  $\sigma$ bonds (see Figure \ref{Fig:Figure-bonding-of-ethylene}).
-Alkyles contain at least one triple bond. 
-Let us analyze the structure of ethylene, also called acetylene, the smallest of all alkynes with just two carbon atoms:
+Every carbon center in the double bond has three $sp^2$ orbitals and two empty 2$p$ orbitals. The three $sp^2$ orbitals combine, giving three $\sigma$ bonds. Two of these are used to bond carbon atoms with two hydrogens, whereas the remaining bond is used in the C-C bond. One of the empty 2$p$ orbitals forms a $\pi$ orbital in the double bond. Therefore, for every double bond, we have a $\sigma$ and a $\pi$ orbitals. $\pi$ bonds are rigid, as the $p$ orbitals involved in the bond need to be lined up parallel to the three  $\sigma$ bonds (see Figure \ref{Fig:Figure-bonding-of-ethylene}). Differently, $\sigma$ bonds are mobile and as such, free rotation is possible.
+
+Alkyles contain at least one triple bond. Ethylene, also called acetylene, is the smallest of all alkynes with just two carbon atoms. Let us analyze its structure:
 \begin{center}
 \chemfig{C(~[:0]C(-[:0]H))(-[:180]H)}
 \end{center}
-The triple bond in acetylene can be understood as a $\pi$ bond with two $\pi$ bonds between the carbon atoms. Similar to double bonds, triple bonds are rigid.
-
+The triple bond in acetylene can be understood as a $\sigma$ bond with two $\pi$ bonds between the carbon atoms. Similar to double bonds, triple bonds are rigid.
