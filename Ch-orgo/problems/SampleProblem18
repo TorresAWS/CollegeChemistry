@@ -1,5 +1,5 @@
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Name or formulate the following organic compound:
+Name or formulate the following organic compound:s
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{-[:45]-[:-45]-[:45]-[:0]~[:0]-[:0]}  };
 \node at (0,-1.6)  {\textcolor{black}{(a)  }};
@@ -7,7 +7,7 @@ Name or formulate the following organic compound:
 \node at (5,-1.6) {\textcolor{black}{(b)  }};
 \end{tikzpicture}\end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) This alkyne has seven carbons, with a triple bond located on carbon number two. Hence its name would be:
+(a) This alkyne has seven carbons, and its triple bond is located on carbon number two. Hence its name would be:
 2-heptyne; 
 (b) This alkyne has six carbons, with a fluorine and the triple bond on carbon number one, and a methyl on carbon number four. Hence, its name is 1-fluoro-4-methyl-1-hexyne
 \\

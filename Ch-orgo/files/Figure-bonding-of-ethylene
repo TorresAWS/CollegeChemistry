@@ -80,7 +80,7 @@
 \end{scope}
 \begin{scope}[shift={(-3em,5em)}, scale=1.0, every node/.append style={transform shape}]
 
-\node[text width=12cm, fontscale=.3,shift={(2em,-15em)}] at (0em,-1em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-bonding-of-ethylene} \end{bf}  Bonding of ethylene in which three $sp^2$ hybrid orbitals and a $\pi$ orbital populated with paired electrons. The orbitals of C (H) are represented with grey (blue) shading. };
+\node[text width=12cm, fontscale=.3,shift={(2em,-15em)}] at (0em,-1em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-bonding-of-ethylene} \end{bf}  Bonding of ethylene in which three $sp^2$ hybrid orbitals and one 2$p$ orbital populated with paired electrons. The orbitals of C (H) are represented with grey (blue) shading. };
 \end{scope}
 
 \end{tikzpicture}
