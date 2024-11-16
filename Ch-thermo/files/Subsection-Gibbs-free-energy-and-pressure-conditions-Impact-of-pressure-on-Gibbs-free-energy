@@ -13,6 +13,6 @@ where:
 Pressure is another variable--similar to temperature--that can be used to favor chemical reactions. For example, the reaction between hydrogen and iodine exhibits a positive standard Gibbs free-energy ($\Delta H^{\circ}_R=+53kJ$; $\Delta S^{\circ}_R=+166.3J/K$). Under standard conditions, at 1 atm and 298K, the reaction will not likely happen
 \begin{center}\ce{H2_{(g)} + I2_{(s)} -> 2HI_{(g)}}\hfill $\Delta G^{\circ}_R=3.44$kJ/mol\end{center}
 Including the effects of pressure on the calculation of Gibbs free energy we have that at very low products pressures and relatively large reactant pressures ($P_{\ce{HI}}=1\times 10^{-5}$ atm and $P_{\ce{H2}}=1\times 10^{5}$atm) Gibbs free energy is negative:
-\begin{equation*}\begin{split}  \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p=   \Delta G^{\circ}_R + RT\ln \Big[ \frac{P_{\ce{HI}^2}}	{P_{\ce{H2}}} \Big]\hfill \text{ }\\
+\begin{equation*}\begin{split}  \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p=   \Delta G^{\circ}_R + RT\ln \Big[ \frac{P_{\ce{HI}}^2}	{P_{\ce{H2}}} \Big]\hfill \text{ }\\
  \hfill =  3.44\times 10^3 +8.314\cdot 298 \ln \Big[ \frac{ (1\times 10^{-5})^2}{1\times 10^{5}} \Big] =-8.2\times 10^4 \text{J/mol}\end{split}\end{equation*} 
 These calculations demonstrate that one can tune the pressure conditions to favor a reaction. In general large reactant pressures and low products pressures can aliviate positive Gibbs free-energy values. 
