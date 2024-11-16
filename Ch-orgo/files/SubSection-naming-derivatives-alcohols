@@ -1,4 +1,4 @@
-Alcohols are systematically named from the parent hydrocarbon by replacing the \emph{-e} (methane) ending with an \emph{-ol} ending (methanol). A number should indicate the location of the alcohol group. For example, \ce{CH3OH} is called methanol and \ce{CH3CH2CH2OH} is called 1-propanol.
+Alcohols are systematically named from the parent hydrocarbon by replacing the \emph{-e} (methane) ending with an \emph{-ol} ending (methanol). A number should indicate the location of the alcohol group for alcohols with more than one carbon. For example, \ce{CH3OH} is called methanol and \ce{CH3CH2CH2OH} is called 1-propanol.
 Examples of five-carbon alcohols are:
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
 \node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH   }   };

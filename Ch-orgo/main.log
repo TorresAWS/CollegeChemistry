@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 NOV 2024 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 NOV 2024 10:02
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -5776,7 +5775,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5651.
@@ -5798,7 +5797,7 @@ LaTeX Font Info:    ... okay on input line 5651.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5651.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5651
 .
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5651.
@@ -5813,11 +5812,12 @@ Package hyperref Info: Link coloring ON on input line 5651.
 LaTeX Info: Redefining \ref on input line 5651.
 LaTeX Info: Redefining \pageref on input line 5651.
 LaTeX Info: Redefining \nameref on input line 5651.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5651.
 
 *geometry* driver: auto-detecting
@@ -6084,7 +6084,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../Ch-orgo/figure1.png, id=121, 803.0pt x 501.875pt>
+<../Ch-orgo/figure1.png, id=165, 803.0pt x 501.875pt>
 File: ../Ch-orgo/figure1.png Graphic file (type png)
 <use ../Ch-orgo/figure1.png>
 Package pdftex.def Info: ../Ch-orgo/figure1.png  used on input line 1.
@@ -6110,7 +6110,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-o
 rgo/figure1.png>])
 (../Ch-orgo/files/SideFigure-Hydrocarbons
-<../Ch-orgo/figure3.png, id=137, 1284.8pt x 904.37875pt>
+<../Ch-orgo/figure3.png, id=178, 1284.8pt x 904.37875pt>
 File: ../Ch-orgo/figure3.png Graphic file (type png)
 <use ../Ch-orgo/figure3.png>
 Package pdftex.def Info: ../Ch-orgo/figure3.png  used on input line 2.
@@ -6131,7 +6131,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure2.png, id=138, 321.2pt x 200.75pt>
+<../Ch-orgo/figure2.png, id=179, 321.2pt x 200.75pt>
 File: ../Ch-orgo/figure2.png Graphic file (type png)
 <use ../Ch-orgo/figure2.png>
 Package pdftex.def Info: ../Ch-orgo/figure2.png  used on input line 7.
@@ -6144,7 +6144,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-<../Ch-orgo/figure4.png, id=139, 385.44pt x 289.08pt>
+<../Ch-orgo/figure4.png, id=180, 385.44pt x 289.08pt>
 File: ../Ch-orgo/figure4.png Graphic file (type png)
 <use ../Ch-orgo/figure4.png>
 Package pdftex.def Info: ../Ch-orgo/figure4.png  used on input line 12.
@@ -6169,16 +6169,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes
-
-LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
-put line 1.
-
-) (../Ch-orgo/problems/SampleProblem1
-
-LaTeX Warning: Reference `formula12.1' on page 2 undefined on input line 5.
-
-(../Ch-orgo/problems/StudyCheck1
+(../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes)
+(../Ch-orgo/problems/SampleProblem1 (../Ch-orgo/problems/StudyCheck1
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
 line 2.
 
@@ -6196,10 +6188,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-
-LaTeX Warning: Reference `tab:Table-Organic-Prefixes' on page 2 undefined on in
-put line 7.
-
 ) (../Ch-orgo/files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -6212,10 +6200,6 @@ Ch-orgo/figure4.png>]) (../Ch-orgo/files/Table-Alkane-names
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 23.
-
-
-LaTeX Warning: Reference `tab:Table-Alkane-names' on page 3 undefined on input 
-line 23.
 
 
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--24
@@ -6263,7 +6247,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]) (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=175, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=219, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 <use ../Ch-orgo/figure5.png>
 Package pdftex.def Info: ../Ch-orgo/figure5.png  used on input line 2.
@@ -6273,7 +6257,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=177, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=221, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 <use ../Ch-orgo/figure6.png>
 Package pdftex.def Info: ../Ch-orgo/figure6.png  used on input line 7.
@@ -6289,11 +6273,7 @@ LaTeX Warning: Marginpar on page 6 moved.
 ) (../Ch-orgo/files/SubSection-Cycloalkanes-Naming-cycloalkanes)
 (../Ch-orgo/problems/SampleProblem4 (../Ch-orgo/problems/StudyCheck4))
 (../Ch-orgo/files/SubSection-Cycloalkanes-Molecular-formulas-for-cycloalkanes)
-(../Ch-orgo/problems/SampleProblem5
-
-LaTeX Warning: Reference `formula12.2' on page 6 undefined on input line 5.
-
-(../Ch-orgo/problems/StudyCheck5)
+(../Ch-orgo/problems/SampleProblem5 (../Ch-orgo/problems/StudyCheck5)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
@@ -6319,10 +6299,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
-
-
-LaTeX Warning: Reference `tab:{Ch-orgo}3' on page 8 undefined on input line 20.
-
 
 
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 4--21
@@ -6589,10 +6565,6 @@ Underfull \hbox (badness 4060) in paragraph at lines 1--2
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 5.
 
-
-LaTeX Warning: Reference `tab:Table-Functional-groups' on page 15 undefined on 
-input line 5.
-
 )
 Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--7
 [][] 
@@ -6643,46 +6615,41 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]) (../Ch-orgo/files/Figure-Acetone
-<../Ch-orgo/figure8.png, id=254, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=298, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 <use ../Ch-orgo/figure8.png>
 Package pdftex.def Info: ../Ch-orgo/figure8.png  used on input line 113.
 (pdftex.def)             Requested size: 51.08774pt x 113.80934pt.
-<../Ch-orgo/figure17.png, id=255, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=299, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 <use ../Ch-orgo/figure17.png>
 Package pdftex.def Info: ../Ch-orgo/figure17.png  used on input line 113.
 (pdftex.def)             Requested size: 113.80911pt x 75.46039pt.
-<../Ch-orgo/figure16.png, id=256, 226.8475pt x 223.83624pt>
+<../Ch-orgo/figure16.png, id=300, 226.8475pt x 223.83624pt>
 File: ../Ch-orgo/figure16.png Graphic file (type png)
 <use ../Ch-orgo/figure16.png>
 Package pdftex.def Info: ../Ch-orgo/figure16.png  used on input line 113.
 (pdftex.def)             Requested size: 113.81114pt x 112.30037pt.
-<../Ch-orgo/figure14.png, id=257, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=301, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 <use ../Ch-orgo/figure14.png>
 Package pdftex.def Info: ../Ch-orgo/figure14.png  used on input line 113.
 (pdftex.def)             Requested size: 73.28125pt x 113.81041pt.
-<../Ch-orgo/figure18.png, id=258, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=302, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 <use ../Ch-orgo/figure18.png>
 Package pdftex.def Info: ../Ch-orgo/figure18.png  used on input line 113.
 (pdftex.def)             Requested size: 113.79942pt x 59.11658pt.
-<../Ch-orgo/figure19.png, id=259, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=303, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 <use ../Ch-orgo/figure19.png>
 Package pdftex.def Info: ../Ch-orgo/figure19.png  used on input line 113.
 (pdftex.def)             Requested size: 113.8047pt x 57.86679pt.
-<../Ch-orgo/figure10.png, id=260, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=304, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 <use ../Ch-orgo/figure10.png>
 Package pdftex.def Info: ../Ch-orgo/figure10.png  used on input line 113.
 (pdftex.def)             Requested size: 113.80992pt x 113.80992pt.
-
-
-LaTeX Warning: Reference `Fig:{Ch-orgo}1' on page 18 undefined on input line 11
-3.
-
 
 Overfull \hbox (194.5769pt too wide) in paragraph at lines 113--113
  [] 
@@ -6812,17 +6779,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
-
-LaTeX Warning: Reference `Fig:Figure-bonding-of-ethylene' on page 25 undefined 
-on input line 15.
-
-) (../Ch-orgo/files/Figure-bonding-of-ethylene
-
-LaTeX Warning: Reference `Fig:Figure-bonding-of-ethylene' on page 25 undefined 
-on input line 83.
-
-
+[24]) (../Ch-orgo/files/Figure-bonding-of-ethylene
 Overfull \hbox (4.43956pt too wide) in paragraph at lines 86--87
 [][] 
  []
@@ -6995,10 +6952,6 @@ lable
  line 17.
 Package mdframed Info: Not enough space on this page on input line 17.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 33 undefined on input line 1
-7.
-
 (../Ch-orgo/problems/problems/Problems-Organic-inorganic
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
@@ -7114,14 +7067,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--63
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [39
 
+]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 34.35478pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39
+[40
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 34.35478pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43] [44
 
 ])
 
@@ -7135,28 +7115,15 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 34.35478pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5654.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5654.
- (./main.aux)
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5654.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5654.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5AF965CC9644DC379EA212BFF93B77AB;1883.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  5AF965CC9644DC379EA212BFF93B77AB;1883.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -7167,17 +7134,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5654.
  ) 
 Here is how much of TeX's memory you used:
- 88042 strings out of 493014
- 1964592 string characters out of 6133351
- 2841503 words of memory out of 5000000
- 89053 multiletter control sequences out of 15000+600000
- 281214 words of font info for 365 fonts, out of 8000000 for 9000
+ 88067 strings out of 493014
+ 1964944 string characters out of 6133351
+ 2865651 words of memory out of 5000000
+ 89072 multiletter control sequences out of 15000+600000
+ 278186 words of font info for 361 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,22n,119p,10369b,2267s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
@@ -7207,10 +7171,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (40 pages, 10310926 bytes).
+Output written on main.pdf (44 pages, 10317872 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
- 255 named destinations out of 1000 (max. 500000)
- 79360 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 259 named destinations out of 1000 (max. 500000)
+ 78936 words of extra memory for PDF output out of 89155 (max. 10000000)
 
