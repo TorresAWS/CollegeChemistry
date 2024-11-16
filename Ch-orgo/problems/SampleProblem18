@@ -1,5 +1,5 @@
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Name or formulate the following organic compound:s
+Name or formulate the following organic compounds:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{-[:45]-[:-45]-[:45]-[:0]~[:0]-[:0]}  };
 \node at (0,-1.6)  {\textcolor{black}{(a)  }};
