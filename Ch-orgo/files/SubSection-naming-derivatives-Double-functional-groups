@@ -1,4 +1,4 @@
-You must use the \emph{di} prefix before the \emph{ol} ending if a chemical has two alcohol groups, while preserving the \emph{-ane} ending. For example, a pentane hydrocarbon with two alcohol groups on carbon 2 would be named 2,2-pentadiol. Same for other functional groups and even double or triple bonds:
+Yyou must use the \emph{di} prefix before the \emph{ol} ending if a chemical has two alcohol groups, while preserving the \emph{-ane} ending. For example, a pentane hydrocarbon with two alcohol groups on carbon 2 would be named 2,2-pentanediol. The same rule applies for other functional groups and even double or triple bonds:
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
 \node at (0,0)  {  \chemfig{  =[:0]-[:-45]=[:0]-[:45] }   };
 \node at (0,-1.5)  {\textcolor{blue}{cis-2,4-pentanediene  }};

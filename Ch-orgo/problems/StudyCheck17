@@ -6,5 +6,5 @@ Name or formulate the following aromatic compounds:
 \node at (5,0) {  \chemfig{**6(---(-I)-(-F)--)}   };
 \node at (5,-1.6) {\textcolor{black}{(b)  }};
 \end{tikzpicture}\end{center}
-\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) ethylbenzene; (b) \emph{o}-difluoroiodobenzene (1,2-difluoroiodobenzene).\end{flushright} }
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) ethylbenzene; (b) \emph{o}-fluoroiodobenzene (1,2-fluoroiodobenzene).\end{flushright} }
 
