@@ -1,0 +1,24 @@
+
+
+\vspace{-.0cm}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}\begin{tikzpicture}
+\filldraw[even odd rule,inner color=red,outer color=white, draw=none ] (0,0) circle   (1.0) node [shift={(5em,-4em)}] {\small Unpolarized atoms};
+\filldraw[fill=black ] (0,0) circle   (0.1) ;
+\filldraw[even odd rule,inner color=red,outer color=white, draw=none ] (3,0) circle   (1.0) ;
+\filldraw[fill=black ] (3,0) circle   (0.1) ;
+\draw[-{Triangle[width=18pt,length=8pt]}, line width=10pt](4.1,0) -- (5.1, 0);
+\begin{scope}[xshift=6.5cm]
+\filldraw[even odd rule,inner color=red,outer color=white, draw=none]   (0.00, 0.0) ellipse (0.9 and 1.0) node [shift={(7em,-4em)}] {\small Polarized atoms}   node [shift={(-3em,-0em)}] {\small $\delta -$} node [shift={(3em,-0em)}] {\small $\delta +$};
+\filldraw[fill=black ] (0.3,0) circle   (0.1) ;
+
+
+\filldraw[even odd rule,inner color=red,outer color=white, draw=none]   (4.00, 0.0) ellipse (0.9 and 1.0)   node [shift={(-3em,-0em)}] {\small $\delta +$} node [shift={(3em,-0em)}] {\small $\delta -$} ;
+\filldraw[fill=black ] (3.7,0) circle   (0.1) ;
+\draw[densely dashdotted] (1.4,0) -- (2.6,0);
+\draw [dotted,<-, shift={(0em,1.5em)}] (0,1) -- (1,1) node [shift={(-1em,1em)}] {$d^{\small Temp}$};
+\draw [dotted,->, shift={(0em,1.5em)}] (3,1) -- (4,1) node [shift={(-1em,1em)}] {$d^{\small Temp}$};
+\node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (-3em,-10em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Dispersion forces result from instantaneous dipole moments resulting from the polarization of the electron density of atoms and molecules. };
+\end{scope}
+\end{tikzpicture}\end{center}
+
