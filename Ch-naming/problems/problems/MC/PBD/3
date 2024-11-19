@@ -1,0 +1,10 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Set up the conversion factor to convert $400cm^2$ into $m^2$. Indicate the values of (a), (b) and (c)
+\[400\cancel{cm^2} \times \dfrac{\hlmath{(a)\hspace{35pt}} }{\hlmath{(b)\hspace{35pt}}}=\hlmath{(c)\hspace{35pt}}m^2\]
+\end{question}\vspace{.5cm}\begin{Form}\TextField[bordercolor=black,name=\the\value{numA},width=\linewidth,height=5cm,multiline=true]{}\end{Form}\begin{solution}
+Answer \themycounter\stepcounter{mycounter}-  
+a=$1\times 10^{-4}$
+b=$1$
+c=$0.04m^2$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+

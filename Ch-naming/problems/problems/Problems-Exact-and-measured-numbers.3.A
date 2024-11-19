@@ -1,0 +1,13 @@
+Identify the following numbers as measured or exact given the image below:
+\renewcommand\chapterlabel{Ch-measurements}\begin{center}
+\begin{tikzpicture}
+ 
+\node [draw] at (3,1) {\includegraphics[width=2cm]{../\chapterlabel/tiger.jpeg} };
+\end{tikzpicture}
+\end{center}
+\begin{inparaenum}[(a)]
+\item  	The weight of the tiger %measured
+ \item 	The number of ears of the tiger 	%exact
+\item  	The height of the tiger %measured
+ \item 	The number of whiskers 	%exact
+\end{inparaenum}

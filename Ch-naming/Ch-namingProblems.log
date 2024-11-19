@@ -1,10 +1,28 @@
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 11:25
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 11:18
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2023 10:34
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 **Ch-namingProblems.tex
 (./Ch-namingProblems.tex
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+**tmp.tex
+(./tmp.tex
+=======
+**Ch-measurementsProblemsWorksheet.tex
+(./Ch-measurementsProblemsWorksheet.tex
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -300,7 +318,15 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 No file Ch-namingProblems.bbl.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+No file tmp.bbl.
+=======
+No file Ch-measurementsProblemsWorksheet.bbl.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -509,6 +535,85 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (686.0pt) is ignored.
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
+=======
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count118
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen133
+)
+\c@padzeroesN=\count119
+\fc@tmpcatcode=\count120
+\@DT@modctr=\count121
+\@ordinalctr=\count122
+\@orgargctr=\count123
+\@strctr=\count124
+\@tmpstrctr=\count125
+\@DT@loopN=\count126
+\@DT@X=\count127
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count128
+\@month=\count129
+\@year=\count130
+\c@HOUR=\count131
+\c@HOURXII=\count132
+\c@MINUTE=\count133
+\c@TOHOUR=\count134
+\c@TOMINUTE=\count135
+\c@SECOND=\count136
+\currenthour=\count137
+\currentminute=\count138
+\currentsecond=\count139
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count140
+\dayofyear=\count141
+\dayofweek=\count142
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks22
+\dt@b=\toks23
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 (/usr/local/texlive/2016/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
@@ -591,7 +696,15 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (./Ch-namingProblems.pre)
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+(./tmp.pre)
+=======
+(./Ch-measurementsProblemsWorksheet.pre)
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 \ASYbox=\box56
 \ASYdimen=\dimen136
 \c@asy=\count143
@@ -601,7 +714,15 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 \openout4 = `Ch-namingProblems.pre'.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+\openout4 = `tmp.pre'.
+=======
+\openout4 = `Ch-measurementsProblemsWorksheet.pre'.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -1628,8 +1749,18 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 \@MXV@end=\dimen377
 \@MXV@textbox=\box109
 )
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+=======
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
@@ -1704,10 +1835,24 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 \openout8 = `Ch-namingProblems.idx'.
 
 
 Writing index file Ch-namingProblems.idx
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+\openout8 = `tmp.idx'.
+
+
+Writing index file tmp.idx
+=======
+\openout8 = `Ch-measurementsProblemsWorksheet.idx'.
+
+
+Writing index file Ch-measurementsProblemsWorksheet.idx
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -2729,7 +2874,15 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 \mylen=\skip278
 
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package array Warning: Column Y is already defined on input line 808.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+Package array Warning: Column Y is already defined on input line 808.
+=======
+Package array Warning: Column Y is already defined on input line 821.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
@@ -2832,7 +2985,15 @@ Package: carbohydrates 2015/12/01 v0.1 carbohydrate molecules with chemfig (CN)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . Defining command \tikzcheckmark with sig. 'O{} m' on line 1306.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \tikzcheckmark with sig. 'O{} m' on line 1305.
+=======
+. Defining command \tikzcheckmark with sig. 'O{} m' on line 1318.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/everypage/everypage.sty
@@ -2869,7 +3030,15 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . Defining command \newstep with sig. 'o' on line 1344.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \newstep with sig. 'o' on line 1343.
+=======
+. Defining command \newstep with sig. 'o' on line 1356.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 \c@stepsi=\count440
 \enitdp@steps=\count441
@@ -2878,7 +3047,15 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 . LaTeX info: "xparse/redefine-command"
 . 
 . Redefining command \sidenote with sig. 'm O{Pbardefault} O{Plightdefault}'
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . on line 1357.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. on line 1356.
+=======
+. on line 1369.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
@@ -2951,7 +3128,15 @@ File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
 
 
 Package mdframed Warning: Environment example already exits
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (mdframed)                 on input line 1422.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+(mdframed)                 on input line 1421.
+=======
+(mdframed)                 on input line 1434.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -3251,7 +3436,15 @@ ng of objects, relative to a reference object or in absolute terms
 \tempdimB=\skip298
 
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package array Warning: Column L is already defined on input line 1835.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+Package array Warning: Column L is already defined on input line 1834.
+=======
+Package array Warning: Column L is already defined on input line 1847.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros.sty
 Package: chemmacros 2016/05/04 v5.6a comprehensive support for typesetting chem
@@ -3889,14 +4082,30 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@tbargs=\toks79
 \TP@prevdepth=\dimen513
 )
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 1851.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1850.
+=======
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 1863.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
 LaTeX Font Warning: Font shape `T1/ppl//' undefined
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (Font)              using `T1/ppl/m/n' instead on input line 1851.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+(Font)              using `T1/ppl/m/n' instead on input line 1850.
+=======
+(Font)              using `T1/ppl/m/n' instead on input line 1863.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
@@ -3905,7 +4114,15 @@ File: ttlkeys.def 2016/03/15
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (Font)              size <24.88> substituted on input line 2025.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+(Font)              size <24.88> substituted on input line 2024.
+=======
+(Font)              size <24.88> substituted on input line 2036.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4031,7 +4248,15 @@ File: tasks.cfg 2016/05/04 v0.11a tasks instances
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (Font)              size <24.88> substituted on input line 2087.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+(Font)              size <24.88> substituted on input line 2086.
+=======
+(Font)              size <24.88> substituted on input line 2098.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exercise/exercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
@@ -4379,7 +4604,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . Defining environment 'choices' with sig. 'O{}D(){1}' on line 2214.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2213.
+=======
+. Defining environment 'choices' with sig. 'O{}D(){1}' on line 2225.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sttools/flushend.sty
@@ -4543,7 +4776,15 @@ code.tex  v1.01, 2012/04/24)
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \tikzfancyarrow with sig. 'O{2cm} O{FireBrick} O{top
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . color=OrangeRed!20, bottom color=Red} m' on line 2851.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. color=OrangeRed!20, bottom color=Red} m' on line 2850.
+=======
+. color=OrangeRed!20, bottom color=Red} m' on line 2862.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -4557,7 +4798,15 @@ brarydecorations.text.code.tex
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3502.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3501.
+=======
+. Defining command \ColourTransitionCircle with sig. 'O{}m' on line 3513.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 \pgf@layerbox@foreground=\box287
 \pgf@layerboxsaved@foreground=\box288
@@ -4655,97 +4904,380 @@ grams
 . Defining command \ENsetup with sig. 'om' on line 1658.
 .................................................
 )
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
 (/usr/local/texlive/2016/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \vnabla with sig. '' on line 25.
+=======
+(/usr/local/texlive/2016/texmf-dist/tex/latex/spath3/tikzlibrarycalligraphy.cod
+e.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/spath3/spath3.sty
+Package: spath3 2016/02/19 v1.1 Functions for manipulating PGF soft paths
+\l__spath_tmpa_dim=\dimen559
+\l__spath_tmpb_dim=\dimen560
+\l__spath_tmpa_int=\count601
+\l__spath_l_int=\count602
+\l__spath_rl_int=\count603
+\l__spath_nc_int=\count604
+\l__spath_minx_dim=\dimen561
+\l__spath_miny_dim=\dimen562
+\l__spath_maxx_dim=\dimen563
+\l__spath_maxy_dim=\dimen564
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MakeSPath with sig. 'mm' on line 1292.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \varE with sig. '' on line 29.
+=======
+. Defining command \MakeSPathList with sig. 'mm' on line 1303.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \ordersymbol with sig. '' on line 30.
+=======
+. Defining command \CloneSPath with sig. 'mm' on line 1307.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \quantity with sig. '' on line 35.
+=======
+. Defining command \SPathInfo with sig. 'mm' on line 1311.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
 . d|| ' on line 62.
+=======
+. Defining command \SPathPrepare with sig. 'm' on line 1315.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \qty with sig. '' on line 63.
+=======
+. Defining command \SPathListPrepare with sig. 'm' on line 1322.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \pqty with sig. ' l m ' on line 64.
+=======
+. Defining command \SPathInfoInto with sig. 'mmm' on line 1327.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \bqty with sig. ' l m ' on line 65.
+=======
+. Defining command \SPathShow with sig. 'm' on line 1331.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \Bqty with sig. ' l m ' on line 66.
+=======
+. Defining command \SPathTranslate with sig. 'mmm' on line 1335.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \vqty with sig. ' l m ' on line 67.
+=======
+. Defining command \SPathTranslateInto with sig. 'mmmm' on line 1340.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \pmqty with sig. 'm' on line 70.
+=======
+. Defining command \SPathScale with sig. 'mmm' on line 1344.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \Pmqty with sig. 'm' on line 71.
+=======
+. Defining command \SPathScaleInto with sig. 'mmmm' on line 1349.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \bmqty with sig. 'm' on line 72.
+=======
+. Defining command \SPathWeld with sig. 'mm' on line 1353.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \vmqty with sig. 'm' on line 73.
+=======
+. Defining command \SPathWeldInto with sig. 'mmm' on line 1358.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
+)
+\l__cal_tmpa_int=\count605
+\l__cal_tmpb_int=\count606
+\l__cal_path_component_int=\count607
+\l__cal_label_int=\count608
+\l__cal_tmpa_dim=\dimen565
+\l__cal_tmpb_dim=\dimen566
+\l__cal_tmpc_dim=\dimen567
+\l__cal_tmpd_dim=\dimen568
+\l__cal_tmpe_dim=\dimen569
+\l__cal_tmpf_dim=\dimen570
+\l__cal_tmpg_dim=\dimen571
+\l__cal_tmph_dim=\dimen572
+\l__cal_taper_width_dim=\dimen573
+\l__cal_line_width_dim=\dimen574
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \matrixquantity with sig. '' on line 74.
+=======
+. Defining command \pen with sig. 'O{}' on line 187.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \@matrixquantity with sig. ' s g o d() d|| ' on line 100.
+=======
+. Defining command \definepen with sig. 'O{}' on line 192.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
 . Defining command \mqty with sig. '' on line 101.
+=======
+. Defining command \calligraphy with sig. 'O{}' on line 197.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \matrixdeterminant with sig. 'm' on line 102.
+=======
+. Defining command \CalligraphyPathCreate with sig. 'mm' on line 287.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+)
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+(/usr/local/texlive/2016/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \mdet with sig. '' on line 103.
+=======
+. Defining command \vnabla with sig. '' on line 25.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \spmqty with sig. 'm' on line 105.
+=======
+. Defining command \varE with sig. '' on line 29.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \sPmqty with sig. 'm' on line 106.
+=======
+. Defining command \ordersymbol with sig. '' on line 30.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \sbmqty with sig. 'm' on line 107.
+=======
+. Defining command \quantity with sig. '' on line 35.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \svmqty with sig. 'm' on line 108.
+=======
+. Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
+. d|| ' on line 62.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \smallmatrixquantity with sig. ' s g o d() d|| ' on line
+. 133.
+=======
+. Defining command \qty with sig. '' on line 63.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \smqty with sig. '' on line 134.
+=======
+. Defining command \pqty with sig. ' l m ' on line 64.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \smallmatrixdeterminant with sig. 'm' on line 135.
+=======
+. Defining command \bqty with sig. ' l m ' on line 65.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \smdet with sig. '' on line 136.
+=======
+. Defining command \Bqty with sig. ' l m ' on line 66.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \argopen with sig. 's' on line 138.
+=======
+. Defining command \vqty with sig. ' l m ' on line 67.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \argclose with sig. 's' on line 139.
+=======
+. Defining command \pmqty with sig. 'm' on line 70.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \braces with sig. '' on line 141.
+=======
+. Defining command \Pmqty with sig. 'm' on line 71.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
+. line 156.
+=======
+. Defining command \bmqty with sig. 'm' on line 72.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
+. on line 174.
+=======
+. Defining command \vmqty with sig. 'm' on line 73.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \absolutevalue with sig. ' l m ' on line 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \abs with sig. '' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \norm with sig. ' l m ' on line 178.
+=======
+. Defining command \matrixquantity with sig. '' on line 74.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \order with sig. ' l m ' on line 179.
+=======
+. Defining command \@matrixquantity with sig. ' s g o d() d|| ' on line 100.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+. Defining command \evaluated with sig. ' s g d[| d(| ' on line 194.
+=======
+. Defining command \mqty with sig. '' on line 101.
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-Table/tmp.log
+=======
 . Defining command \matrixdeterminant with sig. 'm' on line 102.
 .................................................
 .................................................
@@ -4849,6 +5381,7 @@ Package: physics
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 . Defining command \eval with sig. '' on line 195.
 .................................................
 .................................................
@@ -5524,11 +6057,16 @@ Package: physics
 . 
 . Defining command \homework with sig. '' on line 764.
 .................................................
+<<<<<<< HEAD:Ch-Table/tmp.log
 )
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 . Defining command \DrawArrow with sig. 's O{} m m' on line 5353.
+=======
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5350.
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
@@ -5558,7 +6096,11 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 )
 \c@SavedRandom=\count612
 Package translations Info: No language package found. I am going to use `englis
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 h' as default language. on input line 5678.
+=======
+h' as default language. on input line 5675.
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -5785,6 +6327,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 No file Ch-namingProblems.aux.
 \openout1 = `Ch-namingProblems.aux'.
 
@@ -5807,6 +6350,30 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+=======
+(./tmp.aux)
+\openout1 = `tmp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -5816,6 +6383,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 3.
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box297
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package hyperref Info: Link coloring ON on input line 3.
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -5826,10 +6394,24 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 3.
+=======
+Package hyperref Info: Link coloring ON on input line 4.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+ (./tmp.out)
+(./tmp.out)
+\@outlinefile=\write14
+\openout14 = `tmp.out'.
+
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 4.
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 * driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
@@ -5892,6 +6474,381 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+=======
+=======
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
+. Activating mapping `default' on line 3.
+=======
+. Defining command \DrawArrow with sig. 's O{} m m' on line 5444.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcd/lcd.sty
+Package: lcd 2004/01/05 v0.3 drawing alphanumerical LCDisplays
+\LCDunitlength=\skip342
+\c@@LCDdotx=\count609
+\c@@LCDdoty=\count610
+\c@@LCDchrx=\count611
+\c@@LCDlines=\count612
+\c@@LCDlower=\count613
+)
+\templength=\skip343
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+\f@rst=\count614
+\l@st=\count615
+\cr@nd=\count616
+\c@rand=\count617
+
+Smallest possible random number: 1
+Largest possible random number: 2147483647
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+\c@SavedRandom=\count618
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 5734.
+.................................................
+. chemmacros info: "default-formula-method"
+. 
+. You haven't chosen a formula method so I'm assuming the default method
+. `chemformula'.
+.................................................
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
+Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions 
+(CN)
+\l__chemformula_tmpa_dim=\dimen575
+\l__chemformula_tmpb_dim=\dimen576
+\l__chemformula_tmpc_dim=\dimen577
+\l__chemformula_tmpa_int=\count619
+\l__chemformula_tmpb_int=\count620
+\l__chemformula_tmpc_int=\count621
+\l__chemformula_tmpa_box=\box290
+\l__chemformula_tmpb_box=\box291
+\l__chemformula_arrow_length_dim=\dimen578
+\l__chemformula_arrow_label_height_dim=\dimen579
+\l__chemformula_arrow_label_offset_dim=\dimen580
+\l__chemformula_arrow_minimum_length_dim=\dimen581
+\l__chemformula_arrow_shortage_dim=\dimen582
+\l__chemformula_arrow_offset_dim=\dimen583
+\l__chemformula_arrow_yshift_dim=\dimen584
+\l__chemformula_radical_radius_dim=\dimen585
+\l__chemformula_radical_hshift_dim=\dimen586
+\l__chemformula_radical_vshift_dim=\dimen587
+\l__chemformula_radical_space_dim=\dimen588
+\l__chemformula_arrow_head_dim=\dimen589
+\l__chemformula_name_dim=\dimen590
+\l__chemformula_adduct_space_dim=\dimen591
+\l__chemformula_charge_shift_dim=\dimen592
+\l__chemformula_subscript_shift_dim=\dimen593
+\l__chemformula_superscript_shift_dim=\dimen594
+\l__chemformula_subscript_dim=\dimen595
+\l__chemformula_superscript_dim=\dimen596
+\l__chemformula_bond_dim=\dimen597
+\l__chemformula_bond_space_dim=\dimen598
+\l__chemformula_elspec_pair_distance_dim=\dimen599
+\l__chemformula_elspec_pair_line_length_dim=\dimen600
+\l__chemformula_elspec_pair_width_dim=\dimen601
+\l__chemformula_kroegervink_positive_radius_dim=\dimen602
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen603
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen604
+\l__chemformula_kroegervink_positive_space_dim=\dimen605
+\l__chemformula_stoich_space_skip=\skip344
+\l__chemformula_math_space_skip=\skip345
+\l__chemformula_count_tokens_int=\count622
+\g__chemformula_lewis_int=\count623
+\l__chemformula_arrow_arg_i_box=\box292
+\l__chemformula_arrow_arg_ii_box=\box293
+\l__chemformula_superscript_box=\box294
+\l__chemformula_subscript_box=\box295
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \charrow with sig. 'mO{}O{}' on line 816.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemArrow with sig. 'mm' on line 889.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemArrow with sig. 'mm' on line 897.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewChemArrow with sig. 'mm' on line 904.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideChemArrow with sig. 'mm' on line 914.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ShowChemArrow with sig. 'm' on line 924.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ch with sig. 'O{}m' on line 1203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chcpd with sig. 'O{}m' on line 1225.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chname with sig. 'R(){}R(){}' on line 1302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemCompoundProperty with sig. 'mm' on line 1387.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewChemCompoundProperty with sig. 'mm' on line 1390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideChemCompoundProperty with sig. 'mm' on line 1393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemCompoundProperty with sig. 'mm' on line 1396.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RemoveChemCompoundProperty with sig. 'm' on line 1399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemBond with sig. 'mm' on line 1604.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideChemBond with sig. 'mm' on line 1607.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemBond with sig. 'mm' on line 1610.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewChemBond with sig. 'mm' on line 1613.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemBondAlias with sig. 'mm' on line 1616.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemBondAlias with sig. 'mm' on line 1619.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ShowChemBond with sig. 'm' on line 1622.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bond with sig. 'm' on line 1625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chstoich with sig. 'm' on line 2119.
+.................................................
+\l__chemformula_additions_symbol_space_skip=\skip346
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemAdditionSymbol with sig. 'mmm' on line 2603.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideChemAdditionSymbol with sig. 'mmm' on line 2612.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewChemAdditionSymbol with sig. 'mmm' on line 2621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2624.
+.................................................
+\l__chemformula_plus_space_skip=\skip347
+\l__chemformula_minus_space_skip=\skip348
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewChemSymbol with sig. 'mm' on line 2669.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideChemSymbol with sig. 'mm' on line 2675.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewChemSymbol with sig. 'mm' on line 2682.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareChemSymbol with sig. 'mm' on line 2685.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chlewis with sig. 'O{}mm' on line 3240.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setchemformula with sig. 'm' on line 3245.
+.................................................
+)))
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(./Ch-measurementsProblemsWorksheet.aux)
+\openout1 = `Ch-measurementsProblemsWorksheet.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 4.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+\AtBeginShipoutBox=\box296
+Package hyperref Info: Link coloring ON on input line 4.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+
+(./Ch-measurementsProblemsWorksheet.out)
+(./Ch-measurementsProblemsWorksheet.out)
+\@outlinefile=\write14
+\openout14 = `Ch-measurementsProblemsWorksheet.out'.
+
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 4.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(62.02701pt, 355.65944pt, 179.82143pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=355.65944pt
+* \textheight=702.78308pt
+* \oddsidemargin=-10.24298pt
+* \evensidemargin=107.55144pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 4.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count624
+\scratchdimen=\dimen606
+\scratchbox=\box297
+\nofMPsegments=\count625
+\nofMParguments=\count626
+\everyMPshowfont=\toks86
+\MPscratchCnt=\count627
+\MPscratchDim=\dimen607
+\MPnumerator=\count628
+\makeMPintoPDFobject=\count629
+\everyMPtoPDFconversion=\toks87
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -5908,7 +6865,8 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 3.
+. Activating mapping `default' on line 4.
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -6037,6 +6995,7 @@ vailable
  line 10.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -6050,8 +7009,217 @@ LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
+=======
+]
+*geometry* verbose mode - [ newgeometry ] result:
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+<<<<<<< HEAD:Ch-Table/tmp.log
+* modes: twoside 
+* h-part:(L,W,R)=(62.02701pt, 355.65944pt, 179.82143pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=355.65944pt
+* \textheight=702.78308pt
+* \oddsidemargin=-10.24298pt
+* \evensidemargin=107.55144pt
+* \topmargin=-43.1381pt
+=======
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD:Ch-Table/tmp.log
+LaTeX Info: Redefining \microtypecontext on input line 4.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count618
+\scratchdimen=\dimen590
+\scratchbox=\box298
+\nofMPsegments=\count619
+\nofMParguments=\count620
+\everyMPshowfont=\toks86
+\MPscratchCnt=\count621
+\MPscratchDim=\dimen591
+\MPnumerator=\count622
+\makeMPintoPDFobject=\count623
+\everyMPtoPDFconversion=\toks87
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `default' on line 4.
+.................................................
+
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
+
+\c@lstlisting=\count624
+\c@mv@tabular=\count625
+\c@mv@boldtabular=\count626
+Package scrlayer Info: Setting magic \footheight to \baselineskip while
+(scrlayer)             \begin{document} on input line 4.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
+\csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{
+\ignorespaces #2}}\begingroup \@parboxrestore \if@minipage \@setminipage \fi \@
+tufte@caption@font \@tufte@caption@justification \noindent \csname fnum@#1\endc
+sname : \ignorespaces #3\par \endgroup .
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: float package is loaded.
+Package caption Info: floatflt package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 4.
+
+*************************************************
+* chemmacros warning: "no-greek"
+* 
+* You haven't loaded any package for upright Greek letters or no unique choice
+* was possible. Either load one of packages specified in the manual or select
+* a chemgreek mapping manually.
+*************************************************
+.................................................
+. exsheets info: "loading-configurations"
+. 
+. Loading custom configurations file `exsheets_configurations.cgf'.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/exsheets/exsheets_configurations.
+cfg
+File: exsheets_configurations.cfg 
+)
+
+Package lcg Warning: Seed should be > 0 -- Seed will be initialized with the ac
+tual time on input line 5.
+
+\c@FileRandom=\count627
+=======
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=762.84642pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-85.81725pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+
+\FSize=\skip349
+\Baselineskip=\skip350
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 17.
+
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -6116,6 +7284,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--111
  []
 
 ) [3]
+=======
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.6> on input line 17.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 17.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 17.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+<<<<<<< HEAD:Ch-Table/tmp.log
+ line 24.
+
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.1.A)
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.1.B)
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.2.A)
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.2.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.3.A)
+(../Ch-Table/problems/problems/Problems-Atomic-number-mass-number.3.B)
+(../Ch-Table/problems/problems/Problems-Atomic-symbols-labels.1.A)
+(../Ch-Table/problems/problems/Problems-Atomic-symbols-labels.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+(../Ch-Table/problems/problems/Problems-Atomic-symbols-labels.2.A)
+(../Ch-Table/problems/problems/Problems-Atomic-symbols-labels.2.B)
+(../Ch-Table/problems/problems/Problems-Early-experiments.1.A)
+(../Ch-Table/problems/problems/Problems-Early-experiments.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Table/problems/problems/Problems-Element-class.1.A)
+(../Ch-Table/problems/problems/Problems-Element-class.1.B)
+(../Ch-Table/problems/problems/Problems-Element-class.2.A)
+(../Ch-Table/problems/problems/Problems-Element-class.2.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+(../Ch-Table/problems/problems/Problems-Element-class.3.A)
+(../Ch-Table/problems/problems/Problems-Element-class.3.B)
+(../Ch-Table/problems/problems/Problems-Empirical-formulas.1.A)
+(../Ch-Table/problems/problems/Problems-Empirical-formulas.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(../Ch-Table/problems/problems/Problems-Empirical-formulas.2.A)
+(../Ch-Table/problems/problems/Problems-Empirical-formulas.2.B)
+(../Ch-Table/problems/problems/Problems-Isotopic-abundace.1.A)
+(../Ch-Table/problems/problems/Problems-Isotopic-abundace.1.B)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+(../Ch-Table/problems/problems/Problems-Molar-mass.1.A)
+(../Ch-Table/problems/problems/Problems-Molar-mass.1.B)
+(../Ch-Table/problems/problems/Problems-Molar-mass.2.A)
+(../Ch-Table/problems/problems/Problems-Molar-mass.2.B)
+=======
+ line 62.
+
+(../Ch-measurements/problems/problems/Problems-Units-and-measurements.2.B.answe
+r)
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6127,13 +7428,22 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
 (./Ch-namingProblems.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+=======
+[2
 
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 Package rerunfilecheck Warning: File `Ch-namingProblems.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
@@ -6141,6 +7451,38 @@ Package rerunfilecheck Warning: File `Ch-namingProblems.out' has changed.
 Package rerunfilecheck Info: Checksums for `Ch-namingProblems.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+=======
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<<<<<<< HEAD:Ch-Table/tmp.log
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+- LAST -
+Extra skip:762.84642pt
+Left:762.84642pt/0.0pt
+Right:0.0pt/0.0pt
+Output:381.4232pt
+ [4]
+(./tmp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package rerunfilecheck Info: File `tmp.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+=======
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+ (./Ch-measurementsProblemsWorksheet.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `Ch-measurementsProblemsWorksheet.out' has no
+t changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6148,12 +7490,41 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+=======
+<<<<<<< HEAD:Ch-Table/tmp.log
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 83169 strings out of 493014
+ 1862128 string characters out of 6133351
+ 2639858 words of memory out of 5000000
+ 84849 multiletter control sequences out of 15000+600000
+ 72466 words of font info for 110 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,13n,104p,10418b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2016/texmf-dist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on tmp.pdf (4 pages, 82632 bytes).
+PDF statistics:
+ 535 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 27703 words of extra memory for PDF output out of 29859 (max. 10000000)
+=======
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log
  ) 
 Here is how much of TeX's memory you used:
  83324 strings out of 493014
@@ -6172,9 +7543,20 @@ dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /times/utmr8a.pfb>
 Output written on Ch-namingProblems.pdf (3 pages, 63394 bytes).
 PDF statistics:
+<<<<<<< HEAD:Ch-naming/Ch-namingProblems.log
  476 PDF objects out of 1000 (max. 8388607)
  392 compressed objects within 4 object streams
  265 named destinations out of 1000 (max. 500000)
  25005 words of extra memory for PDF output out of 29859 (max. 10000000)
 
 %%%TAG:CHEM201
+=======
+ 176 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 26575 words of extra memory for PDF output out of 29859 (max. 10000000)
+>>>>>>> dc911ee8c04e3cc5f6a8cbf6d1694f7455f71702:Ch-measurements/Ch-measurementsProblemsWorksheet.log
+
+%%%TAG:CHEM201
+%%%TAG:CHEM201
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/Ch-measurementsProblemsWorksheet.log

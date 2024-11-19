@@ -79,3 +79,7 @@
 % End of file
 \endinput
 %%%TAG:CHEM201
+<<<<<<< HEAD:Ch-naming/tufte-book.cls
+=======
+%%%TAG:CHEM201
+>>>>>>> 1cd82d8e01f2360d4e160e7e6256298fbbeb23b9:Ch-measurements/tufte-book.cls
