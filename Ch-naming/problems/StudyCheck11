@@ -4,7 +4,7 @@ Name or formulate the following common chemicals:
 \item ammonia
 \item	methane
 \end{inparaenum}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: 
 \begin{inparaenum}[(a)]
 \item \ce{NH3} (nitrogen trihydride)

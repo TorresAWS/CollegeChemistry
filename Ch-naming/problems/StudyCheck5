@@ -4,7 +4,7 @@ Name of give the name of the following covalent chemicals:
 \item \ce{SCl2}
 \item	diboron thrioxide
 \end{inparaenum}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: 
 \begin{inparaenum}[(a)]
 \item sulfur dichloride

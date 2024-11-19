@@ -4,7 +4,7 @@ Calculate the redox number of the following acids:
 \item \ce{H2MnO4}
 \item	\ce{H2Cr2O7}
 \end{inparaenum}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: 
 \begin{inparaenum}[(a)]
 \item $+6$
