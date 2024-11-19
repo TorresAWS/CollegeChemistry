@@ -1,5 +1,0 @@
-The enthalpy of vaporization of a substance gives you the amount of energy needed to vaporize an amount of substance. Similarly, the enthalpy of fusion tells you about the energy involved in the fusion process. Each phase--gas, liquid and vapor--has different specific heat. Using water as an example, imagine we need to calculate the energy involved in the heating of $m$=18grams ($n$=1 mole) of water from 20$^{\circ}$C to a 150$^{\circ}$C. This energy results from three contributions: the energy needed to warm up liquid from 20$^{\circ}$C to a 100$^{\circ}$C (we can call this $\Delta T_1$), the energy to boil 1 mole of water, and the energy to warm up 1 mole of gas water from 100$^{\circ}$C to a 150$^{\circ}$C (we can call this $\Delta T_2$). The final calculation will be:
-\begin{equation*}
-Q=m\cdot c_e^{\ce{H2O_{(\ell)}}}\cdot \Delta T_1 + n\cdot \Delta H_{vap}^{\ce{H2O}} + m\cdot c_e^{\ce{H2O_{(g)}}}\cdot \Delta T_2
-\end{equation*}
-

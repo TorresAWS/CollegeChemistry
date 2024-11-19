@@ -1,8 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Predict the product of the following reactions:
-\begin{center}\begin{inparaenum}[(a)]
-    \item  \chemfig{ -[:45]-[:-45]-[:45]OH }+ \chemfig{  -[:45]-[:-45]()(-[:45]OH)(=[:-90]O)}\ce{->[][]}\hspace{2cm}
-    \item  \chemfig{ -[:-45]-[:45]OH }\ce{->[KMnO_4_{(aq)}][]} 
-\end{inparaenum}\end{center}
-\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (a)\chemfig{  -[:45]-[:-45]()(-[:45]O-[:-45]-[:45]-[:-45])(=[:-90]O)} ; (b) \chemfig{  -[:-45]()(-[:45]OH)(=[:-90]O)}\end{flushright} }
-
