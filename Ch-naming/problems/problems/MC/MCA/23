@@ -1,0 +1,14 @@
+\item\PTs{1}
+A metallic nugget with a mass of 19 g \FPeval{\mass}{19} is added to 150.0 mL \FPset{\vol1}{150} of water.  The water level rises to a volume of 151.0 mL\FPset{\vol2}{151}. What is the density of the metal in g/mL?\FPeval{\density}{ round(  \mass/ (\vol2 -\vol1), 1) }
+ %A metallic nugget with a mass of 50 g is added to 150.0 mL of water.  The water level rises to a volume of 151.0 mL.  What is the density of the metal in g/mL?
+ %A metallic nugget with a mass of 5 g and density of 5g/mL is added to 150.0 mL of water.  What is the final water level in mL?
+%A metallic nugget with a mass of 19 g is added to container with water. Given than the density of the metal in 19g/mL, calculate the raise on the water level in mL?
+\begin{answers}{4}\rowsep{1bp}
+\bChoices[random=true]
+\Ans1  19\eAns 
+\Ans0  50\eAns 
+\Ans0  151\eAns 
+\Ans0  1\eAns 
+\Ans0  None of the others\eAns
+ \eChoices 
+\end{answers}

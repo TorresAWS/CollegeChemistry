@@ -1,0 +1,263 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-biochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\definesubmol{x}{C(-[4]H)(-[0]OH)}
+\definesubmol{y}{C(-[0]H)(-[4]HO)}
+\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
+\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
+\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+ \setcounter{chapter}{10}\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{11} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+
+%\begin{marginfigure}
+%      \includegraphics{../{\chapterlabel}/figure1}
+%   \end{marginfigure}
+
+ \import{../\chapterlabel/files/}{ChapterIntro}
+
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+% \import{../\chapterlabel/files/}{SectionGoal-Biomolecules}
+%  \import{../\chapterlabel/files/}{SectionGoal-Simple-Carbohydrates}
+% \import{../\chapterlabel/files/}{SectionGoal-Disaccharides-and-polysaccharides}
+% \import{../\chapterlabel/files/}{SectionGoal-Nucleic-acids}
+% \import{../\chapterlabel/files/}{SectionGoal-Proteins}
+%\end{enumerate}
+%\end{mytcbox}
+%\end{marginfigure}%LEARNING GOALS BOX
+%\begin{marginfigure}[0.5cm]
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+%\docenvdef{Discussion:}  \import{../\chapterlabel/files/}{ChapterDiscussion}
+%
+% \end{marginfigure}
+
+
+\section{\color{blue!30!black}{Biomolecules}}
+\import{../\chapterlabel/files/}{SectionIntro-Biomolecules}
+\import{../\chapterlabel/files/}{Figure-Biomolecules}
+\sloppy\begin{description}
+\item[\docfilehook{Different types of biomolecules}{}] \import{../\chapterlabel/files/}{SubSection--Biomolecules-Different-types-of-biomolecules}
+\import{../\chapterlabel/problems/}{SampleProblem13}
+\end{description}
+
+
+
+
+\section{\color{blue!30!black}{Simple Carbohydrates}}
+\import{../\chapterlabel/files/}{SectionIntro-Simple-Carbohydrates}
+\sloppy\begin{description}
+\item[\docfilehook{Carbs are made of C, H and O}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-H-and-O}
+\item[\docfilehook{Monosaccharides: aldo or keto?}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Monosaccharides-aldo-or-keto}
+  \import{../\chapterlabel/problems/}{SampleProblem1}
+\item[\docfilehook{Some important monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Some-important-monosaccharides}
+\item[\docfilehook{$d-$ and $l-$ monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-d-and-l-monosaccharides}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\item[\docfilehook{Skeletal structure of  monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Skeletal-structure-of--monosaccharides}
+\item[\docfilehook{Haworth cyclic structure of  monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Haworth-cyclic-structure-of--monosaccharides}
+\item[\docfilehook{$\alpha$ or $\beta$ form of Cyclic monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-alpha-or-beta-form-of-Cyclic-monosaccharides}
+\import{../\chapterlabel/problems/}{SampleProblem3}
+\item[\docfilehook{Obtaining Haworth cyclic structure of monosaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Simple-Carbohydrates-Obtaining-Haworth-cyclic-structure-of-monosaccharides}
+\end{description}
+
+
+\section{\color{blue!30!black}{Disaccharides and polysaccharides}}
+  \import{../\chapterlabel/files/}{SectionIntro-Disaccharides-and-polysaccharides}
+
+
+
+\sloppy\begin{description}
+
+\item[\docfilehook{Disaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Disaccharides-and-polysaccharides-Disaccharides}
+
+
+\item[\docfilehook{$\alpha$- and $\beta$-Disaccharides}{}] \import{../\chapterlabel/files/}{SubSection--Disaccharides-and-polysaccharides-alpha-and-beta-Disaccharides}
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem4}
+
+
+
+\item[\docfilehook{Numbering saccharides}{}] \import{../\chapterlabel/files/}{SubSection--Disaccharides-and-polysaccharides-Numbering-saccharides}
+
+
+
+
+\item[\docfilehook{Glycosidic bond}{}] \import{../\chapterlabel/files/}{SubSection--Disaccharides-and-polysaccharides-Glycosidic-bond}
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem5}
+
+
+
+\item[\docfilehook{Polysaccharides: starch and cellulose}{ }] 
+\import{../\chapterlabel/files/}{SubSection--Disaccharides-and-polysaccharides-Polysaccharides-starch-and-cellulose}
+
+
+
+
+
+\end{description}
+
+\section{\color{blue!30!black}{Lipids}}
+\import{../\chapterlabel/files/}{SectionIntro-Lipids}
+
+
+
+  \import{../\chapterlabel/files/}{Figure-Fatty-acids-diagram}
+
+
+\sloppy\begin{description}
+
+\item[\docfilehook{Structure of fatty acids}{}] \import{../\chapterlabel/files/}{SubSection--Lipids-Structure-of-fatty-acids}
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem6}
+
+
+
+
+\item[\docfilehook{Mono and polyunsaturated fatty acids}{}] \import{../\chapterlabel/files/}{SubSection--Lipids-Mono-and-polyunsaturated-fatty-acids}
+
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem7}
+
+
+
+\item[\docfilehook{Melting point of fats}{}]\import{../\chapterlabel/files/}{SubSection--Lipids-Melting-point-of-fats}
+ 
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem8}
+  \import{../\chapterlabel/files/}{Figure-Waxes}
+
+\item[\docfilehook{Waxes, animal fat and soaps}{}] 
+\import{../\chapterlabel/files/}{SubSection--Lipids-Waxes-animal-fat-and-soaps}
+
+
+
+
+
+
+\end{description}
+
+
+
+
+
+\section{\color{blue!30!black}{Proteins}}
+\import{../\chapterlabel/files/}{SectionIntro-Proteins}
+
+\sloppy\begin{description}
+
+
+\item[\docfilehook{Amino acids}{}] \import{../\chapterlabel/files/}{SubSection--Proteins-Amino-acids}
+
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem9}
+
+
+\item[\docfilehook{Amino acids as zwitterions }{}] \import{../\chapterlabel/files/}{SubSection--Proteins-Amino-acids-as-zwitterions}
+
+
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem10}
+
+
+
+\item[\docfilehook{Hydrophilic and hydrophobic Amino acids}{}] \import{../\chapterlabel/files/}{SubSection--Proteins-Hydrophilic-and-hydrophobic-Amino-acids}
+
+
+
+
+
+
+
+
+\item[\docfilehook{Acid and basic Amino acids}{}] \import{../\chapterlabel/files/}{SubSection--Proteins-Acid-and-basic-Amino-acids}
+
+
+
+  \import{../\chapterlabel/problems/}{SampleProblem11}
+
+
+\item[\docfilehook{Isoelectronic point of an Amino acid}{}] 
+\import{../\chapterlabel/files/}{SubSection--Proteins-Isoelectronic-point-of-an-Amino-acid}
+
+
+
+\end{description}
+
+
+\section{\color{blue!30!black}{Nucleic acids}}\import{../\chapterlabel/files/}{SectionIntro-Nucleic-acids}
+
+\sloppy\begin{description}
+
+\item[\docfilehook{Sugars in nucleic acids}{}] \import{../\chapterlabel/files/}{SubSection--Nucleic-acids-Sugars-in-nucleic-acids}
+
+
+
+\item[\docfilehook{Bases in DNA and RNA}{}] 
+\import{../\chapterlabel/files/}{SubSection--Nucleic-acids-Bases-in-DNA-and-RNA}
+
+
+
+
+\item[\docfilehook{DNA and RNA contain phosphate}{}] 
+\import{../\chapterlabel/files/}{SubSection--Nucleic-acids-DNA-and-RNA-contain-phosphate}
+
+
+
+\item[\docfilehook{Nucleoside: a base connected to sugar}{}] 
+\import{../\chapterlabel/files/}{SubSection--Nucleic-acids-Nucleoside-a-base-connected-to-sugar}
+
+
+
+\item[\docfilehook{Nucleotide: a nucleoside connected to phosphate}{}] 
+\import{../\chapterlabel/files/}{SubSection--Nucleic-acids-Nucleotide-a-nucleoside-connected-to-phosphate}
+
+  \import{../\chapterlabel/problems/}{SampleProblem12}
+
+\end{description}
+
+
+\checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
+

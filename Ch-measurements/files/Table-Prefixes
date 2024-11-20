@@ -1,0 +1,8 @@
+\stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:Table-Prefixes}
+\begin{fullwidth}
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{0.7\textwidth}{!}{
+\hspace{0cm}
+\import{../\chapterlabel/files/}{Table-Prefixes-Tabular}
+}\end{minipage}
+\end{fullwidth}

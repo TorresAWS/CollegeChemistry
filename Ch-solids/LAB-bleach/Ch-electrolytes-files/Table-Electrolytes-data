@@ -1,0 +1,18 @@
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Electrolytes} Different types of electrolytess } \\
+\midrule
+\rowcolor{gray!45}Electrolyte Type        & Dissociation                     & Particles in solution& Examples \\
+%\midrule
+\hline
+Strong     & Fully                                                              & Mostly ions & Ionic Compounds and most acids and bases (hydroxides): \ce{NaCl}, NaOH,  \\
+       &                                                                &   & HCl, \ce{MgCl2}, \ce{H2SO4, etc} \\
+\hline
+Weak      & Partially                               & Ions \& molecules & \ce{NH3}, \ce{CH3COOH} (acetic acid), \ce{HF}, \ce{H2O}   \\
+\hline
+Nonelectrolytes    & No                                         & molecules &Most covalent compounds: \ce{CH3OH} (methanol),   \\
+    &                                           &   &  \ce{CH3CH2OH} (ethanol), \ce{C12H22O11} (sucrose), \ce{CH4NO2} (urea)  \\
+\bottomrule
+\end{tabular}
