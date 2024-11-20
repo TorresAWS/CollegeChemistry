@@ -1,0 +1,81 @@
+Calculate the formula for the following unit cell (the unit formula):
+\begin{center}
+\begin{tikzpicture}[scale = 0.8]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+%\draw [dashed] (2,2,2) -- (A);\draw [dashed] (2,2,2) -- (B);\draw [dashed] (2,2,2) -- (C);\draw [dashed] (2,2,2) -- (D);\draw [dashed] (2,2,2) -- (E);\draw [dashed] (2,2,2) -- (F);\draw [dashed] (2,2,2) -- (G);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+%Holes 
+\coordinate (A1) at (0,4,2);
+\coordinate (A2) at (4,4,2);
+\coordinate (A3) at (4,0,2);
+\coordinate (A4) at (0,0,2);
+\coordinate (A5) at (2,4,0);
+\coordinate (A6) at  (2,4,4);
+\coordinate (A7) at (2,0,4);
+\coordinate (A8) at (2,0,0);
+\coordinate (A9) at (0,2,4);
+\coordinate (A10) at (4,2,4);
+\coordinate (A11) at (4,2,0);
+\coordinate (A12) at (0,2,0);
+\coordinate (A13) at (2,2,2);
+ \def\COLORA{green};
+  \def\COLORB{yellow};
+%place non-atom cube corners
+\shadedraw [ball color= \COLORA] (A) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (C) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (F) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (G) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (B) circle (0.45cm);
+\shadedraw [ball color=\COLORA] (D) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (E) circle (0.45cm);
+\shadedraw [ball color= \COLORA] (H) circle (0.45cm);
+
+
+
+\shadedraw [ball color= \COLORB] (A13) circle (0.15cm);
+
+
+\shadedraw [ball color= \COLORB, yshift=-2cm] (7,4,5) circle (0.15cm) node [right, xshift=1cm] {Cs};
+\shadedraw [ball color= \COLORA, yshift=-2cm] (7,5,5) circle (0.45cm) node [right, xshift=1cm] {Cl};
+
+%draw the center of each face
+\end{tikzpicture}\end{center}
+

@@ -1,0 +1,146 @@
+%
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions based on the image below:
+\begin{inparaenum}[(a)]
+\item Identify each meniscus as concave or convex %a: concave; b: convex
+\item Which liquid has higher surface tension %b
+\item Which liquid is more wettable (wets more) %a
+\end{inparaenum}
+\begin{center}\resizebox{.1\textwidth}{!}{\begin{tikzpicture}[pics/burette/.style={code={
+     \tikzset{burette/.cd,#1}
+     \def\pv##1{\pgfkeysvalueof{/tikz/burette/##1}}
+     \pgfmathtruncatemacro{\imin}{\pv{min}+1}
+     \pgfmathtruncatemacro{\imax}{\pv{max}}
+     \draw[fill=blue!60,overlay] 
+     (-\pv{width}/20,\pv{min}/10-\pv{min}/20-\pv{max}/20) -- 
+     (-\pv{width}/20,\pv{fill}/10-\pv{min}/20-\pv{max}/20)
+        to[/tikz/burette/top] coordinate[midway] (aux)
+      (\pv{width}/20,\pv{fill}/10-\pv{min}/20-\pv{max}/20) -- 
+      (\pv{width}/20,\pv{min}/10-\pv{min}/20-\pv{max}/20);
+     \path[local bounding box=fill] 
+      (aux)  (0,\pv{min}/10-\pv{min}/20-\pv{max}/20) 
+     (0,\pv{fill}/10-\pv{min}/20-\pv{max}/20);
+     \draw[densely dashed,thin]  
+     (-\pv{width}/20,0|-fill.north) -- (\pv{width}/20,0|-fill.north);
+     \draw foreach \XX [evaluate=\itest using {int(int(\XX/5)==int(\XX)/5?1:0)},
+        evaluate=\jtest using {int(int(\XX/10)==int(\XX)/10?1:0)}] in {\imin,...,\imax}
+      {(-\pv{width}/20,\XX/10-\pv{min}/20-\pv{max}/20) -- ++ (0.1+0.1*\itest,0)
+        \ifnum\jtest=1 node[right]{$\XX$}\fi};
+     \draw (-\pv{width}/20,\pv{max}/10+0.2-\pv{min}/20-\pv{max}/20) 
+        -- (-\pv{width}/20,\pv{min}/10-\pv{min}/20-\pv{max}/20)
+      (\pv{width}/20,\pv{max}/10+0.2-\pv{min}/20-\pv{max}/20) 
+        -- (\pv{width}/20,\pv{min}/10-\pv{min}/20-\pv{max}/20);   
+    }},burette/.cd,min/.initial=0,max/.initial=30,width/.initial=10,
+    fill/.initial=10,top/.style={}]
+ \path pic[yscale=2,semithick]{burette={min=7,max=21,fill=17,top/.style={bend right=20}}}
+ (1.5,0) pic[yscale=2,semithick]{burette={min=7,max=21,fill=17,top/.style={bend left=20}}};
+ \node[shift={(0em,-5em)}] (0em,0em) {A};
+  \node[shift={(4em,-5em)}] (0em,0em) {B};
+
+\end{tikzpicture}}\end{center}
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  a: concave; b: convex
+\item  b
+\item  a
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following molecules present higher viscosity?
+ \begin{center}\chemname{\chemfig{CH_3-C(-[2]CH_3)(-[6]Cl)-CH_3}}{A}\hspace{0.5cm}
+ \chemname{\chemfig{CH_3-C(-[2]CH_3)(-[6]OH)-CH_3}}{B} \end{center}
+\end{question}
+\begin{solution}
+B
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A liquid has a  enthalpy of vaporization of 30 $kJ/mol$ and a boiling point of 122$^{\circ}$C at 1.00 atm. Calculate its vapor pressure at 200$^{\circ}$C.
+\end{question}
+\begin{solution}
+4.51atm
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the  enthalpy of vaporization of a liquid that has a vapor pressure of 500 torr at 100$^{\circ}$C and a boiling point of 90$^{\circ}$C at 460 torr?
+\end{question}
+\begin{solution}
+9.3 kJ/mol
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The vapor pressure of a chemical at 32$^{\circ}$C is 0.86atm. Given that its heat of vaporization is 26kJ/mol, calculate the vapor pressure at 50$^{\circ}$C.
+\end{question}
+\begin{solution}
+1.52atm
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the heat of vaporization of a chemical that doubles its vapor pressure when the temperature increases from 10$^{\circ}$C to 40$^{\circ}$C.
+\end{question}
+\begin{solution}
+170kJ/mol
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+At what temperature in K will the vapor pressure of a chemical with 200kJ/mol heat of vaporization be three times the value at 298K?
+\end{question}
+\begin{solution}
+303K
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Given that the vapor pressure at 33$^{\circ}$C is 63mmHg for a chemical with molar heat of vaporization of 44kJ/mol, calculate the normal boiling point of this chemical--this is the boiling point at 760mmHg.
+\end{question}
+\begin{solution}
+357$^{\circ}$Cl
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Order the following compounds from high to low vapor pressure ($P^{vap}$): \ce{NH3} ($\Delta H_{vap}$=23kJ/mol), \ce{CH4} ($\Delta H_{vap}$=8kJ/mol), \ce{C4H10} ($\Delta H_{vap}$=15kJ/mol)
+\end{question}
+\begin{solution}
+$P^{vap}(\ce{CH4})$ > $P^{vap}(\ce{C4H10})$ > $P^{vap}(\ce{NH3})$.  
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Order the following compounds from high to low vapor pressure: \ce{C6H6} ($\Delta H_{vap}$=31kJ/mol), \ce{C6H5OH} ($\Delta H_{vap}$=39kJ/mol), \ce{H2O} ($\Delta H_{vap}$=41kJ/mol)
+\end{question}
+\begin{solution}
+$P^{vap}(\ce{C6H6})$ > $P^{vap}(\ce{C6H5OH})$ > $P^{vap}(\ce{H2O})$.  
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
+
