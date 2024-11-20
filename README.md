@@ -196,8 +196,8 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
-<a href="https://github.com/TorresAWS/CollegeChemistry/graphs/contributors">
-Distributed under the Creative Commons License.  
+Distributed under the <a href="https://github.com/TorresAWS/CollegeChemistry/graphs/contributors">
+Creative Commons License.  
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
