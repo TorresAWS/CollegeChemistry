@@ -90,8 +90,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![JQuery][Latex-badge]][Latex.com]
 * [![Bash][Bash-badge]][Bash.com]
-* [![Tikz][Tikz-badge]][Tikz.com]
-* [![Tikz][Python-badge]][Python.com]
+* [![Python][Python-badge]][Python.com]
 
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
