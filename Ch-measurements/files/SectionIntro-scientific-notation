@@ -1,0 +1,38 @@
+Numbers in science can often be very large or very tinny. For example, the mass of the earth is 590000000000000000000000000 grams, whereas the size of an atom is of the order 0.00000000001cm. Scientific notation is a standard notation extensively used in the scientific community to simplify numbers. Numbers not expressed in scientific notation are referred to as numbers in full notation (e.g. $0.234$g). Numbers expressed in scientific notation place the decimal after the first significant digit while being accompanied by a power of ten (e.g. $2.34\times 10^{-1}$g). Numbers expressed in scientific notation have two parts: the coefficient (a number larger than one but smaller than 10) and the power of ten. For example, the number $3.45\times 10^{5}$g has a coefficient of $3.45$ and a power of ten with positive power. The power of ten can contain a positive or a negative exponent. Positive exponents represent large numbers, whereas negative exponents represent numbers smaller than 1. 
+To express a number larger than one (e.g. $345000$g) in scientific notation, we just need to leave the first digit followed by the decimal point which was moved to the left 5 places, giving $3.45\times 10^{5}$g as indicated below
+ 
+\begin{equation*}
+  3\tikzmark{Final123}{4}500\tikzmark{Initial123}{0}\text{g}   \enspace \text{ (full notation) } \quad \enspace  3.45\times 10^{5}\text{g} \  \text{ (scientific notation)} 
+\DrawArrow*[red,in=-85, out=-95, distance=0.2cm]{Initial123}{Final123}%
+\end{equation*}
+ 
+To express a number smaller than one (e.g. $0.000134$g) in scientific notation, we just need to leave the first digit followed by the decimal point which was moved in this case to the right 4 places, giving $1.34\times 10^{-4}$g as indicated below
+
+\begin{equation*}
+ \tikzmark{Final1234}{0.}0001\tikzmark{Initial1234}{34}\text{g} \enspace \text{ (full notation) } \quad \enspace  1.34\times 10^{-4}\text{g} \  \text{ (scientific notation)} 
+\DrawArrow*[red,in=-85, out=-95, distance=0.2cm]{Final1234}{Initial1234}%     
+\end{equation*}
+
+You can enter scientific notation numbers in a calculator using a specific key that contains the $\times$ character and the power of ten. For example, the number $1 \times10^{6}$ should be typed in a calculator as  1\keystroke{EE}$6$ or 1\keystroke{EXP}$6$ or 1\keystroke{$\times$10$^x$}$6$, deppending on your calculator. 
+For numbers with a negative power of ten, you should use the \keystroke{($-$)} key (sometimes shown as \keystroke{($+/-$)}) to indicate the sign. For example,the number $1 \times10^{-5}$ should be typed in a calculator as  1\keystroke{EE}\keystroke{($-$)}$5$ or 1\keystroke{EXP}\keystroke{($-$)}$5$ or 1\keystroke{$\times$10$^x$}\keystroke{($-$)}$5$, deppending on your calculator. 
+The calculator display often can display a scientific notation number differently, based on the calculator brand. Below are three possible scenarios:
+
+\begin{calc} 
+  $1.5\times 10^{-4}$
+  \tcblower
+  \large\textLCD{19}|1.5E-04| \\
+\end{calc}
+
+\begin{calc} 
+  $6.7\times 10^{-5}$
+  \tcblower
+  \large\textLCD{19}|6.7 -05| \\
+\end{calc}
+\begin{calc} 
+  $4.6\times 10^{-2}$
+  \tcblower
+  \large\textLCD{19}|4.6{10}-02| \\
+\end{calc}
+
+You can also convert full notation numbers into scientific notation with a calculator key named  \keystroke{SCI} often accessible through the second function key.
+

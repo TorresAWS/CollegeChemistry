@@ -1,0 +1,14 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert the following numbers from full to scientific notation or vice versa:
+\begin{inparaenum}[(a)]
+  \item 12000   % $1.2\times 10^{4}$
+  \item 0.00076   % $7.6\times 10^{-4}$
+  \item 45783   % $4.5783\times 10^{4}$
+\end{inparaenum}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 
+\begin{inparaenum}[(a)]
+  \item   $1.2\times 10^{4}$
+  \item   $7.6\times 10^{-4}$
+  \item  $4.5783\times 10^{4}$
+\end{inparaenum} \end{flushright} }

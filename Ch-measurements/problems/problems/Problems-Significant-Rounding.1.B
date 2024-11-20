@@ -1,0 +1,9 @@
+Round the following numbers to 3SFs:
+\begin{inparaenum}[(a)]
+\item 12849m 	%12900m  
+\item 5111s		%5110s 
+\item 2.4566$\times 10^{-3}$Kg	%2.45\times 10^{-3}Kg 
+\item 0.051376cm	% 0.0514cm
+\item 573456mm		%573000mm 
+\item 0.0293845$\mu$m		%0.0294$\mu$m 
+\end{inparaenum} 

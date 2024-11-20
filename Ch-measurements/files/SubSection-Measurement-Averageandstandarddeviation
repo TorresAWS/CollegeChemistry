@@ -1,0 +1,9 @@
+The general approach to measuring a property such as the weight of a sample is to perform a number, $n$, of replicated measurements under similar conditions. Obtaining several measurements allows us to calculate the sample \textit{average value}, $\bar x$, and the \textit{standard deviation}, $\sigma$.\\
+The sample average $\bar x$ is calculated using the formula:
+\[\bar x=\frac{1}{n}\sum_i^n x_i\] \label{formula1:2}
+where $\sum_i^n x_i$ represents the sum of all measurements, $x$. The average value informs about the accuracy of the measurement. When the average is close to the true value the measurement is said to be accurate.
+The sample standard deviation $\sigma$ provides estimates of the population values and it is calculated using the formula:
+\[\sigma =\sqrt{ \frac{1}{n-1}\sum_i^n (x_i-\bar x)^2}\]  \label{formula1:3}
+The final value for measurement should be written as:
+\[x=\bar x \pm \sigma\] \label{formula1:4}
+notice that the standard deviation should have the same number of decimals as the average value. The standard deviation informs about the precision or dispersion of the measurement. Very small standard deviations correspond to precise measurements.

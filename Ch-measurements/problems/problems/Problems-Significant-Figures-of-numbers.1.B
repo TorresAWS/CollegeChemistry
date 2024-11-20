@@ -1,0 +1,9 @@
+Indicate the number of SFs.
+\begin{inparaenum}[(a)]
+\item 0.0032 m %(2SF)
+\item 5100 m	%(2SF)
+\item 0.510 m	%(3SF)
+\item 0.0051 m	%(2SF)
+\item 500 m	%(1SF)
+\item 45.030	%(6SF)
+\end{inparaenum} 

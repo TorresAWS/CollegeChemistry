@@ -1,0 +1,39 @@
+Compare the precision and accuracy of the following measurements:
+ \begin{center}\begin{tikzpicture}[
+  labeltext/.style = {
+    draw, minimum width = 5.25cm, minimum height = 1.5em, fill = gray!20,
+  }]
+
+\begin{scope}[shift = {(0, 0)}, scale=.55, transform shape]  
+  \def\xtarget{1.25};
+\def\ytarget{0.50};
+\def\distrotarget{0.50};
+ \foreach \r in {2.5, 2, 1.5, 1, 0.5, 0.05} {
+    \draw [
+      fill = black,
+      fill opacity = 0.15
+    ] (0, 0) circle (\r cm);
+  }
+  \foreach \j in {1, 2, ..., 20} {
+    \pgfmathsetmacro{\xcoord}{\xtarget + rand * \distrotarget}
+    \pgfmathsetmacro{\ycoord}{\ytarget + rand * \distrotarget}
+    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
+  }\circlevar{\xtarget}{\ytarget}{\distrotarget}
+\end{scope}
+\begin{scope}[shift = {(4, 0)}, scale=.55, transform shape]
+  \def\xtarget{-1.25};
+\def\ytarget{0.50};
+\def\distrotarget{0.50};
+ \foreach \r in {2.5, 2, 1.5, 1, 0.5, 0.05} {
+    \draw [
+      fill = black,
+      fill opacity = 0.15
+    ] (0, 0) circle (\r cm);
+  }
+  \foreach \j in {1, 2, ..., 20} {
+    \pgfmathsetmacro{\xcoord}{\xtarget + rand * \distrotarget}
+    \pgfmathsetmacro{\ycoord}{\ytarget + rand * \distrotarget}
+    \draw[fill = orange] (\xcoord, \ycoord) circle (2pt);
+  }\circlevar{\xtarget}{\ytarget}{\distrotarget}
+\end{scope}
+\end{tikzpicture}\end{center}

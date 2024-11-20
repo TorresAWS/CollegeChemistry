@@ -1,0 +1,6 @@
+The following rules indicate how to round numbers:
+\\ 
+\faCodeFork\ \begin{bf}Rule 1\end{bf}  If the digit to be removed is less than 5 then the preceding digit stays the same. For example, 1.123 rounds to 1.12.\\
+\faCodeFork\ \begin{bf}Rule 2\end{bf}  If the digit to be removed is more or equal to 5 then the preceding digit is increased by one. For example, 1.126 rounds to 1.13\\
+\faCodeFork\ \begin{bf}Rule 3\end{bf}  When rounding to a specific number of significant figures we need to look only to the first number to the right of the last significant figure. For example, 1.126 rounds to two SF as 1.1\\
+Now, let us analyze a few use cases. Imagine we need to round the number 1234cm to two SF. The results would be 1200cm. Similarly, imagine we need to round the number 0.01264cm to two SF. The results would be 0.013cm.
