@@ -1,9 +1,0 @@
- 
- \foreach \i in {SectionIntro-Converting-moles-into-grams-and-into-atoms,SubSection-Converting-moles-into-grams-and-into-atoms-Molar-mass-of-a-chemical,SubSection-Converting-moles-into-grams-and-into-atoms-From-moles-to-grams,SubSection-Converting-moles-into-grams-and-into-atoms-From-grams-to-atoms}{
-\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
-}
-    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem2}
-
- 
-
-  

@@ -1,7 +1,0 @@
-\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Use your calculator and compute the following calculation:
-\begin{center}$ 20 \times \dfrac{1\times10^{-2} }{2 }   \times \dfrac{1 }{4\times10^{-3} } $\end{center}
-\end{question}\vspace{.5cm}\begin{Form}\TextField[bordercolor=black,name=\the\value{numA},width=\linewidth,height=5cm,multiline=true]{}\end{Form}\begin{solution}
-Answer \themycounter\stepcounter{mycounter}- 25 
-\hspace{0.1cm}\end{solution}\stepcounter{numA}
-
