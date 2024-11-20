@@ -1,0 +1,105 @@
+
+
+\subsection*{Standard molar entropy}
+
+The standard molar entropy of a substance is the absolute entropy of one more substance at 1 atm. Entropies are absolute properties in contrast to other relative thermodynamic functions like the enthalpy in which a set of molecular states act as a reference. The tabulated standard entropy values are listed at the end of the chapter at one bar and 25 $^{\circ}$C, the conventional temperature for reporting thermodynamic data. The units of molar entropy are J/molK. Molar entropies tend to be small values--as the unit joule is a small unit of energy. Finally, entropies can be positive or negative values.
+\subsection*{Factors affecting entropy}
+
+
+We can qualitatively rationalize the trends between the standard molar entropy values for different substances and different conditions (temperature, volume, pressure) by using some simple rules described below:
+\\ \faCodeFork\ \begin{bf}The state of matter:\end{bf} The standard entropy of gases is larger than the standard entropy of liquids as gases present a larger degree of freedom (possible configurations) than liquids. The standard entropy of liquids is larger than the standard entropy of solids as liquids present a large degree of freedom than solids. The molecules of a liquid molecules can jiggle more in comparison with the molecules of a solid. Overall, we can assume that liquids and solid has almost null entropy whereas gases have very large entropy. For example, the entropies of ice, water, and steam are respectively  41, 69.95, and  69.95 J/molK.
+ \\ \faCodeFork\ \begin{bf}Molar mass:\end{bf} For monoatomic substances (e.g. Ne, Ar, etc.) the larger the atomic weight the larger entropy. This is because the energy levels of larger molecules are more packed, and hence are easier to access at a given temperature.
+ \\ \faCodeFork\ \begin{bf}Molecular complexity:\end{bf} For substances with comparable molar mass (\ce{O3} and \ce{F2}), the more complex the molecule the larger entropy, as the number of degrees of freedom is directly correlated with the number of microstates.
+  \\ \faCodeFork\ \begin{bf}Temperature:\end{bf} Temperature increases entropy as the system has more accessible microstates. The plot below represents the entropy change with temperature for a substance.   
+ \\    \faCodeFork\ \begin{bf}Number of particles:\end{bf} The larger the number of particles of a system, the larger the entropy, as the more particles the more microstates or possible configurations.
+    \\ \faCodeFork\ \begin{bf}Volume:\end{bf} The larger the volume of a system, the larger the entropy, as the larger volume the more microstates of possible configurations. 
+
+
+
+
+
+
+\subsection*{Calculating entropy changes in reactions}
+
+We can calculate the standard entropy of a reaction in a similar way as we calculate the standard enthalpy of a reaction:
+\begin{equation}\begin{split}
+\boxed{  \Delta S^{\circ}_R=\Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}  } \quad \textcolor{blue}{\text{Entropy change}}\label{\chapterlabel:equation3}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S^{\circ}_R$   is the standard entropy change of the reaction
+  \item $\Delta S^{\circ}_{products}$   is the standard entropy  of all products
+\item $\Delta S^{\circ}_{reactants} $ is the standard entropy  of all reactants
+ \end{where}
+ It is important to take into account the stoichiometric coefficients. For example, for the reaction:
+ \begin{center}\ce{2CH3OH_{(g)} + 3O2_{(g)} -> 2CO2_{(g)} + 4H2O_{(l)}  } \end{center}  
+We have the entropy values of: 
+$S^{\circ}(\ce{CH3OH_{(g)}})$=239.7 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{O2_{(g)}})$=161.1 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{CO2_{(g)}})$=213.79  J/K$\cdot \text{ }$mol, and $S^{\circ}(\ce{H2O_{(l)}})$=69.95  J/K$\cdot \text{ }$mol. We can calculate $\Delta S^{\circ}_R$:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}=\\ \Big(2\cdot S^{\circ}( \ce{CO2_{(g)}})   + 4\cdot S^{\circ}(\ce{H2O_{(l)}}) \Big)-\Big(2\cdot S^{\circ}(\ce{CH3OH_{(g)}})+ 3\cdot S^{\circ}(\ce{O2_{(g)}}) \Big)      \\
+  =     \Big(2\cdot 213.79  + 4\cdot 69.95\Big)-\Big(2\cdot 239.7 + 3\cdot 161.1 \Big)= -255.32 J/K
+\end{split}\end{equation*}
+
+
+\subsection*{Estimating the sign of the entropy changes in reactions}
+
+Oftentimes times were are more interested in predicting the sign of the entropy change of a reaction than in computing the exact value. This is because the sign can be used to estimate whether a reaction proceeds spontaneously. Two basic rules are used to estimate the entry change sign:
+\\ \faCodeFork\ \begin{bf}The state of matter:\end{bf} solids and liquids have very low entropy in comparison to gases. For example, in the case below, we have the production of liquid water from ice produces entropy as liquids have more entropy than solids:
+ \begin{center} \ce{H2O_{(s)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}>0$\end{center}
+On the other hand, the condensation of water vapor to produce a liquid consumes entropy, as liquids have less entropy than gases:
+ \begin{center} \ce{H2O_{(g)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+  \faCodeFork\ \begin{bf}The number of molecules:\end{bf} the larger the number of molecules of gas the larger entropy. For example, in the reaction below we have that we produce three molecules from two molecules. Hence, the entropy increases.
+ \begin{center} \ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+However, this rule only works if we only take into account the number of gas molecules. For example, in the reaction below we produce two gas molecules from three gas molecules and hence we lose entropy:
+ \begin{center}\ce{2H2S_{(g)} + SO2_{(g)}  ->3S_{(s)} + 2H2O_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+
+\subsection*{Gibbs free energy}
+The Gibbs free energy is just a combination of enthalpy and entropy for a given temperature:
+\begin{equation}\begin{split}
+    G  =  H -T  \cdot S    
+\label{\chapterlabel:equation20}
+\end{split}\end{equation}
+Working at constant temperature, we can compute the change in Gibbs free energy as:
+\begin{equation}\begin{split}
+\boxed{  \Delta G^{T}  =  \Delta H -T \Delta S \quad \textcolor{blue}{\text{Gibbs free-energy}}  }
+\label{\chapterlabel:equation6}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta G^{T}$ is the Gibbs free-energy change  at constant temperature
+ \item $\Delta H$ is the enthalpy change   
+ \item $\Delta S$ is the entropy change 
+  \item $T$ is the temperature  
+ \end{where}
+Gibbs free energy is a state function that only depends on the final and initial state and not the path followed. At the same time, Gibbs free energy depends on temperature and pressure--we will discuss more about this at the end of the section. More importantly, the change in Gibbs free energy is associated with the spontaneity of the process. Gibbs free-energy decreases with temperature and the decrease is sharper for gases in comparison to liquids, and at the same time, the decrease is also sharper for liquids in comparison to solids.
+
+
+
+\subsection*{Gibbs free energy and spontaneity}
+The Gibbs free-energy change of a reaction is associated with the spontaneity of the process or with its state of equilibrium. In particular, reactions that produce Gibbs free energy are nonspontaneous. Differently, reactions consuming free energy are indeed spontaneous. Finally, reactions without a change in free energy are in equilibrium.
+    \begin{itemize}[label={\faCodeFork\ }]
+\item \begin{bf}$\Delta G<0$:\end{bf} The reaction is spontaneous
+ \item   \begin{bf}$\Delta G=0$:\end{bf} The reaction is in equilibrium
+  \item   \begin{bf}$\Delta G>0$:\end{bf} The reaction is nonspontaneous
+\end{itemize}
+This is because the expression of Gibbs free energy is related to the total entropy change of the universe given by the second law of thermodynamics:
+\begin{equation}\begin{split}
+  \Delta G^{T}  =  \Delta H -T \Delta S \quad  \text{ and }   T\Delta S_{univ}^{T,P}=-(\Delta H -T\Delta S   )    
+\end{split}\end{equation}
+Hence, we have that 
+\begin{equation}\begin{split}
+  \Delta G^{T}  = T\Delta S_{univ}^{T,P}   
+\end{split}\end{equation}
+This last expression means that an increase in total entropy is accompanied by a decrease in Gibbs free energy at constant pressure and temperature. At the same time, the expression indicates that the direction of spontaneous change corresponds to a decrease of Gibbs free energy, at constant temperature and pressure.
+
+
+
+
+
+\section*{How to find extrapolated temperature}
+A calorimeter is ideally an isolated system. That means the heat produced does not leave the cup. If a reaction is exothermic--if it produces heat--the temperature inside the calorimeter will increase. Differently, for an endothermic reaction--a reaction that consumes heat--the temperature inside the calorimeter will decrease. When the reaction stops, as there is no more heat being produced or consumed, the temperature inside the calorimeter will change. To estimate the temperature at that point, we need to extrapolate the temperature inside the calorimeter. If you plot temperature versus time you will see that for early times, the temperature inside a calorimeter in which a reaction happens changes abruptly. After that, the temperature slowly decreases with time. To calculate the temperature when the reaction stops you need to connect the dots of the later stages, when the reaction already has stopped. We call this interpolation. All these points will be part of a line. If you extend the line, it will cross the Y-axis, and that crossing point is the temperature at which the reaction has stopped. We call this the extrapolation method.
+
+
+
+\import{\chapterlabel/}{examplebox}
+

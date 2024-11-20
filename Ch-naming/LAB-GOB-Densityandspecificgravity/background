@@ -1,0 +1,30 @@
+ 
+
+
+
+
+
+ 
+ \foreach \i in {SubSection-Matter-and-density-Density,SubSection-Matter-and-density-Density-and-mixing}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+%  \stepcounter{tablenewcounter}\refstepcounter{table}
+\label{tab:Table-Density}
+ \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Density} 
+
+
+%\import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-density} 
+
+
+%\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem11}
+
+
+ \foreach \i in {SubSection-Matter-and-density-ImmersionMethod,SubSection-Matter-and-density-Specific-gravity}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem12}
+
+  
+
+
+ 

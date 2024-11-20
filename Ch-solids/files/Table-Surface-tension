@@ -1,0 +1,17 @@
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{center} \begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Surface tension ($\gamma_t$) values for several interfaces at different temperatures.} \\
+\midrule
+ \rowcolor{gray!10} Interface  &$\gamma_t$ (mN/m)& T &Interface  &$\gamma_t$ (mN/m)& T  \\
+\midrule
+\ce{H2O}-Air 	&	73& 20$^\circ$C  	&	\ce{H2O}-\ce{Hg} 	&	415& 20$^\circ$C		\\ 
+ \ce{CH3I}-Air 	&	67& 20$^\circ$C  	&	\ce{H2O}-Air 	&	73& 22$^\circ$C	\\ 
+\ce{C6H6}-Air 	&	30& 20$^\circ$C 	&\ce{H2O}-Air 	&	72& 25$^\circ$C		 \\ 
+\ce{CH3OH}-Air 	&	22& 20$^\circ$C & 	\ce{Hg}-Air 	&	486& 20$^\circ$C		\\ 
+ \bottomrule
+\end{tabular}\end{center} 
+
