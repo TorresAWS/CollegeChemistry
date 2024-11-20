@@ -91,6 +91,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![JQuery][Latex-badge]][Latex.com]
 * [![Bash][Bash-badge]][Bash.com]
 * [![Tikz][Tikz-badge]][Tikz.com]
+* [![Tikz][Python-badge]][Python.com]
 
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -253,8 +254,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bash.com]: https://www.gnu.org/software/bash/manual/
 [Latex-badge]: https://img.shields.io/badge/-LaTeX-008080?style=flat&logo=latex&logoColor=white
 [Latex.com]: https://www.latex-project.org/
-[Latex-badge]: https://img.shields.io/badge/-LaTeX-008080?style=flat&logo=latex&logoColor=white
-[Latex.com]: https://tikz.net/
+[Python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python.com]: https://www.python.org/
 
 
 
