@@ -1,0 +1,237 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-naming}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{Pixnio}
+
+ \setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\begin{document}
+
+
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+ \setcounter{chapter}{2}\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{4} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+
+
+   
+%            \begin{marginfigure}
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Pixnio} ;
+%\end{tikzpicture}
+%\label{fig:naming1}
+%\end{marginfigure}
+   
+\import{../\chapterlabel/files/}{ChapterIntro}
+
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+%\import{../\chapterlabel/files/}{SectionGoal-Covalent-compounds}
+%\import{../\chapterlabel/files/}{SectionGoal-Ionic-compounds}
+%\import{../\chapterlabel/files/}{SectionGoal-Naming-acids-bases}
+%\import{../\chapterlabel/files/}{SectionGoal-Naming-complex-salts-common-chemicals}
+%
+%\end{enumerate}
+%\end{mytcbox}
+%\vspace{1cm}
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+%\import{../\chapterlabel/files/}{ChapterDiscussion}
+%\end{tcolorbox}
+%
+%\end{marginfigure}%LEARNING GOALS BOX
+
+\section{Ions \& ionic charges}
+\import{../\chapterlabel/files/}{SectionIntro-Ions-ionic-charges}
+\sloppy\begin{description}
+\item[\docfilehook{Cations and anions}{}]\import{../\chapterlabel/files/}{Subsection-Ions-ionic-charges-Cations-and-anions}
+\import{../\chapterlabel/files/}{Figure-Valences}
+\item[\docfilehook{Ionic charges: the valences}{}]\import{../\chapterlabel/files/}{Subsection-Ions-ionic-charges-Ionic-charges-the-valences}
+\import{../\chapterlabel/problems/}{SampleProblem1}
+\end{description}
+
+
+\section{Ionic compounds}
+\import{../\chapterlabel/files/}{SectionIntro-Ionic-compounds}\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-Properties-of-ionic-compounds}\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-The-ionic-bond}
+\sloppy \begin{description}
+\item[\docfilehook{Combining ions}{}]\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-Combining-ions}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\item[\docfilehook{Simple ionic naming (type I ionic)}{}]\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-type-I-ionic}
+\import{../\chapterlabel/problems/}{SampleProblem3}
+\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-Complex-ionic-naming}
+\item[\docfilehook{Name complex ionic chemicals}{}]\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-Name-complex-ionic-chemicals}
+\item[\docfilehook{Properties of ionic compounds}{}]\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-Properties-of-ionic-compounds}
+\item[\docfilehook{The ionic bond}{ }]\import{../\chapterlabel/files/}{Subsection-Ionic-compounds-The-ionic-bond}
+\import{../\chapterlabel/problems/}{SampleProblem4}
+\end{description}
+
+\section{Covalent compounds}\import{../\chapterlabel/files/}{SectionIntro-Covalent-compounds}
+\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-Properties-of-covalent-compounds}
+\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-The-covalent-bond}
+\sloppy \begin{description}
+\item[\docfilehook{Covalent naming}{}]\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-Covalent-naming}
+ \import{../\chapterlabel/files/}{Table-Covalent-prefixes}	
+\import{../\chapterlabel/problems/}{SampleProblem5}
+\end{description}
+
+\section{Naming acids \& bases}
+\import{../\chapterlabel/files/}{SectionIntro-Naming-acids-bases}
+\sloppy \begin{description}
+\item[\docfilehook{Bases or hydroxides}{}]\import{../\chapterlabel/files/}{Subsection-Naming-acids-bases-Bases-or-hydroxides}
+\item[\docfilehook{Acids}{}]\import{../\chapterlabel/files/}{Subsection-Naming-acids-bases-Acids}
+\import{../\chapterlabel/problems/}{SampleProblem6}
+\end{description}
+
+\section{Oxidation states}
+\import{../\chapterlabel/files/}{SectionIntro-Oxidation-state}
+
+\sloppy \begin{description}
+\item[\docfilehook{Oxidation states of oxoacids}{ }] \import{../\chapterlabel/files/}{Subsection-Naming-acids-bases-Oxidation-states-of-oxoacids}
+\item[\docfilehook{Oxidizing and reducing character of oxoacids}{ }] \import{../\chapterlabel/files/}{Subsection-Naming-acids-bases-Oxidizing-and-reducing-character-of-oxoacids}
+\import{../\chapterlabel/problems/}{SampleProblem7}
+\end{description}
+
+\section{Naming complex salts  \& common chemicals}
+\import{../\chapterlabel/files/}{SectionIntro-Naming-complex-salts-common-chemicals}
+\sloppy \begin{description}
+\item[\docfilehook{Combining ions }{}] \import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Combining-ions}
+ \import{../\chapterlabel/files/}{Table-Oxoacids}
+\item[\docfilehook{Naming Oxosalts}{}]\import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Naming-Oxosalts}
+\item[\docfilehook{Formulating Oxosalts}{}] \import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Formulating-Oxosalts}
+\import{../\chapterlabel/problems/}{SampleProblem8}
+\item[\docfilehook{Naming oxosalts with hydrogen}{}] \import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Naming-Hydrosalts}
+\import{../\chapterlabel/problems/}{SampleProblem9}
+\item[\docfilehook{Hydrates }{}] \import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Hydrates}
+\import{../\chapterlabel/problems/}{SampleProblem10}
+\item[\docfilehook{Common naming}{}] \import{../\chapterlabel/files/}{Subsection-Naming-complex-salts-common-chemicals-Common-naming}
+\import{../\chapterlabel/files/}{Table-Common-chemicals}	
+ \import{../\chapterlabel/problems/}{SampleProblem11}
+%%%  \import{../\chapterlabel/files/}{Figure-naming-scheme}
+\end{description}
+
+
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+
+
+%%%%%%%%%%%%%%FIR 121
+\renewcommand\chapterlabel{Ch-electronicstructure}
+\section{Electron-dot structures of atoms \& molecules}\import{../\chapterlabel/files/}{SectionIntro-Electron-dot-structures-of-atoms}
+\sloppy\begin{description}
+\item[\docfilehook{Valence electrons of atoms, and molecules and pairs of electrons}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Valence-electrons}
+\import{../\chapterlabel/problems/}{SampleProblem1}
+\item[\docfilehook{The octet rule}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-The-octet-rule}
+\item[\docfilehook{Electron-dot structure of an atom}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-an-atom}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\item[\docfilehook{An introduction to electron-dot structures}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-An-introduction-to-electron-dot-structures}
+\item[\docfilehook{Electron-dot structure of diatomic molecules}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-diatomic-molecules}
+\import{../\chapterlabel/problems/}{SampleProblem3}
+\item[\docfilehook{Electron-dot structure of general molecules}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-general-molecules}
+\import{../\chapterlabel/problems/}{SampleProblem4}
+\item[\docfilehook{Multiple bonds}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Multiple-bonds}
+\import{../\chapterlabel/problems/}{SampleProblem6}
+\item[\docfilehook{Atomic charges in a molecule}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecule}
+
+%%% 
+
+\import{../\chapterlabel/problems/}{SampleProblem5}
+%\item[\docfilehook{Resonant structures}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Resonance}%%%%NOT FOR 121
+\item[\docfilehook{Exceptions to the octet rule}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Octet-exception}
+
+\import{../\chapterlabel/problems/}{SampleProblem12}
+%\item[\docfilehook{Molecules with odd number of electrons}{}] \import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Odd-molecules}%%%%NOT FOR 121
+
+\item[\docfilehook{Steps to obtain Lewis structures}{}]\import{../\chapterlabel/files/}{SubSection-Electron-dot-structures-of-atoms-Lewis-scheme}  
+
+\end{description}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%FIR 121
+ \section{Molecular shape}\import{../\chapterlabel/files/}{SectionIntro-Molecular-shape}
+\sloppy\begin{description}
+\item[\docfilehook{The VSEP model}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-shape-VSEPR-model}
+ \hspace{10cm}\import{../\chapterlabel/files/}{Figure-VSEPR-three-molecules-one}
+ \import{../\chapterlabel/files/}{SubSection-Molecular-shape-VSEPR-model-continued}
+\item[\docfilehook{ABE Molecular code}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-shape-ABE-Molecular-code}
+\import{../\chapterlabel/files/}{Figure-VSEPR-three-molecules}
+\import{../\chapterlabel/problems/}{SampleProblem7}
+
+\item[\docfilehook{Complex molecules and multiple bonds}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-shape-Complex-molecules-and-multiple-bonds}
+\item[\docfilehook{Steps to use the VSEPR model}{}]\import{../\chapterlabel/files/}{SubSection-VSEPR-how-to}  
+\newpage  \hspace{0cm}\import{../\chapterlabel/files/}{Table-Molecular-geometries}
+
+\end{description}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%FIR 121
+\section{Polarity of molecules}\import{../\chapterlabel/files/}{SectionIntro-Polarity-of-molecules}
+\import{../\chapterlabel/files/}{Figure-Electronegativity}	
+\sloppy \begin{description}
+\item[\docfilehook{Bond polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Bond-polarity}
+\import{../\chapterlabel/files/}{Table-Ionic-Covalent-Bond}
+\item[\docfilehook{Polarity of molecules: diatomic molecules}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-of-diatomic-molecules}
+\import{../\chapterlabel/files/}{Table-Polar-molecules}
+\item[\docfilehook{Polarity of larger molecules}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-of-larger-molecules}
+\import{../\chapterlabel/problems/}{SampleProblem8}
+\item[\docfilehook{Polarity and mixing}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Polarity-and-mixing}
+\item[\docfilehook{Molecules with the same polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity}
+\item[\docfilehook{Molecules with different polarity}{}] \import{../\chapterlabel/files/}{SubSection-Polarity-of-molecules-Molecules-with-different-polarity}
+\end{description}
+
+
+\renewcommand\chapterlabel{Ch-Solids}
+
+
+\section{Intermolecular forces}\import{../\chapterlabel/files/}{SectionIntro-Intermolecular-forces}
+\sloppy \begin{description}
+\item[\docfilehook{Intermolecular forces and intramolecular interactions}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Intermolecular-forces-and-intramolecular-interactions}
+\import{../\chapterlabel/files/}{Figure-Dispersion-forces}
+\item[\docfilehook{Dispersion forces}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Dispersion-forces}
+\import{../\chapterlabel/files/}{SideFigure-intermolecular-forces}
+\import{../\chapterlabel/files/}{Table-Phase-transition-intermolecular-forces}
+\item[\docfilehook{Dipole-Dipole forces}{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Dipole-forces}
+\import{../\chapterlabel/files/}{Figure-Dipole-forces}
+\import{../\chapterlabel/files/}{Table-Dipole-moments-intermolecular-forces}
+\item[\docfilehook{Hydrogen bonds }{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Hydrogen-bonds}
+\import{../\chapterlabel/problems/}{SampleProblem1}
+\item[\docfilehook{Intermolecular forces of liquids and boiling  }{}] \import{../\chapterlabel/files/}{Subsection-Intermolecular-forces-Intermolecular-forces-and-boiling}
+\import{../\chapterlabel/problems/}{SampleProblem2}
+\end{description}
+
+
+
+
+\renewcommand\chapterlabel{Ch-naming}
+ %%%%%%%%%%%%%%%%%%%%%%
+
+}{}
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+
+ \checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
+
+%%%TAG:CHEM201

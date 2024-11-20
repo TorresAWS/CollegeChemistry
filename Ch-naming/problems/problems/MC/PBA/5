@@ -1,0 +1,5 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How many inches is 20 cm?
+\end{question}\vspace{.5cm}\begin{Form}\TextField[bordercolor=black,name=\the\value{numA},width=\linewidth,height=5cm,multiline=true]{}\end{Form}\begin{solution}
+Answer \themycounter\stepcounter{mycounter}- 7.8In 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}

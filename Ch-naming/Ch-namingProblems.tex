@@ -1,0 +1,75 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-naming}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\setcounter{chapter}{3}}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\setcounter{chapter}{5}}{}
+\end{conclusion}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+{\raggedright\textsc{\textbf{Ions \& Ionic charges}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Ions-Ionic-charges}
+
+{\raggedright\textsc{\textbf{Covalent compounds}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Covalent-compounds}
+
+{\raggedright\textsc{\textbf{Ionic compounds}}\par}
+ \import{../\chapterlabel/problems/problems/}{Problems-Ionic-compounds}
+
+{\raggedright\textsc{\textbf{Acids and hydroxides}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Acids-and-hydroxides}
+\import{../\chapterlabel/problems/problems/}{Problems-Acids-and-hydroxides-REDOX}
+{\raggedright\textsc{\textbf{Naming of complex salts and common chemicals}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Naming-of-complex-salts-and-common-chemicals}
+
+
+\import{../\chapterlabel/problems/problems/}{Problems-Naming-of-complex-salts-and-common-chemicals-oxosaltstype2-hydrosals-hydrates}
+
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+\renewcommand\chapterlabel{Ch-electronicstructure}
+{\raggedright\textsc{\textbf{Electron-Dot structures of molecules }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Electron-dot-structures-of-atoms-Electron-dot-structure-of-general-molecules}
+\import{../\chapterlabel/problems/problems/}{Problems-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecule}
+{\raggedright\textsc{\textbf{Molecular shape}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Molecular-shape-ABE-Molecular-code}
+{\raggedright\textsc{\textbf{Polarity}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Molecular-shape-Bond-polarity}
+\renewcommand\chapterlabel{Ch-Solids}
+{\raggedright\textsc{\textbf{Intermolecular forces }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Intermolecular-forces}
+
+
+
+\renewcommand\chapterlabel{Ch-naming}
+}{}
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+
+%%%TAG:CHEM201
