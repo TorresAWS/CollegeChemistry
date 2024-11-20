@@ -1,0 +1,35 @@
+ 
+
+
+ \foreach \i in {SectionIntro-Solutions-and-composition,SubSection-Solutions-and-composition-What-makes-a-solution,SubSection-Solutions-and-composition-Types-of-solutions,SubSection-Solutions-and-composition-Empirical-rules-of-polarity,SubSection-Solutions-and-composition-Mixing-and-polarity}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem2}
+
+%\begin{fullwidth}
+ \hspace{5cm}\begin{minipage}[b]{1.0\linewidth}\resizebox{0.4\textwidth}{!}{
+ \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Polarity-and-mixing}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Polarity-and-mixing-data}
+
+
+ } \end{minipage}
+%\end{fullwidth}  
+
+
+ 
+
+
+  
+
+ \foreach \i in {SubSection-Solutions-and-composition-Meaning-of-concentration,SubSection-Solutions-and-composition-Mass-percent,SubSection-Solutions-and-composition-Volume-percent-concentration,SubSection-Solutions-and-composition-Massvolume-percent-concentration,SubSection-Solutions-and-composition-Molarity-concentration}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem5}
+
+  
+
+
+ 
+ 
+
+
+
+ 

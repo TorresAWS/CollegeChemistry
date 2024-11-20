@@ -1,0 +1,39 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following list indicate the metals that can be dissolved in HCl in standard conditions:  \begin{inparaenum}[(a)]
+\item \ce{Sr}   %  	yes	 
+\item \ce{Ba}   % no	 
+\item	\ce{Ag}   %	yes  
+\item \ce{Pt}   %yes  
+ \end{inparaenum}
+  \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item \ce{Sr}   %  	yes	 
+\item \ce{Ba}   % no	 
+\item	\ce{Ag}   %	yes  
+\item \ce{Pt}   %yes   
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ 
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following list indicate the metals that can be dissolved in HCl in standard conditions:  \begin{inparaenum}[(a)]
+\item \ce{Ti}   %no	  
+\item \ce{Cr}   %no	  
+\item \ce{Cd}   %no	  
+\item \ce{Cu}   % yes  
+ \end{inparaenum}
+  \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item \ce{Ti}   %no	  
+\item \ce{Cr}   %no	  
+\item \ce{Cd}   %no	  
+\item \ce{Cu}   % yes 
+ \end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+ 

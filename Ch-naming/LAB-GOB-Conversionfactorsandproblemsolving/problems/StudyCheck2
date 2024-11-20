@@ -1,0 +1,12 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+<<<<<<< HEAD:Ch-mole/problems/StudyCheck2
+Calculate the molar mass of glucose \ce{C6H12O6}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $180.06g/mol$.
+=======
+Classify the following monosaccharide as $d-$ or $l-$:
+\begin{center}\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4,1.2]\textcolor{red}{HO})-!x-!k-!t)}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small $l-$ketopentose
+>>>>>>> 73c49a00378e736fa5b0bdad965f652fd8aa2920:Ch-naming/LAB-GOB-Conversionfactorsandproblemsolving/problems/StudyCheck2
+ \end{flushright} }

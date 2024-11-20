@@ -1,0 +1,86 @@
+\vspace{0.2cm}{\begin{flushleft}\large \bfseries 1. Background radiation\end{flushleft}}
+
+\begin{center}\resizebox{17cm}{!} {\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{3.5cm}|  }
+\hline
+     \multicolumn{1} {|c}{Measurement 1}  &   \multicolumn{1} {|c}{ Measurement  2}  &   \multicolumn{1} {|c}{ Measurement  3}  &  \multicolumn{1} {|c|}{   Average Radiation}         \\
+    \multicolumn{1} {|c}{ (cpm)} &  \multicolumn{1} {|c}{ (cpm)} &   \multicolumn{1} {|c}{ (cpm)} &     \multicolumn{1} {|c|}{ (cpm)}        \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &     &       \\
+\hline
+\end{tabular}}\end{center}
+
+\vspace{0.2cm}{\large \bfseries 2. Radioactive chips}
+\begin{center}\begin{tabular}{ |p{3cm}|p{5cm}|p{5cm}|  }
+\hline
+    Isotope name &   Activity  &   Activity - Background          \\
+     &    (cpm) &    (cpm)         \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+\end{tabular}\end{center}
+ 
+
+
+ 
+ \vspace{0.2cm}{\large \bfseries 3. Radioactivity protection}
+
+\begin{center}Isotope name=\rule{5cm}{0.4pt}\end{center}
+\begin{center}\begin{tabular}{ |p{3cm}|p{5cm}|p{5cm}|  }
+\hline
+    Shielding name &   Activity (cpm) &   Activity - Background (cpm)         \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm} &     &            \\
+\hline
+\end{tabular}\end{center}
+
+
+
+\vspace{0.2cm}{\large \bfseries 5. Effect of distance on radioactivity }
+
+\begin{center}Isotope name=\rule{5cm}{0.4pt}\end{center}
+\begin{center}\begin{tabular}{ |p{3cm}|p{5cm}|p{5cm}|  }
+\hline
+    Distance (cm) &   Activity (cpm) &   Activity - Background (cpm)         \\
+\hline
+   \vspace{0cm}\vspace{.5cm}1cm &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm}2cm &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm}3cm &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm}4cm &     &            \\
+\hline
+   \vspace{0cm}\vspace{.5cm}5cm &     &            \\
+\hline
+\end{tabular}\end{center}
+
+
+
+ 
+
+
+\begin{center}
+ \begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (120mm,120mm);
+ \draw[step=10mm] (0,0) grid (120mm,120mm);
+\end{tikzpicture}\\
+\vspace{0.2cm}
+Isotope Name=\rule{5cm}{0.4pt}
+\end{center}
+
