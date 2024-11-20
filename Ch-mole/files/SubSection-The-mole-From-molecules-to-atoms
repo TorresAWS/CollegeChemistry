@@ -1,0 +1,12 @@
+
+Molecules are made of atoms, and for example, the \ce{CO2} molecule contains an atom of \ce{C} and two atoms of \ce{O}. To convert from molecules to atoms (molecules $\rightarrow$ atoms) you need to use the coefficients in the molecular formula. For example, a \ce{H2O} molecule contains an atom of \ce{O} and two atoms of \ce{H}, and hence the relation between water molecules and H and O atoms is:
+\begin{equation*}
+\boxed{   \frac{1\text{ molecule of  \ce{H2O} }}{1 \text{ atom of \ce{O} } }\ \text{ and  } \frac{1 \text{ molecule of \ce{H2O}}}{2 \text{ atom of \ce{H} } }\     }
+\end{equation*}
+To convert moles into atoms (moles $\rightarrow$ atoms) you need to use a two-step process displayed as a single line. First, you convert moles into molecules, to then convert molecules into atoms. For example, 3 moles of \ce{H2O} contain $1.6\times 10^{24}$ \ce{H} atoms, as:
+ \begin{equation*}\begin{split}
+3   \cancel{\text{moles of }\ce{H2O}} \times 
+\dfrac{6.02\times 10^{23} \cancel{\text{ molecules of \ce{H2O} }}  } {  1\cancel{\text{moles of }\ce{H2O}}} 
+\times\dfrac{2 \text{H atoms}}{1\cancel{\text{ molecules of \ce{H2O} }}}
+\\=1.6\times 10^{24}\text{atoms of H}
+\end{split}\end{equation*}

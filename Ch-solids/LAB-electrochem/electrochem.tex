@@ -1,0 +1,130 @@
+\documentclass[cover.tex]{subfiles}
+\newcommand\chapterlabel{../Ch-electrochem/LAB-electrochem}
+\begin{document} \begin{refsection}
+
+\taburulecolor{black}
+
+%%%%%%%%%%%%HEADING TITLE
+\hfill\vspace{0.2cm}\begin{center}{\large \bfseries EXPERIMENT \par\Huge
+ \import{\chapterlabel/}{title}
+ \\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+ %%%%%%%%%%%%HEADING
+ 
+ 
+\section*{Goal}
+ \import{\chapterlabel/}{goal}
+\section*{Materials}
+ \import{\chapterlabel/}{materials}
+\section*{Background}
+%\import{\chapterlabel/}{video}
+
+\import{\chapterlabel/}{background}
+
+
+%\import{\chapterlabel/}{examplebox}
+%%%%%BIBLIOGRAPHY
+\printbibliography[heading=subbibliography]
+%%%%%BIBLIOGRAPHY
+%\section*{Lab Information}
+% \begin{itemize}[label={$\blacksquare$}]
+ %  \import{\chapterlabel/}{labinfo}
+% \end{itemize}
+\section*{Procedure}
+\import{\chapterlabel/}{procedure} 
+
+
+%\clearpage\mbox{}\clearpage
+
+
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{1em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Pre-lab Questions \par\Huge
+\import{\chapterlabel/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+\import{\chapterlabel/}{prelab}
+
+%%%%%%%%%%%%%HEADING
+%\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{ \vspace{1em} \vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage\begin{sidewaystable}[ph!]\begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{-1cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+%\import{\chapterlabel/}{title}
+%\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+%%%%%%%%%%%%%HEADING
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}
+\thispagestyle{sidebar}
+\sidebar{%
+  \vspace{1em}
+  \vspace{1cm}
+  \vfill
+  \par\vspace*{1em}
+}
+\restoregeometry
+\clearpage 
+ 
+\begin{sidewaystable}[ph!]  \vspace{1cm}
+\begin{multicols}{2}
+\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
+colback=mybrown!05,colframe=black,fonttitle=\bfseries,
+title=STUDENT INFO,pad at break=1mm, break at=5cm/0pt ]
+\vspace{0.2cm}
+\noindent Name:  \begin{Form}\TextField[rotation=90,name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[rotation=90, name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\
+\end{tcolorbox}
+\hfill
+\vspace{1cm}
+\begin{center}
+{\large \bfseries  
+Results\\ EXPERIMENT  
+\par
+\Huge
+\import{\chapterlabel/}{title}
+\\[5pt] \par}
+\vspace{0.2cm}
+\end{center}
+\par
+\noindent
+\end{multicols}
+
+
+\hspace{-2cm}\vspace{-1cm}
+
+ \import{\chapterlabel/}{results}
+\end{sidewaystable}
+
+<<<<<<< HEAD:Ch-nuclear/LAB-nuclear/LAB-nuclear.tex
+
+\newpage
+\begin{sidewaystable}[ph!]  \vspace{1cm}
+\import{\labname/}{results1}
+\end{sidewaystable}
+
+%\clearpage\mbox{}\clearpage
+%\vspace{1cm}
+%\begin{sidewaystable}[ph!]  \vspace{1cm}
+%\import{\labname/}{results2}
+%\end{sidewaystable}
+=======
+ \newpage
+ \begin{sidewaystable}[ph!]  \vspace{1cm}
+
+\import{\chapterlabel/}{results2}
+ 
+ \end{sidewaystable}
+
+
+
+>>>>>>> e02fbe18ba41b7495333cf1444fc47ff745cece0:Ch-solids/LAB-electrochem/electrochem.tex
+%\clearpage\mbox{}\clearpage
+
+
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{\vspace{1em}\vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Post-lab Questions \par\Huge
+ \import{\chapterlabel/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+ \import{\chapterlabel/}{postlab}
+\clearpage\mbox{}\clearpage
+
+ \end{refsection}
+\end{document}

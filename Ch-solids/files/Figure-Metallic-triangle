@@ -1,0 +1,105 @@
+
+ \savebox\trianglenew{\begin{tikzpicture}\draw[red] (0,0) -- (3,0) -- (3,3) --cycle;\node[shift={(2,-1)}] {\Huge c}; \node[shift={(3.5,2.)}] {\Huge c}; \node[shift={(1,2)}] {\Huge 4r}; 
+ \end{tikzpicture} }
+%\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{center}\scalebox{0.5}{
+\begin{tikzpicture}
+
+    \def\D{8} % cubic side length
+%   \pgfmathsetmacro\R{\D/2} % sphere radius
+    \pgfmathsetmacro\R{sqrt(2)/4*\D} % sphere radius
+%   \pgfmathsetmacro\R{sqrt(3)/4*\D} % sphere radius
+    \def\angEl{20} % elevation angle in interval [1,89]
+    \def\angPh{10} % phase angle in interval [-44,44]
+    \pgfmathsetmacro\uofx{cos(-135-\angPh)}
+    \pgfmathsetmacro\vofx{sin(-135-\angPh)*sin(\angEl)}
+    \pgfmathsetmacro\uofy{cos(-45-\angPh)}
+    \pgfmathsetmacro\vofy{sin(-45-\angPh)*sin(\angEl)}
+    \pgfmathsetmacro\uofz{0}
+    \pgfmathsetmacro\vofz{cos(\angEl)}
+
+    % The coordinates of the cube
+    \begin{scope}[x={(\uofx cm,\vofx cm)}, y={(\uofy cm,\vofy cm)}, z={(\uofz cm,\vofz cm)}]
+    \coordinate (C1) at (\D,0,0);
+    \coordinate (C2) at (\D,0,\D);
+    \coordinate (C3) at (0,0,\D);
+    \coordinate (C4) at (0,\D,\D);
+    \coordinate (C5) at (0,\D,0);
+    \coordinate (C6) at (\D,\D,0);
+    \coordinate (C7) at (0,0,0);
+    \coordinate (C8) at (\D,\D,\D);
+%    \foreach \n in {1,2,...,8} \node at (C\n) {C\n};
+
+    \coordinate (C0) at ($(C2)!.5!(C5)$);
+    \coordinate (S1) at ($(C2)!.5!(C6)$);
+    \coordinate (S2) at ($(C2)!.5!(C4)$);
+    \coordinate (S3) at ($(C8)!.5!(C5)$);
+    \coordinate (S4) at ($(C6)!.5!(C7)$);
+    \coordinate (S5) at ($(C1)!.5!(C3)$);
+    \coordinate (S6) at ($(C5)!.5!(C3)$);
+    \end{scope}
+
+    % Draw the clipped spheres
+    \ClippedEightSphere{+}{-}{+}{C7}
+    \ClippedLongitudeSphere{S5}{45-\angPh}{+}
+    \ClippedLongitudeSphere{S6}{135-\angPh}{-}
+    \ClippedLatitudeSphere{S4}{0}{+}
+
+    \ClippedEightSphere{-}{+}{-}{C8}
+    \ClippedEightSphere{+}{-}{-}{C3}
+    \ClippedEightSphere{+}{+}{-}{C2}
+%   \fill[ball color=white] (C0) circle [radius=\R];
+    \ClippedEightSphere{-}{-}{-}{C4}
+    \ClippedEightSphere{+}{+}{+}{C1}
+    \ClippedEightSphere{-}{-}{+}{C5}
+    \ClippedEightSphere{-}{+}{+}{C6}
+
+    % Draw the half spheres
+    \ClippedLatitudeSphere{S2}{0}{-}
+    \ClippedLongitudeSphere{S3}{45-\angPh}{-}
+    \ClippedLongitudeSphere{S1}{135-\angPh}{+}
+    \DrawLatitudeArc{S2}{0}{0}{360}
+    \DrawLongitudeArc{S1}{135-\angPh}{0}{360}
+    \DrawLongitudeArc{S3}{45-\angPh}{0}{360}
+
+    % Draw the Arcs
+    \DrawLongitudeArc{C1}{135-\angPh}{90}{90}
+    \DrawLongitudeArc{C2}{135-\angPh}{-90}{-90}
+    \DrawLongitudeArc{C4}{45-\angPh}{-90}{-90}
+    \DrawLongitudeArc{C5}{45-\angPh}{90}{90}
+    \DrawLongitudeArc{C6}{135-\angPh}{90}{-90}
+    \DrawLongitudeArc{C6}{45-\angPh}{90}{-90}
+    \DrawLongitudeArc{C8}{135-\angPh}{-90}{90}
+    \DrawLongitudeArc{C8}{45-\angPh}{-90}{90}
+    \DrawLatitudeArc{C2}{0}{45-\angPh}{-90}
+    \DrawLatitudeArc{C3}{0}{-45-\angPh}{-90}
+    \DrawLatitudeArc{C4}{0}{135-\angPh}{90}
+    \DrawLatitudeArc{C8}{0}{135-\angPh}{-90}
+
+    % Draw the cube
+    \draw (C1)--(C2)--(C3)--(C4)--(C5)--(C6)--cycle;
+    \draw (C2)--(C8)--(C6);
+    \draw (C8)--(C4);
+
+    % Radius node
+    \coordinate (r) at ($(C2) - (\R/10,0)$);
+    \LongitudePlane{\angEl}{135-\angPh}
+    \draw [<->, current plane, line width=0.75mm, red] (C4) -- (C6) node [xshift=3cm, yshift=5.0cm] {\color{black} \Huge $4r$} ;
+        \draw [<->, current plane, line width=0.75mm, red] (C6) -- (C5)  node [midway, xshift=1cm, yshift=-0.5cm] {\color{black}\Huge $c$};
+        \draw [<->, current plane, line width=0.75mm, red] (C5) -- (C4)  node [midway, xshift=0.5cm, yshift=0cm] {\color{black}\Huge $c$};
+
+%    \draw [<->, current plane] (r) -- node [left] {$r$} +(-90:\R);
+ %\node[text width=16cm, fontscale=.7] at (-30em,-30em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} This is a space-filling representation of a fcc unit cell..};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (6em,3em);
+\coordinate (magnifying glass) at (28em,6em);
+\node [draw=none, shape=rectangle, inner sep=8.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=-45] (a.south west) -- (a.north west)  to [bend right=-45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=rectangle, inner sep=2.5em]  (c) at (magnifying glass) {\usebox\trianglenew} node[yshift=0.5em] at (c.north) {};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \node[shift={(9.5,-2)}] {\Huge $c^2+c^2=(4r)^2$};
+
+\end{tikzpicture}
+}\end{center}
+%
+

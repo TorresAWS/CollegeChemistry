@@ -1,0 +1,19 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Give the line notation for the galvanic cell below: 
+  %\colorlet{batteryLeftElectrode}{orange!75}
+\colorlet{batteryRightElectrode}{yellow!75!orange}
+\colorlet{batteryLeftSolution}{orange!15}
+\colorlet{batteryRightSolution}{pink!15}
+\renewcommand{\Helectrodelabel}{\small \ce{NO}}
+\begin{center}\begin{tikzpicture}
+\batterya{\small \ce{Al^{3+}(1M)}}{\small \ce{Al}  }	{Au}	{\small \ce{Au^{+3}(1M) }}{0}{\Large $-$}{\Large $+$}{V}{1}    % 1 to the right
+
+
+
+ \end{tikzpicture}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the anode is based on aluminum whereas the cathode is based on gold. We have two metallic electrodes. The line notations of the galvanic cell will be:
+\begin{center}\ce{Al}\hspace{.02 in}|\hspace{.02 in} \ce{Al^{3+}}\text{(1 M)}\hspace{.02 in}||\hspace{.02 in}\ce{Au^{3+}}\text{(1 M)}\hspace{.02 in}|\hspace{.02 in}\ce{Au}	\end{center}
+
+  \import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
