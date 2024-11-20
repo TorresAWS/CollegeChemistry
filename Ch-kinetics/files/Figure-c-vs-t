@@ -1,0 +1,46 @@
+    \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-c-vs-t}
+     \begin{center}
+    \pgfkeys{tikz/.cd,
+tangent length/.store in=\TangentLength,
+tangent length=7mm,
+normal length/.store in=\NormalLength,
+normal length=7mm}
+\tikzset{tangent/.style={red,thin},normal/.style={red,thin},
+tangent at/.style={postaction={decorate,decoration={markings,
+mark=at position #1 with {\draw[tangent,shift={(0,1.60em-1.6em)}, rotate=-0] (-2*\TangentLength,0) -- (0.4*\TangentLength,0)   -- ++ (-4.7em,-0.6em) -- cycle; \node[shift={(-2em,1em)}, red] (-\TangentLength,0) {$r$} node[shift={(-4.4em,.3em)}, red] (-\TangentLength,0) {\tiny $d$c} node[shift={(-2em,-.2em)}, red] (-\TangentLength,0) {\tiny $d$t};
+\fill[tangent,shift={(0,1.60em-1.6em)}]  (-\TangentLength,0) circle (1pt);}}}},
+%normal at/.style={postaction={decorate,decoration={markings,
+%mark=at position #1 with {\draw[normal] (0,-\NormalLength) -- (0,\NormalLength);
+%\fill[normal] (0,0) circle (2pt);}}}},
+}
+\begin{tikzpicture}
+  \begin{axis}[
+            axis lines=middle,
+             enlargelimits=0.1,
+            xmin=0,
+            xmax=1.0,
+            ymin=0.01,
+            ymax=0.1,
+            xtick=\empty,
+            ytick=\empty,xtick distance=0.05,
+            xlabel=$\text{time}$,
+            ylabel=$c\text{, M}$,
+            x label style={at={(axis description cs:0.5,-0.0)},anchor=north},
+    y label style={at={(axis description cs:0.07,.4)},rotate=90,anchor=south},
+             domain=\pgfkeysvalueof{/pgfplots/xmin}:(\pgfkeysvalueof{/pgfplots/xmax},
+            tangent/.style={add node at x={#1}{},},
+        ]
+     	              
+            \addplot [thick,draw=blue!75!black, tangent at/.list={ 0.8 }]{0.1*exp(-2.9*x)};
+                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{0.1*exp(-2.9*x)};
+	 \draw[red] (6.4em,6em+0.8em) --++(0em,-3.5em+0.1em)--++(6.1em,0em ) -- cycle ;
+	 \node[shift={(8.5em,5.5em+0.7em)}] (0,0) {$\overline{r}$} node[shift={(5.5em,5em+0.7em)}] (0,0) {\tiny $\Delta c$} node[shift={(8.5em,2.0em+0.9em)}] (0,0) {\tiny $\Delta t$} node[green!75!black, shift={(23em,12em)}] (0,0) {\small Product} node[blue!75!black, shift={(23em,2em)}] (0,0) {\small Reactants} ; 
+                \addplot  [thick,draw=green!75!black]{0.1*(1-exp(-2.9*x))};
+	             \addplot  [green!75!black, mark=*,  draw=none , samples=5]{0.1*(1-exp(-2.9*x))}; 
+
+
+        \end{axis}
+     \begin{scope}[xshift =0em, yshift =0em]
+\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-c-vs-t} \end{bf} Change of the concentration of reactants and products with time showing the average and instantaneous velocity.  };
+   \end{scope} 
+\end{tikzpicture}\end{center}

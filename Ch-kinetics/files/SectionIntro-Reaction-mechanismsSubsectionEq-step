@@ -1,0 +1,19 @@
+Often times we encounter equilibrated steps in mechanisms. Let us analyze the decomposition of ozone to produce molecular oxygen:
+\begin{center}\ce{ 2O3_{(g)} -> 3O2_{(g)}}{ \hfill $r^{Exp}=k^{Exp}\frac{[\ce{O3}]^2}{[\ce{O2}]}$} \end{center}
+This reaction proceed by means of the following mechanism the steps of which combined gives the overall reaction:
+\begin{center}(1)\hfill\ce{ O3_{(g)} <=>[$k_1$][$k_{-1}$]      O2_{(g)} + $\textcolor{red}{\ce{O_{(g)}}}$ }{   \hfill $0=k_1[\ce{O3}]-k_{-1}[\ce{O2}][\ce{O}]$} \\
+(2)\hfill\ce{$\textcolor{red}{\ce{O_{(g)}}}$ + O3_{(g)} ->[$k_2$] 2O2_{(g)}}{  \hfill(\small slow)\hfill $r_2=k_2[\ce{O}][\ce{O3}]$} 
+\\$\mathclap{\rule{8cm}{0.4pt}}$\\
+(1)+(2)\hfill\ce{ 	O3_{(g)} +  $\textcolor{red}{\cancel{\ce{O_{(g)}}}}$  + O3_{(g)}	-> O2_{(g)} +  $\textcolor{red}{\cancel{\ce{O_{(g)}}}}$	+2O2_{(g)}	}\\{ \hfill $r^{Exp}=k^{Exp}\frac{[\ce{O3}]^2}{[\ce{O2}]}$} 
+\end{center}
+The reactant is \ce{O3}, whereas \ce{O2} is the product and \ce{O} is an intermediate. The first step, the step indicated with a double arrow,  is equilibrated, that means that the forward reaction ($\ce{->}$) proceeds fast enough in order to be able to proceed backwards ($\ce{<-}$). At this point the forwards reaction is characterize by a rate constant $k_1$ and the backwards by another rate constant $k_{-1}$. 
+Equilibrated steps are employed to compute the concentration of the reaction intermediates.
+As both reactions are equilibrated we have that the forwards and backwards reaction proceed at the same speed giving: $0=k_1[\ce{O3}]-k_{-1}[\ce{O2}][\ce{O}]$. 
+We can compute the concentration of the intermediate by means of the rate law of the equilibrated step:
+\[0=k_1[\ce{O3}]-k_{-1}[\ce{O2}][\ce{O}] \Longrightarrow	[\ce{O}]=\frac{k_1[\ce{O3}]}{k_{-1}[\ce{O2}]}\]
+Now let us calculate the expression of the experimental rate law in terms of the different mechanistic steps. 
+The second step is the rate limiting reaction so we have that:
+ \[r^{Exp}\sim r^{slow}=k_2[\ce{O}][\ce{O3}]\]
+Using the concentration of the intermediate recently calculates we have:
+ \[r^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}\frac{[\ce{O3}]^2}{[\ce{O2}]}\]
+ We have that the mechanism justifies the experimental rate law with $k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}$.

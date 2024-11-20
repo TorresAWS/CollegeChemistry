@@ -1,0 +1,7 @@
+When a reaction starts to happen, the concentration of reactants decreases with time. Half-life is the time at which the initial concentration of reactants is half its initial value. Reactions with small half-life are fast, as they take a short time to reduce the concentration of reactants to half. Differently, reactions with large half-life are slow as they need longer times to proceed. This way, the numerical value of half-life helps you compare the speed of reactions. At the same time, the half-life is a transformation of the rate constant into a time value. That is, by rate constants can be converted into half-lives.
+There is a single half-life formula for each reaction order and Table \ref{tab:Table-integral-formula} reports some half-life formulas. 
+If you wonder, where these formulas come from, one can obtain all these formulas by using $[A]=[A]_0/2$ in any integral rate law. For example, for a first order reaction we have that:
+\[\text{Ln}[\ce{A}]=-k\cdot t+\text{Ln}[\ce{A}]_0 \]
+When $[A]=[A]_0/2$ we have that $t=t_{\nicefrac{1}{2}}$ and therefore:
+\[\text{Ln}\Bigg(\frac{[A]_0/2}{[\ce{A}]_0}\Bigg)=-k\cdot t_{\nicefrac{1}{2}}\] that leads to
+\[t_{\nicefrac{1}{2}}=-\frac{\text{Ln}(0.5)}{k} \]
