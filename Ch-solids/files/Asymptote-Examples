@@ -1,0 +1,370 @@
+
+
+\begin{asy}
+//[width=2cm] 
+import three;
+size(100);
+int d = 50;
+currentprojection=perspective(300,-650,500,center=true);
+// define two types of ions
+surface iona = scale3(20)*unitsphere;
+surface ionb = scale3(25)*unitsphere;
+// surface properties and color of the ions
+material White = material(diffusepen=gray(0.4),emissivepen=gray(0.6));
+// style of lines connecting ions
+pen thick=linewidth(1);
+draw(shift(d*(1,1,1))*iona,White);
+draw(shift(d*(-1,1,1))*iona,White);
+draw(shift(d*(1,-1,1))*iona,White);
+draw(shift(d*(-1,-1,1))*iona,White);
+draw(shift(d*(1,1,-1))*iona,White);
+draw(shift(d*(-1,1,-1))*iona,White);
+draw(shift(d*(1,-1,-1))*iona,White);
+draw(shift(d*(-1,-1,-1))*iona,White);
+draw(d*(-1,-1,1)--d*(-1,1,1),thick);draw(d*(-1,-1,1)--d*(1,-1,1),thick);draw(d*(1,-1,1)--d*(1,1,1),thick);draw(d*(1,1,1)--d*(-1,1,1),thick);
+draw(d*(-1,-1,1)--d*(-1,-1,-1),thick);draw(d*(1,-1,1)--d*(1,-1,-1),thick);draw(d*(-1,1,1)--d*(-1,1,-1),thick);draw(d*(1,1,1)--d*(1,1,-1),thick);
+draw(d*(-1,-1,-1)--d*(-1,1,-1),thick);draw(d*(-1,-1,-1)--d*(1,-1,-1),thick);draw(d*(1,-1,-1)--d*(1,1,-1),thick);draw(d*(1,1,-1)--d*(-1,1,-1),thick);
+// for(int x=-1; x<2; ++x) {
+//   for(int y=-1; y<2; ++y) {
+//     for(int z=-1; z<2; ++z) {
+//       if(x<1) draw(d*(x,y,z)--100*(x+1,y,z),thick);
+//       if(y<1) draw(d*(x,y,z)--100*(x,y+1,z),thick);
+//       if(z<1) draw(d*(x,y,z)--100*(x,y,z+1),thick);
+//     }
+//   }
+// }
+\end{asy}
+
+
+
+
+\begin{asy}[width=5cm,height=5cm]
+
+for(int x=-1; x<2; ++x) {
+  for(int y=-1; y<2; ++y) {
+    for(int z=-1; z<2; ++z) {
+      draw(shift(100*(x,y,z))*iona,White);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+\begin{asy}[width=10cm,height=10cm]
+import three;
+currentprojection=perspective(300,-650,500,center=true);
+// define two types of ions
+surface iona = scale3(20)*unitsphere;
+surface ionb = scale3(25)*unitsphere;
+// surface properties and color of the ions
+material White = material(diffusepen=gray(0.4),emissivepen=gray(0.6));
+material Red = material(diffusepen=red,emissivepen=lightred);
+// style of lines connecting ions
+pen thick=linewidth(2);
+for(int x=-1; x<2; ++x) {
+  for(int y=-1; y<2; ++y) {
+    for(int z=-1; z<2; ++z) {
+      draw(shift(100*(x,y,z))*iona,White);
+    }
+  }
+}
+for(int x=-1; x<2; ++x) {
+  for(int y=-1; y<2; ++y) {
+    for(int z=-1; z<2; ++z) {
+      if(x<1) draw(100*(x,y,z)--100*(x+1,y,z),thick);
+      if(y<1) draw(100*(x,y,z)--100*(x,y+1,z),thick);
+      if(z<1) draw(100*(x,y,z)--100*(x,y,z+1),thick);
+    }
+  }
+}
+for(int x=-1; x<2; x+=2) {
+  for(int y=-1; y<2; y+=2) {
+    for(int z=-1; z<2; z+=2) {
+      draw(shift(50*(x,y,z))*ionb,Red);
+    }
+  }
+}
+\end{asy}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{asy}
+import three;
+settings.render=8;
+settings.prc=false;
+size(10cm);
+
+//currentprojection=perspective((45,45,30));
+currentprojection = orthographic((3,6,1));
+
+material sphereCcolor = material(diffusepen=black, ambientpen=gray(0.1), specularpen=white);
+material cylcolor = material(diffusepen=white, ambientpen=white);
+
+real cylRadius = 0.1;
+real sphereRadius = 0.25;
+
+void drawRod(triple a, triple b) {
+  surface rod = extrude(scale(cylRadius)*unitcircle, axis=length(b-a)*Z);
+  triple orthovector = cross(Z, b-a);
+  if (length(orthovector) > .01) {
+    real angle = aCos(dot(Z, b-a) / length(b-a));
+    rod = rotate(angle, orthovector) * rod;
+  }
+  draw(shift(a)*rod, surfacepen=cylcolor);
+}
+
+void drawCarbon(triple center) {
+     draw(shift(center)*scale3(sphereRadius)*unitsphere, surfacepen=sphereCcolor);
+}
+
+triple Aa = (0,0,0);
+triple Ab = 4X;
+triple Ac = 4Y;
+triple Ad = 4X+4Y;
+triple Ae = 2X+2Y;
+triple Ba = 1X+1Y+1Z;
+triple Bb = 3X+3Y+1Z;
+triple Ca = 2X+2Z;
+triple Cb = 2Y+2Z;
+triple Cc = 4X+2Y+2Z;
+triple Cd = 2X+4Y+2Z;
+triple Da = 3X+1Y+3Z;
+triple Db = 1X+3Y+3Z;
+triple Ea = 4Z;
+triple Eb = 4X+4Z;
+triple Ec = 4Y+4Z;
+triple Ed = 4X+4Y+4Z;
+triple Ee = 2X+2Y+4Z;
+
+drawRod(Ba,Aa);
+drawRod(Ba,Ae);
+drawRod(Bb,Ae);
+drawRod(Bb,Ad);
+drawRod(Ba,Ca);
+drawRod(Ba,Cb);
+drawRod(Bb,Cc);
+drawRod(Bb,Cd);
+drawRod(Da,Ca);
+drawRod(Da,Cc);
+drawRod(Db,Cb);
+drawRod(Db,Cd);
+drawRod(Da,Eb);
+drawRod(Da,Ee);
+drawRod(Db,Ee);
+drawRod(Db,Ec);
+
+drawCarbon(Aa);
+drawCarbon(Ab);
+drawCarbon(Ac);
+drawCarbon(Ad);
+drawCarbon(Ae);
+drawCarbon(Ba);
+drawCarbon(Bb);
+drawCarbon(Ca);
+drawCarbon(Cb);
+drawCarbon(Cc);
+drawCarbon(Cd);
+drawCarbon(Da);
+drawCarbon(Db);
+drawCarbon(Ea);
+drawCarbon(Eb);
+drawCarbon(Ec);
+drawCarbon(Ed);
+drawCarbon(Ee);
+
+// Frame
+material framecolor = material(diffusepen=white, ambientpen=yellow);
+void drawFrame(triple a, triple b) {
+  surface rod = extrude(scale(.5*cylRadius)*unitcircle, axis=length(b-a)*Z);
+  triple orthovector = cross(Z, b-a);
+  if (length(orthovector) > .01) {
+    real angle = aCos(dot(Z, b-a) / length(b-a));
+    rod = rotate(angle, orthovector) * rod;
+  }
+  draw(shift(a)*rod, surfacepen=framecolor);
+  draw(shift(b)*scale3(cylRadius)*unitsphere, surfacepen=framecolor);
+}
+drawFrame((0,0,0),4X);
+drawFrame((0,0,0),4Y);
+drawFrame((0,0,0),4Z);
+drawFrame(4X,4X+4Y);
+drawFrame(4X,4X+4Z);
+drawFrame(4Y,4Y+4X);
+drawFrame(4Y,4Y+4Z);
+drawFrame(4Z,4X+4Z);
+drawFrame(4Z,4Y+4Z);
+drawFrame(4X+4Y+4Z,4Y+4Z);
+drawFrame(4X+4Z,4X+4Y+4Z);
+drawFrame(4X+4Y,4X+4Y+4Z);
+\end{asy}
+
+
+
+\begin{asy}
+import three;
+settings.render=8;
+settings.prc=false;
+size(10cm);
+
+//currentprojection=perspective((45,45,30));
+currentprojection = orthographic((3,6,1));
+
+material sphereCcolor = material(diffusepen=black, ambientpen=gray(0.1), specularpen=white);
+material cylcolor = material(diffusepen=white, ambientpen=white);
+
+real cylRadius = 0.1;
+real sphereRadius = 0.25;
+
+void drawRod(triple a, triple b) {
+  surface rod = extrude(scale(cylRadius)*unitcircle, axis=length(b-a)*Z);
+  triple orthovector = cross(Z, b-a);
+  if (length(orthovector) > .01) {
+    real angle = aCos(dot(Z, b-a) / length(b-a));
+    rod = rotate(angle, orthovector) * rod;
+  }
+  draw(shift(a)*rod, surfacepen=cylcolor);
+}
+
+void drawCarbon(triple center) {
+     draw(shift(center)*scale3(sphereRadius)*unitsphere, surfacepen=sphereCcolor);
+}
+
+triple P000 = (0,0,0);
+triple P100 = 4X;
+triple P010 = 4Y;
+triple P001 = 4Z;
+triple P011 = 4Y+4Z;
+triple P101 = 4X+4Z;
+triple P110 = 4X+4Y;
+triple P111 = 4X+4Y+4Z;
+
+drawRod(P000,P100);
+drawRod(P000,P010);
+drawRod(P000,P001);
+drawRod(P010,P011);
+drawRod(P001,P011);
+drawRod(P100,P101);
+drawRod(P001,P101);
+drawRod(P100,P110);
+drawRod(P010,P110);
+drawRod(P011,P111);
+drawRod(P101,P111);
+drawRod(P110,P111);
+
+drawCarbon(P000);
+drawCarbon(P100);
+drawCarbon(P010);
+drawCarbon(P001);
+drawCarbon(P011);
+drawCarbon(P101);
+drawCarbon(P110);
+drawCarbon(P111);
+\end{asy}
+
+
+\begin{asy}[width=5cm] 
+triple O=(0,0,0), X=(1,0,0), Y=(0,1,0), Z=(0,0,1); 
+draw(O--X,blue,Arrow3); 
+draw(O--Y,green,Arrow3); 
+draw(O--Z,red,Arrow3); 
+label("$x$",scale3(1.1)*X,blue); 
+label("$y$",scale3(1.1)*Y,green); 
+label("$z$",scale3(1.1)*Z,red); 
+
+draw(shift(1.807,1.807,1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(-1.807,1.807,1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(1.807,-1.807,1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(1.807,1.807,-1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(-1.807,-1.807,1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(-1.807,1.807,-1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(1.807,-1.807,-1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(-1.807,-1.807,-1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(-1.807,0,0)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(1.807,0,0)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(0,-1.807,0)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(0,1.807,0)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(0,0,-1.807)*scale3(1.4)*unitsphere,lightred); 
+draw(shift(0,0,1.807)*scale3(1.4)*unitsphere,lightred); 
+\end{asy}
+
+
+
+
+
+
+
+
+
+
+
+
+% You can tweak these
+\colorlet{odd plane}{black!20}
+\colorlet{even plane}{black!20}
+\def\ballradius{0.45}
+\def\DrawRow#1#2{
+    \foreach \x in {0,...,#2}
+       \shade[ball color=ball] ($(#1) +(\x, 0,0)$) circle(\ballradius);
+}
+\def\DrawOddPlane#1{ 
+  \pgfmathsetmacro{\aux}{#1-1}
+  \colorlet{ball}{odd plane}
+  \foreach \z in {0,...,#1} {
+      \DrawRow{0,0,\z}{#1}
+      \if\z#1\relax\else
+      \DrawRow{0.5,0,\z+0.5}{\aux}
+      \fi
+  }
+}
+\def\DrawEvenPlane#1{ 
+  \pgfmathsetmacro{\aux}{#1-1}
+  \colorlet{ball}{even plane}
+  \foreach \z in {0,...,#1} {
+      \DrawRow{0.5,0,\z}{\aux}
+      \if\z#1\relax\else
+      \DrawRow{0,0,\z+0.5}{#1}
+      \fi
+  }
+}
+\begin{tikzpicture}
+   \foreach \y in {0,...,3} {
+      \begin{scope}[yshift=\y cm]
+          \DrawOddPlane{3}
+      \end{scope}
+      \if\y3\relax\else
+      \begin{scope}[yshift=\y cm + 0.5cm]
+          \DrawEvenPlane{3}
+      \end{scope}
+      \fi
+  }
+    \pgfmathsetmacro{\cubex}{1}
+    \pgfmathsetmacro{\cubey}{1}
+    \pgfmathsetmacro{\cubez}{1}
+    \draw (3,3,3) -- ++(-\cubex,0,0) -- ++(0,-\cubey,0) -- ++(\cubex,0,0) -- cycle;
+    \draw (3,3,3) -- ++(0,0,-\cubez) -- ++(0,-\cubey,0) -- ++(0,0,\cubez) -- cycle;
+    \draw (3,3,3) -- ++(-\cubex,0,0) -- ++(0,0,-\cubez) -- ++(\cubex,0,0) -- cycle;
+\end{tikzpicture}
+

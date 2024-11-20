@@ -1,0 +1,14 @@
+%%%%%%%%%%%%%%%%%%% PERIODIC TABLE
+ \begin{fullwidth}\begin{center}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-The-periodic-table}
+    
+    \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
+\import{../\chapterlabel/files/}{Figure-The-periodic-table-data}
+
+}\end{minipage}
+  \begin{tikzpicture}   \node[text width=12cm, fontscale=.8, shift={(0em,-0em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-The-periodic-table} \end{bf} The periodic table of the elements };
+     \end{tikzpicture}
+\end{center} \end{fullwidth}
+%%%%%%%%%%%%%%%%%%% PERIODIC TABLE
+
