@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TorresAWS/CollegeChemistry">
-    <img src="images/logo.png" alt="Logo" width="100" height="200">
+    <img src="images/logo.png" alt="Logo" width="200" height="300">
   </a>
 
   <h3 align="center">College Chemistry Open Textbook</h3>
