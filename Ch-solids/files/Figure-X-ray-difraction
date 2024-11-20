@@ -1,0 +1,94 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+ \begin{center}\resizebox{1\textwidth}{!}{\begin{tikzpicture}
+    [x={(0.866cm,-0.5cm)}, y={(0.866cm,0.5cm)}, z={(0cm,1cm)}, scale=1.0,
+%    [x={(1cm,0cm)}, y={(0.866cm,0.5cm)}, z={(0cm,1cm)}, scale=1.0,
+    %Option for nice arrows
+    >=stealth, %
+    inner sep=0pt, outer sep=2pt,%
+    axis/.style={thick,->},
+    wave/.style={thick,color=#1,smooth},
+    polaroid/.style={fill=black!60!white, opacity=0.3},]
+
+    % Colors
+    \colorlet{darkgreen}{green!50!black}
+    \colorlet{lightgreen}{green!80!black}
+    \colorlet{darkred}{red!50!black}
+    \colorlet{lightred}{red!80!black}
+
+    % Frame
+ 
+%
+%    \draw[thick,dashed] (-2,0,0) -- (O);
+\draw (.5,.5) to [bend right=45]  (0,0.8) node[shift={(1em,-0.6em)}] {$\theta$};
+\draw (-.7,-.7) to [bend right=-45]  (-1.2,-0.1) node[shift={(-0.9em,-0.9em)}] {$\theta$};
+\draw[draw=none,fill=blue,fill opacity=0.2] (-30em,0) rectangle (31em,-15em);
+\begin{scope}[rotate=65, shift={(0em,0em)}]
+   \coordinate (O) at (0, 0, 0);
+    \draw  (O) -- +(14, 0,   0) node [right] { };
+%    \draw[axis] (O) -- +(0,  14, 0) node [right] {y};
+    \draw (O) -- +(0,  0,   14) node [above] { };
+\draw[wave=blue, variable=\x,samples at={0,0.25,...,10}]
+    plot (\x,{sin(2*\x r)},0)node[anchor=north, shift={(0em,1em)}]{\huge Reflected x-ray};
+    \draw[wave=blue, variable=\z,samples at={0,0.25,...,10}]
+    plot (0,{sin(2*\z r)},\z)node[anchor=north,shift={(0em,1em)}]{\huge Incident x-ray};
+    \draw[fill=black] (O) circle (1mm) node[shift={(-0em,2em)}] {A};
+        \draw[fill=black] ([shift={(-3.7em,8em)}]O) circle (1mm) ;
+        \draw[fill=black] ([shift={(-7.9em,17em)}]O) circle (1mm) ;
+        \draw[fill=black] ([shift={(-12em,26em)}]O) circle (1mm) ;
+     \draw[fill=black] ([shift={(3.7em,-8em)}]O) circle (1mm) ;
+        \draw[fill=black] ([shift={(7.9em,-17em)}]O) circle (1mm) ;
+        \draw[fill=black] ([shift={(12em,-26em)}]O) circle (1mm) ;
+    \draw (O) -- +(12em,-26em) node [above] { };
+    \draw (O) -- +(-12em,26em) node [above] { };
+
+
+\end{scope}
+
+\begin{scope}[rotate=65, shift={(-4em,-10.2em)}]
+%   \coordinate (O) at (0, 0, 0);
+%    \draw (O) -- +(0,  0,   14) node [above] { };
+\draw[wave=green, variable=\x,samples at={0,0.25,...,10}] plot (\x,{sin(2*\x r)},0)node[anchor=north]{ };
+\end{scope}
+
+\begin{scope}[rotate=65, shift={(-12em,4em)}]
+    \draw[wave=green, variable=\z,samples at={0,0.25,...,10}]
+    plot (0,{sin(2*\z r)},\z)node[anchor=north]{ };
+\end{scope}
+
+\begin{scope}[rotate=65, shift={(-12em,-5.5em)}]
+   \coordinate (O) at (0, 0, 0);
+    \draw  (0em,0,0) -- +(20, 0,   0) node [right] { };
+        \draw (O) -- +(0,  0,   14) node [above] { };
+
+    \end{scope}
+    \begin{scope}[rotate=0, shift={(-0em,-0em)}]
+            \draw (O) -- +(0,  0,   4.6) --+(-1.75,  -1.75,   1.4)    node[shift={(-0em,-1em)}] {B};
+            \draw (O) -- +(0,  0,   4.6) --+(1.52,  1.52,   1.85) node[shift={(-0em,-1em)}] {D} node[rotate=42,shift={(-4em,2em)}] {d sin $\theta$} node[rotate=-30,shift={(-8em,-7.8em)}] {d sin $\theta$};
+              \draw[fill=black] ( O) circle (1mm) node[shift={(-0em,-1em)}] {C} node[shift={(1em,6em)}] {d};
+
+  \draw[fill=black] ([shift={(9.2em,0em)}]O) circle (1mm) ;
+  \draw[fill=black] ([shift={(18.4em,0em)}]O) circle (1mm) ;
+  \draw[fill=black] ([shift={(27.6em,0em)}]O) circle (1mm) ;
+  \draw[fill=black] ([shift={(-9.2em,0em)}]O) circle (1mm) ;
+  \draw[fill=black] ([shift={(-18.4em,0em)}]O) circle (1mm) ;
+  \draw[fill=black] ([shift={(-27.6em,0em)}]O) circle (1mm) ;
+    \draw (O) -- +(27.6em,0em) node [above] { };
+    \draw (O) -- +(-27.6em,0em) node [above] { };
+        \end{scope}
+%\draw [shift={(-0em,-1.5em)}](1,0) arc(15:-38:1) node[shift={(1em,-0.6em)}] {$\theta$};
+%\draw [shift={(-5em,-1.5em)}](1,0) arc(-135:0:.4) node[shift={(-1.3em,-0.6em)}] {$\theta$};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (6em,3em);
+\coordinate (magnifying glass) at (9em,17.5em);
+\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=4.5em, fill overzoom image=../Ch-solids/figure16]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\huge X-ray diffraction pattern};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{tikzpicture}}\end{center}
+
+\begin{tikzpicture}
+\node[text width=12cm, fontscale=.3] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Reflection of x-rays in two different lattice points separated by a distance. The incident waves are in phase--maximums and minimums overlap-- but the reflected waves are only in face when the different of distances traveled by both is a integral number of wavelengths. In the image $BC+CD=2d sin\theta$.};
+
+\end{tikzpicture}

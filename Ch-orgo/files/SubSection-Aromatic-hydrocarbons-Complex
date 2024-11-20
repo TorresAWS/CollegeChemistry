@@ -1,0 +1,13 @@
+Benzene rings can fuse forming complex aromatic rings as shown below. Naphthalene was used for the manufacturing of mothballs, whereas anthracene is used for the production of dyes. Phenanthrene is a precursor of synthetic drugs. 3,4-benzpyrene is an active carcinogen found in smoke and smog.
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{**6(------)}\chemfig{**6(-----)}  };
+\node at (0,-1.2)  {\textcolor{blue}{Naphthalene  }};
+\node at (4,0) { \chemfig{**6(------)}\chemfig{**6(------)}\chemfig{**6(------)}  };
+\node at (4,-1.2) {\textcolor{blue}{Anthacene  }};
+\node at (8,0) { \chemfig{**6(--**6(---**6(-----)--)----)}   };
+\node at (8,-1.2) {\textcolor{blue}{Phenanthrene  }};
+\node at (0,-3) { \chemfig{**6(--**6(--**6(-----)-**6(-**6(-----)----)--)----)}   };
+\node at (0,-4.2) {\textcolor{blue}{Phenanthrene  }};
+\node at (5,-3) { \chemfig{**6(--**6(---**6(-**6(-----)----)--)----)}   };
+\node at (5,-4.2) {\textcolor{blue}{Chrysene  }};
+\end{tikzpicture}\end{center}

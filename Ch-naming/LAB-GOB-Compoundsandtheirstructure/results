@@ -1,0 +1,128 @@
+
+\vspace{0.2cm}{\large \bfseries 1. Lewis structure of molecules}
+
+\begin{enumerate}
+% PROBLEM 1
+
+\item Calculate the number of valence electrons for the following atoms and molecules:
+
+\begin{multicols}{2}
+ \begin{tabular}{ p{3cm} p{4cm}    }
+    \ce{N}&\rule{4cm}{0.4pt}    \\
+      \ce{O}  &\rule{4cm}{0.4pt}    \\
+    \ce{P} &\rule{4cm}{0.4pt}    \\
+     \ce{Br}&\rule{4cm}{0.4pt}    \\
+\end{tabular}
+
+
+ \begin{tabular}{ p{3cm} p{3cm}    }
+    \ce{CO3^{2-}}&\rule{3.8cm}{0.4pt}    \\
+             \ce{SO4^{2-}}    &\rule{3.8cm}{0.4pt}    \\
+    \ce{ICl4^{-}} &\rule{3.8cm}{0.4pt}    \\
+     \ce{CH2Cl2}&\rule{3.8cm}{0.4pt}    \\
+\end{tabular}
+\end{multicols}\vspace{1cm}
+
+\item Draw the lewis structure of the following compounds: \ce{H2O},  \ce{HF},  \ce{HCl}.
+\begin{multicols}{3}
+ \begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\end{multicols}
+
+
+
+\item Draw the lewis structure of the following compounds and indicate their polarities: \ce{CH4},  \ce{CH2Cl2},  \ce{CHCl3}.
+\begin{multicols}{3}
+ \begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\begin{center}\begin{tikzpicture}
+\draw[step=.45cm,gray,very thin] (-2,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\end{multicols}
+
+
+
+  
+\end{enumerate}
+ 
+
+
+
+\newgeometry{right=1in, bottom=1in, left=1in, top=1in}
+%\thispagestyle{sidebar}
+\sidebar{%
+  \vspace{1em}
+  \vspace{1cm}
+  \vfill
+  \par\vspace*{1em}
+}
+
+{\setlength\extrarowheight{2pt} % create a more open look
+\setlength\tabcolsep{3pt}      % default value: 6pt
+\begin{landscape}
+\begin{centering}
+\begin{tcolorbox}[tab2,tabularx={X|>{\hsize=5cm}Y| >{\hsize=2.9cm}Y |Y|Y|Y|Y}]%%%% FANCY COLOR TABLE
+\Large  Formula &
+\Large Lewis Structure\rot{\vspace{2.8cm}} &
+\Large  \# valence $e^-$ &
+\Large   \# $e^-$ pairs &
+\Large Geometry &
+\Large Angles &
+\Large Polar?  \\\hline
+ \Huge \ce{NH3}\rot{\hspace{3.8cm}}&   &   &   &  & &  \\\hline 
+\Huge \ce{H2O}\rot{\hspace{3.8cm}} &   &   &   &  & &  \\\hline
+ \Huge \ce{CH4}\rot{\hspace{3.8cm}}&   &   &   &  & & \\\hline 
+ \Huge \ce{CH2Cl2}\rot{\hspace{3.8cm}} &   &   &   &  & &  \\\hline 
+\end{tcolorbox}%%%% FANCY COLOR TABLE
+\end{centering}
+\end{landscape}}
+
+ 
+
+
+{\setlength\extrarowheight{2pt} % create a more open look
+\setlength\tabcolsep{3pt}      % default value: 6pt
+\begin{landscape}
+\begin{centering}
+\begin{tcolorbox}[tab2,tabularx={X|>{\hsize=5cm}Y| >{\hsize=2.9cm}Y |Y|Y|Y|Y}]%%%% FANCY COLOR TABLE
+\Large  Formula &
+\Large Lewis Structure\rot{\vspace{2.8cm}} &
+\Large  \# valence $e^-$ &
+\Large   \# $e^-$ pairs &
+\Large Geometry &
+\Large Angles &
+\Large Polar?  \\\hline
+\Huge \ce{PCl3}\rot{\hspace{3.8cm}}&   &   &   &  & &  \\\hline 
+\Huge \ce{ClO2^{-}}\rot{\hspace{3.8cm}} &   &   &   &  & &  \\\hline
+ \Huge \ce{BrO2^-}\rot{\hspace{3.8cm}}&   &   &   &  & & \\\hline 
+ \Huge \ce{CCl3^-}\rot{\hspace{3.8cm}} &   &   &   &  & &  \\\hline 
+
+\end{tcolorbox}%%%% FANCY COLOR TABLE
+\end{centering}
+\end{landscape}}
+
+
+
+
+\restoregeometry
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+
+
+
+
+
+ 
+\vspace{0.2cm}
+%\begin{center}mass \ce{NaNO3} = \begin{Form}\TextField[rotation=90,name=calorentropy123, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form} \hspace{0.2cm}moles \ce{NaNO3} = \begin{Form}\TextField[rotation=90,name=calorentropy321, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}%\end{center}
+\vspace{0.1cm}
+
+
+\begin{center}\mycircled{0} \: \: m (\ce{K})  in g=\rule{5cm}{0.4pt} \qquad \mycircled{1} \: \: $N$ (\ce{^{40}K}) in atoms=\rule{5cm}{0.4pt}\end{center}
+
+
+
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |p{3.2cm}  >{\raggedright}p{0.4cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}| }
+ \hline
+\rowcolor{black!20!white} \multicolumn{15}{|c|}{Part A   }  \\
+\hline
+ Activity, A (cpm)\vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{$\overline{A}$ (cps)} &\multicolumn{1}{c|}{$s$(cps)}   \\
+ \vspace{0.4cm}   && &   &    & &  &  &  &  &  & &  \multicolumn{1}{c|}{ \mycircled{2}} &\multicolumn{1}{c|}{ \mycircled{3}}& \multicolumn{1}{c|}{ \mycircled{4}}    \\
+\hline
+Background   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{5}}& &   &    & &  &  &  &  &  & &    &&    \\
+\hline
+Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
+\hline
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
+\hline 
+\end{tabular}
+
+ 
+
+\begin{center}\mycircled{0} \: \: m (\ce{K})  in g=\rule{5cm}{0.4pt} \qquad \mycircled{1} \: \: $N$ (\ce{^{40}K}) in atoms=\rule{5cm}{0.4pt}\end{center}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |p{3.2cm}  >{\raggedright}p{0.4cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}| }
+ \hline
+\rowcolor{black!20!white} \multicolumn{15}{|c|}{Part B   }  \\
+\hline
+ Activity, A (cpm)\vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{$\overline{A}$ (cps)} &\multicolumn{1}{c|}{$s$(cps)}   \\
+\hline
+Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
+\hline
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+\hline 
+\end{tabular}

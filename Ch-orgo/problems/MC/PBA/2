@@ -1,0 +1,17 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following functional group:
+\begin{center}\chemfig{*6(---(-NH _2)---)}\end{center}
+%\begin{center}\chemfig{*6(---(-SH)---)}\end{center}
+%\begin{center}\chemfig{*6(---(-OH)---)}\end{center}
+%\begin{center}\chemfig{*6(---(-O-CH_3)---)}\end{center}
+ \vspace{1cm}
+\end{question}\vspace{.5cm}\begin{Form}\TextField[bordercolor=black,name=\the\value{numA},width=\linewidth,height=5cm,multiline=true]{}\end{Form}\begin{solution}
+Answer \themycounter\stepcounter{mycounter}-  amine
+%Answer \themycounter\stepcounter{mycounter}-  thiol
+%Answer \themycounter\stepcounter{mycounter}-  alcohol
+%Answer \themycounter\stepcounter{mycounter}-  ether
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+
+%Ch121
+%Ch202
+%Subject: Functional groups

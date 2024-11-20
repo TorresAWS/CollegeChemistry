@@ -1,0 +1,43 @@
+
+\vspace{-0cm}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+     
+     
+ \resizebox{0.4\textwidth}{!}{%
+\begin{tikzpicture} 
+   
+  \def\nuPi{3.1459265}
+  \foreach \i in {11,10,...,0}{% This one doesn't matter
+    \foreach \j in {5,4,...,0}{% This will crate a membrane
+                               % with the front lipids visible
+      % top layer
+      \pgfmathsetmacro{\dx}{rand*0.1}% A random variance in the x coordinate
+      \pgfmathsetmacro{\dy}{rand*0.1}% A random variance in the y coordinate,
+                                     % gives a hight fill to the lipid
+      \pgfmathsetmacro{\rot}{rand*0.1}% A random variance in the
+                                      % molecule orientation      
+      \shade[ball color=red] ({\i+\dx+\rot},{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)}) circle(0.45);
+      \shade[ball color=gray] (\i+\dx,{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)-0.9}) circle(0.45);
+      \shade[ball color=gray] (\i+\dx-\rot,{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)-1.8}) circle(0.45);
+      % bottom layer
+      \pgfmathsetmacro{\dx}{rand*0.1}
+      \pgfmathsetmacro{\dy}{rand*0.1}
+      \pgfmathsetmacro{\rot}{rand*0.1}
+      \shade[ball color=gray] (\i+\dx+\rot,{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)-2.8}) circle(0.45);
+      \shade[ball color=gray] (\i+\dx,{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)-3.7}) circle(0.45);
+      \shade[ball color=gray] (\i+\dx-\rot,{0.5*\j+\dy+0.4*sin(\i*\nuPi*10)-4.6}) circle(0.45);
+    }
+  }
+  \draw [ultra thick,blue,<->, shift={(17em,-1em)}] (0,0) -- (2,0) ;
+    \draw [ultra thick,blue, ->, shift={(17em,-1em)}] (1,0) -- (1,-1) ;
+\begin{scope}[shift={(0em,-9em)}]
+  \draw [ultra thick,blue,<->, shift={(17em,0em)}] (0,0) -- (2,0) ;
+    \draw [ultra thick,blue, <->, shift={(17em,0em)}] (1,1) -- (1,-1) ;
+\end{scope}
+  
+\end{tikzpicture}}
+\begin{tikzpicture} \node[text width=12cm, fontscale=.8, shift={(3em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A representation of surface (red spheres) and bulk (blue spheres) liquid molecules as well as two types of meniscus: a concave and a convex meniscus, typical of water and mercury respectively. Surface molecules are pulled inwards creating the surface tension whereas bulk molecules are not.};
+\end{tikzpicture}
+  \end{center}
+

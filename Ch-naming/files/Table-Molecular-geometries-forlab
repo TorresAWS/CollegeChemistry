@@ -1,0 +1,52 @@
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Molecular-geometries} Molecular geometries } \\
+
+\midrule
+
+Electron  &Electron-group  geometry   & Bonded   & Lone  &   ABE Code & Molecular shape & Bond Angle & 3D model    \\
+groups  &   & atoms  & pairs  &     &  &  &     \\
+  (AEs) &   &   (Bs) &   (Es)&     &  &  &     \\
+\midrule
+ 2    &Linear    &2   &0    &\ce{AB2} &  Linear      &  $180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom1}\end{minipage}     \\
+
+3     & Trigonal Planar  &3   &0   &\ce{AB3} &  Trigonal Planar      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=60mm]{{\chapterpathtocontent}/{\chapterlabel}/geom2}\end{minipage}  \\
+
+3    &Trigonal Planar   &2   &1   &\ce{AB2E} &  Bent      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom3}\end{minipage}  \\
+
+4     & Tetrahedral  &4   &0   &\ce{AB4} &  Tetrahedral      &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom4}\end{minipage}   \\
+
+4      &Tetrahedral   &3   &1    &\ce{AB3E} &  Trigonal pyramidal    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom5}\end{minipage}     \\
+
+4     &Tetrahedral   &2   &2  & \ce{AB2E2} &  Bent    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom6}\end{minipage}          \\
+
+5     &trigonal bipyramidal   &5   &0  & \ce{AB5} &  trigonal bipyramidal    &  $90^{\circ}$, $120^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom7}\end{minipage}          \\
+
+6     &octahedral   &6   &0  &  \ce{AB6} & octahedral   &  $90^{\circ}$, $180^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom8}\end{minipage}         \\
+
+5     &trigonal bipyramidal   &4   &1   & \ce{AB4E} &  see-saw      &   180$^{\circ}$,120$^{\circ}$, 90$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom9}\end{minipage}\\
+
+5     &trigonal bipyramidal   &3   &2   &\ce{AB3E2} &  T-shaped     &  90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom10}\end{minipage}\\
+
+5     &trigonal bipyramidal   &2   &3  & \ce{AB2E3} &  Linear    & 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom11}\end{minipage}\\
+
+6     &octahedral    &5   &1  & \ce{AB5E} &  square pyramidal     &  90$^{\circ}$      &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom12}\end{minipage}\\
+
+6     &octahedral    &4   & 2  &\ce{AB4E2} &  square planar   & 90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom13}\end{minipage}\\
+%ABE Code & Molecular shape & Bond Angle & 3D model  & ABE Code & Molecular shape & Bond Angle & 3D model \\
+%\midrule
+%\ce{AB2} &  Linear      &  $180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom1}\end{minipage}   & \ce{AB4E} &  see-saw      &   180$^{\circ}$,120$^{\circ}$, 90$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom9}\end{minipage}\\\ce{AB3} &  Trigonal Planar      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=60mm]{{\chapterpathtocontent}/{\chapterlabel}/geom2}\end{minipage}& \ce{AB3E2} &  T-shaped     &  90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom10}\end{minipage}\\
+%\ce{AB2E} &  Bent      &  $120^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom3}\end{minipage}& \ce{AB2E3} &  Linear    & 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom11}\end{minipage}\\
+%
+%\ce{AB4} &  Tetrahedral      &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom4}\end{minipage} & \ce{AB5E} &  square pyramidal     &  90$^{\circ}$      &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom12}\end{minipage}\\
+%
+%  \ce{AB3E} &  Trigonal pyramidal    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom5}\end{minipage}   & \ce{AB4E2} &  square planar   & 90$^{\circ}$, 180$^{\circ}$       &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom13}\end{minipage}\\
+%\ce{AB2E2} &  Bent    &  $109^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom6}\end{minipage}   &        &       &       &       \\
+%\ce{AB5} &  trigonal bipyramidal    &  $90^{\circ}$, $120^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom7}\end{minipage}   &        &       &       &       \\
+%
+%\ce{AB6} &  octahedral   &  $90^{\circ}$, $180^{\circ}$,$180^{\circ}$    &   \begin{minipage}{.1\textwidth}\includegraphics[width=\linewidth, height=40mm]{{\chapterpathtocontent}/{\chapterlabel}/geom8}\end{minipage}   &        &       &       &       \\
+\bottomrule
+\end{tabular} 
+

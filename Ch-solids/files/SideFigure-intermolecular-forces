@@ -1,0 +1,12 @@
+\begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{../{\chapterlabel}/figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Polymer molecules interact by means of dispersion};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=8cm, height=4cm,keepaspectratio]{../{\chapterlabel}/figure18}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Fritz London a german physicist is responsible for the name of London forces};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm,keepaspectratio]{../{\chapterlabel}/figure19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Flickr} ;
+\node[text width=5cm] at ([yshift=0.3cm]a.north) {\mytriangle{red}geckos stick because of the van der Waals force};
+\end{tikzpicture}
+\end{marginfigure}
+

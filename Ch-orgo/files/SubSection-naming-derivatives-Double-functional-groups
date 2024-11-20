@@ -1,0 +1,10 @@
+Yyou must use the \emph{di} prefix before the \emph{ol} ending if a chemical has two alcohol groups, while preserving the \emph{-ane} ending. For example, a pentane hydrocarbon with two alcohol groups on carbon 2 would be named 2,2-pentanediol. The same rule applies for other functional groups and even double or triple bonds:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0)  {  \chemfig{  =[:0]-[:-45]=[:0]-[:45] }   };
+\node at (0,-1.5)  {\textcolor{blue}{cis-2,4-pentanediene  }};
+\node at (5,0)  {  \chemfig{ -[:45]((=[:90]O)(-[:-45]-[:45](-[:-45])(=[:90]O)))   }   };
+
+\node at (5,-1.5) {\textcolor{blue}{2,4-pentanedione  }};
+\node at (10,0) {  \chemfig{  -[:45]-[:-45]-[:45]((-[:45]OH)(-[:135]OH)-[:-45])   }   };
+\node at (10,-1.5) {\textcolor{blue}{2,2-pentanediol  }};
+\end{tikzpicture}\end{center}

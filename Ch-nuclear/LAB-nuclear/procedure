@@ -1,0 +1,59 @@
+\subsection*{Part A: Background measurement}
+    \begin{steps}
+        \newstep[] Obtain a Geiger counter. Turn it on and let it warm up for five minutes.
+        \newstep[] Start the Geiger counter. Set up the measurement time to 60 seconds and the measuring voltage according to your professor's instructions. Mind to select a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up.) and write down the background radioactivity in counts per minute in the table below.
+        \newstep[] Measure the background radiation by reading the meter 10 times. 
+          \newstep[]  Compute the average activity and standard deviation.
+    \end{steps}        
+\subsection*{Part B: Calculation of $t_{1/2}$ for a set of mass measurements}
+ 
+        
+          \begin{steps}  
+     \newstep[] Weight between 10 and 11 grams of KCl in a scale. Write down your measurement. Place the sample in a 100mL beaker.
+    \newstep[] With the help of a stand, clamp the counter as close a possible to the sample but without touching the sample. Be very careful with the membrane at the end of the counter as it is very delicate and tears easily.
+            \newstep[] Set up the measurement time to 60 seconds and the measuring voltage according to your professor's instructions. Mind to select a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up.) and write down the activity in counts per minute in the Results section.
+            \newstep[] Measure radiation by reading the meter 10 times. 
+   %            \import{\labname/}{goodlabpractice}
+        \newstep[] Repeat Part A for a set of K masses between: 14-15g, 19-20g, and 24-25g.
+        \newstep[] For each sample compute the average activity $\overline{A}$ in cps and the number of 40-K atoms in the sample, $N$.
+        \newstep[] Plot $\overline{A}$ in cps in the vertical axis versus $N$ in the horizontal axis. 
+         \newstep[] Compute the half-life for each mass measurement with its average.
+          \newstep[] From the slope of your plot calculate the half-life of the isotope.
+            \newstep[] Compare the calculated half-lives with the experimental value.
+             \end{steps}
+
+
+ 
+
+
+\section*{Calculations}
+\mycircled{0} The mass of KCl your weighted, $m$.\vspace{0.5cm}\\
+\mycircled{1} The number of 40-K atoms in you sample, $n$, given its abundance is 0.012\%:
+\[ N=\frac{m\cdot N_o\cdot f}{AW}= \;\;\mycircled{0} \;\;\cdot 6.02\times 10^{23}\cdot 0.00012 \cdot 39.0983 / 74.5   	\]
+\vspace{0.5cm}\\
+\mycircled{2} The average activity in cpm.\vspace{0.5cm}\\
+\mycircled{3}The average activity in cps:
+\[ A (cps)= \;\;\mycircled{2} \;\; / 60	\]
+\vspace{0.5cm}\\
+\mycircled{4} The standard deviation in cps.\vspace{0.5cm}\\
+\mycircled{5} These are the activity values in cpm for the background (without K).\vspace{0.5cm}\\
+\mycircled{6} These are the activity values in cpm for the sample.\vspace{0.5cm}\\
+\mycircled{7} These are the activity values in cpm for the sample without the background. You can susbtract the average value and the standard deviation.
+\[   \;\;\mycircled{6} \;\;\ - \;\;\mycircled{5} \;\;\ 	\]
+\vspace{0.5cm}\\
+\mycircled{8} Calculated half-life of the isotope in years (the one measured in the experiment). In the formula below you need to use the Activity in cps.
+\[   t^{calc.}_{1/2}=\frac{   0.693\cdot \;\;\mycircled{1} \;\; }{ \;\;\mycircled{7} \;\;   \cdot 31536000  } 	\]
+\vspace{0.5cm}\\
+\mycircled{9} The sum of activity times mass and mass squared\vspace{0.5cm}\\
+\mycircled{10} The average half-life\vspace{0.5cm}\\
+\mycircled{11} Half-life calculated by means of a linear regression \vspace{0.5cm}\\
+\[ t^{calc.}_{1/2} (LR)= \frac{0.693}{31536000}\times   \frac{\sum N^2}{\sum A\cdot N}\]
+\mycircled{12} Experimental half-life of the isotope in years (the one obtained from the tables)\vspace{0.5cm}\\
+\mycircled{13} The percent error \vspace{0.5cm}\\
+
+
+
+
+
+
+
