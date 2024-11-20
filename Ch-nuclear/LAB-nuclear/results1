@@ -1,0 +1,66 @@
+%
+%\begin{center}\mycircled{0} \: \: m (\ce{K})  in g=\rule{5cm}{0.4pt} \qquad \mycircled{1} \: \: $N$ (\ce{^{40}K}) in atoms=\rule{5cm}{0.4pt}\end{center}
+%\setlength{\tabcolsep}{10pt}
+%\begin{tabular}{ |p{3.2cm}  >{\raggedright}p{0.4cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}| }
+% \hline
+% Activity, A (cpm)\vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{$\overline{A}$ (cps)} &\multicolumn{1}{c|}{$s$(cps)}   \\
+%\hline
+%Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
+%\hline
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+%\hline 
+%\end{tabular}
+
+ 
+
+\begin{center}\mycircled{0} \: \: m (\ce{K})  in g=\rule{5cm}{0.4pt} \qquad \mycircled{1} \: \: $N$ (\ce{^{40}K}) in atoms=\rule{5cm}{0.4pt}\end{center}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |p{3.2cm}  >{\raggedright}p{0.4cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}| }
+\hline
+ Activity, A (cpm)\vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{$\overline{A}$ (cps)} &\multicolumn{1}{c|}{$s$(cps)}   \\
+\hline
+Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
+\hline
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+\hline 
+\end{tabular}
+
+
+
+
+\begin{center}\mycircled{0} \: \: m (\ce{K})  in g=\rule{5cm}{0.4pt} \qquad \mycircled{1} \: \: $N$ (\ce{^{40}K}) in atoms=\rule{5cm}{0.4pt}\end{center}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |p{3.2cm}  >{\raggedright}p{0.4cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}| }
+\hline
+ Activity, A (cpm)\vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{$\overline{A}$ (cps)} &\multicolumn{1}{c|}{$s$(cps)}   \\
+\hline
+Sample + Background \vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{6}}& &   &    & &  &  &  &  &  & &    & &   \\
+\hline
+%Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& &   &    & &  &  &  &  &  & &    &&    \\
+Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}{c|}{ }    &&&    \\
+\hline 
+\end{tabular}
+%\begin{center}\mycircled{11} \: \: $t^{calc.}_{1/2}$ (years)=\rule{3cm}{0.4pt} \qquad\mycircled{9}  $t^{theory}_{1/2}$ (years)=\rule{3cm}{0.4pt}  \qquad \mycircled{10} \% error=\rule{3cm}{0.4pt}\end{center}
+
+
+ \begin{center}\begin{tabular}{ |  p{2.0cm}|p{2.0cm}   |p{2.0cm}   | p{2.0cm} | p{2.0cm} |}
+\hline
+N (atoms)  &$t_{1/2}$ (s) & A  (cpm)    & \multicolumn{1}{c|}{$A\cdot N$}    & $N^2$\\
+
+\multicolumn{1}{|c|}{ \mycircled{1}} &\multicolumn{1}{c|}{ \mycircled{8}}&\multicolumn{1}{c|}{\mycircled{2}}   &  \multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{2}}    &\multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{1}  } \\
+\hline
+&   &&    & \\[10pt]\hline
+&   &&    & \\[10pt]\hline
+&   &&    & \\[10pt]\hline
+&   &&    & \\[10pt]
+\hline\hline
+ \multicolumn{2}{r}{} & \multicolumn{1}{r|}{ \mycircled{9} \: Sum ($\sum$)= }  & \multicolumn{1}{l|}{ } & \multicolumn{1}{l|}{ }\\[11pt]
+ \cline{4-5}
+%\multicolumn{3}{r}{} & \multicolumn{1}{r|}{ \mycircled{11} \: $t_{1/2}$= }  & \multicolumn{1}{l|}{ } \\[10pt]
+%\cline{5-5}
+\end{tabular}\end{center}
+\begin{center}\mycircled{10} \: \: $\overline{t}^{calc.}_{1/2}$ (years)=\rule{2cm}{0.4pt}   \qquad\mycircled{12}  $t^{theory}_{1/2}$ (years)=\rule{2cm}{0.4pt}  \qquad \mycircled{13} \% error=\rule{2cm}{0.4pt}\end{center}
+\begin{center}\mycircled{11} \: \: $t^{calc.}_{1/2}(LR)$ (years)=\rule{2cm}{0.4pt}   \qquad\mycircled{12}  $t^{theory}_{1/2}$ (years)=\rule{2cm}{0.4pt}  \qquad \mycircled{13} \% error=\rule{2cm}{0.4pt}\end{center}
+
+\newpage

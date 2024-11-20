@@ -1,0 +1,36 @@
+
+\import{\pathtofiles/files/}{SectionIntro-Radiation-particles-and-radioisotopes}
+\foreach \n in {SubSection-Radiation-particles-and-radioisotopes-alpha-radiation,SubSection-Radiation-particles-and-radioisotopes-beta-radiation,SubSection-Radiation-particles-and-radioisotopes-gamma-radiation,SubSection-Radiation-particles-and-radioisotopes-protons,SubSection-Radiation-particles-and-radioisotopes-positrons,SubSection-Radiation-particles-and-radioisotopes-neutrons}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+
+ \begin{minipage}[b]{30cm}
+ \begin{adjustbox}{center, width=0.65\columnwidth+20pt}  
+ \import{\pathtofiles/files/}{Table-Nuclear-symbols} 
+ \end{adjustbox}\end{minipage}
+
+\import{\pathtofiles/files/}{SectionIntro-Nuclear-reactions}
+\foreach \n in {SubSection-Nuclear-reactions-alpha-decay,SubSection-Nuclear-reactions-beta-decay,SubSection-Nuclear-reactions-positron-emission,SubSection-Nuclear-reactions-gamma-decay}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+ \begin{minipage}[b]{28cm}
+ \begin{adjustbox}{center, width=0.65\columnwidth+20pt}  
+ \import{\pathtofiles/files/}{Table-Halflife} 
+ \end{adjustbox}\end{minipage}
+
+
+
+ 
+ 
+\import{\pathtofiles/files/}{SectionIntro-Half-life-of-a-radioisotope}
+\foreach \n in {SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live,SubSection-Half-life-of-a-radioisotope-Quantifying-half-live,SubSection-Half-life-of-a-radioisotope-after-several-half-lives}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+  \import{\labname/}{examplebox1}
+
+ 
+
+
+
+%
+%
