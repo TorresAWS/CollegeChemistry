@@ -1,0 +1,73 @@
+Acids are considered dangerous substances and while it is true that special care must be taken when handling some of these products, many acids are used in daily life with great simplicity. For example, aspirin's active principle ingredient is acetylsalicylic acid, vinegar is a 5\% solution of acetic acid, and vitamin C is ascorbic acid.
+
+Acids are defined by Br\o nsted-Lowry as proton (\ce{H+}) donors because when dissolved in water, acids dissociate by releasing protons. Strong acids dissociate completely into two ions: the anion is the acid conjugate base and the the cation is a proton. For stoichiometric reasons, the concentration of each ion in the solution equals the initial concentration of the acid. Weak acids do not dissociate completely but, instead, only do so to a certain extent. The strength of weak acids depends on how much they dissociate, a ratio characterized by the acid dissociation constant, $K_a$.
+
+For a certain weak acid 
+\begin{center}
+\ce{HA <=> H+ + A-}
+\end{center}
+The equilibrium can be characterized by the expression:
+\[ 
+K_a = \frac{[H^+] [A^-]}{[HA]}
+\]
+where $K_a$ (capital letter) is the dissociation constant and the brackets represent the concentrations of the respective species.
+
+\subsection*{pH}
+
+The acidity depends on the concentration of \ce{H+} in the solution, which will always be a value between $10^{-14}$ and 1. To avoid using such a large and complex range, a logarithmic scale is preferred, ranging from 0 to 14.
+
+This scale is called the pH, defined by Danish biochemist S\o rensen in 1909 as the "power of Hydrogen". 
+
+\[
+pH= - log [H^+]
+\]
+
+Considering that the strength of acids is their power to generate \ce{H+}, and to compare the strength of different acids, pH should be measured.
+
+In this experiment, the pH for different solutions will be measured using three different approaches; indicators, pH paper, and a pH meter. Each of these techniques has a different accuracy. While using \textbf{pH indicators} it is only possible to determine a range for the pH, \textbf{pH paper} will provide an estimated unit, and the \textbf{pH-meter} will read down to the decimals.
+ 
+
+
+\subsection*{Indicators}
+ \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{SectionIntro-Indicators}
+  \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-How-do-they-function}
+  \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-Selecting-and-indicator}
+   \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-Litmus}
+  % \import{../\chapterlabel/problems/}{SampleProblem21}
+  \vspace{0cm} \hspace{5cm} \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Table-Indicators} 
+
+
+
+
+
+
+
+\subsection*{The experiment}
+
+The experiment today is divided into the following parts:
+ \begin{inparaenum}[i)]
+
+
+
+
+ \item Determining pH range using indicators.
+\item Determining pH using pH paper.
+\item Determining pH using a pH meter.
+ 
+ \end{inparaenum}
+
+\subsection*{Part A. Determining pH range using indicators.}
+
+A pH indicator is a chemical substance that, when added to a solution, changes its color depending on the solution's pH. The pH at which color changes is called the \textbf{equivalence point}. Some indicators have one equivalence point while others have more than one equivalence points. By using an indicator it will be possible to determine a pH range only. Combining different indicators the range can be narrowed down.
+
+  \import{\chapterlabel/}{examplebox}
+
+
+
+\subsection*{Parts B. Determining pH using pH-paper.}
+
+pH paper, or \textbf{universal pH paper} is a strip of paper impregnated with a mixture of indicators. The paper changes color smoothly for each pH value and the pH is determined by matching the color of the paper with that in a chart attached to the pH paper. In the best case, by using pH paper it will be possible to select one value for the pH, although in some situations when the color is not one in the chart, it will be possible to indicate a range of two numbers only.
+
+\subsection*{Parts C. Determining pH using a pH-meter.}
+
+pH meters are scientific instruments that measure the pH of solutions. The tool has a probe that is inserted in the liquid and measures the concentration of protons based on the voltage between two electrodes. Their use is similar to that of a conductivity-meter, and some instruments can perform both tasks. Probes need to be cleaned after each measurement to avoid contamination and should never be touched with the hands or paper towels. Calibration of the tool with solutions of known pH ensures the best accuracy. After use, probes are best kept moist, typically in distilled water. A pH meter can offer a precision down to the hundredth of the unit of pH.

@@ -1,0 +1,82 @@
+When insoluble compounds dissolve in water an equilibrium between the solid and the dissolved ions establishes. Based on the stoichiometry of the compound we will obtain a different number of moles of ions in solution.
+ 
+This experiment can be carried out in two different forms. The instructor can either give you an unknown saturated solution, or you can prepare it yourself. At the same time, the standardization of sodium thiosulfate can be carried out optionally, based on the instructor's indications.
+
+\subsection*{Solubility equilibrium}
+Insoluble compounds dissolve in small amounts in water. Solubility equilibrium is the equilibrium that describes the dissolution of an insoluble compound to produce an aqueous solution of ions. For example, in the case of silver chloride, we have:
+\begin{center}\ce{AgCl_{(s)}  <=> Ag^+_{(aq)} + Cl^-_{(aq)}}	 \end{center}
+The solubility equilibrium above represents the dissolution of the insoluble salt--a solid--to produce ions, silver, and chloride in solution. In general terms, solubility equilibriums start with a solid and generate ions in solution. To break down the insoluble compound into ions, we just need to take into account the stoichiometry of the compound. For example, for the case of Cobalt(II) phosphate, we have:
+\begin{center}\ce{Co3(PO4)2_{(s)}  <=> 3Co^{2+}_{(aq)} + 2PO4^{3-}_{(aq)}}	 \end{center}   
+
+
+\subsection*{Solubility product in terms of molarities, $K_{sp}$}
+Silver chloride, \ce{AgCl} is an insoluble compound in water which means this compound will not fully dissolve in water. Still, small quantities of the salt will indeed dissolve leading to a small amount of silver and chlorine ions. As this compound is insoluble the ion concentration will be very small. The dissociation equilibrium involved in the dissolution indicated below, is characterized by an equilibrium constant $K_{sp}$ called \emph{solubility product constant} or simply \emph{solubility product}:
+\begin{center}\ce{AgCl_{(s)}  <=> Ag^+_{(aq)} + Cl^-_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]$\end{center}
+As pure solids are not included in any equilibrium constant, the formula above does not include \ce{AgCl_{(s)}}. Hence, all solubility products simply result from the product of the molarities of the ions involved in the dissociation with the corresponding powers based on the stoichiometry of the salt. This is why the term \emph{product} is included in its name. $K_{sp}$ will have a different explicit expression depending on the formula of the insoluble compound--depending on its stoichiometry. For example, $K_{sp}$ for calcium fluoride--a 1:2 compound--would be:
+\begin{center}\ce{CaF2_{(s)}  <=> Ca^{2+}_{(aq)} + 2F^-_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ca^{2+}} \big]\cdot \big[ \ce{F^-} \big]^2$\end{center}
+Solubility products are related to the solubility of chemicals. However, the relationship is not one-on-one. In other words, a larger $K_{sp}$ does not necessarily imply a larger solubility. For example, $K_{sp}$ for \ce{PbBr2} is $6.6\times 10^{-3}$M whereas $K_{sp}$ for \ce{MgCO3} is $4.0\times 10^{-5}$M. We have that $K_{sp}$ for \ce{PbBr2} is smaller than $K_{sp}$ for \ce{MgCO3}. However, the solubility of \ce{PbBr2} is indeed larger than the solubility of \ce{MgCO3}. 
+ 
+\subsection*{Relating solubility to the concentration of ions}
+We have that insoluble compounds dissolve to produce small amounts of ions in solutions. The concentration of these ions is directly related to solubility $s$ using the stoichiometry of the compound. For example, for silver chloride--a salt with a 1:1 stoichiometry--we have that solubility has a 1 and 1 relationship with the concentration of ions:
+\[\big[ \ce{Ag^{+}} \big]=s\text{ and }\big[ \ce{Cl^{-}} \big]=s  \]
+Similarly, for barium sulfate we have that solubility has a 1:1 relationship with the concentration of ions:
+\[\big[ \ce{Ba^{+2}} \big]=s\text{ and }\big[ \ce{SO4^{-2}} \big]=s  \]
+When the stoichiometry of the compound is not 1:1 we need to include the stoichiometry coefficients in the relationship between solubility and ion concentration. For example, for \ce{Ag2SO4}--a compound with 2:1 stoichiometry, we have that
+\[\big[ \ce{Ag^{+}} \big]=2\cdot s\text{ and }\big[ \ce{SO4^{-2}} \big]=s  \]
+This is because, for every mole of silver sulfate, we produce two moles of silver--and hence the factor two--and one mole of sulfate in solution. Similarly, for \ce{Nd2(CO3)3} we have
+\[\big[ \ce{Nd^{+3}} \big]=2\cdot s\text{ and }\big[ \ce{CO3^{-2}} \big]=3\cdot s  \]
+
+
+\subsection*{Relating solubility to the concentration of ions}
+The solubility product is directly related to molar solubility $s$. We will demonstrate how to obtain this relationship using three examples.
+First, the solubility product of \ce{AgCl} is:
+\begin{center}\ce{AgCl_{(s)}  <=> Ag^{+}_{(aq)} + Cl^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^{+}} \big]\cdot \big[ \ce{Cl^{-}} \big]$\end{center}
+As the concentration of each ion, \ce{Ag^{+}} and \ce{Cl^{-}}, is related to the molar solubility of the salt, we have
+\begin{center}$K_{sp}= \big[ \ce{Ag^{+}} \big]\cdot \big[ \ce{Cl^{-}} \big]=(s)\cdot(s)=s^2$\end{center}
+Second, for silver sulfide, an insoluble compound with a more complex stoichiometry, we have:
+\begin{center}\ce{Ag2S_{(s)}  <=> 2Ag^{+}_{(aq)} + S^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^{+}} \big]^2\cdot \big[ \ce{S^{2-}} \big]=(2s)^2\cdot(s)=4s^3 $\end{center}
+Third, the solubility equilibrium and $K_{sp}$ expression for \ce{Nd2(CO3)3} is
+\begin{center}\ce{Nd2(CO3)3_{(s)}  <=> 2Nd^{3+}_{(aq)} + 3CO3^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Nd^{3+}} \big]^2\cdot \big[ \ce{CO3^{2-}} \big]^3$\end{center}
+As the ion concentrations are related to solubility, we have
+\begin{center}$K_{sp}=(2s)^2\cdot(3s)^3=108s^5 $\end{center}
+
+
+\subsection*{$K_{sp}$ in terms of molar solubility: general formula}
+For any insoluble salt \ce{A_xB_y}, we have that $K_{sp}$ is related to $s$ by means of a general formula:
+\begin{equation}
+\boxed{ K_{sp}= a\cdot s^b  }\label{\chapterlabel:equation2}
+\end{equation}
+where:
+\begin{where}
+ \item $a$  is $x^x\cdot y^y$
+ \item $b$  is $x+y$
+\end{where}
+For example, for \ce{Ba1F2} the constant $a$ would be $1^1\cdot 2^2$, that is four, whereas the constant $b$ will be $1+2$ which equals three. As such, the expression of $K_{sp}$ in terms of $s$ would be: $K_{sp}=4s^3$. This approach is useful when we need to compute the solubility product constant given the molar solubility.
+
+
+\subsection*{Molar solubility in terms of $K_{sp}$: general formula}
+We previously explored the relationship between $K_{sp}$ and molar solubility. Here we will explore the relationship between molar solubility and $K_{sp}$, simply solving for $s$ in Equation \ref{\chapterlabel:equation2}. Again, for any insoluble salt \ce{A_xB_y}, we have:
+\begin{equation}
+\boxed{ s= \Big( \frac{K_{sp}}{a} \Big)^{\frac{1}{b}}  }\label{\chapterlabel:equation3}
+\end{equation}
+where:
+\begin{where}
+ \item $a$  is $x^x\cdot y^y$
+ \item $b$  is $x+y$
+\end{where}
+For example, for \ce{Ba1F2} the constant $a$ would be $1^1\cdot 2^2$, that is four, whereas the constant $b$ will be $1+2$ which equals three. As such, the expression of $s$ in terms of $K_{sp}$ would be: $s= \big( \frac{K_{sp}}{4} \big)^{\frac{1}{3}} $. This approach is useful when the solubility product constant is given and we need to calculate the molar solubility.
+As the relation between molar solubility and $K_{sp}$ is not a one-to-one relationship, $K_{sp}$ is not directly related to solubility. For salts with a similar stoichiometry, it would be safe to compare solubilities in terms of $K_{sp}$. For example:
+\begin{center}
+\ce{CuS}	\hfill	$K_{sp}$=$8\times10^{-37}$\hfill$s=6\times10^{-19}$\\
+\ce{PbS}	\hfill	$K_{sp}$=$3\times10^{-28}$\hfill$s=1\times10^{-14}$\\
+\ce{LiF}	\hfill	$K_{sp}$=$2\times10^{-3}$\hfill$s=3\times10^{-2}$
+\end{center}
+and we have that the lower $K_{sp}$ the lower solubility. When the salt stoichiometry differs
+\begin{center}
+%\ce{CuS}	\hfill	$K_{sp}$=$8\times10^{-37}$\hfill$s=8\times10^{-19}$\\
+%\ce{Al(OH)3}	\hfill	$K_{sp}$=$3\times10^{-34}$\hfill$s=2\times10^{-9}$\\
+\ce{MgF2}	\hfill	$K_{sp}$=$5\times10^{-11}$\hfill$s=2\times10^{-4}$\\
+\ce{Li3PO4}	\hfill	$K_{sp}$=$2\times10^{-4}$\hfill$s=7\times10^{-2}$\\
+\ce{Li2CO3}	\hfill	$K_{sp}$=$8\times10^{-4}$\hfill$s=6\times10^{-2}$\\
+\end{center}
+then an increase in $K_{sp}$ does not necessarily follow an increase in solubility.

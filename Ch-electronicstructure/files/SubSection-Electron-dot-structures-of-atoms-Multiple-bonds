@@ -1,8 +1,0 @@
-Often you are going to encounter electron-dot structures like the ones below
- \begin{center}  \chemfig{\lewis{4:,N}~\lewis{0:,N}}\hspace{.05in} and\hspace{.05in} \chemfig{\lewis{3:5:,O}=\lewis{1:7:,O}} \end{center}
-in which the atoms are connected through multiple bonds, double or triple bonds. Multiple bonds are formed while constructing electron-dot structures to impose the octet rule. Look for example the lewis structure for the \ce{HCN} molecule below
-\begin{center} \chemfig{H-\chemabove{\lewis{,C}}{ }-\chemabove{\lewis{0:2:6:,N}}{  }}	 \end{center}
-In this structure, carbon does not follow the octet rule. We can enforce the octet rule by moving lone pairs from the atoms into the bond forming the structure below
-\begin{center}  \chemfig{H-\chemabove{C}{ }~\chemabove{\lewis{0:,N}}{  }} \end{center}
-In this structure both carbon and nitrogen follow the octet rule.
-Hence, we need to add one more step to the Lewis structure construction scheme: convert lone pairs of electrons into bonds to enforce the octet rule.

@@ -1,0 +1,18 @@
+\begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Cooking salt, \ce{NaCl} is a crystalline solid };
+\end{tikzpicture}
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}\ce{SiO2} is an amorphous solid };
+\end{tikzpicture}
+
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure4}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}ice, \ce{H2O(s)} is a molecular solid made of water molecules };
+\end{tikzpicture}
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure6}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Gold is an atomic solid made of gold atoms. };
+\end{tikzpicture}
+
+   \end{marginfigure}
+
+ 

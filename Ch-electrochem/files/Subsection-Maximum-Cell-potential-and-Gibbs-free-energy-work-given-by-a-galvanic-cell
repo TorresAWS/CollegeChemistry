@@ -1,0 +1,17 @@
+Galvanic cells produce electricity and hence they generate work. The maximum work produced by a galvanic cell is given by:
+ \begin{equation}
+\boxed{
+w_{max}=-n_e\cdot F\cdot \mathcal{E}_{cell}
+   }\label{\chapterlabel:equation3}
+\end{equation} 
+where:
+\begin{where}
+ \item $n_e$   is the number of moles of electrons flowing through the cell
+ \item $F$   is Faraday's constant ($96485$C/mol), a constant used to convert from moles of electrons to coulombs (a charge unit)
+ \item $w_{max}$   is the maximum work produced by the cell (in J)
+ \item $\mathcal{E} _{cell}$   is the  cell voltage (in V)
+\end{where}
+For example, a galvanic cell that produced 3V with a flow of 4 electrons can generate less than
+\[ w_{max}=-n_e\cdot F\cdot \mathcal{E}_{cell}= -4\cdot 9.6485\times 10^{4}\cdot 3=-1157820J=-116KJ \]
+ The negative sign on the formula indicates that work is being produced (and not consumed).
+

@@ -1,0 +1,20 @@
+
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{center} \begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Vapor pressure (P$^{vap}$) for several substances at different temperatures. } \\
+\midrule
+  \rowcolor{gray!10} Substance & P$^{vap}$ (mmHg) &T  &Substance & P$^{vap}$ (mmHg) &T\\ 
+\midrule
+Tungsten	 &		0.75&	3203$^\circ$C	&	Carbon dioxide	&		42753&	20$^\circ$C	\\
+Ethylene glycol	 &	3.75&	20$^\circ$C	&	Nitrous oxide 	&	42453	&25$^\circ$C	\\
+Water 	& 	17.5&	20$^\circ$C&	Carbonyl sulfide	& 	9412	&	25$^\circ$C		\\
+Propanol	& 		18.0&	20$^\circ$C	&	Propane 	 &	7584	&	27$^\circ$C	\\
+Ethanol	& 	43.7&	20$^\circ$C	&	Formaldehyde	&	3268&	20$^\circ$C	\\
+Acetaldehyde	& 	740&	20$^\circ$C&		Butane	& 	1650&	20$^\circ$C	\\
+ \bottomrule
+\end{tabular}\end{center}
+
