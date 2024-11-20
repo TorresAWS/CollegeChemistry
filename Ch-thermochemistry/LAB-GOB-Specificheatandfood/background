@@ -1,0 +1,27 @@
+ 
+
+
+
+
+
+
+
+
+  
+\foreach \i in {SectionIntro-The-first-law-of-thermodynamics-From-energy-to-temperature,SubSection-The-first-law-of-thermodynamics-From-energy-to-temperature-Heat-capacity,SubSection-The-first-law-of-thermodynamics-From-energy-to-temperature-Heat}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem4}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Specific-heat}
+
+
+
+\foreach \i in {SubSection-Calorimetry-Food-Calories,SubSection-Calorimetry-Energy-value}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+}
+\import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem13}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Energy-values}
+\begin{center}\import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Energy-values-data}
+\end{center}
+
+

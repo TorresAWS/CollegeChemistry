@@ -1,0 +1,21 @@
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{center}\begin{tabular}{lll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Boiling (BP) point of a series of hydroacids } \\
+\midrule
+ \rowcolor{gray!10} Compound & Dipole moment (Debyes) &  Boiling Point ($^\circ$C)\\
+\midrule
+\ce{C3H8} 	& \multicolumn{1}{c}{0.1} &		\multicolumn{1}{c}{-42}  \\ 
+\ce{CH3OCH3} 	&  \multicolumn{1}{c}{1.3} &	\multicolumn{1}{c}{-25} 	\\
+\ce{CH3Cl} 	&  \multicolumn{1}{c}{2.0} &	\multicolumn{1}{c}{-24} 	\\
+\ce{CH3COH}  	&  \multicolumn{1}{c}{2.7} &	\multicolumn{1}{c}{-21} \\
+\ce{CH3CN}	&  \multicolumn{1}{c}{3.9}&\multicolumn{1}{c}{	-82}  \\
+ \bottomrule
+\end{tabular}\end{center}
+
+
+
+
