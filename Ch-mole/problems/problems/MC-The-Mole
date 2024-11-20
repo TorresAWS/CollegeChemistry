@@ -1,0 +1,31 @@
+
+ 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}  
+Calculate the number of molecules in:
+\setlength{\parskip}{-0.1em}\def\MYNUMOFCOLUMNS{2}\begin{tasks}[counter-format=tsk[a]),label-width={3ex},label-align=left,](\MYNUMOFCOLUMNS) 	
+\task Du
+\task Se
+\task Chuar
+\task Penj
+\task Shash
+\task Havt
+\task Hasht
+\task Noh
+\task Dah
+\task\showtheanswermc test 
+\end{tasks}\end{question}\stepcounter{numA}%%%%%%%%%%%% 
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How many molecules are there in one mole of
+\ce{H2O}:
+%\ce{O2}:
+%\ce{NH3}:
+%\ce{CO2}:
+\setlength{\parskip}{-0.1em}\def\MYNUMOFCOLUMNS{2}\begin{tasks}[counter-format=tsk[a]),label-width={3ex},label-align=left,](\MYNUMOFCOLUMNS)
+\task\showtheanswermc  $6.02\times 10^{23}$
+\task  $6.02\times 10^{22}$
+\task  $1.20\times 10^{24}$
+\task  None of the others
+\end{tasks}\end{question}\stepcounter{numA}
