@@ -1,0 +1,59 @@
+\documentclass[cover.tex]{subfiles}
+\newcommand\chapterlabel{relativestrenthofacids}
+\begin{document} \begin{refsection}
+
+
+%%%%%%%%%%%%HEADING TITLE
+\hfill\vspace{0.2cm}\begin{center}{\large \bfseries EXPERIMENT \par\Huge
+ \import{\chapterlabel/}{title}
+ \\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+ %%%%%%%%%%%%HEADING
+ 
+ 
+\section*{Goal}
+ \import{\chapterlabel/}{goal}
+ 
+\section*{Background}
+\import{\chapterlabel/}{background}
+
+
+%\import{\chapterlabel/}{examplebox}
+%%%%%BIBLIOGRAPHY
+\printbibliography[heading=subbibliography]
+%%%%%BIBLIOGRAPHY
+%\section*{Lab Information}
+% \begin{itemize}[label={$\blacksquare$}]
+ %  \import{\chapterlabel/}{labinfo}
+% \end{itemize}
+\section*{Procedure}
+\import{\chapterlabel/}{procedure} 
+
+
+
+
+
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{   \vspace{1em}\vspace{1cm} \vfill \par\vspace*{1em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Pre-lab Questions \par\Huge
+\import{\chapterlabel/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+\import{\chapterlabel/}{prelab}\clearpage\mbox{}\clearpage
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{ \vspace{1em} \vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage\begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
+\import{\chapterlabel/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+%%%%%%%%%%%%HEADING
+ \import{\chapterlabel/}{results} 
+
+%%%%%%%%%%%%HEADING
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{\vspace{1em}\vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Post-lab Questions \par\Huge
+ \import{\chapterlabel/}{title}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
+%%%%%%%%%%%%HEADING
+ \import{\chapterlabel/}{postlab}\clearpage\mbox{}\clearpage
+
+
+ \end{refsection}
+\end{document}
