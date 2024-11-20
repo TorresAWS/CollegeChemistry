@@ -1,0 +1,25 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The following structure is called face centered unit cell. This is a cubit unit cell with one atom in each corner of the cell and atoms also in the facets of the cell. Calculate the number of atoms in the unit cell:
+\begin{center}
+\begin{tikzpicture}[scale = 0.6]
+%points on cube
+\FccUnitCell
+\end{tikzpicture}\end{center}
+
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+If you count the number of spheres in the drawing you might think the cell contains fourteen atoms. However, this is not true, as each sphere is shared by other unit cells. Remember each location of the unit cell counts as a fraction. If an atom is fully inside in the cell--not in the vertexes, neither in the faces or sides--the sharing factor is one. If an atom belongs to a vertex, the sharing factor is $\nicefrac{1}{8}$. Atoms in a face has a sharing factor of $\nicefrac{1}{2}$ and atoms in the edges have a sharing factor of $\nicefrac{1}{4}$.
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{3}{Y} }
+  \toprule
+Location &Sharing Factor, $f$   &\# atoms, $N$	& $f\times N$		   \\
+    \midrule
+   Corner & 	$\nicefrac{1}{8}$ &8		& 1 		   \\
+      Faces & 	$\nicefrac{1}{2}$&6		& 3 		   \\
+    \bottomrule
+\end{tabularx}
+By multiplying the number of atoms in each location by the sharing factor and adding we obtain the total number of atoms in the cell. Overall, this unit cell has four atoms:
+\\
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

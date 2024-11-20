@@ -1,0 +1,47 @@
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Round the following numbers to 3SFs:
+\begin{inparaenum}[(a)]
+\item 12849m 	%12900m  
+\item 5111s		%5110s 
+\item 2.4566$\times 10^{-3}$Kg	%2.45\times 10^{-3}Kg 
+\item 0.051376cm	% 0.0514cm
+\item 573456mm		%573000mm 
+\item 0.0293845$\mu$m		%0.0294$\mu$m 
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  12900m  
+\item  5110s 
+\item  2.45$\times 10^{-3}$Kg 
+\item   0.0514cm
+\item  %573000mm 
+\item  0.0294$\mu$m 
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Round the following numbers to 1SFs:
+\begin{inparaenum}[(a)]
+\item 12849m 				% 10000m  
+\item 5111s				% 5000s 
+\item 2.4566$\times 10^{-3}$Kg	%2$\times 10^{-3}$Kg
+\item 0.051376cm			%0.05cm
+\item 573456mm				%600000mm 
+\item 0.0293845$\mu$m		%0.03$\mu$m 
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   10000m  
+\item   5000s 
+\item  2$\times 10^{-3}$Kg
+\item  0.05cm
+\item  600000mm 
+\item  0.03$\mu$m 
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%

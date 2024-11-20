@@ -1,0 +1,28 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-kinetics-ideas}
+ \begin{minipage}[b]{1.5\linewidth}
+\resizebox{.9\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/figurefast1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\baselineskip=8pt \mytriangle{red}{\small Speed is a critical concept in chemistry}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=5cm, height=6cm]{../{\chapterlabel}/figurefast2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small Explosions are fast reactions}};
+
+ \node (c) at (12cm,0) {\includegraphics[width=4cm, height=6cm]{../{\chapterlabel}/figurefast3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small Sparks can activate reactions}};
+\end{tikzpicture}
+}
+%\resizebox{.9\textwidth}{!}{
+%	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/figurefast1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+%\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}{\small A ream of paper contains 500 sheets}};
+% 
+% \node (b) at (6cm,0) {\includegraphics[width=5cm, height=4.3cm]{../{\chapterlabel}/figurefast1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+%\node[text width=4cm] at ([yshift=0.2cm]b.north) {\mytriangle{red}{\small A six-pack contains 6 beers}};
+%
+% \node (c) at (12cm,.5cm) {\includegraphics[width=4.5cm, height=4.7cm]{../{\chapterlabel}/figurefast1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} Flickr} ;
+%\node[text width=4cm] at ([yshift=0.2cm]c.north) {\mytriangle{red}{\small A gross is a dozen of dozens}};
+%\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-kinetics-ideas} \end{bf} Chemical kinetics ideas };
+%
+%\end{tikzpicture}
+%}
+ \end{minipage}
+
