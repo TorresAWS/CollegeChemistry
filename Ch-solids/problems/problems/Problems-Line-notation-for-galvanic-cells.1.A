@@ -1,0 +1,9 @@
+Give the line notation for the galvanic cell below:
+ \colorlet{batteryLeftElectrode}{orange!75}
+ \colorlet{batteryRightElectrode}{red!75}
+ \colorlet{batteryLeftSolution}{orange!15}
+ \colorlet{batteryRightSolution}{red!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{Cl2}}
+ \begin{center}\begin{tikzpicture}
+ \batterya{\small \ce{Zn^{2+}(1M)}}{\small \ce{Zn} \\ \ce{ }}	{ }	{	 \small \ce{Cl^{-}(1M)}  	 }{0}{ }{ }{V}{0}    % 1 to the right
+  \end{tikzpicture}\end{center}

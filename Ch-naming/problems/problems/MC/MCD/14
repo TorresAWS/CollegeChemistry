@@ -1,0 +1,15 @@
+\item\PTs{1}
+Indicate the number of significant figures in the following number:
+%$0.123$  \iffalse $0.123$ (4SF) \fi
+%$27.0$	\iffalse  	$27.0$   ( 3SF)		\fi
+%$345.13$	\iffalse  		$345.13$( 5SF)	\fi
+$0.012$	\iffalse  		$0.012$( 2SF)	\fi
+\begin{answers}{4}\rowsep{1bp}
+\bChoices[random=true]
+\Ans0     4  \eAns
+\Ans0     3 \eAns
+\Ans0     5 \eAns
+\Ans1     2 \eAns
+\Ans0  None of the others\eAns
+ \eChoices 
+\end{answers}

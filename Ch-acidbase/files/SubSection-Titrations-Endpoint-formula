@@ -1,0 +1,17 @@
+At the \emph{equivalence point}, also called the \emph{stoichiometric point}, the moles of acid and the moles of the base are the same. A simple formula is extensively used to calculate the unknown acid concentration in a titration:
+\begin{equation}
+\boxed{n_{H}\cdot c_a\cdot V_a=n_{OH}\cdot c_b\cdot V_b }
+\label{\chapterlabel:equation13}
+ \end{equation} 
+ where:
+\begin{where}
+ \item $n_{H}\cdot c_a\cdot V_a$  and $n_{OH}\cdot c_b\cdot V_b$ are moles of protons and hydroxyls, respectively
+ \item $c_a$ and $V_a$ are acid concentration and volume respectively
+ \item $c_b$ and $V_b$ are base concentration and volume respectively
+  \item $n_{H}$ and $n_{OH}$ are the number of protons of the acid and hydroxyls of the base
+\end{where}
+ The units on this formula need to be consistent and for example, if the units of $V_a$ are $mL$ then the units of $V_b$ should also be $mL$.  This formula can be used when we titrate a known acid with a known base and we need to calculate the volume of titrant needed to reach the endpoint.
+
+Equation \ref{\chapterlabel:equation13} can also be used to identify if we have passed the endpoint in a titration. Imagine we titrate 2mL of 3M \ce{H2SO4} (titrant) with 2mL of 1M \ce{NaOH} (titrate) and we want to know if we are before, after, or at the endpoint. Using Equation \ref{\chapterlabel:equation13} we have:
+\[2\cdot 3M\cdot 2mL=1\cdot 1M\cdot V_b\]
+That is, we would need 12 mL of the base. Therefore, as we only used 2mL we would be before the endpoint and we would have not reached the endpoint.\\
