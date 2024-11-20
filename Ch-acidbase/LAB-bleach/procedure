@@ -1,0 +1,51 @@
+ 
+
+\subsection*{Part A. Trial titration.}
+\begin{steps}
+\newstep[] Obtain a solution of bleach (the instructor might give you an unknown bleach sample, if so write down the Unknown \# in the results section).
+	\newstep[] Obtain a buret, a stand, and a clamp. Rinse the buret with distilled water and make sure the valve works properly.
+	\newstep[] In a 100 mL beaker, obtain 70 mL of 0.025 M solution of \ce{Na2S2O3}. Use a small portion of the solution to rinse the buret. Discard the rinsing liquid and fill up the buret above the zero mark. Bring the volume in the buret to zero or below, discarding the excess liquid through the tip of the buret.
+	\newstep[] In a 125 mL Erlenmeyer, obtain about one inch of a spatula of KI.
+  \import{\chapterlabel/}{cautionbox}
+
+
+%	\newstep[] Obtain a 100 mL volumetric flask. From a preset buret containing the bleach sample obtain about 3 mL of the cleaning product. Use the buret accordingly, recording the initial and the final reading in your notes and using 2 decimals. Add distilled water to the flask until the volume reaches the 100 mL mark. It is recommended to start adding the distilled water from a clean beaker and add the last drops using a dropper. Put a stopper and mix the solution.
+	\newstep[] In a 50 mL beaker, obtain about 30 mL of a 10\% bleach solution.
+	\newstep[] Obtain a 10 mL transfer pipet. Pipet 10.0 mL of the bleach into the KI containing Erlenmeyer. Add 20 mL of distilled water from a graduated column and 20 drops of HCl 2 M. Homogenize the mixture by stirring the flask.
+	\newstep[] Record the buret initial reading to the closest hundredth of mL.
+	\newstep[] Place the Erlenmeyer under the buret and start the titration by adding 1 mL portions until the solution turns from brown to yellow.
+	\newstep[] Add 40 drops of a 0.2\% starch solution to the yellow solution in the Erlenmeyer.
+	\newstep[] Proceed with the titration adding the \ce{Na2S2O3} in 1 mL portions until it turns from dark color to colorless.
+	\newstep[] Record the buret final reading and calculate the volume added.
+	\newstep[] Discard the solution in the Erlenmeyer in the corresponding waste container.
+	 		
+\end{steps}
+\subsection*{Part B. Exact titration.}
+    \begin{steps}%[resume]
+	\newstep[] Refill the buret with \ce{Na2S2O3} 0.025 M. At this point you know how much volume you will need from the trial titration. You don not need to fill the buret up to zero but add a few milliliters more than the expected volume.
+	\newstep[] In a 125 mL Erlenmeyer, obtain about one inch of a spatula of KI.
+	\newstep[] Pipet 10.0 mL of the diluted bleach into the KI containing Erlenmeyer. Add 20 mL of distilled water from a graduated column and 20 drops of HCl 2 M. Homogenize the mixture by stirring the flask.
+	\newstep[] Record the buret initial reading to the closest hundredth of mL.
+	\newstep[] Place the Erlenmeyer under the buret and add 3 mL less than the volume used in the trial titration.
+	\newstep[] Add 40 drops of a 0.2\% starch solution to the solution in the Erlenmeyer.
+	\newstep[] Continue the titration adding the titrant drop by drop until the solution turns transparent.
+	\newstep[] Record the buret final reading in your notes.
+	\newstep[] Discard the solution in the Erlenmeyer. If the time allows, do two exact titration replicates.
+	\newstep[] When finished empty the buret and rinse it with plenty of distilled water. The buret should be stored empty, open, and upside down. 
+		
+\end{steps}
+
+
+\section*{Calculations}
+\mycircled{1} This is the initial reading of the buret (often is zero if the buret is all filled up).\vspace{0.5cm}\\
+\mycircled{2} This is the final reading of the buret after the endpoint has been reached.\vspace{0.5cm}\\
+\mycircled{3} This is the volume of titrant used, $v_{\ce{S2O3^{-2}}}$:\\
+    \[v_{\ce{S2O3^{-2}}}= \;\;\mycircled{2}\;\; - \;\;\mycircled{1}\;\; \]
+\mycircled{4} This is the moles of thiosulfate used in the titration:\\
+    \[n_{\ce{S2O3^{-2}}}= \;\;\mycircled{3}\;\;\times 0.025\times 10^{-3}	 \]
+\mycircled{5} These are the moles of bleach in the (diluted) sample:\\
+    \[n_{\ce{OCl^{-1}}}= \frac{n_{\ce{S2O3^{-2}}}}{2}=\frac{\;\;\mycircled{4}\;\;}{2}	 \]
+\mycircled{6} This is the molarity of bleach in the (diluted) sample:\\
+    \[c_{\ce{OCl^{-1}}}^{diluted}= \frac{n_{\ce{OCl^{-}}}}{1\times 10^{-2}}=\frac{\;\;\mycircled{5}\;\;}{1\times 10^{-2}}	 \]
+\mycircled{7} This is the molarity of bleach in the (original, concentrated) sample:\\
+     \[c_{\ce{OCl^{-1}}}^{concentrated}=c_{\ce{OCl^{-1}}}^{diluted}\times 10  = \;\;\mycircled{6}\;\; \times 10	 \]

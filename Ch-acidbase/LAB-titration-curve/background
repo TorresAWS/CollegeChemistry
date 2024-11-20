@@ -1,0 +1,40 @@
+Titrations were used in previous experiments to analyze the concentration of a solution, the so-called \emph{analyte}. Using the \emph{titrant}, a reactant of known concentration, it is possible to determine the concentration of the analyte if the volumes are measured carefully. The titrant is added from a buret until the solution changes color due to the presence of an indicator. The indicator denotes the moment when the \emph{equivalence point} is achieved. The equivalence point is the moment at which equivalent molar amounts of both reactants have been added.\\
+
+In an acid-base reaction, the acid reacts with the base, forming salt and water. This process is called \emph{neutralization}; the protons released by the acid are neutralized by the hydroxide ions formed in the presence of the base. For strong acids and strong bases that dissociate completely in water, the equivalence point occurs at pH=7 and, therefore, an indicator with a color transition at pH=7 is used.\\
+
+However, not all acids have the same strength. Weak acids do not release as many protons as strong acids do. The strength of a weak acid, and the consequent number of protons released, depend on its dissociation constant, $K_a$. Because of the partial dissociation of these species, the equivalence point in a weak acid titration does not occur at pH=7. The moment at which equivalent amounts of a weak acid and a strong base (titrant) have been added will take place at pH>7 (due to the non-complete dissociation). Determining the equivalence point is necessary to know the correct indicator to be used for titrations of weak acids.
+
+\subsection*{The titration curve}
+
+During the neutralization process of an acid, the pH of the solution starts at a low value - lower than 7 since it is an acid - and increases with the addition of the base. If one plots the pH versus the volume of base added, the result is not a straight line, but an S-shape curve. This shape shows that the pH changes slowly at the beginning and the end of the process, but there is a region in the graph where the pH increases rapidly with small additions of the base. When that abrupt pH change takes place depends on the acid and the base used.
+
+For the titration of a weak acid (analyte) using a strong base (titrant), the endpoint will be achieved at a pH higher than 7. For the titration of a weak base (analyte) using a strong acid (titrant), the endpoint will be achieved at a pH lower than 7. The titration curve for every base or acid is unique and it is useful for determining the dissociation constant ($K_a$ or $K_b$) of the analyte.
+
+\subsection*{The acid dissociation constant}
+
+The acid dissociation constant for a weak acid is a ratio of the amounts of products and reactants at the equilibrium position. The ratio is constant for a fixed temperature. The concentration of $H^+$ will always be among the products for the dissociation of an acid. Recalling that the concentration of $H^+$ defines the pH, the latter can be solved as follows:
+
+\begin{center} 
+\ce{HA}(aq) \ce{<=>} \ce{H^{+}}(aq) + \ce{A^{-}}(aq)
+\end{center}
+\[K_a = \frac{\mathbf{[H^+]}[A^-]}{[HA]} \qquad \qquad \mathbf{[H^{+}]} = K_{a} \frac{[HA]}{[A^{-}]}     \qquad ; \qquad   pH = pK_{a} + log \frac{[A^{-}]}{[HA]} \]
+
+ 
+
+This expression is known as the \emph{Henderson-Hasselbalch equation}, where [HA] is the concentration of the weak acid, and [A$^-$] is the concentration of its conjugated base. It is possible to visualize the $pK_a$ from the titration curve by using the Henderson-Hasselbalch equation.
+
+First, notice that at the equivalence point, the same amounts of acid and base have reacted and there will be no acid; [HA] = 0. But \emph{halfway} to that point, when half of the acid has been converted to the same amount of its conjugated base, the concentrations of the two will be equal, [A$^-$]=[HA]. The fraction in the previous expression becomes equal to 1 and, since log 1 = 0, then pH = pK$_a$.
+
+\[pH = pK_{a} + log \frac{[A^{-}]}{[HA]} \qquad ; \qquad pH = pK_{a} +  log 1 \qquad ; \qquad pH = pK_{a}    \]
+
+The equivalence point would correspond to the inflection point of the titration curve. By reading the volume of base added at that point, it is possible to calculate the volume needed to reach the halfway point ($V_{eq}/2$). The pH when that volume of base was added is taken from the the titration curve and corresponds to the weak acid's $pK_a$.
+
+The location of the equivalence point can be estimated by fitting two straight lines to the straight sections of the curve, as depicted in Figure 1, and a third line equidistant to the previous two. The point at which the third line and the titration curve intersect is the equivalence point.
+
+\subsection*{The experiment}
+
+The experimental part consists of the titration only. The data will be used later to plot the curve. From the plotted curve the equivalence point and the acid $pK_a$ should be calculated.
+
+The weak acid studied in this experiment is potassium hydrogen phthalate, \ce{KHC8H4O4} (KHP). The base used as a titrant is sodium hydroxide (NaOH), a strong base. It is very important to obtain precise measurements of the volumes and masses used during this experiment.
+
+The analyte (KHP) will be dissolved in a beaker. The titrant (NaOH) will be added from a buret. A pH meter will be used to monitor the pH and magnetic stirring will be used during the measurement to homogenize the solution pH.
