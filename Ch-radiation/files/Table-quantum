@@ -1,0 +1,21 @@
+ 
+ 
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-quantum}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{ll |ll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-quantum} Orbital Labels (left side) and quantum number relationships (right side)} \\
+\midrule
+\rowcolor{gray!10} $\ell$ value     &  Orbital label   &  Quantum \#    &  Values  \\
+\midrule
+0  &  $s$     &  $n$  &  1, 2, 3...     \\
+1  &   $p$     &  $\ell$   &   0, 1, ..., n-1    \\
+2  &   $d$     &  $m_{\ell}$  &   -$\ell$, -$\ell$+1, ..., 0, ..., $\ell$-1, $\ell$   \\
+3  &  $f$      &  $m_s$  &  $+^1/_2$ or $-^1/_2$  \\ 
+ \bottomrule
+
+\end{tabular}
+  
+
+ 
