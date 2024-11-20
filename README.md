@@ -196,8 +196,9 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+<a href="https://github.com/TorresAWS/CollegeChemistry/graphs/contributors">
+Distributed under the Creative Commons License.  
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
  materialsstemlab@gmail.com
 
-Project Link: [https://github.com/TorresAWS/CollegeChemistry/)
+Project Link: [https://github.com/TorresAWS/CollegeChemistry/)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
