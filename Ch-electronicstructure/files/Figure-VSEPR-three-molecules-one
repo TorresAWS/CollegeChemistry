@@ -1,0 +1,117 @@
+
+
+\newcommand{\Bond}[6]%
+% start, end, thickness, incolor, outcolor, iterations
+{ \begin{pgfonlayer}{background}
+        \colorlet{InColor}{#4}
+        \colorlet{OutColor}{#5}
+        \foreach \I in {#6,...,1}
+        {   \pgfmathsetlengthmacro{\r}{#3/#6*\I}
+            \pgfmathsetmacro{\C}{sqrt(1-\r*\r/#3/#3)*100}
+            \draw[InColor!\C!OutColor, line width=\r] (#1.center) -- (#2.center);
+        }
+    \end{pgfonlayer}
+}
+
+\newcommand{\SingleBond}[2]%
+{   \Bond{#1}{#2}{1mm}{white}{gray!50}{10}
+}
+
+\usetikzlibrary{quotes,angles}
+
+
+
+\begin{center}\begin{fullwidth}\begin{tikzpicture}
+[   be/.style={circle, ball color=yellow, minimum size=9.5mm, inner sep=0},
+b/.style={circle, ball color=brown, minimum size=9mm, inner sep=0},
+   oxygen/.style={circle, ball color=red, minimum size=6mm, inner sep=0},
+    nitrogen/.style={circle, ball color=blue, minimum size=7mm, inner sep=0},
+    hydrogen/.style={circle, ball color=white, minimum size=2.5mm, inner sep=0},
+    carbon/.style={circle, ball color=black!75, minimum size=8mm, inner sep=0},
+    phosp/.style={circle, ball color=green!25, minimum size=11mm, inner sep=0},
+    sulfur/.style={circle, ball color=purple!25, minimum size=10mm, inner sep=0},
+    emptyatom/.style={circle, ball color=orange!75, minimum size=3.0mm, inner sep=0}
+]
+   \setOrbitalDrawing{{very thin,  shading=ball, draw=none}}
+
+
+\begin{scope}[shift={(0em,0em)}]
+%%%BeH2
+\coordinate (Be) at (0,0);\coordinate (H1) at (-1.5,0);\coordinate (H2) at (1.5,0);
+ \node[be] at (Be)   {Be};\node[hydrogen] at (H1)   {H};\node[hydrogen] at (H2)   {H};
+ \SingleBond{Be}{H1}\SingleBond{Be}{H2}
+   \pic["180$^{\circ}$",draw=orange,<->,angle eccentricity=1.2,angle radius=1cm,densely dotted] {angle=H1--Be--H2};
+\node[shift={(0em,-7em)}]  at (Be)   {Linear};
+   \end{scope}
+
+\begin{scope}[shift={(10em,0em)}]
+%%%BH3
+\coordinate (B) at (0,0);\coordinate (H1) at (0,1.3);\coordinate (H2) at (-1.0,-1.0);\coordinate (H3) at (1.0,-1.0);
+ \coordinate  (H3b) at (1.0,-0.8); \coordinate  (H1b) at (0.2,1.2);
+ \draw[thin, blue] (H1) -- (H2) --  (H3) --   cycle ;
+ \node[b] at (B)   {B};\node[hydrogen] at (H1)   {H};\node[hydrogen] at (H2)   {H};\node[hydrogen] at (H3)   {H};
+ \SingleBond{B}{H1}\SingleBond{B}{H2}\SingleBond{B}{H3}
+    \pic["$\text{     }$120$^{\circ}\text{   }$",draw=orange,<->,angle eccentricity=1.3,angle radius=1.4cm,densely dotted] {angle=H3b--B--H1b};
+\node[shift={(0em,-7em)}]  at (B)   {Planar trigonal};
+
+\end{scope}
+
+
+
+\begin{scope}[shift={(20em,0em)}]
+%%%CH4
+\coordinate (C1) at (0,0);\coordinate (H1) at (1,-0.7);\coordinate (H2) at (-1.2,-0.7);\coordinate (H3) at (-0.2,-1.2);\coordinate (H4) at (0,1.4);
+ \coordinate  (H1b) at (1,-0.5); \coordinate  (H4b) at (0.2,1.9);
+  \draw[thin, blue] (H2) -- (H3) -- (H1) -- (H4) -- cycle ;
+   \draw[thin, dashed,blue] (H1) -- (H2) ; 
+\node[carbon]  at (C1) {C};
+ \draw[thin,blue](0,1.5)  -- (H4);
+
+\node[hydrogen]   at (H1) {H};\node[hydrogen]  at (H2) {H};\node[hydrogen]  at (H3) {H};\node[hydrogen]  at (H4) {H};
+\SingleBond{C1}{H1}\SingleBond{C1}{H2}\SingleBond{C1}{H3}\SingleBond{C1}{H4}
+ \pic["109.5$^{\circ}$",draw=orange,<->,angle eccentricity=1.4,angle radius=1.2cm,densely dotted] {angle=H1b--C1--H4b};
+ \node[shift={(0em,-7em)}]  at (C1)   {Tetrahedral};
+
+\end{scope}
+
+\begin{scope}[shift={(30em,0em)}]
+%%%PCL5
+\coordinate (P) at (0,0);\coordinate (Cl1) at (0,1.5);\coordinate (Cl2) at (1.5,0);\coordinate (Cl3) at (0,-1.5);\coordinate (Cl4) at (-0.8,-0.8);\coordinate (Cl5) at (-0.9,0.3);
+\coordinate (Cl2b) at (2.0,0.2);\coordinate (Cl1b) at (0.2,2.0);\coordinate (Cl4b) at (-0.9,-0.7);\coordinate (Cl5b) at (-0.9,0.3);
+ \draw[thin, dashed,blue]  (Cl2) --  (Cl5)  ;
+ \draw[thin, blue] (Cl1) -- (Cl2) -- (Cl3) -- (Cl4) -- (Cl5) -- cycle ;
+\node[phosp]  at (P) {P};
+\SingleBond{P}{Cl1}\SingleBond{P}{Cl2}\SingleBond{P}{Cl3}\SingleBond{P}{Cl4}\SingleBond{P}{Cl5} 
+ \draw[thin, blue] (Cl4) -- (Cl1)   ;   \draw[thin, blue] (Cl2) -- (Cl4)   ; 
+\node[hydrogen]   at (Cl1) {H};\node[hydrogen]  at (Cl2) {H};\node[hydrogen]  at (Cl3) {H};\node[hydrogen]  at (Cl4) {H};\node[hydrogen]  at (Cl5) {H};
+  \pic["90$^{\circ}$",draw=orange,<->,angle eccentricity=1.3,angle radius=1.4cm,densely dotted] {angle=Cl2b--P--Cl1b};  \pic["120$^{\circ}$",draw=orange,<->,angle eccentricity=1.3,angle radius=1.2cm, densely dotted] {angle=Cl5b--P--Cl4b};
+\node[shift={(0em,-7em)}]  at (P)   {Trigonal bipyramidal};
+
+ \end{scope}
+
+
+
+\begin{scope}[shift={(41em,0em)}]
+%%%SF6
+\coordinate (S) at (0,0);
+\coordinate (Cl1) at (0,1.5);
+\coordinate (Cl2) at (1.15,0.51);\coordinate (Cl3) at (1.00,-0.68);
+\coordinate (Cl4) at (0,-1.5);
+\coordinate (Cl5) at (-1.1,-0.7);\coordinate (Cl6) at (-0.73,0.47);
+\coordinate (Cl2b) at (0.95,0.55);\coordinate (Cl1b) at (0.4,2.5);
+\coordinate (Cl5b) at (-1.8,-0.7);\coordinate (Cl6b) at (-0.63,0.47);
+  \draw[thin, blue] (Cl2) -- (Cl3) -- (Cl5) -- (Cl6)     ;
+ \draw[thin, dashed,blue] (Cl2)  -- (Cl6)   ;
+  \draw[thin, blue] (Cl1) -- (Cl2) ;  \draw[thin, blue] (Cl1) -- (Cl3) ;   \draw[thin, blue] (Cl1) -- (Cl5) ;   \draw[thin, blue] (Cl1) -- (Cl6) ; 
+   \draw[thin, dashed,blue] (Cl4) -- (Cl2) ;  \draw[thin, blue] (Cl4) -- (Cl3) ;   \draw[thin, blue] (Cl4) -- (Cl5) ;   \draw[thin, dashed,blue] (Cl4) -- (Cl6) ; 
+\node[sulfur]  at (S) {S};\node[hydrogen]   at (Cl1) {H};\node[hydrogen]  at (Cl2) {H};\node[hydrogen]  at (Cl3) {H};\node[hydrogen]  at (Cl4) {H};\node[hydrogen]  at (Cl5) {H};\node[hydrogen]  at (Cl6) {H};\SingleBond{S}{Cl1}\SingleBond{S}{Cl2}\SingleBond{S}{Cl3}\SingleBond{S}{Cl4}\SingleBond{S}{Cl5} \SingleBond{S}{Cl6} 
+     \pic["90$^{\circ}$",draw=orange,<->,angle eccentricity=1.3,angle radius=1.5cm,densely dotted] {angle=Cl2b--S--Cl1b}; 
+  \pic["90$^{\circ}$",draw=orange,<->,angle eccentricity=1.2,angle radius=1.2cm, densely dotted] {angle=Cl6b--S--Cl5b};
+\node[shift={(0em,-7em)}]  at (S)   {Octahedral};
+
+ \end{scope}
+
+
+\end{tikzpicture}\end{fullwidth}\end{center}
+
+
