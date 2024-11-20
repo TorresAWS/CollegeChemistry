@@ -92,8 +92,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Bash][Bash-badge]][Bash.com]
 
 
-[Latex.com]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
