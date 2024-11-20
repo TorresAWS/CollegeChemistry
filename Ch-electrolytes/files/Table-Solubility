@@ -1,0 +1,7 @@
+\begin{fullwidth} 
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Solubility}
+\import{../\chapterlabel/files/}{Table-Solubility-data}
+
+} \end{minipage}
+\end{fullwidth}
