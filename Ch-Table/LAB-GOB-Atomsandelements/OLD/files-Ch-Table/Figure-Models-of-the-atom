@@ -1,0 +1,74 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+\definecolor{mylightred}{RGB}{255,210,210}
+\definecolor{myred}{RGB}{200,100,100}
+\definecolor{mydarkred}{RGB}{140,40,40}
+\definecolor{mylightblue}{RGB}{220,228,255}
+\definecolor{myblue}{RGB}{183,191,229}
+\definecolor{mydarkblue}{RGB}{50,70,190}
+
+\begin{fullwidth}
+\begin{tikzpicture}[scale=1]
+\begin{scope}[shift={(8.0,0)},rotate=00] 
+ % \draw[mylightred,fill,line width=0]         (O) circle (50pt);             
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.0);
+  \coordinate (O)  at (0,0);
+  \node[above right=34pt](10,4) {$-Ze$};
+  \fill[radius=2.0pt,mydarkblue] (O) circle node[above=2pt] {$+Ze$};
+ % \node[above=2pt](3,0) {$+Ze$};
+\end{scope}
+
+ \begin{scope}[shift={(13,0)},rotate=00] 
+\filldraw[even odd rule,inner color=mydarkred,outer color=white, line width=0, draw=white] (0,0) circle (2.0);
+  \coordinate (O)  at (0,0);
+   \fill[radius=2.0pt,mydarkblue] (O) circle ;
+    \draw[|-|] (-0.1,-0.3) -- ++  (.2,0) node[midway, shift={(0,-.3)}]{$\sim 10^{-13}$cm};
+    \draw[<->] (-1.7,-2.2) -- ++  (4,0) node[midway, fill=white]{$2\times 10^{-8}$cm};
+ \end{scope}
+
+
+% RUTHERFORD MODEL - atom model with central charge and corpuscles
+\begin{scope}[shift={(3.5,0)},rotate=00]               
+  \coordinate (O)  at (0,0);
+  \draw[myred,dashed]            (O) circle (50pt);
+  \fill[radius=2.0pt,mydarkblue] (O) circle node[above=2pt] {$+Ze$};
+  \fill[radius=0.8pt,mydarkred]
+    ( 0.20, 1.20)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    ( 0.68, 0.67)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    ( 1.05,-1.10)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    ( 0.75,-0.12)  circle node[      right= 2pt,scale=0.75] {$-e$}
+    ( 0.21,-1.30)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.80, 0.60)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.50, 1.21)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    (-0.08,-0.55)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.58,-0.95)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-1.10,-0.20)  circle node[above left =-1pt,scale=0.75] {$-e$};
+\end{scope}
+
+
+
+% THOMSON MODEL - atom model with corpuscles (electrons) in uniformly, positively charged sphere
+\begin{scope}[shift={(-1,0)},rotate=00]               
+  \coordinate (O)  at (0,0);
+  \draw[mylightblue,fill] (O) circle (50pt);
+  \draw[mydarkblue,thick] (O) circle (50pt) node[above right=34pt] {$+Ze$};
+  \fill[radius=0.8pt,mydarkred]
+    ( 0.20, 1.20)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    ( 0.10, 0.30)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    ( 0.68, 0.67)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    ( 1.05,-1.10)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    ( 0.75,-0.12)  circle node[      right= 2pt,scale=0.75] {$-e$}
+    ( 0.21,-1.30)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    ( 0.18,-0.55)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.80, 0.60)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.50, 1.21)  circle node[above right=-1pt,scale=0.75] {$-e$}
+    (-0.40, 0.05)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-0.58,-0.95)  circle node[above left =-1pt,scale=0.75] {$-e$}
+    (-1.10,-0.20)  circle node[above left =-1pt,scale=0.75] {$-e$};
+\end{scope}
+
+ \node[text width=15cm, fontscale=.3,shift={(15em,-10em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Three models of the atom. From left to right: the plum puding model, the updated plum pudding model according to Rutherford's observations, (two right images) the modern atomic model. $Z$ is the atomic number of the atom.};
+
+\end{tikzpicture}\end{fullwidth}
+
