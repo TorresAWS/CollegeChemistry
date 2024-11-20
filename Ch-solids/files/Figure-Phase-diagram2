@@ -1,0 +1,41 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+\begin{tikzpicture}
+\pgfmathsetmacro{\TPX}{1.5}
+\pgfmathsetmacro{\TPY}{5}
+\pgfmathsetmacro{\CPX}{2.5}
+\pgfmathsetmacro{\CPY}{50}
+\pgfmathsetmacro{\TOPX}{1}
+\pgfmathsetmacro{\TOPY}{100}
+\pgfmathsetmacro{\XMIN}{0}
+\pgfmathsetmacro{\XMAX}{3}
+\pgfmathsetmacro{\YMIN}{1}
+\pgfmathsetmacro{\YMAX}{100}
+\begin{semilogyaxis}[xmin=\XMIN,ymin=\YMIN,xmax=\XMAX,ymax=\YMAX,axis on top, xticklabels={}, yticklabels={}, xlabel={Temperature in Celsius},ylabel={Pressure in atm}, ticks=none]
+\draw [blue, fill=blue]  (\TPX,\TPY) to (\TOPX,\TOPY)  to (\CPX,\TOPY) to (\CPX,\CPY) to [bend left] (\TPX,\TPY);
+
+%\addplot[name path=gas,very thick, bend right=70] coordinates {(0,1) (1,10) (2,32)};
+\addplot[name path=liq,very thick] coordinates {(\TPX,\TPY) (\TOPX,\TOPY) (\CPX,\TOPY)};
+%\addplot[name path=help1] coordinates {(2,100) (0,100) (0,1)};
+\addplot[name path=help2] coordinates {(\XMIN,\YMIN) (\XMAX,\YMIN) (\XMAX,\CPY)};
+\draw[name path=gas,very thick ](\XMIN,1) to [bend right] (\TPX,\TPY) to [bend right] (\CPX,\CPY);
+\draw[name path=gas3 ] (\TPX,\TPY) to [bend right] (\CPX,\CPY);
+\draw[name path=liq2 ](\XMIN,1) to [bend right] (\TPX,\TPY) node [below, xshift=2cm, white] {Gas}  node [below, yshift=2cm, xshift=-2cm, white] {Solid} node [yshift=2cm, xshift=2cm, white] {Liquid};
+\addplot[name path=help11] coordinates {(\TPX,\TPY) (\TOPX,\YMAX) (\XMIN,\YMAX) (\XMIN,\YMIN)};
+\addplot[green] fill between[of=liq2 and help11];
+\addplot[red] fill between[of=gas and help2];
+\shade[shading=azimuth,vcol=blue,hcol=red] (axis cs:\CPX,\CPY) rectangle (axis cs:\XMAX,\YMAX);
+%\draw (\TPX,\TPY) node[above,white, xshift=0.2cm] {TP};
+%\draw (\CPX,\CPY) node[above,white] {CP};
+%\draw[white, dashed, thick]  (0,\TPY)  node [xshift=0.5cm, yshift=0.2cm ]  {\small 0.0006} -- (\TPX,\TPY) -- (\TPX,\YMIN) node [yshift=0.2cm,xshift=0.5cm ] {\small 0.0098};
+%\draw[white, dashed, thick]  (0,\CPY)  node [xshift=0.5cm, yshift=0.2cm ]  {\small 218} -- (\CPX,\CPY) -- (\CPX,\YMIN) node [yshift=0.2cm,xshift=0.5cm ] {\small 374};
+%\draw[thick,o-stealth, white] (1,20) node [xshift=-0.5cm, yshift=0.3cm ]  {\small (000, 218)} -- (2,20) node [xshift=0.5cm, yshift=0.3cm ]  {\small (000, 218)};
+%\draw[white] (\TPX,\TPY) node {\small TP} node [xshift=-0.5cm, yshift=-0.3cm ]  {\tiny (0.0098 C$^{\circ}$, 0.006 atm)};
+%\draw[white] (\CPX,\CPY) node {\small CP} node [xshift=-0.5cm, yshift=-0.3cm ]  {\tiny (374 C$^{\circ}$, 218 atm)};
+\draw[white, dashed, thick]  (0,15)  node [xshift=0.5cm, yshift=0.2cm ]  {\small 1 atm} -- (1.7,15) -- (1.7,\YMIN) node [yshift=0.2cm,xshift=0.5cm ] {\small 25 C$^{\circ}$};
+\end{semilogyaxis}
+
+\node[text width=12cm, fontscale=.3, shift={(15em,-6em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The phase diagram of water with pressure in the Y axis and temperature in the X axis. This diagram displays the different states of matter of water for different pressure and temperature conditions. The coordinated of the triple point are (0.0098 C$^{\circ}$,0.0060 atm). This means that at this low pressure and temperature conditions we have three phases in contact: water, ice and steam. The coordinates of the critical point are (374 C$^{\circ}$, 218 atm). This means that for temperature beyond 374 C$^{\circ}$ it is not possible to liquefy steam. };
+
+\end{tikzpicture}\end{center}
+

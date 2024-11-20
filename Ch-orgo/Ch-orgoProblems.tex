@@ -1,0 +1,65 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-orgo}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\setcounter{chapter}{1}}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+\setcounter{chapter}{11}}{}
+\end{conclusion}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+
+
+
+{\raggedright\textsc{\textbf{Alkanes}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Organic-inorganic}
+\import{../\chapterlabel/problems/problems/}{Problems-Alkanes}
+ {\raggedright\textsc{\textbf{Cycloalkanes}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Cycloalkanes}
+{\raggedright\textsc{\textbf{Alkanes with substituents}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Alkanes-with-substituents}
+\import{../\chapterlabel/problems/problems/}{Problems-Alkanes-with-branches}  
+{\raggedright\textsc{\textbf{Functional groups}}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Functional-groups}
+
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{ 
+{\raggedright\textsc{\textbf{Aromatic hydrocarbons}}\par}\import{../\chapterlabel/problems/problems/}{Problems-aromatic}
+{\raggedright\textsc{\textbf{Alkenes and alkynes}}\par}\import{../\chapterlabel/problems/problems/}{Problems-Alkenes-and-alkynes}
+{\raggedright\textsc{\textbf{Naming of hydrocarbon derivatives}}\par}\import{../\chapterlabel/problems/problems/}{Problems-Naming-of-hydrocarbon-derivatives}
+%{\raggedright\textsc{\textbf{Reactivity of organic compounds}}\par}\import{../\chapterlabel/problems/problems/}{Problems-Reactivity-of-organic-compounds}
+
+
+
+
+
+}
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+

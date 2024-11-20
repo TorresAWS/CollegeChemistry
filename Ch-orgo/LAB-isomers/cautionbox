@@ -1,0 +1,18 @@
+        %%%%%CAUTION BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=red, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=red, text=white]
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.8\textwidth}
+      \begin{itemize} [label={\danger}]
+		\item Wear goggles at all times. 
+		\item Handle concentrated acid with care to avoid chemical burns. 
+		\item Use latex gloves when handling concentrated acid.
+		\item Ensure that the mouth of the test tube is pointed away from you and any other persons around you, including those on the opposite side of the bench.
+              \end{itemize}
+    \end{minipage}};
+\node[fancytitle, right=10pt] at (box.north west) {\danger CAUTION!};
+\node[fancytitle, rounded corners] at (box.east) {!};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%

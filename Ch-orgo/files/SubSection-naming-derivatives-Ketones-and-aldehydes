@@ -1,0 +1,11 @@
+Aldeydes are systematically named from the parent hydrocarbon by replacing the \emph{-e} (methane) ending with the \emph{-al} ending (methanal). For example, \ce{CH3COH} is called ethanal.
+Ketones are systematically named from the parent hydrocarbon by replacing the \emph{-e} (propane) ending with the \emph{-one} ending (propanone). A number should indicate the location of the carboxyl group. For example, \ce{CH3COCH2CH3} is called 2-butanone.
+Examples of aldehydes and ketones are:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]-[:-45](=[:-90]O)(-[:45]H)   }   };
+\node at (0,-1.5)  {\textcolor{blue}{pentanal  }};
+\node at (5,0) {  \chemfig{ -[:45]-[:-45]-[:45](-[:-45])(=[:90]O)   }   };
+\node at (5,-1.5) {\textcolor{blue}{2-pentanone  }};
+\node at (10,0) {  \chemfig{  -[:45]-[:-45]((=[:-90]O)(-[:45]-[:-45]))   }   };
+\node at (10,-1.5) {\textcolor{blue}{3-pentanone  }};
+\end{tikzpicture}\end{center}

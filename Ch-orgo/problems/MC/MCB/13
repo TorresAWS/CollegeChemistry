@@ -1,0 +1,18 @@
+\item\PTs{1}   How many carbons are there in the longest hydrocarbon chain for the molecule:
+%\begin{center} \chemfig{CH_3-CH_2-C(-[:90]CH_2-CH_2-CH_2-CH_3)(-[:-90]CH_2-CH_2-CH_3)-CH_3} \end{center}
+\begin{center} \chemfig{CH_3-CH_2-C(-[:-90]CH_2-CH_2-CH_2-CH_3)(-[:90]CH_2-CH_2-CH_3)-CH_3} \end{center}
+%\begin{center} \chemfig{CH_3-CH_2-C(-[:-90]CH_2-CH_2-CH_2-CH_3)(-[:90]CH_2-CH_3)-CH_3} \end{center}
+%\begin{center} \chemfig{CH_3-CH_2-C(-[:-90]CH_2-CH_3)(-[:90]CH_2-CH_3)-CH_3} \end{center}
+\begin{answers}{4}
+\rowsep{1bp}
+\bChoices[random=true]
+\Ans1  8  \eAns
+\Ans0  5  \eAns
+\Ans0    7  \eAns
+\Ans0    10  \eAns
+\Ans0  None of the others\eAns
+ \eChoices 
+\end{answers}
+%Ch121
+%Ch202
+%Subject: cySubstituents

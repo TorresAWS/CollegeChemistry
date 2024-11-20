@@ -1,0 +1,17 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following cycloalkane:
+%\begin{center}\chemfig{*5(---------)}\end{center}
+\begin{center}\chemfig{*4(---------)}\end{center}
+%\begin{center}\chemfig{*6(---------)}\end{center}
+%\begin{center}\chemfig{*3(---------)}\end{center}
+ \vspace{1cm}
+\end{question}\vspace{.5cm}\begin{Form}\TextField[bordercolor=black,name=\the\value{numA},width=\linewidth,height=5cm,multiline=true]{}\end{Form}\begin{solution}
+%Answer \themycounter\stepcounter{mycounter}-  cyclopentane
+Answer \themycounter\stepcounter{mycounter}-  cyclobutane
+%Answer \themycounter\stepcounter{mycounter}-  cyclohexane
+%Answer \themycounter\stepcounter{mycounter}-  cyclopropane
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+
+%Ch121
+%Ch202
+%Subject: Cycloalkanes

@@ -1,0 +1,18 @@
+As the carbon atoms bonded through a double bond have restricted rotation, their mobility is limited, which enables cis-trans stereoisomerism. Remember isomers are molecules with the same molecular formula but different properties. In particular, stereoisomers are molecules with the same molecular formula but different spatial arrangements of the bonds. Let us address the two possible isomers of butene: cis-butene and trans-butene. Cis isomers have the same substituents located on the same side of the double bond, whereas trans isomers have the same substituents placed on opposite sides of the double bond.
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{  C(-[:130]CH_3)(-[:-130]H)(=[:0]C(-[:45]CH_3)(-[:-45]H)) }   };
+\node at (0,-1.5) {\textcolor{blue}{cis-butene  }};
+\node at (5,0) {  \chemfig{  C(-[:130]CH_3)(-[:-130]H)(=[:0]C(-[:45]H)(-[:-45]CH_3)) }   };
+\node at (5,-1.5) {\textcolor{blue}{trans-butene  }};
+\end{tikzpicture}\end{center}
+Alkynes do not present cis-trans stereoisomerism as every carbon atom in the triple bond is only bonded to a single substituent.
+
+
+
+
+
+
+
+
+
+
