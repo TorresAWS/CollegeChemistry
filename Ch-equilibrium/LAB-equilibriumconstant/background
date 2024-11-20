@@ -1,0 +1,58 @@
+ Most chemical reactions do not proceed to completion, proceeding only to the point where both reactants and products have constant concentration. This is because most reactions are reversible and they can run in both forward and reverse directions. The concentrations of the species involved in the equilibrium will achieve an \emph{equilibrium state}  when the reaction rates in both directions equalize. For a certain chemical reaction:
+\begin{center}
+\ce{aA + bB <=> cC + dD}
+\end{center}
+The equilibrium can be characterized by the expression:
+\[ 
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+\]
+where $K_c$ (capital letter) is the equilibrium constant in terms of molarity, the brackets represent the concentrations of the respective species and the exponents are their corresponding stoichiometric coefficients.
+
+\subsection*{Spectrophotometry}
+\emph{Spectrophotometry} is a technique that measures the amount of light absorbed by a chemical substance, typically in solution, using the use of a \emph{spectrophotometer}. Spectrophotometers display the absorbance, the amount of light absorbed by a sample. To properly measure the absorbance of a chemical in a water-based solution you need to set the blank by using a sample containing only the solvent without a solute. The blank establishes the baseline of the measurement, eliminating any absorbance caused by the solvent. 
+
+The spectrometer allows the measurement of absorbance at a single wavelength. Interestingly, for each substance, there is a wavelength of \emph{maximum absorbance}, which allows us to differentiate among chemical substances with different maximum absorbances. 
+For example, in the current experiment, you will analyze mixtures containing \ce{Fe^{3+}_{(aq)}}, \ce{SCN^-_{(aq)}}, and \ce{Fe(SCN)^{2+}_{(aq)}}. However, only \ce{Fe(SCN)^{2+}_{(aq)}} will absorb radiation at $\lambda$=450 nm, and hence we can track the absorbance of this chemical only in the mixture.
+
+\subsection*{Lambert-Beer's law}
+
+Liquids \emph{attenuated} the intensity of light passing through a colored solution. The effect can be comparable to a dirty window that attenuates the light passing through. The dirtier the window (higher concentration of dirt), the less one can see through it (because more light is absorbed, reflected, or refracted by the dirt). Lambert-Beer's law establishes the relationship between absorbance and concentration:
+\[ A=k_{\lambda} c\]
+In this formula, \emph{$A$} stands for the \emph{absorbance} (light absorbed by the liquid), \emph{$k_{\lambda}$} (lower case, not to be confused with the equilibrium constant, $K$) is a \textbf{proportionality constant}, which is specific to each compound and at the wavelength ($\lambda$) specified by the subindex, and \textbf{$c$} is the solution concentration. Lambert-Beer's law is a linear function of the form $y=m x + b$. When graphing the absorbance ($y$-axes) versus the concentration ($x$-axes), the slope of the line corresponds to Lambert-Beer's proportionality constant. This line should cross the origin as there should be no absorbance when the concentration is null.
+
+
+
+\section*{The experiment}
+
+The experiment today is divided into 2 parts: determining Lambert-Beer's constant $k$ and determining the equilibrium constant $K$.
+ 
+
+
+\subsection*{Part A. Determining Lambert-Beer's constant $k$.}
+
+This experiment studies the reaction between iron(III) and thiocyanate to give an iron-thiocyanate complex:
+\begin{align*} 
+\ce{Fe^{3+}}(aq) + \ce{SCN^-}(aq) &\ce{<=>} \ce{Fe(SCN)^{2+}}(aq)
+\end{align*}
+Interestingly, \ce{Fe^{3+}} in solution is yellow and becomes red when reacting with thiocyanate to produce the \ce{(FeSCN)^{2+}} complex. This intense red coloration allows us to use spectrophotometry to measure the \ce{(FeSCN)^{2+}} concentration and hence, of all the species in equilibrium.
+
+The first part of this experiment requires the determination of Lambert-Beer's constant, $k_{\lambda}$. However, here we deal with a chemical reaction. According to the equilibrium, \ce{Fe(SCN)^{2+}} in solution will follow the reverse reaction forming iron(III) and thiocyanate ions. The shift due to the equilibrium makes the concentration of \ce{Fe(SCN)^{2+}} unknown.
+
+To solve this problem \ce{Fe^{3+}} ion will be added in excess (0.0025 M) while adding only small amounts of \ce{SCN^{-}} ($10^{-4}$ M). This trick will displace the equilibrium to the right: according to Le Ch\^{a}telier's, the equilibrium shifts to the products when one reactant is added. Hence, if one of the reactants is added in overwhelming excess, the other reactant will be consumed almost to exhaustion forming the product. Therefore, the \ce{FeSCN^{2+}} concentration can be calculated using the concentration of \ce{SCN^{-}}.
+
+In this part, a set of solutions will be added to a clean cuvette, and absorbance at  $\lambda$=450 nm will be measured using the spectrophotometer. With the 5 points obtained and the origin of the coordinates, a graph will be plotted to calculate the slope of the line. Notice again that in this linear representation, the line must pass through the origin by definition, since at concentration=0, absorbance must be 0.
+
+
+
+\subsection*{Parts B. Determining the equilibrium constant $K_c$.}
+Using the absorbance measured and the value of $k_{450 nm}$, in this second part of the experiment you will calculate the concentration in equilibrium of all species involved in the equilibrium. First, the concentration of the product will depend on the absorbance, and will be given by the formula below:
+\[ A=k_{450 nm} [\ce{Fe(SCN)^{2+}}] \qquad [\ce{Fe(SCN)^{2+}}]=\frac{A}{k_{450 nm}} \]
+
+An ICE chart given below will be used to calculate the equilibrium concentration of reactants, where \: \mycircled{3} is calculated from the absorbance, and \: \mycircled{2} and \; \mycircled{1} are recalculated from the initial concentrations:
+\begin{center}\begin{tabular}{ x{2 cm}  x{2 cm} x{2.5 cm} x{2 cm}  }
+ & [\ce{Fe(NO3)3}] &  [KSCN]  & [\ce{Fe(SCN)^{2+}}] \\ 
+Initial &  \mycircled{1}  &  \mycircled{2}  &  0 M \\ [3pt]
+Change &  $-$\:\mycircled{3}  & $-$\:\mycircled{3}  & $+$\:\mycircled{3}  \\[3pt] \cline{1-4}
+   & \\[\dimexpr-\normalbaselineskip+2pt]
+ Equilibrium & \mycircled{1} $-$\: \mycircled{3} & \mycircled{2} $-$\: \mycircled{3} &  \mycircled{3}   \\ 
+\end{tabular}\end{center}
