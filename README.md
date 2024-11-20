@@ -156,18 +156,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
+- [x] Have an alpha-working version of the textbook compilable for GOB and College Chemistry
+- [x] Have an alpha-working version of the lab manuals with versions for GOB and College Chemistry
+- [ ] clean up the chapter branches leaving only files, images, problems, Ch-name, Ch-nameProblems files
+- [ ] clean up the chapter branches leaving only files, images, problems, Ch-name, Ch-nameProblems files
+- [ ] have a pdf branch with the latest versions (no answers)
+- [ ] protect the answers
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/TorresAWS/CollegeChemistry/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
