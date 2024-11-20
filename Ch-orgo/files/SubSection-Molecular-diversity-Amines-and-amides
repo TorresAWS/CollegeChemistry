@@ -1,0 +1,33 @@
+Amines and amides are groups containing nitrogen. Amines are derivative of ammonia (\ce{NH3}) with one or more of the hydrogen atoms being replaced by a hydrocarbon
+\begin{center}\chemfig{R-N(-[:90]R')(-R'')}\hspace{0.5cm}\textcolor{blue}{Amine}\end{center}
+Examples of amines are:
+\begin{center}\chemfig{CH_3-N(-H)(-[:90]CH_3)}\hspace{1cm}  \chemfig{CH_3-NH_2} \hspace{1cm}  \chemfig{CH_3-N(-CH_2CH_3)(-[:90]CH_3)} \end{center}
+Amines have very strong and unpleasant odors--fishy like--often associated with the smell of decaying flesh:  
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) { \setpolymerdelim()\chemfig{NH_2 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]NH_2 }\makebraces(5pt,5pt){$\scriptstyle\!\!3$}{A}{B}  };
+\node at (0,-1) {\textcolor{blue}{putrescine}};
+\node at (6,0) { \setpolymerdelim()\chemfig{NH_2 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]NH_2 }\makebraces(5pt,5pt){$\scriptstyle\!\!5$}{A}{B}  };
+\node at (6,-1)  {\textcolor{blue}{cadaverine}};
+\end{tikzpicture}\end{center}
+
+Simmilar to alcohols, amines can be classified as primary (one hydrocarbon fragment), secondary (two hydrocarbon fragments), and tertiary (three hydrocarbon fragments) amines, based on the number of hydrocarbon fragments connected to the nitrogen atom:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.15\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.19\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.21\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}}
+\chemfig{  CH_3-[:00]N((-[:45]H)(-[:-45]H))}&
+ &
+\setpolymerdelim()\chemfig{  CH_3-[:00]N((-[:45]CH_3)(-[:-45]H))}&
+
+&
+\chemfig{  CH_3-[:00]N((-[:45]CH_3)(-[:-45]CH_3))}&
+\tabularnewline\addlinespace
+\textcolor{blue}{Primary} && \textcolor{blue}{Secondary} & & \textcolor{blue}{Tertiary  } &&\textcolor{red}{ }\tabularnewline
+\end{tabular*}\end{center}
+
+
+
+
+Amides, on the other hand, contain a carbonyl group (\ce{C=O}) connected to an amine group (\chemfig{-N(-)(-[:90])})
+\begin{center}  \chemfig{R-C(=[:90]O)(-N(-R')((-[:90]R'')))}  \hspace{0.5cm}\textcolor{blue}{Amide}\end{center}
+Examples of amides are:
+\begin{center}\chemfig{CH_3-C(=[:90]O)(-NH_2)}\hspace{1cm} or \hspace{1cm}\chemfig{CH_3-CH_2-C(=[:90]O)-N(-[:90]H)(-CH_3)}\end{center}
+Amides are primarily used in the pharmaceutical industry as drugs, including pain killers like morphine and Demerol, anesthetics like Novocain, and are also found in many important structural materials like nylon.

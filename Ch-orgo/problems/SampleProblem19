@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Predict the product of the following reactions:
+\begin{center}\begin{inparaenum}[(a)]
+    \item  \chemfig{ -[:45]-[:-45]-[:45] }\ce{->[$\Delta$][]} \hspace{2cm}
+    \item  \chemfig{ -[:-45]-[:45]=[:0] }\ce{->[h$\nu$][\ce{Cl_2}]} 
+\end{inparaenum}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) This is the combution of butane reaction and the products are:
+\begin{center}\chemfig{ -[:45]-[:-45]-[:45] }\ce{->[$\Delta$][]} \ce{4CO_2 + 5H2O}; \end{center}
+(b) This is the chlorination of butene that produces 1,2-dichlorobutane:
+\begin{center}\chemfig{ -[:-45]-[:45]=[:0] }\ce{->[h$\nu$][\ce{Cl_2}]} \chemfig{ -[:-45]-[:45]((-[:90]Cl)(-[:-45]-[:45]Cl)) } \end{center}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) \ce{4CO_2 + 5H2O}; (b) \chemfig{ -[:-45]-[:45]((-[:90]Cl)(-[:-45]-[:45]Cl)) } . \end{flushright}
+\import{./}{StudyCheck19}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

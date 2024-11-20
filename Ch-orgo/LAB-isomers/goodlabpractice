@@ -1,0 +1,19 @@
+%%%%%Good Lab Practice BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=black, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
+\tikzstyle{fancytitle} =[fill=blue, text=white, ellipse]
+\begin{tikzpicture}[transform shape, rotate=0, baseline=-0.5cm]
+\node [mybox] (box) {%
+    \begin{minipage}[t!]{0.7\textwidth}
+    \begin{itemize} [label={\ding{45}}]
+		\item The burner should stand stable with no additional support. Coil the tubing at each end to stabilize the burner. 
+		\item Work safely and avoid burns.
+		\item Always ensure easy access to the gas valve. Remove any items around the valve, and do not set the flame on your way.
+		\item Never leave the flame unattended. In case of accident or any risk, close the gas immediately. 
+       \end{itemize}
+    \end{minipage}
+    };
+\node[fancytitle] at (box.north) {Good Lab Practice};
+\node[fancytitle, rounded corners] at (box.east) {\ding{45}};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

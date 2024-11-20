@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the following hydrocarbon derivatives:
+\begin{center}\begin{inparaenum}[(a)]
+    \item    \chemfig{  Br-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]-[:-45]))   }   
+    \item  \chemfig{   [:45]-[:-45]((-[:-90]F)(-[:45]-[:-45](=[:-90]O)(-[:45]H)))     }
+\end{inparaenum}\end{center}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (a) 1-bromo-3-pentanone; (b) 3-fluorobutanal\end{flushright} }
+

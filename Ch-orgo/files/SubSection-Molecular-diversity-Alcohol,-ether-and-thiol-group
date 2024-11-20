@@ -1,0 +1,24 @@
+Alcohols contain an \ce{-OH} group attached to a carbon. 
+\begin{center}\chemfig{R-OH}\hspace{0.5cm}\textcolor{blue}{Alcohol}\end{center}
+Whereas ethers have oxygen atoms attached to two carbon atoms:
+\begin{center}\chemfig{R-O-R'}\hspace{0.5cm}\textcolor{blue}{Ether}\end{center}
+Examples of alcohols and ether are:
+\begin{center}\chemname[0.9ex]{\chemfig{CH_3-CH_2-OH}}{alcohol}     \hspace{0.5cm}  \chemname{\chemfig{CH_3-O-CH_2-CH_3}}{ether}   \end{center}
+Alcohols can be classified as primary (one hydrocarbon fragment), secondary (two hydrocarbon fragments), and tertiary (three hydrocarbon fragments) alcohols, based on the number of hydrocarbon fragments connected to the carbon attatched to the hydroxyl group.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.15\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.19\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.21\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}}
+\chemfig{  CH_3-[:00]C((-[:90]H)(-[:-90]H)(-[:00]OH))}&
+ &
+\setpolymerdelim()\chemfig{  CH_3-[:00]C((-[:90]CH_3)(-[:-90]H)(-[:00]OH))} &
+
+&
+\chemfig{  CH_3-[:00]C((-[:90]CH_3)(-[:-90]CH_3)(-[:00]OH))}&
+\tabularnewline\addlinespace
+\textcolor{blue}{Primary} && \textcolor{blue}{Secondary} & & \textcolor{blue}{Tertiary  } &&\textcolor{red}{ }\tabularnewline
+\end{tabular*}\end{center}
+
+Thiols contain a  \ce{-SH} group attached to a carbon. They are equivalent to alcohols but based on sulfur:
+\begin{center}\chemfig{R-SH}\hspace{0.5cm}\textcolor{blue}{thiol}\end{center}
+Examples of thiols  are:
+\begin{center}\chemfig{CH_3-CH_2-SH}    \hspace{0.5cm}  \chemfig{CH_3-CH(-[:90]SH)-CH_3}  \end{center}
+Thiols are responsible for the characteristic smell of rotten eggs and burned hair.
