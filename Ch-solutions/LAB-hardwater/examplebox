@@ -1,0 +1,27 @@
+% ---------------------------------EXAMPLE BOX ------------â
+\begin{example}{Example}
+\begin{it}The conductivity of a 0.050 M solutions of \ce{HNO3} is measure to be 19.6 mS/cm.\\
+That of a 0.050 M solution of KCl is 9.6 mS/cm.\\
+A new solution is prepared mixing 10 mL of \ce{HNO3} 0.10 M and 10 mL of \ce{KCl} 0.10 M. The conductivity of the resulting mixture is measure to be 29.6 mS/cm.\\
+Calculate the concentration of each spices in the mixture and determine if their compounds have reacted or not.
+
+\end{it}
+\Sepline
+\begin{bf}Answer\end{bf}: To calculate the new concentration use the formula for dilutions:
+\begin{center}$V_1\times M_1=V_2\times M_2$
+\end{center}
+where $V_1$ and $M_1$ are the initial volume and concentration and $V_2$ and $M_2$ are the values after the dilution.\\
+We look for $M_2$, therefore
+\begin{center}$M_2=V_1\times \dfrac{M_1}{V_2}$
+\end{center}
+for \ce{HNO3},
+\begin{center}$M_2=\dfrac{10\:mL\times 0.10\:M}{(10\:mL+10\:mL)}=0.05\:M$
+\end{center}
+The same values apply for \ce{KCl}.\\
+We can see that the addition of the separate conductivities is very close to the total conductivity of the mixture with the same concentrations for each electrolyte.\\
+\begin{center}Cond. (\ce{HNO3} 0.05 M) + Cond (\ce{KCl} 0.05 M) = 19.6 mS/cm + 9.6 mS/cm = 29.2 mS/cm\\
+Cond. \ce{HNO3} 0.05M + \ce{KCl} 0.05M = 29.6 mS/cm
+\end{center}
+The additivity rules applies, meaning that there is no reaction between \ce{HNO3} and \ce{KCl}.
+\end{example}
+% END --------------------------EXAMPLE BOX -------------â

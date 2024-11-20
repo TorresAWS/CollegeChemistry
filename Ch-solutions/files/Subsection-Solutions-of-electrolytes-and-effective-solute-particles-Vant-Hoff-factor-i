@@ -1,0 +1,16 @@
+This factor for a given electrolyte is related the number of dissolved particles and the number of solute particles:
+\begin{equation}
+\boxed{ i=\frac{\text{moles of solute particles} }{\text{moles of dissolved particles} }}
+\label{\chapterlabel:equation15}
+\end{equation}
+For example, all non-electrolytes produce only a single solute particle, as they do not break down in solution and therefore for all non-electrolytes $i$ is 1. Differently, the $i$ values for a strong electrolyte depend on the salt stoichiometry. For example, for \ce{NaCl} $i$ is two, as one mole of salt produces two moles of ions, and for \ce{CaCl2} $i$ is 3, as one mole of calcium fluoride produces three moles of ions, overall.
+It is important to notice the research has found that the Van't Hoff factor indeed depends on the concentration of the salt and for large concentrations the expected $i$ value not always correspond to the observed value, due to the formation of ion pairs, pairs of ions that associate on solution reducing the effective ion concentration.
+
+
+At low concentrations, the effect of ion pairs is less pronounced and the expected value tends to resemble the observed value: $i^{\text{Expected}}\simeq i^{\text{Observed}}$. The Van't Hoff factor is reported for strong electrolytes.
+A property called percent dissociation of an electrolyte, $\alpha$, is helpful to describe the dissociation of weak electrolytes. Strong electrolytes dissociate completely and hence the effective concentration of ions is the same as the nominal concentration of solute particles. Weak electrolytes, on the other hand, do not completely dissociate in solution and the effective concentration of solute particles tends to be smaller than the nominal concentration. We have that:
+\begin{equation}
+\boxed{ \alpha = \frac{c^{\text{effective}}}{c^{\text{Nominal}}} \times 100	}
+\label{\chapterlabel:equation16}
+\end{equation}
+Percent dissociation is zero for nonelectrolytes as no ions are produced and hence the effective ion concentration is null. Finally, percent dissociation for strong electrolytes is 100\% as the nominal and effective ion concentrations are the same. Note that the percent dissociation can change with concentration. Table \ref{tab:Table-VantHoff-factors} reports observed and expected $i$ values for different salts and different concentrations.

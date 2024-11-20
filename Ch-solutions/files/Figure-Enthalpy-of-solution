@@ -1,0 +1,54 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Enthalpy-of-solution}
+
+
+
+\begin{tikzpicture}
+
+\begin{scope}[shift={(-1cm,0cm)}]
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-3, 0) node[shift={(-1.5cm,0cm)}]  {\ce{NH4Cl_{(s)} +H2O_{(l)}  }} to  (0, 0)      node [midway,fill=white,shift={(-2cm,0cm)}] {\small 00} ;
+
+\draw[line width=0.25mm, red,dotted, to path={-| (\tikztotarget)}] (0.5, 0)   to  (5, 0)    ;
+\draw[line width=0.15mm, blue,<-, to path={-| (\tikztotarget)}] (2.5, 1)  --  (2.5, 0)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{sol}$}   ;
+
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-1, 2) node[shift={(-2cm,0cm)}] { \ce{NH4^+_{(g)} + Cl^-_{(g)} + H2O_{(l)}} }        to (2, 2)  node [ fill=white,shift={(-1.5cm,0cm)}] {\small 705}  ;
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (1, 1)   to  (3.7, 1) node[shift={(1.5cm,0cm)}] { \ce{NH4^+_{(aq)} + Cl^-_{(aq)}  } }    node [ fill=white,shift={(-1.0cm,0cm)}] {\small 23}     ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (0, 0)  -- (0, 2) node [midway,fill=white] {$\Delta H^{xp}_{solute}$}   ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (1.5, 2)  --  (1.5, 1)  node [midway,fill=white] {$\Delta H^{hyd}>0$}   ;
+  \end{scope}
+  
+\begin{scope}[shift={(-1cm,-3cm)}]
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-3, 0) node[shift={(-1.5cm,0cm)}]  {\ce{LiBr_{(s)} +H2O_{(l)}  }} to  (0, 0)  node [midway,fill=white,shift={(-2cm,0cm)}] {\small 00}  ;
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-1, 2) node[shift={(-2cm,0cm)}] { \ce{Li^+_{(g)} + Br^-_{(g)} + H2O_{(l)}} }   to  (2, 2)   node [ fill=white,shift={(-1.5cm,0cm)}] {\small 807}  ;
+\draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (1, -1)   to  (3.7, -1) node[shift={(1.5cm,0cm)}] { \ce{Li^+_{(aq)} + Br^-_{(aq)}  } }    node [ fill=white,shift={(-1.0cm,0cm)}] {\small -61}  ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (0, 0)  -- (0, 2) node [midway,fill=white] {$\Delta H^{xp}_{solute}$}   ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (1.5, 2)  --  (1.5, -1)  node [midway,fill=white] {$\Delta H^{hyd}$}   ;
+
+\draw[line width=0.25mm, red,dotted, to path={-| (\tikztotarget)}] (0.5, 0)   to  (5, 0)    ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (2.5, 0)  --  (2.5, -1)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{sol}<0$}   ;
+  \end{scope}  
+  
+  
+  \begin{scope}[shift={(0cm,0cm)}]
+
+ \node[text width=10cm, fontscale=.3,shift={(-5em,-15em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Enthalpy-of-solution} \end{bf} Enthalpy diagrams for the dissolution process. (Top) an endothermic dissolution; (Bottom) an exothermic dissolution. Enthalpy values are listed in KJ/mol. };
+
+\end{scope}
+
+\end{tikzpicture}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+       
+ 

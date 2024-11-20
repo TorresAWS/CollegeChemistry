@@ -1,0 +1,22 @@
+ \begin{center}
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Solutions}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:Table-Solutions} Types of solutions } \\
+\midrule
+ \rowcolor{gray!10} Solute & Solvent & Solution state & Example\\
+\midrule
+Gas	& \multicolumn{1}{c}{Gas}&\multicolumn{1}{c}{Gas} &\multicolumn{1}{c}{Air} \\ 
+Gas	& \multicolumn{1}{c}{Liquid}&\multicolumn{1}{c}{Liquid} &\multicolumn{1}{c}{Club soda} \\ 
+Gas	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid} &\multicolumn{1}{c}{\ce{H2} in Pd} \\ 
+Liquid	& \multicolumn{1}{c}{Liquid}&\multicolumn{1}{c}{Liquid} &\multicolumn{1}{c}{Acetone in water} \\ 
+Liquid	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid} &\multicolumn{1}{c}{Easy light charcoal  } \\ 
+Solid	& \multicolumn{1}{c}{Liquid}&\multicolumn{1}{c}{Liquid} &\multicolumn{1}{c}{Saltwater  } \\ 
+Solid	& \multicolumn{1}{c}{Solid}&\multicolumn{1}{c}{Solid} &\multicolumn{1}{c}{Brass  } \\ 
+ \bottomrule
+\end{tabular}\end{center} 
+Table \ref{tab:Table-Solutions} reports different types of solutions with examples.
+

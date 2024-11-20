@@ -1,0 +1,23 @@
+A pure solvent freezes at a specific temperature and for example, water freezes at 0$^{\circ}$C. Solutions freeze at a lower temperature than the pure solvent. We call this effect the freezing point depression. This decrease in the freezing point depends only on the molality of the solution and not on the solute. The freezing point depression--or decrease--is given by the formula:
+\begin{equation}
+\boxed{ T_f^{\text{solution}}=T_f^{\text{solvent}}-k_f\cdot i\cdot m 	}
+\quad  \text{or }\quad 
+\boxed{\Delta T_f =-k_f\cdot i\cdot m}
+\label{\chapterlabel:equation11}
+\end{equation}
+where:
+\begin{where}
+ \item $T_f^{\text{solution}}$  is the freezing point of the solution
+  \item $T_f^{\text{solvent}}$   is the freezing point of the pure solvent  
+  \item $k_f$   is called molal freezing point depression constant in units of $^{\circ}C/m$
+  \item $m$ is the molality of the solution
+      \item $i$ is van't Hoff factor of the solute
+  \item $\Delta T_f$, a negative value, is the freezing point depression, that is $T_f^{\text{solution}}-T_f^{\text{solvent}}$
+        \item $i\cdot m$ is the effective concentration of solute particles
+
+\end{where}
+
+Mind that $i\cdot m$ represents the effective solute-particle concentration in the solution. For the case of NaCl $i$ is 2 as every NaCl unit dissociates producing 2 ions, or 2 solute particles.
+For example, pure water freezes at 0$^{\circ}$C but a 1m NaCl solution freezes at -3.72$^{\circ}$C, which is almost four degrees lower than pure water.
+The freezing point depression formula establishes a linear relationship between the freezing point of a solution and molality in which the slope of the relationship is negative and gives the value of $k_f$, the $x$ variable is $m$ and the $y$ variable is $T_f^{\text{solution}}$. In other words, by plotting $T_f^{\text{solution}}$ vs. $m$ we should obtain a straight line with a slope in absolute value that equals $k_f$ and an intercept equals $T_f^{\text{solvent}}$.
+Table \ref{tab:Table-Colligative} reports values for the boiling-point elevation and freezing-point depression for various solvents.
