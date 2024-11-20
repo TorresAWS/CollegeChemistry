@@ -23,7 +23,7 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/TorresAWS/CollegeChemistry"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TorresAWS/CollegeChemistry/tree/master?tab=readme-ov-file"><strong>Explore the files </strong></a>
     <br />
     <br />
     <a href="https://github.com/TorresAWS/CollegeChemistry">View Demo</a>
