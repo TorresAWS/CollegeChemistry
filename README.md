@@ -54,8 +54,8 @@
   <ol>
     <li>
       <a href="#a-pretty-free-textbooks-developed-as-computer-code">About The Project</a>
-      <a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a>
-      <a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a>
+      <ul><a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a></ul>
+      <ul><a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a></ul>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
