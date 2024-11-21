@@ -58,7 +58,6 @@
       <ul><li><a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a></li></ul>
       <ul><li><a href="#textbooks-a-code">Textbooks a code</a></li></ul>
     </li>
-
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
