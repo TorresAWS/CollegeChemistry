@@ -182,16 +182,19 @@ See the [open issues](https://github.com/TorresAWS/CollegeChemistry/issues) for 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Let's say you want to edit any of the chapters (e.g. Ch-measurements): any contributions you make are **greatly appreciated**. Here we assume you have Git installed and configured in your local computer:
+Do the following:
+1. Fork the Project in your GitHub account
+2. Clone the branch in your computer (`git clone --single-branch --branch Ch-measurements  git@github.com:TorresAWS/CollegeChemistry.git`)
+3. Start git  (`git init `)
+4. Make a new edited branch refering to the chapter's name  (`git checkout -b  edittypos`)
+5. Edit the chapter and implements any changes
+6. Submit changed back to GitHub  (`git add . ; git commit -m "edited chapter "; git push origin Ch-measurements/edittypos`)
+7. Open a Pull Request
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the appropiate tag.
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create a book-wide Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ### Top contributors:
 
