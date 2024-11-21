@@ -54,6 +54,8 @@
   <ol>
     <li>
       <a href="#a-pretty-free-textbooks-developed-as-computer-code">About The Project</a>
+      <a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a>
+      <a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -97,16 +99,15 @@ The open textbook wave took over higher education several years ago. Nowadays, s
  
 This project envisions a textbook as computer software. Just like a complex app, good textbooks have an elaborate front end and a strong backend supports the front. This is particularly critical for the sciences, where textbooks are filled with thousands of numerical problems, or multiple-choice questions. Those questions can be placed in databases being retribed not only when the textbook is going for print, but also when the content needs to be delivered through a web portal. More importantly, the development of a textbook is similar to the development of code.
 
-
- 
-
-
+Why is it convenient to develop textbooks as code:
+* Quality assurance: textbook develoment goes through cycles of improvement. Collaborative code reviews can ensure quality
+* Versatility: textbook content (e.g. problems, text) can be delivered in multiple formats (e.g. pdf book, pdf quizes, web-base content, online learning management systems content). Codep-based content can delivered in all those formats.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Built With
 
 This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
 
