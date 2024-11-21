@@ -1,0 +1,8 @@
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small
+ Answer:
+\begin{inparaenum}[(a)]
+\item 4.20V
+\item 4.14V
+\end{inparaenum}
+
+ \end{flushright} }
