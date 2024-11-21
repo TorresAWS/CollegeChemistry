@@ -56,6 +56,7 @@
       <a href="#a-pretty-free-textbooks-developed-as-computer-code">About The Project</a>
       <ul><li><a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a></li></ul>
       <ul><li><a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a></li></ul>
+      <ul><li><a href="#textbooks-a-code">Textbooks a code</a></li></ul>
       <ul><li><a href="#built-with">Built With</a></li></ul>
     </li>
     <li>
