@@ -32,7 +32,7 @@
     <a href="https://github.com/TorresAWS/CollegeChemistry/tree/master?tab=readme-ov-file"><strong>Explore the files </strong></a>
     <br />
     <br />
-    <a href="https://github.com/TorresAWS/CollegeChemistry">View Latest</a>·
+    <a href="https://github.com/TorresAWS/CollegeChemistry/tree/pdf">View Latest</a>·
     <a href="https://github.com/TorresAWS/CollegeChemistry/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>·
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
