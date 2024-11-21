@@ -109,6 +109,7 @@ This project envisions a textbook as computer software. Just like a complex app,
 ### Built With
 
 This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
+
 [![JQuery][Latex-badge]][Latex.com]
 [![Bash][Bash-badge]][Bash.com]
 [![Python][Python-badge]][Python.com]
