@@ -41,7 +41,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>:book: Table of Contents</summary>
   <ol>
     <li>
       <a href="#a-pretty-free-textbooks-developed-as-computer-code">About The Project</a>
