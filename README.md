@@ -11,6 +11,14 @@
 
 <!-- PROJECT LOGO -->
 <br />
+
+
+
+
+
+
+
+
 <div align="center">
   <a href="https://github.com/TorresAWS/CollegeChemistry">
     <img src="images/logo.png" alt="Logo" width="500" height="600">
@@ -19,15 +27,20 @@
   <h3 align="center">College Chemistry Open Textbook</h3>
 
   <p align="center">
+  project_description
     <br />
     <a href="https://github.com/TorresAWS/CollegeChemistry/tree/master?tab=readme-ov-file"><strong>Explore the files </strong></a>
     <br />
     <br />
-    <a href="https://github.com/TorresAWS/CollegeChemistry">View Latest</a>
-    <a href="https://github.com/TorresAWS/CollegeChemistry/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-     
+    <a href="https://github.com/TorresAWS/CollegeChemistry">View Latest</a>·
+    <a href="https://github.com/TorresAWS/CollegeChemistry/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>·
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
+  
+
+  
+  
+  
 </div>
 
 
