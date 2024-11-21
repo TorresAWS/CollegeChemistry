@@ -60,7 +60,7 @@
 
 
 
- ## A pretty, free textbooks developed as computer code
+ ## A pretty, free textbooks developed as computer code :wave:
  
 This project is a student's dream: a free, elaborate General chemistry textbook with a pretty layout, covering a wide variety of content and including numerous answered exercises. 
 This project is also a techie instructor's dream: a book developed as code, that can be collaboratively improved, updated, and extended.
