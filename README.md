@@ -77,19 +77,18 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project: pretty, free textbooks developed as computer code
 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The open textbook wave (see <a href="https://openstax.org/">OpenStax</a>) took over higher education several years ago and now students do not need to pay for expensive college textbooks when they can find good-quality textbooks and web resources developed by the education community. Still, those resources are not pretty enough. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and mine in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+What makes a textbook pretty:
+* The layout: Tufte's layout gives space to the text placing images side by side with the content
+* A good quality table of contents, detailed and with images
+* A tightly-knitted problem section :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Available open textbooks
 
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,8 +96,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
 
 * [![JQuery][Latex-badge]][Latex.com]
 * [![Bash][Bash-badge]][Bash.com]
