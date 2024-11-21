@@ -1,0 +1,15 @@
+For the galvanic cell below
+ \colorlet{batteryLeftElectrode}{red!75}
+ \colorlet{batteryRightElectrode}{green!75}
+ \colorlet{batteryLeftSolution}{blue!15}
+ \colorlet{batteryRightSolution}{green!15}
+ \renewcommand{\Helectrodelabel}{\small \ce{H2}}
+ \begin{center}\begin{tikzpicture}
+ \batterya{\small \ce{H^+(1M)}}{\small \ce{SiO2} \\ \ce{+ Si}}	{}	{	 \small \ce{H^{+}(1M)}   	 }{0}{ }{ }{V}{0}    % 1 to the right
+  \end{tikzpicture}\end{center}
+Indicate:
+\begin{inparaenum}[(a)]
+\item Identify the anodic and cathodic reactions    \item Indicate the anodic and cathodic standard reduction potential 
+\item Indicate the overall potential of the cell  
+\item Indicate the number of electrons flowing 
+ \end{inparaenum}
