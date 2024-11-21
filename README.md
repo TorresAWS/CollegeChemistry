@@ -34,7 +34,7 @@
     <br />
     <a href="https://github.com/TorresAWS/CollegeChemistry/tree/pdf">Latest books</a>·
     <a href="https://github.com/TorresAWS/CollegeChemistry/issues/new?labels=bug&template=bug-report---.md">Submit Correction</a>·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Add Content</a>
+    <a href="https://github.com/TorresAWS/CollegeChemistry/issues/new?labels=enhancement&template=feature-request---.md">Add Content</a>
   </p>
   
 
