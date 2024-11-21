@@ -27,7 +27,7 @@
   <h3 align="center">College Chemistry Open Textbook</h3>
 
   <p align="center">
-  A College & GOB Chemistry open textbook as code developed at CUNY
+  A College & GOB Chemistry open textbook develoepd as code at CUNY
     <br />
     <a href="https://github.com/TorresAWS/CollegeChemistry/tree/master?tab=readme-ov-file"><strong>Explore the files </strong></a>
     <br />
@@ -77,19 +77,24 @@
 
 
  ## A pretty, free textbooks developed as computer code
+ 
 This project is a student's dream: a free, elaborate General chemistry textbook with a pretty layout, covering a wide variety of content and including numerous answered exercises. 
 This project is also a techie instructor's dream: a book developed as code, that can be collaboratively improved, updated, and extended.
 
  ## Pretty textbooks: Tufte's vision
+ 
 What makes a textbook pretty, when beauty is subjective:
 * The layout: <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Tufte's</a> layout gives space to the text placing images side by side with the content :sunglasses:
 * A good quality table of contents, detailed and with images :scream:
 * A tightly-knitted problem section ::fire:
 * A healthy amount of images :boom:
+
  ## Open textbooks: the age of free, ugly, textbooks 
+ 
 The open textbook wave took over higher education several years ago. Nowadays, students do not need to pay for expensive college textbooks :smirk:. They can find good-quality textbooks (see <a href="https://openstax.org/">OpenStax</a>) and web resources (see <a href="https://open.umn.edu/opentextbooks">UMN library</a>) developed by the education community. Still, those resources are not pretty enough. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and mine in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
 
  ## Textbooks a code 
+ 
 This project envisions a textbook as computer software. Just like a complex app, good textbooks have an elaborate front end and a strong backend supports the front. This is particularly critical for the sciences, where textbooks are filled with thousands of numerical problems, or multiple-choice questions. Those questions can be placed in databases being retribed not only when the textbook is going for print, but also when the content needs to be delivered through a web portal. More importantly, the development of a textbook is similar to the development of code.
 
 
@@ -102,12 +107,14 @@ This project envisions a textbook as computer software. Just like a complex app,
 
 
 ### Built With
-
+[![JQuery][Latex-badge]][Latex.com]
+[![Bash][Bash-badge]][Bash.com]
+[![Python][Python-badge]][Python.com]
 This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
 
-* [![JQuery][Latex-badge]][Latex.com]
-* [![Bash][Bash-badge]][Bash.com]
-* [![Python][Python-badge]][Python.com]
+
+
+
 
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
