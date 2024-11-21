@@ -70,7 +70,7 @@ This project is also a techie instructor's dream: a book developed as code, that
 What makes a textbook pretty, when beauty is subjective:
 * The layout: <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Tufte's</a> layout gives space to the text placing images side by side with the content :sunglasses:
 * A good quality table of contents, detailed and with images :scream:
-* A tightly-knitted problem section ::fire:
+* A tightly-knitted problem section :fire:
 * A healthy amount of images :boom:
 
  ### Open textbooks: the age of free, ugly, textbooks 
