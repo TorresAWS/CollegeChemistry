@@ -187,17 +187,21 @@ Do the following:
 1. Fork the Project in your GitHub account
 2. Clone the branch in your computer 
 ```sh
-git clone --single-branch --branch Ch-measurements  git@github.com:TorresAWS/CollegeChemistry.git```
+git clone --single-branch --branch Ch-measurements  git@github.com:TorresAWS/CollegeChemistry.git
+```
 3. Start git
 ```sh
-git init```
+git init
+```
 4. Make a new edited branch refering to the chapter's name  
 ```sh
-git checkout -b  edittypos```
+git checkout -b  edittypos
+```
 5. Edit the chapter and implements any changes
 6. Submit changed back to GitHub  
 ```sh
-git add . ; git commit -m "edited chapter "; git push origin Ch-measurements/edittypos```
+git add . ; git commit -m "edited chapter "; git push origin Ch-measurements/edittypos
+```
 7. Open a Pull Request
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the appropiate tag.
