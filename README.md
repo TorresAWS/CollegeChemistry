@@ -27,7 +27,7 @@
   <h3 align="center">College Chemistry Open Textbook</h3>
 
   <p align="center">
-  project_description
+  A College & GOB Chemistry open textbook as code developed at CUNY
     <br />
     <a href="https://github.com/TorresAWS/CollegeChemistry/tree/master?tab=readme-ov-file"><strong>Explore the files </strong></a>
     <br />
