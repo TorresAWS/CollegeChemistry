@@ -80,14 +80,19 @@
 ## About The Project: pretty, free textbooks developed as computer code
 
 
-The open textbook wave took over higher education several years ago. Nowadays, students do not need to pay for expensive college textbooks :smirk:. They can find good-quality textbooks (see <a href="https://openstax.org/">OpenStax</a>) and web resources (see <a href="https://open.umn.edu/opentextbooks">UMN open textbook library</a>) developed by the education community. Still, those resources are not pretty enough. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and mine in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
+The open textbook wave took over higher education several years ago. Nowadays, students do not need to pay for expensive college textbooks :smirk:. They can find good-quality textbooks (see <a href="https://openstax.org/">OpenStax</a>) and web resources (see <a href="https://open.umn.edu/opentextbooks">UMN library</a>) developed by the education community. Still, those resources are not pretty enough. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and mine in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
 
 What makes a textbook pretty:
-* The layout: Tufte's layout gives space to the text placing images side by side with the content
-* A good quality table of contents, detailed and with images
-* A tightly-knitted problem section :smile:
+* The layout: <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Tufte's</a> layout gives space to the text placing images side by side with the content
+* A good quality table of contents, detailed and with images :scream:
+* A tightly-knitted problem section ::fire:
+* A healthy amount of images :boom:
 
-Available open textbooks
+I envision a textbook as computer software. Just like a complex app, good textbooks have an elaborate front end and a strong backend supports the front. This is particularly critical for the sciences, where textbooks are filled with thousands of numerical problems, or multiple-choice questions. Those questions can be placed in databases being retribed not only when the textbook is going for print, but also when the content needs to be delivered through a web portal. More importantly, the development of a textbook is similar to the development of code.
+
+
+ 
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
