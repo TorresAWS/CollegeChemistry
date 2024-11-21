@@ -54,11 +54,9 @@
   <ol>
     <li>
       <a href="#a-pretty-free-textbooks-developed-as-computer-code">About The Project</a>
-      <ul><a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a></ul>
-      <ul><a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a></ul>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <ul><li><a href="#pretty-textbooks-Tuftes-vision">Pretty textbooks</a></li></ul>
+      <ul><li><a href="#Open-textbooks-the-age-of-free-ugly-textbooks">Open textbooks</a></li></ul>
+      <ul><li><a href="#built-with">Built With</a></li></ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
