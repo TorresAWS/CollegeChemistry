@@ -106,22 +106,11 @@ Why is it convenient to develop textbooks as code:
 
 
 
-## Built With
-
-This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
-
-[![JQuery][Latex-badge]][Latex.com]
-[![Bash][Bash-badge]][Bash.com]
-[![Python][Python-badge]][Python.com]
 
 
 
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -214,25 +203,33 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
+ ## License
 Distributed under the <a href="https://github.com/TorresAWS/CollegeChemistry/graphs/contributors">
 Creative Commons License.  
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Built With
+
+This project was built mainly with Latex, and images were developed using TikZ. The latex Tufte text template was used as a building block of the two-column text structure. Tikz allows the creation of vector graphics built fresh when the code (book) is compiled. Images can be shrunk without losing image quality. A series of bash and python scripts was used to compile the code.
+
+[![JQuery][Latex-badge]][Latex.com]
+[![Bash][Bash-badge]][Bash.com]
+[![Python][Python-badge]][Python.com]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTACT -->
-## Contact
+
+
+ ## Contact
  materialsstemlab@gmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+ ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
