@@ -1,0 +1,46 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-electrochem}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\setcounter{chapter}{8}}
+\end{conclusion}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+{\raggedright\textsc{\textbf{Introduction to galvanic cells}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Introduction-to-galvanic-cells}
+{\raggedright\textsc{\textbf{Standard reduction potentials}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Standard-reduction-potentials}
+{\raggedright\textsc{\textbf{Redox reactions in galvanic cells}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Redox-reactions-in-galvanic-cells}
+{\raggedright\textsc{\textbf{Line notation for galvanic cells}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Line-notation-for-galvanic-cells}
+{\raggedright\textsc{\textbf{Cell potential, Gibbs free energy, and equilibrium constant}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Cell-potential-Gibbs-free-energy-and-equilibrium-constant}
+{\raggedright\textsc{\textbf{Electrochemical series: dissolving metals in acid}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Electrochemical-series}
+{\raggedright\textsc{\textbf{Nernst equation}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Nernst-equation}
+{\raggedright\textsc{\textbf{Electrolysis}}\par} \import{../\chapterlabel/problems/problems/}{Problems-Electrolysis}
+
+
+\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+\newpage\fancyhfoffset[E,O]{0pt}
+\begin{answerbox}
+\begin{answersenvironment}
+ \begin{localsize}{10}
+{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
+\Large \bf Answers}
+\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
+\printsolutions 
+ % \printsolutions[byID={1,3,5,7,9,11,13}]
+  \vspace{20cm}
+ \end{localsize}
+ \end{answersenvironment}
+\end{answerbox}
+%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
+}{}
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+
+

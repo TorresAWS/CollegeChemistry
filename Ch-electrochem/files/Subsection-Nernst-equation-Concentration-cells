@@ -1,0 +1,8 @@
+What caused a voltage difference in a galvanic cell is the differences in reduction potentials of the anode and cathode. By selecting cathodes with larger positive $\mathcal{E}^{\circ}$ and anodes with large negative $\mathcal{E}^{\circ}$ we can achieve large cell potentials. At the same time, the Nernst equations tell us that $\mathcal{E}$ depends on molarity, hence we could potentially select the same anode and cathode and use the molarity terms in the Nernt equation to drive the potential difference. This is the principle behind concentration cells. These types of galvanic cells contain the same material in the anode and cathode but with different concentrations. The anode is the less concentrated electrode, whereas the cathode is the most concentrated electrode.
+The concentration difference is what drives the cell potential.
+Concentration cells in general produce very low voltages, even with very high concentration differences. For example, for the cell:
+\begin{center}\ce{Zn}\hspace{.02 in}|\hspace{.02 in} \ce{Zn^{2+}}\text{($10^{-5}$ M)}\hspace{.02 in}|\hspace{.02 in}\ce{Zn^{2+}    }\text{($10^{5}$ M)}\hspace{.02 in}|\hspace{.02 in} \ce{Zn}	\end{center}
+we have that  $\mathcal{E}^{\circ}=+$0.29V. At the same time, good concentration cells have very low anodic concentrations and very large cathodic concentrations. 
+For concentration cells we have that as both electrodes are made of the same material $\Delta \mathcal{E}^{\circ}$=0. Hence, Nernst equation for a concentration cell is simplified to:
+\[\Delta \mathcal{E}_{cell}=  -\frac{R\cdot T}{n_e\cdot F}\ln Q\:\:\:\: \text{ where }\hfill Q=\frac{\left[\text{anode}\right]}{\left[\text{cathode}\right]}\]
+ 

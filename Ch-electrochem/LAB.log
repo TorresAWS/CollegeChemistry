@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 MAY 2024 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2024 14:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4289,6 +4289,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'LAB.bbl' not found.
 
 No file LAB.bbl.
+Package biblatex Info: ... file 'LAB1-blx.bbl' not found.
+No file LAB1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1784.
 Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4327,12 +4329,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
-(./LAB-electrochem/title)
+(../Ch-electrochem/LAB-electrochem/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--10
  []\T1/futs/b/n/24.88 Electrochemistry: gal-vanic cells 
  []
 
-(./LAB-electrochem/goal) (./LAB-electrochem/materials
+(../Ch-electrochem/LAB-electrochem/goal)
+(../Ch-electrochem/LAB-electrochem/materials
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
 
 
@@ -4371,7 +4374,7 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ))
-(./LAB-electrochem/background
+(../Ch-electrochem/LAB-electrochem/background
 (../Ch-electrochem/files/SectionIntro-Introduction-to-galvanic-cells.title)
 (../Ch-electrochem/files/SectionIntro-Introduction-to-galvanic-cells)
 (../Ch-electrochem/files/Subsection-Introduction-to-galvanic-cells-Components-o
@@ -4433,11 +4436,6 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 4.
 
-
-LaTeX Warning: Reference `Fig:Figure-Batter-hydrogen-electrode' on page 2 undef
-ined on input line 7.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
  [][] 
  []
@@ -4486,7 +4484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []$[]$ \T1/futs/m/n/10 |  $[][][]$[] || $[][][]$[] | $[]$ 
  []
 
-) (./LAB-electrochem/examplebox1
+) (../Ch-electrochem/LAB-electrochem/examplebox1
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
 (../Ch-electrochem/problems/SampleProblem8.text
@@ -4504,12 +4502,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-(../Ch-electrochem/problems/SampleProblem8.resolution)
+(../Ch-electrochem/problems/SampleProblem8.resolution
 
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 3 undefined on input line 11
-.
+LaTeX Font Warning: Command \large invalid in math mode on input line 4.
 
 
+LaTeX Font Warning: Command \large invalid in math mode on input line 4.
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4535,18 +4535,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3]
-
-LaTeX Warning: Reference `mdf@pagelabel-2' on page 4 undefined on input line 11
-.
-
-) (../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells.title
-) (../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells
+[3])
+(../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells.title)
+(../Ch-electrochem/files/Subsection-Nernst-equation-Concentration-cells
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
  []$[]$ \T1/futs/m/n/10 |  $[][][]$[] | $[][][]$[] |  $[]$ 
  []
 
-) (./LAB-electrochem/examplebox2
+) (../Ch-electrochem/LAB-electrochem/examplebox2
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
 (../Ch-electrochem/problems/SampleProblem7.text
@@ -4570,10 +4566,6 @@ tial.
 Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
-
-
-LaTeX Warning: Reference `mdf@pagelabel-3' on page 4 undefined on input line 11
-.
 
 )
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4615,12 +4607,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 14.
-
-LaTeX Warning: Reference `tab:Table-redox' on page 5 undefined on input line 14
-.
-
 
 Overfull \hbox (20.03062pt too wide) in paragraph at lines 77--77
  [][] 
@@ -4661,13 +4647,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 LaTeX Warning: Empty bibliography on input line 26.
 
-(./LAB-electrochem/procedure
+(../Ch-electrochem/LAB-electrochem/procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 6.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 6.
- (./LAB-electrochem/goodlabpractice)
-(./LAB-electrochem/goodlabpractice2)
+
+(../Ch-electrochem/LAB-electrochem/goodlabpractice)
+(../Ch-electrochem/LAB-electrochem/goodlabpractice2)
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 []$[]$ \T1/futs/m/n/10 |  $[][][]$[] and $[]$(or graphite) |
  []
@@ -4704,7 +4691,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[6] (./LAB-electrochem/goodlabpractice)
+[6] (../Ch-electrochem/LAB-electrochem/goodlabpractice)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4804,12 +4791,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
-(./LAB-electrochem/title)
+(../Ch-electrochem/LAB-electrochem/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--43
  []\T1/futs/b/n/24.88 Electrochemistry: gal-vanic cells 
  []
 
-(./LAB-electrochem/prelab
+(../Ch-electrochem/LAB-electrochem/prelab
 (../Ch-electrochem/problems/problems/Problems-Introduction-to-galvanic-cells.1.
 A
 Missing character: There is no ; in font nullfont!
@@ -4926,7 +4913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
  []\T1/futs/b/n/12 EXPERIMENT 
  []
 
-(./LAB-electrochem/title)
+(../Ch-electrochem/LAB-electrochem/title)
 Underfull \hbox (badness 5359) in paragraph at lines 1--81
  []\T1/futs/b/n/24.88 Electrochemistry: 
  []
@@ -4936,7 +4923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--81
  \T1/futs/b/n/24.88 gal-vanic cells  
  []
 
-(./LAB-electrochem/results
+(../Ch-electrochem/LAB-electrochem/results
 Overfull \hbox (16.98325pt too wide) in paragraph at lines 11--11
 []|$\FML/futm/m/it/10 ^^A\FMS/futm/m/n/10 E[]$| 
  []
@@ -4976,7 +4963,7 @@ Overfull \hbox (8.78009pt too wide) in paragraph at lines 21--22
 []|$\FML/futm/m/it/10 ^^A\FMS/futm/m/n/10 E[]$| 
  []
 
-) (./LAB-electrochem/results2
+) (../Ch-electrochem/LAB-electrochem/results2
 Overfull \hbox (11.29279pt too wide) in paragraph at lines 6--6
 []|$\FML/futm/m/it/10 ^^A\FMS/futm/m/n/10 E[]$| 
  []
@@ -4997,12 +4984,12 @@ Overfull \hbox (3.08963pt too wide) in paragraph at lines 6--7
  []
 
 
-Overfull \hbox (43.96774pt too wide) in paragraph at lines 1--16
+Overfull \hbox (43.96774pt too wide) in paragraph at lines 1--17
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--48
+Underfull \hbox (badness 10000) in paragraph at lines 20--49
  [][] 
  []
 
@@ -5075,12 +5062,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--108
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
-(./LAB-electrochem/title)
+(../Ch-electrochem/LAB-electrochem/title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--110
  []\T1/futs/b/n/24.88 Electrochemistry: gal-vanic cells 
  []
 
-(./LAB-electrochem/postlab
+(../Ch-electrochem/LAB-electrochem/postlab
 Overfull \hbox (11.29279pt too wide) in paragraph at lines 11--11
 []|$\FML/futm/m/it/10 ^^A\FMS/futm/m/n/10 E[]$| 
  []
@@ -5148,12 +5135,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 Package biblatex Info: Reference section=0 on input line 115.
-)
-
-Package lastpage Warning: Rerun to get the references right on input line 1789.
-
-
-
+) 
 AED: lastpage setting LastPage
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
@@ -5169,28 +5151,17 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1789.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                LAB
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'LAB.run.xml'.
 \openout1 = `LAB.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1789.
  ) 
 Here is how much of TeX's memory you used:
- 70914 strings out of 493014
- 1567588 string characters out of 6133351
- 2651396 words of memory out of 5000000
- 72918 multiletter control sequences out of 15000+600000
- 189164 words of font info for 194 fonts, out of 8000000 for 9000
+ 70915 strings out of 493014
+ 1568224 string characters out of 6133351
+ 2650396 words of memory out of 5000000
+ 72920 multiletter control sequences out of 15000+600000
+ 188734 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,27n,107p,10411b,1738s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -5206,10 +5177,10 @@ r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LAB.pdf (14 pages, 213788 bytes).
+Output written on LAB.pdf (14 pages, 213892 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
+ 279 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
  65 named destinations out of 1000 (max. 500000)
  309 words of extra memory for PDF output out of 10000 (max. 10000000)
 
