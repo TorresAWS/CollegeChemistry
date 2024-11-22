@@ -11,7 +11,7 @@
 
 
 
-\foreach \i in {SectionIntro-Cycloalkanes,SubSection-Cycloalkanes-Cyclic-alkanes,SubSection-Cycloalkanes-Naming-cycloalkanes,SectionIntro-Alkanes-with-substituents,SubSection-Alkanes-with-substituents-Substituents,SubSection-Alkanes-with-substituents-Naming-rules-for-branched-alkanes}{
+\foreach \i in {SectionIntro-Cycloalkanes,SubSection-Cycloalkanes-Cyclic-alkanes,SubSection-Cycloalkanes-Naming-cycloalkanes,SectionIntro-Alkanes-with-substituents,SubSection-Alkanes-with-substituents-Substituents,Box-naming-organic}{
 \def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
 }
 \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem9}
