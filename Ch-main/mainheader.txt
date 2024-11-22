@@ -5694,7 +5694,7 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 \newcommand\cl[2]{\textcolor{#1}{#2}}
 \newcommand\bcl[2]{\textcolor{#1}{{\fontseries{b}\selectfont #2}}}
  
-
+\newcommand\lablabel{}
 
 
  
