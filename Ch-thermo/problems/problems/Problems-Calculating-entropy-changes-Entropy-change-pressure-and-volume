@@ -18,13 +18,13 @@ Answer the following questions:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Answer the following questions:
  \begin{inparaenum}[(a)]
-\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 10L to 1L and during the process its temperature increases from 200K to 300K. Calculate the entropy change of the gas.
-\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 1atm to 5atm and during the process its temperature increases from 100K to 200K. Calculate the entropy change of the gas.
+\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 10L to 1L at fixed pressure and during the process its temperature increases from 200K to 300K. Calculate the entropy change of the gas.
+\item   A 10 moles sample of a monoatomic ideal gas ($C_v=\frac{3}{2}R$ and $C_p=\frac{5}{2}R$) is compressed from 1atm to 5atm at fixed volume and during the process its temperature increases from 100K to 200K. Calculate the entropy change of the gas.
  \end{inparaenum}
 \end{question}
 \begin{solution}
   \begin{inparaenum}[(a)]
-\item  	 -140.87J/K 
-\item  	 10.26J/K 
+\item  	 -107.2J/K 
+\item  	 -47.4J/K 
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
