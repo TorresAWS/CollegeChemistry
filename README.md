@@ -60,7 +60,7 @@
 
 
 
- ## A pretty, free textbooks developed as computer code :wave:
+ ## A pretty, free textbooks developed as code :wave:
  
 This project is a student's dream: a free, elaborate General chemistry textbook with a pretty layout, covering a wide variety of content and including numerous answered exercises. 
 This project is also a techie instructor's dream: a book developed as code, that can be collaboratively improved, updated, and extended.
@@ -75,14 +75,14 @@ What makes a textbook pretty, when beauty is subjective:
 
  ### Open textbooks: the age of free, ugly, textbooks 
  
-The open textbook wave took over higher education several years ago. Nowadays, students do not need to pay for expensive college textbooks :smirk:. They can find good-quality textbooks (see <a href="https://openstax.org/">OpenStax</a>) and web resources (see <a href="https://open.umn.edu/opentextbooks">UMN library</a>) developed by the education community. Still, those resources are not pretty enough. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and mine in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
+The open textbook wave took over higher education several years ago. Nowadays, students do not need to pay for expensive college textbooks :smirk:. They can find good-quality textbooks (see <a href="https://openstax.org/">OpenStax</a>) and web resources (see <a href="https://open.umn.edu/opentextbooks">UMN library</a>) developed by the education community. Still, those resources are not pretty enough and they need to be beautified. An example is the OpenStax books which are good books but still don't look like regular, commercial textbooks. Editorials spend a lot of time and money in developing templates. Those templates are reviewed and improved as a textbook is re-edited and improved. In the sciences where numerous images and diagrams accompany textbooks, these templates are the key to making a textbook look pretty, and at the same time, they give a certain style to the books.
 
  ### Textbooks as code 
  
 This project envisions a textbook as computer software. Just like a complex app, good textbooks have an elaborate front end and a strong backend supports the front. This is particularly critical for the sciences, where textbooks are filled with thousands of numerical problems, or multiple-choice questions. Those questions can be placed in databases being retribed not only when the textbook is going for print, but also when the content needs to be delivered through a web portal. More importantly, the development of a textbook is similar to the development of code.
 
 Why is it convenient to develop textbooks as code:
-* Quality assurance: textbook develoment goes through cycles of improvement. Collaborative code reviews can ensure quality
+* Quality assurance: textbook develoment goes through cycles of improvement just like code. Collaborative code reviews can ensure quality
 * Versatility: textbook content (e.g. problems, text) can be delivered in multiple formats (e.g. pdf book, pdf quizes, web-base content, online learning management systems content). Codep-based content can delivered in all those formats.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +121,7 @@ git clone --single-branch --branch Ch-measurements  git@github.com:TorresAWS/Col
 ```sh
 git init
 ```
-4. Make a new edited branch refering to the chapter's name  
+4. Make a new branch refering to the chapter's name  
 ```sh
 git checkout -b  edittypos
 ```
@@ -174,7 +174,7 @@ This project was built mainly with Latex, and images were developed using TikZ. 
 
  ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
 
 * [CUNY Open educational Community](https://www.cuny.edu/libraries/open-educational-resources/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
