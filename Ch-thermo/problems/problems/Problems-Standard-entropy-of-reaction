@@ -2,12 +2,12 @@
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)]
  \item  sublimation of a solid %  $>0$
  \item  liquefaction of a gas %  $<0$ 
  \item  melting of a solid %  $>0$ 
- 
- \end{enumerate}
+\end{inparaenum}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -21,12 +21,12 @@ Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for t
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)] 
  \item  vaporization of a liquid %  $>0$ 
 \item  boiling of a liquid %  $>0$ 
   \item  condensation of a liquid %  $<0$
  \item  freezing of a liquid %  $<0$ 
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -41,11 +41,11 @@ Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for t
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)] 
 \item \ce{NH3_{(g)} + HCl_{(g)} -> NH4Cl_{(g)}} %  $<0$ 
 \item \ce{C3H8_{(g)} + O2_{(g)} -> 3CO_{(g)} + 4H2_{(g)}} %  $> 0$ 
  \item \ce{CH4_{(g)} + O2_{(g)} -> CO2_{(g)} + H_20_{(g)}} %  $\simeq 0$ 
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -59,11 +59,11 @@ Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for t
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)] 
  \item \ce{C_{(s)} + O2_{(g)} -> CO2_{(g)}  } %  $\simeq 0$ 
  \item \ce{CH4_{(g)} + O2_{(g)} -> CO2_{(g)} + H_20_{(l)}} %  $<0$ 
  \item \ce{N2_{(g)} + 3H2_{(g)} -> 2NH3_{(g)}  } %  $<0$ 
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -77,11 +77,11 @@ Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for t
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)] 
 \item \ce{NH4HS_{(g)}  -> NH3_{(g)} + H2S_{(g)}  } %  $>0$ 
  \item \ce{PCl5_{(g)}  -> PCl3_{(g)} + Cl2_{(g)}  } %  $>0$ 
  \item \ce{O2_{(g)}  + O_{(g)} -> O3_{(g)}    } %  $<0$ 
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
@@ -95,11 +95,11 @@ Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for t
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Predict the sign ($>0$, $<0$ or $\simeq 0$) of the standard entropy change for the following reactions:
-\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\begin{inparaenum}[(a)] 
  \item \ce{2NaCl_{(s)}  + F2_{(g)} -> 2NaF_{(s)}  + Cl2_{(g)}    } %  $\simeq 0$ 
  \item \ce{CaCO3_{(s)}   -> CaO_{(s)}  + CO2_{(g)}    } %  $>0$ 
  \item \ce{2Mg_{(s)}  + O2_{(g)} -> 2MgO_{(s)}       } %  $<0$ 
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
