@@ -136,11 +136,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 
-### Top contributors:
 
-<a href="https://github.com/TorresAWS/CollegeChemistry/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TorresAWS/CollegeChemistry" alt="contrib.rocks image" />
-</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
