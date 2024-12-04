@@ -1,7 +1,6 @@
- \documentclass[main.tex]{subfiles}
- \newcommand\chapterlabel{Ch-orgo}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-orgo}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
 \chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
-
 \begin{document}
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
 \setatomsep{1.78500 em}    % 'Fixed Length'
@@ -11,38 +10,17 @@
 \definesubmol{CH2}{CH_2}
 
 
-  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
- \setcounter{chapter}{0}\import{../\chapterlabel/files/}{ChapterName}  
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\setcounter{chapter}{0}\import{../\chapterlabel/files/}{ChapterName}  
 }
- \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
- \setcounter{chapter}{10} \import{../\chapterlabel/files/}{ChapterName}  
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+\setcounter{chapter}{10} \import{../\chapterlabel/files/}{ChapterName}  
 }{}  
 
 
-%\begin{marginfigure}\includegraphics{../{\chapterlabel}/figure1} \end{marginfigure}
 \import{../\chapterlabel/files/}{ChapterIntro}
-
-%\begin{marginfigure}%LEARNING GOALS BOX
-%\begin{mytcbox}{GOALS}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../\chapterlabel/files/}{SectionGoal-Alkanes}
-%\import{../\chapterlabel/files/}{SectionGoal-Alkanes-with-substituents}
-%\import{../\chapterlabel/files/}{SectionGoal-Cycloalkanes}
-%\import{../\chapterlabel/files/}{SectionGoal-Cycloalkanes-with-substituents}
-%\import{../\chapterlabel/files/}{SectionGoal-Molecular-diversity}
-%\end{enumerate}
-%\end{mytcbox}
-%\vspace{1cm}
-%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
-%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
-%\faGears\ 
-%\import{../\chapterlabel/files/}{ChapterDiscussion}
-%\end{tcolorbox}
-%\end{marginfigure}%LEARNING GOALS BOX
-
 \section{Organic and non-organic compounds}
-
- \import{../\chapterlabel/files/}{SubSection-Alkanes-Identifying-organic-compounds}
+\import{../\chapterlabel/files/}{SubSection-Alkanes-Identifying-organic-compounds}
 
 
 
@@ -107,7 +85,6 @@
 \item[\docfilehook{Cycloalkanes with two substituents}{}] \import{../\chapterlabel/files/}{SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-two-substituents}
 \item[\docfilehook{Cycloalkanes with repeated substituents}{}]\import{../\chapterlabel/files/}{SubSection-Cycloalkanes-with-substituents-Cycloalkanes-with-repeated-substituent}
 \import{../\chapterlabel/problems/}{SampleProblem10}
-
 \end{description}
 
 
@@ -122,15 +99,12 @@
 \item[\docfilehook{Alcohol, ether and thiol group}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group}
 \import{../\chapterlabel/problems/}{SampleProblem12}
 \newpage\hspace{0cm}  \import{../\chapterlabel/files/}{Figure-Acetone}
-
 \item[\docfilehook{Aldehydes and ketones}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Aldehydes-and-ketones}
 \import{../\chapterlabel/problems/}{SampleProblem13}
-
 \item[\docfilehook{Carboxylic acids and esters}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Carboxylic-acids-and-esters}
 \import{../\chapterlabel/problems/}{SampleProblem14}
  \item[\docfilehook{Amines and amides}{}] \import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Amines-and-amides}
   \import{../\chapterlabel/problems/}{SampleProblem15}
-
 \item[\docfilehook{Identifying organic acids and bases}{}]\import{../\chapterlabel/files/}{SubSection-Molecular-diversity-Identifying-organic-acids-and-bases}
 \import{../\chapterlabel/problems/}{SampleProblem16}
  \end{description}
@@ -164,7 +138,6 @@
 \item[\docfilehook{Amines and amides}{}] \import{../\chapterlabel/files/}{SubSection-naming-derivatives-mines-and-amides}
  \import{../\chapterlabel/problems/}{SampleProblem20}
  \item[\docfilehook{Double functional groups}{}] \import{../\chapterlabel/files/}{SubSection-naming-derivatives-Double-functional-groups}
-
  \end{description}
  
  
