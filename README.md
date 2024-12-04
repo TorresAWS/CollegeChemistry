@@ -167,7 +167,7 @@ This project was built mainly with Latex, and images were developed using TikZ. 
 
 
  ## Contact
- materialsstemlab@gmail.com
+ CollegeChemOpenTextbookCUNY@gmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
