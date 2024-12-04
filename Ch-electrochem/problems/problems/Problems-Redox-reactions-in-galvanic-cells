@@ -109,21 +109,21 @@ Indicate:
 
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction.
- \begin{center}\ce{	Zn_{(s)} + Au+   <=>	 Au_{(s)}	+ Zn^{2+}	 	}     \end{center}
+For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction. Use $\mathcal{E}^{\circ}(\ce{Zn^{2+}}/\ce{Zn	}) =$-0.762V and $\mathcal{E}^{\circ}(\ce{Au^+}/\ce{Au}) =$1.83V
+ \begin{center}\ce{	Zn_{(s)} + Au^+   <=>	 Au_{(s)}	+ Zn^{2+}	 	}     \end{center}
 \end{question}
 \begin{solution}
- $\mathcal{E}^{\circ}$=2.59V, spontaneous;\ce{	Zn_{(s)}+ 2Au+   <=>	2Au_{(s)}	+ Zn^{2+}	 	}
+ $\mathcal{E}^{\circ}$=2.59V, spontaneous;\ce{	Zn_{(s)}+ 2Au^+   <=>	2Au_{(s)}	+ Zn^{2+}	 	}
  \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
 
  
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction.
- \begin{center}\ce{	2HMnO_4^-	 + Fe2O3_{(s)} +  	 <=>	2Fe^{2+} +    2MnO_4^-   	}     \end{center}
+For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction. Use $\mathcal{E}^{\circ}(\ce{HMnO_4^-}/\ce{MnO_2}) =$1.70V and $\mathcal{E}^{\circ}(\ce{Fe2O3}/\ce{Fe^{2+}}) =$0.728V
+ \begin{center}\ce{	MnO_2	 + Fe2O3_{(s)}   	 <=>	Fe^{2+} +      HMnO_4^- 	}     \end{center}
 \end{question}
 \begin{solution}
- $\mathcal{E}^{\circ}$=$-$0.17V, nobspontaneous;\ce{	2HMnO_4^-	 + Fe2O3_{(s)} + 6H+  	 <=>	2Fe^{2+} + 3H2O +  2MnO_4^- + 2H+ 	} 
+ $\mathcal{E}^{\circ}$=$-$0.972V, nonspontaneous;\ce{		 Fe2O3_{(s)} +  MnO_2 + 3H+ 	 <=>	2Fe^{2+} + 2HMnO_4^-  + H2O  	} 
  \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
 
  
