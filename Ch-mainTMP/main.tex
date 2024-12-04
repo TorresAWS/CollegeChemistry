@@ -5643,13 +5643,11 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
-
- 
 %%%%%%%FRUITS CHATER FANCY HEADER
 \newcommand{\chapterfruit}{cherry} % apple orange lemon  cherry
 \newcommand{\chaptercolorheading}{red} % apple orange lemon  cherry
  \pagestyle{fancy}
-\newcommand{\Xfruit}{\phantom{X}} % Filler to define baseline of empty circles
+\newcommand{\X}{\phantom{X}} % Filler to define baseline of empty circles
 \fancyhf{}
 \DeclareRobustCommand{\bul}{\begin{tikzpicture}[baseline={(current bounding box.south)}]
 \fill [\chaptercolorheading!40,anchor=base,baseline] circle (1mm);
@@ -5664,15 +5662,15 @@ coordinate(-front-bottom-right) -- cycle;
 \fancyhead[RO]
 {\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
 \path pic[scale=0.5] () at (-1,0) {cherry}
-node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X} 
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
 node at (2,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage}; 
 \end{tikzpicture}}
 \fancyhead[LE]
 {\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
 \path node at (0,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
-node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit}
+node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
+node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X}
 pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 \end{tikzpicture}}
 %%%%%%%FRUITS CHATER FANCY HEADER
@@ -5694,25 +5692,132 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 \newcommand\cl[2]{\textcolor{#1}{#2}}
 \newcommand\bcl[2]{\textcolor{#1}{{\fontseries{b}\selectfont #2}}}
  
-\newcommand\lablabel{}
+
 
 
  
+\newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
+ \newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
+  \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
 
 
 
-
-\newcommand\ChapterNameLabel{Ch-kinetics}
-%\newcommand\ChapterNameLabel{Ch-orgo}                   %%Chapter name eg Ch-orgo
-\newcommand{\ProblemName}{Problems.tex}
-\newcommand\HideProblems{false}                                         %%TRUE for hiding end of chapter problems
-\newcommand\HideContent{false}                                  %%TRUE for hiding end of chapter problems
-\newcommand\chemversionhealthalied{false}                       %%TRUE for chem 121 version FALSE for 201-2
-\newcommand\showfinalanswers{true}                              %%TRUEfor showing answers false for not
-\newcommand\ShowUneditedText{true}                              %%TRUEfor showing unedited text
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry}       }{ \title{College Chemistry}}
-\begin{document} 
-\providetoggle{hideContentEnd}\settoggle{hideContentEnd}{\HideContent}\iftoggle{hideContentEnd}{       }{ \subfile{../\ChapterNameLabel/\ChapterNameLabel.tex}  }
-\providetoggle{hideproblemsEnd}\settoggle{hideproblemsEnd}{\HideProblems}\iftoggle{hideproblemsEnd}{       }{ \subfile{../\ChapterNameLabel/\ChapterNameLabel\ProblemName}  }
+
+
+
+ \begin{document} 
+\subfile{../Ch-main/cover/title.tex}
+\subfile{../Ch-main/periodictable/periodictable.tex}
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
+\tableofcontents
+ \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-main/tothereader/tothereader.tex}
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
+%\subfile{../Ch-main/online/online.tex}\clearpage\thispagestyle{empty}\mbox{}\clearpage
+%\subfile{../Ch-main/calendar/calendar.tex}
+
+
+\subfile{../Ch-parts/a.tex} 
+\clearpage\thispagestyle{empty}\mbox{}
+
+\subfile{../Ch-measurements/Ch-measurements.tex}
+\subfile{../Ch-measurements/Ch-measurementsProblems.tex}
+%%\subfile{./review/1.tex}
+\subfile{../Ch-Table/Ch-Table.tex}
+\subfile{../Ch-Table/Ch-TableProblems.tex}
+%%%\subfile{./review/1-2.tex}
+ \clearpage\thispagestyle{empty}\mbox{}
+
+\subfile{../Ch-parts/b.tex}
+ \clearpage\thispagestyle{empty}\mbox{}
+
+\subfile{../Ch-naming/Ch-naming.tex} 
+\subfile{../Ch-naming/Ch-namingProblems.tex} 
+\subfile{../Ch-mole/Ch-mole.tex}
+\subfile{../Ch-mole/Ch-moleProblems.tex}
+%%%\subfile{./review/3-4.tex}
+
+\subfile{../Ch-parts/c.tex}
+\subfile{../Ch-electrolytes/Ch-electrolytes.tex}
+\subfile{../Ch-electrolytes/Ch-electrolytesProblems.tex}
+\subfile{../Ch-Gas/Ch-Gas.tex}
+\subfile{../Ch-Gas/Ch-GasProblems.tex}
+%%\subfile{./review/5-6.tex}
+
+ \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/d.tex} \clearpage\thispagestyle{empty}\mbox{}
+
+\subfile{../Ch-thermochemistry/Ch-thermochemistry.tex}
+\subfile{../Ch-thermochemistry/Ch-thermochemistryProblems.tex}
+\subfile{../Ch-radiation/Ch-radiation.tex}
+\subfile{../Ch-radiation/Ch-radiationProblems.tex}
+%%\subfile{./review/7-8.tex}
+
+\subfile{../Ch-parts/e.tex}
+\subfile{../Ch-electronicstructure/Ch-electronicstructure.tex}
+\subfile{../Ch-electronicstructure/Ch-electronicstructureProblems.tex}
+\subfile{../Ch-solids/Ch-solids.tex} 
+\subfile{../Ch-solids/Ch-solidsProblems.tex}
+
+%\subfile{./review/9-10.tex}
+%\subfile{./review/1-10.tex}
+
+
+
+
+ \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/f.tex} \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-orgo/Ch-orgo.tex}
+\subfile{../Ch-orgo/Ch-orgoProblems.tex}
+\subfile{../Ch-solutions/Ch-solutions.tex}
+\subfile{../Ch-solutions/Ch-solutionsProblems.tex}
+
+ \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/g.tex} \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-kinetics/Ch-kinetics.tex}
+\subfile{../Ch-kinetics/Ch-kineticsProblems.tex}
+\subfile{../Ch-equilibrium/Ch-equilibrium.tex}
+\subfile{../Ch-equilibrium/Ch-equilibriumProblems.tex}
+
+ \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/h.tex} \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-acidbase/Ch-acidbase.tex}
+\subfile{../Ch-acidbase/Ch-acidbaseProblems.tex}
+\subfile{../Ch-solubility/Ch-solubility.tex}
+\subfile{../Ch-solubility/Ch-solubilityProblems.tex}
+
+ \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/i.tex} \clearpage\thispagestyle{empty}\mbox{}
+\subfile{../Ch-thermo/Ch-thermo.tex}
+\subfile{../Ch-thermo/Ch-thermoProblems.tex}
+\subfile{../Ch-electrochem/Ch-electrochem.tex}
+\subfile{../Ch-electrochem/Ch-electrochemProblems.tex}
+   
+\subfile{../Ch-parts/j.tex}
+\subfile{../Ch-nuclear/Ch-nuclear.tex}
+\subfile{../Ch-nuclear/Ch-nuclearProblems.tex}
+
+\subfile{../Ch-biochemistry/Ch-biochemistry.tex}
+\subfile{../Ch-biochemistry/Ch-biochemistryProblems.tex}
+
+
+
+%%%%%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\ProblemName}{Problems.tex}
+% \foreach \nchapter in {Ch-measurements,Ch-thermochemistry,Ch-Table,Ch-nuclear,Ch-naming,Ch-mole,Ch-Gas,Ch-electrolytes,Ch-equilibrium,Ch-acidbase,Ch-orgo}{
+%\subfile{../\nchapter/\nchapter.tex}
+%\subfile{../\nchapter/\nchapter\ProblemName}
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\subfile{../Ch-main/cover/back.tex}
+ 
+ 
+ 
+ 
+
 \end{document} 
+
+
+
+
 
