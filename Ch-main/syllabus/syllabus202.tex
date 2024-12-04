@@ -1,21 +1,28 @@
 \documentclass[a4paper,14pt,twoside,justified, symmetric]{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
+
+
 %%%%%%%%%%%%%%%%%%PAGE SIZE%%%%%%
 \geometry{textwidth=.58\paperwidth} % size of text column
 \geometry{
-  left=21.8mm, % left margin
-  textwidth=125mm, % main text block
-  marginparsep=8.2mm, % gutter between main text block and margin notes
-  marginparwidth=49.4mm, % width of margin notes
-   top=2.5cm,bottom=2.5cm 
+  left=21mm, % left margin
+  right=21mm, % left margin
+%  textwidth=150mm, % main text block
+%  marginparsep=8.2mm, % gutter between main text block and margin notes
+%  marginparwidth=49.4mm, % width of margin notes
+   top=2.5cm,bottom=2.5cm
 }
  %%% TEST
  %%%%%%%%%%%%%%%%%%PAGE SIZE%%%%%%
+
 \newenvironment{problempage}{ left=0.1in,right=0.1in, top=2.5cm,bottom=2cm  }{\par}
-\usepackage{paralist}
+
+
+
+
 \usepackage{graphicx}
 \usepackage{mathpazo}
+\usepackage[us,12hr]{datetime} 
 \usepackage{lscape}
-\usepackage[us,12hr]{datetime} % `us' makes \today behave as usual in TeX/LaTeX
 \usepackage{asymptote}
 \usepackage{dingbat}
 \usepackage{wrapfig}
@@ -26,30 +33,32 @@
 \newcommand{\xmark}{\ding{55}}%
 \usepackage{tabu}
 \usepackage{modiagram}
+
+
+
+
 \usepackage{amsmath}
+
 \usepackage{setspace}
 \usepackage{afterpage}
 \usepackage[version=4]{mhchem}
 \usepackage{fontawesome}
 \usepackage{xcolor, soul}
 \sethlcolor{green}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \usepackage{fonttable}
 \usepackage{paracol}
 \usepackage{chemfig}
-\usetikzlibrary{3d,decorations.pathreplacing,calligraphy}
+\usetikzlibrary{3d}
 %\usepackage[ugly]{nicefrac}
 \usepackage{cutwin}
 %\usepackage{pstricks}
-
+\usepackage{paralist}
 \usepackage{pgfplots}\pgfplotsset{compat=newest}
-
-\usepackage{movie15}
+\usepackage{movie15}\usepackage{xpatch}%
 \usepackage{hyperref}
 %\hypersetup{colorlinks,linkcolor={black},citecolor={black},urlcolor={black}}  
 \hypersetup{colorlinks,linkcolor={black}}
-
-
 \graphicspath{ {images/} }
 \hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
 \usepackage{microtype} % Improves character and word spacing
@@ -152,57 +161,69 @@
 %----------------------------------------------------------------------------------------
 %\newcounter{problemcounter}\newcommand\showmycounter{\stepcounter{problemcounter}\themycounter}
 
+\titleformat{\section}    
+       {\normalfont\fontfamily{phv}\fontsize{12}{17}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}    
+       {\normalfont\fontfamily{phv}\fontsize{12}{17}\bfseries\itshape}{\thesubsection}{1em}{}
+       
+ 
+ 
 
-%%%%%%%%%%%%%%%%%%%%%%%%Chapter Numbers
-\usepackage{xcolor}
-\def\chpcolor{blue!30!black}
-\def\chpcolortxt{black!90}
-\def\sectionfont{\sffamily\LARGE}
-\setcounter{secnumdepth}{2}
-\makeatletter
-%Section:
-\def\@sectionstrut{\vrule\@width\z@\@height12.5\p@}
-\def\@makesectionhead#1{%
-  {\par\vspace{20pt}%
-   \parindent 0pt\raggedleft\sectionfont
-   \colorbox{\chpcolor}{%
-     \parbox[t]{90pt}{\color{white}\@sectionstrut\@depth4.5\p@\hfill
-       \ifnum\c@secnumdepth>\z@\thesection\fi}%
-   }%
-   \begin{minipage}[t]{\dimexpr\textwidth-90pt-2\fboxsep\relax}
-   \color{\chpcolortxt}\@sectionstrut\hspace{5pt}#1
-   \end{minipage}\par
-   \vspace{10pt}%
-  }
-}
-\def\section{\@afterindentfalse\secdef\@section\@ssection}
-\def\@section[#1]#2{%
-  \ifnum\c@secnumdepth>\m@ne
-    \refstepcounter{section}%
-    \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
-  \else
-    \phantomsection
-    \addcontentsline{toc}{section}{#1}%
-  \fi
-  \sectionmark{#1}%
-  \if@twocolumn
-    \@topnewpage[\@makesectionhead{#2}]%
-  \else
-    \@makesectionhead{#2}\@afterheading
-  \fi
-}
-\def\@ssection#1{%
-  \if@twocolumn
-    \@topnewpage[\@makesectionhead{#1}]%
-  \else
-    \@makesectionhead{#1}\@afterheading
-  \fi
-}
-\makeatother
-%%%%%%%%%%%%%%%%%%%%%%%%Chapter Numbers
+% \usepackage[style=chem-acs, backend=bibtex]{biblatex}\usepackage[english]{babel}
+%\addbibresource{./biblio/bibliography.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%Chapter Numbers
+%\usepackage{xcolor}
+%\def\chpcolor{blue!30!black}
+%\def\chpcolortxt{black!90}
+%\def\sectionfont{\sffamily\LARGE}
+%\setcounter{secnumdepth}{2}
+%\makeatletter
+%%Section:
+%\def\@sectionstrut{\vrule\@width\z@\@height12.5\p@}
+%\def\@makesectionhead#1{%
+%  {\par\vspace{20pt}%
+%   \parindent 0pt\raggedleft\sectionfont
+%   \colorbox{\chpcolor}{%
+%     \parbox[t]{90pt}{\color{white}\@sectionstrut\@depth4.5\p@\hfill
+%       \ifnum\c@secnumdepth>\z@\thesection\fi}%
+%   }%
+%   \begin{minipage}[t]{\dimexpr\textwidth-90pt-2\fboxsep\relax}
+%   \color{\chpcolortxt}\@sectionstrut\hspace{5pt}#1
+%   \end{minipage}\par
+%   \vspace{10pt}%
+%  }
+%}
+%\def\section{\@afterindentfalse\secdef\@section\@ssection}
+%\def\@section[#1]#2{%
+%  \ifnum\c@secnumdepth>\m@ne
+%    \refstepcounter{section}%
+%    \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+%  \else
+%    \phantomsection
+%    \addcontentsline{toc}{section}{#1}%
+%  \fi
+%  \sectionmark{#1}%
+%  \if@twocolumn
+%    \@topnewpage[\@makesectionhead{#2}]%
+%  \else
+%    \@makesectionhead{#2}\@afterheading
+%  \fi
+%}
+%\def\@ssection#1{%
+%  \if@twocolumn
+%    \@topnewpage[\@makesectionhead{#1}]%
+%  \else
+%    \@makesectionhead{#1}\@afterheading
+%  \fi
+%}
+%\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%Chapter Numbers
 
 %%%%%%BOXES SAMPLE PROBLEM     
 \usepackage[most]{tcolorbox}\newtcolorbox{answerbox}{colback=white,colframe=white,frame hidden, enhanced, breakable}
+
+
+
 \definecolor{myblue}{RGB}{0,163,243}
 \tcbset{mystyle/.style={
   breakable,
@@ -285,7 +306,7 @@
 %%%PROBLEMS BOX 
 %%%PROBLEMS BOX 2
 \usepackage{blindtext}
-\usepackage{amsmath,amssymb}
+\usepackage{ amssymb}
 \usepackage{lmodern}
 \usepackage{tcolorbox}
 \makeatletter
@@ -399,7 +420,7 @@ overlay last={%
 %BOX FOR EQUATIONS
 
 %\usepackage{pgffor}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \usepackage[makeroom]{cancel}
 
 
@@ -477,7 +498,8 @@ overlay last={%
   \colorbox{black!20}{$\displaystyle#1$}}
   %HIGHLIGHT IN MATH
 %EMAIL SEND
-\usepackage{etoolbox}
+ \usepackage{etoolbox}
+ 
 %\makeatletter
 %\patchcmd{\l@chapter}% <cmd>
 %  {\addvspace{0.5em \@plus\p@}}% <search>
@@ -958,7 +980,6 @@ frametitle=%
 \setlist[enumerate]{itemsep=0mm}
 
 \newcounter{figurenewcounter}\newcounter{tablenewcounter}\newcounter{formulanewcounter}
-
 
 
 
@@ -1789,8 +1810,7 @@ atan 90 div dup dup
 \mycolagreen \mycolbgreen sub mul \mycolagreen exch sub exch 
 \mycolared \mycolbred sub mul \mycolared exch sub 3 1 roll exch 
 }%%%%%%%%PHASE DIAGRAM
-\usepackage{spath}
-\usetikzlibrary{fadings}
+ \usetikzlibrary{fadings}
 
 \usetikzlibrary{shapes}
 
@@ -1823,7 +1843,7 @@ atan 90 div dup dup
 
 %%%%%%%LARGE EXPONETIAL
 \usepackage{scalerel}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 \newlength\tempdimA
 \newlength\tempdimB
 \def\myexp#1{\setbox0=\hbox{$\strut#1$}\tempdimA=\dimexpr\ht0+\dp0\relax%
@@ -1845,20 +1865,30 @@ atan 90 div dup dup
 \usepackage{emerald}% for 1-4
 
 \usepackage{titlesec}
-\usepackage{textpos}
+ \makeatletter
+\def\ttl@mkchap@i#1#2#3#4#5#6#7{%
+    \ttl@assign\@tempskipa#3\relax\beforetitleunit
+    \vspace{\@tempskipa}%<<<<<< REMOVE THE * AFTER \vspace
+    \global\@afterindenttrue
+    \ifcase#5 \global\@afterindentfalse\fi
+    \ttl@assign\@tempskipb#4\relax\aftertitleunit
+    \ttl@topmode{\@tempskipb}{%
+        \ttl@select{#6}{#1}{#2}{#7}}%
+    \ttl@finmarks  % Outside the box!
+    \@ifundefined{ttlp@#6}{}{\ttlp@write{#6}}}
+\makeatother
 
-
-\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
-%%%%%%OLD TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
-\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
-\newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}
-\newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
+%\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
+%%%%%%%OLD TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\DeclareFixedFont{\chapternumberfont}{T1}{ppl}{}{}{1.5in}
+%\titleformat{name=\subsection, numberless}[display]{\Huge\bfseries\sffamily\color{black}\printcurrentpicture     }{}{-1.75in}{}[\vspace*{1in}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%TITLE IMAGE HEADING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \titleformat{\chapter  }[display]{\Huge\sffamily\color{black}\printcurrentpicture \vspace*{3.5cm} }{}{-1.75in}{Ch.  \thechapter.     }[\vspace*{0.5in}]\titlespacing{\chapter}{0pt}{0pt}{30pt}\newcommand{\printcurrentpicture}{ \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-3cm}\raisebox{0cm}[0pt][0pt]{ \resizebox{\paperwidth}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (0,0) rectangle (\textwidth,4cm)  node[rotate=0, font=\tiny] at ([yshift=.0cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel} node[rotate=-90, font=\tiny] at ([yshift=1.5cm,xshift=15cm]a.south east) {  \today \vspace{0.1cm}  (\currenttime)}; \end{tikzpicture}}}} }}}
+%\newcommand{\chapterpicture}[1]{\def\thechapterpicture{#1}}
+%\newcommand{\chapterpicturelabel}[1]{\def\thechapterpicturelabel{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{gmitblue}{RGB}{93,138,168}
 \definecolor{gmitred}{RGB}{241, 148, 138}
 
@@ -2196,11 +2226,11 @@ cherry/.pic={
 }}
 %%%%%%%%%FRUITS
 
-
+ 
 
 %%%%%%%%%%PROBLEMS SOLUTIONS AT THE END
 \usepackage[load-headings]{exsheets}[2014/05/11]
-
+%\usepackage{xsim}
 \DeclareQuestionProperty{section-title}
 \usepackage{nameref}
 \SetupExSheets{
@@ -4957,43 +4987,28 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
-
 \definecolor{copper}{cmyk}{0,0.9,0.9,0.2}
 \colorlet{lightgray}{black!25}
 \colorlet{darkgray}{black!75}
-
-\colorlet{batteryLeftElectrode}{red!75}
-\colorlet{batteryRightElectrode}{green!75}
-\colorlet{batteryLeftSolution}{blue!15}
-\colorlet{batteryRightSolution}{green!15}
-\newcommand{\Helectrodelabel}{\small \ce{H2}}
 %%%%%%ELECTROCHEMICAL BATTERIES
 
-\newcommand{\batterya}[9]{%
+\newcommand{\batterya}[5]{%
 \begin{scope}[shift={(8cm,0)}]
-%\colorlet{batteryLeftElectrode}{red!75}
-%\colorlet{batteryRightElectrode}{green!75}
-%\colorlet{batteryLeftSolution}{blue!15}
-%\colorlet{batteryRightSolution}{green!15}
-%\renewcommand{\Helectrodelabel}{\small \ce{H2}}
-%\begin{tikzpicture}
-%\batterya{\small \ce{Cu^{2+}, 1M}}{Cu}	{Zn}	{\small \ce{Zn^{2+}, 1M}}{1}{\Large $-$}{\Large $+$}{V}{0}    % 1 to the right
-%\batterya{left solution}{left electrode}	{right electrode}	{right solution}{1=right2left, 0=left2right,2-nolabels}{left signt}{right electrode}{Voltmeter}{1=hydrogen; 0=nothydrogen}    % 1 to the right
-%\end{tikzpicture}
 
  % Draw back of vessel 1
     \draw (0,0) to [controls=+(90:0.5) and +(90:0.5)] (2,0);
-    \draw[fill=batteryLeftSolution, fill opacity=0.5] (0,-0.5) to
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) to
         [controls=+(90:0.5) and +(90:0.5)] (2,-0.5);
 
     % Draw back of vessel 2
     \draw (3.5,0) to [controls=+(90:0.5) and +(90:0.5)] (5.5,0);
-    \draw[fill=batteryRightSolution, fill opacity=0.5] (3.5,-0.5) to [controls=+(90:0.5)
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) to [controls=+(90:0.5)
         and +(90:0.5)] (5.5,-0.5);
 
     % Draw copper electrode
-    \draw[fill=batteryLeftElectrode, shift={(.7em,0)},text width=1cm,align=center] (0.5,2) rectangle (1.0,-1) node[shift={(-.7em,3.7em)}] {#2} node[shift={(-.8em, 7em)}]  {#6}; % SIGN
-    \draw[shift={(-0em,-1em)}] (1,-1.75) node {#1}; %SOLUTION
+    \draw[fill=copper, shift={(.7em,0)}] (0.5,2) rectangle (1.0,-1) node[shift={(-.7em,3.7em)}] {#2} node[shift={(-.8em, 7em)}]  {\Large $-$};
+%    \draw (0,2.3) node {Cu};
+    \draw[shift={(-0em,-1em)}] (1,-1.75) node {#1};
 
     % Draw salt bridge
     \draw[line join=round, line width = 10pt] (1.75,-1.75) -- (1.75,0.5) --
@@ -5008,54 +5023,52 @@ coordinate(-front-bottom-right) -- cycle;
     \draw (2.75,0.5) node {\tiny{KNO$_{3}$}};
 
     %Draw front of vessel 1
+
     \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0);
     \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0)
         -- (2,-0.5) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-0.5) -- (0,0);
+
     %Second part
-    \draw[fill=batteryLeftSolution, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
     and +(-90:0.5) .. (2,-0.5);
-    \draw[fill=batteryLeftSolution, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
     and +(-90:0.5) .. (2,-0.5)
         -- (2,-2) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-2) -- (0,-0.5);
 
     % draw voltmeter
-        \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,-.5);
 
-  %  \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,2);
-    \draw (2.75,2.5) node [circle, draw, fill=red!30] {#8};
-     
+    \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,2);
+    \draw (2.75,2.5) node [circle, draw, fill=red!30] {V};
+    %%Draw back of vessel 2
     %Draw Zn electrode
- 
+     \draw[fill=darkgray, shift={(-.7em,0)}] (4.5,2) rectangle (5,-1) node[shift={(-.7em,3.7em)}]  {#3} node[shift={(-.8em, 7em)}]  {\Large $+$} ;
+%%    \draw (5.5,2.3) node {Zn};
+    \draw[shift={(-0em,-1em)}] (4.5,-1.75) node {#4};
+          \ifthenelse{\NOT 0 = #5 }{ \draw[->, shift={(0,.5em)}]   (1,2.5) -- (1.5,2.5) node [shift={(0.5,0em)}] {\small $e^-$} ;   }{\draw[->, shift={(0,.5em)}]   (1.5,2.5)  -- (1,2.5)  node [shift={(0.9,0em)}] {\small $e^-$} ;  }
+
      
-   \ifnum  0 = #9 { \draw[fill=batteryRightElectrode, shift={(-1.3em,-7.1em)}] (4.9,2) rectangle (5,1.4) node [shift={( 0.7em, 1.0em)}] {\small Pt};\draw[shift={(12em,-4em)},left color=blue,right color=blue,middle color=white, fill opacity=0.25] (0,-0) .. controls (0,-.1) and (.4,-0.1) .. (.5,0) -- (.5,2.5) --(.8,2.5) -- (.8,2.7) --(.5,2.7)  --(.5,2.8)      arc(0:180:.25)    -- cycle; \draw[->, shift={(12.6em,-3.7em)}]  (1.2,2.5) --(.8,2.5)  node[ text width=1cm,align=center, shift={(2em,0em)}] {\Helectrodelabel};  \draw (4.5,-1.75) node {#3} node[shift={(1em,11em)}]  {		} ; } \else {  \draw[fill=batteryRightElectrode, shift={(-.7em,0)}] (4.5,2) rectangle (5,-1) node[shift={(-.7em,3.7em)}]  {#3} node[shift={(-.8em, 7em)}]  {#7} ; } \fi
-  
-%\draw[fill=batteryRightElectrode, shift={(-1.3em,-7.1em)}] (4.9,2) rectangle (5,1.4) node [shift={( 0.7em, 1.0em)}] {\small Pt};\draw[shift={(12em,-4em)}] (0,-0) .. controls (0,-.1) and (.4,-0.1) .. (.5,0) -- (.5,2.5) --(.8,2.5) -- (.8,2.7) --(.5,2.7)  --(.5,2.8)      arc(0:180:.25)    -- cycle; \draw[->, shift={(12.6em,-3.7em)}]  (1.2,2.5) --(.8,2.5)  node[ shift={(2em,0em)}] {\small \ce{H2}};  \draw (4.5,-1.75) node {#3} node[shift={(1em,11em)}]  {\Large $+$} ; 
- 
-  %   \draw[fill=batteryRightElectrode, shift={(-.7em,0)}] (4.5,2) rectangle (5,-1) node[shift={(-.7em,3.7em)}]  {#3} node[shift={(-.8em, 7em)}]  {#7} ;  
-     
- 
- 
-    \draw[shift={(-0em,-1em)}] (4.5,-1.75) node {#4}; %SOLUTION
-        % Draw front of vessel 2
+%     %%% Hydrogen electrode
+%      \draw[fill=darkgray, shift={(-1.3em,-7.1em)}] (4.9,2) rectangle (5,1.4) node [shift={( 0.7em, 1.0em)}] {\small Pt};
+%  \draw[shift={(12em,-4em)}] (0,-0) .. controls (0,-.1) and (.4,-0.1) .. (.5,0) -- (.5,2.5) --(.8,2.5) -- (.8,2.7) --(.5,2.7)  --(.5,2.8)      arc(0:180:.25)    -- cycle;
+%     \draw (4.5,-1.75) node {\small{ZnSO$_{4}$}};
+%    \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,-.5);
+%    \draw (2.75,2.5) node [circle, draw, fill=red!30] {V};
+%    
+    
+    % Draw front of vessel 2
     % part 1
     \draw (3.5,0) .. controls +(-90:0.5) and +(-90:0.5) .. (5.5,0);
     \draw (3.5,0) .. controls +(-90:0.5) and +(-90:0.5) .. (5.5,0)
         -- (5.5,-0.5) .. controls +(-90:0.5) and +(-90:0.5)
         .. (3.5,-0.5) -- (3.5,0);
     % part 2
-    \draw[fill=batteryRightSolution, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
     and +(-90:0.5) .. (5.5,-0.5);
-    \draw[fill=batteryRightSolution, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
         and +(-90:0.5) .. (5.5,-0.5) --
         (5.5,-2) .. controls +(-90:0.5) and +(-90:0.5)
         .. (3.5,-2) -- (3.5,-0.5);
-    
-       \ifnum  0 = #5 {\draw[->, shift={(0,.5em)}]   (1,2.5) -- (1.5,2.5) node [shift={(0.5,0em)}] {\small $e^-$} ; }  \fi
-      \ifnum  1 = #5 { \draw[->, shift={(0,.5em)}]   (1.5,2.5)  -- (1,2.5)  node [shift={(0.9,0em)}] {\small $e^-$} ; }  \fi
-      \ifnum  2 = #5 { ; }  \fi
-    
-
-
 
   
 \end{scope}
@@ -5063,44 +5076,101 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
+\newcommand{\batteryh}[4]{%
+ % Draw back of vessel 1
+    \draw (0,0) to [controls=+(90:0.5) and +(90:0.5)] (2,0);
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) to
+        [controls=+(90:0.5) and +(90:0.5)] (2,-0.5);
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %\colorlet{ElectrodeSolution}{green!15}
-%\colorlet{ElectrodeSolid}{blue!30}
-% \renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
-% \renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{Cu+CuO}}
-% \renewcommand{\ElectrodeSolutionlabel}{\small \ce{H^+, 1M}}
-% \begin{center}\begin{tikzpicture}
-%\SingleElectrode {1}    % 0=hydrogen;1=nonhydrogen
-%\end{tikzpicture}\end{center}
-\colorlet{ElectrodeSolution}{green!15}
-\colorlet{ElectrodeSolid}{blue!30}
-\newcommand{\ElectrodeGaslabel}{\small \ce{H2}}\renewcommand{\ElectrodeGaslabel}{\small \ce{H2}}
-\newcommand{\ElectrodeSolidlabel}{\small \ce{H2}}\renewcommand{\ElectrodeSolidlabel}{\small \textcolor{blue}{Cu+CuO}}
-\newcommand{\ElectrodeSolutionlabel}{\small \ce{H^+, 1M}}\renewcommand{\ElectrodeSolutionlabel}{\small \ce{H^+, 1M}}
-\newcommand{\SingleElectrode}[1]{
-     \draw (0,0) to [controls=+(90:0.5) and +(90:0.5)] (2,0);
+    % Draw back of vessel 2
+    \draw (3.5,0) to [controls=+(90:0.5) and +(90:0.5)] (5.5,0);
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) to [controls=+(90:0.5)
+        and +(90:0.5)] (5.5,-0.5);
 
-         \ifnum  0 = #1 {\begin{scope}[shift={(-3.5cm,0)}] 
-                  \draw[shift={(12em,-4em)},left color=blue,right color=blue,middle color=white, fill opacity=0.25] (0,-0) .. controls (0,-.1) and (.4,-0.1) .. (.5,0) -- (.5,2.5) --(.8,2.5) -- (.8,2.7) --(.5,2.7)  --(.5,2.8)      arc(0:180:.25)    -- cycle; 
+    % Draw copper electrode
+    \draw[fill=copper, shift={(.7em,0)}] (0.5,2) rectangle (1.0,-1) node[shift={(-.7em,3em)}] {#2} node[shift={(-2em, 9em)}]  {\Large $-$};
+%    \draw (0,2.3) node {Cu};
+    \draw (1,-1.75) node {#1};
 
-         \draw[line join = round, thick,   shift={(-0.1em,0em)}]   (4.5,2.0) -- (4.5,-.3); \draw[fill=batteryRightElectrode, shift={(-1.4em,-6.1em)}] (4.85,2) rectangle (5,1.4) node [shift={( 0.7em, 1.0em)}] {\small Pt};  
-         \draw[->, shift={(12.6em,-3.7em)}]  (1.2,2.5) --(.8,2.5)  node[ shift={(2em,0em)}] {\ElectrodeGaslabel}; 
-             \end{scope}} \else { \draw[fill=ElectrodeSolid, shift={(.7em,0)}] (0.5,2) rectangle (1.0,-1) node[rotate=90,shift={(4em,0.7em)}] {\ElectrodeSolidlabel} ;     } \fi
-\begin{scope}[shift={(0cm,0)}]
-    \draw[fill=ElectrodeSolution, fill opacity=0. 5, draw=none  ] (0,-0.5) to    [controls=+(90:0.5) and +(90:0.5)] (2,-0.5);
-     \draw  (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0);
-         \draw (0,-0.5) to [controls=+(-90:0.5) and +(-90:0.5)] (2,-0.5);
-    \draw(0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0)  -- (2,-0.5) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-0.5) -- (0,0);
-    \draw[fill=ElectrodeSolution, fill opacity=0. 5] (0,-0.5) .. controls +(-90:0.5)   and +(-90:0.5) .. (2,-0.5);
-    \draw[fill=ElectrodeSolution, fill opacity=0.5,left color=ElectrodeSolution,right color=ElectrodeSolution,middle color=white ] (0,-0.5) .. controls  +(-90:0.5)  and +(-90:0.5) .. (2,-0.5)   -- (2,-2) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-2) -- (0,-0.5);
-    \draw (0.9,-1.75) node   {\ElectrodeSolutionlabel};
- 
-        \end{scope}   
+%    % Draw salt bridge
+%    \draw[line join=round, line width = 10pt] (1.75,-1.75) -- (1.75,0.5) --
+%        (3.75, 0.5) -- (3.75,-1.75);
+%         \draw[line join=round, line width = 8pt, color = gray!15] (1.75,-1.75) -- (1.75,0.5) -- (3.75, 0.5) -- (3.75,-1.75);
+%                   \draw[line join=round, line width = 8pt, color = gray!95] (1.75,-1.75) -- (1.75,-1.40) ;
+%             \draw[line width = 1pt, shift={(0,-0.0em)},fill=gray!95 ] (1.75,-1.75) ellipse (.15 and .05);
+%                          \draw[line width = 1pt, shift={(0,-0.0em)},fill=gray!95 ] (1.75,-1.40) ellipse (.15 and .05);
+%            \draw[line join=round, line width = 8pt, color = gray!95] (3.75,-1.75)  -- (3.75,-1.40)  ;
+%             \draw[line width = 1pt, shift={(0,-0.0em)},fill=gray!95 ] (3.75,-1.75) ellipse (.15 and .05);
+%                          \draw[line width = 1pt, shift={(0,-0.0em)},fill=gray!95 ] (3.75,-1.40) ellipse (.15 and .05);
+%    \draw (2.75,0.5) node {\tiny{KNO$_{3}$}};
+
+    %Draw front of vessel 1
+
+    \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0);
+    \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0)
+        -- (2,-0.5) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-0.5) -- (0,0);
+
+    %Second part
+
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+    and +(-90:0.5) .. (2,-0.5);
+    \draw[fill=blue!60, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+    and +(-90:0.5) .. (2,-0.5)
+        -- (2,-2) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-2) -- (0,-0.5);
+
+%    % draw voltmeter
+%
+%    \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,2);
+%    \draw (2.75,2.5) node [circle, draw, fill=red!30] {V};
+%    %%Draw back of vessel 2
+%    %Draw Zn electrode
+%     \draw[fill=darkgray, shift={(-.7em,0)}] (4.5,2) rectangle (5,-1) node[shift={(-.7em,3em)}] {#3} ;
+%%%    \draw (5.5,2.3) node {Zn};
+%    \draw (4.5,-1.75) node {#4};
+               %%% Hydrogen electrode
+      \draw[fill=darkgray, shift={(-1.3em,-7.1em)}] (4.9,2) rectangle (5,1.4) node [shift={( 0.7em, 1.0em)}] {\small Pt};
+  \draw[shift={(12em,-4em)}] (0,-0) .. controls (0,-.1) and (.4,-0.1) .. (.5,0) -- (.5,2.5) --(.8,2.5) -- (.8,2.7) --(.5,2.7)  --(.5,2.8)      arc(0:180:.25)    -- cycle;
+  
+  \draw[->, shift={(12.6em,-3.7em)}]  (1.2,2.5) --(.8,2.5)  node[ shift={(2em,0em)}] {\small \ce{H2}};
+
+     \draw (4.5,-1.75) node {#3} node[shift={(1em,11em)}]  {\Large $+$} ;
+    \draw[line join = round, thick] (1,2) -- (1,2.5) -- (4.5,2.5) -- (4.5,-.5);
+  %      \draw[->, shift={(0,.5em)}]   (1,2.5) -- (1.5,2.5) node [shift={(0.5,0em)}] {\small $e^-$} ;
+     \ifthenelse{\NOT 0 = #4 }{ \draw[->, shift={(0,.5em)}]   (1,2.5) -- (1.5,2.5) node [shift={(0.5,0em)}] {\small $e^-$} ;   }{\draw[->, shift={(0,.5em)}]   (1.5,2.5)  -- (1,2.5)  node [shift={(0.9,0em)}] {\small $e^-$} ;  }
+    \draw (2.75,2.5) node [circle, draw, fill=red!30] {V};
+         % Draw front of vessel 2
+    % part 1
+    \draw (3.5,0) .. controls +(-90:0.5) and +(-90:0.5) .. (5.5,0);
+    \draw (3.5,0) .. controls +(-90:0.5) and +(-90:0.5) .. (5.5,0)
+        -- (5.5,-0.5) .. controls +(-90:0.5) and +(-90:0.5)
+        .. (3.5,-0.5) -- (3.5,0);
+    % part 2
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
+    and +(-90:0.5) .. (5.5,-0.5);
+    \draw[fill=lightgray, fill opacity=0.5] (3.5,-0.5) .. controls +(-90:0.5)
+        and +(-90:0.5) .. (5.5,-0.5) --
+        (5.5,-2) .. controls +(-90:0.5) and +(-90:0.5)
+        .. (3.5,-2) -- (3.5,-0.5);
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\electrodeSolid}[4]{%
+\begin{scope}[shift={(8cm,0)}]
+    \draw (0,0) to [controls=+(90:0.5) and +(90:0.5)] (2,0);
+    \draw[fill=#3, fill opacity=0.5] (0,-0.5) to
+        [controls=+(90:0.5) and +(90:0.5)] (2,-0.5);
+     \draw[fill=#4, shift={(.7em,0)}] (0.5,2) rectangle (1.0,-1) node[rotate=90,shift={(4em,0.7em)}] {#2} ;
+     \draw[shift={(-0em,-1em)}] (1,-1) node {#1};
+    \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0);
+    \draw (0,0) .. controls +(-90:0.5) and +(-90:0.5) .. (2,0)
+        -- (2,-0.5) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-0.5) -- (0,0);
+    \draw[fill=#3, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+    and +(-90:0.5) .. (2,-0.5);
+    \draw[fill=#3, fill opacity=0.5] (0,-0.5) .. controls +(-90:0.5)
+    and +(-90:0.5) .. (2,-0.5)
+        -- (2,-2) .. controls +(-90:0.5) and +(-90:0.5) .. (0,-2) -- (0,-0.5);
+\end{scope}
+}
 
 
 
@@ -5261,10 +5331,7 @@ coordinate(-front-bottom-right) -- cycle;
 }
 }
 \newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
-%\newcommand{\bondwidth}{0.06642 em} % 'Line Width'\setbondstyle{line width = \bondwidth}
 
-
- 
 \usetikzlibrary{decorations.pathreplacing,calligraphy}
 
 \newcommand{\drawbox}[4]{
@@ -5342,6 +5409,10 @@ coordinate(-front-bottom-right) -- cycle;
     \end{scope}
   }
 }
+
+
+
+ 
 
  
 
@@ -5598,6 +5669,27 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
+
+
+
+ 
+
+
+%%%addproblemWithAnswerBoxMACRO%%%%%%%%%%%% 
+% \newcommand{\addproblemWithAnswerBox}[1]{ 
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%\import{../\chapterlabel/problems/problems/}{#1}
+%\end{question}
+%   \begin{Form}
+%   \TextField[multiline,backgroundcolor=gray!20,borderwidth=0,width=0.43\textwidth  ,height=115pt, name=\the\value{numA}]  { }\end{Form}
+%\begin{solution}
+%#1.answer%\import{../\chapterlabel/problems/problems/}{#1.answer}
+%\hspace{0.1cm}
+%\end{solution}
+%\stepcounter{numA}
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
  %%LAYOUTPROBLEMSWORKSEETPAGE%%%%%%%%%%%% 
 \newcommand\ProblemSectionlabel{}
 \newcolumntype{A}[1]{>{\raggedright\arraybackslash}p{#1}}
@@ -5618,6 +5710,16 @@ coordinate(-front-bottom-right) -- cycle;
 
 
 
+  
+
+
+
+ 
+ 
+
+
+ 
+ 
    %%%%%%% FILLABLE NAME AND DATE FOR QUIZZES
 \newcommand{\FillableNamebox}{\begin{Form}\renewcommand{\arraystretch}{1.5} \noindent
          \begin{tabular}{@{}A{ 0.35\textwidth }A{ 0.1\textwidth }@{}}
@@ -5640,184 +5742,282 @@ coordinate(-front-bottom-right) -- cycle;
   \setcounter{SavedRandom}{\value{FileRandom}}
   \renewcommand{#2}{\arabic{SavedRandom}}
 }
+\usepackage{fancyhdr}
+\usepackage{textpos}
 
-
-
-%%%%%%%FRUITS CHATER FANCY HEADER
-\newcommand{\chapterfruit}{cherry} % apple orange lemon  cherry
-\newcommand{\chaptercolorheading}{red} % apple orange lemon  cherry
- \pagestyle{fancy}
-\newcommand{\X}{\phantom{X}} % Filler to define baseline of empty circles
-\fancyhf{}
-\DeclareRobustCommand{\bul}{\begin{tikzpicture}[baseline={(current bounding box.south)}]
-\fill [\chaptercolorheading!40,anchor=base,baseline] circle (1mm);
-\end{tikzpicture}}
-\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter~%
-\bul~#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{Section \thesection~%
-\bul~#1}{}}
-\renewcommand\headrulewidth{0pt}
-\fancyhead[LO]{\leftmark}
-\fancyhead[RE]{\rightmark}
-\fancyhead[RO]
-{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
-\path pic[scale=0.5] () at (-1,0) {cherry}
-node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
-node at (2,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage}; 
-\end{tikzpicture}}
-\fancyhead[LE]
-{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
-\path node at (0,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage} 
-node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\X} 
-node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\X}
-pic[scale=0.5] () at (3,0) {\chapterfruit} ;
-\end{tikzpicture}}
-%%%%%%%FRUITS CHATER FANCY HEADER
-
-
-\DeclareInstance{tasks}{myitemize}{default} {enumerate = true  }\settasks{style = myitemize, column-sep = 2em,counter-format=(tsk[a]) , item-indent = 1.2em, label-width =1.2em, label-offset = 0.5em, after-item-skip = 1ex, after-item-skip=-1pt}
-\newcommand\score[2]{%
-  \pgfmathsetmacro\pgfxa{#1 + 1}%
-  \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=1.3pt, anchor=outer point 3]%
-  \begin{tikzpicture}[baseline]
-    \foreach \i in {1, ..., #2} {
-      \pgfmathparse{\i<=#1 ? "yellow" : "gray"}
-      \edef\starcolor{\pgfmathresult}
-      \draw (\i*1.75ex, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
-   }
-  \end{tikzpicture}%
-}
-\definecolor{lb}{RGB}{44, 139, 183}
-\newcommand\cl[2]{\textcolor{#1}{#2}}
-\newcommand\bcl[2]{\textcolor{#1}{{\fontseries{b}\selectfont #2}}}
+\fancyhead{}
  
-
-
-
- 
-\newcommand\chemversionhealthalied{false}%%TRUE for chem 121 version FALSE for 201-2
- \newcommand\showfinalanswers{true}%%TRUEfor showing answers false for not
-  \newcommand\ShowUneditedText{true}%%TRUEfor showing unedited text
-
-
-
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry}       }{ \title{College Chemistry}}
-
-
-
- \begin{document} 
-\subfile{../Ch-main/cover/title.tex}
-\subfile{../Ch-main/periodictable/periodictable.tex}
-\clearpage\thispagestyle{empty}\mbox{}\clearpage
-\tableofcontents
- \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-main/tothereader/tothereader.tex}
-\clearpage\thispagestyle{empty}\mbox{}\clearpage
-%\subfile{../Ch-main/online/online.tex}\clearpage\thispagestyle{empty}\mbox{}\clearpage
-%\subfile{../Ch-main/calendar/calendar.tex}
-
-
-\subfile{../Ch-parts/a.tex} 
-\clearpage\thispagestyle{empty}\mbox{}
-
-\subfile{../Ch-measurements/Ch-measurements.tex}
-\subfile{../Ch-measurements/Ch-measurementsProblems.tex}
-%%\subfile{./review/1.tex}
-\subfile{../Ch-Table/Ch-Table.tex}
-\subfile{../Ch-Table/Ch-TableProblems.tex}
-%%%\subfile{./review/1-2.tex}
- \clearpage\thispagestyle{empty}\mbox{}
-
-\subfile{../Ch-parts/b.tex}
- \clearpage\thispagestyle{empty}\mbox{}
-
-\subfile{../Ch-naming/Ch-naming.tex} 
-\subfile{../Ch-naming/Ch-namingProblems.tex} 
-\subfile{../Ch-mole/Ch-mole.tex}
-\subfile{../Ch-mole/Ch-moleProblems.tex}
-%%%\subfile{./review/3-4.tex}
-
-\subfile{../Ch-parts/c.tex}
-\subfile{../Ch-electrolytes/Ch-electrolytes.tex}
-\subfile{../Ch-electrolytes/Ch-electrolytesProblems.tex}
-\subfile{../Ch-Gas/Ch-Gas.tex}
-\subfile{../Ch-Gas/Ch-GasProblems.tex}
-%%\subfile{./review/5-6.tex}
-
- \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/d.tex} \clearpage\thispagestyle{empty}\mbox{}
-
-\subfile{../Ch-thermochemistry/Ch-thermochemistry.tex}
-\subfile{../Ch-thermochemistry/Ch-thermochemistryProblems.tex}
-\subfile{../Ch-radiation/Ch-radiation.tex}
-\subfile{../Ch-radiation/Ch-radiationProblems.tex}
-%%\subfile{./review/7-8.tex}
-
-\subfile{../Ch-parts/e.tex}
-\subfile{../Ch-electronicstructure/Ch-electronicstructure.tex}
-\subfile{../Ch-electronicstructure/Ch-electronicstructureProblems.tex}
-\subfile{../Ch-solids/Ch-solids.tex} 
-\subfile{../Ch-solids/Ch-solidsProblems.tex}
-
-%\subfile{./review/9-10.tex}
-%\subfile{./review/1-10.tex}
-
-
-
-
- \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/f.tex} \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-orgo/Ch-orgo.tex}
-\subfile{../Ch-orgo/Ch-orgoProblems.tex}
-\subfile{../Ch-solutions/Ch-solutions.tex}
-\subfile{../Ch-solutions/Ch-solutionsProblems.tex}
-
- \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/g.tex} \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-kinetics/Ch-kinetics.tex}
-\subfile{../Ch-kinetics/Ch-kineticsProblems.tex}
-\subfile{../Ch-equilibrium/Ch-equilibrium.tex}
-\subfile{../Ch-equilibrium/Ch-equilibriumProblems.tex}
-
- \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/h.tex} \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-acidbase/Ch-acidbase.tex}
-\subfile{../Ch-acidbase/Ch-acidbaseProblems.tex}
-\subfile{../Ch-solubility/Ch-solubility.tex}
-\subfile{../Ch-solubility/Ch-solubilityProblems.tex}
-
- \clearpage\thispagestyle{empty}\mbox{}\subfile{../Ch-parts/i.tex} \clearpage\thispagestyle{empty}\mbox{}
-\subfile{../Ch-thermo/Ch-thermo.tex}
-\subfile{../Ch-thermo/Ch-thermoProblems.tex}
-\subfile{../Ch-electrochem/Ch-electrochem.tex}
-\subfile{../Ch-electrochem/Ch-electrochemProblems.tex}
-   
-\subfile{../Ch-parts/j.tex}
-\subfile{../Ch-nuclear/Ch-nuclear.tex}
-\subfile{../Ch-nuclear/Ch-nuclearProblems.tex}
-
-\subfile{../Ch-biochemistry/Ch-biochemistry.tex}
-\subfile{../Ch-biochemistry/Ch-biochemistryProblems.tex}
-
-
-
-%%%%%%%%%%%%%%%FOR 121%%%%%%%%%%%%%%%%%%%%%%%%
-%\newcommand{\ProblemName}{Problems.tex}
-% \foreach \nchapter in {Ch-measurements,Ch-thermochemistry,Ch-Table,Ch-nuclear,Ch-naming,Ch-mole,Ch-Gas,Ch-electrolytes,Ch-equilibrium,Ch-acidbase,Ch-orgo}{
-%\subfile{../\nchapter/\nchapter.tex}
-%\subfile{../\nchapter/\nchapter\ProblemName}
+%\fancyfoot[L,R]{%
+%     \hspace{0.5\textwidth}%
+%    \raisebox{1.5ex}{\large\normalfont \thepage}%
 %}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-\subfile{../Ch-main/cover/back.tex}
+ \fancyfoot[L]{ \thepage}\fancyfoot[C]{}\fancyfoot[R]{ \thepage}
  
+\pagestyle{fancy}
+
  
+% 
+%%%%%%%%FRUITS CHATER FANCY HEADER
+%\newcommand{\chapterfruit}{cherry} % apple orange lemon  cherry
+%\newcommand{\chaptercolorheading}{red} % apple orange lemon  cherry
+% \pagestyle{fancy}
+%\newcommand{\Xfruit}{\phantom{X}} % Filler to define baseline of empty circles
+%\fancyhf{}
+%\DeclareRobustCommand{\bul}{\begin{tikzpicture}[baseline={(current bounding box.south)}]
+%\fill [\chaptercolorheading!40,anchor=base,baseline] circle (1mm);
+%\end{tikzpicture}}
+%\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter~%
+%\bul~#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{Section \thesection~%
+%\bul~#1}{}}
+%\renewcommand\headrulewidth{0pt}
+%\fancyhead[LO]{\leftmark}
+%\fancyhead[RE]{\rightmark}
+%\fancyhead[RO]
+%{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
+%\path pic[scale=0.5] () at (-1,0) {cherry}
+%node at (0,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit} 
+%node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+%node at (2,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage}; 
+%\end{tikzpicture}}
+%\fancyhead[LE]
+%{\begin{tikzpicture}[baseline, every node/.style={minimum size=8mm, anchor=base}]
+%\path node at (0,0) [shape=circle, fill=\chaptercolorheading!60] (0,0) {\thepage} 
+%node at (1,0) [shape=circle, fill=\chaptercolorheading!40] (0,0) {\Xfruit} 
+%node at (2,0) [shape=circle, fill=\chaptercolorheading!20] (0,0) {\Xfruit}
+%pic[scale=0.5] () at (3,0) {\chapterfruit} ;
+%\end{tikzpicture}}
+%%%%%%%%FRUITS CHATER FANCY HEADER
+\newcommand{\notes}[4][\empty]{%
+    \noindent #4\vspace{10pt}\\
+    \foreach \n in {1,...,#2}{%
+        \ifthenelse{\equal{#1}{\empty}}
+            {\rule{#3}{0.5pt}\\}
+            {\rule{#3}{0.5pt}\vspace{#1}\\}
+        }
+}
+
+
+
  
+
+
+
  
 
-\end{document} 
+
+%\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry Experiments}       }{ \title{College Chemistry}}
+ 
+
+ \usepackage{array}\usepackage{wasysym}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+ \usepackage{makecell}
+\newcommand\semester{Spring}
+\begin{document} 
+ 
+% \clearpage\thispagestyle{empty}\mbox{}
+% \clearpage\thispagestyle{empty}\mbox{}\clearpage
+ 
+
+\begin{tabular}{m{15em}| C{15em}| R{15em}|}
+CHE 202	& Syllabus & {\semester} \the\year{}
+\end{tabular}
+		                 					 
+\begin{center}BOROUGH OF MANHATTAN COMMUNITY COLLEGE\\
+The City University of New York\\
+Department of Science\end{center}
+\begin{bf}Title of Course:\end{bf} College Chemistry II 	\\	
+\begin{bf}Class Hours:\end{bf} 4\\
+\begin{bf}Course Code:\end{bf} CHE 202  \\
+\begin{bf}Laboratory Hours per Week:\end{bf} 3\\
+\begin{bf}Semester:\end{bf} {\semester} \the\year{} \\
+\begin{bf}Instructor Information (Phone\#, Office\#, email):\end{bf} Daniel Torres Rangel; N699E; dtorresrangel$@$bmcc.cuny.edu \\
+\begin{bf}Credits:\end{bf} 4\\
+\begin{bf}Course Description:\end{bf} This is a two-semester course sequence that involves the study of chemical principles including atomic and molecular theories, molecular structure, and reactivity. The laboratory will include experiments illustrating the chemical principles. 
+CHE 201-202 two terms required.  Required in A.S. (Science), A.S. (Engineering Science), A.S. (Science for Forensics), and A.S. (Biotechnology Science).   Fulfills science requirement for A.A. (Liberal Arts)
+Prerequisite for CHE 202 is CHE 201.\\
+\begin{bf}Basic Skills:\end{bf} ACR 094, ENG 088 or ESL 054, and MAT 056 \\
+\begin{bf}Prerequisites:\end{bf} CHE 201 \\
+\begin{bf}Corequisites:\end{bf} \\
+
+\begin{center}
+\begin{tabularx}{\linewidth}{ | X | X |}
+  \hline
+   \bf{Course Student Learning Outcomes (Students will be able to?)	}&  \bf{Measurements (means of assessment for student learning outcomes listed in first column)} \\
+    \hline
+  1.	Identify and define key terminology in chemistry.	& 1. Examinations will measure students? ability to define terms in stoichiometric calculations\\
+2. Explain chemical properties	& 2. Examinations will measure students? ability to explain atomic spectra from energy levels\\
+3. Apply chemical concepts to chemical properties.	& 3. Examinations will measure students? ability to apply chemical bonding to properties of solids.\\
+4. Compare chemical properties based on chemical models.	& 4. Examinations will measure student?s ability to compare types of chemical reactions\\
+5. Categorize chemical properties based atomic and molecular structure.	& 5. Examinations will measure student?s ability to categorize periodicity of atomic properties.\\
+6. Evaluate the effect of  changes in variables on chemical properties.	& 6. Examinations will measure student?s ability to evaluate enthalpy calculations.\\
+  \hline
+\end{tabularx}
+\end{center}
+	
+	
+	\begin{bf}Below are the college's general education learning outcomes, the outcomes that are checked in the left-hand column indicate goals that will be covered and assessed in this course.  (Check at least one.)\end{bf}
+	
+	\begin{center}
+\begin{tabularx}{\linewidth}{ | X | X |}
+  \hline
+	\begin{bf}General Education Learning Outcomes\end{bf}	& \begin{bf}Measurements (means of assessment for general education goals listed in first column)\end{bf} \\  \hline
+  \CheckedBox\hspace{1cm}Communication Skills- Students will be able to write, read, listen and speak critically and effectively.	& \\  \hline
+ \CheckedBox\hspace{1cm}	  Quantitative Reasoning- Students will be able to use quantitative skills and the concepts and methods of mathematics to solve problems.	& Examinations will assess student?s ability to mathematical analyze quantitative problems in chemistry.\\  \hline
+ \CheckedBox\hspace{1cm}	  Scientific Reasoning- Students will be able to apply the concepts and methods of the natural sciences.	& Examinations will assess student?s ability to interpret chemical properties based on chemical concepts and models.\\  \hline
+\makebox[0pt][l]{$\square$}{\raisebox{0.1\height}{ }}\hspace{1cm} Social and Behavioral Sciences- Students will be able to apply the concepts and methods of the social sciences.	& \\  \hline
+\makebox[0pt][l]{$\square$}{\raisebox{0.1\height}{ }}\hspace{1cm}Arts \& Humanities- Students will be able to develop knowledge and understanding of the arts and literature through critiques of works of art, music, theatre or literature. &	\\  \hline
+Information \& Technology Literacy- Students will be able to collect, evaluate and interpret information and effectively use information technologies.	& \\  \hline
+\makebox[0pt][l]{$\square$}{\raisebox{0.1\height}{ }}\hspace{1cm} Values- Students will be able to make informed choices based on an understanding of personal values, human diversity, multicultural awareness and social responsibility.	& \\  \hline
+\end{tabularx}
+\end{center}
+\begin{bf}Required Text:\end{bf} 
+Flowers, P., Theopold, K., Langley, R., \& Robinson, W. R. (2015). Chemistry: OpenStax. Available for free at https://openstax.org/details/books/chemistry-2e\\
+%\begin{bf}Required Laboratory Manual:\end{bf}
+%Wentworth, R. A. D., and Munk, Barbara H., Experiments in General Chemistry 11th Edition, Cengage Learning (2017), Boston MA.   ISBN 978-1-305-94498-5\\
+\begin{bf}Required Laboratory Goggles \end{bf}
+Appropriate chemical-resistant protective eyewear (goggles) must be purchased for use in the laboratory. The bookstore is carrying them (\$7.00).\\
+\begin{bf}Other Resources\end{bf} 
+\begin{bf}Use of Technology (If Applicable)\end{bf} \\
+\import{./}{rubric}
+\begin{bf}Class Participation\end{bf}\\
+Participation in the academic activity of each course is a significant component of the learning process and plays a major role in determining overall student academic achievement. Academic activities may include, but are not limited to, attending class, submitting assignments, engaging in in-class or online activities, taking exams, and/or participating in group work. Each instructor has the right to establish their own class participation policy, and it is each student?s responsibility to be familiar with and follow the participation policies for each course.\\
+\begin{bf}BMCC Policy on Plagiarism and Academic Integrity Statement\end{bf}\\
+Plagiarism is the presentation of someone else's ideas, words or artistic, scientific, or technical work as one's own creation. Using the idea or work of another is permissible only when the original author is identified. Paraphrasing and summarizing, as well as direct quotations, require citations to the original source. Plagiarism may be intentional or unintentional. Lack of dishonest intent does not necessarily absolve a student of responsibility for plagiarism. Students who are unsure how and when to provide documentation are advised to consult with their instructors. The library has guides designed to help students to appropriately identify a cited work. The full policy can be found on BMCC's Web site, www.bmcc.cuny.edu. For further information on integrity and behavior, please consult the college bulletin (also available online).\\
+\begin{bf}Gender-Inclusivity\end{bf}\\
+BMCC community members have the right to use and be referred to according to their preferred name, title, and/or personal pronouns. Everyone also has the right to use all spaces according to their self-identification, including restrooms and locker rooms. To learn more about how to change your preferred name and affirm your gender identity at CUNY (including requesting a new ID card and/or email address), go here: https://www.bmcc.cuny.edu/student-affairs/lgbtq/
+Anyone who has experienced harassment related to gender or sexual identification, who needs assistance, or who wishes to file a complaint, can contact the Office of Compliance and Diversity: https://www.bmcc.cuny.edu/about-bmcc/compliance-diversity/.
+
+\begin{bf}FREE BMCC STUDENT SUPPORT SERVICES\end{bf}\\
+BMCC is committed to the health and well?being of all students. It is common for everyone to seek assistance at some point in their life, and there are free and confidential services on campus that can help. \\
+\begin{bf}Advocacy and Resource Center (ARC)\end{bf} https://www.bmcc.cuny.edu/student-affairs/arc/ room S230, 212,220,8195, arc@bmcc.cuny.edu. If you are having problems with food or housing insecurity, finances, health insurance or anything else that might get in the way of your studies at BMCC, contact the Advocacy and Resource Center (formerly Single Stop) for assistance. Please contact us at arc@bmcc.cuny.edu, call 212-220-8195, or come by the office at room S230. You may also contact the Office of Student Affairs, S350, 212-220-8130, studentaffairs$@$bmcc.cuny.edu, for assistance.\\
+\begin{bf}Counseling Center\end{bf} www.bmcc.cuny.edu/counseling, room S343, 212?220?8140, counselingcenter@bmcc.cuny.edu. Counselors assist students in addressing psychological and adjustment issues (i.e., depression, anxiety, and relationships) and can help with stress, time management and more. Counselors are available for walk?in visits. \\
+\begin{bf}Office of Compliance and Diversity\end{bf} https://www.bmcc.cuny.edu/about-bmcc/compliance-diversity,  room S701, 212-220-1236. BMCC is committed to promoting a diverse and inclusive learning environment free of unlawful discrimination/harassment, including sexual harassment, where all students are treated fairly. For information about BMCC's policies and resources, or to request additional assistance in this area, please visit or call the office, or email olevy$@$bmcc.cuny.edu, or twade$@$bmcc.cuny.edu. If you need immediate assistance, please contact BMCC Public safety at 212-220-8080. \\
+\begin{bf}Office of Accessibility\end{bf} www.bmcc.cuny.edu/accessibility, Students who need academic accommodations in connection with a disability must initiate the request with BMCC?s Office of Accessibility (OA). Students need to register with the Office of Accessibility in order to officially disclose their disability status to the College and to determine eligibility for appropriate reasonable accommodations (including any prior IEPs or 504s). Please contact the OA at the start of the semester (or as soon as possible) to coordinate any accommodation request/s: www.bmcc.cuny.edu/accessibility, Room N360 (accessible entrance: 77 Harrison Street), 212-220-8180, accessibility$@$bmcc.cuny.edu. 
+
+\import{./}{policies}
 
 
 
+
+\newpage
+
+Topics
+
+Ch 1 Organic and Biological Molecules
+\begin{inparaenum}[(a)]
+\item Alkanes: Saturated Hydrocarbons
+\item  Alkenes and Alkynes
+\item Aromatic Hydrocarbons
+\item  Hydrocarbon Derivatives
+\item  Natural Polymers
+\end{inparaenum}
+
+ Ch 2 Properties of Solutions:\begin{inparaenum}[(a)]
+\item Solution Composition  
+\item Energies of Solution Formation
+\item Factors Affecting Solubility
+\item Vapor Pressure of Solutions
+\item Boiling Point Elevation and Freezing Point Depression
+\item Osmotic Pressure
+\item Colligative Properties of Electrolyte Solutions
+\end{inparaenum}
+
+Ch 3 Chemical Kinetics:\begin{inparaenum}[(a)]
+\item Reaction Rates
+\item Rate Laws
+\item Determining the Form of the Rate Law
+\item Integrated Rate Laws
+\item Reaction Mechanisms
+\item A Model for Chemical Kinetics
+\item Catalysis
+\end{inparaenum}
+
+Ch 4 Chemical Equilibrium:\begin{inparaenum}[(a)]
+\item The Equilibrium Condition
+\item The Equilibrium Constant
+\item Equilibrium Expressions Involving Pressures
+\item Heterogeneous Equilibria
+\item Applications of the Equilibrium Constant
+\item Solving Equilibrium Problems
+\item Le Chatelier's Princple
+\end{inparaenum}
+
+Ch 5 Acids and Bases:\begin{inparaenum}[(a)]
+\item The Nature of Acids and Bases
+\item Acid Strength
+\item The pH Scale
+\item Calculating the pH of Strong Acid Solutions
+\item Calculating the pH of Weak Acid Solutions
+\item Bases
+\item Polyprotic Acids
+\item Acid-Base Properties of Salts
+\item The Effect of Structure on Acid-Base Properties
+\item Acid-Base Properties of Oxides
+\item The Lewis Acid-Base Model
+\item Solutions of Acids or Bases Containing a Common Ion
+\item Buffered Solutions
+\item Buffering Capacity
+\item Titrations and pH Curves
+\item Acid-Base Indicators
+\item Polyprotic Acid Titrations
+\end{inparaenum}
+
+Ch 6 Solubility and Complex Ion Equilibria:\begin{inparaenum}[(a)]
+\item Solubility Equilibria and the Solubility Product
+\item Precipitation 
+\item Precipitation Conditions
+\item Equilibria Involving Complex Ions
+\end{inparaenum}
+
+Ch 7 Spontaneity, Entropy and Free Energy:\begin{inparaenum}[(a)]
+\item Spontaneous Processes and Entropy
+\item Entropy and the Second Law of Thermodynamics
+\item The Effect of Temperature on Spontaneity
+\item Entropy Changes in Aqueous Solutions
+\item Entropy Changes in Chemical Reactions
+\item Free Energy
+\item Free Energy and Chemical Reactions
+\item The Dependence of Free Energy on Pressure
+\item Free Energy and Equilibrium
+\item Free Energy and Work
+\end{inparaenum}
+
+Ch 8 Electrochemistry:\begin{inparaenum}[(a)]
+\item Galvanic Cells
+\item Standard Reduction Potentials
+\item Cell Potential, Electrical Work, and Free Energy
+\item Dependence of Cell Potential on Concentration
+\item Corrosion
+\item Electrolysis
+\end{inparaenum}
+%The Nucleus: A Chemist?s View\\
+%
+%Nuclear Stability and Radioactive Decay\\
+%The Kinetics of Radioactive Decay\\
+%Nuclear Transformations\\
+%Detection and Uses of Radioactivity\\
+%Thermodynamic Stability of the Nucleus\\
+%Nuclear Fission and Nuclear Fusion\\
+
+
+
+
+
+
+
+
+
+
+
+% 
+%
+% \renewcommand\chapterlabel{Ch-orgo}\clearpage\mbox{}\clearpage\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{Organiccompoundsalkanes}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpath{../\chapterlabel/LAB-GOB-\labname/}\subfile{\chapterpath/\labname.tex}
+
+ 
+
+\end{document}
 
 
