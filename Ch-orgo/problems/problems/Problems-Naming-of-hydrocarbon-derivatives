@@ -287,3 +287,20 @@ Name or formulate the following compound:
 
 
 
+  %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name or formulate the following compound:
+   \begin{center}
+                  \chemfig{  -[:45]-[:-45]-[:45]-[:-45]-[:45]N((-[:45]-[:-45])(-[:-45]))  }   % 
+   \end{center}
+ \end{question}
+\begin{solution}
+  ethylmethylaminopentane
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
