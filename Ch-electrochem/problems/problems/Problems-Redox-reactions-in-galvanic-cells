@@ -26,7 +26,7 @@ Indicate:
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 We want to build up a galvanic cell based on the reactions below.  
-\begin{center}\ce{	Cr^{3+} +e^-	 <=>	Cr2+ 	}\hfill $\mathcal{E}^{\circ} =-$0.42V\\
+\begin{center}\ce{	Cr^{3+} +e^-	 <=>	Cr^{2+} 	}\hfill $\mathcal{E}^{\circ} =-$0.42V\\
 \ce{	AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O		 }\hfill $\mathcal{E}^{\circ} =+$1.77V\end{center} 
 Indicate:
 \begin{inparaenum}[(a)]
@@ -38,7 +38,7 @@ Indicate:
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item anode (\ce{	 Cr^{3+} +e^-	 <=>	Cr2+  	});cathode(\ce{AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O	  })
+\item anode (\ce{	 Cr^{3+} +e^-	 <=>	Cr^{2+}  	});cathode(\ce{AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O	  })
 \item \ce{AgO_{(s)} + 2H+ +e^-	+Cr2+   <=>	Ag+ + H2O + Cr^{3+} +e^-		 }
 \item 1
 \item 2.19V
@@ -49,6 +49,7 @@ Indicate:
 
 
 %%%%%PROBLEM
+%%%% UNVERIFIED
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 For the galvanic cell below
  \colorlet{batteryLeftElectrode}{red!75}
@@ -79,6 +80,7 @@ Indicate:
  
  
  %%%%%PROBLEM
+%%%% UNVERIFIED
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 For the galvanic cell below
  \colorlet{batteryLeftElectrode}{red!75}
