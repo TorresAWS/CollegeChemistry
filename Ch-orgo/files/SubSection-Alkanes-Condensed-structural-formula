@@ -25,15 +25,15 @@ Let us analyze the formula of propane shown below. In this molecule, there are t
         ([xshift=-10pt,yshift=-40pt]E.south west) rectangle ([xshift=5pt,yshift=10pt]E.north east) ;
                    \draw[->,thick]          ([xshift=-10pt,yshift=-40pt]E.south west)   -- ++ (-1,0)  node[xshift=-15pt,yshift=0pt] {Central};
 }
-The extremes of the chain are indeed \ce{CH3} units and the central carbon is a \ce{CH2} unit. So, another way to represent propane would be:
+The extremes of the chain are indeed \ce{CH3} units and the central carbon is a \ce{CH2} unit. So, another way to represent propane would be in a more condensed way:
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
 \node at (0,0) {\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}};
 \node at (0,-1) {\textcolor{blue}{Expanded propane, \ce{C3H8}}};
 \node at (6,0) {\chemfig{CH_3-!{CH2}-CH_3}};
 \node at (6,-1) {\textcolor{blue}{Condensed propane, \ce{C3H8}}};
 \end{tikzpicture}\end{center}
-This representation is called \emph{condensed structural formula} or simple condensed structure, as the units of carbon and hydrogen are condensed into  \ce{CH2} and  \ce{CH3} units.
-Table \ref{tab:{\chapterlabel}\thetablenewcounter} displays molecular formulas and condensed structures for different alkanes. For larger alkenes it is often convenient to use parenthesis to simplify the structure. For example, the expanded structure of butane can be written as:
+This new representation is called \emph{condensed structural formula} or simple condensed structure, as the units of carbon and hydrogen are condensed into  \ce{CH2} and  \ce{CH3} units.
+Table \ref{tab:Table-Alkane-names} displays molecular formulas and condensed structures for different alkanes. For larger alkenes it is often convenient to use parenthesis to simplify the structure. For example, the expanded structure of butane can be written as:
 \begin{center}\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}\hspace{0.1cm} or \hspace{0.1cm} \setpolymerdelim()\chemfig{H-C(-[2]H)(-[6]H) -[@{A,0.5}:0,2]C(-[2]H)(-[6]H) -[@{B,0.5}:0,2]C(-[2]H)(-[6]H)-H }\makebraces(15pt,15pt){$\scriptstyle\!\!2$}{A}{B}  \end{center}
 Similarly, the condensed structure of butane can be written as:
 \begin{center}\chemfig{CH_3-CH_2-CH_2-CH_3}\hspace{0.1cm} or \hspace{0.1cm} \setpolymerdelim()\chemfig{CH_3 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]CH_3 }\makebraces(5pt,5pt){$\scriptstyle\!\!2$}{A}{B} \end{center}
