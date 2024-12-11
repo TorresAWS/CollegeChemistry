@@ -27,14 +27,14 @@ Calculate the entropy change in a gold nugget when it receives 50KJ at 50$^{\cir
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the entropy change when 200KJ of heat are being reversibly transferred from a hot reservoir at 300K into a cold reservoir at 200K.
+Calculate the entropy change when 200KJ of heat are being reversibly transferred from a hot reservoir at 300K into a hot reservoir at 200K.
 \end{question}
 \begin{solution}
  333J/K
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the entropy change when 40KJ of heat are being reversibly transferred from a cold reservoir at 100K into a cold reservoir at 400K. Would this process be spontaneous?
+Calculate the entropy change when 40KJ of heat are being reversibly transferred from a cold reservoir at 100K into a hot reservoir at 400K. Would this process be spontaneous?
 \end{question}
 \begin{solution}
  -300J/K; No
