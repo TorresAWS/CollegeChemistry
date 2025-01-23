@@ -1,0 +1,94 @@
+
+
+
+ 
+
+
+
+ 
+\subsection*{Charle's Law} 
+
+
+\vspace{0.2cm}
+ \begin{center}\;\;\mycircled{1}\;\; Flask volume (L), $V_f$  = \end{center}
+\vspace{0.1cm}
+
+\begin{center}\begin{tabular}{ |m{0.8cm} m{2.4cm}|m{1.7cm}|p{1.7cm}|p{1.7cm}|p{1.7cm}|  }
+\cline{3-6}
+\multicolumn{2}{r|}{} & Hot Bath & \multicolumn{3}{c|}{Cool Bath} \\
+\hline
+
+\multicolumn{2}{|r|}{} &  & Replicate 1 & Replicate 2& Replicate 2 \\
+\hline
+
+ \mycircled{2}&Temperature (K)  &      &   &   &   \\ [5pt]
+ &  &    & & &  \\[1pt]
+\hline
+ \mycircled{3}&Water volume inside the flask, $V_{(liquid)}$ (L) &     &  &  &   \\[5pt]
+ &  &    & & &  \\[1pt]
+\hline
+ \mycircled{4}&Gas volume,$V_{(gas)}$ (L) &    &  &  &   \\[5pt]
+ &  &    & & &  \\[1pt]
+\hline
+ \mycircled{5}&{\Large $\frac{V_{(gas)}}{T}$} (L/K) &     &  & &  \\[5pt]
+ &  &    & & &  \\[1pt]
+\hline
+\end{tabular}\end{center}
+
+ \subsection*{Boyle's Law} 
+
+
+
+\begin{center}\begin{tabular}{ |m{2.4cm}| m{2.4cm}|m{2.4cm}|    }
+ \hline
+    Pressure, P (atm) & Volume, V (L) & P$\times$V (atm$\cdot$ L) \\[5pt]\hline
+  0.5 &	44.772& 		\\[5pt]\hline
+0.6 &	37.31& 		\\[5pt]\hline
+0.7 &	31.98& 		\\[5pt]\hline
+0.8 &	27.9825& 		\\[5pt]\hline
+0.9 & 	24.8733& 		\\[5pt]\hline
+
+\end{tabular}\end{center}
+
+
+\newpage
+ \vspace{2cm}
+%\begin{figure}[H]
+%  \centering
+   \begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (160mm,190mm);
+ \draw[step=10mm] (0,0) grid (160mm,190mm);
+\end{tikzpicture}
+%\\\captionof{figure}{Charle's Law}
+
+%\end{figure}
+
+
+
+
+
+
+ \newpage
+
+
+
+
+ 
+ 
+%\begin{figure}[H]
+%  \centering
+   \begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (160mm,190mm);
+ \draw[step=10mm] (0,0) grid (160mm,190mm);
+\end{tikzpicture}
+%\\\captionof{figure}{Boyle's Law}
+%\end{figure}
+
+
+
+
+
+
+
+\clearpage\mbox{}\clearpage
+ 

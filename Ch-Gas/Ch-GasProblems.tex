@@ -15,49 +15,37 @@
 \end{conclusion}
 \begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
 
+
 {\raggedright\textsc{\textbf{Gases And Its Properties }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Gases-And-Its-Properties}
-
-%%%%NOT FOR 121
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
-\import{../\chapterlabel/problems/problems/}{Problems-Measuring-pressure}
-}
-%%%%NOT FOR 121
-
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Gases-And-Its-Properties}
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Measuring-pressure}
 {\raggedright\textsc{\textbf{Ideal Gas Law }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Ideal-Gas-Law }
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Ideal-Gas-Law }
 {\raggedright\textsc{\textbf{Change of Gas Properties }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Change-of-Gas-Properties}
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Change-of-Gas-Properties}
 {\raggedright\textsc{\textbf{Mixture of Gases and gas stoichiometry }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Mixture-of-Gases}
-\import{../\chapterlabel/problems/problems/}{Problems-Mixture-of-Gases-tanks}
-\import{../\chapterlabel/problems/problems/}{Problems-gas-stoichiometry}
- 
-%%%%NOT FOR 121
-\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Mixture-of-Gases}
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Mixture-of-Gases-tanks}
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-gas-stoichiometry}
 {\raggedright\textsc{\textbf{Real gases and the kinetic molecular theory of gases }}\par}
-\import{../\chapterlabel/problems/problems/}{Problems-Real-gases-and-the-kinetic-molecular-theory-of-gases}
-\clearpage\thispagestyle{empty}\mbox{}\clearpage
+\import{../\chapterlabel/problems/problems/}{GeneralProblems-Real-gases-and-the-kinetic-molecular-theory-of-gases}
 
-}
-%%%%NOT FOR 121
-\end{multicols*} \providetoggle{showfinalanswers}\settoggle{showfinalanswers}{\showfinalanswers}\iftoggle{showfinalanswers}{
-%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
-\newpage\fancyhfoffset[E,O]{0pt}
-\begin{answerbox}
+
+\end{multicols*}
+\newpage
 \begin{answersenvironment}
- \begin{localsize}{10}
-{ \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
-\Large \bf Answers}
-\SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
-\printsolutions 
- % \printsolutions[byID={1,3,5,7,9,11,13}]
-  \vspace{20cm}
- \end{localsize}
- \end{answersenvironment}
-\end{answerbox}
-%%%%%%%%%%%%%%%%NEW ANSWER ENVIRONMENT
-}{}
-\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi\end{document}
+\begin{minipage}[c]{1\textwidth}
+\begin{localsize}{10}
+{\Large \bf Answers}
+\SetupExSheets{
+  headings = inline-nr , % numbered and inline
+  counter-format = qu) , % numbers 1) 2) ... 
+}
+%\printsolutions 
+  \printsolutions[byID={1,3,5,7,9,11,13,15,17,19,21,23,25,27, 29, 31, 33, 35}]
+  \clearpage\thispagestyle{empty}\mbox{}
 
-%%%TAG:CHEM201
+\end{localsize}
+\end{minipage}\end{answersenvironment}
+\end{document}
+ 

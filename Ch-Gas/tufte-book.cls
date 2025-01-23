@@ -78,4 +78,3 @@
 %%
 % End of file
 \endinput
-%%%TAG:CHEM201

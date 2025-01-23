@@ -1,0 +1,28 @@
+ \foreach \i in {SectionIntro-Gases-and-its-properties,SubSection-Gases-and-its-properties-Gases-in-the-periodic-table,SubSection-Gases-and-its-properties-Characteristics-of-gases,SubSection-Gases-and-its-properties-Volume-V,SubSection-Gases-and-its-properties-Temperature-T,SubSection-Gases-and-its-properties-Amount-of-gas-n,SubSection-Gases-and-its-properties-Pressure-P,SubSection-Gases-and-its-properties-Measuring-pressure}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem11}
+%  \import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Pressure}
+ 
+
+
+ \foreach \i in {SectionIntro-Ideal-gas-law,SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles,SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem2}
+ 
+  \foreach \i in {SectionIntro-Change-of-gas-properties,SubSection-Change-of-gas-properties-Solving-problems-with-an-initial-and-final-state,SubSection-Change-of-gas-properties-Pressure-Volume-change,SubSection-Change-of-gas-properties-Volume-Moles-change,SubSection-Change-of-gas-properties-Relating-the-different-variables-of-a-gas}{
+\def\sectionnamefull{\i}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull} 
+}
+    \import{\chapterpathtocontent\ChapterNameLabel/problems/}{SampleProblem5}
+ 
+
+ 
+
+
+
+
+
+
+
+ 

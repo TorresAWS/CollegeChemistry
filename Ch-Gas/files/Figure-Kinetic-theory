@@ -1,4 +1,4 @@
- \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Kinetic-theory} \hspace{0cm}
 \begin{fullwidth}
 \begin{minipage}[b]{1.7\linewidth}
 
@@ -81,7 +81,7 @@
   \addplot[blue, linelabel=0.1:{.6cm,.6cm}: {[blue]right:\ce{I2} (MW=254amu) at $300$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
 \end{axis}
 \end{scope} 
-	  \node[text width=12cm, fontscale=.2,shift={(-2em,-9em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Effect of temperature and mass on the distribution of molecular speeds };
+	  \node[text width=12cm, fontscale=.2,shift={(-2em,-9em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Kinetic-theory} \end{bf} Effect of temperature and mass on the distribution of molecular speeds };
 
 \end{tikzpicture}
 \end{minipage}

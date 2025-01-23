@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Pressure}
  \hspace{00cm}\begin{minipage}[b]{1.5\linewidth}
 \resizebox{.9\textwidth}{!}{
 	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
@@ -10,7 +10,7 @@
 
  \node (c) at (12cm,0) {\includegraphics[width=5cm, height=5cm]{../{\chapterlabel}/figure5}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} PxFuel} ;
 \node[text width=4cm] at ([yshift=0.8cm]c.north) {\mytriangle{red}{\small A pressure gauge}};
-\node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Pressure measuring devices };
+\node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Pressure} \end{bf} Pressure measuring devices };
 
 \end{tikzpicture}
 }
