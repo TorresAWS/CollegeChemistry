@@ -108,15 +108,6 @@ Complete the following reaction:
 
 
 
-%%%%%%%PROBLEM
-\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Complete the following reaction:
-\begin{center}\chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }\end{center}
-\end{question}
-\begin{solution}
-\chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }
-\hspace{0.1cm}\end{solution}\stepcounter{numA}
-%%%%%%%%%%%%%%
 
 
 %%%%%%%PROBLEM

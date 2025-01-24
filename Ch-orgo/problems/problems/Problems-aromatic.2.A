@@ -1,0 +1,11 @@
+Name or formulate the following aromatic derivatives, using both the standard and the orto, meta and para nomenclature:
+ \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{**6(-(-I)---(-I)--)}  }; % para
+\node at (0,-1.6)  {\textcolor{black}{(a)  }};
+\node at (5,0) {  \chemfig{
+        {\vphantom{H}}-[:-150](-[:-90]Cl)-[:150]
+        (-[:90,,1])-[:210,,1]-[:270]=_[:210]-[:150]
+        =_[:90]-[:30](=_[:330])
+        }  };  
+\node at (5,-1.6) {\textcolor{black}{(b)  }};
+\end{tikzpicture}\end{center}

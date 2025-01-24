@@ -1,0 +1,7 @@
+In the following pair of geometric isomers, indicate which is the cis and the trans isoimer and name both.
+ \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{     C((-[:135]Br)(-[:-135]H)(=[:0]C( (-[:45]CH_3)(-[:-45]H)                  ) ))     }  };
+\node at (0,-1.3)  {\textcolor{black}{(a)  }};
+\node at (5,0) { \chemfig{    C((-[:135]Br)(-[:-135]H)(=[:0]C( (-[:-45]CH_3)(-[:45]H)                  ) ))      }  };
+\node at (5,-1.3) {\textcolor{black}{(b)  }};
+\end{tikzpicture}\end{center}

@@ -1,0 +1,4 @@
+Name or formulate the following compound:
+   \begin{center}
+         \chemfig{ H-[:45]((=[:90]O)((-[:-45]OH)))  }    
+   \end{center}

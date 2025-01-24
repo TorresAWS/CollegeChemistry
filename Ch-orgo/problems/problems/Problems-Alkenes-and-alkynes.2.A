@@ -1,0 +1,4 @@
+Indicate the number of $\sigma$ and $\pi$ bonds present in the following structure:
+ \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
+\node at (0,0) { \chemfig{{[:-150]*6(-(-OH)=(-OH)-=-(-([7]-OH)-[1]-NH([1]-CH_3))=)}  }  };
+\end{tikzpicture}\end{center}
