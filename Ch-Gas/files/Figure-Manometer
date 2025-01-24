@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Manometer} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
 \begin{tikzpicture}
 \tikzset{edge/.style = {->,> = latex'}}
 \def\r{1.1}% Mid-tube radius
@@ -64,7 +64,7 @@
 \draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
 
 \end{scope}
-	  \node[text width=12cm, fontscale=.2,shift={(8em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Manometer} \end{bf} Two types of manometers: open-tube and closed-tube manometer };
+	  \node[text width=12cm, fontscale=.2,shift={(8em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Two types of manometers: open-tube and closed-tube manometer };
 
 \end{tikzpicture}
 \end{minipage}

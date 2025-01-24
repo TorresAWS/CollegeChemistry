@@ -1,34 +1,38 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
 
 \begin{document}
  
- \import{../\chapterlabel/files/}{ChapterName}
-
-\begin{marginfigure}
-      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
-\end{tikzpicture}
-\end{marginfigure}
+  \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+ \setcounter{chapter}{5}\import{../\chapterlabel/files/}{ChapterName}  
+}
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
+ \setcounter{chapter}{6} \import{../\chapterlabel/files/}{ChapterName}  
+}{}  
+%\begin{marginfigure}
+%      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+%\end{tikzpicture}
+%\end{marginfigure}
 
 
  \import{../\chapterlabel/files/}{ChapterIntro}
 
 
 
-
-\begin{marginfigure}%LEARNING GOALS BOX
-\begin{mytcbox}{GOALS}
-\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
- \import{../\chapterlabel/files/}{ChapterGoals}
-\end{enumerate}
-\end{mytcbox}
-\vspace{1cm}
-\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
-  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
-\faGears\ 
- \import{../\chapterlabel/files/}{ChapterDiscussion}
-\end{tcolorbox}
-\end{marginfigure}%LEARNING GOALS BOX
+%
+%\begin{marginfigure}%LEARNING GOALS BOX
+%\begin{mytcbox}{GOALS}
+%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+% \import{../\chapterlabel/files/}{ChapterGoals}
+%\end{enumerate}
+%\end{mytcbox}
+%\vspace{1cm}
+%\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+%  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+%\faGears\ 
+% \import{../\chapterlabel/files/}{ChapterDiscussion}
+%\end{tcolorbox}
+%\end{marginfigure}%LEARNING GOALS BOX
 
 
 
@@ -41,45 +45,60 @@
 \section{Gases and its properties} \import{../\chapterlabel/files/}{SectionIntro-Gases-and-its-properties}
 \sloppy \begin{description}
 \item[\docfilehook{Gases in the periodic table}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Gases-in-the-periodic-table}
+ \import{../\chapterlabel/files/}{SideFigure-Model-of-a-gas}
 \item[\docfilehook{Characteristics of gases}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Characteristics-of-gases}
  \item[\docfilehook{Volume, V}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Volume-V}
- \item[\docfilehook{Temperature, T}{}]\import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Temperature-T}
+ \item[\docfilehook{Temperature, T}{}]\import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Temperature,-T}
  \import{../\chapterlabel/files/}{Figure-Gas-Table}
- \item[\docfilehook{Amount of gas, n}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Amount-of-gas-n}
+ \item[\docfilehook{Amount of gas, n}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Amount-of-gas,-n}
  \import{../\chapterlabel/files/}{SideFigure-Gases}
-\item[\docfilehook{Pressure, P}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Pressure-P}
+\item[\docfilehook{Pressure, P}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Pressure,-P}
 \import{../\chapterlabel/problems/}{SampleProblem1}
+%%%%%%%%%NOT FOR 121
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
  \import{../\chapterlabel/files/}{Figure-Pressure}
+  \import{../\chapterlabel/files/}{SideFigure-Barometer}
+
 \item[\docfilehook{Measuring pressure}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Measuring-pressure}
+  \import{../\chapterlabel/files/}{SideFigure-pressure-height}
+
+ \import{../\chapterlabel/files/}{Figure-Manometer} \section{Ideal gas law}\import{../\chapterlabel/files/}{SectionIntro-Ideal-gas-law}
+}
+%%%%%%%%%NOT FOR 121
+
 \end{description}
 
 
 
-\import{../\chapterlabel/files/}{Figure-Manometer}
-\section{Ideal gas law}\import{../\chapterlabel/files/}{SectionIntro-Ideal-gas-law}
 \sloppy \begin{description}
-\item[\docfilehook{Ideal gas law in terms of moles}{}]\import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles}
+\item[\docfilehook{Ideal gas law in terms of moles}{}]  \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles}
 \import{../\chapterlabel/problems/}{SampleProblem2}
-\item[\docfilehook{Ideal gas law in terms of density}{}]\import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density}
+ \item[\docfilehook{Ideal gas law in terms of density}{}] \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density}
 \import{../\chapterlabel/problems/}{SampleProblem3}
-\item[\docfilehook{STP conditions}{}]\import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-STP-conditions}
+ \item[\docfilehook{STP conditions}{}] \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-STP-conditions}
 \import{../\chapterlabel/problems/}{SampleProblem4}
 \end{description}
 
 
  \section{Change of gas properties}\import{../\chapterlabel/files/}{SectionIntro-Change-of-gas-properties}
 \sloppy \begin{description}
+ \import{../\chapterlabel/files/}{SideFigure-Boyles}
 \item[\docfilehook{Solving problems with an initial and final state}{}]  \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Solving-problems-with-an-initial-and-final-state}
 \import{../\chapterlabel/problems/}{SampleProblem5}
-\item[\docfilehook{Pressure-Volume change}{}]\import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Pressure-Volume-change}
+\item[\docfilehook{Pressure-Volume change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Pressure-Volume-change}
+ \import{../\chapterlabel/files/}{SideFigure-Gay}
+
+\item[\docfilehook{Pressure-Temperature change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Pressure-Temp-change}
+
+
+\item[\docfilehook{Volume-Temperature change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Pressure-Temperature-change}
+ \import{../\chapterlabel/files/}{SideFigure-Charles}
+
  \item[\docfilehook{Volume-Moles change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Volume-Moles-change}
 \item[\docfilehook{Relating the different variables of a gas}{}]  \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Relating-the-different-variables-of-a-gas}
+ \import{../\chapterlabel/files/}{SideFigure-Avogadro}
+
 \end{description}
-
-
-
-
-
 
 
 
@@ -87,42 +106,60 @@
 
  
  \section{Mixtures of gases and gas stoichiometry}\import{../\chapterlabel/files/}{SectionIntro-Mixtures-of-gases-and-gas-stoichiometry}
-\sloppy 
-\begin{description}
+\sloppy \begin{description}
  \item[\docfilehook{Molar volume}{}] \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volume}
 \item[\docfilehook{Stoichiometry and gases}{}]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiometry-and-gases}
 \import{../\chapterlabel/problems/}{SampleProblem6}
- \item[\docfilehook{Partial and total pressure}{}] 
-\import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and-total-pressure}
-\import{../\chapterlabel/problems/}{SampleProblem7}
  \import{../\chapterlabel/files/}{Figure-Partial-Pressure}
+ \item[\docfilehook{Partial and total pressure}{}] \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and-total-pressure}
+\import{../\chapterlabel/problems/}{SampleProblem7}
 \item[\docfilehook{Partial pressure of a gas in a mixture}{ }]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pressure-of-a-gas-in-a-mixture}
 \item[\docfilehook{Mole fraction}{}]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fraction}
 \import{../\chapterlabel/problems/}{SampleProblem8}
+\end{description}
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%%NOT FOR 121%%%%%%%%%%%%
+ \section{Collecting gas over water}
  \import{../\chapterlabel/files/}{Figure-Gas-Collection-in-water}
 \import{../\chapterlabel/files/}{Table-Water-pressure}
+\sloppy 
+\begin{description}
 \item[\docfilehook{Collecting gas over water: use of partial pressures}{}]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-gas-over-water}
 \import{../\chapterlabel/problems/}{SampleProblem9}
 \end{description}
+%%%%%NOT FOR 121%%%%%%%%%%%%
+ 
+}
 
 
- \section{Real gases and the kinetic molecular theory of gases }
-\import{../\chapterlabel/files/}{SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-gases-}
-\sloppy 
-\begin{description}
- \item[\docfilehook{Van der Waals equation for real gases}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Van-der-Waals-equation-for-real-gases}
-\import{../\chapterlabel/files/}{Table-Real-Gas}		
-\item[\docfilehook{The meaning of the Van der Waals constants}{}]  \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-The-meaning-of-the-Van-der-Waals}
-\import{../\chapterlabel/problems/}{SampleProblem10}
-\import{../\chapterlabel/files/}{SectionIntro-the-kinetic-molecular-theory-of-gases}
- \item[\docfilehook{Kinetic theory of gases}{}] 
-\import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Kinetic-theory-of-gases}
+
+
+
+ \section{Kinetic molecular theory of gases } \import{../\chapterlabel/files/}{SectionIntro-the-kinetic-molecular-theory-of-gases}
+\sloppy \begin{description}
+ \item[\docfilehook{Kinetic theory of gases}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Kinetic-theory-of-gases}
 \import{../\chapterlabel/problems/}{SampleProblem11}
  \import{../\chapterlabel/files/}{Figure-Kinetic-theory}
  \item[\docfilehook{Distribution of velocities}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Distribution-of-velocities}
 \end{description}
 
-\clearpage\thispagestyle{empty}\mbox{}\clearpage
- \clearpage\thispagestyle{empty}\mbox{}
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 
-\end{document}
+%%%%%NOT FOR 121%%%%%%%%%%%%
+ \section{Real gases }\import{../\chapterlabel/files/}{SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-gases-}
+\sloppy \begin{description}
+\item[\docfilehook{Van der Waals equation for real gases}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Van-der-Waals-equation-for-real-gases}
+\import{../\chapterlabel/files/}{Table-Real-Gas}		
+\item[\docfilehook{The meaning of the Van der Waals constants}{}]  \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-The-meaning-of-the-Van-der-Waals}
+\import{../\chapterlabel/problems/}{SampleProblem10}
+\end{description}
+
+%%%%%NOT FOR 121%%%%%%%%%%%%
+ 
+}
+
+
+ \checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
+
+%%%TAG:CHEM201
