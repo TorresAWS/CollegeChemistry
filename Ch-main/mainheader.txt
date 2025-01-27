@@ -5807,20 +5807,20 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 }
 
 
-\newcommand{\makeannouncement}
+\newcommand{\makeannouncement}[4]
 {
 \thispagestyle{empty}
 \begin{fullwidth}
 \begin{myex} 
-\subfile{./abstract.tex}
+\subfile{#4}
 \end{myex}
 \begin{learn}
-\mytitle{\begin{inparaenum}[(a)]  \subfile{./f2f.tex} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{./homew.tex} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{./q.tex} \end{inparaenum}}
+\mytitle{\begin{inparaenum}[(a)]  \subfile{#1} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{#2} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{#3} \end{inparaenum}}
 \end{learn}
 \end{fullwidth}
 } 
 
 %%%%%%%%%%%% ANNOUNCEMENTTS
-
+%%%%%\makeannouncement{f2f.tex}{homew.tex}{q.tex}{abstract.tex}
 
 
