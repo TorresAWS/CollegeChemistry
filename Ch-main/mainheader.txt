@@ -5700,7 +5700,127 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 
 
  
+%%%%%%%%%%%% ANNOUNCEMENTTS
+\usetikzlibrary{shapes.symbols,positioning}
+\newcounter{examp}
+\setcounter{examp}{0}
+\newcommand{\mytitle}[3]%
+    {%
+    \stepcounter{examp}
 
+    \begin{tikzpicture}[font=\sffamily]
+        \def\cola{pink!50!purple}
+        \def\colb{cyan!80!white}
+        \def\colc{yellow!80!white}
+        \def\cold{red!80!white}
+        \begin{scope}[shift={(0,-1)}]
+        \node[fill=\colb,signal,signal to=east,text=black,minimum height=8mm] (arg1) at (0,0) {Face2face};
+        \node[right=2mm of arg1,text=black] (arg2) {#1};
+        \end{scope}
+         \begin{scope}[shift={(-0.3,-2)}]
+        \node[fill=\colc,signal,signal to=east,text=black,minimum height=8mm] (arg1) at (0,0) {HW};
+        \node[right=7.5mm of arg1,text=black] (arg2) {#2};
+        \end{scope}
+        \begin{scope}[shift={(-0.3,-3)}]
+        \node[fill=\cold,signal,signal to=east,text=black,minimum height=8mm] (arg1) at (0,0) {Quiz};
+        \node[right=8mm of arg1,text=black] (arg2) {#3};
+        \end{scope}
+
+    \end{tikzpicture}
+    }
+
+
+
+\tcbuselibrary{skins}
+\xdefinecolor{pBlue}{RGB}{102, 53, 153}
+\newtcolorbox[auto counter, number within=section]{myex}[1][]{%
+  before=\bigskip\centering,
+  after=\bigskip,
+  breakable, 
+  enhanced, 
+  colback=white, 
+  frame hidden, 
+  sharp corners, 
+  rounded corners=southeast,
+  arc=25pt, 
+  fonttitle=\sffamily, % \bfseries,
+  title=Weekly Content,
+  attach boxed title to top left={xshift=5pt}, %, xshifttext=5pt}, 
+  boxed title style={%
+    enhanced, 
+    colframe=pBlue, 
+    colback=pBlue, 
+    borderline east={1.5pt}{8pt}{white}, 
+    borderline east={1.5pt}{3.5pt}{white},
+    borderline east={3.5pt}{0pt}{white},    
+    borderline east={2.75pt}{0.25pt}{pBlue!50},    
+    borderline east={2.75pt}{-4pt}{pBlue!20},    
+    bottomrule=0pt, 
+    rightrule=5pt, 
+    sharp corners, 
+  }, 
+  interior style={}, 
+  overlay={%
+    \begin{scope}[line width=1.5pt, pBlue]
+      \fill[shade, bottom color=pBlue!30, top color=white]
+      ([xshift=-30pt]frame.south east)
+      to[out=0, in=-90] ([yshift=30pt]frame.south east)
+      -- ([shift={(-1pt, 15pt)}]frame.south east)
+      to[out=-90, in=0] ([xshift=-25pt]frame.south east);
+      \draw
+      ([shift={(-1pt, 19pt)}]frame.north west) coordinate (iniPoint)
+      -- ([xshift=-1pt]frame.south west)
+      -- ([xshift=-30pt]frame.south east)
+      to[out=0, in=-90] ([yshift=30pt]frame.south east)
+      -- (frame.north east) -- ++(-2.5, 0) coordinate (endPoint);
+      \draw (endPoint) -- ++(-3pt, 3pt) -- ++(-3pt, -3pt)
+      -- ++(3pt, -3pt) -- cycle;
+      \draw (iniPoint) -- ++(4pt, 0) -- ++(-8pt, 0);
+      \draw (iniPoint) ++(0, -10pt) -- ++(6pt, 0) -- ++(-12pt, 0);
+      \draw (iniPoint) ++(0, -14pt) -- ++(6pt, 0) -- ++(-12pt, 0);
+    \end{scope}
+  }
+}
+
+
+\definecolor{titlebg}{RGB}{100,22,72}
+
+\newtcolorbox{learn}{
+  breakable,
+  enhanced,
+  arc=0pt,
+  outer arc=0pt,
+  colframe=titlebg,
+  colback=titlebg!05,
+  overlay unbroken and first={
+    \node[
+      draw=titlebg,
+      fill=titlebg,
+      rotate=270,
+      anchor=north west,
+      text=white,
+      font=\bfseries
+    ]
+    at (frame.north west)  
+    {WEEKLY DEADLINES};
+  }
+}
+
+
+\newcommand{\makeannouncement}
+{
+\thispagestyle{empty}
+\begin{fullwidth}
+\begin{myex} 
+\subfile{./abstract.tex}
+\end{myex}
+\begin{learn}
+\mytitle{\begin{inparaenum}[(a)]  \subfile{./f2f.tex} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{./homew.tex} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{./q.tex} \end{inparaenum}}
+\end{learn}
+\end{fullwidth}
+} 
+
+%%%%%%%%%%%% ANNOUNCEMENTTS
 
 
 
