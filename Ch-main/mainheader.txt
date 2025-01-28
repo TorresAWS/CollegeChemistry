@@ -5812,7 +5812,7 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 \thispagestyle{empty}
 \begin{fullwidth}
 \begin{myex} 
-\subfile{#4}
+\begin{flushright}\begin{minipage}{0.9\linewidth}\subfile{#4}\end{minipage}\end{flushright}
 \end{myex}
 \begin{learn}
 \mytitle{\begin{inparaenum}[(a)]  \subfile{#1} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{#2} \end{inparaenum}}{\begin{inparaenum}[(a)]  \subfile{#3} \end{inparaenum}}
