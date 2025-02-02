@@ -8,7 +8,7 @@
 \draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-3, 0) node[shift={(-1.5cm,0cm)}]  {\ce{NH4Cl_{(s)} +H2O_{(l)}  }} to  (0, 0)      node [midway,fill=white,shift={(-2cm,0cm)}] {\small 00} ;
 
 \draw[line width=0.25mm, red,dotted, to path={-| (\tikztotarget)}] (0.5, 0)   to  (5, 0)    ;
-\draw[line width=0.15mm, blue,<-, to path={-| (\tikztotarget)}] (2.5, 1)  --  (2.5, 0)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{sol}$}   ;
+\draw[line width=0.15mm, blue,<-, to path={-| (\tikztotarget)}] (2.5, 1)  --  (2.5, 0)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{soln}$}   ;
 
 \draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (-1, 2) node[shift={(-2cm,0cm)}] { \ce{NH4^+_{(g)} + Cl^-_{(g)} + H2O_{(l)}} }        to (2, 2)  node [ fill=white,shift={(-1.5cm,0cm)}] {\small 705}  ;
 \draw[line width=0.25mm, red,-, to path={-| (\tikztotarget)}] (1, 1)   to  (3.7, 1) node[shift={(1.5cm,0cm)}] { \ce{NH4^+_{(aq)} + Cl^-_{(aq)}  } }    node [ fill=white,shift={(-1.0cm,0cm)}] {\small 23}     ;
@@ -24,7 +24,7 @@
 \draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (1.5, 2)  --  (1.5, -1)  node [midway,fill=white] {$\Delta H^{hyd}$}   ;
 
 \draw[line width=0.25mm, red,dotted, to path={-| (\tikztotarget)}] (0.5, 0)   to  (5, 0)    ;
-\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (2.5, 0)  --  (2.5, -1)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{sol}<0$}   ;
+\draw[line width=0.15mm, blue,->, to path={-| (\tikztotarget)}] (2.5, 0)  --  (2.5, -1)  node [midway,fill=white,shift={(0cm,-.0cm)}] {$\Delta H^{soln}<0$}   ;
   \end{scope}  
   
   
