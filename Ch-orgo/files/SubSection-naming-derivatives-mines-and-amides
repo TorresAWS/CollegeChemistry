@@ -1,4 +1,23 @@
-Amines are named used the name \emph{amino} for the funcional group and for example \ce{CH3NH2} is called aminomethane. Common name of amines end with the word amine. For example, \ce{CH3NH2} is commonly called methylamine and  \ce{(CH3)2NH} is called dimethylamine. 
+Primary, secondary, and tertiary amines are named slightly differently.
+Primary amines are named using the ending \emph{amine} and for example \ce{CH3NH2} is called methylamine whereas \ce{CH3CH2NH2} is called ethylamine. One needs to indicate the number of carbon that contains the amino group. Secondary or tertiary amines with symmetrical substituents use the prefixes \emph{di} or \emph{tri}. For example
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]((-[:90]NH_2)(-[:-45]))  }   };
+\node at (0,-1.5)  {\textcolor{blue}{2-pentanamide  }};
+\node at (4,0) {  \chemfig{ -[:45]-[:-45]((-[:-90]NH_2)(-[:45]-[:-45]))  }   };
+\node at (4,-1.5) {\textcolor{blue}{3-pentanamide  }};
+\node at (8,0) {  \chemfig{ -[:45]N((-[:90])(-[:-45])) }   };
+\node at (8,-1.5) {\textcolor{blue}{trimethylamine  }};
+\end{tikzpicture}\end{center}
+Unsymmetrical secondary and tertiary amines are named using the largest chain as the base and the other alkyl groups as N-substituents--to indicate that the substituent is attached to the amine nitrogen.\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]N((-[:90])(-[:-45]))  }   };
+\node at (0,-1.5)  {\textcolor{blue}{N,N-dimethylpropamine  }};
+\node at (4,0) {  \chemfig{ -[:45]-[:-45]N((-[:-90])(-[:45]-[:-45])) }   };
+\node at (4,-1.5) {\textcolor{blue}{N-ethyl-N-methylethylamine  }};
+\node at (8,0) {  \chemfig{ -[:45]-[:-45]N((-[:45])) }   };
+\node at (8,-1.5) {\textcolor{blue}{N-methylethylamine  }};
+\end{tikzpicture}\end{center}
+
+Finally, common--not rigurous--name of amines often contains the term \emph{amine} and for example \ce{CH3NH2} is also called aminomethane. 
 Amides, which result from the combination of an amine and a carboxylic acid, are systematically named from the parent hydrocarbon by replacing the -amine (methylamine) ending of the amine part with an -yl ending and the -oic ending the acid with an -amide ending, without space between both words. For example, the amide resulting from the combination of methylamine (\ce{CH3NH2}) and methanoic acid (\ce{CH3COOH}) is called methylmethanamide (\ce{CH3CONH2CH3}). 
 Examples of amines and amides are:
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
