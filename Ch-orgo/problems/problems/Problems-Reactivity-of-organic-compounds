@@ -57,7 +57,7 @@ Complete the following reaction:
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Complete the following reaction:
-\begin{center}\ce{CH#CH + H2 ->[Pt][] CH2=CH2}\end{center}
+\begin{center}\ce{CH#CH + H2 ->[Pt][]  }\end{center}
 \end{question}
 \begin{solution}
 \ce{CH#CH + H2 ->[Pt][] CH2=CH2 }
@@ -68,7 +68,7 @@ Complete the following reaction:
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Complete the following reaction:
-\begin{center}\ce{CH#CH + Cl2 ->[][] CH2Cl=CH2Cl}\end{center}
+\begin{center}\ce{CH#CH + Cl2 ->[][]  }\end{center}
 \end{question}
 \begin{solution}
 \ce{CH#CH + Cl2 ->[][] CH2Cl=CH2Cl }
@@ -78,7 +78,7 @@ Complete the following reaction:
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Complete the following reaction:
-\begin{center}\ce{CH2=CH2 + Cl2 ->[][] CH2Cl-CH2Cl}\end{center}
+\begin{center}\ce{CH2=CH2 + Cl2 ->[][]  }\end{center}
 \end{question}
 \begin{solution}
 \ce{CH2=CH2 + Cl2 ->[][] CH2Cl-CH2Cll }
@@ -89,7 +89,9 @@ Complete the following reaction:
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Complete the following reaction:
-\begin{center}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}\chemfig{-[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]OH))  }\end{center}
+\begin{center}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}
+%\chemfig{-[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]OH)) }
+ \end{center}
 \end{question}
 \begin{solution}
 \chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]OH))  }
@@ -99,7 +101,9 @@ Complete the following reaction:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Complete the following reaction:
-\begin{center}\chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }\end{center}
+\begin{center}\chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}
+%\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }
+\end{center}
 \end{question}
 \begin{solution}
 \chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }
