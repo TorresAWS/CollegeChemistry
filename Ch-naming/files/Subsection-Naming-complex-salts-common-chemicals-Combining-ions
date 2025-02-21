@@ -7,7 +7,7 @@ To combine two ions, you first arrange the positive ion on the left followed by 
     \draw[elmove=left] (Cl2) ..controls +(45:2cm) and +(-45:1cm) .. (Cl1) ;
       \draw[elmove=left]   (Cl1) ..controls +(45:1cm) and +(-45:2cm) .. (Cl2) ;
   }\end{center}\vspace{.5cm}
-We would simplify in case the charges compensate for each other. 
+We would need to simplify the formula in case the charges compensate each other. 
 
 An example would be combining \ce{Mg^{2+}} and \ce{SO4^{2-}} leading  to \ce{MgSO4}
 
