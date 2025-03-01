@@ -4,7 +4,7 @@
 
 \begin{minipage}[b]{.4\linewidth}
  %  \begin{center}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Collision-theory}
  
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 \hspace{-3cm} 
@@ -128,7 +128,7 @@
 
 
   
-\node[text width=14cm, fontscale=0.1, shift={(6,-8)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Example of three collisions, a successful collision that leads to a transition state and the products and two unsuccessful collisions due to an ineffective molecular arrangement and insufficient energy.  };
+\node[text width=16cm, fontscale=0.1, shift={(6,-8)}] at (-8em,-3em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Example of three collisions, a successful collision that leads to a transition state and the products and two unsuccessful collisions due to an ineffective molecular arrangement and insufficient energy.  };
 \end{tikzpicture}
  % \end{center}
 \end{minipage}
