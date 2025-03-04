@@ -1,27 +1,27 @@
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Break down the following electrolytes in ions, if possible:
+Break down the following electrolytes in ions:
 \begin{inparaenum}[(a)]
-\item  \ce{CaI2}  % ( \ce{Ca^{2+} +2\ce{I^{-} })
-\item   \ce{KNO3}  % ( \ce{K^{+} + \ce{NO3^{-} })
-\item   \ce{CaSO4}  % ( \ce{Ca^{2+} + \ce{SO4^{2-} })
-\item   \ce{FeSO4}  % ( \ce{Fe^{2+} + \ce{SO4^{2-} })
+\item  \ce{CaI2_{(aq)}}  
+\item   \ce{KNO3_{(aq)}}  
+\item   \ce{CaSO4_{(s)}} 
+\item   \ce{FeSO4_{(aq)}}  
 \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item  \ce{CaI2}    ( \ce{Ca^{2+}} +2\ce{I^{-} })
-\item   \ce{KNO3}    ( \ce{K^{+}} + \ce{NO3^{-} })
-\item   \ce{CaSO4}    ( \ce{Ca^{2+}} + \ce{SO4^{2-} })
-\item   \ce{FeSO4}    ( \ce{Fe^{2+}} + \ce{SO4^{2-} })
+\item   \ce{Ca^{2+}} +2\ce{I^{-} }
+\item   \ce{K^{+}} + \ce{NO3^{-} }
+\item   \ce{Ca^{2+}} + \ce{SO4^{2-} }
+\item    \ce{Fe^{2+}} + \ce{SO4^{2-} }
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Break down the following electrolytes in ions, if possible:
+Break down the following electrolytes in ions:
 \begin{inparaenum}[(a)]
 \item   \ce{SnCl4}  % ( \ce{Sn^{4+} + 4\ce{Cl^{-} })
 \item   \ce{CuCl2}  % ( \ce{Cu^{2+} + 2\ce{Cl^{-} })
@@ -32,11 +32,11 @@ Break down the following electrolytes in ions, if possible:
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item   \ce{SnCl4}    ( \ce{Sn^{4+} }+ 4\ce{Cl^{-} })
-\item   \ce{CuCl2}    ( \ce{Cu^{2+}} + 2\ce{Cl^{-} })
-\item   \ce{Ba(OH)2}    ( \ce{Ba^{2+}} + 2\ce{OH^{-} })
-\item   \ce{CuSO3}    ( \ce{Cu^{2+}} + \ce{SO3^{2-} })
-\item   \ce{MgSO4}    ( \ce{Mg^{2+}} + \ce{SO4^{2-} })
+\item    \ce{Sn^{4+} }+ 4\ce{Cl^{-} }
+\item   \ce{Cu^{2+}} + 2\ce{Cl^{-} }
+\item    \ce{Ba^{2+}} + 2\ce{OH^{-} }
+\item    \ce{Cu^{2+}} + \ce{SO3^{2-} }
+\item    \ce{Mg^{2+}} + \ce{SO4^{2-} }
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
