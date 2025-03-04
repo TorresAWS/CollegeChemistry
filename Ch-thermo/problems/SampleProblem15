@@ -1,13 +1,10 @@
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Use the data below to calculate the equilibrium constant of the reaction at 400K:
-\begin{center}\ce{	HCN(g)  +  2H2(g) -> CH3NH2(g) }\end{center}
-\begin{center}\begin{tabular}[t]{  c c     }
+\begin{center}\begin{tabular}[t]{  c c c   c c c }
 \toprule
-  Compound &$\text{G}_f^{\circ}$(KJ/mol)	  \\
+  &\ce{HCN(g)} &	+ &\ce{2H2(g)} & \ce{->}  &\ce{CH3NH2(g)}	  \\
 \midrule
-\ce{CH3NH2_{(g)}} & 		23.99		 \\
-\ce{HCN_{(s)}} & 		124.7		 \\
-
+  $\text{G}_f^{\circ}$(KJ/mol) &124.7  &	  &  &    &23.99 	\\
  \bottomrule
 \end{tabular}\end{center}
  \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
