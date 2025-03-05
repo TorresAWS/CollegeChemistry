@@ -1,21 +1,24 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Six moles of nitrogen gas react to produce three moles of ammonia according to the following reaction:
+Ammonia serves as a vital precursor in the production of fertilizers. Ammonia is produced by combining hydrogen gas and nitrogen in a process known as the Haber-Bosch synthesis. Under certain conditions, six moles of nitrogen gas react to produce three moles of ammonia according to the following reaction:
 \newcommand\nitro{6 moles}
 \newcommand\hydro{}
 \newcommand\ammon{3 moles}
 \begin{center}  \ce{ $\underset{\text{ \hydro}}{\ce{3H2(g)}}$ + $\underset{\text{\nitro}}{\ce{N2(g)}}$ -> $\underset{\text{\ammon}}{\ce{2NH3(g)}}$ }\end{center}
+Under these conditions, calculate the percent yield.
 \end{question}
 \begin{solution}
 25\%
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Six moles of nitrogen gas react to produce two moles of ammonia according to the following reaction:
+Ammonia serves as a vital precursor in the production of fertilizers. Ammonia is produced by combining hydrogen gas and nitrogen in a process known as the Haber-Bosch synthesis. Under certain conditions, six moles of nitrogen gas react to produce three moles of ammonia according to the following reaction:
 \newcommand\nitro{6 moles}
 \newcommand\hydro{}
 \newcommand\ammon{2 moles}
-\begin{center}  \ce{ $\underset{\text{ \hydro}}{\ce{3H2(g)}}$ + $\underset{\text{\nitro}}{\ce{N2(g)}}$ -> $\underset{\text{\ammon}}{\ce{2NH3(g)}}$ }\end{center}\end{question}
+\begin{center}  \ce{ $\underset{\text{ \hydro}}{\ce{3H2(g)}}$ + $\underset{\text{\nitro}}{\ce{N2(g)}}$ -> $\underset{\text{\ammon}}{\ce{2NH3(g)}}$ }\end{center}
+Under these conditions, calculate the percent yield.
+\end{question}
 \begin{solution}
 16.6\%
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
