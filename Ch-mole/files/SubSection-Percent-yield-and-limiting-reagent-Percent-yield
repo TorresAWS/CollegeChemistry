@@ -15,6 +15,7 @@ Look at the scenario below: we need two wheels and a body to ensemble a bike. We
 \begin{scope}[transform canvas={shift={(12em,0em)}	},scale=0.3, every node/.append style={transform shape}]{\bike}\end{scope}
 \end{tikzpicture}\end{center}\vspace{1cm}
 If we have three pairs of wheels and three bodies and we only produce two bikes, the yield will be $67\%$. 
+\newpage
 \begin{center}\vspace{1cm}\begin{tikzpicture}[x=1cm,y=1cm]
 \begin{scope}[transform canvas={shift={(-15em,0em)}	},scale=0.3, every node/.append style={transform shape}]\bikewheel\end{scope}
 \begin{scope}[transform canvas={shift={(-13em,0em)}	},scale=0.3, every node/.append style={transform shape}]\bikewheel\end{scope}
