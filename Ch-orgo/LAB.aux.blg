@@ -1,0 +1,5 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[4] Config.pm:346> INFO - Logfile is 'LAB.aux.blg'
+[25] biber-darwin:290> INFO - === Thu Apr  3, 2025, 11:08:46
+[196] Utils.pm:165> ERROR - Cannot find control file 'LAB.aux.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[196] Biber.pm:112> INFO - ERRORS: 1
