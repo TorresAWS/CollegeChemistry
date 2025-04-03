@@ -16,5 +16,47 @@
   {}
 \endgroup
 
-\sortlist[entry]{none/global/}\endsortlist
+\sortlist[entry]{none/global/}
+  \entry{A8}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ERWDD}{%
+         family={Ebbing},
+         family_i={E\bibinitperiod},
+         given={R.\bibnamedelima Wentworth D.\bibnamedelima D.},
+         given_i={R\bibinitperiod\bibinitdelim W\bibinitperiod
+  D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Houghton Mifflin Harcourt Publishing Company}%
+    }
+    \strng{namehash}{ERWDD1}
+    \strng{fullhash}{ERWDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Experiments in General Chemistry}
+    \field{year}{2004}
+  \endentry
+
+  \entry{A7}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BJA}{%
+         family={Beran},
+         family_i={B\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {John Wiley}%
+      {Sons}%
+    }
+    \strng{namehash}{BJA1}
+    \strng{fullhash}{BJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Laboratory manual for principles of general chemistry}
+    \field{year}{2010}
+  \endentry
+\endsortlist
 \endinput

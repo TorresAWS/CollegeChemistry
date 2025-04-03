@@ -18,47 +18,53 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: LAB-blx.bib
 Database file #2: ../Ch-mainTMP/biblio/bibliography.bib
+You're missing a field name---line 221 of file ../Ch-mainTMP/biblio/bibliography.bib
+ : 
+ : %  author    = { },
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+You've used 3 entries,
             6256 wiz_defined-function locations,
-            1177 strings with 8552 characters,
-and the built_in function-call counts, 1203 in all, are:
-= -- 58
-> -- 52
-< -- 1
-+ -- 37
-- -- 22
-* -- 24
-:= -- 275
+            1189 strings with 8752 characters,
+and the built_in function-call counts, 11220 in all, are:
+= -- 801
+> -- 255
+< -- 94
++ -- 211
+- -- 65
+* -- 575
+:= -- 1036
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
+call.type$ -- 3
+change.case$ -- 75
 chr.to.int$ -- 30
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 86
-format.name$ -- 0
-if$ -- 265
+cite$ -- 4
+duplicate$ -- 983
+empty$ -- 1083
+format.name$ -- 98
+if$ -- 2522
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 40
+newline$ -- 61
+num.names$ -- 141
+pop$ -- 705
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 81
 quote$ -- 0
-skip$ -- 67
+skip$ -- 523
 stack$ -- 0
-substring$ -- 110
-swap$ -- 1
-text.length$ -- 14
+substring$ -- 1298
+swap$ -- 254
+text.length$ -- 50
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 22
+type$ -- 90
 warning$ -- 0
-while$ -- 45
+while$ -- 115
 width$ -- 0
-write$ -- 20
+write$ -- 59
+(There was 1 error message)
