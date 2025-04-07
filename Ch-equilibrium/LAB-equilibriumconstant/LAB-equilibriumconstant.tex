@@ -80,6 +80,7 @@ Equilibrium constant
 \end{multicols}
 
 
+
 \vspace{0.1cm}
 \setlength{\tabcolsep}{10pt}
  \import{\chapterlabel/}{results} 
@@ -87,18 +88,26 @@ Equilibrium constant
 \end{sidewaystable}
 \begin{sidewaystable}[ph!]
  \import{\chapterlabel/}{results2} 
-\end{sidewaystable}
-\clearpage\mbox{}\clearpage
-\clearpage\mbox{}\clearpage
-
+ \end{sidewaystable}
+ 
+ 
+ 
 \newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
+  \begin{sidewaystable}[ph!]
+ \begin{tikzpicture}[remember picture,overlay]
+ \begin{scope}[shift={(23cm,-9cm)},rotate=90]
  \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
  \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{Column 6 [\ce{Fe(SCN)^{+2}}]  (X axis) vs. A Column 7 (Y axis)}\end{center}
+  \end{scope}
+ \begin{scope}[shift={(3cm,-0cm)},rotate=0]
+ \node[inner sep=0pt,rotate=-90]   at (0,0) { Figure: Column 6 [\ce{Fe(SCN)^{+2}}]  (X axis) vs. A Column 7 (Y axis) };
+ \end{scope}
+\end{tikzpicture}
+ \end{sidewaystable}
 \clearpage\mbox{}\clearpage
+
+
+
 
 
 
