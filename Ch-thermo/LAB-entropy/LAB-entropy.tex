@@ -99,16 +99,35 @@ Results\\ EXPERIMENT
 
 
 
-
-
 \newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
+  \begin{sidewaystable}[ph!]
+ \begin{tikzpicture}[remember picture,overlay]
+ \begin{scope}[shift={(23cm,-9cm)},rotate=90]
  \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
  \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{time (X axis) vs. Temperature (Y axis)}\end{center}
+  \end{scope}
+ \begin{scope}[shift={(3cm,-0cm)},rotate=0]
+ \node[inner sep=0pt,rotate=-90]   at (0,0) { time (X axis) vs. Temperature (Y axis) };
+ \end{scope}
+\end{tikzpicture}
+ \end{sidewaystable}
+\clearpage\mbox{}\clearpage
 
+
+
+
+
+
+
+
+%\newpage
+%\begin{center}
+% \vspace{2cm}
+% \begin{tikzpicture}
+% \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+% \draw[step=10mm] (0,0) grid (190mm,190mm);
+%\end{tikzpicture}\\\captionof{figure}{time (X axis) vs. Temperature (Y axis)}\end{center}
+%
 %\clearpage\mbox{}\clearpage
 
 
