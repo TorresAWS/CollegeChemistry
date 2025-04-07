@@ -1833,8 +1833,10 @@ cherry/.pic={
 \newpage\section{Isomers }\subfile{../Ch-orgo/LAB-isomers/isomers.tex }
 \newpage  \section{Conductivity of electrolyte solutions }\subfile{../Ch-solutions/LAB-conductivity/conductivity.tex }
 \newpage  \section{Hard water }\subfile{../Ch-solutions/LAB-hardwater/hardwater.tex }
-\newpage  \section{Freezing point depression }\subfile{../Ch-solutions/LAB-freezingpointdepression/freezingpointdepression.tex }
-\newpage  \section{The iodine clock }\subfile{../Ch-kinetics/LAB-clockreaction/clockreaction.tex }
+\renewcommand\labname{../\texbooklabel/LAB-freezingpointdepression}\renewcommand\texbooklabel{Ch-kinetics}\renewcommand\pathtofiles{../\texbooklabel/}
+\section{Freezing point depression}\subfile{../\texbooklabel/Lab-freezingpointdepression/freezingpointdepression.tex }
+\renewcommand\labname{../\texbooklabel/LAB-clockreaction}\renewcommand\texbooklabel{Ch-kinetics}\renewcommand\pathtofiles{../\texbooklabel/}
+\section{The iodine clock}\subfile{../\texbooklabel/Lab-clockreaction/clockreaction.tex }
 \newpage  \section{Le Ch\^atelier's Principle}\subfile{../Ch-equilibrium/LAB-lechatelier/lechatelier.tex }
 \newpage  \section{Equilibrium constant}\subfile{../Ch-equilibrium/LAB-equilibriumconstant/equilibriumconstant.tex }
 \newpage  \section{Titration curve}\subfile{../Ch-acidbase/LAB-titration-curve/titration-curve.tex }
