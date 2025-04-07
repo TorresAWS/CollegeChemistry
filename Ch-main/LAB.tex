@@ -1846,9 +1846,17 @@ cherry/.pic={
 
 
 
-\newpage \section{Entropy and spontaneity}\subfile{../Ch-thermo/LAB-entropy/entropy.tex }
-\newpage  \section{A Solubility Product Constant: Solubility product calculation}\subfile{../Ch-solubility/LAB-solubilityproduct/solubilityproduct.tex }
-\clearpage\mbox{}\clearpage
+\newpage 
+\renewcommand\labname{../\texbooklabel/LAB-entropy}\renewcommand\texbooklabel{Ch-thermo}\renewcommand\pathtofiles{../\texbooklabel/}\section{Entropy and spontaneity}\subfile{../\texbooklabel/Lab-entropy/LAB-entropy.tex }
+
+\newpage 
+\renewcommand\labname{../\texbooklabel/LAB-solubilityproduct}\renewcommand\texbooklabel{Ch-tsolubility}\renewcommand\pathtofiles{../\texbooklabel/}\section{A Solubility Product Constant: Solubility product calculation}\subfile{../\texbooklabel/Lab-solubilityproduct/LAB-solubilityproduct.tex }
+
+
+
+
+
+%\clearpage\mbox{}\clearpage
 
 \renewcommand\labname{../\texbooklabel/LAB-electrochem}\renewcommand\texbooklabel{Ch-electrochem}\renewcommand\pathtofiles{../\texbooklabel/}\section{Electrochemistry: galvanic cells}\subfile{../\texbooklabel/Lab-electrochem/Lab-electrochem.tex }
 \renewcommand\labname{../\texbooklabel/LAB-nuclear}\renewcommand\texbooklabel{Ch-nuclear}\renewcommand\pathtofiles{../\texbooklabel/}\section{Radioactivity: half-life of K-40}\subfile{../\texbooklabel/Lab-nuclear/Lab-nuclear.tex }
