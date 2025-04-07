@@ -94,7 +94,7 @@ the same way} to be comparable. The same steps, in the same order and at the sam
 \mycircled{2} This is the volume of thiosulfate added in each experiment.\vspace{0.5cm}\\
 \mycircled{3} This is the volume of peroxydisulfate added in each experiment.\vspace{0.5cm}\\
 \mycircled{4} This is the total volume $v_{total}$ of the reacting mixture.\vspace{0.5cm}\\
-\mycircled{5} This is the peroxy disulfate concentration in the mixture:\vspace{0.5cm}\\
+\mycircled{5} This is the peroxydisulfate concentration in the mixture:\vspace{0.5cm}\\
     \[[\ce{S2O8^{-2}}]= \frac{v_{\ce{S2O8^{-2}}}\cdot c_{\ce{S2O8^{-2}}}}{v_{total}}=\frac{\;\;\mycircled{3}\;\; \cdot 0.2}{\;\;\mycircled{4}\;\;} \]
 \mycircled{6} This is the iodine concentration in the mixture:\vspace{0.5cm}\\
     \[[\ce{I^{-}}]= \frac{v_{\ce{I^{-}}}\cdot c_{\ce{I^{-}}}}{v_{total}}=\frac{\;\;\mycircled{1}\;\; \cdot 0.2}{\;\;\mycircled{4}\;\;} \]
@@ -103,7 +103,7 @@ the same way} to be comparable. The same steps, in the same order and at the sam
 \mycircled{8} This is the average time $\Delta t$ for each experiment.\vspace{0.5cm}\\
 \mycircled{9} This is the reaction rate:\vspace{0.5cm}\\
     \[ r=\frac{\Delta [\ce{S2O3^{-2}}]}{2\cdot\Delta t}=\frac{\;\;\mycircled{7}\;\;}{2\cdot\;\;\mycircled{8}\;\;} \]
-\mycircled{10} This is the peroxy disulfate order in the rate law:\vspace{0.5cm}\\
+\mycircled{10} This is the peroxydisulfate order in the rate law:\vspace{0.5cm}\\
  \[
 a=\frac{	\ln \left( \frac{r_{Exp 1}	}{	r_{Exp 2}	}	 \right)}{ \ln \left( \frac{\left[ \ce{S2O8^{-2}}\right]_{Exp 1} }{	\left[\ce{S2O8^{-2}}\right]_{Exp 2}} \right) }	 = \frac{	\ln \left( \;\;\mycircled{9}\;_{Exp 1}\;\; \div \;\;\mycircled{9}\;_{Exp 2}\;\;	 \right)}{ \ln \left(  \;\;\mycircled{5}\;_{Exp 1}\;\; \div \;\;\mycircled{5}\;_{Exp 2}\;\; \right) }		 	 		
  \]
@@ -111,7 +111,7 @@ a=\frac{	\ln \left( \frac{r_{Exp 1}	}{	r_{Exp 2}	}	 \right)}{ \ln \left( \frac{\
  \[
 b=\frac{	\ln \left( \frac{r_{Exp 1}	}{	r_{Exp 3}	}	 \right)}{ \ln \left( \frac{\left[ \ce{I^{-}}\right]_{Exp 1} }{	\left[\ce{I^{-}}\right]_{Exp 3}} \right) }	 = \frac{	\ln \left( \;\;\mycircled{9}\;_{Exp 1}\;\; \div \;\;\mycircled{9}\;_{Exp 3}\;\;	 \right)}{ \ln \left(  \;\;\mycircled{6}\;_{Exp 1}\;\; \div \;\;\mycircled{6}\;_{Exp 3}\;\; \right) }		 	 		
  \]
- \mycircled{12} The are the rate constant calculated for each experiment:\vspace{0.5cm}\\
+ \mycircled{12} This is the rate constant calculated for each experiment:\vspace{0.5cm}\\
  \[
 k=\frac{r}{\left[\ce{S2O8^{-2}}\right]\cdot \left[\ce{I^{-}}\right]}=\frac{\;\;\mycircled{9}\;\;}{\;\;\mycircled{5}\;\; \cdot \;\;\mycircled{6}\;\;}		 	 
 \]
