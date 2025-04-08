@@ -111,6 +111,7 @@ Results\\ EXPERIMENT
 
 
 \newpage
+\stepcounter{graphcounter}   
   \begin{sidewaystable}[ph!]
  \begin{tikzpicture}[remember picture,overlay]
  \begin{scope}[shift={(23cm,-9cm)},rotate=90]
@@ -118,7 +119,7 @@ Results\\ EXPERIMENT
  \draw[step=10mm] (0,0) grid (190mm,190mm);
   \end{scope}
  \begin{scope}[shift={(3cm,-0cm)},rotate=0]
- \node[inner sep=0pt,rotate=-90]   at (0,0) { Figure: $\overline{A}$ cps (Y axis) vs. N (X axis) };
+ \node[inner sep=0pt,rotate=-90]   at (0,0) { Graph {\thegraphcounter}  $\overline{A}$ cps (Y axis) vs. N (X axis) };
  \end{scope}
 \end{tikzpicture}
  \end{sidewaystable}
