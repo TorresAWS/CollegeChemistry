@@ -83,11 +83,27 @@ Trial 2&  0	&  &  	& &  	& 	\\[7pt]
 \end{tabular}
 
  \vspace{.5cm}
+
+
+
+\begin{center}
+\stepcounter{graphcounter}   
+\begin{tikzpicture}
+\begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+\draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+\draw[step=10mm] (0,0) grid (190mm,190mm);
+\end{scope}
+\begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+\node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} PH (Y axis) vs. $V_{\ce{NaOH}}^{Added}$ (X axis) };
+\end{scope}
+\end{tikzpicture}
+\end{center}
  
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
- \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{PH (Y axis) vs. $V_{\ce{NaOH}}^{Added}$ (X axis)}\end{center}
+% \begin{tikzpicture}
+% \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+% \draw[step=10mm] (0,0) grid (190mm,190mm);
+%\end{tikzpicture}
+%\\\captionof{figure}{PH (Y axis) vs. $V_{\ce{NaOH}}^{Added}$ (X axis)}\end{center}
 \newpage
 
 
