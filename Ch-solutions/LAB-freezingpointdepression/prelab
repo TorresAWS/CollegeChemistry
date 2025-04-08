@@ -1,8 +1,16 @@
 \begin{enumerate}
-\item What does \text{volatile} mean? \vspace{2cm}
- \item What are the \text{colligative} properties? \vspace{2cm}
-\item What is \text{molality}? What are the units? \vspace{2cm}
-\item Why is \text{molality} used in this experiment instead of \text{Molarity}? \vspace{2cm}
+%\item What does \text{volatile} mean? \vspace{2cm}
+% \item What are the \text{colligative} properties? \vspace{2cm}
+%\item What is \text{molality}? What are the units? \vspace{2cm}
+%\item Why is \text{molality} used in this experiment instead of \text{Molarity}? \vspace{2cm}
+
+
+
+\foreach \n in {Problems-Colligative-properties.17.A,Problems-Colligative-properties.18.A}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{2cm}
+    }
+
+
 \item Use the date reported below to graph a cooling plot and use the graphical method to calculate the freezing point of the substance. Is this a pure substance or a solution?
   \begin{center}\setlength{\tabcolsep}{10pt}\begin{tabular}
  { |p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|}

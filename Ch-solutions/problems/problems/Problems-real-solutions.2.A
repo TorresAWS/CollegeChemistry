@@ -1,0 +1,23 @@
+Data below lists the vapor pressure of mixtures of benzene and carbon disulfide at 25$^{\circ}$ temperature. 
+\begin{center}
+%\resizebox{\columnwidth}{!}{
+\begin{tabular}[t]{  c c c    }
+\toprule
+ Mixture &$\chi_{\ce{CS2}}$  &   P (mmHg)  \\
+ \midrule
+ a	&0.0    &100        \\
+ b	&0.25    &   175       \\
+ c	&0.50    & 245         \\
+ d	&0.75    &    275      \\
+ e	&1.00    &350         \\
+ \bottomrule
+\end{tabular}
+%}
+\end{center}
+Answer the following questions:
+\begin{inparaenum}[(a)]
+\item  Which solution will have the lowest normal boiling point % e
+\item  Which solution will have the hightest normal boiling point % a
+\item  Estimate the sign of $\Delta H_{sol}$ % <0
+\item Are the intermolecular forces weaker,  stronger or similar than those of the pure substances  % weaker
+\end{inparaenum}

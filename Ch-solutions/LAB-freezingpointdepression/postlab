@@ -3,6 +3,12 @@
 \item If the empirical formula of the solute used in this experiment is \ce{C3H2Cl}, what is the molecular formula? \vspace{3cm}
 
 
+\foreach \n in {Problems-Colligative-properties.19.A,Problems-Colligative-properties.20.A,Problems-Colligative-properties.3.A}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{3cm}
+    }
+
+
+
 %\item What would be the effect on the molar mass in the following situations? Explain why.
 %\begin{enumerate}
 %\item  A decrease in the mass measured for the solute. \vspace{2cm}
