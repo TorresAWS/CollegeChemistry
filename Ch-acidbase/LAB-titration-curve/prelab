@@ -79,15 +79,14 @@ mL  &   & mL  &   &mL  &   & mL  &     \\
 
 \item Fill the table below based on the plot above:\vspace{0.4cm}
 \begin{center}
-\begin{tabular}{ |m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}| }
-\cline{1-7}
-\multicolumn{7}{|c|}{Experimental Data}\\[7pt]
-\cline{1-7}
-&\multicolumn{2}{c|}{Initial Point}&   \multicolumn{2}{c|}{Midpoint} &\multicolumn{2}{c|}{Endpoint} \\[7pt]
-\cline{1-7}
- & $V_{\ce{HCl}}^{Added}$	&PH & $V_{\ce{HCl}}^{Added}$	&PH& $V_{\ce{HCl}}^{Added}$	&PH	\\[7pt]
-\cline{1-7}
- &  0	&  &  	& &  	& 	\\[7pt]
+\begin{tabular}{ |m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}| }
+\cline{1-6}
+\multicolumn{2}{|c|}{Initial Point}&   \multicolumn{2}{c|}{Midpoint} &\multicolumn{2}{c|}{Endpoint} \\[7pt]
+\cline{1-6}
+  $V_{\ce{HCl}}^{Added}$	&PH & $V_{\ce{HCl}}^{Added}$	&PH& $V_{\ce{HCl}}^{Added}$	&PH	\\[7pt]
+\cline{1-6}
+   0	&  &  	& &  	& 	\\[7pt]
+\cline{1-6}
 \end{tabular}
 \end{center}
 \item Use the midpoint to compute the basicity constant of the titrate given that at that point $PH=PK_b$. Write down the $K_b$ value under the graph. \vspace{0.8cm}
