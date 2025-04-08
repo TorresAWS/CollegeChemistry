@@ -6,7 +6,7 @@ For the reactions below and given the value of the equilibrium constant indicate
 \item More  products than reactants
 \item Same amount of  products and reactants
  \end{inparaenum}
- \begin{enumerate}[label=(\alph*)]	
+ \begin{enumerate}[(a)]	
 \item   \ce{CO2_{(g)} + H2O_{(g)} <=>  CH4_{(g)} + O2_{(g)}  }\hfill $K_{c}=0.001$ %More reactants
 \item \ce{N2_{(g)} + O2_{(g)} <=> 2NO_{(g)}}\hfill$K_{c}=2\cdot 10^{25}$	%More products
 \item \ce{2NO_{(g)} + O2_{(g)} <=> 2NO2_{(g)}}\hfill $K_{c}=6.4\cdot 10^{9}$	%More products
@@ -30,7 +30,7 @@ For the reactions below and given the value of the equilibrium constant indicate
 \item More  products than reactants
 \item Same amount of  products and reactants
  \end{inparaenum}
- \begin{enumerate}[label=(\alph*)]	
+ \begin{enumerate}[(a)]	
 \item \ce{N2_{(g)} + 3H2_{(g)} <=> 2NH3_{(g)}}\hfill$K_{c}=1$	%same amount
 \item	\ce{2NO_{(g)} + Cl2_{(g)} <=> 2NOCl_{(g)}}\hfill $K_{c}=6.5\cdot 10^{4}$ % More products
  \end{enumerate}
@@ -66,7 +66,7 @@ Indicate which of the following diagrams (left, center, right) represent better 
 \end{tikzpicture}
 }\end{minipage}
 \end{center}
- \begin{enumerate}[label=(\alph*)]	
+ \begin{enumerate}[(a)]	
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=7$  % Left
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.1$  % Right
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
@@ -104,7 +104,7 @@ Indicate which of the following diagrams (left, center, right) represent better 
 \end{tikzpicture}
 }\end{minipage}
 \end{center}
- \begin{enumerate}[label=(\alph*)]	
+ \begin{enumerate}[(a)]	
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.6$   
 \item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=3$  
