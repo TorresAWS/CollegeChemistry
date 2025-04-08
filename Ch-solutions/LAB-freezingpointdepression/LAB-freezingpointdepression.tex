@@ -53,35 +53,70 @@
  \import{\chapterlabel/}{results} 
  %\clearpage\mbox{}\clearpage
 
-\newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
- \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{Temperature (Y axis) vs. time (X axis)}\end{center}
-\newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
- \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{Temperature (Y axis) vs. time (X axis)}\end{center}
-\newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
- \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{Temperature (Y axis) vs. time (X axis)}\end{center}
-\newpage
-\begin{center}
- \vspace{2cm}
- \begin{tikzpicture}
- \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
- \draw[step=10mm] (0,0) grid (190mm,190mm);
-\end{tikzpicture}\\\captionof{figure}{Temperature (Y axis) vs. time (X axis)}\end{center}
 
+\newpage
+\vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+\begin{tikzpicture}
+\begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+\draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+\draw[step=10mm] (0,0) grid (190mm,190mm);
+\end{scope}
+\begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+\node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} Temperature (Y axis) vs. time (X axis). Replicate 1 };
+\end{scope}
+\end{tikzpicture}
+\end{center}
+
+
+\newpage
+ \vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+ \begin{tikzpicture}
+ \begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+ \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+ \draw[step=10mm] (0,0) grid (190mm,190mm);
+  \end{scope}
+ \begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+ \node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} Temperature (Y axis) vs. time (X axis). Replicate 2 };
+ \end{scope}
+\end{tikzpicture}
+\end{center}
+
+
+
+\newpage
+ \vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+ \begin{tikzpicture}
+ \begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+ \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+ \draw[step=10mm] (0,0) grid (190mm,190mm);
+  \end{scope}
+ \begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+ \node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} Temperature (Y axis) vs. time (X axis). Low concentration. };
+ \end{scope}
+\end{tikzpicture}
+\end{center}
+
+
+\newpage
+ \vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+ \begin{tikzpicture}
+ \begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+ \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+ \draw[step=10mm] (0,0) grid (190mm,190mm);
+  \end{scope}
+ \begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+ \node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} Temperature (Y axis) vs. time (X axis). High concentration. };
+ \end{scope}
+\end{tikzpicture}
+\end{center}
 
 
 %%%%%%%%%%%%HEADING
