@@ -1,5 +1,9 @@
 \documentclass[main.tex]{subfiles}
 
+\newcommand{\NewNaturalElementTextFormat}[4]
+{
+  \CommonElementTextFormat{#1}{#2}{\huge {#3}}{#4}
+}
 
 \pagestyle{empty}
 
@@ -11,61 +15,10 @@
 %\begin{sidewaysfigure}
 %\centering
 \vspace{1.5cm}\hspace{2.5cm}
-
-%\AddToShipoutPicture*{\includegraphics[width=\paperwidth,height=\paperheight]{example-image-a}}
-%\begin{tikzpicture}[remember picture,overlay,every node/.style={anchor=center}]%
-%\node [fill = yellow!30, anchor = north west, minimum height = 6mm, minimum width = 0.20\paperheight, align = flush left,  inner xsep = 3mm, text width=0.30\paperheight-5mm, rotate = 90] at (page cs:-0.8,-0.5) {\captionof{figure}[Legend for table of figures]{This is my legend}\label{im:first}};
-%\end{tikzpicture}
-
-
-
-%\newcommand{\CommonElementTextFormat}[4]
-%{
-%  \begin{minipage}{2.2cm}
-%    \centering
-%      {\textbf{#1} \hfill #2}%
-%      \linebreak \linebreak
-%      {\textbf{#3}}%
-%      \linebreak \linebreak
-%      {{#4}}
-%  \end{minipage}
-%}
-%
-%\newcommand{\NaturalElementTextFormat}[4]
-%{
-%  \CommonElementTextFormat{#1}{#2}{\Huge {#3}}{#4}
-%}
-%
-%\newcommand{\OutlineText}[1]
-%{
-%\ifpdf
-%  % Couldn't find a nicer way of doing an outline font with TikZ
-%  % other than using pdfliteral 1 Tr
-%  %
-%  \pdfliteral direct {0.5 w 1 Tr}{#1}%
-%  \pdfliteral direct {1 w 0 Tr}%
-%\else
-%  % pstricks can do this with \pscharpath from pstricks
-%  %
-%  \pscharpath[shadow=false,
-%    fillstyle=solid,
-%    fillcolor=white,
-%    linestyle=solid,
-%    linecolor=black,
-%    linewidth=.2pt]{#1} 
-%\fi
-%}
-%
-%\newcommand{\SyntheticElementTextFormat}[4]
-%{
-%\ifpdf
-%  \CommonElementTextFormat{#1}{#2}{\OutlineText{\Huge #3}}{#4}
-%\else
-%  % pstricks approach results in slightly larger box
-%  % that doesn't break, so fudge here
-%  \CommonElementTextFormat{#1}{#2}{\OutlineText{\Large #3}}{#4}
-%\fi
-%}
+ 
+ 
+ 
+ 
 \begin{tikzpicture}[font=\sffamily, scale=0.50, transform shape, rotate=90, baseline={(0,9cm)}, yshift=-8cm, xshift=-32cm, remember picture,overlay]
 
 %% Fill Color Styles
@@ -317,7 +270,7 @@
 %  \node[Element, fill=white, right of=elementLegend, xshift=1em]
 %    {\SyntheticElementTextFormat{}{}{man-made}{}} ;
   \node[yshift=10cm] at ($(Mn.north -| Fe.west) + (5em,-15em)$) [name=elementLegend, Element, fill=white]
-    {\NaturalElementTextFormat{Z}{mass}{Symbol}{Name}};
+    {\NewNaturalElementTextFormat{Z}{mass}{Symbol}{Name}};
 
 %% Diagram Title
   \node[yshift=2cm] at (H.west -| Fe.north) [name=diagramTitle, TitleLabel,text=blue, font=\sffamily]
@@ -329,8 +282,9 @@
 
 
 
+
 %\end{sidewaysfigure}
 
-%\end{fullwidth}
+
 \restoregeometry
 \end{document}
