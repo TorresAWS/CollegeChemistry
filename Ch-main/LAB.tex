@@ -42,6 +42,28 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
+
+\newcommand{\Fractal}{\pgfdeclarelindenmayersystem{Koch curve}{
+  \rule{F -> F-F++F-F}}
+\pgfdeclarelindenmayersystem{Sierpinski triangle}{
+  \rule{F -> G-F-G}
+  \rule{G -> F+G+F}}
+\pgfdeclarelindenmayersystem{Fractal plant}{
+  \rule{X -> F-[[X]+X]+F[+FX]-X}
+  \rule{F -> FF}}
+\pgfdeclarelindenmayersystem{Hilbert curve}{
+  \rule{L -> +RF-LFL-FR+}
+  \rule{R -> -LF+RFR+FL-}}
+
+ \begin{minipage}[b]{0.5\linewidth}\begin{center}
+ \begin{adjustbox}{center, width=0.5\linewidth}   
+\begin{tikzpicture}
+\shadedraw[shading=color wheel] 
+[l-system={Koch curve, step=2pt, angle=60, axiom=F++F++F, order=5}]
+lindenmayer system -- cycle;
+\end{tikzpicture}
+ \end{adjustbox}\end{center} \end{minipage}
+ }
 \newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
 \newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
 
@@ -65,9 +87,10 @@
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
 
 \vfill % Whitespace between the title and the author name
- \includegraphics[width=0.8\textwidth]{coverfolder/cover}
+ \Fractal
+ %\includegraphics[width=0.8\textwidth]{coverfolder/cover}
  \vfill 
-%{\Large\textbf{Daniel Torres \& Luis Gonz\'alez-Urbina}}\\ % Author name
+{\Large\textbf{Daniel Torres \& Luis Gonz\'alez-Urbina}}\\ % Author name
 {\textbf{Science Department}}\\ % Author name
 {\textbf{B.M.C.C.}}\\ % Author name
 {\textbf{The City University of New York}}\\ % Author name
@@ -79,6 +102,9 @@
 \hspace{8cm} \includegraphics[width=0.2\textwidth, angle=45]{stamp}\\[0.5\baselineskip] % Publisher logo
 
 \endgroup}
+
+
+
 
 
 
@@ -1802,7 +1828,11 @@ cherry/.pic={
 \vspace{5cm}
 %
 }
+\renewcommand{\contentsname}{List of Experiments}
 
+ 
+ \usetikzlibrary{lindenmayersystems}
+\usetikzlibrary[shadings]
 
 
 \begin{document} 
