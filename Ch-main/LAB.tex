@@ -1781,6 +1781,30 @@ cherry/.pic={
 
 \newcounter{graphcounter}
 
+
+ \definecolor{secnum}{RGB}{13,151,225}
+\definecolor{ptcbackground}{RGB}{212,237,252}
+\definecolor{ptctitle}{RGB}{0,177,235}
+\titlecontents{lsection}
+  [5.8em]{\sffamily}
+  {\color{secnum}\contentslabel{2.3em}\normalcolor}{}
+  {\titlerule*[1000pc]{.}\contentspage\\\hspace*{-5.8em}\vspace*{5pt}%
+    \color{white}\rule{\dimexpr\textwidth-15.5pt\relax}{1pt}}
+\newcommand\PartialToC{%
+\vspace{5cm}
+\thispagestyle{empty}\startcontents[chapters]%
+\begin{mdframed}[backgroundcolor=ptcbackground,hidealllines=true]
+\printcontents[chapters]{l}{1}{\colorbox{ptctitle}{%
+  \parbox[t]{\dimexpr\textwidth-2\fboxsep\relax}{%
+    \strut\color{white}\bfseries\sffamily\makebox[5em]{%
+       ~\thechapter\hfill}\begin{center}\huge List of Experiments\end{center}}}\vskip7pt}
+\end{mdframed}
+\vspace{5cm}
+%
+}
+
+
+
 \begin{document} 
 \thispagestyle{empty}
 \titleBC\newpage
@@ -1788,8 +1812,17 @@ cherry/.pic={
 %%\section{Letter from the authors}\subfile{letters/letter2.tex}
 %%\clearpage\thispagestyle{empty}\mbox{}\clearpage
 %  \clearpage\thispagestyle{empty}\mbox{}\clearpage   % COMMENT FOR CH202
-{ \hypersetup{hidelinks} \tableofcontents}
+{ \hypersetup{hidelinks} %\tableofcontents
+\vspace{5cm}\PartialToC}
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
+
+
+
+
+
+
+
+
 
 %
 %\newpage\section{Safety }\subfile{safety/safety.tex}
