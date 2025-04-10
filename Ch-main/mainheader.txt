@@ -5823,4 +5823,123 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 %%%%%%%%%%%% ANNOUNCEMENTTS
 %%%%%\makeannouncement{f2f.tex}{homew.tex}{q.tex}{abstract.tex}
 
+%%%%%% Conductometer speedometer diagram
+
+\usetikzlibrary{decorations.text,calc}
+\newsavebox\speedometerbox
+\newcommand\myangle{}
+\newlength\tmpaht
+\tikzset{%
+  speedo/.style={font=\large}
+}
+%https://latexdraw.com/how-to-write-a-text-along-path-using-tikz-speedometer-case/
+% adjusted: https://tex.stackexchange.com/a/717396/
+\sbox\speedometerbox{%
+  \begin{tikzpicture} [speedo]
+    % Static part
+    % (angle : r )
+    \draw[draw=white,fill=red!50,thick] (0:2) -- (0:3.5) arc(0:45:3.5) -- (45:2) arc(45:0:2) -- cycle ;
+    \draw[draw=white,fill=orange!50,thick] (90:2cm)-- (90:3.5cm) arc (90:45:3.5) -- (45:2cm) arc (45:90:2);
+    \draw[draw=white,fill=orange!50,thick] (135:2cm)-- (135:3.5cm) arc (135:90:3.5) -- (90:2cm) arc (90:135:2);
+    \draw[draw=white,fill=green!50,thick] (135:2cm)-- (135:3.5cm) arc (135:180:3.5) -- (180:2cm) arc (180:135:2);
+    
+    \draw[decoration={
+      text along path,
+      text={0-10},
+      text align={center},
+      raise=0.2cm},
+    decorate] (180:3.5cm) arc (180:135:3.5); 
+    
+    \draw[decoration={
+      text along path,
+      text={|\small|Low},
+      text align={center},
+      raise=0.2cm},
+    decorate] (180:2.5cm) arc (180:135:2.5); 
+    
+    \draw[decoration={
+      text along path,
+      text={},
+      text align={center},
+      raise=0.2cm},
+    decorate] (135:3.5cm) arc (135:90:3.5);
+    
+    \draw[decoration={
+      text along path,
+      text={|\small| Moderate},
+      text align={center},
+      raise=0.2cm},
+    decorate] (135:2.5cm) arc (135:90:2.5);
+    
+    \draw[decoration={
+      text along path,
+      text={},
+      text align={center},
+      raise=0.2cm},
+    decorate] (90:3.5cm) arc (90:45:3.5);
+    
+    \draw[decoration={
+      text along path,
+      text={|\small| Moderate},
+      text align={center},
+      raise=0.2cm},
+    decorate] (90:2.5cm) arc (90:45:2.5);
+    
+    \draw[decoration={
+      text along path,
+      text={$>$1000},
+      text align={center},
+      raise=0.2cm},
+    decorate] (45:3.5cm) arc (45:0:3.5);
+    
+    \draw[decoration={
+      text along path,
+      text={|\footnotesize| Very High},
+      text align={center},
+      raise=0.2cm},
+    decorate] (45:2.5cm) arc (45:0:2.5);
+    
+    \pgfmathsetlength \tmpaht {height("$1234567890$")+2mm}
+    \path   (current bounding box.north west) coordinate (a)    ++(-\tmpaht,\tmpaht) coordinate (b) -| (current bounding box.south east)  ++(\tmpaht,0pt) -| (b);
+    
+  \end{tikzpicture}%
+}
+
+\NewDocumentCommand \speedometer { mm }
+{% #1 location #2 index 
+  \begin{tikzpicture}[speedo]
+    \node [inner sep=0pt,outer sep=0pt,line width=0pt,anchor=base] {\usebox{\speedometerbox}};
+    %Labels
+    \draw[decoration={
+      text along path,
+      text={|\Large\bfseries\sffamily|#1},
+      text align={center},
+      raise=0.0cm},
+    decorate] (-2,-1) -- (2,-1); 
+    
+    % Speedometer needle
+    
+    % converting quality air index into angle.
+    \def\myindex{#2}
+    \ifnum\myindex<7 
+      % here we have 6 slices : 90 / 6 =15
+      \renewcommand{\myangle}{180-\myindex*15}
+      % here we have 4 slices from 7 to 10 so 
+      % I divided 45/4 = 11.2 
+    \else
+      \ifnum\myindex<14 
+        \renewcommand{\myangle}{90-((\myindex+1)*12.2-90)}
+      \else
+        \renewcommand{\myangle}{0}
+      \fi
+    \fi
+    
+    \fill[black!70,rotate=\myangle] (0,0.2)--(0:2.75) -- (0,-0.2)--cycle;
+    \fill [black!70](0,0) circle (0.4cm);
+    \fill [white](0,0) circle (0.15cm);
+  \end{tikzpicture}%
+}
+
+
+
 
