@@ -1,0 +1,21 @@
+\ce{HNO3} and \ce{KCl} are both strong electrolytes and hence they will dissociate producing: \ce{H^+}, \ce{NO3^-}, \ce{K^+}, and \ce{Cl^-}.
+You can use the formula for dilutions to calculate the new concentration after mixing both reagents:
+\begin{center}$V_1\cdot M_1=V_2\cdot M_2$
+\end{center}
+where $V_1$ and $M_1$ are the initial volume and concentration and $V_2$ and $M_2$ are the values after the dilution.\\
+Therefore
+\begin{center}$M_2=V_1\cdot \dfrac{M_1}{V_2}$
+\end{center}
+for \ce{HNO3},
+\begin{center}$M_2=\dfrac{10\:mL\cdot 0.10\:M}{(10\:mL+10\:mL)}=0.05\:M$
+\end{center}
+Hence, we have that the concentration of all ions produced from the dissociation of the reagents is 0.05M.
+We can also see how the additivity rule works. We have that the conductivity ($\kappa$) of both separate reagents added is:
+\begin{center}
+$\kappa$(\ce{HNO3} 0.05 M) + $\kappa$(\ce{KCl} 0.05 M) = 19.6 mS/cm + 9.6 mS/cm = 29.2 mS/cm
+\end{center}
+being this the same value as measured the conductivity of the mixture.
+As the additivity rule holds, there is hence no reaction between \ce{HNO3} and \ce{KCl}.
+
+
+
