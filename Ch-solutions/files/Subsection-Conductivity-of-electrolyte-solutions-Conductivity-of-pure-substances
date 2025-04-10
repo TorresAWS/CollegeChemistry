@@ -1,12 +1,18 @@
-Ionic conduction happens only when ions are free to move. Therefore, this type of electric conduction only happens either in molten ionic salts or in salt solutions. Solutions as metal conductors obey Ohm's Law and the resistance ($R$) of an ionic conductor can be computed using the same law. It is convenient to speak in terms of conductance ($G$)--the inverse of resistance. The SI unit of resistance is the Ohm ($\Omega$), whereas the corresponding unit for conductance is the Siemens ($S$), the inverse of the Ohm. In a metallic conductor, resistance depends on the conductor's length ($l$) and section ($A$). It also depends on the characteristics of the metal in terms of its resistivity ($\rho$).
+Conductivity is a type of electric conductions resulting from ion conduction, where ionic species, cations and anions, carry electrocal charge after an electrical field is applied. Ionic conduction happens only when ions are free to move. Therefore, this type of electric conduction only happens either in molten ionic salts or in salt solutions. Solutions as metal conductors obey Ohm's Law and the resistance ($R$) of an ionic conductor can be computed using the same law, by applying a voltage ($V$) while measuring current intensity ($I$). 
+\begin{equation}
+\boxed{\text{R} =  \frac{V}{I}  }
+\label{formula:ohmslaw}
+\end{equation}
+When dealing with liquid solutions it is convenient to speak in terms of conductance ($G$)--the inverse of resistance. The SI unit of resistance is the Ohm ($\Omega$), whereas the corresponding unit for conductance is the Siemens ($S$), the inverse of the Ohm. In a metallic conductor, resistance depends on the conductor's length ($l$) and section ($A$). Resistance also depends on the characteristics of the metal in terms of its resistivity ($\rho$).
 \begin{equation}
 \boxed{\text{R} =  \rho\frac{l}{A}  }
 \label{formula:resistance}
 \end{equation}
-In terms of conductance we have that this property depends on the inverse of the resistivity which is called the conductivity ($\kappa$)
+In terms of conductance we have that this property depends on the inverse of the resistivity which is called the \emph{conductivity} ($\kappa$)
 \begin{equation}
-\boxed{\text{G} =  \kappa\frac{l}{A}  }
+\boxed{\text{G} =  \kappa\frac{A}{l}  }
 \label{formula:conductance}
 \end{equation}
-The Si units for $\kappa$ are S$\cdot \text{m}^{-1}$ also written as $\Omega\cdot \text{m}^{-1}$. Regularly it is expressed as $\text{m}\Omega\cdot \text{cm}^{-1}$ or $\mu\Omega\cdot \text{cm}^{-1}$.
-
+The SI unit for $\kappa$ is S$\cdot \text{m}^{-1}$ also written as $\Omega^{-1}\cdot \text{m}^{-1}$. 
+As the conductivity of solutions is in geneal a small number, $\kappa$ is regularly expressed as $\text{m}S\cdot \text{cm}^{-1}$ or $\mu S\cdot \text{cm}^{-1}$. For example, $\kappa$ for distilled water ranges from 0.5 to 3 $\mu S\cdot \text{cm}^{-1}$, whereas that for tap water ranges from 50 to 800 $\mu S\cdot \text{cm}^{-1}$. This change in conductivity results from the existance of cations such as \ce{Ca^{2+}}, \ce{Ca^{2+}}, \ce{Mg^{2+}}, \ce{K^{+}} and ions such as \ce{HCO_3^{-}}, \ce{Cl^{-}} or \ce{SO_4^{2-}}  in tab water.
+%

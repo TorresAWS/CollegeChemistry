@@ -1,6 +1,6 @@
-Interestingly, when two electrolyte solutions are mixed, the conductivity of the resulting solution will be equal to the sum of the two separate solutions with the same concentration as in the mixture. This is called the \textbf{additivity rule}. Conductance and conductivity are additive properties, which means that, at the same concentration, the conductivity of a solution resulting from adding two other solutions corresponds to the sum of the conductivities of the two separate solutions. 
+Interestingly, when two electrolyte solutions are mixed, the conductivity of the resulting solution will be equal to the sum of the two separate solutions with the same concentration as in the mixture. This is called the \emph{additivity rule}. Conductance and conductivity are additive properties, which means that, at the same concentration, the conductivity of a solution resulting from adding two other solutions ($\kappa_{mix}$) corresponds to the sum of the conductivities of the two separate solutions. 
 \begin{equation}
-\boxed{ \kappa = \kappa_a +\kappa_b }
+\boxed{ \kappa_{mix} = \kappa_a +\kappa_b }
 \label{formula:additivityrule}
 \end{equation}
  This rule only holds in diluted conditions and assumes there is no interaction or chemical reaction between the species in the separate solutions. In particular, when two electrolytes undergo a chemical reaction, new products will form and the additivity rule will not apply. Hence, a large deviation from the sum of separate conductivities is an indication of a chemical reaction. The following example deals with the additivity rule for conductivities.

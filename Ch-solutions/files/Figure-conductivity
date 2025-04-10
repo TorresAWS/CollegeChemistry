@@ -1,0 +1,16 @@
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-conductivity}
+\setlength{\tabcolsep}{0pt}
+\begin{longtable}{ c c c }
+\resizebox{0.3\textwidth}{!}{\speedometer{Nonelectrolyte}{1}}&
+\resizebox{0.3\textwidth}{!}{\speedometer{Weak electrolyte}{4}}&
+\resizebox{0.3\textwidth}{!}{\speedometer{Strong electrolyte}{11}}
+\\
+ \multicolumn{3}{c}{
+ \begin{tikzpicture}
+ \node[text width=10cm, fontscale=.3, shift={(25em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-conductivity} \end{bf} Three different conductivity measurements for three different electrolyte types. Low conductivities lower than 10$\mu$S$\cdot $cm$^{-1}$ correspond to nonelectrolytes, whereas very high conductivities, higher than 1000$\mu$S$\cdot $cm$^{-1}$ correspond to strong electrolytes.
+ };
+\end{tikzpicture}
+ 
+ }
+\end{longtable}
+ 
