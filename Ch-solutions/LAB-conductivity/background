@@ -1,0 +1,52 @@
+ 
+  
+%\import{../\chapterlabel/files/}{Figure-conductivity}
+
+
+\import{\pathtofiles/files/}{SectionIntro-Conductivity-of-electrolyte-solutions}
+\foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Conductivity-of-pure-substances}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+
+ \import{\pathtofiles/files/}{BOX-conductivity}
+
+ \foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Electrolyte-conductivity}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+ \import{\pathtofiles/files/}{Figure-conductivity}
+
+ \foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Factors-affecting-conductivity,Subsection-Conductivity-of-electrolyte-solutions-Additivity-rule-of-conductivity}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+
+ \import{\labname/}{examplebox}
+
+
+
+ 
+
+\foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Ionic-mobility}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+ \hspace{-0cm}\begin{minipage}[b]{20cm}
+ \begin{adjustbox}{center, width=0.9\columnwidth+20pt}  
+ \import{\pathtofiles/files/}{Table-Movility} 
+ \end{adjustbox}\end{minipage}
+
+%\import{\pathtofiles/files/}{SectionIntro-Nuclear-reactions}
+\foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Measuring-conductivity}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+\newcommand\chapterpathtoimages{../../}
+\renewcommand\chapterlabel{Ch-solutions} 
+\import{../../Ch-solutions/files/}{Figure-conductometer}
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+

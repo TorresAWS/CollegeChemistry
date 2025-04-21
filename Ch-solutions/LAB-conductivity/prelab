@@ -25,13 +25,13 @@
 \item Given the data below, classify the following electrolytes as strong, weak, or nonelectrolytes:
  
 
-\begin{center}\begin{tabular}{  b{1.3cm} b{2.8cm} b{2cm} b{2.0cm} b{3.0cm}  }
-  &  Concentration (M) & Conductivity & Units & Type of electrolyte \\\hline
+\begin{center}\begin{tabular}{  b{2.8cm} b{2.8cm} b{2cm} b{2.0cm} b{3.0cm}  }
+Electrolyte  &  Concentration  & \multicolumn{2}{c}{Conductivity}  & Type of electrolyte \\\hline
 	&	&	&	\\
-\ce{CuSO4}  &  0.05M  & 4000    & $\mu \text{S}\cdot \text{cm}^{-1}$  &\line(2,0){65}  \\[4ex]
-\ce{FeCl3}  &  0.05M  & 10000    & $\mu \text{S}\cdot \text{cm}^{-1}$  &\line(2,0){65}  \\[4ex]
-\ce{C6H12O6}  &  0.05M  & 9    & $\mu \text{S}\cdot \text{cm}^{-1}$  &\line(2,0){65}  \\[4ex]
- \ce{CH3COOH}  &  0.05M  & 320    & $\mu \text{S}\cdot \text{cm}^{-1}$  &\line(2,0){65}  \\[4ex]
+\ce{CuSO4}  &  0.05M  & \multicolumn{2}{c}{4000 $\mu \text{S}\cdot \text{cm}^{-1}$}         &\line(2,0){65}  \\[4ex]
+\ce{FeCl3}  &  0.05M  & \multicolumn{2}{c}{10000 $\mu \text{S}\cdot \text{cm}^{-1}$}     &\line(2,0){65}  \\[4ex]
+\ce{C6H12O6}  &  0.05M  & \multicolumn{2}{c}{9 $\mu \text{S}\cdot \text{cm}^{-1}$}       &\line(2,0){65}  \\[4ex]
+ \ce{CH3COOH}  &  0.05M  & \multicolumn{2}{c}{320 $\mu \text{S}\cdot \text{cm}^{-1}$}     &\line(2,0){65}  \\[4ex]
 \hline\end{tabular}\end{center} 
 \clearpage\mbox{}\clearpage
 
