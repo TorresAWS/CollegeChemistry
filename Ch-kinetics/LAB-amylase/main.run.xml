@@ -44,13 +44,13 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>LAB.aux</file>
-      <file>LAB1-blx.aux</file>
-      <file>LAB-blx.bib</file>
+      <file>main.aux</file>
+      <file>main1-blx.aux</file>
+      <file>main-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>LAB.bbl</file>
-      <file>LAB1-blx.bbl</file>
+      <file>main.bbl</file>
+      <file>main1-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -72,20 +72,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>LAB</infile>
+      <infile>main</infile>
     </cmdline>
     <input>
-      <file>LAB.aux</file>
+      <file>main.aux</file>
     </input>
     <output>
-      <file>LAB.bbl</file>
+      <file>main.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>LAB.bbl</file>
+      <file>main.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>LAB.aux</file>
-      <file>LAB-blx.bib</file>
+      <file>main.aux</file>
+      <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>./biblio/bibliography.bib</file>
@@ -99,20 +99,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>LAB1-blx</infile>
+      <infile>main1-blx</infile>
     </cmdline>
     <input>
-      <file>LAB1-blx.aux</file>
+      <file>main1-blx.aux</file>
     </input>
     <output>
-      <file>LAB1-blx.bbl</file>
+      <file>main1-blx.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>LAB1-blx.bbl</file>
+      <file>main1-blx.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>LAB1-blx.aux</file>
-      <file>LAB-blx.bib</file>
+      <file>main1-blx.aux</file>
+      <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>./biblio/bibliography.bib</file>

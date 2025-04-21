@@ -1,0 +1,18 @@
+%\begin{enumerate}
+%
+%
+%\item Explain the effect of adding a catalyst to the reaction rate. \vspace{1.3cm}
+%\item Using collision theory, explain how the concentration of the reactants affect the rate of the reaction. \vspace{2cm}
+%
+%
+%\end{enumerate}
+
+
+\begin{enumerate}
+
+\foreach \n in {Problems-Diff-and-integral.1.A,Problems-Diff-and-integral.2.A,Problems-Diff-and-integral.3.A}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{2cm}
+}
+
+
+\end{enumerate}

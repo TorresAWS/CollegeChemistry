@@ -60,7 +60,7 @@
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
 \textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
 {\color{RosyBrown}\Large AN OPENTEXTBOOK} \\ % Tagline or further description
-{\color{Magenta}Version 2.9 - {\today}} \\ % for 202
+{\color{Magenta}Version 2.8 - Fall 2023} \\ % for 202
 %{\color{Magenta}Version 2.7 - 2022} \\ % for 201
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
 
@@ -851,14 +851,14 @@ roundcorner=5pt
 
 \usetikzlibrary{fadings,patterns,fit}
 
-%% use stamp.png to make a fading (a mask)
-%\begin{tikzfadingfrompicture}[name=stamp]
-%  \node [fill=transparent!0,inner sep=0]
-%  {\includegraphics[width=50pt,height=50pt]{stamp.png}};
-%  \begin{scope}[yshift=-90pt,transform canvas={scale=.2}]
-%    \node[color=gray!50!black,font=\ttfamily] {\today};
-%  \end{scope}
-%\end{tikzfadingfrompicture}
+% use stamp.png to make a fading (a mask)
+\begin{tikzfadingfrompicture}[name=stamp]
+  \node [fill=transparent!0,inner sep=0]
+  {\includegraphics[width=50pt,height=50pt]{stamp.png}};
+  \begin{scope}[yshift=-90pt,transform canvas={scale=.2}]
+    \node[color=gray!50!black,font=\ttfamily] {\today};
+  \end{scope}
+\end{tikzfadingfrompicture}
 
 \pgfdeclarehorizontalshading[mycolor]{stampshading}
   {4cm}{
@@ -1777,16 +1777,15 @@ cherry/.pic={
             \node[shape=circle,fill=blue!30!black,,draw,inner sep=2pt] (char) {#1};}}
 \renewcommand{\tikzmark}[3][]{\tikz[overlay,remember picture,baseline] \node [anchor=base,#1](#2) {#3};}
 
-    \newcommand\labname{}\newcommand\texbooklabel{}\newcommand\pathtofiles{}
-
+\newcommand{\mytriangle}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --
+(-0.6em,0) -- (-0.3em,-0.6em);}}
+\newcommand{\mytriangleup}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --
+(-0.6em,0) -- (-0.3em,0.6em);}}
 
 
 \begin{document} 
-
-\subfile{LAB-clockreaction/LAB-clockreaction.tex }
-\subfile{LAB-amylase/LAB-amylase.tex }
-
-
+    \newcommand\labname{amylase}\newcommand\texbooklabel{Ch-kinetics}\newcommand\pathtofiles{..}
+ \section{The iodine clock}\subfile{./\labname.tex }
 \end{document}
 
 

@@ -1,0 +1,48 @@
+%\begin{center}\begin{minipage}[b]{1\linewidth}\resizebox{1.0\textwidth}{!}{
+
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-vulcano-plots}   
+\begin{tikzpicture}
+\usepgfplotslibrary{fillbetween}
+\begin{scope}[shift={(0cm,0cm)}]
+\begin{axis}[
+    xlabel={Temperature ($^{\circ}$C)  },
+    xlabel style={
+               at={(0.5,-0.1)} },    
+    ylabel={Activity (arbitrary units)},yticklabels={,,},
+    xmin=5, xmax=9,
+    ymin=0, ymax=6,
+    xtick={6,7,8,9,10},
+    legend pos=north west,
+    width=7cm,
+            height=8cm,
+]
+\addplot[  color=blue,thick, smooth ] coordinates {(5 , 1 )(6 , 3 )( 7,5  )(8 ,3  ) (9 , 0.9  )    }  ;
+\end{axis}
+\end{scope}
+\begin{scope}[shift={(7cm,0cm)}]
+\begin{axis}[
+    xlabel={Temperature ($^{\circ}$C)  },
+    xlabel style={
+               at={(0.5,-0.1)} },    
+    ylabel={Activity (arbitrary units)},yticklabels={,,},
+    xmin=25, xmax=45,
+    ymin=1, ymax=7,
+    xtick={25,30,35,40,45},
+    legend pos=north west,
+    width=7cm,
+            height=8cm,ytick pos=right
+]
+\addplot[  color=red,thick, smooth,name path=A ] coordinates {(25 , 1 )(30 , 4 )( 35,5  )(38 ,4.7  ) (40 , 4  ) (45 , 0.9  )    }  ;
+
+
+\end{axis}
+\end{scope}
+
+\begin{scope}[shift={(0cm,-1cm)}]
+\node[text width=12cm, fontscale=.3, shift={(18em,-6em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-vulcano-plots} \end{bf} Schematic representation of PH (left) and temperature (right) volcano plots for the activity of amylase. Amylase is the digestive enzyme that breaks down complex carbohydrates (like starch) into simpler sugars, aiding digestion. The optimum temperature is 37$^{\circ}$C, and the optimum PH range is 6.7-7.0. };
+
+\end{scope}
+\end{tikzpicture}
+%}\end{minipage} \end{center}
+

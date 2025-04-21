@@ -1,0 +1,17 @@
+        %%%%%CAUTION BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=red, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=red, text=white]
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.8\textwidth}
+      \begin{itemize} [label={\danger}]
+		\item The stopper should always be placed before inverting the test tube.
+		\item Failure to place the stopper will cause the spill of the reaction.
+		\item There is a story behind every Caution Box.
+              \end{itemize}
+    \end{minipage}};
+\node[fancytitle, right=10pt] at (box.north west) {\danger CAUTION!};
+\node[fancytitle, rounded corners] at (box.east) {!};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%
