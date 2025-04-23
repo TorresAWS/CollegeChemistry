@@ -15,6 +15,8 @@
 
 \section*{Background}
 \import{\chapterlabel/}{background}
+\section*{The experiment}
+\import{\chapterlabel/}{experiment}
 
 
 %\import{\chapterlabel/}{examplebox}
@@ -44,50 +46,16 @@
  
  
  
- %%%%%%%%%%%%HEADING
-\newgeometry{right=5cm}
-\thispagestyle{sidebar}
-\sidebar{%
-  \vspace{1em}
-  \vspace{1cm}
-  \vfill
-  \par\vspace*{1em}
-}
-\restoregeometry
-\clearpage 
-\begin{sidewaystable}[ph!]
-\begin{multicols}{2}
-\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,
-colback=mybrown!05,colframe=black,fonttitle=\bfseries,
-title=STUDENT INFO,pad at break=1mm, break at=5cm/0pt ]
-\vspace{0.2cm}
-\noindent Name:  \begin{Form}\TextField[rotation=90,name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[rotation=90, name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\
-\end{tcolorbox}
-\hfill
-\vspace{-1cm}
-\begin{center}
-{\large \bfseries  
-Results\\ EXPERIMENT {\thesection} 
-\par
-\Huge
+%%%%%%%%%%%%HEADING 
+\newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{ \vspace{1em} \vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage\begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Results\\ EXPERIMENT \par\Huge
 \import{\chapterlabel/}{title}
-\\[5pt] \par}
-\vspace{0.2cm}
-\end{center}
-\par
-\noindent
-\end{multicols}
+\\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent
+%%%%%%%%%%%%HEADING
+ \import{\chapterlabel/}{results}
 
-
-\vspace{0.1cm}
-\setlength{\tabcolsep}{10pt}
-
- \import{\chapterlabel/}{results} 
-
+ \clearpage 
+ \begin{sidewaystable}[ph!]\newpage\import{\chapterlabel/}{results2} 
 \end{sidewaystable}
-
-
- \clearpage \newpage\import{\chapterlabel/}{results2} 
 %\clearpage\mbox{}\clearpage
 
 

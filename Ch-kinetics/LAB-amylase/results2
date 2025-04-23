@@ -1,57 +1,36 @@
+\section*{Parts B and C. Determination of the Michaelis-Menten constants}
+   \begin{center}\resizebox{25cm}{!} {
+\begin{tabular}{    p{1.0cm}|p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |}
+\cline{2-15}
+  & \multicolumn{2}{c|}{Test tube A1   } & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{2}{c|}{Test tube D\#1  }  & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{2}{c|}{Test tube D\#1  }\\
+  &$A$   &t (s) &$A$   &t (s) &$A$   &t (s) &$A$   &t (s)&$A$   &t (s) &$A$   &t (s) &$A$   &t (s)  \\
 
-\subsection*{Part A. Obtaining the rate law.}
+ &   \mycircled{5}   & \mycircled{6} &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}   \\
+\cline{2-15}
+  &    &  & & & && &  & & & && &  \\[10pt]
+\cline{2-15}
+ &     &    & & & && && & & && &  \\[10pt]
+\cline{2-15}
+ &     &    & &  & & & && & & && &\\[10pt]
+\cline{2-15}
+  &    &    & & & && &  & & & && & \\[10pt]
+\cline{2-15}
+ &     &    & & & && & & & & && & \\[10pt]
+\cline{2-15}
+ &     &     & && && & & & & && & \\[10pt]
+\cline{2-15}
+&      &     & && & & && & & && & \\[10pt]
+\cline{2-15}
+ &     &     & && & & & & & & && &\\[10pt]
+\cline{2-15}
+ &     &     & && && & & & & && & \\[10pt]
+\cline{2-15}
+ &     &     & && & & && & & && & \\[10pt]
+\cline{2-15}\cline{1-15}
+\multicolumn{1}{|r|}{     }& & \multicolumn{1}{r|}{  }     &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
+\multicolumn{1}{|r|}{ \mycircled{7} \:  $v_0$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+\multicolumn{1}{|r|}{ \mycircled{8} \:  $r^2$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } \\[8pt]
+\cline{1-15}
+\end{tabular} 
+}  \end{center}
 
-\begin{center}\begin{tabular}{ x{0.5 cm}x{1.5 cm}x{1.2 cm} x{1.5cm} x{1.2cm} x{1.2cm}  x{1.2cm} x{1.2cm} }
- \cline{1-8}
- &Exp.&$\Delta$[\ce{S2O3^{-2}}]  	& $\Delta$t  &r  &[\ce{S2O8^{-2}}]	&[\ce{I^{-}}]& k\\ 
- &&  (M)	& (s) & (M/s) &(M)	&(M) &\\ 
- && \mycircled{7}  	&\mycircled{8}   &\mycircled{9}   &\mycircled{5} 	&\mycircled{6}  &\mycircled{12}\\ 
-  \cline{1-8}
-  && 	& &  & 	&&  \\ 
-
-  \mycircled{14}\;&1&\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} &\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} \\ 
-  &2&\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} &\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} \\ 
-  &3&\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} &\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} \\ 
-  \cline{1-8}
-\end{tabular}\end{center}
-
-
- \begin{center}
-r = k [\ce{S2O8^{2-}}]$^a$ [\ce{I^-}]$^b$ \end{center}
- 
- \begin{center}
-\;\;\mycircled{10}\;\;a= \line(2,0){30} \hspace{3cm} \;\;\mycircled{11}\;\;b=  \line(2,0){30} \hspace{3cm} \;\;\mycircled{13}\;\;Average k {\small (write down units)}=  \line(2,0){30} \hspace{1cm}
-
-\end{center}
- 
-
-
- 
- \vspace{2cm}
- \subsection*{Parts B and C. Evaluating the influence of the temperature on the reaction rate and a catalyst}
- 
-
-\begin{center}\begin{tabular}{x{0.1 cm} x{0.1 cm}x{1.0 cm}x{1.2 cm} x{1.5cm} x{1.2cm} x{1.0cm}  x{1.0cm} x{1.0cm} }
- \cline{1-9}
- &Exp.&Temperature&$\Delta$[\ce{S2O3^{-2}}]  	& $\Delta$t  &r  &[\ce{S2O8^{-2}}]	&[\ce{I^{-}}]& k\\ 
- &&(K)&  (M)	& (s) & (M/s) &(M)	&(M) &\\ 
- &&& \mycircled{7}  	&\mycircled{8}   &\mycircled{9}   &\mycircled{5} 	&\mycircled{6}  &\mycircled{12}\\ 
-  \cline{1-9}
-  &&& 	& &  & 	&&  \\ 
-
-   \mycircled{14}\;&1 &\line(1,0){30}&\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} &\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} \\ 
-    &1&\line(1,0){30}&\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} &\line(1,0){30}	&\line(1,0){30}&\line(1,0){30} \\ 
-  \cline{1-9}
-   \multicolumn{9}{c}{\small {(Results on the first row of Table A and Table B should be the same)} }\\
- Catalyst&1&\line(1,0){30}& 	&\line(1,0){30}&  & 	& &  \\ 
-
-  \cline{1-9}
-\end{tabular}\end{center}
-
- \begin{center}
-\;\;\mycircled{15}\;\;$E_a$= \line(2,0){30} \hspace{3cm}J/K$\cdot$mol 
-\end{center}
-
-
-
- 

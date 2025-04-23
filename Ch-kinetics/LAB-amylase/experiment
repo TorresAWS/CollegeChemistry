@@ -1,0 +1,18 @@
+
+This experiment is divided into a series of parts. First, you will calibrate the spectrophotometer to transform absorbances into concentrations; you will do this by measuring absorbances at decreasing starch concentrations. Then you will measure the initial velocity $v_0$ for the amylase-catalyzed starch hydrolysis for high starch concentrations, making sure these measurements are accurate and reproducible. Afterwards, you will measure a set of $v_0$ for decreasing starch concentrations, to calculate the Michaelis-Menten constants $K_m$ and $V_m$. To obtain these constants you will use two different linearizations of the Michaelis-Menten equation, building the Lineweaver?Burk and the Eadie?Hofstee plot. Finally, you will study the impact of PH on enzyme activity by measuring the initial rate for the reaction a different PH values.
+
+\subsection*{Part A. Determining Lambert-Beer's constant $\epsilon \cdot l$.}
+Starch is the substrate of the enzyme-catalyzed reaction studies in this experiment.
+To transform Absorbances into molarity you will need the Lambert-Beer?s constant. You will measure this constant by measuring Absorbances for a set of starch dilutions.
+You will take advantage of the fact that starch reacts with Iodine (\ce{I_2}) in the presence of Iodide ion(\ce{I^-}) to form an intensely colored blue complex, which is visible at very low concentrations of Iodine, making it an excellent indicator. The intensity increases linearly with the starch concentration.
+
+\subsection*{Parts B. Determination and validation of initial velocities}
+You will measure the initial velocities of the reaction by starting the enzyme-catalyzed reaction and measure how the mixture's absorbance changes for a short time, just a minute; measuring absorbance every 15 seconds with a stopwatch. Using a straight part of the $A$ vs. $t$ graph and a linear regression, using Lambert-Beer?s constant to transform absorbances into concentration, the slope of the plot corresponds to the reaction's initial velocity. You will repeat your measurement a total of three times to assess the accuracy and reproducibility of your rate measurements.
+ 
+\subsection*{Part C. Determination of the Michaelis-Menten constants}
+To calculate the Michaelis-Menten constants you will measure initial reaction rates ($v_0$) for decreasing starch concentrations. As the rate of an enzyme-catalyzed reaction depends on the substrate concentration ($[S]$) using the Michaelis-Menten equation, graphing $v_0$ vs. $[S]$ (this is the first kinetic plot) will give a hyperbolic plot, not suitable to obtain the Michaelis-Menten constants. 
+You will construct two more kinetic plots: the double-reciprocal Lineweaver-Burk graph by plotting $1/v_0$ vs. $a/[S]$ (this is the second kinetic plot) and the improved Eadie-Hofstee graph by plotting $v_0$ vs. $v_0/[S]$ (this is the third kinetic plot). The slope and intercept of both plots will be used to obtain $K_m$ and $V_m$, the two Michaelis-Menten constants.
+
+\subsection*{Part D. PH effect on enzyme activity}
+To estimate the PH effect on enzyme activity you will measure initial velocities after adding increasing quantities of an acid and a base. You will use PH paper to measure the PH of the starch and enzyme. Then you will add some drops of an acid, measure the initial velocity, and then measure its PH. Finally, you will add some drops of a base, measure the initial velocity, and then measure its PH. The initial velocity relates to enzyme activity. By measuring how this property changes with PH you will be able to estimate the optimum PH of the enzyme.
+

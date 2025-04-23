@@ -1,93 +1,88 @@
-\subsection*{Part A. Obtaining the rate law. Preparing the mixtures}
-\begin{steps}
-	\newstep[] Obtain three large test tubes with their corresponding stoppers, a suitable grid or rack, a Mohr pipet, and a thermometer.
-	\newstep[] Label the test tubes with numbers 1, 2 
-and 3.
-	\newstep[] Read the Good Lab Practice box
+\subsection*{Part A-1. Starch serial dilution}
+ \begin{steps}
+        \newstep[] In the following you will prepare a series of starch dilutions with concentrations: 2\%, 1\%, 0.5\%, 0.25\%, and 0.125\%.
+        \newstep[] Find five jumbo test tubes with stoppers and label them as A, B, C, D, and E.
+        \newstep[] Pipet 5ml of distilled water into test tubes B, C, D, and E.
 
-  \import{\chapterlabel/}{goodlabpractice}
+       \newstep[] Obtain about 25 mL of 2\% starch in a small beaker. Make sure you do not contaminate the bottle of reagent by always retrieving out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a 10mL Mohr's pipette with the enzyme solution.
+       
+       
+       
+     \newstep[] Using the Mohr's pipet, pipet 5ml of starch into test tube A (test tube A is the starch 2\% solution) and 5ml into test tube B. 
+     \newstep[] Pipet 5ml of starch into test tube A and 1ml into test tube B. Close test tube B with a stopper, and mix well the content of test tube B by inverting the test tube 3 times at constant speed. Test tube B is the starch 1\% solution. 
+      \newstep[] Pipet 5ml of test tube B into test tube C. Close test tube C with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube C is the starch 0.5\% solution. 
+      \newstep[] Pipet 5ml of test tube C into test tube D. Close test tube D with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube D is the starch 0.25\% solution. 
+      \newstep[] Pipet 5ml of test tube D into test tube E. Close test tube E with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube E is the starch 0.125\% solution. 
+      \newstep[] Add 1 drop of the \ce{I_2}-\ce{I^-} solution into each test and mix all test tubes well until the color is homogeneous. With your serial dilution done properly, you should see test tube A darker in comparison to the other test tubes with intensity decreasing from test tube A to E.
+      
+\end{steps}
 
-	\newstep[] Obtain about 25 mL \textbf{0.20 M \ce{NaI}} in a small beaker.
-	\newstep[] Clean and rinse the pipette with \ce{NaI}. Pipette 2.0 mL in test tube 1, 2.0 mL in test tube 2 
-and 4.0 mL in test tube 3. Refer to the table below (Table of quantities) for the reagent quantities to add.
-	\newstep[] Obtain no more than 20 mL \textbf{0.20 M \ce{NaCl}} in a small beaker.
-	\newstep[] Clean and rinse the pipette with \ce{NaCl}. Pipette 2.0 mL in test tube 1 and 2.0 mL in test tube 2. Nothing in test tube 3. Refer to the table below (Table of quantities) for the reagent quantities to add.
-	\newstep[] Obtain no more than 20 mL \textbf{0.010 M \ce{Na2S2O3}} in a small beaker.
-	\newstep[] Clean and rinse the pipette with \ce{Na2S2O3}. Pipette 2.0 mL in each test tube. Refer to the table below (Table of quantities) for the reagent quantities to add.
-	\newstep[] Obtain aproximately 10 mL \textbf{2\% starch solution} in a small beaker. 
-	\newstep[] Clean and rinse the pipette with starch. Pipette 1.0 mL in each test tube. Refer to the table below (Table of quantities) for the reagent quantities to add.
-	\newstep[] Obtain no more than 20 mL \textbf{0.20 M \ce{K2SO4}} in a small beaker.
-	\newstep[] Clean and rinse the pipette with \ce{K2SO4}. Pipette 2.0 mL in test tube 1, nothing in test tube 2 
-and 2.0 mL in test tube 3. Refer to the table below (Table of quantities) for the reagent quantities to add.
-	\newstep[] Check that the volumes in the 3 test tubes make sense with the following table. Test tubes 1 and 3 should have the same volume. Test tube 2 should have slightly less volume.
-	\newstep[] Using the thermometer, record the room temperature in Kelvins.
+\subsection*{Part A-2. Starch standard calibration}
+ \begin{steps}
 
+        \newstep[] Start the spectrophotometer. The bulb needs time to heat up to a stable temperature.
+        \newstep[] Get a 250 mL beaker for waste and fill a 100 mL beaker with distilled water.
+        \newstep[] Using the plastic dropper, fill the cuvette 3/4 full with distilled water.
+        \newstep[] Insert the cuvette into the spectrophotometer, set the wavelength to \emph{540 nm}, and press "blank" or "zero".
+        \newstep[] Use a new cuvette. Fill the cuvette 3/4 full with the solution from test tube E.
+        \newstep[] Insert the cuvette into the spectrophotometer to measure the absorbance. Record the result.
+        \newstep[] Repeat for test tubes D, C, B, and A, always using new cuvettes for each measurement. Write down the results in the results section.
 
+        \newstep[] Plot absorbance vs. concentration to obtain the Lambert-Beer's constant $k$.
+        \newstep[] Do not proceed unless you show the instructor your graph.
 
 \end{steps}
 
-\begin{center}\begin{tabular}{ x{0.9 cm}| x{0.5cm} x{0.5cm} x{0.5cm} x{0.5cm} x{0.5cm} | x{0.5cm} }
-\cline{1-7}
-    \multicolumn{7}{c|}{Table of quantities}       \\    \cline{1-7}
-  &  \multicolumn{5}{c|}{Volume (mL)}     & \StopWatchStart  \\    \cline{1-7}
-& \ce{NaI} & \ce{NaCl} & \ce{Na2S2O3} & Starch & \ce{K2SO4} & \ce{K2S2O8} \\  
-  & 0.2M & 0.2M & 0.01M & 2\% & 0.2M & 0.2M \\ \cline{1-7}
-Exp. 1 & 2.0 & 2.0 & 2.0 & 1.0 & 2.0 & 2.0 \\
-Exp. 2 & 2.0 & 2.0 & 2.0 & 1.0 & 0 & 4.0 \\
-Exp. 3 & 4.0 & 0 & 2.0 & 1.0 & 2.0 & 2.0 \\
-\end{tabular}\end{center}
+\subsection*{Parts B. Determination and validation of initial velocities}
+ \begin{steps}
+        \newstep[] In the following you will start the enzyme-catalyzed reaction to measure initial velocities.
+        \newstep[] Gather test tubes A-E with their stoppers while you get ready to start the reaction.
+                \newstep[] Find three new jumbo test tubes with stoppers and label them as A1, A2, and A3. With a clean Morh's pipette, pipette 2mL of stock 2\% starch solution into test tubes A1, A2, and A3. Make sure your Morh's pipette is clean.        
+       
+          \newstep[] Obtain about 20 mL of the enzyme solution (this is the enzyme solution or the artificial saliva solution). Make sure you do not contaminate the bottle of reagent by always retrieving liquid out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a Mohr's pipette with the enzyme solution.
 
+         \newstep[] Pipette 2mL of the enzyme solution into test tube A1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
+         \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+         \newstep[] Repeat the previous two steps for test tubes  A2 and A3. Once done, clean the test tubes A2 and A3 and have them ready for reuse.
+         \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. Make sure your measured initial velocities are reproducible.
+         \end{steps}
 
-\subsection*{Part A. Obtaining the rate law. Mixing the test tubes}
-
+ \subsection*{Part C. Determination of the Michaelis-Menten constants}
 \begin{steps}
+        \newstep[] In the following you are going to measure enzyme activity at different starch concentrations $[S]$.
+        \newstep[] Again, gather test tubes A-E with their stoppers while you get ready to start the reaction.
+         \newstep[] Find three new jumbo test tubes with stoppers and label them as B1, C1, and D1. With a clean Morh's pipette, pipette 2mL from test tube B into B1. Then pipette 2mL from test tube C into C1, and 2mL from test tube D into D1.
+         \newstep[] Pipette 2mL of the enzyme solution into test tube B1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
+         \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+         \newstep[] Repeat the previous two steps for test tubes  C1 and D1. Once done, clean the test tubes B1, C2, and D1 and have them ready for reuse.
 
-\newstep[] Now you are about to start up the reaction. It is critical to follow the steps below.
-	\newstep[]  Every reaction should be done in \textbf{
-the same way} to be comparable. The same steps, in the same order and at the same pace should be followed.
-\newstep[] You will be adding \ce{K2S2O8}. After adding the \ce{K2S2O8}, the test tube should be closed with the stopper, and the content should be mixed by inverting the test tube 16 times. Do not rush, turn the test tube \textit{Mississippily}. Do the same for the following reactions.
-  \import{\chapterlabel/}{cautionbox}
+         \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. 
+                  \newstep[] Graph a Michaelis-Menten plot plotting initial velocity $v_0$ (vertical axis) vs. starch concentration $[S]$ (horizontal axis).
+                  \newstep[] Graph a Lineweaver-Burk  plot plotting the inverse of initial velocity $1/v_0$ (vertical axis) vs. the inverse of starch concentration $1/[S]$ (horizontal axis).
+     \newstep[] Graph a Eadie-Hofstee  plot plotting the initial velocity $v_0$ (vertical axis) vs. initial velocity and starch concentration ratio $v_0/[S]$ (horizontal axis).
 
-\end{steps}
-
-\subsection*{Part A. Obtaining the rate law. Starting the reaction}
-
-
-\begin{steps}
-	\newstep[] Obtain about 25 mL \textbf{0.20 M \ce{K2S2O8}} in a small beaker. Make sure you do not contaminate the bottle of reagent by always retrying out of the bottle into a beaker and never pipetting directly from the bottle. Clean and rinse the pipette with \ce{K2S2O8}.
- 	\newstep[] Get test tube 1 and a stopper. Set the time to zero.
-	\newstep[]  Start the stopwatch as you pipette 2.0 mL of \ce{K2S2O8} in test tube 1. Time should start to be measured as soon as you add the first drop of \ce{K2S2O8} in a test tube. Mix the reaction as explained above. \newstep[] Stop the stopwatch when the solution turns dark. The color will appear suddenly. If more than 5 minutes elapse without the solution turning dark, start doubting about what have you mixed.
-\newstep[] Repeat the previous steps now for test tube 2  and pipetting this time 4.0 mL of \ce{K2S2O8} into the test tube.
-.\newstep[] Repeat one more time the previous steps now for test tube 3 and pipetting this time 2.0 mL of \ce{K2S2O8} into the test tube.
-	\newstep[] Now you need to repeat all steps above (mixture preparation and reaction) to do a second trial for the three test tubes.
-\newstep[] Discard the solutions in the indicated waste container and clean the test tubes.
-\end{steps}
+ plots
+         \end{steps}
 
 
+ \subsection*{Part D. PH effect on enzyme activity}
+	\begin{steps}
+        \newstep[] In the following you will measure enzyme activity at different PH.
+        \newstep[] Again, gather test tubes A-E with their stoppers while you get ready to start the reaction.
+    \newstep[] Find two new jumbo test tubes with stoppers and label them as A3, and A4. With a clean Morh's pipette, pipette 2mL of stock 2\% starch solution into test tubes A3, and A4. Make sure your Morh's pipette is clean. 
+    \newstep[] Add 5 drops of 2M \ce{HCl} to test tube A3. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. 
+        \newstep[] Add 5 drops of 2M \ce{NaOH} to test tube A4. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. 
+             \newstep[] Pipette 2mL of the enzyme solution into test tube A3 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
+         \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+         \newstep[] Repeat the previous two steps for test tube A4.
+         \newstep[] Graph a volcano plot plotting initial velocity $v_0$ (vertical axis) vs. PH (horizontal axis).
+         \end{steps}
 
-\subsection*{Part B. Evaluating the influence of the temperature on the reaction rate.}
-\begin{steps}
 
-	\newstep[] Label three large test tubes with the letters ``\textbf{T}'', ``\textbf{C}''' and ``\textbf{K}'''. ``T'' stands for ``Temperature'', ``C'' for ``Catalyst'' and ``K'' for ``\ce{K2S2O8}''.
-	\newstep[] Add to test tubes ``T'' and ``C'' the same volumes of \ce{NaI}, \ce{NaCl}, \ce{Na2S2O3}, Starch and \ce{K2SO4} as for test tube 1. Do not add the \ce{K2S2O8} yet. Reserve test tube ``C'' in the rack for Part C.
-	\newstep[] Add about 5 mL of \ce{K2S2O8} to test tube ``K''.
-	\newstep[] Obtain a 600 mL beaker and, with the help of the thermometer, add hot and cold water until you have about 400 mL of water between 40 and 45 degrees Celsius.
-	\newstep[] Place the test tubes ``T'' and ``K'' in the hot water bath and allow them to temper for at least 5 minutes. Part C can be done during those 5 minutes. .
-	\newstep[] Measure the temperature of the water after the tempering time. Write down this temperature in the results table. Start the reaction by pipetting 2 mL of \ce{K2S2O8} from test tube ``K'' into test tube ``T''. After the 16-Mississippi mixing, return the test tube to the bath and wait to record the time it takes for the solution to turn dark.	
-	\end{steps}
-
-\subsection*{Part C. Evaluating the influence of a catalyst on the reaction rate.}
-\begin{steps}
-
-	\newstep[] Add \textbf{one drop} of \textbf{0.2 M \ce{CuSO4}} to test tube ``C''. Shake the test tube to mix the solution.
-	\newstep[] Start the stopwatch as you pipette 2.0 mL of \ce{K2S2O8} in the test tube. Mix the reaction as explained above.
-	\newstep[] Record the time it takes for the solution to turn dark. 
-	
  
-
-\end{steps}
-
-
+      
+      
+   
 \section*{Calculations}
 \mycircled{0} This is lab temperature. You will use this value for Part B as well.\vspace{0.5cm}\\
 \mycircled{1} This is the volume of iodine added in each experiment.\vspace{0.5cm}\\
