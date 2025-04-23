@@ -1,36 +1,73 @@
-\section*{Parts B and C. Determination of the Michaelis-Menten constants}
-   \begin{center}\resizebox{25cm}{!} {
-\begin{tabular}{    p{1.0cm}|p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |}
-\cline{2-15}
-  & \multicolumn{2}{c|}{Test tube A1   } & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{2}{c|}{Test tube D\#1  }  & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{2}{c|}{Test tube D\#1  }\\
-  &$A$   &t (s) &$A$   &t (s) &$A$   &t (s) &$A$   &t (s)&$A$   &t (s) &$A$   &t (s) &$A$   &t (s)  \\
+%\section*{Part A. Starch calibration}
+%   \begin{center}\resizebox{5cm}{!} {
+% 
+% \begin{tabular}{ | c p{2.0cm}p{2.5cm}  |  }
+%\hline
+%Test tube \#  & $[S]$  (\% (w/v)) &$A$  \\
+%
+%  & \mycircled{1}   & \mycircled{2}             \\
+%\hline
+%A & 2.000 &      \\[10pt]
+%\hline
+%B & 1.000 &      \\[10pt]
+%\hline
+%C & 0.500 &      \\[10pt]
+%\hline
+%D & 0.250 &       \\[10pt]
+%\hline
+%E & 0.125 &      \\[10pt]
+%\hline\hline
+%\multicolumn{1}{|r}{     } & \multicolumn{2}{r|}{  }   \\[0.5pt]
+%\multicolumn{1}{|r}{ \mycircled{3} \:    } & \multicolumn{2}{l|}{$k_{\lambda}$=\hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%\multicolumn{1}{|r}{ \mycircled{4} \:    } & \multicolumn{2}{l|}{$r^2$ =\hspace{1cm} \line(1,0){60}  }   \\[10pt]
+%\hline
+%\end{tabular} 
+%}  \end{center}
+%
+%
 
- &   \mycircled{5}   & \mycircled{6} &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}   \\
-\cline{2-15}
-  &    &  & & & && &  & & & && &  \\[10pt]
-\cline{2-15}
- &     &    & & & && && & & && &  \\[10pt]
-\cline{2-15}
- &     &    & &  & & & && & & && &\\[10pt]
-\cline{2-15}
-  &    &    & & & && &  & & & && & \\[10pt]
-\cline{2-15}
- &     &    & & & && & & & & && & \\[10pt]
-\cline{2-15}
- &     &     & && && & & & & && & \\[10pt]
-\cline{2-15}
-&      &     & && & & && & & && & \\[10pt]
-\cline{2-15}
- &     &     & && & & & & & & && &\\[10pt]
-\cline{2-15}
- &     &     & && && & & & & && & \\[10pt]
-\cline{2-15}
- &     &     & && & & && & & && & \\[10pt]
-\cline{2-15}\cline{1-15}
-\multicolumn{1}{|r|}{     }& & \multicolumn{1}{r|}{  }     &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
-\multicolumn{1}{|r|}{ \mycircled{7} \:  $v_0$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
-\multicolumn{1}{|r|}{ \mycircled{8} \:  $r^2$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } \\[8pt]
-\cline{1-15}
+
+\vspace{1cm}
+%\section*{Parts B and C. Initial velocities and Michaelis-Menten constants}
+   \begin{center}\resizebox{25cm}{!} {
+\begin{tabular}{    p{1.0cm}|p{1.3cm}p{1.3cm}|   p{1.3em}  p{1.3cm}|p{1.3cm}   p{1.3cm} | p{1em}  | p{1.3cm}p{1.3cm}  |p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |}
+\cline{2-7}\cline{9-16}
+  & \multicolumn{6}{c|}{Part B   }   & \multicolumn{1}{c|}{   } & \multicolumn{8}{c|}{Part C }   \\[10pt]
+
+\cline{2-7}\cline{9-16}
+  & \multicolumn{2}{c|}{Test tube A1   } & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{1}{c|}{   } & \multicolumn{2}{c|}{Test tube D\#1  }  & \multicolumn{2}{c|}{Test tube B\#1} & \multicolumn{2}{c|}{Test tube C\#1  }  & \multicolumn{2}{c|}{Test tube D\#1  } \\[10pt]
+\cline{2-7}\cline{9-16}
+  &$A$   &t (s) &$A$   &t (s) &$A$   &t (s)    &&  $A$   &t (s)   &$A$   &t (s) &$A$   &t (s) &$A$   &t (s)  \\
+
+ &   \mycircled{5}   & \mycircled{6} &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &&     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}    &     \mycircled{5}   & \mycircled{6}  &     \mycircled{5}   & \mycircled{6}   \\
+\cline{2-7}\cline{9-16}
+  &    &  & & & && &  & & & && &&  \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &    & & & && && & & && &&  \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &    & &  & & & && & & && &&\\[10pt]
+\cline{2-7}\cline{9-16}
+  &    &    & & & && &  & & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &    & & & && & & & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &     & && && & & & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+&      &     & && & & && & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &     & && & & & & & & && &&\\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &     & && && & & & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+ &     &     & && & & && & & && && \\[10pt]
+\cline{2-7}\cline{9-16}
+\cline{1-7}\cline{9-16}
+
+\multicolumn{1}{|r|}{     }& & \multicolumn{1}{r|}{  }     &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &&\multicolumn{1}{r|}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
+\multicolumn{1}{|r|}{ \mycircled{7} \:  $v_0$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{0cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   && \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+\multicolumn{1}{|r|}{ \mycircled{8} \:  $r^2$=  }& \multicolumn{2}{l|}{\hspace{1cm} \line(1,0){60}  }   & \multicolumn{2}{l|}{ \hspace{0cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{1}{l|}{    } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }  & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } \\[8pt]
+\cline{1-7}\cline{9-16}
+
 \end{tabular} 
 }  \end{center}
 

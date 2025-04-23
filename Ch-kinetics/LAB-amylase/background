@@ -26,6 +26,12 @@
 \import{\pathtofiles/files/}{Figure-vulcano-plots}
 }\end{minipage} \end{center}
 
+ \foreach \n in {SectionIntro-Dif-and-integralSubsection-LR-with-calculator,SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad}{
+\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+}
+
+
+
  
 
 
