@@ -84,14 +84,16 @@ A 10 mL solution of 0.2 M \ce{NH3} ($K_b=2.50 \times 10^{-5}$) is titrated with 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 A 20 mL solution of 0.1 M \ce{HCl} is titrated with a 0.1 M KOH solution. Calculate: 
 \begin{inparaenum}[(a)]
-\item  the PH at the endpoint 	%PH=7 
-\item  the PH at the midpoint 	%PH=1 
+\item  the initial PH  
+\item  the PH at the midpoint 	 
+\item  the PH at the endpoint 	 
  \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
+\item  PH=1 
+\item   PH=1.5 
 \item  PH=7 
-\item   PH=1 
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
