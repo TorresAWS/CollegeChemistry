@@ -21,16 +21,16 @@ Calculate the solubility for the following conditions:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Calculate the solubility for the following conditions:
 \begin{inparaenum}[(a)]
-	\item a saturated solution of \ce{PbBr2} on water given that $K_{sp}=6.60\times10^{-6}$    % $s=1.87\times10^{-02}$M	
- 	\item a saturated solution of \ce{PbBr2} on a \ce{Pb(NO3)2} 0.1M solution given that $K_{sp}=6.60\times10^{-6}$    % $s=7.82\times10^{-3}$M	
- 	\item a saturated solution of \ce{PbBr2} on a \ce{NaBr} 0.1M solution given that $K_{sp}=6.60\times10^{-6}$    % $s=6.51\times10^{-4}$M	
+	\item a saturated solution of \ce{PbBr2} on water given that $K_{sp}$(\ce{PbBr2})$=6.60\times10^{-6}$    % $s=1.87\times10^{-02}$M	
+ 	\item a saturated solution of \ce{PbBr2} on a \ce{Pb(NO3)2} 0.1M solution given that $K_{sp}$(\ce{PbBr2})$=6.60\times10^{-6}$    % $s=7.82\times10^{-3}$M	
+ 	\item a saturated solution of \ce{PbBr2} on a \ce{NaBr} 0.1M solution given that $K_{sp}$(\ce{PbBr2})$=6.60\times10^{-6}$    % $s=6.51\times10^{-4}$M	
  \end{inparaenum}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-	\item   $s=1.87\times10^{-02}$M	
- 	\item   $s=4.03\times10^{-3}$M	
- 	\item   $s=6.6\times10^{-4}$M	
+	\item   $s=1.18\times10^{-02}$M	
+ 	\item   $s=1.64\times10^{-4}$M	
+ 	\item   $s=3.98\times10^{-3}$M	
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
