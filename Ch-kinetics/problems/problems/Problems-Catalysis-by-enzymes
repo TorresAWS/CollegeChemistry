@@ -1,0 +1,67 @@
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+An enzyme that follows the Michaelis-Menten model is mixed with a substrate of 0.03 mmol/L concentration. The measured initial velocity was $3\times10^{-3}$ mM/min whereas the maximum velocity was $5\times10^{-3}$ mM/min. Calculate Michaelis-Menten's $k_m$ parameter.
+\end{question}
+\begin{solution}
+0.02mM
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A solution of urease, a nickel-containing enzyme that catalyzes the hydrolysis of urea into ammonia and carbon dioxide, is mixed with a 0.01	mM urea solution. The measured initial velocity for the urea decomposition was  $1\times10^{-3}$ mM/min. Calculate	the	maximum	velocity	of	the	enzymatic	reaction given that under the experimental conditions, $K_m$ was found to be 0.05mM. 
+\end{question}
+\begin{solution}
+$1\times10^{-3}$ mM/min
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+ For an enzyme obeying Michaelis-Menten kinetics, at what concentration
+of S will the initial velocity be equal to half of $V_m$? 
+\end{question}
+\begin{solution}
+$[S]=K_m$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+ For an enzyme obeying Michaelis-Menten kinetics, at what concentration
+of S will the initial velocity be equal 25\% of $V_m$? 
+\end{question}
+\begin{solution}
+$[S]=1/3K_m$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For an enzyme-catalyzed reaction obeying Michaelis-Menten kinetics,
+$V_m$ was $1.0\times 10^{-9}$ M/s and $K_m$ = $2.0\times 10^{-3}$ M. Calculate the rate of this enzymatic reaction when the substrate concentration was  $1.0\times 10^{-3}$ M.
+\end{question}
+\begin{solution}
+$3.3\times 10^{-10}$M/s
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For an enzyme-catalyzed reaction obeying Michaelis-Menten kinetics,
+$V_m$ was $1.0\times 10^{-8}$ M/s and $K_m$ = $5.0\times 10^{-3}$ M. Calculate the rate of this enzymatic reaction when the substrate concentration was  $1.0\times 10^{-2}$ M.
+\end{question}
+\begin{solution}
+$6.6\times 10^{-9}$M/s
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%
+%%
+%\begin{inparaenum}[(a)]
+%\item  unimolecularity; $r$=k[\ce{N2O}]
+%\item  bimolecular; $r$=k[\ce{N2O}][\ce{O}]
+%\item  bimolecular; $r$=k[\ce{NO}]$^2$
+%\item  bimolecular; $r$=k[\ce{N2O2}][\ce{H}]
+% \end{inparaenum}
+%

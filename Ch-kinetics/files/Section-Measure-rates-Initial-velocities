@@ -1,0 +1,8 @@
+As $r$ changes with time, it is convenient to meaure this value at very early times, when the concentration changes lineraly with time. This is called the \emph{initial rate} of a reaction, $r_0$, the instantaneous rate measured at very early times in the reaction progress. 
+At the same time, \emph{parasitic chemical reactions},  unwanted chemical reactions that occur alongside the primary, desired reaction, do not exist at early times, hence helping making sure our mesured concentration changes are due only to the reaction under study.
+
+In order to obtain initial rates, we will first visually identify the portion of the graph that appears linear. In Figure \ref{Fig:Figure-Initial-velocities}, the linear plot exist between the (0,0.2) and (5,0.04) points. There are two different ways to calculate this slope. In a first, less accurate, method we compute the difference in concentration $\Delta c$ ($-$0.16) and the difference in time $\Delta t$ (5) in the linear region. By computing the ration between $\Delta c$ and $\Delta t$, we will obtain the average initial rate, an estimate of $r_0$. In Figure \ref{Fig:Figure-Initial-velocities} the average initial rate is $-$0.034 M/s. In a second, more accurate, method uses a linear regression, a statistical function, to fit a line to linear subset of data points. The slope of the regression is the initial rate. In linear regressions, R-squared represented as $r^2$ (also known as the coefficient of determination) is a statistic that measures how well a regression model explains the data. In Figure \ref{Fig:Figure-Initial-velocities} the initial rate is $-$0.032 M/s. 
+
+
+
+

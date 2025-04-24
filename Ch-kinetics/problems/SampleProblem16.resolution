@@ -1,0 +1,64 @@
+By inspecting the data, we see that the concentration data decreases as time progresses. Hence, we are dealing with a reactant. Also, by inspecting the data, we can see that only the four first data points linearly change with time. For molarities later than 4 seconds, concentration reaches a plateau. In order to calculate initial velocities, we will use only the first data sets. We can calculate the average initial velocity by doing
+\[   \overline{r_0}=\frac{0.14-0.40}{4-1}=-0.086 \text{M/s} \]
+We can calculate the instantaneous initial velocity by interpolating the data with a line. You can do this, for example, in \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1}. The equation of the line is:
+ \[c=-0.088\cdot t +0.5 \]
+Hence, the instantaneous initial velocity is $-0.088 \text{M/s}$.
+ \begin{center}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{10cm}{!}{
+\begin{tikzpicture}
+ 
+     
+ 
+
+    \begin{axis}[
+      xmin=1,xmax=10,
+      ymin=0,ymax=0.4,
+      line join=round,
+      enlargelimits,width = 10cm,    
+    legend style={at={(rel axis cs: 1.2, 0.75)},anchor=north west},
+         xlabel={$t$(s) },
+    ylabel={$c$(M) }]
+    ]
+\addplot [
+color=blue,
+solid,
+forget plot,mark = square
+] coordinates {   (1,0.41)  (2,0.32) (3,0.23)(4,0.14)     (6,0.02) (7,0.01) (8,0.005)(9,0.004) (10,0.003) 
+
+      
+};
+\coordinate (pt) at (axis cs:2,0.3);
+
+\node [right,fontscale=0.05] at (axis cs:  1,0.41 ) {$(1,0.40) $};
+\node [right,fontscale=0.05] at (axis cs:  2,0.32 ) {$(2,0.33) $};
+\node [right,fontscale=0.05 ] at (axis cs: 3, 0.23) {$(3,0.23) $};
+\node [right,fontscale=0.05 ] at (axis cs: 4,0.14 ) {$(4,0.14) $};
+  
+
+
+\end{axis}
+
+
+\node[pin={[pin distance=3cm]1:{%
+    \begin{tikzpicture}[trim axis left,trim axis right]
+    \begin{axis}[
+      xmin=0,xmax=4,
+      ymin=0,ymax=0.4,
+      line join=round,
+      enlargelimits,width = 5cm,height = 5cm,axis background/.style={fill=gray!10}
+    ]
+\addplot [
+color=blue,
+solid,
+forget plot,mark = square
+] coordinates { (1,0.41)  (2,0.32) (3,0.23)(4,0.14)   };  
+    \end{axis}
+    \end{tikzpicture}%
+}}] at (pt) [shift={(0,0)}] {};
+ \node[ ] at (6.9,2.9) {$c=-0.09\cdot t +0.5$};
+
+ 
+\end{tikzpicture}
+
+}\end{minipage}\end{center}
+ 

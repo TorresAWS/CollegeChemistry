@@ -1,0 +1,58 @@
+    \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Initial-velocities}
+     
+ \begin{center}
+\begin{tikzpicture}
+
+    \begin{axis}[
+      xmin=0,xmax=20,
+      ymin=0,ymax=0.2,
+      line join=round,
+      enlargelimits,width = 10cm,    
+    legend style={at={(rel axis cs: 1.2, 0.75)},anchor=north west},
+         xlabel={$t$(s) },
+    ylabel={$c$(M) }]
+    ]
+\addplot [
+color=blue,
+solid,
+forget plot,mark = square
+] coordinates { (0,0.200 ) (1,0.1656 )  (2,0.1313 )(3,0.0969 )(4,0.0625 )(5,0.0282)(10,0.0156)(15,0.0106)(20,0.008)
+};
+\coordinate (pt) at (axis cs:2,0.1);
+
+\node [right,fontscale=0.05] at (axis cs:  0,0.200) {$(0,0.2) $};
+\node [right,fontscale=0.05] at (axis cs:  1,0.1656) {$(1,0.17) $};
+\node [right,fontscale=0.05 ] at (axis cs: 2,0.1313) {$(2,0.12) $};
+\node [right,fontscale=0.05 ] at (axis cs: 3,0.0969) {$(3,0.09) $};
+\node [right,fontscale=0.05 ] at (axis cs: 4,0.0625) {$(4,0.06) $};
+\node [right,fontscale=0.05 ] at (axis cs: 5,0.0282) {$(5,0.04) $};
+
+
+
+\end{axis}
+
+
+\node[pin={[pin distance=3cm]1:{%
+    \begin{tikzpicture}[trim axis left,trim axis right]
+    \begin{axis}[
+      xmin=0,xmax=5,
+      ymin=0,ymax=0.2,
+      line join=round,
+      enlargelimits,width = 5cm,height = 5cm,axis background/.style={fill=gray!10}
+    ]
+\addplot [
+color=blue,
+solid,
+forget plot,mark = square
+] coordinates { (0,0.200 ) (1,0.1656 )  (2,0.1313 )(3,0.0969 )(4,0.0625 )(5,0.0282)   };  
+    \end{axis}
+    \end{tikzpicture}%
+}}] at (pt) [shift={(0,0)}] {};
+ \node[ ] at (6.5,1.6) {$c=-0.033\cdot t +0.2$};
+
+     \begin{scope}[xshift =0em, yshift =0em]
+\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Initial-velocities} \end{bf} Concentration vs. time used to calculate initial velocities.   };
+   \end{scope} 
+\end{tikzpicture}\end{center}
+ 
+

@@ -1,0 +1,50 @@
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the average initial velocity and instantaneous initial velocities from the experimental data given in the table below.
+\begin{center}
+\begin{tabular}[t]{   c  c ccccc  }
+\toprule
+\multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	&	  \\
+  \midrule
+  \multicolumn{1}{c|}{  $c$, (M)}&0.17 &0.24&0.31 &0.38  \\
+     &  & &  &  \\
+  
+   \midrule
+  \multicolumn{1}{c|}{  $t$ ( s)}	&  		6	&	7	&	9	&10 \\
+  \midrule
+  \multicolumn{1}{c|}{  $c$, (M)}& 0.50 &0.51&0.52&0.53\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+\end{question}
+\begin{solution}
+0.22M/s;0.21M/s
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the average initial velocity and instantaneous initial velocities from the experimental data given in the table below.
+\begin{center}
+\begin{tabular}[t]{   c  c ccccc }
+\toprule
+ \multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	 \\
+  \midrule
+  \multicolumn{1}{c|}{  $c$, (M)}&0.46 &0.44&0.41 &0.39  \\
+   &  & &  &  \\
+    \midrule
+   \multicolumn{1}{c|}{  $t$ ( s)}	&   	6	&	7	&	9	&10 \\
+  \midrule
+  \multicolumn{1}{c|}{  $c$, (M)}& 0.35 &0.34&0.33&0.32\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+\end{question}
+\begin{solution}
+$-$0.024M/s;$-$0.023M/s
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

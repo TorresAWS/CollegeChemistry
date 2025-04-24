@@ -1,0 +1,14 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the average initial velocity and instantaneous initial velocities from the experimental data given in the table below.
+\begin{center}
+\begin{tabular}[t]{   c|  c ccccccccc  }
+\toprule
+  $t$ ( s)	&  1	&	2	&	3	&	4	&	6	&	7	&	9	&10 \\
+  \midrule
+  $c$ (M)&0.17 &0.24&0.31 &0.38 &0.50 &0.51&0.52&0.53\\
+\bottomrule
+\end{tabular}
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 0.070M/s and 0.073M/s.
+ \end{flushright} }

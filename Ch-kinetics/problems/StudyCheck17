@@ -1,0 +1,16 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+ONPG is a synthetic lactose analog used to detect and quantify the activity of the enzyme $\beta$-galactosidase. The following data was collected when studying the enzyme's activity at PH of 6 and 25$^{\circ}$C. Adjust the michaelis-menten rate law to the experimental data.
+\begin{center}
+\begin{tabular}[t]{   c|ccccccccc     }
+\toprule
+  $v_0$ (mM/s)	&  1.29&3.33&11.80&22.80&35.20&39.90&73.50&12.90 
+ \\
+  \midrule
+$[S]$ (M)&0.05 &0.10& 0.25& 0.50& 1.00& 2.50& 5.00& 8.00 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ Answer: 0.070M/s and 0.073M/s.
+ \end{flushright} }
+                  

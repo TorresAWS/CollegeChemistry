@@ -1,0 +1,9 @@
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small
+ Answer:
+\begin{inparaenum}[(a)]
+\item first four points
+\item reactant
+\item 0.086M/s 
+\item 0.088M/s 
+\end{inparaenum}
+ \end{flushright} }
