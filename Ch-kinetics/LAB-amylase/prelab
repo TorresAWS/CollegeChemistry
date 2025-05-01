@@ -1,9 +1,65 @@
 \begin{enumerate}
-\item What is the difference between a test tube and a jumbo test tube?. \vspace{2cm}
-\item For the reaction 2A+ 3B $\rightarrow$ C what is the mathematical expression that relates the rate of A ($r_a$) and the rate of B ($r_b$)? \vspace{2cm}
-\item Explain the Iodine clock reaction used in this experiment. \vspace{2cm}
-%\item In the example, is it relevant that the second reaction is faster than the first one? \vspace{2cm}
-\item What is starch and where can you find it in nature? \vspace{2cm}
-\item Low-quality boiled ham often contains potatoes to make it cheaper. How could you test if one piece of ham is pure meat or it contains potatoes? \vspace{2cm}
-\item Find out the difference between a \textbf{Mohr pipette} and a \textbf{transfer pipette}.
+
+
+
+ \foreach \n in {Problems-Experimental-measurement-of-reaction-rates.1.A}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{4cm}
+}
+
+\vspace{-4cm}
+\begin{center}
+ \resizebox{7cm}{!} {\begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+\end{tikzpicture}
+}
+\end{center}
+\vspace{3em}\begin{center}
+$r_0=$\rule{3cm}{0.4pt} \hspace{3em}$r^2=$\rule{3cm}{0.4pt}
+\end{center}
+ 
+
+\item Different measurements of absorbance are reported in the table below for different starch concentrations. Answer the following questions
+\begin{inparaenum}[(a)]
+\item   Plot the absorvance vs. concentration. 
+\item   Adjust the Beer-Lambert Law ($A=k_{\lambda}c$), indicating the $r^2$ correlation coeficient value
+\item   Using the adjusted Beer-Lambert Law calculate the \% (w/v) concentration for a mixture with absorbance of 0.
+\end{inparaenum}
+\begin{center}
+\begin{tabular}[t]{   c  c cccc }
+\toprule
+\multicolumn{1}{c|}{  A }	&  0.50	&	0.33	&	0.22	&	0.13 &0.00	 	  \\
+  \midrule
+  \multicolumn{1}{c|}{  $c$ (\% (w/v))}&0.8 &0.6&0.4 &0.2& 0.0     \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{-4cm}
+\begin{center}
+ \resizebox{7cm}{!} {\begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+\end{tikzpicture}
+}
+\end{center}
+\vspace{3em}\begin{center}
+Beer-Lambert Law$=$\rule{3cm}{0.4pt}\hspace{3em}$r^2=$\rule{3cm}{0.4pt}
+\end{center}
+ 
+
+ \foreach \n in {Problems-Catalysis-by-enzymes.4.A}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{4cm}
+}
+\vspace{-4cm}
+\begin{center}
+ \resizebox{7cm}{!} {\begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+\end{tikzpicture}
+}
+\end{center}
+\vspace{3em}\begin{center}
+L-BLaw$=$\rule{3cm}{0.4pt}\hspace{3em}$r^2=$\rule{3cm}{0.4pt}
+\end{center}
+ 
 \end{enumerate}

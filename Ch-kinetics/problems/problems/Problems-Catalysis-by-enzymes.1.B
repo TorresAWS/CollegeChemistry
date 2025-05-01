@@ -1,0 +1,1 @@
+The measured initial velocity for an enzyme-catalyzed reaction that follows the Michaelis-Menten model was $3\times10^{-3}$ mM/min, whereas the maximum velocity was $5\times10^{-3}$ mM/min. Calculate Michaelis-Menten's $k_m$ parameter.

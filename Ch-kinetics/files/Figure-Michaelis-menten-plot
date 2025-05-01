@@ -2,31 +2,33 @@
 \begin{tikzpicture} 
  \begin{scope}[shift={(-1cm,0cm)}]
   \draw[->,line width=1] (-0.2,0) -- (4.2,0) node[right] {$[S]$};
-  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$v$};
+  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$r$};
   \draw[color=red,line width=1 ]    plot[domain=0:4, range=0:10, variable=\x,samples=90] (\x,{4*\x/(\x+0.3)})             node[right] {Michaelis-Menten};
-   \node[ ] at (4em,-2em) { $\boxed{v=\frac{V_m [S] }{K_m + [S] } }$}   ;
-    \draw[line width=1, dashed] (0,3.7) -- (3,3.7) node[right, shift=({0em,1em})] {$V_m$};
-    \draw[line width=1, dashed] (0,1.7) -- (.3,1.7)   node[left, shift=({-1em,0})]   {$V_m/2$} 
-      (.3,1.7) -- (.3,0) node[left, shift=({1,0.5})] {$K_m$};
+   \node[ ] at (5em,-2em) { $\boxed{r=r_m\cdot\frac{[S] }{K_m + [S] } }$}   ;
+    \draw[line width=1, dashed] (0,3.7) -- (3,3.7) node[right, shift=({0em,1em})] {$r_m$};
+    \draw[line width=1, dashed] (0,1.7) -- (.3,1.7)   node[left, shift=({-1em,0})]   {$r_m/2$} 
+      (.3,1.7) -- (.3,0) node[left, shift=({0.9,0.5})] {$K_m$};
 
  \end{scope}
  
 \begin{scope}[shift={(6cm,0cm)}]
  \draw[->,line width=1] (-1.2,0) -- (4.2,0) node[right] {$1/[S]$};
-  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$1/v$};
+  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$1/r$};
   \draw[color=red,line width=1]    plot[domain=-1:3, range=-1:3, variable=\x,samples=90] (\x,{\x+1})             node[right] {Lineweaver-Burke};
-  \draw [-latex] (-1,2) node[above,text width=.8cm,align=center]{ 1/$V_m$} to  (0,1);
-  \draw [-latex] (-2,1) node[above,text width=.8cm,align=center]{ 1/$K_m$} to  (-1,0);
-   \node[ ] at (8em,-2em) { $\boxed{\frac{1}{v}=\frac{K_m}{V}\cdot\frac{1}{[S]} + \frac{1}{V} }$}   ;
+  \draw [-latex] (-1,2) node[above,text width=.8cm,align=center]{ 1/$r_m$} to  (0,1);
+  \draw [-latex] (-2,1) node[above,text width=.8cm,align=center]{ $-$1/$K_m$} to  (-1,0);
+  \draw [-latex] (3,2) node[above,text width=.8cm,align=center]{ $K_m$/$r_m$} to  (1,2);
+   \node[ ] at (8em,-2em) { $\boxed{\frac{1}{r}=\frac{K_m}{r_m}\cdot\frac{1}{[S]} + \frac{1}{r_m} }$}   ;
 %
  \end{scope}
 \begin{scope}[shift={(13cm,0cm)}]
- \draw[->,line width=1] (-1.2,0) -- (4.2,0) node[right] {$v/[S]$};
-  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$v$};
-  \draw[color=red,line width=1]    plot[domain=-0.5:3, range=-1:3, variable=\x,samples=90] (\x,{-1*\x+3})             node[right, shift=({0,4})] {Eadie};
-  \draw [-latex] (1,4) node[above,text width=.8cm,align=center]{ $V_m$} to  (0,3);
-  \draw [-latex] (4,1) node[above,text width=.8cm,align=center]{ $V_m$/$K_m$} to  (3,0);
-   \node[ ] at (8em,-2em) { $\boxed{v=V_m - K_m\cdot \frac{v }{ [S] } }$}   ;
+ \draw[->,line width=1] (-1.2,0) -- (4.2,0) node[right] {$r/[S]$};
+  \draw[->,line width=1] (0,-1.2) -- (0,4.2) node[above] {$r$};
+  \draw[color=red,line width=1]    plot[domain=-0.5:3, range=-1:3, variable=\x,samples=90] (\x,{-1*\x+3})             node[right, shift=({0,4})] {Eadie-Hofstee};
+  \draw [-latex] (1,4) node[above,text width=.8cm,align=center]{ $r_m$} to  (0,3);
+  \draw [-latex] (4,1) node[above,text width=.8cm,align=center]{ $r_m$/$K_m$} to  (3,0);
+  \draw [-latex] (3,2) node[above,text width=.8cm,align=center]{ $-K_m$} to  (2,1);
+   \node[ ] at (8em,-2em) { $\boxed{r=r_m - K_m\cdot \frac{r }{ [S] } }$}   ;
 
 
  \end{scope}

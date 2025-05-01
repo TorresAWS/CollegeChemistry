@@ -30,7 +30,7 @@
 % \end{itemize}
 \section*{Procedure}
 \import{\chapterlabel/}{procedure}
-\clearpage\mbox{}\clearpage
+   \clearpage\mbox{}\clearpage
 
 
 
@@ -42,7 +42,8 @@
 \import{\chapterlabel/}{title}
 \\[5pt] \par}\vspace{0.2cm}\end{center}\par\noindent\uline{  \hfill \normalsize \hfill       }
 %%%%%%%%%%%%HEADING
-\import{\chapterlabel/}{prelab}\clearpage\mbox{}\clearpage
+\import{\chapterlabel/}{prelab}
+%\clearpage\mbox{}\clearpage
 
  
  
@@ -74,7 +75,8 @@ title=STUDENT INFO,pad at break=1mm, break at=5cm/0pt ]
 Results\\ EXPERIMENT {\thesection} 
 \par
 \Huge
-\import{\chapterlabel/}{title}
+%\import{\chapterlabel/}{title}
+Characterization of an enzyme
 \\[5pt] \par}
 \vspace{0.2cm}
 \end{center}
@@ -91,13 +93,45 @@ Results\\ EXPERIMENT {\thesection}
 
 
  \clearpage \newpage
- \begin{sidewaystable}[ph!]
+% \begin{sidewaystable}[ph!]
  \import{\chapterlabel/}{results2} 
- \end{sidewaystable}
+% \end{sidewaystable}
 %\clearpage\mbox{}\clearpage
 
 
 
+\newpage
+\vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+\begin{tikzpicture}
+\begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+\draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+\draw[step=10mm] (0,0) grid (190mm,190mm);
+\end{scope}
+\begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+\node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} M-M plot:  Initial rate (\mycircled{7} \: Y axis) vs. substrate concentration (\mycircled{1} \: X axis)  };
+\end{scope}
+\end{tikzpicture}
+\end{center}
+
+
+\newpage
+ \vspace{2cm}
+\begin{center}
+\stepcounter{graphcounter}   
+ \begin{tikzpicture}
+ \begin{scope}[shift={(-15cm,-35cm)},rotate=0]
+ \draw[step=1mm,help lines] (0,0) grid (190mm,190mm);
+ \draw[step=10mm] (0,0) grid (190mm,190mm);
+  \end{scope}
+ \begin{scope}[shift={(-5cm,-36cm)},rotate=0]
+ \node[inner sep=0pt,rotate=0]   at (0,0) {Graph {\thegraphcounter} Column 14 inverse of initial rate (Y axis) vs. Column 13 inverse of substrate concentration (X axis)  };
+ \end{scope}
+\end{tikzpicture}
+\end{center}
+
+   
 
 %%%%%%%%%%%%HEADING
 \newgeometry{right=5cm}\thispagestyle{sidebar}\sidebar{\vspace{1em}\vspace{1cm}\vfill\par\vspace*{1em}}\restoregeometry\clearpage \begin{multicols}{2}\begin{tcolorbox}[enhanced jigsaw,breakable,size=title,colback=mybrown!05,colframe=black,fonttitle=\bfseries,title=STUDENT INFO,pad at break=1mm, break at=15cm/0pt ]\vspace{0.2cm}\noindent Name:  \begin{Form}\TextField[name=NAME, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}   \hspace{0.2cm}Date:  \begin{Form}\TextField[name=DATE, width=1.5cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{}\end{Form} \\\end{tcolorbox}\end{multicols}\hfill\vspace{0.2cm}\begin{center}{\large \bfseries Post-lab Questions \par\Huge
@@ -106,7 +140,7 @@ Results\\ EXPERIMENT {\thesection}
 %%%%%%%%%%%%HEADING
  \import{\chapterlabel/}{postlab}
 
-\clearpage\mbox{}\clearpage
+%\clearpage\mbox{}\clearpage
 
  \end{refsection}
 \end{document}

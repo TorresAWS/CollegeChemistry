@@ -6,9 +6,10 @@
 \node [mybox] (box) {%
     \begin{minipage}[t!]{0.7\textwidth}
     \begin{itemize} [label={\ding{45}}]
-       \item Pipettes are always used together with a suction bulb or a syringe. \textbf{Never} such a chemical using the mouth!
-	\item \textbf{Never} leave a pipette laying on the table \textbf{while connected to the syringe}. Remaining liquid can leak into the syringe. The syringe will be damage and the liquid will return contaminated to the pipette.
-       \item Always wash pipettes with distilled water and rinse them using the same product to be measured. Such a small volume, disconnect the syringe and move the liquid about displacing the distilled water. Discard the rinsing liquid as waste. Rinse twice.
+%       \item Pipettes are always used together with a suction bulb or a syringe. \textbf{Never} such a chemical using the mouth!
+%	\item \textbf{Never} leave a pipette laying on the table \textbf{while connected to the syringe}. Remaining liquid can leak into the syringe. The syringe will be damage and the liquid will return contaminated to the pipette.
+%       \item Always wash pipettes with distilled water and rinse them using the same product to be measured. Such a small volume, disconnect the syringe and move the liquid about displacing the distilled water. Discard the rinsing liquid as waste. Rinse twice.
+     \item Make sure you do not contaminate the reagent by always retrieving out of the bottle into a beaker and never directly pipetting from the bottle. 
        \end{itemize}
     \end{minipage}
     };

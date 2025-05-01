@@ -1,10 +1,11 @@
-By inspecting the data, we see that the concentration data decreases as time progresses. Hence, we are dealing with a reactant. Also, by inspecting the data, we can see that only the four first data points linearly change with time. For molarities later than 4 seconds, concentration reaches a plateau. In order to calculate initial velocities, we will use only the first data sets. We can calculate the average initial velocity by doing
+By inspecting the data, we can see that only the four first data points change linearly with time. After 4 seconds, the concentration reaches a plateau. In order to calculate initial velocities, we will use only the first four data points. We can calculate the average initial velocity by doing
 \[   \overline{r_0}=\frac{0.14-0.40}{4-1}=-0.086 \text{M/s} \]
-We can calculate the instantaneous initial velocity by interpolating the data with a line. You can do this, for example, in \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1}. The equation of the line is:
- \[c=-0.088\cdot t +0.5 \]
-Hence, the instantaneous initial velocity is $-0.088 \text{M/s}$.
+We can calculate the instantaneous initial velocity $r_0$ by interpolating the data with a line. You can do this, for example, using the \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} web app. The equation of the line is:
+ $c=-0.088\cdot t +0.5 $
+Hence, the instantaneous initial velocity
+\[    r_0= \frac{\text{d}c}{\text{d}t}=-0.086 \text{M/s} \]
  \begin{center}
-\begin{minipage}[b]{1.0\linewidth}\resizebox{10cm}{!}{
+\begin{minipage}[b]{1.0\linewidth}\hspace{3cm} \resizebox{10cm}{!}{
 \begin{tikzpicture}
  
      

@@ -1,46 +1,94 @@
-\vspace{1cm}
+%\vspace{1cm}
 %\section*{Parts B and C. Initial velocities and Michaelis-Menten constants}
-   \begin{center}\resizebox{25cm}{!} {
-\begin{tabular}{    p{1.0cm}  p{1.6cm}p{1.9cm} p{1.9cm}  p{1em}   p{0.5em}p{0.5em}  |p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |}
-\cline{2-4}\cline{8-13}
-  & \multicolumn{3}{|c|}{Part A   }   & \multicolumn{1}{c}{   }& \multicolumn{2}{c|}{   } & \multicolumn{6}{c|}{Part D }   \\[10pt]
+   \begin{center}\resizebox{15cm}{!} {
+\begin{tabular}{        p{0.5em}p{0.5em}  |p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  | p{1.3cm}p{1.3cm}  |}
+ \cline{3-8}
+    \multicolumn{2}{c|}{   } & \multicolumn{6}{c|}{Part C }   \\[10pt]
 
-\cline{2-4}\cline{8-13}
-  & \multicolumn{3}{|c|}{   }   & \multicolumn{1}{c}{   } & \multicolumn{2}{c|}{   }  & \multicolumn{2}{c|}{Test tube A\#3} & \multicolumn{2}{c|}{Test tube A\#5  }  & \multicolumn{2}{c|}{Test tube A\#5  } \\[10pt]
-\cline{2-4}\cline{8-13}
-  &  \multicolumn{1}{|c}{Test tube} \#   &\multicolumn{1}{c}{$[S]$  (\% (w/v))}    &\multicolumn{1}{c|}{A}    &&      &    &$A$   &t (s) &$A$   &t (s) &$A$   &t (s)  \\
+ \cline{3-8}
+    \multicolumn{2}{c|}{   }  & \multicolumn{2}{c|}{Test tube A\#3} & \multicolumn{2}{c|}{Test tube A\#5  }  & \multicolumn{2}{c|}{Test tube A\#5  } \\[10pt]
+ \cline{3-8}
+ &  &    \multicolumn{1}{c}{$A$}   &    \multicolumn{1}{c|}{t(s)} &    \multicolumn{1}{c}{$A$}   &   \multicolumn{1}{c|}{ t(s)} &     \multicolumn{1}{c}{$A$}   &   \multicolumn{1}{c|}{t(s)}  \\
 
- &  \multicolumn{1}{|c}{  }   & \multicolumn{1}{c}{\mycircled{1}}   &\multicolumn{1}{c|}{\mycircled{2}} &&        &    &     \multicolumn{1}{c}{\mycircled{5}}   & \multicolumn{1}{c|}{\mycircled{6}}    &     \multicolumn{1}{c}{\mycircled{5}}   & \multicolumn{1}{c|}{\mycircled{6}}  &     \multicolumn{1}{c}{\mycircled{5}}   & \multicolumn{1}{c|}{\mycircled{6}}   \\
-\cline{2-4}\cline{8-13}
-  & \multicolumn{1}{|c}{A}   &\multicolumn{1}{c}{2.000}&\multicolumn{1}{c|}{ }  & & & && &  & & &    \\[10pt]
-\cline{2-4}\cline{8-13}
-  & \multicolumn{1}{|c}{B}   &\multicolumn{1}{c}{1.000}&\multicolumn{1}{c|}{ }  & & & && &  & & &    \\[10pt]
-\cline{2-4}\cline{8-13}
-  &\multicolumn{1}{|c}{C}    &\multicolumn{1}{c}{0.500}&\multicolumn{1}{c|}{ }  & & & && &  & & &    \\[10pt]
-\cline{2-4}\cline{8-13}
-  & \multicolumn{1}{|c}{D}   &\multicolumn{1}{c}{0.250}&\multicolumn{1}{c|}{ }  & & & && &  & & &    \\[10pt]
-\cline{2-4}\cline{8-13}
-  & \multicolumn{1}{|c}{E}   &\multicolumn{1}{c}{0.125}&\multicolumn{1}{c|}{ }  & & & && &  & & &    \\[10pt]
-\cline{2-4}\cline{8-13}
-  &    &  & & & && &  & & &&    \\[10pt]
- \cline{8-13}
-  &    &  & & & && &  & & &&    \\[10pt]
- \cline{8-13}
-  &    &  & & & && &  & & &&    \\[10pt]
- \cline{8-13}
- \cline{8-13}
- \cline{8-13}
-  &    &  & & & && &  & & &&    \\[10pt]
-\cline{1-4}\cline{6-13}
-\cline{1-4}\cline{6-13}
+         &    &     \multicolumn{1}{c}{\mycircled{1}}   & \multicolumn{1}{c|}{\mycircled{2}}    &     \multicolumn{1}{c}{\mycircled{1}}   & \multicolumn{1}{c|}{\mycircled{2}}  &     \multicolumn{1}{c}{\mycircled{1}}   & \multicolumn{1}{c|}{\mycircled{2}}   \\
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{3-8}
+ \cline{3-8}
+ \cline{3-8}
+    & & && &  & &      \\[10pt]
+ \cline{1-8}
+ \cline{3-8}
 
-\multicolumn{1}{|r|}{     }& & \multicolumn{2}{r|}{  }      & \multicolumn{1}{r}{  }   &\multicolumn{1}{|r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
-\multicolumn{1}{|r|}{ \mycircled{3} \:  $k_{\lambda}$=  }& \multicolumn{3}{c|}{\hspace{1cm} \line(1,0){60}  }      && \multicolumn{2}{|l|}{   \mycircled{7} \:  $v_0$=         } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
-\multicolumn{1}{|r|}{ \mycircled{4} \:  $r^2$=  }& \multicolumn{3}{c|}{\hspace{1cm} \line(1,0){60}  }      && \multicolumn{2}{|l|}{     \mycircled{8} \:  $r^2$=       } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+   \multicolumn{1}{|r}{  } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
+  \multicolumn{1}{|l}{   \mycircled{3} \:           } & \multicolumn{1}{l|}{    $r_0$=         } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+  \multicolumn{1}{|l}{   \mycircled{4} \:           } & \multicolumn{1}{l|}{    $r^2$=         } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%
+  \multicolumn{1}{|l}{   \mycircled{6} \:           } & \multicolumn{1}{l|}{    PH=         } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%
+ \cline{1-8}
+%%
+\end{tabular} 
+}  \end{center}
 
-\multicolumn{1}{|r|}{    }& \multicolumn{3}{c|}{   }      && \multicolumn{2}{|l|}{        PH=       } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
 
-\cline{1-4}\cline{6-13}
+\section*{Part D. Data processing}
+
+ 
+%\section*{Parts B and C. Initial velocities and Michaelis-Menten constants}
+ \vspace{1cm}  \begin{center}\resizebox{15cm}{!} {
+\begin{tabular}{     p{2.0cm}p{2.0cm} p{2.0cm}  p{2.0em}   p{2.0em}p{2.0em}  |p{2.0cm}p{1.0cm}  | }
+\cline{1-5}\cline{7-8}
+       \multicolumn{5}{|c|}{Parts A and B}      &     &\multicolumn{2}{c|}{Part C}     \\
+\cline{1-5}\cline{7-8}
+     \multicolumn{1}{|c}{Test tube\#}    &\multicolumn{1}{|c}{$[S]$ }    &\multicolumn{1}{|c|}{$\frac{1}{[S]}$}    &\multicolumn{1}{c|}{$r_0$}&\multicolumn{1}{c|}{$\frac{1}{r_0}$}      &    &\multicolumn{1}{c|}{$r_0$}    &PH     \\
+     \multicolumn{1}{|c}{ }     &\multicolumn{1}{|c}{ \% (w/v)}    &\multicolumn{1}{|c|}{M$^{-1}$}    &\multicolumn{1}{c|}{M/s}&\multicolumn{1}{c|}{s/M}      &    &\multicolumn{1}{c|}{M/s}   &      \\
+
+    \multicolumn{1}{|c}{  }   & \multicolumn{1}{|c}{\mycircled{0}}   &\multicolumn{1}{|c|}{\mycircled{7}} &\multicolumn{1}{c|}{\mycircled{3}} &\multicolumn{1}{c|}{\mycircled{8}}       &    &     \multicolumn{1}{c|}{\mycircled{3}}   & \multicolumn{1}{c|}{\mycircled{6}}       \\
+\cline{1-5}\cline{7-8}
+    \multicolumn{1}{|c}{A}   &\multicolumn{1}{|c}{2.000}&\multicolumn{1}{|c|}{ }  & \multicolumn{1}{c|}{ }& \multicolumn{1}{c|}{ }& &\multicolumn{1}{c|}{ }&      \\[10pt]
+\cline{1-5}\cline{7-8}
+    \multicolumn{1}{|c}{B}   &\multicolumn{1}{|c}{1.000}&\multicolumn{1}{|c|}{ }  &\multicolumn{1}{c|}{ } &\multicolumn{1}{c|}{ } & &\multicolumn{1}{c|}{ }&      \\[10pt]
+\cline{1-5}\cline{7-8}
+   \multicolumn{1}{|c}{C}    &\multicolumn{1}{|c}{0.500}&\multicolumn{1}{|c|}{ }  &\multicolumn{1}{c|}{ } &\multicolumn{1}{c|}{ } & &\multicolumn{1}{c|}{ }&      \\[10pt]
+\cline{1-5}\cline{7-8}
+    \multicolumn{1}{|c}{D}   &\multicolumn{1}{|c}{0.250}&\multicolumn{1}{|c|}{ }  &\multicolumn{1}{c|}{ } &\multicolumn{1}{c|}{ } & &\multicolumn{1}{c|}{ }&      \\[10pt]
+\cline{1-5}\cline{7-8}
+    \multicolumn{1}{|c}{E}   &\multicolumn{1}{|c}{0.125}&\multicolumn{1}{|c|}{ }  &\multicolumn{1}{c|}{ } &\multicolumn{1}{c|}{ } & &\multicolumn{1}{c|}{ }&      \\[10pt]
+%\cline{2-4}\cline{8-13}
+%  &    &  & & & && &  & & &&    \\[10pt]
+% \cline{8-13}
+%  &    &  & & & && &  & & &&    \\[10pt]
+% \cline{8-13}
+%  &    &  & & & && &  & & &&    \\[10pt]
+% \cline{8-13}
+% \cline{8-13}
+% \cline{8-13}
+%  &    &  & & & && &  & & &&    \\[10pt]
+%\cline{1-4}\cline{6-13}
+%\cline{1-4}\cline{6-13}
+%
+%\multicolumn{1}{|r|}{     }& & \multicolumn{2}{r|}{  }      & \multicolumn{1}{r}{  }   &\multicolumn{1}{|r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }   &\multicolumn{1}{r}{     } & \multicolumn{1}{r|}{  }  \\[0.5pt]
+%\multicolumn{1}{|r|}{ \mycircled{3} \:  $k_{\lambda}$=  }& \multicolumn{3}{c|}{\hspace{1cm} \line(1,0){60}  }      && \multicolumn{2}{|l|}{   \mycircled{7} \:  $v_0$=         } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%\multicolumn{1}{|r|}{ \mycircled{4} \:  $r^2$=  }& \multicolumn{3}{c|}{\hspace{1cm} \line(1,0){60}  }      && \multicolumn{2}{|l|}{     \mycircled{8} \:  $r^2$=       } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%
+%\multicolumn{1}{|r|}{    }& \multicolumn{3}{c|}{   }      && \multicolumn{2}{|l|}{        PH=       } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  } & \multicolumn{2}{l|}{ \hspace{1cm} \line(1,0){60}  }   \\[8pt]
+%
+\cline{1-5}\cline{7-8}
 %%
 \end{tabular} 
 }  \end{center}

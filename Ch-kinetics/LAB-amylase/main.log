@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 APR 2025 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 APR 2025 17:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3862,6 +3862,7 @@ Package zref Info: New property: posy on input line 77.
 \c@figurenewcounter=\count571
 \c@tablenewcounter=\count572
 \c@formulanewcounter=\count573
+\c@graphcounter=\count574
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -3872,8 +3873,8 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count574
-\@quotereset=\count575
+\@quotelevel=\count575
+\@quotereset=\count576
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -3892,9 +3893,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen449
 \l__chemformula_tmpb_dim=\dimen450
 \l__chemformula_tmpc_dim=\dimen451
-\l__chemformula_tmpa_int=\count576
-\l__chemformula_tmpb_int=\count577
-\l__chemformula_tmpc_int=\count578
+\l__chemformula_tmpa_int=\count577
+\l__chemformula_tmpb_int=\count578
+\l__chemformula_tmpc_int=\count579
 \l__chemformula_tmpa_box=\box170
 \l__chemformula_tmpb_box=\box171
 \l__chemformula_arrow_length_dim=\dimen452
@@ -3927,8 +3928,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen479
 \l__chemformula_stoich_space_skip=\skip318
 \l__chemformula_math_space_skip=\skip319
-\l__chemformula_count_tokens_int=\count579
-\g__chemformula_lewis_int=\count580
+\l__chemformula_count_tokens_int=\count580
+\g__chemformula_lewis_int=\count581
 \l__chemformula_arrow_arg_i_box=\box172
 \l__chemformula_arrow_arg_ii_box=\box173
 \l__chemformula_superscript_box=\box174
@@ -4104,52 +4105,52 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1800.
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1800.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1802.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1802.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 180
-0.
+2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1802.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 180
-0.
+2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1802.
 LaTeX Font Info:    Try loading font information for FMX+futm on input line 180
-0.
+2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1800.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1800
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1802.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1802
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 1800.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 1800
+LaTeX Font Info:    ... okay on input line 1802.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 1802
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/t1futs.fd
@@ -4157,16 +4158,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count581
+\scratchcounter=\count582
 \scratchdimen=\dimen480
 \scratchbox=\box176
-\nofMPsegments=\count582
-\nofMParguments=\count583
+\nofMPsegments=\count583
+\nofMParguments=\count584
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count584
+\MPscratchCnt=\count585
 \MPscratchDim=\dimen481
-\MPnumerator=\count585
-\makeMPintoPDFobject=\count586
+\MPnumerator=\count586
+\makeMPintoPDFobject=\count587
 \everyMPtoPDFconversion=\toks69
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -4192,24 +4193,24 @@ ABD: EveryShipout initializing macros
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 1800.
+Package hyperref Info: Link coloring OFF on input line 1802.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count587
+\c@section@level=\count588
 )
-LaTeX Info: Redefining \ref on input line 1800.
-LaTeX Info: Redefining \pageref on input line 1800.
-LaTeX Info: Redefining \nameref on input line 1800.
+LaTeX Info: Redefining \ref on input line 1802.
+LaTeX Info: Redefining \pageref on input line 1802.
+LaTeX Info: Redefining \nameref on input line 1802.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 1800.
+(lastpage)             ! on input line 1802.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 1800.
+Package layouts Warning: Layout scale set to 0.5 on input line 1802.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -4245,18 +4246,18 @@ Package layouts Warning: Layout scale set to 0.5 on input line 1800.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count588
+\c@lstlisting=\count589
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 1800.
-Package gensymb Info: Math companion symbols declared on input line 1800.
-LaTeX Info: Redefining \degree on input line 1800.
-LaTeX Info: Redefining \celsius on input line 1800.
+(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 1802.
+Package gensymb Info: Math companion symbols declared on input line 1802.
+LaTeX Info: Redefining \degree on input line 1802.
+LaTeX Info: Redefining \celsius on input line 1802.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 1800.
-LaTeX Info: Redefining \ohm on input line 1800.
-Package gensymb Info: Using \textohm for \ohm on input line 1800.
-Package gensymb Info: Using \textmu for \micro on input line 1800.
+erthousand on input line 1802.
+LaTeX Info: Redefining \ohm on input line 1802.
+Package gensymb Info: Using \textohm for \ohm on input line 1802.
+Package gensymb Info: Using \textmu for \micro on input line 1802.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: floatflt package is loaded.
 Package caption Info: longtable package is loaded.
@@ -4268,11 +4269,11 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fourier' on line 1800.
+. Activating mapping `fourier' on line 1802.
 .................................................
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 1800.
+LaTeX Info: Redefining \selectfont on input line 1802.
  (./main.sta)
 \openout7 = `main.sta'.
 
@@ -4281,7 +4282,7 @@ LaTeX Info: Redefining \selectfont on input line 1800.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 1800.
+ on input line 1802.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -4296,15 +4297,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout10 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
-Package biblatex Info: ... file 'main1-blx.bbl' not found.
-No file main1-blx.bbl.
-Package biblatex Info: Reference section=0 on input line 1800.
-Package biblatex Info: Reference segment=0 on input line 1800.
+(./main.bbl)
+Package biblatex Info: ... file 'main1-blx.bbl' found.
+ (./main1-blx.bbl)
+Package biblatex Info: Reference section=0 on input line 1802.
+Package biblatex Info: Reference segment=0 on input line 1802.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 1800.
+(scrlayer)             \begin{document} on input line 1802.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -4312,20 +4313,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 1800.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1802
+or `english'. on input line 1802.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1804
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1802--1802
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1804--1804
 |[][] []| 
  []
 
 (./amylase.tex
-\blx@maxsegment@1=\count589
-\blx@sectionciteorder@1=\count590
+\blx@maxsegment@1=\count590
+\blx@sectionciteorder@1=\count591
 Package biblatex Info: Reference section=1 on input line 3.
 \openout10 = `main1-blx.aux'.
 
@@ -4346,99 +4347,71 @@ Underfull \hbox (badness 1997) in paragraph at lines 1--9
 
 (./goal
 
-LaTeX Warning: Citation 'A8' undefined on input line 3.
+LaTeX Warning: Citation 'A47' undefined on input line 1.
 
 
-LaTeX Warning: Citation 'A36' undefined on input line 3.
+LaTeX Warning: Citation 'A48' undefined on input line 1.
 
 
-LaTeX Warning: Citation 'A38' undefined on input line 3.
+LaTeX Warning: Citation 'A49' undefined on input line 1.
 
 
-LaTeX Warning: Citation 'A40' undefined on input line 3.
+Overfull \hbox (7.24164pt too wide) in paragraph at lines 1--2
+\T1/futs/m/n/10 This quan-ti-ta-tive, ki-netic ex-per-i-ment has the goal of ob
+-tain-ing the Michaelis-Menten rate law for the starch hy-drol-y-sis cat-alyzed
 
-) (./background (../files/SectionIntro-Catalysis-by-enzymes
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 1.
+ []
+
+) (./materials
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 1.
+(Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 1.
+(Font)              scaled to size 6.99199pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 1.
+(Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 1.
+(Font)              scaled to size 6.99199pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 1.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 1.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ))
-(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes.title)
-(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
- []$[][][][][][]$$[] [] []$$[] [][][][]$ \T1/futs/m/n/10 + $[][][]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
- []$[][][][][][][][][]$ \T1/futs/m/n/10 + $[][][][]$$[] [] []$$[][][]$ + $[] []
-[][]$ 
- []
-
-) (../../Ch-kinetics/files/Figure-Enzymes
-<..//amylase.png, id=45, 555.57562pt x 752.8125pt>
-File: ..//amylase.png Graphic file (type png)
-<use ..//amylase.png>
-Package pdftex.def Info: ..//amylase.png  used on input line 4.
-(pdftex.def)             Requested size: 128.03401pt x 128.03386pt.
-<..//catalase.jpg, id=46, 627.34375pt x 481.8pt>
-File: ..//catalase.jpg Graphic file (type jpg)
-<use ..//catalase.jpg>
-Package pdftex.def Info: ..//catalase.jpg  used on input line 7.
-(pdftex.def)             Requested size: 142.26622pt x 128.03662pt.
-)
-Overfull \hbox (15.0pt too wide) in paragraph at lines 14--18
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-
- []
-
-
-Underfull \vbox (badness 5331) has occurred while \output is active []
-
-
+(./background (../files/SectionIntro-Measure-rates)
+(../files/Section-Measure-rates-concentration-vs-time.title)
+(../files/Section-Measure-rates-concentration-vs-time)
+(../files/Section-Measure-rates-Initial-velocities.title)
+(../files/Section-Measure-rates-Initial-velocities
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 23.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]|
@@ -4462,21 +4435,130 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-(../files/Section-Catalysis-by-enzymesSubsection-Amylase.title)
-(../files/Section-Catalysis-by-enzymesSubsection-Amylase)
+])
+(../../Ch-kinetics/files/Figure-Initial-velocities
+Missing character: There is no ] in font nullfont!
+) (./examplebox
+Package mdframed Info: mdframed works in twoside mode on input line 1.
+
+(../problems/SampleProblem16.text
+Overfull \hbox (4.67749pt too wide) in paragraph at lines 9--16
+ [][] 
+ []
+
+) (../problems/SampleProblem16.resolution
+Missing character: There is no ] in font nullfont!
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[2]) (../files/SectionIntro-Catalysis-by-enzymes)
+(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes.title)
+(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+ []$[][][][][][]$$[] [] []$$[] [][][][]$ \T1/futs/m/n/10 + $[][][]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+ []$[][][][][][][][][]$ \T1/futs/m/n/10 + $[][][][]$$[] [] []$$[][][]$ + $[] []
+[][]$ 
+ []
+
+) (../../Ch-kinetics/files/Figure-Enzymes
+<..//amylase.png, id=74, 555.57562pt x 752.8125pt>
+File: ..//amylase.png Graphic file (type png)
+<use ..//amylase.png>
+Package pdftex.def Info: ..//amylase.png  used on input line 4.
+(pdftex.def)             Requested size: 128.03401pt x 128.03386pt.
+<..//catalase.jpg, id=75, 627.34375pt x 481.8pt>
+File: ..//catalase.jpg Graphic file (type jpg)
+<use ..//catalase.jpg>
+Package pdftex.def Info: ..//catalase.jpg  used on input line 7.
+(pdftex.def)             Requested size: 142.26622pt x 128.03662pt.
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 30--34
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[3] (../files/Section-Catalysis-by-enzymesSubsection-Amylase.title)
+(../files/Section-Catalysis-by-enzymesSubsection-Amylase
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ []\T1/futs/m/n/10 starch$[] [] []$glucose+maltose 
+ []
+
+)
 (../files/Section-Catalysis-by-enzymesSubsection-Michaelis-Menten-equation.titl
 e) (../files/Section-Catalysis-by-enzymesSubsection-Michaelis-Menten-equation
-(../files/Equation-Michaelis-Menten))
+(../files/Equation-Michaelis-Menten)
+
+LaTeX Warning: Reference `Fig:Figure-Michaelis-menten-plot' on page 4 undefined
+ on input line 4.
+
+)
 (../files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk-linear-equatio
 n.title)
 (../files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk-linear-equatio
 n
-Overfull \hbox (1.89494pt too wide) in paragraph at lines 1--2
-\T1/futs/m/n/10 more im-por-tantly, er-rors are well-understood in lin-ear ex-p
-res-sions. The qual-ity of the lin-ear fit sim-ply re-lates to the cor-re-la-ti
-on
- []
+
+LaTeX Warning: Reference `Fig:Figure-Michaelis-menten-plot' on page 4 undefined
+ on input line 3.
 
 (../files/Equation-Lineweaver-Burk
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4504,133 +4586,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2 <..//amylase.png> <..//catalase.jpg>]))
-(../files/Section-Catalysis-by-enzymesSubsection-Eadie-linear-equation.title)
-(../files/Section-Catalysis-by-enzymesSubsection-Eadie-linear-equation
-(../files/Equation-Eadie))
-(../files/Section-Catalysis-by-enzymesSubsection-PH-and-temperature-effects.tit
-le) (../files/Section-Catalysis-by-enzymesSubsection-PH-and-temperature-effects
-) (../files/Figure-vulcano-plots
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
-ts.fillbetween.code.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
-fillbetween.code.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryintersections.code.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
-ctions.code.tex
-\pgf@intersect@solutions=\count591
-))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
-decorations.softclip.code.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryf
-illbetween.code.tex)))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
-ts.decorations.softclip.code.tex)))
-Underfull \hbox (badness 1005) in paragraph at lines 25--27
- [][] 
- []
-
+[4 <..//amylase.png> <..//catalase.jpg>]))
 (../files/SectionIntro-Dif-and-integralSubsection-LR-with-calculator.title)
-(../files/SectionIntro-Dif-and-integralSubsection-LR-with-calculator
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[3]) (../files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad.title)
+(../files/SectionIntro-Dif-and-integralSubsection-LR-with-calculator)
+(../files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad.title)
 (../files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad)
-Overfull \hbox (4.91504pt too wide) in paragraph at lines 1--32
+Overfull \hbox (4.91504pt too wide) in paragraph at lines 1--48
 \T1/futs/m/n/10 GraphPad.com of-fers a free on-line tool to carry out sim-ple l
 in-ear re-gres-sions. Just go to []www.graphpad.com/quickcalcs/linear1[]
  []
 
-) (./experiment
-Overfull \hbox (0.95042pt too wide) in paragraph at lines 2--3
-\T1/futs/m/n/10 ini-tial ve-loc-ity $\FML/futmi/m/it/10 v[]$ \T1/futs/m/n/10 fo
-r the amylase-catalyzed starch hy-drol-y-sis for high starch con-cen-tra-tions,
- mak-ing sure these mea-sure-ments
+(./examplebox2
+Package mdframed Info: mdframed works in twoside mode on input line 1.
+ (../problems/SampleProblem17.text
+Underfull \hbox (badness 8189) in paragraph at lines 3--17
+ [][] 
  []
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 4.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 4.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 4.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 4.
-
-Overfull \hbox (7.84178pt too wide) in paragraph at lines 13--15
-\T1/futs/m/n/10 As the rate of an enzyme-catalyzed re-ac-tion de-pends on the s
-ub-strate con-cen-tra-tion ($[\FML/futmi/m/it/10 S\T1/futs/m/n/10 ]$) us-ing th
-e Michaelis-Menten equa-tion,
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[4])
-
-LaTeX Warning: Empty bibliography on input line 24.
-
-(./procedure
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 3.
-
+) (../problems/SampleProblem17.resolution
+Missing character: There is no ] in font nullfont!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4656,7 +4631,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[5]
+[5])) (./experiment
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4683,18 +4658,32 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [6]
-Overfull \hbox (7.89323pt too wide) in paragraph at lines 64--65
-[]\T1/futs/m/n/10 ^^U Graph a Eadie-Hofstee plot plot-ting the ini-tial ve-loc-
-ity $\FML/futmi/m/it/10 v[]$ \T1/futs/m/n/10 (ver-ti-cal axis) vs. ini-tial ve-
-loc-ity and starch con-cen-tra-tion
+Overfull \hbox (7.84178pt too wide) in paragraph at lines 13--15
+\T1/futs/m/n/10 As the rate of an enzyme-catalyzed re-ac-tion de-pends on the s
+ub-strate con-cen-tra-tion ($[\FML/futmi/m/it/10 S\T1/futs/m/n/10 ]$) us-ing th
+e Michaelis-Menten equa-tion,
  []
 
+)
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--96
+LaTeX Warning: Empty bibliography on input line 25.
 
+(./procedure
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 3.
+ (./goodlabpractice
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[]\T1/futs/m/n/10 Make sure you do not con-tam-i-nate the reagent by al-ways re
+-triev-ing out of the
  []
 
-
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4721,41 +4710,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
-
- []
-
-)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4782,175 +4736,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [8]
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 91--101
 
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[9
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=398.3151pt
-* \textheight=556.47656pt
-* \oddsidemargin=1.44614pt
-* \evensidemargin=69.99379pt
-* \topmargin=-6.94011pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
- []\T1/futs/b/n/12 Pre-lab Ques-tions 
- []
-
-(./title)
-Underfull \hbox (badness 1997) in paragraph at lines 1--42
- []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
- []
-
-(./prelab) [10
-
-
-
-
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]|
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.26003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[11
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=398.3151pt
-* \textheight=556.47656pt
-* \oddsidemargin=1.44614pt
-* \evensidemargin=69.99379pt
-* \topmargin=-6.94011pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
- []\T1/futs/b/n/12 Results 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
- []\T1/futs/b/n/12 EXPERIMENT 1 
- []
-
-(./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--77
- \T1/futs/b/n/24.88 of an en-zyme  
- []
-
-(./results
-Overfull \hbox (17.56859pt too wide) in paragraph at lines 32--81
- [][] 
- []
-
-) [12] (./results2
-Overfull \hbox (17.5707pt too wide) in paragraph at lines 3--46
- [][] 
  []
 
 )
@@ -4979,7 +4766,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[13]
+[9]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[10
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -5013,55 +4828,196 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
- []\T1/futs/b/n/12 Post-lab Ques-tions 
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+ []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 1997) in paragraph at lines 1--104
+Underfull \hbox (badness 1997) in paragraph at lines 1--43
  []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
  []
 
-(./postlab (../problems/problems/Problems-Diff-and-integral.1.A
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
- []$[]$$[] [] []$$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+(./prelab
+(../problems/problems/Problems-Experimental-measurement-of-reaction-rates.1.A)
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
  [][] 
  []
 
-) (../problems/problems/Problems-Diff-and-integral.2.A
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
- []$[]$$[] [] []$$[]$ 
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+ []$\FML/futmi/m/it/10 r[] \FMS/futm/m/n/10 Å$[]  $\FML/futmi/m/it/10 r[] \FMS/
+futm/m/n/10 Å$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 4144) in paragraph at lines 29--36
  [][] 
  []
 
-) (../problems/problems/Problems-Diff-and-integral.3.A
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
  [][] 
  []
 
-) [14
+[11
 
 
 
 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+ []\T1/futs/m/n/10 Beer-Lambert Law$\FMS/futm/m/n/10 Å$[] $\FML/futmi/m/it/10 r
+[] \FMS/futm/m/n/10 Å$[] 
+ []
+
+(../problems/problems/Problems-Catalysis-by-enzymes.4.A
+Overfull \hbox (7.81506pt too wide) in paragraph at lines 1--2
+[]\T1/futs/m/n/10 Pyruvate car-boxy-lase is a key en-zyme in metabolism. The fo
+l-low-ing ki-netic data re-flects the en-zyme's ac-tiv-ity at con-trolled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+ []\T1/futs/m/n/10 L-BLaw$\FMS/futm/m/n/10 Å$[] $\FML/futmi/m/it/10 r[] \FMS/fu
+tm/m/n/10 Å$[] 
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[12]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+ []\T1/futs/b/n/12 Results 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+ []\T1/futs/b/n/12 EXPERIMENT 1 
+ []
+
+(./results
+Overfull \hbox (17.54341pt too wide) in paragraph at lines 6--55
+ [][] 
+ []
+
+) [13] (./results2
+Underfull \hbox (badness 1005) in paragraph at lines 3--46
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[14
 
 
 
 
-])
+]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -5087,21 +5043,141 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[15
+[15]
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
 
-]
-Package biblatex Info: Reference section=0 on input line 110.
-) 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[16]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 398.3151pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.3151pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+ []\T1/futs/b/n/12 Post-lab Ques-tions 
+ []
+
+(./title)
+Underfull \hbox (badness 1997) in paragraph at lines 1--139
+ []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
+ []
+
+(./postlab
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+ []\T1/futs/m/n/10 Optimum PH$\FMS/futm/m/n/10 Å$[]  
+ []
+
+[17
+
+
+
+] (../problems/problems/Problems-Catalysis-by-enzymes.1.B)
+(../problems/problems/Problems-Catalysis-by-enzymes.2.B))
+Package biblatex Info: Reference section=0 on input line 145.
+)
+
 AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.26003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[18]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1803.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1803.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1805.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1805.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1803.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1803.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1805.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1805.
 
 
 LaTeX Warning: There were undefined references.
@@ -5114,19 +5190,18 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1805.
  ) 
 Here is how much of TeX's memory you used:
- 71590 strings out of 493014
- 1587425 string characters out of 6133351
- 2376407 words of memory out of 5000000
- 73568 multiletter control sequences out of 15000+600000
- 150034 words of font info for 171 fonts, out of 8000000 for 9000
+ 71399 strings out of 493014
+ 1580103 string characters out of 6133351
+ 2381438 words of memory out of 5000000
+ 73382 multiletter control sequences out of 15000+600000
+ 119647 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,20n,115p,10412b,2581s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,19n,115p,10412b,2774s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2016/tex
@@ -5136,10 +5211,10 @@ public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/ut
 opia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/pu
 tr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (15 pages, 715715 bytes).
+Output written on main.pdf (18 pages, 745826 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
-The Michaelis-Menten equation is not a linear relationship and hence it is not suitable to fit experimental data. Linear relations are suitable for obtaining kinetic data because they simple to analyze when dealing with large datasets. Perhaps more importantly, errors are well-understood in linear expressions. The quality of the linear fit simply relates to the correlation coeficient. 
-
-Hence, the Michaelis-Menten equation can be recast into a first linear expression by simply using reciprocals. The resulting equation in which the invers of the rate $1/r$ (vertical axis) is plot againts the inverse of $1/[S]$ (horizontal axis) is called the Lineweaver-Burk equation
+Linear relations are suitable for obtaining kinetic data because they are simple to analyze when dealing with large datasets. Perhaps more importantly, errors are well-understood in linear expressions. The quality of the linear fit simply relates to the correlation coefficient $r^2$. 
+Unfortunately, the Michaelis-Menten equation is not a linear relationship and hence it is not suitable to fit experimental data. 
+Fortunately, the Michaelis-Menten equation can be recast into a first linear expression by simply using reciprocals. The resulting equation in which the inverse of the rate $1/r$ (vertical axis) is plotted against the inverse of $1/[S]$ (horizontal axis) is called the Lineweaver-Burk equation (see Figure \ref{Fig:Figure-Michaelis-menten-plot} (center)).
 \import{../\chapterlabel/files/}{Equation-Lineweaver-Burk}
-The slope of this plot is negative. From the intersept we can obtain $V_m$ and from the slope we can calculate $K_m$.
+From the intersept, we can obtain $V_m$ and from the slope, which is positive, we can calculate $K_m$.

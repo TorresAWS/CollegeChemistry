@@ -1,7 +1,14 @@
 The Michaelis-Menten equation gives the rate of an enzyme-catalyzed reaction in terms of the concentration of the enzyme.
   \import{../\chapterlabel/files/}{Equation-Michaelis-Menten}
+It involves two different constants $r_m$ which is the maximal rate and $K_m$, the Michaelis constant. Enzymes speed up the chemical rate. $K_m$ is a constant that only involves the reaction rate constant of the enzyme-catalyzed reaction mechanism. $r_m$ also depends on the reaction rate constant of the enzyme-catalyzed reaction mechanism, but it also depends on the enzyme concentration.
+However, when the enzyme concentration is too large, the enzyme-catalyzed rate reaches a plateau with a maximal rate. At this point increasing the enzyme concentration does not increase the reaction rate (see Figure \ref{Fig:Figure-Michaelis-menten-plot} (left)). This is because all active sites in the catalyst are occupied by substrate molecules and we say the enzyme reaches \emph{saturaction}. 
+An interesting point is that the Michaelis-Menten rate law for an enzyme-catalyzed reaction does not have a fixed reaction order. In fact, the order changes with substrate concentration. At low concentrations, the reaction is order one, whereas at large concentrations the reaction is order zero.
 
-It involves two different constants $V_m$ which is the maximal rate and $K_m$, the Michaelis constant. Enzimes speed up chemical rate. However, when the enzyme concentration is too large, the enzyme catalyzed rate reaches a plateau with a maximal rate. At this point increasing the enzyme concentration does not increase the reaction rate. $K_m$ is a constant that involves the reaction rate constant of the enzyme-catalyzed reaction mechanism.
+
+
+
+
+
 
 
 

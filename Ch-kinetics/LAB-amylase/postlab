@@ -1,18 +1,60 @@
-%\begin{enumerate}
-%
-%
-%\item Explain the effect of adding a catalyst to the reaction rate. \vspace{1.3cm}
-%\item Using collision theory, explain how the concentration of the reactants affect the rate of the reaction. \vspace{2cm}
-%
-%
-%\end{enumerate}
-
-
 \begin{enumerate}
 
-\foreach \n in {Problems-Diff-and-integral.1.A,Problems-Diff-and-integral.2.A,Problems-Diff-and-integral.3.A}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{2cm}
+\item From your experimental data, plot initial rate $r_0$ vs. PH and obtain the optimum PH for the enzyme.
+%\begin{inparaenum}[(a)]
+%\item   Plot the absorvance vs. concentration. 
+%\item   Adjust the Beer-Lambert Law ($A=k_{\lambda}c$), indicating the $r^2$ correlation coeficient value
+%\item   Using the adjusted Beer-Lambert Law calculate the \% (w/v) concentration for a mixture with absorbance of 0.
+%\end{inparaenum}
+%\begin{center}
+%\begin{tabular}[t]{   c  c cccc }
+%\toprule
+%\multicolumn{1}{c|}{  A }	&  0.50	&	0.33	&	0.22	&	0.13 &0.00	 	  \\
+%  \midrule
+%  \multicolumn{1}{c|}{  $c$ (\% (w/v))}&0.8 &0.6&0.4 &0.2& 0.0     \\
+%\bottomrule
+%\end{tabular}
+%\end{center}
+\vspace{0cm}
+\begin{center}
+ \resizebox{7cm}{!} {\begin{tikzpicture}
+ \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+\end{tikzpicture} 
 }
+\end{center} 
+\vspace{-3em}\begin{center}
+Optimum PH$=$\rule{3cm}{0.4pt}
+\vspace{0cm}\end{center}
+
+\item The Michaelis-Menten equation can be recast into a second linear expression  $r=r_m - K_m\cdot \frac{r }{ [S] }$
+called the Eadie-Hofstee (E-H)  equation.
+In the Eadie-Hofstee equation, the rate $r$ (vertical axis) is plot againts $r/[S]$ (horizontal axis). In the graphs below plot both the Lineweaver-Burk (L-B) and Eadie-Hofstee.
+Adjust the Eadie equation rate law to your data, indicating the $r^2$ correlation coeficient, and obtain the two Michaelis-Menten constants. What are the advantages of the Eadie-Hofstee plot?
+
+
+
+
+\begin{center}
+ \resizebox{15cm}{!} {\begin{tikzpicture}
+\begin{scope}[  shift={(0,0)}]  \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+ \end{scope}
+ \begin{scope}[  shift={(15cm,0)}]  \draw[step=1mm,help lines] (0,0) grid (100mm,100mm);
+ \draw[step=10mm] (0,0) grid (100mm,100mm);
+ \end{scope}
+\end{tikzpicture}
+}
+\end{center}\vspace{2cm}
+\begin{center}\vspace{0cm}
+L-B Fitted Equation \rule{3cm}{0.4pt}\hspace{5cm}E-H Fitted Equation\rule{3cm}{0.4pt}
+\vspace{2cm}\end{center}
+
+
+ \foreach \n in {Problems-Catalysis-by-enzymes.1.B,Problems-Catalysis-by-enzymes.2.B}{
+\item \import{\pathtofiles/problems/problems/}{\n}\vspace{6cm}
+}
+
 
 
 \end{enumerate}

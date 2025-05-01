@@ -1,73 +1,70 @@
 \subsection*{Part A-1. Starch serial dilution}
  \begin{steps}
-        \newstep[] In the following you will prepare a series of starch dilutions with concentrations: 2\%, 1\%, 0.5\%, 0.25\%, and 0.125\%.
+        \newstep[] In the following you will prepare a series of starch dilutions with concentrations: 1\%, 0.8\%, 0.6\%, 0.5\%, and 0.25\%.
         \newstep[] Find five jumbo test tubes with stoppers and label them as A, B, C, D, and E.
-        \newstep[] Pipet 5ml of distilled water into test tubes B, C, D, and E.
+        \newstep[] Using a 10mL Mohr's pipette, pipet 10ml of distilled water into test tubes B, C, D, and E.
 
-       \newstep[] Obtain about 25 mL of 2\% starch in a small beaker. Make sure you do not contaminate the bottle of reagent by always retrieving out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a 10mL Mohr's pipette with the enzyme solution.
+       \newstep[] Obtain about 25 mL of 2\% starch in a small beaker. Clean and rinse a 10mL Mohr's pipette with the enzyme solution.
        
+         \import{\chapterlabel/}{goodlabpractice}
        
-       
-     \newstep[] Using the Mohr's pipet, pipet 5ml of starch into test tube A (test tube A is the starch 2\% solution) and 5ml into test tube B. 
-     \newstep[] Pipet 5ml of starch into test tube A and 1ml into test tube B. Close test tube B with a stopper, and mix well the content of test tube B by inverting the test tube 3 times at constant speed. Test tube B is the starch 1\% solution. 
-      \newstep[] Pipet 5ml of test tube B into test tube C. Close test tube C with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube C is the starch 0.5\% solution. 
-      \newstep[] Pipet 5ml of test tube C into test tube D. Close test tube D with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube D is the starch 0.25\% solution. 
-      \newstep[] Pipet 5ml of test tube D into test tube E. Close test tube E with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube E is the starch 0.125\% solution. 
-      \newstep[] Add 1 drop of the \ce{I_2}-\ce{I^-} solution into each test and mix all test tubes well until the color is homogeneous. With your serial dilution done properly, you should see test tube A darker in comparison to the other test tubes with intensity decreasing from test tube A to E.
+     \newstep[] Using the Mohr's pipet, pipet 10ml of starch into test tube A (test tube A is the starch 1\% solution) and 10ml into test tube B. 
+      \newstep[] Pipet 10ml of test tube B into test tube C. Close test tube C with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube C is the starch 0.5\% solution. 
+      \newstep[] Pipet 10ml of test tube C into test tube D. Close test tube D with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube D is the starch 0.25\% solution. 
+      \newstep[] Pipet 10ml of test tube D into test tube E. Close test tube E with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube E is the starch 0.125\% solution. Now discart 10ml of test tube E.
+      
+      \newstep[] Add 10 drop of the \ce{I_2}-\ce{I^-} solution into each test and mix all test tubes well until the color is homogeneous. With your serial dilution done properly, all test tubes should have 10mL of liquid and you should see test tube A darker in comparison to the other test tubes with intensity decreasing from test tube A to E.
       
 \end{steps}
+%
+%\subsection*{Part A-2. Starch calibration curve}
+% \begin{steps}
+%
+%        \newstep[] Start the spectrophotometer. The bulb needs time to heat up to a stable temperature.
+%        \newstep[] Get a 250 mL beaker for waste and fill a 100 mL beaker with distilled water. Using the plastic dropper, fill the cuvette 3/4 full with distilled water.
+%        \newstep[] Insert the cuvette into the spectrophotometer, set the wavelength to \emph{540 nm}, and press "blank" or "zero".
+%        \newstep[] Use a new cuvette. Fill the cuvette 3/4 full with the solution from test tube A.
+%        \newstep[] Insert the cuvette into the spectrophotometer to measure the absorbance. Record the result.
+%        \newstep[] Repeat for test tubes B, C, D, and E, always using new cuvettes for each measurement. Write down the results in the results section.
+%
+%        \newstep[] Plot absorbance vs. concentration to obtain the Lambert-Beer's constant $k_{\lambda}$.
+%        \newstep[] Do not proceed unless you show the instructor your graph.
+%
+%\end{steps}
 
-\subsection*{Part A-2. Starch standard calibration}
- \begin{steps}
-
-        \newstep[] Start the spectrophotometer. The bulb needs time to heat up to a stable temperature.
-        \newstep[] Get a 250 mL beaker for waste and fill a 100 mL beaker with distilled water.
-        \newstep[] Using the plastic dropper, fill the cuvette 3/4 full with distilled water.
-        \newstep[] Insert the cuvette into the spectrophotometer, set the wavelength to \emph{540 nm}, and press "blank" or "zero".
-        \newstep[] Use a new cuvette. Fill the cuvette 3/4 full with the solution from test tube E.
-        \newstep[] Insert the cuvette into the spectrophotometer to measure the absorbance. Record the result.
-        \newstep[] Repeat for test tubes D, C, B, and A, always using new cuvettes for each measurement. Write down the results in the results section.
-
-        \newstep[] Plot absorbance vs. concentration to obtain the Lambert-Beer's constant $k$.
-        \newstep[] Do not proceed unless you show the instructor your graph.
-
-\end{steps}
-
-\subsection*{Parts B. Determination and validation of initial velocities}
+\subsection*{Parts A-2. Determination and validation of initial velocities}
  \begin{steps}
         \newstep[] In the following you will start the enzyme-catalyzed reaction to measure initial velocities.
         \newstep[] Gather test tubes A-E with their stoppers while you get ready to start the reaction.
                 \newstep[] Find three new jumbo test tubes with stoppers and label them as A1, A2, and A3. With a clean Morh's pipette, pipette 2mL of stock 2\% starch solution into test tubes A1, A2, and A3. Make sure your Morh's pipette is clean.        
-       
-          \newstep[] Obtain about 20 mL of the enzyme solution (this is the enzyme solution or the artificial saliva solution). Make sure you do not contaminate the bottle of reagent by always retrieving liquid out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a Mohr's pipette with the enzyme solution.
+                 \newstep[] Obtain about 20 mL of the enzyme solution (this is the enzyme solution or the artificial saliva solution). Make sure you do not contaminate the bottle of reagent by always retrieving liquid out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a Mohr's pipette with the enzyme solution.
                \newstep[] Using PH paper measure the PH of the enzyme solution. This PH value will be used as reference. Write down this PH in the results section.
-
-
          \newstep[] Pipette 2mL of the enzyme solution into test tube A1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
          \newstep[] Repeat the previous two steps for test tubes  A2 and A3. Once done, clean the test tubes A2 and A3 and have them ready for reuse.
-         \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. Make sure your measured initial velocities are reproducible.
+         \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. Make sure your measured initial velocities are reproducible. Do not proceed until your instructor assesses the validity of your results.
          \end{steps}
 
- \subsection*{Part C. Determination of the Michaelis-Menten constants}
+ \subsection*{Part B. Determination of the Michaelis-Menten constants}
 \begin{steps}
         \newstep[] In the following you are going to measure enzyme activity at different starch concentrations $[S]$.
         \newstep[] Again, gather test tubes A-E with their stoppers while you get ready to start the reaction.
-         \newstep[] Find four new jumbo test tubes with stoppers and label them as A1, B1, C1, and D1. With a clean Morh's pipette, pipette 2mL from test tube B into B1. Then pipette 2mL from test tube C into C1, and 2mL from test tube D into D1.
+         \newstep[] Find four new jumbo test tubes with stoppers and label them as A1, B1, C1, and D1. With a clean Morh's pipette, pipette 2mL from test tube B into B1. Then pipette 2mL from test tube C into C1, and 2mL from test tube D into D1. Do not repeate this procedure in test tube E.
+         
          \newstep[] Pipette 2mL of the enzyme solution into test tube A1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
          \newstep[] Repeat the previous two steps for test tubes  B1, C1 and D1. Once done, clean the test tubes A1, B1, C2, and D1 and have them ready for reuse.
 
          \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. 
-                  \newstep[] Graph a Michaelis-Menten plot plotting initial velocity $v_0$ (vertical axis) vs. starch concentration $[S]$ (horizontal axis).
-                  \newstep[] Graph a Lineweaver-Burk  plot plotting the inverse of initial velocity $1/v_0$ (vertical axis) vs. the inverse of starch concentration $1/[S]$ (horizontal axis).
-     \newstep[] Graph a Eadie-Hofstee  plot plotting the initial velocity $v_0$ (vertical axis) vs. initial velocity and starch concentration ratio $v_0/[S]$ (horizontal axis).
+                  \newstep[] Plot a Michaelis-Menten plot plotting initial velocity $v_0$ (vertical axis) vs. starch concentration $[S]$ (horizontal axis).
+                  \newstep[] Plot a Lineweaver-Burk  plot plotting the inverse of initial velocity $1/v_0$ (vertical axis) vs. the inverse of starch concentration $1/[S]$ (horizontal axis).
+ %    \newstep[] Graph a Eadie-Hofstee  plot plotting the initial velocity $v_0$ (vertical axis) vs. initial velocity and starch concentration ratio $v_0/[S]$ (horizontal axis).
 
- plots
+  
          \end{steps}
 
 
- \subsection*{Part D. PH effect on enzyme activity}
+ \subsection*{Part C. PH effect on enzyme activity}
 	\begin{steps}
         \newstep[] In the following you will measure enzyme activity at different PH.
      \newstep[] Find three new jumbo test tubes with stoppers and label them as A3, A4, and A5. With a clean Morh's pipette, pipette 2mL of stock 2\% starch solution into test tubes A3, A4, and A5. Make sure your Morh's pipette is clean. 
@@ -78,7 +75,7 @@
              \newstep[] Pipette 2mL of the enzyme solution into test tube A3 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
          \newstep[] Repeat the previous two steps for test tube A4 and A5.
-         \newstep[] Graph a volcano plot plotting initial velocity $v_0$ (vertical axis) vs. PH (horizontal axis).
+         \newstep[] Plot a volcano plot plotting initial velocity $v_0$ (vertical axis) vs. PH (horizontal axis).
          \end{steps}
 
 
@@ -87,35 +84,19 @@
       
    
 \section*{Calculations}
-\mycircled{0} This is lab temperature. You will use this value for Part B as well.\vspace{0.5cm}\\
-\mycircled{1} This is the volume of iodine added in each experiment.\vspace{0.5cm}\\
-\mycircled{2} This is the volume of thiosulfate added in each experiment.\vspace{0.5cm}\\
-\mycircled{3} This is the volume of peroxydisulfate added in each experiment.\vspace{0.5cm}\\
-\mycircled{4} This is the total volume $v_{total}$ of the reacting mixture.\vspace{0.5cm}\\
-\mycircled{5} This is the peroxydisulfate concentration in the mixture:\vspace{0.5cm}\\
-    \[[\ce{S2O8^{-2}}]= \frac{v_{\ce{S2O8^{-2}}}\cdot c_{\ce{S2O8^{-2}}}}{v_{total}}=\frac{\;\;\mycircled{3}\;\; \cdot 0.2}{\;\;\mycircled{4}\;\;} \]
-\mycircled{6} This is the iodine concentration in the mixture:\vspace{0.5cm}\\
-    \[[\ce{I^{-}}]= \frac{v_{\ce{I^{-}}}\cdot c_{\ce{I^{-}}}}{v_{total}}=\frac{\;\;\mycircled{1}\;\; \cdot 0.2}{\;\;\mycircled{4}\;\;} \]
-\mycircled{7} This is the change in thiosulfate concentration during the reaction:\vspace{0.5cm}\\
-    \[\Delta [\ce{S2O3^{-2}}]= \frac{v_{\ce{S2O3^{-2}}}\cdot c_{\ce{S2O3^{-2}}}}{v_{total}}=\frac{\;\;\mycircled{2}\;\; \cdot 0.01}{\;\;\mycircled{4}\;\;} \]
-\mycircled{8} This is the average time $\Delta t$ for each experiment.\vspace{0.5cm}\\
-\mycircled{9} This is the reaction rate:\vspace{0.5cm}\\
-    \[ r=\frac{\Delta [\ce{S2O3^{-2}}]}{2\cdot\Delta t}=\frac{\;\;\mycircled{7}\;\;}{2\cdot\;\;\mycircled{8}\;\;} \]
-\mycircled{10} This is the peroxydisulfate order in the rate law:\vspace{0.5cm}\\
- \[
-a=\frac{	\ln \left( \frac{r_{Exp 1}	}{	r_{Exp 2}	}	 \right)}{ \ln \left( \frac{\left[ \ce{S2O8^{-2}}\right]_{Exp 1} }{	\left[\ce{S2O8^{-2}}\right]_{Exp 2}} \right) }	 = \frac{	\ln \left( \;\;\mycircled{9}\;_{Exp 1}\;\; \div \;\;\mycircled{9}\;_{Exp 2}\;\;	 \right)}{ \ln \left(  \;\;\mycircled{5}\;_{Exp 1}\;\; \div \;\;\mycircled{5}\;_{Exp 2}\;\; \right) }		 	 		
- \]
-\mycircled{11} This is the iodide order in the rate law:\vspace{0.5cm}\\
- \[
-b=\frac{	\ln \left( \frac{r_{Exp 1}	}{	r_{Exp 3}	}	 \right)}{ \ln \left( \frac{\left[ \ce{I^{-}}\right]_{Exp 1} }{	\left[\ce{I^{-}}\right]_{Exp 3}} \right) }	 = \frac{	\ln \left( \;\;\mycircled{9}\;_{Exp 1}\;\; \div \;\;\mycircled{9}\;_{Exp 3}\;\;	 \right)}{ \ln \left(  \;\;\mycircled{6}\;_{Exp 1}\;\; \div \;\;\mycircled{6}\;_{Exp 3}\;\; \right) }		 	 		
- \]
- \mycircled{12} This is the rate constant calculated for each experiment:\vspace{0.5cm}\\
- \[
-k=\frac{r}{\left[\ce{S2O8^{-2}}\right]\cdot \left[\ce{I^{-}}\right]}=\frac{\;\;\mycircled{9}\;\;}{\;\;\mycircled{5}\;\; \cdot \;\;\mycircled{6}\;\;}		 	 
-\]
-\mycircled{13} This is the average rate constant.\vspace{0.5cm}\\
-\mycircled{14} The data on this row should be the same as in the first row in the Results table of Part B.\vspace{0.5cm}\\
-\mycircled{15} This is the activation energy. You need to use the two different reaction constants at different temperatures. R is 3.184 J/K$\cdot$mol:\vspace{0.5cm}\\
- \[
-E_a=\frac{T_1\cdot T_2}{T_2 - T_1}\cdot R \cdot \ln \left( \frac{k_2}{k_1}  	 \right) 
-\]
+%\mycircled{1} This is the substrate (starch) concentration.\vspace{0.5cm}\\
+%\mycircled{2} This is the measure absorbance of the different starch samples.\vspace{0.5cm}\\
+%\mycircled{3} Enter \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} and plot \:\mycircled{1}\: in the X and  \:\mycircled{2}\: in the Y. Press \emph{"Calculate now"}\vspace{0.5cm}\\
+%\mycircled{1} In Graphpad, $r^2$ is listed as \emph{"R Square"} \vspace{0.5cm}\\
+\mycircled{1} This is the measure absorbance of the enzyme-catalyzed samples.\vspace{0.5cm}\\
+\mycircled{2} This is the measured time during the enzyme-catalyzed reaction.\vspace{0.5cm}\\
+\mycircled{3} Enter \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} and plot \mycircled{5} in the X and  \:\mycircled{5}\: in the Y. Press \emph{Calculate now}\vspace{0.5cm}\\
+\mycircled{4} In Graphpad, $r^2$ is listed as \emph{"R Square"} \vspace{0.5cm}\\
+\mycircled{5} This is the average between all  \:\mycircled{7} \:  \vspace{0.5cm}\\
+\mycircled{6} This is the measured PH of the samples  \vspace{0.5cm}\\
+%\mycircled{9} Enter \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} and plot \mycircled{10} in the X and  \:\mycircled{5} \: in the Y. Press \emph{Calculate now}\vspace{0.5cm}\\
+%\mycircled{} This is the measured PH of the samples in Part D  \vspace{0.5cm}\\
+\mycircled{7} This is the inverse of  \:\mycircled{0} \:  \vspace{0.5cm}\\
+\mycircled{8} This is the inverse of  \:\mycircled{3} \:  \vspace{0.5cm}\\
+
+ 
