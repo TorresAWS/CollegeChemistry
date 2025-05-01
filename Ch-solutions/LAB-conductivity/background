@@ -37,9 +37,9 @@
 \foreach \n in {Subsection-Conductivity-of-electrolyte-solutions-Measuring-conductivity}{
 \def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
 }
-\newcommand\chapterpathtoimages{../../}
+%\newcommand\chapterpathtoimages{../../}
 \renewcommand\chapterlabel{Ch-solutions} 
-\import{../../Ch-solutions/files/}{Figure-conductometer}
+\import{\chapterpathtoimages\chapterlabel/files/}{Figure-conductometer}
  
  
 

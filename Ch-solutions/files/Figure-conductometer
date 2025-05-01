@@ -1,6 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-conductometer}
 
 \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=7cm, height=7cm]{\chapterpathtoimages\chapterlabel/conductometer.jpg}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} chemskills.com} ;

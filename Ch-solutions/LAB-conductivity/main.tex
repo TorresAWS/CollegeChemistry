@@ -1910,8 +1910,20 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{LAB-conductivity}\newcommand\texbooklabel{Ch-solutions}\newcommand\pathtofiles{..}
- \section{Conductivity of electrolyte solutions}\subfile{./\labname.tex }
+%   \newcommand\chapterpathtoimages{../../} \newcommand\labname{LAB-conductivity}\newcommand\texbooklabel{Ch-solutions}\newcommand\pathtofiles{..}
+% \section{Conductivity of electrolyte solutions}\subfile{./\labname.tex }
+\newcommand\chapterpathtoimages{}
+\newcommand\labname{}
+\newcommand\texbooklabel{}
+\newcommand\pathtofiles{}
+
+
+\renewcommand\chapterpathtoimages{../../}\renewcommand\labname{../\texbooklabel/LAB-conductivity}\renewcommand\texbooklabel{Ch-solutions}\renewcommand\pathtofiles{../../\texbooklabel/}\section{Conductivity of electrolyte solutions}
+\subfile{../../\texbooklabel/LAB-conductivity/LAB-conductivity.tex }
+
+
+ 
+
 
 
 
