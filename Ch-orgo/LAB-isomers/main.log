@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2025 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAY 2025 14:50
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -4298,8 +4299,6 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: ... file 'main1-blx.bbl' not found.
-No file main1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1783.
 Package biblatex Info: Reference segment=0 on input line 1783.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4312,55 +4311,52 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 1783.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1785
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1791
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1785--1785
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1791--1791
 |[][] []| 
  []
 
-(./LAB-isomers.tex
+(../../Ch-orgo/LAB-isomers//LAB-isomers.tex
 \blx@maxsegment@1=\count589
 \blx@sectionciteorder@1=\count590
-Package biblatex Info: Reference section=1 on input line 4.
+Package biblatex Info: Reference section=1 on input line 3.
 \openout10 = `main1-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:1' on input line 4.
+Package biblatex Info: Setting label 'refsection:1' on input line 3.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
- []\T1/futs/b/n/12 EXPERIMENT 
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--10
+Underfull \hbox (badness 10000) in paragraph at lines 1--9
  []\T1/futs/b/n/24.88 Isomerization of maleic acid 
  []
 
 (./goal
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+
+LaTeX Warning: Citation 'A8' undefined on input line 3.
 
 
-LaTeX Warning: Citation 'A8' undefined on input line 2.
+LaTeX Warning: Citation 'A30' undefined on input line 3.
 
 
-LaTeX Warning: Citation 'A30' undefined on input line 2.
+LaTeX Warning: Citation 'A31' undefined on input line 3.
 
 
-LaTeX Warning: Citation 'A31' undefined on input line 2.
+LaTeX Warning: Citation 'A42' undefined on input line 3.
 
 
-LaTeX Warning: Citation 'A42' undefined on input line 2.
-
-
-LaTeX Warning: Citation 'A43' undefined on input line 2.
+LaTeX Warning: Citation 'A43' undefined on input line 3.
 
 ) (./materials
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
@@ -4406,9 +4402,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 13.
 )
 
-LaTeX Warning: Empty bibliography on input line 25.
+LaTeX Warning: Empty bibliography on input line 24.
 
 (./procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4595,17 +4593,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--43
+Underfull \hbox (badness 10000) in paragraph at lines 1--42
  []\T1/futs/b/n/24.88 Isomerization of maleic acid 
  []
 
@@ -4675,22 +4673,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []\T1/futs/b/n/12 Results 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
- []\T1/futs/b/n/12 EXPERIMENT 
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--51
+Underfull \hbox (badness 10000) in paragraph at lines 1--50
  []\T1/futs/b/n/24.88 Isomerization of maleic acid 
  []
 
@@ -4796,17 +4794,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--58
+Underfull \hbox (badness 10000) in paragraph at lines 1--57
  []\T1/futs/b/n/24.88 Isomerization of maleic acid 
  []
 
@@ -4844,40 +4842,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [10
 
 ]
-Package biblatex Info: Reference section=0 on input line 64.
-) 
+Package biblatex Info: Reference section=0 on input line 63.
+)
+
+Package lastpage Warning: Rerun to get the references right on input line 1798.
+
+
+
 AED: lastpage setting LastPage
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1786.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1786.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1798.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1798.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1786.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1786.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1798.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1798.
 
 
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main1-blx
+(biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1786.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1798.
  ) 
 Here is how much of TeX's memory you used:
- 70444 strings out of 493014
- 1549644 string characters out of 6133351
- 2321099 words of memory out of 5000000
- 72563 multiletter control sequences out of 15000+600000
+ 70443 strings out of 493014
+ 1549761 string characters out of 6133351
+ 2321097 words of memory out of 5000000
+ 72561 multiletter control sequences out of 15000+600000
  105785 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,17n,101p,10412b,1462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,17n,101p,10412b,1479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2016/tex
@@ -4888,7 +4895,7 @@ onts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
 utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (10 pages, 140054 bytes).
+Output written on main.pdf (10 pages, 139599 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams

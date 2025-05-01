@@ -1781,8 +1781,15 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{LAB-isomers}\newcommand\texbooklabel{Ch-orgo}\newcommand\pathtofiles{..}
- \section{Isomerization of maleic acid}\subfile{./\labname.tex }
+\newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Isomerization of maleic acid}
+\renewcommand\chapterlabel{Ch-orgo}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{isomers}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+
+  
+
+
 \end{document}
 
 
