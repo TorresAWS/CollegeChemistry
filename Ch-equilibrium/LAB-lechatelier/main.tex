@@ -1781,8 +1781,14 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{LAB-lechatelier}\newcommand\texbooklabel{Ch-equilibrium}\newcommand\pathtofiles{..}
- \section{Le Ch\^atelier's Principle}\subfile{./\labname.tex }
+ 
+\newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Le Ch\^atelier's Principle}
+\renewcommand\chapterlabel{Ch-equilibrium}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{lechatelier}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+ 
+ 
 \end{document}
 
 

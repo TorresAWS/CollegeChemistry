@@ -3,6 +3,6 @@
 %\item In a chemical reaction with two reactants, one is added in large excess. How will the concentration of the other reactant become?  \vspace{2cm}
 \item How does pH affect the solubility of \ce{Ca(OH)2}? \vspace{2cm}
 \foreach \n in {Problems-Le-chatelier.1.A,Problems-Le-chatelier.3.A}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{3cm}
+\item \import{\chapterpathtocontent\ChapterNameLabel/problems/problems/}{\n}\vspace{3cm}
 }
 \end{enumerate}
