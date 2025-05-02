@@ -1777,12 +1777,21 @@ cherry/.pic={
             \node[shape=circle,fill=blue!30!black,,draw,inner sep=2pt] (char) {#1};}}
 \renewcommand{\tikzmark}[3][]{\tikz[overlay,remember picture,baseline] \node [anchor=base,#1](#2) {#3};}
 
+ \newcounter{graphcounter}
 
 
 
 \begin{document} 
-    \newcommand\labname{LAB-nuclear}\newcommand\texbooklabel{Ch-nuclear}\newcommand\pathtofiles{..}
- \section{Radioactivity: half-life of K-40}\subfile{./\labname.tex }
+   
+ 
+  \newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Radioactivity: half-life of K-40}
+\renewcommand\chapterlabel{Ch-nuclear}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{nuclear}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+
+
+
 \end{document}
 
 

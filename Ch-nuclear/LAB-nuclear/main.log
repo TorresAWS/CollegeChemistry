@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 OCT 2024 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2025 13:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3862,6 +3862,7 @@ Package zref Info: New property: posy on input line 77.
 \c@figurenewcounter=\count571
 \c@tablenewcounter=\count572
 \c@formulanewcounter=\count573
+\c@graphcounter=\count574
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -3872,8 +3873,8 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count574
-\@quotereset=\count575
+\@quotelevel=\count575
+\@quotereset=\count576
 .................................................
 . chemmacros info: "default-formula-method"
 . 
@@ -3892,9 +3893,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen449
 \l__chemformula_tmpb_dim=\dimen450
 \l__chemformula_tmpc_dim=\dimen451
-\l__chemformula_tmpa_int=\count576
-\l__chemformula_tmpb_int=\count577
-\l__chemformula_tmpc_int=\count578
+\l__chemformula_tmpa_int=\count577
+\l__chemformula_tmpb_int=\count578
+\l__chemformula_tmpc_int=\count579
 \l__chemformula_tmpa_box=\box170
 \l__chemformula_tmpb_box=\box171
 \l__chemformula_arrow_length_dim=\dimen452
@@ -3927,8 +3928,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen479
 \l__chemformula_stoich_space_skip=\skip318
 \l__chemformula_math_space_skip=\skip319
-\l__chemformula_count_tokens_int=\count579
-\g__chemformula_lewis_int=\count580
+\l__chemformula_count_tokens_int=\count580
+\g__chemformula_lewis_int=\count581
 \l__chemformula_arrow_arg_i_box=\box172
 \l__chemformula_arrow_arg_ii_box=\box173
 \l__chemformula_superscript_box=\box174
@@ -4104,52 +4105,52 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1783.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1784.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1784.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 178
-3.
+4.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1783.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1784.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 178
-3.
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1783.
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1784.
 LaTeX Font Info:    Try loading font information for FMX+futm on input line 178
-3.
+4.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1783.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1783
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1784.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1784
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 1783
+LaTeX Font Info:    ... okay on input line 1784.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 1784
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/t1futs.fd
@@ -4157,16 +4158,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count581
+\scratchcounter=\count582
 \scratchdimen=\dimen480
 \scratchbox=\box176
-\nofMPsegments=\count582
-\nofMParguments=\count583
+\nofMPsegments=\count583
+\nofMParguments=\count584
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count584
+\MPscratchCnt=\count585
 \MPscratchDim=\dimen481
-\MPnumerator=\count585
-\makeMPintoPDFobject=\count586
+\MPnumerator=\count586
+\makeMPintoPDFobject=\count587
 \everyMPtoPDFconversion=\toks69
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -4192,24 +4193,24 @@ ABD: EveryShipout initializing macros
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 1783.
+Package hyperref Info: Link coloring OFF on input line 1784.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count587
+\c@section@level=\count588
 )
-LaTeX Info: Redefining \ref on input line 1783.
-LaTeX Info: Redefining \pageref on input line 1783.
-LaTeX Info: Redefining \nameref on input line 1783.
+LaTeX Info: Redefining \ref on input line 1784.
+LaTeX Info: Redefining \pageref on input line 1784.
+LaTeX Info: Redefining \nameref on input line 1784.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 1783.
+(lastpage)             ! on input line 1784.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 1783.
+Package layouts Warning: Layout scale set to 0.5 on input line 1784.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -4245,18 +4246,18 @@ Package layouts Warning: Layout scale set to 0.5 on input line 1783.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count588
+\c@lstlisting=\count589
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 1783.
-Package gensymb Info: Math companion symbols declared on input line 1783.
-LaTeX Info: Redefining \degree on input line 1783.
-LaTeX Info: Redefining \celsius on input line 1783.
+(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 1784.
+Package gensymb Info: Math companion symbols declared on input line 1784.
+LaTeX Info: Redefining \degree on input line 1784.
+LaTeX Info: Redefining \celsius on input line 1784.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 1783.
-LaTeX Info: Redefining \ohm on input line 1783.
-Package gensymb Info: Using \textohm for \ohm on input line 1783.
-Package gensymb Info: Using \textmu for \micro on input line 1783.
+erthousand on input line 1784.
+LaTeX Info: Redefining \ohm on input line 1784.
+Package gensymb Info: Using \textohm for \ohm on input line 1784.
+Package gensymb Info: Using \textmu for \micro on input line 1784.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: floatflt package is loaded.
 Package caption Info: longtable package is loaded.
@@ -4268,11 +4269,11 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fourier' on line 1783.
+. Activating mapping `fourier' on line 1784.
 .................................................
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 1783.
+LaTeX Info: Redefining \selectfont on input line 1784.
  (./main.sta)
 \openout7 = `main.sta'.
 
@@ -4281,7 +4282,7 @@ LaTeX Info: Redefining \selectfont on input line 1783.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 1783.
+ on input line 1784.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -4301,10 +4302,10 @@ Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
 Package biblatex Info: ... file 'main1-blx.bbl' not found.
 No file main1-blx.bbl.
-Package biblatex Info: Reference section=0 on input line 1783.
-Package biblatex Info: Reference segment=0 on input line 1783.
+Package biblatex Info: Reference section=0 on input line 1784.
+Package biblatex Info: Reference segment=0 on input line 1784.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 1783.
+(scrlayer)             \begin{document} on input line 1784.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -4312,20 +4313,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 1783.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1785
+or `english'. on input line 1784.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1789
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1785--1785
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1789--1789
 |[][] []| 
  []
 
-(./LAB-nuclear.tex
-\blx@maxsegment@1=\count589
-\blx@sectionciteorder@1=\count590
+(../../Ch-nuclear/LAB-nuclear//LAB-nuclear.tex
+\blx@maxsegment@1=\count590
+\blx@sectionciteorder@1=\count591
 Package biblatex Info: Reference section=1 on input line 3.
 \openout10 = `main1-blx.aux'.
 
@@ -4334,17 +4335,24 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
- []\T1/futs/b/n/12 EXPERIMENT 
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
 (./title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--10
- []\T1/futs/b/n/24.88 Radioactivity: half-life of K-40 
+ []\T1/futs/b/n/24.88 Half-life of K-40 
  []
 
-(./goal) (./materials
+(./goal
+
+LaTeX Warning: Citation 'A8' undefined on input line 2.
+
+
+LaTeX Warning: Citation 'A41' undefined on input line 2.
+
+) (./materials
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
 
 
@@ -4383,19 +4391,32 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ))
-(./background (../files/SectionIntro-Radiation-particles-and-radioisotopes)
-(../files/SubSection-Radiation-particles-and-radioisotopes-alpha-radiation.titl
-e) (../files/SubSection-Radiation-particles-and-radioisotopes-alpha-radiation)
-(../files/SubSection-Radiation-particles-and-radioisotopes-beta-radiation.title
-) (../files/SubSection-Radiation-particles-and-radioisotopes-beta-radiation)
-(../files/SubSection-Radiation-particles-and-radioisotopes-gamma-radiation.titl
-e) (../files/SubSection-Radiation-particles-and-radioisotopes-gamma-radiation)
-(../files/SubSection-Radiation-particles-and-radioisotopes-protons.title)
-(../files/SubSection-Radiation-particles-and-radioisotopes-protons)
-(../files/SubSection-Radiation-particles-and-radioisotopes-positrons.title)
-(../files/SubSection-Radiation-particles-and-radioisotopes-positrons)
-(../files/SubSection-Radiation-particles-and-radioisotopes-neutrons.title)
-(../files/SubSection-Radiation-particles-and-radioisotopes-neutrons)
+(./background
+(../../Ch-nuclear/files/SectionIntro-Radiation-particles-and-radioisotopes)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-alpha-
+radiation.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-alpha-
+radiation)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-beta-r
+adiation.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-beta-r
+adiation)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-gamma-
+radiation.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-gamma-
+radiation)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-proton
+s.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-proton
+s)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-positr
+ons.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-positr
+ons)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-neutro
+ns.title)
+(../../Ch-nuclear/files/SubSection-Radiation-particles-and-radioisotopes-neutro
+ns)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4426,7 +4447,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(../files/Table-Nuclear-symbols
+(../../Ch-nuclear/files/Table-Nuclear-symbols
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -4445,15 +4466,16 @@ Overfull \hbox (355.46523pt too wide) in paragraph at lines 7--11
 [][] 
  []
 
-(../files/SectionIntro-Nuclear-reactions)
-(../files/SubSection-Nuclear-reactions-alpha-decay.title)
-(../files/SubSection-Nuclear-reactions-alpha-decay)
-(../files/SubSection-Nuclear-reactions-beta-decay.title)
-(../files/SubSection-Nuclear-reactions-beta-decay)
-(../files/SubSection-Nuclear-reactions-positron-emission.title)
-(../files/SubSection-Nuclear-reactions-positron-emission)
-(../files/SubSection-Nuclear-reactions-gamma-decay.title)
-(../files/SubSection-Nuclear-reactions-gamma-decay) (../files/Table-Halflife
+(../../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay.title)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay.title)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-positron-emission.title)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-positron-emission)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-gamma-decay.title)
+(../../Ch-nuclear/files/SubSection-Nuclear-reactions-gamma-decay)
+(../../Ch-nuclear/files/Table-Halflife
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
@@ -4463,7 +4485,7 @@ Overfull \hbox (286.69969pt too wide) in paragraph at lines 2--20
   [] 
  []
 
-(../files/SectionIntro-Half-life-of-a-radioisotope
+(../../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4490,10 +4512,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [2])
-(../files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live.title
-) (../files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live)
-(../files/SubSection-Half-life-of-a-radioisotope-Quantifying-half-live.title)
-(../files/SubSection-Half-life-of-a-radioisotope-Quantifying-half-live
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-h
+alf-live.title)
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-h
+alf-live)
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-Quantifying-half
+-live.title)
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-Quantifying-half
+-live
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4520,12 +4546,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [3])
-(../files/SubSection-Half-life-of-a-radioisotope-after-several-half-lives.title
-) (../files/SubSection-Half-life-of-a-radioisotope-after-several-half-lives)
-(./examplebox1
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-after-several-ha
+lf-lives.title)
+(../../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-after-several-ha
+lf-lives) (./examplebox1
 Package mdframed Info: mdframed works in twoside mode on input line 1.
- (../problems/SampleProblem4.text)
-(../problems/SampleProblem4.resolution)))
+ (../../Ch-nuclear/problems/SampleProblem4.text)
+(../../Ch-nuclear/problems/SampleProblem4.resolution)))
 
 LaTeX Warning: Empty bibliography on input line 26.
 
@@ -4689,17 +4716,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
 (./title)
 Underfull \hbox (badness 10000) in paragraph at lines 1--43
- []\T1/futs/b/n/24.88 Radioactivity: half-life of K-40 
+ []\T1/futs/b/n/24.88 Half-life of K-40 
  []
 
 (./prelab
-(../problems/problems/Problems-Half-life-of-a-radioisotope-The-concept-of-half-
-live.2.B) (../problems/problems/Problems-Nuclear-reactions.1.A)
-(../problems/problems/Problems-Half-life-of-a-radioisotope-Quantifying-half-liv
-e.2.B) (../problems/problems/Problems-Unknown-isotopes-in-nuclear-reactions.1.A
-)
-(../problems/problems/Problems-Radiation-particles-and-radioisotopes-Radioisoto
-pe-notation.1.B) [7
+(../../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-The-co
+ncept-of-half-live.2.B)
+(../../Ch-nuclear/problems/problems/Problems-Nuclear-reactions.1.A)
+(../../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-Quanti
+fying-half-live.2.B)
+(../../Ch-nuclear/problems/problems/Problems-Unknown-isotopes-in-nuclear-reacti
+ons.1.A) [7
 
 
 
@@ -4776,10 +4803,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
- []\T1/futs/b/n/12 EXPERIMENT 
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
-(./title) (./results
+(./title)
+Underfull \hbox (badness 7308) in paragraph at lines 1--82
+ []\T1/futs/b/n/24.88 Half-life of K-40  
+ []
+
+(./results
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
  [][]    \T1/futs/m/n/10 m ($[]$) in g=[]  []    $\FML/futmi/m/it/10 N$ \T1/fut
 s/m/n/10 ($[][][][]$) in atoms=[] 
@@ -4898,24 +4930,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[11
-
-
-
-
-
-]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 115.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
- []\T1/futs/m/n/9 Figure 2: |[]$[]$ cps (Y axis) vs. N (X axis)| 
- []
-
-
+[11]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4942,6 +4957,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [12
+
+
+
+
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -4977,32 +4996,34 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--121
- []\T1/futs/b/n/24.88 Radioactivity: half-life of K-40 
+Underfull \hbox (badness 10000) in paragraph at lines 1--137
+ []\T1/futs/b/n/24.88 Half-life of K-40 
  []
 
-(./postlab (../problems/problems/Problems-Nuclear-reactions.1.B)
-(../problems/problems/Problems-Radiation-particles-and-radioisotopes.1.B)
-(../problems/problems/Problems-Half-life-of-a-radioisotope-The-concept-of-half-
-live.2.A)
+(./postlab (../../Ch-nuclear/problems/problems/Problems-Nuclear-reactions.1.B)
+(../../Ch-nuclear/problems/problems/Problems-Radiation-particles-and-radioisoto
+pes.1.B)
+(../../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-The-co
+ncept-of-half-live.2.A)
 Overfull \hbox (14.08165pt too wide) in paragraph at lines 1--5
 []\T1/futs/m/n/10 Research the half-life of the fol-low-ing iso-topes: [](a) Po
 tassium-40 [](b) Cesium-137 [](c) Cobalt-57 [](d) Bismuth-212 [](e) Gallium-
  []
 
 
-(../problems/problems/Problems-Half-life-of-a-radioisotope-Quantifying-half-liv
-e.3.B)) [13
+(../../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-Quanti
+fying-half-live.3.B)) [13
+
 
 
 
@@ -5035,34 +5056,46 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [14
 
 ]
-Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference section=0 on input line 142.
 ) 
 AED: lastpage setting LastPage
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1786.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1786.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1795.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1795.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1786.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1786.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1795.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1795.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main1-blx
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1786.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1795.
  ) 
 Here is how much of TeX's memory you used:
- 71077 strings out of 493014
- 1572527 string characters out of 6133351
- 2358100 words of memory out of 5000000
- 73027 multiletter control sequences out of 15000+600000
- 231678 words of font info for 234 fonts, out of 8000000 for 9000
+ 71076 strings out of 493014
+ 1573508 string characters out of 6133351
+ 2359120 words of memory out of 5000000
+ 73035 multiletter control sequences out of 15000+600000
+ 230719 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,28n,101p,10412b,1661s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -5079,10 +5112,10 @@ tr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (14 pages, 206404 bytes).
+Output written on main.pdf (14 pages, 206558 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
  320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
