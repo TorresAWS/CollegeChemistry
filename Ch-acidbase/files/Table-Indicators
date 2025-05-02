@@ -1,13 +1,8 @@
-%\begin{center}
+%\begin{fullwidth}
+%\begin{minipage}[b]{1.2\linewidth}
+%\resizebox{0.8\textwidth}{!}{
+%\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Indicators}
 
-
-\begin{fullwidth}
-
-
-%\hspace{6cm}
- \begin{minipage}[b]{1.2\linewidth}
-\resizebox{0.8\textwidth}{!}{
-\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Indicators}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lllll}
 \rowcolor{black!45}
@@ -51,11 +46,8 @@ Nitramine&	11.0-13.0&	 			colorless	&\begin{tikzpicture}\fill [left color=		whit
 Trinitrobenzoic acid&	12.0-13.4&	 	colorless	&\begin{tikzpicture}\fill [left color=		white,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	orange-red\\
   \bottomrule
 \end{tabular}
-}
-\end{minipage} 
 
 
-
-% \end{center}
-
-\end{fullwidth}
+%}
+%\end{minipage} 
+%\end{fullwidth}

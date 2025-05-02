@@ -29,13 +29,25 @@ In this experiment, the pH for different solutions will be measured using three 
 
 
 \subsection*{Indicators}
- \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{SectionIntro-Indicators}
-  \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-How-do-they-function}
-  \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-Selecting-and-indicator}
-   \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Subsection-Indicators-Litmus}
-  % \import{../\chapterlabel/problems/}{SampleProblem21}
-  \vspace{0cm} \hspace{5cm} \import{../Ch-acidbase/LAB-relativestrenthofacids/Ch-acidbase-files/}{Table-Indicators} 
 
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Indicators}
+\foreach \n in {Subsection-Indicators-How-do-they-function,Subsection-Indicators-Selecting-and-indicator,Subsection-Indicators-Litmus}{
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+}
+  
+  \vspace{0cm} \hspace{0cm} 
+   \begin{minipage}[b]{28cm}
+ \begin{adjustbox}{center, width=0.65\columnwidth+20pt}
+ \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Indicators}
+ \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Indicators}
+ \end{adjustbox}\end{minipage}
+
+
+
+
+
+
+  
 
 
 
@@ -44,7 +56,7 @@ In this experiment, the pH for different solutions will be measured using three 
 
 \subsection*{The experiment}
 
-The experiment today is divided into the following parts:
+This experiment is divided into the following parts:
  \begin{inparaenum}[i)]
 
 
@@ -60,7 +72,7 @@ The experiment today is divided into the following parts:
 
 A pH indicator is a chemical substance that, when added to a solution, changes its color depending on the solution's pH. The pH at which color changes is called the \textbf{equivalence point}. Some indicators have one equivalence point while others have more than one equivalence points. By using an indicator it will be possible to determine a pH range only. Combining different indicators the range can be narrowed down.
 
-  \import{\chapterlabel/}{examplebox}
+\import{\chapterlabel/}{examplebox}
 
 
 
