@@ -1781,8 +1781,14 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{LAB-entropy}\newcommand\texbooklabel{Ch-thermo}\newcommand\pathtofiles{..}
- \section{Entropy and spontaneity}\subfile{./\labname.tex }
+ 
+  \newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Entropy and spontaneity}
+\renewcommand\chapterlabel{Ch-thermo}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{entropy}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+ 
+ 
 \end{document}
 
 
