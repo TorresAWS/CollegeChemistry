@@ -1781,8 +1781,16 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{LAB-hardwater}\newcommand\texbooklabel{Ch-solutions}\newcommand\pathtofiles{..}
- \section{Softening of hard water}\subfile{./\labname.tex }
+
+
+\newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Softening of hard water}
+\renewcommand\chapterlabel{Ch-solutions}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{hardwater}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+
+
+
 \end{document}
 
 

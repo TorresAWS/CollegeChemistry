@@ -7,11 +7,11 @@
 
 
 \foreach \n in {Problems-Colligative-properties.17.A,Problems-Colligative-properties.18.A}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{2cm}
+\item \import{\chapterpathtocontent\ChapterNameLabel/problems/problems/}{\n}\vspace{2cm}
     }
 
 
-\item Use the date reported below to graph a cooling plot and use the graphical method to calculate the freezing point of the substance. Is this a pure substance or a solution?
+\item Use the data reported below to graph a cooling plot and use the graphical method to calculate the freezing point of the substance. Is this a pure substance or a solution?
   \begin{center}\setlength{\tabcolsep}{10pt}\begin{tabular}
  { |p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|}
  \hline
