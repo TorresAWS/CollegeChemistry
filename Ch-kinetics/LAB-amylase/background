@@ -7,35 +7,33 @@
  
 
 
-\import{\pathtofiles/files/}{SectionIntro-Measure-rates}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Measure-rates}
 \foreach \n in {Section-Measure-rates-concentration-vs-time,Section-Measure-rates-Initial-velocities}{
-\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
 
 \begin{center} \begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
-\hspace{5cm}\import{../../Ch-kinetics/files/}{Figure-Initial-velocities}
+\hspace{5cm}\import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Initial-velocities}
 }\end{minipage}\end{center}
  
 
  \import{\labname/}{examplebox}
 
-\import{\pathtofiles/files/}{SectionIntro-Catalysis-by-enzymes}
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Catalysis-by-enzymes}
 \foreach \n in {Section-Catalysis-by-enzymesSubsection-What-are-enzymes}{
-\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
  
    
   
-\renewcommand\chapterlabel{}
-\begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
-\import{../../Ch-kinetics/files/}{Figure-Enzymes}
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{Figure-Enzymes}
 }\end{minipage}
-\renewcommand\chapterlabel{../Ch-kinetics/LAB-clockreaction}
-
+ 
 
   
  \foreach \n in {Section-Catalysis-by-enzymesSubsection-Amylase,Section-Catalysis-by-enzymesSubsection-Michaelis-Menten-equation,Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk-linear-equation}{
-\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
  
 %\begin{center}\begin{minipage}[b]{15cm}\resizebox{0.8\textwidth}{!}{
@@ -43,7 +41,7 @@
 %}\end{minipage} \end{center}
 
  \foreach \n in {SectionIntro-Dif-and-integralSubsection-LR-with-calculator,SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad}{
-\def\sectionnamefull{\n}\subsection*{\import{\pathtofiles/files/}{\sectionnamefull.title}} \import{\pathtofiles/files/}{\sectionnamefull}
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
 
  \import{\labname/}{examplebox2}

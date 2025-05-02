@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 APR 2025 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2025 12:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4314,34 +4314,34 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 1802.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1804
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1807
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1804--1804
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1807--1807
 |[][] []| 
  []
 
-(./amylase.tex
+(../../Ch-kinetics/LAB-amylase//LAB-amylase.tex
 \blx@maxsegment@1=\count590
 \blx@sectionciteorder@1=\count591
-Package biblatex Info: Reference section=1 on input line 3.
+Package biblatex Info: Reference section=1 on input line 2.
 \openout10 = `main1-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:1' on input line 3.
+Package biblatex Info: Setting label 'refsection:1' on input line 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 (./title)
-Underfull \hbox (badness 1997) in paragraph at lines 1--9
+Underfull \hbox (badness 1997) in paragraph at lines 1--8
  []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
  []
 
@@ -4401,11 +4401,11 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 ))
-(./background (../files/SectionIntro-Measure-rates)
-(../files/Section-Measure-rates-concentration-vs-time.title)
-(../files/Section-Measure-rates-concentration-vs-time)
-(../files/Section-Measure-rates-Initial-velocities.title)
-(../files/Section-Measure-rates-Initial-velocities
+(./background (../../Ch-kinetics/files/SectionIntro-Measure-rates)
+(../../Ch-kinetics/files/Section-Measure-rates-concentration-vs-time.title)
+(../../Ch-kinetics/files/Section-Measure-rates-concentration-vs-time)
+(../../Ch-kinetics/files/Section-Measure-rates-Initial-velocities.title)
+(../../Ch-kinetics/files/Section-Measure-rates-Initial-velocities
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4441,12 +4441,12 @@ Missing character: There is no ] in font nullfont!
 ) (./examplebox
 Package mdframed Info: mdframed works in twoside mode on input line 1.
 
-(../problems/SampleProblem16.text
+(../../Ch-kinetics/problems/SampleProblem16.text
 Overfull \hbox (4.67749pt too wide) in paragraph at lines 9--16
  [][] 
  []
 
-) (../problems/SampleProblem16.resolution
+) (../../Ch-kinetics/problems/SampleProblem16.resolution
 Missing character: There is no ] in font nullfont!
 )
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4474,9 +4474,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[2]) (../files/SectionIntro-Catalysis-by-enzymes)
-(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes.title)
-(../files/Section-Catalysis-by-enzymesSubsection-What-are-enzymes
+[2]) (../../Ch-kinetics/files/SectionIntro-Catalysis-by-enzymes)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-What-are-enzyme
+s.title)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-What-are-enzyme
+s
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []$[][][][][][]$$[] [] []$$[] [][][][]$ \T1/futs/m/n/10 + $[][][]$ 
  []
@@ -4488,24 +4490,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []
 
 ) (../../Ch-kinetics/files/Figure-Enzymes
-<..//amylase.png, id=74, 555.57562pt x 752.8125pt>
-File: ..//amylase.png Graphic file (type png)
-<use ..//amylase.png>
-Package pdftex.def Info: ..//amylase.png  used on input line 4.
+<../../Ch-kinetics/amylase.png, id=74, 555.57562pt x 752.8125pt>
+File: ../../Ch-kinetics/amylase.png Graphic file (type png)
+<use ../../Ch-kinetics/amylase.png>
+Package pdftex.def Info: ../../Ch-kinetics/amylase.png  used on input line 4.
 (pdftex.def)             Requested size: 128.03401pt x 128.03386pt.
-<..//catalase.jpg, id=75, 627.34375pt x 481.8pt>
-File: ..//catalase.jpg Graphic file (type jpg)
-<use ..//catalase.jpg>
-Package pdftex.def Info: ..//catalase.jpg  used on input line 7.
+<../../Ch-kinetics/catalase.jpg, id=75, 627.34375pt x 481.8pt>
+File: ../../Ch-kinetics/catalase.jpg Graphic file (type jpg)
+<use ../../Ch-kinetics/catalase.jpg>
+Package pdftex.def Info: ../../Ch-kinetics/catalase.jpg  used on input line 7.
 (pdftex.def)             Requested size: 142.26622pt x 128.03662pt.
 )
-Overfull \hbox (15.0pt too wide) in paragraph at lines 30--34
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-
+Overfull \hbox (15.0pt too wide) in paragraph at lines 29--32
+[][] 
  []
 
 
@@ -4537,30 +4534,32 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3] (../files/Section-Catalysis-by-enzymesSubsection-Amylase.title)
-(../files/Section-Catalysis-by-enzymesSubsection-Amylase
+[3]
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Amylase.title)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Amylase
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []\T1/futs/m/n/10 starch$[] [] []$glucose+maltose 
  []
 
 )
-(../files/Section-Catalysis-by-enzymesSubsection-Michaelis-Menten-equation.titl
-e) (../files/Section-Catalysis-by-enzymesSubsection-Michaelis-Menten-equation
-(../files/Equation-Michaelis-Menten)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Michaelis-Mente
+n-equation.title)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Michaelis-Mente
+n-equation (../../Ch-kinetics/files/Equation-Michaelis-Menten)
 
 LaTeX Warning: Reference `Fig:Figure-Michaelis-menten-plot' on page 4 undefined
  on input line 4.
 
 )
-(../files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk-linear-equatio
-n.title)
-(../files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk-linear-equatio
-n
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk
+-linear-equation.title)
+(../../Ch-kinetics/files/Section-Catalysis-by-enzymesSubsection-Lineweaver-Burk
+-linear-equation
 
 LaTeX Warning: Reference `Fig:Figure-Michaelis-menten-plot' on page 4 undefined
  on input line 3.
 
-(../files/Equation-Lineweaver-Burk
+(../../Ch-kinetics/files/Equation-Lineweaver-Burk
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4586,24 +4585,28 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[4 <..//amylase.png> <..//catalase.jpg>]))
-(../files/SectionIntro-Dif-and-integralSubsection-LR-with-calculator.title)
-(../files/SectionIntro-Dif-and-integralSubsection-LR-with-calculator)
-(../files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad.title)
-(../files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphPad)
-Overfull \hbox (4.91504pt too wide) in paragraph at lines 1--48
+[4 <../../Ch-kinetics/amylase.png> <../../Ch-kinetics/catalase.jpg>]))
+(../../Ch-kinetics/files/SectionIntro-Dif-and-integralSubsection-LR-with-calcul
+ator.title)
+(../../Ch-kinetics/files/SectionIntro-Dif-and-integralSubsection-LR-with-calcul
+ator)
+(../../Ch-kinetics/files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphP
+ad.title)
+(../../Ch-kinetics/files/SectionIntro-Dif-and-integralSubsection-LR-with-GraphP
+ad)
+Overfull \hbox (4.91504pt too wide) in paragraph at lines 1--46
 \T1/futs/m/n/10 GraphPad.com of-fers a free on-line tool to carry out sim-ple l
 in-ear re-gres-sions. Just go to []www.graphpad.com/quickcalcs/linear1[]
  []
 
 (./examplebox2
 Package mdframed Info: mdframed works in twoside mode on input line 1.
- (../problems/SampleProblem17.text
+ (../../Ch-kinetics/problems/SampleProblem17.text
 Underfull \hbox (badness 8189) in paragraph at lines 3--17
  [][] 
  []
 
-) (../problems/SampleProblem17.resolution
+) (../../Ch-kinetics/problems/SampleProblem17.resolution
 Missing character: There is no ] in font nullfont!
 )
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4666,7 +4669,7 @@ e Michaelis-Menten equa-tion,
 
 )
 
-LaTeX Warning: Empty bibliography on input line 25.
+LaTeX Warning: Empty bibliography on input line 24.
 
 (./procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4828,22 +4831,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 1997) in paragraph at lines 1--43
+Underfull \hbox (badness 1997) in paragraph at lines 1--42
  []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
  []
 
 (./prelab
-(../problems/problems/Problems-Experimental-measurement-of-reaction-rates.1.A)
+(../../Ch-kinetics/problems/problems/Problems-Experimental-measurement-of-react
+ion-rates.1.A)
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
  [][] 
  []
@@ -4875,7 +4879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 [] \FMS/futm/m/n/10 Å$[] 
  []
 
-(../problems/problems/Problems-Catalysis-by-enzymes.4.A
+(../../Ch-kinetics/problems/problems/Problems-Catalysis-by-enzymes.4.A
 Overfull \hbox (7.81506pt too wide) in paragraph at lines 1--2
 []\T1/futs/m/n/10 Pyruvate car-boxy-lase is a key en-zyme in metabolism. The fo
 l-low-ing ki-netic data re-flects the en-zyme's ac-tiv-ity at con-trolled
@@ -4957,17 +4961,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
  []\T1/futs/b/n/12 Results 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
@@ -5013,7 +5017,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-Overfull \hbox (27.8849pt too wide) in paragraph at lines 115--116
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
@@ -5044,7 +5048,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [15]
-Overfull \hbox (27.8849pt too wide) in paragraph at lines 131--132
+Overfull \hbox (27.8849pt too wide) in paragraph at lines 130--131
  [][] 
  []
 
@@ -5108,17 +5112,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 1997) in paragraph at lines 1--139
+Underfull \hbox (badness 1997) in paragraph at lines 1--138
  []\T1/futs/b/n/24.88 Kinetic char-ac-ter-i-za-tion of an en-zyme 
  []
 
@@ -5136,9 +5140,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 
 
-] (../problems/problems/Problems-Catalysis-by-enzymes.1.B)
-(../problems/problems/Problems-Catalysis-by-enzymes.2.B))
-Package biblatex Info: Reference section=0 on input line 145.
+] (../../Ch-kinetics/problems/problems/Problems-Catalysis-by-enzymes.1.B)
+(../../Ch-kinetics/problems/problems/Problems-Catalysis-by-enzymes.2.B))
+Package biblatex Info: Reference section=0 on input line 144.
 )
 
 AED: lastpage setting LastPage
@@ -5173,11 +5177,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1805.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1805.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1812.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1812.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1805.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1805.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1812.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1812.
 
 
 LaTeX Warning: There were undefined references.
@@ -5190,16 +5194,16 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1805.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1812.
  ) 
 Here is how much of TeX's memory you used:
- 71399 strings out of 493014
- 1580103 string characters out of 6133351
- 2381438 words of memory out of 5000000
- 73382 multiletter control sequences out of 15000+600000
+ 71402 strings out of 493014
+ 1581342 string characters out of 6133351
+ 2381435 words of memory out of 5000000
+ 73384 multiletter control sequences out of 15000+600000
  119647 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,19n,115p,10412b,2774s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,19n,115p,10412b,2770s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2016/tex
@@ -5211,7 +5215,7 @@ public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/ut
 opia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/pu
 tr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (18 pages, 745826 bytes).
+Output written on main.pdf (18 pages, 745822 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  240 compressed objects within 3 object streams

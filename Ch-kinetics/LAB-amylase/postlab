@@ -52,7 +52,7 @@ L-B Fitted Equation \rule{3cm}{0.4pt}\hspace{5cm}E-H Fitted Equation\rule{3cm}{0
 
 
  \foreach \n in {Problems-Catalysis-by-enzymes.1.B,Problems-Catalysis-by-enzymes.2.B}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{6cm}
+\item \import{\chapterpathtocontent\ChapterNameLabel/problems/problems/}{\n}\vspace{6cm}
 }
 
 

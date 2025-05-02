@@ -3,7 +3,7 @@
 
 
  \foreach \n in {Problems-Experimental-measurement-of-reaction-rates.1.A}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{4cm}
+\item \import{\chapterpathtocontent\ChapterNameLabel/problems/problems/}{\n}\vspace{4cm}
 }
 
 \vspace{-4cm}
@@ -48,7 +48,7 @@ Beer-Lambert Law$=$\rule{3cm}{0.4pt}\hspace{3em}$r^2=$\rule{3cm}{0.4pt}
  
 
  \foreach \n in {Problems-Catalysis-by-enzymes.4.A}{
-\item \import{\pathtofiles/problems/problems/}{\n}\vspace{4cm}
+\item \import{\chapterpathtocontent\ChapterNameLabel/problems/problems/}{\n}\vspace{4cm}
 }
 \vspace{-4cm}
 \begin{center}

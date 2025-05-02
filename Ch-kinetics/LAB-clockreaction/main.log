@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2025 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2025 11:48
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -4298,8 +4299,6 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: ... file 'main1-blx.bbl' not found.
-No file main1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1782.
 Package biblatex Info: Reference segment=0 on input line 1782.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
@@ -4312,40 +4311,50 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 1782.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1784
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1786
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1784--1784
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1786--1786
 |[][] []| 
  []
 
-(./clockreaction.tex
+(../../Ch-kinetics/LAB-clockreaction//LAB-clockreaction.tex
 \blx@maxsegment@1=\count589
 \blx@sectionciteorder@1=\count590
-Package biblatex Info: Reference section=1 on input line 3.
+Package biblatex Info: Reference section=1 on input line 2.
 \openout10 = `main1-blx.aux'.
 
-Package biblatex Info: Setting label 'refsection:1' on input line 3.
+Package biblatex Info: Setting label 'refsection:1' on input line 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
- []\T1/futs/b/n/12 EXPERIMENT 
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--9
+Underfull \hbox (badness 10000) in paragraph at lines 1--8
  []\T1/futs/b/n/24.88 The io-dine clock 
  []
 
 (./goal
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
+
+LaTeX Warning: Citation 'A8' undefined on input line 3.
+
+
+LaTeX Warning: Citation 'A36' undefined on input line 3.
+
+
+LaTeX Warning: Citation 'A38' undefined on input line 3.
+
+
+LaTeX Warning: Citation 'A40' undefined on input line 3.
+
 ) (./background
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 4.
 
@@ -4390,6 +4399,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  
  []
 
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
@@ -4428,10 +4439,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-
-LaTeX Warning: Citation 'A8' on page 2 undefined on input line 53.
-
-
 Overfull \hbox (3.06635pt too wide) in paragraph at lines 63--64
 \T1/futs/m/n/10 where only one ini-tial con-cen-tra-tion of $[][][][][][][][]$ 
 or $[][][]$ changes and com-pare the rates us-ing a frac-tion. The ini-tial con
@@ -4562,6 +4569,10 @@ Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 48.
 
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 3 undefined on input line 48
+.
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4587,9 +4598,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3]))
+[3]
 
-LaTeX Warning: Empty bibliography on input line 22.
+LaTeX Warning: Reference `mdf@pagelabel-2' on page 4 undefined on input line 48
+.
+
+))
+
+LaTeX Warning: Empty bibliography on input line 21.
 
 (./procedure
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -4905,17 +4921,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
  []\T1/futs/b/n/12 Pre-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--40
+Underfull \hbox (badness 10000) in paragraph at lines 1--39
  []\T1/futs/b/n/24.88 The io-dine clock 
  []
 
@@ -4985,22 +5001,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
  []\T1/futs/b/n/12 Results 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
- []\T1/futs/b/n/12 EXPERIMENT 
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+ []\T1/futs/b/n/12 EXPERIMENT 1 
  []
 
 (./title)
-Underfull \hbox (badness 6675) in paragraph at lines 1--74
+Underfull \hbox (badness 6675) in paragraph at lines 1--73
  []\T1/futs/b/n/24.88 The io-dine clock  
  []
 
@@ -5171,21 +5187,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
  []\T1/futs/b/n/12 Post-lab Ques-tions 
  []
 
 (./title)
-Underfull \hbox (badness 10000) in paragraph at lines 1--100
+Underfull \hbox (badness 10000) in paragraph at lines 1--99
  []\T1/futs/b/n/24.88 The io-dine clock 
  []
 
-(./postlab (../problems/problems/Problems-Diff-and-integral.1.A
+(./postlab (../../Ch-kinetics/problems/problems/Problems-Diff-and-integral.1.A
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []$[]$$[] [] []$$[]$ 
  []
@@ -5195,7 +5211,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
  [][] 
  []
 
-) (../problems/problems/Problems-Diff-and-integral.2.A
+) (../../Ch-kinetics/problems/problems/Problems-Diff-and-integral.2.A
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []$[]$$[] [] []$$[]$ 
  []
@@ -5205,7 +5221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
  [][] 
  []
 
-) (../problems/problems/Problems-Diff-and-integral.3.A
+) (../../Ch-kinetics/problems/problems/Problems-Diff-and-integral.3.A
 Underfull \hbox (badness 10000) in paragraph at lines 2--11
  [][] 
  []
@@ -5243,18 +5259,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [14
 
 ]
-Package biblatex Info: Reference section=0 on input line 106.
-) 
+Package biblatex Info: Reference section=0 on input line 105.
+)
+
+Package lastpage Warning: Rerun to get the references right on input line 1791.
+
+
+
 AED: lastpage setting LastPage
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1785.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1785.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1791.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1791.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1785.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1785.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1791.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1791.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5264,23 +5285,27 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main1-blx
+(biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1785.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1791.
  ) 
 Here is how much of TeX's memory you used:
- 70810 strings out of 493014
- 1559005 string characters out of 6133351
- 2360099 words of memory out of 5000000
- 72894 multiletter control sequences out of 15000+600000
+ 70694 strings out of 493014
+ 1557201 string characters out of 6133351
+ 2360097 words of memory out of 5000000
+ 72777 multiletter control sequences out of 15000+600000
  153500 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,22n,103p,10412b,1462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,22n,103p,10412b,1478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} </Users/dan
 iel/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/ifsym/ifclk10.600pk>{
 /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
@@ -5295,7 +5320,7 @@ e1/adobe/utopia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adob
 e/utopia/putr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr
 .pfb>
-Output written on main.pdf (14 pages, 175057 bytes).
+Output written on main.pdf (14 pages, 174939 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  201 compressed objects within 3 object streams

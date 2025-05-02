@@ -1800,8 +1800,15 @@ cherry/.pic={
 
 
 \begin{document} 
-    \newcommand\labname{amylase}\newcommand\texbooklabel{Ch-kinetics}\newcommand\pathtofiles{..}
- \section{Characterization of the amylase enzyme}\subfile{./\labname.tex }
+ 
+ 
+ 	\newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{Characterization of the amylase enzyme}
+\renewcommand\chapterlabel{Ch-kinetics}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{amylase}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+
+
 \end{document}
 
 
