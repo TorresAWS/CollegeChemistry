@@ -1778,11 +1778,18 @@ cherry/.pic={
 \renewcommand{\tikzmark}[3][]{\tikz[overlay,remember picture,baseline] \node [anchor=base,#1](#2) {#3};}
 
 
+ \newcounter{graphcounter}
 
 
 \begin{document} 
-    \newcommand\labname{LAB-solubilityproduct}\newcommand\texbooklabel{Ch-solubility}\newcommand\pathtofiles{..}
- \section{A Solubility Product Constant: Solubility product of an iodate salt}\subfile{./\labname.tex }
+ 
+  \newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
+
+\section{A Solubility Product Constant: Solubility product of an iodate salt}
+\renewcommand\chapterlabel{Ch-solubility}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{solubilityproduct}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+
+
+ 
 \end{document}
 
 
