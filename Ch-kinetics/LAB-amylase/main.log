@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2025 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAY 2025 13:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4400,8 +4400,12 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-))
-(./background (../../Ch-kinetics/files/SectionIntro-Measure-rates)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\T1/futs/m/n/10 iodide-iodine so-lu-tion in drop-per (com-po-si-tion
+ []
+
+) (./background (../../Ch-kinetics/files/SectionIntro-Measure-rates)
 (../../Ch-kinetics/files/Section-Measure-rates-concentration-vs-time.title)
 (../../Ch-kinetics/files/Section-Measure-rates-concentration-vs-time)
 (../../Ch-kinetics/files/Section-Measure-rates-Initial-velocities.title)
@@ -4713,6 +4717,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [7]
+Overfull \hbox (17.5324pt too wide) in paragraph at lines 25--26
+[]\T1/futs/m/n/10 ^^U Add no more than 1drop of the $[][][]$-$[][][]$ so-lu-tio
+n into each test and mix all test tubes well un-til the color is ho-mo-ge-neous
+.
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4739,11 +4750,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 91--101
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 91.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 91.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 91.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 91.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 91.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 91.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 91.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 91.
 
- []
-
-)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4770,6 +4793,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 111--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
+
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
  [] 
  []
@@ -4795,9 +4828,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[10
-
-]
+[10]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -4859,17 +4890,11 @@ futm/m/n/10 $[]
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 29--36
- [][] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 39--44
  [][] 
  []
 
 [11
-
 
 
 
@@ -4982,6 +5007,11 @@ Overfull \hbox (17.54341pt too wide) in paragraph at lines 6--55
 
 ) [13] (./results2
 Underfull \hbox (badness 1005) in paragraph at lines 3--46
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 53--94
  [][] 
  []
 
@@ -5197,11 +5227,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1812.
  ) 
 Here is how much of TeX's memory you used:
- 71402 strings out of 493014
- 1581342 string characters out of 6133351
+ 71453 strings out of 493014
+ 1581967 string characters out of 6133351
  2381435 words of memory out of 5000000
- 73384 multiletter control sequences out of 15000+600000
- 119647 words of font info for 125 fonts, out of 8000000 for 9000
+ 73422 multiletter control sequences out of 15000+600000
+ 150091 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,19n,115p,10412b,2770s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -5215,10 +5245,10 @@ public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/ut
 opia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/pu
 tr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (18 pages, 745822 bytes).
+Output written on main.pdf (18 pages, 748652 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
