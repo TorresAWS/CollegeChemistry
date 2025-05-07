@@ -1,15 +1,15 @@
 \subsection*{Part A-0. Preparation of a diluted starch solution}
  \begin{steps}
         \newstep[] Obtain about 50 mL of 0.2\% stock starch in a small beaker. Clean and rinse a 20mL volumetric pipette with the starch solution.
-         \newstep[] Using a 20mL volumentric piper, pipet 20ml of the stock starch (0.2\%) into a 100mL flask.
-        \newstep[]  Fill up the flask with distilled water until the 100mL mark. This is be the 0.04\% starch solution (the starch solution) you will use through out the experiment.
+         \newstep[] Pipet 20ml of the stock starch (0.2\%) into a 100mL flask using a 20mL volumentric pipet.
+        \newstep[]  Fill up the flask with distilled water until the 100mL mark. This is be the 0.04\% starch solution.
 \end{steps}      
         
 
 
 \subsection*{Part A-1. Starch serial dilution}
  \begin{steps}
-        \newstep[] In the following you will prepare a series of starch dilutions with concentrations: 0.04\%, 0.02\%, 0.0125\%, $5.0\times 10^-5$\%, and $2.5\times 10^-5$\%.
+        \newstep[] In the following you will prepare a series of starch dilutions with concentrations: 0.02\%, 0.01\%, $5.0\times 10^{-3}$\%, and $2.5\times 10^{-3}$\%.
         \newstep[] Find five jumbo test tubes with stoppers and label them as A, B, C, D, and E.
         \newstep[] Using a 10mL Mohr's pipette, pipet 10ml of distilled water into test tubes B, C, D, and E.
 
@@ -18,13 +18,25 @@
          \import{\chapterlabel/}{goodlabpractice}
        
      \newstep[] Using the Mohr's pipet, pipet 10ml of starch into test tube A (test tube A is the starch 0.04\% solution) and 10ml into test tube B (test tube A is the starch 0.02\% solution) . 
-      \newstep[] Pipet 10ml of test tube B into test tube C. Close test tube C with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube C is the starch 0.0125\% solution. 
+      \newstep[] Pipet 10ml of test tube B into test tube C. Close test tube C with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube C is the starch 0.01\% solution. 
       \newstep[] Pipet 10ml of test tube C into test tube D. Close test tube D with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube D is the starch $5.0\times 10^{-3}$\% solution. 
       \newstep[] Pipet 10ml of test tube D into test tube E. Close test tube E with a stopper, and mix well its content by inverting the tube 3 times at constant speed. Test tube E is the starch $2.5\times 10^{-3}$\% solution. Now pipet 10mL out of tube E and discart.
       
       \newstep[] Add no more than 1drop of the \ce{I_2}-\ce{I^-} solution into each test and mix all test tubes well until the color is homogeneous. With your serial dilution done properly, all test tubes should have 10mL of liquid and you should see test tube A darker in comparison to the other test tubes with intensity decreasing from test tube A to E.
       
 \end{steps}
+
+\subsection*{Part A-2. Start the spectrophotometer}
+ \begin{steps}
+
+        \newstep[] Start the spectrophotometer. The bulb needs time to heat up to a stable temperature.
+        \newstep[] Get a 250 mL beaker for waste and fill a 100 mL beaker with distilled water. Using the plastic dropper, fill the cuvette 3/4 full with distilled water.
+        \newstep[] Insert the cuvette into the spectrophotometer, set the wavelength to \emph{540 nm}, and press "blank" or "zero".
+        \newstep[] Now you are ready to measure absorbances.
+
+\end{steps}
+
+
 %
 %\subsection*{Part A-2. Starch calibration curve}
 % \begin{steps}
@@ -41,32 +53,37 @@
 %
 %\end{steps}
 
-\subsection*{Parts A-2. Determination and validation of initial velocities}
+\subsection*{Parts A-2. Calculating initial velocities}
  \begin{steps}
         \newstep[] In the following you will start the enzyme-catalyzed reaction to measure initial velocities.
-                \newstep[] Find three new jumbo test tubes with stoppers and label them as A1, A2, and A3. With a clean Morh's pipette, pipette 5mL of the 0.04\% starch solution into test tubes A1, A2, and A3. Make sure your Morh's pipette is clean.        
+                \newstep[] Find three new jumbo test tubes with stoppers and label them as A1, A2, and A3. With a clean Morh's pipette, pipette 5mL of the 0.04\% starch solution into each of the test tubes A1, A2, and A3. Make sure your Morh's pipette is clean.        
                  \newstep[] Obtain about 20 mL of the enzyme solution (this is the enzyme solution or the artificial saliva solution). Make sure you do not contaminate the bottle of reagent by always retrieving liquid out of the bottle into a beaker and never directly pipetting from the bottle. Clean and rinse a Mohr's pipette with the enzyme solution.
-               \newstep[] Using PH paper measure the PH of the enzyme solution. This PH value will be used as reference. Write down this PH in the results section.
-         \newstep[] Pipette 5mL of the enzyme solution into test tube A1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
-         \newstep[] Before inserting the cuvette into the spectrophotometer use parafilm, take small square and pull tight over top of cuvette hold with thumb and invert three times to mix.
+                        \newstep[] Pipette 3mL from test tube A1 into a clean cuvette. Using the plastic dropper, add one drop of the enzyme solution. Very quicly, take small parafilm square and pull tight over top of cuvette hold with thumb and invert once to mix. Start measuring the absorbances and start counting time. 
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+                        
          \newstep[] Repeat the previous two steps for test tubes  A2 and A3. Once done, clean the test tubes A2 and A3 and have them ready for reuse.
+         
+                        \newstep[] Using PH paper, measure the PH of any of the enzyme+starch mixtures. This PH value will be used as reference. Write down this PH in the results section.
          \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. Make sure your measured initial velocities are reproducible. Do not proceed until your instructor assesses the validity of your results.
+
          \end{steps}
 
- \subsection*{Part B. Determination of the Michaelis-Menten constants}
+ \subsection*{Part B. Determination of the rate law}
 \begin{steps}
         \newstep[] In the following you are going to measure enzyme activity at different starch concentrations $[S]$.
         \newstep[] Gather test tubes A-E with their stoppers while you get ready to start the reaction.
-         \newstep[] Find four new jumbo test tubes with stoppers and label them as A1, B1, C1, and D1. With a clean Morh's pipette, pipette 5mL from test tube B into B1. Then pipette 5mL from test tube C into C1, and 2mL from test tube D into D1. Do not repeate this procedure in test tube E.
-         
-         \newstep[] Pipette 5mL of the enzyme solution into test tube A1 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
-                  \newstep[] Before inserting the cuvette into the spectrophotometer use parafilm, take small square and pull tight over top of cuvette hold with thumb and invert three times to mix.
-
+            \newstep[] Pipette 3mL from test tube A into a clean cuvette. Using the plastic dropper, add one drop of the enzyme solution. Very quicly, take small parafilm square and pull tight over top of cuvette hold with thumb and invert once to mix. Start measuring the absorbances and start counting time. 
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
-         \newstep[] Repeat the previous two steps for test tubes  B1, C1 and D1. Once done, clean the test tubes A1, B1, C2, and D1 and have them ready for reuse.
+             
+         
+         
+         \newstep[] Repeat the previous two steps for test tubes  B, C and D. Once done, clean the test tubes  and have them ready for reuse.
 
          \newstep[] Process the data in the results section and obtain initial velocities for your three measurements. 
+    
+    
+    
+    
                   \newstep[] Plot a Michaelis-Menten plot plotting initial velocity $v_0$ (vertical axis) vs. starch concentration $[S]$ (horizontal axis).
                   \newstep[] Plot a Lineweaver-Burk  plot plotting the inverse of initial velocity $1/v_0$ (vertical axis) vs. the inverse of starch concentration $1/[S]$ (horizontal axis).
  %    \newstep[] Graph a Eadie-Hofstee  plot plotting the initial velocity $v_0$ (vertical axis) vs. initial velocity and starch concentration ratio $v_0/[S]$ (horizontal axis).
@@ -74,29 +91,35 @@
          \end{steps}
 
 
- \subsection*{Part C. PH effect on enzyme activity}
+ \subsection*{Part C. Inpact of PH on enzyme activity}
 	\begin{steps}
         \newstep[] In the following you will measure enzyme activity at different PH.
      \newstep[] Find three new jumbo test tubes with stoppers and label them as A3, and A4. With a clean Morh's pipette, pipette 5mL of the 0.04\% starch solution into test tubes A3, and A4. Make sure your Morh's pipette is clean. 
      
-    \newstep[] Add 1 drops of 5M \ce{HCl} to test tube A3. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. Make sure the PH is at least one PH unit different than the reference PH. If its not, add more acid until you achieve this difference. Write down this PH in the results section.
-        \newstep[] Add 1 drops of 5M \ce{NaOH} to test tube A4. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. Make sure the PH is at least one PH unit different than the reference PH. If its not, add more base until you achieve this difference. Write down this PH in the results section.
-             \newstep[] Pipette 5mL of the enzyme solution into test tube A3 and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
-                               \newstep[] Before inserting the cuvette into the spectrophotometer use parafilm, take small square and pull tight over top of cuvette hold with thumb and invert three times to mix.
+    \newstep[] Add 1 drops of \ce{HCl} to test tube A3. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. Make sure the PH is at least one PH unit different than the reference PH. If its not, add more acid until you achieve this difference. Write down this PH in the results section.
+        \newstep[] Add 1 drops of \ce{NaOH} to test tube A4. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. Measure its PH using PH paper and write down the value in the results section. Make sure the PH is at least one PH unit different than the reference PH. If its not, add more base until you achieve this difference. Write down this PH in the results section.
+ 
+ 
+   \newstep[] Pipette 3mL from test tube A3 into a clean cuvette. Using the plastic dropper, add one drop of the enzyme solution. Very quicly, take small parafilm square and pull tight over top of cuvette hold with thumb and invert once to mix. Start measuring the absorbances and start counting time. 
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+ 
+         
+         
+         
          \newstep[] Repeat the previous two steps for test tube A4.
          \end{steps}
 
 
- \subsection*{Part D. Effect of \ce{AgNO3} on enzyme activity}
+ \subsection*{Part D. Inpact of \ce{AgNO3} on enzyme activity}
 	\begin{steps}
         \newstep[] In the following you will measure enzyme activity in the presence of \ce{AgNO3}.
      \newstep[] Find a new jumbo test tube with a stopper and label it as A5. With a clean Morh's pipette, pipette 5mL of the 0.04\% starch solution into test the tube. Make sure your Morh's pipette is clean. 
      
     \newstep[] Add 1 drops of the \ce{AgNO3} solution to the test tube. Close the test tube with a stopper, and mix well its content by inverting the test tube 3 times at constant speed. 
-             \newstep[] Pipette 5mL of the enzyme solution into the test tube and start counting time. Mix well the content by inverting the tube 3 times at constant speed. Very quickly, using the plastic dropper, fill a cuvette 3/4 full with the mixture and start measuring the absorbance.
-                               \newstep[] Before inserting the cuvette into the spectrophotometer use parafilm, take small square and pull tight over top of cuvette hold with thumb and invert three times to mix.
+           
+             \newstep[] Pipette 3mL from test tube A5 into a clean cuvette. Using the plastic dropper, add one drop of the enzyme solution. Very quicly, take small parafilm square and pull tight over top of cuvette hold with thumb and invert once to mix. Start measuring the absorbances and start counting time. 
          \newstep[] Measure absorbance every 15 seconds for two minutes. Write down the results in the results section.
+           
          \end{steps}
 
 
