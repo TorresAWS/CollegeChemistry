@@ -4995,7 +4995,6 @@ coordinate(-front-bottom-right) -- cycle;
 
     % Draw copper electrode
     \draw[fill=batteryLeftElectrode, shift={(.7em,0)},text width=1cm,align=center] (0.5,2) rectangle (1.0,-1) node[shift={(-.7em,3.7em)}] {#2} node[shift={(-.8em, 7em)}]  {#6}; % SIGN
-    \draw[shift={(-0em,-1em)}] (1,-1.75) node {#1}; %SOLUTION
 
     % Draw salt bridge
     \draw[line join=round, line width = 10pt] (1.75,-1.75) -- (1.75,0.5) --
@@ -5037,7 +5036,6 @@ coordinate(-front-bottom-right) -- cycle;
      
  
  
-    \draw[shift={(-0em,-1em)}] (4.5,-1.75) node {#4}; %SOLUTION
         % Draw front of vessel 2
     % part 1
     \draw (3.5,0) .. controls +(-90:0.5) and +(-90:0.5) .. (5.5,0);
@@ -5057,6 +5055,8 @@ coordinate(-front-bottom-right) -- cycle;
       \ifnum  2 = #5 { ; }  \fi
     
 
+    \draw[shift={(-0em,-1em)}] (1,-1.75) node {#1}; %SOLUTION
+    \draw[shift={(-0em,-1em)}] (4.5,-1.75) node {#4}; %SOLUTION
 
 
   
