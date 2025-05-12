@@ -46,7 +46,7 @@ Using the thermodynamic data presented below for the synthesis of dichloromethan
 \midrule
  $G^{\circ}(KJ/mol)$&	-50.72	&	& 0    & &-66.32     & & -95.299       \\
 \midrule
- $P_i$(atm)(Conditions A)&	$1\times 10^{-5}$	&	& $1\times 10^{-5}$    & &$1\times 10^{5}$     & & $1\times 10^{5}$      \\
+ $P_i$(atm)(Conditions A)&	$1\times 10^{-10}$	&	& $1\times 10^{-5}$    & &$1\times 10^{10}$     & & $1\times 10^{5}$      \\
 \midrule
  $P_i$(atm)(Conditions B)&	$1\times 10^{2}$	&	& $1\times 10^{2}$    & &$1\times 10^{-4}$     & & $1\times 10^{-4}$      \\
 \bottomrule
@@ -56,8 +56,8 @@ Using the thermodynamic data presented below for the synthesis of dichloromethan
 \begin{solution}
 \begin{inparaenum}[(a)]
   \item      -206KJ/mol
-  \item      -174KJ/mol
-  \item      -217KJ/mol
+  \item      +22KJ/mol
+  \item      -309KJ/mol
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
 %REVIEWED=TRUE 
