@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 MAY 2025 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 MAY 2025 15:59
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **syllabus121.tex
 (./syllabus121.tex
@@ -85,14 +84,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-runsystem(uname -s > "syllabus121.w18")...executed.
 
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
 
-(./syllabus121.w18)
-runsystem(rm -- "syllabus121.w18")...executed.
-
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \hw@charcount=\count83
@@ -6445,9 +6441,9 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6017.
  ) 
 Here is how much of TeX's memory you used:
- 83139 strings out of 493014
- 1858944 string characters out of 6133351
- 2630094 words of memory out of 5000000
+ 83136 strings out of 493014
+ 1858908 string characters out of 6133351
+ 2630044 words of memory out of 5000000
  84910 multiletter control sequences out of 15000+600000
  54706 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
