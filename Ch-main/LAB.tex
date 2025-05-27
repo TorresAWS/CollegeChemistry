@@ -1968,6 +1968,36 @@ cherry/.pic={
         fonttitle=\bfseries\color{blue!70!black},
                         }
 
+%%%%%LAB CHECKLIST
+ \newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+\usepackage{wrapfig}
+\usepackage{tcolorbox}
+\usepackage{cleveref}
+
+\newtcolorbox[auto counter,number within=section ]{pabox}[2][]{%
+title=Box 1 $\mid$ Timeline,halign title=flush center, breakable, 
+enhanced,
+colback=blue!5!white,
+colframe=blue!75!black,
+colbacktitle=cyan!50!green,parbox = false,
+coltitle=blue!25!black,
+fonttitle=\bfseries,
+subtitle style={boxrule=0.4pt,colback=cyan!50!red!25!white},
+title=Chemistry Laboratory Checklist: What to have before coming to the lab}
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
 \newcommand\ChapterNameLabel{ }
 \renewcommand\labname{ }
 \newcommand\chapterpath{ }
@@ -2033,7 +2063,7 @@ cherry/.pic={
 %
 %%%%%CHEM 202
 %
-
+\newpage\section{Laboratory Checklist }\subfile{checklist/checklist.tex}
 
 \section{Isomerization of maleic acid}
 \renewcommand\chapterlabel{Ch-orgo}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{isomers}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
