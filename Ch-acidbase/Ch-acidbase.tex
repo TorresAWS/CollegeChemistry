@@ -1,5 +1,6 @@
 \documentclass[main.tex]{subfiles}
 \newcommand\chapterlabel{Ch-acidbase}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
+
  
 \begin{document} 
 \setdoublesep{0.35700 em}  % 'Bond Spacing'
@@ -92,6 +93,8 @@
 \item[\docfilehook{ Strength of acids and bases}{}] \import{../\chapterlabel/files/}{SubSection-Strength-of-acids-and-bases-Strength-of-acids-and-bases-}
 \item[\docfilehook{ Basicity constant}{}] \import{../\chapterlabel/files/}{SubSection-Strength-of-acids-and-bases-Strength-of-acids-and-bases-Basicity-constant}
 \item[\docfilehook{ $K_a$ and $K_b$}{}] \import{../\chapterlabel/files/}{SubSection-Strength-of-acids-and-bases-Ka-and-Kb}
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{\newpage}
 \import{../\chapterlabel/files/}{Table-Acidity-constants}
 \import{../\chapterlabel/problems/}{SampleProblem6}
 \item[\docfilehook{$pK_a$ and $pK_b$}{}] \import{../\chapterlabel/files/}{SubSection-Strength-of-acids-and-bases-PK-of-an-acid-or-base}
@@ -191,7 +194,13 @@
 \import{../\chapterlabel/problems/}{SampleProblem18}
 \item[\docfilehook{ PH at the midpoint}{}] \import{../\chapterlabel/files/}{SubSection-Titrations-Midpoint}
 \import{../\chapterlabel/problems/}{SampleProblem19}
+
+\renewcommand\chapterpathtoimages{../../}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \import{../\chapterlabel/files/}{Figure-Titration}
+}\end{minipage}
+
+
 \end{description}
 %%%%%%%%%%%%%%%%%%%%%%NOT FOR 121
 }
