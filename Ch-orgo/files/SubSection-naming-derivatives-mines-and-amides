@@ -2,9 +2,9 @@ Primary, secondary, and tertiary amines are named slightly differently.
 Primary amines are named using the ending \emph{amine} and for example \ce{CH3NH2} is called methylamine whereas \ce{CH3CH2NH2} is called ethylamine. One needs to indicate the number of carbon that contains the amino group. Secondary or tertiary amines with symmetrical substituents use the prefixes \emph{di} or \emph{tri}. For example
 \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
 \node at (0,0) {  \chemfig{ -[:45]-[:-45]-[:45]((-[:90]NH_2)(-[:-45]))  }   };
-\node at (0,-1.5)  {\textcolor{blue}{2-pentanamide  }};
+\node at (0,-1.5)  {\textcolor{blue}{2-pentanamine  }};
 \node at (4,0) {  \chemfig{ -[:45]-[:-45]((-[:-90]NH_2)(-[:45]-[:-45]))  }   };
-\node at (4,-1.5) {\textcolor{blue}{3-pentanamide  }};
+\node at (4,-1.5) {\textcolor{blue}{3-pentanamine  }};
 \node at (8,0) {  \chemfig{ -[:45]N((-[:90])(-[:-45])) }   };
 \node at (8,-1.5) {\textcolor{blue}{trimethylamine  }};
 \end{tikzpicture}\end{center}
