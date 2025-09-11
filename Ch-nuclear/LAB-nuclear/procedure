@@ -29,7 +29,7 @@
 \section*{Calculations}
 \mycircled{0} The mass of KCl your weighted, $m$.\vspace{0.5cm}\\
 \mycircled{1} The number of 40-K atoms in you sample, $n$, given its abundance is 0.012\%:
-\[ N=\frac{m\cdot N_o\cdot f}{AW}= \;\;\mycircled{0} \;\;\cdot 6.02\times 10^{23}\cdot 0.00012 \cdot 39.0983 / 74.5   	\]
+\[ N=\frac{m\cdot N_o\cdot f}{AW}= \;\;\mycircled{0} \;\;\cdot 6.02\times 10^{23}\cdot 0.00012  / 74.5   	\]
 \vspace{0.5cm}\\
 \mycircled{2} The average activity in cpm.\vspace{0.5cm}\\
 \mycircled{3}The average activity in cps:
@@ -41,8 +41,8 @@
 \mycircled{7} These are the activity values in cpm for the sample without the background. You can susbtract the average value and the standard deviation.
 \[   \;\;\mycircled{6} \;\;\ - \;\;\mycircled{5} \;\;\ 	\]
 \vspace{0.5cm}\\
-\mycircled{8} Calculated half-life of the isotope in years (the one measured in the experiment). In the formula below you need to use the Activity in cps.
-\[   t^{calc.}_{1/2}=\frac{   0.693\cdot \;\;\mycircled{1} \;\; }{ \;\;\mycircled{7} \;\;   \cdot 31536000  } 	\]
+\mycircled{8} Calculated half-life of the isotope in years (the one measured in the experiment). In the formula below you need to use the Activity in cps. The 3\% value takes into account the counter efficiency 
+\[   t^{calc.}_{1/2}=\frac{   0.693\cdot \;\;\mycircled{1} \;\; }{ \;\;\mycircled{7} \;\;   \cdot 31536000   }\times \frac{3}{100} 	\]
 \vspace{0.5cm}\\
 \mycircled{9} The sum of activity times mass and mass squared\vspace{0.5cm}\\
 \mycircled{10} The average half-life\vspace{0.5cm}\\
