@@ -102,8 +102,6 @@
 \import{../\chapterlabel/problems/}{SampleProblem7}
 
 
-
-
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{
 %%%%%%%%%%%%%%FIR 121
 \renewcommand\chapterlabel{Ch-kinetics}\section{\color{blue!30!black}{Collision theory}}\import{../\chapterlabel/files/}{SectionIntro-Collision-theory}
@@ -127,6 +125,16 @@
 }{}
 
 
+ 
+ \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%NOT FOR 121
+\section{ICE tabular method}\import{../\chapterlabel/files/}{SectionIntro-ICE}
+\sloppy\begin{description}
+\newpage\item[\docfilehook{The ICE method}{}] \import{../\chapterlabel/files/}{SubSection-ICE}
+\newpage\item[\docfilehook{A polynomial associated with an equilibrium}{}] \import{../\chapterlabel/files/}{SubSection-ICE-polynomial}
+\newpage\item[\docfilehook{Concentrations at equilibrium}{}] \import{../\chapterlabel/files/}{SubSection-ICE-Concentrations-at-equilibrium}
+\end{description}
+}{}
 
 
 
