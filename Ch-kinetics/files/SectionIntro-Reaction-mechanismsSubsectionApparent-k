@@ -1,0 +1,18 @@
+We have said that often the measured reaction constant corresponds to a combination of the reaction constants of the steps in the mechanism. For this reason, this constant is referred to as apparent. In a similar way, the measured activation energy often does not correspond to the activation energy of any of the steps, but a combination of these. This activation energy is called \emph{apparent activation energy}. We can compute the apparent activation energy by means of some algebra once we know the expression for the apparent reaction constant. For example, for the case we are studying:
+
+ \[k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}\]
+
+we need the corresponding activation energies for the steps $E_{1}$, $E_{-1}$ and $E_{2}$. The rule is to multiply each activation energy by the value of its power in the $k^{Exp}$ expression and add all values. For the example above the apparent activation energy would be?
+
+ \[E^{Exp}=E_{2}+E_{1}-E_{-1} \]
+
+Another example, for the apparent constant:
+\[k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}^2}\]
+
+the apparent activation energy would be
+ \[E^{Exp}=E_{2}+E_{1}-2\cdot E_{-1} \]
+
+This procedure assumes that the preexponential constant is the same for each step, which comes from the fact that the powers of exponential functions--remember each reaction constant is given by the exponential Arrhenius's la--combine with each other, and for example
+
+ \[k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}=\frac{A\myexp{\left(-\frac{E_{a_2}}{RT}\right)} \cdot A\myexp{\left(-\frac{E_{a_1}}{RT}\right)}    }{A\myexp{\left(-\frac{E_{a_{-1}}}{RT}\right)}} = \myexp{\left(-\frac{E_{a_2}+E_{a_1}-E_{a_{-1}} }{RT}\right)}
+ \]
