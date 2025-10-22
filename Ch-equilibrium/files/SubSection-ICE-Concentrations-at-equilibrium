@@ -1,3 +1,17 @@
-We can easily obtain the equilibrium concentrations of reactants and products once we have obtained the positive root of the equilibrium polynomial, the extent of the reaction. Going back to the ICE chart, we can plug the value of the extent of reaction to calculate the equilibrium concentrations. For the example in hand, we found that the reaction extent was XXX, hence we have that the equilibrium concentrations are:
+We can easily obtain the equilibrium concentrations of reactants and products once we have obtained the positive root of the equilibrium polynomial, the extent of the reaction. Let us analyze the reaction between water and carbon monoxide to produce carbon dioxide and hydrogen given that the initial concentration of water is 0.2M and the one for carbon monoxide is 0.1M
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y YY Y Y   Y  Y   }]
+  & \ce{CO_{(g)}}     &$+$& \ce{H_2O_{(g)}}     & $\ce{<=>}$    & \ce{CO_2_{(g)}}     &$+$ & \ce{H2_{(g)}}      \\\hline\hline
+Inicial   & 0.1 && 0.2 &    &    &  &\\
+Change & $-x$ && $-x$ &    &  $x$ & &$x$ \\
+Equilibrium  & 0.1$-x$ && 0.2$-$$x$ &    &  $x$ & &$x$ \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART
 
-xxxx
+we can plug the value of the extent of reaction to calculate the equilibrium concentrations. For the example in hand, we found that the reaction extent was $x$, hence we have that the equilibrium concentrations, which is $K_c$=5.10 at 700K, are:
+\[ \frac{x^2}{(0.1-x)\cdot (0.2-x) }=K_c   \]
+rearanging we have
+\[  (1-\frac{1}{K_c})x^2 -0.3x+0.02=0  \]
+Solving to $x$ we arrive to two different solutions $x_1$=0.286M and $x_1$=0.087M. The first answer has no chemical meaning, as we start with 0.1M of \ce{CO} and 0.286M cannot decompose from 0.1M. So we have that the final reaction extent is 0.086M. Now we can go back to our ICE chart and compute the equilibrium concentration of each reactant and product: $[$\ce{CO}$]_{Eq}$=0.013M, $[$\ce{H2O}$]_{Eq}$=0.113M, $[$\ce{CO_2}$]_{Eq}$=0.087M and $[$\ce{H2}$]_{Eq}$=0.087M.
+

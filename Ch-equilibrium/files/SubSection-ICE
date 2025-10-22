@@ -1,1 +1,20 @@
-The ICE method is a tabular method that helps calculate the extent of a reaction for a given equilibrium. It requires the filling of a table, called the ICE table. Each column of this table will represent a reactant or a product. The table will have on its first row the chemical reaction whose equilibrium we are interested in studying. Its second row includes the initial quantities of reacants and products, in molar units. This row is called the I as Initial row. The second row, called the change, C, row, contains the unknown values of the extent of the reaction represented by the unknown variable $x$. The values of $x$ should respect the reaction?s stoichiometry and, for example, if the stoichiometric coefficient of a reactant is 2, the corresponding entry on the table for that reactant should be 2$x$. At the same time, the entry should include negative signs for reactants and positive signs for the products. This is because reactants decompose, disappear to produce products. The last row is the equilibrium, E, row. It contants the result of adding the I and C rows. Below we have examples of ICE charts for two equilibria:
+The ICE method is a tabular method that helps calculate the extent of a reaction for a given equilibrium. It requires the filling of a table, called the ICE table. Each column of this table will represent a reactant or a product. The table will have on its first row the chemical reaction whose equilibrium we are interested in studying. Its second row includes the initial quantities of reacants and products, in molar units. This row is called the I as Initial row. The second row, called the change, C, row, contains the unknown values of the extent of the reaction represented by the unknown variable $x$. The values of $x$ should respect the reaction's stoichiometry and, for example, if the stoichiometric coefficient of a reactant is 2, the corresponding entry on the table for that reactant should be 2$x$. At the same time, the entry should include negative signs for reactants and positive signs for the products. This is because reactants decompose, disappear to produce products. The last row is the equilibrium, E, row. It contants the result of adding the I and C rows. Below we have examples of ICE charts for the reaction between carbon monoxide and water to produce carbon dioxide, with initial concentrations of 0.1M and 0.2M, respectively for carbon monoxide and water
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y YY Y Y   Y  Y   }]
+  & \ce{CO_{(g)}}     &$+$& \ce{H_2O_{(g)}}     & $\ce{<=>}$    & \ce{CO_2_{(g)}}     &$+$ & \ce{H2_{(g)}}      \\\hline\hline
+Inicial   & 0.1 && 0.2 &    &    &  &\\
+Change & $-x$ && $-x$ &    &  $x$ & &$x$ \\
+Equilibrium  & 0.1$-x$ && 0.2$-$$x$ &    &  $x$ & &$x$ \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART
+Another example for for the decomposition of nitrosyl chloride at an initial concentration of 0.3M to produce nitrogen monoxide and chlorine
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y Y Y Y   Y  Y   }]
+  &  \ce{2NOCl_{(g)}}     &     & $\ce{<=>}$    & 2\ce{NO_{(g)}}      &$+$ & \ce{Cl2_{(g)}}     \\\hline\hline
+Inicial   & 0.3 &  &    &    &  &\\
+Change & $-2x$ &  &    &  $2x$ & &$x$ \\
+Equilibrium  & 0.3$-2x$ &  &    &  $2x$ & &$x$ \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART

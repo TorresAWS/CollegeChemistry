@@ -1,0 +1,33 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A mixture of 2 mol of \ce{N_2} and 2 mol of \ce{H_2} was placed in a 2L vessel at 720$^{\circ}$C. At that temperature, the equilibrium constant for the formation of ammonia is $K_c$=2.4$\times 10^{-3}$
+\begin{center} \ce{N_2_({g}) + 3H_2_({g}) <=> 2NH_3_({g})    }
+\end{center}
+Once the equilibrium is reached, calculate the equilibrium concentration of the reactants and products.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will first build up the ICE chart given that the initial concentration of reactants is both 1M
+
+\begin{center}\begin{tikzpicture}
+ \node[inner sep=0pt] (tab){%
+ \begin{tabular}{l | l  l l ll}
+       & \ce{N_2_({g})}  & + &3\ce{H_2_({g})} &  \ce{<=>}  &2\ce{NH_3_({g})}  \\
+  \hline
+  Initial     &1  &&1&&  \\
+  Change    &$-x$  &&$-3x$&&$2x$    \\
+  Equilibrium  &1$-x$  &&1$-3x$&&$2x$    \\
+\end{tabular}
+};
+\node[draw=red, inner sep=0pt, rounded corners=3pt, line width=2pt,
+fit=(tab.north west) (tab.north east) (tab.south east) (tab.south west)] {};
+\end{tikzpicture}\end{center}
+Now we will obtain the polynomial and solve for the extent. Using the expression for $K_c$
+\[ \frac{  [\ce{NH3}]^2 }{[\ce{N2}] \cdot [\ce{H2}]^3}=K_c  \]
+now substituting the values from the ICE chart:
+\[ \frac{  (2x)^2 }{(1-x) \cdot (1-3x)}=K_c  \]
+The corresponding polynomial will be
+\[ (\frac{4}{K_c}-3)x^2 +4x -1=0  \]
+By solving given that $K_c$=2.4$\times 10^{-3}$, we obtain two roots, and only the positive root $x=0.023$ has chemical sense. Now we can obtain the equilibrium concentrations for reactants and products: 
+[\ce{N2}$_{eq}$]=0.977M, [\ce{H2}$_{eq}$]=0.931M, and [\ce{NH2}$_{eq}$]=1.046M.  
+\\
+\import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

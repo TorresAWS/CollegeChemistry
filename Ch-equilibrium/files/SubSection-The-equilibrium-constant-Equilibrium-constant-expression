@@ -1,7 +1,7 @@
 Let's consider a general equilibrium reaction in which $A$ and $B$ react to form $C$ and $D$
 \begin{center}\ce{$\underbrace{\textcolor{red}{\ce{aA + bB}}}_{\textrm{Reactants}}$ <=> $\underbrace{\textcolor{blue}{\ce{cC + dD}}}_{\textrm{Products}}$}
 \end{center}
-The stoichiometric coefficients of the reaction are $a$, $b$, $c$, and $d$. The expression for the equilibrium constant depends only on the concentration of the reactants and products. To refer to concentration we will use square brackets. For example, $\big[ A \big]$ means the concentration of $A$. Hence, the expression of the equilibrium constant will be:
+The stoichiometric coefficients of the reaction are $a$, $b$, $c$, and $d$. Cato Maximilian Gulberg and Peter Waage proposed the \emph{law of mass action} in 1864 in order to describe a chemical system in equilibrium. The expression for the equilibrium constant, which defines the law of mass action, depends only on the concentration of the reactants and products at fixed temperature. To refer to concentration we will use square brackets. For example, $\big[ A \big]$ means the concentration of $A$. Hence, the expression of the equilibrium constant will be:
 \begin{equation}
 \boxed{  K_{c}=\frac{\big[\text{Products}\big]}{\big[\text{Reactants}\big]}=\frac{\big[ C \big]^c \cdot \big[ D \big]^d} {\big[ A \big]^a \cdot \big[ B \big]^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}\label{\chapterlabel:equation1}
 \end{equation}
@@ -21,3 +21,4 @@ The expression of the equilibrium constant would be:
 \begin{equation*}
   K_{c}=\frac{\big[ \ce{CO2} \big] \cdot \big[ \ce{H2O} \big]^2} {\big[ \ce{CH4} \big] \cdot \big[ \ce{O2} \big]^2} 
 \end{equation*}
+As a final note, the equilibrium constant is a dimensionless property. Without going into too much detail, this is because on its more general definition, equilibrium constants are defined in terms of \emph{chemical activities}, a general dimensionless property that relates to ammount of substance (for example, can be concentration for solutions, pressures for gases).
