@@ -60,11 +60,11 @@ A 20 mL solution of 0.1 M \ce{KOH} is titrated with a 0.5 M HCl solution. Calcul
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-A 10 mL solution of 0.2 M \ce{NH3} ($K_b=2.50 \times 10^{-5}$) is titrated with a 0.1 M HCl solution. Calculate the pH after the following additions of the base solution: 
+A 10 mL solution of 0.2 M \ce{NH3} ($K_b=2.50 \times 10^{-5}$) is titrated with a 0.1 M HCl solution. Calculate the pH after the following additions of the acid solution: 
 \begin{inparaenum}[(a)]
 \item  0mL  	%PH=11.34 
 \item  10mL	%PH=9.40  
-\item  20mL	%PH=2.89  
+\item  20mL	%PH=5.29  
 \item  30mL	%PH=1.60  
  \end{inparaenum}
 \end{question}
@@ -72,7 +72,7 @@ A 10 mL solution of 0.2 M \ce{NH3} ($K_b=2.50 \times 10^{-5}$) is titrated with 
 \begin{inparaenum}[(a)]
  \item  PH=11.34 
 \item   PH=9.40  
-\item   PH=2.89  
+\item   PH=5.29  
 \item   PH=1.60 
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
