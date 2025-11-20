@@ -3,17 +3,22 @@
 Answer the following questions from the experimental data given in the table below
 \begin{inparaenum}[(a)]
 \item   Plot the data. Which data points are suitable for calculating initial velocities?
-\item   Calculate the average initial velocity
-\item   Calculate the instantaneous initial velocity, indicating the $r^2$ correlation coeficient value
+\item   Calculate the average initial velocity with four significant figures
+\item   Calculate the instantaneous initial velocity with four significant figures, indicating the $r^2$ correlation coeficient value
 \end{inparaenum}
 \begin{center}
-\begin{tabular}[t]{   c  c ccccc ccc }
+\begin{tabular}[t]{   c  c ccccc c  }
 \toprule
-\multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	&   		6	&	7	&	9	  \\
+\multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	&   		6		  \\
   \midrule
-  \multicolumn{1}{c|}{  $c$ (M)}&0.17 &0.24&0.31 &0.38&0.50 &0.51&0.52  \\
+  \multicolumn{1}{c|}{  $c$ (M)}&0.1750 &0.2430&0.3150 &0.3890&0.5000    \\
  
 \bottomrule
+\multicolumn{1}{c|}{  $t$ ( s)}	&  7	&	9	&	 	&	 	&   		 	 	  \\
+
+  \midrule
+  \multicolumn{1}{c|}{  $c$ (M)}&0.5100  &0.5200 &     &&  \\
+ 
 \end{tabular}
 \end{center}
 
@@ -23,8 +28,8 @@ Answer the following questions from the experimental data given in the table bel
 \begin{solution}
 \begin{inparaenum}[(a)]
 \item   first four points
-\item   0.22M/s
-\item   0.21M/s; 0.99
+\item   0.0714M/s
+\item   0.0713M/s; 0.99
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
