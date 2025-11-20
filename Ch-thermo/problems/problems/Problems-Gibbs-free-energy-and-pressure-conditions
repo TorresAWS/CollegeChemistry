@@ -124,6 +124,135 @@ Using the thermodynamic data presented below for the synthesis of hydrofluoric a
 
 
 
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Many industrial processes require the use of hydrogen gas. Before the early 20th century, hydrogen was obtained by reacting steam under high pressure with iron to produce iron oxide and hydrogen. This method was expensive, but the water-gas shift reaction offers a much more affordable method to produce hydrogen. In this reaction, carbon monoxide can react with steam to produce carbon dioxide and hydrogen. The enthalpy and entropy values for the reactants and products are provided below, along with three sets of different pressure conditions. Answer the following questions:
+\\
+\begin{adjustbox}{width=\columnwidth,center}
+ \fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\toprule
+ &					\ce{CO_{(g)}}&\ce{+}	& \ce{H2O_{(g)}}    &\ce{->}	 &\ce{CO2_{(g)}}     &\ce{+} &\ce{H2_{(g)}}        \\
+\midrule
+ $H^{\circ}_f(KJ/mol)$&	-110.525	&	&  -241.818  & &	-393.509    & & 0      \\
+\midrule
+ $S^{\circ}( J/molK)$&		197.674	&	&  188.825  & &	213.74    & & 130.684      \\
+\midrule
+ $p( atm)$ (Conditions 1)&		1	&	&  1  & &	1     & & 1       \\
+\midrule
+ $p( atm)$ (Conditions 2)&		1	&	&  1  & &	1000    & & 1000      \\
+\midrule
+ $p( atm)$(Conditions 3)&		1	&	&  1  & &	100    & & 100      \\
+  \bottomrule
+\end{tabular} 
+\end{adjustbox} 
+\begin{inparaenum}[(a)]
+  \item      Calculate $\Delta G^{\circ}$ at 298K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 990K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 298K and pressure conditions 2. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 298K and pressure conditions 3. Will this reaction proceed spontaneously?
+     \item Explain the change found in the last two questions.
+     \item What is the critical $Q_p$ value for this reaction at 298K.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item -28.6 KJ/mol; yes
+ \item 0.5 KJ/mol; no
+ \item 5.6KJ/mol; no
+ \item $-$5.8KJ/mol; yes
+  \item Le chatelier, at very low product pressure you can favour the reaction.
+    \item $Q_{p,c}$=$1\times 10^{5}$. Only $Q_c$<$K_c$ favours spontaneity.\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Iron(III) oxide can be reduced with graphite to produce pure iron and carbon dioxide. The enthalpy and entropy values for the reactants and products are provided below, along with three sets of different pressure conditions. Answer the following questions:
+\\
+\begin{adjustbox}{width=\columnwidth,center}
+ \fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\toprule
+ &					\ce{2Fe2O3_{(s)}}&\ce{+}	& \ce{C_{(s)}}    &\ce{->}	 &\ce{Fe_{(s)}}     &\ce{+} &\ce{3CO2_{(g)}}        \\
+\midrule
+ $H^{\circ}_f(KJ/mol)$&	-824.2	&	&  0  & &	0   & & -393.509      \\
+\midrule
+ $S^{\circ}( J/molK)$&		87.4	&	&  5.74  & &	27.78    & & 213.74      \\
+\midrule
+ $p( atm)$ (Conditions 1)&		1	&	&  --  & &	--    & & 1      \\
+\midrule
+ $p( atm)$ (Conditions 2)&		1	&	&  --  & &	--    & & $10^{-18}$      \\
+\midrule
+ $p( atm)$ (Conditions 3)&		1	&	&  --  & &	--    & & $10^{-19}$      \\
+\midrule
+\bottomrule
+\end{tabular} 
+\end{adjustbox} 
+\begin{inparaenum}[(a)]
+  \item      Calculate $\Delta G^{\circ}$ at 298K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 990K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 298K and pressure conditions 2. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G$ at 298K and pressure conditions 3. Will this reaction proceed spontaneously?
+   \item Explain the change found in the last two questions.
+     \item What is the critical $Q_p$ value for this reaction.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+ \item 322 KJ/mol; no
+ \item $-$15.7 KJ/mol; yes
+ \item 14.2KJ/mol; no
+ \item $-$2.7KJ/mol; yes
+  \item Le chatelier, at very low product pressure you can favour the reaction. 
+      \item $K_c$=$3.6\times 10^{-57}$. Only $Q_c$<$K_c$ favours spontaneity.
+      \end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+
+
+
+
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%True or False:
+%\begin{inparaenum}[(a)]
+%  \item      The $\Delta G^{\circ}$ for a reaction is 100$KJ/mol$, therefore we can favour the sponateity of the reaction by increasing the pressure reactants and decreasing the pressure of products. %true
+%  \item      The $\Delta G^{\circ}$ for a reaction is 100$KJ/mol$, therefore we can favour the sponateity of the reaction by decreasing the pressure reactants and increasing the pressure of products. %false
+%  \item      The $\Delta G^{\circ}$ for a reaction is -15$KJ/mol$, therefore we can favour the sponateity of the reaction by decreasing the pressure reactants and increasing the pressure of products. %true
+%  \item      The $\Delta G^{\circ}$ for a reaction is -15$KJ/mol$, therefore we can favour the sponateity of the reaction by increasing the pressure reactants and decreasing the pressure of products. %false
+%\end{inparaenum}
+%\end{question}
+%\begin{solution}
+% \begin{inparaenum}[(a)]
+%  \item       true
+%  \item       false
+%  \item       true
+%  \item       false.
+%\end{inparaenum} 
+%\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+%
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%True or False:
+%\begin{inparaenum}[(a)]
+%    \item      For an endergonic reaction we can favour the sponateity of the reaction by increasing the pressure reactants and decreasing the pressure of products. %true
+%    \item      For an exergonic reaction we can favour the sponateity of the reaction by decreasing the pressure reactants and increasing the pressure of products. %true
+%    \item      For an endergonic reaction we can favour the sponateity of the reaction by decreasing the pressure reactants and increasing the pressure of products. %false
+%    \item      For an exergonic reaction we can favour the sponateity of the reaction by increasing the pressure reactants and decreasing the pressure of products. %false
+%\end{inparaenum}
+%\end{question}
+%\begin{solution}
+% \begin{inparaenum}[(a)]
+%  \item       true
+%  \item       true
+%  \item       false
+%  \item       false.
+%\end{inparaenum} 
+%\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+%
+
+
+
 
 
 
