@@ -170,7 +170,7 @@ coordinate(-front-bottom-right) -- cycle;
 \coordinate (magnifying glass) at (29em,-5em);;
 \node [draw=none, shape=rectangle, minimum width=6cm,minimum height=1.3cm, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.south west) -- (a.north west)  to [bend right=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=rectangle, minimum width=6cm,minimum height=1.3cm, fill overzoom image=../{\chapterlabel}/figure1-20]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {Spectrum of hydrogen};
+\node  [thin, draw=black, shape=rectangle, minimum width=6cm,minimum height=1.3cm, fill overzoom image=../\chapterlabel/figure1-20]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {Spectrum of hydrogen};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{tikzpicture}
 \end{center}

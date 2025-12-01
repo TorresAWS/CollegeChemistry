@@ -72,7 +72,7 @@
             \draw[thin,densely dashed,red] (2,0) --     +(-24:4);               
         \end{scope}
                     \begin{scope}[xshift =30em, yshift =0em]
-                \node [rotate=90 ] (a) at (0,0) {\includegraphics[width=5cm]{../{\chapterlabel}/figure1-9}} node[rotate=90, font=\tiny] at ([yshift=-10em,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+                \node [rotate=90 ] (a) at (0,0) {\includegraphics[width=5cm]{../\chapterlabel/figure1-9}} node[rotate=90, font=\tiny] at ([yshift=-10em,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
   \end{scope}
               \end{scope}
             \begin{scope}[xshift =-15em, yshift =-5em]

@@ -91,27 +91,27 @@ legend style={at={(0.85,3.77)},anchor=north}
 \coordinate (magnifying glass) at (19em,7em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flickr}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.west) -- (a.east)  to [bend left=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-10]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny Heat lamp};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-10]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny Heat lamp};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \coordinate (spy point) at (23em,2em);
 \coordinate (magnifying glass) at (25em,8em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flickr}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.west) -- (a.east)  to [bend left=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-14]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny cell phone};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-14]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny cell phone};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \coordinate (spy point) at (0em,3em);
 \coordinate (magnifying glass) at (0em,8em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-13]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny nuclear plant};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-13]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny nuclear plant};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \coordinate (spy point) at (6em,3em);
 \coordinate (magnifying glass) at (6em,7.5em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-12]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny X rays};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-12]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny X rays};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -119,7 +119,7 @@ legend style={at={(0.85,3.77)},anchor=north}
 \coordinate (magnifying glass) at (29em,-2em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} cartalk.com}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.south) -- (a.north)  to [bend left=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-16]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny radars};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-16]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny radars};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,7 +127,7 @@ legend style={at={(0.85,3.77)},anchor=north}
 \coordinate (magnifying glass) at (1em,-2em);
 \node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flikr}}}]  (a) at (magnifying glass) {};
 \draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.north) -- (a.south)  to [bend right=45]  (spy point) -- cycle;
-\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-15]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny tanning lights};
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../\chapterlabel/figure1-15]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny tanning lights};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \node[xshift=25em, yshift=-9em, text width=14cm, scale=0.80, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Electromagnetic-spectra} \end{bf} Spectrum of the electromagnetic radiation, from gamma rays (shortest wavelength) to radio waves (longest wavelength). The visible part of the spectrum ranges from 400 nm (violet) to 700 nm(red).   };
