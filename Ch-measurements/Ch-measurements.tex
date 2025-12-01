@@ -1,13 +1,16 @@
 \documentclass[main.tex]{subfiles}
 \pagenumbering{arabic}
-\newcommand\chapterlabel{Ch-measurements}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PngImg}
  
-\begin{document}
+ 
+ \begin{document}
+\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../\chapterlabel/figure1}\chapterpicturelabel{PngImg}
+ 
+\newpage\newcommand\chapterlabel{Ch-measurements}\setchemfig{double bond sep=0.35700 em, atom sep=1.78500 em,bond offset=0.18265 em,line width = \bondwidth }\renewcommand{\bondwidth}{0.06642 em}  
 
 
 
 
-\import{../\chapterlabel/files/}{ChapterName}\setcounter{chapter}{1}
+\import{../Ch-measurements/files/}{ChapterName}\setcounter{chapter}{1}
 
 
 % \begin{marginfigure}

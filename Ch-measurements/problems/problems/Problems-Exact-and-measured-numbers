@@ -89,13 +89,12 @@ Identify the following numbers as measured or exact:
 A conservator studies a table by measuring numerous of its characteristics. Identify the following characteristics as measured or exact given the image below:
 \begin{center}
 \begin{tikzpicture}[fill=lightgray]
-%legs
 \foreach \leg in {(0.3,0,0),(4.9,0,0),(4.9,0,-2.7),(0.3,0,-2.7)}{
-\begin{scope}[shift=\leg,draw=red]
+\begin{scope}[shift/.expanded=\leg,draw=red]
 \draw[fill] (0,0,0) -- (0,0,-0.2) -- (0,2,-0.2) -- (0,2,0);
 \draw[fill] (0,0,0) rectangle (-0.2,2,0);
-\end{scope}}
-%table
+\end{scope}
+}
 \begin{scope}[draw=blue,shift={(0,2,0)}]
 \draw[fill] (0,0,0) -- (5,0,0) -- (5,0,-3) -- (0,0,-3) -- cycle;
 \draw[fill] (0,0,0) -- (5,0,0) -- (5,-0.1,0)-- (0,-0.1,0) -- cycle;

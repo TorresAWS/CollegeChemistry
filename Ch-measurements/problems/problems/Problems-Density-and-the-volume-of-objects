@@ -383,7 +383,7 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,3.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -391,7 +391,7 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,2.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -399,7 +399,7 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,2.5em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -407,7 +407,7 @@ The diagrams below represent a solid immersed in a liquid, with some of the soli
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,0.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -485,7 +485,7 @@ The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, wi
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,3.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -493,7 +493,7 @@ The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, wi
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,2.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -501,7 +501,7 @@ The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, wi
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,2.5em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 
@@ -509,7 +509,7 @@ The diagrams below represent a solid immersed in a liquid of density 0.9g/mL, wi
   \draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
 \begin{scope}[shift={(0,0.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
+  \draw[mass,   path image=../\chapterlabel/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);
   \end{scope}
 \end{scope}
 

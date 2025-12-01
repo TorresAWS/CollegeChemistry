@@ -51,22 +51,22 @@
   \draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H) ;
   
 \begin{scope}[shift={(-1,4.0em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{ice ($d$=0.9 g/mL)};
+  \draw[mass,   path image=../\chapterlabel/ice.png] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{ice ($d$=0.9 g/mL)};
   \draw[xshift=5em, yshift=-2em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{water ($d$=1 g/mL)};
 
   \end{scope}
   
 \begin{scope}[shift={(2em,7em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/cork.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{cork ($d$=0.4 g/mL)};
+  \draw[mass,   path image=../\chapterlabel/cork.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{cork ($d$=0.4 g/mL)};
      \end{scope}
 
 
 \begin{scope}[shift={(-2em,-3em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=5em]{aluminum ($d$=2.7 g/mL)};
+  \draw[mass,   path image=../\chapterlabel/al.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=5em]{aluminum ($d$=2.7 g/mL)};
      \end{scope}
      
   \begin{scope}[shift={(4em,-5em)},rotate=00]
-  \draw[mass,   path image=../{\chapterlabel}/pb.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{lead ($d$=11 g/mL)};
+  \draw[mass,   path image=../\chapterlabel/pb.jpeg] (-\mw/2,\my) rectangle++ (\mw,\mh);\draw[xshift=4em] (-\mw/2,\my+\mh/2)  -- ++(3,0) node [xshift=4em]{lead ($d$=11 g/mL)};
      \end{scope}   
      \begin{scope}[shift={(0,0)},rotate=00]
  \node[text width=11cm, fontscale=.3,shift={(2em,0em)}] at (7em,-2.5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-density} \end{bf} Objects with a larger density than water will sink whereas objects with a smaller density will float. };
