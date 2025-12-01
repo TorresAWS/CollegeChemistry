@@ -260,7 +260,7 @@
   title=Chapter Problems,
   }
 %%%%%%BOXES SAMPLE PROBLEM
-\newcommand\textlcsc[1]{\textsc{\MakeLowercase{#1}}}   %FORCE CAPS
+\newcommand\textlcsc[1]{\textsc{#1}}   %FORCE CAPS
 %%%%%%COLOED CIRCLES
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{%
             \node[shape=circle,fill=blue!30!black,,draw,inner sep=2pt] (char) {#1};}}
@@ -1553,7 +1553,7 @@ roundcorner=5pt
 
 
 %%%%%%%%%%%%%%%%%%%LIGHT SPECTRUM
-\usepackage{siunitx} % SI-units
+\usepackage{siunitx}[=v2]
 \usepackage{pgfplots}
 \usepgfplotslibrary{units} % to add units easily to axis
 \usepgfplotslibrary{fillbetween} % to fill inbetween curves
@@ -5348,7 +5348,10 @@ coordinate(-front-bottom-right) -- cycle;
  
 
  
- \newcommand{\bondwidth}{0.06642 em}\setbondstyle{line width = \bondwidth}
+ 
+ 
+ \setchemfig{double bond sep=0.35700 em, atom sep=1.78500 em,bond offset=0.18265 em,line width = \bondwidth }\newcommand{\bondwidth}{0.06642 em}  
+
  \usepackage[strict]{changepage}\usepackage{ulem}
   \usepackage{ physics }
 
@@ -5680,7 +5683,7 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 %%%%%%%FRUITS CHATER FANCY HEADER
 
 
-\DeclareInstance{tasks}{myitemize}{default} {enumerate = true  }\settasks{style = myitemize, column-sep = 2em,counter-format=(tsk[a]) , item-indent = 1.2em, label-width =1.2em, label-offset = 0.5em, after-item-skip = 1ex, after-item-skip=-1pt}
+%\DeclareInstance{tasks}{myitemize}{default} {enumerate = true  }\settasks{style = myitemize, column-sep = 2em,counter-format=(tsk[a]) , item-indent = 1.2em, label-width =1.2em, label-offset = 0.5em, after-item-skip = 1ex, after-item-skip=-1pt}
 \newcommand\score[2]{%
   \pgfmathsetmacro\pgfxa{#1 + 1}%
   \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=1.3pt, anchor=outer point 3]%
@@ -5942,6 +5945,3 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 
 \newcommand\chapterpathtocontent{}\renewcommand\chapterpathtocontent{../}
 \newcommand\chapterpathtoimages{}
-
-
-
