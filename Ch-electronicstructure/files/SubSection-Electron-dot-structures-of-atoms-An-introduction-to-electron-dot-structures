@@ -1,5 +1,6 @@
 Below, you will find some examples of electron-dot structures. Mind that the lines represent pairs of electrons hence below there are two equivalent representations for the hydrogen molecule. In these structures, you will find two different types of lines. Some pairs of electrons connect atoms. We call these types of pairs bonds. Other pairs lay on atoms. We call these lone pairs. Each atom can have a different number of lone pairs. For example, in the Lewis structures below carbon has one lone pair whereas iodide has three pairs. Bonds can be simple or multiple, double or triple. Finally, some molecules are charged and the charge is normally indicated on the top right side of the representation.
-\setbondoffset{2pt}
+\setchemfig{bond offset=2pt}
+
  \begin{center}
 \begin{tikzpicture}
 \node [anchor=west] (note) at (1,-0.5) {\small Single bond};

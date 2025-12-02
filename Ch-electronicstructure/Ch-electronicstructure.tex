@@ -1,14 +1,10 @@
 \documentclass[main.tex]{subfiles}
-\newcommand\chapterlabel{Ch-electronicstructure}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
+\begin{document}\newcommand\chapterlabel{Ch-electronicstructure}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../\chapterlabel/figure1}\chapterpicturelabel{PxFuel}
 
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
+\setchemfig{double bond sep=0.35700 em, atom sep=1.78500 em,bond offset=0.18265 em,line width = \bondwidth }\renewcommand{\bondwidth}{0.06642 em}  
+ 
  
 
-\begin{document}
 
  
  
@@ -23,7 +19,7 @@
 
    
 %\begin{marginfigure}
-%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../\chapterlabel/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
 %\end{tikzpicture}
 %\label{fig:marginfig}
 %\end{marginfigure}
