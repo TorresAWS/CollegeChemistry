@@ -36,7 +36,7 @@
 \usepackage{amsmath}
 \usepackage{fonttable}
 \usepackage{paracol}
-\usepackage{chemfig}
+\usepackage{chemfig}\input{/usr/local/texlive/2025/texmf-dist/tex/generic/chemfig/chemfig-lewis.tex}
 \usetikzlibrary{3d,decorations.pathreplacing,calligraphy}
 %\usepackage[ugly]{nicefrac}
 \usepackage{cutwin}
