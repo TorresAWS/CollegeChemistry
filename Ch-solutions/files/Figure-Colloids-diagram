@@ -24,10 +24,10 @@
 
 
 
- \node (e) at ([yshift=-1.5cm]b.south) {\includegraphics[width=3cm]{../{\chapterlabel}/seawater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Seawater is a solution};
+ \node (e) at ([yshift=-1.5cm]b.south) {\includegraphics[width=3cm]{../\chapterlabel/seawater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Seawater is a solution};
 
- \node (e) at ([yshift=-1.5cm]c.south) {\includegraphics[width=3cm]{../{\chapterlabel}/muddywater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=4cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Muddy water is a suspension};
-  \node (f) at ([yshift=-1.6cm]d.south) {\includegraphics[width=3cm, height=2.9cm]{../{\chapterlabel}/milk}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.2cm, xshift=.4cm]f.south){Milk is a colloid};
+ \node (e) at ([yshift=-1.5cm]c.south) {\includegraphics[width=3cm]{../\chapterlabel/muddywater}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=4cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Muddy water is a suspension};
+  \node (f) at ([yshift=-1.6cm]d.south) {\includegraphics[width=3cm, height=2.9cm]{../\chapterlabel/milk}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.2cm, xshift=.4cm]f.south){Milk is a colloid};
 % 
 
   }
