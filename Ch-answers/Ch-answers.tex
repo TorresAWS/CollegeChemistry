@@ -1,14 +1,10 @@
 \documentclass[main.tex]{subfiles} 
-\setdoublesep{0.35700 em}  % 'Bond Spacing'
-\setatomsep{1.78500 em}    % 'Fixed Length'
-\setbondoffset{0.18265 em} % 'Margin Width'
-\renewcommand{\bondwidth}{0.06642 em} % 'Line Width'
-\setbondstyle{line width = \bondwidth}
- \renewcommand\thechapter{Answers}\newcommand\chapterlabel{Ch-answers}
-\chaptermark{ }  \chapterpicture{../{\chapterlabel}/figure1}\chapterpicturelabel{PxFuel}
+\begin{document}
+\setchemfig{double bond sep=0.35700 em, atom sep=1.78500 em,bond offset=0.18265 em,line width =0.06642 em } 
+\renewcommand\thechapter{Answers}\newcommand\chapterlabel{Ch-answers}
+\chaptermark{ }  \chapterpicture{../\chapterlabel/figure1}\chapterpicturelabel{PxFuel}
 \addcontentsline{toc}{chapter}{\thechapter}
 \newgeometry{left=0.8in,right=0.6in, top=2cm,bottom=2cm,  marginparsep=8.2mm, marginparwidth=49.4mm, }
-\begin{document}
 \checkoddpage\ifoddpage    \else \clearpage\thispagestyle{empty}\mbox{}\clearpage
 { \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-2cm}\raisebox{-0.5cm}[0pt][0pt]{ \resizebox{18cm}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (-1cm,0) rectangle (15cm,10cm)  node[rotate=0, font=\tiny] at ([yshift=-0.5cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
 {\Huge\sffamily\color{black}\thechapter \vspace*{0cm}}
