@@ -2,7 +2,7 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following nucleic acid as nucleotide or nucleoside.
 \begin{center}
-\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxythymidine} }
+\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxythymidine} }
 \end{center}
 \end{question}\begin{solution}
  Nucleoside
@@ -15,7 +15,7 @@ Classify the following nucleic acid as nucleotide or nucleoside.
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following nucleic acid as nucleotide or nucleoside.
 \begin{center}
-\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyadenosinephosphate} }
+\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyadenosinephosphate} }
 \end{center}
 \end{question}\begin{solution}
 Nucleotide
@@ -26,7 +26,7 @@ Nucleotide
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following nucleic acid as nucleotide or nucleoside.
 \begin{center}
-\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyuridine} }
+\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyuridine} }
 \end{center}
 \end{question}\begin{solution}
 Nucleoside
@@ -41,9 +41,9 @@ Nucleoside
 Combine the following molecules to produce a nucleoside:\\
 %\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
 \begin{tikzpicture}
-\node[shift={(-9em,0)}] (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
-\node[shift={(-9em,0)}] (b) at (2,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{adenine} } };
-\node[shift={(-5em,0)}] (c) at (4,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyribose} } };
+\node[shift={(-9em,0)}] (a) at (0,0) {\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
+\node[shift={(-9em,0)}] (b) at (2,0)  {\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{adenine} } };
+\node[shift={(-5em,0)}] (c) at (4,0)  {\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyribose} } };
 \end{tikzpicture}
 %}\end{minipage}
 \end{question}\begin{solution}

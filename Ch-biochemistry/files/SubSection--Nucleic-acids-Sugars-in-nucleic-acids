@@ -2,7 +2,7 @@ The structure of nucleic acids is indeed sugar. Two different sugars can be foun
 \begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{
 
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.3\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.5\textwidth}}
-\setatomsep{2.5em}\chemfig{!{ribose}}&\setatomsep{2.5em}\chemfig{!{deoxyribose}}
+\setchemfig{atom sep=2.5 em}\chemfig{!{ribose}}&\setchemfig{atom sep=2.5 em}\chemfig{!{deoxyribose}}
 \tabularnewline\addlinespace
 \textcolor{blue}{Ribose (R), RNA}  &\textcolor{blue}{Deoxyribose (DR), DNA} \tabularnewline
 %\textcolor{green}{RNA}  &   \textcolor{green}{DNA} \tabularnewline

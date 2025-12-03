@@ -2,7 +2,7 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following AA as hydrophilic or hydrophobic. If hydrophilic, classify as acidic, basic or neutral:
 \begin{center}
-\setatomsep{2.5em}\phenylalanin
+\setchemfig{atom sep=2.5 em}\phenylalanin
 \end{center}
 \end{question}\begin{solution}
 hydrophobic
@@ -13,7 +13,7 @@ hydrophobic
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following AA as hydrophilic or hydrophobic. If hydrophilic, classify as acidic, basic or neutral:
 \begin{center}
-\setatomsep{2.5em}\cystein
+\setchemfig{atom sep=2.5 em}\cystein
 \end{center}
 \end{question}\begin{solution}
 hydrophilic neutral
@@ -24,7 +24,7 @@ hydrophilic neutral
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following AA as hydrophilic or hydrophobic. If hydrophilic, classify as acidic, basic or neutral:
 \begin{center}
-\setatomsep{2.5em}\asparagin
+\setchemfig{atom sep=2.5 em}\asparagin
 \end{center}
 \end{question}\begin{solution}
 hydrophilic neutral
@@ -35,7 +35,7 @@ hydrophilic neutral
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following AA as hydrophilic or hydrophobic. If hydrophilic, classify as acidic, basic or neutral:
 \begin{center}
-\setatomsep{2.5em}\asparaginacid
+\setchemfig{atom sep=2.5 em}\asparaginacid
 \end{center}
 \end{question}\begin{solution}
 hydrophilic acid
@@ -46,7 +46,7 @@ hydrophilic acid
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following AA as hydrophilic or hydrophobic. If hydrophilic, classify as acidic, basic or neutral:
 \begin{center}
-\setatomsep{2.5em}\arginin
+\setchemfig{atom sep=2.5 em}\arginin
 \end{center}
 \end{question}\begin{solution}
 hydrophilic basic

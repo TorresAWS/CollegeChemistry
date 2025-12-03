@@ -28,7 +28,7 @@ lipid
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following biomolecules as a carbohydrate, a lipid, a protein or a nucleic acid:
 \begin{center}
-{\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyadenosine}}}\end{center}
+{\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyadenosine}}}\end{center}
 \end{question}
 \begin{solution}
 nucleic acid

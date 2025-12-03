@@ -2,14 +2,14 @@ Linear monosaccharides cycle forming Haworth cycles. In order to obtain a cycle 
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.20\textwidth}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}}
 \carbohydrate[model={fischer=skeleton}, color={anomerO}{orange},color={H-C5}{red}, color={O-C5}{red} ]{llrr}&
-\setatomsep{2.5em}\chemfig{\chemabove[1ex]{}{\tiny \textcolor{red}{6}}
+\setchemfig{atom sep=2.5 em}\chemfig{\chemabove[1ex]{}{\tiny \textcolor{red}{6}}
 (-[-2]OH)(-\chemabove[1ex]{}{\tiny \textcolor{red}{5}}
 (-[-2]\textcolor{red}{O}\textcolor{red}{H})-\chemabove[1ex]{}{\tiny \textcolor{red}{4}}
 (-[-2]OH)-\chembelow[1ex]{}{\tiny \textcolor{red}{3}}
 (-[2]OH)-\chembelow[1ex]{}{\tiny \textcolor{red}{2}}
 (-[2]OH)-\chemabove[1ex]{}{\tiny \textcolor{red}{1}}
 (=[-1]\textcolor{orange}{O}))}&
-\setatomsep{2.5em}\glucose[model=chair,color={anomerO}{orange},color={O-C5}{red},color={H-C5}{red}]
+\setchemfig{atom sep=2.5 em}\glucose[model=chair,color={anomerO}{orange},color={O-C5}{red},color={H-C5}{red}]
 \tabularnewline\addlinespace
 \textcolor{blue}{D-Mannose} & \textcolor{blue}{D-Mannose rotated} & \textcolor{blue}{D-Mannose as a boat}\tabularnewline
 \end{tabular*}\end{center}
@@ -17,12 +17,12 @@ Linear monosaccharides cycle forming Haworth cycles. In order to obtain a cycle 
 The final cycle looks like:
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}}
-\setatomsep{2.5em}\glucose[model=chair,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]&
-\setatomsep{2.5em}   \chemname{\carbohydrate[model=haworth]{llrr}}{ }&
+\setchemfig{atom sep=2.5 em}\glucose[model=chair,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]&
+\setchemfig{atom sep=2.5 em}   \chemname{\carbohydrate[model=haworth]{llrr}}{ }&
 
 
 %\glucose[model=haworth,color={O-C5}{red},color={H-C5}{red},color={anomerO}{orange}]
-\setatomsep{2.5em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose]{llr}}{ }   
+\setchemfig{atom sep=2.5 em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose]{llr}}{ }   
 
 %\glucose[model=haworth,ring,  color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
 \tabularnewline\addlinespace
@@ -33,9 +33,9 @@ In general the cycles formed from linear monosaccharides can have five of six at
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}}
 \carbohydrate[model={fischer=skeleton}, color={anomerO}{orange},color={H-C5}{red}, color={O-C5}{red} ]{llrr}&
-\setatomsep{2.5em} \chemname{\carbohydrate[pentose,model=haworth,ring=pyranose, anomer = alpha,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }   &
+\setchemfig{atom sep=2.5 em} \chemname{\carbohydrate[pentose,model=haworth,ring=pyranose, anomer = alpha,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }   &
 %  \glucose[model=haworth,ring,  anomer = alpha, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]&
-\setatomsep{2.5em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose,anomer = beta,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }
+\setchemfig{atom sep=2.5 em}\chemname{\carbohydrate[pentose,model=haworth,ring=pyranose,anomer = beta,color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]{llr}}{ }
 %\glucose[model=haworth,ring,  anomer = beta, color={ringO}{red},color={anomerO}{orange}, color={anomerH}{orange}]
 \tabularnewline\addlinespace
 \textcolor{blue}{D-Mannose} & \textcolor{blue}{$\alpha$-d-Mannose}& \textcolor{blue}{$\beta$-d-Mannose} \tabularnewline
@@ -44,8 +44,8 @@ A five-atom ring example:
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.2\textwidth}}
 \chemfig{[2]OH-[4](-(-[:0, 1.2]\textcolor{red}{OH})-(-[:0]HO)-(-[:180]OH)-(=[0]\textcolor{orange}{O})-(-[0]OH))}&
-\setatomsep{2.5em}\chemfig{HO-[:-90,0.5,2]?-[:60,1.0](-[:-90,0.7]\textcolor{orange}{OH})(-[:90,0.7]-[:30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}&
-\setatomsep{2.5em}\chemfig{HO-[:-90,0.5,2]?-[:60,1.0](-[:90,0.7]\textcolor{orange}{OH})(-[:-90,0.7]-[:-30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\setchemfig{atom sep=2.5 em}\chemfig{HO-[:-90,0.5,2]?-[:60,1.0](-[:-90,0.7]\textcolor{orange}{OH})(-[:90,0.7]-[:30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}&
+\setchemfig{atom sep=2.5 em}\chemfig{HO-[:-90,0.5,2]?-[:60,1.0](-[:90,0.7]\textcolor{orange}{OH})(-[:-90,0.7]-[:-30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
 \tabularnewline\addlinespace
 \small{\textcolor{blue}{d-fructose}} & \small{\textcolor{blue}{$\alpha$-d-fructose}}& \small{\textcolor{blue}{$\beta$-d-fructose}} \tabularnewline
 \end{tabular*}\end{center}

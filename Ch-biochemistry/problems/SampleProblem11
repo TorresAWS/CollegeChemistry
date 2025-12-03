@@ -2,9 +2,9 @@
 Classify the following AA as acidic, basic, hydrophilic or hydrophobic:
 \begin{center}
 \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.3\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
-\setatomsep{2.5em}\lysin
+\setchemfig{atom sep=2.5 em}\lysin
 &
-\setatomsep{2.5em}\proline
+\setchemfig{atom sep=2.5 em}\proline
 \tabularnewline\addlinespace
 \end{tabular*}\end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\

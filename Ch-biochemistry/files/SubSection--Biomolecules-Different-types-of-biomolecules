@@ -10,7 +10,7 @@ Proteins (meat) contain amino or amide groups. Proteins are made of amino acids.
 \begin{center}\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_2-[:90]**6(------))(-[:270]H)}\end{center}
 
 Finally, nucleic acids (DNA or RNA) are made of a sugar connected to an amine, or amide. Sometimes you will find phosphorus atoms on its structure. An example of nucleic acid is presented below.
-\begin{center}{\setatomsep{2.5em}\chemfig[][scale=.75]{!{thyminephosphate} } }\end{center}
+\begin{center}{\setchemfig{atom sep=2.5 em,scale=.75}\chemfig{!{thyminephosphate} } }\end{center}
 
 It is very important to be able to differentiate the different biomolecules as well as to be able to identify each of them. 
 

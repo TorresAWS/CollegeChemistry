@@ -21,7 +21,7 @@ $\beta$
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following Haworth monosaccharide as $\alpha$ or $\beta$.
-\begin{center}\setatomsep{2.5em}\chemfig{HO-[:90,0.5,2]?-[:60,1.0](-[:90,0.7]OH)(-[:-90,0.7]-[:-30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\begin{center}\setchemfig{atom sep=2.5 em}\chemfig{HO-[:90,0.5,2]?-[:60,1.0](-[:90,0.7]OH)(-[:-90,0.7]-[:-30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
 \end{center}
 \end{question}\begin{solution}
 $\beta$
@@ -33,7 +33,7 @@ $\beta$
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Classify the following Haworth monosaccharide as $\alpha$ or $\beta$.
-\begin{center}\setatomsep{2.5em}\chemfig{HO-[:90,0.5,2]?-[:60,1.0](-[:-90,0.7]OH)(-[:90,0.7]-[:30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\begin{center}\setchemfig{atom sep=2.5 em}\chemfig{HO-[:90,0.5,2]?-[:60,1.0](-[:-90,0.7]OH)(-[:90,0.7]-[:30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
 \end{center}
 \end{question}\begin{solution}
 $\alpha$

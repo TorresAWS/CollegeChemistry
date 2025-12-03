@@ -2,7 +2,7 @@
 %\arrayrulecolor{orange}
 \setlength{\arrayrulewidth}{1pt}
 \begin{tabular}[]{ m{0.5\linewidth}  @{}l@{} }
-  \includegraphics[width=0.9\linewidth]{../{\chapterlabel}/figure2}
+  \includegraphics[width=0.9\linewidth]{../\chapterlabel/figure2}
   Carnauba wax is obtained from the leaves of the carnauba palm.
   &
   \begin{tabular}[c]{>{\centering\arraybackslash}m{0.4\linewidth}}

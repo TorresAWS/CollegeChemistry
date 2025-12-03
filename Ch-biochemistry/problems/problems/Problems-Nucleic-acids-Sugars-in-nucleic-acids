@@ -2,7 +2,7 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate whether the following nucleic acid is part of DNA or RNA.
 \begin{center}
-\setatomsep{2.5em}\chemfig[][scale=.65]{!{cytosinephosphate} }
+\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{cytosinephosphate} }
 \end{center}
 \end{question}\begin{solution}
 RNA
@@ -13,7 +13,7 @@ RNA
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Indicate whether the following nucleic acid is part of DNA or RNA.
 \begin{center}
-\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyuridinephosphate} }
+\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyuridinephosphate} }
 \end{center}
 \end{question}\begin{solution}
 DNA

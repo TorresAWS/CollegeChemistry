@@ -5,7 +5,7 @@ Give the structure of the wax resulting of mixing the following fatty acid and a
     \setpolymerdelim()\chemfig{CH_3 -[@{C,0.5}:0,1.5]CH_2 -[@{D,0.5}:0,1.5]-[:0,0.3]OH}\makebraces(12pt,12pt){$\scriptstyle\!\!10$}{C}{D}\hspace{0.3cm}and\hspace{0.3cm}\setpolymerdelim() \chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!3$}{A}{B}\makebraces(12pt,12pt){$\scriptstyle\!\!10$}{C}{D}
 \end{center}
 \end{question}\begin{solution}
- \setpolymerdelim()\chemfig[][scale=.65]{CH_3 -[@{C,0.5}:0,1.5]CH_2 -[@{D,0.5}:0,1.5]-[:0,1]O-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(9pt,9pt){$\scriptstyle\!\!10$}{A}{B}\makebraces(9pt,9pt){$\scriptstyle\!\!3$}{C}{D}
+ \setpolymerdelim()\setchemfig{scale=.65}\chemfig{CH_3 -[@{C,0.5}:0,1.5]CH_2 -[@{D,0.5}:0,1.5]-[:0,1]O-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(9pt,9pt){$\scriptstyle\!\!10$}{A}{B}\makebraces(9pt,9pt){$\scriptstyle\!\!3$}{C}{D}
  \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 

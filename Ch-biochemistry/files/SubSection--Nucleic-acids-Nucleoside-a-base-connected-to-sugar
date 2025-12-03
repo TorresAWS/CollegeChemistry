@@ -14,7 +14,7 @@ Nucleic acids are polymers. This means the are the result of the connection betw
 \end{center}
 Let us create a nucleoside. In order to do this, we need to select a sugar (for example DR) and a nucleic base (for example adenine). Both will combine be means of carbon number 1 of the sugar and eliminate a water molecule:
 \begin{center}\begin{tikzpicture}
-\node (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyadenosine}}};
+\node (a) at (0,0) {\setchemfig{atom sep=2.5 em,scale=.65}\chemfig{!{deoxyadenosine}}};
 \node (a.south east ) [xshift=0cm,yshift=-2cm]{\small \textcolor{blue}{Nucleoside (Sugar+Base)}};
 \end{tikzpicture}\end{center}
 
