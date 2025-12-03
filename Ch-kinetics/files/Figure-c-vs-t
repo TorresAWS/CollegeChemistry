@@ -31,10 +31,22 @@ mark=at position #1 with {\draw[tangent,shift={(0,1.60em-1.6em)}, rotate=-0] (-2
             tangent/.style={add node at x={#1}{},},
         ]
      	              
-            \addplot [thick,draw=blue!75!black, tangent at/.list={ 0.8 }]{0.1*exp(-2.9*x)};
-                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{0.1*exp(-2.9*x)};
+ %           \addplot [thick,draw=blue!75!black, tangent at/.list={ 0.8 }]{  0.1*exp(-2.9*x)   };
+  %          \addplot [thick,draw=blue!75!black, tangent at/.list={ 0.8 }]{0.1*exp(-2.9*x)};
+            \addplot [thick,draw=blue!75!black ]{0.1*exp(-2.9*x)};
+            \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{0.1*exp(-2.9*x)};
+\coordinate (A) at (0.6,{0.1*exp(-2.9*0.6)});
+
+            \draw[color=red] plot[only marks, mark=*] coordinates { (A)  } node [black,shift={(0em,0.5em)}]{$r$}      ;
+          \addplot[thick,draw=red,  samples=5,dashed,domain=0.53:0.67] { 0.1*-2.9*exp(-2.9*0.6)*x  +0.1*exp(-2.9*0.6)*(2.9*0.6+1) }      ;
+          %node[shift={(-2em,1em)}, red] (-0.1,0) {$r$} node[shift={(-4.4em,.3em)}, red] (-0.1,0) {\tiny $d$c} node[shift={(-2em,-.2em)}, red] (-0.1,0) {\tiny $d$t} ;
+\draw[ red ] ([shift={(-1.6em,0.5em)}]A) -- node [black,midway,shift={(-0.4em,0em)}] {\tiny $dc$}   ++(0,-1.0em) -- node [black,midway,shift={(0em,-0.3em)}] {\tiny $dt$} ++(3.1em,0em)       ;
+
+
+
 	 \draw[red] (6.4em,6em+0.8em) --++(0em,-3.5em+0.1em)--++(6.1em,0em ) -- cycle ;
 	 \node[shift={(8.5em,5.5em+0.7em)}] (0,0) {$\overline{r}$} node[shift={(5.5em,5em+0.7em)}] (0,0) {\tiny $\Delta c$} node[shift={(8.5em,2.0em+0.9em)}] (0,0) {\tiny $\Delta t$} node[green!75!black, shift={(23em,12em)}] (0,0) {\small Product} node[blue!75!black, shift={(23em,2em)}] (0,0) {\small Reactants} ; 
+	 
                 \addplot  [thick,draw=green!75!black]{0.1*(1-exp(-2.9*x))};
 	             \addplot  [green!75!black, mark=*,  draw=none , samples=5]{0.1*(1-exp(-2.9*x))}; 
 
