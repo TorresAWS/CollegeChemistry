@@ -5,7 +5,9 @@
 \chaptermark{ }  \chapterpicture{../\chapterlabel/figure1}\chapterpicturelabel{PxFuel}
 \addcontentsline{toc}{chapter}{\thechapter}
 \newgeometry{left=0.8in,right=0.6in, top=2cm,bottom=2cm,  marginparsep=8.2mm, marginparwidth=49.4mm, }
-\checkoddpage\ifoddpage    \else \clearpage\thispagestyle{empty}\mbox{}\clearpage
+\checkoddpage\ifoddpage   \clearpage\thispagestyle{empty}\mbox{}\clearpage \else   \fi 
+
+
 { \vbox{ \hbox{ \makebox[0pt][l]{ \hspace*{-2cm}\raisebox{-0.5cm}[0pt][0pt]{ \resizebox{18cm}{!}{\begin{tikzpicture}\coordinate (a) at (0,0);\path[fill overzoom image={\thechapterpicture}]   (-1cm,0) rectangle (15cm,10cm)  node[rotate=0, font=\tiny] at ([yshift=-0.5cm,xshift=15cm]a.south east) {\textsuperscript{\textcopyright} \thechapterpicturelabel}; \end{tikzpicture}}}} }}}
 {\Huge\sffamily\color{black}\thechapter \vspace*{0cm}}
 \pagestyle{fancy}
