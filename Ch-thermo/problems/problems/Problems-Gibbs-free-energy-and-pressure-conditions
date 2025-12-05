@@ -137,31 +137,52 @@ Many industrial processes require the use of hydrogen gas. Before the early 20th
 \midrule
  $S^{\circ}( J/molK)$&		197.674	&	&  188.825  & &	213.74    & & 130.684      \\
 \midrule
- $p( atm)$ (Conditions 1)&		1	&	&  1  & &	1     & & 1       \\
+ $p( atm)$ (Conditions 1)&		$10^{-5}$	&	&  $10^{-5}$  & &	$10^{5}$     & & $10^{5}$       \\
 \midrule
- $p( atm)$ (Conditions 2)&		1	&	&  1  & &	1000    & & 1000      \\
+ $p( atm)$ (Conditions 2)&		$10^{-1}$	&	&  $10^{-1}$  & &	$10^{1}$    & & $10^{1}$      \\
 \midrule
- $p( atm)$(Conditions 3)&		1	&	&  1  & &	100    & & 100      \\
+ $p( atm)$(Conditions 3)&		$10^{5}$	&	&  $10^{5}$  & &	$10^{-5}$    & &$10^{-5}$      \\
   \bottomrule
 \end{tabular} 
 \end{adjustbox} 
 \begin{inparaenum}[(a)]
-  \item      Calculate $\Delta G^{\circ}$ at 298K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 990K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 298K and pressure conditions 2. Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 298K and pressure conditions 3. Will this reaction proceed spontaneously?
-     \item Explain the change found in the last two questions.
-     \item What is the critical $Q_p$ value for this reaction at 298K.
+\item Is the reaction endergonic or exergonic?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 1. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 2. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 3. Will this reaction proceed spontaneously?
+\item Repeat the calculations for 100K and 500K and fill the table below interpretting the data.
 \end{inparaenum}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{Pressure}\\\hline
+&Conditions 1 & Conditions 2 & Conditions3 \\
+\hline
+100K&  &   &       \\\hline
+298K&  &   &       \\\hline
+500K&  &  &       \\
+\hline
+\end{tabular}
+\end{center}
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
- \item -28.6 KJ/mol; yes
- \item 0.5 KJ/mol; no
- \item 5.6KJ/mol; no
- \item $-$5.8KJ/mol; yes
-  \item Le chatelier, at very low product pressure you can favour the reaction.
-    \item $Q_{p,c}$=$1\times 10^{5}$. Only $Q_c$<$K_c$ favours spontaneity.\end{inparaenum}
+\item exergonic
+ \item -163 KJ/mol; yes
+ \item -1 KJ/mol; no
+ \item 106KJ/mol; no
+\item Increasing T disfavours spontaneity as the reaction is exergonic. Decreasing the pressure of products favours spontaneity.
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{4}{c}{Pressure}\\\hline
+&Conditions 1 & Conditions 2 & Conditions3 \\
+\hline
+100K&$+283$ &$+310$  &$324$      \\\hline
+298K& $-81$&$-1$  & $+39$     \\\hline
+500K&$-454$ &$-318$  &$-250$      \\
+\hline
+\end{tabular}
+    \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
 
 
@@ -182,32 +203,53 @@ Iron(III) oxide can be reduced with graphite to produce pure iron and carbon dio
 \midrule
  $S^{\circ}( J/molK)$&		87.4	&	&  5.74  & &	27.78    & & 213.74      \\
 \midrule
- $p( atm)$ (Conditions 1)&		1	&	&  --  & &	--    & & 1      \\
+ $p( atm)$ (Conditions 1)&		--	&	&  --  & &	--    & & $10^{-20}$      \\
 \midrule
- $p( atm)$ (Conditions 2)&		1	&	&  --  & &	--    & & $10^{-18}$      \\
+ $p( atm)$ (Conditions 2)&		--	&	&  --  & &	--    & & $10^{-16}$      \\
 \midrule
- $p( atm)$ (Conditions 3)&		1	&	&  --  & &	--    & & $10^{-19}$      \\
+ $p( atm)$ (Conditions 3)&		--	&	&  --  & &	--    & & $10^{-14}$      \\
 \midrule
 \bottomrule
 \end{tabular} 
 \end{adjustbox} 
 \begin{inparaenum}[(a)]
-  \item      Calculate $\Delta G^{\circ}$ at 298K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 990K and standard pressure conditions (Conditions 1). Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 298K and pressure conditions 2. Will this reaction proceed spontaneously?
-  \item      Calculate $\Delta G$ at 298K and pressure conditions 3. Will this reaction proceed spontaneously?
-   \item Explain the change found in the last two questions.
-     \item What is the critical $Q_p$ value for this reaction.
+\item Is the reaction endergonic or exergonic?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 1. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 2. Will this reaction proceed spontaneously?
+  \item      Calculate $\Delta G^{\circ}$ at 298K  and pressure conditions 3. Will this reaction proceed spontaneously?
+  \item Repeat the calculations for 100K and 500K and fill the table below interpretting the data.
 \end{inparaenum}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{Pressure}\\\hline
+&Conditions 1 & Conditions 2 & Conditions3 \\
+\hline
+100K&  &   &       \\\hline
+298K&  &   &       \\\hline
+500K&  &   &       \\
+\hline
+\end{tabular}
+\end{center}
+
 \end{question}
 \begin{solution}
  \begin{inparaenum}[(a)]
+ \item endergonic
  \item 322 KJ/mol; no
  \item $-$15.7 KJ/mol; yes
  \item 14.2KJ/mol; no
- \item $-$2.7KJ/mol; yes
-  \item Le chatelier, at very low product pressure you can favour the reaction. 
-      \item $K_c$=$3.6\times 10^{-57}$. Only $Q_c$<$K_c$ favours spontaneity.
+ \item Increasing T favours spontaneity as the reaction is endergonic. Decreasing the pressure of products favours spontaneity.
+ \begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{4}{c}{Pressure}\\\hline
+&Conditions 1 & Conditions 2 & Conditions3 \\
+\hline
+100K&$+283$ &$+310$  &$324$      \\\hline
+298K& $-81$&$-1$  & $+39$     \\\hline
+500K&$-454$ &$-318$  &$-250$      \\
+\hline
+\end{tabular}
       \end{inparaenum} 
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
 
