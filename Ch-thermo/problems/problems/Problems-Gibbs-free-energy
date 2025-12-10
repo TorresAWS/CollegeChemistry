@@ -1,9 +1,9 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate if the following compounds are stable with respect to its corresponding elements at standard conditions:
+Indicate if the following compounds are stable ($G^{\circ}_f$ in KJ/mol is given in parenthesis) with respect to its corresponding elements at standard conditions:
 \begin{inparaenum}[(a)]
-\item \ce{SbH3(g)} % no ($G^{\circ}_f>0$)
-\item \ce{AlF3(s)} % yes ($G^{\circ}_f<0$)
-\item \ce{B2H6(g)} % no ($G^{\circ}_f>0$)
+\item \ce{SbH3(g)}(147.7) % no ($G^{\circ}_f>0$)
+\item \ce{AlF3(s)}(-1425.1) % yes ($G^{\circ}_f<0$)
+\item \ce{B2H6(g)}(86.6) % no ($G^{\circ}_f>0$)
  \end{inparaenum}
 \end{question}
 \begin{solution}
@@ -16,11 +16,11 @@ Indicate if the following compounds are stable with respect to its corresponding
 
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate if the following compounds are stable with respect to its corresponding elements at standard conditions:
+Indicate if the following compounds are stable ($G^{\circ}_f$ in KJ/mol is given in parenthesis) with respect to its corresponding elements at standard conditions:
 \begin{inparaenum}[(a)]
-\item \ce{As2O5(s)} % yes ($G^{\circ}_f<0$)
-\item \ce{AsH3(g)} % no ($G^{\circ}_f>0$)
-\item \ce{BaCl2(s)} % yes ($G^{\circ}_f<0$)
+\item \ce{As2O5(s)}(-782.4) % yes ($G^{\circ}_f<0$)
+\item \ce{AsH3(g)}(68.9) % no ($G^{\circ}_f>0$)
+\item \ce{BaCl2(s)}(-810.4) % yes ($G^{\circ}_f<0$)
  \end{inparaenum}
 \end{question}
 \begin{solution}
