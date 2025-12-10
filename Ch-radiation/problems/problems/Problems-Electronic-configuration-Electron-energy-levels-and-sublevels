@@ -65,24 +65,25 @@ Match the following statements with:
 \vspace{-0.0cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Match the following statements with:
  \begin{inparaenum}[(1)]
-\item     have the same shape
 \item     can fit the same number of electrons
+\item     can fit the same number of electrons and have different shape
 \item     belong to the same energy level
-\item     can fit the same number of electrons
+\item     have different orientation 
 \end{inparaenum}
  \begin{inparaenum}[(a)]
-\item    4p and 3p orbitals 	%have the same shape and can fit the same number of electrons
-\item    three 3p orbitals 	%can fit the same number of electrons
+\item    4p$_x$ and 4p$_y$ orbitals 	%have different orientation 
+\item    1s and 3p orbitals 	%can fit the same number of electrons and have different shape
 \item    3d and 3s sublevels 	%belong to the same energy level
-\item    3p and 5p sublevels 	%can fit the same number of electrons
+\item    3p and 5p sublevels 	%can fit the same number of electrons 
 \end{inparaenum}
  \end{question}
 \begin{solution}
  \begin{inparaenum}[(a)]
-\item     have the same shape and can fit the same number of electrons
-\item     can fit the same number of electrons
-\item     belong to the same energy level
-\item     can fit the same number of electrons
+\item    have different orientation 
+\item    can fit the same number of electrons and have different shape
+\item    belong to the same energy level
+\item    can fit the same number of electrons 
+
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
@@ -136,18 +137,18 @@ Indicate the following:
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%PROBLEM
 \vspace{-0.0cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate the following:
+Indicate the following, remembering that an orbital is not the same as a sublevel:
  \begin{inparaenum}[(a)]
-\item    the maximum number of electrons in a 1s orbital  % 2 electrons
- \item    the maximum number of electrons in a 3d orbital  % 2 electrons
- \item    the maximum number of electrons in a 4f orbital  % 2 electrons
+\item    the maximum number of electrons in a 1s orbital and the maximum number of electrons in the 1s sublevel  % 2 electrons
+\item    the maximum number of electrons in a 3d orbital and the maximum number of electrons in the 3d sublevel  % 2 electrons
+\item    the maximum number of electrons in a 4f orbital and the maximum number of electrons in the 4f sublevel  % 2 electrons
 \end{inparaenum}
  \end{question}
 \begin{solution}
  \begin{inparaenum}[(a)]
-\item      2 electrons
- \item      2 electrons
- \item      2 electrons
+\item      2 electrons and 2 electrons
+\item      2 electrons and 10 electrons
+ \item      2 electrons and 14 electrons
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%PROBLEM
