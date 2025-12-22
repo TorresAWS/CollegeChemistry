@@ -106,10 +106,10 @@ Answer the following questions:
 
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-We add 5mL of a 0.01M \ce{AgNO3} solution to 15mL of a 0.01M \ce{KI} solution and a precipitate forms. Indicate the equilibrium concentration of silver and iodide ions given $K_{sp}(\ce{AgI})=8.52\times10^{-17}$.
+We add 5mL of a 0.01M \ce{AgNO3} solution to 15mL of a 0.01M \ce{KI} solution and a precipitate forms. Indicate the equilibrium concentration of silver and iodide ions given $K_{sp}(\ce{AgI})=8.52\times10^{-17}$, and the leftovers.
 \end{question}
 \begin{solution}
- both $1.7\times 10^{-14}$M.
+ both $1.7\times 10^{-14}$M for silver; $5\times 10^{-3}$M for iodide; leftovers 0.005M of iodie
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
