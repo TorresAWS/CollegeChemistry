@@ -14,13 +14,15 @@
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
  
- \import{\chapterpathtocontent\ChapterNameLabel/problems/}{examplebox1}
+% \import{\chapterpathtocontent\ChapterNameLabel/problems/}{examplebox1}
+\import{../LAB-\labname/}{examplebox1}
 
 
  \foreach \n in {Subsection-Nernst-equation-Concentration-cells}{
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
- \import{\chapterpathtocontent\ChapterNameLabel/problems/}{examplebox2}
+% \import{\chapterpathtocontent\ChapterNameLabel/problems/}{examplebox2}
+\import{../LAB-\labname/}{examplebox2}
  
 
  
