@@ -26,7 +26,8 @@
 \foreach \n in {SubSection-Half-life-of-a-radioisotope-The-concept-of-half-live,SubSection-Half-life-of-a-radioisotope-Quantifying-half-live,SubSection-Half-life-of-a-radioisotope-after-several-half-lives}{
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
-  \import{\labname/}{examplebox1}
+\import{../LAB-\labname/}{examplebox1}
+ % \import{\labname/}{examplebox1}
 
  
 
