@@ -19,7 +19,7 @@
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
 
- \import{\labname/}{examplebox}
+ \import{../LAB-\labname/}{examplebox}
 
 
 

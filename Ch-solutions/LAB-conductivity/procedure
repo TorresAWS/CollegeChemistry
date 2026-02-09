@@ -19,7 +19,10 @@
 \newstep[] It is critical to properly read the conductivity units from the conductimeter. Every solution would give a different conductivity value and sometimes a different unit. The conductivity units are written next to the measurement in the conductivity. It is critical you copy the measurement with the unit given by the tool.
  \end{steps}
 
- \import{\chapterlabel/}{goodlabpractice}
+% \import{\chapterlabel/}{goodlabpractice}
+ \import{../LAB-\labname/}{goodlabpractice}
+
+
 
  \subsection*{Part B. Pure substances.}
      \begin{steps}
@@ -78,7 +81,8 @@
  	\newstep[] In a clean 50 mL beaker, add 20 mL of 0.12 M \ce{NH3} and 20 mL of 0.12 M \ce{CH3COOH}. Use a Mohrs pipet to transfer the liquids, making sure you rinse with distilled water between transfers. Mix well and measure the conductivity. Recalculate the concentration after the dilution and write it down in the Results section, minding that both solutions have now the same concentration and therefore only one number needs to be listed.
 
 
- \import{\chapterlabel/}{cautionbox2}
+% \import{\chapterlabel/}{cautionbox2}
+ \import{../LAB-\labname/}{cautionbox2}
 
 
 

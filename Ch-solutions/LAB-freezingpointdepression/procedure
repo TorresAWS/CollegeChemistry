@@ -6,7 +6,8 @@
 	\newstep[] Put ice with some water in a 500 mL beaker and set it on the platform. This will be your cool bath. Water helps create a homogeneous bath.
 
 \end{steps}
-  \import{\chapterlabel/}{goodlabpractice}
+%  \import{\chapterlabel/}{goodlabpractice}
+\import{../LAB-\labname/}{goodlabpractice}
 
 \subsection*{Preparing a cyclohexane sample.}
 \begin{steps}
@@ -30,7 +31,7 @@
 	\newstep[] Now you will repeat the measurement one more time.
 	\newstep[] Lift the test tube with the clamp above the ice and allow the cyclohexane to melt. Avoid using your hands to accelerate the process. Before the cyclohexane gets to 15$^{\circ}$C get a second measurement by repeating the step above. 
 \end{steps}
-  \import{\chapterlabel/}{goodlabpractice2}
+\import{../LAB-\labname/}{goodlabpractice2}
 
 
 

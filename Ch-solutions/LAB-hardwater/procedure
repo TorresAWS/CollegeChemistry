@@ -4,7 +4,9 @@
 
 	\newstep[] Add enough 6 M HCl to cover the resin. By adding the acid, the resin is cleaned of metallic cations. To use the ion exchange resin, it must be clean, also known as "in \ce{H+} form".  
 
-  \import{isomers/}{cautionbox}
+%  \import{isomers/}{cautionbox}
+ \import{../LAB-\labname/}{cautionbox}
+
 
 	\newstep[] Now you are going to wash the acid away. After 2 minutes, add 200 mL of distilled water to the resin-acid mixture.  Allow the resin to settle in the bottom of the beaker.
 	\newstep[] Carefully, pour the liquid off (decant) into another beaker. This liquid is an HCl solution and should be handled and discarded as such.
