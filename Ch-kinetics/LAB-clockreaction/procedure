@@ -5,7 +5,7 @@
 and 3.
 	\newstep[] Read the Good Lab Practice box
 
-  \import{\chapterlabel/}{goodlabpractice}
+\import{../LAB-\labname/}{goodlabpractice}
 
 	\newstep[] Obtain about 25 mL \textbf{0.20 M \ce{NaI}} in a small beaker.
 	\newstep[] Clean and rinse the pipette with \ce{NaI}. Pipette 2.0 mL in test tube 1, 2.0 mL in test tube 2 
