@@ -54,7 +54,7 @@ Again, this reaction is not balanced. Iodine (\ce{I2}) is reduced back to iodide
 \foreach \n in {SubSection-Redox-reactions-Redox-means-oxidation-and-reduction,SubSection-Redox-reactions-Redox-numbers-in-chemical-reactions,SubSection-Redox-reactions-Balancing-simple-redox-reactions,SubSection-Redox-reactions-Balancing-redox-reactions-in-acidic-medium,SubSection-Redox-reactions-Balancing-redox-reactions-in-basic-medium}{
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
-\import{\labname/}{examplebox2}
+\import{../LAB-\labname/}{examplebox2}
 
  
 \renewcommand\ChapterNameLabel{Ch-acidbase}
