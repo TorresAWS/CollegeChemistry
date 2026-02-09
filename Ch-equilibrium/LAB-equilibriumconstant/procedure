@@ -6,7 +6,7 @@
 	\newstep[] In a clean 100 mL beaker, obtain about 100 mL of distilled water. Carefully add water to the volumetric flask directly from the beaker and stop adding before you reach the 100.0 mL mark. Use a plastic dropper to level the water to the mark, drop by drop. This is the diluted KSCN solution.
 	\newstep[] Rinse the Mohr pipette with the diluted solution of KSCN again.
 \end{steps}
-  \import{\chapterlabel/}{goodlabpractice}
+\import{../LAB-\labname/}{goodlabpractice}
 
 \subsection*{Part A. Determining Lambert-Beer's constant $k$. Preparing the mixtures}
 
@@ -46,7 +46,7 @@ Test Tube 5 &5.0 mL  & 5.0 mL     & 0.0 mL&10.0 mL  \\
 	\newstep[] Plot absorbance $\;\;\mycircled{7}\;\;$ vs. concentration $\;\;\mycircled{6}\;\;$ in order to obtain the Lambert-Beer's constant $k$.
 	\newstep[] Measure the absorbance of an unknown solution and use the linear regression ($A$/$k$) to obtain its concentration. 
         \newstep[] Do not proceed unless you show the instructor your graph. 
-   \import{\chapterlabel/}{goodlabpractice2}
+\import{../LAB-\labname/}{goodlabpractice2}
 
 \end{steps}
 

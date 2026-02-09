@@ -6,7 +6,7 @@
 \begin{steps}
 	\newstep[] Find 3 test tubes and a 100 mL beaker, clean them, and mark the test tubes with letters A, B, and R.
 	\newstep[] Read the Good Lab Practice box
-  \import{\chapterlabel/}{goodlabpractice}
+\import{../LAB-\labname/}{goodlabpractice}
 	\newstep[] Add about 20 mL of distilled water to the beaker, 20 drops of 0.1 M \ce{Fe(NO3)3} and 20 drops of 0.1 M \ce{KSCN}. Mixed the solution until the color is homogeneous. 
 	\newstep[] Use a 10 mL graduated cylinder to add 3 mL of the mixture to each of the test tubes.
 	\newstep[] Add 20 drops of 0.1 M \ce{Fe(NO3)3} to test tube A. Put a stopper and mix the solution.
