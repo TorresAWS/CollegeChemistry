@@ -46,7 +46,7 @@ Sample   \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{7}}& \multicolumn{10}
 
  \begin{center}\begin{tabular}{ |  p{2.0cm}|p{2.0cm}   |p{2.0cm}   | p{2.0cm} | p{2.0cm} |}
 \hline
-N (atoms)  &$t_{1/2}$ (s) & A  (cpm)    & \multicolumn{1}{c|}{$A\cdot N$}    & $N^2$\\
+\multicolumn{1}{|c|}{m (g)}  &A  (cpm) & \multicolumn{1}{c|}{ log($\frac{A}{m}$)     } & \multicolumn{1}{c|}{$  log(\frac{A}{m})   \cdot m$}    & $m^2$\\
 
 \multicolumn{1}{|c|}{ \mycircled{1}} &\multicolumn{1}{c|}{ \mycircled{8}}&\multicolumn{1}{c|}{\mycircled{2}}   &  \multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{2}}    &\multicolumn{1}{c|}{\mycircled{1}$\;\;\times\;\;$\mycircled{1}  } \\
 \hline
