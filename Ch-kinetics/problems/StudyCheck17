@@ -3,14 +3,14 @@ The following data was collected when studying an enzyme's activity at fixed PH 
 \begin{center}
 \begin{tabular}{   c|ccccccccc     }
 \toprule
-  $v_0$ (mM/s)	&  1.29&3.33&11.80&22.80&35.20&39.90&73.50&12.90 
+  $v_0$ (mM/s)	&  1.49&3.53&12.00&23.00&35.40&40.10&73.70&13.10 
  \\
   \midrule
 $[S]$ (M)&0.05 &0.10& 0.25& 0.50& 1.00& 2.50& 5.00& 8.00 \\
 \bottomrule
 \end{tabular}
 \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
- Answer: 0.070M/s and 0.073M/s.
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small
+ Answer:  $r_m$=12.31s/mM; $K_m$=386mM
  \end{flushright} }
                   

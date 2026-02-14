@@ -9,6 +9,6 @@ Calculate the average initial velocity and instantaneous initial velocity from t
 \bottomrule
 \end{tabular}
 \end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
  Answer: 0.070M/s and 0.073M/s.
  \end{flushright} }

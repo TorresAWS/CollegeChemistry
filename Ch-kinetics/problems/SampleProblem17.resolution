@@ -1,63 +1,46 @@
-By inspecting the data, we can see that only the four first data points change linearly with time. After 4 seconds, the concentration reaches a plateau. In order to calculate initial velocities, we will use only the first four data points. We can calculate the average initial velocity by doing
-\[   \overline{r_0}=\frac{0.14-0.40}{4-1}=-0.086 \text{M/s} \]
-We can calculate the instantaneous initial velocity $r_0$ by interpolating the data with a line. You can do this, for example, using the \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} web app. The equation of the line is:
- $c=-0.088\cdot t +0.5 $
-Hence, the instantaneous initial velocity
-\[    r_0= \frac{\text{d}c}{\text{d}t}=-0.086 \text{M/s} \]
+In order to adjust the Michaelis-Menten model, we will have to process the given data in order to obtain $1/r$ and $1/[S]$ as shown in the table below, where $1/r$ are expressed in s/mM and $1/[S]$ in $\times 10^{-3}$ mM$^{-1}$.
+\begin{center}
+\begin{tabular}{   c|cccccccc       }
+\toprule
+  $1/r$   &  0.39& 0.17&0.07&0.04  &0.02&0.01&0.01&$9.49\times 10^{-3}$ 
+ \\
+  \midrule
+$1/[S]$  &20 &10& $4$&2  &1& 0.4& 0.2& 0.125\\
+\bottomrule
+\end{tabular}
+\end{center} 
+Now, we can adjust a line to the data, knowing that $1/r$ would be the OY axis and $1/[S]$ the OX axis. The corresponding equations would be: 
+\[\frac{1}{r}=18.92\cdot \frac{1}{[S]}+7.34 \times 10^{-4}\] 
+We have that $\frac{K_m}{r_m}$ is 18.92s and $\frac{1}{r_m}$ is $7.34\times 10^{-4}$s/mM, with a $r^2$ value of 0.99. The graph follows a nice straight line, as shown in the image below. Therefore $r_m$ is 1363 s/mM and $K_m$ is 25776mM.
  \begin{center}
-\begin{minipage}[b]{1.0\linewidth}\hspace{3cm} \resizebox{10cm}{!}{
+\begin{minipage}[b]{1.0\linewidth}\hspace{1cm} \resizebox{8cm}{!}{
 \begin{tikzpicture}
  
      
- 
+ \begin{scope}[shift={(-0cm,0cm)}]
 
     \begin{axis}[
-      xmin=1,xmax=10,
+      xmin=0,xmax=0.02,
       ymin=0,ymax=0.4,
       line join=round,
       enlargelimits,width = 10cm,    
-    legend style={at={(rel axis cs: 1.2, 0.75)},anchor=north west},
-         xlabel={$t$(s) },
-    ylabel={$c$(M) }]
+%    legend style={at={(rel axis cs: 0, 0.75)},anchor=north west},
+         xlabel={[S]$^{-1}$(mM$^{-1}$) },
+    ylabel={r$^{-1}$(s/mM) }]
     ]
 \addplot [
 color=blue,
-solid,
+solid, only marks,
 forget plot,mark = square
-] coordinates {   (1,0.41)  (2,0.32) (3,0.23)(4,0.14)     (6,0.02) (7,0.01) (8,0.005)(9,0.004) (10,0.003) 
-
-      
-};
-\coordinate (pt) at (axis cs:2,0.3);
-
-\node [right,fontscale=0.05] at (axis cs:  1,0.41 ) {$(1,0.40) $};
-\node [right,fontscale=0.05] at (axis cs:  2,0.32 ) {$(2,0.33) $};
-\node [right,fontscale=0.05 ] at (axis cs: 3, 0.23) {$(3,0.23) $};
-\node [right,fontscale=0.05 ] at (axis cs: 4,0.14 ) {$(4,0.14) $};
-  
-
+] coordinates {   (0.02,0.39)  (0.01,0.17) (0.004,0.07)(0.002,0.04)     (0.001,0.02) (0.0004,0.01) (0.0002,0.01) (0.000125,0.0094) };
+\addplot [
+color=blue,
+solid,domain=0.000125:0.02] {18.92*x+0.000734}; 
 
 \end{axis}
 
-
-\node[pin={[pin distance=3cm]1:{%
-    \begin{tikzpicture}[trim axis left,trim axis right]
-    \begin{axis}[
-      xmin=0,xmax=4,
-      ymin=0,ymax=0.4,
-      line join=round,
-      enlargelimits,width = 5cm,height = 5cm,axis background/.style={fill=gray!10}
-    ]
-\addplot [
-color=blue,
-solid,
-forget plot,mark = square
-] coordinates { (1,0.41)  (2,0.32) (3,0.23)(4,0.14)   };  
-    \end{axis}
-    \end{tikzpicture}%
-}}] at (pt) [shift={(0,0)}] {};
- \node[ ] at (6.9,2.9) {$c=-0.09\cdot t +0.5$};
-
+ \node[ ] at (2.9,3.9) {$\frac{1}{r}=18.92\cdot \frac{1}{[S]}+7.34 \times 10^{-4}$};
+ \end{scope}
  
 \end{tikzpicture}
 

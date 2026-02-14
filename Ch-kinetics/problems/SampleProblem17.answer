@@ -1,9 +1,7 @@
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright}\hspace{-1cm} \mytriangleright{dgreen}\small
  Answer:
-\begin{inparaenum}[(a)]
-\item first four points
-\item reactant
-\item 0.086M/s 
-\item 0.088M/s 
-\end{inparaenum}
+ $r_m$=1363 s/mM; $K_m$=25776mM
+%\begin{inparaenum}[(a)]
+%\item first four points
+%\end{inparaenum}
  \end{flushright} }
