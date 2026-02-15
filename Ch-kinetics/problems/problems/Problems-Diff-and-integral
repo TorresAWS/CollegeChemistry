@@ -110,20 +110,30 @@ $r=0.52[A][B]$
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Use the data below to calculate the rate law:
+The following kinetic data were obtained from a series of three experiments, for a reaction  in which A and B are reactants. Initial concentrations (in M) and rates (in M$\cdot$ s$^{-1}$) are reported in the table below.
 \begin{center}\begin{tabular}[t]{  c c  c c  c  }
 \toprule
-Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
+Experiment	&$[A]_0$ &		$[B]_0$ 	&	$r_0$ \\
 \midrule
-1&	0.1&	0.02&	$1.03\times 10^{-3}$\\
-2&	0.1&	0.04&	$2.08\times 10^{-3}$\\
-3&	0.2&	0.01&	$1.04\times 10^{-3}$\\
-4&	0.4	&0.01	&$2.08\times 10^{-3}$\\
+1 &0.60 &0.30 &12.6\\
+2 &0.20 &0.30 &1.4\\
+3 &0.60 &0.10 &0.216\\
 \bottomrule
 \end{tabular}\end{center}
-\end{question}
+\begin{inparaenum}[(a)]
+\item   What is the order with respect to each reactant
+\item   What is the overall order of the reaction
+\item   Write the rate law for the reaction  showing the value and units of the rate constant.
+\item   Use the data to predict the reaction rate for a 4th Experiment in which [A]$_0$=0.17M and [B]$_0$=0.25M.
+\end{inparaenum}
+ \end{question}
 \begin{solution}
-$r=0.52[A][B]$
+\begin{inparaenum}[(a)]
+\item  A is order 2; B is order 4
+\item    6
+\item    $r_0$=4321[A]$^2$[B]$^4$; units of k $s^{-1}\cdot M^{-5}$
+\item    $r_0$=0.49 M$\cdot$ s$^{-1}$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 
