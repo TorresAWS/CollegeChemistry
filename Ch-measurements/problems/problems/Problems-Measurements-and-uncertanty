@@ -187,3 +187,86 @@ Compare the precision and accuracy of the following measurements:
 same accuracy, more precise (left), less precise (right)
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A student, Joe, measured the mass of a beaker measuring: 51.3, 55.6, 49.9, and 52.0g.   \noindent
+\begin{inparaenum}[(a)]
+\item Calculate the average mass % 52.2g
+\item Calculate the  standard deviation of the measurement %2.4g
+\item Report the measured mass  %$52.2g\pm2.4$
+\item A second student, Jane, measured the same beaker obtaining: 51.0, 55.6, 49.9, and 52.0g. Report the measured mass of this student. %$52.7g\pm4.7$
+\item Which student is more accurate and which is more precisse given that the listed mass of the beaker is 52.0g % Joe is more accurate and precisse
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   52.2g
+\item  2.4g
+\item  $52.2 g \pm 2.4g$
+\item    $52.7\pm 4.7g$
+\item   Joe is more accurate and precise
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A student, John, measured the mass of a pipette measuring: 3.49, 3.5, 2.00, 3.59, 3.74, and 3.85. \noindent
+\begin{inparaenum}[(a)]
+\item Calculate the average mass % 3.36g
+\item Calculate the  standard deviation of the measurement %0.68g
+\item Report the measured mass  %$3.36 \pm 2.4g$
+\item A second student, Jake, measured the same pipette obtaining: 3.47, 3.23, 3.55, 3.59, 3.58, and 3.55g. Report the measured mass of this student. %$3.49 \pm 0.14g$
+\item Which student is more accurate and which is more precisse given that the listed mass of the beaker is 3.41 g % John is more accurate jake more precisse
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   3.36g
+\item  0.68g
+\item  $3.36 \pm 2.4g$
+\item  $3.49 \pm 0.14g$
+\item   John is more accurate jake more precise
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A crucible is a ceramic or metal container in which metals or other substances may be melted or subjected to very high temperatures. Two students measure the mass of two crucibles, reporting $10.05 \pm 0.22$ g and $9.57 \pm 0.24$ g.
+   \noindent
+\begin{inparaenum}[(a)]
+\item Are they measuring the same beaker? Use qualitative statistical arguments. % no
+\item A third student reports another mass measurement as $10.06 \pm 0.12$g. Does this last measurement correspond to the measurement of any of the crucibles reported before? Use qualitative statistical arguments.% Yes, it is similar to the first measurement
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   no
+\item   yes, is similar to the first measurement
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A separatory funnel (or sep funnel) is a cone-shaped, glass laboratory apparatus with a top stopper and bottom stopcock, used for liquid-liquid extractions to separate immiscible liquids (e.g., oil and water) based on density. It works by allowing the denser liquid to settle at the bottom, which is then drained out, while the lighter liquid remains. Two students measure the mass of two sep funnels, reporting $120.00 \pm 0.10$ g and $120.50 \pm 1.00$ g.
+   \noindent
+\begin{inparaenum}[(a)]
+\item Are they measuring the same funnel? Use qualitative statistical arguments. % yes
+\item A third student reports another mass measurement as $120.40 \pm 0.60$ g. Does this last measurement correspond to the measurement of any of the crucibles reported before? Use qualitative statistical arguments. %The three measurements are similar
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   yes
+\item  The three measurements are similar
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+

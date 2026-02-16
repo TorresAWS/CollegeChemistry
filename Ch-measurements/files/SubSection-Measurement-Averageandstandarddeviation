@@ -6,4 +6,6 @@ The sample's standard deviation $\sigma$ provides estimates of the population va
 \[\sigma =\sqrt{ \frac{1}{n-1}\sum_i^n (x_i-\bar x)^2}\]  \label{formula1:3}
 The final value for measurement should be written as:
 \[x=\bar x \pm \sigma\] \label{formula1:4}
-notice that the standard deviation should have the same number of decimals as the average value. The standard deviation informs about the precision or dispersion of the measurement. Very small standard deviations correspond to precise measurements.
+notice that the standard deviation should have the same number of decimals as the average value. The standard deviation informs about the precision or dispersion of the measurement. Very small standard deviations correspond to precise measurements. 
+
+By presenting measurements in the form $\bar x \pm \sigma$, we establish an interval $[\bar-\sigma,\bar+\sigma]$ that cualitatively allow us to compare two measurements. When these intervals overlap for two different measurements, it means that qualitatively, both measurements are similar. We call this to \emph{qualitatively compare two measurements}. We could further use advanced statistical tools to quantitatively compare measurements with a certain significance. We would call this to \emph{quantitatively compare two measurements}. 
