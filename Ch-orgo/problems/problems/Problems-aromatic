@@ -61,7 +61,7 @@ Name or formulate the following aromatic derivatives, using both the standard an
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Name or formulate the following aromatic derivatives, using both the standard and the orto, meta and para nomenclature:
+Name or formulate the following aromatic derivatives, using both the standard and the orto, meta and para nomenclature if applies:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{**6(-(-I)---(-I)--)}  }; % para
 \node at (0,-1.6)  {\textcolor{black}{(a)  }};
