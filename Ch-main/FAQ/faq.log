@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 FEB 2026 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 FEB 2026 13:37
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **faq.tex
 (./faq.tex
@@ -55,7 +54,7 @@ Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -83,10 +82,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "faq.w18")...executed.
 
- (./faq.w18)
-runsystem(rm -- "faq.w18")...executed.
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
 
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -3289,7 +3287,35 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file faq.aux.
+(./faq.aux
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+
+LaTeX Warning: Label `change-title' multiply defined.
+
+)
 \openout1 = `faq.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5848.
@@ -3311,8 +3337,10 @@ LaTeX Font Info:    ... okay on input line 5848.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5848.
 LaTeX Font Info:    ... okay on input line 5848.
 Package hyperref Info: Link coloring ON on input line 5848.
+ (./faq.out) (./faq.out)
 \@outlinefile=\write11
 \openout11 = `faq.out'.
+
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -3576,33 +3604,27 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `faq.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `faq.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `faq.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 84179 strings out of 473190
- 1978343 string characters out of 34465801
- 3029393 words of memory out of 7000000
- 105657 multiletter control sequences out of 15000+600000
- 608254 words of font info for 145 fonts, out of 8000000 for 9000
+ 84190 strings out of 473190
+ 1978477 string characters out of 34465801
+ 3029372 words of memory out of 7000000
+ 105659 multiletter control sequences out of 15000+600000
+ 608413 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,117p,1171b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on faq.pdf (4 pages, 91336 bytes).
+Output written on faq.pdf (4 pages, 92256 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  27525 words of extra memory for PDF output out of 29859 (max. 10000000)
 
