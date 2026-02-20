@@ -11,7 +11,6 @@
  %%% TEST
  %%%%%%%%%%%%%%%%%%PAGE SIZE%%%%%%
 \newenvironment{problempage}{ left=0.1in,right=0.1in, top=2.5cm,bottom=2cm  }{\par}
-\usepackage{spath}
 \usepackage{paralist}
 \usepackage{graphicx}
 \usepackage{mathpazo}
@@ -47,6 +46,7 @@
 
 \usepackage{movie15}
 \usepackage{hyperref}
+\usepackage{spath}
 %\hypersetup{colorlinks,linkcolor={black},citecolor={black},urlcolor={black}}  
 \hypersetup{colorlinks,linkcolor={black}}
 
