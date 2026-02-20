@@ -143,11 +143,11 @@ Name or formulate the following compound:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Name or formulate the following compound:
    \begin{center}
-         \chemfig{ H-[:45]((=[:90]O)((-[:-45]OH)))  }    
+         \chemfig{ -[:45]((=[:90]O)((-[:-45]OH)))  }    
    \end{center}
  \end{question}
 \begin{solution}
-        %ethanoic acid (acetyc acid) 
+        ethanoic acid (acetyc acid) 
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
   %%%%%%%PROBLEM
