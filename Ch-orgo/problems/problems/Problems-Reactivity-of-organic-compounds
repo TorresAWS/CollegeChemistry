@@ -81,7 +81,7 @@ Complete the following reaction:
 \begin{center}\ce{CH2=CH2 + Cl2 ->[][]  }\end{center}
 \end{question}
 \begin{solution}
-\ce{CH2=CH2 + Cl2 ->[][] CH2Cl-CH2Cll }
+\ce{CH2=CH2 + Cl2 ->[][] CH2Cl-CH2Cl }
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
@@ -94,7 +94,7 @@ Complete the following reaction:
  \end{center}
 \end{question}
 \begin{solution}
-\chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]OH))  }
+\chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]H))  }
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
@@ -162,7 +162,7 @@ $+$&
 How would you synthesize the following compounds:
 \begin{inparaenum}[(a)]
 \item phenylmethanal %you would partially oxidize  phenylmethanol
-\item 1,2-dicbromopropane from propane %you would use bromine
+\item 1,2-dibromopropane from propane %you would use bromine
 \item hexanal   %you would partially oxidize hexanol
 \end{inparaenum}
 \end{question}
