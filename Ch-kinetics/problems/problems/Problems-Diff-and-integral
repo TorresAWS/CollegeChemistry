@@ -432,7 +432,7 @@ Using the following data, calculate the order and rate constant and write down t
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the rate law for the following reaction using the given data:
+Calculate the rate law for the following reaction using the given data, indicating the order, the rate constant as well as the initial conditions:
 \ce{2ClO2 +  2I^- -> 2ClO2^-    +  I2}
 \begin{center}\begin{tabular}[t]{   c  c   }
 \toprule
@@ -450,7 +450,7 @@ Calculate the rate law for the following reaction using the given data:
 \end{tabular}\end{center}
 \end{question}
 \begin{solution}
- $r=0.098[\ce{ClO2}]$, [\ce{ClO2}]$_0$=$4.5\times 10^{-4}$M
+ $r=0.098[\ce{ClO2}]$, [\ce{ClO2}]$_0$=$4.5\times 10^{-4}$M; order one
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
