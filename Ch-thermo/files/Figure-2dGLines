@@ -1,0 +1,32 @@
+ \pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
+\newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-2dGLines}
+ \begin{fullwidth}
+\begin{minipage}[b]{1.\linewidth}\resizebox{0.9\textwidth}{!}{
+
+\begin{tikzpicture}
+\begin{scope}[shift={(0cm,0cm)},rotate=00]
+  \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
+\addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};
+\addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (30*1000+50*y + 8.314*2.30*y*x) / 1000;  };
+\addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
+\addplot[no markers ] coordinates {(500,3)} node { \newcircled{a}}; \draw [-stealth] (550,3) --  (750,3);
+\addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
+\end{axis}\end{scope} 
+
+\begin{scope}[shift={(9cm,0cm)},rotate=00]
+  \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
+\addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(-30*1000+50*y + 8.314*2.30*y*x) / 1000};
+\addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (-30*1000+50*y + 8.314*2.30*y*x) / 1000;  };
+\addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
+\addplot[no markers ] coordinates {(500,3)} node { \newcircled{a}}; \draw [-stealth] (550,3) --  (750,3);
+\addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
+\end{axis}\end{scope} 
+
+\begin{scope}[shift={(7cm,-4cm)},rotate=00]
+ \node[text width=16cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dGLines} \end{bf} Gibbs free energy 3D plot displaying contour lines for different pressure and temperature conditions for an endergonic (Left Panel) and an exergonic (Right Panel) reaction. The star sign indicated the standard pressure and temperature conditions. The reaction on the left is non-spontaneous under the conditions labeled as \emph{a} on the left panel ($\Delta G_R>0$), whereas the reaction on the right is spontaneous under the same conditions ($\Delta G_R<0$). Increasing the temperature until reaching the conditions labeled as \emph{b} does not affect the spontaneity of the reaction on the left, whereas it impedes the reaction on the right, which is now non-spontaneous under b conditions ($\Delta G_R>0$).
+ };
+\end{scope}
+
+\end{tikzpicture}
+ }\end{minipage}\end{fullwidth}

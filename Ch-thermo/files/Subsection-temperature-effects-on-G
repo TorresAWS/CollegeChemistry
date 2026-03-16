@@ -1,4 +1,17 @@
-Gibbs free energy deppends on temperature. We have addressed differences between standard and equilibrium pressure conditions. Let us now address the impact of temperature, as $\Delta G_R(P, T)$. On one hand, for reactions in which $K_c$ is larger than one (exergonic reactions in standard conditions), increasing temperature will favour spontaneity, as $\Delta G_R(P, T)$ overall increases with temperature. 
+The deppendence of Gibbs free energy $\Delta G_R(P, T)$ with temperature is displayed on Figure \ref{Fig:Figure-2dGLines}. 
+Let us describe how $\Delta G_R$ isolines changes on Figure \ref{Fig:Figure-2dGLines}.
+For low temperatures, on the left side of each plot in Figure \ref{Fig:Figure-2dGLines}, isolines curve while $\Delta G_R$ increases.
+For high temperatures, on the right side of each plot in Figure \ref{Fig:Figure-2dGLines}, the impact of temperature is minimal and isolines becomes flat.
+For some of the $\Delta G_R$, the ones on top of the OLog$Q_c$ axis, isolines decrease with temperature, which means that when temperature increases the amount of product over reactants decreases, hence favouring reactants. The isolines on the bottom of the OLog$Q_c$ axis decrease with temperature, which means that when temperature increases the amount of product over reactants increases, hence favouring products.
+The isoline located on the OLog$Q_c$ axis does not change with temperature. This important isoline is a isobar, as pressure is contants along the line. Along the isobar that temperature has no impact on $Q_c$ and hence on the reaction. For an isobar:
+\[ \Delta G_R\text{(isobar)}=\Delta H^{\circ} \]
+which means that the isoline $\Delta G_R$ value corresponds to $\Delta H^{\circ}$. Therefore, the isobar helps visiually identify the thermic. Isobars corresponding to negative $\Delta G_R$ values result from exothermic reactions, wheras endothermic reactions result from isobars corresponding to positive $\Delta G_R$ values. For example,  the reacion depictured in Figure \ref{Fig:Figure-2dGLines} (Left panel) is endothermic, with $\Delta H^{\circ}$=+30KJ$\cdot$mol$^{-1}$, whereas the reacion depictured in Figure \ref{Fig:Figure-2dGLines} (Rightpanel) is exothermic, with $\Delta H^{\circ}$=-30KJ$\cdot$mol$^{-1}$.
+
+
+
+
+
+We have addressed differences between standard and equilibrium pressure conditions. Let us now address the impact of temperature, as $\Delta G_R(P, T)$. On one hand, for reactions in which $K_c$ is larger than one (exergonic reactions in standard conditions), increasing temperature will favour spontaneity, as $\Delta G_R(P, T)$ overall increases with temperature. 
 On the other hand, for reactions in which $K_c$ is smaller than one (endergonic reactions in standard conditions), increasing temperature will disfavour spontaneity, hence decreasing $\Delta G_R(P, T)$.
 
 

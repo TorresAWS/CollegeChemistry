@@ -1,33 +1,287 @@
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-2dG}
 
-%\begin{fullwidth}
+
+            
+            
+            
+\colorlet{odd plane}{black!20}
+\colorlet{even plane}{black!20}
+\def\ballradius{0.45}
+
+
+\def\DrawRow#1#2{
+    \foreach \x in {0,...,#2}
+       \shade[ball color=ball] ($(#1) +(\x, 0,0)$) circle(\ballradius);
+}
+\def\DrawOddPlane#1{ 
+  \pgfmathsetmacro{\aux}{#1-1}
+  \colorlet{ball}{odd plane}
+  \foreach \z in {0,...,#1} {
+      \DrawRow{0,0,\z}{#1}
+      \if\z#1\relax\else
+      \DrawRow{0.5,0,\z+0.5}{\aux}
+      \fi
+  }
+}
+\def\DrawEvenPlane#1{ 
+  \pgfmathsetmacro{\aux}{#1-1}
+  \colorlet{ball}{even plane}
+  \foreach \z in {0,...,#1} {
+      \DrawRow{0.5,0,\z}{\aux}
+      \if\z#1\relax\else
+      \DrawRow{0,0,\z+0.5}{#1}
+      \fi
+  }
+}
+
+
+
+\newsavebox{\EndothermicTopLeft}
+\savebox{\EndothermicTopLeft}{%
+  \resizebox{4cm}{!}{\begin{tikzpicture}[baseline,trim axis left,trim axis right ]   
+    \begin{axis}[clip=false,
+        tiny,
+      xlabel={T (K)},
+      ylabel={$\Delta G_R$   },
+      xmin=100,xmax=999,
+      ymin=-100,ymax=200,ytick={0},
+       xtick distance={400},xlabel style={yshift=0.3cm,xshift=0.1cm},ylabel style={yshift=-0.4cm,xshift=0.2cm}
+    ]
+         \draw[ultra thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},0) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},0);
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black  ]    { (30*1000+50*x + 8.314*2.30*x*5)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black  ]    { (30*1000+50*x + 8.314*2.30*x*0)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark= ,black,name path=A ]    { (30*1000+50*x + 8.314*2.30*x*-5)/1000}  ;
+     \addplot+ [domain=100:909,samples=10, dashed,smooth,mark= ,black ]    { (30*1000+50*x + 8.314*2.30*x*-10)/1000}  ;
+        \path [name path=B]  (\pgfkeysvalueof{/pgfplots/xmin},\pgfkeysvalueof{/pgfplots/ymin}) --  (\pgfkeysvalueof{/pgfplots/xmax},\pgfkeysvalueof{/pgfplots/ymin});   \addplot [green] fill between [  of=A and B,   soft clip={domain=400:900}, ];
+
+
+     \addplot[mark=*,mark size=1pt] coordinates {(400,13)}; \draw[black, solid] (400,13) -- (400,200) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R>0$};
+          \addplot[mark=*,mark size=1pt] coordinates {(900,-9)}; \draw[black, solid] (900,-9) -- (900,200) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R<0$};
+      \node      at (1150,180)      {\tiny Log$Q_c$};
+      \node      at (1050,150)      {\tiny  5};
+      \node      at (1050,70)      {\tiny  0};
+      \node      at (1050,-30)      {\tiny  -5};
+      \node      at (1050,-110)      {\tiny  -10};
+    \end{axis} 
+    \end{tikzpicture} }
+}
+
+
+ \newsavebox{\EndothermicTopRight}
+\savebox{\EndothermicTopRight}{%
+  \resizebox{4cm}{!}{\begin{tikzpicture}[baseline,trim axis left,trim axis right ]   
+    \begin{axis}[clip=false,
+        tiny,
+      xlabel={T (K)},
+      ylabel={$\Delta G_R$   },
+      xmin=100,xmax=999,
+      ymin=-150,ymax=150,ytick={0},
+       xtick distance={400},xlabel style={yshift=0.3cm,xshift=0.1cm},ylabel style={yshift=-0.4cm,xshift=0.7cm}
+    ]
+         \draw[ultra thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},0) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},0);
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black  ]    { (-30*1000+50*x + 8.314*2.30*x*5)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black,name path=C  ]    { (-30*1000+50*x + 8.314*2.30*x*0)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark= ,black ]    { (-30*1000+50*x + 8.314*2.30*x*-5)/1000}  ;
+     \addplot+ [domain=100:809,samples=10, dashed,smooth,mark= ,black ]    { (-30*1000+50*x + 8.314*2.30*x*-10)/1000}  ;
+             \path [name path=D]  (\pgfkeysvalueof{/pgfplots/xmin},\pgfkeysvalueof{/pgfplots/ymin}) --  (\pgfkeysvalueof{/pgfplots/xmax},\pgfkeysvalueof{/pgfplots/ymin});   \addplot [green] fill between [  of=C and D,   soft clip={domain=400:900}, ];
+
+     \addplot[mark=*,mark size=1pt] coordinates {(400,-9)}; \draw[black, solid] (400,-9) -- (400,150) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R<0$};
+          \addplot[mark=*,mark size=1pt] coordinates {(900,15)}; \draw[black, solid] (900,15) -- (900,150) node[right, shift={(-0.5cm,+0.2cm)}] {\tiny $\Delta G_R>0$};
+      \node      at (1150,150)      {\tiny Log$Q_c$};
+      \node      at (1050,120)      {\tiny  5};
+      \node      at (1050,40)      {\tiny  0};
+      \node      at (1050,-70)      {\tiny  -5};
+      \node      at (1050,-140)      {\tiny  -10};
+    \end{axis} 
+    \end{tikzpicture} }
+}
+
+
+
+\newsavebox{\EndothermicBottomLeft}
+\savebox{\EndothermicBottomLeft}{%
+  \resizebox{4cm}{!}{\begin{tikzpicture}[baseline,trim axis left,trim axis right ]   
+    \begin{axis}[clip=false,
+        tiny,
+      xlabel={T (K)},
+      ylabel={$\Delta G_R$   },
+      xmin=100,xmax=999,
+      ymin=-100,ymax=200,ytick={0},
+       xtick distance={400},xlabel style={yshift=0.3cm,xshift=0.1cm},ylabel style={yshift=-0.4cm,xshift=0.2cm}
+    ]
+         \draw[ultra thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},0) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},0);
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black  ]    { (30*1000-50*x + 8.314*2.30*x*5)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black,name path=E  ]    { (30*1000-50*x + 8.314*2.30*x*0)/1000}  ;
+     \addplot+ [domain=100:900,samples=10, dashed,smooth,mark= ,black ]    { (30*1000-50*x + 8.314*2.30*x*-5)/1000}  ;
+     \addplot+ [domain=100:500,samples=10, dashed,smooth,mark= ,black ]    { (30*1000-50*x + 8.314*2.30*x*-10)/1000}  ;
+        \path [name path=F]  (\pgfkeysvalueof{/pgfplots/xmin},\pgfkeysvalueof{/pgfplots/ymin}) --  (\pgfkeysvalueof{/pgfplots/xmax},\pgfkeysvalueof{/pgfplots/ymin});   \addplot [green] fill between [  of=E and F,   soft clip={domain=400:900}, ];
+
+
+     \addplot[mark=*,mark size=1pt] coordinates {(400,13)}; \draw[black, solid] (400,13) -- (400,200) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R>0$};
+          \addplot[mark=*,mark size=1pt] coordinates {(900,-9)}; \draw[black, solid] (900,-9) -- (900,200) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R<0$};
+      \node      at (1150,180)      {\tiny Log$Q_c$};
+      \node      at (1050,70)      {\tiny  5};
+      \node      at (1050,-30)      {\tiny  0};
+      \node      at (1050,-110)      {\tiny  -5};
+    \end{axis} 
+    \end{tikzpicture} }
+}
+
+
+
+
+ \newsavebox{\EndothermicBottomRight}
+\savebox{\EndothermicBottomRight}{%
+  \resizebox{4cm}{!}{\begin{tikzpicture}[baseline,trim axis left,trim axis right ]   
+    \begin{axis}[clip=false,
+        tiny,
+      xlabel={T (K)},
+      ylabel={$\Delta G_R$   },
+      xmin=100,xmax=999,
+      ymin=-150,ymax=150,ytick={0},
+       xtick distance={400},xlabel style={yshift=0.3cm,xshift=0.1cm},ylabel style={yshift=-0.4cm,xshift=0.7cm}
+    ]
+         \draw[ultra thin] (axis cs:\pgfkeysvalueof{/pgfplots/xmin},0) -- (axis cs:\pgfkeysvalueof{/pgfplots/xmax},0);
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black,name path=G   ]    { (-30*1000-50*x + 8.314*2.30*x*5)/1000}  ;
+     \addplot+ [domain=100:999,samples=10, dashed,smooth,mark=,black ]    { (-30*1000-50*x + 8.314*2.30*x*0)/1000}  ;
+     \addplot+ [domain=100:900,samples=10, dashed,smooth,mark= ,black ]    { (-30*1000-50*x + 8.314*2.30*x*-5)/1000}  ;
+     \addplot+ [domain=100:500,samples=10, dashed,smooth,mark= ,black ]    { (-30*1000-50*x + 8.314*2.30*x*-10)/1000}  ;
+             \path [name path=H]  (\pgfkeysvalueof{/pgfplots/xmin},\pgfkeysvalueof{/pgfplots/ymin}) --  (\pgfkeysvalueof{/pgfplots/xmax},\pgfkeysvalueof{/pgfplots/ymin});   \addplot [green] fill between [  of=G and H,   soft clip={domain=400:900}, ];
+
+     \addplot[mark=*,mark size=1pt] coordinates {(400,-9)}; \draw[black, solid] (400,-9) -- (400,150) node[right, shift={(-0.5cm,0.2cm)}] {\tiny $\Delta G_R<0$};
+          \addplot[mark=*,mark size=1pt] coordinates {(900,15)}; \draw[black, solid] (900,15) -- (900,150) node[right, shift={(-0.5cm,+0.2cm)}] {\tiny $\Delta G_R>0$};
+      \node      at (1150,150)      {\tiny Log$Q_c$};
+      \node      at (1050,40)      {\tiny  5};
+      \node      at (1050,-70)      {\tiny  0};
+      \node      at (1050,-140)      {\tiny  -5};
+    \end{axis} 
+    \end{tikzpicture} }
+}
+
+
+
+
+
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-2dG}
+ \begin{fullwidth}
 \begin{minipage}[b]{1.\linewidth}\resizebox{0.9\textwidth}{!}{
 
 
+  \usetikzlibrary{calc, backgrounds}
 
 
 \begin{tikzpicture}
-\begin{scope}[shift={(-00cm,0)},rotate=00]
-  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=300:600,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm ]
-    \addplot3 [surf,samples=51,miter limit=1,domain=100:500,y domain=-10:+10] {(467*1000+50*y + 8.314*2.30*y*x) / 1000};
-   \addplot3+ [only marks] coordinates {(298,0,472)};
-   \path [draw,->>] (298,0,472)-- (298,-5,472);
-   \path [draw,->>] (298,0,472)-- (300,0,472);
+\begin{scope}[shift={(-5cm,0)},rotate=00]
+  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-500:500,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=500:999,restrict y to domain=-15:+15,point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm}]
+           \addplot3  [data cs=cart,surf,domain=500:999,y domain=-15:+15,samples=2, opacity=0.5] {0};
+    \addplot3 [surf,samples=51,miter limit=1,domain=500:1900,y domain=-15:+15] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};
+     \addplot3 [domain=500:999,samples=5, thick, thick,dotted, black,samples y=1 ](\x, {(-30*1000/\x-50)/8.314/2.30} , 0);
+%   \addplot3+ [only marks] coordinates {(298,0,472)};
+   \path [draw,->>,thick,dotted, black] (999,-4,0)-- (999,-4,-500) node[pos=0.5, shift={(-0.1cm,0cm)}, fill=white] {\large Log$K_p$};
+%   \path [draw,->>] (298,0,472)-- (300,0,472);
+  \end{axis}
+  \end{scope}
+  \begin{scope}[shift={(2cm,10cm)},rotate=00]
+  \coordinate (spy point) at (0em,-9em);
+\coordinate (magnifying glass) at (0em,5em);
+\node [draw=none, shape=circle, inner sep=3.5em]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2  ] (spy point) to [bend left=45] (a.south) -- (a.west)  to [bend right=45]  (spy point) -- cycle;
+\node  [draw,fill={white} , rectangle,minimum width=6cm, minimum height=3cm ]  (c) at (magnifying glass) {\usebox{\EndothermicTopLeft}} node[yshift=0.5em] at (c.north) {$\Delta H^{\circ}>0$, $\Delta S^{\circ}<0$, $\Delta G^{\circ}>0$, Log$K_p$=$-$4};
+  \end{scope}
+  
+  
+  
+  
+ 
 
+
+\begin{scope}[shift={(7cm,0)},rotate=00]
+  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-500:500,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=500:999,restrict y to domain=-15:+15,point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm}  ]
+           \addplot3  [data cs=cart,surf,domain=500:999,y domain=-15:+15,samples=2, opacity=0.5] {0};
+    \addplot3 [surf,samples=51,miter limit=1,domain=500:999,y domain=-15:+15] {(-30*1000+50*y + 8.314*2.30*y*x) / 1000};
+     \addplot3 [domain=500:999,samples=5, thick, thick,dotted, black,samples y=1  ](\x, {(+30*1000/\x-50)/8.314/2.30} , 0);
+    \path [draw,->>,thick,dotted, black] (999,-1,0)-- (999,-1,-500) node[pos=0.5, shift={(0.1cm,0cm)}, fill=white] {\large Log$K_p$};
+  \end{axis}
+  \end{scope}
+  \begin{scope}[shift={(14cm,10cm)},rotate=00]
+  \coordinate (spy point) at (0em,-9em);
+\coordinate (magnifying glass) at (0em,5em);
+\node [draw=none, shape=circle, inner sep=3.5em]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2  ] (spy point) to [bend left=45] (a.south) -- (a.west)  to [bend right=45]  (spy point) -- cycle;
+\node  [draw,fill={white} , rectangle,minimum width=6cm, minimum height=3cm ]  (c) at (magnifying glass) {\usebox{\EndothermicTopRight}} node[yshift=0.5em] at (c.north) {$\Delta H^{\circ}<0$, $\Delta S^{\circ}<0$, $\Delta G^{\circ}<0$, Log$K_p$=$-$1};
+  \end{scope}
+  
+  
+  
+
+\begin{scope}[shift={(-5cm,-18cm)},rotate=00]
+  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-500:500,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=500:999,restrict y to domain=-15:+15,point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm} ]
+             \addplot3  [data cs=cart,surf,domain=500:999,y domain=-15:+15,samples=2, opacity=0.5] {0};
+    \addplot3 [surf,samples=51,miter limit=1,domain=500:999,y domain=-15:+15] {(30*1000-50*y + 8.314*2.30*y*x) / 1000};
+     \addplot3 [domain=500:999,samples=5, thick, thick,dotted, black,samples y=1  ](\x, {(-30*1000/\x+50)/8.314/2.30} , 0);
+    \path [draw,->>,thick,dotted, black] (999,1,0)-- (999,1,-500) node[pos=0.5, shift={(-0.1cm,0cm)}, fill=white] {\large Log$K_p$};
 
   \end{axis}
-\end{scope}
-%\begin{scope}[shift={(0cm,0)},rotate=00]
-%  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-600:-300,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm ]
-%    \addplot3 [surf,samples=51,miter limit=1,domain=100:500,y domain=-10:+10] {(-467*1000-50*y + 8.314*2.30*y*x) / 1000};
-%  \end{axis}
-%\end{scope}
+  
+  \end{scope}
+  \begin{scope}[shift={(2cm,-8cm)},rotate=00]
+  \coordinate (spy point) at (0em,-9em);
+\coordinate (magnifying glass) at (0em,5em);
+\node [draw=none, shape=circle, inner sep=3.5em]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2  ] (spy point) to [bend left=45] (a.south) -- (a.west)  to [bend right=45]  (spy point) -- cycle;
+\node  [draw,fill={white} , rectangle,minimum width=6cm, minimum height=3cm ]  (c) at (magnifying glass) {\usebox{\EndothermicBottomLeft}} node[yshift=0.5em] at (c.north) {$\Delta H^{\circ}>0$, $\Delta S^{\circ}>0$, $\Delta G^{\circ}>0$, Log$K_p$=$+$1};
+  \end{scope}
+  
+  
+  
+\begin{scope}[shift={(7cm,-18cm)},rotate=00]
+  \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-500:500,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=500:999,restrict y to domain=-15:+15,point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm} ]
+             \addplot3  [data cs=cart,surf,domain=500:999,y domain=-15:+15,samples=2, opacity=0.5] {0};
+    \addplot3 [surf,samples=51,miter limit=1,domain=500:999,y domain=-15:+15] {(-30*1000-50*y + 8.314*2.30*y*x) / 1000};
+      \addplot3 [domain=500:999,samples=5, thick, thick,dotted, black,samples y=1  ](\x, {(+30*1000/\x+50)/8.314/2.30} , 0);
+    \path [draw,->>,thick,dotted, black] (999,4,0)-- (999,4,-500) node[pos=0.5, shift={(-0.1cm,0cm)}, fill=white] {\large Log$K_p$};
 
-\begin{scope}[shift={(0cm,-2cm)},rotate=00]
- \node[text width=10cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dG} \end{bf} Gibbs free energy 3D plot for an endergonic (left) and exergonic (right) reaction };
+  \end{axis}
+  \end{scope}
+  \begin{scope}[shift={(14cm,-8cm)},rotate=00]
+  \coordinate (spy point) at (0em,-9em);
+\coordinate (magnifying glass) at (0em,5em);
+\node [draw=none, shape=circle, inner sep=3.5em]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2  ] (spy point) to [bend left=45] (a.south) -- (a.west)  to [bend right=45]  (spy point) -- cycle;
+\node  [draw,fill={white} , rectangle,minimum width=6cm, minimum height=3cm ]  (c) at (magnifying glass) {\usebox{\EndothermicBottomRight}} node[yshift=0.5em] at (c.north) {$\Delta H^{\circ}<0$, $\Delta S^{\circ}>0$, $\Delta G^{\circ}<0$, Log$K_p$=$+$4};
+  \end{scope}
+
+
+
+\begin{scope}[shift={(5cm,-11cm)},rotate=00]
+\node[text width=8cm] at (-5,10) {\mytriangleup{red}{\small An endothermic reaction with entropy consumption ($\Delta H^{\circ}=+30\text{KJ}\cdot \text{mol}^{-1}$, $\Delta S^{\circ}=-50\text{J}\cdot \text{mol}^{-1}\cdot \text{K}^{-1}$, Log$K_p$=$-$4)}};
+\node[text width=8cm] at (5,10) {\mytriangleup{red}{\small An exothermic reaction with entropy consumption ($\Delta H^{\circ}=-30\text{KJ}\cdot \text{mol}^{-1}$, $\Delta S^{\circ}=-50\text{J}\cdot \text{mol}^{-1}\cdot \text{K}^{-1}$, Log$K_p$=$-$1)}};
+
+\node[text width=8cm] at (-5,9) {\mytriangle{red}{\small An endothermic reaction with entropy production ($\Delta H^{\circ}=+30\text{KJ}\cdot \text{mol}^{-1}$, $\Delta S^{\circ}=+50\text{J}\cdot \text{mol}^{-1}\cdot \text{K}^{-1}$, Log$K_p$=$+$1)}};
+\node[text width=8cm] at (5,9) {\mytriangle{red}{\small An exothermic reaction with entropy production ($\Delta H^{\circ}=+30\text{KJ}\cdot \text{mol}^{-1}$, $\Delta S^{\circ}=+50\text{J}\cdot \text{mol}^{-1}\cdot \text{K}^{-1}$, Log$K_p$=$+$4)}};
+
+\end{scope}
+
+
+
+\begin{scope}[shift={(5cm,-21cm)},rotate=00]
+ \node[text width=19cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dG} \end{bf} Gibbs free energy 3D plot for a set of reaction with different internal thermodynamics parameters:
+ (Top Left)  an endergonic reaction: you can increase T to favour the reaction only for pressure conditions (LogQ$_c$) lower than $\Delta S/R$);
+ (Top Right)  an exergonic reaction mediated by $H$: you disfavour the reaction by increasing T only for pressure conditions (LogQ$_c$) higher than $\Delta S/R$);
+ (Bottom Left)  an endergonic reaction mediated by $S$: you can increase T to favour the reaction only for pressure conditions (LogQ$_c$) lower than $\Delta S/R$);
+ (Bottom Right)  an exergonic reaction mediated by both the $H$ and $S$: you disfavour the reaction by increasing T only for pressure conditions (LogQ$_c$) higher than $\Delta S/R$);
+
+
+ };
 \end{scope}
 \end{tikzpicture}
 
 
 
-}\end{minipage}%\end{fullwidth}
+}\end{minipage}\end{fullwidth}
+
+
+
+
+
+
