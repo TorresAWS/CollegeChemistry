@@ -45,7 +45,10 @@ For the reactions below and given the value of the equilibrium constant indicate
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate which of the following diagrams (left, center, right) represent better the following systems at equilibrium given the $K_c$ values (a, b, c). For example, you might say the "left diagram corresponds to for example (a)".
+Indicate which of the following diagrams (left, center, right) represent better the following reaction at equilibrium given the $K_c$ values (a, b, c). 
+\begin{center} \begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture}
+\end{center}
+For example, you might say the "left diagram corresponds to for example (a)".
  %\begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
   \begin{center}
      \begin{minipage}[b]{0.9\linewidth}\resizebox{0.9\textwidth}{!}{
@@ -67,9 +70,9 @@ Indicate which of the following diagrams (left, center, right) represent better 
 }\end{minipage}
 \end{center}
  \begin{inparaenum}[(a)]	
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=7$  % Left
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.1$  % Right
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
+\item	$K_{c}=7$  % Left
+\item	$K_{c}=0.1$  % Right
+\item	$K_{c}=1$  % Center
  \end{inparaenum}
 \end{question}
 \begin{solution}
@@ -84,7 +87,9 @@ Indicate which of the following diagrams (left, center, right) represent better 
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Indicate which of the following diagrams (left, center, right) represent better the following systems at equilibrium given the $K_c$ values (a, b, c). For example, you might say the "left diagram corresponds to for example (a)".
+Indicate which of the following diagrams (left, center, right) represent better the following reactiion at equilibrium given the $K_c$ values (a, b, c). 
+\begin{center} \begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture}\end{center}
+For example, you might say the "left diagram corresponds to for example (a)".
   \begin{center}
      \begin{minipage}[b]{0.9\linewidth}\resizebox{0.9\textwidth}{!}{
 \begin{tikzpicture}
@@ -105,9 +110,9 @@ Indicate which of the following diagrams (left, center, right) represent better 
 }\end{minipage}
 \end{center}
  \begin{inparaenum}[(a)]	
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.6$   
-\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=red!10!white] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=3$  
+\item	$K_{c}=1$  % Center
+\item	$K_{c}=0.6$   
+\item	$K_{c}=3$  
  \end{inparaenum}
 \end{question}
 \begin{solution}
