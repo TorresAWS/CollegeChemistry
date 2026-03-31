@@ -1,0 +1,44 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Analyze the following Gibbs 2D plot and answer the questions:
+\newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+Answer the following questions by analyzing the following Gibbs contour plot.
+\begin{inparaenum}[(a)]
+  \item     Is the reaction spontaneous at the conditions labelled as (1)?
+  \item     Is the reaction spontaneous at the conditions labelled as (2)?
+  \item     Is the reaction spontaneous at the conditions labelled as (3)?
+  \item     Is the reaction spontaneous at the conditions labelled as (4)?
+ \item     Does the reaction produce or consume heat? 
+\item     Does the reaction produce or consume entropy?
+\item     Is $K_c$ for the reaction lower or higher than one? 
+\end{inparaenum}
+\begin{tikzpicture}
+\begin{scope}[shift={(0cm,0cm)},rotate=00]
+  \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
+\addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(-20*1000-10*y + 8.314*2.30*y*x) / 1000};
+\addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (-20*1000-10*y + 8.314*2.30*y*x) / 1000;  };
+\addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
+\addplot[no markers ] coordinates {(300,-1)} node { \newcircled{1}};  
+\addplot[no markers ] coordinates {(800,3)} node { \newcircled{2}}; 
+\addplot[no markers ] coordinates {(400,8)} node { \newcircled{3}}; 
+\addplot[no markers ] coordinates {(700,-8)} node { \newcircled{4}}; 
+\end{axis}\end{scope} 
+\end{tikzpicture}
+
+ 
+
+
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{inparaenum}[(a)]
+  \item      Yes, the reaction is exergonic under conditions (1) and will happen spontaneously.
+  \item      No, the reaction is endergonic under conditions (2) and will not happen spontaneously.
+  \item      No, the reaction is endergonic under conditions (3) and will not happen spontaneously.
+  \item      Yes, the reaction is exergonic under conditions (4) and will happen spontaneously.
+ \item     The equilibrium isoline curved downwards and hence the reaction will produce heat: it is exothermic.
+ \item     The equilibrium usoline tends asymptotically towards a positive Log$Q_c$ value and therefore the reaction will produce entropy.
+\item     All $K_c$ values for any temperature are positive, which means the reactant pressures are larger than the product pressures in equilibrium. 
+\end{inparaenum}
+ 
+\import{./}{StudyCheck16} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+

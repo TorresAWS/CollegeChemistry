@@ -10,8 +10,10 @@
 \addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};
 \addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (30*1000+50*y + 8.314*2.30*y*x) / 1000;  };
 \addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
-\addplot[no markers ] coordinates {(500,3)} node { \newcircled{a}}; \draw [-stealth] (550,3) --  (750,3);
+\addplot[no markers ] coordinates {(300,3)} node { \newcircled{a}}; \draw [-stealth] (350,3) --  (750,3);
 \addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
+\addplot[no markers ] coordinates {(400,8)} node { \newcircled{c}}; 
+\addplot[no markers ] coordinates {(700,-8)} node { \newcircled{d}}; 
 \end{axis}\end{scope} 
 
 \begin{scope}[shift={(9cm,0cm)},rotate=00]
@@ -19,13 +21,12 @@
 \addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(-30*1000+50*y + 8.314*2.30*y*x) / 1000};
 \addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (-30*1000+50*y + 8.314*2.30*y*x) / 1000;  };
 \addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
-\addplot[no markers ] coordinates {(500,3)} node { \newcircled{a}}; \draw [-stealth] (550,3) --  (750,3);
+\addplot[no markers ] coordinates {(300,3)} node { \newcircled{a}}; \draw [-stealth] (350,3) --  (750,3);
 \addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
 \end{axis}\end{scope} 
 
 \begin{scope}[shift={(7cm,-4cm)},rotate=00]
- \node[text width=16cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dGLines} \end{bf} Gibbs free energy 3D plot displaying contour lines for different pressure and temperature conditions for an endergonic (Left Panel) and an exergonic (Right Panel) reaction. The star sign indicated the standard pressure and temperature conditions. The reaction on the left is non-spontaneous under the conditions labeled as \emph{a} on the left panel ($\Delta G_R>0$), whereas the reaction on the right is spontaneous under the same conditions ($\Delta G_R<0$). Increasing the temperature until reaching the conditions labeled as \emph{b} does not affect the spontaneity of the reaction on the left, whereas it impedes the reaction on the right, which is now non-spontaneous under b conditions ($\Delta G_R>0$).
- };
+ \node[text width=16cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dGLines} \end{bf} Gibbs free energy 2D plots displaying contour lines for different pressure and temperature conditions for an endergonic (Left Panel) and an exergonic (Right Panel) reaction. The star sign indicated the standard pressure and temperature conditions. The equilibrium isoline corresponds to $\Delta G_R=0$. The same heating experiment is carried out with both reactions. Increasing the temperature until reaching the conditions labeled as \emph{b} does not affect the spontaneity of the reaction on the left, whereas it impedes the reaction on the right, which is now non-spontaneous under b conditions ($\Delta G_R>0$). };
 \end{scope}
 
 \end{tikzpicture}

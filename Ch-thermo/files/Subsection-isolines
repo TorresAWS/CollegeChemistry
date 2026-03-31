@@ -1,0 +1,20 @@
+As we can project $\Delta G_R(P, T)$ in three different planes, we can find three different types of isolines. 
+First, if we project the 3D plot onto the Log$Q_p$-T plane, the bottom of the box in Figure \ref{Fig:Figure-GPlotsSample}, we obtain isolines with constant $\Delta G_R$ value, called \emph{isoenergy lines}. The equation for an isoenergy line is given by:
+\[ 
+ ln Q_p=\frac{\Delta S^{\circ}}{R\cdot Ln10} + \frac{\text{const}-\Delta H^{\circ}}{R\cdot Ln10}\cdot \frac{1}{T}
+\]
+These are curved lines with either a positive or a negative curve. A very important isoenergy line is the \emph{equilibrium isoline} which corresponds to $\Delta G_R(P, T)=0$ and has per equation
+\[ 
+ ln Q_p=\frac{\Delta S^{\circ}}{R\cdot Ln10} - \frac{\Delta H^{\circ}}{R\cdot Ln10}\cdot \frac{1}{T}
+\]
+Second, if we project onto the $\Delta G$-T plane, the right side of the box in Figure \ref{Fig:Figure-GPlotsSample}, we obtain isolines with constant Log$Q_p$ value called \emph{isobars} as $Q_p$ depends on the pressure of reactants and products. The equation for an isobar line is given by:
+\[ 
+\Delta G=\Delta H^{\circ}-(\Delta S^{\circ}-R\cdot Ln10\cdot \text{const} )T
+\]
+These are straight lines with either a positive or a negative slope.
+Third, if we project onto the $\Delta G$-Log$Q_p$ plane, the left side of the box in Figure \ref{Fig:Figure-GPlotsSample}, we obtain isolines with constant T value called \emph{isotherms}. The equation for an isotherm line is given by:
+\[ 
+\Delta G=(\Delta H^{\circ}-\text{const}\cdot\Delta S^{\circ})    +(R\cdot\text{const}\cdot Ln10  )ln Q_p
+\]
+These are straight lines, always with  a positive slope. These different types of isolines, their slope, and the sign of their curve, give important information about the energetics, the enthalpy, and the entropy of the reaction.
+%Remember that $K_c$ changes with temperature and hence there is not a single value for $K_c$ for a reaction. We can, for example, obtain $K_c$ for standard temperature conditions (T=298K, the temperature at which all thermodynamic data is tabulated) as shown in Figure \ref{Fig:Figure-2dGLines}. The equilibrium isoline either increases or decreases with temperature. 

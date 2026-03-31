@@ -171,6 +171,7 @@
 
 
 \begin{tikzpicture}
+
 \begin{scope}[shift={(-5cm,0)},rotate=00]
   \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp, restrict z to domain=-500:500,xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=500:999,restrict y to domain=-15:+15,point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm}]
            \addplot3  [data cs=cart,surf,domain=500:999,y domain=-15:+15,samples=2, opacity=0.5] {0};

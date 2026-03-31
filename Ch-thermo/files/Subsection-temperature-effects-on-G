@@ -1,21 +1,16 @@
-The deppendence of Gibbs free energy $\Delta G_R(P, T)$ with temperature is displayed on Figure \ref{Fig:Figure-2dGLines}. 
-Let us describe how $\Delta G_R$ isolines changes on Figure \ref{Fig:Figure-2dGLines}.
-For low temperatures, on the left side of each plot in Figure \ref{Fig:Figure-2dGLines}, isolines curve while $\Delta G_R$ increases.
-For high temperatures, on the right side of each plot in Figure \ref{Fig:Figure-2dGLines}, the impact of temperature is minimal and isolines becomes flat.
-For some of the $\Delta G_R$, the ones on top of the OLog$Q_c$ axis, isolines decrease with temperature, which means that when temperature increases the amount of product over reactants decreases, hence favouring reactants. The isolines on the bottom of the OLog$Q_c$ axis decrease with temperature, which means that when temperature increases the amount of product over reactants increases, hence favouring products.
-The isoline located on the OLog$Q_c$ axis does not change with temperature. This important isoline is a isobar, as pressure is contants along the line. Along the isobar that temperature has no impact on $Q_c$ and hence on the reaction. For an isobar:
-\[ \Delta G_R\text{(isobar)}=\Delta H^{\circ} \]
-which means that the isoline $\Delta G_R$ value corresponds to $\Delta H^{\circ}$. Therefore, the isobar helps visiually identify the thermic. Isobars corresponding to negative $\Delta G_R$ values result from exothermic reactions, wheras endothermic reactions result from isobars corresponding to positive $\Delta G_R$ values. For example,  the reacion depictured in Figure \ref{Fig:Figure-2dGLines} (Left panel) is endothermic, with $\Delta H^{\circ}$=+30KJ$\cdot$mol$^{-1}$, whereas the reacion depictured in Figure \ref{Fig:Figure-2dGLines} (Rightpanel) is exothermic, with $\Delta H^{\circ}$=-30KJ$\cdot$mol$^{-1}$.
+We may think that we can favour a reaction simply by increasing temperature. However, the dependence of Gibbs free energy on temperature is different for different Log$Q_c$ values. For this reason, in fact, we do not always favour spontaneity just by increasing the temperature. 
+Let analyze an experiment in which we increase the temperature going from points \emph{a} to \emph{b} following the arrow in Figure \ref{Fig:Figure-2dGLines}.
+For example, in Figure \ref{Fig:Figure-2dGLines} (Left panel), we have that the reaction is nonspontaneous in both \emph{a} and \emph{b} temperature conditions. The increasing of  temperature did not help spontaneity.  Differently, on Figure \ref{Fig:Figure-2dGLines} (Right panel), we have that the reaction is not spontaneous in in \emph{a} but becomes spontaneous in \emph{b}. That is, increasing the temperature did promote spontaneity. Hence, selecting the right value for Log$Q_c$, that is the right ratio between reactants and products is important. 
 
+For very small Log$Q_c$  values, the isoenergy lines increase with temperature, curving upwards. This means that when the temperature increases, $\Delta G_R$ becomes more negative, hence favouring spontaneity. In this situation, the thermodynamic force that drive the reaction would become stronger. For large Log$Q_c$  values, the isolines decrease with temperature, curving downwards. This means that when the temperature increases, $\Delta G_R$ becomes less negative, hence disfavouring spontaneity. There is a crossing Log$Q_c$ value (Log$Q_c^*$) that separates isolines curving upwards and downwards given by
+\begin{equation}
+\boxed{  \text{Log}Q_c^*=\frac{\Delta S^{\circ}}{Ln10\cdot R}    }\label{\chapterlabel:equationCriticalQ}
+\end{equation}
+In short, Log$Q_c$ needs to be smaller than entropy so that temperature can promote a reaction. Only for Log$Q_c$ values smaller than $\text{Log}Q_c^*$, we can favour spontaneity by increasing temperature. For example, on Figure \ref{Fig:Figure-2dGLines} (Left panel) $\text{Log}Q_c^*$ is approximately -3, whereas on the right panel, approximately +3.
+But, even when Log$Q_c$ is smaller than the critical value, the temperature has to be large enough for a reaction to proceed spontaneously. For low temperature, even when we do not cross $\text{Log}Q_c(critical)$, the reaction will not proceed spontaneously. The crossing temperature value is given by
+\begin{equation}
+\boxed{ T^*=\frac{\Delta H^{\circ}}{\Delta S^{\circ}-R\cdot Ln10\cdot\text{Log}Q_c}    }\label{\chapterlabel:equationCriticalT}
+\end{equation}
+The crossing values for $T$ and $Q_c$ are different by nature. By comparing Equations \label{\chapterlabel:equationCriticalQ} and \label{\chapterlabel:equationCriticalT} we could see that while the crossing temperature value depends on $\Delta H^{\circ}$, $\Delta S^{\circ}$ and $\text{Log}Q_c$, the crossing $Q_c$ value only depends on $\Delta S^{\circ}$.
 
-
-
-
-We have addressed differences between standard and equilibrium pressure conditions. Let us now address the impact of temperature, as $\Delta G_R(P, T)$. On one hand, for reactions in which $K_c$ is larger than one (exergonic reactions in standard conditions), increasing temperature will favour spontaneity, as $\Delta G_R(P, T)$ overall increases with temperature. 
-On the other hand, for reactions in which $K_c$ is smaller than one (endergonic reactions in standard conditions), increasing temperature will disfavour spontaneity, hence decreasing $\Delta G_R(P, T)$.
-
-
-
-
-
-
+The information presented here demonstrates how a combination of low enough pressure conditions and large enough temperatures is needed for a reaction to happen spontaneously. 

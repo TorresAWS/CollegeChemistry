@@ -1,0 +1,64 @@
+
+
+  
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ \pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
+\newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-GPlotsSample}
+ %\begin{fullwidth}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
+
+\begin{tikzpicture}
+
+\begin{scope}[shift={(0cm,0cm)},rotate=00]
+
+
+
+   \begin{axis} [colormap/jet,colorbar,view={60}{30},  grid=both, shader = interp,  xlabel={$T$(K) },ylabel={$Log(Q_p)$ },zlabel={$\Delta G_R(P, T)$ (KJ/mol) },width=10 cm, height=10 cm,restrict x to domain=200:999,restrict y to domain=-20:+20,restrict z to domain=-500:+500,point meta min=-200,  point meta max=300,ylabel style={yshift=0.4cm,xshift=0.0cm}, enlargelimits=false,
+    3d box=complete]
+  
+
+
+   
+\addplot3[surf, samples=51,shader=interp,  mesh/ordering=y varies,domain=200:999, y domain=-20:20,point meta=rawz,  z filter/.code={\def\pgfmathresult{-400}}, ] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};
+\addplot [     z filter/.code={\def\pgfmathresult{200}}, no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200 ;splot [200:999] [-20:20] (30*1000+50*y + 8.314*2.30*y*x) / 1000 ;  };
+               
+    
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*20 + 8.314*2.30*20*x) / 1000});
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*10 + 8.314*2.30*10*x) / 1000});
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*00 + 8.314*2.30*00*x) / 1000});
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-10 + 8.314*2.30*-10*x) / 1000});
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-20 + 8.314*2.30*-20*x) / 1000});
+
+ \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*200) / 1000});
+ \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*400) / 1000});
+  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*600) / 1000});
+  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*900) / 1000});
+
+
+\addplot3[surf, samples=51,shader=interp,  mesh/ordering=y varies, domain=200:999,  y domain=-20:20,miter limit=1      ] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};
+
+ 
+                 
+
+    \end{axis}
+  \end{scope}
+  
+
+
+\begin{scope}[shift={(7cm,-2cm)},rotate=00]
+ \node[text width=14cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-GPlotsSample} \end{bf} Gibbs free energy 3D plot displaying top-down projection into the Log$Q_p$-T bottom plane giving $\Delta G$ isolines, into the $\Delta G$-T, right plane giving isobars with constant $Q_p$, and into the $\Delta G$-Log$Q_p$, left plane giving isotherms with constant T. The color scale is blue for negative, small $\Delta G_R$ values, changing into red for positive, large $\Delta G$ values.
+
+ };
+\end{scope}
+
+\end{tikzpicture}
+ }\end{minipage}%\end{fullwidth}

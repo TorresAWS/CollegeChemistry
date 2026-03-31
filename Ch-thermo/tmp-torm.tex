@@ -1,0 +1,43 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}\newcommand\chapterlabel{Ch-thermo}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}\chapterpicture{../\chapterlabel/figure1}\chapterpicturelabel{PxFuel}
+\setcounter{figurenewcounter}{0}
+
+
+
+%\linenumbers
+  
+ \setcounter{chapter}{6} \import{../\chapterlabel/files/}{ChapterName} 
+
+
+
+ 
+\hspace{4cm} \begin{center}\import{./files/}{Figure-GPlotsSample}\end{center}
+\begin{marginfigure}[0cm]\usetikzlibrary {shapes.symbols}\begin{tikzpicture}[every node/.style={signal, draw,  text=white, signal to=nowhere}]\node[fill=red!65!black, signal to=east] at (0,1) {ADVANCED!};\end{tikzpicture}\end{marginfigure}
+\section{Temperature and pressure effects on a reaction}\import{../\chapterlabel/files/}{SectionIntro-Temperature-and-pressure-effects-on-a-reaction}
+\sloppy\begin{description}
+\item[\docfilehook{A two-dimensional function}{ }] \import{../\chapterlabel/files/}{Subsection-Temperature-and-pressure-effects-on-a-reaction-2d}
+\item[\docfilehook{Isolines}{ }] \import{../\chapterlabel/files/}{Subsection-isolines}
+\hspace{4cm} \begin{center}\import{./files/}{Figure-2dGLines}\end{center}
+\item[\docfilehook{Interpretting contour maps}{ }] \import{../\chapterlabel/files/}{Subsection-interpret}
+\item[\docfilehook{Pressure effects}{ }] \import{../\chapterlabel/files/}{Subsection-pressure-effects-on-G}
+\item[\docfilehook{Temperature effects}{ }] \import{../\chapterlabel/files/}{Subsection-temperature-effects-on-G}
+\item[\docfilehook{Interpretting 3D maps}{ }] \import{../\chapterlabel/files/}{Subsection-interpret3d}
+\item[\docfilehook{Summary}{ }] \import{../\chapterlabel/files/}{Subsection-temperature-effects-Summary}
+\newpage
+\hspace{-6cm}
+\import{./files/}{Figure-2dG}
+ \end{description}
+
+
+
+
+
+
+
+%\import{../\chapterlabel/files/}{Table-thermod-data}
+\import{../\chapterlabel/thermodynamictables/}{Table-thermod-data}
+%\clearpage\thispagestyle{empty}\mbox{}\clearpage
+\checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
+
+
+
