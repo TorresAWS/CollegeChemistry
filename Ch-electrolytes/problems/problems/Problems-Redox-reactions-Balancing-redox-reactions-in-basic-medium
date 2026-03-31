@@ -1,16 +1,16 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Balance the following redox reactions in basic medium:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
  \item \ce{   Sn^{2+}_{(aq)} + Cr2O7^{2-}_{(aq)} ->Cr^{3+}_{(aq)} + Sn^{4+}_{(aq)}  }
  \item \ce{   FeS_{(s)}   +  NO3^-_{(aq)} -> Fe^{3+}_{(aq)} + S_{(s)} +  NO_2_{(g)}    }
- \end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
  \item \ce{   3Sn^{2+} + Cr2O7^{2-} + 7H2O_{(l)} ->2Cr^{3+} + 3Sn^{4+}   }
  \item \ce{   FeS_{(s)} + 3 H_2O_{(l)} + 3 NO3^-_{(aq)} ->  6 OH^-_{(aq)} + Fe^{3+}_{(aq)} + S_{(s)} + 3 NO_2_{(g)}   }
- \end{enumerate}
+\end{inparaenum}
      \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
@@ -18,9 +18,9 @@ Balance the following redox reactions in basic medium:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 Balance the following redox reaction in basic medium:
-\begin{enumerate}[label=(\alph*)]
+\begin{inparaenum}[(a)]
  \item \ce{   Sn_{(s)} + NO3^{-}_{(aq)} + Cl^{-}_{(aq)} -> SnCl6^{2-}_{(aq)} + NO2_{(g)}  }
-\end{enumerate}
+\end{inparaenum}
 \end{question}
 \begin{solution}
  No solution listed
