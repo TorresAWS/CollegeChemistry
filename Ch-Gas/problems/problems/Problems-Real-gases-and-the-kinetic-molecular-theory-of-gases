@@ -33,10 +33,10 @@ Calculate the pressure $p$ in atm exerted by 2 moles of methane (\ce{CH4}) in a 
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Use the Van der walls constant $a$ to compare which of the gases exhibit stronger intermolecular interactions between its particles for the following pair of gases:
+Use the Van der Waals constant $a$ (indicated in parentheses with atm$\cdot$L$^2$\cdot mol$^{-2}$ units) to compare which of the gases exhibit stronger intermolecular interactions between their particles for the following pair of gases:
 \begin{inparaenum}[(a)]	
-\item  Ar or Ne
-\item  CO or NO
+\item  Ar (1.3) or Ne (0.2)
+\item  CO (3.6) or NO (1.3)
 \end{inparaenum} 
 \end{question}
 \begin{solution}
@@ -49,7 +49,7 @@ Use the Van der walls constant $a$ to compare which of the gases exhibit stronge
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Without consulting the values of the Van der walls constant $b$ indicate which of the gases of  the following pair would exhibit a larger $b$ value:
+Without consulting the values of the Van der Waals constant $b$ indicate which of the gases of  the following pair would exhibit a larger $b$ value:
 \begin{inparaenum}[(a)]	
 \item  \ce{C2H6} or \ce{CH4}
 \item  \ce{H2} or \ce{CH4}
