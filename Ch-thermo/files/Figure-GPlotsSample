@@ -32,16 +32,16 @@
 \addplot [     z filter/.code={\def\pgfmathresult{200}}, no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200 ;splot [200:999] [-20:20] (30*1000+50*y + 8.314*2.30*y*x) / 1000 ;  };
                
     
-\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*20 + 8.314*2.30*20*x) / 1000});
-\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*10 + 8.314*2.30*10*x) / 1000});
-\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*00 + 8.314*2.30*00*x) / 1000});
-\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-10 + 8.314*2.30*-10*x) / 1000});
-\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-20 + 8.314*2.30*-20*x) / 1000});
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*20 + 8.314*2.30*20*x) / 1000})  ;
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*10 + 8.314*2.30*10*x) / 1000})  node[pos=0.85, fill=white, rotate=0,text=black,fill opacity=1 ]  {\footnotesize 10};
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*00 + 8.314*2.30*00*x) / 1000}) node[pos=0.80, fill=white, rotate=0,text=black,fill opacity=1 ]  {\footnotesize 0};
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-10 + 8.314*2.30*-10*x) / 1000}) node[pos=0.85, fill=white, rotate=-45,text=black,fill opacity=1 ]  {\footnotesize -10};
+\addplot3[domain=200:999,samples=80,samples y=0,mark=none,black, opacity=0.5,thick]({x},{20},{(30*1000+50*-20 + 8.314*2.30*-20*x) / 1000}) node[pos=0.89, fill=white, rotate=-45,text=black,fill opacity=1 ]  {\footnotesize -20};
 
- \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*200) / 1000});
- \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*400) / 1000});
-  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*600) / 1000});
-  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*900) / 1000});
+ \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*200) / 1000})  ;
+ \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*400) / 1000}) node[pos=0.90, fill=white, rotate=45,text=black,fill opacity=1 ]  {\small 400};
+  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*600) / 1000}) node[pos=0.95, fill=white, rotate=45,text=black,fill opacity=1 ]  {\small 600};
+  \addplot3[domain=-20:20,samples=40 ,mark=none,black, opacity=0.5,thick]({200},{y},{(30*1000+50*y + 8.314*2.30*y*900) / 1000})  node[pos=0.99, fill=white, rotate=45,text=black,fill opacity=1 ]  {\small 900};
 
 
 \addplot3[surf, samples=51,shader=interp,  mesh/ordering=y varies, domain=200:999,  y domain=-20:20,miter limit=1      ] {(30*1000+50*y + 8.314*2.30*y*x) / 1000};

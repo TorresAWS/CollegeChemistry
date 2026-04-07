@@ -1,4 +1,4 @@
- \pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
+ \newpage  \newpage\pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
 \newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-2dGLines}
  \begin{fullwidth}
@@ -14,6 +14,8 @@
 \addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
 \addplot[no markers ] coordinates {(400,8)} node { \newcircled{c}}; 
 \addplot[no markers ] coordinates {(700,-8)} node { \newcircled{d}}; 
+\draw [-stealth] (300,-10) --  (300,-6) -- (000,-6) node [shift={(-0.1cm,0)}] {log$K_p$(298K)};
+\draw [-stealth] (500,-10) --  (500,-3) -- (000,-3) node [shift={(-0.1cm,0)}] {log$K_p$(500K)};
 \end{axis}\end{scope} 
 
 \begin{scope}[shift={(9cm,0cm)},rotate=00]
@@ -26,7 +28,7 @@
 \end{axis}\end{scope} 
 
 \begin{scope}[shift={(7cm,-4cm)},rotate=00]
- \node[text width=16cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dGLines} \end{bf} Gibbs free energy 2D plots displaying contour lines for different pressure and temperature conditions for an endergonic (Left Panel) and an exergonic (Right Panel) reaction. The star sign indicated the standard pressure and temperature conditions. The equilibrium isoline corresponds to $\Delta G_R=0$. The same heating experiment is carried out with both reactions. Increasing the temperature until reaching the conditions labeled as \emph{b} does not affect the spontaneity of the reaction on the left, whereas it impedes the reaction on the right, which is now non-spontaneous under b conditions ($\Delta G_R>0$). };
+ \node[text width=16cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-2dGLines} \end{bf} Gibbs free energy 2D plots displaying contour lines for different pressure and temperature conditions for an endothermic (Left Panel) and an exothermic (Right Panel) reaction. The star sign indicated the standard pressure and temperature conditions. The equilibrium isoline corresponds to $\Delta G_R=0$.  };
 \end{scope}
 
 \end{tikzpicture}
