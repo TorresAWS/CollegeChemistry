@@ -14,9 +14,13 @@
 \addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
 \addplot[no markers ] coordinates {(400,8)} node { \newcircled{c}}; 
 \addplot[no markers ] coordinates {(700,-8)} node { \newcircled{d}}; 
-\draw [-stealth] (300,-10) --  (300,-6) -- (000,-6) node [shift={(-0.1cm,0)}] {log$K_p$(298K)};
-\draw [-stealth] (500,-10) --  (500,-3) -- (000,-3) node [shift={(-0.1cm,0)}] {log$K_p$(500K)};
-\end{axis}\end{scope} 
+\draw [-stealth] (280,-10) --  (280,-5.6) --> (0,-5.6); 
+\draw [-stealth] (500,-10) --  (500,-3.1) --> (0,-3.1); 
+
+\end{axis}
+%\node [shift={(-1.2cm,2.3cm)}] {log$K_p$\small (500K)};
+%\node [shift={(-1.5cm,1.5cm)}] {log$K_p$\small (298K)};
+\end{scope} 
 
 \begin{scope}[shift={(9cm,0cm)},rotate=00]
   \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
