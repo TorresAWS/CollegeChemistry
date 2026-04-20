@@ -1,31 +1,254 @@
- 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Using the thermodynamic data presented below, calculate:
+True or False:
 \begin{inparaenum}[(a)]
-  \item     The Gibbs free energy at 298K and standard pressure conditions
-  \item     The Gibbs free energy at 298K and the pressure conditions A
-  \item     The Gibbs free energy at 298K and the pressure conditions B
+\item  A reaction with $\Delta H^{\circ}$=20KJ/mol is called exothermic %false
+\item  A reaction with $\Delta G^{\circ}$=100KJ/mol is called endergonic %true
+\item  A reaction with $\Delta H^{\circ}$=-20KJ/mol is called endothermic %false
+\item      Reactions that consume entropy are  likely to proceed spontaneously %false
+\item  A reaction with $\Delta H^{\circ}$=30KJ/mol consumes heat %false
+\item  A reaction with $\Delta G^{\circ}$=-90KJ/mol will proceed spontaneously %true
 \end{inparaenum}
- \\
-\begin{adjustbox}{width=\columnwidth,center}
- \fontfamily{ppl}\selectfont
-\begin{tabular}{llllllll}
-\toprule
- &					\ce{CO2_{(g)}} 	&\ce{+}	& \ce{3H2_{(g)}}    &\ce{->}	 &\ce{CH3OH_{(g)}}	     &\ce{+} &	\ce{H2O_{(g)}}         \\
-\midrule
- $G^{\circ}(KJ/mol)$&	-394.359	&	& 0    & &-161.96     & & -228.572       \\
-\midrule
- $P_i$(atm)(Conditions A)&	3	&	& 3    & &1     & & 1      \\
-\midrule
- $P_i$(atm)(Conditions B)&	1	&	& 1    & &2     & & 2      \\
-\bottomrule
-\end{tabular} 
-\end{adjustbox} 
 \end{question}
 \begin{solution}
+ \begin{inparaenum}[(a)]
+\item   false
+\item   true
+\item   false
+\item       false
+\item   false
+\item   true
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+True or False:
 \begin{inparaenum}[(a)]
-  \item      3.8KJ/mol
-  \item      -7.0KJ/mol
-  \item      7.3KJ/mol
+\item      Exothermic reactions are  likely to proceed spontaneously %true
+\item      Reactions that produce entropy are  likely to proceed spontaneously %true
+\item      Reactions that produce heat are  likely to proceed spontaneously %true
+\item  A reaction with $\Delta G^{\circ}$=-100KJ/mol is called exergonic %true
+\item      Reactions that consume heat are  likely to proceed spontaneously %false
+\item      Endothermic reactions are  likely to proceed spontaneously %false
+\item  A reaction with $\Delta G^{\circ}$=90KJ/mol will proceed spontaneously %false
+\item  A reaction with $\Delta H^{\circ}$=30KJ/mol produces heat %false
 \end{inparaenum}
-\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item       true
+\item       true
+\item       true
+\item   true
+\item       false
+\item       false
+\item   false
+\item   false
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+True or False:
+\begin{inparaenum}[(a)]
+\item  Isotherms result from projecting $\Delta G_R(T,P)$ into the $\Delta G_R$-P plane %true
+\item  Isobars  result from projecting $\Delta G_R(T,P)$ into the $\Delta G_R$-T plane %true
+\item  Isoenergy lines result from projecting $\Delta G_R(T,P)$ into the P-T plane %true
+\item  At equilibrium pressure conditions $\Delta G_R(T,P)$ is lower than 0   %false
+\item  Isoenergy lines result from projecting $\Delta G_R(T,P)$ into the $\Delta G_R$-P plane %false
+\item  At equilibrium pressure conditions $\Delta G_R(T,P)\ge$0   %false
+  \item $\Delta G_R^{\circ}$  depends on temperature and pressure %false
+   \item Isotherms are lines with positive slope % true
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   true
+\item   true
+\item   true
+\item   false
+\item   false
+\item   false
+\item   false
+\item   true
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+True or False:
+\begin{inparaenum}[(a)]
+\item  At equilibrium pressure conditions $\Delta G_R(T,P)$ is null   %true
+\item  Isobars result from projecting $\Delta G_R(T,P)$ into the P-T plane   %false
+\item  At equilibrium pressure conditions $\Delta G_R(T,P)$ is the same as $\Delta G^{\circ}$   %false
+\item  Isotherms result from projecting $\Delta G_R(T,P)$ into the $\Delta G_R$-T plane %false
+\item  At standard pressure conditions $\Delta G_R(T,P)$ is the same as $\Delta G^{\circ}$   %true
+ \item  At equilibrium pressure conditions $\Delta G_R(T,P)\le$0   %false
+  \item $\Delta G_R$  deppends on temperature and pressure %true
+     \item All isobars have a positive slope % false
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   true
+\item   false
+\item   false
+\item   false
+\item   true
+ \item   false
+   \item true 
+   \item false
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Analyze the following Gibbs 2D plot and answer the questions:
+\newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+Answer the following questions by analyzing the following Gibbs contour plot.
+\begin{inparaenum}[(a)]
+  \item     Is the reaction spontaneous at the conditions labelled as (1)?
+  \item     Is the reaction spontaneous at the conditions labelled as (2)?
+  \item     Is the reaction spontaneous at the conditions labelled as (3)?
+  \item     Is the reaction spontaneous at the conditions labelled as (4)?
+ \item     Does the reaction produce or consume heat? 
+\item     Does the reaction produce or consume entropy?
+\item     Is $K_c$ for the reaction lower or higher than one? 
+\end{inparaenum}
+\begin{tikzpicture}
+\begin{scope}[shift={(0cm,0cm)},rotate=00]
+  \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
+\addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(90*1000-10*y + 8.314*2.30*y*x) / 1000};
+\addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (90*1000-10*y + 8.314*2.30*y*x) / 1000;  };
+\addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
+\addplot[no markers ] coordinates {(300,-1)} node { \newcircled{1}};  
+\addplot[no markers ] coordinates {(800,3)} node { \newcircled{2}}; 
+\addplot[no markers ] coordinates {(400,8)} node { \newcircled{3}}; 
+\addplot[no markers ] coordinates {(700,-8)} node { \newcircled{4}}; 
+\end{axis}\end{scope} 
+\end{tikzpicture}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   no
+\item   no
+\item   no
+\item   yes
+\item   endothermic
+\item   produces
+\item   lower than one
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Analyze the following Gibbs 2D plot and answer the questions:
+\newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+Answer the following questions by analyzing the following Gibbs contour plot.
+\begin{inparaenum}[(a)]
+  \item     Is the reaction spontaneous at the conditions labelled as (1)?
+  \item     Is the reaction spontaneous at the conditions labelled as (2)?
+  \item     Is the reaction spontaneous at the conditions labelled as (3)?
+  \item     Is the reaction spontaneous at the conditions labelled as (4)?
+ \item     Does the reaction produce or consume heat? 
+\item     Does the reaction produce or consume entropy?
+\item     Is $K_c$ for the reaction lower or higher than one? 
+\end{inparaenum}
+\begin{tikzpicture}
+\begin{scope}[shift={(0cm,0cm)},rotate=00]
+  \begin{axis} [  colormap/jet,colorbar,view={0}{90},    xlabel={$T$(K) },ylabel={$LogQ_p$ },width=8 cm, height=8 cm, point meta min=-500,  point meta max=500,ylabel style={yshift=0.4cm,xshift=0.0cm},samples=51, enlargelimits=false,ylabel style={yshift=-1cm,xshift=0.0cm} ]
+\addplot3 [surf,shader=interp,domain=200:999,y domain=-10:+10] {(-90*1000+10*y + 8.314*2.30*y*x) / 1000};
+\addplot +[no markers,contour/draw color={black}, raw gnuplot,contour prepared, contour/labels=true, ] gnuplot { set samples 50, 50; set isosamples 51, 51; set contour base; set cntrparam levels incremental -200,50,200;  splot [200:999] [-10:10] (-90*1000+10*y + 8.314*2.30*y*x) / 1000;  };
+\addplot[mark=mystargnuplot ] coordinates {(298,0)} node { }; 
+\addplot[no markers ] coordinates {(300,-1)} node { \newcircled{1}};  
+\addplot[no markers ] coordinates {(800,3)} node { \newcircled{2}}; 
+\addplot[no markers ] coordinates {(700,8)} node { \newcircled{3}}; 
+\addplot[no markers ] coordinates {(700,-8)} node { \newcircled{4}}; 
+\end{axis}\end{scope} 
+\end{tikzpicture}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   yes
+\item   yes
+\item   no
+\item   yes
+\item   exothermic
+\item   consumes
+\item   larger than one
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A reaction has $\Delta H^{\circ}$=20KJ/mol and $\Delta S^{\circ}$=5J/mol$\cdot$K. Answer the following questions
+\begin{inparaenum}[(a)]
+\item Is the reaction spontaneous in standard pressure and temperature conditions?  % no
+\item Now working at pressure conditions different than the standard ones, calculate the crossing value for $logQ_c$?  % 0.26
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=-5  and T=300K? %Yes
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=-5  and T=200K? %no
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=1  and T=500K? %no
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=1  and T=100K? %no
+\item At pressure conditions, with $ logQ_c$ = 4, can we use temperature to favour spontaneity? % no
+\item At pressure conditions, with $ logQ_c$ = -1, can we use temperature to favour spontaneity? % yes
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   no
+\item   0.26
+\item  Yes
+\item no
+\item  no
+\item no
+\item   no
+\item   yes
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A reaction has $\Delta H^{\circ}$=-10KJ/mol and $\Delta S^{\circ}$=-7J/mol$\cdot$K. Answer the following questions
+\begin{inparaenum}[(a)]
+\item Is the reaction spontaneous in standard pressure and temperature conditions?  % yes
+\item Now working at pressure conditions different than the standard ones, calculate the crossing value for $logQ_c$?  % -0.36
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=5  and T=300K? %no
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=5  and T=200K? %no
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=1  and T=200K? %no
+\item Is the reaction spontaneous at pressure conditions, giving $logQ_c$=1  and T=500K? %yes
+\item At pressure conditions, with $ logQ_c$ = -1 and and T=200, can we use temperature to favour spontaneity? % no
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   yes
+\item   -0.36
+\item  no
+\item  no
+\item  no
+\item  yes
+\item  no
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
- \newpage  \newpage\pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
+ \pgfdeclareplotmark{mystargnuplot}{ \node[star,star point ratio=2.25,minimum size=6pt, inner sep=0pt,draw=black,solid,fill=red] {};}
 \newcommand*\newcircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-2dGLines}
  \begin{fullwidth}
@@ -14,12 +14,12 @@
 \addplot[no markers ] coordinates {(800,3)} node { \newcircled{b}}; 
 \addplot[no markers ] coordinates {(400,8)} node { \newcircled{c}}; 
 \addplot[no markers ] coordinates {(700,-8)} node { \newcircled{d}}; 
-\draw [-stealth] (280,-10) --  (280,-5.6) --> (0,-5.6); 
-\draw [-stealth] (500,-10) --  (500,-3.1) --> (0,-3.1); 
+\draw [-stealth] (280,-10) --  (280,-5.6) -- (0,-5.6); 
+\draw [-stealth] (500,-10) --  (500,-3.1) -- (0,-3.1); 
 
 \end{axis}
-%\node [shift={(-1.2cm,2.3cm)}] {log$K_p$\small (500K)};
-%\node [shift={(-1.5cm,1.5cm)}] {log$K_p$\small (298K)};
+\node [shift={(-1.2cm,2.2cm)}] {log$K_p$\small (500K)};
+\node [shift={(-1.2cm,1.3cm)}] {log$K_p$\small (298K)};
 \end{scope} 
 
 \begin{scope}[shift={(9cm,0cm)},rotate=00]
