@@ -10,7 +10,7 @@
  \end{adjustbox}\end{minipage}
 
 \import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Nuclear-reactions}
-\foreach \n in {SubSection-Nuclear-reactions-alpha-decay,SubSection-Nuclear-reactions-beta-decay,SubSection-Nuclear-reactions-positron-emission,SubSection-Nuclear-reactions-gamma-decay}{
+\foreach \n in {SubSection-Nuclear-reactions-alpha-decay,SubSection-Nuclear-reactions-beta-decay,SubSection-Nuclear-reactions-positron-emission,SubSection-Nuclear-reactions-gamma-decay,SubSection-Radiation-particle-K}{
 \def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
 }
  \begin{minipage}[b]{28cm}

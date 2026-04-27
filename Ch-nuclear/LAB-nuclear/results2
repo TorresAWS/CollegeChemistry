@@ -1,0 +1,35 @@
+
+
+
+
+
+ 
+\vspace{0.2cm}
+%\begin{center}mass \ce{NaNO3} = \begin{Form}\TextField[rotation=90,name=calorentropy123, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form} \hspace{0.2cm}moles \ce{NaNO3} = \begin{Form}\TextField[rotation=90,name=calorentropy321, width=4cm,height=0.5cm,multiline=false, borderstyle=U, bordercolor={black}]{} \end{Form}%\end{center}
+\vspace{0.1cm}
+\subsection*{Part C: Calculation of the efficiency of the counter }
+
+
+
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}{ |p{3.5cm}  >{\raggedright}p{0.32cm} |p{.4cm}   |p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{.4cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|  }
+ 
+  \hline \vspace{0.4cm}   && \multicolumn{10}{c|}{Trial } &  \multicolumn{1}{c|}{ \mycircled{1}} &\multicolumn{1}{c|}{ \mycircled{2}}    &\multicolumn{1}{c|}{ \mycircled{12}}  \\\hline
+   \multicolumn{1}{c}{  \vspace{0.1cm}}    & \multicolumn{1}{c}{  } & \multicolumn{10}{c}{  } &  \multicolumn{1}{c}{ } &\multicolumn{1}{c}{   }    & \multicolumn{1}{c}{  }  \\ 
+
+ \cline{1-14}
+ Activity, A \vspace{0.4cm}   &&1& 2 & 3  &4 &5 &6 &7 &8 &9 &10& \multicolumn{1}{c|}{$\overline{A}$ (cpm)}   &\multicolumn{1}{c|}{ $s$(cpm)}   & \multicolumn{1}{c}{  }  \\
+\hline
+Background  A  \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{3}}& &   &    & &  &  &  &  &  & &    & &\multicolumn{1}{c|}{ $\epsilon$(\%)}   \\
+\hline
+Po-210 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11} }& &   &    & &  &  &  &  &  & &    &    & \\
+\hline
+Sr-90 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11}}& &   &    & &  &  &  &  &  & &    &  &   \\
+\hline 
+Co-60 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11}}& &   &    & &  &  &  &  &  & &    &  &   \\
+\hline 
+\multicolumn{13}{c|}{ } &   \multicolumn{1}{c|}{\;\;\;\mycircled{13}\;\;\;$\overline{\epsilon}$(\%)=}&       \multicolumn{1}{c|}{ } \\
+\cline{14-15}
+\end{tabular}
+
+ 

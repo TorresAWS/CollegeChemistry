@@ -1,0 +1,84 @@
+A more efficient electrical method was developed  to count radiation 20 year after the Rutherford experiment. The basis for this method is the amplified production of ions and electrons by alpha particles as they pass through a gas. The trail of ions left by the particles constitutes electric charges, positive nuclei and electrons, which can be collected and hence its electrical name. This is reffered to as primary ionization. In fact, when those electrons are accelerated by means of an electric field, they are able to ionize other atoms in the gas ventually producing a phenomenon called a Townsend avalanche. The result is a large amplification of the primary ionization hence producing a stronager, measurable signal. This avalanche effect is indeed the essence of a Geiger-M\''uller counter. Still, using the proper potential to induce Townsend avalanche is the key for the functining of the counter. Let us address now how the signal, the number of radiation counts, changes with the voltage applied in the Geiger tube. 
+
+First, a certain minimum potential called starting voltage is required across the counter before it operates as counter, and below this potential there is not measurable signal. Below the starting voltage, ions recombine before reaching the electrodes, making it inefficient for detection. At voltages higher than the minimum potential voltages (>150 V) we enter a voltage window called the ion chamber region (150-300V) in which ions are produced creating a measurable signal and can be collected without gas amplification. In this region, the electric field is high enough to prevent ion recombination but too low to cause secondary ionization (gas amplification) hence reaching a small saturation area. Then the counter enters in the proportional counting region (300-800V) in which gas amplification occurs (Townsend avalanche), due to the gas enveloping the anode wire, creating a signal proportional to the radiation's energy.  It is important to know that through all these voltages, the couter is able to distinguish particle types, differenciating for example alpha and beta radiation. The end of the proportional counting region is called the limited proportionality region (800-900V). At this point, there is complete ionization of the gas enveloping the anode wire and the counter losses any particle energy information. In the Limited proportionality region, the proportional response becomes non-linear and that means that not for increasing the voltage we will obtain a stronger signal. Now the counter enters the Geiger plateau (900-1200V): the nearly horizontal part of this curve represents this region. At this point, the couter is unable to distinguish particle types, and for example will not be able to differenciate alpha than beta radiation. Finally, at high voltages, beyond 1200 V, the gas continuously breaks down, damaging the detector.
+
+
+
+ 
+
+\begin{tikzpicture}
+\pgfplotsset{set layers}
+%\pgfplotsset{ticks=none}
+%\begin{axis}[
+%    scale only axis,
+%    axis on top=true,
+%    xmin=0, xmax=1.6,
+%    ymin=0, ymax=1.3,
+%    axis y line=right,
+%    axis y line shift=-0.2,
+%    axis x line=none,
+%    ylabel=Power (W),
+%    %yticklabels={,,},
+%    clip mode=individual,
+%    ]
+%\coordinate (MPP) at (axis cs:1.1,0.8);
+%\draw[dashed] (MPP) -- +(-1.1,0) node[left] {$I_{\mathrm{mp}}$};
+%\fill[shading=axis,left color=green!10!white, right color=green!30!white,shading angle=135] (axis cs:0,0) rectangle (MPP);
+%\node[above] at (axis cs:1.4,1.3) {Power};
+%\node[above] at (axis cs:1.6,0) {Volts};
+%\addplot[color=blue,mark=none,very thick,smooth]
+%      coordinates {(0,1) (0.2,1) (0.4,1) (0.6,1) (0.8,1) (0.9,0.97) (1,0.9) (1.1,0.8) (1.2,0.6) (1.4,0)};
+%\draw[blue] (MPP) circle (5pt);
+%\node [above left = 5em and 2em of MPP] {MPP} edge[shorten >=6pt,-stealth] (MPP);
+%\node[anchor=south] at (axis cs:0.5,1) {$I$-$V$ Curve};
+%\node[left,yshift=2pt] at (axis cs:0,1) {$I_{\mathrm{max}}$};
+%\end{axis}
+
+\begin{axis}[
+    scale only axis,
+    axis on top=true,
+    xmin=0, xmax=800,
+    ymin=0, ymax=6,
+    axis y line=left,
+    axis x line=bottom,
+    xlabel=Voltage (V),
+    ylabel=Current (A),
+    %yticklabels={,,},
+    %xticklabels={,,},
+    clip mode=individual,xtick=\empty, ytick=\empty,
+    ]
+\coordinate (Pmax) at (axis cs:1.1,0.97);
+ 
+\addplot[color=red,mark=none,very thick,smooth,name path=A]
+    coordinates {(0,0) (20,0) (30,0.1) (40,0.2) (50,0.3) (60,0.4) (70,0.5) (80,0.6) (90,0.7) (100,0.8) (110,0.9) (120,0.99) (150,1.0) (300,1.0) (400,3) (410,3.2) (420,3.4) (430,3.6) (440,3.8) (450,4)(470,4.1) (560,4.2) (700,4.3)   
+    (770,5)
+    (800,6.5)(900,10)};
+    
+    
+\path [name path=B]
+    (0,0) --
+    (800,0);
+ \addplot [red,fill opacity=0.1] fill between [ of=A and B,soft clip={domain=20:300}, ];
+ \addplot [red,fill opacity=0.3] fill between [ of=A and B,soft clip={domain=300:440}, ];
+ \addplot [red,fill opacity=0.5] fill between [ of=A and B,soft clip={domain=440:490}, ];
+ \addplot [red,fill opacity=0.8] fill between [ of=A and B,soft clip={domain=490:700}, ];
+ \addplot [red,fill opacity=0.9] fill between [ of=A and B,soft clip={domain=700:800}, ];
+        \draw[ line width=1pt] (300,0)--(300,6) node[midway,above, rotate={90}] () {Ion Chamber};
+        \draw[ line width=1pt] (440,0)--(440,6) node[midway,above, rotate={90}] () {proportional counting};
+        \draw[ line width=1pt] (490,0)--(490,6) node[midway,above, rotate={90}] () {limited proportionality};
+        \draw[ line width=1pt] (700,0)--(700,6) node[midway,above, rotate={90}] () {Geiger plateau};
+
+
+\end{axis}
+\end{tikzpicture}
+
+
+  
+
+
+
+
+
+
+
+
