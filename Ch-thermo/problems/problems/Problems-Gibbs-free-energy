@@ -117,7 +117,7 @@ Compute the standard Gibbs free energy for the following reaction at 298K:\\
  \fontfamily{ppl}\selectfont
 \begin{tabular}{llllllll}
 \toprule
- &					\ce{2Fe2O3_{(s)}}&\ce{+}	& \ce{C_{(s)}}    &\ce{->}	 &\ce{Fe_{(s)}}     &\ce{+} &\ce{3CO2_{(g)}}        \\
+ &					\ce{2Fe2O3_{(s)}}&\ce{+}	& \ce{C_{(s)}}    &\ce{->}	 &\ce{4Fe_{(s)}}     &\ce{+} &\ce{3CO2_{(g)}}        \\
 \midrule
  $H^{\circ}_f(KJ/mol)$&	-824.2	&	&  0  & &	0   & & -393.509      \\
 \midrule
@@ -131,7 +131,7 @@ Compute the standard Gibbs free energy for the following reaction at 298K:\\
 \end{adjustbox} 
 \end{question}
 \begin{solution}
- $386$KJ
+ $-170$KJ
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%% 
 
 
