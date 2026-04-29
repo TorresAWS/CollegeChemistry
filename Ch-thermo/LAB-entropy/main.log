@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  28 APR 2026 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  28 APR 2026 20:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2977,6 +2977,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
+Package biblatex Info: ... file 'main1-blx.bbl' not found.
+No file main1-blx.bbl.
 Package biblatex Info: Reference section=0 on input line 1783.
 Package biblatex Info: Reference segment=0 on input line 1783.
 
@@ -3182,10 +3184,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
  []
 
 
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 3 undefined on input line 42
-.
-
-
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3214,12 +3212,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3]
-
-LaTeX Warning: Reference `mdf@pagelabel-2' on page 4 undefined on input line 42
-.
-
-))
+[3]))
 
 LaTeX Warning: Empty bibliography on input line 25.
 
@@ -3261,7 +3254,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[4] (../LAB-entropy/../LAB-entropy/goodlabpractice
+[4]
+Underfull \hbox (badness 5161) in paragraph at lines 22--31
+ [][] 
+ []
+
+(../LAB-entropy/../LAB-entropy/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 Make sure you al-ways use the same ther-mome-ter all through 
 the ex-per-i-ment so
@@ -3273,16 +3271,11 @@ Underfull \hbox (badness 4205) in paragraph at lines 16--16
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 43--50
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-)
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3312,6 +3305,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+)
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3340,7 +3338,36 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[6
+[6]
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[7
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3453,7 +3480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
 
 
-[7
+[8
 
 
 
@@ -3490,7 +3517,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -3510,7 +3537,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[8]
+[9]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -3720,35 +3747,6 @@ Overfull \hbox (41.6998pt too wide) in paragraph at lines 7--48
 
 )
 
-[9]
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.26003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.26003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
 [10]
 
 
@@ -3808,6 +3806,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [12]
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[13]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -3863,7 +3890,7 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 
-[13
+[14
 
 
 
@@ -3886,7 +3913,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- []
+ [][][][]|
  []
 
 
@@ -3906,7 +3933,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[14] 
+[15] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
@@ -3921,10 +3948,6 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package lastpage Warning: Rerun to get the references right on input line 1792.
-
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main1-blx
 (biblatex)                main
@@ -3935,13 +3958,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 76850 strings out of 473190
- 1778145 string characters out of 34465801
- 2980069 words of memory out of 7000000
- 98731 multiletter control sequences out of 15000+600000
+ 76856 strings out of 473190
+ 1778237 string characters out of 34465801
+ 2980614 words of memory out of 7000000
+ 98736 multiletter control sequences out of 15000+600000
  673362 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,21n,117p,1850b,2061s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,21n,117p,1850b,2062s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-me
 x.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-ml
@@ -3954,10 +3977,10 @@ dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2025/texmf-dist/fo
 nts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw
 /zapfding/uzdr.pfb>
-Output written on main.pdf (14 pages, 211908 bytes).
+Output written on main.pdf (15 pages, 212835 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
  408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
