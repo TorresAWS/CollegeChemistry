@@ -16,6 +16,21 @@
     \newstep[] Do not carry out any calculation before finishing the plot from the previous step. Calculate the change of enthalpy, $\Delta H$.
     \newstep[] Calculate the average enthalpy change using the two replicated experiments.
     \newstep[] If your instructor assigns you an unknown solute, repeat the previous procedure with this new solute. 
+MW of unknowns are listed in the Table below.
+\begin{center}
+\setlength{\tabcolsep}{10pt}
+\begin{tabular}
+{ |p{5cm}|p{5cm}| }
+\hline
+ Molar Mass (g/mol$^{-1}$) &Unknown number   \\\hline
+ 54&                  2,7,11,16,21,26\\\hline
+ 244&      3,8,12,17,22,27\\\hline
+ 74&                     4,9,13,18,23,28\\\hline
+ 85&                               5,10,15,20,25,30\\\hline
+ 60&                                                     1,6,14,19,24,29\\\hline
+\end{tabular}\end{center}
+
+
 \end{steps}
    \import{../LAB-\labname/}{goodlabpractice}
 
