@@ -89,7 +89,7 @@ Classify the nature of a radiation
 
 %%%%%%%PROBLEM
 \vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Sections of two electromagnetic waves A and B  are represented below. Rank them in order of (a) increasing frequency; (b) increasing energy;  (c) If wave B represents visible radiation, is wave A more likely to be IR or UV radiation?  
+Sections of two electromagnetic waves A (left) and B (right)  are represented below. Rank them in order of (a) increasing frequency; (b) increasing energy;  (c) If wave B represents visible radiation, is wave A more likely to be IR or UV radiation?  
 \begin{centering}
      \begin{tikzpicture}[xscale=1,yscale=1]
       \begin{scope}[font=\itshape]
@@ -105,16 +105,16 @@ Sections of two electromagnetic waves A and B  are represented below. Rank them 
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item     $\gamma_A$<$\gamma_B$
-\item     $E_A$<$E_B$
-\item IR
+\item     $\gamma_A$ < $\gamma_B$
+\item     $E_A$ < $E_B$
+\item UV
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
 %%%%%%%PROBLEM
 \vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Sections of two electromagnetic waves A and B  are represented below. Rank them in order of (a) increasing wavelength; (b) increasing energy;  (c) If wave B represents visible radiation, is wave A more likely to be IR or UV radiation?  
+Sections of two electromagnetic waves A (left) and B (right) are represented below. Rank them in order of (a) increasing wavelength; (b) increasing energy;  (c) If wave B represents visible radiation, is wave A more likely to be IR or UV radiation?  
 \begin{centering}
      \begin{tikzpicture}[xscale=1,yscale=1]
       \begin{scope}[font=\itshape]
@@ -132,7 +132,7 @@ Sections of two electromagnetic waves A and B  are represented below. Rank them 
 \begin{inparaenum}[(a)]
 \item     $\lambda_B$<$\lambda_A$
 \item     $E_A$<$E_B$
-\item UV
+\item IR 
 \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
