@@ -35,7 +35,7 @@ Answer the following questions:\begin{inparaenum}[(a)]
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Ferrate(VI) with formula \ce{FeO_4^{2-}} is a pale violet photosensitive chemical. It is also one of the strongest water-stable oxidizing species known.  Calculate the standard Gibbs free energy for the following electrochemical reaction: 
+Ferrate(VI) with formula \ce{FeO_4^{2-}} is a pale violet photosensitive chemical. It is also one of the strongest water-stable oxidizing species known.  Calculate the standard Gibbs free energy in KJ for the following electrochemical reaction: 
 \begin{center}
  \ce{	FeO_4^{2-} + 8H+ + 3e^-	 <=>	Fe^{3+} + 4H2O} \hfill  $\mathcal{E}^{\circ}=$2.20V   % $-637$KJ
 \end{center}
@@ -48,7 +48,7 @@ Ferrate(VI) with formula \ce{FeO_4^{2-}} is a pale violet photosensitive chemica
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the standard Gibbs free energy for the following electrochemical reaction: 
+Calculate the standard Gibbs free energy for the following electrochemical reaction in KJ: 
 \begin{center}
  \ce{	Fe3O4_{(s)} + 8H+ + 2   e^-	 <=>	3Fe^{2+}  + 4H2O} \hfill  $\mathcal{E}^{\circ}=$0.98V   % $-189$KJ
  \end{center}
@@ -62,7 +62,7 @@ Calculate the standard Gibbs free energy for the following electrochemical react
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the standard Gibbs free energy for the following reaction using the given electrochemical data: 
+Calculate the standard Gibbs free energy in KJ for the following reaction using the given electrochemical data: 
 \begin{center}
  \ce{	2Cr_{(s)} + 3I2_{(s)} 	 <=> 2Cr^{3+} + 6I^{-}}     
  \end{center}
@@ -77,7 +77,7 @@ Calculate the standard Gibbs free energy for the following reaction using the gi
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
-Calculate the standard Gibbs free energy for the following reaction using the given electrochemical data: 
+Calculate the standard Gibbs free energy in KJ for the following reaction using the given electrochemical data: 
 \begin{center}
  \ce{		2Fe_{(s)} + 3H2O2_{(aq)} + 6H+  	 <=>	6H2O	+ 2Fe^{3+}}     
  \end{center}
