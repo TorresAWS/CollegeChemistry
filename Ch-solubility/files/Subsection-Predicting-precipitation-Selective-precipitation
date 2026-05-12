@@ -1,4 +1,4 @@
-When we have a mixture of different ions that form insoluble precipitates (e.g. \ce{Pb^{2+}} and \ce{Cu^{+}} both form insoluble bromides) we can use the principles of selective precipitation to separate the ions. We know that \ce{PbBr2} and \ce{CuBr} are insoluble compounds. Let us say we have a mixture of both ions with 0.01M concentration, and we add a solution containing \ce{Br^-}. As two different precipitates will form (\ce{CuBr} and \ce{PbBr2}) the question is: are we going to be able to separate both compounds? Or the precipitation of both will overlap? If the concentration needed to precipitate both insoluble compounds is ten times different we will be able to selectively precipitate both compounds. Here we assume that the addition of the cation will not modify the volume of the mixture. 
+When we have a mixture of different ions that form insoluble precipitates (e.g. \ce{Pb^{2+}} and \ce{Cu^{+}} both form insoluble bromides) we can use the principles of selective precipitation to separate the ions. We know that \ce{PbBr2} and \ce{CuBr} are insoluble compounds. Let us say we have 5mL of a mixture of both ions with 0.01M concentration, and we add a solution containing \ce{Br^-}. As two different precipitates will form (\ce{CuBr} and \ce{PbBr2}) the question is: are we going to be able to separate both compounds? Or the precipitation of both will overlap? If the concentration needed to precipitate both insoluble compounds is ten times different we will be able to selectively precipitate both compounds. Here we assume that the addition of the cation will not modify the volume of the mixture. 
 We will calculate the amount solution added needed to precipitate each of the solids. Let us first address the expressions for the solubility product for each solid:
 \begin{center}
 \ce{CuBr_{(s)}  <=> Cu^{+}_{(aq)} + Br^{-}_{(aq)}}\hfill $K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}$\\
@@ -9,4 +9,21 @@ We will calculate the critical concentration of bromide $\big[ \ce{Br^{-}} \big]
 $K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=(0.01)\cdot\big[ \ce{Br^{-}} \big]_{c,\ce{CuBr}}=6.3\times 10^{-9}$\\
 \end{center}
 Solving for $\big[ \ce{Br^{-}} \big]_{c,\ce{CuBr}}$ we have: $\big[ \ce{Br^{-}} \big]_{c,\ce{CuBr}}=6.3\times 10^{-9}/0.01=6.3\times 10^{-7}$M for the precipitation of \ce{CuBr}. Now, we calculate the concentration of bromide needed to precipitate Lead(II) bromide:
-$ \big[ \ce{Br^{-}} \big]_{c,\ce{PbBr2}}^2=\frac{6.6\times 10^{-6}}{0.01}$ hence $ \big[ \ce{Br^{-}} \big]_{c,\ce{PbBr2}}=\big(\frac{6.6\times 10^{-6}}{0.01}\big)^{\frac{1}{2}}=2.5\times 10^{-2}$M for \ce{PbBr2}. Comparing both concentrations we have that the values are different enough so it would be feasible to separate both ions in solution. We will have to add $6.3\times 10^{-5}$mL of the solution to precipitate Copper(I) bromide and $2.5$mL to precipitate Lead(II) bromide. The difference in volume 2.5mL is more than 0.07mL, that is the volume of one drop. Hence, we would be able to separate both.
+$ \big[ \ce{Br^{-}} \big]_{c,\ce{PbBr2}}^2=\frac{6.6\times 10^{-6}}{0.01}$ hence $ \big[ \ce{Br^{-}} \big]_{c,\ce{PbBr2}}=\big(\frac{6.6\times 10^{-6}}{0.01}\big)^{\frac{1}{2}}=2.5\times 10^{-2}$M for \ce{PbBr2}. Comparing both concentrations we have that the values are different enough, so it would be feasible to separate both ions in solution. Let us calculate and compare the number of drops needed to precipitate both chemicals. Knowing that the concentration of the added solution is 0.01M, and we have a 5mL sample, and that the volume of a drop is 0.07mL we have that the bromine concentration when adding $n$ drops would be
+\[  \big[ \ce{Br^{-}} \big]=0.01\cdot \frac{n\cdot 0.07}{5+n\cdot 0.07} \]
+Solving for $n$ we have
+\[  n=\frac{5\cdot \big[ \ce{Br^{-}} \big]_c}{(0.01-\big[ \ce{Br^{-}} \big]_c)\cdot 0.07}
+  \]
+Therefore, we have that to reach a concentration of 6.3$\times 10^{-7}$M we would need less than a single drop, whereas we cannot reach a bromine concentration of 2.5$\times 10^{-2}$M as it exceeds 0.01M (if you calculate $n$ you will find a negative value). Therefore, we would be able to separate both Copper(I) bromide and Lead(II) bromide.
+We can also present a general formula to compute the number of drops (each with a volume of 0.07mL) needed to reach a critical concentration that causes a chemical precipitate to form.
+
+\begin{equation}
+\boxed{ n=\frac{v_{sample}\cdot c_{c}}{(c_{added}-c_{c})\cdot 0.07}
+  }\label{\chapterlabel:equation9}
+\end{equation}
+where:
+\begin{where}
+ \item $v_{sample}$  is the volume of the sample that contains the chemical to be precipitated
+ \item $c_{c}$  is the critical concentration that makes the chemical precipitate
+  \item $c_{added}$  is the concentration of the added chemical
+\end{where}
