@@ -12,8 +12,9 @@
             \newstep[] Set up the measurement time to 60 seconds and the measuring voltage according to your professor's instructions. Mind selecting a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
             \newstep[] Measure radiation by reading the meter 10 times. 
    %            \import{\labname/}{goodlabpractice}
-        \newstep[] Repeat Part A for a set of K masses between 1g, 1.5g, and 2.0g by adding increasing amounts of KCl to the beaker.
-        \newstep[] For each sample, measure the activity 10 times. Write down the values in the Results section. Obtain its average $\overline{A}$ in cpm. 
+        \newstep[] Repeat Part A for a set of K masses of 1g, 1.5g, and 2.0g by adding increasing amounts of KCl to the beaker.
+        \stepcounter{graphcounter}  
+        \newstep[] For each sample, measure the activity 10 times. Write down the values in the Results section. Obtain the average $\overline{A}$ and stanrad deviation $s$ in cpm. 
         \newstep[] Compile all mass values ($m$) as well as average activity values ($\overline{A}$) in the results section. Compute log($\overline{A}$/m). Plot log($\overline{A}$/m) in the vertical axis versus $m$ in grams in the horizontal axis in Graph {\thegraphcounter}. The y-intercept will give you the highest $\overline{A}/m$ value.
          \newstep[] Transform the highest $\overline{A}$/m value into half-life and compare your measured value with the one reported for K-40.
              \end{steps}
@@ -22,10 +23,10 @@
  \subsection*{Part C: Calculation of the efficiency of the counter}
            \begin{steps}  
              \newstep[] This part is optional. Ask your instructor if you are required to do it.
-             \newstep[] Set up the measurement time to 60 seconds and the measuring voltage according to your professor's instructions. Mind selecting a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
-            \newstep[] Measure radiation without any sample by reading the meter 10 times. This will give you the background radiation.
+             \newstep[] Set up the measurement time to 60 seconds and tselect a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
+            \newstep[] Measure radiation without any sample by reading the meter 10 times. This will give you the background radiation. If you already measured the background previously, you can reuse the data.
  \newstep[] Next, place one of the radioactive sources in the top shelf and begin taking data
- \newstep[] Repeat this for each of your other two sources.
+ \newstep[] Repeat this for each of the two sources.
              \end{steps}
 
 
