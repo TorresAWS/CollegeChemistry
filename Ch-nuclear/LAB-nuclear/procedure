@@ -7,12 +7,12 @@
     \end{steps}     
        \subsection*{Part B: Calculation of $t_{1/2}$ for a set of mass measurements}
            \begin{steps}  
-     \newstep[] Weight approximately 0.8 grams of KCl in a scale. Write down your measurement. Place the sample in a 100mL beaker.
-    \newstep[] With the help of a stand, clamp the counter as close as possible to the sample but without touching the sample. Be very careful with the membrane at the end of the counter, as it is very delicate and tears easily. Make sure to spread the KCl evenly over the entire bottom of the beaker.
+     \newstep[] Weight approximately 0.8 grams of KCl in a scale. Write down your measurement. Place the sample in the plastic tray which can inserted in the counter measuring rac.
+    \newstep[] Place the measuring tray with the sample on the top insert, as close to the counter as possible. Be very careful with the membrane at the end of the counter, as it is very delicate and tears easily. Make sure to spread the KCl evenly over the entire bottom of the beaker.
             \newstep[] Set up the measurement time to 60 seconds and the measuring voltage according to your professor's instructions. Mind selecting a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
             \newstep[] Measure radiation by reading the meter 10 times. 
    %            \import{\labname/}{goodlabpractice}
-        \newstep[] Repeat Part A for a set of K masses of 1g, 1.5g, and 2.0g by adding increasing amounts of KCl to the beaker.
+        \newstep[] Repeat Part A for a set of K masses of 1g, 1.5g, and 2.0g by adding increasing amounts of KCl to the tray.
         \stepcounter{graphcounter}  
         \newstep[] For each sample, measure the activity 10 times. Write down the values in the Results section. Obtain the average $\overline{A}$ and stanrad deviation $s$ in cpm. 
         \newstep[] Compile all mass values ($m$) as well as average activity values ($\overline{A}$) in the results section. Compute log($\overline{A}$/m). Plot log($\overline{A}$/m) in the vertical axis versus $m$ in grams in the horizontal axis in Graph {\thegraphcounter}. The y-intercept will give you the highest $\overline{A}/m$ value.
@@ -23,9 +23,10 @@
  \subsection*{Part C: Calculation of the efficiency of the counter}
            \begin{steps}  
              \newstep[] This part is optional. Ask your instructor if you are required to do it.
-             \newstep[] Set up the measurement time to 60 seconds and tselect a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
+             \newstep[] Set up the measurement time to 60 seconds and select a voltage of 900V for all measurements (Press Display/High Voltage/Up/Down until you reach 900V). Press measure (press Display until the light cursor is next to count; then press Count until the stop button lights up) and write down the activity in counts per minute in the Results section.
             \newstep[] Measure radiation without any sample by reading the meter 10 times. This will give you the background radiation. If you already measured the background previously, you can reuse the data.
- \newstep[] Next, place one of the radioactive sources in the top shelf and begin taking data
+ \newstep[] Next, place one of the radioactive sources in the top shelf with the chip label facing down, away from the counter. 
+ \newstep[] Begin taking data.
  \newstep[] Repeat this for each of the two sources.
              \end{steps}
 
@@ -53,6 +54,6 @@ where $\epsilon$ is the efficiency of the Geiger counter (usually 20\%). The num
 \mycircled{10} This is the half-life of K-40 as reported in the literature\vspace{0.5cm}\\
 \mycircled{11} This is the activity of the isotope\vspace{0.5cm}\\
 \mycircled{12} This is the efficiency of the counter
-\[ \epsilon= \frac{\;\;\mycircled{11} \;\;\ - \;\;\mycircled{3} \;\;\ }{A_{ref}}  \times   \frac{100}{2.22\times 10^{-6}}  \]
-where $A_{ref}$ is the activity of the source in $\mu Ci$ as listed on its label. The number $2.22\times 10^{-6}\text{cpm}/\mu Ci$ is used to convert from $\mu Ci$ to cpm  \vspace{0.5cm}\\
+\[ \epsilon= \frac{\;\;\mycircled{11} \;\;\ - \;\;\mycircled{3} \;\;\ }{A_{ref}\cdot 0.5^{ \frac{365\cdot t }{t_{\frac{1}{2}}} }     }  \times   \frac{100}{2.22\times 10^{6}}  \]
+where $A_{ref}$ is the activity of the source in $\mu$Ci as listed on its label (0.1$\mu$ Ci for all samples), $t$ is the number of year passed from the date written in the chip, and $t_{\frac{1}{2}}$ is the half-life of the isotope. The number $2.22\times 10^{6}\text{cpm}/\mu Ci$ is used to convert from $\mu Ci$ to cpm  \vspace{0.5cm}\\
 \mycircled{13} This is the average efficiency\vspace{0.5cm}\\
