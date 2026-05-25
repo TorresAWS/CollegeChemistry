@@ -53,9 +53,9 @@
 where $\epsilon$ is the efficiency of the Geiger counter (usually 20\%). The number 525600 is used to convert minutes to years, whereas the number $9.53\times 10^{17}\text{K-40 atoms}/\text{g KCl}$ is used to convert from K-40 atoms into KCl grams. \vspace{0.5cm}\\
 \mycircled{10} This is the half-life of K-40 as reported in the literature\vspace{0.5cm}\\
 \mycircled{11} This is the measured activity of the isotope\vspace{0.5cm}\\
-\mycircled{12} This is the activity, half-life and the date of the isotopes listed on the chip\vspace{0.5cm}\\
+\mycircled{12} This is the activity and the date of the isotopes listed on the chip\vspace{0.5cm}\\
 \mycircled{13} This is the time passed from when the activity listed on the chip was measured\vspace{0.5cm}\\
 \mycircled{14} This is the efficiency of the counter
 \[ \epsilon= \frac{\;\;\mycircled{11} \;\;\ - \;\;\mycircled{3} \;\;\ }{A_{ref}\cdot 0.5^{ \frac{365\cdot t }{t_{\frac{1}{2}}} }     }  \times   \frac{100}{2.22\times 10^{6}}  \]
 where $A_{ref}$ is the activity of the source in $\mu$Ci as listed on its label (0.1$\mu$ Ci for all samples), $t$ is the number of year passed from the date written in the chip, and $t_{\frac{1}{2}}$ is the half-life of the isotope. The number $2.22\times 10^{6}\text{cpm}/\mu Ci$ is used to convert from $\mu Ci$ to cpm  \vspace{0.5cm}\\
-\mycircled{15} This is the average efficiency\vspace{0.5cm}\\
+%\mycircled{15} This is the average efficiency\vspace{0.5cm}\\

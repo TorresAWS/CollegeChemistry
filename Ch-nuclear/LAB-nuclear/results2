@@ -22,13 +22,13 @@
 \hline
 Background  A  \vspace{0.4cm}   &\multicolumn{1}{c|}{ \mycircled{3}}& &   &    & &  &  &  &  &  & &    & &\multicolumn{1}{c|}{ $\epsilon$(\%)}   \\
 \hline
-Po-210 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11} }& &   &    & &  &  &  &  &  & &    &    & \\
+Cs-137 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11} }& &   &    & &  &  &  &  &  & &    &    & \\
 \hline
 Sr-90 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11}}& &   &    & &  &  &  &  &  & &    &  &   \\
 \hline 
 Co-60 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11}}& &   &    & &  &  &  &  &  & &    &  &   \\
-\hline 
-\multicolumn{13}{c|}{ } &   \multicolumn{1}{c|}{\;\;\;\mycircled{15}\;\;\;$\overline{\epsilon}$(\%)=}&       \multicolumn{1}{c|}{ } \\
+%\hline 
+%\multicolumn{13}{c|}{ } &   \multicolumn{1}{c|}{\;\;\;\mycircled{15}\;\;\;$\overline{\epsilon}$(\%)=}&       \multicolumn{1}{c|}{ } \\
 \cline{14-15}
 \end{tabular}
 
@@ -36,11 +36,12 @@ Co-60 + Background  A\vspace{0.4cm}    &\multicolumn{1}{c|}{ \mycircled{11}}& & 
  \begin{center}\begin{tabular}{ |  p{2.0cm}|p{2.0cm}   |p{2.0cm}   |p{2.0cm}   |  }
 \cline{1-4}
 \multicolumn{1}{|c|}{   }  &Half-life on Chip  & \multicolumn{1}{c|}{  Date on Chip    }   & \multicolumn{1}{c|}{ Time passed (d)     }     \\
-\multicolumn{1}{|c|}{ } &\multicolumn{1}{c|}{ \mycircled{12}} & \multicolumn{1}{c|}{ \mycircled{12}} & \multicolumn{1}{c|}{ \mycircled{13}}      \\
+\multicolumn{1}{|c|}{ } & & \multicolumn{1}{c|}{ \mycircled{12}} & \multicolumn{1}{c|}{ \mycircled{13}}      \\
 \cline{1-4}
-Po-210&   & &       \\[10pt]\hline
-Sr-90&   &  &     \\[10pt]\hline
-Co-60&   & &       \\[10pt] 
+Cs-137& 30.07y   & &       \\[10pt]\hline
+Sr-90&28.8y   &  &     \\[10pt] 
+%\hline
+%Co-60&5.27y   & &       \\[10pt] 
 \cline{1-4}
 \end{tabular}\end{center}
  
