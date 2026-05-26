@@ -1,5 +1,6 @@
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 The measured initial velocity for an enzyme-catalyzed reaction that follows the Michaelis-Menten model was $3\times10^{-3}$ mM/min, whereas the maximum velocity was $5\times10^{-3}$ mM/min. Calculate Michaelis-Menten's $k_m$ parameter for a substrate concentration of $3\times 10^{-2}$mM.
 \end{question}
 \begin{solution}
@@ -8,6 +9,7 @@ The measured initial velocity for an enzyme-catalyzed reaction that follows the 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 A solution of urease, an enzyme that catalyzes the hydrolysis of urea into ammonia and carbon dioxide, is mixed with a 0.01mM urea solution. The measured initial velocity for the urea decomposition was  $1\times10^{-3}$ mM/min. Calculate	the	maximum	velocity	of	the	enzymatic	reaction given that under the experimental conditions, $K_m$ was found to be 0.05mM. 
 \end{question}
 \begin{solution}
@@ -23,6 +25,7 @@ $1\times10^{-3}$ mM/min
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For an enzyme obeying Michaelis-Menten kinetic model, at what substrate concentration will the initial velocity be equal to half of $r_m$?
 \end{question}
 \begin{solution}
@@ -31,6 +34,7 @@ $[S]=K_m$
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
  For an enzyme obeying Michaelis-Menten kinetic model, at what substrate concentration will the initial velocity be equal 25\% of $r_m$?  
 \end{question}
 \begin{solution}
@@ -39,6 +43,7 @@ $[S]=1/3K_m$
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For an enzyme-catalyzed reaction obeying Michaelis-Menten kinetics,
 $r_m$ was $1.0\times 10^{-9}$ M/s and $K_m$ = $2.0\times 10^{-3}$ M. Calculate the rate of the enzymatic reaction for a substrate concentration of  $1.0\times 10^{-3}$ M.
 \end{question}
@@ -48,6 +53,7 @@ $3.3\times 10^{-10}$M/s
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For an enzyme-catalyzed reaction obeying Michaelis-Menten kinetics, $r_m$ was $1.0\times 10^{-8}$ M/s and $K_m$ = $5.0\times 10^{-3}$ M. Calculate the rate of this enzymatic reaction when the substrate concentration was  $1.0\times 10^{-2}$ M.
 \end{question}
 \begin{solution}
@@ -57,6 +63,7 @@ $6.6\times 10^{-9}$M/s
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Lysozyme is an enzyme that protects against bacterial, fungal, and viral pathogens. The following kinetic data reflects the activity of lysozyme acting on the hexa-N-acetylglucosamine substrate at controlled PH and temperature. Adjust the Lineweaver-Burk rate law to the data and obtain the two Michaelis-Menten constants.
 \begin{center}
 \begin{tabular}[t]{   c|ccccc     }
@@ -78,6 +85,7 @@ $r_m=0.05\mu$ M/s;$K_m=5.34\mu$M
  
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Pyruvate carboxylase is a key enzyme in metabolism. The following kinetic data reflects the enzyme's activity at controlled PH and temperature. Adjust the Lineweaver-Burk rate law to the data and obtain the two Michaelis-Menten constants.
 \begin{center}
 \begin{tabular}{   @{}l|ccccc@{}     }
@@ -105,12 +113,4 @@ $r_m=0.01\mu$ M/s;$K_m=60\mu$M
 
 
 
-%
-%%
-%\begin{inparaenum}[(a)]
-%\item  unimolecularity; $r$=k[\ce{N2O}]
-%\item  bimolecular; $r$=k[\ce{N2O}][\ce{O}]
-%\item  bimolecular; $r$=k[\ce{NO}]$^2$
-%\item  bimolecular; $r$=k[\ce{N2O2}][\ce{H}]
-% \end{inparaenum}
 %

@@ -1,5 +1,6 @@
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the following elemental reaction steps indicate the molecularity and give the rate law:
 \begin{inparaenum}[(a)]	
 \item \ce{N2O -> NO + O}   %molecularity=1; $r$=k[\ce{N2O}]
@@ -20,6 +21,7 @@ For the following elemental reaction steps indicate the molecularity and give th
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the following elemental reaction steps indicate the molecularity and give the rate law:
 \begin{inparaenum}[(a)]
 \item \ce{SiH4 + SiH2 -> Si2H6 }   %molecularity=2; $r$=k[\ce{SiH2}][\ce{SiH4}]
@@ -42,6 +44,7 @@ For the following elemental reaction steps indicate the molecularity and give th
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 The experimental rate law for the reaction of nitrogen monoxide and molecular oxygen given by the following reaction
   \begin{center}	\ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}  	 		}\hfill r$^{Exp}$=k$^{Exp}$ [\ce{NO}]$^2$[\ce{O2}]\end{center}
 is second order with respect to dinitrogen oxide and first order with respect to oxygen. A plausible mechanism would be:
@@ -72,6 +75,7 @@ Calculate:
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 A possible mechanism for the reaction of nitrogen monoxide and molecular oxygen to produce nitrogen dioxide given by the following reaction
   \begin{center}	\ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}  	 		}\hfill \end{center}
 could be:
@@ -103,6 +107,7 @@ Calculate:
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For a mechanism, the expression for the apparent reaction cound was found to be
 \[   r^{Exp}  = k_{1}\cdot k_{2}\cdot k_{-1}   \]
 given that the numerical values of the activation energies for the steps one, one in reverse and two are respectively 100, 90 and 200 in $kJ\cdot mol^{-1}$, calculate: 
@@ -123,6 +128,7 @@ given that the numerical values of the activation energies for the steps one, on
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For a mechanism, the expression for the apparent reaction cound was found to be
 \[   r^{Exp}  = \frac{k_{1}\cdot k_{-1}}{ k_{2} }  \]
 given that the numerical values of the activation energies for the steps one, one in reverse and two are respectively 100, 90 and 200 in $kJ\cdot mol^{-1}$, calculate: 
