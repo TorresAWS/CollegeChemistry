@@ -1,5 +1,7 @@
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the molecular shape of the molecules:
 \begin{inparaenum}[(a)]
 \item \ce{NH3} %Trigonal pyramidal
@@ -16,6 +18,8 @@ Identify the molecular shape of the molecules:
 %%%%%%%%%%%%%%
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the molecular shape of the molecules:
 \begin{inparaenum}[(a)]
 \item \ce{H2}	%Linear
@@ -37,6 +41,8 @@ Identify the molecular shape of the molecules:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
     \chemfig{\lewis{26,Se}( (-[:45]\lewis{713,Cl})(-[:135]\lewis{513,Cl}) )}\hspace{.05in}	% \ce{AB2E2}; bent; 109$^{\circ}$
@@ -54,6 +60,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%%%%%%%%
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
    \chemfig{B( (-[:0]H)(-[:180]H)(-[:270]\lewis{460,F}))}  
@@ -74,6 +82,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
    \chemfig{Cl( (=[:0]\lewis{17,O})  (=[:90]\lewis{13,O})(-[:180]\lewis{246,O})(=[:270]\lewis{57,O})	)}
@@ -94,6 +104,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
 \hspace{.05in}\chemfig{P( (-[:340]\lewis{026,Cl}) (-[:60]\lewis{024,Cl})  (-[:120]\lewis{240,Cl})(-[:190]\lewis{462,Cl})(-[:270]\lewis{064,Cl})	)}    \hspace{.05in}      % \ce{AB2E2}; bent; 109$^{\circ}$
@@ -112,6 +124,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%%%%%%%%
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
  \chemfig{\lewis{13,Cl}( (-[:185]\lewis{046,F})(-[:270]\lewis{046,F})(-[:355]\lewis{046,F}) )}   
@@ -129,6 +143,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 %%%%%%%%%%%%%%
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Given the following Lewis structures, predict the molecular geometry and angles:
 \vspace{0.5cm}\begin{center}\hspace{.05in} {\bf (a)} \hspace{.05in}
  \hspace{.05in}\chemfig{S( (-[:340]\lewis{026,F}) (-[:60]\lewis{024,F})  (-[:120]\lewis{240,F})(-[:190]\lewis{462,F})(-[:250]\lewis{064,F})(-[:300]\lewis{064,F})	)}
@@ -147,6 +163,8 @@ Given the following Lewis structures, predict the molecular geometry and angles:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
@@ -198,6 +216,8 @@ Identify the geometrical name (e.g. bent) of the following molecular structure:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
@@ -243,6 +263,8 @@ square planar
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
@@ -285,6 +307,8 @@ bent
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
@@ -332,6 +356,8 @@ see-saw
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
@@ -377,6 +403,8 @@ Identify the geometrical name (e.g. bent) of the following molecular structure:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the geometrical name (e.g. bent) of the following molecular structure:
 \usetikzlibrary{quotes,angles}
 \newcommand{\Bond}[6]%
