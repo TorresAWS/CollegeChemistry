@@ -1,0 +1,47 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The following data in cpm were taken from the background radiation measurement: 76, 127, 118, 82, 111, 155, 143, 100, 142, 112. The following results are the activity measurement for a radioactive source in cpm: 6510, 6605, 6588, 6446, 6569, 6561, 6486, 6596, 6382, 6631.
+\begin{inparaenum}[(a)]
+\item Compute the average activity of the background in cpm  
+\item Compute the average activity of the sample, including the background in cpm  
+\item Compute the average activity of the sample in cpm   
+\item Compute the standard deviation of the background cpm   
+\item Compute the standard deviation of the sample, including the background in cpm   
+\item Compute the standard deviation of the sample in cpm   
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item  117
+\item  6536
+\item  6419
+\item 26
+\item 79
+\item 74
+\end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The following data in cpm were taken from the background radiation measurement: 43, 68, 44, 68, 56, 56, 66, 43, 47, 42. The following results are the activity measurement for a radioactive source in cpm: 1051, 1026, 1116, 1033, 1055, 1031, 1039, 1053, 1024, 1034.
+\begin{inparaenum}[(a)]
+\item Compute the average activity of the background in cpm  
+\item Compute the average activity of the sample, including the background in cpm  
+\item Compute the average activity of the sample in cpm   
+\item Compute the standard deviation of the background cpm   
+\item Compute the standard deviation of the sample, including the background in cpm   
+\item Compute the standard deviation of the sample in cpm   
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item  53
+\item  1046
+\item   992
+\item 11
+\item 27
+\item 25
+\end{inparaenum}
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
