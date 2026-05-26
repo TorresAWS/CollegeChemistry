@@ -1,1 +1,0 @@
-We dissolve 3 moles of solute in 1L of solution. Given that Van't Hoff factor of the solute is 3, calculate the nominal solute concentration and the effective concentration of particles on solution.  
