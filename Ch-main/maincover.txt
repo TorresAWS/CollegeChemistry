@@ -7,8 +7,8 @@
 
  \begin{document}
 \subfile{../Ch-main/cover/title.tex}
-\subfile{../Ch-main/periodictable/periodictable.tex}
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
+\subfile{../Ch-main/periodictable/periodictable.tex}
 \tableofcontents
  \clearpage\thispagestyle{empty}\mbox{}
 \subfile{../Ch-main/tothereader/tothereader.tex}
