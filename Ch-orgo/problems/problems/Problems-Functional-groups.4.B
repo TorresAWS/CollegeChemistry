@@ -1,4 +1,0 @@
-Identify the functional groups in the following molecule:
-\begin{center}
-\chemfig{[7]H_3C-C(=[6]O)-[1]CH_2-CH_2-[1]CH_3}
-\end{center}

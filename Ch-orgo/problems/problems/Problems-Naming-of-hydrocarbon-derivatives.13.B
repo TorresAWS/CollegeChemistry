@@ -1,4 +1,0 @@
-Name or formulate the following compound:
-   \begin{center}
-                  \chemfig{  -[:45]-[:-45]-[:45]-[:-45]-[:45]N((-[:45]-[:-45])(-[:-45]))  }   % 
-   \end{center}

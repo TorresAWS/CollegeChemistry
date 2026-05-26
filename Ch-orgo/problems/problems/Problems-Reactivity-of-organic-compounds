@@ -1,6 +1,7 @@
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{C_6H_6 + 15/2O_2 ->[$\Delta$][]  }\end{center}
 \end{question}
@@ -12,6 +13,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{C_10H_22 + 31/2O_2 ->[$\Delta$][]   }\end{center}
 \end{question}
@@ -24,6 +26,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{C2H_6 + Cl_2  ->[h$\nu$][]   }\end{center}
 \end{question}
@@ -35,6 +38,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{C2H_6 + 2Cl_2  ->[h$\nu$][]   }\end{center}
 \end{question}
@@ -45,6 +49,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{CH_3-CH_2-CH_3   ->[\ce{Cr2O3}][500$^{\circ}$C]   }\end{center}
 \end{question}
@@ -56,6 +61,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{CH#CH + H2 ->[Pt][]  }\end{center}
 \end{question}
@@ -67,6 +73,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{CH#CH + Cl2 ->[][]  }\end{center}
 \end{question}
@@ -77,6 +84,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\ce{CH2=CH2 + Cl2 ->[][]  }\end{center}
 \end{question}
@@ -88,6 +96,7 @@ Complete the following reaction:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]OH }\ce{->[$[$ox$]$][]}
 %\chemfig{-[:45]-[:-45]-[:45]-[:-45]((=[:-90]O)(-[:45]OH)) }
@@ -100,6 +109,7 @@ Complete the following reaction:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
 \begin{center}\chemfig{ -[:45]-[:-45]-[:45]((-[:90]OH)(-[:-45])) }\ce{->[$[$ox$]$][]}
 %\chemfig{-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]))  }
@@ -116,8 +126,8 @@ Complete the following reaction:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
-
 \begin{center}\begin{tabular*}{0.4\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}}
 \chemfig{  -[:45]-[:-45]-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]OH))   }&
 $+$&
@@ -126,10 +136,7 @@ $+$&
 \chemfig{   }&
 \tabularnewline\addlinespace
 \end{tabular*}
-
 \end{center}
-
-
 \end{question}
 \begin{solution}
 \chemfig{ -[:45]-[:-45]-[:45]-[:-45]-[:45]((=[:90]O)(-[:-45]O-[:45]-[:-45]))   }
@@ -140,8 +147,8 @@ $+$&
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Complete the following reaction:
-
 \begin{center}\begin{tabular*}{0.4\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.1\textwidth}}
 \chemfig{  -[:45]((=[:90]O)(-[:-45]OH))   }&
 $+$&
@@ -159,6 +166,7 @@ $+$&
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 How would you synthesize the following compounds:
 \begin{inparaenum}[(a)]
 \item phenylmethanal %you would partially oxidize  phenylmethanol
@@ -177,6 +185,7 @@ How would you synthesize the following compounds:
 
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 How would you synthesize the following compounds:
 \begin{inparaenum}[(a)]
 \item propanoic acid %you would fully oxidize propanol

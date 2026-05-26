@@ -1,6 +1,7 @@
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Name or formulate the following aromatic derivatives:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{**6(----(-CH_3)--)}  };
@@ -20,6 +21,7 @@ Name or formulate the following aromatic derivatives:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Name or formulate the following aromatic derivatives:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{**6(----(-Br)--)}  };
@@ -41,6 +43,7 @@ Name or formulate the following aromatic derivatives:
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Name or formulate the following aromatic derivatives, using both the standard and the orto, meta and para nomenclature:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{**6(-(-Br)---(-Br)--)}  }; % para
@@ -61,6 +64,7 @@ Name or formulate the following aromatic derivatives, using both the standard an
 
   %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Name or formulate the following aromatic derivatives, using both the standard and the orto, meta and para nomenclature if applies:
  \begin{center}\begin{tikzpicture}[help lines/.style={thin,draw-black!50}]
 \node at (0,0) { \chemfig{**6(-(-I)---(-I)--)}  }; % para
@@ -87,6 +91,7 @@ Name or formulate the following aromatic derivatives, using both the standard an
 
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Predict the product of the following reactions:
   \begin{center} \schemestart \chemfig{[:-30]*6(-=-=-=)} \arrow{0}[,0] \+ \ce{Cl_2} \arrow{->[Fe / \ce{FeCl3}]}[,1.5]\schemestop\end{center}
   \end{question}
@@ -98,6 +103,7 @@ Predict the product of the following reactions:
 
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Predict the product of the following reactions:
   \begin{center} \schemestart \chemfig{[:-30]*6(-=-=-=)} \arrow{0}[,0] \+ \ce{Br_2} \arrow{->[Fe / \ce{FeBr3}]}[,1.5]\schemestop\end{center}
 \end{question}
@@ -109,6 +115,7 @@ Predict the product of the following reactions:
 
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Predict the product of the following reactions:
    \begin{center}\schemestart \chemfig{[:-30]*6(-=-=-=)} \arrow{0}[,0] \+ \ce{HNO_3} \arrow{->[\ce{H_2SO4}]}[,1.5]\schemestop\end{center}
 \end{question}
@@ -120,6 +127,7 @@ Predict the product of the following reactions:
 
  %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 Predict the product of the following reactions:
   \begin{center} \schemestart \chemfig{[:-30]*6(-=-=-=)} \arrow{0}[,0] \+ \ce{CH_3Cl} \arrow{->[\ce{AlCl_3}]}[,1.5]\schemestop\end{center}
 \end{question}
