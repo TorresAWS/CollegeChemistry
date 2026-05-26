@@ -151,11 +151,17 @@
 \end{description}
 
 
-
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%%%NOT 121 
 \section{Detecting radiation}\import{../\chapterlabel/files/}{SectionIntro-Detecting}
 \sloppy \begin{description}
 \item[\docfilehook{The Geiger counter}{}] \import{../\chapterlabel/files/}{SubSection-Detecting-geiger}
- \end{description}
+\end{description}
+%%%%%%NOT 121
+}
+
+
+
 
 
 \checkoddpage\ifoddpage \clearpage\thispagestyle{empty}\mbox{}\clearpage \else  \fi \end{document}
