@@ -1,5 +1,7 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 A tank contains Ne gas at 700 mmHg, Ar at 2 atm, and Kr at 700 torr. What is the total pressure of the mixture in atm?
 \end{question}
 \begin{solution}
@@ -7,6 +9,8 @@ A tank contains Ne gas at 700 mmHg, Ar at 2 atm, and Kr at 700 torr. What is the
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 An anesthetic consist of a mixture of cyclopropane gas and oxygen gas. If the mixture has a total pressure of 2 atm and the partial pressure of cyclopropane is 0.5atm, what is the partial pressure of O2?
 \end{question}
 \begin{solution}
@@ -17,6 +21,8 @@ An anesthetic consist of a mixture of cyclopropane gas and oxygen gas. If the mi
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 The atmospheric pressure on a hot day is 780 mmHg. Given that the air is made of 78\% of nitrogen and 22\% of oxygen, calculate the partial pressure of each gas in the air.
 \end{question}
 \begin{solution}
@@ -24,6 +30,8 @@ The atmospheric pressure on a hot day is 780 mmHg. Given that the air is made of
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Phosphorus reacts with oxygen gas to produce tetraphosphorus decaoxide according to the following equation:
 \begin{center}\ce{  P4(s)  + $\underset{\text{\large 2L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x mol}}{\ce{P4O10(g)}}$  } \end{center}
 Calculate the number of moles of phosphorus that react with 2L of oxygen at STP conditions.
@@ -34,6 +42,8 @@ Calculate the number of moles of phosphorus that react with 2L of oxygen at STP 
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 For the following reaction, calculate the unknown $x$ at STP conditions:
 \begin{center}\ce{  C3H8(g)    + $\underset{\text{\large 5L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
 \end{question}
@@ -42,6 +52,8 @@ For the following reaction, calculate the unknown $x$ at STP conditions:
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 For the following reaction, calculate the unknown $x$ at STP conditions:
 \begin{center}\ce{  $\underset{\text{\large 3L}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
 \end{question}
@@ -50,6 +62,8 @@ For the following reaction, calculate the unknown $x$ at STP conditions:
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 For the following reaction, calculate the unknown $x$ at STP conditions:
 \begin{center}\ce{  $\underset{\text{\large 6moles}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
 \end{question}
@@ -62,6 +76,8 @@ For the following reaction, calculate the unknown $x$ at STP conditions:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Consider the set up below with three different gases in three different closed containers at 300K. Assuming that the connecting tubes have zero volume, once the flasks are connected, calculate:
 \begin{inparaenum}[(a)]	
 \item  The partial pressure of each gas in the mixture
@@ -121,6 +137,8 @@ Consider the set up below with three different gases in three different closed c
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Consider the set up presented below, where the connecting tubes have negligible volume. Calculate the partial pressure of each gas after the connection between the flasks is open.
 \begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
 \draw [green, very thick,  fill=red!10] (0,0) -- ++ (-1,0) arc (0:350:1.0) -- ++ (1,0)   |- cycle ;

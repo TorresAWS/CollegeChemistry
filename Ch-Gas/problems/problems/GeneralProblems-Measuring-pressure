@@ -3,6 +3,8 @@
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 An open-tube manometer is used to measure the pressure of a given gas. When there is no gas in the container, the mercury levels are equal in both sides of the u-tube.
 %%%%%%%%%%MANOMETER
 \begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
@@ -89,6 +91,8 @@ An open-tube manometer is used to measure the pressure of a given gas. When ther
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 An open-tube manometer is used to measure the pressure of a given gas. When there is no gas in the container, the mercury levels are equal in both sides of the u-tube.
 %%%%%%%%%%MANOMETER
 \begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
@@ -176,6 +180,8 @@ An open-tube manometer is used to measure the pressure of a given gas. When ther
 
 
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 A barometer is a device used to measure the atmospheric pressure. It is made of a glass tube filled with a liquid, inverted on a dish of the same liquid. When inverting the tube, liquid will remain on the tube. The filled height of the column is proportional to the pressure. The liquid used is normally mercury with density 13593 kg/$\text{m}^3$.
 \begin{center}\begin{tikzpicture}[thick,scale=0.5, every node/.style={transform shape}]
 \begin{scope}[scale=.75, transform shape]
