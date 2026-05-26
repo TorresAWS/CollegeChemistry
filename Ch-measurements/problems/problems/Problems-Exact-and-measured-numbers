@@ -1,6 +1,8 @@
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Indicate if the following statements represent measured or exact numbers:
  \noindent
 \begin{inparaenum}[(a)]	
@@ -20,6 +22,8 @@ Indicate if the following statements represent measured or exact numbers:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Indicate if the following statements represent measured or exact numbers:
  \noindent
 \begin{inparaenum}[(a)]	
@@ -42,6 +46,8 @@ Indicate if the following statements represent measured or exact numbers:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the following numbers as measured or exact:
 \begin{inparaenum}[(a)]
 \item The number of students enrolled in a class is 25 % exact
@@ -62,6 +68,8 @@ Identify the following numbers as measured or exact:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Identify the following numbers as measured or exact:
 \begin{inparaenum}[(a)]
 \item The length of an object is 4 cm	%measured
@@ -86,6 +94,8 @@ Identify the following numbers as measured or exact:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 A conservator studies a table by measuring numerous of its characteristics. Identify the following characteristics as measured or exact given the image below:
 \begin{center}
 \begin{tikzpicture}[fill=lightgray]
@@ -123,6 +133,8 @@ A conservator studies a table by measuring numerous of its characteristics. Iden
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 A biologist studies a tiger by measuring numerous of its characteristics. Identify the following characteristics as measured or exact given the image below:
 %\renewcommand\chapterlabel{Ch-measurements}
 \begin{center}
@@ -151,6 +163,8 @@ A biologist studies a tiger by measuring numerous of its characteristics. Identi
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Give the following measurement with the correct number of digits, while indicating the number of significant figures of the measurement and the estimated digit.
  \pgfmathsetmacro{\relativefibrethickness}{0.50}
 \pgfmathsetmacro{\relativefibrevariation}{0.07}
@@ -231,6 +245,8 @@ Give the following measurement with the correct number of digits, while indicati
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Give the following measurement with the correct number of digits, while indicating the number of significant figures of the measurement and the estimated digit.
  \pgfmathsetmacro{\relativefibrethickness}{0.50}
 \pgfmathsetmacro{\relativefibrevariation}{0.07}
@@ -313,6 +329,8 @@ Give the following measurement with the correct number of digits, while indicati
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Give the following measurement in mL with the correct number of digits, while indicating the number of significant figures of the measurement and the estimated digit.
  \begin{center}\begin{tikzpicture}[scale=1,spy using outlines={circle, size=3cm, connect spies},pics/burette/.style={code={
      \tikzset{burette/.cd,#1}
@@ -347,6 +365,8 @@ Give the following measurement in mL with the correct number of digits, while in
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Give the following measurement in mL with the correct number of digits, while indicating the number of significant figures of the measurement and the estimated digit.
  \begin{center}\begin{tikzpicture}[scale=1,spy using outlines={circle, size=3cm, connect spies},pics/burette/.style={code={
      \tikzset{burette/.cd,#1}
