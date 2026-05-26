@@ -1,5 +1,6 @@
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 We want to build up a galvanic cell based on the reactions below.  
 \begin{center}\ce{	Li^+ + C6_{(s)} +e^-	 <=>	LiC6_{(s)} 	}\hfill $\mathcal{E}^{\circ} =-$2.84V\\
 \ce{	N2_{(g)} + 2H2O + 6H+ + 6e^-	 <=>	2NH4OH_{(aq)}	 }\hfill $\mathcal{E}^{\circ} =+$0.09V\end{center} 
@@ -25,6 +26,7 @@ Indicate:
 
 %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 We want to build up a galvanic cell based on the reactions below.  
 \begin{center}\ce{	Cr^{3+} +e^-	 <=>	Cr^{2+} 	}\hfill $\mathcal{E}^{\circ} =-$0.42V\\
 \ce{	AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O		 }\hfill $\mathcal{E}^{\circ} =+$1.77V\end{center} 
@@ -51,6 +53,7 @@ Indicate:
 %%%%%PROBLEM
 %%%% UNVERIFIED
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the galvanic cell below, given that $\mathcal{E}^{\circ}(\ce{Ba(OH)_2}/\ce{Ba}) =$-2.99V and $\mathcal{E}^{\circ}(\ce{Ag^{2+}}/\ce{Ag^+}) =$1.98V 
  \colorlet{batteryLeftElectrode}{red!75}
  \colorlet{batteryRightElectrode}{green!75}
@@ -82,6 +85,7 @@ Indicate:
  %%%%%PROBLEM
 %%%% UNVERIFIED
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the galvanic cell below, given that $\mathcal{E}^{\circ}(\ce{SiO_2}/\ce{Si}) =$-0.91V 
  \colorlet{batteryLeftElectrode}{red!75}
  \colorlet{batteryRightElectrode}{green!75}
@@ -111,6 +115,7 @@ Indicate:
 
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction. Use $\mathcal{E}^{\circ}(\ce{Zn^{2+}}/\ce{Zn	}) =$-0.762V and $\mathcal{E}^{\circ}(\ce{Au^+}/\ce{Au}) =$1.83V
  \begin{center}\ce{	Zn_{(s)} + Au^+   <=>	 Au_{(s)}	+ Zn^{2+}	 	}     \end{center}
 \end{question}
@@ -121,6 +126,7 @@ For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate 
  
  %%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
 For the unbalanced reaction below, calculate $\mathcal{E}^{\circ}$ and indicate whether the reaction is spontaneous under standard conditions. Balance the reaction. Use $\mathcal{E}^{\circ}(\ce{HMnO_4^-}/\ce{MnO_2}) =$1.70V and $\mathcal{E}^{\circ}(\ce{Fe2O3}/\ce{Fe^{2+}}) =$0.728V
  \begin{center}\ce{	MnO_2	 + Fe2O3_{(s)}   	 <=>	Fe^{2+} +      HMnO_4^- 	}     \end{center}
 \end{question}
