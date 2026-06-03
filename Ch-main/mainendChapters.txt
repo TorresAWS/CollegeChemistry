@@ -5,6 +5,7 @@
 \newcommand\chemversionhealthalied{false}                       %%TRUE for chem 121 version FALSE for 201-2
 \newcommand\showfinalanswers{true}                              %%TRUEfor showing answers false for not
 \newcommand\ShowUneditedText{true}                              %%TRUEfor showing unedited text
+\newcommand\printOddAnswers{true}                              %%TRUE for printing only odd answ, truefor all 
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{\title{GOB Chemistry}       }{ \title{College Chemistry}}
 \begin{document} 
 \providetoggle{hideContentEnd}\settoggle{hideContentEnd}{\HideContent}\iftoggle{hideContentEnd}{       }{ \subfile{../\ChapterNameLabel/\ChapterNameLabel.tex}  }
