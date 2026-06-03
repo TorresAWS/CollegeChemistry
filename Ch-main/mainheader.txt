@@ -5946,3 +5946,21 @@ pic[scale=0.5] () at (3,0) {\chapterfruit} ;
 
 \newcommand\chapterpathtocontent{}\renewcommand\chapterpathtocontent{../}
 \newcommand\chapterpathtoimages{}
+% this part if for printing only odd/even answers 
+%\ExplSyntaxOn
+%\cs_set_protected:Npn \__exsheets_print_solutions_section:nnn #1#2#3
+%  {
+%    \exsheets_print_solutions_if:nnn
+%      {
+%        \int_if_odd_p:n  { \l_exsheets_counter_qu_int } &&
+%        \int_compare_p:n { \l__exsheets_counter_sec_int = #3 }
+%      }
+%      {#1}
+%      {#2}
+%  }
+%\ExplSyntaxOff
+
+
+
+
+
