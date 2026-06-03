@@ -29,7 +29,7 @@
 { \checkoddpage\ifoddpage    \else   \clearpage\thispagestyle{empty}\mbox{}\clearpage\fi
 \Large \bf Answers}
 \SetupExSheets{ headings = inline-nr , counter-format = qu) ,}
-\printsolutions 
+\providetoggle{printOddAnswers}\settoggle{printOddAnswers}{\printOddAnswers}\iftoggle{printOddAnswers}{\printsolutions[section] }{\printsolutions}
  % \printsolutions[byID={1,3,5,7,9,11,13}]
   \vspace{20cm}
  \end{localsize}
