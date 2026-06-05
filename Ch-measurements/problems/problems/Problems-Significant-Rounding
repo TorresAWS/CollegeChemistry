@@ -2,6 +2,53 @@
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 201
 %TAG= 121
+Round the following numbers to 1SFs:
+\begin{inparaenum}[(a)]
+\item 12324 L    %10000 L
+\item 40987 min    % $4\times 10^{4}$min
+\item 19456 kg    %20000 kg
+\item 7080 min    % $7\times 10^{3}$min
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  10000 L
+\item  $4\times 10^{4}$min
+\item  20000 kg
+\item   $7\times 10^{3}$min
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
+Round the following numbers to 1SFs:
+\begin{inparaenum}[(a)]
+\item 2062345 s    %2000000 s
+\item 8074 min    % $9\times 10^{3}$min
+\item 475620 h    %500000 h
+\item 204100 min    % $2\times 10^{5}$min
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  2000000 s
+\item   $9\times 10^{3}$min
+\item  500000 h
+\item   $2\times 10^{5}$min
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 201
+%TAG= 121
 Round the following numbers to 3SFs:
 \begin{inparaenum}[(a)]
 \item 12849m 	%12900m  
