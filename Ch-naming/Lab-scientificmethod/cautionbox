@@ -1,0 +1,16 @@
+        %%%%%CAUTION BOX%%%%%%%%%%%
+\begin{center}\tikzstyle{mybox} = [draw=red, fill=mybrown!05, very thick,
+    rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=red, text=white]
+\begin{tikzpicture}
+\node [mybox] (box){%
+    \begin{minipage}{0.8\textwidth}
+      \begin{itemize} [label={\danger}]
+      \item  Nitric acid (\ce{HNO3}) and ammonia (\ce{NH3})  {\color{red}\danger} can cause chemical burns. 
+             \item Solutions containing barium are toxic. 
+              \end{itemize}
+    \end{minipage}};
+\node[fancytitle, right=10pt] at (box.north west) {\danger CAUTION!};
+\node[fancytitle, rounded corners] at (box.east) {!};
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%
