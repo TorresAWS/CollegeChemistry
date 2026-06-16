@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JUN 2026 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 JUN 2026 13:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -925,6 +925,85 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count378
 \l__lipsum_b_int=\count379
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip154
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks39
+\ex@=\dimen285
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen286
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count380
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count381
+\leftroot@=\count382
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count383
+\DOTSCASE@=\count384
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box81
+\strutbox@=\box82
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen287
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count385
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count386
+\dotsspace@=\muskip18
+\c@parentequation=\count387
+\dspbrk@lvl=\count388
+\tag@help=\toks40
+\row@=\count389
+\column@=\count390
+\maxfields@=\count391
+\andhelp@=\toks41
+\eqnshift@=\dimen288
+\alignsep@=\dimen289
+\tagshift@=\dimen290
+\tagwidth@=\dimen291
+\totwidth@=\dimen292
+\lineht@=\dimen293
+\@envbody=\toks42
+\multlinegap=\skip155
+\multlinetaggap=\skip156
+\mathdisplay@stack=\toks43
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -944,8 +1023,8 @@ Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks39
-\verbatim@line=\toks40
+\every@verbatim=\toks44
+\verbatim@line=\toks45
 \verbatim@in@stream=\read4
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
@@ -953,29 +1032,27 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\@envbody=\toks41
-)
-\tcb@titlebox=\box81
-\tcb@upperbox=\box82
-\tcb@lowerbox=\box83
-\tcb@phantombox=\box84
-\c@tcbbreakpart=\count380
-\c@tcblayer=\count381
-\c@tcolorbox@number=\count382
-\l__tcobox_tmpa_box=\box85
-\l__tcobox_tmpa_dim=\dimen285
-\tcb@temp=\box86
-\tcb@temp=\box87
+))
+\tcb@titlebox=\box83
+\tcb@upperbox=\box84
+\tcb@lowerbox=\box85
+\tcb@phantombox=\box86
+\c@tcbbreakpart=\count392
+\c@tcblayer=\count393
+\c@tcolorbox@number=\count394
+\l__tcobox_tmpa_box=\box87
+\l__tcobox_tmpa_dim=\dimen294
 \tcb@temp=\box88
 \tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
-\c@tcbrastercolumn=\count383
-\c@tcbrasterrow=\count384
-\c@tcbrasternum=\count385
-\c@tcbraster=\count386
+\c@tcbrastercolumn=\count395
+\c@tcbrasterrow=\count396
+\c@tcbrasternum=\count397
+\c@tcbraster=\count398
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -987,7 +1064,7 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.co
 de.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box90
+\l__tikzfill_img_box=\box92
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
@@ -998,83 +1075,15 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box91
-\tcb@totalupperbox=\box92
-\tcb@totallowerbox=\box93
+\tcb@testbox=\box93
+\tcb@totalupperbox=\box94
+\tcb@totallowerbox=\box95
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip154
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks42
-\ex@=\dimen286
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen287
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count387
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count388
-\leftroot@=\count389
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count390
-\DOTSCASE@=\count391
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box94
-\strutbox@=\box95
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen288
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count392
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count393
-\dotsspace@=\muskip18
-\c@parentequation=\count394
-\dspbrk@lvl=\count395
-\tag@help=\toks43
-\row@=\count396
-\column@=\count397
-\maxfields@=\count398
-\andhelp@=\toks44
-\eqnshift@=\dimen289
-\alignsep@=\dimen290
-\tagshift@=\dimen291
-\tagwidth@=\dimen292
-\totwidth@=\dimen293
-\lineht@=\dimen294
-\@envbody=\toks45
-\multlinegap=\skip155
-\multlinetaggap=\skip156
-\mathdisplay@stack=\toks46
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcbfitdim=\dimen295
 \tcb@lowerfitdim=\dimen296
@@ -1089,7 +1098,7 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count400
 \lst@gtempboxa=\box96
-\lst@token=\toks47
+\lst@token=\toks46
 \lst@length=\count401
 \lst@currlwidth=\dimen298
 \lst@column=\count402
@@ -1214,18 +1223,10 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip159
 \enit@outerparindent=\dimen311
-\enit@toks=\toks48
+\enit@toks=\toks47
 \enit@inbox=\box144
 \enit@count@id=\count419
 \enitdp@description=\count420
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
@@ -1235,8 +1236,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
 )
 \XKV@depth=\count421
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1385,9 +1386,6 @@ brarydecorations.pathreplacing.code.tex))
 s/tikzlibrarydecorations.shapes.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.shapes.code.tex)))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2024/09/08 2.4 fourier-GUTenberg package
 Now handling font encoding FML ...
@@ -1543,7 +1541,7 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 270.
 \WF@size=\dimen334
 \c@WF@wrappedlines=\count425
 \WF@box=\box168
-\WF@everypar=\toks51
+\WF@everypar=\toks50
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
@@ -1622,8 +1620,8 @@ File: tikzlibraryscopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks52
-\inpenc@posthook=\toks53
+\inpenc@prehook=\toks51
+\inpenc@posthook=\toks52
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
@@ -1691,7 +1689,7 @@ Package everypage Warning: You appear to be running a version of LaTeX
 
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks54
+\AP@output=\toks53
 \AP@partial=\box171
 \AP@footins=\box172
 ))
@@ -1787,7 +1785,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip199
 \f@nch@widthC=\skip256
 \f@nch@widthR=\skip257
-\@temptokenb=\toks55
+\@temptokenb=\toks54
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
@@ -1796,7 +1794,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \aftertitleunit=\skip259
 \ttl@plus=\dimen367
 \ttl@minus=\dimen368
-\ttl@toksa=\toks56
+\ttl@toksa=\toks55
 \titlewidth=\dimen369
 \titlewidthlast=\dimen370
 \titlewidthfirst=\dimen371
@@ -1808,13 +1806,13 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 
 
 Package mdframed Warning: Environment example already exits
-(mdframed)                 on input line 422.
+(mdframed)                 on input line 426.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen372
 \c@nlinenum=\count442
-\TeXr@lab=\toks57
+\TeXr@lab=\toks56
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/graphpap.sty
 Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
@@ -1825,7 +1823,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rotFPtop=\skip261
 \rotFPbot=\skip262
 \rot@float@box=\box176
-\rot@mess@toks=\toks58
+\rot@mess@toks=\toks57
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -1901,8 +1899,8 @@ Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 \abovetabulinesep=\dimen392
 \belowtabulinesep=\dimen393
 \tabustrutrule=\dimen394
-\tabu@thebody=\toks59
-\tabu@footnotes=\toks60
+\tabu@thebody=\toks58
+\tabu@footnotes=\toks59
 \tabu@box=\box178
 \tabu@arstrutbox=\box179
 \tabu@hleads=\box180
@@ -1917,16 +1915,16 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@target=\dimen398
 \TX@delta=\dimen399
 \TX@cols=\count455
-\TX@ftn=\toks61
+\TX@ftn=\toks60
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks62
-\t@pgfplots@tokb=\toks63
-\t@pgfplots@tokc=\toks64
+\t@pgfplots@toka=\toks61
+\t@pgfplots@tokb=\toks62
+\t@pgfplots@tokc=\toks63
 \pgfplots@tmpa=\dimen400
 \c@pgfplots@coordindex=\count456
 \c@pgfplots@scanlineindex=\count457
@@ -1940,9 +1938,9 @@ soldpgfsupp_loader.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks65
-\t@pgf@tokb=\toks66
-\t@pgf@tokc=\toks67
+\t@pgf@toka=\toks64
+\t@pgf@tokb=\toks65
+\t@pgf@tokc=\toks66
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfutil-common-lists.tex))
@@ -1961,7 +1959,7 @@ matrix.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
 \c@pgfplotstable@counta=\count459
-\t@pgfplotstable@a=\toks68
+\t@pgfplotstable@a=\toks67
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -2083,10 +2081,10 @@ File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count464
 \AM@pagebox=\box182
-\AM@global@opts=\toks69
+\AM@global@opts=\toks68
 \AM@pagecnt=\count465
-\AM@toc@title=\toks70
-\AM@lof@heading=\toks71
+\AM@toc@title=\toks69
+\AM@lof@heading=\toks70
 \c@AM@survey=\count466
 \AM@templatesizebox=\box183
 )
@@ -2400,7 +2398,7 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LT@rows=\count599
 \c@LT@tables=\count600
 \c@LT@chunks=\count601
-\LT@p@ftn=\toks72
+\LT@p@ftn=\toks71
 )
 \tablebox=\box189
 
@@ -2424,7 +2422,7 @@ Package: floatflt 1997/07/16 v. 1.31
 \tabbredd=\dimen419
 \floatfltwidth=\dimen420
 \fltitemwidth=\dimen421
-\outputpretest=\toks73
+\outputpretest=\toks72
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.code.tex
@@ -2447,18 +2445,18 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerboxsaved@backbackground=\box194
 
 
-Package array Warning: Column D is already defined on input line 831.
+Package array Warning: Column D is already defined on input line 835.
 
 
-Package array Warning: Column E is already defined on input line 837.
+Package array Warning: Column E is already defined on input line 841.
 
 <stamp.png, id=41, 1174.3875pt x 973.6375pt>
 File: stamp.png Graphic file (type png)
 <use stamp.png>
-Package pdftex.def Info: stamp.png  used on input line 857.
+Package pdftex.def Info: stamp.png  used on input line 861.
 (pdftex.def)             Requested size: 49.99593pt x 49.9921pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-59.
+63.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -2502,7 +2500,7 @@ Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
 \CF_boxstuff=\box198
 \CF_testbox=\box199
 \CF_chargebox=\box256
-\CF_substtoks=\toks74
+\CF_substtoks=\toks73
 )
 Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 )
@@ -2786,75 +2784,93 @@ Package zref Info: New property: posy on input line 82.
 \c@tablenewcounter=\count648
 \c@formulanewcounter=\count649
 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/totcount/totcount.sty
+Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
+ounters
+)
+\c@numA=\count650
+
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count650
-\@quotereset=\count651
+\@quotelevel=\count651
+\@quotereset=\count652
 
 Package chemmacros Info: Using float defining method `float'.
 
-\@float@every@scheme=\toks75
-\c@scheme=\count652
-No file main.aux.
+\@float@every@scheme=\toks74
+\c@scheme=\count653
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 1783.
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1783.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 1800.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 1800.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-1783.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/fmlfutm.fd
+1800.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1783.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 1800.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-1783.
+1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 1783.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1783.
+LaTeX Font Info:    ... okay on input line 1800.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 1800.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-1783.
+1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 1783.
+LaTeX Font Info:    ... okay on input line 1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count653
+\scratchcounter=\count654
 \scratchdimen=\dimen488
 \scratchbox=\box270
-\nofMPsegments=\count654
-\nofMParguments=\count655
-\everyMPshowfont=\toks76
-\MPscratchCnt=\count656
+\nofMPsegments=\count655
+\nofMParguments=\count656
+\everyMPshowfont=\toks75
+\MPscratchCnt=\count657
 \MPscratchDim=\dimen489
-\MPnumerator=\count657
-\makeMPintoPDFobject=\count658
-\everyMPtoPDFconversion=\toks77
+\MPnumerator=\count658
+\makeMPintoPDFobject=\count659
+\everyMPtoPDFconversion=\toks76
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2864,10 +2880,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 1783.
+Package hyperref Info: Link coloring OFF on input line 1800.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 1783.
+Package layouts Warning: Layout scale set to 0.5 on input line 1800.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2903,31 +2919,20 @@ Package layouts Warning: Layout scale set to 0.5 on input line 1783.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-./main.tex:1783: Package cleveref Error: cleveref must be loaded after amsmath!
-.
-
-See the cleveref package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1783 \begin{document}
-                       
-? 
-\c@lstlisting=\count659
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 1783.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1783.
+\c@lstlisting=\count660
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1800.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1800.
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/futs/m/n --> TS1/futs/b/n on input line 1783.
-Package gensymb Info: Math companion symbols declared on input line 1783.
-LaTeX Info: Redefining \degree on input line 1783.
-LaTeX Info: Redefining \celsius on input line 1783.
+(Font)                  TS1/futs/m/n --> TS1/futs/b/n on input line 1800.
+Package gensymb Info: Math companion symbols declared on input line 1800.
+LaTeX Info: Redefining \degree on input line 1800.
+LaTeX Info: Redefining \celsius on input line 1800.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 1783.
-LaTeX Info: Redefining \ohm on input line 1783.
-Package gensymb Info: Using \textohm for \ohm on input line 1783.
-Package gensymb Info: Using \textmu for \micro on input line 1783.
+erthousand on input line 1800.
+LaTeX Info: Redefining \ohm on input line 1800.
+Package gensymb Info: Using \textohm for \ohm on input line 1800.
+Package gensymb Info: Using \textmu for \micro on input line 1800.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: floatflt package is loaded.
 Package caption Info: longtable package is loaded.
@@ -2937,7 +2942,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `fourier' on line 1783.
+Package chemgreek Info: Activating mapping `fourier' on line 1800.
 
 
 (./main.sta)
@@ -2948,7 +2953,7 @@ Package chemgreek Info: Activating mapping `fourier' on line 1783.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 1783.
+ on input line 1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -2976,8 +2981,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 1783.
-Package biblatex Info: Reference segment=0 on input line 1783.
+Package biblatex Info: ... file 'main1-blx.bbl' not found.
+No file main1-blx.bbl.
+Package biblatex Info: Reference section=0 on input line 1800.
+Package biblatex Info: Reference segment=0 on input line 1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -2985,24 +2992,24 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 1783.
+or `english'. on input line 1800.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/elements/elements_names_english.d
 ef)
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-786.
+803.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (56.39917pt too wide) in paragraph at lines 1786--1786
+Overfull \hbox (56.39917pt too wide) in paragraph at lines 1803--1803
 |[][] []| 
  []
 
 
 (../../Ch-naming/LAB-scientificmethod/../../Ch-naming/LAB-scientificmethod/LAB-
 scientificmethod.tex
-\blx@maxsegment@1=\count660
-\blx@sectionciteorder@1=\count661
+\blx@maxsegment@1=\count661
+\blx@sectionciteorder@1=\count662
 Package biblatex Info: Reference section=1 on input line 3.
 \openout7 = `main1-blx.aux'.
 
@@ -3069,28 +3076,17 @@ LaTeX Font Info:    Trying to load font information for TS1+futs on input line
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 ))
-(../../Ch-naming/LAB-scientificmethod/../../Ch-naming/LAB-scientificmethod/expe
-riment
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-)
-
-LaTeX Warning: Empty bibliography on input line 24.
-
-
-(../../Ch-naming/LAB-scientificmethod/../../Ch-naming/LAB-scientificmethod/proc
-edure
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 19.08076pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 3.
-
+(../../Ch-naming/LAB-scientificmethod/../../Ch-naming/LAB-scientificmethod/back
+ground
+(../../Ch-naming/files/../../Ch-naming/files/SectionIntro-Covalent-compounds)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Covalent-compounds-Prop
+erties-of-covalent-compounds.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Covalent-compounds-Prop
+erties-of-covalent-compounds)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Covalent-compounds-Cova
+lent-naming.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Covalent-compounds-Cova
+lent-naming)
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3126,13 +3122,352 @@ Non-PDF special ignored!
 al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-(../Lab-scientificmethod/../Lab-scientificmethod/goodlabpractice
+(../../Ch-naming/files/../../Ch-naming/files/Table-Covalent-prefixes
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 4.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+
+LaTeX Warning: Reference `tab:Table-Common-chemicals' on page 2 undefined on in
+put line 8.
+
+) (../LAB-scientificmethod/../LAB-scientificmethod/examplebox1
+Overfull \hbox (355.46523pt too wide) in paragraph at lines 5--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--1
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 1.
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem5.text)
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem5.resolution
+Underfull \hbox (badness 10000) in paragraph at lines 7--2
+
+ []
+
+)) (../../Ch-naming/files/../../Ch-naming/files/SectionIntro-Ionic-compounds)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Combini
+ng-ions.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Combini
+ng-ions
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+ [][][] 
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-type-I-
+ionic.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-type-I-
+ionic
+
+LaTeX Warning: Reference `Fig:Figure-Valences' on page 2 undefined on input lin
+e 1.
+
+
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+ [][][] 
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-type-I-
+ionic.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-type-I-
+ionic
+
+LaTeX Warning: Reference `Fig:Figure-Valences' on page 3 undefined on input lin
+e 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+ [][][] 
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Complex
+-ionic-naming.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Complex
+-ionic-naming
+
+LaTeX Warning: Reference `Fig:Figure-Valences' on page 3 undefined on input lin
+e 1.
+
+
+LaTeX Warning: Reference `Fig:Figure-Valences' on page 3 undefined on input lin
+e 1.
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Name-co
+mplex-ionic-chemicals.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Ionic-compounds-Name-co
+mplex-ionic-chemicals
+
+LaTeX Warning: Reference `Fig:Figure-Valences' on page 3 undefined on input lin
+e 1.
+
+) (../LAB-scientificmethod/../LAB-scientificmethod/examplebox2
+Package mdframed Info: mdframed works in twoside mode on input line 1.
+
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem4.text)
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem4.resolution)
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[3])
+(../../Ch-naming/files/../../Ch-naming/files/SectionIntro-Naming-complex-salts-
+common-chemicals)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Combining-ions.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Combining-ions
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+ [][][] 
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Naming-Oxosalts.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Naming-Oxosalts
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Formulating-Oxosalts.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Formulating-Oxosalts
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+ [][][] 
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Naming-Hydrosalts.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Naming-Hydrosalts
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Hydrates.title)
+(../../Ch-naming/files/../../Ch-naming/files/Subsection-Naming-complex-salts-co
+mmon-chemicals-Hydrates)
+(../LAB-scientificmethod/../LAB-scientificmethod/examplebox3
+Package mdframed Info: mdframed works in twoside mode on input line 1.
+
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem8.text)
+(../../Ch-naming/problems/../../Ch-naming/problems/SampleProblem8.resolution
+Underfull \hbox (badness 10000) in paragraph at lines 7--2
+
+ []
+
+)) (../../Ch-naming/files/../../Ch-naming/files/Table-Oxoacids
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 8.
+)
+Overfull \hbox (340.46523pt too wide) in paragraph at lines 22--26
+[] 
+ []
+
+)
+
+LaTeX Warning: Empty bibliography on input line 24.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]|
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[5]
+(../../Ch-naming/LAB-scientificmethod/../../Ch-naming/LAB-scientificmethod/proc
+edure
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 3.
+ (../Lab-scientificmethod/../Lab-scientificmethod/goodlabpractice
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T1/futs/m/n/10 Obtain di-rec-tions from your lab in-struc-tor for dis-charg-
 ing the so-lu-tions that you
  []
 
 )
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.26003pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.26003pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []
+ []
+
+[6]
 
 Package fourier-orns Warning: Command \danger is deprecated.
 (fourier-orns)                Use \warning instead; reported on input line 18.
@@ -3172,36 +3507,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 15--15
  [][] 
  []
 
-)
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.26003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.26003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.26003pt}.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [] 
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []
- []
-
-[2])
+))
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3230,7 +3536,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[3]
+[7]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -3369,7 +3675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
 )
 
-[4
+[8
 
 
 
@@ -3402,7 +3708,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[5
+[9
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3508,7 +3814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
 )
 
-[6
+[10
 
 
 
@@ -3542,7 +3848,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[7
+[11
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3688,7 +3994,7 @@ Overfull \hbox (3.65782pt too wide) in paragraph at lines 55--63
 
 )
 
-[8
+[12
 
 
 
@@ -3722,13 +4028,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
  []
 
-[9
+[13
 
 ]
 Package biblatex Info: Reference section=0 on input line 63.
 )
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 886.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 890.
 See the caption package documentation for explanation.
 
 
@@ -3740,14 +4046,14 @@ L3 programming layer <2025-01-18>
  ***********
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.43996pt have occurred.
+
+
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 1793.
-
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -3760,26 +4066,29 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 76438 strings out of 473190
- 1768587 string characters out of 34465801
- 2905030 words of memory out of 7000000
- 98348 multiletter control sequences out of 15000+600000
- 664953 words of font info for 136 fonts, out of 8000000 for 9000
+ 77966 strings out of 473190
+ 1819090 string characters out of 34465801
+ 2959622 words of memory out of 7000000
+ 99711 multiletter control sequences out of 15000+600000
+ 728613 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,18n,117p,1850b,1882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,117p,1850b,1909s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-orns.pf
-b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/t
-exmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2025/texmf-di
-st/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2025/texmf-dist/font
-s/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (9 pages, 149566 bytes).
+b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line
+10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2
+025/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/zap
+fding/uzdr.pfb>
+Output written on main.pdf (13 pages, 218943 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
  320 words of extra memory for PDF output out of 10000 (max. 10000000)
 

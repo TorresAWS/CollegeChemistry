@@ -123,6 +123,7 @@ roundcorner=1pt
 \newenvironment{example}[1]
   {\begin{exa}[frametitle=#1]}
   {\end{exa}}
+\usepackage{amsmath,amssymb}
 
 \usepackage{cleveref}
 \crefname{figure}{figure}{figures}
@@ -137,10 +138,13 @@ roundcorner=1pt
 \setlist[itemize,4]{label=$\bullet$}
 \usepackage{tikz, adjustbox}
 \usetikzlibrary{shapes,snakes}
-\usepackage{amsmath,amssymb}
+
+
+
 \usepackage{fourier}
 \usepackage{wrapfig}
 \usepackage{hyperref}
+ 
 \usepackage{enumitem}
 \usepackage{xspace}
 \usepackage{xparse}
@@ -1777,14 +1781,27 @@ cherry/.pic={
             \node[shape=circle,fill=blue!30!black,,draw,inner sep=2pt] (char) {#1};}}
 \renewcommand{\tikzmark}[3][]{\tikz[overlay,remember picture,baseline] \node [anchor=base,#1](#2) {#3};}
 
-
+%%%%%%%%%%%%%COLOR BOX IN NAMING CHAPTER
+\newtcolorbox{namingbox}[1][]{
+enhanced,
+      boxrule=0pt,
+      arc=0pt,
+      outer arc=0pt,
+      interior code={\fill[overlay,cyan!10] (frame.north west) rectangle (frame.south east);},}
+%%%%%%%%%%%%%COLOR BOX IN NAMING CHAPTER
+\usepackage{tikz-cd}
+\usetikzlibrary{arrows.meta}
+\tikzset{elmove/.style={-{Stealth[#1]},shorten >=3pt,shorten <=2pt}}
+\usepackage{totcount}
+\usepackage{pgffor}
+\newcounter{numA}
 
 
 \begin{document} 
 \newcommand\chapterlabel{}\newcommand\ChapterNameLabel{}\newcommand\labname{}\newcommand\chapterpathtocontent{}\newcommand\chapterpathtoimages{}\newcommand\chapterpath{} 
 
 \section{The scientific method}
-\renewcommand\chapterlabel{Ch-naming}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{scientificmethod}\renewcommand\chapterpathtocontent{../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
+\renewcommand\chapterlabel{Ch-naming}\renewcommand\ChapterNameLabel{\chapterlabel}\renewcommand\labname{scientificmethod}\renewcommand\chapterpathtocontent{../../}\renewcommand\chapterpathtoimages{\chapterpathtocontent}\renewcommand\chapterpath{../../\chapterlabel/LAB-\labname/}\subfile{\chapterpath/LAB-\labname.tex}
 
 
   

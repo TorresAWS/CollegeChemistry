@@ -1,4 +1,4 @@
-\begin{center}
+%\begin{center}
 \stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Covalent-prefixes}
 %\begin{table}[ht]
 \fontfamily{ppl}\selectfont
@@ -14,4 +14,5 @@ Di &    2    & Penta&    5     & Octa &     8   \\
 Tri &    3    & Hexa&    6     & Nona &     9   \\
 
 \bottomrule
-\end{tabular}\end{center}
+\end{tabular}
+%\end{center}
