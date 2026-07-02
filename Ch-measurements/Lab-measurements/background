@@ -1,0 +1,44 @@
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Covalent-compounds}
+\foreach \n in {Subsection-Covalent-compounds-Properties-of-covalent-compounds,Subsection-Covalent-compounds-Covalent-naming}{
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+}
+ \begin{minipage}[b]{30cm}
+ \begin{adjustbox}{center, width=0.65\columnwidth+20pt}
+ \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Covalent-prefixes}
+ \end{adjustbox}\end{minipage}
+ \import{../LAB-\labname/}{examplebox1}
+
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Ionic-compounds}
+\foreach \n in {Subsection-Ionic-compounds-Combining-ions,Subsection-Ionic-compounds-type-I-ionic,Subsection-Ionic-compounds-type-I-ionic,Subsection-Ionic-compounds-Complex-ionic-naming,Subsection-Ionic-compounds-Name-complex-ionic-chemicals}{
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+}
+ \import{../LAB-\labname/}{examplebox2}
+
+\import{\chapterpathtocontent\ChapterNameLabel/files/}{SectionIntro-Naming-complex-salts-common-chemicals}
+\foreach \n in {Subsection-Naming-complex-salts-common-chemicals-Combining-ions,Subsection-Naming-complex-salts-common-chemicals-Naming-Oxosalts,Subsection-Naming-complex-salts-common-chemicals-Formulating-Oxosalts,Subsection-Naming-complex-salts-common-chemicals-Naming-Hydrosalts,Subsection-Naming-complex-salts-common-chemicals-Hydrates}{
+\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+}
+ \import{../LAB-\labname/}{examplebox3}
+ \begin{minipage}[b]{30cm}
+ \begin{adjustbox}{center, width=0.65\columnwidth+20pt}
+ \import{\chapterpathtocontent\ChapterNameLabel/files/}{Table-Oxoacids}
+ \end{adjustbox}\end{minipage}
+
+%\import{\chapterpathtocontent\ChapterNameLabel/files/}{}
+%\foreach \n in {}{
+%\def\sectionnamefull{\n}\subsection*{\import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull.title}} \import{\chapterpathtocontent\ChapterNameLabel/files/}{\sectionnamefull}
+%}
+% \import{../LAB-\labname/}{examplebox2}
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
