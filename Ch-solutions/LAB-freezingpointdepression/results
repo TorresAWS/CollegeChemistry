@@ -8,15 +8,16 @@
 \mycircled{4} &Volume of the cyclohexane used:&  \rule{1.5cm}{0.4pt} mL
 \end{tabular}\end{center}
 
-\begin{center}\begin{tabular}{ p{0.5cm} m{5.7cm} p{0.2cm} p{0.5cm} m{5.1cm}   }
-& Trial 1 & & & Trial 2 \\ \cline{1-2} \cline{4-5}
-\end{tabular}\end{center}
 
 
 \begin{center}
-    \begin{minipage}[t!]{0.7\textwidth}
+\resizebox{1.0\textwidth}{!}{
 \begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
-Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C) \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
+\cline{1-5}  \cline{7-11} 
+ \multicolumn{5}{c}{Trial 1}   & & \multicolumn{5}{c}{Trial 2}  \\ 
+\cline{1-5}  \cline{7-11} 
+Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C) \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
  &  &  &  &  &  &  &  &  & \\
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
@@ -24,31 +25,48 @@ Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time 
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \end{tabular}
-    \end{minipage}
+}
 \end{center}
 
 \begin{flushright}\small (continue in next page)\end{flushright}
 \newpage
-    \begin{minipage}[t!]{0.7\textwidth}
 
+\begin{center}
+\resizebox{1.0\textwidth}{!}{
+\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
+ &  &  &  &  &  &  &  &  & \\
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\end{tabular}
+}
+\end{center}
 
-\begin{center}\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
- \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]\hline
-\end{tabular}\end{center}
-
-\end{minipage}
 \begin{tabular}{r l}
 \mycircled{5} \; \; Freezing point of the pure cyclohexane. \: Trial 1: \rule{1.5cm}{0.4pt} $^{\circ}$C &  Trial 2: \rule{1.5cm}{0.4pt} $^{\circ}$C\\[3ex]
 \mycircled{6} \; \;  Mean: \rule{1.5cm}{0.4pt} $^{\circ}$C&
@@ -80,8 +98,16 @@ Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time 
 
 
 
-\begin{center}\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
-Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C) \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
+
+
+\begin{center}
+\resizebox{1.0\textwidth}{!}{
+\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
+\cline{1-5}  \cline{7-11} 
+ \multicolumn{5}{c}{Trial 1}   & & \multicolumn{5}{c}{Trial 2}  \\ 
+\cline{1-5}  \cline{7-11} 
+Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C) \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
  &  &  &  &  &  &  &  &  & \\
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
@@ -91,30 +117,54 @@ Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time 
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
 \line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-  \end{tabular}\end{center}
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\end{tabular}
+}
+\end{center}
+
 \begin{flushright}\small (continue in next page)\end{flushright}
+\newpage
 
+\begin{center}
+\resizebox{1.0\textwidth}{!}{
+\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
+ &  &  &  &  &  &  &  &  & \\
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
+\end{tabular}
+}
+\end{center}
 
-
-\begin{center}\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
-  &  &  &  &  &  &  &  &  & \\
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex]
-\line(1,0){30} & \line(1,0){30}  & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30} & & \line(1,0){30}  &   \line(1,0){30}  \\[3ex] 
-\end{tabular}\end{center}
 
 
 
  \begin{tabular}{p{0.1cm} r p{2.9cm} p{0.2cm} r p{2.9cm}   }
 &Low concentration &  & &  High concentration & \\ 
-\cline{1-3} \cline{5-6}
+\cline{2-3} \cline{4-5}
 && & & & \\
 \mycircled{10}\;\;&Freezing point:& \rule{1.5cm}{0.4pt} $^{\circ}$C & & Freezing point:& \rule{1.5cm}{0.4pt} $^{\circ}$C \\[3ex]
 \mycircled{11}\;\;&$\Delta T_f$:& \rule{1.5cm}{0.4pt} $^{\circ}$C & & $\Delta T_f$:& \rule{1.5cm}{0.4pt} $^{\circ}$C \\[3ex]
