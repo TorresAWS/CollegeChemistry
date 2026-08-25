@@ -11,6 +11,10 @@
 \begin{center}\begin{tabular}{ p{0.5cm} m{5.7cm} p{0.2cm} p{0.5cm} m{5.1cm}   }
 & Trial 1 & & & Trial 2 \\ \cline{1-2} \cline{4-5}
 \end{tabular}\end{center}
+    \begin{minipage}[t!]{0.9\textwidth}
+
+
+
 \begin{center}\begin{tabular}{  p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} p{0.2cm} p{0.5cm} p{0.5cm} }
 Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C)  & & Time (sec) & Temp. ($^{\circ}$C) \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}
  &  &  &  &  &  &  &  &  & \\
@@ -45,6 +49,7 @@ Time (sec) & Temp. ($^{\circ}$C) & & Time (sec) & Temp. ($^{\circ}$C)  & & Time 
 \mycircled{6} \; \;  Mean: \rule{1.5cm}{0.4pt} $^{\circ}$C&
 \end{tabular}
 
+\end{minipage}
 
 
 
