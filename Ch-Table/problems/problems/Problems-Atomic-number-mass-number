@@ -122,17 +122,17 @@ Indicate whether the following statements are true or false:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 201
 %TAG= 121
-The atomic number of an atom is equal to the number of: 
+The atomic number of a neutral atom is equal to the number of: 
 \begin{inparaenum}[(a)]
 \item nuclei
 \item neutrons
 \item neutrons plus protons
 \item electrons plus protons
-\item electrons
+\item protons or electrons
 \end{inparaenum}
 \end{question}
 \begin{solution}
-(e)
+protons or electrons
 \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
