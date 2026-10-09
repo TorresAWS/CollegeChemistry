@@ -1,0 +1,7 @@
+\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+ 
+\begin{tikzpicture}\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/spectro}};
+   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangle{red}A visible spectrophotometer determines a chemical equilibrium constant by measuring how much light a colored species absorbs in solution, which directly reveals its concentration via the Beer-Lambert Law (\(A = \kappa \cdot c\)). };
+\end{tikzpicture}
+
+\end{marginfigure}%%%%%%% MARGIN FIGURE

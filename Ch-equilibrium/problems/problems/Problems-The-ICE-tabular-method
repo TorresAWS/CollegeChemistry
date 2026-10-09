@@ -1,0 +1,420 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+At 298K, sulfur dioxide can be oxidized to produce sulfur trioxide according to the following reaction
+\begin{center}\ce{2SO_2_{(g)} + O2_{(g)}  <=> 2SO_3_{(g)}    }\hfill $K_c =4\times 10^{24}$\end{center}
+Obtain the ICE chart for the following scenarios:
+\begin{inparaenum}[(a)]
+\item  A sample of 5.0 mmol \ce{SO_2_{(g)}} was sealed into a 2.0-L reaction vessel and heated with 1.0 mmol \ce{O_2_{(g)}}
+\item  A sample of 1.0 mol \ce{SO_2_{(g)}} was sealed into a 2.0-L reaction vessel and heated with 5 mol \ce{O_2_{(g)}} and 5 mol \ce{SO_3_{(g)}}
+\item  A sample of 4.0 mol \ce{SO_2_{(g)}} was sealed into a 2.0-L reaction vessel and heated with 1 mol \ce{SO_3_{(g)}}
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &\ce{O2_{(g)}} &  \ce{<=>}  & 2\ce{SO_3_{(g)}}   \\ \hline I     &2.5mM  &&0.5mM&&0mM  \\  C    &$-2x$  &&$-x$&&$2x$    \\ E &2.5$-2x$  &&0.5$-x$&&$2x$    \\\end{tabular}
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &\ce{O2_{(g)}} &  \ce{<=>}  & 2\ce{SO_3_{(g)}}    \\ \hline I     &0.5M  &&2.5M&&2.5M  \\  C    &$-2x$  &&$-x$&&$2x$    \\ E  &0.5$-2x$  &&2.5$-x$&&2.5+$2x$    \\\end{tabular}
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &\ce{O2_{(g)}} &  \ce{<=>}  & 2\ce{SO_3_{(g)}}    \\ \hline I     &2M  &&0M&&0.25M  \\  C    &$-2x$  &&$-x$&&$2x$    \\ E  &2$-2x$  &&$-x$&&0.25+$2x$    \\\end{tabular}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+ 
+ 
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+Bromine monochloride (BrCl) is primarily used as an industrial biocide, algaecide, fungicide, and disinfectant for wastewater and recirculating cooling water systems. At 300K, bromine monochloride dissociates to produce gaseous bromine and chloride.
+\begin{center}\ce{2BrCl_{(g)}  <=> Br_2_{(g)} +Cl_2_{(g)}    }\hfill $K_c =377$\end{center}
+Obtain the ICE chart for the following scenarios:
+\begin{inparaenum}[(a)]
+\item  A sample of 5 atm of \ce{BrCl_{(g)}} and 1 atm of \ce{Br_2_{(g)}} was sealed into a 2.0-L reaction vessel.
+\item  A sample of 1 atm of \ce{BrCl_{(g)}} and, 1 atm of \ce{Br_2_{(g)}} 5 atm of \ce{Cl_2_{(g)}} was sealed into a 4.0-L reaction vessel.
+\item  A sample of  2 atm of \ce{Br_2_{(g)}} and 1 atm of \ce{Cl_2_{(g)}} was sealed into a 4.0-L reaction vessel.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{BrCl_{(g)}}  &    \ce{<=>}  & \ce{Br_2_{(g)}} & \ce{Cl_2_{(g)}} \\ \hline I     &5atm  &&1atm&&0atm  \\  C    &$-2x$  &&$+x$&&+$x$    \\ E  &5$-2x$  &&1$+x$&&$x$    \\\end{tabular}
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{BrCl_{(g)}}  &    \ce{<=>}  & \ce{Br_2_{(g)}} & \ce{Cl_2_{(g)}} \\ \hline I     &1atm  &&1atm&&5atm  \\  C    &$-2x$  &&$+x$&&+$x$    \\ E  &1$-2x$  &&1$+x$&&5+$x$    \\\end{tabular}
+ \item    \begin{tabular}{l | l  l l ll}  & 2\ce{BrCl_{(g)}}  &    \ce{<=>}  & \ce{Br_2_{(g)}} & \ce{Cl_2_{(g)}} \\ \hline I     &0atm  &&2atm&&1atm  \\  C    &$-2x$  &&$+x$&&+$x$    \\ E  &0$-2x$  &&2$+x$&&1+$x$    \\\end{tabular}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+For the dissociation of iodine, obtain the polynomial associated with the following equilibrium given the set of initial concentration and temperature conditions:
+\begin{center}\ce{I_2_{(g)}  <=> 2I_{(g)}     }\hfill  \end{center}
+Obtain the ICE chart for the following scenarios:
+\begin{inparaenum}[(a)]
+\item  A sample of 5 moles of \ce{I2_{(g)}} and 1 moles of \ce{I_{(g)}} was sealed into a 1.0-L reaction vessel at 800K given than at that temperature $K_c =3.1\times 10^{-5}$.
+\item  A sample of 1 moles of \ce{I2_{(g)}} and 2 moles of \ce{I_{(g)}} was sealed into a 1.0-L reaction vessel at 800K given than at that temperature $K_c =3.1\times 10^{-5}$.
+\item  A sample of 3 moles of \ce{I2_{(g)}} and 3 moles of \ce{I_{(g)}} was sealed into a 1.0-L reaction vessel at 800K given than at that temperature $K_c =3.1\times 10^{-5}$.
+\item  A sample of 3 moles of \ce{I_{(g)}} was sealed into a 1.0-L reaction vessel at 800K given than at that temperature $K_c =3.1\times 10^{-5}$.
+\item  A sample of 3 moles of \ce{I_{(g)}} was sealed into a 1.0-L reaction vessel at 1200K given than at that temperature $K_c =6.8\times 10^{-2}$.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item   $4x^2+4x+0.99=0$
+ \item   $4x^2+8x+3.99=0$
+ \item   $4x^2+12x+8.99=0$
+ \item   $4x^2+12x+9=0$
+ \item   $4x^2+12.068x+9=0$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+For the dissociation of fluorine, obtain the polynomial associated with the following equilibrium given the set of initial concentration and temperature conditions:
+\begin{center}\ce{F_2_{(g)}  <=> 2F_{(g)}     }\hfill  \end{center}
+Obtain the ICE chart for the following scenarios:
+\begin{inparaenum}[(a)]
+\item  A sample of 1 moles of \ce{F2_{(g)}} and 1 moles of \ce{F_{(g)}} was sealed into a 1.0-L reaction vessel at 1200K given than at that temperature $K_c =2.7\times 10^{-3}$.
+\item  A sample of 1 moles of \ce{F2_{(g)}} was sealed into a 1.0-L reaction vessel at 1200K given than at that temperature $K_c =2.7\times 10^{-3}$.
+\item  A sample of 1 moles of \ce{F_{(g)}} was sealed into a 1.0-L reaction vessel at 1200K given than at that temperature $K_c =2.7\times 10^{-3}$.
+\item  A sample of 1 moles of \ce{F_{(g)}} was sealed into a 1.0-L reaction vessel at 1000K given than at that temperature $K_c =1.2\times 10^{-4}$.
+\item  A sample of 1 moles of \ce{F_2_{(g)}} and 0.05 moles of \ce{F_{(g)}} was sealed into a 1.0-L reaction vessel at 1000K given than at that temperature $K_c =1.2\times 10^{-4}$.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item   $4x^2+4x+0.99=0$
+ \item   $4x^2+2.7\times 10^{-3}x-2.7\times 10^{-3}=0$
+ \item   $4x^2+4x+1=0$
+  \item   $4x^2+4x+1=0$
+  \item   $4x^2+0.2x+2.4\times 10^{-3}=0$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+  %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+The reaction between carbon monoxide and water vapor is known as the Water-gas shift reaction, which produces carbon dioxide and hydrogen gas. This process provides a less expensive, more efficient method of hydrogen production, serving as a hydrogen source for industrial processes such as the Haber-Bosch ammonia synthesis. The equilibrium constant at 700K is
+\begin{center}\ce{CO_{(g)} + H_2O_{(g)}  <=> CO_2_{(g)} +H_2_{(g)}    }\hfill $K_c =10$\end{center}
+A mixture consisting of 1 mol \ce{ H_2O_{(g)}} and 1 mol \ce{CO_{(g)} } is placed in a 1-L reaction vessel at 700. K. At equilibrium, 1 mol \ce{CO_2_{(g)}} is present. Calculate 
+\begin{inparaenum}[(a)]
+\item the polynomial associated to the equilibrium at those initial concentration and temperature conditions % $-0.9x^2+2x-1=0$
+\item the extent $x$ of the reaction. % 0.76
+\item Is there a root of the polynomial that makes no chemical sense? Why? % 1.46 is larger than the initial concentration, 1
+\item the equilibrium concentrations for all substances %$\big[ \ce{CO_{(g)}}  \big]_{e}=0.24$, $\big[ \ce{H_2O_{(g)}} \big]_{e}=0.24$, $\big[ \ce{CO_2_{(g)}}  \big]_{e}=0.76$, $\big[ \ce{H_2_{(g)}}  \big]_{e}=0.76$
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $-0.9x^2+2x-1=0$
+\item  0.76
+\item   1.46 is larger than the initial concentration, 1
+\item  $\big[ \ce{CO_{(g)}}  \big]_{e}=0.24M$, $\big[ \ce{H_2O_{(g)}} \big]_{e}=0.24M$, $\big[ \ce{CO_2_{(g)}}  \big]_{e}=0.76M$, $\big[ \ce{H_2_{(g)}}  \big]_{e}=0.76M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+The reaction between carbon monoxide and water vapor is known as the Water-gas shift reaction, which produces carbon dioxide and hydrogen gas. This process provides a less expensive, more efficient method of hydrogen production, serving as a hydrogen source for industrial processes such as the Haber-Bosch ammonia synthesis. The equilibrium constant at 700K is
+\begin{center}\ce{CO_{(g)} + H_2O_{(g)}  <=> CO_2_{(g)} +H_2_{(g)}    }\hfill $K=10$\end{center}
+A mixture consisting of 1 mol \ce{ H_2O_{(g)}}, 1 mol \ce{CO_{(g)} } and 2 mol \ce{CO_2_{(g)} } is placed in a 1-L reaction vessel at 700. K. At equilibrium, 1 mol \ce{CO_2_{(g)}} is present. Calculate 
+\begin{inparaenum}[(a)]
+\item the polynomial associated with the equilibrium at those initial concentration and temperature conditions % $-0.9x^2+2x-1=0$
+\item the extent $x$ of the reaction. % 0.76
+\item is there a root of the polynomial that makes no sense chemically speaking? Why? % 1.46 is larger than the initial concentration, 1
+\item the equilibrium concentrations for all substances %$\big[ \ce{CO_{(g)}}  \big]_{e}=0.24$, $\big[ \ce{H_2O_{(g)}} \big]_{e}=0.24$, $\big[ \ce{CO_2_{(g)}}  \big]_{e}=0.76$, $\big[ \ce{H_2_{(g)}}  \big]_{e}=0.76$
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $-0.9x^2+2.2x-1=0$
+\item  0.60
+\item   1.84 is larger than the initial concentration, 1
+\item  $\big[ \ce{CO_{(g)}}  \big]_{e}=0.4M$, $\big[ \ce{H_2O_{(g)}} \big]_{e}=0.4M$, $\big[ \ce{CO_2_{(g)}}  \big]_{e}=2.6M$, $\big[ \ce{H_2_{(g)}}  \big]_{e}=0.6M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+At 700 K, hydrogen iodide decomposes to hydrogen and iodide following the reaction
+\begin{center}\ce{  2HI_{(g)}  <=> H_2_{(g)} +I_2_{(g)}    }\hfill $K=0.018$\end{center}
+If 1.0 mol \ce{HI}, 2.0 mol \ce{H_2} and 1.0 mol \ce{I_2} are placed into a 2.0-L flask, calculate
+\begin{inparaenum}[(a)]
+\item the polynomial associated with the equilibrium at those initial concentration and temperature conditions % $-221.2x^2+112.6x-13.38=0$
+\item the extent $x$ of the reaction. % 0.189
+\item Is there a root of the polynomial that makes no chemical sense? Why? % 0.319 as $\big[ \ce{HI_{(g)}}  \big]_{e}$ would be negative
+\item the equilibrium concentrations for all substances %$\big[ \ce{HI_{(g)}}  \big]_{e}=0.122$, $\big[ \ce{H_2_{(g)}} \big]_{e}=1.189$, $\big[ \ce{I_2_{(g)}}  \big]_{e}=0.689$
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $-221.2x^2+112.6x-13.38=0$
+\item   0.189
+\item  0.319 as $\big[ \ce{HI_{(g)}}  \big]_{e}$ would be negative
+\item  $\big[ \ce{HI_{(g)}}  \big]_{e}=0.122M$, $\big[ \ce{H_2_{(g)}} \big]_{e}=1.189M$, $\big[ \ce{I_2_{(g)}}  \big]_{e}=0.689M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+At 700 K, hydrogen iodide decomposes to hydrogen and iodide following the reaction
+\begin{center}\ce{  2HI_{(g)}  <=> H_2_{(g)} +I_2_{(g)}    }\hfill $K =0.018$\end{center}
+If 1.0 mol \ce{HI}, and 1.0 mol \ce{H_2}  are placed into a 2.0-L flask, calculate
+\begin{inparaenum}[(a)]
+\item the polynomial associated with the equilibrium at those initial concentration and temperature conditions % $-221.2x^2+112.6x-13.38=0$
+\item the extent $x$ of the reaction. % 0.189
+\item Is there a root of the polynomial that makes no chemical sense? Why? % 0.319 as $\big[ \ce{HI_{(g)}}  \big]_{e}$ would be negative
+\item the equilibrium concentrations for all substances %$\big[ \ce{HI_{(g)}}  \big]_{e}=0.122$, $\big[ \ce{H_2_{(g)}} \big]_{e}=1.189$, $\big[ \ce{I_2_{(g)}}  \big]_{e}=0.689$
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $-221.2x^2+111.6x-13.88=0$
+\item   0.223
+\item  0.281 as $\big[ \ce{HI_{(g)}}  \big]_{e}$ would be negative
+\item  $\big[ \ce{HI_{(g)}}  \big]_{e}=0.054M$, $\big[ \ce{H_2_{(g)}} \big]_{e}=0.723M$, $\big[ \ce{I_2_{(g)}}  \big]_{e}=0.223M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+Hydrogen deuteride (HD) is an isotopologue of dihydrogen (\ce{H2}) composed of two isotopes of hydrogen: the majority isotope H-1 (protium, H) and H-2 (deuterium, D). It is primarily used as an astrophysical tracer to study cold cosmic gas, the primary fuel for star formation in the universe. A 5-L flask was filled with 3 mol of gaseous \ce{HD} is heated. Assume that the reaction
+\begin{center}\ce{  2HD_{(g)}  <=> H_2_{(g)} +D_2_{(g)}    }\hfill $K=0.26$\end{center}
+occurs under these conditions. Calculate
+\begin{inparaenum}[(a)]
+\item the ICE chart in molarity units
+\item the polynomial associated with the equilibrium at those initial concentration and temperature conditions  
+\item the extent $x$ of the reaction.  
+\item the equilibrium concentrations for all substances  
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \begin{tabular}{l | l  l l ll}  & 2\ce{HD_{(g)}}  & \ce{<=>} &  \ce{H_2_{(g)}}  & +  & \ce{D_2_{(g)}}   \\ \hline I     &0.6M  &&0M&&0M  \\  C    &$-2x$  &&$+x$&&$+x$    \\ E  &0.6$-2x$  &&$x$&&$x$    \\\end{tabular}
+\item   $-0.04x^2+0.624x-0.0936=0$
+\item   0.1514 (the root 15.44 does not make chemical sense)
+\item  $\big[ \ce{HD_{(g)}}  \big]_{e}=0.297M$, $\big[ \ce{H_2_{(g)}} \big]_{e}=0.151M$, $\big[ \ce{D_2_{(g)}}  \big]_{e}=0.151M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+Hydrogen deuteride (HD) is an isotopologue of dihydrogen (\ce{H2}) composed of two isotopes of hydrogen: the majority isotope H-1 (protium, H) and H-2 (deuterium, D). It is primarily used as an astrophysical tracer to study cold cosmic gas, the primary fuel for star formation in the universe. A 3-L flask was filled with 1 mol of gaseous \ce{HD} and 1 mol gaseous \ce{H_2} is heated.  Assume that the reaction
+\begin{center}\ce{  2HD_{(g)}  <=> H_2_{(g)} +D_2_{(g)}    }\hfill $K=0.26$\end{center}
+occurs under these conditions. Calculate
+\begin{inparaenum}[(a)]
+\item the ICE chart 
+\item the polynomial associated with the equilibrium at those initial concentration and temperature conditions  
+\item the extent $x$ of the reaction.  
+\item the equilibrium concentrations for all substances  
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \begin{tabular}{l | l  l l ll}  & 2\ce{HD_{(g)}}  & \ce{<=>} &  \ce{H_2_{(g)}}  & +  & \ce{D_2_{(g)}}   \\ \hline I     &0.33M  &&0.33M&&0M  \\  C    &$-2x$  &&$+x$&&$+x$    \\ E  &0.33$-2x$  &&0.33+$x$&&$x$    \\\end{tabular}
+\item   $-0.04x^2+0.68x-0.0288=0$
+\item   0.0426 (the root 16.95 does not make chemical sense)
+\item  $\big[ \ce{HD_{(g)}}  \big]_{e}=0.248M$, $\big[ \ce{H_2_{(g)}} \big]_{e}=0.376M$, $\big[ \ce{D_2_{(g)}}  \big]_{e}=0.0426M$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+At a particular temperature, 10 moles of \ce{SO_2_{(g)} } are mixed with 12 moles of \ce{O_2_{(g)} } to form \ce{SO_3_{(g)} } in a 1L container according to
+\begin{center}\ce{  2SO_2_{(g)}  + O_2_{(g)} <=> 2SO_3_{(g)}     }\hfill  \end{center}
+At equilibrium, 2 mol of  \ce{SO_2_{(g)} } are present. Calculate 
+\begin{inparaenum}[(a)]
+\item the ICE chart in terms of the extent of the reaction $x$  
+\item  the extent $x$ of the reaction  
+\item the equilibrium concentrations for all substances   
+\item the equilibrium constant    
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &  \ce{  O_2_{(g)} }  & \ce{<=>}  & 2\ce{SO_3_{(g)} }   \\ \hline I    &10M  &&12M&&0M  \\  C    &$-2x$  &&$-x$&&$+2x$    \\ E  &10$-2x$  &&12$-x$&&$2x$    \\\end{tabular}
+\item   4M
+\item  $\big[ \ce{SO_2_{(g)}}  \big]_{e}=2M$, $\big[ \ce{O_2_{(g)}} \big]_{e}=8M$, $\big[ \ce{SO_3_{(g)}}  \big]_{e}=8M$
+\item  2 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+At a particular temperature, 5 moles of \ce{SO_2_{(g)} } are mixed with 5 moles of \ce{O_2_{(g)} } and  5 moles of \ce{SO_3_{(g)} } in a 2L container. These react according to
+\begin{center}\ce{  2SO_2_{(g)}  + O_2_{(g)} <=> 2SO_3_{(g)}     }\hfill  \end{center}
+At equilibrium, 1 mol of  \ce{SO_2_{(g)} } are present. Calculate 
+\begin{inparaenum}[(a)]
+\item the ICE chart in terms of the extent of the reaction $x$  
+\item  the extent $x$ of the reaction  
+\item the equilibrium concentrations for all substances   
+\item the equilibrium constant    
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &  \ce{  O_2_{(g)} }  & \ce{<=>}  & 2\ce{SO_3_{(g)} }   \\ \hline I     &2.5M  &&2.5M&&2.5M  \\  C    &$-2x$  &&$-x$&&$+2x$    \\ E  &2.5$-2x$  &&2.5$-x$&&2.5$+2x$    \\\end{tabular}
+\item   1M
+\item  $\big[ \ce{SO_2_{(g)}}  \big]_{e}=0.5M$, $\big[ \ce{O_2_{(g)}} \big]_{e}=1.5M$, $\big[ \ce{SO_3_{(g)}}  \big]_{e}=4.5M$
+\item  54 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+The equilibrium constant for the reaction at 500K is indicated below
+\begin{center}\ce{  2 SO_2_{(g)}  + O_2_{(g)} <=> 2 SO_3_{(g)}   }\hfill $K_c =2.5\times 10^{10}$\end{center}
+An initial mixture of sulfur dioxide and oxygen reacts in a rigid container. At equilibrium, the concentrations are $\big[ \ce{SO_2_{(g)}}  \big]_{e}=0.1M$, $\big[ \ce{O_2_{(g)}} \big]_{e}=1.5M$, $\big[ \ce{SO_3_{(g)}}  \big]_{e}=1M$.
+Answer the following questions: 
+\begin{inparaenum}[(a)]
+\item using $a$ and $b$ as the concentrations of sulfur dioxide and oxygen gas that were reacted initially, obtain the ICE chart in terms of the extent of the reaction $x$   
+\item obtain an expression for the polynomial associated with the equilibrium  
+\item obtain the extent of the reaction    
+\item what were the concentrations of sulfur dioxide and oxygen gas that were reacted initially?   
+\item obtain an expression for the polynomial associated with the equilibrium  
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  \begin{tabular}{l | l  l l ll}  & 2\ce{SO_2_{(g)}}  & + &  \ce{  O_2_{(g)} }  & \ce{<=>}  & 2\ce{SO_3_{(g)} }   \\ \hline I     &aM  &&bM&&0M  \\  C    &$-2x$  &&$-x$&&$+2x$    \\ E  &a$-2x$  &&b$-x$&&$2x$    \\\end{tabular}  
+\item    $(-4)x^3+(4a+4b-\frac{4}{K_c})x^2-(4ab+a^2+\frac{4c}{K_c})x+a^2b-\frac{c^2}{K_c}=0$
+\item  0.5M  
+\item      $\big[ \ce{SO_2_{(g)}}  \big]_{e}=1.1M$, $\big[ \ce{O_2_{(g)}} \big]_{e}=2M$ 
+\item    $(-4)x^3+(12.4)x^2-(10.01)x+2.42=0$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+The equilibrium constant for the reaction at 500K is indicated below
+\begin{center}\ce{  2 SO_2_{(g)}  + O_2_{(g)} <=> 2 SO_3_{(g)}   }\hfill $K_c =2.5\times 10^{10}$\end{center}
+An initial mixture of sulfur dioxide, oxygen, and sulfur trioxide  reacts in a rigid container. The concentration of oxygen in this mixture is 1M. At equilibrium, the concentrations are $\big[ \ce{SO_2_{(g)}}  \big]_{e}=1M$, $\big[ \ce{O_2_{(g)}} \big]_{e}=0.5M$, $\big[ \ce{SO_3_{(g)}}  \big]_{e}=4M$.
+Answer the following questions: 
+\begin{inparaenum}[(a)]
+\item obtain the extent of the reaction    
+\item what were the concentrations of sulfur dioxide and sulfur trioxide that were reacted initially?   
+\item obtain an expression for the polynomial associated with the equilibrium
+\item obtain the roots and demonstrate that you obtain the same extent value 
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  0.5M  
+\item      $\big[ \ce{SO_2_{(g)}}  \big]_{e}=2M$, $\big[ \ce{SO_3_{(g)}} \big]_{e}=3M$ 
+\item    $(-4)x^3+(10)x^2-(8)x+2=0$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+Ammonium chloride is a versatile chemical salt used primarily as a nitrogen-rich agricultural fertilizer. When heated it decomposes into ammonia and hydrochloric acid according to
+\begin{center}\ce{  NH_4Cl_{(s)}   <=> NH_3_{(g)} + HCl_{(g)}   }\hfill $K_p $\end{center}
+After reaching equilibrium  the total pressure in the container was found to be 5 atm. Obtain
+\begin{inparaenum}[(a)]
+\item The ICE chart using atmospheres as units of pressure % \begin{tabular}{l | l  l l ll}  & \ce{NH_4Cl_{(s)}}  & \ce{<=>} &  \ce{  NH_3_{(g)} }  &  + & \ce{HCl_{(g)} }   \\ \hline Initial     &   &&0atm&&0atm  \\  Change    &   &&$-x$&&$x$    \\ Equilibrium  &   &&$+x$&&$+x$    \\\end{tabular}  
+ \item calculate the extent of reaction $x$ at this temperature for the reaction in pressure units % 2.5atm
+ \item calculate $K_p$ at this temperature for the reaction %6.25
+  \item Obtain an expression for the polynomial associated with the equilibrium in terms of $x$  and $K_p$ %  $x^2-K_p=0$
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \begin{tabular}{l | l  l l ll}  & \ce{NH_4Cl_{(s)}}  & \ce{<=>} &  \ce{  NH_3_{(g)} }  &  + & \ce{HCl_{(g)} }   \\ \hline I     &   &&0atm&&0atm  \\  C    &   &&$-x$&&$x$    \\ E  &   &&$+x$&&$+x$    \\\end{tabular}  
+ \item   2.5atm
+ \item  6.25
+  \item    $x^2-K_p=0$ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%TAG= 202
+The reaction of elemental carbon with steam at high temperatures is called the water-gas generation or producing water gas (a mixture of carbon monoxide and hydrogen), whereas the reaction of carbon dioxide gas with water is called hydration forming carbonic acid
+\begin{center}\ce{  C_{(s)} + H_2O_{(g)}  <=> CO_{(g)} + H_2_{(g)}   }\hfill $K$=6.89 at 800$^{\circ}$C \end{center}
+The initial mixture had a total pressure of 3atm and the total pressure when equilibrium is reached was 5atm. Obtain
+\begin{inparaenum}[(a)]
+\item The ICE chart using atmospheres as units of pressure 
+ \item calculate the extent of reaction $x$ at this temperature for the reaction in pressure units % 2.5atm
+  \item Obtain an expression for the polynomial associated with the equilibrium in terms of $x$  and $K$, and the initial pressure of each gas 
+ \end{inparaenum}
+ \end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item     \begin{tabular}{l | l  l l llll}  & \ce{C_{(s)}}  & + &\ce{H_2O_{(g)}} & \ce{<=>}  & \ce{  CO_{(g)} }  &  + & \ce{H_2_{(g)} }   \\ \hline I     & &&$a$atm   &&$b$atm&&$c$atm  \\  C    &   &&$-x$&&$x$&&$x$    \\ E  &   &&$a$$-x$&&$b$$+x$&&$c$$+x$    \\\end{tabular}     
+ \item   2atm
+  \item    $(1)x^2+(\frac{1}{K}+b+c)x+(bc-\frac{a}{K})=0$ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ 
+
+
+
+
+    

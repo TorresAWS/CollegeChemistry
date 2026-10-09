@@ -1,0 +1,36 @@
+Once the extent of the reaction $x$ is known we can also obtain the percent dissociation of the reactants $\alpha$ which is just the amount that has been dissociated with the respect to the initial quantities placed on the reaction container in percent form. Each reactants can have a different percent dissociation but it all deppends on the reaction stoichiometry and the initial quantities. The general formula for this property is
+\[ \boxed{\% \alpha_a=\frac{\nu_a\cdot x}{c_a}\times 100}   \]
+where:
+\begin{where}
+ \item $\alpha_a$   is the percent dissociation of the reactant $a$
+ \item $\nu_a$   is the stiochiomtric coficiente of the reactant $a$ in the equilibrium
+ \item $c_a$  is the initial concentration of the reactant $a$
+\end{where}
+For example, for the between carbon monoxide and water presented in the following ICE chart, we can compute the percent dissociations for \ce{CO} and \ce{H_2O} 
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y YY Y Y   Y  Y   }]
+  & \ce{CO_{(g)}}     &$+$& \ce{H_2O_{(g)}}     & $\ce{<=>}$    & \ce{CO_2_{(g)}}     &$+$ & \ce{H2_{(g)}}      \\\hline\hline
+Inicial   & 0.1M && 0.2M &    &0M    &  &0M\\
+Change & $-0.086$M && $-0.086$M &    &  $0.086$M & &$0.086$M \\
+Equilibrium  & 0.013M && 0.113M &    &  0.087M & &0.087M \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART
+For the case of \ce{CO} we have that its stoichiometric coeficient is $1$ and its initial concentration is 0.1M. Given that the extent of the reaction is 0.086 we have
+
+\[ 
+ \% \alpha_{\ce{CO}} =\frac{\nu_{\ce{CO}}\cdot x}{c_{\ce{CO}}}\times 100
+ =\frac{1\cdot 0.086}{0.1 }\times 100=86\%  
+\]
+For the case of \ce{H_2O}, the percent dissociation was 43\%. We can even incorporate the percent dissociation values into the ICE chart
+
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y YY Y Y   Y  Y   }]
+  & \ce{CO_{(g)}}     &$+$& \ce{H_2O_{(g)}}     & $\ce{<=>}$    & \ce{CO_2_{(g)}}     &$+$ & \ce{H2_{(g)}}      \\\hline\hline
+Inicial   & 0.1M && 0.2M &    &0M    &  &0M\\
+Change & $-0.086$M\small(-86\%) && $-0.086$M(-43\%) &    &  $0.086$M & &$0.086$M \\
+Equilibrium  & 0.013M && 0.113M &    &  0.087M & &0.087M \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART
+we can see that carbon monoxide dissociates more than water. 

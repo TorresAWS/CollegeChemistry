@@ -1,0 +1,42 @@
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Equilibrium-method}
+     \begin{center}
+ 
+
+       \begin{tikzpicture}[
+   node distance = 8mm and 12mm,
+     start chain = BLOCK going below,
+     base/.style = {draw, fill=#1,
+                    text width=32mm, minimum height=7mm,
+                    align=center},
+startstop/.style = {base=red!30, rounded corners},
+  process/.style = {base=orange!30},
+       io/.style = {base=blue!30,
+                    trapezium, trapezium stretches body,
+                    trapezium left angle=70, trapezium right angle=110},
+ decision/.style = {base=green!30, diamond, aspect=1.7, inner xsep=-3pt},
+      FIT/.style = {draw=red, densely dotted, inner xsep=8mm,
+                    fit=#1},
+       lb/.style = {label={[lbl, anchor=north west]south:#1}},
+       ll/.style = {label={[lbl, anchor=south east]west:#1}},
+      arr/.style = {semithick,-latex},
+                        ]
+    \begin{scope}[nodes={on chain, join=by arr},xshift =5cm, yshift =0em]
+\node   [process]   {ICE Chart   \\ \ce{A  <=> B}};
+\node   [process]   {P(x)=0};
+\node   [decision]  {$x$ extent of reaction};
+\node   [startstop] {Equilibrium concentrations \\ "[A], [B]"};
+    \end{scope}
+   \begin{scope}[xshift =0em, yshift =0em]
+\node[FIT={(BLOCK-2) (BLOCK-4)},
+      label={[anchor=south west]north west: }] (f1) {};
+\draw[arr,dashed]  (BLOCK-3.east) to["$x$"] ++ (1,0) |- (BLOCK-1); % feedback loop
+\path (BLOCK-3) to [""] (BLOCK-4);
+    \end{scope}
+    
+    
+   
+   
+        \begin{scope}[xshift =0em, yshift =-7cm]
+\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Equilibrium-methodx} \end{bf} Workflow diagram displaying the use of the ICE tabular method to compute equilibrium concentrations. };
+   \end{scope}  
+\end{tikzpicture}\end{center}

@@ -1,0 +1,16 @@
+\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+ 
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/descartes}};
+   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangle{red}
+Rene Descartes (1596–1650): Introduced modern algebraic notation (using letters for variables like \(x\)) and popularized equating polynomial expressions to zero.
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/theophile}};
+   \node[text width=5cm, shift={(-0cm,-4cm)}] at (-0cm,-0cm) {\mytriangle{red}
+Th\'eophile De Donder was a Belgian mathematician, physicist, and chemist who first developed the concept of the extent of a reaction. He was in 1927, one of the participants in the fifth Solvay Conference on Physics, which took place at the International Solvay Institute for Physics in Belgium.
+};
+\end{tikzpicture}
+\end{marginfigure}%%%%%%% MARGIN FIGURE

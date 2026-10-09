@@ -1,1 +1,19 @@
-The last row of the ICE chart represents the equilibrium concentration of reactants and products. Still, as we do not know yet the extent of the reaction $x$ we can obtain numerical values of these concentrations. Still, we know that all these concentrations are not independent of each other, and they are linked through the equilibrium constant. By plugging the equilibrium concentrations in terms of $x$ in $K_c$, we can obtain a polynomial. The positive root of this polynomial--or the root that makes chemical sense--will lead to the numerical value for the extent of reaction. The order of the polynomials is related to the complexity and type of equilibrium. For example, acid-base equilibrium tends to be represented by second-order polynomials, whereas solubility equilibrium can be represented by third-degree polynomials. The use of polynomials to describe an equilibrium is not new, and this family of mathematical functions is well known in fields such as game theory, fluid mechanics, or statistical mechanics. You can use your graphing calculator to obtain the roots of any of the polynomials associated with a chemical equilibrium. Always remember only the positive root--or the root that makes chemical sense--has chemical meaning.
+The last row of the ICE chart represents the equilibrium concentrations of reactants and products and is the most important row of the ICE table. However, these concentrations are expressed in terms of the extent of the reaction $x$ and will remain unknown unless we know $x$. By plugging the equilibrium concentrations in terms of $x$ into $K_c$, we can obtain a polynomial $P(x)$ in terms of $x$ and eventually solve for $x$. 
+\[\boxed{ P(x)=0}\]
+The positive root of this polynomial--or the single root that makes chemical sense--will lead to the numerical value for the extent of reaction. Roots without chemical sense are negative roots or roots larger than the initial concentration of reactants give. For example, it does no chemical sense if we start with a reactant concentration of 1M and we obtain a root ot 2M, which would mean that 2M would decompose from 1M.
+
+Each reaction in equilibrium has an associated polynomial with an order that is related not only to the complexity and type of equilibrium but also to the initial concentrations of reactants and products. For example, acid-base equilibrium tends to be represented by second-order polynomials, whereas solubility equilibrium can be represented by third-degree polynomials. The use of polynomials to describe an equilibrium is not new, and this family of mathematical functions is well known in fields such as game theory, fluid mechanics, or statistical mechanics. You can use your graphing calculator to obtain the roots of any of the polynomials associated with a chemical equilibrium. Always remember only the positive root--or the root that makes chemical sense--has chemical meaning.
+   \import{../\chapterlabel/files/}{Figure-Px}
+Figure \ref{Fig:Figure-Px} displays $P(x)$ for the reaction between carbon monoxide and water, starting with a 0.1M concentration of \ce{CO} and a 0.2 M concentration of \ce{H2O}. The equilibrium constant for this reaction at 527 $^\circ$C is 4. We can see that the polynomial is a parabola with two roots $ x_1$=0.08 M and $ x_2$=0.3 M. Only the first root would represent the extent of the reaction $x$ as we cannot prodice 0.3M from either 0.1M or 0.2M. Therefore, only $ x_1$=0.08 M has chemical sense.
+
+
+
+
+
+
+
+
+
+
+
+

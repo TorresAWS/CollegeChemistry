@@ -1,0 +1,40 @@
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Px}
+     \begin{center}
+    \pgfkeys{tikz/.cd,
+tangent length/.store in=\TangentLength,
+tangent length=7mm,
+normal length/.store in=\NormalLength,
+normal length=7mm}
+\tikzset{tangent/.style={red,thin},normal/.style={red,thin},
+tangent at/.style={postaction={decorate,decoration={markings,
+mark=at position #1 with {\draw[tangent,shift={(0,1.60em-1.6em)}, rotate=-0] (-2*\TangentLength,0) -- (0.4*\TangentLength,0)   -- ++ (-4.7em,-0.6em) -- cycle; \node[shift={(-2em,1em)}, red] (-\TangentLength,0) {$r$} node[shift={(-4.4em,.3em)}, red] (-\TangentLength,0) {\tiny $d$c} node[shift={(-2em,-.2em)}, red] (-\TangentLength,0) {\tiny $d$t};
+\fill[tangent,shift={(0,1.60em-1.6em)}]  (-\TangentLength,0) circle (1pt);}}}},
+}
+
+\begin{tikzpicture}
+     \begin{axis}[
+     axis lines=middle,
+    axis equal,
+    grid=both,
+    xlabel=$x$,
+    ylabel=$P(x)$,
+    no marks,
+    domain=-2:2,
+    xmax=0.2,xmin=0.1,ymax=0.1,ymin=-0.1,samples=100,
+    ]
+       \addplot[red,thick,name path=a] {(0.75)*x^2+-0.3*x+(0.02)};
+       \addplot[blue,thick,name path=b,dashed] {2} ;
+       \addplot[fill=none] fill between[of=a and b,split,
+           every segment no 1/.style={fill,orange,opacity=.4},] ;
+       \draw [fill, red] (axis cs: 0.31,0) circle [radius=0.003];
+    \node [coordinate,pin=above:{$x_2$}]at (axis cs:0.31,0)   {};
+
+        \draw [fill, red] (axis cs: 0.084,0) circle [radius=0.003];
+    \node [coordinate,pin=below:{$x_1$}] at (axis cs:0.084,0)   {};
+        \addlegendentry{$P(x)=0.75x^2-0.3x+0.02=0$}
+
+     \end{axis} 
+     \begin{scope}[xshift =0em, yshift =0em]
+\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Px} \end{bf} Polynomial $P(x)$ associated with the \ce{CO_{(g)} + H_2O_{(g)} <=>   CO_2_{(g)}     + H2_{(g)}} equilibrium starting with 0.1 and 0.2M respectively for \ce{CO_{(g)}} and \ce{H_2O_{(g)} }. Two roots are obtained: $ x_1$=0.08 M and $ x_2$=0.3 M. Only $ x_1$=0.08 M has chemical meaning, as it is smaller than 0.1 and 0.2M.  };
+   \end{scope}  
+\end{tikzpicture}\end{center}
