@@ -19,13 +19,17 @@ Balance the following redox reactions in basic medium:
 %%%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 201
-Balance the following redox reaction in basic medium:
+Balance the following redox reaction in basic medium and indicate how many electrons flow
 \begin{inparaenum}[(a)]
  \item \ce{   Sn_{(s)} + NO3^{-}_{(aq)} + Cl^{-}_{(aq)} -> SnCl6^{2-}_{(aq)} + NO2_{(g)}  }
+ \item \ce{   ClO4^{-}_{(aq)}  + NO2_{(g)} ->  Cl^{-}_{(aq)}  + NO3^{-}_{(aq)} }
 \end{inparaenum}
 \end{question}
 \begin{solution}
- No solution listed
+\begin{inparaenum}[(a)]
+ \item \ce{  4e^{-} + Sn_{(s)} + 4NO3^{-}_{(aq)} + 6Cl^{-}_{(aq)} + 4H2O_{(l)} -> 4e^{-} + SnCl6^{2-}_{(aq)} + 4NO2_{(g)} + 8OH^{-}_{(aq)} } 
+  \item \ce{ 8e^{-} +  ClO4^{-}_{(aq)}  + 8NO2_{(g)}  -> 8e^{-} + Cl^{-}_{(aq)}  + 8NO3^{-}_{(aq)} +  4H2O_{(l)}}
+\end{inparaenum}
      \hspace{0.1cm}\end{solution}\stepcounter{numA}
 %%%%%%%%%%%%%%
 
