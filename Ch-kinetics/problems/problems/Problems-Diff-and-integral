@@ -2,7 +2,8 @@
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+Use the data below to obtain the rate law of the following reaction: 
+\begin{center}\ce{A -> B}\end{center}
 \begin{center}\begin{tabular}[t]{  c c  c   }
 \toprule
  Experiment &$r$ (M/s)	&$[A]$, (M) \\
@@ -11,16 +12,27 @@ Use the data below to calculate the rate law of the following reaction: \begin{c
 2&	0.12 &2	\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=0.03[A]^2$
+\begin{inparaenum}[(a)]
+\item   2
+\item   0.03$M^{-1}\cdot s^{-1}$
+\item   $r=0.03[A]^2$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+Use the data below to obtain the rate law of the following reaction: 
+\begin{center}\ce{A -> B}\end{center}
 \begin{center}\begin{tabular}[t]{  c c  c   }
 \toprule
  Experiment &$r$ (M/s)	&$[A]$, (M) \\
@@ -29,16 +41,27 @@ Use the data below to calculate the rate law of the following reaction: \begin{c
 2&	$5\times 10^{-3}$ &0.6	\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=0.005$
+\begin{inparaenum}[(a)]
+\item   0
+\item   0.005$M\cdot s^{-1}$
+\item   $r=0.005$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+Use the data below to obtain the rate law of the following reaction: 
+\begin{center}\ce{A -> B}\end{center}
 \begin{center}\begin{tabular}[t]{  c c  c   }
 \toprule
  Experiment &$r$ (M/s)	&$[A]$, (M) \\
@@ -47,15 +70,26 @@ Use the data below to calculate the rate law of the following reaction: \begin{c
 2&	0.30 &0.1	\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=3[A]$
+\begin{inparaenum}[(a)]
+\item   1
+\item   3$M^{-1}\cdot s^{-1}$
+\item   $r=3[A]$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+Use the data below to obtain the rate law of the following reaction: 
+\begin{center}\ce{A -> B}\end{center}
 \begin{center}\begin{tabular}[t]{  c c  c   }
 \toprule
  Experiment &$r$ (M/s)	&$[A]$, (M) \\
@@ -64,9 +98,19 @@ Use the data below to calculate the rate law of the following reaction: \begin{c
 2&	1   &0.320	\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=30.5[A]^3$
+\begin{inparaenum}[(a)]
+\item   3
+\item   30.5$M^{-2}\cdot s^{-1}$
+\item   $r=30.5[A]^3$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 
@@ -77,7 +121,7 @@ $r=30.5[A]^3$
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law:
+Use the data below to obtain the rate law of the following reaction: 
 \begin{center}\begin{tabular}[t]{  c c  c c  c  }
 \toprule
 Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
@@ -88,15 +132,25 @@ Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
 4&	0.4	&0.01	&$2.08\times 10^{-5}$\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=0.52[A]^1[B]^2$
+\begin{inparaenum}[(a)]
+\item   3
+\item   0.52$M^{-2}\cdot s^{-1}$
+\item   $r=0.52[A]^1[B]^2$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Use the data below to calculate the rate law:
+Use the data below to obtain the rate law of the following reaction: 
 \begin{center}\begin{tabular}[t]{  c c  c c  c  }
 \toprule
 Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
@@ -107,9 +161,19 @@ Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
 4&	0.4	&0.01	&$2.08\times 10^{-3}$\\
 \bottomrule
 \end{tabular}\end{center}
+Make sure you indicate:
+\begin{inparaenum}[(a)]
+\item   The reaction order
+\item   The rate constant $k$ with its units
+\item   The full rate law in terms of $[A]$, including the order and the rate constant.
+\end{inparaenum}
 \end{question}
 \begin{solution}
-$r=0.52[A][B]$
+\begin{inparaenum}[(a)]
+\item   2
+\item   0.52$M^{-1}\cdot s^{-1}$
+\item   $r=0.52[A][B]$
+\end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%  
 
 
