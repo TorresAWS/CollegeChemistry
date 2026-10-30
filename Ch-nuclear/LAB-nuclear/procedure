@@ -27,20 +27,21 @@
             \newstep[] Measure radiation without any sample by reading the meter 10 times. This will give you the background radiation. If you already measured the background previously, you can reuse the data.
  \newstep[] Next, place one of the radioactive sources in the top shelf with the chip label facing down, away from the counter. 
  \newstep[] Begin taking data.
- \newstep[] Repeat this for each of the two sources.
+ \newstep[] Repeat this procedure for the other source (or sources).
              \end{steps}
-
 
 
 
 \section*{Calculations}
 \mycircled{0} The mass of KCl your weighted, $m$.\vspace{0.5cm}\\
 \mycircled{1} The average activity in cpm.\vspace{0.5cm}\\
-\mycircled{2} The standard deviation in cps for the background ($s_b$) and the background+sample ($s_{b+s}$). For the sample ($s_s$), you need to use: $s_s=\sqrt{s_{b+s}^2-s_{s}^2}$  \vspace{0.5cm}\\
-\mycircled{3} These are the activity values in cpm for the background (without K).\vspace{0.5cm}\\
-\mycircled{4} These are the activity values in cpm for the sample.\vspace{0.5cm}\\
-\mycircled{5} These are the activity values in cpm for the sample without the background. You can subtract the average value and the standard deviation.
-\[   \;\;\mycircled{4} \;\;\ - \;\;\mycircled{3} \;\;\  \]
+\mycircled{2} The standard deviation in cpm. \vspace{0.5cm}\\
+\mycircled{3} These are the activity values in cpm for the background (in the absence of KCl).\vspace{0.5cm}\\
+\mycircled{4} These are the activity values in cpm for the sample when KCl is present.\vspace{0.5cm}\\
+\mycircled{5} These are the activity (standard deviation) values in cpm for the sample without the background. You can subtract the average value and the standard deviation.
+\[  \;\;\mycircled{5} \;\;\;\; \mycircled{1} \;\;\ = \;\;\mycircled{4} \;\;\;\; - \;\;\;\; \mycircled{3} \;\;\  \]
+For the standard deviation ($s_{s}$), you need to subtract the squared standard deviation of the background ($s_{b}$) from the squared standard deviation of the sample with background ($s_{b+s}$) and take the square root of the result
+\[ \;\; \mycircled{5} \;\;\;\; \mycircled{2} \;\;\ =s_s=\sqrt{s_{b+s}^2-s_{b}^2} = \sqrt{\;\;\mycircled{4} \;\;\;\; \mycircled{2} \;\;\;\; - \;\;\;\; \mycircled{3} \;\;\;\; \mycircled{2}  }  \] 
 \vspace{0.5cm}\\
 \mycircled{6} These are the activity per mass values in logarithmic form
 \[  log(  \;\;\mycircled{5} \;\;\  / \;\;\mycircled{0} \;\;\       )\]
@@ -48,14 +49,26 @@
 \mycircled{8} Obtain the maximum value for $\frac{A}{m}$ by doing an antilogarithm of the Y-intercept
 \[  Max(\frac{A}{m})=10^{Y-intercept}        \]
 \vspace{0.5cm}\\
-\mycircled{9} We can calculate now the half-life (in years) of the isotope
+\mycircled{9} We can now calculate the half-life (in years) of the isotope
 \[ t^{calc.}_{1/2} (LR)= \frac{0.693}{\;\;\mycircled{8} \;\;\ }\times   \frac{\epsilon}{100}\times\frac{9.53\times 10^{17}}{525600}\]
 where $\epsilon$ is the efficiency of the Geiger counter (usually 20\%). The number 525600 is used to convert minutes to years, whereas the number $9.53\times 10^{17}\text{K-40 atoms}/\text{g KCl}$ is used to convert from K-40 atoms into KCl grams. \vspace{0.5cm}\\
 \mycircled{10} This is the half-life of K-40 as reported in the literature\vspace{0.5cm}\\
-\mycircled{11} This is the measured activity of the isotope\vspace{0.5cm}\\
-\mycircled{12} This is the activity and the date of the isotopes listed on the chip\vspace{0.5cm}\\
-\mycircled{13} This is the time passed from when the activity listed on the chip was measured\vspace{0.5cm}\\
-\mycircled{14} This is the efficiency of the counter
-\[ \epsilon= \frac{\;\;\mycircled{11} \;\;\ - \;\;\mycircled{3} \;\;\ }{A_{ref}\cdot 0.5^{ \frac{365\cdot t }{t_{\frac{1}{2}}} }     }  \times   \frac{100}{2.22\times 10^{6}}  \]
-where $A_{ref}$ is the activity of the source in $\mu$Ci as listed on its label (0.1$\mu$ Ci for all samples), $t$ is the number of year passed from the date written in the chip, and $t_{\frac{1}{2}}$ is the half-life of the isotope. The number $2.22\times 10^{6}\text{cpm}/\mu Ci$ is used to convert from $\mu Ci$ to cpm  \vspace{0.5cm}\\
+%\mycircled{11} This is the measured activity of the isotope\vspace{0.5cm}\\
+\mycircled{11} This is the  date of the isotopes listed on the chip\vspace{0.5cm}\\
+\mycircled{12} This is the time passed from when the activity listed on the chip was measured\vspace{0.5cm}\\
+%\mycircled{13} These are the activity (standard deviation) values in cpm for the sample without the background. You can subtract the average value and the standard deviation.
+%\[   \;\;\mycircled{11} \;\;\;\; - \;\;\;\; \mycircled{3} \;\;\  \mycircled{1} \;\;\  \]
+%\vspace{0.5cm}\\
+\mycircled{13} This is the efficiency of the counter
+\[ \epsilon= \frac{\;\;\mycircled{4} \;\;\ - \;\;\mycircled{3} \;\;\ }{A_{ref}\cdot 0.5^{ \frac{ t }{t_{\frac{1}{2}}} }     }  \times   \frac{100}{2.22\times 10^{6}} \cdot \frac{1}{f} \]
+where $A_{ref}$ is the activity of the source in $\mu$Ci as listed on its label (0.1$\mu$ Ci for all samples), $t$ is the number of years passed from the date written on the chip, and $t_{\frac{1}{2}}$ is the half-life of the isotope in years too. The number $2.22\times 10^{6}\text{cpm}/\mu Ci$ is used to convert from $\mu Ci$ to cpm. The factor $f$ is the geometric efficiency of the counter (here equals to 0.3) and takes into account geometric facts (distance $d$=15mm and counter window diameter $x$=35mm) that make it so that not all disintegrations reach the counter. It is the fraction between the area of the top cap of the sphere with the source on its center ($2\pi r\cdot h$, that is the radiation received) and area of the sphere with the shource on its center ($4\pi\cdot r^2$)
+\[  f = \frac{2\pi r\cdot h }{4\pi\cdot r^2}=\frac{h}{2r} =\frac{r-d}{2r} =\frac{1}{2} - \frac{d}{2\sqrt{ x^2+d^2  }} \]
+  \vspace{0.5cm}\\
 %\mycircled{15} This is the average efficiency\vspace{0.5cm}\\
+
+
+
+
+
+
+
