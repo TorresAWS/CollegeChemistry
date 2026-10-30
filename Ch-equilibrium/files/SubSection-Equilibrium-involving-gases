@@ -1,0 +1,24 @@
+For equilibrium systems involving gases, we can use the measurement of the total gas pressure in equilibrium to experimentally measure the extent of the reaction $x$, and hence not only to measure how the reaction advances towards equilibrium, but also to experimentally measure the equilibrium constant.
+
+We will use the decomposition of gaseous nitrosyl chloride \ce{NOCl_{(g)}} as an example.
+Starting with an initial 0.50atm pressure of \ce{NOCl} and heating up the system at 500K, we have the ICE chart below in terms of pressures.
+
+%%%%%%ICE CHART
+\newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
+\begin{tcolorbox}[tab1,tabularx={J|Y Y Y Y   Y  Y   }]
+  &  \ce{2NOCl_{(g)}}     &     & $\ce{<=>}$    & 2\ce{NO_{(g)}}      &$+$ & \ce{Cl2_{(g)}}     \\\hline\hline
+Inicial   & 0.50atm &  &    &0atm    &  &0atm\\
+Change & $-2x$ &  &    &  $2x$ & &$x$ \\
+Equilibrium  & 0.50$-2x$ &  &    &  $2x$ & &$x$ \\ 
+\end{tcolorbox}
+%%%%%%ICE CHART
+When carrying out this experiment using a pressure sensor, we notice that the total pressure of the reaction increases from 0.50atm to 0.537atm, with a total increase of 0.037atm. The goal is to measure the extent $x$ of the reaction and to calculate its equilibrium constant in terms of pressures, $K_p$.
+
+
+The total initial pressure would be $P_i$=0.50atm, as indicated on the ICE chart, whereas the total pressure at equilibrium would result from adding the partial pressures of all gases       
+\[P_e=P_{\ce{NOCl}}  + P_{\ce{NO}} + P_{\ce{Cl_2}}   = (2x)+(x)+ (0.5-2x)= x+0.50 \text{atm.}\] 
+We can see that the value of $x$ corresponds to the pressure increase of the reaction: 0.037atm. We can now compute $K_p$ using the formula
+\[ K_p=\frac{  P_{\ce{NO}}^2\cdot P_{\ce{Cl_2}}  }{ P_{\ce{NOCl}}^2} = \frac{(2x)^2\cdot (x) }{(0.5-2x)^2 }  =    \frac{4x^3 }{(0.5-2x)^2 }  =  \frac{4\cdot 0.037^3 }{(0.5-2\cdot 0.037)^2 }=1.1\times 10^{-3}   \]
+
+In summary, when dealing with gases, the experimental measurement of the pressure in equilibrium can be used to compute reaction extents and equilibrium constants.
+

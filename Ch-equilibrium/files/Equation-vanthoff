@@ -1,0 +1,18 @@
+\begin{equation}
+\boxed{
+Ln \left[ \frac{K_{p}(T_2)}{K_{p}(T_1)} \right] = \frac{\Delta H_f^{\circ} }{R} \left[ \frac{1}{T_1} - \frac{1}{T_2}  \right]
+}
+\>\>\text{and} \>\> \boxed{
+Ln K_{p}(T)=c- \frac{\Delta H_f^{\circ}}{R} \frac{1}{T}
+}
+%k=A\myexp{\left(-\frac{E_a}{RT}\right)}} \>\>\text{and} \>\> \boxed{  Ln(k)=Ln(A)  -\frac{E_a}{R} \cdot \left(\frac{1}{T}\right) }
+\label{eq:Equation-vanthoff}
+\end{equation}
+where:
+\begin{where}
+ \item $K_p$   is the equilibrium constant in terms of pressures a temperature T 
+ \item $\Delta H_r^{\circ}$ is the enthalpy change of the reaction in J/mol
+  \item $R$  is the constant of the gases in energy units (8.314J/molK)
+    \item $T$  is the temperature in Kelvins
+    \item $c$ is a constant
+\end{where}

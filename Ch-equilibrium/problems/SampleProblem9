@@ -1,0 +1,19 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The following polynomials are associated with chemical equilibria. For each one, obtain the extent of the reaction $x$, indicating the roots without chemical sense:
+\begin{inparaenum}[(a)]
+\item   $P_1(x)=-0.9x^2+2.2x-1=0$, starting with a initial concentration of 0.8M
+\item  $P_2(x)=27x^4-54x^3-1630.7x^2-10x+1=0$, staring with a initial concentration of 1M
+\end{inparaenum} 
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can obtain the roots of the polynomials using for example a graphing calculator or using the \href{https://www.mathsisfun.com/quadratic-equation-solver.html}{\emph{ quadratic equation solver link}}. 
+\begin{inparaenum}[(a)]
+\item   The roots for $P_1(x)$ are $x_1$=0.60 and $x_2$=1.84. The second root has no chemical sense as they say we start with 0.8M.
+  \item The roots for $P_2(x)$ are $x_1$=0.022, $x_2$=8.8, $x_3$=$-$0.028, and $x_4$=$-$6.83M. The last three roots have no chemical sense as they say we start with 1M and the extent can not be negative.
+\end{inparaenum} 
+\\
+\import{./}{StudyCheck9}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+

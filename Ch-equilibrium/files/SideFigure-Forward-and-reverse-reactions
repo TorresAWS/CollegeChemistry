@@ -15,6 +15,6 @@
 %Forward  \\
 %reaction  \\
 %\end{tabular} };
-  \node[text width=5cm, shift={(-0cm,-11cm)}] at (-0cm,-0cm) {\mytriangle{red}The forward reaction goes from reactants to products whereas the reverse reaction goes from products to reactants.};
+  \node[text width=5cm, shift={(-0cm,-11cm)}] at (-0cm,-0cm) {\mytriangleup{red}The forward reaction goes from reactants to products whereas the reverse reaction goes from products to reactants.};
 \end{tikzpicture}
 \end{marginfigure}

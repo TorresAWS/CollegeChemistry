@@ -1,0 +1,18 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Using the following data, calculate the enthalpy of reaction for the following gas-phase reaction using a regression analysis:
+\begin{center}\begin{tabular}[t]{   c  c   }
+\toprule
+\multicolumn{2}{c}{\ce{N2O4 <=> 2NO2}	}\\
+\toprule
+  $T$ ( K)	&$K_p$ \\
+\midrule
+290&	$1.50\times 10^{-1}$\\
+400&	$4.79\times 10^{+2}$\\
+500&	$1.7\times 10^{+3}$\\
+%400&$1.7\times 10^{-12}$\\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  $\Delta H_r^{\circ}=57.11KJ/mol$ .
+ \end{flushright} }
+

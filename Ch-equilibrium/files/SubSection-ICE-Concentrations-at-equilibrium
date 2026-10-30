@@ -12,10 +12,13 @@ Equilibrium  & 0.1$-x$ && 0.2$-$$x$ &    &  $x$ & &$x$ \\
 we can plug the value of the extent of reaction to calculate the equilibrium concentrations. For the example in hand, we found that the reaction extent was $x$, hence we have that the equilibrium concentrations, which is $K_c$=5.1 at 700K, are:
 \[ \frac{x^2}{(0.1-x)\cdot (0.2-x) }=K_c   \]
 rearanging we have
-\[  (1-\frac{1}{K_c})x^2 -0.3x+0.02=0  \]
+\[  \bigg(1-K_c\bigg)x^2 +0.3\cdot K_c\cdot x - 0.02\cdot K_c=0  \]
 now substituying $K_c$ we have
 rearanging we have
-\[  P(x)=0.8x^2 -0.3x+0.02=0  \]
+\begin{equation}
+P(x)=-4.1x^2 + 1.53x - 0.102=0  
+\label{\chapterlabel:equationPx-0}
+\end{equation}
 which is the polynomial $P(x)$ associated with the equilibrium for the given set of initial temperature and concentration conditions.
 Solving to $x$ we arrive to two different solutions $x_1$=0.286M and $x_2$=0.087M. The first answer makes no chemical sense, as we start with 0.1M of \ce{CO} and 0.286M cannot decompose from 0.1M. So we have that the final reaction extent is 0.086M. Now we can go back to our ICE chart and compute the equilibrium concentration of each reactant and product. 
 The ICE chart incorporating the solved value for $x$ would be

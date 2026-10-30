@@ -1,0 +1,15 @@
+After long enough time has passed and once a mixture has reach equilibrium, we can compute the value of $K_c$ (or $K_p$) by analyzing the concentrations (or pressures) of eah chemical species present. 
+There are many simple ways to compute equilibrium constants with a graphing calculator. Perhaps the simplest takes advantage of the list feature.
+
+The list feature (or Stat List Editor) on a graphing calculator is a spreadsheet-like data tool that lets you enter, store, and manipulate columns of raw numerical data to perform statistical analysis, regressions, and coordinate plotting.
+
+In order to use this feature, we can express $K_c$ in a slighly different way, using the fact that reactants are in the bottom part of the equilibrium constant fraction, that means the can be moved to the top of the fraction with negative power:
+
+\begin{equation}
+\boxed{  K_{c}
+=\frac{\big[ C \big]^{\nu_c} \cdot \big[ D \big]^{\nu_d}} {\big[ A \big]^{\nu_a} \cdot \big[ B \big]^{\nu_b}}  
+=\big[ A \big]^{-\nu_a} \cdot \big[ B \big]^{-\nu_b}  \cdot \big[ C \big]^{\nu_c} \cdot \big[ D \big]^{\nu_d} 
+=\prod_{i=1}^{4} c_i^{\nu_i}
+}
+\end{equation}
+Therefore, the equilibrium constant is the result of the product of the concentrations (or pressured) of reactants and products to the power of its stoichiometric coeficient. When the chemical is a reactant, its stoichiometric coeficient is negative, whereas when the chemical is a product its stoichiometric coeficient is positive.

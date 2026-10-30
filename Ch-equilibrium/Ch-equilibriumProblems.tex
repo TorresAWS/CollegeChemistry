@@ -21,7 +21,13 @@
 {\raggedright\textsc{\textbf{Equilibrium constants }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Chemical-Equilibrium-Forward-and-reverse-reactions}
 \import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-The-equilibrium-constant-of-a-reaction}
-\import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-Equilibrium-constant-expression}
+
+\providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
+%%%%%NOT FOR 121
+\import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-Equilibrium-constant-expressionKcKp}
+\import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-Equilibrium-manipulating}
+}
+
 
 {\raggedright\textsc{\textbf{Using equilibrium constants }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Concentration-or-pressure-ratio}
@@ -29,6 +35,7 @@
 \providetoggle{chem121}\settoggle{chem121}{\chemversionhealthalied}\iftoggle{chem121}{}{
 %%%%%NOT FOR 121
 \import{../\chapterlabel/problems/problems/}{Problems-The-equilibrium-constant-Relating-Kc-and-Kp}
+
 
  {\raggedright\textsc{\textbf{Concentration ratio }}\par}
 \import{../\chapterlabel/problems/problems/}{Problems-Concentration-or-pressure-ratio-Definition-of-concentration-ratio}
@@ -42,8 +49,13 @@
 %%%%%NOT FOR 121
 
  {\raggedright\textsc{\textbf{The ICE tabular method }}\par}
-
 \import{../\chapterlabel/problems/problems/}{Problems-The-ICE-tabular-method}
+ {\raggedright\textsc{\textbf{Equilibrium calculations }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Equilibrium-calculations}
+
+ {\raggedright\textsc{\textbf{Effect of temperature on K }}\par}
+\import{../\chapterlabel/problems/problems/}{Problems-Effect-T}
+
 
 }
 

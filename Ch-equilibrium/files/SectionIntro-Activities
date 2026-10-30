@@ -1,0 +1,33 @@
+We have seen how equilibrium constants can be expressed in terms of pressures as $K_p$ or in terms of concentrations as $K_c$. That is because both pressure and concentration are related to the amount of matter; that is, the more concentrated the solution, the larger the amount of reactant when the reaction happens in liquid solution. Similarly, the higher the pressure, the larger the amount of reactant when the reaction happens in the gas phase, in gas solution. 
+There is a general way to refer to concentration called the \emph{activity}. Activities $a$ unify the different ways of expressing amount of matter. 
+The concept of activity of a chemical is an advanced topic covered in physical chemistry classes, and it is related to the idea of real and ideal solutions, hence taking into account deviations from ideal behavior when intermolecular interactions are relevant.
+ The activity of a substance is defined using a set of \emph{standard states} as references $a^*$, which correspond to the pure chemical in liquid or solid state. The definition also includes a coefficient called the \emph{activity coefficient} $\gamma$, which quantifies the strength of the intermolecular forces acting between the molecules of the chemical. The weaker this forces the close would this coeficient be to 1. Note that all activities are pure numbers and thus are unitless.
+ 
+ \begin{equation}
+\boxed{
+a_{(aq)}=\gamma\frac{c}{a^* }
+  \;\;\;\;\;\;
+  a_{(g)}=\gamma\frac{p}{a^* }
+}
+\end{equation}
+
+ 
+In order to understand the idea of activity, let's use \ce{CO_2} as an example. This chemical can be found in gas solutions, such as the air, but also in liquid solutions, in the form of carbonated drinks. Therefore, the activity of \ce{CO_2} relates to molarity when the chemical is in a solution state, and equals pressure when it is in the gas state, hence unifying the way amount of matter is expressed.  For the case of \ce{CO_2} its most stable state is on pure gas phase, and for these state $a_{\ce{CO_2}}^*=1$.
+\begin{equation}
+\boxed{
+a_{\ce{CO_2}}=\gamma_{\ce{CO_2}}\frac{c_{\ce{CO_2}}}{a_{\ce{CO_2}}^*}  \;\;\;\;\;\;
+a_{\ce{CO_2}}=\gamma_{\ce{CO_2}}\frac{p_{\ce{CO_2}}}{a_{\ce{CO_2}}^*} 
+}
+\end{equation}
+
+
+
+For diluted solutions and when intermolecular forces are irrelevant, activities are equivalent to pressures or concentrations.
+
+All equilibrium constants are originally written in terms of activities, and as such are unitless magnitudes. The general definition of an equilibrium constant in terms of activities is given by
+\begin{equation}
+\boxed{  K= \frac{a_{\text{Products}_{(aq)}}}{a_{\text{Reactants}_{(aq)}}}
+=\frac{\gamma_{\text{Products}}}{\gamma_{\text{Reactants}}}\cdot  \frac{   \frac{c_{\text{Products}}}{a^*_{\text{Products}}}   }{   \frac{c_{\text{Reactants}}}{a^*_{\text{Reactants}}}   }
+%=\frac{\big[ C \big]^c \cdot \big[ D \big]^d} {\big[ A \big]^a \cdot \big[ B \big]^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}\label{\chapterlabel:equation1
+}
+\end{equation}

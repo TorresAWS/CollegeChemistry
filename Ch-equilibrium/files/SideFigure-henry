@@ -1,0 +1,23 @@
+\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+ 
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/chatemedal}};
+   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-2cm) {\mytriangleup{red}
+The Le Chatelier Medal is the highest distinction in cement and concrete research, awarded annually by the international scientific journal Cement and Concrete Research
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/henrysmicro}};
+   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-2cm) {\mytriangleup{red}
+Le Chatelier designed an inverted metallographic microscope in the late 19th century to examine heavy and large metallic and minera
+};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/henrysbook1}};
+   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-2cm) {\mytriangleup{red}
+Le Chatelier co-authored the seminal scientific book about gaseous explosions
+};
+\end{tikzpicture}
+
+\end{marginfigure}%%%%%%% MARGIN FIGURE

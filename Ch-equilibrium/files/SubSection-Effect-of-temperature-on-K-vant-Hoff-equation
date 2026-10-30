@@ -1,0 +1,5 @@
+The van't Hoff equation gives the dependency of the equilibrium constant in terms of pressure with temperature. We will introduce this equation in two forms: a linearized form involving one temperature, suitable for linear regression calculations when you have numerous temperatures, and a form involving two temperatures, suitable for punctual calculations involving only two points
+  \import{../\chapterlabel/files/}{Equation-vanthoff}
+The linear form of the equation is useful to obtain data graphically, as it represents a linear relationship with $\frac{1}{T}$ as $x$ and $Ln(k)$ as $y$. The slope of the resulting line is $-\frac{\Delta H_r^{\circ}}{R}$ (mind the negative sign) and the intercept is $c$. 
+Based on the van't Hoff equation, the larger the enthalpy, the smaller the change of the equilibrium constant with temperature. Similarly, as the temperature decreases $K_p$ increases if the reaction is endothermic, and decreases when the reaction is exothermic. Some advice, as $\Delta H_r^{\circ}$ are often given in KJ/mol, make sure you convert the value in J/mol before you use the van't Hoff equation.
+

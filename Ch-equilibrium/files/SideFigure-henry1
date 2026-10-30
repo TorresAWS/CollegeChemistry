@@ -1,0 +1,28 @@
+\begin{marginfigure}[1cm]%%%%%%%% MARGIN FIGURE
+ 
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/henrysbook2}};
+   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-3cm) {\mytriangleup{red}
+Le Chatelier's book about experimental methods for measuring extreme heat.
+};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/starv}};
+   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-1cm) {\mytriangleup{red}
+Synthetic ammonia production is directly tied to global food security, with synthetic nitrogen fertilizers currently sustaining nearly half of the world's population and preventing mass starvation
+};
+\end{tikzpicture}
+\begin{tikzpicture}
+\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/war}};
+   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-1cm) {\mytriangleup{red}
+Ammonia played a critical role in the Second World War as a foundational chemical for manufacturing explosives, gunpowders, and synthetic nitrates required for military ordnance
+};
+\end{tikzpicture}
+%\begin{tikzpicture}
+%\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/henrysbook2}};
+%   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-2cm) {\mytriangleup{red}
+%Le Chatelier's book about experimental methods for measuring extreme heat.
+%};
+%\end{tikzpicture}
+\end{marginfigure}%%%%%%% MARGIN FIGURE

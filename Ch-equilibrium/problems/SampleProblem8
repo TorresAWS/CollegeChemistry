@@ -21,14 +21,14 @@ We will first build up the ICE chart given that the initial concentration of rea
 fit=(tab.north west) (tab.north east) (tab.south east) (tab.south west)] {};
 \end{tikzpicture}\end{center}
 Now we will obtain the polynomial and solve for the extent. Using the expression for $K_c$
-\[ \frac{  [\ce{NH3}]^2 }{[\ce{N2}] \cdot [\ce{H2}]^3}=K_c  \]
+\[ K_c=\frac{  [ce{NH3}]^2 }{[\ce{N2}] \cdot [\ce{H2}]^3}  \]
 now substituting the values from the ICE chart:
-\[ \frac{  (2x)^2 }{(1-x) \cdot (1-3x)^3}=K_c \ \]
+\[ K_c=\frac{  (2x)^2 }{(1-x) \cdot (1-3x)^3}  \]
 By opening parenthesis we obtain 
-\[  \frac{  4x^2 }{27x^4-54x^3+36x^2-10x+1}=K_c\]
+\[  K_c=\frac{  4x^2 }{27x^4-54x^3+36x^2-10x+1}\]
 
 The corresponding polynomial will be
-\[27x^4-54x^3+(36-\frac{4}{K_c})x^2-10x+1=0   \]
+\[27x^4-54x^3+\Bigg(36-\frac{4}{K_c}\Bigg)x^2-10x+1=0   \]
 The final polynomial will be
 \[P(x)=27x^4-54x^3-1630.7x^2-10x+1=0   \]
 

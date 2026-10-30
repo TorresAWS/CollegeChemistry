@@ -1,0 +1,39 @@
+A change on the way we write an equilibrium reaction will have an impact on the expression of the equilibrium constant, that is the formula representing this constant.
+
+Let us use as an example the \emph{Sabatier reaction} that produces methane and water by reacting carbon dioxide with hydrogen at high temperatures and pressures over a metal catalyst
+\\\ce{CO2_{(g)} + 4H2_{(g)} <=> CH4_{(g)} + 2H2O_{(g)}    }\hfill $K_{c}(A\ce{<=>}B)=\frac{   \big[ \ce{CH4} \big] \cdot \big[ \ce{H2O} \big]^2    } {  \big[ \ce{CO2} \big] \cdot \big[ \ce{H2} \big]^4    }$\\
+The reverse of the Sabatier process is called the \emph{steam methane reforming} (or thermal decomposition/pyrolysis of methane), which breaks down methane and water into carbon dioxide and hydrogen. Its equilibrium constant is given by
+\\\ce{CH4_{(g)} + 2H2O_{(g)}  <=>CO2_{(g)} + 4H2_{(g)}    }\hfill $K_{c}(B\ce{<=>}A)=\frac{  \big[ \ce{CO2} \big] \cdot \big[ \ce{H2} \big]^4      } {\big[ \ce{CH4} \big] \cdot \big[ \ce{H2O} \big]^2      }$\\
+We can see that
+\begin{equation*}
+ \boxed{ 
+  K_{c}(A\ce{<=>}B)=\frac{  1     } { K_{c}(B\ce{<=>}A)   }
+  }
+\end{equation*}
+Therefore, we can conclude that reverting an equilibrium inverts its equilibrium constant expression.
+
+Simmilarly, if we multiply an equilibrium by a number, we also impact the expression of the equilibrium constant. For example:
+\\\ce{2CO2_{(g)} + 8H2_{(g)} <=> 2CH4_{(g)} + 4H2O_{(g)}     }\hfill $K_{c}(2A\ce{<=>}2B)=\frac{   \big[ \ce{CH4} \big]^2 \cdot \big[ \ce{H2O} \big]^4    } {  \big[ \ce{CO2} \big]^2 \cdot \big[ \ce{H2} \big]^8    }$\\
+By comparing $K_{c,A}$ and $K_{c,C}$ we can see that if we time the chemical equilibrium by a number we introduce a power on the equilibrium expression, and we have
+\begin{equation*}
+ \boxed{ 
+  K_{c}(2A\ce{<=>}2B)=(K_{c}(A\ce{<=>}B))^2
+  }
+\end{equation*}
+Finally, let us address the case in which we add two equilibriums. On one hand, we have the Sabatier reacion producing steam (reaction (1) below), but at a the right temperature this steam can liquify producing water (reaction (2) below). The result of adding both reactions would be the Sabatier reacion producing steam producing water (reaction (1)+(2) below)
+\begin{center}
+\begin{tabular}{  r r l r }
+(1)&\ce{CO2_{(g)} + 4H2_{(g)} & <=> \: CH4_{(g)} + 2\Cancel{H2O_{(g)}}  }&$K_{c}(A\ce{<=>}B)=\frac{   \big[ \ce{CH4} \big] \cdot \big[ \ce{H2O} \big]^2    } {  \big[ \ce{CO2} \big] \cdot \big[ \ce{H2} \big]^4    }$ \\
+\\
+(2)&\ce{2\Cancel{H2O_{(g)}}  & -> \: 2H2O_{(l)} }&$K_{c}(B\ce{<=>}C)= \frac{1}{ \big[ \ce{H2O} \big]^2 }  $ \\
+\multicolumn{4}{r}{} \rule{13cm}{0.4pt}\\
+(1)+(2)&  \ce{ CO2_{(g)} + 4H2_{(g)} &-> \: CH4_{(g)} + 2H2O_{(l)} } &$K_{c}(A\ce{<=>}C)=\frac{   \big[ \ce{CH4} \big]      } {  \big[ \ce{CO2} \big] \cdot \big[ \ce{H2} \big]^4    }$\\
+ \end{tabular}
+ \end{center}
+By comparing the reactions above we can see that
+\begin{equation*}
+ \boxed{ 
+ K_{c}(A\ce{<=>}C)=K_{c}(A\ce{<=>}B)\cdot K_{c}(B\ce{<=>}C)
+ }
+\end{equation*}
+Therefore, adding two equilibrium would multiply its corresponding equilibrium constants.

@@ -1,0 +1,57 @@
+The following example shows how to for this equation to a large set of temperatures.
+
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Using the following data and a regression analysis, calculate the the standard enthalpy of reaction for the synthesis of ammonia. Is the reaction endothermic or exothermic.
+\begin{center}\begin{tabular}[t]{   c  c   }
+\toprule
+\multicolumn{2}{c}{\ce{N_2 + 3H_2 <=> 2NH3}	}\\
+\toprule
+  $T$ ( K)	&$K_p$ \\
+\midrule
+298&	$6.80\times 10^{5}$\\
+320&	$5.29\times 10^{4}$\\
+350&	$2.73\times 10^{3}$\\
+370&	$4.94\times 10^{2}$\\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As they provide with rate constant and temperature data, we will use the linearized form of Arrhenius equation in order to calculate the activation energy and the frequency factor. We will first process the data and compute the natural logarithm of the rate constant and the inverse of temperature. By analyzing the data we can see that the equilibrium constant decreases as temeprature rises and therefore the reaction has to be exothermic
+\begin{center}\begin{tabular}[t]{   c cc c   }
+\toprule
+  $T$ ( K)	&$\frac{1}{T}$  	&$K_p$ &$Ln(K_p)$  \\
+\midrule
+298&		$3.35\times 10^{-5}$	&	$6.80\times 10^{5}$ &13.43\\
+320&		$3.12\times 10^{-3}$	&	$5.29\times 10^{4}$ &10.88\\
+350&		$2.86\times 10^{-3}$	&	$2.73\times 10^{3}$ &7.91\\
+370&		$2.70\times 10^{-3}$	&	$4.94\times 10^{2}$ &6.20\\
+\bottomrule
+\end{tabular}\end{center}
+Now we are ready to graph the van't Hoff plot with $\frac{1}{T}$ in the horizontal (x) axis and $Ln(K_p)$ in the vertical (y) axis.
+
+
+ \pgfplotstableread{   
+ oneoverT		Lnk 
+ 	0.00335	13.42
+ 	0.00312	 10.88
+ 	0.00285	 7.91
+ 	0.00270	 6.20
+}\tableLabel
+\MakeRegression{oneoverT}{Lnk}{reg1}{\SlA}{\IntA}{\RsqA}
+\hspace{-0.3cm}\begin{center}\begin{tikzpicture}
+\begin{groupplot}[height=5cm,width=6.4cm,
+  group style={
+    group size=1 by 1 ,
+  }
+]
+\nextgroupplot[title={$Ln(K_p)$ vs. $\frac{1}{T}$}, legend style={at={(1.05,1.4)} }]
+\addplot +[mark=none, color=red, fill=red] table [x=oneoverT, y=reg1] {\tableLabel};
+\addplot +[only marks, color=red, fill=red] table [x=oneoverT, y=Lnk]  {\tableLabel};   
+\addlegendentry{\LegendEntryB{\SlA}{\IntA}{\RsqA}}
+\end{groupplot}
+
+\end{tikzpicture}\end{center}
+From the slope of the graph we will calculate $-\frac{\Delta H_r^{\circ}}{R}$ and from the intersect we will calculate $c$. We have that $-\frac{\Delta H_r^{\circ}}{R}=+11088$ and $c=-23.70$. We have that the enthalpy is: $\Delta H_r^{\circ}=-92.2KJ/mol$ and the reaction is exothermic.\\
+\import{./}{StudyCheck10} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
