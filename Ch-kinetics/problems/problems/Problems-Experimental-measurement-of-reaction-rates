@@ -7,20 +7,18 @@ Answer the following questions from the experimental data given in the table bel
 \item   Calculate the average initial velocity with four significant figures
 \item   Calculate the instantaneous initial velocity with four significant figures, indicating the $r^2$ correlation coeficient value
 \end{inparaenum}
-\begin{center}
-\begin{tabular}[t]{   c  c ccccc c  }
-\toprule
-\multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	&   		6		  \\
-  \midrule
-  \multicolumn{1}{c|}{  $c$ (M)}&0.1750 &0.2430&0.3150 &0.3890&0.5000    \\
- 
-\bottomrule
-\multicolumn{1}{c|}{  $t$ ( s)}	&  7	&	9	&	 	&	 	&   		 	 	  \\
 
+\begin{center}
+{\tabcolsep3pt
+\begin{tabular}[t]{   c  c ccccc c c c  }
+\toprule
+\multicolumn{1}{c|}{  $t$ ( s)}	&  1	&	2	&	3	&	4	&   		6	&  7	&	9	  \\
   \midrule
-  \multicolumn{1}{c|}{  $c$ (M)}&0.5100  &0.5200 &     &&  \\
- 
+  \multicolumn{1}{c|}{  $c$ (M)}&0.175 &0.243&0.315 &0.389&0.500   &0.510  &0.520 \\
+
+ \bottomrule
 \end{tabular}
+}
 \end{center}
 
 

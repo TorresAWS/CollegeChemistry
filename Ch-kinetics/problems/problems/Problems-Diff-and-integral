@@ -211,7 +211,7 @@ Experiment	&$[A]_0$ &		$[B]_0$ 	&	$r_0$ \\
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The plot below resulting from integral method represent a perfect line with $r^2$=0.99. Indicate the order of the reaction.
+The plot below, resulting from the integral method, represents a perfect line with $r^2$=0.99. Indicate the order of the reaction.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,
@@ -267,7 +267,7 @@ zeroth-order
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The plot below resulting from integral method represent a perfect line with $r^2$=0.99. Indicate the order of the reaction.
+The plot below, resulting from the integral method, represents a perfect line with $r^2$=0.99. Indicate the order of the reaction.
 \begin{center}
 %\begin{tikzpicture}
 %  \begin{axis}[
@@ -324,7 +324,7 @@ second order
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The plot below resulting from integral method represent a perfect line with $r^2$=0.99. Indicate the order of the reaction.
+The plot below, resulting from the integral method, represents a perfect line with $r^2$=0.99. Indicate the order of the reaction.
 \begin{center}
 %\begin{tikzpicture}
 %  \begin{axis}[
@@ -382,7 +382,7 @@ first order
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The following plot results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
+The following plot results from processing chemical concentrations and times by means of the integral method.  Interpret the linear regressions, paying particular attention to the statistics behind the regression, and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -411,7 +411,7 @@ The following plot results from processing data by means of the integral method.
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The following plot results from processing data using the integral method. Interpret the linear regressions, paying particular attention to the statistics behind the regression, and indicate the rate law.
+The following plot results from processing chemical concentrations and times by means of the integral method.  Interpret the linear regressions, paying particular attention to the statistics behind the regression, and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -439,7 +439,7 @@ No rate law can be deribed
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-The following plot results from processing data by means of the integral method. Interpret the linear regressions and indicate the rate law.
+The following plot results from processing chemical concentration data at different times by means of the integral method. Interpret the linear regressions and indicate the rate law.
 \begin{center}\begin{tikzpicture}
   \begin{axis}[
             axis lines=middle,legend style={at={(0.0,1.3)},anchor=north west} ,
@@ -467,7 +467,7 @@ The following plot results from processing data by means of the integral method.
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Using the following data, calculate the order and rate constant and write down the rate law.
+The data below result from measuring the concentration of a reactant at different times. Using the following data, calculate the order and the rate constant, and write down the rate law. Make sure you indicate the proper units of the rate constant.
 \begin{center}\begin{tabular}[t]{   c  c   }
 \toprule
   $t$ ( s)	&$[A]$ (M) \\
@@ -482,13 +482,13 @@ Using the following data, calculate the order and rate constant and write down t
 \end{tabular}\end{center}
 \end{question}
 \begin{solution}
- $r=0.11[A]^2$, [A]$_0$=0.5M
+ $r=0.11[A]^2$, [A]$_0$=0.5M; $k$=0.11M$^{-1}\cdot$s$^{-1}$
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 %%%%%%PROBLEM
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
-Using the following data, calculate the order and rate constant and write down the rate law.
+The data below result from measuring the concentration of a reactant at different times. Using the following data, calculate the order and the rate constant, and write down the rate law. Make sure you indicate the proper units of the rate constant.
 \begin{center}\begin{tabular}[t]{   c  c   }
 \toprule
   $t$ ( s)	&$[A]$ (M) \\
@@ -503,7 +503,7 @@ Using the following data, calculate the order and rate constant and write down t
 \end{tabular}\end{center}
 \end{question}
 \begin{solution}
- $r=2.45[A]^2$, [A]$_0$=0.13M
+ $r=2.45[A]^2$, [A]$_0$=0.13M;$k$=2.45M$^{-1}\cdot$s$^{-1}$
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
 
 
