@@ -52,7 +52,7 @@ In a set of experiments, we measure different $K_p$ values at different temperat
         ]
             \addplot [thick,draw=blue!75!black]{-4*x+1};
                                 \addlegendentry[shift={(0,0em)}]{y=895x+0.4 $r^2$=0.99  };
-                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{-4*x+1};
+                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{4*x+1};
                 \end{axis}
              
 \end{tikzpicture}\end{center}

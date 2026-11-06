@@ -1,15 +1,13 @@
 \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
 Using the following data, calculate the enthalpy of reaction for the following gas-phase reaction using a regression analysis:
-\begin{center}\begin{tabular}[t]{   c  c   }
+\begin{center}\begin{tabular}[t]{   c|  c cc   }
 \toprule
-\multicolumn{2}{c}{\ce{N2O4 <=> 2NO2}	}\\
+\multicolumn{4}{c}{\ce{N_2 + 3H_2 <=> 2NH3}     }\\
 \toprule
-  $T$ ( K)	&$K_p$ \\
+\toprule
+$T$ ( K)   &290  &400  &500  \\
 \midrule
-290&	$1.50\times 10^{-1}$\\
-400&	$4.79\times 10^{+2}$\\
-500&	$1.7\times 10^{+3}$\\
-%400&$1.7\times 10^{-12}$\\
+$K_p$ &$1.50\times 10^{-1}$   &$4.79\times 10^{+2}$ &$1.70\times 10^{+3}$    \\
 \bottomrule
 \end{tabular}\end{center}
 \providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 

@@ -1,15 +1,17 @@
-After long enough time has passed and once a mixture has reach equilibrium, we can compute the value of $K_c$ (or $K_p$) by analyzing the concentrations (or pressures) of eah chemical species present. 
-There are many simple ways to compute equilibrium constants with a graphing calculator. Perhaps the simplest takes advantage of the list feature.
-
-The list feature (or Stat List Editor) on a graphing calculator is a spreadsheet-like data tool that lets you enter, store, and manipulate columns of raw numerical data to perform statistical analysis, regressions, and coordinate plotting.
-
-In order to use this feature, we can express $K_c$ in a slighly different way, using the fact that reactants are in the bottom part of the equilibrium constant fraction, that means the can be moved to the top of the fraction with negative power:
-
+Let's consider a general equilibrium reaction in which $A_1$ and $A_2$ react to form $A_3$ and $A_4$
+\begin{center}\ce{$\underbrace{\textcolor{red}{\ce{$\nu_1$A_1_{(Aq)} + $\nu_2$A_2_{(Aq)}}}}_{\textrm{Reactants}}$ <=> $\underbrace{\textcolor{blue}{\ce{$\nu_3$A_3_{(Aq)} + $\nu_4$A_4_{(Aq)}}}}_{\textrm{Products}}$}
+\end{center}
+The stoichiometric coefficients of the reaction are $\nu_1$, $\nu_2$, $\nu_3$, and $\nu_4$. Mathematically speaking, $K_c$ is represented as a fraction in which reactants appear at the bottom, whereas products appear at the top. For example, $K_c$ for this reaction would be given by
+\[
+K_c=\frac{\big[ A_3 \big]^{\nu_3} \cdot \big[ A_4 \big]^{\nu_4}} {\big[ A_1 \big]^{\nu_1} \cdot \big[ A_2 \big]^{\nu_2}}  
+\]
+There is an alternative, more compact, way of formulating $K$ as a product of concentrations instead of a fraction. This can be done because we know that moving a term with an exponent from the denominator to the numerator (or vice versa) changes the sign of its exponent. Using this property, we have
+\[  K_{c}
+=\frac{\big[ A_3 \big]^{\nu_3} \cdot \big[ A_4 \big]^{\nu_4}} {\big[ A_1 \big]^{\nu_1} \cdot \big[ A_2 \big]^{\nu_2}}  
+=\big[ A_1 \big]^{-\nu_1} \cdot \big[ A_2 \big]^{-\nu_2}  \cdot \big[ A_3 \big]^{\nu_3} \cdot \big[ A_4 \big]^{\nu_4} 
+\]
+The expression above demonstrates that ultimately, $K_c$ results from the product of a set of different concentrations elevated to the power of their stoichiometric coefficients, which are positive for products and negative for reactants. We can hence reformulate the $K_c$ and $K_p$ expression s
 \begin{equation}
-\boxed{  K_{c}
-=\frac{\big[ C \big]^{\nu_c} \cdot \big[ D \big]^{\nu_d}} {\big[ A \big]^{\nu_a} \cdot \big[ B \big]^{\nu_b}}  
-=\big[ A \big]^{-\nu_a} \cdot \big[ B \big]^{-\nu_b}  \cdot \big[ C \big]^{\nu_c} \cdot \big[ D \big]^{\nu_d} 
-=\prod_{i=1}^{4} c_i^{\nu_i}
-}
+\boxed{  K_{c}=\prod_{i=1}^{4} \big[ A_i \big]^{\nu_i}}\;\;\;\; \text{and}\;\;\;\; \boxed{  K_{p}=\prod_{i=1}^{4} P_i^{\nu_i}}
 \end{equation}
-Therefore, the equilibrium constant is the result of the product of the concentrations (or pressured) of reactants and products to the power of its stoichiometric coeficient. When the chemical is a reactant, its stoichiometric coeficient is negative, whereas when the chemical is a product its stoichiometric coeficient is positive.
+This new formulation for $K$ allows us to easily compute equilibrium constants with a graphing calculator, taking advantage of the list feature and the Prod() function. The list feature (or Stat List Editor) on a graphing calculator is a spreadsheet-like data tool that lets you enter, store, and manipulate columns of raw numerical data to perform statistical analysis, regressions, and coordinate plotting. The Prod() function calculates the product of the elements of a list.

@@ -1,4 +1,4 @@
-\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+\begin{marginfigure}[0cm]%%%%%%%% MARGIN FIGURE
  
 \begin{tikzpicture}
 \node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/descartes}};
@@ -13,16 +13,16 @@ Rene Descartes (1596-1650): Introduced modern algebraic notation (using letters 
 Th\'eophile De Donder was a Belgian mathematician, physicist, and chemist who first developed the concept of the extent of a reaction. He was in 1927, one of the participants in the fifth Solvay Conference on Physics, which took place at the International Solvay Institute for Physics in Belgium.
 };
 \end{tikzpicture}
-\begin{tikzpicture}
-\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/casio}};
-   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangleup{red}
-A casio graphing calculator
-};
-\end{tikzpicture}
-\begin{tikzpicture}
-\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/texas}};
-   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangleup{red}
-A texas graphing calculator
-};
-\end{tikzpicture}
+%\begin{tikzpicture}
+%\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/casio}};
+%   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangleup{red}
+%A casio graphing calculator
+%};
+%\end{tikzpicture}
+%\begin{tikzpicture}
+%\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/texas}};
+%   \node[text width=5cm, shift={(-0cm,-3cm)}] at (-0cm,-0cm) {\mytriangleup{red}
+%A texas graphing calculator
+%};
+%\end{tikzpicture}
 \end{marginfigure}%%%%%%% MARGIN FIGURE

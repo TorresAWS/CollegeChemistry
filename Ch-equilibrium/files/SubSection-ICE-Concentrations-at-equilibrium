@@ -10,7 +10,7 @@ Equilibrium  & 0.1$-x$ && 0.2$-$$x$ &    &  $x$ & &$x$ \\
 %%%%%%ICE CHART
 
 we can plug the value of the extent of reaction to calculate the equilibrium concentrations. For the example in hand, we found that the reaction extent was $x$, hence we have that the equilibrium concentrations, which is $K_c$=5.1 at 700K, are:
-\[ \frac{x^2}{(0.1-x)\cdot (0.2-x) }=K_c   \]
+\[ K_c=\frac{x^2}{(0.1-x)\cdot (0.2-x) }= \frac{x^2}{x^2-0.3x+0.02}   \]
 rearanging we have
 \[  \bigg(1-K_c\bigg)x^2 +0.3\cdot K_c\cdot x - 0.02\cdot K_c=0  \]
 now substituying $K_c$ we have

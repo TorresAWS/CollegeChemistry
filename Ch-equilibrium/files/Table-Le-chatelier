@@ -1,6 +1,8 @@
-\begin{marginfigure}[-15cm]%%%%%%%% MARGIN FIGURE 
-\begin{adjustwidth*}{-20mm}{-5mm}\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Le-chatelier}
-\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+%\begin{marginfigure}[-15cm]%%%%%%%% MARGIN FIGURE 
+%\begin{adjustwidth*}{-20mm}{-5mm}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:Table-Le-chatelier}
+%\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{center}
 \fontfamily{ppl}\selectfont
 \begin{tabular}{lll }
 \rowcolor{black!45}
@@ -30,6 +32,7 @@
 
 \bottomrule
 \end{tabular}
-}\end{minipage} 
- \end{adjustwidth*} 
-   \end{marginfigure}%%%%%%% MARGIN FIGURE
+\end{center}
+%}\end{minipage} 
+% \end{adjustwidth*} 
+%   \end{marginfigure}%%%%%%% MARGIN FIGURE

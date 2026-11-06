@@ -1,12 +1,27 @@
-The equilibrium constant $K_{c}$ is the ratio of the concentration of products and reactants. As concentration is related to pressure--remember the chapter about gases--we can also express an equilibrium constant in terms of pressures, we call this $K_{p}$.
+The equilibrium constant $K_{c}$ is the ratio of the concentrations of products and reactants. As concentration is related to pressure through the ideal gas law, we can also express an equilibrium constant in terms of pressures; we call this $K_{p}$. Let us consider, again, a general equilibrium reaction in which $A_1$ and $A_2$ react to form $A_3$ and $A_4$
+\begin{center}\ce{$\underbrace{\textcolor{red}{\ce{$\nu_1$A_1_{(g)} + $\nu_2$A_2_{(g)}}}}_{\textrm{Reactants}}$ <=> $\underbrace{\textcolor{blue}{\ce{$\nu_3$A_3_{(g)} + $\nu_4$A_4_{(g)}}}}_{\textrm{Products}}$}
+\end{center}
+The stoichiometric coefficients of the reaction are $\nu_1$, $\nu_2$, $\nu_3$, and $\nu_4$. Hence, the expression of the equilibrium constant in terms of pressures will be:
 \begin{equation}
-\boxed{  K_{p}=\frac{P_{\text{Products}}}{P_{\text{Reactants}}}=\frac{P_{C}^c \cdot P_{D}^d} {P_{A}^a \cdot P_{B}^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}
-\label{\chapterlabel:equation2}
+\boxed{  K_{p}=\frac{P_{ \text{Products} } }{P_{  \text{Reactants} }  }=\frac{  P_{A_3}^{\nu_3} \cdot P_{A_4}^{\nu_4}} {P_{A_1}^{\nu_1} \cdot  P_{A_2}^{\nu_2}   } } \quad \textcolor{blue}{\text{Equilibrium constant in terms of pressures}}\label{\chapterlabel:equation2}
 \end{equation}
-Let's focus on an example. Think about the reaction below that involved just gases:
+ Let us break down the expression of $K_p$. On top of the fraction, we have the equilibrium pressures of the products to the power of their coefficients. For example, $P_{A_3}^{\nu_3}$ represents the equilibrium pressure of $A_3$ to the power of the coefficient $\nu_3$. In the bottom of the fraction, we have the pressures of the reactants to the power of their coefficients. All concentrations in $K_{p}$ are timed.
+ \begin{center}\begin{tikzpicture}[> = stealth']
+  \node[font=\Large] (alta) {$P_{A_3}^{\nu_3} \cdot P_{A_4}^{\nu_4}$}; 
+  \node[font=\Large, below = 3mm of alta] (baja) {$P_{A_1}^{\nu_1} \cdot P_{A_2}^{\nu_2} $};
+\node [font=\Large] at ([shift={(3mm:-6mm)}]alta.south west) {$K_{c}=$};
+  \draw[thick, <-] (alta) --++(40:1cm) node[right, text width=5cm, align=left]{\small{product pressures }};
+  \draw[thick, <-] (baja.east) --++(-60:1cm) node[right, text width=5cm, align=left]{\small{reactant coefficient }};
+  \draw[thick] ([yshift=-1.5mm]alta.south west) --  ([yshift=-1.5mm]alta.south east);
+ \end{tikzpicture}\end{center}
+%\begin{equation}
+%\boxed{  K_{p}=\frac{P_{\text{Products}}}{P_{\text{Reactants}}}=\frac{P_{C}^c \cdot P_{D}^d} {P_{A}^a \cdot P_{B}^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}
+%\label{\chapterlabel:equation2}
+%\end{equation}
+Let's focus on an example. Think about the reaction below that involves just gases:
 \begin{center}\ce{CH4_{(g)} + 2O2_{(g)} <=> CO2_{(g)} + 2H2O_{(g)}}\end{center}
-The expression of the equilibrium constant would be:
+The expression of the equilibrium constant in terms of pressures would be:
 \begin{equation*}
   K_{p}=\frac{P_{\ce{CO2}} \cdot P_{\ce{H2O}}^2} {P_{\ce{CH4}} \cdot P_{\ce{O2}}^2} 
 \end{equation*}
-$K_{p}$ values larger than one implies that in the mixture the pressure of products is larger than the pressure of reactants and the opposite is true for values smaller than one.
+$K_{p}$ values larger than one imply that, in the mixture, the pressure of products is larger than the pressure of reactants, and the opposite is true for values smaller than one.

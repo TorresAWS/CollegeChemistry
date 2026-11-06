@@ -1,0 +1,31 @@
+=\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Octane (\ce{C_8H_{18}}) is a hydrocarbon used as one of the standard values in the octane rating scale used to rate car fuels. Its combustion in car engines follows the equilibrium
+\begin{center}\ce{2C_8H_{18}_{(g)} + 25O_2_{(g)}  <=> 16CO_2_{(g)}   + 18H2O_{(g)} }   \end{center}
+Compute the value of $K_p$ given the set of equilibrium pressures below.
+\begin{center}\begin{tabular}[t]{   cccccccc    }
+\toprule
+& \ce{ 2C_8H_{18}_{(g)}   }&      \ce{+}  & \ce{ 25O_2_{(g)}     } &      \ce{<=>}                & \ce{ 16CO_2_{(g)}  } & \ce{+}&       \ce{  18H2O_{(g)}  }           \\\midrule
+$P_i$(atm)       &$3\times 10^{-2}$   &&       $2\times 10^{-3}$&&        $2\times 10^{-2}$  &&$5\times 10^{-2}$ \\
+ \bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use the List feature and the Prod function found in graphing calculators in order to calculate $K_p$. First, the definition of $K_p$ is
+\[  \   K_{c}
+=\prod_{i=1}^{4}  P_i ^{\nu_i} =   P_1^{\nu_1}\cdot P_2^{\nu_2}\cdot P_3^{\nu_3}\cdot P_4^{\nu_4}  \]
+Now we will arrange the pressure values and stoichiometric coefficients, using negative values for reactants, in a table below using columns
+\begin{center}\begin{tabular}[t]{   ccc     }
+\toprule
+Chemical &  P$_i$(atm)  & $\nu_i$ \\ 
+  &  (L1)  & (L2) \\ 
+\toprule
+\ce{ C_8H_{18}_{(g)}   }   & $3\times 10^{-2}$ & -2 \\ 
+\ce{ O_2_{(g)}     }   & $2\times 10^{-3}$ & -25 \\ 
+\ce{ CO_2_{(g)}  }    & $2\times 10^{-2}$ & 16 \\ 
+\ce{  H2O_{(g)}  }     & $5\times 10^{-2}$ & 18 \\ 
+ \bottomrule
+\end{tabular}\end{center}
+We have called L1 the list containing pressures and L2 the one containing coefficients. Now, to compute $K_p$, we will have to do
+\[ K_p= \text{Prod(}\text{L1} ^{\wedge} \text{L2}\text{)}=8.3\times 10^{19} \]
+\\
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

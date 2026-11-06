@@ -3,16 +3,20 @@ The following example shows how to for this equation to a large set of temperatu
 
 \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
 Using the following data and a regression analysis, calculate the the standard enthalpy of reaction for the synthesis of ammonia. Is the reaction endothermic or exothermic.
-\begin{center}\begin{tabular}[t]{   c  c   }
+\begin{center}\begin{tabular}[t]{   c|  c ccc   }
 \toprule
-\multicolumn{2}{c}{\ce{N_2 + 3H_2 <=> 2NH3}	}\\
+\multicolumn{5}{c}{\ce{N_2 + 3H_2 <=> 2NH3}	}\\
 \toprule
-  $T$ ( K)	&$K_p$ \\
+\toprule
+%  $T$ ( K)	&$K_p$ \\
+%\midrule
+%298&	$6.80\times 10^{5}$\\
+%320&	$5.29\times 10^{4}$\\
+%350&	$2.73\times 10^{3}$\\
+%370&	$4.94\times 10^{2}$\\
+$T$ ( K)   &  298& 320& 350& 370\\
 \midrule
-298&	$6.80\times 10^{5}$\\
-320&	$5.29\times 10^{4}$\\
-350&	$2.73\times 10^{3}$\\
-370&	$4.94\times 10^{2}$\\
+$K_p$ &$6.80\times 10^{5}$ &$5.29\times 10^{4}$ & $2.73\times 10^{3}$ & $4.94\times 10^{2}$ \\
 \bottomrule
 \end{tabular}\end{center}
 \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\

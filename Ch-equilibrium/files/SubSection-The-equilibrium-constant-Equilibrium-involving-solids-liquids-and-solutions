@@ -1,9 +1,10 @@
-Let us analyze an example of a reaction involving solids or liquids:
+Let us analyze an example of a reaction involving solids or liquids.
+When calcium carbonate monohydrate (\ce{CaCO3 * H2O}) is heated, it undergoes a two-step thermal decomposition process that ultimately produces carbon dioxide gas, as shown below:
 \begin{center}\ce{CaCO3 * H2O_{(s)} <=> CaO_{(s)} + CO2_{(g)} + H2O_{(l)}}\end{center}
-Solids and liquids have no concentration and hence they should not be included in the expression of $K_c$. For the example above:
+Experiments have found that pure solids and liquids do not affect chemical equilibrium or appear in equilibrium constant expressions because their concentrations remain constant throughout a reaction. For the example above:
 \begin{equation*}
   K_{c}=\big[ \ce{CO2} \big]
 \end{equation*}
-Differently for a reaction involving aqueous solutions, for example:
+Differently, for a reaction involving aqueous solutions, for example:
 \\\ce{HCl_{(Aq)} <=> H^+_{(Aq)} + Cl^-_{(Aq)}}\hfill $K_{c}=\frac{[\ce{H^+}]\cdot [\ce{Cl^-}]}{[\ce{HCl}]}$\\
-Overall, remember that in the expression of $K_c$, you can only include gases (g) or aqueous solutions (aq) as you can ignore solids and liquids without a well-defined concentration.
+Overall, the expression of $K_c$ can only include gases (g) or aqueous solutions (aq), leaving solids and liquids out.

@@ -1,0 +1,33 @@
+This section explains how to carry out a linear regression--displaying the correlation coefficient $r^2$ parameter--first using a Casio calculator and then using a Texas calculator and the GraphPad webApp.
+
+\mytriangle{red} You need to follow the following steps to carry out a linear regression in a Casio fx 9750GII:
+\begin{solutionbox} 
+\begin{center}\begin{bf} Linear Regresion using Casio fx 9750GII  \end{bf} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf}   Enter the data: start the calculator and press menu+2 (stat) to access the list menu. You will follow all the steps on this menu. Type the X values in List 1 and Y in List 2. 
+ \item \begin{bf}Step two:\end{bf} Press Calc (F2) on the bottom menu of the screen, then press Reg (F3) to press $X$ (F1) and then $ax+b$ (F1).
+\item \begin{bf}Step three:\end{bf} At this point, you will have all the results from the regression on the screen.
+\end{enumerate}
+\end{solutionbox} 
+
+\mytriangle{red} You need to follow the following steps to carry out a linear regression in a TI 84:
+\begin{solutionbox} 
+\begin{center}\begin{bf} Linear Regresion using Texas TI 84  \end{bf} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} Enter the data: press Stat and Enter. Type the X values in List 1 and Y in List 2.  
+ \item \begin{bf}Step two:\end{bf} Press Second and Zero to access the catalog. Now, go down the menu until you find DiagnosticOn and select it.
+ \item \begin{bf}Step three:\end{bf} Now carry out the regression by pressing Stat and Calc. Now go down on the menu until you find $ax+b$ and press it.
+\item \begin{bf}Step four:\end{bf} At this point, you will have all the results from the regression on the screen.
+\end{enumerate}
+\end{solutionbox} 
+
+\mytriangle{red} You need to follow the following steps to carry out a linear regression using the webApp GraphPad:
+\begin{solutionbox} 
+\begin{center}\begin{bf} Linear Regresion using GraphPad  \end{bf} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} Go to \href{https://www.graphpad.com/quickcalcs/linear1/}{www.graphpad.com/quickcalcs/linear1} 
+ \item \begin{bf}Step two:\end{bf} Enter the data into the table and click on \emph{Calculate Now} to obtain the results
+ \item \begin{bf}Step three:\end{bf} You will find the slope listed and the $r^2$ listed under the Goodness of fit section
+\item \begin{bf}Step four:\end{bf} the error in the slope is also listed
+\end{enumerate}
+\end{solutionbox} 
