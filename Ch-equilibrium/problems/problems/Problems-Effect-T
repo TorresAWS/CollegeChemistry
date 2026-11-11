@@ -50,7 +50,7 @@ In a set of experiments, we measure different $K_p$ values at different temperat
             x label style={at={(axis description cs:0.9,0.45)},anchor=north},
     y label style={at={(axis description cs:0.5,.9)},rotate=90,anchor=south},
         ]
-            \addplot [thick,draw=blue!75!black]{-4*x+1};
+            \addplot [thick,draw=blue!75!black]{4*x+1};
                                 \addlegendentry[shift={(0,0em)}]{y=895x+0.4 $r^2$=0.99  };
                          \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{4*x+1};
                 \end{axis}

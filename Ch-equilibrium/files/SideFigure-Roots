@@ -1,4 +1,4 @@
-\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+\begin{marginfigure}[-29cm]%%%%%%%% MARGIN FIGURE
  
 \begin{tikzpicture}
 \node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/root}};
@@ -12,16 +12,18 @@ In the 9th century, Arab writers usually called one of the equal factors of a nu
    \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-0cm) {\mytriangleup{red}
 Ice and water are in equilibrium in an iceberg};
 \end{tikzpicture}
+
+
 \begin{tikzpicture}
 \node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/equilibrium}};
    \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-0cm) {\mytriangleup{red}
 The term equilibrium in chemistry is borrowed from physics
 };
 \end{tikzpicture}
-\begin{tikzpicture}
-\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/ammoniafactory}};
-   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-0cm) {\mytriangleup{red}
-Ammonia synthesis via the Haber-Bosch process is one of the most transformative breakthroughs in the history of chemistry
-};
-\end{tikzpicture}
+%\begin{tikzpicture}
+%\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/ammoniafactory}};
+%   \node[text width=5cm, shift={(-0cm,-2cm)}] at (-0cm,-0cm) {\mytriangleup{red}
+%Ammonia synthesis via the Haber-Bosch process is one of the most transformative breakthroughs in the history of chemistry
+%};
+%\end{tikzpicture}
 \end{marginfigure}%%%%%%% MARGIN FIGURE

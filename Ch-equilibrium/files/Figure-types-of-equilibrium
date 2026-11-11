@@ -1,0 +1,54 @@
+
+
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:Figure-Different-eq}
+\hspace{-5cm}\vspace{0.0cm}
+\begin{minipage}[b]{1.2\linewidth}
+\begin{center}
+\resizebox{1.3\textwidth}{!}{
+\begin{tikzpicture}
+  [    
+    start chain=p going below,
+    every on chain/.append style={etape,minimum width=7cm, align=left, text width=7cm]},
+    every join/.append style={line},
+    node distance=1 and .85,
+  ]
+  {
+    \node  (a) [on chain, join] {\centering \Large Chemical   Equilibrium
+    \\ \centering  \ce{A_{(Aq)}  <=> B_{(Aq)}}
+    };
+    {[start branch=l going below left] \node (b) [on chain] {    
+    \begin{varwidth}{5cm}\centering \Large Acid-base \\\centering \ce{HAc_{(Aq)}  <=> H^{+}_{(Aq)}  + Ac^{-}_{(Aq)} }  \end{varwidth} 
+    };}
+    {[start branch=r going below right] \node (c) [on chain] {    \begin{varwidth}{7cm} \centering\Large  Complex Ion formation \\ \centering\ce{Ag^+_{(Aq)} + 2NH3_{(Aq)} <=> [Ag(NH_3)2]^{+}_{(Aq)}    }  \end{varwidth}       }; }
+      {[start branch=c going below ] \node (d) [on chain] {\centering\Large Solubility\\ \centering\ce{AgCl_{(s)} <=> Ag^{+}_{(Aq)} + Cl^{-}_{(Aq)}   } }; }
+
+
+\path [line] (a.south) -- ([yshift=-.5cm]a.south) --  ([yshift=.5cm]b.north) --  (b.north); 
+\path [line]  		  ([yshift=-.5cm]a.south) --  ([yshift=.5cm]c.north) --  (c.north); 
+\path [line]  		  ([yshift=-.5cm]a.south)  --  (d.north); 
+
+    \node [on chain]   (g)  at ([xshift=-5.5cm, yshift=+1.7cm]a.west)  {\centering \Large Physical   Equilibrium
+      \\ \centering  \ce{A_{(l)}  <=> B_{(s)}}
+    
+    };
+
+
+ \node (e) at ([yshift=-2.5cm]b.south) {\includegraphics[width=5cm]{../\chapterlabel/lemon}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Flirk} ; \node[text width=3cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){lemon};
+
+ \node (e) at ([yshift=-2.5cm]c.south) {\includegraphics[width=5cm]{../\chapterlabel/chelating}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]e.south east) {\textsuperscript{\textcopyright} Wallpaperflare} ; \node[text width=4cm,font=\small] at ([yshift=-.5cm, xshift=.4cm]e.south){Chelating agents};
+  \node (f) at ([yshift=-2.6cm]d.south) {\includegraphics[width=5cm, height=2.9cm]{../\chapterlabel/kidnet}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]f.south east) {\textsuperscript{\textcopyright} Flickr} ; \node[text width=3cm,font=\small] at ([yshift=-.2cm, xshift=.4cm]f.south){A kidney stone};
+% 
+
+  }
+\end{tikzpicture}
+}
+\begin{tikzpicture}
+ \node[text width=12cm, fontscale=.3,shift={(-0em,2em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:Figure-Different-eq} \end{bf} Different types of chemical equilibriums. };
+\end{tikzpicture}
+
+\end{center}
+\end{minipage}
+
+ 
+Chemical equilibrium is broadly classified based on phase composition, the nature of the substances involved, and the extent to which the reaction proceeds. Figure  \ref{Fig:Figure-Different-eq} displays different types of equilibriums.

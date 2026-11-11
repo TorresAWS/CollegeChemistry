@@ -16,10 +16,12 @@ Now we will obtain the polynomial and solve for the extent. Using the expression
 \[ K_c=\frac{  [\ce{C}] \cdot  [\ce{D}] }{[\ce{A}] \cdot [\ce{B}]} =\frac{(c_c+x)\cdot (c_d+x)}{(c_a-x)\cdot (c_b-x)}  = \frac{x^2+(c_c+c_d)x+(c_c\cdot c_d)}{x^2-(c_a+c_b)x+(c_a\cdot c_b)  }  \]
 Now, rearranging we have a general expression for the polynomial associated to the equilibrium:
 \begin{equation} 
- \boxed{    \bigg[1-K_c\bigg]x^2 + \bigg[K_c\cdot (c_a+ c_b) +(c_c  +c_d)\bigg]x + \bigg[c_c\cdot c_d - K_c\cdot c_a\cdot c_b\bigg]  =0 }
+ \boxed{    \bigg[1-K_c\bigg]x^2 \pm \bigg[K_c\cdot (c_a+ c_b) +(c_c  +c_d)\bigg]x + \bigg[c_c\cdot c_d - K_c\cdot c_a\cdot c_b\bigg]  =0 }
 \label{\chapterlabel:equationPx-1}
 \end{equation}
+where the $\pm$ sign takes into account the scenario in which the reaction proceeds from left to right (negative sign, when $Q > K$) or from right to left (positive sign, when $Q < K$). 
 
+ .
 
 The second equilibrium we will address involves the reaction \ce{A + B -> 2C }. The following ICE chart represents the equilibrium between four chemical scpecies: A, B, and C.
 %%%%%%ICE CHART
@@ -35,10 +37,10 @@ Now we will obtain the polynomial and solve for the extent. Using the expression
 \[ K_c=\frac{  [\ce{C}]^2  }{[\ce{A}] \cdot [\ce{B}]} =\frac{(c_c+2x)^2}{(c_a-x)\cdot (c_b-x)}  = \frac{4x^2+(4\cdot c_c)x+c_c^2}{x^2-(c_a+c_b)x+(c_a\cdot c_b)  }  \]
 Now, rearranging we have a general expression for the polynomial associated to the equilibrium:
 \begin{equation} 
-\boxed{    \bigg[4-K_c\bigg]x^2 + \bigg[K_c\cdot (c_a+ c_b) +4c_c \bigg]x + \bigg[c_c^2 - K_c\cdot c_a\cdot c_b\bigg]  =0 }
+\boxed{    \bigg[4-K_c\bigg]x^2 +\pm \bigg[K_c\cdot (c_a+ c_b) +4c_c \bigg]x + \bigg[c_c^2 - K_c\cdot c_a\cdot c_b\bigg]  =0 }
 \label{\chapterlabel:equationPx-2}
 \end{equation}
-We can now put to use these general expressions for P(x) by addressing the following equilibrium, given that K$_c$ is 5.1 at 700K
+Again, the $\pm$ sign takes into account the scenario in which the reaction proceeds from left to right (negative sign) or from right to left (positive sign). We can now put to use these general expressions for P(x) by addressing the following equilibrium, given that K$_c$ is 5.1 at 700K
 %%%%%%ICE CHART
 \newcolumntype{J}{>{\small\raggedright\arraybackslash}X}
 \begin{tcolorbox}[tab1,tabularx={J|Y YY Y Y   Y  Y   }]
