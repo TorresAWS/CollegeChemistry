@@ -28,7 +28,7 @@ Answer the following questions:
 \end{question}
 \begin{solution}
 \begin{inparaenum}[(a)]
-\item   12 
+\item   11 
 \item   1 
  \end{inparaenum}
 \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
@@ -83,15 +83,15 @@ Fill the table below:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
 %TAG= 121
-Fill the table below:
+Fill the table below. Do not fill the cells marked with xx-.
 \begin{center}\begin{tabularx}{0.9\columnwidth}{>{ \arraybackslash}p{5em}>{ \arraybackslash}p{5em}>{\centering\arraybackslash}p{2em}>{\centering\arraybackslash}p{2em}  }
   \toprule
 \heading{$\big[ \ce{H^+} \big]$} & \heading{$\big[ \ce{OH^-} \big]$}  &  \heading{PH} & \heading{POH}     \\
     \midrule
-	 { \small $4.5\times 10^{-3}$}	&  	&	-- 	&	--       \\
-	 	& { \small $3.2\times 10^{-7}$}		&	-- 	&	--      \\
-	  	--&  	--	&	{ \small 5.1}	&	        \\
-	  	--&  	--	&		&	{ \small 6.9}       \\
+	 { \small $4.5\times 10^{-3}$}	&  	&	-xx- 	&	-xx-       \\
+	 	& { \small $3.2\times 10^{-7}$}		&	-xx- 	&	-xx-      \\
+	  	-xx-&  	-xx-	&	{ \small 5.1}	&	        \\
+	  	-xx-&  	-xx-	&		&	{ \small 6.9}       \\
     \bottomrule
 \end{tabularx}\end{center}
 \end{question}
@@ -109,13 +109,13 @@ Fill the table below:
 \begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
 %TAG= 202
 %TAG= 121
-Fill the table below:
+Fill the table below. Do not fill the cells marked with -xx-.
 \begin{center}\begin{tabularx}{0.9\columnwidth}{>{ \arraybackslash}p{5em}>{ \arraybackslash}p{5em}>{\centering\arraybackslash}p{2em}>{\centering\arraybackslash}p{2em}  }
   \toprule
 \heading{$\big[ \ce{H^+} \big]$} & \heading{$\big[ \ce{OH^-} \big]$}  &  \heading{PH} & \heading{POH}     \\
     \midrule
- { \small $3.5\times 10^{-1}$}	& --		&	 -- 	&   --	     \\
-	 --	& --	&	--	&	{ \small 2}       \\
+ { \small $3.5\times 10^{-1}$}	& -xx-		&	 -xx- 	&   -xx-	     \\
+	 -xx-	& -xx-	&	-xx-	&	{ \small 2}       \\
 
     \bottomrule
 \end{tabularx}\end{center}
