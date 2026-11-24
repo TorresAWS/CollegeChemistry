@@ -48,5 +48,8 @@ based on the ICE chart
 \node[draw=red, inner sep=0pt, rounded corners=3pt, line width=2pt,
 fit=(tab.north west) (tab.north east) (tab.south east) (tab.south west)] {};
 \end{tikzpicture}\end{center}  
+\begin{flushright} \mytriangleright{dgreen}\small  Answer:
+$0.978M$;  $0.934M$; $0.044M$
+\end{flushright} 
 \import{./}{StudyCheck8}
 \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
